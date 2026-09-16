@@ -1,0 +1,1117 @@
+CAMMENU_0EV,0EV
+CAMMENU_100,100
+CAMMENU_10M,1.0 m
+CAMMENU_1600,1600
+CAMMENU_200,200
+CAMMENU_30M,3.0 m
+CAMMENU_3200,3200
+CAMMENU_400,400
+CAMMENU_70M,7.0 m
+CAMMENU_80,80
+CAMMENU_800,800
+CAMMENU_BRK_03EV,BRK±0,3EV
+CAMMENU_BRK_07EV,BRK±0,7EV
+CAMMENU_BRK_10EV,BRK±1,0EV
+CAMMENU_BURST,Burst
+CAMMENU_BURST_BRK03EV_GUIDE,Fotografar 3 imagens a
+CAMMENU_BURST_BRK03EV_GUIDE_2,0,3 EV de intervalo
+CAMMENU_BURST_BRK07EV_GUIDE,Fotografar 3 imagens a
+CAMMENU_BURST_BRK07EV_GUIDE_2,0,7 EV de intervalo
+CAMMENU_BURST_BRK10EV_GUIDE,Fotografar 3 imagens a
+CAMMENU_BURST_BRK10EV_GUIDE_2,1,0 EV de intervalo
+CAMMENU_BURST_OFF_GUIDE,Fotografar uma vez ao premir
+CAMMENU_BURST_OFF_GUIDE_2,o botão do obturador
+CAMMENU_BURST_ON_GUIDE,Fotografar continuamente e
+CAMMENU_BURST_ON_GUIDE_2,segurar o botão obturador
+CAMMENU_CENTER,Centro
+CAMMENU_CENTERAF,Centro AF
+CAMMENU_CLOSEEYE,Redução Olhos Fechados
+CAMMENU_CLOSEEYE_AUTO_GUIDE,Analisa olhos para evitar
+CAMMENU_CLOSEEYE_AUTO_GUIDE_2,os olhos fechados
+CAMMENU_CLOSEEYE_OFF_GUIDE,Desligar Redução dos Olhos
+CAMMENU_CLOSEEYE_OFF_GUIDE_2,Fechados
+CAMMENU_COLOR,Modo de Cor
+CAMMENU_COLOR_BW,P&B
+CAMMENU_COLOR_BW_GUIDE,Faz imag a preto e branco
+CAMMENU_COLOR_BW_GUIDE_2,
+CAMMENU_COLOR_NORMAL_GUIDE,Fotografar em modo de cor
+CAMMENU_COLOR_NORMAL_GUIDE_2,standard
+CAMMENU_COLOR_SEPIA,Sepia
+CAMMENU_COLOR_SEPIA_GUIDE,Simula cores de fotos antig
+CAMMENU_COLOR_SEPIA_GUIDE_2,
+CAMMENU_COLOR_VIVID,Viva
+CAMMENU_COLOR_VIVID_GUIDE,Definir a imag para cor
+CAMMENU_COLOR_VIVID_GUIDE_2,profunda e viva
+CAMMENU_CONTINUOUS,Contínuo
+CAMMENU_DRO,DRO
+CAMMENU_DRO_ADV,Avançado
+CAMMENU_DRO_ADV_GUIDE,Recuperar detalhe de
+CAMMENU_DRO_ADV_GUIDE_2,sombra sem perder realces
+CAMMENU_DRO_OFF_GUIDE,Sem recuperação do detalhe
+CAMMENU_DRO_OFF_GUIDE_2,de sombra
+CAMMENU_DRO_PLUS,DRO plus
+CAMMENU_DRO_STANDARD_GUIDE,Recupera detalhe da imagem
+CAMMENU_DRO_STANDARD_GUIDE_2,perdido na área de sombra
+CAMMENU_DRO_STD,DRO standard
+CAMMENU_EV,EV
+CAMMENU_EV2,EV
+CAMMENU_EV_GUIDE,Ajustar brilho da imagem (+)
+CAMMENU_EV_GUIDE2,Ajustar brilho da imagem (+)
+CAMMENU_EV_GUIDE2_2,e escuridão (－)
+CAMMENU_EV_GUIDE_2,e escuridão (－)
+CAMMENU_FACE,Detecção de Cara
+CAMMENU_FACE_ADULT,Prioridade de Adulto
+CAMMENU_FACE_ADULT_GUIDE,Foca com prioridade em
+CAMMENU_FACE_ADULT_GUIDE_2,caras de adultos
+CAMMENU_FACE_CHILD,Prioridade de Criança
+CAMMENU_FACE_CHILD_GUIDE,Foca com prioridade em
+CAMMENU_FACE_CHILD_GUIDE_2,caras de crianças
+CAMMENU_FACE_ON_GUIDE,Definir prioridade para focar
+CAMMENU_FACE_ON_GUIDE_2,as caras das pessoas
+CAMMENU_FACE_TOUCH_GUIDE,Activar detecção de cara
+CAMMENU_FACE_TOUCH_GUIDE_2,só quando uma cara é tocada
+CAMMENU_FLASHLEVEL,Nív. flash
+CAMMENU_FLASHLEVEL_DOWN_GUIDE,Fotografar com baixa
+CAMMENU_FLASHLEVEL_DOWN_GUIDE_2,intensidade de flash
+CAMMENU_FLASHLEVEL_NORMAL_GUIDE,Fotografar com intensidade
+CAMMENU_FLASHLEVEL_NORMAL_GUIDE_2,de flash normal
+CAMMENU_FLASHLEVEL_UP_GUIDE,Fotografar com alta
+CAMMENU_FLASHLEVEL_UP_GUIDE_2,intensidade de flash
+CAMMENU_FLASH_SYNCHRO,Sinc. lenta
+CAMMENU_FOCUS,Foco
+CAMMENU_FOUCS_10M_GUIDE,Definir o foco
+CAMMENU_FOUCS_10M_GUIDE_2,aprox. 1,0 m de distância
+CAMMENU_FOUCS_30M_GUIDE,Definir o foco
+CAMMENU_FOUCS_30M_GUIDE_2,aprox. 3,0 m de distância
+CAMMENU_FOUCS_70M_GUIDE,Definir o foco
+CAMMENU_FOUCS_70M_GUIDE_2,aprox. 7,0 m de distância
+CAMMENU_FOUCS_CENTER_GUIDE,Foco automático
+CAMMENU_FOUCS_CENTER_GUIDE_2,num motivo no centro
+CAMMENU_FOUCS_INFINITY_GUIDE,Definir o foco a
+CAMMENU_FOUCS_INFINITY_GUIDE_2,uma distância ilimitada
+CAMMENU_FOUCS_MANUAL_GUIDE,Definir manualmente o foco
+CAMMENU_FOUCS_MANUAL_GUIDE_2,
+CAMMENU_FOUCS_MULTI_GUIDE,Foco automático
+CAMMENU_FOUCS_MULTI_GUIDE_2,por todo o fotograma
+CAMMENU_FOUCS_SPOT_GUIDE,Foco auto num ponto central
+CAMMENU_FOUCS_SPOT_GUIDE_2,
+CAMMENU_FOUCS_TSPOT_GUIDE,Foco automático tocando
+CAMMENU_FOUCS_TSPOT_GUIDE_2,em qualquer ponto do ecrã
+CAMMENU_IMAGESIZE,Tam imagem
+CAMMENU_IMAGESIZE_L,Grande
+CAMMENU_IMAGESIZE_S,Pequeno
+CAMMENU_INFINITY,∞
+CAMMENU_ISO,ISO
+CAMMENU_ISO_100_GUIDE,Definir a sensib em
+CAMMENU_ISO_100_GUIDE_2,ISO 100
+CAMMENU_ISO_1600_GUIDE,Definir a sensib em
+CAMMENU_ISO_1600_GUIDE_2,ISO 1600
+CAMMENU_ISO_200_GUIDE,Definir a sensib em
+CAMMENU_ISO_200_GUIDE_2,ISO 200
+CAMMENU_ISO_3200_GUIDE,Definir a sensib em
+CAMMENU_ISO_3200_GUIDE_2,ISO 3200
+CAMMENU_ISO_400_GUIDE,Definir a sensib em
+CAMMENU_ISO_400_GUIDE_2,ISO 400
+CAMMENU_ISO_64_GUIDE,Definir a sensib em
+CAMMENU_ISO_64_GUIDE_2,ISO 64
+CAMMENU_ISO_800_GUIDE,Definir a sensib em
+CAMMENU_ISO_800_GUIDE_2,ISO 800
+CAMMENU_ISO_80_GUIDE,Definir a sensib em
+CAMMENU_ISO_80_GUIDE_2,ISO 80
+CAMMENU_ISO_AUTO_GUIDE,Sensibilidade de ajuste auto
+CAMMENU_ISO_AUTO_GUIDE_2,
+CAMMENU_M03EV,-0.3EV
+CAMMENU_M07EV,-0.7EV
+CAMMENU_M10EV,-1.0EV
+CAMMENU_M13EV,-1.3EV
+CAMMENU_M17EV,-1.7EV
+CAMMENU_M20EV,-2.0EV
+CAMMENU_MACRO,Macro
+CAMMENU_MENU,Menu
+CAMMENU_METERINGMODE,Modo de medição
+CAMMENU_METERING_CENTER_GUIDE,Exposição baseada em
+CAMMENU_METERING_CENTER_GUIDE_2,brilho central
+CAMMENU_METERING_MULTI_GUIDE,Exposição balanceada
+CAMMENU_METERING_MULTI_GUIDE_2,por todo o fotograma
+CAMMENU_METERING_SPOT_GUIDE,Exposição baseada em
+CAMMENU_METERING_SPOT_GUIDE_2,brilho de um ponto central
+CAMMENU_MINUS,－
+CAMMENU_MULTI,Multi
+CAMMENU_MULTIAF,Multi AF
+CAMMENU_NORMAL_CAP,Normal
+CAMMENU_P03EV,+0.3EV
+CAMMENU_P07EV,+0.7EV
+CAMMENU_P10EV,+1.0EV
+CAMMENU_P13EV,+1.3EV
+CAMMENU_P17EV,+1.7EV
+CAMMENU_P20EV,+2.0EV
+CAMMENU_PLUS,＋
+CAMMENU_RECMODE,Modo GRAV
+CAMMENU_RECOGNITION,Reconhecimento de cena
+CAMMENU_RECOGNITION_ADV_GUIDE,Tira automat mais uma foto
+CAMMENU_RECOGNITION_ADV_GUIDE2,Tira automat mais uma foto
+CAMMENU_RECOGNITION_ADV_GUIDE2_2,em crepúsculo ou luz fundo
+CAMMENU_RECOGNITION_ADV_GUIDE_2,em crepúsculo ou luz fundo
+CAMMENU_RECOGNITION_AUTO2_GUIDE,Fotografa com definiç ideais
+CAMMENU_RECOGNITION_AUTO2_GUIDE_2,para a cena
+CAMMENU_RECOGNITION_AUTO_GUIDE,Fotografa com definiç ideais
+CAMMENU_RECOGNITION_AUTO_GUIDE_2,em crepúsculo ou luz fundo
+CAMMENU_RECOGNITION_OFF_GUIDE,Desligar reconhec de cena
+CAMMENU_RECOGNITION_OFF_GUIDE_2,
+CAMMENU_REDEYEREDUCTION,Redução olhos verm
+CAMMENU_REDEYE_FACE_GUIDE,Redução auto dos olho verm
+CAMMENU_REDEYE_FACE_GUIDE_2,quando se detectarem caras
+CAMMENU_REDEYE_OFF_GUIDE,Redução olhos verm deslig
+CAMMENU_REDEYE_OFF_GUIDE_2,
+CAMMENU_REDEYE_ON_GUIDE,Pré-flash p/ reduz olho verm
+CAMMENU_REDEYE_ON_GUIDE_2,quando usar o flash
+CAMMENU_REMAIN_NUMBER,Cap Imagem Aprox.
+CAMMENU_REMAIN_TIME,Tempo restante aprox
+CAMMENU_SATURATION_DOWN_GUIDE,Fotografar imagens com
+CAMMENU_SATURATION_DOWN_GUIDE_2,menor saturação de cor
+CAMMENU_SATURATION_NORMAL_GUIDE,Regular a saturação de cor
+CAMMENU_SATURATION_NORMAL_GUIDE_2,para Normal
+CAMMENU_SATURATION_UP_GUIDE,Fotografar imagens com
+CAMMENU_SATURATION_UP_GUIDE_2,maior saturação de cor
+CAMMENU_SELFTIMER,Temp. Auto
+CAMMENU_SELFTIMER_10SEC,Temp. Auto 10seg
+CAMMENU_SELFTIMER_2SEC,Temp. Auto 2seg
+CAMMENU_SELFTIMER_OFF,Temp. Auto Desligado
+CAMMENU_SETUP,Regulação
+CAMMENU_SETUP_CHANGE_GUIDE,Ir para Definições de Filmar
+CAMMENU_SETUP_CHANGE_GUIDE_2,Visor
+CAMMENU_SHOOTING,Filmar
+CAMMENU_SIZE_10MEG,10M
+CAMMENU_SIZE_12M_GUIDE,Em impressões até A3+
+CAMMENU_SIZE_12M_GUIDE_2,
+CAMMENU_SIZE_16_9,16:9
+CAMMENU_SIZE_16_9_2MEG_GUIDE,Para ver em HDTVs
+CAMMENU_SIZE_16_9_2MEG_GUIDE_2,
+CAMMENU_SIZE_16_9_A3_GUIDE,Para ver em HDTVs e
+CAMMENU_SIZE_16_9_A3_GUIDE_2,imprimir até A3
+CAMMENU_SIZE_16_9_A4_GUIDE,Para ver em HDTVs e
+CAMMENU_SIZE_16_9_A4_GUIDE_2,imprimir até A4
+CAMMENU_SIZE_16_9_GUIDE,Fotografar no modo HDTV
+CAMMENU_SIZE_16_9_GUIDE_2,
+CAMMENU_SIZE_320,320
+CAMMENU_SIZE_320_GUIDE,Foto em taman pequeno
+CAMMENU_SIZE_320_GUIDE_2,para anexo de e-mail
+CAMMENU_SIZE_3MEG,3M
+CAMMENU_SIZE_3M_GUIDE,Em impressões até 10x15cm
+CAMMENU_SIZE_3M_GUIDE_2,ou 13x18cm
+CAMMENU_SIZE_3_2_8MEG,3:2(8M)
+CAMMENU_SIZE_3_2_GUIDE,Fotografar no modo 3:2
+CAMMENU_SIZE_3_2_GUIDE_2,
+CAMMENU_SIZE_4_3,4:3
+CAMMENU_SIZE_5MEG,5M
+CAMMENU_SIZE_5M_GUIDE,Em impressões até A4
+CAMMENU_SIZE_5M_GUIDE_2,
+CAMMENU_SIZE_640FINE,640(Qualid. )
+CAMMENU_SIZE_640FINE_GUIDE,Captar filme alta qualidade
+CAMMENU_SIZE_640FINE_GUIDE_2,para visualizar na TV
+CAMMENU_SIZE_640STD,640(Normal)
+CAMMENU_SIZE_640STD_GUIDE,Captar filme de qualid padrão
+CAMMENU_SIZE_640STD_GUIDE_2,para visualizar na TV
+CAMMENU_SIZE_8M_GUIDE,Em impressões até A3
+CAMMENU_SIZE_8M_GUIDE_2,
+CAMMENU_SIZE_HD_2MEG,16:9(2M)
+CAMMENU_SIZE_HD_7MEG,16:9(7M)
+CAMMENU_SIZE_HD_VGA,16:9(VGA)
+CAMMENU_SIZE_VGA,VGA
+CAMMENU_SIZE_VGA_GUIDE,Foto taman de img pequen
+CAMMENU_SIZE_VGA_GUIDE_2,para anexo de e-mail
+CAMMENU_SMILE,Detecção de sorriso
+CAMMENU_SMILESHUTTER_HIGH_GUIDE,Foto com alta sensibilidade
+CAMMENU_SMILESHUTTER_HIGH_GUIDE_2,de detecção de sorriso
+CAMMENU_SMILESHUTTER_LOW_GUIDE,Foto com baixa sensibilidade
+CAMMENU_SMILESHUTTER_LOW_GUIDE_2,de detecção de sorriso
+CAMMENU_SMILESHUTTER_NORMAL_GUIDE,Foto c/ sensibilidade normal
+CAMMENU_SMILESHUTTER_NORMAL_GUIDE_2,de detecção de sorriso
+CAMMENU_SMILE_DETECTION,Sensib detecção sorriso
+CAMMENU_SPOT,Ponto
+CAMMENU_SPOTAF,Ponto AF
+CAMMENU_STEADYSHOT,SteadyShot
+CAMMENU_STEADYSHOT_CONT_GUIDE,SteadyShot sempre ligada
+CAMMENU_STEADYSHOT_CONT_GUIDE_2,
+CAMMENU_STEADYSHOT_OFF_GUIDE,SteadyShot desligada
+CAMMENU_STEADYSHOT_OFF_GUIDE_2,
+CAMMENU_STEADYSHOT_SHOOT_GUIDE,SteadyShot ligada qd o botão
+CAMMENU_STEADYSHOT_SHOOT_GUIDE_2,obtur for premido até meio
+CAMMENU_TOUCH,Quando tocada
+CAMMENU_WATERWB,Equil. br. Subaquático
+CAMMENU_WATERWB_AUTO_GUIDE,Ajustar auto equil. br.
+CAMMENU_WATERWB_AUTO_GUIDE_2,para filmar debaixo de água
+CAMMENU_WATERWB_FLASH_GUIDE,Usar quando fotografa
+CAMMENU_WATERWB_FLASH_GUIDE_2,debaixo de água usando flash
+CAMMENU_WATERWB_WATER1,Subaquático 1
+CAMMENU_WATERWB_WATER1_GUIDE,Usar quando filma
+CAMMENU_WATERWB_WATER1_GUIDE_2,em água azul
+CAMMENU_WATERWB_WATER2,Subaquático 2
+CAMMENU_WATERWB_WATER2_GUIDE,Usar quando fotografa
+CAMMENU_WATERWB_WATER2_GUIDE_2,em água verde
+CAMMENU_WB2,Equil. br.
+CAMMENU_WB_AUTO_GUIDE,Ajuste auto p/ cor naturais
+CAMMENU_WB_AUTO_GUIDE_2,
+CAMMENU_WB_CLOUDY,Nebuloso
+CAMMENU_WB_CLOUDY_GUIDE,Usar em dias nublados ou
+CAMMENU_WB_CLOUDY_GUIDE_2,na sombra
+CAMMENU_WB_DAYLIGHT,Luz do dia
+CAMMENU_WB_DAYLIGHT_GUIDE,Usar em cenas exteriores
+CAMMENU_WB_DAYLIGHT_GUIDE_2,ao sol ou cenas nocturnas
+CAMMENU_WB_FLASH,Flash
+CAMMENU_WB_FLASH_GUIDE,Usar quando fotografar
+CAMMENU_WB_FLASH_GUIDE_2,com flash
+CAMMENU_WB_FLUORESCENT1,Luz Fluorescente 1
+CAMMENU_WB_FLUORESCENT1_GUIDE,Usar sob luz fluorescente
+CAMMENU_WB_FLUORESCENT1_GUIDE_2,branca
+CAMMENU_WB_FLUORESCENT2,Luz Fluorescente 2
+CAMMENU_WB_FLUORESCENT2_GUIDE,Usar sob luz fluorescente
+CAMMENU_WB_FLUORESCENT2_GUIDE_2,branca natural
+CAMMENU_WB_FLUORESCENT3,Luz Fluorescente 3
+CAMMENU_WB_FLUORESCENT3_GUIDE,Usar sob luz fluorescente
+CAMMENU_WB_FLUORESCENT3_GUIDE_2,branca diurna
+CAMMENU_WB_INCANDESCENT,Incandescente
+CAMMENU_WB_INCANDESCENT_GUIDE,Usar sob luz incandescente
+CAMMENU_WB_INCANDESCENT_GUIDE_2,ou luzes de vídeo
+CAMMODE_AUTO,Ajustam. Automático
+CAMMODE_AUTO_GUIDE,Para fotografar com
+CAMMODE_AUTO_GUIDE_2,definições auto
+CAMMODE_BEACH,Praia
+CAMMODE_BEACH_GUIDE,Fotografa cena de praia
+CAMMODE_BEACH_GUIDE_2,com cor azul forte
+CAMMODE_COOKING,Gourmet
+CAMMODE_COOKING_GUIDE,Foto natural da comida
+CAMMODE_COOKING_GUIDE_2,
+CAMMODE_EASY,Foto fácil
+CAMMODE_EASY_GUIDE,Foto totalmente automática
+CAMMODE_EASY_GUIDE_2,com visual simplificada
+CAMMODE_FIREWORKS,Fogo artifício
+CAMMODE_FIREWORKS_GUIDE,Fotografa fogo artificio
+CAMMODE_FIREWORKS_GUIDE_2,em todo o esplendor
+CAMMODE_HIGHSENSITIVITY,Alta Sensibilid
+CAMMODE_HIGHSENSITIVITY_GUIDE,Fotog. sem flash em baixa
+CAMMODE_HIGHSENSITIVITY_GUIDE_2,luminosidade reduzindo desf
+CAMMODE_HIGHSPEEDSHUTTER,Obtu. alta vel.
+CAMMODE_HIGHSPEEDSHUTTER_GUIDE,Fotografa motivo em mov.
+CAMMODE_HIGHSPEEDSHUTTER_GUIDE_2,para parar acção
+CAMMODE_LANDSCAPE,Paisagem
+CAMMODE_LANDSCAPE_GUIDE,Fotografa paisagens
+CAMMODE_LANDSCAPE_GUIDE_2,com foco distante
+CAMMODE_MOVIE,Modo de Filme
+CAMMODE_MOVIE_GUIDE,Grava filme com som
+CAMMODE_MOVIE_GUIDE_2,
+CAMMODE_PAUTO,Programa Automático
+CAMMODE_PAUTO_GUIDE,Exposição auto com
+CAMMODE_PAUTO_GUIDE_2,definições ajustáveis
+CAMMODE_SNOW,Neve
+CAMMODE_SNOW_GUIDE,Fotografa nitidamente
+CAMMODE_SNOW_GUIDE_2,cena esbranquiçada
+CAMMODE_SOFTSNAP,Foto suave
+CAMMODE_SOFTSNAP_GUIDE,Fotografa motivo com
+CAMMODE_SOFTSNAP_GUIDE_2,fundo suave
+CAMMODE_TWILIGHT,Crepúsculo
+CAMMODE_TWILIGHTPORTRAIT,Retr. crepúsculo
+CAMMODE_TWILIGHTPORTRAIT_GUIDE,Fotografa retratos em
+CAMMODE_TWILIGHTPORTRAIT_GUIDE_2,pouca luz com flash
+CAMMODE_TWILIGHTTRIPOD_GUIDE,Fotografa cena de pouca luz
+CAMMODE_TWILIGHTTRIPOD_GUIDE_2,usando um tripé
+CAMMODE_WATER,Subaquático
+CAMMODE_WATER_GUIDE,Foto debaixo de água em
+CAMMODE_WATER_GUIDE_2,cores naturais com Caixa
+CLOCKMENU_APR,ABR
+CLOCKMENU_AUG,AGO
+CLOCKMENU_DEC,DEZ
+CLOCKMENU_DMY,D-M-A
+CLOCKMENU_FEB,FEV
+CLOCKMENU_JAN,JAN
+CLOCKMENU_JUL,JUL
+CLOCKMENU_JUN,JUN
+CLOCKMENU_MAR,MAR
+CLOCKMENU_MAY,MAI
+CLOCKMENU_MDY,M-D-A
+CLOCKMENU_NOV,NOV
+CLOCKMENU_OCT,OUT
+CLOCKMENU_SEP,SET
+CLOCKMENU_UNKNOWN,---
+CLOCKMENU_YMD,A-M-D
+COM_AUTO,Auto
+COM_BACK,Atrás
+COM_CANCEL,Cancelar
+COM_CLEAR,Remover
+COM_CLEARALL,Limpar tudo
+COM_CONTINUE,Continuar
+COM_CREATED,Criado
+COM_ENTRY,Adicionar
+COM_EXIT,Sair
+COM_FAST,Rápida
+COM_HIGH,Alto
+COM_INTERNALMEMORY,Memória interna
+COM_LOW,Baixo
+COM_MED,Médio
+COM_MIN,min
+COM_MOVIEREC,GRAV
+COM_MOVIESTBY,Espera
+COM_MS,Memory Stick
+COM_MS_AND_INTERNALMEMORY,Memory Stick ＋ Memória Interna
+COM_NOOFFILES,Nº arquivos
+COM_NORMAL,Normal
+COM_OFF,Deslig
+COM_OK,OK
+COM_ON,Ligado
+COM_PREVIEW,Pré-visual
+COM_REMAIN,Fotos restantes
+COM_SAVE,Guardar
+COM_SLOW,Lenta
+COM_STANDARD,Normal
+COM_STANDARD2,Normal
+COM_START,Iniciar
+COM_USBMODE,Modo USB
+COM_VOLUME,VOL.
+COU_640FINE,640(Qualid. ) não disponível
+COU_640FINE_2,
+COU_AUDIOPLUGIN,Para saída de áudio, ligue uma
+COU_AUDIOPLUGIN_2,ficha de áudio
+COU_BATTERY_HEATED,Sobreaquecimento da câmara
+COU_BATTERY_HEATED_2,Deixar arrefecer
+COU_BATTERY_INFOLITHIUM,Só para bateria "InfoLITHIUM"
+COU_BATTERY_INFOLITHIUM_2,
+COU_BATTERY_INVALID,Para usar só com bateria compatível
+COU_BATTERY_INVALID_2,
+COU_BGM_ERROR,Erro de Música
+COU_BGM_ERROR_2,
+COU_BGM_FORMATERROR,Erro de formatação de música
+COU_BGM_FORMATERROR_2,
+COU_BURST_INVALID,Burst é inválido
+COU_BURST_INVALID_2,
+COU_CANNOTACCESS_MS,Não pode aced Memory Stick
+COU_CANNOTACCESS_MS_2,Acesso negado
+COU_CANNOTCREATE_FOLDERS,Não pode criar mais pastas
+COU_CANNOTCREATE_FOLDERS_2,
+COU_DATA_ERROR,Erro do ficheiro de gestão da
+COU_DATA_ERROR_2,imagem
+COU_ERROR10,Erro10
+COU_ERROR20,Erro20
+COU_ERROR30,Erro30
+COU_ERROR40,Erro40
+COU_ERROR50,Erro50
+COU_EXCEEDED_LIMIT,Máximo de imagens seleccionadas
+COU_EXCEEDED_LIMIT_2,
+COU_FILEERROR,Erro arquivo
+COU_FILEERROR_2,
+COU_FILEPROTECT,Arquivo protegido
+COU_FILEPROTECT_2,
+COU_FLASHSETTING_INVALID,As definições do flash não
+COU_FLASHSETTING_INVALID_2,podem ser alteradas
+COU_FOLDER_ERROR,Erro pasta
+COU_FOLDER_ERROR_2,
+COU_FORMATERROR_INTERNALMEMORY,Erro de formatação da
+COU_FORMATERROR_INTERNALMEMORY_2,memória interna
+COU_FORMATERROR_MS,Erro de formatação do
+COU_FORMATERROR_MS_2,Memory Stick
+COU_IMAGESIZEOVER,Tam. imag. ultrap.
+COU_IMAGESIZEOVER_2,
+COU_INKERROR,Erro tinta
+COU_INKERROR_2,
+COU_INVALID_FILE,Arquivo inválido
+COU_INVALID_FILE_2,
+COU_INVALID_FOLDER,Operação não disponível com
+COU_INVALID_FOLDER_2,Vista da Pasta
+COU_INVALID_MS,Não pode guardar ficheiro gestão
+COU_INVALID_MS_2,imagem para este Memory Stick
+COU_INVALID_OPERATION,Operação inválida
+COU_INVALID_OPERATION_HDOUT,Operação não pode ser executada
+COU_INVALID_OPERATION_HDOUT_2,durante saída HD(1080i)
+COU_INVALID_OPERATION_MOVIEFILE,Operação não pode ser
+COU_INVALID_OPERATION_MOVIEFILE_2,executada em arq de filmes
+COU_INVALID_OPERATION_NGFILE,Operação não pode ser executada
+COU_INVALID_OPERATION_NGFILE_2,em arquivos não suportados
+COU_INVALID_OPERATION_PICTBRIDGE,Operação não pode ser executada
+COU_INVALID_OPERATION_PICTBRIDGE_2,quando usa uma ligação PictBridge
+COU_INVALID_OPERATION_REMOTE,Operação não pode ser executada
+COU_INVALID_OPERATION_REMOTE_2,por telecomando
+COU_INVALID_OPERATION_TVOUT,Operação não pode ser executada
+COU_INVALID_OPERATION_TVOUT_2,durante saída de TV
+COU_LENSCAPOFF,Remova a tampa da lente e
+COU_LENSCAPOFF_2,desligue e ligue a alimentação
+COU_LENSCOVER_OPEN,Abrir a tampa da lente para
+COU_LENSCOVER_OPEN_2,fotografar
+COU_LOWINK,Pouca tinta
+COU_LOWINK_2,
+COU_MACRO_INVALID,Macro inválida
+COU_MACRO_INVALID_2,
+COU_MEDIAERROR_INTERNALMEMORY,Erro na memória interna
+COU_MEDIAERROR_INTERNALMEMORY_2,
+COU_METERING_INVALID,Operações de modo de medição
+COU_METERING_INVALID_2,indisponíveis
+COU_MSR_NOTUSEFUNCTION,Função não suportada
+COU_MSR_NOTUSEFUNCTION_2,com este Memory Stick
+COU_MS_ERROR,Reinsira o Memory Stick
+COU_MS_ERROR_2,
+COU_MS_LOCKED,Memory Stick bloqueado
+COU_MS_LOCKED_2,
+COU_MS_TYPEERROR,Erro tipo Memory Stick
+COU_MS_TYPEERROR_2,
+COU_NOBATTERY,Não há bateria suficiente
+COU_NOIMAGE,Sem imagens
+COU_NOIMAGE_2,
+COU_NOIMAGE_PLAY,Alguma imagem não se transferiu
+COU_NOIMAGE_PLAY_2,Formato irreconhecível.
+COU_NOINK,Sem tinta
+COU_NOINK_2,
+COU_NOMS,Não há Memory Stick
+COU_NOMS_2,
+COU_NOPAPER,Sem papel
+COU_NOPAPER_2,
+COU_NOSOFTWAREFILE,Não há arquivo de software
+COU_NOSOFTWAREFILE_2,
+COU_NOSPACE_INTERNALMEMORY,Não há espaço na memória interna
+COU_NOSPACE_INTERNALMEMORY_2,
+COU_NOSPACE_MS,Não há espaço no Memory Stick
+COU_NOSPACE_MS_2,
+COU_NOT_SELECTED_FAV,Sem Favoritos seleccionados
+COU_NOT_SELECTED_FAV_2,
+COU_NOT_SELECTED_IMAGES,Sem imagem seleccionada
+COU_NOT_SELECTED_IMAGES_2,
+COU_NOT_SELECTED_SHARE,Sem Marca de partilha selec
+COU_NOT_SELECTED_SHARE_2,
+COU_PAPERERROR,Erro papel
+COU_PAPERERROR_2,
+COU_PASSLOCK_CODE_MISS,Código de Reposição Incorrecto
+COU_PASSLOCK_CODE_MISS_2,
+COU_PASSLOCK_PASS_MISS,Senha Incorrecta
+COU_PASSLOCK_PASS_MISS_2,
+COU_POWEROFFON,Desligar e ligar novamente
+COU_POWEROFFON_2,
+COU_PRINTERBUSY,Impressora ocupada
+COU_PRINTERBUSY_2,
+COU_PRINTERERROR,Erro impressora
+COU_PRINTERERROR_2,
+COU_READONLYMEMORY,Memória só leitura
+COU_READONLYMEMORY_2,
+COU_READONLY_FOLDER,Pasta só de leitura
+COU_READONLY_FOLDER_2,
+COU_REDEYE_DETECTED,Sem detecção de olhos vermelhos
+COU_REDEYE_DETECTED_2,
+COU_SCRNTOUCH_INVALID,Ecrã táctil desactivado nesta área
+COU_SCRNTOUCH_INVALID_2,
+COU_SELFTIMER_INVALID,O temporizador automático é
+COU_SELFTIMER_INVALID_2,inválido
+COU_SMILESHUTTER_AUTOONLY,Obt Sorriso está apenas disponível
+COU_SMILESHUTTER_AUTOONLY_2,qd modo GRAV está em "Auto"
+COU_SYSTEMERROR,Erro de sistema
+COU_SYSTEMERROR_2,
+COU_TARGET_DETECTED,Incapaz de detectar cara
+COU_TARGET_DETECTED_2,para retoque
+COU_TARGET_NOIMAGE,Sem imagens fixas
+COU_TARGET_NOIMAGE_2,
+COU_ZOOM_INVALID,Zoom desactivado
+COU_ZOOM_INVALID_2,
+DUMMY,
+GUIDE_BUTTON,Tocar no botão que quer usar
+GUIDE_CENTER,Tocar no ponto para centrar
+GUIDE_CHANGEFOCUS,Mudar posição de foco por toque
+GUIDE_CHOOSEFOCUS,Escolher posição foco por toque
+GUIDE_DEMO_BACKLIGHT,Luz de fundo detectada
+GUIDE_DEMO_BACKLIGHTPORTRAIT,Luz de fundo e pessoas detectadas
+GUIDE_DEMO_LANDSCAPE,Paisagem detectada
+GUIDE_DEMO_MACRO,Motivo muito próximo detectado
+GUIDE_DEMO_PORTRAIT,Pessoas detectadas
+GUIDE_DEMO_TRIPOD,Crepúsculo e tripé detectados
+GUIDE_DEMO_TWILIGHT,Crepúsculo detectado
+GUIDE_DEMO_TWILIGHTPORTRAIT,Crepúsculo e pessoas detectados
+GUIDE_EFFECTLEVEL,Seleccionar o nível de efeito
+GUIDE_EXIT_TOUCH,Sair quando o LCD for tocado
+GUIDE_LIGHTBEAM_LEVEL,Seleccion o nível de feixe de luz
+GUIDE_RANGE,Seleccionar a variação de efeito
+GUIDE_RESIZE,Redimensão concluída
+GUIDE_RETOUCH_COMPLETE,Retoque concluído
+GUIDE_RETRO_LIGHT,Selecciona variação de brilho
+GUIDE_ROTATEIMG,Tocar na imagem a ser rodada
+GUIDE_SAVESIZE,Selec o tamanho a ser guardado
+GUIDE_SELECTFACE,Seleccionar cara por toque
+GUIDE_SELECTFAV,Seleccione a pasta Favoritos
+GUIDE_SMILEDEMO_START,Selec ícone de sorriso para iniciar
+GUIDE_SMILESHUTTER_EXIT,Selec ícone de sorriso para sair
+GUIDE_STARTIMG,Tocar na imag inicia slideshow
+GUIDE_TOUCHFAV,Toque na pasta Favoritos
+GUIDE_TOUCHIMG,Tocar na imagem
+GUIDE_ZOOMIN_TOUCH,Tocar no ponto para ampliar
+GUIDE_ZOOMIN_TOUCHED,Ampliar a posição tocada
+HOME,HOME
+HOME_CAM,Fotografando
+HOME_CAM_GUIDE2,Tirar fotos ou filmar
+HOME_CAM_GUIDE2_2,
+HOME_COMMUNICATION,Comunicação
+HOME_ETC_BGMTOOL,Ferramenta Música
+HOME_ETC_BGMTOOL_GUIDE2,Organizar música de
+HOME_ETC_BGMTOOL_GUIDE2_2,slideshow
+HOME_ETC_PRINT_GUIDE2,Imprimir imagens
+HOME_ETC_PRINT_GUIDE2_2,
+HOME_MEMORY,Gerir Memória
+HOME_MEMORY_GUIDE2,Organizar meio de gravação
+HOME_MEMORY_GUIDE2_2,
+HOME_MEMORY_INTERNALMEMORYTOOL,Fer. memória interna
+HOME_MEMORY_MEMORYSTICKTOOL,Fer. Memory Stick
+HOME_MEMORY_MEMORYTOOL,Fer. Memória
+HOME_NETWORK,Rede
+HOME_NETWORK_GUIDE,Ligar à rede
+HOME_NETWORK_GUIDE_2,
+HOME_PLAY,Ver Imagens
+HOME_PLAY1,Ver Imagens 1
+HOME_PLAY2,Ver Imagens 2
+HOME_PLAY_INDEX_GUIDE2,Visualizar imagens múltiplas
+HOME_PLAY_INDEX_GUIDE2_2,
+HOME_PLAY_NORMAL_GUIDE2,Ver imagem individual
+HOME_PLAY_NORMAL_GUIDE2_2,
+HOME_PLAY_SLIDESHOW_GUIDE2,Reprodução automática com
+HOME_PLAY_SLIDESHOW_GUIDE2_2,música e efeitos
+HOME_PRINT,Imprimir
+HOME_SCENESELECTION,Selecção de cena
+HOME_SCRAPBOOK,Livro de recortes
+HOME_SCRAPBOOK_GUIDE,Criar Livro de recortes
+HOME_SCRAPBOOK_GUIDE_2,automaticamente
+HOME_SETTINGS,Definições
+HOME_SET_CAM,Definições Filmag
+HOME_SET_CAM_GUIDE2,Ajustar definições
+HOME_SET_CAM_GUIDE2_2,de filmagem
+HOME_SET_CLOCK,Definições Relógio
+HOME_SET_CLOCK_GUIDE2,Ajustar a data e hora
+HOME_SET_CLOCK_GUIDE2_2,
+HOME_SET_LANGUAGE,Language Setting
+HOME_SET_LANGUAGE_CHANGE_GUIDE,Change Language
+HOME_SET_LANGUAGE_CHANGE_GUIDE_2,
+HOME_SET_LANGUAGE_GUIDE2,Change Language
+HOME_SET_LANGUAGE_GUIDE2_2,
+HOME_SET_MAIN,Definiç Principais
+HOME_SET_MAIN_GUIDE2,Ajustar definições principais
+HOME_SET_MAIN_GUIDE2_2,
+HOME_SLIDESHOW,Ap. slide
+HOME_VIEW_DATE,Vista de Data
+HOME_VIEW_DATE_GUIDE2,Mostrar imagens por
+HOME_VIEW_DATE_GUIDE2_2,data tirada
+HOME_VIEW_EVENT,Vista de Evento
+HOME_VIEW_EVENT_GUIDE,Ordena automaticam imag
+HOME_VIEW_EVENT_GUIDE_2,em grupos para visualização
+HOME_VIEW_FAV,Favoritos
+HOME_VIEW_FAV_GUIDE2,Mostrar imagens em
+HOME_VIEW_FAV_GUIDE2_2,Favoritos
+HOME_VIEW_FOLDER,Vista da Pasta
+HOME_VIEW_FOLDER_GUIDE2,Mostrar imagens na
+HOME_VIEW_FOLDER_GUIDE2_2,pasta DCF
+KEY_FLASH_AUTO_GUIDE,Flash Auto
+KEY_FLASH_AUTO_GUIDE_2,Usa automaticamente o flash
+KEY_FLASH_OFF,Flash Desligado
+KEY_FLASH_OFF_GUIDE,Flash Desligado
+KEY_FLASH_OFF_GUIDE_2,Sem flash
+KEY_FLASH_ON,Flash Ligado
+KEY_FLASH_ON_GUIDE,Flash Ligado
+KEY_FLASH_ON_GUIDE_2,Usa sempre o flash
+KEY_FLASH_SYNCHRO_GUIDE,Mantém motivos e fundos
+KEY_FLASH_SYNCHRO_GUIDE_2,distantes brilhantes
+KEY_MACRO_AUTO_GUIDE,Foco auto de grande plano
+KEY_MACRO_AUTO_GUIDE_2,até ao infinito
+KEY_MACRO_NEAR,Macro Ligada
+KEY_MACRO_NEAR_GUIDE,Foco com prioridade em
+KEY_MACRO_NEAR_GUIDE_2,motivos muito próximos
+KEY_MAGNIFY_ON,Foco próximo activado
+KEY_MAGNIFY_ON_GUIDE,Foco próximo activado
+KEY_MAGNIFY_ON_GUIDE_2,Em grandes planos extremo
+KEY_SELFTIMER_10_GUIDE,Fotografe 10 seg após
+KEY_SELFTIMER_10_GUIDE_2,premir o botão do obturador
+KEY_SELFTIMER_2_GUIDE,Fotografe 2 seg após premir
+KEY_SELFTIMER_2_GUIDE_2,o botão do obturador
+KEY_SELFTIMER_OFF_GUIDE,Temporizador automát deslig
+KEY_SELFTIMER_OFF_GUIDE_2,
+MSG_ACCESSING,Acesso…
+MSG_AVI_MAKING,A criar novo ficheiro
+MSG_CAPTURING,Captação…
+MSG_CLOSEEYE_DETECT,Olhos fechados detectados
+MSG_CONFIRM_UPDATE,Seleccionar OK para actualização
+MSG_CONFIRM_UPDATE_2,
+MSG_CONNECTING,Ligar…
+MSG_CONNECTING_MASSSTORAGE,Ligar em Mass Storage…
+MSG_CONNECTING_MASSSTORAGE_2,
+MSG_CONNECTING_NETWORK,A ligar à rede…
+MSG_CONNECTING_PICTBRIDGE,A ligar a equipamento PictBridge
+MSG_CONNECTING_PICTBRIDGE_2,
+MSG_CONNECTING_PTPMTP,A ligar a PTP/MTP…
+MSG_CONNECTING_PTPMTP_2,
+MSG_CONNECT_PC,Ligar ao PC
+MSG_CONNECT_PC_2,
+MSG_CONNECT_PICTBRIDGE,Ligar a equipamento PictBridge
+MSG_CONNECT_PICTBRIDGE_2,
+MSG_COPY,Os dados na memória
+MSG_COPYING,A copiar…
+MSG_COPYING_2,
+MSG_COPY_2,interna serão copiados
+MSG_CREATING_RECFOLDER,A criar pasta GRAV.
+MSG_CURRENTVERSION,Versão actual
+MSG_ENTRY_OVER,O número máximo de
+MSG_ENTRY_OVER_2,imagens foi excedido
+MSG_EXITTING_NETWORK,A fechar a rede…
+MSG_FORMATTING_BGM,Formatação Música…
+MSG_FORMATTING_BGM_2,
+MSG_FORMATTING_INTERNALMEMORY,Formatação da memória interna…
+MSG_FORMATTING_INTERNALMEMORY_2,
+MSG_FORMATTING_MS,Formatação Memory Stick…
+MSG_FORMATTING_MS_2,
+MSG_FORMAT_BGM,Todos os ficheiros de música serão
+MSG_FORMAT_BGM_2,apagados
+MSG_FORMAT_INTERNALMEMORY,Todos os dados na memória
+MSG_FORMAT_INTERNALMEMORY_2,interna serão apagados
+MSG_FORMAT_MS,Todos dados Memory Stick
+MSG_FORMAT_MS_2,serão apagados
+MSG_FORWARDING,A transferir dados…
+MSG_HOUSING,A operação é mudada
+MSG_INITIALIZE_ALLSETTINGS,Inicializar todos os ajustes
+MSG_INITIALIZE_ALLSETTINGS_2,
+MSG_NEWVERSION,Nova versão
+MSG_NOTTURNOFF,Não desligue
+MSG_PASSLOCK_PASS_CANCEL,Definição de senha foi
+MSG_PASSLOCK_PASS_CANCEL_2,cancelada
+MSG_PASSLOCK_PASS_RESET,Senha foi reposta
+MSG_PASSLOCK_PASS_RESET_2,
+MSG_PASSLOCK_PASS_RESET_MODE,Modo de Reposição de Senha
+MSG_PASSLOCK_PASS_RESET_MODE_2,
+MSG_PASSLOCK_PASS_SET,Senha foi definida
+MSG_PASSLOCK_PASS_SET_2,
+MSG_PRINTING,Imprimir…
+MSG_PROCESSING,Processamento…
+MSG_RECORDING,Gravação…
+MSG_RECORD_MS,Gravar para Memory Stick
+MSG_RECOVER,Recuperar dados
+MSG_RECOVERINGFILE,A recuperar ficheiro de gestão
+MSG_RECOVERINGFILE_2,da imagem…
+MSG_RECOVER_2,
+MSG_SEE_SOFTWAREUPDATE_INST,Veja "Instruções actualiz. software"
+MSG_SEE_SOFTWAREUPDATE_INST_2,
+MSG_SMILEDEMO_GUIDE,Sorriso será captado automatic
+MSG_SMILEDEMO_PROCESSING,Obturador Sorriso em demonstraç
+MSG_SMILESHUTTER_PROCESSING,A detectar sorriso
+MSG_SMILE_END1,Número de fotos
+MSG_SOFTWAREUPDATE,Actualização de Software
+MSG_SOFTWAREUPDATE_2,
+MSG_STARTING_NETWORK,A iniciar rede…
+MSG_START_BROWSER,A Iniciar Browser da Web…
+MSG_TOUCH_X_CENTER,Tocar no centro da marca "×"
+MSG_TVOUT,Saída da TV em curso…
+MSG_USBMENU,Ligue [MENU]
+PASSLOCK_PASS_CLEAR,Introduzir Cód. Reposição
+PASSLOCK_PASS_INPUT,Introduzir Senha
+PASSLOCK_PASS_REINPUT,Reintroduzir Senha
+PASSLOCK_PASS_SET,Definir Senha
+PBMENU_ALBUM_GUIDE,Voltar ao Álbum
+PBMENU_ALBUM_GUIDE_2,
+PBMENU_BACKGROUND,Fundo
+PBMENU_BLOG_GUIDE,Reduz tamanho da imagem e
+PBMENU_BLOG_GUIDE_2,guardar como nova imagem
+PBMENU_DATEALL,Todas imag na variação data
+PBMENU_DATEALL_CLEAR,Rem tudo na variação data
+PBMENU_DATEALL_ENTRY,Adic tudo na variação data
+PBMENU_DATEALL_SET,Defin tudo na variação data
+PBMENU_DATELIST,Lista de data
+PBMENU_DATELIST_GUIDE,Seleccionar uma data
+PBMENU_DATELIST_GUIDE_2,para ver
+PBMENU_DELETE,Apagar
+PBMENU_DELETE_ALL_GUIDE,Apagar todas as imagens
+PBMENU_DELETE_ALL_GUIDE_2,nesta pasta
+PBMENU_DELETE_DATEALL_GUIDE,Apagar todas as imagens
+PBMENU_DELETE_DATEALL_GUIDE_2,nesta variação de data
+PBMENU_DELETE_EVENTALL_GUIDE,Apagar todas as imagens
+PBMENU_DELETE_EVENTALL_GUIDE_2,neste evento
+PBMENU_DELETE_SELECT_GUIDE,Apagar múltiplas imagens
+PBMENU_DELETE_SELECT_GUIDE_2,seleccionadas
+PBMENU_DELETE_SINGLE_GUIDE,Apagar a imagem
+PBMENU_DELETE_SINGLE_GUIDE_2,
+PBMENU_DPOF,DPOF
+PBMENU_DPOF_ALL_CLEAR_GUIDE,Limpar marcas ordem de imp
+PBMENU_DPOF_ALL_CLEAR_GUIDE_2,p/ todas as imagens na pasta
+PBMENU_DPOF_ALL_SET_GUIDE,Adici marcas ordem de imp
+PBMENU_DPOF_ALL_SET_GUIDE_2,p/ todas as imagens na pasta
+PBMENU_DPOF_DATEALL_CLEAR_GUIDE,Limpar marcas ordem de imp
+PBMENU_DPOF_DATEALL_CLEAR_GUIDE_2,em todas im da variação data
+PBMENU_DPOF_DATEALL_SET_GUIDE,Adic marcas ordem de imp
+PBMENU_DPOF_DATEALL_SET_GUIDE_2,em todas im da variação data
+PBMENU_DPOF_EVENTALL_CLEAR_GUIDE,Limpar marcas ordem de imp
+PBMENU_DPOF_EVENTALL_CLEAR_GUIDE_2,em todas imag neste evento
+PBMENU_DPOF_EVENTALL_SET_GUIDE,Adic marcas ordem de imp
+PBMENU_DPOF_EVENTALL_SET_GUIDE_2,em todas imag neste evento
+PBMENU_DPOF_FAVALL_CLEAR_GUIDE,Limpar marcas ordem de imp
+PBMENU_DPOF_FAVALL_CLEAR_GUIDE_2,em todas imag neste grupo
+PBMENU_DPOF_FAVALL_SET_GUIDE,Adic marcas ordem de imp
+PBMENU_DPOF_FAVALL_SET_GUIDE_2,em todas imag neste grupo
+PBMENU_DPOF_SELECT_GUIDE,Ligar/desligar marcas imp
+PBMENU_DPOF_SELECT_GUIDE_2,em imagens múltiplas selec
+PBMENU_DPOF_SINGLE_GUIDE,Ligar/desligar marcas imp
+PBMENU_DPOF_SINGLE_GUIDE_2,na imagem seleccionada
+PBMENU_EDIT,Retoque
+PBMENU_EDIT_BLOG_EMAIL,Blog / E-mail
+PBMENU_EDIT_BW,Cor Parcial
+PBMENU_EDIT_BW_GUIDE,Envolver um ponto escolhido
+PBMENU_EDIT_BW_GUIDE_2,em monocromático
+PBMENU_EDIT_CROSS,Filtro Cruzado
+PBMENU_EDIT_CROSS_GUIDE,Adicionar efeito starburst p/
+PBMENU_EDIT_CROSS_GUIDE_2,pontos brilhantes na imagem
+PBMENU_EDIT_FISHEYE,Lente olho de peixe
+PBMENU_EDIT_FISHEYE_GUIDE,Aplicar efeito olho de peixe
+PBMENU_EDIT_FISHEYE_GUIDE_2,em torno de ponto escolhido
+PBMENU_EDIT_HDTV,HDTV
+PBMENU_EDIT_RADIATION,Desfocagem radial
+PBMENU_EDIT_RADIATION_GUIDE,Aplicar desfoque radial em
+PBMENU_EDIT_RADIATION_GUIDE_2,torno de ponto escolh na img
+PBMENU_EDIT_REDEYE,Correcção dos Olho Vermel
+PBMENU_EDIT_REDEYE_GUIDE,Remove olhos vermelhos
+PBMENU_EDIT_REDEYE_GUIDE_2,causados pelo flash
+PBMENU_EDIT_RETRO2,Retro
+PBMENU_EDIT_RETRO2_GUIDE,Desfoc e obscurec periferia
+PBMENU_EDIT_RETRO2_GUIDE_2,para efeito nostálgico
+PBMENU_EDIT_SHARPFOUCS,Unsharp masking
+PBMENU_EDIT_SHARPFOUCS_GUIDE,Aviva a imagem em torno
+PBMENU_EDIT_SHARPFOUCS_GUIDE_2,de um ponto escolhido
+PBMENU_EDIT_SMILE,Sorrisos
+PBMENU_EDIT_SMILE_GUIDE,Modificar caras das pessoas
+PBMENU_EDIT_SMILE_GUIDE_2,para parecer sorrirem
+PBMENU_EDIT_SOFTFOUCS,Foco Suave
+PBMENU_EDIT_SOFTFOUCS_GUIDE,Desfocar periferia em torno
+PBMENU_EDIT_SOFTFOUCS_GUIDE_2,de um ponto escolhido
+PBMENU_EDIT_TRIMMING,Corte
+PBMENU_EDIT_TRIMMING_GUIDE,Cortar imagens para remover
+PBMENU_EDIT_TRIMMING_GUIDE_2,partes indesejadas
+PBMENU_EVENTALL,Tudo no Evento
+PBMENU_EVENTALL_CLEAR,Remov tod imag nest evento
+PBMENU_EVENTALL_ENTRY,Adicionar tudo no evento
+PBMENU_EVENTALL_SET,Definir tod imag nest evento
+PBMENU_EVENTLIST,Lista de Evento
+PBMENU_EVENTLIST_GUIDE,Selec um evento para ver
+PBMENU_EVENTLIST_GUIDE_2,
+PBMENU_FAV,Favoritos
+PBMENU_FAV1,Favoritos 1
+PBMENU_FAV2,Favoritos 2
+PBMENU_FAV3,Favoritos 3
+PBMENU_FAV4,Favoritos 4
+PBMENU_FAV5,Favoritos 5
+PBMENU_FAV6,Favoritos 6
+PBMENU_FAVALL,Tudo em Favoritos
+PBMENU_FAVALL_CLEAR,Remover tudo em Favoritos
+PBMENU_FAVALL_ENTRY,Adicionar tudo em Favoritos
+PBMENU_FAVALL_SET,Definir tudo neste grupo
+PBMENU_FAV_ALL_CLEAR_GUIDE,Remover todas as imagens
+PBMENU_FAV_ALL_CLEAR_GUIDE_2,de Favoritos
+PBMENU_FAV_CLEAR,Remover Favoritos
+PBMENU_FAV_CLEAR_DATEALL_GUIDE,Remover todas as imag nesta
+PBMENU_FAV_CLEAR_DATEALL_GUIDE_2,variação de data de Favoritos
+PBMENU_FAV_CLEAR_EVENTALL_GUIDE,Remover todas as imagens
+PBMENU_FAV_CLEAR_EVENTALL_GUIDE_2,neste evento de Favoritos
+PBMENU_FAV_ENTRY,Adicionar a Favoritos
+PBMENU_FAV_ENTRY_DATEALL_GUIDE,Adicionar todas imag nesta
+PBMENU_FAV_ENTRY_DATEALL_GUIDE_2,variação de data p/ Favoritos
+PBMENU_FAV_ENTRY_EVENTALL_GUIDE,Adicionar todas as imagens
+PBMENU_FAV_ENTRY_EVENTALL_GUIDE_2,neste evento a Favoritos
+PBMENU_FAV_SELECT_GUIDE,Adic/Remover as imagens
+PBMENU_FAV_SELECT_GUIDE_2,selec para/de Favoritos
+PBMENU_FAV_SET,Adic / Remover Favoritos
+PBMENU_FAV_SINGLE_GUIDE,Adic/Remover imagem p/
+PBMENU_FAV_SINGLE_GUIDE_2,de Favoritos
+PBMENU_FOLDERALL,Todos nes. pasta
+PBMENU_FOLDERALL_CLEAR,Remover tudo nesta pasta
+PBMENU_FOLDERALL_ENTRY,Adicionar tudo na pasta
+PBMENU_FOLDERALL_SET,Definir tudo nesta pasta
+PBMENU_FOLDERJUMP,Seleccione pasta
+PBMENU_FRAME,Fotograma
+PBMENU_HDTV_GUIDE,Cortar a imagem para 16:9 e
+PBMENU_HDTV_GUIDE_2,guardar como nova imagem
+PBMENU_IMAGESAVE,Guardar como uma imagem
+PBMENU_MULTIPLEIMAGES,Múltiplas Imagens
+PBMENU_MULTIPLEPAGESAVE,Seleccionar páginas e guardar
+PBMENU_MULTIRESIZE,Redimensionamento variado
+PBMENU_PAGESAVE,Guardar esta página
+PBMENU_PAINT,Pintar
+PBMENU_PAINT_GUIDE,Adicionar pintura, marca ou
+PBMENU_PAINT_GUIDE_2,moldura à imagem
+PBMENU_PBFOLDER_GUIDE,Seleccionar uma pasta para
+PBMENU_PBFOLDER_GUIDE_2,reprodução
+PBMENU_PRINT_ALL_GUIDE,Imprimir todas as imagens
+PBMENU_PRINT_ALL_GUIDE_2,na pasta
+PBMENU_PRINT_DATEALL_GUIDE,Imprimir todas as imagens
+PBMENU_PRINT_DATEALL_GUIDE_2,nesta variação de data
+PBMENU_PRINT_EVENTALL_GUIDE,Imprimir todas as imagens
+PBMENU_PRINT_EVENTALL_GUIDE_2,neste evento
+PBMENU_PRINT_FAVALL_GUIDE,Imprimir todas as imagens
+PBMENU_PRINT_FAVALL_GUIDE_2,neste grupo de Favoritos
+PBMENU_PRINT_SELECT_GUIDE,Imprimir imagens múltiplas
+PBMENU_PRINT_SELECT_GUIDE_2,seleccionadas
+PBMENU_PRINT_SINGLE_GUIDE,Imprimir as imagens
+PBMENU_PRINT_SINGLE_GUIDE_2,
+PBMENU_PROTECT,Proteger
+PBMENU_PROTECT_ALL_CLEAR_GUIDE,Desligar protecção da imag
+PBMENU_PROTECT_ALL_CLEAR_GUIDE_2,p/ todas as imagens na pasta
+PBMENU_PROTECT_ALL_SET_GUIDE,Ligar protecção da imagem
+PBMENU_PROTECT_ALL_SET_GUIDE_2,p/ todas as imagens na pasta
+PBMENU_PROTECT_DATEALL_CLEAR_GUIDE,Desligar protecção p/ todas
+PBMENU_PROTECT_DATEALL_CLEAR_GUIDE_2,as imag nesta variação data
+PBMENU_PROTECT_DATEALL_SET_GUIDE,Ligar a protecção para todas
+PBMENU_PROTECT_DATEALL_SET_GUIDE_2,as imag nesta variação data
+PBMENU_PROTECT_EVENTALL_CLEAR_GUIDE,Desligar protecção p/ todas
+PBMENU_PROTECT_EVENTALL_CLEAR_GUIDE_2,as imagens neste evento
+PBMENU_PROTECT_EVENTALL_SET_GUIDE,Ligar protecção para todas
+PBMENU_PROTECT_EVENTALL_SET_GUIDE_2,as imagens neste evento
+PBMENU_PROTECT_FAVALL_CLEAR_GUIDE,Desligar protecção p/ todas
+PBMENU_PROTECT_FAVALL_CLEAR_GUIDE_2,as imagens neste grupo
+PBMENU_PROTECT_FAVALL_SET_GUIDE,Ligar a protecção p/ todas
+PBMENU_PROTECT_FAVALL_SET_GUIDE_2,as imagens neste grupo
+PBMENU_PROTECT_SELECT_GUIDE,Ligar/desligar protec imag
+PBMENU_PROTECT_SELECT_GUIDE_2,para múltiplas imagens selec
+PBMENU_PROTECT_SINGLE_GUIDE,Ligar/desligar
+PBMENU_PROTECT_SINGLE_GUIDE_2,protecção da imagem
+PBMENU_REFINE,Filtro por Caras
+PBMENU_REFINE_BABY,Menores
+PBMENU_REFINE_BABY_GUIDE,Localizar e mostrar imagens
+PBMENU_REFINE_BABY_GUIDE_2,com menores
+PBMENU_REFINE_CHILD,Crianças
+PBMENU_REFINE_CHILD_GUIDE,Localizar e mostrar imagens
+PBMENU_REFINE_CHILD_GUIDE_2,com caras de crianças
+PBMENU_REFINE_CLEAR_GUIDE,Mostrar todas as imagens
+PBMENU_REFINE_CLEAR_GUIDE_2,
+PBMENU_REFINE_FACE,Todas as pessoas
+PBMENU_REFINE_FACE_GUIDE,Localizar e mostrar imagens
+PBMENU_REFINE_FACE_GUIDE_2,com caras de pessoas
+PBMENU_REFINE_SMILE,Sorrisos
+PBMENU_REFINE_SMILE_GUIDE,Localizar e mostrar imagens
+PBMENU_REFINE_SMILE_GUIDE_2,com caras sorridentes
+PBMENU_ROTATE,Rodar
+PBMENU_ROTATE_GUIDE,Rodar as imagens
+PBMENU_ROTATE_GUIDE_2,
+PBMENU_SCRAPBOOKALLSAVE,Guardar toda pág no Livro reco
+PBMENU_SCRAPBOOKALL_GUIDE,Guardar todas pág no Livro
+PBMENU_SCRAPBOOKALL_GUIDE_2,de recortes como imagens
+PBMENU_SHARE_CLEAR,Remover Marca de partilha
+PBMENU_SHARE_CLEAR_DATEALL_GUIDE,Remover todas as imag nesta
+PBMENU_SHARE_CLEAR_DATEALL_GUIDE_2,vari de data da Marca partilha
+PBMENU_SHARE_CLEAR_EVENTALL_GUIDE,Remover todas imag neste
+PBMENU_SHARE_CLEAR_EVENTALL_GUIDE_2,evento da Marca de partilha
+PBMENU_SHARE_CLEAR_FAVALL_GUIDE,Remover todas imag neste
+PBMENU_SHARE_CLEAR_FAVALL_GUIDE_2,grupo da Marca de partilha
+PBMENU_SHARE_ENTRY,Adicionar Marca de partilha
+PBMENU_SHARE_ENTRY_DATEALL_GUIDE,Adicionar todas imag nesta
+PBMENU_SHARE_ENTRY_DATEALL_GUIDE_2,vari de data da Marca partilha
+PBMENU_SHARE_ENTRY_EVENTALL_GUIDE,Adicionar todas imag neste
+PBMENU_SHARE_ENTRY_EVENTALL_GUIDE_2,evento a Marca de partilha
+PBMENU_SHARE_ENTRY_FAVALL_GUIDE,Adicionar todas imag neste
+PBMENU_SHARE_ENTRY_FAVALL_GUIDE_2,grupo a Marca de partilha
+PBMENU_SHARE_SELECT_GUIDE,Adic/Remover as imagens
+PBMENU_SHARE_SELECT_GUIDE_2,selec p/da Marca partilha
+PBMENU_SHARE_SET,Adic / Remov Marca partilha
+PBMENU_SHARE_SINGLE_GUIDE,Adic/Remover esta imag p/
+PBMENU_SHARE_SINGLE_GUIDE_2,da Marca de partilha
+PBMENU_SLIDESHOW_GUIDE,Rep automática com música
+PBMENU_SLIDESHOW_GUIDE_2,e efeitos
+PBMENU_THISIMAGE,Esta Imag
+PBMENU_THISPAGE_GUIDE,Guardar esta imagem da
+PBMENU_THISPAGE_GUIDE_2,página do Livro de recortes
+PBMENU_VIEWSELECT,Modo de Visualização
+PBMENU_VOLUMESETTINGS,Definições de volume
+PBMENU_VOLUME_GUIDE,Ajustar o volume em
+PBMENU_VOLUME_GUIDE_2,Slideshow/reprod de filme
+PBMENU_WIDEZOOM,Visual Zoom Amp
+PBMENU_WSCREEN_GUIDE,Cortar a imagem para 16:9
+PBMENU_WSCREEN_GUIDE_2,e visualizar
+PRINTMENU_10X15CM,10x15 cm
+PRINTMENU_1PICBORDER,1-mais/Limite
+PRINTMENU_1PICNOBORDER,1-mais/Sem lim
+PRINTMENU_2L,13x18 cm
+PRINTMENU_2PICS,2-mais
+PRINTMENU_3PICS,3-mais
+PRINTMENU_4PICS,4-mais
+PRINTMENU_4X6,4x6"
+PRINTMENU_8PICS,8-mais
+PRINTMENU_A3,A3
+PRINTMENU_A3PLUS,A3+
+PRINTMENU_A4,A4
+PRINTMENU_A6,A6
+PRINTMENU_DATE,Data
+PRINTMENU_DATE_A,Data
+PRINTMENU_DAYANDTIME,Dia&Hora
+PRINTMENU_HAGAKI,Hagaki
+PRINTMENU_HDTV,Tamanho panorâmic
+PRINTMENU_INDEX,Índice
+PRINTMENU_INDEXPRINT,Impressão índice
+PRINTMENU_L,9x13 cm
+PRINTMENU_LETTER,Carta
+PRINTMENU_PICTUREINPAPER,Esquema
+PRINTMENU_QUANTITY,Quantidade
+PRINTMENU_SIZE,Tamanho
+SAVE,Guardar
+SETUP_AFILLUMINATOR,Iluminador AF
+SETUP_AFILLUMINATOR_GUIDE2,Fill light para focar em baixa
+SETUP_AFILLUMINATOR_GUIDE2_2,luminosid
+SETUP_AFMODE,Modo AF
+SETUP_AFMODE_GUIDE2,Definições de foco automático
+SETUP_AFMODE_GUIDE2_2,
+SETUP_AUTOREVIEW,Revisão auto
+SETUP_AUTOREVIEW_GUIDE2,Rever imagens 2 seg após a
+SETUP_AUTOREVIEW_GUIDE2_2,filmagem
+SETUP_BEEP,Bip
+SETUP_BEEP_GUIDE2,Definições do som
+SETUP_BEEP_GUIDE2_2,
+SETUP_BGMTOOL_DOWNLOAD_GUIDE2,Mudar música do slide show
+SETUP_BGMTOOL_DOWNLOAD_GUIDE2_2,
+SETUP_BGMTOOL_FORMAT_GUIDE2,Apagar toda a música do slide
+SETUP_BGMTOOL_FORMAT_GUIDE2_2,show
+SETUP_BGM_DOWNLOAD,Trans Músic
+SETUP_BGM_FORMAT,Form Músic
+SETUP_CALIBRATION,Calibragem
+SETUP_CAM1,Definições Fotografia 1
+SETUP_CAM2,Definições Fotografia 2
+SETUP_CHANGERECFOLDER,Mude pasta GRAV.
+SETUP_CLOCK_GUIDE2,Ajustar a data e hora
+SETUP_CLOCK_GUIDE2_2,
+SETUP_COMPONENT,COMPONENT
+SETUP_COMPONENT_D1,SD
+SETUP_COMPONENT_D3,HD(1080i)
+SETUP_COMPONENT_GUIDE2,Definições do componente de
+SETUP_COMPONENT_GUIDE2_2,saída
+SETUP_CONTROLGUIDE,Guia de Controlo
+SETUP_CONTROLGUIDE_GUIDE,Definições de guia de controlo
+SETUP_CONVERSION_GUIDE2,Seleccionar uma lente de
+SETUP_CONVERSION_GUIDE2_2,conversão
+SETUP_COPY,Copiar
+SETUP_CREATERECFOLDER,Crie pasta GRAV.
+SETUP_DEMOMODE,Modo Demo
+SETUP_DEMOMODE_GUIDE,Definir para ON para modo demo
+SETUP_DEMOMODE_GUIDE_2,
+SETUP_DIGITALZOOM,Zoom digital
+SETUP_DIGITALZOOM_PRECISION,Precisão
+SETUP_DIGITALZOOM_SMART,Inteligente
+SETUP_DIRECTIONJUDGE,Auto Orient
+SETUP_DIRECTIONJUDGE_GUIDE2,Determin a orient. da câmara e
+SETUP_DIRECTIONJUDGE_GUIDE2_2,guarde
+SETUP_DISP,Config visor
+SETUP_DISP_09,9
+SETUP_DISP_12,12
+SETUP_DISP_16,16
+SETUP_DISP_20,20
+SETUP_DISP_BRIGHT,Brilho
+SETUP_DISP_BRIGHTNESS,Brilho do LCD
+SETUP_DISP_BRIGHTNESSSET,Brilho
+SETUP_DISP_HISTOGRAMSET,Histograma
+SETUP_DISP_IMAGEONLY,Só imagem
+SETUP_DISP_INDEX,Config Índice de Imagem
+SETUP_DISP_MSG_GRAPH_OFF,Sem gráfico mostrado
+SETUP_DISP_MSG_GRAPH_ON,Mostra brilho da imagem como gráfico
+SETUP_DISP_MSG_ICON,Mostra só os botões de operação
+SETUP_DISP_MSG_IMAGE,Mostra só a imagem
+SETUP_DISP_MSG_INFO,Mostra os botões de operação e info
+SETUP_DISP_MSG_LIGHT_BRIGHT,Define o ecrã para maior brilho
+SETUP_DISP_MSG_LIGHT_NORMAL,Define o ecrã para brilho normal
+SETUP_DISP_MSG_THUMBNAIL_09,Visualiz índice de 9 imagens
+SETUP_DISP_MSG_THUMBNAIL_12,Visualiz índice de 12 imagens
+SETUP_DISP_MSG_THUMBNAIL_16,Visualiz índice de 16 imagens
+SETUP_DISP_MSG_THUMBNAIL_20,Visualiz índice de 20 imagens
+SETUP_DISP_MSG_WIDEZOOMSET_OFF,Visualizar imagens no modo original
+SETUP_DISP_MSG_WIDEZOOMSET_ON,Visual imag em todo o tamanho do ecrã
+SETUP_DISP_OFF,Deslig
+SETUP_DISP_ON,Ligado
+SETUP_DISP_OPT,Número de imagens
+SETUP_DISP_PLAY,Config Visual Ecrã de Reprodução
+SETUP_DISP_SHOOT,Config Visual Ecrã de Filmagem
+SETUP_DISP_WIDEZOOMSET,Zoom amp
+SETUP_EXPANDEDFOUCS_GUIDE2,Ampliar centro durante foco
+SETUP_EXPANDEDFOUCS_GUIDE2_2,manual
+SETUP_EZOOM_GUIDE2,Definições de zoom digital
+SETUP_EZOOM_GUIDE2_2,
+SETUP_FLASHSYNCHRO_GUIDE2,Seleccionar o tempo de flash
+SETUP_FLASHSYNCHRO_GUIDE2_2,
+SETUP_FORMAT,Formatar
+SETUP_FUNCTIONGUIDE,Guia Função
+SETUP_FUNCTIONGUIDE_GUIDE2,Definições do guia de função
+SETUP_FUNCTIONGUIDE_GUIDE2_2,
+SETUP_GRIDLINE,Linha Grelha
+SETUP_GRIDLINE_GUIDE2,Directrizes para compor fotos
+SETUP_GRIDLINE_GUIDE2_2,
+SETUP_HOUSING,Caixa
+SETUP_INITIALIZE,Inicializar
+SETUP_INITIALIZE_GUIDE2,Repor as predefinições iniciais
+SETUP_INITIALIZE_GUIDE2_2,
+SETUP_INTERNALMEMORY_FORMAT_GUIDE2,Formatar a memória interna
+SETUP_INTERNALMEMORY_FORMAT_GUIDE2_2,
+SETUP_LANG,PORTUGUÊS
+SETUP_LANG_5WAY,PORTUGUÊS
+SETUP_LCD_RESPOINT_GUIDE2,Ajusta posição toque-resposta
+SETUP_LCD_RESPOINT_GUIDE2_2,LCD
+SETUP_LUNSET,Definições LUN
+SETUP_LUNSET_GUIDE,Seleccionar meio para ligar a
+SETUP_LUNSET_GUIDE_2,Mass Storage
+SETUP_LUNSET_MULTI,Múltiplas
+SETUP_LUNSET_SINGLE,Simples
+SETUP_MAIN1,Definições Principais 1
+SETUP_MAIN2,Definições Principais 2
+SETUP_MAIN3,Definições Principais 3
+SETUP_MARINEPACK_GUIDE2,Definir para ON quando usar a
+SETUP_MARINEPACK_GUIDE2_2,caixa
+SETUP_MASSSTORAGE,Mass Storage
+SETUP_MONITOR,Monitor
+SETUP_MS_COPY_CHANGE_GUIDE2,Copiar todas as imag da mem
+SETUP_MS_COPY_CHANGE_GUIDE2_2,interna
+SETUP_MS_FOLDER_CHANGE_GUIDE2,Mudar a pasta p/ gravação
+SETUP_MS_FOLDER_CHANGE_GUIDE2_2,imagens
+SETUP_MS_FOLDER_CREATE_GUIDE2,Cria uma nova pasta
+SETUP_MS_FOLDER_CREATE_GUIDE2_2,
+SETUP_MS_FORMAT_GUIDE2,Formatar o Memory Stick
+SETUP_MS_FORMAT_GUIDE2_2,
+SETUP_NTSC,NTSC
+SETUP_PAL,PAL
+SETUP_PASSLOCK,Bloquear Senha
+SETUP_PASSLOCK_GUIDE,Definir senha p/ bloquear imag
+SETUP_PASSLOCK_GUIDE_2,
+SETUP_PICTBRIDGE,PictBridge
+SETUP_PTPMTP,PTP/MTP
+SETUP_SHUTTER,Obturador
+SETUP_SINGLE,Único
+SETUP_SMILEDEMO,Modo demo Sorriso
+SETUP_SMILEDEMO_GUIDE2,Def p/ ON p/ modo demo Obt
+SETUP_SMILEDEMO_GUIDE2_2,Sorriso
+SETUP_TVTYPE,FORMATO TV
+SETUP_TVTYPE_GUIDE2,Para seleccionar o formato da TV.
+SETUP_TVTYPE_GUIDE2_2,
+SETUP_UPDATE,Actualização
+SETUP_USBCONNECT,Ligação USB
+SETUP_USBCONNECT_GUIDE2,Modo de saída quando ligado por
+SETUP_USBCONNECT_GUIDE2_2,USB
+SETUP_VERSION,Versão
+SETUP_VERSION_GUIDE2,Verificar versão e actualizar
+SETUP_VERSION_GUIDE2_2,firmware
+SETUP_VIDEOOUT,Saída video
+SETUP_VIDEOOUT_GUIDE2,Saída quando ligada a equip de
+SETUP_VIDEOOUT_GUIDE2_2,vídeo
+SSMENU_10SEC,10 seg
+SSMENU_1SEC,1 seg
+SSMENU_3SEC,3 seg
+SSMENU_5SEC,5 seg
+SSMENU_ACTIVE,Activo
+SSMENU_ALL,Todas
+SSMENU_BASIC,Básico
+SSMENU_DETAIL,Outras Definiç
+SSMENU_EFFECTS,Efeitos
+SSMENU_FACE_BASIC,Cara 1: Básica
+SSMENU_FACE_NOSTALGIC,Cara2: Nostálgica
+SSMENU_FACE_STYLISH,Cara 3: Elegante
+SSMENU_IMAGE,Imagem
+SSMENU_INFOLDER,Pasta
+SSMENU_INTERVAL,Interv.
+SSMENU_MUSIC,Música
+SSMENU_MUSIC1,Music1
+SSMENU_MUSIC2,Music2
+SSMENU_MUSIC3,Music3
+SSMENU_MUSIC4,Music4
+SSMENU_MUSIC5,Music5
+SSMENU_MUSIC6,Music6
+SSMENU_MUSIC7,Music7
+SSMENU_MUSIC8,Music8
+SSMENU_NORMAL_A,Normal
+SSMENU_NOSTALGIC,Nostálgico
+SSMENU_REFINE,Filtro
+SSMENU_REPEAT,Repetir
+SSMENU_SIMPLE,Simples
+SSMENU_STYLISH,Elegante
+SSMENU_THIS_DATE,Esta data
+SSMENU_THIS_EVENT,Este Evento

@@ -1,0 +1,30 @@
+{
+  "captured_at": "2026-09-14T20:35:00Z",
+  "model": "Sony Cyber-shot DSC-G3",
+  "fcc_id": "AK8DSCG3",
+  "firmware_version": "2.00",
+  "firmware_status": "official_version_2_applied",
+  "dns_fix_included": true,
+  "wifi_hardware": {
+    "mac_address": "00:0B:6C:B3:87:85",
+    "oui_vendor": "SyChip Inc. (Murata)",
+    "standards": "802.11b/g (2.4 GHz only)",
+    "security_supported": "WEP, WPA-PSK (TKIP), WPA2-PSK (AES)",
+    "assigned_ip": "192.168.138.3",
+    "subnet": "192.168.138.0/24"
+  },
+  "physical_verification_findings": {
+    "radio_hardware": "functional",
+    "80211_association": "successful_on_2.4ghz_iot",
+    "dhcp_lease": "successful_received_192.168.138.3",
+    "live_network_test_status": "concluded"
+  },
+  "architectural_conclusions": {
+    "wifi_firmware_updates": "impossible_natively",
+    "ota_mechanism_exists": false,
+    "legitimate_data_interfaces": ["DLNA/UPnP AV (UDP 1900)", "NetFront HTTP POST client", "Memory Stick bootloader flashing"],
+    "flashing_risk": "extreme_brick_risk_if_attempting_arbitrary_network_memory_corruption"
+  },
+  "hardware_modifications_performed": false,
+  "camera_writes_performed": false
+}

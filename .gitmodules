@@ -1,0 +1,12 @@
+[submodule "sources/OpenMemories-CI"]
+	path = sources/OpenMemories-CI
+	url = https://github.com/ma1co/OpenMemories-CI.git
+[submodule "sources/Sony-PMCA-RE"]
+	path = sources/Sony-PMCA-RE
+	url = https://github.com/ma1co/Sony-PMCA-RE.git
+[submodule "sources/fwtool.py"]
+	path = sources/fwtool.py
+	url = https://github.com/ma1co/fwtool.py.git
+[submodule "sources/qemu"]
+	path = sources/qemu
+	url = https://github.com/ma1co/qemu.git

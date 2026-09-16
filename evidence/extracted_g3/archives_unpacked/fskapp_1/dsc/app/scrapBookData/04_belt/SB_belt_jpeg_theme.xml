@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jpeg-theme xmlns="http://www.sony.co.jp/xScrapbook/1">
+	<first-frame background="SB_belt_0.jpg" alpha="SB_belt_alpha_0.jpg">
+	<photo left="712" top="334" width="1336" height="1078" order="0"/>
+	</first-frame>
+	<frame-1 background="SB_belt_01.jpg" alpha="SB_belt_alpha_01.jpg">
+	<photo left="234" top="188" width="1462" height="1162" order="0"/>
+	</frame-1>
+	<frame-2 background="SB_belt_02.jpg" alpha="SB_belt_alpha_02.jpg">
+	<photo left="96" top="436" width="1220" height="926" order="0"/>
+	<photo left="1078" top="190" width="866" height="616" order="1"/>
+	</frame-2>
+	<frame-3 background="SB_belt_03.jpg" alpha="SB_belt_alpha_03.jpg">
+	<photo left="94" top="160" width="1006" height="698" order="0"/>
+	<photo left="1122" top="184" width="844" height="1138" order="1"/>
+	<photo left="478" top="726" width="780" height="624" order="2"/>
+	</frame-3>
+	<frame-4 background="SB_belt_04.jpg" alpha="SB_belt_alpha_04.jpg">
+	<photo left="996" top="166" width="848" height="654" order="0"/>
+	<photo left="118" top="724" width="820" height="626" order="1"/>
+	<photo left="242" top="186" width="748" height="538" order="2"/>
+	<photo left="1032" top="820" width="736" height="532" order="3"/>
+	</frame-4>
+</jpeg-theme>

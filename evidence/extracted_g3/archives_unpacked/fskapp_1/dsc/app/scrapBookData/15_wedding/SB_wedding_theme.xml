@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme xmlns="http://www.sony.co.jp/xScrapbook/1"
+full-frame="SB_wedding_full-frame.zip/SB_wedding_full-frame.xsraw" 
+small-sample="SB_wedding_small-sample.zip/SB_wedding_small-sample.xsraw"
+background-color="#CCCCCC">
+
+  <page-number left="162" top="214" width="72" height="20" color="#ffffff" style="outline" halign="right"/> 
+
+	<first-frame background="SB_wedding_0.zip/SB_wedding_0.xsraw">
+        <title left="11" top="125" width="120" height="20" color="#5F5F5F" style="plain" halign="left"/> 
+        <date left="11" top="105" width="90" height="20" color="#5F5F5F" style="plain" halign="left"/> 
+        <photo left="129" top="0" width="111" height="240" order="0" /> 
+	</first-frame>
+
+	<frame-1 background="SB_wedding_01.zip/SB_wedding_01.xsraw">
+		<photo left="29" top="0" width="182" height="240" order="0"/>
+		<hit-area left="29" top="0" width="182" height="240"/>
+	</frame-1>
+
+	<frame-2 background="SB_wedding_02.zip/SB_wedding_02.xsraw">
+		<photo left="10" top="15" width="110" height="210" order="0"/>
+		<hit-area left="10" top="15" width="110" height="210"/>
+
+		<photo left="120" top="15" width="110" height="210" order="1"/>
+		<hit-area left="120" top="15" width="110" height="210"/>
+	</frame-2>
+
+	<frame-3 background="SB_wedding_03.zip/SB_wedding_03.xsraw">
+		<photo left="51" top="12" width="138" height="114" order="0"/>
+		<hit-area left="51" top="12" width="138" height="114"/>
+
+		<photo left="12" top="130" width="105" height="96" order="1"/>
+		<hit-area left="12" top="130" width="105" height="96"/>
+
+		<photo left="123" top="130" width="105" height="96" order="2"/>
+		<hit-area left="123" top="130" width="105" height="96"/>
+	</frame-3>
+
+	<frame-4 background="SB_wedding_04.zip/SB_wedding_04.xsraw">
+		<photo left="8" top="18" width="108" height="74" order="0"/>
+		<hit-area left="8" top="18" width="108" height="74"/>
+		
+		<photo left="8" top="101" width="108" height="121" order="1"/>
+		<hit-area left="8" top="101" width="108" height="121"/>
+		
+		<photo left="124" top="18" width="108" height="122" order="2"/>
+		<hit-area left="124" top="18" width="108" height="122"/>
+		
+		<photo left="124" top="148" width="108" height="74" order="3"/>
+		<hit-area left="124" top="148" width="108" height="74"/>
+  </frame-4>
+
+</theme>

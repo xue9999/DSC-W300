@@ -1,0 +1,1117 @@
+CAMMENU_0EV,0EV
+CAMMENU_100,100
+CAMMENU_10M,1.0 m
+CAMMENU_1600,1600
+CAMMENU_200,200
+CAMMENU_30M,3.0 m
+CAMMENU_3200,3200
+CAMMENU_400,400
+CAMMENU_70M,7.0 m
+CAMMENU_80,80
+CAMMENU_800,800
+CAMMENU_BRK_03EV,BRK±0,3EV
+CAMMENU_BRK_07EV,BRK±0,7EV
+CAMMENU_BRK_10EV,BRK±1,0EV
+CAMMENU_BURST,Cерия
+CAMMENU_BURST_BRK03EV_GUIDE,3 снимк. с шагом выдержки
+CAMMENU_BURST_BRK03EV_GUIDE_2,0,3 EV
+CAMMENU_BURST_BRK07EV_GUIDE,3 снимк. с шагом выдержки
+CAMMENU_BURST_BRK07EV_GUIDE_2,0,7 EV
+CAMMENU_BURST_BRK10EV_GUIDE,3 снимк. с шагом выдержки
+CAMMENU_BURST_BRK10EV_GUIDE_2,1,0 EV
+CAMMENU_BURST_OFF_GUIDE,Однокр. съемка при
+CAMMENU_BURST_OFF_GUIDE_2,однократ нажатии затвора
+CAMMENU_BURST_ON_GUIDE,Серийная съемка
+CAMMENU_BURST_ON_GUIDE_2,при нажат. кнопки затвора
+CAMMENU_CENTER,Центр
+CAMMENU_CENTERAF,Центр АF
+CAMMENU_CLOSEEYE,Минимизац. закрытых глаз
+CAMMENU_CLOSEEYE_AUTO_GUIDE,Анализ глаз во избежание
+CAMMENU_CLOSEEYE_AUTO_GUIDE_2,их закрытого состояния
+CAMMENU_CLOSEEYE_OFF_GUIDE,Выключение функции
+CAMMENU_CLOSEEYE_OFF_GUIDE_2,минимизац. закрытых глаз
+CAMMENU_COLOR,Цветовой режим
+CAMMENU_COLOR_BW,Черн-Бел
+CAMMENU_COLOR_BW_GUIDE,Создание черно-белых
+CAMMENU_COLOR_BW_GUIDE_2,изображений
+CAMMENU_COLOR_NORMAL_GUIDE,Съемка в стандартном
+CAMMENU_COLOR_NORMAL_GUIDE_2,цветном режиме
+CAMMENU_COLOR_SEPIA,Сепия
+CAMMENU_COLOR_SEPIA_GUIDE,Имитация цвета старинного
+CAMMENU_COLOR_SEPIA_GUIDE_2,фото
+CAMMENU_COLOR_VIVID,Яркий
+CAMMENU_COLOR_VIVID_GUIDE,Устан. глубокого и яркого
+CAMMENU_COLOR_VIVID_GUIDE_2,цвета изображения
+CAMMENU_CONTINUOUS,Непрерывн
+CAMMENU_DRO,DRO
+CAMMENU_DRO_ADV,Расширенный
+CAMMENU_DRO_ADV_GUIDE,Восстан. темных участков
+CAMMENU_DRO_ADV_GUIDE_2,без потери ярких участков
+CAMMENU_DRO_OFF_GUIDE,Восстан. темных участков
+CAMMENU_DRO_OFF_GUIDE_2,изображения выключено
+CAMMENU_DRO_PLUS,DRO plus
+CAMMENU_DRO_STANDARD_GUIDE,Восстан. темных участков
+CAMMENU_DRO_STANDARD_GUIDE_2,изображения
+CAMMENU_DRO_STD,DRO standard
+CAMMENU_EV,EV
+CAMMENU_EV2,EV
+CAMMENU_EV_GUIDE,Регулировка яркости (＋)
+CAMMENU_EV_GUIDE2,Регулировка яркости (＋)
+CAMMENU_EV_GUIDE2_2,и темности (－) изображен.
+CAMMENU_EV_GUIDE_2,и темности (－) изображен.
+CAMMENU_FACE,Распознавание лиц
+CAMMENU_FACE_ADULT,Приоритет взрослых
+CAMMENU_FACE_ADULT_GUIDE,Фокус с приоритетом для
+CAMMENU_FACE_ADULT_GUIDE_2,лиц взрослых
+CAMMENU_FACE_CHILD,Приоритет детей
+CAMMENU_FACE_CHILD_GUIDE,Фокус с приоритетом для
+CAMMENU_FACE_CHILD_GUIDE_2,детских лиц
+CAMMENU_FACE_ON_GUIDE,Установка приоритета
+CAMMENU_FACE_ON_GUIDE_2,фокусир. на лица людей
+CAMMENU_FACE_TOUCH_GUIDE,Актив. распознавания лица
+CAMMENU_FACE_TOUCH_GUIDE_2,только при прикоснов. лица
+CAMMENU_FLASHLEVEL,Уров. вспышки
+CAMMENU_FLASHLEVEL_DOWN_GUIDE,Съемка с фотовспышкой
+CAMMENU_FLASHLEVEL_DOWN_GUIDE_2,низкой интенсивности
+CAMMENU_FLASHLEVEL_NORMAL_GUIDE,Съемка с фотовспышкой
+CAMMENU_FLASHLEVEL_NORMAL_GUIDE_2,станрдарт. интенсивности
+CAMMENU_FLASHLEVEL_UP_GUIDE,Съемка с фотовспышкой
+CAMMENU_FLASHLEVEL_UP_GUIDE_2,высокой интенсивности
+CAMMENU_FLASH_SYNCHRO,Медл. синхр
+CAMMENU_FOCUS,Фокус
+CAMMENU_FOUCS_10M_GUIDE,Установка фокуса
+CAMMENU_FOUCS_10M_GUIDE_2,примерно на 1,0 м
+CAMMENU_FOUCS_30M_GUIDE,Установка фокуса
+CAMMENU_FOUCS_30M_GUIDE_2,примерно на 3,0 м
+CAMMENU_FOUCS_70M_GUIDE,Установка фокуса
+CAMMENU_FOUCS_70M_GUIDE_2,примерно на 7,0 м
+CAMMENU_FOUCS_CENTER_GUIDE,Автофокусировка
+CAMMENU_FOUCS_CENTER_GUIDE_2,на объект в центре кадра
+CAMMENU_FOUCS_INFINITY_GUIDE,Установка фокуса
+CAMMENU_FOUCS_INFINITY_GUIDE_2,на бесконечность
+CAMMENU_FOUCS_MANUAL_GUIDE,Установка фокуса вручную
+CAMMENU_FOUCS_MANUAL_GUIDE_2,
+CAMMENU_FOUCS_MULTI_GUIDE,Автофокусировка
+CAMMENU_FOUCS_MULTI_GUIDE_2,по всему кадру
+CAMMENU_FOUCS_SPOT_GUIDE,Автофокусировка на
+CAMMENU_FOUCS_SPOT_GUIDE_2,центральную точку
+CAMMENU_FOUCS_TSPOT_GUIDE,Автофокус при прикоснов.
+CAMMENU_FOUCS_TSPOT_GUIDE_2,к любой точке на экране
+CAMMENU_IMAGESIZE,Размер изобр
+CAMMENU_IMAGESIZE_L,Больш.
+CAMMENU_IMAGESIZE_S,Мален.
+CAMMENU_INFINITY,∞
+CAMMENU_ISO,ISO
+CAMMENU_ISO_100_GUIDE,Установка чувствительн.
+CAMMENU_ISO_100_GUIDE_2,ISO 100
+CAMMENU_ISO_1600_GUIDE,Установка чувствительн.
+CAMMENU_ISO_1600_GUIDE_2,ISO 1600
+CAMMENU_ISO_200_GUIDE,Установка чувствительн.
+CAMMENU_ISO_200_GUIDE_2,ISO 200
+CAMMENU_ISO_3200_GUIDE,Установка чувствительн.
+CAMMENU_ISO_3200_GUIDE_2,ISO 3200
+CAMMENU_ISO_400_GUIDE,Установка чувствительн.
+CAMMENU_ISO_400_GUIDE_2,ISO 400
+CAMMENU_ISO_64_GUIDE,Установка чувствительн.
+CAMMENU_ISO_64_GUIDE_2,ISO 64
+CAMMENU_ISO_800_GUIDE,Установка чувствительн.
+CAMMENU_ISO_800_GUIDE_2,ISO 800
+CAMMENU_ISO_80_GUIDE,Установка чувствительн.
+CAMMENU_ISO_80_GUIDE_2,ISO 80
+CAMMENU_ISO_AUTO_GUIDE,Авторегулировка
+CAMMENU_ISO_AUTO_GUIDE_2,чувствительности
+CAMMENU_M03EV,-0.3EV
+CAMMENU_M07EV,-0.7EV
+CAMMENU_M10EV,-1.0EV
+CAMMENU_M13EV,-1.3EV
+CAMMENU_M17EV,-1.7EV
+CAMMENU_M20EV,-2.0EV
+CAMMENU_MACRO,Макро
+CAMMENU_MENU,Меню
+CAMMENU_METERINGMODE,Режим измер
+CAMMENU_METERING_CENTER_GUIDE,Замер экспозиции по
+CAMMENU_METERING_CENTER_GUIDE_2,яркости по центру
+CAMMENU_METERING_MULTI_GUIDE,Замер экспозиции
+CAMMENU_METERING_MULTI_GUIDE_2,по всему кадру
+CAMMENU_METERING_SPOT_GUIDE,Замер экспозиции по
+CAMMENU_METERING_SPOT_GUIDE_2,яркости центральной точки
+CAMMENU_MINUS,－
+CAMMENU_MULTI,Мульти
+CAMMENU_MULTIAF,Мульти АF
+CAMMENU_NORMAL_CAP,Нормальн
+CAMMENU_P03EV,+0.3EV
+CAMMENU_P07EV,+0.7EV
+CAMMENU_P10EV,+1.0EV
+CAMMENU_P13EV,+1.3EV
+CAMMENU_P17EV,+1.7EV
+CAMMENU_P20EV,+2.0EV
+CAMMENU_PLUS,＋
+CAMMENU_RECMODE,Режим ЗАПИСИ
+CAMMENU_RECOGNITION,Распознавание сцен
+CAMMENU_RECOGNITION_ADV_GUIDE,Автом. съемка доп. кадра в
+CAMMENU_RECOGNITION_ADV_GUIDE2,Автом. съемка доп. кадра в
+CAMMENU_RECOGNITION_ADV_GUIDE2_2,сумерк или при задн освещ
+CAMMENU_RECOGNITION_ADV_GUIDE_2,сумерк или при задн освещ
+CAMMENU_RECOGNITION_AUTO2_GUIDE,Съемка с оптимальными
+CAMMENU_RECOGNITION_AUTO2_GUIDE_2,установ. для данной сцены
+CAMMENU_RECOGNITION_AUTO_GUIDE,Съемка с оптим. настр. в
+CAMMENU_RECOGNITION_AUTO_GUIDE_2,сумерк или при задн освещ
+CAMMENU_RECOGNITION_OFF_GUIDE,Распознавание сцен
+CAMMENU_RECOGNITION_OFF_GUIDE_2,выключено
+CAMMENU_REDEYEREDUCTION,Ум. эфф. кр. глаз
+CAMMENU_REDEYE_FACE_GUIDE,Автомат. умен. эф. кр. глаз
+CAMMENU_REDEYE_FACE_GUIDE_2,при обнаруж. лиц людей
+CAMMENU_REDEYE_OFF_GUIDE,Функция уменьшения
+CAMMENU_REDEYE_OFF_GUIDE_2,эф. красных глаз выкл
+CAMMENU_REDEYE_ON_GUIDE,Предв. вспышка для умен.
+CAMMENU_REDEYE_ON_GUIDE_2,эф. кр. глаз при исп. вспыш
+CAMMENU_REMAIN_NUMBER,Прибл. объем изобр.
+CAMMENU_REMAIN_TIME,Приблиз. оставш. время
+CAMMENU_SATURATION_DOWN_GUIDE,Съемка фотографий с
+CAMMENU_SATURATION_DOWN_GUIDE_2,низким насыщением цвета
+CAMMENU_SATURATION_NORMAL_GUIDE,Нормальное насыщение
+CAMMENU_SATURATION_NORMAL_GUIDE_2,цвета
+CAMMENU_SATURATION_UP_GUIDE,Съемка фотографий с
+CAMMENU_SATURATION_UP_GUIDE_2,высоким насыщ. цвета
+CAMMENU_SELFTIMER,Тайм. самозап
+CAMMENU_SELFTIMER_10SEC,Тайм. самоз 10сек
+CAMMENU_SELFTIMER_2SEC,Тайм. самоз 2сек
+CAMMENU_SELFTIMER_OFF,Тайм. самоз выкл
+CAMMENU_SETUP,Установка
+CAMMENU_SETUP_CHANGE_GUIDE,Переход к дисплею
+CAMMENU_SETUP_CHANGE_GUIDE_2,установок съемки
+CAMMENU_SHOOTING,Съемка
+CAMMENU_SIZE_10MEG,10M
+CAMMENU_SIZE_12M_GUIDE,Для отпечат. формата до
+CAMMENU_SIZE_12M_GUIDE_2,А3+
+CAMMENU_SIZE_16_9,16:9
+CAMMENU_SIZE_16_9_2MEG_GUIDE,Для просмотра в формате
+CAMMENU_SIZE_16_9_2MEG_GUIDE_2,HDTV
+CAMMENU_SIZE_16_9_A3_GUIDE,Для просм. в форм. HDTV и
+CAMMENU_SIZE_16_9_A3_GUIDE_2,печати вплоть до форм. А3
+CAMMENU_SIZE_16_9_A4_GUIDE,Для просм. в форм. HDTV и
+CAMMENU_SIZE_16_9_A4_GUIDE_2,печати вплоть до форм. А4
+CAMMENU_SIZE_16_9_GUIDE,Съемка в формате HDTV
+CAMMENU_SIZE_16_9_GUIDE_2,
+CAMMENU_SIZE_320,320
+CAMMENU_SIZE_320_GUIDE,Съемка малым формат.
+CAMMENU_SIZE_320_GUIDE_2,для вложений эл. почты
+CAMMENU_SIZE_3MEG,3M
+CAMMENU_SIZE_3M_GUIDE,Для отпеч. форм. до 10х15
+CAMMENU_SIZE_3M_GUIDE_2,или 13х18 см
+CAMMENU_SIZE_3_2_8MEG,3:2(8M)
+CAMMENU_SIZE_3_2_GUIDE,Съемка в формате 3:2
+CAMMENU_SIZE_3_2_GUIDE_2,
+CAMMENU_SIZE_4_3,4:3
+CAMMENU_SIZE_5MEG,5M
+CAMMENU_SIZE_5M_GUIDE,Для отпечат. формата до
+CAMMENU_SIZE_5M_GUIDE_2,А4
+CAMMENU_SIZE_640FINE,640(Высококач)
+CAMMENU_SIZE_640FINE_GUIDE,Высококач. видеосъемка
+CAMMENU_SIZE_640FINE_GUIDE_2,для показа по телевизору
+CAMMENU_SIZE_640STD,640(Стандарт)
+CAMMENU_SIZE_640STD_GUIDE,Стандартная видеосъемка
+CAMMENU_SIZE_640STD_GUIDE_2,для показа по телевизору
+CAMMENU_SIZE_8M_GUIDE,Для отпечат. формата до
+CAMMENU_SIZE_8M_GUIDE_2,А3
+CAMMENU_SIZE_HD_2MEG,16:9(2M)
+CAMMENU_SIZE_HD_7MEG,16:9(7M)
+CAMMENU_SIZE_HD_VGA,16:9(VGA)
+CAMMENU_SIZE_VGA,VGA
+CAMMENU_SIZE_VGA_GUIDE,Съемка малым формат.
+CAMMENU_SIZE_VGA_GUIDE_2,для вложений эл. почты
+CAMMENU_SMILE,Распознавание улыбок
+CAMMENU_SMILESHUTTER_HIGH_GUIDE,Съемка с высокой чувств.
+CAMMENU_SMILESHUTTER_HIGH_GUIDE_2,обнаружения улыбки
+CAMMENU_SMILESHUTTER_LOW_GUIDE,Съемка с низкой чувств.
+CAMMENU_SMILESHUTTER_LOW_GUIDE_2,обнаружения улыбки
+CAMMENU_SMILESHUTTER_NORMAL_GUIDE,Съемка со стандартной
+CAMMENU_SMILESHUTTER_NORMAL_GUIDE_2,чувств. обнаруж. улыбки
+CAMMENU_SMILE_DETECTION,Чувств. обнаруж. улыбки
+CAMMENU_SPOT,Пятно
+CAMMENU_SPOTAF,Пятно АF
+CAMMENU_STEADYSHOT,SteadyShot
+CAMMENU_STEADYSHOT_CONT_GUIDE,SteadyShot всегда вкл
+CAMMENU_STEADYSHOT_CONT_GUIDE_2,
+CAMMENU_STEADYSHOT_OFF_GUIDE,SteadyShot выкл
+CAMMENU_STEADYSHOT_OFF_GUIDE_2,
+CAMMENU_STEADYSHOT_SHOOT_GUIDE,SteadyShot при наполовину
+CAMMENU_STEADYSHOT_SHOOT_GUIDE_2,нажатой кнопке затвора
+CAMMENU_TOUCH,При прикосновении
+CAMMENU_WATERWB,Баланс бел при подв съем
+CAMMENU_WATERWB_AUTO_GUIDE,Автонастройка баланса
+CAMMENU_WATERWB_AUTO_GUIDE_2,белого при подв. съемке
+CAMMENU_WATERWB_FLASH_GUIDE,Используйте при подводн.
+CAMMENU_WATERWB_FLASH_GUIDE_2,съемке со вспышкой
+CAMMENU_WATERWB_WATER1,Подводный 1
+CAMMENU_WATERWB_WATER1_GUIDE,Используйте при съемке
+CAMMENU_WATERWB_WATER1_GUIDE_2,в голубой воде
+CAMMENU_WATERWB_WATER2,Подводный 2
+CAMMENU_WATERWB_WATER2_GUIDE,Используйте при съемке
+CAMMENU_WATERWB_WATER2_GUIDE_2,в зеленой воде
+CAMMENU_WB2,Баланс белого
+CAMMENU_WB_AUTO_GUIDE,Автонастройка
+CAMMENU_WB_AUTO_GUIDE_2,естественных цветов
+CAMMENU_WB_CLOUDY,Облачный
+CAMMENU_WB_CLOUDY_GUIDE,Использ. в облачную
+CAMMENU_WB_CLOUDY_GUIDE_2,погоду или в тени
+CAMMENU_WB_DAYLIGHT,Дневной свет
+CAMMENU_WB_DAYLIGHT_GUIDE,Использ. в солнечн. погоду
+CAMMENU_WB_DAYLIGHT_GUIDE_2,или для ночных сцен
+CAMMENU_WB_FLASH,Вспышка
+CAMMENU_WB_FLASH_GUIDE,Используйте при съемке
+CAMMENU_WB_FLASH_GUIDE_2,со вспышкой
+CAMMENU_WB_FLUORESCENT1,Флуоресцентный свет 1
+CAMMENU_WB_FLUORESCENT1_GUIDE,Используйте при белом
+CAMMENU_WB_FLUORESCENT1_GUIDE_2,флуоресцентном свете
+CAMMENU_WB_FLUORESCENT2,Флуоресцентный свет 2
+CAMMENU_WB_FLUORESCENT2_GUIDE,Использ. при естественном
+CAMMENU_WB_FLUORESCENT2_GUIDE_2,белом флуоресцент. свете
+CAMMENU_WB_FLUORESCENT3,Флуоресцентный свет 3
+CAMMENU_WB_FLUORESCENT3_GUIDE,Использ. при дневн. белом
+CAMMENU_WB_FLUORESCENT3_GUIDE_2,флуоресцентном свете
+CAMMENU_WB_INCANDESCENT,Лампа накалив
+CAMMENU_WB_INCANDESCENT_GUIDE,Исп. при освещ. лампой
+CAMMENU_WB_INCANDESCENT_GUIDE_2,накалив. или видеолампой
+CAMMODE_AUTO,Автоматич. регулир.
+CAMMODE_AUTO_GUIDE,Для съемки с
+CAMMODE_AUTO_GUIDE_2,автомат. установ.
+CAMMODE_BEACH,Пляж
+CAMMODE_BEACH_GUIDE,Съемка у воды с
+CAMMODE_BEACH_GUIDE_2,богатой голубизной
+CAMMODE_COOKING,Гастрономия
+CAMMODE_COOKING_GUIDE,Привлекательная съемка
+CAMMODE_COOKING_GUIDE_2,продуктов питания
+CAMMODE_EASY,Простая съемка
+CAMMODE_EASY_GUIDE,Полностью автом. съемка
+CAMMODE_EASY_GUIDE_2,с упрощ. отображением
+CAMMODE_FIREWORKS,Фейерверки
+CAMMODE_FIREWORKS_GUIDE,Съемка фейерверков
+CAMMODE_FIREWORKS_GUIDE_2,во всем их блеске
+CAMMODE_HIGHSENSITIVITY,Высок. чувствит.
+CAMMODE_HIGHSENSITIVITY_GUIDE,Съемка без вспышк. с четк.
+CAMMODE_HIGHSENSITIVITY_GUIDE_2,очерт. при низком освещ.
+CAMMODE_HIGHSPEEDSHUTTER,Выс-скор. затвор
+CAMMODE_HIGHSPEEDSHUTTER_GUIDE,Съемка движ. объектов
+CAMMODE_HIGHSPEEDSHUTTER_GUIDE_2,с останов. движения
+CAMMODE_LANDSCAPE,Ландшафт
+CAMMODE_LANDSCAPE_GUIDE,Съемка ландш. при
+CAMMODE_LANDSCAPE_GUIDE_2,фокус. на отд. объект
+CAMMODE_MOVIE,Реж. видеосъемк.
+CAMMODE_MOVIE_GUIDE,Видеосъемка со звуком
+CAMMODE_MOVIE_GUIDE_2,
+CAMMODE_PAUTO,Авто по программе
+CAMMODE_PAUTO_GUIDE,Автоматич. экспозиц.
+CAMMODE_PAUTO_GUIDE_2,с регулир. установ.
+CAMMODE_SNOW,Снег
+CAMMODE_SNOW_GUIDE,Яркая съемка
+CAMMODE_SNOW_GUIDE_2,беловатой сцены
+CAMMODE_SOFTSNAP,Момент. снимок
+CAMMODE_SOFTSNAP_GUIDE,Съемка объектов с
+CAMMODE_SOFTSNAP_GUIDE_2,мягким фоном
+CAMMODE_TWILIGHT,Сумерки
+CAMMODE_TWILIGHTPORTRAIT,Портрет в сумерк
+CAMMODE_TWILIGHTPORTRAIT_GUIDE,Портрет. съемка при
+CAMMODE_TWILIGHTPORTRAIT_GUIDE_2,низк. освещ. со вспыш
+CAMMODE_TWILIGHTTRIPOD_GUIDE,Съемка в сумерках
+CAMMODE_TWILIGHTTRIPOD_GUIDE_2,со штативом
+CAMMODE_WATER,Под водой
+CAMMODE_WATER_GUIDE,Подводн. съемка в естеств.
+CAMMODE_WATER_GUIDE_2,цветах, используя корпус
+CLOCKMENU_APR,АПР
+CLOCKMENU_AUG,АВГ
+CLOCKMENU_DEC,ДЕК
+CLOCKMENU_DMY,Д-М-Г
+CLOCKMENU_FEB,ФВР
+CLOCKMENU_JAN,ЯНВ
+CLOCKMENU_JUL,ИЮЛ
+CLOCKMENU_JUN,ИЮН
+CLOCKMENU_MAR,МРТ
+CLOCKMENU_MAY,МАЙ
+CLOCKMENU_MDY,М-Д-Г
+CLOCKMENU_NOV,НБР
+CLOCKMENU_OCT,ОКТ
+CLOCKMENU_SEP,СНТ
+CLOCKMENU_UNKNOWN,---
+CLOCKMENU_YMD,Г-М-Д
+COM_AUTO,Авто
+COM_BACK,Назад
+COM_CANCEL,Отмена
+COM_CLEAR,Удалить
+COM_CLEARALL,Очист. Все
+COM_CONTINUE,Продолж
+COM_CREATED,Созданы
+COM_ENTRY,Добавить
+COM_EXIT,Выход
+COM_FAST,Быстр.
+COM_HIGH,Высокий
+COM_INTERNALMEMORY,Внутренняя память
+COM_LOW,Низкий
+COM_MED,Средний
+COM_MIN,мн
+COM_MOVIEREC,ЗАПИС
+COM_MOVIESTBY,ОЖИДАН
+COM_MS,Memory Stick
+COM_MS_AND_INTERNALMEMORY,Memory Stick ＋ внутренняя память
+COM_NOOFFILES,№ файла
+COM_NORMAL,Нормал.
+COM_OFF,Выкл
+COM_OK,ДА
+COM_ON,Вкл
+COM_PREVIEW,Просмотр
+COM_REMAIN,Оставш. кадры
+COM_SAVE,Сохранить
+COM_SLOW,Медлен.
+COM_STANDARD,Стандартный
+COM_STANDARD2,Стандартный
+COM_START,Пуск 
+COM_USBMODE,Режим USB
+COM_VOLUME,ГРМ.
+COU_640FINE,640(Высококач) невозможно
+COU_640FINE_2,
+COU_AUDIOPLUGIN,Для выходного аудиосигнала
+COU_AUDIOPLUGIN_2,подсоедините аудиоштекер
+COU_BATTERY_HEATED,Перегрев фотоаппарата
+COU_BATTERY_HEATED_2,Дайте ему остыть
+COU_BATTERY_INFOLITHIUM,Только для  батареи
+COU_BATTERY_INFOLITHIUM_2,"InfoLITHIUM"
+COU_BATTERY_INVALID,Для использования только
+COU_BATTERY_INVALID_2,с совместимой батарейкой
+COU_BGM_ERROR,Ошибка музыки
+COU_BGM_ERROR_2,
+COU_BGM_FORMATERROR,Формат музыкиОшибка
+COU_BGM_FORMATERROR_2,
+COU_BURST_INVALID,Ф-цияСерийнойСъемкиНеДейств.
+COU_BURST_INVALID_2,
+COU_CANNOTACCESS_MS,Нет доступа к Memory Stick
+COU_CANNOTACCESS_MS_2,В доступе отказано
+COU_CANNOTCREATE_FOLDERS,Создан дополн папок
+COU_CANNOTCREATE_FOLDERS_2,невозм
+COU_DATA_ERROR,Ошибка файла управления
+COU_DATA_ERROR_2,фотоснимками
+COU_ERROR10,Ошибка10
+COU_ERROR20,Ошибка20
+COU_ERROR30,Ошибка30
+COU_ERROR40,Ошибка40
+COU_ERROR50,Ошибка50
+COU_EXCEEDED_LIMIT,Выбрано максимальное
+COU_EXCEEDED_LIMIT_2,количество изображений
+COU_FILEERROR,Ошибка файла
+COU_FILEERROR_2,
+COU_FILEPROTECT,Файл защищен
+COU_FILEPROTECT_2,
+COU_FLASHSETTING_INVALID,Установки вспышки не
+COU_FLASHSETTING_INVALID_2,могут быть изменены
+COU_FOLDER_ERROR,Ошибка папки
+COU_FOLDER_ERROR_2,
+COU_FORMATERROR_INTERNALMEMORY,Ошибка форматирования
+COU_FORMATERROR_INTERNALMEMORY_2,внутренней памяти
+COU_FORMATERROR_MS,Ошибка форматирования
+COU_FORMATERROR_MS_2,карты памяти Memory Stick
+COU_IMAGESIZEOVER,Превышен размер изобр
+COU_IMAGESIZEOVER_2,
+COU_INKERROR,Ошибка чернил
+COU_INKERROR_2,
+COU_INVALID_FILE,Неправильный файл
+COU_INVALID_FILE_2,
+COU_INVALID_FOLDER,Операция недоступна
+COU_INVALID_FOLDER_2,при просмотре папок
+COU_INVALID_MS,Невозм. сохр. файл упр. снимк.
+COU_INVALID_MS_2,на эту карту памяти Memory Stick
+COU_INVALID_OPERATION,Неправильное действие
+COU_INVALID_OPERATION_HDOUT,Опер. не может быть выполн. в
+COU_INVALID_OPERATION_HDOUT_2,мом. подачи вых. сигн. HD(1080i)
+COU_INVALID_OPERATION_MOVIEFILE,Операция не может быть выполн.
+COU_INVALID_OPERATION_MOVIEFILE_2,для видеофайлов
+COU_INVALID_OPERATION_NGFILE,Операция не может быть выполн.
+COU_INVALID_OPERATION_NGFILE_2,для неподдерживаемых файлов
+COU_INVALID_OPERATION_PICTBRIDGE,Операция не может быть выполн.
+COU_INVALID_OPERATION_PICTBRIDGE_2,при использ. соедин. PictBridge
+COU_INVALID_OPERATION_REMOTE,Операция не может быть выполн.
+COU_INVALID_OPERATION_REMOTE_2,при помощи пульта ДУ
+COU_INVALID_OPERATION_TVOUT,Операция не может быть выполн.
+COU_INVALID_OPERATION_TVOUT_2,в момент подачи вых. ТВ-сигнала
+COU_LENSCAPOFF,Снимите крышку объект. и выкл.
+COU_LENSCAPOFF_2,питание, а потом снова включите
+COU_LENSCOVER_OPEN,Откройте крышку объектива
+COU_LENSCOVER_OPEN_2,для выполнения съемки
+COU_LOWINK,Низкий уровень печатной
+COU_LOWINK_2,краски
+COU_MACRO_INVALID,Режим макро не действ
+COU_MACRO_INVALID_2,
+COU_MEDIAERROR_INTERNALMEMORY,Ошибка внутр. памяти
+COU_MEDIAERROR_INTERNALMEMORY_2,
+COU_METERING_INVALID,Операции режима фотометрии
+COU_METERING_INVALID_2,недоступны
+COU_MSR_NOTUSEFUNCTION,Функция не поддерживается этой
+COU_MSR_NOTUSEFUNCTION_2,картой памяти Memory Stick
+COU_MS_ERROR,Вставьте снова картупамяти
+COU_MS_ERROR_2,Memory Stick
+COU_MS_LOCKED,Карта памяти Memory Stick
+COU_MS_LOCKED_2,заблокирована
+COU_MS_TYPEERROR,Ошибка типа Memory Stick
+COU_MS_TYPEERROR_2,
+COU_NOBATTERY,Низкий заряд батареи
+COU_NOIMAGE,Нет снимков
+COU_NOIMAGE_2,
+COU_NOIMAGE_PLAY,Какое-то изобр. не передано
+COU_NOIMAGE_PLAY_2,Нераспознаваемый формат.
+COU_NOINK,Нет печатной краски
+COU_NOINK_2,
+COU_NOMS,Нет Memory Stick
+COU_NOMS_2,
+COU_NOPAPER,Нет бумаги
+COU_NOPAPER_2,
+COU_NOSOFTWAREFILE,Нет программного файла
+COU_NOSOFTWAREFILE_2,
+COU_NOSPACE_INTERNALMEMORY,Нет места на внутренней
+COU_NOSPACE_INTERNALMEMORY_2,памяти
+COU_NOSPACE_MS,Нет места на карте памяти
+COU_NOSPACE_MS_2,Memory Stick
+COU_NOT_SELECTED_FAV,Нет выбр. Избранные
+COU_NOT_SELECTED_FAV_2,
+COU_NOT_SELECTED_IMAGES,Нет выбр. снимка
+COU_NOT_SELECTED_IMAGES_2,
+COU_NOT_SELECTED_SHARE,Не выбрана Метка совм. доступа
+COU_NOT_SELECTED_SHARE_2,
+COU_PAPERERROR,Ошибка бумаги
+COU_PAPERERROR_2,
+COU_PASSLOCK_CODE_MISS,Неправильный код сброса
+COU_PASSLOCK_CODE_MISS_2,
+COU_PASSLOCK_PASS_MISS,Неправильный пароль
+COU_PASSLOCK_PASS_MISS_2,
+COU_POWEROFFON,Выкл питан и вкл его снова
+COU_POWEROFFON_2,
+COU_PRINTERBUSY,Принтер занят
+COU_PRINTERBUSY_2,
+COU_PRINTERERROR,Ошибка принтера
+COU_PRINTERERROR_2,
+COU_READONLYMEMORY,Только чтение памяти
+COU_READONLYMEMORY_2,
+COU_READONLY_FOLDER,Папка только для чтения
+COU_READONLY_FOLDER_2,
+COU_REDEYE_DETECTED,Красные глаза не обнаружены
+COU_REDEYE_DETECTED_2,
+COU_SCRNTOUCH_INVALID,Сенсорный экран откл. в этой
+COU_SCRNTOUCH_INVALID_2,зоне
+COU_SELFTIMER_INVALID,Таймер самозаписи
+COU_SELFTIMER_INVALID_2,не срабатывает
+COU_SMILESHUTTER_AUTOONLY,Доступен только Smile Shutter
+COU_SMILESHUTTER_AUTOONLY_2,когда реж. ЗАПИСИ уст. в "Авто"
+COU_SYSTEMERROR,Ошибка системы
+COU_SYSTEMERROR_2,
+COU_TARGET_DETECTED,Невозможно обнаружить лицо
+COU_TARGET_DETECTED_2,для ретуширования
+COU_TARGET_NOIMAGE,Нет фотоснимков
+COU_TARGET_NOIMAGE_2,
+COU_ZOOM_INVALID,Увеличение отключено
+COU_ZOOM_INVALID_2,
+DUMMY,
+GUIDE_BUTTON,Прикосн. к кнопке для использ.
+GUIDE_CENTER,Прикосн. к точке для центрир.
+GUIDE_CHANGEFOCUS,Изм. полож. фокуса прикоснов.
+GUIDE_CHOOSEFOCUS,Выбер. пол. фокуса прикоснов.
+GUIDE_DEMO_BACKLIGHT,Обнаружена подсветка
+GUIDE_DEMO_BACKLIGHTPORTRAIT,Обнаружена подсветка и люди
+GUIDE_DEMO_LANDSCAPE,Обнаружен ландшафт
+GUIDE_DEMO_MACRO,Обнаружен близко распол. объект
+GUIDE_DEMO_PORTRAIT,Обнаружены люди
+GUIDE_DEMO_TRIPOD,Обнаружены сумерки и штатив
+GUIDE_DEMO_TWILIGHT,Обнаружены сумерки
+GUIDE_DEMO_TWILIGHTPORTRAIT,Обнаружены сумерки и люди
+GUIDE_EFFECTLEVEL,Выбор уровня эффекта
+GUIDE_EXIT_TOUCH,Вых. при прикосновении к ЖКД
+GUIDE_LIGHTBEAM_LEVEL,Выбор уровня светового луча
+GUIDE_RANGE,Выбор диапазона эффекта
+GUIDE_RESIZE,Изменение размеров заверш.
+GUIDE_RETOUCH_COMPLETE,Ретуширование завершено
+GUIDE_RETRO_LIGHT,Выбор диапазона яркости
+GUIDE_ROTATEIMG,Прикосн. к изобр. для поворота
+GUIDE_SAVESIZE,Выбор размера для сохранения
+GUIDE_SELECTFACE,Выберите лицо прикоснов.
+GUIDE_SELECTFAV,Выберите папку Избранные
+GUIDE_SMILEDEMO_START,Выб. знач. улыб. для запуска дем.
+GUIDE_SMILESHUTTER_EXIT,Выб. знач. улыбки для выхода
+GUIDE_STARTIMG,Прикос. к изоб. нач. слайд-шоу
+GUIDE_TOUCHFAV,Прикосн. к папке Избранные
+GUIDE_TOUCHIMG,Прикоснитесь к изображению
+GUIDE_ZOOMIN_TOUCH,Прикос. к точке  увелич. масшт.
+GUIDE_ZOOMIN_TOUCHED,Увеличение в позиц. прикосн.
+HOME,HOME
+HOME_CAM,Съемка
+HOME_CAM_GUIDE2,Фотосъемка или
+HOME_CAM_GUIDE2_2,видеосъемка
+HOME_COMMUNICATION,Связь
+HOME_ETC_BGMTOOL,Музык. инструм.
+HOME_ETC_BGMTOOL_GUIDE2,Управл. музыкой
+HOME_ETC_BGMTOOL_GUIDE2_2,слайд-шоу
+HOME_ETC_PRINT_GUIDE2,Печать снимков
+HOME_ETC_PRINT_GUIDE2_2,
+HOME_MEMORY,Управление памятью
+HOME_MEMORY_GUIDE2,Управлен. носителем
+HOME_MEMORY_GUIDE2_2,записи
+HOME_MEMORY_INTERNALMEMORYTOOL,Устр-во внутр. памяти
+HOME_MEMORY_MEMORYSTICKTOOL,Средство Memory Stick
+HOME_MEMORY_MEMORYTOOL,Инструм. памяти
+HOME_NETWORK,Сеть
+HOME_NETWORK_GUIDE,Подсоединить к сети
+HOME_NETWORK_GUIDE_2,
+HOME_PLAY,Просмотр снимков
+HOME_PLAY1,Просмотр снимков 1
+HOME_PLAY2,Просмотр снимков 2
+HOME_PLAY_INDEX_GUIDE2,Показ составных изобр.
+HOME_PLAY_INDEX_GUIDE2_2,
+HOME_PLAY_NORMAL_GUIDE2,Воспроизв. отдельного
+HOME_PLAY_NORMAL_GUIDE2_2,изображения
+HOME_PLAY_SLIDESHOW_GUIDE2,Автовоспр. с музык. и
+HOME_PLAY_SLIDESHOW_GUIDE2_2,эффек.
+HOME_PRINT,Печать
+HOME_SCENESELECTION,Выбор сцены
+HOME_SCRAPBOOK,Фотоальбом
+HOME_SCRAPBOOK_GUIDE,Автоматическое создание
+HOME_SCRAPBOOK_GUIDE_2,Фотоальбома
+HOME_SETTINGS,Установки 
+HOME_SET_CAM,Установки съемки
+HOME_SET_CAM_GUIDE2,Регулиров. установок
+HOME_SET_CAM_GUIDE2_2,съемки
+HOME_SET_CLOCK,Установки часов
+HOME_SET_CLOCK_GUIDE2,Установка даты и времени
+HOME_SET_CLOCK_GUIDE2_2,
+HOME_SET_LANGUAGE,Language Setting
+HOME_SET_LANGUAGE_CHANGE_GUIDE,Change Language
+HOME_SET_LANGUAGE_CHANGE_GUIDE_2,
+HOME_SET_LANGUAGE_GUIDE2,Change Language
+HOME_SET_LANGUAGE_GUIDE2_2,
+HOME_SET_MAIN,Основные установ.
+HOME_SET_MAIN_GUIDE2,Регулиров. основных
+HOME_SET_MAIN_GUIDE2_2,настроек
+HOME_SLIDESHOW,Cлайд-шоу
+HOME_VIEW_DATE,Просм. по дате
+HOME_VIEW_DATE_GUIDE2,Вывод снимков по дате
+HOME_VIEW_DATE_GUIDE2_2,
+HOME_VIEW_EVENT,Просм. события
+HOME_VIEW_EVENT_GUIDE,Автом. сортировка снимков
+HOME_VIEW_EVENT_GUIDE_2,для отображ. по группам
+HOME_VIEW_FAV,Избранные
+HOME_VIEW_FAV_GUIDE2,Вывод снимков из
+HOME_VIEW_FAV_GUIDE2_2,Избранные
+HOME_VIEW_FOLDER,Просм. папки
+HOME_VIEW_FOLDER_GUIDE2,Вывод снимков в папке DCF
+HOME_VIEW_FOLDER_GUIDE2_2,
+KEY_FLASH_AUTO_GUIDE,Авто исп. вспышки
+KEY_FLASH_AUTO_GUIDE_2,Автостроб
+KEY_FLASH_OFF,Вспышка выкл
+KEY_FLASH_OFF_GUIDE,Вспышка выкл
+KEY_FLASH_OFF_GUIDE_2,Без вспышки
+KEY_FLASH_ON,Вспышка вкл
+KEY_FLASH_ON_GUIDE,Вспышка вкл
+KEY_FLASH_ON_GUIDE_2,Всегда использ. вспышку
+KEY_FLASH_SYNCHRO_GUIDE,Освещать объект съемки
+KEY_FLASH_SYNCHRO_GUIDE_2,и задний план
+KEY_MACRO_AUTO_GUIDE,Автофокусировка от крупн.
+KEY_MACRO_AUTO_GUIDE_2,плана и до бесконечности
+KEY_MACRO_NEAR,Макро вкл
+KEY_MACRO_NEAR_GUIDE,Фокус с приоритетом для
+KEY_MACRO_NEAR_GUIDE_2,очень близких объектов
+KEY_MAGNIFY_ON,Фокус крупн. планом вкл.
+KEY_MAGNIFY_ON_GUIDE,Фокус крупн. планом вкл.
+KEY_MAGNIFY_ON_GUIDE_2,Для очень крупного плана
+KEY_SELFTIMER_10_GUIDE,Съемка через 10 сек. после
+KEY_SELFTIMER_10_GUIDE_2,нажатия кнопки затвора
+KEY_SELFTIMER_2_GUIDE,Съемка через 2 сек. после
+KEY_SELFTIMER_2_GUIDE_2,нажатия кнопки затвора
+KEY_SELFTIMER_OFF_GUIDE,Автоспуск выкл
+KEY_SELFTIMER_OFF_GUIDE_2,
+MSG_ACCESSING,Доступ…
+MSG_AVI_MAKING,Создание нового файла
+MSG_CAPTURING,Захват…
+MSG_CLOSEEYE_DETECT,Обнаружены закрытые глаза
+MSG_CONFIRM_UPDATE,Выберите ДА для обновл данных
+MSG_CONFIRM_UPDATE_2,
+MSG_CONNECTING,Соединение…
+MSG_CONNECTING_MASSSTORAGE,Соединение с Mass Storage…
+MSG_CONNECTING_MASSSTORAGE_2,
+MSG_CONNECTING_NETWORK,Подсоединение к сети…
+MSG_CONNECTING_PICTBRIDGE,Подсоед к PictBridge устройству
+MSG_CONNECTING_PICTBRIDGE_2,
+MSG_CONNECTING_PTPMTP,Соединение с PTP/MTP…
+MSG_CONNECTING_PTPMTP_2,
+MSG_CONNECT_PC,Подсоединить к ПК
+MSG_CONNECT_PC_2,
+MSG_CONNECT_PICTBRIDGE,Подсоед к PictBridge устройству
+MSG_CONNECT_PICTBRIDGE_2,
+MSG_COPY,Все дан. во внутр. памяти
+MSG_COPYING,Копирование…
+MSG_COPYING_2,
+MSG_COPY_2,будут скопированы
+MSG_CREATING_RECFOLDER,Создание папки ЗАПИСИ
+MSG_CURRENTVERSION,Текущая версия
+MSG_ENTRY_OVER,Превышено максимальное
+MSG_ENTRY_OVER_2,кол-во изображений
+MSG_EXITTING_NETWORK,Закрытие сети…
+MSG_FORMATTING_BGM,Форматир. музыкa…
+MSG_FORMATTING_BGM_2,
+MSG_FORMATTING_INTERNALMEMORY,Форматир. внутренней памяти…
+MSG_FORMATTING_INTERNALMEMORY_2,
+MSG_FORMATTING_MS,Форматир. Memory Stick…
+MSG_FORMATTING_MS_2,
+MSG_FORMAT_BGM,Все музыкальные файлы будут
+MSG_FORMAT_BGM_2,удалены
+MSG_FORMAT_INTERNALMEMORY,Все дан. во внутренней
+MSG_FORMAT_INTERNALMEMORY_2,памяти будут стерты
+MSG_FORMAT_MS,Все дан. на карте памяти
+MSG_FORMAT_MS_2,Memory Stick будут стерты
+MSG_FORWARDING,Передача данных…
+MSG_HOUSING,Операция изменена
+MSG_INITIALIZE_ALLSETTINGS,Инициализац. всех уст.
+MSG_INITIALIZE_ALLSETTINGS_2,
+MSG_NEWVERSION,Новая версия
+MSG_NOTTURNOFF,Не выключать
+MSG_PASSLOCK_PASS_CANCEL,Установка пароля отменена
+MSG_PASSLOCK_PASS_CANCEL_2,
+MSG_PASSLOCK_PASS_RESET,Пароль сброшен
+MSG_PASSLOCK_PASS_RESET_2,
+MSG_PASSLOCK_PASS_RESET_MODE,Режим сброса пароля
+MSG_PASSLOCK_PASS_RESET_MODE_2,
+MSG_PASSLOCK_PASS_SET,Пароль установлен
+MSG_PASSLOCK_PASS_SET_2,
+MSG_PRINTING,Печать…
+MSG_PROCESSING,Обработка…
+MSG_RECORDING,Выполнение записи…
+MSG_RECORD_MS,Запись на  Memory Stick
+MSG_RECOVER,Восстановить данные
+MSG_RECOVERINGFILE,Восстановление файла
+MSG_RECOVERINGFILE_2,управления фотоснимками…
+MSG_RECOVER_2,
+MSG_SEE_SOFTWAREUPDATE_INST,См "Инстр по обновл прогр"
+MSG_SEE_SOFTWAREUPDATE_INST_2,
+MSG_SMILEDEMO_GUIDE,Улыбка будет захвачена автомат.
+MSG_SMILEDEMO_PROCESSING,Режим Smile Shutter в демонстр.
+MSG_SMILESHUTTER_PROCESSING,Распознавание улыбки
+MSG_SMILE_END1,Количество фотоснимков
+MSG_SOFTWAREUPDATE,Обновл программ
+MSG_SOFTWAREUPDATE_2,
+MSG_STARTING_NETWORK,Запуск сети…
+MSG_START_BROWSER,Запуск веб-браузера…
+MSG_TOUCH_X_CENTER,Прикоснит. к центру метки "×"
+MSG_TVOUT,Подача выходного ТВ-сигнала…
+MSG_USBMENU,Включить [MENU]
+PASSLOCK_PASS_CLEAR,Введите код сброса
+PASSLOCK_PASS_INPUT,Введите пароль
+PASSLOCK_PASS_REINPUT,Введите пароль еще раз
+PASSLOCK_PASS_SET,Установка пароля
+PBMENU_ALBUM_GUIDE,Возврат к альбому
+PBMENU_ALBUM_GUIDE_2,
+PBMENU_BACKGROUND,Фон
+PBMENU_BLOG_GUIDE,Уменьш. размер изобр. и
+PBMENU_BLOG_GUIDE_2,сохран. как новое изображ.
+PBMENU_DATEALL,Все изобр. за опр. период
+PBMENU_DATEALL_CLEAR,Удал. все за опр. период
+PBMENU_DATEALL_ENTRY,Добав. все за опр. период
+PBMENU_DATEALL_SET,Задать все за опр. период
+PBMENU_DATELIST,Список дат
+PBMENU_DATELIST_GUIDE,Выбор даты для просмотра
+PBMENU_DATELIST_GUIDE_2,
+PBMENU_DELETE,Удалить
+PBMENU_DELETE_ALL_GUIDE,Удалить все изображения
+PBMENU_DELETE_ALL_GUIDE_2,в этой папке
+PBMENU_DELETE_DATEALL_GUIDE,Удалить все избражения
+PBMENU_DELETE_DATEALL_GUIDE_2,за этот период
+PBMENU_DELETE_EVENTALL_GUIDE,Удалить все изображения
+PBMENU_DELETE_EVENTALL_GUIDE_2,в этом событии
+PBMENU_DELETE_SELECT_GUIDE,Удаление нескольких
+PBMENU_DELETE_SELECT_GUIDE_2,выбранных изображений
+PBMENU_DELETE_SINGLE_GUIDE,Удаление изображения
+PBMENU_DELETE_SINGLE_GUIDE_2,
+PBMENU_DPOF,DPOF
+PBMENU_DPOF_ALL_CLEAR_GUIDE,Очистка меток печати
+PBMENU_DPOF_ALL_CLEAR_GUIDE_2,для всех изображ. в папке
+PBMENU_DPOF_ALL_SET_GUIDE,Добавление меток печати
+PBMENU_DPOF_ALL_SET_GUIDE_2,для всех изображ. в папке
+PBMENU_DPOF_DATEALL_CLEAR_GUIDE,Очистка меток печати
+PBMENU_DPOF_DATEALL_CLEAR_GUIDE_2,для всех изобр. за этот пер.
+PBMENU_DPOF_DATEALL_SET_GUIDE,Добавление меток печати
+PBMENU_DPOF_DATEALL_SET_GUIDE_2,для всех изобр. за этот пер.
+PBMENU_DPOF_EVENTALL_CLEAR_GUIDE,Очист. мет. печати для всех
+PBMENU_DPOF_EVENTALL_CLEAR_GUIDE_2,изображ. в этом событии
+PBMENU_DPOF_EVENTALL_SET_GUIDE,Добав. мет. печати для всех
+PBMENU_DPOF_EVENTALL_SET_GUIDE_2,изображ. в этом событии
+PBMENU_DPOF_FAVALL_CLEAR_GUIDE,Очисткак меток печати
+PBMENU_DPOF_FAVALL_CLEAR_GUIDE_2,для всех изобр. в этой груп.
+PBMENU_DPOF_FAVALL_SET_GUIDE,Добавление меток печати
+PBMENU_DPOF_FAVALL_SET_GUIDE_2,для всех изобр. в этой груп.
+PBMENU_DPOF_SELECT_GUIDE,Вкл/выкл меток печати на
+PBMENU_DPOF_SELECT_GUIDE_2,нескольких выбран. изобр.
+PBMENU_DPOF_SINGLE_GUIDE,Вкл/выкл меток печати
+PBMENU_DPOF_SINGLE_GUIDE_2,на выбранном изображен.
+PBMENU_EDIT,Ретуширование
+PBMENU_EDIT_BLOG_EMAIL,Сетев. дневник /Эл. почта
+PBMENU_EDIT_BW,Частично поддерж. цвет
+PBMENU_EDIT_BW_GUIDE,Окружение выбран. Места
+PBMENU_EDIT_BW_GUIDE_2,монохроматич. Цветом
+PBMENU_EDIT_CROSS,Кросс-фильтр
+PBMENU_EDIT_CROSS_GUIDE,Добавл. звездного эффекта
+PBMENU_EDIT_CROSS_GUIDE_2,в яркие места на изобр.
+PBMENU_EDIT_FISHEYE,Выпуклый объектив
+PBMENU_EDIT_FISHEYE_GUIDE,Создание выпукл. эффекта
+PBMENU_EDIT_FISHEYE_GUIDE_2,вокруг выбранного места
+PBMENU_EDIT_HDTV,HDTV
+PBMENU_EDIT_RADIATION,Радиальная размытость
+PBMENU_EDIT_RADIATION_GUIDE,Создание радиал. размыт.
+PBMENU_EDIT_RADIATION_GUIDE_2,вокруг выбр. места на изоб
+PBMENU_EDIT_REDEYE,Коррекция красных глаз
+PBMENU_EDIT_REDEYE_GUIDE,"Удаление" красных глаз,
+PBMENU_EDIT_REDEYE_GUIDE_2,вызванных вспышкой
+PBMENU_EDIT_RETRO2,Ретро
+PBMENU_EDIT_RETRO2_GUIDE,Созд. размыт. и туск. краев
+PBMENU_EDIT_RETRO2_GUIDE_2,для ностальгичес. эффекта
+PBMENU_EDIT_SHARPFOUCS,Нерезкая маска
+PBMENU_EDIT_SHARPFOUCS_GUIDE,Наведение резкости
+PBMENU_EDIT_SHARPFOUCS_GUIDE_2,вокруг выбранной точки
+PBMENU_EDIT_SMILE,Улыбка
+PBMENU_EDIT_SMILE_GUIDE,Придание лицу человека
+PBMENU_EDIT_SMILE_GUIDE_2,улыбающегося выражения
+PBMENU_EDIT_SOFTFOUCS,Мягкий фокус
+PBMENU_EDIT_SOFTFOUCS_GUIDE,Создание размытости
+PBMENU_EDIT_SOFTFOUCS_GUIDE_2,фона выбран. точки
+PBMENU_EDIT_TRIMMING,Подгонка
+PBMENU_EDIT_TRIMMING_GUIDE,Кадрирование изобр. для
+PBMENU_EDIT_TRIMMING_GUIDE_2,удаления ненужных частей
+PBMENU_EVENTALL,Все в событии
+PBMENU_EVENTALL_CLEAR,Удал. все изоб. в этом соб.
+PBMENU_EVENTALL_ENTRY,Добавить все в событии
+PBMENU_EVENTALL_SET,Выбр. все изоб. в этом соб.
+PBMENU_EVENTLIST,Список событий
+PBMENU_EVENTLIST_GUIDE,Выбор события
+PBMENU_EVENTLIST_GUIDE_2,для просмотра
+PBMENU_FAV,Избранные
+PBMENU_FAV1,Избранные 1
+PBMENU_FAV2,Избранные 2
+PBMENU_FAV3,Избранные 3
+PBMENU_FAV4,Избранные 4
+PBMENU_FAV5,Избранные 5
+PBMENU_FAV6,Избранные 6
+PBMENU_FAVALL,Все в Избранные
+PBMENU_FAVALL_CLEAR,Удалить все из Избранные
+PBMENU_FAVALL_ENTRY,Добавить все в Избранные
+PBMENU_FAVALL_SET,Задать все в этой группе
+PBMENU_FAV_ALL_CLEAR_GUIDE,Удалить все снимки из
+PBMENU_FAV_ALL_CLEAR_GUIDE_2,Избранные
+PBMENU_FAV_CLEAR,Удалить Избранные
+PBMENU_FAV_CLEAR_DATEALL_GUIDE,Удалить все снимки за этот
+PBMENU_FAV_CLEAR_DATEALL_GUIDE_2,период из Избранные
+PBMENU_FAV_CLEAR_EVENTALL_GUIDE,Удалить все изображения в
+PBMENU_FAV_CLEAR_EVENTALL_GUIDE_2,событ. из Избранные
+PBMENU_FAV_ENTRY,Добавить в Избранные
+PBMENU_FAV_ENTRY_DATEALL_GUIDE,Добавить все снимки за
+PBMENU_FAV_ENTRY_DATEALL_GUIDE_2,этот период в Избранные
+PBMENU_FAV_ENTRY_EVENTALL_GUIDE,Добавить все изображ. в
+PBMENU_FAV_ENTRY_EVENTALL_GUIDE_2,этом соб. в Избранные
+PBMENU_FAV_SELECT_GUIDE,Доб/удалить выбранные
+PBMENU_FAV_SELECT_GUIDE_2,снимки в/из Избранные
+PBMENU_FAV_SET,Добав. /удал. Избранные
+PBMENU_FAV_SINGLE_GUIDE,Добав. /удал. этот снимок
+PBMENU_FAV_SINGLE_GUIDE_2,в/из Избранные
+PBMENU_FOLDERALL,Все в этой папке
+PBMENU_FOLDERALL_CLEAR,Удалить все в этой папке
+PBMENU_FOLDERALL_ENTRY,Добавить все в папку
+PBMENU_FOLDERALL_SET,Выбрать все в этой папке
+PBMENU_FOLDERJUMP,Выбор папки
+PBMENU_FRAME,Кадр
+PBMENU_HDTV_GUIDE,Кадрир. изоб. до разм. 16:9
+PBMENU_HDTV_GUIDE_2,и сохран. как нового изобр.
+PBMENU_IMAGESAVE,Сохранить как изображение
+PBMENU_MULTIPLEIMAGES,Составные снимки
+PBMENU_MULTIPLEPAGESAVE,Выбрать стр-цы и сохранить
+PBMENU_MULTIRESIZE,Выбор различн. размеров
+PBMENU_PAGESAVE,Сохранить эту страницу
+PBMENU_PAINT,Рисунок
+PBMENU_PAINT_GUIDE,Добавить рисунок, штамп
+PBMENU_PAINT_GUIDE_2,или рамку на изображение
+PBMENU_PBFOLDER_GUIDE,Выбор папки для воспроиз.
+PBMENU_PBFOLDER_GUIDE_2,
+PBMENU_PRINT_ALL_GUIDE,Печать всех изображений
+PBMENU_PRINT_ALL_GUIDE_2,в папке
+PBMENU_PRINT_DATEALL_GUIDE,Печать всех снимков
+PBMENU_PRINT_DATEALL_GUIDE_2,за этот период
+PBMENU_PRINT_EVENTALL_GUIDE,Печать всех снимков
+PBMENU_PRINT_EVENTALL_GUIDE_2,в этом событии
+PBMENU_PRINT_FAVALL_GUIDE,Печать всех снимков
+PBMENU_PRINT_FAVALL_GUIDE_2,в этой группе Избранные
+PBMENU_PRINT_SELECT_GUIDE,Печать нескольких выбран.
+PBMENU_PRINT_SELECT_GUIDE_2,изображений
+PBMENU_PRINT_SINGLE_GUIDE,Печать изображений
+PBMENU_PRINT_SINGLE_GUIDE_2,
+PBMENU_PROTECT,Защитить
+PBMENU_PROTECT_ALL_CLEAR_GUIDE,Отключ. защиту изображ.
+PBMENU_PROTECT_ALL_CLEAR_GUIDE_2,для всех изображ. в папке
+PBMENU_PROTECT_ALL_SET_GUIDE,Включ. защиту изображен
+PBMENU_PROTECT_ALL_SET_GUIDE_2,для всех изображ. в папке
+PBMENU_PROTECT_DATEALL_CLEAR_GUIDE,Отключ. защиту для
+PBMENU_PROTECT_DATEALL_CLEAR_GUIDE_2,всех изобр. за этот период
+PBMENU_PROTECT_DATEALL_SET_GUIDE,Включ. защиту для
+PBMENU_PROTECT_DATEALL_SET_GUIDE_2,всех изобр. за этот период
+PBMENU_PROTECT_EVENTALL_CLEAR_GUIDE,Откл. защиту для всех
+PBMENU_PROTECT_EVENTALL_CLEAR_GUIDE_2,изображ. в этом событии
+PBMENU_PROTECT_EVENTALL_SET_GUIDE,Включить защиту для всех
+PBMENU_PROTECT_EVENTALL_SET_GUIDE_2,изображ. в этом событии
+PBMENU_PROTECT_FAVALL_CLEAR_GUIDE,Отключ. защиту для
+PBMENU_PROTECT_FAVALL_CLEAR_GUIDE_2,всех изображ. в этой группе
+PBMENU_PROTECT_FAVALL_SET_GUIDE,Включ. защиту для
+PBMENU_PROTECT_FAVALL_SET_GUIDE_2,всех изображ. в этой группе
+PBMENU_PROTECT_SELECT_GUIDE,Вкл/выкл защиты для
+PBMENU_PROTECT_SELECT_GUIDE_2,нескольких выбран. изобр.
+PBMENU_PROTECT_SINGLE_GUIDE,Вкл/выкл защиты
+PBMENU_PROTECT_SINGLE_GUIDE_2,изображений
+PBMENU_REFINE,Фильтр по лицам
+PBMENU_REFINE_BABY,Младенцы
+PBMENU_REFINE_BABY_GUIDE,Поиск и отображение
+PBMENU_REFINE_BABY_GUIDE_2,снимков с младенцами
+PBMENU_REFINE_CHILD,Дети
+PBMENU_REFINE_CHILD_GUIDE,Поиск и отображение
+PBMENU_REFINE_CHILD_GUIDE_2,снимков с детьми
+PBMENU_REFINE_CLEAR_GUIDE,Отображение всех снимков
+PBMENU_REFINE_CLEAR_GUIDE_2,
+PBMENU_REFINE_FACE,Все люди
+PBMENU_REFINE_FACE_GUIDE,Поиск и отображение
+PBMENU_REFINE_FACE_GUIDE_2,снимков с лицами людей
+PBMENU_REFINE_SMILE,Улыбка
+PBMENU_REFINE_SMILE_GUIDE,Поиск и отображ. снимков
+PBMENU_REFINE_SMILE_GUIDE_2,с улыбающимися лицами
+PBMENU_ROTATE,Поворот
+PBMENU_ROTATE_GUIDE,Поворот изображений
+PBMENU_ROTATE_GUIDE_2,
+PBMENU_SCRAPBOOKALLSAVE,Сохр. все стр. в Фотоальбоме
+PBMENU_SCRAPBOOKALL_GUIDE,Сохранить все страницы
+PBMENU_SCRAPBOOKALL_GUIDE_2,Фотоальбома как изображ.
+PBMENU_SHARE_CLEAR,Удалить Метку доступа
+PBMENU_SHARE_CLEAR_DATEALL_GUIDE,Удалить все снимки за этот
+PBMENU_SHARE_CLEAR_DATEALL_GUIDE_2,период из Метки совм. исп.
+PBMENU_SHARE_CLEAR_EVENTALL_GUIDE,Удалить все снимки в этом
+PBMENU_SHARE_CLEAR_EVENTALL_GUIDE_2,событии из Метки совм. исп
+PBMENU_SHARE_CLEAR_FAVALL_GUIDE,Удалить все снимки в этой
+PBMENU_SHARE_CLEAR_FAVALL_GUIDE_2,группе из Метки совм. исп.
+PBMENU_SHARE_ENTRY,Добав. в Метку совм. исп.
+PBMENU_SHARE_ENTRY_DATEALL_GUIDE,Добав. все снимки за этот
+PBMENU_SHARE_ENTRY_DATEALL_GUIDE_2,период в Метку совм. исп.
+PBMENU_SHARE_ENTRY_EVENTALL_GUIDE,Добавить все снимки в этом
+PBMENU_SHARE_ENTRY_EVENTALL_GUIDE_2,событии в Метку совм. исп.
+PBMENU_SHARE_ENTRY_FAVALL_GUIDE,Добавить все снимки в этой
+PBMENU_SHARE_ENTRY_FAVALL_GUIDE_2,группе в Метку совм. исп.
+PBMENU_SHARE_SELECT_GUIDE,Добав. /удал. выбранные
+PBMENU_SHARE_SELECT_GUIDE_2,снимки в/из Метку(и) дост.
+PBMENU_SHARE_SET,Добав/удал. Метку доступа
+PBMENU_SHARE_SINGLE_GUIDE,Добав. /удал. этот снимок
+PBMENU_SHARE_SINGLE_GUIDE_2,в/из Метку(и) доступа
+PBMENU_SLIDESHOW_GUIDE,Автомат. вопроизведение
+PBMENU_SLIDESHOW_GUIDE_2,с музыкой и эффектами
+PBMENU_THISIMAGE,Данный снимок
+PBMENU_THISPAGE_GUIDE,Сохранить изображение
+PBMENU_THISPAGE_GUIDE_2,страницы этого Фотоальб.
+PBMENU_VIEWSELECT,Режим просмотра
+PBMENU_VOLUMESETTINGS,Установки громкости
+PBMENU_VOLUME_GUIDE,Регулировки громкости при
+PBMENU_VOLUME_GUIDE_2,воспр. слайд-шоу/фильмов
+PBMENU_WIDEZOOM,Дисп. шир. объект.
+PBMENU_WSCREEN_GUIDE,Кадрир. изображ. до разм
+PBMENU_WSCREEN_GUIDE_2,16:9 и его отображение
+PRINTMENU_10X15CM,10x15 cm
+PRINTMENU_1PICBORDER,1кадр/С пол.
+PRINTMENU_1PICNOBORDER,1кадр/Без пол.
+PRINTMENU_2L,13x18 cm
+PRINTMENU_2PICS,2 кадра на лист
+PRINTMENU_3PICS,3 кадра на лист
+PRINTMENU_4PICS,4 кадра на лист
+PRINTMENU_4X6,4x6"
+PRINTMENU_8PICS,8кадров на лист
+PRINTMENU_A3,A3
+PRINTMENU_A3PLUS,A3+
+PRINTMENU_A4,A4
+PRINTMENU_A6,A6
+PRINTMENU_DATE,Дата
+PRINTMENU_DATE_A,Дата
+PRINTMENU_DAYANDTIME,День/Время
+PRINTMENU_HAGAKI,Hagaki
+PRINTMENU_HDTV,Ширина
+PRINTMENU_INDEX,Индекс
+PRINTMENU_INDEXPRINT,Печать индекса
+PRINTMENU_L,9x13 cm
+PRINTMENU_LETTER,Letter
+PRINTMENU_PICTUREINPAPER,Макет
+PRINTMENU_QUANTITY,Количество
+PRINTMENU_SIZE,Размер
+SAVE,Сохранить
+SETUP_AFILLUMINATOR,Подсветка АF
+SETUP_AFILLUMINATOR_GUIDE2,Заполн. освещ. при низкой
+SETUP_AFILLUMINATOR_GUIDE2_2,освещен.
+SETUP_AFMODE,Режим АF
+SETUP_AFMODE_GUIDE2,Установки автофокусировки
+SETUP_AFMODE_GUIDE2_2,
+SETUP_AUTOREVIEW,Авто Просмотр
+SETUP_AUTOREVIEW_GUIDE2,Просм. фото в теч. 2
+SETUP_AUTOREVIEW_GUIDE2_2,сек. посл. съем
+SETUP_BEEP,Звук
+SETUP_BEEP_GUIDE2,Установки звукового сигнала
+SETUP_BEEP_GUIDE2_2,
+SETUP_BGMTOOL_DOWNLOAD_GUIDE2,Изменение музыки слайд-шоу
+SETUP_BGMTOOL_DOWNLOAD_GUIDE2_2,
+SETUP_BGMTOOL_FORMAT_GUIDE2,Удаление всей музыки
+SETUP_BGMTOOL_FORMAT_GUIDE2_2,слайд-шоу
+SETUP_BGM_DOWNLOAD,Загруз. музык
+SETUP_BGM_FORMAT,Формат музык
+SETUP_CALIBRATION,Калибровка
+SETUP_CAM1,Установки съемки 1
+SETUP_CAM2,Установки съемки 2
+SETUP_CHANGERECFOLDER,Изм папк. ЗАПИСИ
+SETUP_CLOCK_GUIDE2,Установка даты и времени
+SETUP_CLOCK_GUIDE2_2,
+SETUP_COMPONENT,COMPONENT
+SETUP_COMPONENT_D1,SD
+SETUP_COMPONENT_D3,HD(1080i)
+SETUP_COMPONENT_GUIDE2,Установки компонент. вых.
+SETUP_COMPONENT_GUIDE2_2,сигнала
+SETUP_CONTROLGUIDE,Рук. по управлен.
+SETUP_CONTROLGUIDE_GUIDE,Установки руководства по управлен.
+SETUP_CONVERSION_GUIDE2,Выбор преобразоват. Объектива
+SETUP_CONVERSION_GUIDE2_2,
+SETUP_COPY,Копировать
+SETUP_CREATERECFOLDER,Созд. папк. ЗАПИС
+SETUP_DEMOMODE,Демонстр. режим
+SETUP_DEMOMODE_GUIDE,Включить
+SETUP_DEMOMODE_GUIDE_2,демонстрационный режим
+SETUP_DIGITALZOOM,Цифров увелич
+SETUP_DIGITALZOOM_PRECISION,Точность
+SETUP_DIGITALZOOM_SMART,Интел. увел
+SETUP_DIRECTIONJUDGE,Авто ориент
+SETUP_DIRECTIONJUDGE_GUIDE2,Выбор и сохр. ориентации
+SETUP_DIRECTIONJUDGE_GUIDE2_2,камеры
+SETUP_DISP,Установка дисплея
+SETUP_DISP_09,9
+SETUP_DISP_12,12
+SETUP_DISP_16,16
+SETUP_DISP_20,20
+SETUP_DISP_BRIGHT,Яркий
+SETUP_DISP_BRIGHTNESS,Яркость ЖКД
+SETUP_DISP_BRIGHTNESSSET,Яркость
+SETUP_DISP_HISTOGRAMSET,Гистограмма
+SETUP_DISP_IMAGEONLY,Только из.
+SETUP_DISP_INDEX,Установка индекса изображения
+SETUP_DISP_MSG_GRAPH_OFF,Диаграмма не отображается
+SETUP_DISP_MSG_GRAPH_ON,Яркость отобр. изобр. как на диагр
+SETUP_DISP_MSG_ICON,Отображ. только функционал. кноп
+SETUP_DISP_MSG_IMAGE,Отображается только изображение
+SETUP_DISP_MSG_INFO,Отображ. функцион. кнопки и инфо
+SETUP_DISP_MSG_LIGHT_BRIGHT,Устан. более высокой яркости экрана
+SETUP_DISP_MSG_LIGHT_NORMAL,Устан. нормальной яркости экрана
+SETUP_DISP_MSG_THUMBNAIL_09,Индексный дисплей 9 изображений
+SETUP_DISP_MSG_THUMBNAIL_12,Индексный дисплей 12 изображений
+SETUP_DISP_MSG_THUMBNAIL_16,Индексный дисплей 16 изображений
+SETUP_DISP_MSG_THUMBNAIL_20,Индексный дисплей 20 изображений
+SETUP_DISP_MSG_WIDEZOOMSET_OFF,Вывод снимков в исходном формате
+SETUP_DISP_MSG_WIDEZOOMSET_ON,Вывод снимков в полноэкр. режиме
+SETUP_DISP_OFF,Выкл
+SETUP_DISP_ON,Вкл
+SETUP_DISP_OPT,Количест. изображен
+SETUP_DISP_PLAY,Устан. экранного дисплея воспр.
+SETUP_DISP_SHOOT,Устан. экран. дисплея съемки
+SETUP_DISP_WIDEZOOMSET,Шир-форм.
+SETUP_EXPANDEDFOUCS_GUIDE2,Увелич. центр. во время
+SETUP_EXPANDEDFOUCS_GUIDE2_2,ручн. фокус.
+SETUP_EZOOM_GUIDE2,Установки цифр.
+SETUP_EZOOM_GUIDE2_2,Масштабирования
+SETUP_FLASHSYNCHRO_GUIDE2,Синхронизация вспышки
+SETUP_FLASHSYNCHRO_GUIDE2_2,
+SETUP_FORMAT,Формат
+SETUP_FUNCTIONGUIDE,Функц. справ
+SETUP_FUNCTIONGUIDE_GUIDE2,Установки функц. справки
+SETUP_FUNCTIONGUIDE_GUIDE2_2,
+SETUP_GRIDLINE,Линия сетки
+SETUP_GRIDLINE_GUIDE2,Указания для компоновки
+SETUP_GRIDLINE_GUIDE2_2,снимков
+SETUP_HOUSING,Корпус
+SETUP_INITIALIZE,Инициализац.
+SETUP_INITIALIZE_GUIDE2,Возврат к исходным установкам
+SETUP_INITIALIZE_GUIDE2_2,
+SETUP_INTERNALMEMORY_FORMAT_GUIDE2,Форматирование внутренней
+SETUP_INTERNALMEMORY_FORMAT_GUIDE2_2,памяти
+SETUP_LANG,РУССКИЙ
+SETUP_LANG_5WAY,РУССКИЙ
+SETUP_LCD_RESPOINT_GUIDE2,Регулир. позиц. сенсор. чувств.
+SETUP_LCD_RESPOINT_GUIDE2_2,ЖКД
+SETUP_LUNSET,Установки LUN
+SETUP_LUNSET_GUIDE,Выбрать носитель записи для
+SETUP_LUNSET_GUIDE_2,подсоединения к Mass Storage
+SETUP_LUNSET_MULTI,Мульти
+SETUP_LUNSET_SINGLE,Один
+SETUP_MAIN1,Основные установки 1
+SETUP_MAIN2,Основные установки 2
+SETUP_MAIN3,Основные установки 3
+SETUP_MARINEPACK_GUIDE2,Уст. ВКЛ при исп. корпуса
+SETUP_MARINEPACK_GUIDE2_2,
+SETUP_MASSSTORAGE,Mass Storage
+SETUP_MONITOR,Монитор
+SETUP_MS_COPY_CHANGE_GUIDE2,Копир. всех изобр. с
+SETUP_MS_COPY_CHANGE_GUIDE2_2,внутр. памяти
+SETUP_MS_FOLDER_CHANGE_GUIDE2,Изм. папки для записи
+SETUP_MS_FOLDER_CHANGE_GUIDE2_2,изображения
+SETUP_MS_FOLDER_CREATE_GUIDE2,Создать новую папку
+SETUP_MS_FOLDER_CREATE_GUIDE2_2,
+SETUP_MS_FORMAT_GUIDE2,Форматирование Memory Stick
+SETUP_MS_FORMAT_GUIDE2_2,
+SETUP_NTSC,NTSC
+SETUP_PAL,PAL
+SETUP_PASSLOCK,Блокир. паролем
+SETUP_PASSLOCK_GUIDE,Уст. пароль на блокир.
+SETUP_PASSLOCK_GUIDE_2,изображения
+SETUP_PICTBRIDGE,PictBridge
+SETUP_PTPMTP,PTP/MTP
+SETUP_SHUTTER,Затвор
+SETUP_SINGLE,Один
+SETUP_SMILEDEMO,Демо реж. улыбки
+SETUP_SMILEDEMO_GUIDE2,Вкл. демо режим Smile Shutter
+SETUP_SMILEDEMO_GUIDE2_2,
+SETUP_TVTYPE,ТИП ЭКРАНА
+SETUP_TVTYPE_GUIDE2,Выбор типа ТВ монитора.
+SETUP_TVTYPE_GUIDE2_2,
+SETUP_UPDATE,Обновить
+SETUP_USBCONNECT,Подсоед USB
+SETUP_USBCONNECT_GUIDE2,Режим вых. сигнала при
+SETUP_USBCONNECT_GUIDE2_2,USB-соед.
+SETUP_VERSION,Версия
+SETUP_VERSION_GUIDE2,Провер. версию и обновить
+SETUP_VERSION_GUIDE2_2, встр. ПО
+SETUP_VIDEOOUT,Видеовыход
+SETUP_VIDEOOUT_GUIDE2,Вых. сигн. при подсоед. к
+SETUP_VIDEOOUT_GUIDE2_2,видеообор.
+SSMENU_10SEC,10 сек
+SSMENU_1SEC,1 сек
+SSMENU_3SEC,3 сек
+SSMENU_5SEC,5 сек
+SSMENU_ACTIVE,Активный
+SSMENU_ALL,Все
+SSMENU_BASIC,Основной
+SSMENU_DETAIL,Прочие настр
+SSMENU_EFFECTS,Эффекты
+SSMENU_FACE_BASIC,Лицо 1: Основной
+SSMENU_FACE_NOSTALGIC,Лицо 2: Ностальгич.
+SSMENU_FACE_STYLISH,Лицо 3: Стильный
+SSMENU_IMAGE,Изображение
+SSMENU_INFOLDER,Папка
+SSMENU_INTERVAL,Интервал
+SSMENU_MUSIC,музыкa
+SSMENU_MUSIC1,Music1
+SSMENU_MUSIC2,Music2
+SSMENU_MUSIC3,Music3
+SSMENU_MUSIC4,Music4
+SSMENU_MUSIC5,Music5
+SSMENU_MUSIC6,Music6
+SSMENU_MUSIC7,Music7
+SSMENU_MUSIC8,Music8
+SSMENU_NORMAL_A,Нормал.
+SSMENU_NOSTALGIC,Ностальгич.
+SSMENU_REFINE,Фильтр
+SSMENU_REPEAT,Повторение
+SSMENU_SIMPLE,Простой
+SSMENU_STYLISH,Стильный
+SSMENU_THIS_DATE,Эта дата
+SSMENU_THIS_EVENT,Данное событие

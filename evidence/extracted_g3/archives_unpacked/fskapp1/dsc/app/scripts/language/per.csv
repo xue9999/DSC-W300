@@ -1,0 +1,1117 @@
+CAMMENU_0EV,‫0EV‬
+CAMMENU_100,‫100‬
+CAMMENU_10M,‫1.0m‬
+CAMMENU_1600,‫1600‬
+CAMMENU_200,‫200‬
+CAMMENU_30M,‫3.0m‬
+CAMMENU_3200,‫3200‬
+CAMMENU_400,‫400‬
+CAMMENU_70M,‫7.0m‬
+CAMMENU_80,‫80‬
+CAMMENU_800,‫800‬
+CAMMENU_BRK_03EV,‫BRK±0.3EV‬
+CAMMENU_BRK_07EV,‫BRK±0.7EV‬
+CAMMENU_BRK_10EV,‫BRK±1.0EV‬
+CAMMENU_BURST,‫زنجیره ای‬
+CAMMENU_BURST_BRK03EV_GUIDE,‫گرفتن 3 تصویر با تفاوت 0.3EV‬
+CAMMENU_BURST_BRK03EV_GUIDE_2,‫‬
+CAMMENU_BURST_BRK07EV_GUIDE,‫گرفتن 3 تصویر با تفاوت 0.7EV‬
+CAMMENU_BURST_BRK07EV_GUIDE_2,‫‬
+CAMMENU_BURST_BRK10EV_GUIDE,‫گرفتن 3 تصویر با تفاوت 1.0EV‬
+CAMMENU_BURST_BRK10EV_GUIDE_2,‫‬
+CAMMENU_BURST_OFF_GUIDE,‫گرفتن یک عکس منفرد‬
+CAMMENU_BURST_OFF_GUIDE_2,‫فشار دادن دکمه شاتر‬
+CAMMENU_BURST_ON_GUIDE,‫تصویربرداری پیوسته مادامی که‬
+CAMMENU_BURST_ON_GUIDE_2,‫دکمه شاتر نگاه داشته شده‬
+CAMMENU_CENTER,‫مرکزی‬
+CAMMENU_CENTERAF,‫AF مرکزی‬
+CAMMENU_CLOSEEYE,‫تصحیح چشم های بسته‬
+CAMMENU_CLOSEEYE_AUTO_GUIDE,‫تحلیل چشم ها برای پرهیز از‬
+CAMMENU_CLOSEEYE_AUTO_GUIDE_2,‫چشم های بسته شده‬
+CAMMENU_CLOSEEYE_OFF_GUIDE,‫خاموش کردن تصحیح چشمهای بسته‬
+CAMMENU_CLOSEEYE_OFF_GUIDE_2,‫‬
+CAMMENU_COLOR,‫وضع رنگ‬
+CAMMENU_COLOR_BW,‫سیاه و سفید‬
+CAMMENU_COLOR_BW_GUIDE,‫تبدیل تصاویر به سیاه و سفید‬
+CAMMENU_COLOR_BW_GUIDE_2,‫‬
+CAMMENU_COLOR_NORMAL_GUIDE,‫تصویربرداری در وضعیت رنگ‬
+CAMMENU_COLOR_NORMAL_GUIDE_2,‫استاندارد‬
+CAMMENU_COLOR_SEPIA,‫قرمز قهوه ای‬
+CAMMENU_COLOR_SEPIA_GUIDE,‫شبیه سازی رنگ ها در عکس های‬
+CAMMENU_COLOR_SEPIA_GUIDE_2,‫قدیمی‬
+CAMMENU_COLOR_VIVID,‫زنده‬
+CAMMENU_COLOR_VIVID_GUIDE,‫تصویر را بر روی رنگ زنده و‬
+CAMMENU_COLOR_VIVID_GUIDE_2,‫روشن تصحیح می کند‬
+CAMMENU_CONTINUOUS,‫پیوسته‬
+CAMMENU_DRO,‫DRO‬
+CAMMENU_DRO_ADV,‫پیشرفته‬
+CAMMENU_DRO_ADV_GUIDE,‫بازیابی جزئیات سایه بدون‬
+CAMMENU_DRO_ADV_GUIDE_2,‫از دست دادن نقاط روشن‬
+CAMMENU_DRO_OFF_GUIDE,‫بدون بازیابی جزئیات سایه‬
+CAMMENU_DRO_OFF_GUIDE_2,‫‬
+CAMMENU_DRO_PLUS,‫DRO plus‬
+CAMMENU_DRO_STANDARD_GUIDE,‫بازیابی جزئیات از دست رفته‬
+CAMMENU_DRO_STANDARD_GUIDE_2,‫تصویر در ناحیه سایه‬
+CAMMENU_DRO_STD,‫DRO standard‬
+CAMMENU_EV,‫EV‬
+CAMMENU_EV2,‫EV‬
+CAMMENU_EV_GUIDE,‫تنظیم روشنایی (＋)‬
+CAMMENU_EV_GUIDE2,‫تنظیم روشنایی (＋)‬
+CAMMENU_EV_GUIDE2_2,‫و تاریکی (－) تصویر‬
+CAMMENU_EV_GUIDE_2,‫و تاریکی (－) تصویر‬
+CAMMENU_FACE,‫تشخیص چهره‬
+CAMMENU_FACE_ADULT,‫اولویت بزرگسال‬
+CAMMENU_FACE_ADULT_GUIDE,‫تمرکز با اولویت روی چهره های‬
+CAMMENU_FACE_ADULT_GUIDE_2,‫ بزرگسالان‬
+CAMMENU_FACE_CHILD,‫اولویت کودک‬
+CAMMENU_FACE_CHILD_GUIDE,‫تمرکز با اولویت روی چهره های‬
+CAMMENU_FACE_CHILD_GUIDE_2,‫کودکان‬
+CAMMENU_FACE_ON_GUIDE,‫تعیین اولویت بر تمرکز روی‬
+CAMMENU_FACE_ON_GUIDE_2,‫چهره افراد‬
+CAMMENU_FACE_TOUCH_GUIDE,‫فعال کردن تشخیص چهره‬
+CAMMENU_FACE_TOUCH_GUIDE_2,‫فقط هنگام تماس با یک صورت‬
+CAMMENU_FLASHLEVEL,‫درجه فلاش‬
+CAMMENU_FLASHLEVEL_DOWN_GUIDE,‫تصویربرداری با شدت فلاش کمتر‬
+CAMMENU_FLASHLEVEL_DOWN_GUIDE_2,‫‬
+CAMMENU_FLASHLEVEL_NORMAL_GUIDE,‫تصویربرداری با شدت فلاش‬
+CAMMENU_FLASHLEVEL_NORMAL_GUIDE_2,‫استاندارد‬
+CAMMENU_FLASHLEVEL_UP_GUIDE,‫تصویر برداری با شدت فلاش بیشتر‬
+CAMMENU_FLASHLEVEL_UP_GUIDE_2,‫‬
+CAMMENU_FLASH_SYNCHRO,‫انطباق کند‬
+CAMMENU_FOCUS,‫تمرکز‬
+CAMMENU_FOUCS_10M_GUIDE,‫تعیین تمرکز بر فاصله‬
+CAMMENU_FOUCS_10M_GUIDE_2,‫حدود 1.0 متر‬
+CAMMENU_FOUCS_30M_GUIDE,‫تعیین تمرکز بر فاصله‬
+CAMMENU_FOUCS_30M_GUIDE_2,‫حدود 3.0 متر‬
+CAMMENU_FOUCS_70M_GUIDE,‫تعیین تمرکز بر فاصله‬
+CAMMENU_FOUCS_70M_GUIDE_2,‫حدود 7.0 متر‬
+CAMMENU_FOUCS_CENTER_GUIDE,‫تمرکز خودکار‬
+CAMMENU_FOUCS_CENTER_GUIDE_2,‫روی یک موضوع در مرکز‬
+CAMMENU_FOUCS_INFINITY_GUIDE,‫تعیین تمرکز بر‬
+CAMMENU_FOUCS_INFINITY_GUIDE_2,‫یک فاصله نامحدود‬
+CAMMENU_FOUCS_MANUAL_GUIDE,‫تعیین تمرکز به صورت دستی‬
+CAMMENU_FOUCS_MANUAL_GUIDE_2,‫‬
+CAMMENU_FOUCS_MULTI_GUIDE,‫تمرکز خودکار‬
+CAMMENU_FOUCS_MULTI_GUIDE_2,‫در کل کادر‬
+CAMMENU_FOUCS_SPOT_GUIDE,‫تمرکز خودکار روی یک نقطه مرکزی‬
+CAMMENU_FOUCS_SPOT_GUIDE_2,‫‬
+CAMMENU_FOUCS_TSPOT_GUIDE,‫تمرکز خودکار توسط لمس هر‬
+CAMMENU_FOUCS_TSPOT_GUIDE_2,‫نقطه روی صفحه‬
+CAMMENU_IMAGESIZE,‫اندازه تصویر‬
+CAMMENU_IMAGESIZE_L,‫بزرگ‬
+CAMMENU_IMAGESIZE_S,‫کوچک‬
+CAMMENU_INFINITY,‫∞‬
+CAMMENU_ISO,‫ISO‬
+CAMMENU_ISO_100_GUIDE,‫تعیین حساسیت بر ISO 100‬
+CAMMENU_ISO_100_GUIDE_2,‫‬
+CAMMENU_ISO_1600_GUIDE,‫تعیین حساسیت بر ISO 1600‬
+CAMMENU_ISO_1600_GUIDE_2,‫‬
+CAMMENU_ISO_200_GUIDE,‫تعیین حساسیت  بر ISO 200‬
+CAMMENU_ISO_200_GUIDE_2,‫‬
+CAMMENU_ISO_3200_GUIDE,‫تعیین حساسیت بر ISO 3200‬
+CAMMENU_ISO_3200_GUIDE_2,‫‬
+CAMMENU_ISO_400_GUIDE,‫تعیین حساسیت  بر ISO 400‬
+CAMMENU_ISO_400_GUIDE_2,‫‬
+CAMMENU_ISO_64_GUIDE,‫تعیین حساسیت بر ISO 64‬
+CAMMENU_ISO_64_GUIDE_2,‫‬
+CAMMENU_ISO_800_GUIDE,‫تعیین حساسیت  بر ISO 800‬
+CAMMENU_ISO_800_GUIDE_2,‫‬
+CAMMENU_ISO_80_GUIDE,‫تعیین حساسیت بر ISO 80‬
+CAMMENU_ISO_80_GUIDE_2,‫‬
+CAMMENU_ISO_AUTO_GUIDE,‫تنظیم خودکارحساسیت‬
+CAMMENU_ISO_AUTO_GUIDE_2,‫‬
+CAMMENU_M03EV,‫-0.3EV‬
+CAMMENU_M07EV,‫-0.7EV‬
+CAMMENU_M10EV,‫-1.0EV‬
+CAMMENU_M13EV,‫-1.3EV‬
+CAMMENU_M17EV,‫-1.7EV‬
+CAMMENU_M20EV,‫-2.0EV‬
+CAMMENU_MACRO,‫ماکرو‬
+CAMMENU_MENU,‫فهرست انتخاب‬
+CAMMENU_METERINGMODE,‫وضع اندازه گیری‬
+CAMMENU_METERING_CENTER_GUIDE,‫نوردهی بر اساس‬
+CAMMENU_METERING_CENTER_GUIDE_2,‫روشنایی مرکز‬
+CAMMENU_METERING_MULTI_GUIDE,‫نوردهی متوازن شده‬
+CAMMENU_METERING_MULTI_GUIDE_2,‫در سرتاسرکادر‬
+CAMMENU_METERING_SPOT_GUIDE,‫نوردهی بر اساس‬
+CAMMENU_METERING_SPOT_GUIDE_2,‫روشنایی یک نقطه مرکزی‬
+CAMMENU_MINUS,‫－‬
+CAMMENU_MULTI,‫چندگانه‬
+CAMMENU_MULTIAF,‫AF چندگانه‬
+CAMMENU_NORMAL_CAP,‫ عادی‬
+CAMMENU_P03EV,‫+0.3EV‬
+CAMMENU_P07EV,‫+0.7EV‬
+CAMMENU_P10EV,‫+1.0EV‬
+CAMMENU_P13EV,‫+1.3EV‬
+CAMMENU_P17EV,‫+1.7EV‬
+CAMMENU_P20EV,‫+2.0EV‬
+CAMMENU_PLUS,‫＋‬
+CAMMENU_RECMODE,‫وضعیت ضبط‬
+CAMMENU_RECOGNITION,‫تشخیص صحنه‬
+CAMMENU_RECOGNITION_ADV_GUIDE,‫گرفتن خودکار یک تصویر بیشتر‬
+CAMMENU_RECOGNITION_ADV_GUIDE2,‫گرفتن خودکار یک تصویر بیشتر‬
+CAMMENU_RECOGNITION_ADV_GUIDE2_2,‫در تاریک و روشن یا زمینه روشن‬
+CAMMENU_RECOGNITION_ADV_GUIDE_2,‫در تاریک و روشن یا زمینه روشن‬
+CAMMENU_RECOGNITION_AUTO2_GUIDE,‫تصویربرداری با تنظیمات بهینه‬
+CAMMENU_RECOGNITION_AUTO2_GUIDE_2,‫برای صحنه‬
+CAMMENU_RECOGNITION_AUTO_GUIDE,‫تصویربرداری با تنظیمات بهینه‬
+CAMMENU_RECOGNITION_AUTO_GUIDE_2,‫در تاریک و روشن یا زمینه روشن‬
+CAMMENU_RECOGNITION_OFF_GUIDE,‫خاموش کردن تشخیص صحنه‬
+CAMMENU_RECOGNITION_OFF_GUIDE_2,‫‬
+CAMMENU_REDEYEREDUCTION,‫کاهش قرمزی چشم‬
+CAMMENU_REDEYE_FACE_GUIDE,‫کاهش خودکار قرمزی چشم هنگامی‬
+CAMMENU_REDEYE_FACE_GUIDE_2,‫که چهره ها تشخیص داده شوند‬
+CAMMENU_REDEYE_OFF_GUIDE,‫کاهش قرمزی چشم خاموش‬
+CAMMENU_REDEYE_OFF_GUIDE_2,‫‬
+CAMMENU_REDEYE_ON_GUIDE,‫پیش فلاش برای کاهش قرمزی چشم‬
+CAMMENU_REDEYE_ON_GUIDE_2,‫هنگام استفاده از فلاش‬
+CAMMENU_REMAIN_NUMBER,‫ظرفیت تقریبی تصویر‬
+CAMMENU_REMAIN_TIME,‫زمان باقی مانده تقریبی‬
+CAMMENU_SATURATION_DOWN_GUIDE,‫گرفتن تصاویر با اشباع رنگ کمتر‬
+CAMMENU_SATURATION_DOWN_GUIDE_2,‫‬
+CAMMENU_SATURATION_NORMAL_GUIDE,‫تعیین اشباع رنگ بر روی‬
+CAMMENU_SATURATION_NORMAL_GUIDE_2,‫ عادی‬
+CAMMENU_SATURATION_UP_GUIDE,‫گرفتن تصاویر با اشباع رنگ زیادتر‬
+CAMMENU_SATURATION_UP_GUIDE_2,‫‬
+CAMMENU_SELFTIMER,‫تایمر خودکار‬
+CAMMENU_SELFTIMER_10SEC,‫تایمر 10ثا‬
+CAMMENU_SELFTIMER_2SEC,‫تایمر 2ثا‬
+CAMMENU_SELFTIMER_OFF,‫تایمر خموش‬
+CAMMENU_SETUP,‫تنظیم‬
+CAMMENU_SETUP_CHANGE_GUIDE,‫رفتن به نمایش تنظیمات‬
+CAMMENU_SETUP_CHANGE_GUIDE_2,‫تصویربرداری‬
+CAMMENU_SHOOTING,‫ عکاسی‬
+CAMMENU_SIZE_10MEG,‫10M‬
+CAMMENU_SIZE_12M_GUIDE,‫برای چاپ  تا +A3‬
+CAMMENU_SIZE_12M_GUIDE_2,‫‬
+CAMMENU_SIZE_16_9,‫16:9‬
+CAMMENU_SIZE_16_9_2MEG_GUIDE,‫برای مشاهده بر روی تلویزیونهای‬
+CAMMENU_SIZE_16_9_2MEG_GUIDE_2,‫HD‬
+CAMMENU_SIZE_16_9_A3_GUIDE,‫برای مشاهده بر روی تلویزیونهای‬
+CAMMENU_SIZE_16_9_A3_GUIDE_2,‫HD و چاپ تا اندازه ("A3 (11x17‬
+CAMMENU_SIZE_16_9_A4_GUIDE,‫برای مشاهده بر روی تلویزیونهای‬
+CAMMENU_SIZE_16_9_A4_GUIDE_2,‫HD و چاپ تا اندازه ("A4 (8x10‬
+CAMMENU_SIZE_16_9_GUIDE,‫تصویربرداری در ابعاد HDTV‬
+CAMMENU_SIZE_16_9_GUIDE_2,‫‬
+CAMMENU_SIZE_320,‫320‬
+CAMMENU_SIZE_320_GUIDE,‫تصویربرداری در یک اندازه کوچک‬
+CAMMENU_SIZE_320_GUIDE_2,‫برای الصاق به ایمیل‬
+CAMMENU_SIZE_3MEG,‫3M‬
+CAMMENU_SIZE_3M_GUIDE,‫برای چاپ تا 10x15 سانتی متر‬
+CAMMENU_SIZE_3M_GUIDE_2,‫یا 13x18 سانتی متر‬
+CAMMENU_SIZE_3_2_8MEG,‫3:2(8M)‬
+CAMMENU_SIZE_3_2_GUIDE,‫تصویربرداری در ابعاد 3:2‬
+CAMMENU_SIZE_3_2_GUIDE_2,‫‬
+CAMMENU_SIZE_4_3,‫4:3‬
+CAMMENU_SIZE_5MEG,‫5M‬
+CAMMENU_SIZE_5M_GUIDE,‫برای چاپ  تا A4‬
+CAMMENU_SIZE_5M_GUIDE_2,‫‬
+CAMMENU_SIZE_640FINE,‫640(دقیق)‬
+CAMMENU_SIZE_640FINE_GUIDE,‫تصویربرداری فیلم با کیفیت  بالا‬
+CAMMENU_SIZE_640FINE_GUIDE_2,‫برای نمایش روی تلویزیون‬
+CAMMENU_SIZE_640STD,‫640(استاندارد)‬
+CAMMENU_SIZE_640STD_GUIDE,‫تصویربرداری فیلم با کیفیت استاندارد‬
+CAMMENU_SIZE_640STD_GUIDE_2,‫برای نمایش روی تلویزیون‬
+CAMMENU_SIZE_8M_GUIDE,‫برای چاپ تا A3‬
+CAMMENU_SIZE_8M_GUIDE_2,‫‬
+CAMMENU_SIZE_HD_2MEG,‫16:9(2M)‬
+CAMMENU_SIZE_HD_7MEG,‫16:9(7M)‬
+CAMMENU_SIZE_HD_VGA,‫16:9(VGA)‬
+CAMMENU_SIZE_VGA,‫VGA‬
+CAMMENU_SIZE_VGA_GUIDE,‫تصویربرداری در یک اندازه تصویر‬
+CAMMENU_SIZE_VGA_GUIDE_2,‫کوچک برای الصاق به ایمیل‬
+CAMMENU_SMILE,‫تشخیص لبخند‬
+CAMMENU_SMILESHUTTER_HIGH_GUIDE,‫تصویربرداری با حساسیت زیاد‬
+CAMMENU_SMILESHUTTER_HIGH_GUIDE_2,‫تشخیص لبخند‬
+CAMMENU_SMILESHUTTER_LOW_GUIDE,‫تصویربرداری با حساسیت کم‬
+CAMMENU_SMILESHUTTER_LOW_GUIDE_2,‫تشخیص لبخند‬
+CAMMENU_SMILESHUTTER_NORMAL_GUIDE,‫تصویربرداری با حساسیت استاندارد‬
+CAMMENU_SMILESHUTTER_NORMAL_GUIDE_2,‫تشخیص لبخند‬
+CAMMENU_SMILE_DETECTION,‫حساسیت تشخیص لبخند‬
+CAMMENU_SPOT,‫نقطه ای‬
+CAMMENU_SPOTAF,‫AF نقطه ای‬
+CAMMENU_STEADYSHOT,‫SteadyShot‬
+CAMMENU_STEADYSHOT_CONT_GUIDE,‫SteadyShot همواره روشن‬
+CAMMENU_STEADYSHOT_CONT_GUIDE_2,‫‬
+CAMMENU_STEADYSHOT_OFF_GUIDE,‫SteadyShot خاموش‬
+CAMMENU_STEADYSHOT_OFF_GUIDE_2,‫‬
+CAMMENU_STEADYSHOT_SHOOT_GUIDE,‫SteadyShot روشن هنگامی که‬
+CAMMENU_STEADYSHOT_SHOOT_GUIDE_2,‫دکمه دیافراگم تا نیمه فشار داده شود‬
+CAMMENU_TOUCH,‫هنگامی که لمس شد‬
+CAMMENU_WATERWB,‫توازن سفیدی زیر آب‬
+CAMMENU_WATERWB_AUTO_GUIDE,‫تنظیم خودکار توازن سفیدی‬
+CAMMENU_WATERWB_AUTO_GUIDE_2,‫برای تصویربرداری زیر آب‬
+CAMMENU_WATERWB_FLASH_GUIDE,‫استفاده هنگام تصویربرداری‬
+CAMMENU_WATERWB_FLASH_GUIDE_2,‫زیر آب با استفاده از فلاش‬
+CAMMENU_WATERWB_WATER1,‫زیر آب 1‬
+CAMMENU_WATERWB_WATER1_GUIDE,‫هنگام تصویربرداری در آب آبی رنگ‬
+CAMMENU_WATERWB_WATER1_GUIDE_2,‫استفاده کنید‬
+CAMMENU_WATERWB_WATER2,‫زیر آب 2‬
+CAMMENU_WATERWB_WATER2_GUIDE,‫هنگام تصویربرداری در آب  سبز رنگ‬
+CAMMENU_WATERWB_WATER2_GUIDE_2,‫استفاده کنید‬
+CAMMENU_WB2,‫توازن سفیدی‬
+CAMMENU_WB_AUTO_GUIDE,‫تنظیم خودکار برای رنگ های طبیعی‬
+CAMMENU_WB_AUTO_GUIDE_2,‫‬
+CAMMENU_WB_CLOUDY,‫ابری‬
+CAMMENU_WB_CLOUDY_GUIDE,‫استفاده در روزهای ابری یا‬
+CAMMENU_WB_CLOUDY_GUIDE_2,‫در سایه‬
+CAMMENU_WB_DAYLIGHT,‫نور روز‬
+CAMMENU_WB_DAYLIGHT_GUIDE,‫استفاده برای  صحنه های آفتابی‬
+CAMMENU_WB_DAYLIGHT_GUIDE_2,‫فضای بیرون یا صحنه شب‬
+CAMMENU_WB_FLASH,‫فلاش‬
+CAMMENU_WB_FLASH_GUIDE,‫استفاده هنگام تصویربرداری با فلاش‬
+CAMMENU_WB_FLASH_GUIDE_2,‫‬
+CAMMENU_WB_FLUORESCENT1,‫نور فلوئورسنت 1‬
+CAMMENU_WB_FLUORESCENT1_GUIDE,‫استفاده تحت نور فلوئورسنت سفید‬
+CAMMENU_WB_FLUORESCENT1_GUIDE_2,‫‬
+CAMMENU_WB_FLUORESCENT2,‫نور فلوئورسنت 2‬
+CAMMENU_WB_FLUORESCENT2_GUIDE,‫استفاده تحت نور فلوئورسنت سفید‬
+CAMMENU_WB_FLUORESCENT2_GUIDE_2,‫طبیعی‬
+CAMMENU_WB_FLUORESCENT3,‫نور فلوئورسنت 3‬
+CAMMENU_WB_FLUORESCENT3_GUIDE,‫استفاده تحت نور فلوئورسنت سفید‬
+CAMMENU_WB_FLUORESCENT3_GUIDE_2,‫روز‬
+CAMMENU_WB_INCANDESCENT,‫نور سفید‬
+CAMMENU_WB_INCANDESCENT_GUIDE,‫استفاده تحت نور درخشان‬
+CAMMENU_WB_INCANDESCENT_GUIDE_2,‫یا نورهای پروژکتور‬
+CAMMODE_AUTO,‫تنظیم خودکار‬
+CAMMODE_AUTO_GUIDE,‫برای عکاسی در حالت خودکار‬
+CAMMODE_AUTO_GUIDE_2,‫‬
+CAMMODE_BEACH,‫ساحل‬
+CAMMODE_BEACH_GUIDE,‫گرفتن صحنه ساحل‬
+CAMMODE_BEACH_GUIDE_2,‫با رنگ آبی پر‬
+CAMMODE_COOKING,‫تشخیص خوراکیها‬
+CAMMODE_COOKING_GUIDE,‫تصویربرداری طبیعی از خوراکیها‬
+CAMMODE_COOKING_GUIDE_2,‫‬
+CAMMODE_EASY,‫تصویربرداری آسان‬
+CAMMODE_EASY_GUIDE,‫تصویربرداری تمام خودکار‬
+CAMMODE_EASY_GUIDE_2,‫با نمایش ساده شده‬
+CAMMODE_FIREWORKS,‫آتش بازی‬
+CAMMODE_FIREWORKS_GUIDE,‫گرفتن صحنه آتش بازی‬
+CAMMODE_FIREWORKS_GUIDE_2,‫با همه شکوهش‬
+CAMMODE_HIGHSENSITIVITY,‫حساسیت بالا‬
+CAMMODE_HIGHSENSITIVITY_GUIDE,‫ عکاسی درنورکم بدون فلاش برای‬
+CAMMODE_HIGHSENSITIVITY_GUIDE_2,‫کاهش تاری‬
+CAMMODE_HIGHSPEEDSHUTTER,‫دیافراگم تند‬
+CAMMODE_HIGHSPEEDSHUTTER_GUIDE,‫گرفتن سوژه متحرک و سریع‬
+CAMMODE_HIGHSPEEDSHUTTER_GUIDE_2,‫جهت توقف حرکت‬
+CAMMODE_LANDSCAPE,‫منظره‬
+CAMMODE_LANDSCAPE_GUIDE,‫ عکاسی ازمنظره با فوکوس دور‬
+CAMMODE_LANDSCAPE_GUIDE_2,‫‬
+CAMMODE_MOVIE,‫وضعیت فیلم‬
+CAMMODE_MOVIE_GUIDE,‫ضبط فیلم‬
+CAMMODE_MOVIE_GUIDE_2,‫با صدا‬
+CAMMODE_PAUTO,‫خودکار برنامه ای‬
+CAMMODE_PAUTO_GUIDE,‫نوردهی خودکار‬
+CAMMODE_PAUTO_GUIDE_2,‫با تنظیمات قابل تنظیم‬
+CAMMODE_SNOW,‫برف‬
+CAMMODE_SNOW_GUIDE,‫گرفتن روشن‬
+CAMMODE_SNOW_GUIDE_2,‫صحنه سفید‬
+CAMMODE_SOFTSNAP,‫ عکاسی با زمینه ملایم‬
+CAMMODE_SOFTSNAP_GUIDE,‫ عکاسی سوژه با زمینه ملایم‬
+CAMMODE_SOFTSNAP_GUIDE_2,‫‬
+CAMMODE_TWILIGHT,‫تاریک و روشن‬
+CAMMODE_TWILIGHTPORTRAIT,‫چهره درتاریک روشن‬
+CAMMODE_TWILIGHTPORTRAIT_GUIDE,‫ عکاسی چهره درنورکم با فلاش‬
+CAMMODE_TWILIGHTPORTRAIT_GUIDE_2,‫‬
+CAMMODE_TWILIGHTTRIPOD_GUIDE,‫صحنه با نور کم را با استفاده از‬
+CAMMODE_TWILIGHTTRIPOD_GUIDE_2,‫یک سه پایه تصویربرداری کنید‬
+CAMMODE_WATER,‫زیر آب‬
+CAMMODE_WATER_GUIDE,‫تصویربرداری زیر آب در رنگ های‬
+CAMMODE_WATER_GUIDE_2,‫طبیعی با پوشش‬
+CLOCKMENU_APR,‫آوریل‬
+CLOCKMENU_AUG,‫اوت‬
+CLOCKMENU_DEC,‫دسمبر‬
+CLOCKMENU_DMY,‫س-م-ر‬
+CLOCKMENU_FEB,‫فوریه‬
+CLOCKMENU_JAN,‫ژانویه‬
+CLOCKMENU_JUL,‫جولای‬
+CLOCKMENU_JUN,‫ژوئن‬
+CLOCKMENU_MAR,‫مارس‬
+CLOCKMENU_MAY,‫می‬
+CLOCKMENU_MDY,‫س-ر-م‬
+CLOCKMENU_NOV,‫نوامبر‬
+CLOCKMENU_OCT,‫اکتبر‬
+CLOCKMENU_SEP,‫سپتام‬
+CLOCKMENU_UNKNOWN,‫---‬
+CLOCKMENU_YMD,‫ر-م-س‬
+COM_AUTO,‫خودکار‬
+COM_BACK,‫ عقب‬
+COM_CANCEL,‫لغو‬
+COM_CLEAR,‫حذف‬
+COM_CLEARALL,‫همه را پاک کنید‬
+COM_CONTINUE,‫ادامه‬
+COM_CREATED,‫ایجاد شده‬
+COM_ENTRY,‫اضافه‬
+COM_EXIT,‫خروج‬
+COM_FAST,‫سریع‬
+COM_HIGH,‫زیاد‬
+COM_INTERNALMEMORY,‫حافظه داخلی‬
+COM_LOW,‫کم‬
+COM_MED,‫متوسط‬
+COM_MIN,‫دقی‬
+COM_MOVIEREC,‫ضبط‬
+COM_MOVIESTBY,‫آماده‬
+COM_MS,‫Memory Stick‬
+COM_MS_AND_INTERNALMEMORY,‫Memory Stick ＋ حافظه داخلی‬
+COM_NOOFFILES,‫تعداد فایل ها‬
+COM_NORMAL,‫ عادی‬
+COM_OFF,‫خاموش‬
+COM_OK,‫تأیید‬
+COM_ON,‫روشن‬
+COM_PREVIEW,‫پيش نمايش‬
+COM_REMAIN,‫ عکس های باقیمانده‬
+COM_SAVE,‫ذخیره‬
+COM_SLOW,‫کند‬
+COM_STANDARD,‫استاندارد‬
+COM_STANDARD2,‫استاندارد‬
+COM_START,‫شروع‬
+COM_USBMODE,‫وضعیت USB‬
+COM_VOLUME,‫صدا‬
+COU_640FINE,‫640(دقیق) در دسترس نیست‬
+COU_640FINE_2,‫‬
+COU_AUDIOPLUGIN,‫برای خروجی صوتی، یک  اتصال صوتی‬
+COU_AUDIOPLUGIN_2,‫را وصل کنید‬
+COU_BATTERY_HEATED,‫گرم شدن بیش از حد دوربین‬
+COU_BATTERY_HEATED_2,‫اجازه دهید خنک شود‬
+COU_BATTERY_INFOLITHIUM,‫فقط برای باطری "InfoLITHIUM"‬
+COU_BATTERY_INFOLITHIUM_2,‫‬
+COU_BATTERY_INVALID,‫فقط برای استفاده‬
+COU_BATTERY_INVALID_2,‫با باطری قابل انطباق‬
+COU_BGM_ERROR,‫خطای موزیک‬
+COU_BGM_ERROR_2,‫‬
+COU_BGM_FORMATERROR,‫خطای فرمت موزیک‬
+COU_BGM_FORMATERROR_2,‫‬
+COU_BURST_INVALID,‫زنجیره ای فاقد اعتبار است‬
+COU_BURST_INVALID_2,‫‬
+COU_CANNOTACCESS_MS,‫ عدم دسترسی به Memory Stick‬
+COU_CANNOTACCESS_MS_2,‫از دسترسى ممانعت شده است‬
+COU_CANNOTCREATE_FOLDERS,‫نمی توان پرونده های دیگری ایجاد‬
+COU_CANNOTCREATE_FOLDERS_2,‫نمود‬
+COU_DATA_ERROR,‫خطای فایل مدیریت تصویر‬
+COU_DATA_ERROR_2,‫‬
+COU_ERROR10,‫خطای 10‬
+COU_ERROR20,‫خطای 20‬
+COU_ERROR30,‫خطای 30‬
+COU_ERROR40,‫خطای 40‬
+COU_ERROR50,‫خطای 50‬
+COU_EXCEEDED_LIMIT,‫حداکثر تصاویر انتخاب شده‬
+COU_EXCEEDED_LIMIT_2,‫‬
+COU_FILEERROR,‫خطای فایل‬
+COU_FILEERROR_2,‫‬
+COU_FILEPROTECT,‫محافظت فایل‬
+COU_FILEPROTECT_2,‫‬
+COU_FLASHSETTING_INVALID,‫تنظيمات فلاش نمى توانند تغيير داده‬
+COU_FLASHSETTING_INVALID_2,‫شوند‬
+COU_FOLDER_ERROR,‫خطای پرونده‬
+COU_FOLDER_ERROR_2,‫‬
+COU_FORMATERROR_INTERNALMEMORY,‫خطای فرمت کردن حافظه داخلی‬
+COU_FORMATERROR_INTERNALMEMORY_2,‫‬
+COU_FORMATERROR_MS,‫خطای فرمت کردن Memory Stick‬
+COU_FORMATERROR_MS_2,‫‬
+COU_IMAGESIZEOVER,‫اندازه تصویر بیش از حد‬
+COU_IMAGESIZEOVER_2,‫‬
+COU_INKERROR,‫خطای جوهر‬
+COU_INKERROR_2,‫‬
+COU_INVALID_FILE,‫فایل غیرمعتبر‬
+COU_INVALID_FILE_2,‫‬
+COU_INVALID_FOLDER,‫ عملکرد با مشاهده پرونده قابل‬
+COU_INVALID_FOLDER_2,‫دسترس نیست‬
+COU_INVALID_MS,‫فایل مدیریت تصویر را نمی توان بر روی‬
+COU_INVALID_MS_2,‫ این Memory Stick ذخیره کرد‬
+COU_INVALID_OPERATION,‫ عمل غیر معتبر‬
+COU_INVALID_OPERATION_HDOUT,‫ عملکرد نمی تواند در خلال خروجی‬
+COU_INVALID_OPERATION_HDOUT_2,‫(HD(1080i اجرا شود‬
+COU_INVALID_OPERATION_MOVIEFILE,‫ عملکرد نمی تواند برای فایل های فیلم‬
+COU_INVALID_OPERATION_MOVIEFILE_2,‫اجرا شود‬
+COU_INVALID_OPERATION_NGFILE,‫ عملکرد نمی تواند در فایل های‬
+COU_INVALID_OPERATION_NGFILE_2,‫ غیرپشتیبانی شده اجرا شود‬
+COU_INVALID_OPERATION_PICTBRIDGE,‫ عملکرد نمی تواند هنگام استفاده از یک‬
+COU_INVALID_OPERATION_PICTBRIDGE_2,‫PictBridge اجرا شود اتصال‬
+COU_INVALID_OPERATION_REMOTE,‫ عملکرد نمی تواند توسط کنترل از راه دور‬
+COU_INVALID_OPERATION_REMOTE_2,‫اجرا شود‬
+COU_INVALID_OPERATION_TVOUT,‫ عملکرد نمی تواند در خلال خروجی تلویزیون‬
+COU_INVALID_OPERATION_TVOUT_2,‫اجرا شود‬
+COU_LENSCAPOFF,‫درپوش لنز را برداشته و‬
+COU_LENSCAPOFF_2,‫دوربین را خاموش و دوباره روشن کنید‬
+COU_LENSCOVER_OPEN,‫درپوش لنز را برای تصویربرداری باز کنید‬
+COU_LENSCOVER_OPEN_2,‫‬
+COU_LOWINK,‫جوهر کم است‬
+COU_LOWINK_2,‫‬
+COU_MACRO_INVALID,‫ماکرو نا معتبر است‬
+COU_MACRO_INVALID_2,‫‬
+COU_MEDIAERROR_INTERNALMEMORY,‫خطای حافظه داخلی‬
+COU_MEDIAERROR_INTERNALMEMORY_2,‫‬
+COU_METERING_INVALID,‫ عملکردهای وضعیت اندازه گیری‬
+COU_METERING_INVALID_2,‫قابل دسترس نمی باشند‬
+COU_MSR_NOTUSEFUNCTION,‫کارکرد با این Memory Stick‬
+COU_MSR_NOTUSEFUNCTION_2,‫پشتیبانی نمی شود‬
+COU_MS_ERROR,‫Memory Stick رادوباره جا دهید‬
+COU_MS_ERROR_2,‫‬
+COU_MS_LOCKED,‫Memory Stick قفل شده‬
+COU_MS_LOCKED_2,‫‬
+COU_MS_TYPEERROR,‫خطای نوع Memory Stick‬
+COU_MS_TYPEERROR_2,‫‬
+COU_NOBATTERY,‫باطری کافی نیست‬
+COU_NOIMAGE,‫بدون تصاویر‬
+COU_NOIMAGE_2,‫‬
+COU_NOIMAGE_PLAY,‫برخی از تصویر ها انتقال داده نشدند‬
+COU_NOIMAGE_PLAY_2,‫فرمت غیرقابل تشخیص.‬
+COU_NOINK,‫جوهر موجود نیست‬
+COU_NOINK_2,‫‬
+COU_NOMS,‫بدون Memory Stick‬
+COU_NOMS_2,‫‬
+COU_NOPAPER,‫کاغذ موجود نیست‬
+COU_NOPAPER_2,‫‬
+COU_NOSOFTWAREFILE,‫بدون فایل نرم افزار‬
+COU_NOSOFTWAREFILE_2,‫‬
+COU_NOSPACE_INTERNALMEMORY,‫حافظه داخلی جا ندارد‬
+COU_NOSPACE_INTERNALMEMORY_2,‫‬
+COU_NOSPACE_MS,‫بدون فضای حافظه در‬
+COU_NOSPACE_MS_2,‫Memory Stick‬
+COU_NOT_SELECTED_FAV,‫برگزیده ها انتخاب نشده اند‬
+COU_NOT_SELECTED_FAV_2,‫‬
+COU_NOT_SELECTED_IMAGES,‫تصویری انتخاب نشده‬
+COU_NOT_SELECTED_IMAGES_2,‫‬
+COU_NOT_SELECTED_SHARE,‫ علامت تسهیمی انتخاب نشده است‬
+COU_NOT_SELECTED_SHARE_2,‫‬
+COU_PAPERERROR,‫خطای کاغذ‬
+COU_PAPERERROR_2,‫‬
+COU_PASSLOCK_CODE_MISS,‫کد بازنشانی نادرست‬
+COU_PASSLOCK_CODE_MISS_2,‫‬
+COU_PASSLOCK_PASS_MISS,‫رمز عبور نادرست‬
+COU_PASSLOCK_PASS_MISS_2,‫‬
+COU_POWEROFFON,‫خاموش کرده و دوباره روشن کنید‬
+COU_POWEROFFON_2,‫‬
+COU_PRINTERBUSY,‫چاپگر مشغول‬
+COU_PRINTERBUSY_2,‫‬
+COU_PRINTERERROR,‫خطای چاپگر‬
+COU_PRINTERERROR_2,‫‬
+COU_READONLYMEMORY,‫حافظه فقط قابل خواندن‬
+COU_READONLYMEMORY_2,‫‬
+COU_READONLY_FOLDER,‫پرونده فقط قابل خواندن‬
+COU_READONLY_FOLDER_2,‫‬
+COU_REDEYE_DETECTED,‫هیج چشم قرمزی تشخیص داده نشد‬
+COU_REDEYE_DETECTED_2,‫‬
+COU_SCRNTOUCH_INVALID,‫صفحه لمسی در این ناحیه غیرفعال است‬
+COU_SCRNTOUCH_INVALID_2,‫‬
+COU_SELFTIMER_INVALID,‫تایمر خودکار غیرمعتبر است‬
+COU_SELFTIMER_INVALID_2,‫‬
+COU_SMILESHUTTER_AUTOONLY,‫دیافراگم لبخند فقط هنگامی در دسترس است‬
+COU_SMILESHUTTER_AUTOONLY_2,‫که وضعیت ضبط برروی "خودکار" تعیین شود‬
+COU_SYSTEMERROR,‫خطای سیستم‬
+COU_SYSTEMERROR_2,‫‬
+COU_TARGET_DETECTED,‫قادر به تشخیص چهره برای روتوش نمی باشد‬
+COU_TARGET_DETECTED_2,‫‬
+COU_TARGET_NOIMAGE,‫بدون تصاویر ساکن‬
+COU_TARGET_NOIMAGE_2,‫‬
+COU_ZOOM_INVALID,‫بزرگنمایی غیرفعال شده‬
+COU_ZOOM_INVALID_2,‫‬
+DUMMY,‫‬
+GUIDE_BUTTON,‫لمس دکمه ای که می خواهید استفاده کنید‬
+GUIDE_CENTER,‫لمس نقطه برای مرکزیابی‬
+GUIDE_CHANGEFOCUS,‫تغییر موقعیت تمرکز توسط لمس‬
+GUIDE_CHOOSEFOCUS,‫انتخاب موقعیت تمرکز توسط لمس‬
+GUIDE_DEMO_BACKLIGHT,‫نور پس زمینه تشخیص داده شد‬
+GUIDE_DEMO_BACKLIGHTPORTRAIT,‫نور پس زمینه و شخص تشخیص داده شد‬
+GUIDE_DEMO_LANDSCAPE,‫منظره تشخیص داده شد‬
+GUIDE_DEMO_MACRO,‫سوژه بسیار نزدیک تشخیص داده شد‬
+GUIDE_DEMO_PORTRAIT,‫شخص تشخیص داده شد‬
+GUIDE_DEMO_TRIPOD,‫تاریک و روشن و سه پایه تشخیص داده شد‬
+GUIDE_DEMO_TWILIGHT,‫تاریک و روشن تشخیص داده شد‬
+GUIDE_DEMO_TWILIGHTPORTRAIT,‫تاریک و روشن و شخص تشخیص داده شد‬
+GUIDE_EFFECTLEVEL,‫انتخاب درجه جلوه‬
+GUIDE_EXIT_TOUCH,‫هنگامی که LCD لمس شود خارج می شود‬
+GUIDE_LIGHTBEAM_LEVEL,‫انتخاب درجه اشعه نور‬
+GUIDE_RANGE,‫انتخاب محدوده جلوه‬
+GUIDE_RESIZE,‫تغییر اندازه کامل می شود‬
+GUIDE_RETOUCH_COMPLETE,‫روتوش کردن کامل می شود‬
+GUIDE_RETRO_LIGHT,‫انتخاب محدوده روشنائی‬
+GUIDE_ROTATEIMG,‫لمس تصویری که چرخانده می شود‬
+GUIDE_SAVESIZE,‫انتخاب اندازه برای ذخیره کردن‬
+GUIDE_SELECTFACE,‫انتخاب چهره توسط لمس‬
+GUIDE_SELECTFAV,‫ پرونده برگزیده را انتخاب کنید‬
+GUIDE_SMILEDEMO_START,‫انتخاب علامت نشانه لبخند برای شروع‬
+GUIDE_SMILESHUTTER_EXIT,‫انتخاب علامت نشانه لبخند برای خروج‬
+GUIDE_STARTIMG,‫لمس تصویر شروع نمایش اسلاید‬
+GUIDE_TOUCHFAV,‫پرونده برگزیده را لمس کنید‬
+GUIDE_TOUCHIMG,‫لمس تصویر‬
+GUIDE_ZOOMIN_TOUCH,‫لمس نقطه برای بزرگنمائی در آن‬
+GUIDE_ZOOMIN_TOUCHED,‫روی موقعیت لمس شده تمرکز می کند‬
+HOME,‫HOME‬
+HOME_CAM,‫تصویربرداری‬
+HOME_CAM_GUIDE2,‫گرفتن عکس ها یا فیلم ها‬
+HOME_CAM_GUIDE2_2,‫‬
+HOME_COMMUNICATION,‫ارتباط‬
+HOME_ETC_BGMTOOL,‫ابزار موسیقی‬
+HOME_ETC_BGMTOOL_GUIDE2,‫مدیریت موسیقی نمایش اسلاید‬
+HOME_ETC_BGMTOOL_GUIDE2_2,‫‬
+HOME_ETC_PRINT_GUIDE2,‫چاپ کردن تصاویر‬
+HOME_ETC_PRINT_GUIDE2_2,‫‬
+HOME_MEMORY,‫مدیریت حافظه‬
+HOME_MEMORY_GUIDE2,‫مدیریت واسطه ضبط‬
+HOME_MEMORY_GUIDE2_2,‫‬
+HOME_MEMORY_INTERNALMEMORYTOOL,‫ابزار حافظه داخلی‬
+HOME_MEMORY_MEMORYSTICKTOOL,‫ابزار Memory Stick‬
+HOME_MEMORY_MEMORYTOOL,‫ابزار حافظه‬
+HOME_NETWORK,‫شبکه‬
+HOME_NETWORK_GUIDE,‫اتصال به شبکه‬
+HOME_NETWORK_GUIDE_2,‫‬
+HOME_PLAY,‫مشاهده تصاویر‬
+HOME_PLAY1,‫مشاهده تصاویر 1‬
+HOME_PLAY2,‫مشاهده تصاویر 2‬
+HOME_PLAY_INDEX_GUIDE2,‫نمایش تصاویر چندگانه‬
+HOME_PLAY_INDEX_GUIDE2_2,‫‬
+HOME_PLAY_NORMAL_GUIDE2,‫مشاهده یک تصویر‬
+HOME_PLAY_NORMAL_GUIDE2_2,‫منفرد‬
+HOME_PLAY_SLIDESHOW_GUIDE2,‫پخش خودکار با موسیقی و جلوه ها‬
+HOME_PLAY_SLIDESHOW_GUIDE2_2,‫‬
+HOME_PRINT,‫چاپ‬
+HOME_SCENESELECTION,‫انتخاب صحنه‬
+HOME_SCRAPBOOK,‫مجموعه‬
+HOME_SCRAPBOOK_GUIDE,‫ایجاد مجموعه به طور خودکار‬
+HOME_SCRAPBOOK_GUIDE_2,‫‬
+HOME_SETTINGS,‫تنظیمات‬
+HOME_SET_CAM,‫تنظیمات تصویربرداری‬
+HOME_SET_CAM_GUIDE2,‫تنظیم نمودن تنظیمات تصویربرداری‬
+HOME_SET_CAM_GUIDE2_2,‫‬
+HOME_SET_CLOCK,‫تنظیمات ساعت‬
+HOME_SET_CLOCK_GUIDE2,‫تنظیم نمودن تاریخ و زمان‬
+HOME_SET_CLOCK_GUIDE2_2,‫‬
+HOME_SET_LANGUAGE,‫Language Setting‬
+HOME_SET_LANGUAGE_CHANGE_GUIDE,‫Change Language‬
+HOME_SET_LANGUAGE_CHANGE_GUIDE_2,‫‬
+HOME_SET_LANGUAGE_GUIDE2,‫Change Language‬
+HOME_SET_LANGUAGE_GUIDE2_2,‫‬
+HOME_SET_MAIN,‫تنظیمات اصلی‬
+HOME_SET_MAIN_GUIDE2,‫تنظیم نمودن تنظیمات اصلی‬
+HOME_SET_MAIN_GUIDE2_2,‫‬
+HOME_SLIDESHOW,‫نمایش اسلاید‬
+HOME_VIEW_DATE,‫مشاهده تاریخ‬
+HOME_VIEW_DATE_GUIDE2,‫نمایش تصاویر بر حسب‬
+HOME_VIEW_DATE_GUIDE2_2,‫تاریخ گرفته شدن‬
+HOME_VIEW_EVENT,‫مشاهده رویداد‬
+HOME_VIEW_EVENT_GUIDE,‫مرتب نمودن خودکار تصاویر‬
+HOME_VIEW_EVENT_GUIDE_2,‫ در داخل گروه هائی برای نمایش‬
+HOME_VIEW_FAV,‫برگزیده ها‬
+HOME_VIEW_FAV_GUIDE2,‫نمایش تصاویر در برگزیده ها‬
+HOME_VIEW_FAV_GUIDE2_2,‫‬
+HOME_VIEW_FOLDER,‫مشاهده پرونده‬
+HOME_VIEW_FOLDER_GUIDE2,‫نمایش تصاویر در پرونده DCF‬
+HOME_VIEW_FOLDER_GUIDE2_2,‫‬
+KEY_FLASH_AUTO_GUIDE,‫فلاش  خودکار‬
+KEY_FLASH_AUTO_GUIDE_2,‫استفاده خودکار از فلاش‬
+KEY_FLASH_OFF,‫فلاش خاموش‬
+KEY_FLASH_OFF_GUIDE,‫فلاش خاموش‬
+KEY_FLASH_OFF_GUIDE_2,‫بدون فلاش‬
+KEY_FLASH_ON,‫فلاش روشن‬
+KEY_FLASH_ON_GUIDE,‫فلاش روشن‬
+KEY_FLASH_ON_GUIDE_2,‫استفاده همیشگی از  فلاش‬
+KEY_FLASH_SYNCHRO_GUIDE,‫موضوعات و پس زمینه های دور‬
+KEY_FLASH_SYNCHRO_GUIDE_2,‫را روشن نگاه می دارد‬
+KEY_MACRO_AUTO_GUIDE,‫تمرکز خودکار از کلوزآپ تا‬
+KEY_MACRO_AUTO_GUIDE_2,‫بی نهایت‬
+KEY_MACRO_NEAR,‫ماکرو روشن‬
+KEY_MACRO_NEAR_GUIDE,‫تمرکز با اولویت روی‬
+KEY_MACRO_NEAR_GUIDE_2,‫سوژه های بسیار نزدیک‬
+KEY_MAGNIFY_ON,‫تمرکز نزدیک فعال شده‬
+KEY_MAGNIFY_ON_GUIDE,‫تمرکز نزدیک فعال شده‬
+KEY_MAGNIFY_ON_GUIDE_2,‫برای کلوزآپ های خیلی نزدیک‬
+KEY_SELFTIMER_10_GUIDE,‫گرفتن تصویر 10 ثانیه پس از‬
+KEY_SELFTIMER_10_GUIDE_2,‫آن که دکمه دیافراگم  فشرده می شود‬
+KEY_SELFTIMER_2_GUIDE,‫گرفتن تصویر 2 ثانیه پس از‬
+KEY_SELFTIMER_2_GUIDE_2,‫آن که دکمه دیافراگم  فشرده می شود‬
+KEY_SELFTIMER_OFF_GUIDE,‫تایمر خودکار خاموش‬
+KEY_SELFTIMER_OFF_GUIDE_2,‫‬
+MSG_ACCESSING,‫دسترسی…‬
+MSG_AVI_MAKING,‫در‌حال‌ايجاد‌فايل‌مديريت‬
+MSG_CAPTURING,‫در حال گرفتن…‬
+MSG_CLOSEEYE_DETECT,‫چشم بسته شده تشخیص داده شد‬
+MSG_CONFIRM_UPDATE,‫انتخاب OK برای به روز کردن‬
+MSG_CONFIRM_UPDATE_2,‫‬
+MSG_CONNECTING,‫در حال وصل شدن…‬
+MSG_CONNECTING_MASSSTORAGE,‫در حال اتصال در Mass Storage…‬
+MSG_CONNECTING_MASSSTORAGE_2,‫‬
+MSG_CONNECTING_NETWORK,‫در حال اتصال به شبکه…‬
+MSG_CONNECTING_PICTBRIDGE,‫اتصال به دستگاه Pict Bridge…‬
+MSG_CONNECTING_PICTBRIDGE_2,‫‬
+MSG_CONNECTING_PTPMTP,‫وصل شدن به‬
+MSG_CONNECTING_PTPMTP_2,‫PTP/MTP…‬
+MSG_CONNECT_PC,‫وصل کامپیوتر‬
+MSG_CONNECT_PC_2,‫‬
+MSG_CONNECT_PICTBRIDGE,‫به وسیله PictBridge متصل کنید‬
+MSG_CONNECT_PICTBRIDGE_2,‫‬
+MSG_COPY,‫تمام داده ها در حافظه‬
+MSG_COPYING,‫کپی کردن…‬
+MSG_COPYING_2,‫‬
+MSG_COPY_2,‫داخلی کپی می شود‬
+MSG_CREATING_RECFOLDER,‫در حال ایجاد پرونده ضبط‬
+MSG_CURRENTVERSION,‫نسخه جاری‬
+MSG_ENTRY_OVER,‫از حداکثر تعداد تصاویر‬
+MSG_ENTRY_OVER_2,‫فراتر رفته است‬
+MSG_EXITTING_NETWORK,‫در حال بستن شبکه…‬
+MSG_FORMATTING_BGM,‫فرمت کردن موزیک…‬
+MSG_FORMATTING_BGM_2,‫‬
+MSG_FORMATTING_INTERNALMEMORY,‫درحال فرمت کردن حافظه داخلی…‬
+MSG_FORMATTING_INTERNALMEMORY_2,‫‬
+MSG_FORMATTING_MS,‫فرمت کردن Memory Stick…‬
+MSG_FORMATTING_MS_2,‫‬
+MSG_FORMAT_BGM,‫تمام فایل های موسیقی حذف خواهند شد‬
+MSG_FORMAT_BGM_2,‫‬
+MSG_FORMAT_INTERNALMEMORY,‫تمام داده ها در حافظه داخلی پاک‬
+MSG_FORMAT_INTERNALMEMORY_2,‫می شود‬
+MSG_FORMAT_MS,‫تمام داده ها در Memory Stick‬
+MSG_FORMAT_MS_2,‫پاک می شود‬
+MSG_FORWARDING,‫انتقال داده ها…‬
+MSG_HOUSING,‫ عملکرد تغییر می کند‬
+MSG_INITIALIZE_ALLSETTINGS,‫بازنشانی به تنظیمات پیش فرض‬
+MSG_INITIALIZE_ALLSETTINGS_2,‫‬
+MSG_NEWVERSION,‫نسخه جدید‬
+MSG_NOTTURNOFF,‫خاموش نکنید‬
+MSG_PASSLOCK_PASS_CANCEL,‫تنظیم رمز عبور لغو شده است‬
+MSG_PASSLOCK_PASS_CANCEL_2,‫‬
+MSG_PASSLOCK_PASS_RESET,‫رمز عبور بازنشانی شده است‬
+MSG_PASSLOCK_PASS_RESET_2,‫‬
+MSG_PASSLOCK_PASS_RESET_MODE,‫وضعیت بازنشانی رمز عبور‬
+MSG_PASSLOCK_PASS_RESET_MODE_2,‫‬
+MSG_PASSLOCK_PASS_SET,‫رمز عبور تعیین شده است‬
+MSG_PASSLOCK_PASS_SET_2,‫‬
+MSG_PRINTING,‫چاپ کردن…‬
+MSG_PROCESSING,‫در حال پردازش…‬
+MSG_RECORDING,‫در حال ضبط کردن…‬
+MSG_RECORD_MS,‫ضبط بر روی Memory Stick‬
+MSG_RECOVER,‫داده ها را بازیابی کنید‬
+MSG_RECOVERINGFILE,‫در حال بازیابی فایل مدیریت تصویر…‬
+MSG_RECOVERINGFILE_2,‫‬
+MSG_RECOVER_2,‫‬
+MSG_SEE_SOFTWAREUPDATE_INST,‫«دستورالعمل به روزکردن نرم‬
+MSG_SEE_SOFTWAREUPDATE_INST_2,‫افزار» را ملاحظه کنید‬
+MSG_SMILEDEMO_GUIDE,‫لبخند به طور خودکار شکار خواهد شد‬
+MSG_SMILEDEMO_PROCESSING,‫دیافراگم لبخند در نمایش‬
+MSG_SMILESHUTTER_PROCESSING,‫در حال تشخیص لبخند‬
+MSG_SMILE_END1,‫تعداد عکس ها‬
+MSG_SOFTWAREUPDATE,‫به روز کردن نرم افزار‬
+MSG_SOFTWAREUPDATE_2,‫‬
+MSG_STARTING_NETWORK,‫در حال شروع شبکه…‬
+MSG_START_BROWSER,‫در حال شروع مرورگر شبکه اینترنت…‬
+MSG_TOUCH_X_CENTER,‫مرکز علامت "×" را لمس کنید‬
+MSG_TVOUT,‫خروجی تلویزیون در حال اجرا…‬
+MSG_USBMENU,‫سوئیچ کردن روی[MENU]‬
+PASSLOCK_PASS_CLEAR,‫کد بازنشانی را وارد کنید‬
+PASSLOCK_PASS_INPUT,‫رمز عبور را وارد کنید‬
+PASSLOCK_PASS_REINPUT,‫رمز عبور را دوباره وارد کنید‬
+PASSLOCK_PASS_SET,‫تعیین رمز عبور‬
+PBMENU_ALBUM_GUIDE,‫بازگشت به آلبوم‬
+PBMENU_ALBUM_GUIDE_2,‫‬
+PBMENU_BACKGROUND,‫پس زمینه‬
+PBMENU_BLOG_GUIDE,‫کاهش اندازه تصویر و ذخیره‬
+PBMENU_BLOG_GUIDE_2,‫به عنوان یک تصویر جدید‬
+PBMENU_DATEALL,‫همه تصاویر در محدوده تاریخ‬
+PBMENU_DATEALL_CLEAR,‫حذف همه در محدوده تاریخ‬
+PBMENU_DATEALL_ENTRY,‫اضافه کردن همه در محدوده تاریخ‬
+PBMENU_DATEALL_SET,‫تعیین همه در محدوده تاریخ‬
+PBMENU_DATELIST,‫لیست تاریخ‬
+PBMENU_DATELIST_GUIDE,‫انتخاب یک تاریخ برای مشاهده‬
+PBMENU_DATELIST_GUIDE_2,‫‬
+PBMENU_DELETE,‫حذف‬
+PBMENU_DELETE_ALL_GUIDE,‫حذف تمام تصاویر‬
+PBMENU_DELETE_ALL_GUIDE_2,‫در این پرونده‬
+PBMENU_DELETE_DATEALL_GUIDE,‫حذف همه تصاویر در‬
+PBMENU_DELETE_DATEALL_GUIDE_2,‫این محدوده تاریخ‬
+PBMENU_DELETE_EVENTALL_GUIDE,‫حذف همه تصاویر در این رویداد‬
+PBMENU_DELETE_EVENTALL_GUIDE_2,‫‬
+PBMENU_DELETE_SELECT_GUIDE,‫حذف تصاویر انتخاب شده چندگانه‬
+PBMENU_DELETE_SELECT_GUIDE_2,‫‬
+PBMENU_DELETE_SINGLE_GUIDE,‫پاک کردن عکس‬
+PBMENU_DELETE_SINGLE_GUIDE_2,‫‬
+PBMENU_DPOF,‫DPOF‬
+PBMENU_DPOF_ALL_CLEAR_GUIDE,‫پاک کردن علائم سفارش چاپ برای‬
+PBMENU_DPOF_ALL_CLEAR_GUIDE_2,‫همه تصاویر در این پرونده‬
+PBMENU_DPOF_ALL_SET_GUIDE,‫اضافه کردن علائم سفارش چاپ برای‬
+PBMENU_DPOF_ALL_SET_GUIDE_2,‫همه تصاویر در این پرونده‬
+PBMENU_DPOF_DATEALL_CLEAR_GUIDE,‫پاک کردن علائم سفارش چاپ روی‬
+PBMENU_DPOF_DATEALL_CLEAR_GUIDE_2,‫همه تصاویر در این محدوده تاریخ‬
+PBMENU_DPOF_DATEALL_SET_GUIDE,‫اضافه کردن علائم سفارش چاپ برای‬
+PBMENU_DPOF_DATEALL_SET_GUIDE_2,‫همه تصاویر در این محدوده تاریخ‬
+PBMENU_DPOF_EVENTALL_CLEAR_GUIDE,‫پاک کردن علامت های سفارش چاپ‬
+PBMENU_DPOF_EVENTALL_CLEAR_GUIDE_2,‫روی همه تصاویر در این رویداد‬
+PBMENU_DPOF_EVENTALL_SET_GUIDE,‫اضافه کردن علامت های سفارش‬
+PBMENU_DPOF_EVENTALL_SET_GUIDE_2,‫چاپ روی همه تصاویر در این رویداد‬
+PBMENU_DPOF_FAVALL_CLEAR_GUIDE,‫پاک کردن علائم سفارش چاپ روی‬
+PBMENU_DPOF_FAVALL_CLEAR_GUIDE_2,‫همه تصاویر در این گروه‬
+PBMENU_DPOF_FAVALL_SET_GUIDE,‫اضافه کردن علائم سفارش چاپ روی‬
+PBMENU_DPOF_FAVALL_SET_GUIDE_2,‫همه تصاویر در این گروه‬
+PBMENU_DPOF_SELECT_GUIDE,‫روشن/خاموش علائم سفارش چاپ‬
+PBMENU_DPOF_SELECT_GUIDE_2,‫روی تصاویر انتخاب شده چندگانه‬
+PBMENU_DPOF_SINGLE_GUIDE,‫روشن/خاموش کردن علائم سفارش‬
+PBMENU_DPOF_SINGLE_GUIDE_2,‫چاپ روی تصویر انتخاب شده‬
+PBMENU_EDIT,‫رتوش‬
+PBMENU_EDIT_BLOG_EMAIL,‫بلاگ /ایمیل‬
+PBMENU_EDIT_BW,‫رنگ نسبی‬
+PBMENU_EDIT_BW_GUIDE,‫در بر گرفتن یک نقطه انتخاب شده‬
+PBMENU_EDIT_BW_GUIDE_2,‫به صورت تک رنگ‬
+PBMENU_EDIT_CROSS,‫فیلتر متقاطع‬
+PBMENU_EDIT_CROSS_GUIDE,‫اضافه کردن یک جلوه درخشش نور‬
+PBMENU_EDIT_CROSS_GUIDE_2,‫برای روشن کردن نقاط در تصویر‬
+PBMENU_EDIT_FISHEYE,‫لنز زاویه باز‬
+PBMENU_EDIT_FISHEYE_GUIDE,‫دادن جلوه زاویه باز‬
+PBMENU_EDIT_FISHEYE_GUIDE_2,‫پیرامون یک نقطه انتخاب شده‬
+PBMENU_EDIT_HDTV,‫HDTV‬
+PBMENU_EDIT_RADIATION,‫تاری شعاعی‬
+PBMENU_EDIT_RADIATION_GUIDE,‫ایجاد تاری شعاعی  پیرامون‬
+PBMENU_EDIT_RADIATION_GUIDE_2,‫یک نقطه انتخاب شده روی تصویر‬
+PBMENU_EDIT_REDEYE,‫تصحیح قرمزی چشم‬
+PBMENU_EDIT_REDEYE_GUIDE,‫قرمزی  چشم ناشی از‬
+PBMENU_EDIT_REDEYE_GUIDE_2,‫فلاش را حذف می کند‬
+PBMENU_EDIT_RETRO2,‫جلوه تمرکز ملایم‬
+PBMENU_EDIT_RETRO2_GUIDE,‫تار و کم نورکردن محیط پیرامون‬
+PBMENU_EDIT_RETRO2_GUIDE_2,‫برای یک جلوه نوستالژیک‬
+PBMENU_EDIT_SHARPFOUCS,‫پوشاندن غیر واضح‬
+PBMENU_EDIT_SHARPFOUCS_GUIDE,‫تصویر را در پیرامون یک نقطه‬
+PBMENU_EDIT_SHARPFOUCS_GUIDE_2,‫انتخابی واضح می کند‬
+PBMENU_EDIT_SMILE,‫لبخندها‬
+PBMENU_EDIT_SMILE_GUIDE,‫تعدیل چهره های افراد‬
+PBMENU_EDIT_SMILE_GUIDE_2,‫برای خندان به نظر رسیدن‬
+PBMENU_EDIT_SOFTFOUCS,‫تمرکز ملایم‬
+PBMENU_EDIT_SOFTFOUCS_GUIDE,‫تار کردن محیط پیرامون‬
+PBMENU_EDIT_SOFTFOUCS_GUIDE_2,‫یک نقطه انتخاب شده‬
+PBMENU_EDIT_TRIMMING,‫برش دادن‬
+PBMENU_EDIT_TRIMMING_GUIDE,‫برش تصاویر برای برداشتن‬
+PBMENU_EDIT_TRIMMING_GUIDE_2,‫قسمت های ناخواسته‬
+PBMENU_EVENTALL,‫همه در رویداد‬
+PBMENU_EVENTALL_CLEAR,‫حذف همه تصاویر در این رویداد‬
+PBMENU_EVENTALL_ENTRY,‫اضافه کردن همه در رویداد‬
+PBMENU_EVENTALL_SET,‫تعیین همه تصاویر در این رویداد‬
+PBMENU_EVENTLIST,‫فهرست رویداد‬
+PBMENU_EVENTLIST_GUIDE,‫انتخاب یک رویداد برای مشاهده‬
+PBMENU_EVENTLIST_GUIDE_2,‫‬
+PBMENU_FAV,‫برگزیده ها‬
+PBMENU_FAV1,‫برگزیده های 1‬
+PBMENU_FAV2,‫برگزیده های 2‬
+PBMENU_FAV3,‫برگزیده های 3‬
+PBMENU_FAV4,‫برگزیده های 4‬
+PBMENU_FAV5,‫برگزیده های 5‬
+PBMENU_FAV6,‫برگزیده های 6‬
+PBMENU_FAVALL,‫همه در برگزیده ها‬
+PBMENU_FAVALL_CLEAR,‫حذف همه در برگزیده ها‬
+PBMENU_FAVALL_ENTRY,‫اضافه کردن همه در برگزیده ها‬
+PBMENU_FAVALL_SET,‫تعیین همه در این گروه‬
+PBMENU_FAV_ALL_CLEAR_GUIDE,‫حذف همه تصاویر از‬
+PBMENU_FAV_ALL_CLEAR_GUIDE_2,‫ برگزیده ها‬
+PBMENU_FAV_CLEAR,‫حذف برگزیده ها‬
+PBMENU_FAV_CLEAR_DATEALL_GUIDE,‫حذف همه تصاویر در این‬
+PBMENU_FAV_CLEAR_DATEALL_GUIDE_2,‫محدوده تاریخ از برگزیده ها‬
+PBMENU_FAV_CLEAR_EVENTALL_GUIDE,‫حذف همه تصاویر در این رویداد‬
+PBMENU_FAV_CLEAR_EVENTALL_GUIDE_2,‫از برگزیده ها‬
+PBMENU_FAV_ENTRY,‫اضافه کردن به برگزیده ها‬
+PBMENU_FAV_ENTRY_DATEALL_GUIDE,‫اضافه کردن همه تصاویر در این‬
+PBMENU_FAV_ENTRY_DATEALL_GUIDE_2,‫محدوده تاریخ به برگزیده ها‬
+PBMENU_FAV_ENTRY_EVENTALL_GUIDE,‫اضافه کردن همه تصاویر در این‬
+PBMENU_FAV_ENTRY_EVENTALL_GUIDE_2,‫رویداد به برگزیده ها‬
+PBMENU_FAV_SELECT_GUIDE,‫اضافه/حذف تصاویر انتخاب شده‬
+PBMENU_FAV_SELECT_GUIDE_2,‫به/از برگزیده ها‬
+PBMENU_FAV_SET,‫اضافه/حذف برگزیده ها‬
+PBMENU_FAV_SINGLE_GUIDE,‫اضافه/حذف این تصویر به/‬
+PBMENU_FAV_SINGLE_GUIDE_2,‫از برگزیده ها‬
+PBMENU_FOLDERALL,‫همه در این پرونده‬
+PBMENU_FOLDERALL_CLEAR,‫حذف کردن همه در این پرونده‬
+PBMENU_FOLDERALL_ENTRY,‫اضافه کردن همه در پرونده‬
+PBMENU_FOLDERALL_SET,‫تعیین همه در این پرونده‬
+PBMENU_FOLDERJUMP,‫انتخاب پرونده‬
+PBMENU_FRAME,‫كادر‬
+PBMENU_HDTV_GUIDE,‫چیدن تصویر به اندازه 16:9‬
+PBMENU_HDTV_GUIDE_2,‫و ذخیره به عنوان یک تصویر جدید‬
+PBMENU_IMAGESAVE,‫ذخیره به عنوان یک تصویر‬
+PBMENU_MULTIPLEIMAGES,‫تصاویر چندگانه‬
+PBMENU_MULTIPLEPAGESAVE,‫انتخاب صفحات و ذخیره‬
+PBMENU_MULTIRESIZE,‫تغییر اندازه چندگانه‬
+PBMENU_PAGESAVE,‫ذخیره این صفحه‬
+PBMENU_PAINT,‫رنگ‬
+PBMENU_PAINT_GUIDE,‫اضافه کردن رنگ، مهر یا چهارچوب‬
+PBMENU_PAINT_GUIDE_2,‫به تصویر‬
+PBMENU_PBFOLDER_GUIDE,‫انتخاب یک پرونده برای پخش‬
+PBMENU_PBFOLDER_GUIDE_2,‫‬
+PBMENU_PRINT_ALL_GUIDE,‫چاپ همه تصاویر در پرونده‬
+PBMENU_PRINT_ALL_GUIDE_2,‫‬
+PBMENU_PRINT_DATEALL_GUIDE,‫چاپ همه تصاویر‬
+PBMENU_PRINT_DATEALL_GUIDE_2,‫در این محدوده تاریخ‬
+PBMENU_PRINT_EVENTALL_GUIDE,‫چاپ همه تصاویر‬
+PBMENU_PRINT_EVENTALL_GUIDE_2,‫در این رویداد‬
+PBMENU_PRINT_FAVALL_GUIDE,‫چاپ همه تصاویر‬
+PBMENU_PRINT_FAVALL_GUIDE_2,‫در این گروه برگزیده ها‬
+PBMENU_PRINT_SELECT_GUIDE,‫چاپ کردن تصاویر انتخاب شده‬
+PBMENU_PRINT_SELECT_GUIDE_2,‫چندگانه‬
+PBMENU_PRINT_SINGLE_GUIDE,‫چاپ کردن تصاویر‬
+PBMENU_PRINT_SINGLE_GUIDE_2,‫‬
+PBMENU_PROTECT,‫محافظت‬
+PBMENU_PROTECT_ALL_CLEAR_GUIDE,‫خاموش کردن محافظت تصویر برای‬
+PBMENU_PROTECT_ALL_CLEAR_GUIDE_2,‫همه تصاویر در این پرونده‬
+PBMENU_PROTECT_ALL_SET_GUIDE,‫روشن کردن محافظت تصویر برای‬
+PBMENU_PROTECT_ALL_SET_GUIDE_2,‫همه تصاویر در این پرونده‬
+PBMENU_PROTECT_DATEALL_CLEAR_GUIDE,‫خاموش کردن محافظت برای همه‬
+PBMENU_PROTECT_DATEALL_CLEAR_GUIDE_2,‫تصاویر در این محدوده تاریخ‬
+PBMENU_PROTECT_DATEALL_SET_GUIDE,‫روشن کردن محافظت برای‬
+PBMENU_PROTECT_DATEALL_SET_GUIDE_2,‫همه تصاویر در این محدوده تاریخ‬
+PBMENU_PROTECT_EVENTALL_CLEAR_GUIDE,‫خاموش کردن محافظت برای‬
+PBMENU_PROTECT_EVENTALL_CLEAR_GUIDE_2,‫همه تصاویر در این رویداد‬
+PBMENU_PROTECT_EVENTALL_SET_GUIDE,‫روشن کردن محافظت برای‬
+PBMENU_PROTECT_EVENTALL_SET_GUIDE_2,‫همه تصاویر در این رویداد‬
+PBMENU_PROTECT_FAVALL_CLEAR_GUIDE,‫خاموش کردن محافظت برای همه‬
+PBMENU_PROTECT_FAVALL_CLEAR_GUIDE_2,‫تصاویر در این گروه‬
+PBMENU_PROTECT_FAVALL_SET_GUIDE,‫روشن کردن محافظت برای همه‬
+PBMENU_PROTECT_FAVALL_SET_GUIDE_2,‫تصاویر در این گروه‬
+PBMENU_PROTECT_SELECT_GUIDE,‫روشن/خاموش کردن محافظت تصویر‬
+PBMENU_PROTECT_SELECT_GUIDE_2,‫برای تصاویر انتخاب شده چندگانه‬
+PBMENU_PROTECT_SINGLE_GUIDE,‫روشن/خاموش کردن محافظت تصویر‬
+PBMENU_PROTECT_SINGLE_GUIDE_2,‫‬
+PBMENU_REFINE,‫فیلتر توسط چهره ها‬
+PBMENU_REFINE_BABY,‫اطفال‬
+PBMENU_REFINE_BABY_GUIDE,‫یافتن و نمایش تصاویر‬
+PBMENU_REFINE_BABY_GUIDE_2,‫با اطفال‬
+PBMENU_REFINE_CHILD,‫کودکان‬
+PBMENU_REFINE_CHILD_GUIDE,‫یافتن و نمایش تصاویر‬
+PBMENU_REFINE_CHILD_GUIDE_2,‫با چهره های کودکان‬
+PBMENU_REFINE_CLEAR_GUIDE,‫نمایش همه تصاویر‬
+PBMENU_REFINE_CLEAR_GUIDE_2,‫‬
+PBMENU_REFINE_FACE,‫همه افراد‬
+PBMENU_REFINE_FACE_GUIDE,‫یافتن و نمایش تصاویر‬
+PBMENU_REFINE_FACE_GUIDE_2,‫با چهره افراد‬
+PBMENU_REFINE_SMILE,‫لبخندها‬
+PBMENU_REFINE_SMILE_GUIDE,‫یافتن و نمایش تصاویر‬
+PBMENU_REFINE_SMILE_GUIDE_2,‫با چهره های افراد خندان‬
+PBMENU_ROTATE,‫چرخش‬
+PBMENU_ROTATE_GUIDE,‫چرخاندن تصاویر‬
+PBMENU_ROTATE_GUIDE_2,‫‬
+PBMENU_SCRAPBOOKALLSAVE,‫ذخیره کردن همه صفحات در مجموعه‬
+PBMENU_SCRAPBOOKALL_GUIDE,‫ذخیره همه صفحات مجموعه‬
+PBMENU_SCRAPBOOKALL_GUIDE_2,‫به عنوان تصاویر‬
+PBMENU_SHARE_CLEAR,‫حذف علامت تسهیم‬
+PBMENU_SHARE_CLEAR_DATEALL_GUIDE,‫حذف همه تصاویر در این‬
+PBMENU_SHARE_CLEAR_DATEALL_GUIDE_2,‫محدوده تاریخ از علامت تسهیم‬
+PBMENU_SHARE_CLEAR_EVENTALL_GUIDE,‫حذف همه تصاویر در این‬
+PBMENU_SHARE_CLEAR_EVENTALL_GUIDE_2,‫رویداد از علامت تسهیم‬
+PBMENU_SHARE_CLEAR_FAVALL_GUIDE,‫حذف همه تصاویر در این‬
+PBMENU_SHARE_CLEAR_FAVALL_GUIDE_2,‫گروه از علامت تسهیم‬
+PBMENU_SHARE_ENTRY,‫اضافه کردن به علامت تسهیم‬
+PBMENU_SHARE_ENTRY_DATEALL_GUIDE,‫اضافه کردن همه تصاویر در این‬
+PBMENU_SHARE_ENTRY_DATEALL_GUIDE_2,‫محدوده تاریخ به علامت تسهیم‬
+PBMENU_SHARE_ENTRY_EVENTALL_GUIDE,‫اضافه کردن همه تصاویر در این‬
+PBMENU_SHARE_ENTRY_EVENTALL_GUIDE_2,‫رویداد به علامت تسهیم‬
+PBMENU_SHARE_ENTRY_FAVALL_GUIDE,‫اضافه کردن همه تصاویر در این‬
+PBMENU_SHARE_ENTRY_FAVALL_GUIDE_2,‫گروه به علامت تسهیم‬
+PBMENU_SHARE_SELECT_GUIDE,‫اضافه/حذف تصاویر انتخاب شده‬
+PBMENU_SHARE_SELECT_GUIDE_2,‫به/از علامت تسهیم‬
+PBMENU_SHARE_SET,‫اضافه/حذف علامت تسهیم‬
+PBMENU_SHARE_SINGLE_GUIDE,‫اضافه/حذف این تصویر به/‬
+PBMENU_SHARE_SINGLE_GUIDE_2,‫از علامت تسهیم‬
+PBMENU_SLIDESHOW_GUIDE,‫پخش خودکار با موسیقی و جلوه ها‬
+PBMENU_SLIDESHOW_GUIDE_2,‫‬
+PBMENU_THISIMAGE,‫این تصویر‬
+PBMENU_THISPAGE_GUIDE,‫ذخیره این تصویر صفحه مجموعه‬
+PBMENU_THISPAGE_GUIDE_2,‫‬
+PBMENU_VIEWSELECT,‫وضعیت مشاهده‬
+PBMENU_VOLUMESETTINGS,‫تنظیمات درجه صدا‬
+PBMENU_VOLUME_GUIDE,‫تنظیم درجه صدا در‬
+PBMENU_VOLUME_GUIDE_2,‫پخش نمایش اسلاید/فیلم‬
+PBMENU_WIDEZOOM,‫نمایش بزرگنمائی عریض‬
+PBMENU_WSCREEN_GUIDE,‫چیدن تصویر به اندازه 16:9‬
+PBMENU_WSCREEN_GUIDE_2,‫و نمایش‬
+PRINTMENU_10X15CM,‫10x15 cm‬
+PRINTMENU_1PICBORDER,‫١ بالا/حاشیه‬
+PRINTMENU_1PICNOBORDER,‫١ بالا/بی حاشیه‬
+PRINTMENU_2L,‫13x18 cm‬
+PRINTMENU_2PICS,‫٢ بالا‬
+PRINTMENU_3PICS,‫٣ بالا‬
+PRINTMENU_4PICS,‫٤ بالا‬
+PRINTMENU_4X6,‫"‌4x6‬
+PRINTMENU_8PICS,‫٨ بالا‬
+PRINTMENU_A3,‫A3‬
+PRINTMENU_A3PLUS,‫A3+‬
+PRINTMENU_A4,‫A4‬
+PRINTMENU_A6,‫A6‬
+PRINTMENU_DATE,‫تاریخ‬
+PRINTMENU_DATE_A,‫تاریخ‬
+PRINTMENU_DAYANDTIME,‫روز و زمان‬
+PRINTMENU_HAGAKI,‫Hagaki‬
+PRINTMENU_HDTV,‫اندازه عریض‬
+PRINTMENU_INDEX,‫فهرست‬
+PRINTMENU_INDEXPRINT,‫چاپ فهرست‬
+PRINTMENU_L,‫9x13 cm‬
+PRINTMENU_LETTER,‫نامه‬
+PRINTMENU_PICTUREINPAPER,‫چیدمان‬
+PRINTMENU_QUANTITY,‫کمیت‬
+PRINTMENU_SIZE,‫اندازه‬
+SAVE,‫ذخیره‬
+SETUP_AFILLUMINATOR,‫چراغ AF‬
+SETUP_AFILLUMINATOR_GUIDE2,‫نور پرکننده برای تمرکز کردن در نور کم‬
+SETUP_AFILLUMINATOR_GUIDE2_2,‫‬
+SETUP_AFMODE,‫وضعیت AF‬
+SETUP_AFMODE_GUIDE2,‫تنظیمات تمرکز خودکار‬
+SETUP_AFMODE_GUIDE2_2,‫‬
+SETUP_AUTOREVIEW,‫مرور خودکار‬
+SETUP_AUTOREVIEW_GUIDE2,‫مرور کردن تصاویر 2 ثانیه بعد از‬
+SETUP_AUTOREVIEW_GUIDE2_2,‫تصویربرداری‬
+SETUP_BEEP,‫بیپ‬
+SETUP_BEEP_GUIDE2,‫تنظیمات بيپ‬
+SETUP_BEEP_GUIDE2_2,‫‬
+SETUP_BGMTOOL_DOWNLOAD_GUIDE2,‫تغییر دادن موسیقی نمایش اسلاید‬
+SETUP_BGMTOOL_DOWNLOAD_GUIDE2_2,‫‬
+SETUP_BGMTOOL_FORMAT_GUIDE2,‫حذف کردن همه موسیقی های نمایش‬
+SETUP_BGMTOOL_FORMAT_GUIDE2_2,‫اسلاید‬
+SETUP_BGM_DOWNLOAD,‫دنلودموزیک‬
+SETUP_BGM_FORMAT,‫فرمت موزیک‬
+SETUP_CALIBRATION,‫کالیبرسیون‬
+SETUP_CAM1,‫تنظیمات تصویربرداری 1‬
+SETUP_CAM2,‫تنظیمات تصویربرداری 2‬
+SETUP_CHANGERECFOLDER,‫تغییر پرونده ضبط‬
+SETUP_CLOCK_GUIDE2,‫تنظیم نمودن تاریخ و زمان‬
+SETUP_CLOCK_GUIDE2_2,‫‬
+SETUP_COMPONENT,‫COMPONENT‬
+SETUP_COMPONENT_D1,‫SD‬
+SETUP_COMPONENT_D3,‫‌(‌H‌D‌(‌1‌0‌8‌0‌i‬
+SETUP_COMPONENT_GUIDE2,‫تنظیمات خروجی مؤلفه‬
+SETUP_COMPONENT_GUIDE2_2,‫‬
+SETUP_CONTROLGUIDE,‫راهنمای کنترل‬
+SETUP_CONTROLGUIDE_GUIDE,‫تنظیمات راهنمای کنترل‬
+SETUP_CONVERSION_GUIDE2,‫انتخاب نمودن یک لنز تبدیل‬
+SETUP_CONVERSION_GUIDE2_2,‫‬
+SETUP_COPY,‫کپی‬
+SETUP_CREATERECFOLDER,‫ایجاد پرونده ضبط‬
+SETUP_DEMOMODE,‫وضعیت نمایش‬
+SETUP_DEMOMODE_GUIDE,‫تعیین بر روی روشن برای وضعیت نمایش‬
+SETUP_DEMOMODE_GUIDE_2,‫‬
+SETUP_DIGITALZOOM,‫زوم دیجیتالی‬
+SETUP_DIGITALZOOM_PRECISION,‫دقیق‬
+SETUP_DIGITALZOOM_SMART,‫هوشمند‬
+SETUP_DIRECTIONJUDGE,‫ترتیب خودکار‬
+SETUP_DIRECTIONJUDGE_GUIDE2,‫تعیین جهت  دوربین و ذخیره آن‬
+SETUP_DIRECTIONJUDGE_GUIDE2_2,‫‬
+SETUP_DISP,‫تنظیم نمایش‬
+SETUP_DISP_09,‫9‬
+SETUP_DISP_12,‫12‬
+SETUP_DISP_16,‫16‬
+SETUP_DISP_20,‫20‬
+SETUP_DISP_BRIGHT,‫روشن‬
+SETUP_DISP_BRIGHTNESS,‫روشنائی LCD‬
+SETUP_DISP_BRIGHTNESSSET,‫روشنائی‬
+SETUP_DISP_HISTOGRAMSET,‫هیستوگرام‬
+SETUP_DISP_IMAGEONLY,‫فقط تصویر‬
+SETUP_DISP_INDEX,‫تنظیم فهرست تصویر‬
+SETUP_DISP_MSG_GRAPH_OFF,‫نموداری نمایش داده نمی شود‬
+SETUP_DISP_MSG_GRAPH_ON,‫روشنی تصویر را بصورت یک نمودار نشان می دهد‬
+SETUP_DISP_MSG_ICON,‫فقط دکمه های عملکرد را نشان می دهد‬
+SETUP_DISP_MSG_IMAGE,‫فقط تصویر را نمایش می دهد‬
+SETUP_DISP_MSG_INFO,‫دکمه های عملکرد و اطلاعات را نمایش می دهد‬
+SETUP_DISP_MSG_LIGHT_BRIGHT,‫صفحه را بر روشنائی زیادتر تعیین می کند‬
+SETUP_DISP_MSG_LIGHT_NORMAL,‫صفحه را بر روشنائی عادی تعیین می کند‬
+SETUP_DISP_MSG_THUMBNAIL_09,‫نمایش فهرست 9 تصویری‬
+SETUP_DISP_MSG_THUMBNAIL_12,‫نمایش فهرست 12 تصویر‬
+SETUP_DISP_MSG_THUMBNAIL_16,‫نمایش فهرست 16 تصویری‬
+SETUP_DISP_MSG_THUMBNAIL_20,‫نمایش فهرست 20 تصویر‬
+SETUP_DISP_MSG_WIDEZOOMSET_OFF,‫نمایش تصاویر در نسبت ابعاد اولیه‬
+SETUP_DISP_MSG_WIDEZOOMSET_ON,‫نمایش تصاویر در اندازه صفحه کامل‬
+SETUP_DISP_OFF,‫خاموش‬
+SETUP_DISP_ON,‫روشن‬
+SETUP_DISP_OPT,‫تعداد تصاویر‬
+SETUP_DISP_PLAY,‫تنظیم نمایش صفحه پخش‬
+SETUP_DISP_SHOOT,‫تنظیم نمایش صفحه تصویربرداری‬
+SETUP_DISP_WIDEZOOMSET,‫بزرگنمائی عریض‬
+SETUP_EXPANDEDFOUCS_GUIDE2,‫بزرگ کردن مرکز هنگام تمرکز دستی‬
+SETUP_EXPANDEDFOUCS_GUIDE2_2,‫‬
+SETUP_EZOOM_GUIDE2,‫تنظیمات بزرگنمایی دیجیتال‬
+SETUP_EZOOM_GUIDE2_2,‫‬
+SETUP_FLASHSYNCHRO_GUIDE2,‫انتخاب نمودن زمان بندی فلاش‬
+SETUP_FLASHSYNCHRO_GUIDE2_2,‫‬
+SETUP_FORMAT,‫فرمت‬
+SETUP_FUNCTIONGUIDE,‫راهنمای عمل‬
+SETUP_FUNCTIONGUIDE_GUIDE2,‫تنظیمات راهنمای کارکرد‬
+SETUP_FUNCTIONGUIDE_GUIDE2_2,‫‬
+SETUP_GRIDLINE,‫خط شبکه‬
+SETUP_GRIDLINE_GUIDE2,‫راهنماهای کادربندی تصویر‬
+SETUP_GRIDLINE_GUIDE2_2,‫‬
+SETUP_HOUSING,‫پوشش‬
+SETUP_INITIALIZE,‫بازآغازسازی‬
+SETUP_INITIALIZE_GUIDE2,‫بازتنظیم تنظیمات پیش تعریف شده اولیه‬
+SETUP_INITIALIZE_GUIDE2_2,‫‬
+SETUP_INTERNALMEMORY_FORMAT_GUIDE2,‫فرمت کردن حافظه داخلی‬
+SETUP_INTERNALMEMORY_FORMAT_GUIDE2_2,‫‬
+SETUP_LANG,‫فارسى‬
+SETUP_LANG_5WAY,‫فارسى‬
+SETUP_LCD_RESPOINT_GUIDE2,‫موقعیت پاسخ لمس LCD را تنظیم می کند‬
+SETUP_LCD_RESPOINT_GUIDE2_2,‫‬
+SETUP_LUNSET,‫تنظیمات LUN‬
+SETUP_LUNSET_GUIDE,‫انتخاب واسطه برای وصل شدن به‬
+SETUP_LUNSET_GUIDE_2,‫Mass Storage‬
+SETUP_LUNSET_MULTI,‫چندگانه‬
+SETUP_LUNSET_SINGLE,‫منفرد‬
+SETUP_MAIN1,‫تنظیمات اصلی 1‬
+SETUP_MAIN2,‫تنظیمات اصلی 2‬
+SETUP_MAIN3,‫تنظیمات اصلی 3‬
+SETUP_MARINEPACK_GUIDE2,‫تعیین بر ON هنگام استفاده از پوشش‬
+SETUP_MARINEPACK_GUIDE2_2,‫‬
+SETUP_MASSSTORAGE,‫Mass Storage‬
+SETUP_MONITOR,‫مونیتور‬
+SETUP_MS_COPY_CHANGE_GUIDE2,‫کپی کردن همه تصاویر از حافظه داخلی‬
+SETUP_MS_COPY_CHANGE_GUIDE2_2,‫‬
+SETUP_MS_FOLDER_CHANGE_GUIDE2,‫تغییر دادن پرونده برای ضبط کردن تصویر‬
+SETUP_MS_FOLDER_CHANGE_GUIDE2_2,‫‬
+SETUP_MS_FOLDER_CREATE_GUIDE2,‫ایجاد یک پرونده جدید‬
+SETUP_MS_FOLDER_CREATE_GUIDE2_2,‫‬
+SETUP_MS_FORMAT_GUIDE2,‫فرمت کردن Memory Stick‬
+SETUP_MS_FORMAT_GUIDE2_2,‫‬
+SETUP_NTSC,‫NTSC‬
+SETUP_PAL,‫PAL‬
+SETUP_PASSLOCK,‫قفل رمز عبور‬
+SETUP_PASSLOCK_GUIDE,‫تعیین رمز عبور برای قفل کردن تصاویر‬
+SETUP_PASSLOCK_GUIDE_2,‫‬
+SETUP_PICTBRIDGE,‫PictBridge‬
+SETUP_PTPMTP,‫PTP/MTP‬
+SETUP_SHUTTER,‫شاتر‬
+SETUP_SINGLE,‫منفرد‬
+SETUP_SMILEDEMO,‫وضعیت نمایش لبخند‬
+SETUP_SMILEDEMO_GUIDE2,‫تعیین روشن برای وضعیت نمایش دیافراگم‬
+SETUP_SMILEDEMO_GUIDE2_2,‫لبخند‬
+SETUP_TVTYPE,‫نوع تلویزیون‬
+SETUP_TVTYPE_GUIDE2,‫برای انتخاب نوع مانیتور تلویزیون.‬
+SETUP_TVTYPE_GUIDE2_2,‫‬
+SETUP_UPDATE,‫به روز کردن‬
+SETUP_USBCONNECT,‫اتصال USB‬
+SETUP_USBCONNECT_GUIDE2,‫وضعیت خروجی هنگام وصل شدن از طریق‬
+SETUP_USBCONNECT_GUIDE2_2,‫USB‬
+SETUP_VERSION,‫نسخه‬
+SETUP_VERSION_GUIDE2,‫بازبینی نسخه و به روز کردن سفت افزار‬
+SETUP_VERSION_GUIDE2_2,‫‬
+SETUP_VIDEOOUT,‫خروجی ویدیو‬
+SETUP_VIDEOOUT_GUIDE2,‫خروجی هنگام وصل شدن به وسیله‬
+SETUP_VIDEOOUT_GUIDE2_2,‫ویدیویی‬
+SSMENU_10SEC,‫10 ثانیه‬
+SSMENU_1SEC,‫1 ثانیه‬
+SSMENU_3SEC,‫3 ثانیه‬
+SSMENU_5SEC,‫5 ثانیه‬
+SSMENU_ACTIVE,‫فعال‬
+SSMENU_ALL,‫همه‬
+SSMENU_BASIC,‫پایه‬
+SSMENU_DETAIL,‫تنظیمات دیگر‬
+SSMENU_EFFECTS,‫جلوه ها‬
+SSMENU_FACE_BASIC,‫چهره 1: پایه‬
+SSMENU_FACE_NOSTALGIC,‫چهره 2 : نوستالژیک‬
+SSMENU_FACE_STYLISH,‫چهره 3: شیک‬
+SSMENU_IMAGE,‫تصویر‬
+SSMENU_INFOLDER,‫پرونده‬
+SSMENU_INTERVAL,‫فاصله زمانى‬
+SSMENU_MUSIC,‫موزیک‬
+SSMENU_MUSIC1,‫Music1‬
+SSMENU_MUSIC2,‫Music2‬
+SSMENU_MUSIC3,‫Music3‬
+SSMENU_MUSIC4,‫Music4‬
+SSMENU_MUSIC5,‫Music5‬
+SSMENU_MUSIC6,‫Music6‬
+SSMENU_MUSIC7,‫Music7‬
+SSMENU_MUSIC8,‫Music8‬
+SSMENU_NORMAL_A,‫ عادی‬
+SSMENU_NOSTALGIC,‫نوستالوژیک‬
+SSMENU_REFINE,‫فیلتر کردن‬
+SSMENU_REPEAT,‫تکرار‬
+SSMENU_SIMPLE,‫ساده‬
+SSMENU_STYLISH,‫شیک‬
+SSMENU_THIS_DATE,‫این تاریخ‬
+SSMENU_THIS_EVENT,‫این رویداد‬

@@ -1,0 +1,1117 @@
+CAMMENU_0EV,0EV
+CAMMENU_100,100
+CAMMENU_10M,1.0 m
+CAMMENU_1600,1600
+CAMMENU_200,200
+CAMMENU_30M,3.0 m
+CAMMENU_3200,3200
+CAMMENU_400,400
+CAMMENU_70M,7.0 m
+CAMMENU_80,80
+CAMMENU_800,800
+CAMMENU_BRK_03EV,BRK±0,3EV
+CAMMENU_BRK_07EV,BRK±0,7EV
+CAMMENU_BRK_10EV,BRK±1,0EV
+CAMMENU_BURST,Sorozatkép
+CAMMENU_BURST_BRK03EV_GUIDE,3 képet fényképez 0,3 EV
+CAMMENU_BURST_BRK03EV_GUIDE_2,különbséggel
+CAMMENU_BURST_BRK07EV_GUIDE,3 képet fényképez 0,7 EV
+CAMMENU_BURST_BRK07EV_GUIDE_2,különbséggel
+CAMMENU_BURST_BRK10EV_GUIDE,3 képet fényképez 1,0 EV
+CAMMENU_BURST_BRK10EV_GUIDE_2,különbséggel
+CAMMENU_BURST_OFF_GUIDE,Egy képet készít.
+CAMMENU_BURST_OFF_GUIDE_2,
+CAMMENU_BURST_ON_GUIDE,Folyamatosan fényképez ex-
+CAMMENU_BURST_ON_GUIDE_2,ponáló gombot nyomva tartv.
+CAMMENU_CENTER,Közép
+CAMMENU_CENTERAF,Közép AF
+CAMMENU_CLOSEEYE,Csukott szem csökkentés
+CAMMENU_CLOSEEYE_AUTO_GUIDE,Vizsgálja a szemeket, hogy
+CAMMENU_CLOSEEYE_AUTO_GUIDE_2,elkerülje a csukott szemet.
+CAMMENU_CLOSEEYE_OFF_GUIDE,Kikapcsolja a
+CAMMENU_CLOSEEYE_OFF_GUIDE_2,Csukott szem csökkentést
+CAMMENU_COLOR,Szín üzemmód
+CAMMENU_COLOR_BW,FF
+CAMMENU_COLOR_BW_GUIDE,Fekete-fehérré teszi
+CAMMENU_COLOR_BW_GUIDE_2,a fényképeket
+CAMMENU_COLOR_NORMAL_GUIDE,Normál szín üzemmódban
+CAMMENU_COLOR_NORMAL_GUIDE_2,fényképez
+CAMMENU_COLOR_SEPIA,Szépia
+CAMMENU_COLOR_SEPIA_GUIDE,Színeket szimulál a
+CAMMENU_COLOR_SEPIA_GUIDE_2,régi fotókon
+CAMMENU_COLOR_VIVID,Élő
+CAMMENU_COLOR_VIVID_GUIDE,Mély és élénk színűre
+CAMMENU_COLOR_VIVID_GUIDE_2,állítja a fényképet
+CAMMENU_CONTINUOUS,Folyamatos
+CAMMENU_DRO,DRO
+CAMMENU_DRO_ADV,Megnövelt
+CAMMENU_DRO_ADV_GUIDE,Árnyékolt részletek vissza-
+CAMMENU_DRO_ADV_GUIDE_2,állítás kifehérítés nélkül
+CAMMENU_DRO_OFF_GUIDE,Nem állítja vissza az
+CAMMENU_DRO_OFF_GUIDE_2,árnyékolt részleteket
+CAMMENU_DRO_PLUS,DRO plus
+CAMMENU_DRO_STANDARD_GUIDE,Visszaállítja a képnek az ár-
+CAMMENU_DRO_STANDARD_GUIDE_2,nyékban elveszett részleteit
+CAMMENU_DRO_STD,DRO standard
+CAMMENU_EV,EV
+CAMMENU_EV2,EV
+CAMMENU_EV_GUIDE,Beállítja a fénykép fényessé-
+CAMMENU_EV_GUIDE2,Beállítja a fénykép fényessé-
+CAMMENU_EV_GUIDE2_2,gét (＋) és sötétségét (－)
+CAMMENU_EV_GUIDE_2,gét (＋) és sötétségét (－)
+CAMMENU_FACE,Arcfelismerés
+CAMMENU_FACE_ADULT,Felnőtt elsőbbség
+CAMMENU_FACE_ADULT_GUIDE,Elsősorban felnőttek
+CAMMENU_FACE_ADULT_GUIDE_2,arcára fókuszál.
+CAMMENU_FACE_CHILD,Gyermek elsőbbség
+CAMMENU_FACE_CHILD_GUIDE,Elsősorban gyerekek
+CAMMENU_FACE_CHILD_GUIDE_2,arcára fókuszál.
+CAMMENU_FACE_ON_GUIDE,Elsősorban az emberi
+CAMMENU_FACE_ON_GUIDE_2,arcokra fókuszál.
+CAMMENU_FACE_TOUCH_GUIDE,Az arc felismerést csak egy
+CAMMENU_FACE_TOUCH_GUIDE_2,arc megérintésével aktiválja.
+CAMMENU_FLASHLEVEL,Vakuszint
+CAMMENU_FLASHLEVEL_DOWN_GUIDE,Fényképezés alacsonyabb
+CAMMENU_FLASHLEVEL_DOWN_GUIDE_2,vaku intenzitással
+CAMMENU_FLASHLEVEL_NORMAL_GUIDE,Fényképezés normál
+CAMMENU_FLASHLEVEL_NORMAL_GUIDE_2,vaku intenzitással
+CAMMENU_FLASHLEVEL_UP_GUIDE,Fényképezés magasabb
+CAMMENU_FLASHLEVEL_UP_GUIDE_2,vaku intenzitással
+CAMMENU_FLASH_SYNCHRO,Lassú szinkron
+CAMMENU_FOCUS,Fókusz
+CAMMENU_FOUCS_10M_GUIDE,Kb. 1,0 m távolságra
+CAMMENU_FOUCS_10M_GUIDE_2,fókuszál
+CAMMENU_FOUCS_30M_GUIDE,Kb. 3,0 m távolságra
+CAMMENU_FOUCS_30M_GUIDE_2,fókuszál
+CAMMENU_FOUCS_70M_GUIDE,Kb. 7,0 m távolságra
+CAMMENU_FOUCS_70M_GUIDE_2,fókuszál
+CAMMENU_FOUCS_CENTER_GUIDE,Automatikus fókusz
+CAMMENU_FOUCS_CENTER_GUIDE_2,középen lévő céltárgyra
+CAMMENU_FOUCS_INFINITY_GUIDE,Végtelen távolságra fókuszál
+CAMMENU_FOUCS_INFINITY_GUIDE_2,
+CAMMENU_FOUCS_MANUAL_GUIDE,Manuálisan állítja be
+CAMMENU_FOUCS_MANUAL_GUIDE_2,a fókuszt
+CAMMENU_FOUCS_MULTI_GUIDE,Automatikus fókusz
+CAMMENU_FOUCS_MULTI_GUIDE_2,mindenütt a képkockán
+CAMMENU_FOUCS_SPOT_GUIDE,Automatikus fókusz
+CAMMENU_FOUCS_SPOT_GUIDE_2,egy középső pontra
+CAMMENU_FOUCS_TSPOT_GUIDE,Automatikusan fókuszál
+CAMMENU_FOUCS_TSPOT_GUIDE_2,a képernyő megérintésekor.
+CAMMENU_IMAGESIZE,Képméret
+CAMMENU_IMAGESIZE_L,Nagy
+CAMMENU_IMAGESIZE_S,Kicsi
+CAMMENU_INFINITY,∞
+CAMMENU_ISO,ISO
+CAMMENU_ISO_100_GUIDE,Beállítja az érzékenységet
+CAMMENU_ISO_100_GUIDE_2,ISO 100-ra
+CAMMENU_ISO_1600_GUIDE,Beállítja az érzékenységet
+CAMMENU_ISO_1600_GUIDE_2,ISO 1600-ra
+CAMMENU_ISO_200_GUIDE,Beállítja az érzékenységet
+CAMMENU_ISO_200_GUIDE_2,ISO 200-ra
+CAMMENU_ISO_3200_GUIDE,Beállítja az érzékenységet
+CAMMENU_ISO_3200_GUIDE_2,ISO 3200-ra
+CAMMENU_ISO_400_GUIDE,Beállítja az érzékenységet
+CAMMENU_ISO_400_GUIDE_2,ISO 400-ra
+CAMMENU_ISO_64_GUIDE,Beállítja az érzékenységet
+CAMMENU_ISO_64_GUIDE_2,ISO 64-ra
+CAMMENU_ISO_800_GUIDE,Beállítja az érzékenységet
+CAMMENU_ISO_800_GUIDE_2,ISO 800-ra
+CAMMENU_ISO_80_GUIDE,Beállítja az érzékenységet
+CAMMENU_ISO_80_GUIDE_2,ISO 80-ra
+CAMMENU_ISO_AUTO_GUIDE,Automatikusan beállítja
+CAMMENU_ISO_AUTO_GUIDE_2,az érzékenységet
+CAMMENU_M03EV,-0.3EV
+CAMMENU_M07EV,-0.7EV
+CAMMENU_M10EV,-1.0EV
+CAMMENU_M13EV,-1.3EV
+CAMMENU_M17EV,-1.7EV
+CAMMENU_M20EV,-2.0EV
+CAMMENU_MACRO,Makró
+CAMMENU_MENU,Menü
+CAMMENU_METERINGMODE,Fénymérési mód
+CAMMENU_METERING_CENTER_GUIDE,Középső fényességen
+CAMMENU_METERING_CENTER_GUIDE_2,alapuló expozíció
+CAMMENU_METERING_MULTI_GUIDE,Expozíció mindenütt kie-
+CAMMENU_METERING_MULTI_GUIDE_2,gyensúlyozott a képkockán
+CAMMENU_METERING_SPOT_GUIDE,Középső pont fényességén
+CAMMENU_METERING_SPOT_GUIDE_2,alapuló expozíció
+CAMMENU_MINUS,－
+CAMMENU_MULTI,Több
+CAMMENU_MULTIAF,Több AF
+CAMMENU_NORMAL_CAP,Normál
+CAMMENU_P03EV,+0.3EV
+CAMMENU_P07EV,+0.7EV
+CAMMENU_P10EV,+1.0EV
+CAMMENU_P13EV,+1.3EV
+CAMMENU_P17EV,+1.7EV
+CAMMENU_P20EV,+2.0EV
+CAMMENU_PLUS,＋
+CAMMENU_RECMODE,FELV. ümód
+CAMMENU_RECOGNITION,Színhely felismerés
+CAMMENU_RECOGNITION_ADV_GUIDE,Autom. még egy képet készít
+CAMMENU_RECOGNITION_ADV_GUIDE2,Autom. még egy képet készít
+CAMMENU_RECOGNITION_ADV_GUIDE2_2,gyenge vagy ellenfényben.
+CAMMENU_RECOGNITION_ADV_GUIDE_2,gyenge vagy ellenfényben.
+CAMMENU_RECOGNITION_AUTO2_GUIDE,A színhely számára optimális
+CAMMENU_RECOGNITION_AUTO2_GUIDE_2,beállításokkal fényképez
+CAMMENU_RECOGNITION_AUTO_GUIDE,Fényképezés opt. beáll. okkal
+CAMMENU_RECOGNITION_AUTO_GUIDE_2,gyenge vagy ellenfényben.
+CAMMENU_RECOGNITION_OFF_GUIDE,Színhely felismerés
+CAMMENU_RECOGNITION_OFF_GUIDE_2,kikapcsolás
+CAMMENU_REDEYEREDUCTION,Vörösszem cs
+CAMMENU_REDEYE_FACE_GUIDE,Auto vörösszem csökkentés,
+CAMMENU_REDEYE_FACE_GUIDE_2,amikor arcokat ismer fel
+CAMMENU_REDEYE_OFF_GUIDE,Vörösszem csökkentés ki
+CAMMENU_REDEYE_OFF_GUIDE_2,
+CAMMENU_REDEYE_ON_GUIDE,Elővillanás a vörösszem
+CAMMENU_REDEYE_ON_GUIDE_2,csökkentésére vakunál
+CAMMENU_REMAIN_NUMBER,Kb. a tárkapacitás
+CAMMENU_REMAIN_TIME,Kb. hátralévő idő
+CAMMENU_SATURATION_DOWN_GUIDE,Alacsonyabb színtelítődéssel
+CAMMENU_SATURATION_DOWN_GUIDE_2,fényképez
+CAMMENU_SATURATION_NORMAL_GUIDE,A színtelítődés beállítása
+CAMMENU_SATURATION_NORMAL_GUIDE_2,Normál
+CAMMENU_SATURATION_UP_GUIDE,Magasabb színtelítődéssel
+CAMMENU_SATURATION_UP_GUIDE_2,fényképez
+CAMMENU_SELFTIMER,Önkioldó
+CAMMENU_SELFTIMER_10SEC,Önkioldó 10 mp
+CAMMENU_SELFTIMER_2SEC,Önkioldó 2 mp
+CAMMENU_SELFTIMER_OFF,Önkioldó ki
+CAMMENU_SETUP,Beállítás
+CAMMENU_SETUP_CHANGE_GUIDE,A fényképezés beállításainak
+CAMMENU_SETUP_CHANGE_GUIDE_2,kijelzéséhez lép
+CAMMENU_SHOOTING,Felvétel
+CAMMENU_SIZE_10MEG,10M
+CAMMENU_SIZE_12M_GUIDE,Nyomtatókhoz A3+-ig
+CAMMENU_SIZE_12M_GUIDE_2,
+CAMMENU_SIZE_16_9,16:9
+CAMMENU_SIZE_16_9_2MEG_GUIDE,HDTV-ken megtekintés
+CAMMENU_SIZE_16_9_2MEG_GUIDE_2,céljára
+CAMMENU_SIZE_16_9_A3_GUIDE,HDTV-ken megtekintés
+CAMMENU_SIZE_16_9_A3_GUIDE_2,és A3-as nyomtatás céljára
+CAMMENU_SIZE_16_9_A4_GUIDE,HDTV-ken megtekintés
+CAMMENU_SIZE_16_9_A4_GUIDE_2,és A4-as nyomtatás céljára
+CAMMENU_SIZE_16_9_GUIDE,HDTV méretarányban
+CAMMENU_SIZE_16_9_GUIDE_2,fényképez
+CAMMENU_SIZE_320,320
+CAMMENU_SIZE_320_GUIDE,Kis méretben fényképez
+CAMMENU_SIZE_320_GUIDE_2,e-mail csatoláshoz
+CAMMENU_SIZE_3MEG,3M
+CAMMENU_SIZE_3M_GUIDE,Nyomtatókhoz 10x15 cm-ig
+CAMMENU_SIZE_3M_GUIDE_2,vagy 13x18 cm-ig
+CAMMENU_SIZE_3_2_8MEG,3:2(8M)
+CAMMENU_SIZE_3_2_GUIDE,3:2 méretarányban fénykép.
+CAMMENU_SIZE_3_2_GUIDE_2,
+CAMMENU_SIZE_4_3,4:3
+CAMMENU_SIZE_5MEG,5M
+CAMMENU_SIZE_5M_GUIDE,Nyomtatókhoz A4 -ig
+CAMMENU_SIZE_5M_GUIDE_2,
+CAMMENU_SIZE_640FINE,640(Kiváló)
+CAMMENU_SIZE_640FINE_GUIDE,Kiváló minőségű mozgóképet
+CAMMENU_SIZE_640FINE_GUIDE_2,fényképez TV-hez
+CAMMENU_SIZE_640STD,640(Standard)
+CAMMENU_SIZE_640STD_GUIDE,Normál minőségű mozgó-
+CAMMENU_SIZE_640STD_GUIDE_2,képet fényképez TV-hez
+CAMMENU_SIZE_8M_GUIDE,Nyomtatókhoz A3-ig
+CAMMENU_SIZE_8M_GUIDE_2,
+CAMMENU_SIZE_HD_2MEG,16:9(2M)
+CAMMENU_SIZE_HD_7MEG,16:9(7M)
+CAMMENU_SIZE_HD_VGA,16:9(VGA)
+CAMMENU_SIZE_VGA,VGA
+CAMMENU_SIZE_VGA_GUIDE,Kis képmérettel fényképez az
+CAMMENU_SIZE_VGA_GUIDE_2,e-mail csatoláshoz
+CAMMENU_SMILE,Mosolykeresés
+CAMMENU_SMILESHUTTER_HIGH_GUIDE,Fényképezés nagy érzékeny-
+CAMMENU_SMILESHUTTER_HIGH_GUIDE_2,ségű mosolykereséssel
+CAMMENU_SMILESHUTTER_LOW_GUIDE,Fényképezés kis érzékeny-
+CAMMENU_SMILESHUTTER_LOW_GUIDE_2,ségű mosolykereséssel
+CAMMENU_SMILESHUTTER_NORMAL_GUIDE,Fényképezés átlag érzékeny-
+CAMMENU_SMILESHUTTER_NORMAL_GUIDE_2,ségű mosolykereséssel
+CAMMENU_SMILE_DETECTION,Mosolyérzékelés mértéke
+CAMMENU_SPOT,Pontszerű
+CAMMENU_SPOTAF,Pontsz. AF
+CAMMENU_STEADYSHOT,SteadyShot
+CAMMENU_STEADYSHOT_CONT_GUIDE,SteadyShot mindig be
+CAMMENU_STEADYSHOT_CONT_GUIDE_2,
+CAMMENU_STEADYSHOT_OFF_GUIDE,SteadyShot ki
+CAMMENU_STEADYSHOT_OFF_GUIDE_2,
+CAMMENU_STEADYSHOT_SHOOT_GUIDE,SteadyShot be, amikor ex-
+CAMMENU_STEADYSHOT_SHOOT_GUIDE_2,ponáló gombot félig lenyom.
+CAMMENU_TOUCH,Amikor megérinti
+CAMMENU_WATERWB,Víz alatti fehéregyensúly
+CAMMENU_WATERWB_AUTO_GUIDE,Automatikusan víz alatti fény-
+CAMMENU_WATERWB_AUTO_GUIDE_2,képezéshez állítja a feh. egys.
+CAMMENU_WATERWB_FLASH_GUIDE,Használja, ha víz alatt
+CAMMENU_WATERWB_FLASH_GUIDE_2,vakuval fényképez
+CAMMENU_WATERWB_WATER1,Víz alatti 1
+CAMMENU_WATERWB_WATER1_GUIDE,Használja, ha kék vízben
+CAMMENU_WATERWB_WATER1_GUIDE_2,fényképez
+CAMMENU_WATERWB_WATER2,Víz alatti 2
+CAMMENU_WATERWB_WATER2_GUIDE,Használja, ha zöld vízben
+CAMMENU_WATERWB_WATER2_GUIDE_2,fényképez
+CAMMENU_WB2,Fehér egyensúly
+CAMMENU_WB_AUTO_GUIDE,Automatikusan természetes
+CAMMENU_WB_AUTO_GUIDE_2,színekhez állítja
+CAMMENU_WB_CLOUDY,Felhős
+CAMMENU_WB_CLOUDY_GUIDE,Felhős napokon vagy
+CAMMENU_WB_CLOUDY_GUIDE_2,árnyékban használja
+CAMMENU_WB_DAYLIGHT,Nappali fény
+CAMMENU_WB_DAYLIGHT_GUIDE,Napos külső vagy éjszakai
+CAMMENU_WB_DAYLIGHT_GUIDE_2,helyszíneknél használja
+CAMMENU_WB_FLASH,Vaku
+CAMMENU_WB_FLASH_GUIDE,Használja, amikor
+CAMMENU_WB_FLASH_GUIDE_2,vakuval fényképez
+CAMMENU_WB_FLUORESCENT1,1. fénycső
+CAMMENU_WB_FLUORESCENT1_GUIDE,Fehér fényű fénycsőnél
+CAMMENU_WB_FLUORESCENT1_GUIDE_2,használja
+CAMMENU_WB_FLUORESCENT2,2. fénycső
+CAMMENU_WB_FLUORESCENT2_GUIDE,Természetes fehér fényű
+CAMMENU_WB_FLUORESCENT2_GUIDE_2,fénycsőnél használja
+CAMMENU_WB_FLUORESCENT3,3. fénycső
+CAMMENU_WB_FLUORESCENT3_GUIDE,Nappali fehér fényű
+CAMMENU_WB_FLUORESCENT3_GUIDE_2,fénycsőnél használja
+CAMMENU_WB_INCANDESCENT,Izzólámpa
+CAMMENU_WB_INCANDESCENT_GUIDE,Izzólámpánál vagy videó
+CAMMENU_WB_INCANDESCENT_GUIDE_2,fényeknél használja
+CAMMODE_AUTO,Autom. beállítás
+CAMMODE_AUTO_GUIDE,Automatikus beállí-
+CAMMODE_AUTO_GUIDE_2,tású felvételekhez
+CAMMODE_BEACH,Tengerpart
+CAMMODE_BEACH_GUIDE,Kék színben gazdag
+CAMMODE_BEACH_GUIDE_2,vízparti felvétel
+CAMMODE_COOKING,Gasztronómia
+CAMMODE_COOKING_GUIDE,Ételeket gusztusosan
+CAMMODE_COOKING_GUIDE_2,fényképez
+CAMMODE_EASY,Egyszerű fényképezés
+CAMMODE_EASY_GUIDE,Teljesen automatikus fény-
+CAMMODE_EASY_GUIDE_2,képezés egyszerű kijelzéssel
+CAMMODE_FIREWORKS,Tűzijáték
+CAMMODE_FIREWORKS_GUIDE,Tűzijáték fényképe-
+CAMMODE_FIREWORKS_GUIDE_2,zése teljes pompában
+CAMMODE_HIGHSENSITIVITY,Nagyérzékenység
+CAMMODE_HIGHSENSITIVITY_GUIDE,Fényképezés vaku nélkül sö-
+CAMMODE_HIGHSENSITIVITY_GUIDE_2,tét helyen kis elmosódással
+CAMMODE_HIGHSPEEDSHUTTER,Nagy zársebesség
+CAMMODE_HIGHSPEEDSHUTTER_GUIDE,Mozgó tárgy befa-
+CAMMODE_HIGHSPEEDSHUTTER_GUIDE_2,gyasztott felvétele
+CAMMODE_LANDSCAPE,Tájkép
+CAMMODE_LANDSCAPE_GUIDE,Távolra fókuszált
+CAMMODE_LANDSCAPE_GUIDE_2,tájkép felvétel
+CAMMODE_MOVIE,Mozgókép ü. mód
+CAMMODE_MOVIE_GUIDE,Hangos mozgókép felvétele
+CAMMODE_MOVIE_GUIDE_2,
+CAMMODE_PAUTO,Automatikus program
+CAMMODE_PAUTO_GUIDE,Automatikus expozíció
+CAMMODE_PAUTO_GUIDE_2,módosítható beállítással
+CAMMODE_SNOW,Hó
+CAMMODE_SNOW_GUIDE,Fehér táj fényképe-
+CAMMODE_SNOW_GUIDE_2,zése fényesen.
+CAMMODE_SOFTSNAP,Lágy kattintás
+CAMMODE_SOFTSNAP_GUIDE,Lágy hátterű tárgy felvétele
+CAMMODE_SOFTSNAP_GUIDE_2,
+CAMMODE_TWILIGHT,Szürkület
+CAMMODE_TWILIGHTPORTRAIT,Szürkületi portré
+CAMMODE_TWILIGHTPORTRAIT_GUIDE,Kevés fénynél portré
+CAMMODE_TWILIGHTPORTRAIT_GUIDE_2,felvétel vakuval
+CAMMODE_TWILIGHTTRIPOD_GUIDE,Fényképezés gyenge fénynél
+CAMMODE_TWILIGHTTRIPOD_GUIDE_2,állványról
+CAMMODE_WATER,Víz alatti
+CAMMODE_WATER_GUIDE,Víz alatti fényképezés a védő
+CAMMODE_WATER_GUIDE_2,tok természetes színekkel
+CLOCKMENU_APR,ÁPR
+CLOCKMENU_AUG,AUG
+CLOCKMENU_DEC,DEC
+CLOCKMENU_DMY,N-H-É
+CLOCKMENU_FEB,FEB
+CLOCKMENU_JAN,JAN
+CLOCKMENU_JUL,JÚL
+CLOCKMENU_JUN,JÚN
+CLOCKMENU_MAR,MÁR
+CLOCKMENU_MAY,MÁJ
+CLOCKMENU_MDY,H-N-É
+CLOCKMENU_NOV,NOV
+CLOCKMENU_OCT,OKT
+CLOCKMENU_SEP,SZP
+CLOCKMENU_UNKNOWN,---
+CLOCKMENU_YMD,É-H-N
+COM_AUTO,Auto
+COM_BACK,Vissza
+COM_CANCEL,Visszavon
+COM_CLEAR,Eltávolít
+COM_CLEARALL,Mindet törli
+COM_CONTINUE,Folytat
+COM_CREATED,Létrehozva
+COM_ENTRY,Hozzáad
+COM_EXIT,Kilép
+COM_FAST,Gyors
+COM_HIGH,Magas
+COM_INTERNALMEMORY,Belső memória
+COM_LOW,Alacsony
+COM_MED,Közepes
+COM_MIN,p.
+COM_MOVIEREC,FELV.
+COM_MOVIESTBY,Készlét
+COM_MS,Memory Stick
+COM_MS_AND_INTERNALMEMORY,Memory Stick ＋ Belső memória
+COM_NOOFFILES,Fájlszám
+COM_NORMAL,Normál
+COM_OFF,Ki
+COM_OK,OK
+COM_ON,Be
+COM_PREVIEW,Visszajátsz.
+COM_REMAIN,Még készíthető
+COM_SAVE,Mentés
+COM_SLOW,Lassú
+COM_STANDARD,Normál
+COM_STANDARD2,Normál
+COM_START,Indít
+COM_USBMODE,USB ümód
+COM_VOLUME,Hang
+COU_640FINE,640(Kiváló) nem elérhető
+COU_640FINE_2,
+COU_AUDIOPLUGIN,Hang kiadásához csatlakoztasson
+COU_AUDIOPLUGIN_2,egy audió dugaszt
+COU_BATTERY_HEATED,Fényképezőgép túlmelegedése
+COU_BATTERY_HEATED_2,Hagyja kihűlni
+COU_BATTERY_INFOLITHIUM,Csak "InfoLITHIUM" akku.
+COU_BATTERY_INFOLITHIUM_2,
+COU_BATTERY_INVALID,Csak kompatibilis akku-
+COU_BATTERY_INVALID_2,mulátorral használja
+COU_BGM_ERROR,Zenei hiba
+COU_BGM_ERROR_2,
+COU_BGM_FORMATERROR,Zenei formázási hiba
+COU_BGM_FORMATERROR_2,
+COU_BURST_INVALID,Sorozatkép érvénytelen
+COU_BURST_INVALID_2,
+COU_CANNOTACCESS_MS,Nem fér a Memory Stick-hez
+COU_CANNOTACCESS_MS_2,Hozzáférés megtagadva
+COU_CANNOTCREATE_FOLDERS,Nem lehet több mappa
+COU_CANNOTCREATE_FOLDERS_2,
+COU_DATA_ERROR,Képkezelő fájl hiba
+COU_DATA_ERROR_2,
+COU_ERROR10,Hiba10
+COU_ERROR20,Hiba20
+COU_ERROR30,Hiba30
+COU_ERROR40,Hiba40
+COU_ERROR50,Hiba50
+COU_EXCEEDED_LIMIT,Maxim. kép kiválasztva
+COU_EXCEEDED_LIMIT_2,
+COU_FILEERROR,Fájlhiba
+COU_FILEERROR_2,
+COU_FILEPROTECT,Fájlvédelem
+COU_FILEPROTECT_2,
+COU_FLASHSETTING_INVALID,A vaku beállításai nem
+COU_FLASHSETTING_INVALID_2,változtathatók
+COU_FOLDER_ERROR,Mappahiba
+COU_FOLDER_ERROR_2,
+COU_FORMATERROR_INTERNALMEMORY,Belső memória formázási hiba
+COU_FORMATERROR_INTERNALMEMORY_2,
+COU_FORMATERROR_MS,Memory Stick formázási hiba
+COU_FORMATERROR_MS_2,
+COU_IMAGESIZEOVER,Túl nagy képméret
+COU_IMAGESIZEOVER_2,
+COU_INKERROR,Tinta hiba
+COU_INKERROR_2,
+COU_INVALID_FILE,Érvénytelen fájl
+COU_INVALID_FILE_2,
+COU_INVALID_FOLDER,A művelet nem érhető el
+COU_INVALID_FOLDER_2,Mappa megtekintéssel
+COU_INVALID_MS,A képkezelő fájlt nem tudja
+COU_INVALID_MS_2,elmenteni erre a Memory Stickre
+COU_INVALID_OPERATION,Érvénytelen művelet
+COU_INVALID_OPERATION_HDOUT,A művelet nem végezhető el
+COU_INVALID_OPERATION_HDOUT_2,HD(1080i) kimenet közben
+COU_INVALID_OPERATION_MOVIEFILE,A művelet nem végezhető el
+COU_INVALID_OPERATION_MOVIEFILE_2,a mozgókép fájlokhoz
+COU_INVALID_OPERATION_NGFILE,A művelet nem végezhető el
+COU_INVALID_OPERATION_NGFILE_2,a nem támogatott fájlokban
+COU_INVALID_OPERATION_PICTBRIDGE,A művelet nem végezhető el,
+COU_INVALID_OPERATION_PICTBRIDGE_2,ha PictBridge kapcsolatot használ
+COU_INVALID_OPERATION_REMOTE,A művelet nem végezhető el
+COU_INVALID_OPERATION_REMOTE_2,távvezérléssel
+COU_INVALID_OPERATION_TVOUT,A művelet nem végezhető el
+COU_INVALID_OPERATION_TVOUT_2,TV kimenet közben
+COU_LENSCAPOFF,Vegye le, a lencsevédő sapkát
+COU_LENSCAPOFF_2,kapcsolja ki és újra be
+COU_LENSCOVER_OPEN,A fényképezéshez nyissa ki
+COU_LENSCOVER_OPEN_2,a lencsevédőt.
+COU_LOWINK,Kevés tinta
+COU_LOWINK_2,
+COU_MACRO_INVALID,A makró érvénytelen.
+COU_MACRO_INVALID_2,
+COU_MEDIAERROR_INTERNALMEMORY,Belső memória hiba
+COU_MEDIAERROR_INTERNALMEMORY_2,
+COU_METERING_INVALID,A fénymérés üzemmód
+COU_METERING_INVALID_2,nem áll rendelkezésre
+COU_MSR_NOTUSEFUNCTION,A funkció nem támogatott ezzel
+COU_MSR_NOTUSEFUNCTION_2,a Memory Stick kártyával
+COU_MS_ERROR,A Memory Stick újra behelyezése
+COU_MS_ERROR_2,
+COU_MS_LOCKED,Lezárt Memory Stick
+COU_MS_LOCKED_2,
+COU_MS_TYPEERROR,Memory Stick típus hiba
+COU_MS_TYPEERROR_2,
+COU_NOBATTERY,Nincs elég akkutöltés
+COU_NOIMAGE,Nincsenek képek
+COU_NOIMAGE_2,
+COU_NOIMAGE_PLAY,Egyes képek átvitele nem sikerült
+COU_NOIMAGE_PLAY_2,Azonosíthatatlan formátum.
+COU_NOINK,Nincs tinta
+COU_NOINK_2,
+COU_NOMS,Nincs Memory Stick
+COU_NOMS_2,
+COU_NOPAPER,Nincs papír
+COU_NOPAPER_2,
+COU_NOSOFTWAREFILE,Nincs szoftver fájl
+COU_NOSOFTWAREFILE_2,
+COU_NOSPACE_INTERNALMEMORY,Nincs tárhely a belső memóriában
+COU_NOSPACE_INTERNALMEMORY_2,
+COU_NOSPACE_MS,Nincs tárhely a Memory Stick
+COU_NOSPACE_MS_2,kártyán
+COU_NOT_SELECTED_FAV,Nincs Kedvencek kivál.
+COU_NOT_SELECTED_FAV_2,
+COU_NOT_SELECTED_IMAGES,Nincs kép kivál.
+COU_NOT_SELECTED_IMAGES_2,
+COU_NOT_SELECTED_SHARE,Nincs Megosztás kiválasztva
+COU_NOT_SELECTED_SHARE_2,
+COU_PAPERERROR,Papír hiba
+COU_PAPERERROR_2,
+COU_PASSLOCK_CODE_MISS,Helytelen visszaállítási kód
+COU_PASSLOCK_CODE_MISS_2,
+COU_PASSLOCK_PASS_MISS,Helytelen jelszó
+COU_PASSLOCK_PASS_MISS_2,
+COU_POWEROFFON,Kapcsolja ki és újra be
+COU_POWEROFFON_2,
+COU_PRINTERBUSY,A nyomtató foglalt
+COU_PRINTERBUSY_2,
+COU_PRINTERERROR,Nyomtató hiba
+COU_PRINTERERROR_2,
+COU_READONLYMEMORY,Csak olvasható memória
+COU_READONLYMEMORY_2,
+COU_READONLY_FOLDER,Csak olvasható mappa
+COU_READONLY_FOLDER_2,
+COU_REDEYE_DETECTED,Nem érzékelt vörösszemet
+COU_REDEYE_DETECTED_2,
+COU_SCRNTOUCH_INVALID,Az érintőképernyő itt hatástalan
+COU_SCRNTOUCH_INVALID_2,
+COU_SELFTIMER_INVALID,Az önkioldó érvénytelen
+COU_SELFTIMER_INVALID_2,
+COU_SMILESHUTTER_AUTOONLY,Mosoly exponálás csak úgy érhető
+COU_SMILESHUTTER_AUTOONLY_2,el, ha a FELV. ümód "Auto"-n van
+COU_SYSTEMERROR,Rendszerhiba
+COU_SYSTEMERROR_2,
+COU_TARGET_DETECTED,Nem tud arcot érzékelni
+COU_TARGET_DETECTED_2,a retusáláshoz
+COU_TARGET_NOIMAGE,Nincs fénykép
+COU_TARGET_NOIMAGE_2,
+COU_ZOOM_INVALID,Zoom letiltva.
+COU_ZOOM_INVALID_2,
+DUMMY,
+GUIDE_BUTTON,Kívánt gombot érintse
+GUIDE_CENTER,Érintse meg a középpontot
+GUIDE_CHANGEFOCUS,Fókusz helyét érintéssel váltja
+GUIDE_CHOOSEFOCUS,Érintse meg a fókusz helyét
+GUIDE_DEMO_BACKLIGHT,Ellenfényt érzékelt
+GUIDE_DEMO_BACKLIGHTPORTRAIT,Ellenfényt és személyt érzékelt
+GUIDE_DEMO_LANDSCAPE,Tájképet érzékelt
+GUIDE_DEMO_MACRO,Nagyon közeli tárgyat érzékelt
+GUIDE_DEMO_PORTRAIT,Személyt érzékelt
+GUIDE_DEMO_TRIPOD,Szürkületet és Állványt érzékelt
+GUIDE_DEMO_TWILIGHT,Szürkületet érzékelt
+GUIDE_DEMO_TWILIGHTPORTRAIT,Szürkületet és személyt érzékelt
+GUIDE_EFFECTLEVEL,Válassza meg az effekt szintjét
+GUIDE_EXIT_TOUCH,Az LCD érintésével kilép
+GUIDE_LIGHTBEAM_LEVEL,Vál. meg a fénysugár szintjét
+GUIDE_RANGE,Vál. meg az effektus mértékét
+GUIDE_RESIZE,Az átméretezés befejeződött
+GUIDE_RETOUCH_COMPLETE,A retusálás befejeződött
+GUIDE_RETRO_LIGHT,Fényesség mértékének kivál.
+GUIDE_ROTATEIMG,Érintse a forgatandó képet
+GUIDE_SAVESIZE,Vál. meg a mentés méretét
+GUIDE_SELECTFACE,Az arcot érintéssel választja
+GUIDE_SELECTFAV,Vál. ki a Kedvencek mappát
+GUIDE_SMILEDEMO_START,Vál. mosoly ikont az indításhoz
+GUIDE_SMILESHUTTER_EXIT,Vál. mosoly ikont a kilépéshez
+GUIDE_STARTIMG,Vál. ki a Diabemutató kezdő képét
+GUIDE_TOUCHFAV,Érintse meg a Kedvenceket
+GUIDE_TOUCHIMG,Érintse meg a képet
+GUIDE_ZOOMIN_TOUCH,Érintse meg a nagyít. pontot
+GUIDE_ZOOMIN_TOUCHED,A megérintett helyet nagyítja
+HOME,HOME
+HOME_CAM,Fényképezés
+HOME_CAM_GUIDE2,Fotót vagy mozgóképet
+HOME_CAM_GUIDE2_2,készít
+HOME_COMMUNICATION,Kommunikáció
+HOME_ETC_BGMTOOL,Zene eszköz
+HOME_ETC_BGMTOOL_GUIDE2,Diabemutató zene kezelése
+HOME_ETC_BGMTOOL_GUIDE2_2,
+HOME_ETC_PRINT_GUIDE2,Fényképek nyomtatása
+HOME_ETC_PRINT_GUIDE2_2,
+HOME_MEMORY,Memóriakezelés
+HOME_MEMORY_GUIDE2,Felvételi média kezelése
+HOME_MEMORY_GUIDE2_2,
+HOME_MEMORY_INTERNALMEMORYTOOL,Belső memória eszköz
+HOME_MEMORY_MEMORYSTICKTOOL,Memory Stick eszköz
+HOME_MEMORY_MEMORYTOOL,Memória eszköz
+HOME_NETWORK,Hálózat
+HOME_NETWORK_GUIDE,Csatlakozás a hálózathoz
+HOME_NETWORK_GUIDE_2,
+HOME_PLAY,Képeket tekint meg
+HOME_PLAY1,Képeket tekint meg 1
+HOME_PLAY2,Képeket tekint meg 2
+HOME_PLAY_INDEX_GUIDE2,Több kép kijelzése
+HOME_PLAY_INDEX_GUIDE2_2,
+HOME_PLAY_NORMAL_GUIDE2,Fényképek egyenkénti
+HOME_PLAY_NORMAL_GUIDE2_2,megtekintése
+HOME_PLAY_SLIDESHOW_GUIDE2,Automatikus lejátszás
+HOME_PLAY_SLIDESHOW_GUIDE2_2,zenével és hatásokkal
+HOME_PRINT,Nyomtat
+HOME_SCENESELECTION,Helyszínválasztás
+HOME_SCRAPBOOK,Fényképalbum
+HOME_SCRAPBOOK_GUIDE,Fényképalbum automatikus
+HOME_SCRAPBOOK_GUIDE_2,készítése
+HOME_SETTINGS,Beáll. ok
+HOME_SET_CAM,Fényképezés beáll.
+HOME_SET_CAM_GUIDE2,Fényképezési beállítások
+HOME_SET_CAM_GUIDE2_2,módosítása
+HOME_SET_CLOCK,Óra beállítások
+HOME_SET_CLOCK_GUIDE2,Dátum és idő módosítása
+HOME_SET_CLOCK_GUIDE2_2,
+HOME_SET_LANGUAGE,Language Setting
+HOME_SET_LANGUAGE_CHANGE_GUIDE,Change Language
+HOME_SET_LANGUAGE_CHANGE_GUIDE_2,
+HOME_SET_LANGUAGE_GUIDE2,Change Language
+HOME_SET_LANGUAGE_GUIDE2_2,
+HOME_SET_MAIN,Fő beállítások
+HOME_SET_MAIN_GUIDE2,Fő beállítások módosítása
+HOME_SET_MAIN_GUIDE2_2,
+HOME_SLIDESHOW,Diabemutató
+HOME_VIEW_DATE,Dátum szerint
+HOME_VIEW_DATE_GUIDE2,Képek dátum szerinti
+HOME_VIEW_DATE_GUIDE2_2,kijelzése
+HOME_VIEW_EVENT,Esemény megtekint.
+HOME_VIEW_EVENT_GUIDE,Autom. csoportba rendezi
+HOME_VIEW_EVENT_GUIDE_2,a képeket a megjelenítéshez
+HOME_VIEW_FAV,Kedvencek
+HOME_VIEW_FAV_GUIDE2,Képek kijelzése a
+HOME_VIEW_FAV_GUIDE2_2,Kedvencekben
+HOME_VIEW_FOLDER,Mappa megtek.
+HOME_VIEW_FOLDER_GUIDE2,Képek kijelzése
+HOME_VIEW_FOLDER_GUIDE2_2,a DCF mappában
+KEY_FLASH_AUTO_GUIDE,Automatikus vaku
+KEY_FLASH_AUTO_GUIDE_2,Automatikusan villan
+KEY_FLASH_OFF,Vaku ki
+KEY_FLASH_OFF_GUIDE,Vaku ki
+KEY_FLASH_OFF_GUIDE_2,Nincs vaku
+KEY_FLASH_ON,Vaku be
+KEY_FLASH_ON_GUIDE,Vaku be
+KEY_FLASH_ON_GUIDE_2,Mindig használjon vakut
+KEY_FLASH_SYNCHRO_GUIDE,Tartsa a tárgyakat és a távoli
+KEY_FLASH_SYNCHRO_GUIDE_2,háttereket fényesen
+KEY_MACRO_AUTO_GUIDE,Automatikus fókusz a
+KEY_MACRO_AUTO_GUIDE_2,közelitől a végtelenig
+KEY_MACRO_NEAR,Makró be
+KEY_MACRO_NEAR_GUIDE,Fókuszálás a nagyon közeli
+KEY_MACRO_NEAR_GUIDE_2,tárgyak elsőbbségével
+KEY_MAGNIFY_ON,Közeli fókusz lehetséges
+KEY_MAGNIFY_ON_GUIDE,Közeli fókusz aktiválva
+KEY_MAGNIFY_ON_GUIDE_2,Extrém közelikhez
+KEY_SELFTIMER_10_GUIDE,10 mp-cel késleltetett
+KEY_SELFTIMER_10_GUIDE_2,exponálás
+KEY_SELFTIMER_2_GUIDE,2 mp-cel késleltetett
+KEY_SELFTIMER_2_GUIDE_2,exponálás
+KEY_SELFTIMER_OFF_GUIDE,Időzítő ki
+KEY_SELFTIMER_OFF_GUIDE_2,
+MSG_ACCESSING,Működés…
+MSG_AVI_MAKING,Új képkezelő fájl
+MSG_CAPTURING,Befogás…
+MSG_CLOSEEYE_DETECT,Csukott szemet érzékelt
+MSG_CONFIRM_UPDATE,Vál. OK-t frissítéshez
+MSG_CONFIRM_UPDATE_2,
+MSG_CONNECTING,Csatlakozás…
+MSG_CONNECTING_MASSSTORAGE,Csatlakozás Mass Storage-hoz…
+MSG_CONNECTING_MASSSTORAGE_2,
+MSG_CONNECTING_NETWORK,Csatlakozás a hálózathoz…
+MSG_CONNECTING_PICTBRIDGE,PictBridge eszk. csatl.
+MSG_CONNECTING_PICTBRIDGE_2,
+MSG_CONNECTING_PTPMTP,Csatlakozás a
+MSG_CONNECTING_PTPMTP_2,PTP/MTP-hez…
+MSG_CONNECT_PC,Csatlakoztassa a PC-hez
+MSG_CONNECT_PC_2,
+MSG_CONNECT_PICTBRIDGE,Csatl. PictBridge eszközhöz
+MSG_CONNECT_PICTBRIDGE_2,
+MSG_COPY,Minden adatot átmásol
+MSG_COPYING,Másolás…
+MSG_COPYING_2,
+MSG_COPY_2,a belső memórián
+MSG_CREATING_RECFOLDER,FELVmappa létrehozása
+MSG_CURRENTVERSION,Aktuális verzió
+MSG_ENTRY_OVER,A képek száma elérte a
+MSG_ENTRY_OVER_2,maximális értéket
+MSG_EXITTING_NETWORK,Hálózat bezárása…
+MSG_FORMATTING_BGM,Zene formázása…
+MSG_FORMATTING_BGM_2,
+MSG_FORMATTING_INTERNALMEMORY,Belső memória formázása…
+MSG_FORMATTING_INTERNALMEMORY_2,
+MSG_FORMATTING_MS,Memory Stick formázása…
+MSG_FORMATTING_MS_2,
+MSG_FORMAT_BGM,Az összes zenei fájlt törli
+MSG_FORMAT_BGM_2,
+MSG_FORMAT_INTERNALMEMORY,Minden adatot töröl a belső
+MSG_FORMAT_INTERNALMEMORY_2,memóriáról
+MSG_FORMAT_MS,Minden adatot töröl a
+MSG_FORMAT_MS_2,Memory Stick kártyáról
+MSG_FORWARDING,Adatátvitel…
+MSG_HOUSING,A működés megváltozott
+MSG_INITIALIZE_ALLSETTINGS,Össz. beáll. inicializál
+MSG_INITIALIZE_ALLSETTINGS_2,
+MSG_NEWVERSION,Új verzió
+MSG_NOTTURNOFF,Ne kapcsolja ki
+MSG_PASSLOCK_PASS_CANCEL,Jelszó beállítás törölve
+MSG_PASSLOCK_PASS_CANCEL_2,
+MSG_PASSLOCK_PASS_RESET,A jelszó visszaállítva
+MSG_PASSLOCK_PASS_RESET_2,
+MSG_PASSLOCK_PASS_RESET_MODE,Jelszó visszaállítási
+MSG_PASSLOCK_PASS_RESET_MODE_2,üzemmód
+MSG_PASSLOCK_PASS_SET,A jelszó beállítva
+MSG_PASSLOCK_PASS_SET_2,
+MSG_PRINTING,Nyomtatás…
+MSG_PROCESSING,Feldolgozás…
+MSG_RECORDING,Rögzítés…
+MSG_RECORD_MS,Mentés Memory Stick-re
+MSG_RECOVER,Állítsa vissza az adatokat
+MSG_RECOVERINGFILE,Képkezelő fájl
+MSG_RECOVERINGFILE_2,visszaállítása…
+MSG_RECOVER_2,
+MSG_SEE_SOFTWAREUPDATE_INST,Ld. a "Szoftver frissítés utasítását"
+MSG_SEE_SOFTWAREUPDATE_INST_2,
+MSG_SMILEDEMO_GUIDE,A mosolyt automatikusan befogja
+MSG_SMILEDEMO_PROCESSING,Mosoly exponálás a bemutatóban
+MSG_SMILESHUTTER_PROCESSING,Mosolykeresése
+MSG_SMILE_END1,Fényképek száma
+MSG_SOFTWAREUPDATE,Szoftverfrissítés
+MSG_SOFTWAREUPDATE_2,
+MSG_STARTING_NETWORK,Hálózat indítása…
+MSG_START_BROWSER,Web böngésző indítása…
+MSG_TOUCH_X_CENTER,Érintse meg az "×" jel közepét
+MSG_TVOUT,TV kimenet folyamatban…
+MSG_USBMENU,Kapcsolja be a [MENU]-t
+PASSLOCK_PASS_CLEAR,Üsse be a visszaáll. Kódot
+PASSLOCK_PASS_INPUT,Üsse be a jelszót
+PASSLOCK_PASS_REINPUT,Üsse be újra a jelszót
+PASSLOCK_PASS_SET,Jelszó beállítás
+PBMENU_ALBUM_GUIDE,Visszatérés az Albumhoz
+PBMENU_ALBUM_GUIDE_2,
+PBMENU_BACKGROUND,Háttér
+PBMENU_BLOG_GUIDE,Csökkenti a kép méretét, és
+PBMENU_BLOG_GUIDE_2,új képként menti
+PBMENU_DATEALL,Minden képet a dátumokban
+PBMENU_DATEALL_CLEAR,Mind távolítása dátumokban
+PBMENU_DATEALL_ENTRY,Mind hozzáad. a dátumokban
+PBMENU_DATEALL_SET,Mind beállít. a dátumokban
+PBMENU_DATELIST,Dátumlista
+PBMENU_DATELIST_GUIDE,Válasszon ki egy dátumot
+PBMENU_DATELIST_GUIDE_2,megtekintésre
+PBMENU_DELETE,Töröl
+PBMENU_DELETE_ALL_GUIDE,Törölje az összes képet
+PBMENU_DELETE_ALL_GUIDE_2,ebből a mappából
+PBMENU_DELETE_DATEALL_GUIDE,Minden képet töröl
+PBMENU_DELETE_DATEALL_GUIDE_2,ebben a dátumban
+PBMENU_DELETE_EVENTALL_GUIDE,Minden képet töröl
+PBMENU_DELETE_EVENTALL_GUIDE_2,erről az eseményről
+PBMENU_DELETE_SELECT_GUIDE,Törli a többes
+PBMENU_DELETE_SELECT_GUIDE_2,kiválasztású képeket
+PBMENU_DELETE_SINGLE_GUIDE,A fénykép törlése
+PBMENU_DELETE_SINGLE_GUIDE_2,
+PBMENU_DPOF,DPOF
+PBMENU_DPOF_ALL_CLEAR_GUIDE,Törli a nyomtatási sorrend
+PBMENU_DPOF_ALL_CLEAR_GUIDE_2,jelet e mappa összes képéről
+PBMENU_DPOF_ALL_SET_GUIDE,Nyomtatási sorrend jelet ad
+PBMENU_DPOF_ALL_SET_GUIDE_2,e mappa minden képéhez
+PBMENU_DPOF_DATEALL_CLEAR_GUIDE,Törli a nyomtatás rendelés
+PBMENU_DPOF_DATEALL_CLEAR_GUIDE_2,jelet a képekről e dátumban
+PBMENU_DPOF_DATEALL_SET_GUIDE,Nyomtatás rendelés jelet ad
+PBMENU_DPOF_DATEALL_SET_GUIDE_2,a képekhez e dátumokban
+PBMENU_DPOF_EVENTALL_CLEAR_GUIDE,Törli a nyomtatás rendelés
+PBMENU_DPOF_EVENTALL_CLEAR_GUIDE_2,jelét eme esemény képeiről
+PBMENU_DPOF_EVENTALL_SET_GUIDE,Nyomtatás rendelés jelet ad
+PBMENU_DPOF_EVENTALL_SET_GUIDE_2,eme esemény képeihez
+PBMENU_DPOF_FAVALL_CLEAR_GUIDE,Törli a nyomtatás rendelés
+PBMENU_DPOF_FAVALL_CLEAR_GUIDE_2,jelet e csoport képeiről
+PBMENU_DPOF_FAVALL_SET_GUIDE,Nyomtatás rendelés jelet ad
+PBMENU_DPOF_FAVALL_SET_GUIDE_2,e csoport minden képéhez
+PBMENU_DPOF_SELECT_GUIDE,Be/kikapcs. nyomtatás rend.
+PBMENU_DPOF_SELECT_GUIDE_2,jeleket többes. kivál. képeken
+PBMENU_DPOF_SINGLE_GUIDE,Be/kikapcs. nyomtatás rend.
+PBMENU_DPOF_SINGLE_GUIDE_2,jeleket a kiválasztott képeken
+PBMENU_EDIT,Retusál
+PBMENU_EDIT_BLOG_EMAIL,Blog / E-mail
+PBMENU_EDIT_BW,Részleges szín
+PBMENU_EDIT_BW_GUIDE,Egy színnel vesz körül egy
+PBMENU_EDIT_BW_GUIDE_2,kiválasztott pontot
+PBMENU_EDIT_CROSS,Kereszt szűrő
+PBMENU_EDIT_CROSS_GUIDE,Csillagrobbanás hatást ad a
+PBMENU_EDIT_CROSS_GUIDE_2,fénykép fényes pontjaihoz
+PBMENU_EDIT_FISHEYE,Halszem lencse
+PBMENU_EDIT_FISHEYE_GUIDE,Halszem hatást alkalmaz
+PBMENU_EDIT_FISHEYE_GUIDE_2,egy kiválasztott pont körül
+PBMENU_EDIT_HDTV,HDTV
+PBMENU_EDIT_RADIATION,Sugaras elhomályosítás
+PBMENU_EDIT_RADIATION_GUIDE,Sugaras elhomályosítást al-
+PBMENU_EDIT_RADIATION_GUIDE_2,kalm. kép kiválasztott pontján
+PBMENU_EDIT_REDEYE,Vörösszem javítás
+PBMENU_EDIT_REDEYE_GUIDE,Eltávolítja a vaku okozta
+PBMENU_EDIT_REDEYE_GUIDE_2,vörösszemet
+PBMENU_EDIT_RETRO2,Retro
+PBMENU_EDIT_RETRO2_GUIDE,Elhomályosítja és halványítja
+PBMENU_EDIT_RETRO2_GUIDE_2,a szélét nosztalgikus hatásért
+PBMENU_EDIT_SHARPFOUCS,Életlen rész maszkolása
+PBMENU_EDIT_SHARPFOUCS_GUIDE,Élesebbé teszi a képet a
+PBMENU_EDIT_SHARPFOUCS_GUIDE_2,kiválasztott pont körül
+PBMENU_EDIT_SMILE,Mosoly
+PBMENU_EDIT_SMILE_GUIDE,Megváltoztatja az emberek
+PBMENU_EDIT_SMILE_GUIDE_2,arcát, mosolyt varázsolva arra
+PBMENU_EDIT_SOFTFOUCS,Lágy fókusz
+PBMENU_EDIT_SOFTFOUCS_GUIDE,Elhomályosítja a széleket
+PBMENU_EDIT_SOFTFOUCS_GUIDE_2,egy kiválasztott pont körül
+PBMENU_EDIT_TRIMMING,Kivág
+PBMENU_EDIT_TRIMMING_GUIDE,Képek levágása, hogy eltá-
+PBMENU_EDIT_TRIMMING_GUIDE_2,volítsa a nem kívánt részeket
+PBMENU_EVENTALL,Mindent az eseményen
+PBMENU_EVENTALL_CLEAR,Mindent töröl az esem. ről
+PBMENU_EVENTALL_ENTRY,Mindent hozzáad az es. ről
+PBMENU_EVENTALL_SET,Beállítja az esemény képeit
+PBMENU_EVENTLIST,Esemény lista
+PBMENU_EVENTLIST_GUIDE,Kiválasztja a megtekintendő
+PBMENU_EVENTLIST_GUIDE_2,eseményt
+PBMENU_FAV,Kedvencek
+PBMENU_FAV1,1. Kedvencek
+PBMENU_FAV2,2. Kedvencek
+PBMENU_FAV3,3. Kedvencek
+PBMENU_FAV4,4. Kedvencek
+PBMENU_FAV5,5. Kedvencek
+PBMENU_FAV6,6. Kedvencek
+PBMENU_FAVALL,Minden a Kedvencekben
+PBMENU_FAVALL_CLEAR,Kiüríti a Kedvenceket
+PBMENU_FAVALL_ENTRY,Kedv. ben mindent hozzáad
+PBMENU_FAVALL_SET,Beállít mindent e csoportban
+PBMENU_FAV_ALL_CLEAR_GUIDE,Távolítsa el az összes képet a
+PBMENU_FAV_ALL_CLEAR_GUIDE_2,Kedvencekből
+PBMENU_FAV_CLEAR,Kedvencek eltávolítása
+PBMENU_FAV_CLEAR_DATEALL_GUIDE,Távolítsa el e dátumban az
+PBMENU_FAV_CLEAR_DATEALL_GUIDE_2,összes képet a Kedvencekből
+PBMENU_FAV_CLEAR_EVENTALL_GUIDE,Mind. képet töröl az es. ről
+PBMENU_FAV_CLEAR_EVENTALL_GUIDE_2,a Kedvencekből
+PBMENU_FAV_ENTRY,Hozzáadja a Kedvencekhez
+PBMENU_FAV_ENTRY_DATEALL_GUIDE,Adja hozzá e dátum összes
+PBMENU_FAV_ENTRY_DATEALL_GUIDE_2,képét a Kedvencekhez
+PBMENU_FAV_ENTRY_EVENTALL_GUIDE,Hozzáadja az es. összes
+PBMENU_FAV_ENTRY_EVENTALL_GUIDE_2,képét a Kedvencekhez
+PBMENU_FAV_SELECT_GUIDE,Hozáadja/Eltávolítja a kijelölt
+PBMENU_FAV_SELECT_GUIDE_2,képeket a Kedvencekhez/ből
+PBMENU_FAV_SET,Kedvenceket Ad/Eltávolít
+PBMENU_FAV_SINGLE_GUIDE,Hozzáadja/Eltávolítja ezt a
+PBMENU_FAV_SINGLE_GUIDE_2,képet a Kedvencekhez/ből
+PBMENU_FOLDERALL,Minden ebben a mappában
+PBMENU_FOLDERALL_CLEAR,Mindent töröl e mappában
+PBMENU_FOLDERALL_ENTRY,Mappában mindent hozzáad
+PBMENU_FOLDERALL_SET,Mind kiválasztja e mappában
+PBMENU_FOLDERJUMP,Mappa kiválaszt.
+PBMENU_FRAME,Képkocka
+PBMENU_HDTV_GUIDE,16:9-es méretre vágja a
+PBMENU_HDTV_GUIDE_2,képet, és új képként menti el
+PBMENU_IMAGESAVE,Mentés képként
+PBMENU_MULTIPLEIMAGES,Többszörös képek
+PBMENU_MULTIPLEPAGESAVE,Oldalak kiválasztása, mentése
+PBMENU_MULTIRESIZE,Többszörös átméretezés
+PBMENU_PAGESAVE,Ennek az oldalnak mentése
+PBMENU_PAINT,Festés
+PBMENU_PAINT_GUIDE,Festést, bélyeget vagy
+PBMENU_PAINT_GUIDE_2,keretet ad a képhez
+PBMENU_PBFOLDER_GUIDE,Kiválaszt egy mappát
+PBMENU_PBFOLDER_GUIDE_2,a lejátszáshoz
+PBMENU_PRINT_ALL_GUIDE,A mappa összes
+PBMENU_PRINT_ALL_GUIDE_2,fényképének kinyomtatása
+PBMENU_PRINT_DATEALL_GUIDE,Dátum szerint minden kép
+PBMENU_PRINT_DATEALL_GUIDE_2,nyomtatása
+PBMENU_PRINT_EVENTALL_GUIDE,Eme esemény összes
+PBMENU_PRINT_EVENTALL_GUIDE_2,képének nyomtatása
+PBMENU_PRINT_FAVALL_GUIDE,A Kedvencek e csoportjának
+PBMENU_PRINT_FAVALL_GUIDE_2,minden képének nyomtatása
+PBMENU_PRINT_SELECT_GUIDE,Kinyomtatja a többes
+PBMENU_PRINT_SELECT_GUIDE_2,kiválasztású fényképeket
+PBMENU_PRINT_SINGLE_GUIDE,Fényképek kinyomtatása
+PBMENU_PRINT_SINGLE_GUIDE_2,
+PBMENU_PROTECT,Véd
+PBMENU_PROTECT_ALL_CLEAR_GUIDE,Kikapcsolja az összes kép
+PBMENU_PROTECT_ALL_CLEAR_GUIDE_2,védelmét e mappában
+PBMENU_PROTECT_ALL_SET_GUIDE,Bekapcsolja az összes kép
+PBMENU_PROTECT_ALL_SET_GUIDE_2,védelmét e mappában
+PBMENU_PROTECT_DATEALL_CLEAR_GUIDE,Kikapcsolja az összes kép
+PBMENU_PROTECT_DATEALL_CLEAR_GUIDE_2,védelmét e dátumokban
+PBMENU_PROTECT_DATEALL_SET_GUIDE,Bekapcsolja az összes kép
+PBMENU_PROTECT_DATEALL_SET_GUIDE_2,védelmét e dátumokban
+PBMENU_PROTECT_EVENTALL_CLEAR_GUIDE,A védelem kikapcsolása
+PBMENU_PROTECT_EVENTALL_CLEAR_GUIDE_2,az esemény összes képéről
+PBMENU_PROTECT_EVENTALL_SET_GUIDE,A védelem bekapcsolása
+PBMENU_PROTECT_EVENTALL_SET_GUIDE_2,az esemény összes képéről
+PBMENU_PROTECT_FAVALL_CLEAR_GUIDE,Kikapcsolja az összes kép
+PBMENU_PROTECT_FAVALL_CLEAR_GUIDE_2,védelmét e csoportban
+PBMENU_PROTECT_FAVALL_SET_GUIDE,Bekapcsolja az összes kép
+PBMENU_PROTECT_FAVALL_SET_GUIDE_2,védelmét e csoportban
+PBMENU_PROTECT_SELECT_GUIDE,Be/kikapcsolja kép védelmét
+PBMENU_PROTECT_SELECT_GUIDE_2,többes kiválasztású képekhez
+PBMENU_PROTECT_SINGLE_GUIDE,Be/kikapcsolja a fénykép
+PBMENU_PROTECT_SINGLE_GUIDE_2,védelmét
+PBMENU_REFINE,Arcok szerinti szűrés
+PBMENU_REFINE_BABY,Csecsemők
+PBMENU_REFINE_BABY_GUIDE,Megkeresi és kijelzi a cse-
+PBMENU_REFINE_BABY_GUIDE_2,csemőket ábrázoló képeket
+PBMENU_REFINE_CHILD,Gyerekek
+PBMENU_REFINE_CHILD_GUIDE,Megkeresi és kijelzi a gye-
+PBMENU_REFINE_CHILD_GUIDE_2,rekarcokat ábrázoló képeket
+PBMENU_REFINE_CLEAR_GUIDE,Kijelzi az összes képet
+PBMENU_REFINE_CLEAR_GUIDE_2,
+PBMENU_REFINE_FACE,Az összes ember
+PBMENU_REFINE_FACE_GUIDE,Megkeresi és kijelzi az em-
+PBMENU_REFINE_FACE_GUIDE_2,beri arcokat ábrázoló képeket
+PBMENU_REFINE_SMILE,Mosoly
+PBMENU_REFINE_SMILE_GUIDE,Megkeresi és kijelzi a
+PBMENU_REFINE_SMILE_GUIDE_2,mosolygó arcos képeket
+PBMENU_ROTATE,Forgatás
+PBMENU_ROTATE_GUIDE,Fényképek forgatása
+PBMENU_ROTATE_GUIDE_2,
+PBMENU_SCRAPBOOKALLSAVE,Fényképalbum oldalai mentése
+PBMENU_SCRAPBOOKALL_GUIDE,A Fényképalbum összes
+PBMENU_SCRAPBOOKALL_GUIDE_2,oldalának mentése képként
+PBMENU_SHARE_CLEAR,A Megosztás eltávolítása
+PBMENU_SHARE_CLEAR_DATEALL_GUIDE,Távolítsa el e dátumban az
+PBMENU_SHARE_CLEAR_DATEALL_GUIDE_2,összes képet a Megosztásból
+PBMENU_SHARE_CLEAR_EVENTALL_GUIDE,Távolítsa el eme esemény
+PBMENU_SHARE_CLEAR_EVENTALL_GUIDE_2,összes képét a Megosztásból
+PBMENU_SHARE_CLEAR_FAVALL_GUIDE,Távolítsa el e csoport
+PBMENU_SHARE_CLEAR_FAVALL_GUIDE_2,összes képét a Megosztásból
+PBMENU_SHARE_ENTRY,Hozzáadja a Megosztáshoz
+PBMENU_SHARE_ENTRY_DATEALL_GUIDE,Hozzáadja e dátumokban az
+PBMENU_SHARE_ENTRY_DATEALL_GUIDE_2,összes képet a Megoszt. hoz
+PBMENU_SHARE_ENTRY_EVENTALL_GUIDE,Hozzáadja eme esemény
+PBMENU_SHARE_ENTRY_EVENTALL_GUIDE_2,összes képét a Megoszt. hoz
+PBMENU_SHARE_ENTRY_FAVALL_GUIDE,Hozzáadja e csoport
+PBMENU_SHARE_ENTRY_FAVALL_GUIDE_2,összes képét a Megosztásból
+PBMENU_SHARE_SELECT_GUIDE,Hozzáad/Eltávolít kijelölt
+PBMENU_SHARE_SELECT_GUIDE_2,képeket a Megosztáshoz/ból
+PBMENU_SHARE_SET,Megosztást Ad/Eltávolít
+PBMENU_SHARE_SINGLE_GUIDE,Hozzáadja/Eltávolítja ezt a
+PBMENU_SHARE_SINGLE_GUIDE_2,képet a Megosztáshoz/ból
+PBMENU_SLIDESHOW_GUIDE,Automatikus lejátszás
+PBMENU_SLIDESHOW_GUIDE_2,zenével és effektekkel
+PBMENU_THISIMAGE,E képet
+PBMENU_THISPAGE_GUIDE,Elmenti a Fényképalbum
+PBMENU_THISPAGE_GUIDE_2,eme oldal képét
+PBMENU_VIEWSELECT,Megtekintő üzemmód
+PBMENU_VOLUMESETTINGS,Hangerő beállítások
+PBMENU_VOLUME_GUIDE,Hangerőt változtatja a Diabe-
+PBMENU_VOLUME_GUIDE_2,mutató/mozgókép esetén
+PBMENU_WIDEZOOM,Széles zoom kijelz.
+PBMENU_WSCREEN_GUIDE,16:9-es méretre vágja a
+PBMENU_WSCREEN_GUIDE_2,a képet, és kijelzi
+PRINTMENU_10X15CM,10x15 cm
+PRINTMENU_1PICBORDER,1/Kerettel
+PRINTMENU_1PICNOBORDER,1/Keret nélkül
+PRINTMENU_2L,13x18 cm
+PRINTMENU_2PICS,2 kép laponként
+PRINTMENU_3PICS,3 kép laponként
+PRINTMENU_4PICS,4 kép laponként
+PRINTMENU_4X6,4x6"
+PRINTMENU_8PICS,8 kép laponként
+PRINTMENU_A3,A3
+PRINTMENU_A3PLUS,A3+
+PRINTMENU_A4,A4
+PRINTMENU_A6,A6
+PRINTMENU_DATE,Dátum
+PRINTMENU_DATE_A,Dátum
+PRINTMENU_DAYANDTIME,Nap&idő
+PRINTMENU_HAGAKI,Hagaki
+PRINTMENU_HDTV,Széles méret
+PRINTMENU_INDEX,Index
+PRINTMENU_INDEXPRINT,Index nyomtatás
+PRINTMENU_L,9x13 cm
+PRINTMENU_LETTER,Letter
+PRINTMENU_PICTUREINPAPER,Elrend
+PRINTMENU_QUANTITY,Mennyiség
+PRINTMENU_SIZE,Méret
+SAVE,Mentés
+SETUP_AFILLUMINATOR,AF segédfény
+SETUP_AFILLUMINATOR_GUIDE2,Segédfény fókuszhoz kevés
+SETUP_AFILLUMINATOR_GUIDE2_2,fénynél
+SETUP_AFMODE,AF ümód
+SETUP_AFMODE_GUIDE2,Automatikus fókusz beállítások
+SETUP_AFMODE_GUIDE2_2,
+SETUP_AUTOREVIEW,Auto. V. nézés
+SETUP_AUTOREVIEW_GUIDE2,Megmut. képeket 2 mp-ig fényk.
+SETUP_AUTOREVIEW_GUIDE2_2,Után
+SETUP_BEEP,Csipogás
+SETUP_BEEP_GUIDE2,Csipogás beállítások
+SETUP_BEEP_GUIDE2_2,
+SETUP_BGMTOOL_DOWNLOAD_GUIDE2,Módosítja a diabemutató zenéjét
+SETUP_BGMTOOL_DOWNLOAD_GUIDE2_2,
+SETUP_BGMTOOL_FORMAT_GUIDE2,Minden diabemutatót töröl
+SETUP_BGMTOOL_FORMAT_GUIDE2_2,
+SETUP_BGM_DOWNLOAD,Zene letölt.
+SETUP_BGM_FORMAT,Zene formáz.
+SETUP_CALIBRATION,Kalibráció
+SETUP_CAM1,Fényképezés beállításai 1
+SETUP_CAM2,Fényképezés beállításai 2
+SETUP_CHANGERECFOLDER,FELVmappa cs
+SETUP_CLOCK_GUIDE2,Dátum és idő módosítása
+SETUP_CLOCK_GUIDE2_2,
+SETUP_COMPONENT,COMPONENT
+SETUP_COMPONENT_D1,SD
+SETUP_COMPONENT_D3,HD(1080i)
+SETUP_COMPONENT_GUIDE2,Komponens kimenet beállítások
+SETUP_COMPONENT_GUIDE2_2,
+SETUP_CONTROLGUIDE,Vezérlés tár
+SETUP_CONTROLGUIDE_GUIDE,Vezérlés tár beállításai
+SETUP_CONVERSION_GUIDE2,Kiválaszt egy konverziós
+SETUP_CONVERSION_GUIDE2_2,objektívet
+SETUP_COPY,Másolás
+SETUP_CREATERECFOLDER,FELVmappa lh
+SETUP_DEMOMODE,Bemutató
+SETUP_DEMOMODE_GUIDE,Bekapcsolja a
+SETUP_DEMOMODE_GUIDE_2,Demonstrációs üzemmódhoz
+SETUP_DIGITALZOOM,Digitális zoom
+SETUP_DIGITALZOOM_PRECISION,Precíziós
+SETUP_DIGITALZOOM_SMART,Intelligens
+SETUP_DIRECTIONJUDGE,Autom. Irány
+SETUP_DIRECTIONJUDGE_GUIDE2,Meghat. , elmenti fény. gép
+SETUP_DIRECTIONJUDGE_GUIDE2_2,helyzetét
+SETUP_DISP,Kijelzés beállítása
+SETUP_DISP_09,9
+SETUP_DISP_12,12
+SETUP_DISP_16,16
+SETUP_DISP_20,20
+SETUP_DISP_BRIGHT,Világos
+SETUP_DISP_BRIGHTNESS,LCD fényesség
+SETUP_DISP_BRIGHTNESSSET,Fényesség
+SETUP_DISP_HISTOGRAMSET,Hisztogram
+SETUP_DISP_IMAGEONLY,Csak kép
+SETUP_DISP_INDEX,Kép index beállítása
+SETUP_DISP_MSG_GRAPH_OFF,Nincs ábra kijelezve
+SETUP_DISP_MSG_GRAPH_ON,A kép fényességét ábraként jelzi ki
+SETUP_DISP_MSG_ICON,Csak a működ. gombokat jelzi ki
+SETUP_DISP_MSG_IMAGE,Csak a képet jelzi ki
+SETUP_DISP_MSG_INFO,A működ. gombokat és infót jelzi ki
+SETUP_DISP_MSG_LIGHT_BRIGHT,Növeli a képernyő fényességét
+SETUP_DISP_MSG_LIGHT_NORMAL,A képernyő fényessége szokásos
+SETUP_DISP_MSG_THUMBNAIL_09,9 képes index kijelzés
+SETUP_DISP_MSG_THUMBNAIL_12,12 képes index kijelzés
+SETUP_DISP_MSG_THUMBNAIL_16,16 képes index kijelzés
+SETUP_DISP_MSG_THUMBNAIL_20,20 képes index kijelzés
+SETUP_DISP_MSG_WIDEZOOMSET_OFF,Képeket eredeti méretarányban jelzi ki
+SETUP_DISP_MSG_WIDEZOOMSET_ON,A képeket a teljes képernyőn jelzi ki
+SETUP_DISP_OFF,Ki
+SETUP_DISP_ON,Be
+SETUP_DISP_OPT,Képek száma
+SETUP_DISP_PLAY,Lejátszás képernyő beállítása
+SETUP_DISP_SHOOT,Fényképezés képernyő beállít.
+SETUP_DISP_WIDEZOOMSET,Széles zoom
+SETUP_EXPANDEDFOUCS_GUIDE2,Kinagyítja a közepét kézi
+SETUP_EXPANDEDFOUCS_GUIDE2_2,fókuszáláskor
+SETUP_EZOOM_GUIDE2,Digitális zoom beállítások
+SETUP_EZOOM_GUIDE2_2,
+SETUP_FLASHSYNCHRO_GUIDE2,Kiválasztja a vaku időzítést
+SETUP_FLASHSYNCHRO_GUIDE2_2,
+SETUP_FORMAT,Formáz
+SETUP_FUNCTIONGUIDE,Funkció tár
+SETUP_FUNCTIONGUIDE_GUIDE2,Funkció tár beállítások
+SETUP_FUNCTIONGUIDE_GUIDE2_2,
+SETUP_GRIDLINE,Rácsvonal
+SETUP_GRIDLINE_GUIDE2,Vezérfonal a képek
+SETUP_GRIDLINE_GUIDE2_2,komponálásához
+SETUP_HOUSING,Ház
+SETUP_INITIALIZE,Inicializál
+SETUP_INITIALIZE_GUIDE2,Visszaállít eredeti alapért.
+SETUP_INITIALIZE_GUIDE2_2,beállításokat
+SETUP_INTERNALMEMORY_FORMAT_GUIDE2,Formázza a belső memóriát
+SETUP_INTERNALMEMORY_FORMAT_GUIDE2_2,
+SETUP_LANG,MAGYAR
+SETUP_LANG_5WAY,MAGYAR
+SETUP_LCD_RESPOINT_GUIDE2,Módosítja az LCD érintés-válasz
+SETUP_LCD_RESPOINT_GUIDE2_2,helyét
+SETUP_LUNSET,LUN beállítások
+SETUP_LUNSET_GUIDE,Kiválasztja a háttértárhoz
+SETUP_LUNSET_GUIDE_2,kapcsolódó adathordozót.
+SETUP_LUNSET_MULTI,Többes
+SETUP_LUNSET_SINGLE,Egyes
+SETUP_MAIN1,Fő beállítások 1
+SETUP_MAIN2,Fő beállítások 2
+SETUP_MAIN3,Fő beállítások 3
+SETUP_MARINEPACK_GUIDE2,Állítsa BE-re, ha a házat használja
+SETUP_MARINEPACK_GUIDE2_2,
+SETUP_MASSSTORAGE,Mass Storage
+SETUP_MONITOR,Monitor
+SETUP_MS_COPY_CHANGE_GUIDE2,Minden képet belső memóriából
+SETUP_MS_COPY_CHANGE_GUIDE2_2,másol
+SETUP_MS_FOLDER_CHANGE_GUIDE2,Módosítja készített képek
+SETUP_MS_FOLDER_CHANGE_GUIDE2_2,mappáját
+SETUP_MS_FOLDER_CREATE_GUIDE2,Hozzon létre egy új mappát
+SETUP_MS_FOLDER_CREATE_GUIDE2_2,
+SETUP_MS_FORMAT_GUIDE2,Formázza a Memory Stick kártyát
+SETUP_MS_FORMAT_GUIDE2_2,
+SETUP_NTSC,NTSC
+SETUP_PAL,PAL
+SETUP_PASSLOCK,Jelszó zárolás
+SETUP_PASSLOCK_GUIDE,Beállítja a jelszót a képek
+SETUP_PASSLOCK_GUIDE_2,zárolásához
+SETUP_PICTBRIDGE,PictBridge
+SETUP_PTPMTP,PTP/MTP
+SETUP_SHUTTER,Zár
+SETUP_SINGLE,Egyszeri
+SETUP_SMILEDEMO,Mosoly bemutató
+SETUP_SMILEDEMO_GUIDE2,Mosoly expon. bekapcs.
+SETUP_SMILEDEMO_GUIDE2_2,a bemutatóhoz
+SETUP_TVTYPE,TV TÍPUSA
+SETUP_TVTYPE_GUIDE2,A tévéképernyő típusának
+SETUP_TVTYPE_GUIDE2_2,kiválasztása.
+SETUP_UPDATE,Frissítés
+SETUP_USBCONNECT,USB csatl.
+SETUP_USBCONNECT_GUIDE2,Kimenet üzemmód USB-hez
+SETUP_USBCONNECT_GUIDE2_2,csatlakoz.
+SETUP_VERSION,Verzió
+SETUP_VERSION_GUIDE2,Ellen. a verziót, és frissítse
+SETUP_VERSION_GUIDE2_2,a förmvert
+SETUP_VIDEOOUT,Videó ki
+SETUP_VIDEOOUT_GUIDE2,Kimenet videokész. -hez
+SETUP_VIDEOOUT_GUIDE2_2,csatlakoztatva
+SSMENU_10SEC,10 mp.
+SSMENU_1SEC,1 mp.
+SSMENU_3SEC,3 mp.
+SSMENU_5SEC,5 mp.
+SSMENU_ACTIVE,Aktív
+SSMENU_ALL,Mind
+SSMENU_BASIC,Alap
+SSMENU_DETAIL,Egyéb beáll.
+SSMENU_EFFECTS,Trükkök
+SSMENU_FACE_BASIC,1. arc: Alap
+SSMENU_FACE_NOSTALGIC,2. arc: Nosztalgikus
+SSMENU_FACE_STYLISH,3. arc: Stílusos
+SSMENU_IMAGE,Kép
+SSMENU_INFOLDER,Mappa
+SSMENU_INTERVAL,Időköz
+SSMENU_MUSIC,Zene
+SSMENU_MUSIC1,Music1
+SSMENU_MUSIC2,Music2
+SSMENU_MUSIC3,Music3
+SSMENU_MUSIC4,Music4
+SSMENU_MUSIC5,Music5
+SSMENU_MUSIC6,Music6
+SSMENU_MUSIC7,Music7
+SSMENU_MUSIC8,Music8
+SSMENU_NORMAL_A,Normál
+SSMENU_NOSTALGIC,Nosztalgia
+SSMENU_REFINE,Szűrő
+SSMENU_REPEAT,Ismétlés
+SSMENU_SIMPLE,Egyszerű
+SSMENU_STYLISH,Stílusos
+SSMENU_THIS_DATE,Ez a dátum
+SSMENU_THIS_EVENT,Eme esemény

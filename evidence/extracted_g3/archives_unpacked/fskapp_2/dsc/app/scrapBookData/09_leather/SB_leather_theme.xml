@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme xmlns="http://www.sony.co.jp/xScrapbook/1"
+full-frame="SB_leather_full-frame.zip/SB_leather_full-frame.xsraw"
+small-sample="SB_leather_small-sample.zip/SB_leather_small-sample.xsraw"
+background-color="#141414">
+
+  <page-number left="162" top="214" width="72" height="20" color="#ffffff" style="plain" halign="right"/> 
+
+	<first-frame background="SB_leather_0.zip/SB_leather_0.xsraw">
+        <title left="113" top="197" width="120" height="20" color="#ffffff" style="plain" halign="right"/> 
+        <date left="143" top="177" width="90" height="20" color="#ffffff" style="plain" halign="right"/> 
+        <photo left="38" top="0" width="202" height="197" order="0" /> 
+	</first-frame>
+
+
+
+	<frame-1 background="SB_leather_01.zip/SB_leather_01.xsraw">
+		<photo left="38" top="30" width="168" height="178" order="0"/>
+		<hit-area left="38" top="30" width="168" height="178"/>
+	</frame-1>
+
+	<frame-2 background="SB_leather_02.zip/SB_leather_02.xsraw">
+		<photo left="25" top="17" width="89" height="174" order="0"/>
+		<hit-area left="25" top="17" width="89" height="174"/>
+
+		<photo left="114" top="76" width="110" height="146" order="1"/>
+		<hit-area left="114" top="76" width="110" height="146"/>
+	</frame-2>
+
+	<frame-3 background="SB_leather_03.zip/SB_leather_03.xsraw">
+		<photo left="8" top="27" width="114" height="127" order="0"/>
+		<hit-area left="8" top="27" width="114" height="88"/>
+
+		<photo left="154" top="35" width="79" height="148" order="1"/>
+		<hit-area left="158" top="35" width="75" height="148"/>
+
+		<photo left="53" top="112" width="101" height="100" order="2"/>
+		<hit-area left="53" top="118" width="101" height="94"/>
+	</frame-3>
+
+ <frame-4 background="SB_leather_04.zip/SB_leather_04.xsraw">
+		<photo left="21" top="13" width="80" height="106" order="0"/>
+		<hit-area left="21" top="13" width="80" height="106"/>
+		
+		<photo left="134" top="18" width="98" height="142" order="1"/>
+		<hit-area left="134" top="18" width="98" height="91"/>
+		
+		<photo left="6" top="119" width="77" height="93" order="2"/>
+		<hit-area left="7" top="119" width="76" height="93"/>
+		
+		<photo left="102" top="93" width="78" height="140" order="3"/>
+		<hit-area left="102" top="109" width="78" height="122"/>
+  </frame-4>
+
+
+</theme>

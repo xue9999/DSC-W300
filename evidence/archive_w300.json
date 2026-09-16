@@ -1,0 +1,440 @@
+{
+  "responseHeader": {
+    "status": 0,
+    "QTime": 63,
+    "params": {
+      "query": "text:&quot;DSC-W300&quot; OR text:&quot;DSC-W300&quot; OR text__reviews:&quot;DSC-W300&quot;",
+      "qin": "&quot;DSC-W300&quot;",
+      "fields": "_default_",
+      "wt": "json",
+      "start": 0
+    }
+  },
+  "response": {
+    "numFound": 10,
+    "start": 0,
+    "docs": [
+      {
+        "btih": "b1e0dc57b3082384349b63e031d4ba6927b221bb",
+        "collection": [
+          "manuals_sony",
+          "manuals"
+        ],
+        "downloads": 83,
+        "format": [
+          "Abbyy GZ",
+          "Archive BitTorrent",
+          "DjVuTXT",
+          "Djvu XML",
+          "Item Tile",
+          "Metadata",
+          "Page Numbers JSON",
+          "Scandata",
+          "Single Page Processed JP2 ZIP",
+          "Text PDF"
+        ],
+        "identifier": "manualsbase-id-110437",
+        "indexflag": [
+          "index",
+          "nonoindex"
+        ],
+        "item_size": 71289030,
+        "language": "English",
+        "mediatype": "texts",
+        "month": 0,
+        "oai_updatedate": [
+          "2020-07-11T18:04:42Z",
+          "2026-01-20T14:50:54Z"
+        ],
+        "publicdate": "2020-07-11T18:04:42Z",
+        "subject": [
+          "manualsbase",
+          "manuals"
+        ],
+        "title": "Sony Cyber-shot DSC-W300 user manual",
+        "week": 0
+      },
+      {
+        "btih": "94f7abfd5a3e119dd58d85c4c2dfea41bad54560",
+        "collection": [
+          "manuals_sony",
+          "manuals"
+        ],
+        "downloads": 55,
+        "format": [
+          "Abbyy GZ",
+          "Archive BitTorrent",
+          "DjVuTXT",
+          "Djvu XML",
+          "Item Tile",
+          "Metadata",
+          "Page Numbers JSON",
+          "Scandata",
+          "Single Page Processed JP2 ZIP",
+          "Text PDF"
+        ],
+        "identifier": "central-manuals-camera_sony_DSCW300_HB.pdf",
+        "indexflag": [
+          "index",
+          "nonoindex"
+        ],
+        "item_size": 71411673,
+        "language": "English",
+        "mediatype": "texts",
+        "month": 0,
+        "oai_updatedate": [
+          "2020-10-15T08:12:49Z",
+          "2026-01-01T21:04:15Z"
+        ],
+        "publicdate": "2020-10-15T08:12:49Z",
+        "subject": [
+          "central-manuals",
+          "manuals",
+          "sony",
+          "camera"
+        ],
+        "title": "sony - camera - Cyber Shot DSC-W300 - Handbook",
+        "week": 0
+      },
+      {
+        "btih": "fd0b5b460058dc489a9cf25cf2871efed1a5a9a2",
+        "collection": [
+          "manuals_contributions",
+          "manuals"
+        ],
+        "downloads": 93,
+        "format": [
+          "Abbyy GZ",
+          "Archive BitTorrent",
+          "DjVuTXT",
+          "Djvu XML",
+          "Item Tile",
+          "Metadata",
+          "Page Numbers JSON",
+          "Scandata",
+          "Single Page Processed JP2 ZIP",
+          "Text PDF"
+        ],
+        "identifier": "manualsbase-id-112512",
+        "indexflag": [
+          "index",
+          "nonoindex"
+        ],
+        "item_size": 12081837,
+        "language": "English",
+        "mediatype": "texts",
+        "month": 0,
+        "oai_updatedate": [
+          "2020-07-13T21:48:39Z",
+          "2026-01-01T03:19:36Z"
+        ],
+        "publicdate": "2020-07-13T21:48:39Z",
+        "subject": [
+          "manualsbase",
+          "manuals"
+        ],
+        "title": "Canton DSC-W300 user manual",
+        "week": 0
+      },
+      {
+        "backup_location": "ia906905_24",
+        "btih": "89f883ec77e59361f8a027a0036a3a8f6b0c7d62",
+        "collection": [
+          "manuals_electronics_japanese",
+          "manuals"
+        ],
+        "description": "DSC-W300\u306e\u30b5\u30dd\u30fc\u30c8 \u30b5\u30a4\u30c8\u3002\u8a2d\u5b9a\u30fb\u6545\u969c\u306a\u3069\u30c8\u30e9\u30d6\u30eb\u306b\u3064\u3044\u3066\u8cea\u554f\u3057\u3001\u30c7\u30b8\u30bf\u30eb\u30ab\u30e1\u30e9\u306b\u8a73\u3057\u3044\u30a8\u30ad\u30b9\u30d1\u30fc\u30c8\u306b\u89e3\u6c7a\u3057\u3066\u3082\u3089\u3044\u307e\u3057\u3087\u3046\u3002\u578b\u756a: DSC-T99/B, DSC-T99/G, DSC-T99/P, DSC-T99/S, DSC-T99/V, \u30b5\u30a4\u30d0\u30fc\u30b7\u30e7\u30c3\u30c8 DSC-T99",
+        "downloads": 61,
+        "format": [
+          "Abbyy GZ",
+          "Archive BitTorrent",
+          "DjVuTXT",
+          "Djvu XML",
+          "Item Tile",
+          "Metadata",
+          "Scandata",
+          "Single Page Processed JP2 ZIP",
+          "Text PDF"
+        ],
+        "identifier": "japanese-manual-44842",
+        "imagecount": 145,
+        "indexflag": [
+          "index",
+          "nonoindex"
+        ],
+        "item_size": 78766412,
+        "language": "japanese",
+        "mediatype": "texts",
+        "month": 0,
+        "oai_updatedate": [
+          "2019-06-14T21:16:23Z",
+          "2026-01-20T10:21:01Z"
+        ],
+        "publicdate": "2019-06-14T21:16:23Z",
+        "subject": [
+          "japanese manuals",
+          "sony"
+        ],
+        "title": "japanese manual 44842 : DSC-W300 \u306e\u53d6\u6271\u8aac\u660e\u66f8\u30fb\u30de\u30cb\u30e5\u30a2\u30eb",
+        "week": 0
+      },
+      {
+        "btih": "53c9d257ce7dfea6372a0afbe93d20325f1dbb16",
+        "collection": [
+          "manuals_sony",
+          "manuals"
+        ],
+        "downloads": 197,
+        "format": [
+          "Archive BitTorrent",
+          "DjVuTXT",
+          "Djvu XML",
+          "Item Tile",
+          "Metadata",
+          "OCR Page Index",
+          "OCR Search Text",
+          "Page Numbers JSON",
+          "Scandata",
+          "Single Page Processed JP2 ZIP",
+          "Text PDF",
+          "chOCR",
+          "hOCR"
+        ],
+        "identifier": "manualzilla-id-6976677",
+        "indexflag": [
+          "index",
+          "nonoindex"
+        ],
+        "item_size": 3495604,
+        "mediatype": "texts",
+        "month": 0,
+        "oai_updatedate": [
+          "2021-05-31T04:20:23Z",
+          "2026-01-09T07:43:25Z"
+        ],
+        "publicdate": "2021-05-31T04:20:23Z",
+        "subject": [
+          "manualzilla",
+          "manuals"
+        ],
+        "title": "Sony DSC-W300 Marketing Specifications",
+        "week": 0
+      },
+      {
+        "avg_rating": 4,
+        "btih": "1259cb20c45452b5943d0d52bc3f72d2e28c26c3",
+        "collection": [
+          "open_source_software",
+          "community",
+          "fav-arthur101",
+          "fav-collin_peic",
+          "fav-netott"
+        ],
+        "creator": "SONY Corporation",
+        "date": "2011-01-01T00:00:00Z",
+        "description": "SONY Handycam PMB v5.8.02.10270 (Picture Motion Browser) replacement software installer",
+        "downloads": 5956,
+        "format": [
+          "Archive BitTorrent",
+          "Item Tile",
+          "JPEG Thumb",
+          "Metadata",
+          "PNG",
+          "Windows Executable"
+        ],
+        "identifier": "pmb-5802",
+        "indexflag": [
+          "index",
+          "nonoindex",
+          "uncurated"
+        ],
+        "item_size": 212249455,
+        "mediatype": "software",
+        "month": 48,
+        "num_reviews": 1,
+        "oai_updatedate": [
+          "2022-02-16T01:30:43Z",
+          "2025-08-25T12:42:51Z",
+          "2025-08-25T12:42:47Z"
+        ],
+        "publicdate": "2022-02-16T01:30:43Z",
+        "reviewdate": "2025-08-25T12:42:47Z",
+        "subject": [
+          "SONY",
+          "PMB",
+          "Handycam"
+        ],
+        "title": "Sony Handycam PMB 5.8.02 (Picture Motion Browser)",
+        "week": 12,
+        "year": 2011
+      },
+      {
+        "btih": "6f1e6b97f51093de964299f7a0b5a92b06a50a6e",
+        "collection": [
+          "manuals_sony",
+          "manuals"
+        ],
+        "downloads": 81,
+        "format": [
+          "Abbyy GZ",
+          "Archive BitTorrent",
+          "DjVuTXT",
+          "Djvu XML",
+          "Item Tile",
+          "Metadata",
+          "Page Numbers JSON",
+          "Scandata",
+          "Single Page Processed JP2 ZIP",
+          "Text PDF"
+        ],
+        "identifier": "central-manuals-camera_sony_DSCW300_EN_ES.pdf",
+        "indexflag": [
+          "index",
+          "nonoindex"
+        ],
+        "item_size": 23916933,
+        "language": "English",
+        "mediatype": "texts",
+        "month": 1,
+        "oai_updatedate": [
+          "2020-10-15T08:12:46Z",
+          "2026-01-01T21:04:16Z"
+        ],
+        "publicdate": "2020-10-15T08:12:46Z",
+        "subject": [
+          "central-manuals",
+          "manuals",
+          "sony",
+          "camera"
+        ],
+        "title": "sony - camera - Cyber Shot DSC-W300 - Instruction Manual",
+        "week": 0
+      },
+      {
+        "backup_location": "ia906905_24",
+        "btih": "b8772bc285aaef79366ab7cc9e409fefa1df17b4",
+        "collection": [
+          "manuals_electronics_japanese",
+          "manuals"
+        ],
+        "description": "DSC-W300\u306e\u30b5\u30dd\u30fc\u30c8 \u30b5\u30a4\u30c8\u3002\u8a2d\u5b9a\u30fb\u6545\u969c\u306a\u3069\u30c8\u30e9\u30d6\u30eb\u306b\u3064\u3044\u3066\u8cea\u554f\u3057\u3001\u30c7\u30b8\u30bf\u30eb\u30ab\u30e1\u30e9\u306b\u8a73\u3057\u3044\u30a8\u30ad\u30b9\u30d1\u30fc\u30c8\u306b\u89e3\u6c7a\u3057\u3066\u3082\u3089\u3044\u307e\u3057\u3087\u3046\u3002\u578b\u756a: DSC-T99/B, DSC-T99/G, DSC-T99/P, DSC-T99/S, DSC-T99/V, \u30b5\u30a4\u30d0\u30fc\u30b7\u30e7\u30c3\u30c8 DSC-T99",
+        "downloads": 68,
+        "format": [
+          "Abbyy GZ",
+          "Archive BitTorrent",
+          "DjVuTXT",
+          "Djvu XML",
+          "Item Tile",
+          "Metadata",
+          "Scandata",
+          "Single Page Processed JP2 ZIP",
+          "Text PDF"
+        ],
+        "identifier": "japanese-manual-44843",
+        "imagecount": 36,
+        "indexflag": [
+          "index",
+          "nonoindex"
+        ],
+        "item_size": 14025972,
+        "language": "japanese",
+        "mediatype": "texts",
+        "month": 1,
+        "oai_updatedate": [
+          "2019-06-14T21:16:47Z",
+          "2026-01-20T10:21:00Z"
+        ],
+        "publicdate": "2019-06-14T21:16:47Z",
+        "subject": [
+          "japanese manuals",
+          "sony"
+        ],
+        "title": "japanese manual 44843 : DSC-W300 \u306e\u53d6\u6271\u8aac\u660e\u66f8\u30fb\u30de\u30cb\u30e5\u30a2\u30eb",
+        "week": 0
+      },
+      {
+        "btih": "19ac45783268574e67200a54d7f01a66db8b2cdd",
+        "collection": [
+          "manuals_sony",
+          "manuals"
+        ],
+        "downloads": 264,
+        "format": [
+          "Archive BitTorrent",
+          "DjVuTXT",
+          "Djvu XML",
+          "Item Tile",
+          "Metadata",
+          "OCR Page Index",
+          "OCR Search Text",
+          "Page Numbers JSON",
+          "Scandata",
+          "Single Page Processed JP2 ZIP",
+          "Text PDF",
+          "chOCR",
+          "hOCR"
+        ],
+        "identifier": "manualzilla-id-6976678",
+        "indexflag": [
+          "index",
+          "nonoindex"
+        ],
+        "item_size": 27771935,
+        "mediatype": "texts",
+        "month": 1,
+        "oai_updatedate": [
+          "2021-05-31T04:20:41Z",
+          "2026-01-09T07:43:25Z"
+        ],
+        "publicdate": "2021-05-31T04:20:41Z",
+        "subject": [
+          "manualzilla",
+          "manuals"
+        ],
+        "title": "Sony DSC-W300 Instruction Manual",
+        "week": 0
+      },
+      {
+        "btih": "95f07f3edcd3cf00944088d46985d351e337f509",
+        "collection": [
+          "manuals_contributions",
+          "manuals"
+        ],
+        "downloads": 168,
+        "format": [
+          "Abbyy GZ",
+          "Archive BitTorrent",
+          "DjVuTXT",
+          "Djvu XML",
+          "Item Tile",
+          "Metadata",
+          "Page Numbers JSON",
+          "Scandata",
+          "Single Page Processed JP2 ZIP",
+          "Text PDF"
+        ],
+        "identifier": "manualsonline-id-d499259e-9ba3-4206-ba9d-4bfe044b1db5",
+        "indexflag": [
+          "index",
+          "nonoindex"
+        ],
+        "item_size": 12096795,
+        "language": "English",
+        "mediatype": "texts",
+        "month": 1,
+        "oai_updatedate": [
+          "2020-09-01T02:21:02Z",
+          "2026-03-09T02:48:41Z"
+        ],
+        "publicdate": "2020-09-01T02:21:02Z",
+        "subject": [
+          "manualsonline",
+          "manuals",
+          "canton"
+        ],
+        "title": "Canton Digital Camera DSC-W300 User Guide",
+        "week": 0
+      }
+    ]
+  }
+}

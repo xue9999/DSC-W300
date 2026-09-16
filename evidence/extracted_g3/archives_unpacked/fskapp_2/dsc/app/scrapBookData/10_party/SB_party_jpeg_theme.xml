@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jpeg-theme xmlns="http://www.sony.co.jp/xScrapbook/1">
+	<first-frame background="SB_party_0.jpg" alpha="SB_party_alpha_0.jpg">
+	<photo left="0" top="0" width="1354" height="1536" order="0"/>
+	</first-frame>
+	<frame-1 background="SB_party_01.jpg" alpha="SB_party_alpha_01.jpg">
+	<photo left="442" top="0" width="1606" height="1536" order="0"/>
+	</frame-1>
+	<frame-2 background="SB_party_02.jpg" alpha="SB_party_alpha_02.jpg">
+	<photo left="0" top="140" width="966" height="1396" order="0"/>
+	<photo left="974" top="156" width="1074" height="796" order="1"/>
+	</frame-2>
+	<frame-3 background="SB_party_03.jpg" alpha="SB_party_alpha_03.jpg">
+	<photo left="0" top="232" width="884" height="1304" order="0"/>
+	<photo left="710" top="0" width="1338" height="614" order="1"/>
+	<photo left="958" top="688" width="1020" height="720" order="2"/>
+	</frame-3>
+	<frame-4 background="SB_party_04.jpg" alpha="SB_party_alpha_04.jpg">
+	<photo left="56" top="162" width="1084" height="640" order="0"/>
+	<photo left="92" top="812" width="718" height="584" order="1"/>
+	<photo left="838" top="876" width="1160" height="470" order="2"/>
+	<photo left="1140" top="134" width="800" height="756" order="3"/>
+	</frame-4>
+</jpeg-theme>

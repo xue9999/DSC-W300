@@ -1,0 +1,1117 @@
+CAMMENU_0EV,0EV
+CAMMENU_100,100
+CAMMENU_10M,1.0 m
+CAMMENU_1600,1600
+CAMMENU_200,200
+CAMMENU_30M,3.0 m
+CAMMENU_3200,3200
+CAMMENU_400,400
+CAMMENU_70M,7.0 m
+CAMMENU_80,80
+CAMMENU_800,800
+CAMMENU_BRK_03EV,BRK±0,3EV
+CAMMENU_BRK_07EV,BRK±0,7EV
+CAMMENU_BRK_10EV,BRK±1,0EV
+CAMMENU_BURST,Burst
+CAMMENU_BURST_BRK03EV_GUIDE,3 opnamen maken
+CAMMENU_BURST_BRK03EV_GUIDE_2,met 0,3 EV verschil
+CAMMENU_BURST_BRK07EV_GUIDE,3 opnamen maken
+CAMMENU_BURST_BRK07EV_GUIDE_2,met 0,7 EV verschil
+CAMMENU_BURST_BRK10EV_GUIDE,3 opnamen maken
+CAMMENU_BURST_BRK10EV_GUIDE_2,met 1,0 EV verschil
+CAMMENU_BURST_OFF_GUIDE,Één beeld opnemen bij elke
+CAMMENU_BURST_OFF_GUIDE_2,druk op de ontspanknop
+CAMMENU_BURST_ON_GUIDE,Continu opnemen zolang op
+CAMMENU_BURST_ON_GUIDE_2,ontspanknop wordt gedrukt
+CAMMENU_CENTER,Midden
+CAMMENU_CENTERAF,Midden-AF
+CAMMENU_CLOSEEYE,Dichte-ogenvermindering
+CAMMENU_CLOSEEYE_AUTO_GUIDE,Analyse van ogen om dichte
+CAMMENU_CLOSEEYE_AUTO_GUIDE_2,ogen te voorkomen
+CAMMENU_CLOSEEYE_OFF_GUIDE,Dichte-ogenvermindering
+CAMMENU_CLOSEEYE_OFF_GUIDE_2,uitschakelen
+CAMMENU_COLOR,Kleurfunctie
+CAMMENU_COLOR_BW,Z-W
+CAMMENU_COLOR_BW_GUIDE,Opnamen zwart-wit maken
+CAMMENU_COLOR_BW_GUIDE_2,
+CAMMENU_COLOR_NORMAL_GUIDE,Opnemen in de
+CAMMENU_COLOR_NORMAL_GUIDE_2,standaardkleurenfunctie
+CAMMENU_COLOR_SEPIA,Sepia
+CAMMENU_COLOR_SEPIA_GUIDE,Kleuren van oude foto's
+CAMMENU_COLOR_SEPIA_GUIDE_2,nabootsen
+CAMMENU_COLOR_VIVID,Levendig
+CAMMENU_COLOR_VIVID_GUIDE,Beeld instellen op diepe en
+CAMMENU_COLOR_VIVID_GUIDE_2,levendige kleuren
+CAMMENU_CONTINUOUS,Continu
+CAMMENU_DRO,DRO
+CAMMENU_DRO_ADV,Geavanceerd
+CAMMENU_DRO_ADV_GUIDE,Beeld in schaduw zichtbaar
+CAMMENU_DRO_ADV_GUIDE_2,maken en behoud helderheid
+CAMMENU_DRO_OFF_GUIDE,Beeld in schaduw wordt niet
+CAMMENU_DRO_OFF_GUIDE_2,zichtbaar gemaakt
+CAMMENU_DRO_PLUS,DRO plus
+CAMMENU_DRO_STANDARD_GUIDE,Beeld zichtbaar maken dat in
+CAMMENU_DRO_STANDARD_GUIDE_2,schaduw verloren is gegaan
+CAMMENU_DRO_STD,DRO standard
+CAMMENU_EV,EV
+CAMMENU_EV2,EV
+CAMMENU_EV_GUIDE,Beeld instellen op helder (+)
+CAMMENU_EV_GUIDE2,Beeld instellen op helder (+)
+CAMMENU_EV_GUIDE2_2,of donker (－)
+CAMMENU_EV_GUIDE_2,of donker (－)
+CAMMENU_FACE,Gezichtsherkenning
+CAMMENU_FACE_ADULT,Voorkeur voor volwassenen
+CAMMENU_FACE_ADULT_GUIDE,Bij voorkeur scherpstellen op
+CAMMENU_FACE_ADULT_GUIDE_2,het gezicht van volwassenen
+CAMMENU_FACE_CHILD,Voorkeur voor kinderen
+CAMMENU_FACE_CHILD_GUIDE,Bij voorkeur scherpstellen op
+CAMMENU_FACE_CHILD_GUIDE_2,het gezicht van kinderen
+CAMMENU_FACE_ON_GUIDE,Stel prioriteit in op
+CAMMENU_FACE_ON_GUIDE_2,scherpstellen op gezichten
+CAMMENU_FACE_TOUCH_GUIDE,Gezichtsherkenning inschak.
+CAMMENU_FACE_TOUCH_GUIDE_2,alleen na aanraken gezicht
+CAMMENU_FLASHLEVEL,Flitsniveau
+CAMMENU_FLASHLEVEL_DOWN_GUIDE,Opnemen met een lagere
+CAMMENU_FLASHLEVEL_DOWN_GUIDE_2,flitslichtintensiteit
+CAMMENU_FLASHLEVEL_NORMAL_GUIDE,Opnemen met de standaard
+CAMMENU_FLASHLEVEL_NORMAL_GUIDE_2,flitslichtintensiteit
+CAMMENU_FLASHLEVEL_UP_GUIDE,Opnemen met een hogere
+CAMMENU_FLASHLEVEL_UP_GUIDE_2,flitslichtintensiteit
+CAMMENU_FLASH_SYNCHRO,Lgz synchro
+CAMMENU_FOCUS,Scherpstellen
+CAMMENU_FOUCS_10M_GUIDE,Scherpstelling instellen op
+CAMMENU_FOUCS_10M_GUIDE_2,ong. 1,0 m afstand
+CAMMENU_FOUCS_30M_GUIDE,Scherpstelling instellen op
+CAMMENU_FOUCS_30M_GUIDE_2,ong. 3,0 m afstand
+CAMMENU_FOUCS_70M_GUIDE,Scherpstelling instellen op
+CAMMENU_FOUCS_70M_GUIDE_2,ong. 7,0 m afstand
+CAMMENU_FOUCS_CENTER_GUIDE,Automatische scherpstelling
+CAMMENU_FOUCS_CENTER_GUIDE_2,op onderwerp in het midden
+CAMMENU_FOUCS_INFINITY_GUIDE,Scherpstelling instellen op
+CAMMENU_FOUCS_INFINITY_GUIDE_2,een oneindige afstand
+CAMMENU_FOUCS_MANUAL_GUIDE,Scherpstelling handmatig
+CAMMENU_FOUCS_MANUAL_GUIDE_2,instellen
+CAMMENU_FOUCS_MULTI_GUIDE,Automatische scherpstelling
+CAMMENU_FOUCS_MULTI_GUIDE_2,in het gehele frame
+CAMMENU_FOUCS_SPOT_GUIDE,Automatische scherpstelling
+CAMMENU_FOUCS_SPOT_GUIDE_2,op een centraal punt
+CAMMENU_FOUCS_TSPOT_GUIDE,Automat. scherpstellen door
+CAMMENU_FOUCS_TSPOT_GUIDE_2,punt op scherm aan te raken
+CAMMENU_IMAGESIZE,Beeldformaat
+CAMMENU_IMAGESIZE_L,Groot
+CAMMENU_IMAGESIZE_S,Klein
+CAMMENU_INFINITY,∞
+CAMMENU_ISO,ISO
+CAMMENU_ISO_100_GUIDE,Gevoeligheid instellen op
+CAMMENU_ISO_100_GUIDE_2,ISO 100
+CAMMENU_ISO_1600_GUIDE,Gevoeligheid instellen op
+CAMMENU_ISO_1600_GUIDE_2,ISO 1600
+CAMMENU_ISO_200_GUIDE,Gevoeligheid instellen op
+CAMMENU_ISO_200_GUIDE_2,ISO 200
+CAMMENU_ISO_3200_GUIDE,Gevoeligheid instellen op
+CAMMENU_ISO_3200_GUIDE_2,ISO 3200
+CAMMENU_ISO_400_GUIDE,Gevoeligheid instellen op
+CAMMENU_ISO_400_GUIDE_2,ISO 400
+CAMMENU_ISO_64_GUIDE,Gevoeligheid instellen op
+CAMMENU_ISO_64_GUIDE_2,ISO 64
+CAMMENU_ISO_800_GUIDE,Gevoeligheid instellen op
+CAMMENU_ISO_800_GUIDE_2,ISO 800
+CAMMENU_ISO_80_GUIDE,Gevoeligheid instellen op
+CAMMENU_ISO_80_GUIDE_2,ISO 80
+CAMMENU_ISO_AUTO_GUIDE,Gevoeligheid automatisch
+CAMMENU_ISO_AUTO_GUIDE_2,instellen
+CAMMENU_M03EV,-0.3EV
+CAMMENU_M07EV,-0.7EV
+CAMMENU_M10EV,-1.0EV
+CAMMENU_M13EV,-1.3EV
+CAMMENU_M17EV,-1.7EV
+CAMMENU_M20EV,-2.0EV
+CAMMENU_MACRO,Macro
+CAMMENU_MENU,Menu
+CAMMENU_METERINGMODE,Lichtmeetfunctie
+CAMMENU_METERING_CENTER_GUIDE,Belichting op basis van
+CAMMENU_METERING_CENTER_GUIDE_2,helderheid van het midden
+CAMMENU_METERING_MULTI_GUIDE,Belichting op basis van
+CAMMENU_METERING_MULTI_GUIDE_2,gehele frame
+CAMMENU_METERING_SPOT_GUIDE,Belichting op basis van
+CAMMENU_METERING_SPOT_GUIDE_2,helderheid van centraal punt
+CAMMENU_MINUS,－
+CAMMENU_MULTI,Multi
+CAMMENU_MULTIAF,Multi-AF
+CAMMENU_NORMAL_CAP,Normaal
+CAMMENU_P03EV,+0.3EV
+CAMMENU_P07EV,+0.7EV
+CAMMENU_P10EV,+1.0EV
+CAMMENU_P13EV,+1.3EV
+CAMMENU_P17EV,+1.7EV
+CAMMENU_P20EV,+2.0EV
+CAMMENU_PLUS,＋
+CAMMENU_RECMODE,Opn. functie
+CAMMENU_RECOGNITION,Scèneherkenning
+CAMMENU_RECOGNITION_ADV_GUIDE,Autom nog 1 opname maken
+CAMMENU_RECOGNITION_ADV_GUIDE2,Autom nog 1 opname maken
+CAMMENU_RECOGNITION_ADV_GUIDE2_2,in schemer of met tegenlicht
+CAMMENU_RECOGNITION_ADV_GUIDE_2,in schemer of met tegenlicht
+CAMMENU_RECOGNITION_AUTO2_GUIDE,Opnemen met optimale
+CAMMENU_RECOGNITION_AUTO2_GUIDE_2,instellingen voor de scène
+CAMMENU_RECOGNITION_AUTO_GUIDE,Opn. met optimale instelling
+CAMMENU_RECOGNITION_AUTO_GUIDE_2,in schemer of met tegenlicht
+CAMMENU_RECOGNITION_OFF_GUIDE,Scèneherkenning
+CAMMENU_RECOGNITION_OFF_GUIDE_2,uitschakelen
+CAMMENU_REDEYEREDUCTION,Rode-ogeneffect
+CAMMENU_REDEYE_FACE_GUIDE,Autom. rode-ogenverminder.
+CAMMENU_REDEYE_FACE_GUIDE_2,bij herkennen van gezichten
+CAMMENU_REDEYE_OFF_GUIDE,Rode-ogenvermindering uit
+CAMMENU_REDEYE_OFF_GUIDE_2,
+CAMMENU_REDEYE_ON_GUIDE,Bij gebr. flitser, vooraf flitsen
+CAMMENU_REDEYE_ON_GUIDE_2,voor rode-ogenvermindering
+CAMMENU_REMAIN_NUMBER,Capacit. beelden ong
+CAMMENU_REMAIN_TIME,Ong. resterende tijd
+CAMMENU_SATURATION_DOWN_GUIDE,Beelden opnemen met
+CAMMENU_SATURATION_DOWN_GUIDE_2,lagere kleurverzadiging
+CAMMENU_SATURATION_NORMAL_GUIDE,Kleurverzadiging instellen op
+CAMMENU_SATURATION_NORMAL_GUIDE_2,Normaal
+CAMMENU_SATURATION_UP_GUIDE,Beelden opnemen met
+CAMMENU_SATURATION_UP_GUIDE_2,hogere kleurverzadiging
+CAMMENU_SELFTIMER,Zelfontsp.
+CAMMENU_SELFTIMER_10SEC,Zelfontsp. 10 sec
+CAMMENU_SELFTIMER_2SEC,Zelfontspanner 2 sec
+CAMMENU_SELFTIMER_OFF,Zelfontspanner Uit
+CAMMENU_SETUP,Setup
+CAMMENU_SETUP_CHANGE_GUIDE,Ga naar het scherm voor
+CAMMENU_SETUP_CHANGE_GUIDE_2,opname-instellingen
+CAMMENU_SHOOTING,Opnemen
+CAMMENU_SIZE_10MEG,10M
+CAMMENU_SIZE_12M_GUIDE,Voor afdrukken tot A3+
+CAMMENU_SIZE_12M_GUIDE_2,
+CAMMENU_SIZE_16_9,16:9
+CAMMENU_SIZE_16_9_2MEG_GUIDE,Weergeven op HDTV's
+CAMMENU_SIZE_16_9_2MEG_GUIDE_2,
+CAMMENU_SIZE_16_9_A3_GUIDE,Weergeven op HDTV's en
+CAMMENU_SIZE_16_9_A3_GUIDE_2,afdrukken tot A3
+CAMMENU_SIZE_16_9_A4_GUIDE,Weergeven op HDTV's en
+CAMMENU_SIZE_16_9_A4_GUIDE_2,afdrukken tot A4
+CAMMENU_SIZE_16_9_GUIDE,Met HDTV-beeldverhouding
+CAMMENU_SIZE_16_9_GUIDE_2,opnemen
+CAMMENU_SIZE_320,320
+CAMMENU_SIZE_320_GUIDE,Klein formaat opnemen
+CAMMENU_SIZE_320_GUIDE_2,voor verzenden per e-mail
+CAMMENU_SIZE_3MEG,3M
+CAMMENU_SIZE_3M_GUIDE,Voor afdrukken tot 10x15 cm
+CAMMENU_SIZE_3M_GUIDE_2,of 13x18 cm
+CAMMENU_SIZE_3_2_8MEG,3:2(8M)
+CAMMENU_SIZE_3_2_GUIDE,Met beeldverhouding 3:2
+CAMMENU_SIZE_3_2_GUIDE_2,opnemen
+CAMMENU_SIZE_4_3,4:3
+CAMMENU_SIZE_5MEG,5M
+CAMMENU_SIZE_5M_GUIDE,Voor afdrukken tot A4
+CAMMENU_SIZE_5M_GUIDE_2,
+CAMMENU_SIZE_640FINE,640(Fijn)
+CAMMENU_SIZE_640FINE_GUIDE,Bewegend beelden van hoge
+CAMMENU_SIZE_640FINE_GUIDE_2,kwaliteit opn. voor TV-weerg
+CAMMENU_SIZE_640STD,640(Standaard)
+CAMMENU_SIZE_640STD_GUIDE,Bewegende beelden van std.
+CAMMENU_SIZE_640STD_GUIDE_2,kwaliteit opn. voor TV-weerg
+CAMMENU_SIZE_8M_GUIDE,Voor afdrukken tot A3
+CAMMENU_SIZE_8M_GUIDE_2,
+CAMMENU_SIZE_HD_2MEG,16:9(2M)
+CAMMENU_SIZE_HD_7MEG,16:9(7M)
+CAMMENU_SIZE_HD_VGA,16:9(VGA)
+CAMMENU_SIZE_VGA,VGA
+CAMMENU_SIZE_VGA_GUIDE,Klein beeldformaat opnemen
+CAMMENU_SIZE_VGA_GUIDE_2,voor verzenden per e-mail
+CAMMENU_SMILE,Lach-herkenning
+CAMMENU_SMILESHUTTER_HIGH_GUIDE,Opnemen met hoge gevoelig
+CAMMENU_SMILESHUTTER_HIGH_GUIDE_2,heid van lach-herkenning
+CAMMENU_SMILESHUTTER_LOW_GUIDE,Opnemen met lage gevoelig-
+CAMMENU_SMILESHUTTER_LOW_GUIDE_2,heid van lach-herkenning
+CAMMENU_SMILESHUTTER_NORMAL_GUIDE,Opnemen met std. gevoelig-
+CAMMENU_SMILESHUTTER_NORMAL_GUIDE_2,heid van lach-herkenning
+CAMMENU_SMILE_DETECTION,Lach-herkenn. gevoeligheid
+CAMMENU_SPOT,Punt
+CAMMENU_SPOTAF,Punt-AF
+CAMMENU_STEADYSHOT,SteadyShot
+CAMMENU_STEADYSHOT_CONT_GUIDE,SteadyShot altijd aan
+CAMMENU_STEADYSHOT_CONT_GUIDE_2,
+CAMMENU_STEADYSHOT_OFF_GUIDE,SteadyShot uit
+CAMMENU_STEADYSHOT_OFF_GUIDE_2,
+CAMMENU_STEADYSHOT_SHOOT_GUIDE,SteadyShot aan bij indrukken
+CAMMENU_STEADYSHOT_SHOOT_GUIDE_2,ontspanknop tot halverwege
+CAMMENU_TOUCH,Na aanraken
+CAMMENU_WATERWB,Witbalans onderwater
+CAMMENU_WATERWB_AUTO_GUIDE,Witbalans autom. bijregelen
+CAMMENU_WATERWB_AUTO_GUIDE_2,voor opnemen onderwater
+CAMMENU_WATERWB_FLASH_GUIDE,Gebruiken voor opnemen
+CAMMENU_WATERWB_FLASH_GUIDE_2,onderwater met flitser
+CAMMENU_WATERWB_WATER1,Onderwater 1
+CAMMENU_WATERWB_WATER1_GUIDE,Gebruiken voor opnemen
+CAMMENU_WATERWB_WATER1_GUIDE_2,in blauw water
+CAMMENU_WATERWB_WATER2,Onderwater 2
+CAMMENU_WATERWB_WATER2_GUIDE,Gebruiken voor opnemen
+CAMMENU_WATERWB_WATER2_GUIDE_2,in groen water
+CAMMENU_WB2,Witbalans
+CAMMENU_WB_AUTO_GUIDE,Automatisch bijregelen voor
+CAMMENU_WB_AUTO_GUIDE_2,natuurlijke kleuren
+CAMMENU_WB_CLOUDY,Bewolkt
+CAMMENU_WB_CLOUDY_GUIDE,Gebruiken op bewolkte dag
+CAMMENU_WB_CLOUDY_GUIDE_2,of in de schaduw
+CAMMENU_WB_DAYLIGHT,Daglicht
+CAMMENU_WB_DAYLIGHT_GUIDE,Gebruiken bij zonnige scène
+CAMMENU_WB_DAYLIGHT_GUIDE_2,buiten of bij nachtopname
+CAMMENU_WB_FLASH,Flitser
+CAMMENU_WB_FLASH_GUIDE,Gebruiken bij opnemen met
+CAMMENU_WB_FLASH_GUIDE_2,de flitslicht
+CAMMENU_WB_FLUORESCENT1,Fluorescerend licht 1
+CAMMENU_WB_FLUORESCENT1_GUIDE,Gebruiken bij wit
+CAMMENU_WB_FLUORESCENT1_GUIDE_2,fluorescerend licht
+CAMMENU_WB_FLUORESCENT2,Fluorescerend licht 2
+CAMMENU_WB_FLUORESCENT2_GUIDE,Gebruiken bij natuurlijk-wit
+CAMMENU_WB_FLUORESCENT2_GUIDE_2,fluorescerend licht
+CAMMENU_WB_FLUORESCENT3,Fluorescerend licht 3
+CAMMENU_WB_FLUORESCENT3_GUIDE,Gebruiken bij dag-wit
+CAMMENU_WB_FLUORESCENT3_GUIDE_2,fluorescerend licht
+CAMMENU_WB_INCANDESCENT,Gloeilamp
+CAMMENU_WB_INCANDESCENT_GUIDE,Gebruiken bij gloeilamplicht
+CAMMENU_WB_INCANDESCENT_GUIDE_2,of videolamplicht
+CAMMODE_AUTO,Autom. instellen
+CAMMODE_AUTO_GUIDE,Voor opnemen met
+CAMMODE_AUTO_GUIDE_2,autom. instellingen
+CAMMODE_BEACH,Strand
+CAMMODE_BEACH_GUIDE,Opname aan waterkant
+CAMMODE_BEACH_GUIDE_2,met felblauwe kleur
+CAMMODE_COOKING,Voedsel
+CAMMODE_COOKING_GUIDE,Natuurlijke opnamen maken
+CAMMODE_COOKING_GUIDE_2,van voedsel
+CAMMODE_EASY,Eenvoudig opnemen
+CAMMODE_EASY_GUIDE,Volautomatisch opnemen
+CAMMODE_EASY_GUIDE_2,met vereenvoudigd scherm
+CAMMODE_FIREWORKS,Vuurwerk
+CAMMODE_FIREWORKS_GUIDE,Vuurwerk opnemen in
+CAMMODE_FIREWORKS_GUIDE_2,schitterende details
+CAMMODE_HIGHSENSITIVITY,Hoge gevoeligheid
+CAMMODE_HIGHSENSITIVITY_GUIDE,Bij weinig licht zonder flitser
+CAMMODE_HIGHSENSITIVITY_GUIDE_2,opnemen en zo blur vermind
+CAMMODE_HIGHSPEEDSHUTTER,Korte sluitertijd
+CAMMODE_HIGHSPEEDSHUTTER_GUIDE,Bewegend onderwerp
+CAMMODE_HIGHSPEEDSHUTTER_GUIDE_2,in actie opnemen
+CAMMODE_LANDSCAPE,Landschap
+CAMMODE_LANDSCAPE_GUIDE,Landschappen opnemen
+CAMMODE_LANDSCAPE_GUIDE_2,veraf scherpstellen
+CAMMODE_MOVIE,Bewegende beeldn
+CAMMODE_MOVIE_GUIDE,Bewegende beelden
+CAMMODE_MOVIE_GUIDE_2,opnemen met geluid
+CAMMODE_PAUTO,Autom. Programma
+CAMMODE_PAUTO_GUIDE,Auto. belichting met
+CAMMODE_PAUTO_GUIDE_2,aanpas. instellingen
+CAMMODE_SNOW,Sneeuw
+CAMMODE_SNOW_GUIDE,Witachtige scène
+CAMMODE_SNOW_GUIDE_2,helder opnemen
+CAMMODE_SOFTSNAP,Soft Snap
+CAMMODE_SOFTSNAP_GUIDE,Onderwerp opnemen en
+CAMMODE_SOFTSNAP_GUIDE_2,zachte achtergrond
+CAMMODE_TWILIGHT,Schemer
+CAMMODE_TWILIGHTPORTRAIT,Schemer-portret
+CAMMODE_TWILIGHTPORTRAIT_GUIDE,Opname onderbelicht
+CAMMODE_TWILIGHTPORTRAIT_GUIDE_2,portret met flitser
+CAMMODE_TWILIGHTTRIPOD_GUIDE,Opname onderbelicht scène
+CAMMODE_TWILIGHTTRIPOD_GUIDE_2,met behulp van een statief
+CAMMODE_WATER,Onderwater
+CAMMODE_WATER_GUIDE,Opname onderwater met na-
+CAMMODE_WATER_GUIDE_2,tuurlijke kleuren in behuizing
+CLOCKMENU_APR,APR
+CLOCKMENU_AUG,AUG
+CLOCKMENU_DEC,DEC
+CLOCKMENU_DMY,D-M-J
+CLOCKMENU_FEB,FEB
+CLOCKMENU_JAN,JAN
+CLOCKMENU_JUL,JUL
+CLOCKMENU_JUN,JUN
+CLOCKMENU_MAR,MRT
+CLOCKMENU_MAY,MEI
+CLOCKMENU_MDY,M-D-J
+CLOCKMENU_NOV,NOV
+CLOCKMENU_OCT,OKT
+CLOCKMENU_SEP,SEP
+CLOCKMENU_UNKNOWN,---
+CLOCKMENU_YMD,J-M-D
+COM_AUTO,Autom.
+COM_BACK,Terug
+COM_CANCEL,Annul.
+COM_CLEAR,Verwijderen
+COM_CLEARALL,Alles wissen
+COM_CONTINUE,Verder
+COM_CREATED,Gemaakt
+COM_ENTRY,Toevoegen
+COM_EXIT,Sluiten
+COM_FAST,Snel
+COM_HIGH,Hoog
+COM_INTERNALMEMORY,Intern geheugen
+COM_LOW,Laag
+COM_MED,Normaal
+COM_MIN,Min
+COM_MOVIEREC,OPNMN.
+COM_MOVIESTBY,Standby
+COM_MS,Memory Stick
+COM_MS_AND_INTERNALMEMORY,Memory Stick ＋ intern geheugen
+COM_NOOFFILES,Aant. best.
+COM_NORMAL,Normaal
+COM_OFF,Uit
+COM_OK,OK
+COM_ON,Aan
+COM_PREVIEW,Voorbeeld
+COM_REMAIN,Resterende opn.
+COM_SAVE,Opslaan
+COM_SLOW,Langzm.
+COM_STANDARD,Standaard
+COM_STANDARD2,Standaard
+COM_START,Start
+COM_USBMODE,USB-functie
+COM_VOLUME,VOL.
+COU_640FINE,640(Fijn) is niet beschikbaar
+COU_640FINE_2,
+COU_AUDIOPLUGIN,Sluit voor geluidsuitvoer een
+COU_AUDIOPLUGIN_2,audiostekker aan
+COU_BATTERY_HEATED,De camera is oververhit
+COU_BATTERY_HEATED_2,Laat de camera eerst afkoelen
+COU_BATTERY_INFOLITHIUM,Alleen voor "InfoLITHIUM"
+COU_BATTERY_INFOLITHIUM_2,accu
+COU_BATTERY_INVALID,Gebruik uitsluitend een
+COU_BATTERY_INVALID_2,geschikte batterij
+COU_BGM_ERROR,Muziekfout
+COU_BGM_ERROR_2,
+COU_BGM_FORMATERROR,Muziekgeheugen-formatteringsfout
+COU_BGM_FORMATERROR_2,
+COU_BURST_INVALID,Burstfunctie kan niet worden
+COU_BURST_INVALID_2,gebruikt
+COU_CANNOTACCESS_MS,Geen toegang Memory Stick
+COU_CANNOTACCESS_MS_2,Toegang geweigerd
+COU_CANNOTCREATE_FOLDERS,Kan geen mappen meer maken
+COU_CANNOTCREATE_FOLDERS_2,
+COU_DATA_ERROR,Fout van beeldbeheerbestand
+COU_DATA_ERROR_2,
+COU_ERROR10,Fout10
+COU_ERROR20,Fout20
+COU_ERROR30,Fout30
+COU_ERROR40,Fout40
+COU_ERROR50,Fout50
+COU_EXCEEDED_LIMIT,Maximumaantal beelden
+COU_EXCEEDED_LIMIT_2,geselecteerd
+COU_FILEERROR,Bestandsfout
+COU_FILEERROR_2,
+COU_FILEPROTECT,Bestandsbeveiliging
+COU_FILEPROTECT_2,
+COU_FLASHSETTING_INVALID,De flitserfunctie kan niet
+COU_FLASHSETTING_INVALID_2,worden veranderd
+COU_FOLDER_ERROR,Mapfout
+COU_FOLDER_ERROR_2,
+COU_FORMATERROR_INTERNALMEMORY,Fout bij formatteren intern
+COU_FORMATERROR_INTERNALMEMORY_2,geheugen
+COU_FORMATERROR_MS,Fout bij formatteren
+COU_FORMATERROR_MS_2,Memory Stick
+COU_IMAGESIZEOVER,Te groot beeldformaat
+COU_IMAGESIZEOVER_2,
+COU_INKERROR,Inktfout
+COU_INKERROR_2,
+COU_INVALID_FILE,Ongeldig bestand
+COU_INVALID_FILE_2,
+COU_INVALID_FOLDER,Bediening is niet beschikbaar in de
+COU_INVALID_FOLDER_2,mapweergave
+COU_INVALID_MS,Kan het beeldbeheerbestand niet
+COU_INVALID_MS_2,opslaan op deze Memory Stick
+COU_INVALID_OPERATION,Ongeldige bediening
+COU_INVALID_OPERATION_HDOUT,Bediening kan niet worden uitge-
+COU_INVALID_OPERATION_HDOUT_2,voerd tijdens HD(1080i)-uitvoer
+COU_INVALID_OPERATION_MOVIEFILE,Bediening kan niet worden uitge-
+COU_INVALID_OPERATION_MOVIEFILE_2,voerd voor bestand met bew. bldn.
+COU_INVALID_OPERATION_NGFILE,Bediening kan niet worden uitge-
+COU_INVALID_OPERATION_NGFILE_2,voerd voor niet-onderst. bestanden
+COU_INVALID_OPERATION_PICTBRIDGE,Bediening kan niet worden uitge-
+COU_INVALID_OPERATION_PICTBRIDGE_2,voerd bij een PictBridge-verbinding
+COU_INVALID_OPERATION_REMOTE,Bediening kan niet worden uitge-
+COU_INVALID_OPERATION_REMOTE_2,voerd met de afstandsbediening
+COU_INVALID_OPERATION_TVOUT,Bediening kan niet worden uitge-
+COU_INVALID_OPERATION_TVOUT_2,voerd tijdens TV-uitvoer
+COU_LENSCAPOFF,Haal de lensdop eraf en schakel de
+COU_LENSCAPOFF_2,camera uit en weer in
+COU_LENSCOVER_OPEN,Open de lensafdekking om te
+COU_LENSCOVER_OPEN_2,kunnen opnemen
+COU_LOWINK,Inkt bijna op.
+COU_LOWINK_2,
+COU_MACRO_INVALID,Macro is ongeldig
+COU_MACRO_INVALID_2,
+COU_MEDIAERROR_INTERNALMEMORY,Fout van intern geheugen
+COU_MEDIAERROR_INTERNALMEMORY_2,
+COU_METERING_INVALID,Bediening van lichtmeetfunctie
+COU_METERING_INVALID_2,is niet mogelijk
+COU_MSR_NOTUSEFUNCTION,De functie wordt niet ondersteund
+COU_MSR_NOTUSEFUNCTION_2,door deze Memory Stick
+COU_MS_ERROR,Plaats de Memory Stick opnieuw
+COU_MS_ERROR_2,
+COU_MS_LOCKED,Memory Stick vergrendeld
+COU_MS_LOCKED_2,
+COU_MS_TYPEERROR,Verkeerd type Memory Stick
+COU_MS_TYPEERROR_2,
+COU_NOBATTERY,Onvoldoende acculading
+COU_NOIMAGE,Geen beelden beschikbaar
+COU_NOIMAGE_2,
+COU_NOIMAGE_PLAY,Sommige beelden niet gekopieerd
+COU_NOIMAGE_PLAY_2,Onherkenbaar formaat.
+COU_NOINK,Inkt helemaal op.
+COU_NOINK_2,
+COU_NOMS,Geen Memory Stick
+COU_NOMS_2,
+COU_NOPAPER,Geen papier
+COU_NOPAPER_2,
+COU_NOSOFTWAREFILE,Geen software-bestand
+COU_NOSOFTWAREFILE_2,
+COU_NOSPACE_INTERNALMEMORY,Geen geheugenruimte in het
+COU_NOSPACE_INTERNALMEMORY_2,intern geheugen
+COU_NOSPACE_MS,Geen geheugenruimte in de
+COU_NOSPACE_MS_2,Memory Stick
+COU_NOT_SELECTED_FAV,Geen Favorieten geselecteerd
+COU_NOT_SELECTED_FAV_2,
+COU_NOT_SELECTED_IMAGES,Geen beeld geselecteerd
+COU_NOT_SELECTED_IMAGES_2,
+COU_NOT_SELECTED_SHARE,Geen Upload selectie geselecteerd
+COU_NOT_SELECTED_SHARE_2,
+COU_PAPERERROR,Papierfout
+COU_PAPERERROR_2,
+COU_PASSLOCK_CODE_MISS,Onjuiste terugstelcode
+COU_PASSLOCK_CODE_MISS_2,
+COU_PASSLOCK_PASS_MISS,Onjuist wachtwoord
+COU_PASSLOCK_PASS_MISS_2,
+COU_POWEROFFON,Schakel uit en weer in
+COU_POWEROFFON_2,
+COU_PRINTERBUSY,Printer bezet
+COU_PRINTERBUSY_2,
+COU_PRINTERERROR,Printerfout
+COU_PRINTERERROR_2,
+COU_READONLYMEMORY,Geheugen voor alleen-lezen
+COU_READONLYMEMORY_2,
+COU_READONLY_FOLDER,Deze map heeft het kenmerk
+COU_READONLY_FOLDER_2,Alleen lezen.
+COU_REDEYE_DETECTED,Geen rode ogen gevonden
+COU_REDEYE_DETECTED_2,
+COU_SCRNTOUCH_INVALID,Aanraakscherm staat in dit gebied
+COU_SCRNTOUCH_INVALID_2,uit
+COU_SELFTIMER_INVALID,Zelfontspanner is ongeldig
+COU_SELFTIMER_INVALID_2,
+COU_SMILESHUTTER_AUTOONLY,Lach-sluiter is alleen beschikbr. als
+COU_SMILESHUTTER_AUTOONLY_2,Opn. functie is ingest. op "Autom. "
+COU_SYSTEMERROR,Systeemfout
+COU_SYSTEMERROR_2,
+COU_TARGET_DETECTED,Kan gezicht voor bewerken niet
+COU_TARGET_DETECTED_2,vinden
+COU_TARGET_NOIMAGE,Er zijn geen stilstaande beelden
+COU_TARGET_NOIMAGE_2,
+COU_ZOOM_INVALID,Zoom uitgeschakeld
+COU_ZOOM_INVALID_2,
+DUMMY,
+GUIDE_BUTTON,Raak knop aan die wilt gebruiken
+GUIDE_CENTER,Raak punt voor centreren aan
+GUIDE_CHANGEFOCUS,Wijzig scherpst. pt door aanraken
+GUIDE_CHOOSEFOCUS,Kies scherpst. pt. door aanraken
+GUIDE_DEMO_BACKLIGHT,Tegenlicht gedetecteerd
+GUIDE_DEMO_BACKLIGHTPORTRAIT,Tegenlicht en mensen gedetecteerd
+GUIDE_DEMO_LANDSCAPE,Landschap gedetecteerd
+GUIDE_DEMO_MACRO,Onderwerp dichtbij gedetecteerd
+GUIDE_DEMO_PORTRAIT,Mensen gedetecteerd
+GUIDE_DEMO_TRIPOD,Schemer en statief gedetecteerd
+GUIDE_DEMO_TWILIGHT,Schemer gedetecteerd
+GUIDE_DEMO_TWILIGHTPORTRAIT,Schemer en mensen gedetecteerd
+GUIDE_EFFECTLEVEL,Selecteer het effectniveau
+GUIDE_EXIT_TOUCH,Verlaat als LCD wordt aangeraakt
+GUIDE_LIGHTBEAM_LEVEL,Selecteer niveau van lichtstraal
+GUIDE_RANGE,Selecteer het effectbereik
+GUIDE_RESIZE,Het formaat wijzigen is klaar
+GUIDE_RETOUCH_COMPLETE,Bijwerken is voltooid
+GUIDE_RETRO_LIGHT,Selecteer het helderheidsbereik
+GUIDE_ROTATEIMG,Raak het beeld aan om te roteren
+GUIDE_SAVESIZE,Selecteer formaat om op te slaan
+GUIDE_SELECTFACE,Selecteer gezicht door aanraken
+GUIDE_SELECTFAV,Selecteer Favorietenmap
+GUIDE_SMILEDEMO_START,Kies lach-pictogram om te starten
+GUIDE_SMILESHUTTER_EXIT,Kies lach-pictogram om te stoppen
+GUIDE_STARTIMG,Raak eerste beeld diavoorst. aan
+GUIDE_TOUCHFAV,Raak Favorietenmap aan
+GUIDE_TOUCHIMG,Raak het beeld aan
+GUIDE_ZOOMIN_TOUCH,Raak het punt aan voor inzoomen
+GUIDE_ZOOMIN_TOUCHED,Zoomt in op aangeraakt punt
+HOME,HOME
+HOME_CAM,Opnemen
+HOME_CAM_GUIDE2,Stilstaande of bewegende
+HOME_CAM_GUIDE2_2,beelden opnemen
+HOME_COMMUNICATION,Communicatie
+HOME_ETC_BGMTOOL,Muziek-tool
+HOME_ETC_BGMTOOL_GUIDE2,Muziek bij diavoorstelling
+HOME_ETC_BGMTOOL_GUIDE2_2,beheren
+HOME_ETC_PRINT_GUIDE2,Beelden afdrukken
+HOME_ETC_PRINT_GUIDE2_2,
+HOME_MEMORY,Geheugen beheren
+HOME_MEMORY_GUIDE2,Opnamemedium beheren
+HOME_MEMORY_GUIDE2_2,
+HOME_MEMORY_INTERNALMEMORYTOOL,Intern geheugen-tool
+HOME_MEMORY_MEMORYSTICKTOOL,Memory Stick-tool
+HOME_MEMORY_MEMORYTOOL,Geheugen-tool
+HOME_NETWORK,Netwerk
+HOME_NETWORK_GUIDE,Aansluiten op een netwerk
+HOME_NETWORK_GUIDE_2,
+HOME_PLAY,Beelden bekijken
+HOME_PLAY1,Beelden bekijken 1
+HOME_PLAY2,Beelden bekijken 2
+HOME_PLAY_INDEX_GUIDE2,Meerdere beelden
+HOME_PLAY_INDEX_GUIDE2_2,weergeven
+HOME_PLAY_NORMAL_GUIDE2,Individueel beeld weergeven
+HOME_PLAY_NORMAL_GUIDE2_2,
+HOME_PLAY_SLIDESHOW_GUIDE2,Automatisch weergave met
+HOME_PLAY_SLIDESHOW_GUIDE2_2,muziek en effecten
+HOME_PRINT,Afdrukken
+HOME_SCENESELECTION,Scènekeuze
+HOME_SCRAPBOOK,Plakboek
+HOME_SCRAPBOOK_GUIDE,Automatisch een Plakboek
+HOME_SCRAPBOOK_GUIDE_2,maken
+HOME_SETTINGS,Instellingen
+HOME_SET_CAM,Opname-instellingn
+HOME_SET_CAM_GUIDE2,Opname-instellingen
+HOME_SET_CAM_GUIDE2_2,veranderen
+HOME_SET_CLOCK,Klokinstellingen
+HOME_SET_CLOCK_GUIDE2,Datum en tijd veranderen
+HOME_SET_CLOCK_GUIDE2_2,
+HOME_SET_LANGUAGE,Language Setting
+HOME_SET_LANGUAGE_CHANGE_GUIDE,Change Language
+HOME_SET_LANGUAGE_CHANGE_GUIDE_2,
+HOME_SET_LANGUAGE_GUIDE2,Change Language
+HOME_SET_LANGUAGE_GUIDE2_2,
+HOME_SET_MAIN,Hoofdinstellingen
+HOME_SET_MAIN_GUIDE2,Hoofdinstellingen
+HOME_SET_MAIN_GUIDE2_2,veranderen
+HOME_SLIDESHOW,Diavoorstelling
+HOME_VIEW_DATE,Datumweergave
+HOME_VIEW_DATE_GUIDE2,Beelden weergeven op
+HOME_VIEW_DATE_GUIDE2_2,opnamedatum
+HOME_VIEW_EVENT,Weerg. per gebeurt.
+HOME_VIEW_EVENT_GUIDE,Beelden autom. in groepen
+HOME_VIEW_EVENT_GUIDE_2,sorteren voor weergave
+HOME_VIEW_FAV,Favorieten
+HOME_VIEW_FAV_GUIDE2,Beelden weergeven in
+HOME_VIEW_FAV_GUIDE2_2,Favorieten
+HOME_VIEW_FOLDER,Mapweergave
+HOME_VIEW_FOLDER_GUIDE2,Beelden weergeven in
+HOME_VIEW_FOLDER_GUIDE2_2,DCF-map
+KEY_FLASH_AUTO_GUIDE,Flitser automatisch
+KEY_FLASH_AUTO_GUIDE_2,Automatisch afgaan
+KEY_FLASH_OFF,Flitser uit
+KEY_FLASH_OFF_GUIDE,Flitser uit
+KEY_FLASH_OFF_GUIDE_2,Geen flitser gebruiken
+KEY_FLASH_ON,Flitser aan
+KEY_FLASH_ON_GUIDE,Flitser aan
+KEY_FLASH_ON_GUIDE_2,Altijd flitser gebruiken
+KEY_FLASH_SYNCHRO_GUIDE,Onderwerpen+verre achter-
+KEY_FLASH_SYNCHRO_GUIDE_2,gronden helder houden
+KEY_MACRO_AUTO_GUIDE,Automatisch scherpstellen
+KEY_MACRO_AUTO_GUIDE_2,van close-up tot oneindig
+KEY_MACRO_NEAR,Macro aan
+KEY_MACRO_NEAR_GUIDE,Bij voorkeur scherpstellen op
+KEY_MACRO_NEAR_GUIDE_2,onderwerpen zeer dichtbij
+KEY_MAGNIFY_ON,Superclose-up gebruiken
+KEY_MAGNIFY_ON_GUIDE,Superclose-up gebruiken
+KEY_MAGNIFY_ON_GUIDE_2,Voor superclose-upopname
+KEY_SELFTIMER_10_GUIDE,Opname maken 10 seconden
+KEY_SELFTIMER_10_GUIDE_2,na drukken op ontspanknop
+KEY_SELFTIMER_2_GUIDE,Opname maken 2 seconden
+KEY_SELFTIMER_2_GUIDE_2,na drukken op ontspanknop
+KEY_SELFTIMER_OFF_GUIDE,Zelfontspanner uit
+KEY_SELFTIMER_OFF_GUIDE_2,
+MSG_ACCESSING,Toegang…
+MSG_AVI_MAKING,Nieuw beeldbeheerbestand
+MSG_CAPTURING,Neemt op…
+MSG_CLOSEEYE_DETECT,Dichte ogen gedetecteerd
+MSG_CONFIRM_UPDATE,Kies OK voor bijwerken
+MSG_CONFIRM_UPDATE_2,
+MSG_CONNECTING,Maakt verbinding…
+MSG_CONNECTING_MASSSTORAGE,Maakt verbinding met
+MSG_CONNECTING_MASSSTORAGE_2,Mass Storage…
+MSG_CONNECTING_NETWORK,Maakt verbinding met netwerk…
+MSG_CONNECTING_PICTBRIDGE,Maakt verbinding met
+MSG_CONNECTING_PICTBRIDGE_2,PictBridge apparaat…
+MSG_CONNECTING_PTPMTP,Maakt verbinding met
+MSG_CONNECTING_PTPMTP_2,PTP/MTP…
+MSG_CONNECT_PC,Aansluiten op computer
+MSG_CONNECT_PC_2,
+MSG_CONNECT_PICTBRIDGE,Aansluiten op PictBridge apparaat
+MSG_CONNECT_PICTBRIDGE_2,
+MSG_COPY,Alle data in het intern
+MSG_COPYING,Kopieert…
+MSG_COPYING_2,
+MSG_COPY_2,geheug. gekopieerd
+MSG_CREATING_RECFOLDER,Maakt opnamemap
+MSG_CURRENTVERSION,Huidige versie
+MSG_ENTRY_OVER,Het maximumaantal beelden is
+MSG_ENTRY_OVER_2,reeds bereikt
+MSG_EXITTING_NETWORK,Verlaat het netwerk…
+MSG_FORMATTING_BGM,Formatteert Muziek…
+MSG_FORMATTING_BGM_2,
+MSG_FORMATTING_INTERNALMEMORY,Formatteert intern geheugen…
+MSG_FORMATTING_INTERNALMEMORY_2,
+MSG_FORMATTING_MS,Formatteert Memory Stick…
+MSG_FORMATTING_MS_2,
+MSG_FORMAT_BGM,Alle muziekbestanden worden
+MSG_FORMAT_BGM_2,gewist
+MSG_FORMAT_INTERNALMEMORY,Alle data in het intern
+MSG_FORMAT_INTERNALMEMORY_2,geheugen wordt gewist
+MSG_FORMAT_MS,Alle data in de Memory
+MSG_FORMAT_MS_2,Stick wordt gewist
+MSG_FORWARDING,Stuurt data…
+MSG_HOUSING,Bediening is veranderd
+MSG_INITIALIZE_ALLSETTINGS,Alle instellingen initialiseren
+MSG_INITIALIZE_ALLSETTINGS_2,
+MSG_NEWVERSION,Nieuwe versie
+MSG_NOTTURNOFF,Niet uitschakelen
+MSG_PASSLOCK_PASS_CANCEL,De wachtwoordinstelling is
+MSG_PASSLOCK_PASS_CANCEL_2,geannuleerd
+MSG_PASSLOCK_PASS_RESET,Het wachtwoord is teruggesteld
+MSG_PASSLOCK_PASS_RESET_2,
+MSG_PASSLOCK_PASS_RESET_MODE,Wachtwoord-terugstelfunctie
+MSG_PASSLOCK_PASS_RESET_MODE_2,
+MSG_PASSLOCK_PASS_SET,Het wachtwoord is ingesteld
+MSG_PASSLOCK_PASS_SET_2,
+MSG_PRINTING,Drukt af…
+MSG_PROCESSING,Verwerkt…
+MSG_RECORDING,Neemt op…
+MSG_RECORD_MS,Neemt bldn op op de Memory Stick
+MSG_RECOVER,Data herstellen
+MSG_RECOVERINGFILE,Bezig met herstellen van het
+MSG_RECOVERINGFILE_2,beeldbeheerbestand…
+MSG_RECOVER_2,
+MSG_SEE_SOFTWAREUPDATE_INST,Zie de "Software-bijwerkinstructie"
+MSG_SEE_SOFTWAREUPDATE_INST_2,
+MSG_SMILEDEMO_GUIDE,Lach wordt automatisch opgenomen
+MSG_SMILEDEMO_PROCESSING,Demonstratie van de Lach-sluiter
+MSG_SMILESHUTTER_PROCESSING,Bezig herkennen lach
+MSG_SMILE_END1,Aantal foto's
+MSG_SOFTWAREUPDATE,Software bijwerken
+MSG_SOFTWAREUPDATE_2,
+MSG_STARTING_NETWORK,Netwerk wordt opgestart…
+MSG_START_BROWSER,Webbrowser wordt opgestart…
+MSG_TOUCH_X_CENTER,Raak midden van "×"-teken aan
+MSG_TVOUT,Bezig met TV-uitvoer…
+MSG_USBMENU,Schakel [MENU] in
+PASSLOCK_PASS_CLEAR,Terugstelcode invoeren
+PASSLOCK_PASS_INPUT,Wachtwoord invoeren
+PASSLOCK_PASS_REINPUT,Wachtwoord opn. Invoeren
+PASSLOCK_PASS_SET,Wachtwoord instellen
+PBMENU_ALBUM_GUIDE,Terug naar album
+PBMENU_ALBUM_GUIDE_2,
+PBMENU_BACKGROUND,Achtergrond
+PBMENU_BLOG_GUIDE,Beeldformaat verkleinen en
+PBMENU_BLOG_GUIDE_2,opslaan als een nieuw beeld
+PBMENU_DATEALL,Alle beelden in datumbereik
+PBMENU_DATEALL_CLEAR,Alle in datumbereik verw.
+PBMENU_DATEALL_ENTRY,Alle in datumbereik toev.
+PBMENU_DATEALL_SET,Alle in datumbereik instellen
+PBMENU_DATELIST,Datumlijst
+PBMENU_DATELIST_GUIDE,Selecteer een datum om
+PBMENU_DATELIST_GUIDE_2,weer te geven
+PBMENU_DELETE,Wissen
+PBMENU_DELETE_ALL_GUIDE,Alle beelden in deze map
+PBMENU_DELETE_ALL_GUIDE_2,wissen
+PBMENU_DELETE_DATEALL_GUIDE,Alle beelden in dit
+PBMENU_DELETE_DATEALL_GUIDE_2,datumbereik wissen
+PBMENU_DELETE_EVENTALL_GUIDE,Alle beelden in deze
+PBMENU_DELETE_EVENTALL_GUIDE_2,gebeurtenis wissen
+PBMENU_DELETE_SELECT_GUIDE,Meerdere gekozen beelden
+PBMENU_DELETE_SELECT_GUIDE_2,wissen
+PBMENU_DELETE_SINGLE_GUIDE,Het beeld wissen
+PBMENU_DELETE_SINGLE_GUIDE_2,
+PBMENU_DPOF,DPOF
+PBMENU_DPOF_ALL_CLEAR_GUIDE,Afdrukmarkeringen wissen
+PBMENU_DPOF_ALL_CLEAR_GUIDE_2,van alle beelden in de map
+PBMENU_DPOF_ALL_SET_GUIDE,Afdrukmarkeringen toevoegn
+PBMENU_DPOF_ALL_SET_GUIDE_2,aan alle beelden in de map
+PBMENU_DPOF_DATEALL_CLEAR_GUIDE,Afdrukmarkeringen wissen
+PBMENU_DPOF_DATEALL_CLEAR_GUIDE_2,van al bldn in dit datumbereik
+PBMENU_DPOF_DATEALL_SET_GUIDE,Afdrukmarkeringen toevoegn
+PBMENU_DPOF_DATEALL_SET_GUIDE_2,aan al bldn in dit datumbereik
+PBMENU_DPOF_EVENTALL_CLEAR_GUIDE,Afdrukmarkering wissen van
+PBMENU_DPOF_EVENTALL_CLEAR_GUIDE_2,alle bldn. in deze gebeurtenis
+PBMENU_DPOF_EVENTALL_SET_GUIDE,Afdrukmarkering toevgn. aan
+PBMENU_DPOF_EVENTALL_SET_GUIDE_2,alle bldn. in deze gebeurtenis
+PBMENU_DPOF_FAVALL_CLEAR_GUIDE,Afdrukmarkeringen wissen
+PBMENU_DPOF_FAVALL_CLEAR_GUIDE_2,van alle bldn in deze groep
+PBMENU_DPOF_FAVALL_SET_GUIDE,Afdrukmarkeringen toevoegn
+PBMENU_DPOF_FAVALL_SET_GUIDE_2,aan alle bldn in deze groep
+PBMENU_DPOF_SELECT_GUIDE,Afdrukmarkering meerdere
+PBMENU_DPOF_SELECT_GUIDE_2,gekozen beelden in-/uitsch.
+PBMENU_DPOF_SINGLE_GUIDE,Afdrukmarkering op gekozen
+PBMENU_DPOF_SINGLE_GUIDE_2,beelden in-/uitschakelen
+PBMENU_EDIT,Bijwerken
+PBMENU_EDIT_BLOG_EMAIL,Blog / E-mail
+PBMENU_EDIT_BW,Gedeeltelijk kleur
+PBMENU_EDIT_BW_GUIDE,Gekozen punt in het beeld
+PBMENU_EDIT_BW_GUIDE_2,omgeven in monochroom
+PBMENU_EDIT_CROSS,Stereffect
+PBMENU_EDIT_CROSS_GUIDE,Heldere punten in het beeld
+PBMENU_EDIT_CROSS_GUIDE_2,een stereffect geven
+PBMENU_EDIT_FISHEYE,Vissenooglens
+PBMENU_EDIT_FISHEYE_GUIDE,Rondom gekozen punt een
+PBMENU_EDIT_FISHEYE_GUIDE_2,vissenoogeffect toepassen
+PBMENU_EDIT_HDTV,HDTV
+PBMENU_EDIT_RADIATION,Radiale waas
+PBMENU_EDIT_RADIATION_GUIDE,Gekozen punt in het beeld
+PBMENU_EDIT_RADIATION_GUIDE_2,omgeven door radiale waas
+PBMENU_EDIT_REDEYE,Rode-ogen-correctie
+PBMENU_EDIT_REDEYE_GUIDE,Rode ogen veroorzaakt door
+PBMENU_EDIT_REDEYE_GUIDE_2,flitser verwijderen
+PBMENU_EDIT_RETRO2,Retro
+PBMENU_EDIT_RETRO2_GUIDE,Omtrek wazig + zwak maken
+PBMENU_EDIT_RETRO2_GUIDE_2,voor een nostalgisch effect
+PBMENU_EDIT_SHARPFOUCS,Onscherpte repareren
+PBMENU_EDIT_SHARPFOUCS_GUIDE,Maakt het beeld scherp
+PBMENU_EDIT_SHARPFOUCS_GUIDE_2,rondom een gekozen punt
+PBMENU_EDIT_SMILE,Lachen
+PBMENU_EDIT_SMILE_GUIDE,Verander de gezichten van
+PBMENU_EDIT_SMILE_GUIDE_2,mensen zodat ze lachen
+PBMENU_EDIT_SOFTFOUCS,Lagere beeldscherpte
+PBMENU_EDIT_SOFTFOUCS_GUIDE,De omtrek van gekozen punt
+PBMENU_EDIT_SOFTFOUCS_GUIDE_2,in het beeld wazig maken
+PBMENU_EDIT_TRIMMING,Trimmen
+PBMENU_EDIT_TRIMMING_GUIDE,Beelden bijsnijden om onge-
+PBMENU_EDIT_TRIMMING_GUIDE_2,wenste delen te verwijderen
+PBMENU_EVENTALL,Alle in gebeurtenis
+PBMENU_EVENTALL_CLEAR,Alle in deze gebeurt. verwijd
+PBMENU_EVENTALL_ENTRY,Alle in gebeurtenis toevoeg.
+PBMENU_EVENTALL_SET,Alle in deze gebeurt. instel.
+PBMENU_EVENTLIST,Lijst met gebeurtenissen
+PBMENU_EVENTLIST_GUIDE,Kies een gebeurtenis voor
+PBMENU_EVENTLIST_GUIDE_2,weergave
+PBMENU_FAV,Favorieten
+PBMENU_FAV1,Favorieten 1
+PBMENU_FAV2,Favorieten 2
+PBMENU_FAV3,Favorieten 3
+PBMENU_FAV4,Favorieten 4
+PBMENU_FAV5,Favorieten 5
+PBMENU_FAV6,Favorieten 6
+PBMENU_FAVALL,Alle in Favorieten
+PBMENU_FAVALL_CLEAR,Alle in Favorieten verwijder.
+PBMENU_FAVALL_ENTRY,Alle in Favorieten toevoegen
+PBMENU_FAVALL_SET,Alle in deze groep instellen
+PBMENU_FAV_ALL_CLEAR_GUIDE,Alle beelden uit Favorieten
+PBMENU_FAV_ALL_CLEAR_GUIDE_2,verwijderen
+PBMENU_FAV_CLEAR,Favorieten verwijderen
+PBMENU_FAV_CLEAR_DATEALL_GUIDE,Alle bldn in dit datumbereik
+PBMENU_FAV_CLEAR_DATEALL_GUIDE_2,uit Favorieten verwijderen
+PBMENU_FAV_CLEAR_EVENTALL_GUIDE,Alle bldn in deze gebeurtenis
+PBMENU_FAV_CLEAR_EVENTALL_GUIDE_2,verwijderen uit Favorieten
+PBMENU_FAV_ENTRY,Toevoegen aan Favorieten
+PBMENU_FAV_ENTRY_DATEALL_GUIDE,Alle bldn in dit datumbereik
+PBMENU_FAV_ENTRY_DATEALL_GUIDE_2,aan Favorieten toevoegen
+PBMENU_FAV_ENTRY_EVENTALL_GUIDE,Alle bldn in deze gebeurtenis
+PBMENU_FAV_ENTRY_EVENTALL_GUIDE_2,toevoegen aan Favorieten
+PBMENU_FAV_SELECT_GUIDE,Geselecteerde beelden aan/
+PBMENU_FAV_SELECT_GUIDE_2,uit Favorieten toev. /verw.
+PBMENU_FAV_SET,Favorieten toevoegen/verw.
+PBMENU_FAV_SINGLE_GUIDE,Dit beeld aan/uit Favorieten
+PBMENU_FAV_SINGLE_GUIDE_2,toevoegen/verwijderen
+PBMENU_FOLDERALL,Alle in deze map
+PBMENU_FOLDERALL_CLEAR,Alle in deze map verwijdern.
+PBMENU_FOLDERALL_ENTRY,Alle in map toevoegen
+PBMENU_FOLDERALL_SET,Alle in deze map instellen
+PBMENU_FOLDERJUMP,Map kiezen
+PBMENU_FRAME,Beeld
+PBMENU_HDTV_GUIDE,Beeld bijsnijden tot 16:9
+PBMENU_HDTV_GUIDE_2,en opslaan als nieuw beeld
+PBMENU_IMAGESAVE,Opslaan als een beeld
+PBMENU_MULTIPLEIMAGES,Meerdere beelden
+PBMENU_MULTIPLEPAGESAVE,Pagina's selecteren en opslaan
+PBMENU_MULTIRESIZE,Formaat wijzigen
+PBMENU_PAGESAVE,Deze pagina opslaan
+PBMENU_PAINT,Kleuren
+PBMENU_PAINT_GUIDE,Kleuren, stempel of lijst
+PBMENU_PAINT_GUIDE_2,toevoegen aan het beeld
+PBMENU_PBFOLDER_GUIDE,Een map voor weergave
+PBMENU_PBFOLDER_GUIDE_2,kiezen
+PBMENU_PRINT_ALL_GUIDE,Alle beelden in de map
+PBMENU_PRINT_ALL_GUIDE_2,afdrukken
+PBMENU_PRINT_DATEALL_GUIDE,Alle beelden in dit datum-
+PBMENU_PRINT_DATEALL_GUIDE_2,bereik afdrukken
+PBMENU_PRINT_EVENTALL_GUIDE,Alle beelden in deze
+PBMENU_PRINT_EVENTALL_GUIDE_2,gebeurtenis afdrukken
+PBMENU_PRINT_FAVALL_GUIDE,Alle beelden in deze
+PBMENU_PRINT_FAVALL_GUIDE_2,Favorietengroep afdrukken
+PBMENU_PRINT_SELECT_GUIDE,Meerdere gekozen beelden
+PBMENU_PRINT_SELECT_GUIDE_2,afdrukken
+PBMENU_PRINT_SINGLE_GUIDE,Beelden afdrukken
+PBMENU_PRINT_SINGLE_GUIDE_2,
+PBMENU_PROTECT,Beveiligen
+PBMENU_PROTECT_ALL_CLEAR_GUIDE,Beeldbeveiliging uitschakeln
+PBMENU_PROTECT_ALL_CLEAR_GUIDE_2,voor alle beelden in de map
+PBMENU_PROTECT_ALL_SET_GUIDE,Beeldbeveiliging inschakeln
+PBMENU_PROTECT_ALL_SET_GUIDE_2,voor alle beelden in de map
+PBMENU_PROTECT_DATEALL_CLEAR_GUIDE,Beveiliging uitschakelen voor
+PBMENU_PROTECT_DATEALL_CLEAR_GUIDE_2,alle bldn in dit datumbereik
+PBMENU_PROTECT_DATEALL_SET_GUIDE,Beveiliging inschakelen voor
+PBMENU_PROTECT_DATEALL_SET_GUIDE_2,alle bldn in dit datumbereik
+PBMENU_PROTECT_EVENTALL_CLEAR_GUIDE,Beveiliging uitschakelen voor
+PBMENU_PROTECT_EVENTALL_CLEAR_GUIDE_2,alle bldn. in deze gebeurtenis
+PBMENU_PROTECT_EVENTALL_SET_GUIDE,Beveiliging inschakelen voor
+PBMENU_PROTECT_EVENTALL_SET_GUIDE_2,alle bldn. in deze gebeurtenis
+PBMENU_PROTECT_FAVALL_CLEAR_GUIDE,Beveiliging uitschakelen voor
+PBMENU_PROTECT_FAVALL_CLEAR_GUIDE_2,alle beelden in deze groep
+PBMENU_PROTECT_FAVALL_SET_GUIDE,Beveiliging inschakelen voor
+PBMENU_PROTECT_FAVALL_SET_GUIDE_2,alle beelden in deze groep
+PBMENU_PROTECT_SELECT_GUIDE,Beeldbeveiliging in-/uitsch.
+PBMENU_PROTECT_SELECT_GUIDE_2,voor meerdere gekozen bldn
+PBMENU_PROTECT_SINGLE_GUIDE,Beeldbeveiliging in-/uitsch.
+PBMENU_PROTECT_SINGLE_GUIDE_2,voor het gekozen beeld
+PBMENU_REFINE,Filteren op gezicht
+PBMENU_REFINE_BABY,Baby's
+PBMENU_REFINE_BABY_GUIDE,Zoek beelden met baby's en
+PBMENU_REFINE_BABY_GUIDE_2,beeldt ze af
+PBMENU_REFINE_CHILD,Kinderen
+PBMENU_REFINE_CHILD_GUIDE,Zoek beelden met gezichten
+PBMENU_REFINE_CHILD_GUIDE_2,van kinderen en beeldt ze af
+PBMENU_REFINE_CLEAR_GUIDE,Beeldt alle beelden af
+PBMENU_REFINE_CLEAR_GUIDE_2,
+PBMENU_REFINE_FACE,Alle mensen
+PBMENU_REFINE_FACE_GUIDE,Zoek beelden met gezichten
+PBMENU_REFINE_FACE_GUIDE_2,van mensen en beeldt ze af
+PBMENU_REFINE_SMILE,Lachend
+PBMENU_REFINE_SMILE_GUIDE,Zoek beelden met lachende
+PBMENU_REFINE_SMILE_GUIDE_2,mensen en beeldt ze af
+PBMENU_ROTATE,Roteren
+PBMENU_ROTATE_GUIDE,Beelden draaien
+PBMENU_ROTATE_GUIDE_2,
+PBMENU_SCRAPBOOKALLSAVE,Alle pag. in Plakboek opslaan
+PBMENU_SCRAPBOOKALL_GUIDE,Alle pagina's in Plakboek
+PBMENU_SCRAPBOOKALL_GUIDE_2,opslaan als beelden
+PBMENU_SHARE_CLEAR,Upload selectie verwijderen
+PBMENU_SHARE_CLEAR_DATEALL_GUIDE,Alle bldn. in dit datumbereik
+PBMENU_SHARE_CLEAR_DATEALL_GUIDE_2,verw. uit Upload selectie
+PBMENU_SHARE_CLEAR_EVENTALL_GUIDE,Alle bldn in deze gebeurtenis
+PBMENU_SHARE_CLEAR_EVENTALL_GUIDE_2,verw. uit Upload selectie
+PBMENU_SHARE_CLEAR_FAVALL_GUIDE,Alle beelden in deze groep
+PBMENU_SHARE_CLEAR_FAVALL_GUIDE_2,verw. uit Upload selectie
+PBMENU_SHARE_ENTRY,Toev. aan Upload selectie
+PBMENU_SHARE_ENTRY_DATEALL_GUIDE,Alle bldn. in dit datumbereik
+PBMENU_SHARE_ENTRY_DATEALL_GUIDE_2,toevoeg. aan Upload selectie
+PBMENU_SHARE_ENTRY_EVENTALL_GUIDE,Alle bldn in deze gebeurtenis
+PBMENU_SHARE_ENTRY_EVENTALL_GUIDE_2,toevoeg. aan Upload selectie
+PBMENU_SHARE_ENTRY_FAVALL_GUIDE,Alle beelden in deze groep
+PBMENU_SHARE_ENTRY_FAVALL_GUIDE_2,toevoeg. aan Upload selectie
+PBMENU_SHARE_SELECT_GUIDE,Geselecteerde bldn. aan/uit
+PBMENU_SHARE_SELECT_GUIDE_2,Upload selectie toev/verw
+PBMENU_SHARE_SET,Toev/verw. Upload selectie
+PBMENU_SHARE_SINGLE_GUIDE,Dit beeld aan/uit Upload
+PBMENU_SHARE_SINGLE_GUIDE_2,selectie toevoegen/verw.
+PBMENU_SLIDESHOW_GUIDE,Automatische weergave met
+PBMENU_SLIDESHOW_GUIDE_2,muziek en effecten
+PBMENU_THISIMAGE,Dit beeld
+PBMENU_THISPAGE_GUIDE,Deze pagina in Plakboek
+PBMENU_THISPAGE_GUIDE_2,opslaan als een beeld
+PBMENU_VIEWSELECT,Weergavefunctie
+PBMENU_VOLUMESETTINGS,Volume-instellingen
+PBMENU_VOLUME_GUIDE,Volume van diavoorstelling/
+PBMENU_VOLUME_GUIDE_2,bewegende beeldn instellen
+PBMENU_WIDEZOOM,Breed-zoombeeld
+PBMENU_WSCREEN_GUIDE,Beeld bijsnijden tot 16:9
+PBMENU_WSCREEN_GUIDE_2,en weergeven
+PRINTMENU_10X15CM,10x15 cm
+PRINTMENU_1PICBORDER,1/vel met rand
+PRINTMENU_1PICNOBORDER,1/vel geen rand
+PRINTMENU_2L,13x18 cm
+PRINTMENU_2PICS,2 per vel
+PRINTMENU_3PICS,3 per vel
+PRINTMENU_4PICS,4 per vel
+PRINTMENU_4X6,4x6"
+PRINTMENU_8PICS,8 per vel
+PRINTMENU_A3,A3
+PRINTMENU_A3PLUS,A3+
+PRINTMENU_A4,A4
+PRINTMENU_A6,A6
+PRINTMENU_DATE,Datum
+PRINTMENU_DATE_A,Datum
+PRINTMENU_DAYANDTIME,Dag&Tijd
+PRINTMENU_HAGAKI,Hagaki
+PRINTMENU_HDTV,Breedbeeld
+PRINTMENU_INDEX,Index
+PRINTMENU_INDEXPRINT,Indexvel
+PRINTMENU_L,9x13 cm
+PRINTMENU_LETTER,Letter
+PRINTMENU_PICTUREINPAPER,Opmaak
+PRINTMENU_QUANTITY,Aantal
+PRINTMENU_SIZE,Formaat
+SAVE,Opslaan
+SETUP_AFILLUMINATOR,AF-verlicht.
+SETUP_AFILLUMINATOR_GUIDE2,Vullicht voor scherpst. bij weinig
+SETUP_AFILLUMINATOR_GUIDE2_2,licht
+SETUP_AFMODE,AF-functie
+SETUP_AFMODE_GUIDE2,Instellingen voor autom.
+SETUP_AFMODE_GUIDE2_2,scherpstellen
+SETUP_AUTOREVIEW,Auto Review
+SETUP_AUTOREVIEW_GUIDE2,Na opnemen beelden 2 sec.
+SETUP_AUTOREVIEW_GUIDE2_2,bekijken
+SETUP_BEEP,Pieptoon
+SETUP_BEEP_GUIDE2,Instellingen voor pieptoon
+SETUP_BEEP_GUIDE2_2,
+SETUP_BGMTOOL_DOWNLOAD_GUIDE2,Muziek van diavoorstelling
+SETUP_BGMTOOL_DOWNLOAD_GUIDE2_2,veranderen
+SETUP_BGMTOOL_FORMAT_GUIDE2,Alle muziek diavoorstelling
+SETUP_BGMTOOL_FORMAT_GUIDE2_2,verwijdern
+SETUP_BGM_DOWNLOAD,Downl. muz.
+SETUP_BGM_FORMAT,Format. muz.
+SETUP_CALIBRATION,Kalibratie
+SETUP_CAM1,Opname-instellingen 1
+SETUP_CAM2,Opname-instellingen 2
+SETUP_CHANGERECFOLDER,Opnamemap wijz.
+SETUP_CLOCK_GUIDE2,Datum en tijd veranderen
+SETUP_CLOCK_GUIDE2_2,
+SETUP_COMPONENT,COMPONENT
+SETUP_COMPONENT_D1,SD
+SETUP_COMPONENT_D3,HD(1080i)
+SETUP_COMPONENT_GUIDE2,Instellingen voor
+SETUP_COMPONENT_GUIDE2_2,componentenuitgang
+SETUP_CONTROLGUIDE,Bedieningsgids
+SETUP_CONTROLGUIDE_GUIDE,Bedieningsgidsinstellingen
+SETUP_CONVERSION_GUIDE2,Conversielens kiezen
+SETUP_CONVERSION_GUIDE2_2,
+SETUP_COPY,Kopiëren
+SETUP_CREATERECFOLDER,Opnamemap maken
+SETUP_DEMOMODE,Demonstratiefunctie
+SETUP_DEMOMODE_GUIDE,Instellen op 'aan' voor de
+SETUP_DEMOMODE_GUIDE_2,demonstratiefunctie
+SETUP_DIGITALZOOM,Digitale zoom
+SETUP_DIGITALZOOM_PRECISION,Nauwkeurig
+SETUP_DIGITALZOOM_SMART,Slim
+SETUP_DIRECTIONJUDGE,Autom. Oriëntatie
+SETUP_DIRECTIONJUDGE_GUIDE2,Cameraoriëntatie bepalen en
+SETUP_DIRECTIONJUDGE_GUIDE2_2,opslaan
+SETUP_DISP,Scherminstellingen
+SETUP_DISP_09,9
+SETUP_DISP_12,12
+SETUP_DISP_16,16
+SETUP_DISP_20,20
+SETUP_DISP_BRIGHT,Helder
+SETUP_DISP_BRIGHTNESS,LCD-helderheid
+SETUP_DISP_BRIGHTNESSSET,Helderheid
+SETUP_DISP_HISTOGRAMSET,Histogram
+SETUP_DISP_IMAGEONLY,Alleen bld.
+SETUP_DISP_INDEX,Beeldindex-instellingen
+SETUP_DISP_MSG_GRAPH_OFF,Er wordt geen grafiek afgebeeld
+SETUP_DISP_MSG_GRAPH_ON,Beeldt beeldhelderheid af in grafiek
+SETUP_DISP_MSG_ICON,Beeldt alleen de bedieningstoetsen af
+SETUP_DISP_MSG_IMAGE,Beeldt alleen het beeld af
+SETUP_DISP_MSG_INFO,Beeldt de bedieningstoetsen en info af
+SETUP_DISP_MSG_LIGHT_BRIGHT,Stelt scherm in op hogere helderheid
+SETUP_DISP_MSG_LIGHT_NORMAL,Stelt scherm in op normale helderheid
+SETUP_DISP_MSG_THUMBNAIL_09,Indexweergave van 9 beelden
+SETUP_DISP_MSG_THUMBNAIL_12,Indexweergave van 12 beelden
+SETUP_DISP_MSG_THUMBNAIL_16,Indexweergave van 16 beelden
+SETUP_DISP_MSG_THUMBNAIL_20,Indexweergave van 20 beelden
+SETUP_DISP_MSG_WIDEZOOMSET_OFF,Bldn weergeven met oorspr. beeldverh
+SETUP_DISP_MSG_WIDEZOOMSET_ON,Beelden weergeven op gehele scherm
+SETUP_DISP_OFF,Uit
+SETUP_DISP_ON,Aan
+SETUP_DISP_OPT,Aantal beelden
+SETUP_DISP_PLAY,Weergavescherm-instellingen
+SETUP_DISP_SHOOT,Opnamescherm-instellingen
+SETUP_DISP_WIDEZOOMSET,Breedzoom
+SETUP_EXPANDEDFOUCS_GUIDE2,Midden vergroten bij handm.
+SETUP_EXPANDEDFOUCS_GUIDE2_2,scherpst.
+SETUP_EZOOM_GUIDE2,Instellingen voor digitale zoom
+SETUP_EZOOM_GUIDE2_2,
+SETUP_FLASHSYNCHRO_GUIDE2,Flitsertiming kiezen
+SETUP_FLASHSYNCHRO_GUIDE2_2,
+SETUP_FORMAT,Formatteren
+SETUP_FUNCTIONGUIDE,Functiegids
+SETUP_FUNCTIONGUIDE_GUIDE2,Instellingen voor functiegids
+SETUP_FUNCTIONGUIDE_GUIDE2_2,
+SETUP_GRIDLINE,Stramienlijn
+SETUP_GRIDLINE_GUIDE2,Tips voor samenstellen van
+SETUP_GRIDLINE_GUIDE2_2,opnamen
+SETUP_HOUSING,Behuizing
+SETUP_INITIALIZE,Initialiseren
+SETUP_INITIALIZE_GUIDE2,Terugstellen op oorspr.
+SETUP_INITIALIZE_GUIDE2_2,standaardinst.
+SETUP_INTERNALMEMORY_FORMAT_GUIDE2,Intern geheugen formatteren
+SETUP_INTERNALMEMORY_FORMAT_GUIDE2_2,
+SETUP_LANG,NEDERLANDS
+SETUP_LANG_5WAY,NEDERLAND
+SETUP_LCD_RESPOINT_GUIDE2,Stelt reactie na aanraken van
+SETUP_LCD_RESPOINT_GUIDE2_2,LCD in
+SETUP_LUNSET,LUN-instellingen
+SETUP_LUNSET_GUIDE,Selecteer het medium dat u wilt
+SETUP_LUNSET_GUIDE_2,aansluiten op de Mass Storage
+SETUP_LUNSET_MULTI,Meerdere
+SETUP_LUNSET_SINGLE,Enkele
+SETUP_MAIN1,Hoofdinstellingen 1
+SETUP_MAIN2,Hoofdinstellingen 2
+SETUP_MAIN3,Hoofdinstellingen 3
+SETUP_MARINEPACK_GUIDE2,Zet AAN bij gebruik van
+SETUP_MARINEPACK_GUIDE2_2,behuizing
+SETUP_MASSSTORAGE,Mass Storage
+SETUP_MONITOR,Monitor
+SETUP_MS_COPY_CHANGE_GUIDE2,Alle bldn uit intern geheugen
+SETUP_MS_COPY_CHANGE_GUIDE2_2,kopiëren
+SETUP_MS_FOLDER_CHANGE_GUIDE2,Map voor opnamebeelden
+SETUP_MS_FOLDER_CHANGE_GUIDE2_2,veranderen
+SETUP_MS_FOLDER_CREATE_GUIDE2,Maak een nieuwe map
+SETUP_MS_FOLDER_CREATE_GUIDE2_2,
+SETUP_MS_FORMAT_GUIDE2,Memory Stick formatteren
+SETUP_MS_FORMAT_GUIDE2_2,
+SETUP_NTSC,NTSC
+SETUP_PAL,PAL
+SETUP_PASSLOCK,Wachtwoordfunctie
+SETUP_PASSLOCK_GUIDE,Stel wachtwoord in om bldn. te
+SETUP_PASSLOCK_GUIDE_2,vergr.
+SETUP_PICTBRIDGE,PictBridge
+SETUP_PTPMTP,PTP/MTP
+SETUP_SHUTTER,Sluiter
+SETUP_SINGLE,Enkelvoudig
+SETUP_SMILEDEMO,Demo Lach-sluiter
+SETUP_SMILEDEMO_GUIDE2,Stel in op 'aan' voor lach-sluiter
+SETUP_SMILEDEMO_GUIDE2_2,demo
+SETUP_TVTYPE,TV-TYPE
+SETUP_TVTYPE_GUIDE2,Voor selecteren van type
+SETUP_TVTYPE_GUIDE2_2,TV-monitor
+SETUP_UPDATE,Bijwerking
+SETUP_USBCONNECT,USB-aansluiting
+SETUP_USBCONNECT_GUIDE2,Uitvoerfunctie bij aansluiting via
+SETUP_USBCONNECT_GUIDE2_2,USB
+SETUP_VERSION,Versie
+SETUP_VERSION_GUIDE2,Versie controleren-firmware
+SETUP_VERSION_GUIDE2_2,bijwerken
+SETUP_VIDEOOUT,Video-uit
+SETUP_VIDEOOUT_GUIDE2,Uitvoerfunctie bij aansluiting op
+SETUP_VIDEOOUT_GUIDE2_2,video
+SSMENU_10SEC,10 sec
+SSMENU_1SEC,1 sec
+SSMENU_3SEC,3 sec
+SSMENU_5SEC,5 sec
+SSMENU_ACTIVE,Actief
+SSMENU_ALL,Alle beelden
+SSMENU_BASIC,Basis
+SSMENU_DETAIL,Overige instel.
+SSMENU_EFFECTS,Effecten
+SSMENU_FACE_BASIC,Gezicht 1: Basis
+SSMENU_FACE_NOSTALGIC,Gezicht 2: Nostalgish
+SSMENU_FACE_STYLISH,Gezicht 3: Stijlvol
+SSMENU_IMAGE,Beeld
+SSMENU_INFOLDER,Map
+SSMENU_INTERVAL,Interval
+SSMENU_MUSIC,Muziek
+SSMENU_MUSIC1,Music1
+SSMENU_MUSIC2,Music2
+SSMENU_MUSIC3,Music3
+SSMENU_MUSIC4,Music4
+SSMENU_MUSIC5,Music5
+SSMENU_MUSIC6,Music6
+SSMENU_MUSIC7,Music7
+SSMENU_MUSIC8,Music8
+SSMENU_NORMAL_A,Normaal
+SSMENU_NOSTALGIC,Nostalgisch
+SSMENU_REFINE,Filter
+SSMENU_REPEAT,Herhalen
+SSMENU_SIMPLE,Simpel
+SSMENU_STYLISH,Stijlvol
+SSMENU_THIS_DATE,Deze datum
+SSMENU_THIS_EVENT,Deze gebeurtenis

@@ -1,0 +1,1887 @@
+=== PDF PAGE 1 ===
+SECTION 6
+ADJUSTMENTSRevision HistoryRevision History
+Sony EMCS Co.
+Auto-ADJVer. 1.3  2008.08
+9-852-287-54
+2008H0500-1
+© 2008.8
+Published by Kohda TEC
+DSC-W300
+DSC-W300_ADJ
+LinkLink
+List of service tools
+Adjusting items when replacing main parts and boards
+Before starting adjustments
+VIDEO SYSTEM ADJUSTMENTS
+CAMERA SYSTEM ADJUSTMENTS
+DESTINATION DATA WRITE
+USB SERIAL No. INPUT
+ADJUSTMENT PROGRAM
+LCD SYSTEM ADJUSTMENTS
+ERROR
+PREPARATIONS BEFORE ADJUSTMENTS
+CAMERA SECTION ADJUSTMENTS
+• Use this Service Manual together with the Automatic Adjustment Program (DSC-W300 Auto-Adj Ver_1.3r04.exe).
+APPLICATION FOR ADJUSTMENT (SeusEX)
+SERVICE MODE
+DATA BACKUP
+SERVICE MODE
+
+=== PDF PAGE 2 ===
+6-1
+DSC-W300_ADJ
+Replaced parts
+Block Mounted parts Board
+replacement replacement replacement
+Adjusting item Adjustment
+LCD unit
+(AF illumination LED)
+(Timing gen., CCD signal process)
+(Video amp.)
+(PITCH, YAW sensor)
+LCD901
+D001
+IC301
+IC602
+SE502, SE501
+(COMPLETE)
+(COMPLETE)
+(COMPLETE) (Note)
+Lens block
+CCD block assy (Including CD-734 flexible board and CCD imager)
+Flash unit
+LCD block
+AF-116 board
+SY-199 board
+SY-199 board
+SY-199 board
+AF-116 board
+ST-191 board
+SY-199 board
+Destination Data Write Destination data write z
+USB Serial No. Input USB serial No. input z
+Composite video level
+adjustment Composite video level adj. zz
+Component out Y level adj.
+Component out Pb level adj.
+Component out Pr level adj.
+Hall adj.
+Auto orientation adj.
+CAMERA adjustment 2 Flange back adj.
+zz z
+CAMERA adjustment 3 Flange back check zz z
+F No. compensation
+Measure gain, LV adj.
+Mechanical shutter adj.
+AWB 3200K-5800K standard data input
+AWB 3200K-5800K check
+Color reproduction adj. & check
+CCD white defect compensation check
+CCD black defect compensation check
+CAMERA adjustment 6 Strobe adj.
+zz z z z
+CAMERA adjustment 7 Auto focus illumination check zz z
+CAMERA adjustment 8 Angular velocity sensor sensitivity adj. zz z
+V-COM adj.
+White Balance adj.
+z
+zz
+zz
+CAMERA adjustment 1
+Component video level
+adjustment
+zzLCD adjustment
+CAMERA adjustment 4 zz z
+zCAMERA adjustment 5 zz
+Before starting adjustments
+1-1. Adjusting items when replacing main parts and boards
+When replacing main parts and boards, adjust the items indicated by z  in the following table.
+Note: When replacing the SY-199 board, erase the data in internal memory of the board before replacement.
+Table 6-1-1
+SECTION  6
+ADJUSTMENTS
+
+=== PDF PAGE 3 ===
+6-2
+DSC-W300_ADJ
+Personal computer
+(Note 1)
+J-1
+J-11J-10
+J-8
+HASP key and application 
+for adjustment (SeusEX)
+Contact our service headquarters of each 
+area how to get the application for  
+adjustment (SeusEX) and HASP key.
+J-2
+Pattern box PTB-450
+J-6082-200-A
+ or
+Small pattern box
+PTB-1450
+J-6082-557-A
+J-5
+Clear chart
+For PTB-450:
+J-6080-621-A
+For PTB-1450:
+J-6082-560-A
+J-7
+Minipattern box
+J-6082-353-B
+Siemens star chart
+J-6080-875-A
+Background paper
+J-2501-130-A
+9 colors chart (Note 2)
+For PTB-1450:
+J-6082-562-A
+J-6
+USB, A/V , DC IN cable 
+for multi-use terminal
+1-830-848-21
+J-3
+J-9
+Flange back
+adjustment jig
+J-6082-563-A
+AC power adaptor
+AC-LS5
+1-479-284-51
+J-12
+USB cable
+1-829-868-41
+J-4
+J-14
+Camera table
+J-6082-384-A
+J-15
+Component
+video out jig
+J-6082-659-A
+Tripod Adaptor
+J-6082-577-B
+J-13
+360 mm
+155 mm
+280 mm
+woody board A
+woody board A
+9 colors chart
+135 mm
+Fig. 6-1-1
+1-2. List of service tools
+• Oscilloscope • Color monitor
+Note 1: Personal computer
+OS: Windows 2000/XP Home/XP Pro
+RAM: 256 MB or more recommended
+USB: 2.0 recommended (also compatible with 1.1)
+Two connectors are required.
+Note 2: In using the 9 colors chart on the pattern box PTB-450, adjust the chart size through the procedure shown below so that it matches
+to the pattern box PTB-450.
+1) Prepare a woody board A of the thickness 5 mm, and paint it mat-black.
+2) Fit the 9 colors chart in the woody board A, and secure the chart with a black tape, etc. to shield the light.
+
+=== PDF PAGE 4 ===
+6-3
+DSC-W300_ADJ
+Fig. 6-1-2
+Note: The set must be connected to the Component video out jig when performing the “Component out (Y , Pb, Pr) level adjustment” in
+the “Video System Adjustment”.
+6-1. CAMERA  SECTION  ADJUSTMENTS
+1-1. PREPARATIONS  BEFORE  ADJUSTMENTS
+1-1-1. Preparations
+1) Connect the equipment for adjustments according to Fig. 6-1-2.
+2) Start up the application for adjustment (SeusEX).
+Tripod Adaptor
+(J-6082-577-B)
+Camera table
+(J-6082-384-A)
+PC (The SeusEX must be installed in the PC.)
+OS: Windows 2000/XP
+RAM: 256MB or more recommended
+USB: 2.0 recommended (also compatible with 1.1)
+         Two connectors are required.
+Audio
+(Black)
+Video
+(yellow)
+Color monitor
+Video system Adjustment
+(Composite video level adj.)
+Oscilloscope
+Terminated
+75 Ω
+AC IN
+AC power adaptor
+AC-LS5
+(1-479-284-51)
+USB, A/V, DC IN cable
+for multi-use terminal
+(1-830-848-21)
+HASP Key
+ To DC IN jack
+To USB 
+connector
+DISP SEL switch setting
+TV:   Video/Camera 
+        System Adjustment
+CAMERA:   LCD 
+                   System Adjustment
+To Multi connector
+
+=== PDF PAGE 5 ===
+6-4
+DSC-W300_ADJ
+Component
+video out jig
+(J-6082-659-A)
+PC
+OS: Windows 2000/XP
+RAM: 256MB or more recommended
+USB: 2.0 recommended 
+         (also compatible with 1.1)
+         Two connectors are required.
+USB cable
+(1-829-868-41)
+HASP Key
+To USB 
+ connector
+To USB 
+connector
+Component Out Pr Level
+Component Out Pb Level
+Component Out Y Level
+Measurement Point:
+AC IN
+AC power adaptor
+AC-LS5
+(1-479-284-51)
+ To DC IN jack
+GND HD_Y
+HD_Pb
+GND
+HD_Pr
+AUDIO
+VIDEO
+CN1 CN2
+CN3
+CN4
+CN5
+• Connection diagram when “Component out (Y , Pb, Pr) level adjustment” in “Video System Adjustment” is performed.
+Fig. 6-1-3
+
+=== PDF PAGE 6 ===
+6-5
+DSC-W300_ADJ
+1-1-2. Precautions
+1. Setting the Switch
+Unless otherwise specified, set the switches as follows and perform adjustments.
+1. Mode dial ...................................................................... Auto Adjustment
+2. W/T (Zoom) b utton .......................................................WIDE end
+3. Digital Zoom
+(Settings – Shooting Settings – Shooting Settings 1) .... Off
+Fig. 6-1-4
+2. Subjects
+1) 9 colors chart (Standard picture frame).
+When performing adjustments using the 9 colors chart, adjust
+the picture frame as shown in Fig. 6-1-4. (Standard picture
+frame)
+2) Clear chart (Standard picture frame)
+Remove the 9 colors chart from the pattern box and insert a
+clear chart in its place. (Do not perform zoom operations dur-
+ing this time)
+3. Setting Distance between Pattern Box and Camera
+Set the distance from the front of the lens to the pattern box as
+shown in Fig. 6-1-5.
+Fig. 6-1-5
+9 colors chart (Standard picture frame)
+Adjust the camera position and direction
+to obtain the LCD screen or the monitor
+TV display shown in Fig. a.
+Transparent window
+A BA
+C
+B
+C
+C14: Filter for AWB 5800K adjustment
+A
+2Effective picture frame
+C14 Blue Magenta
+RedWhiteCyan
+Green Yellow W14
+Fig. a LCD screen or under scan
+monitor TV picture
+A = B
+C = 3
+B
+(                                    )
+Pattern box Front of the lens
+L = About 10 cm
+L Camera
+
+=== PDF PAGE 7 ===
+6-6
+DSC-W300_ADJ
+4. Precautions When Using Pattern Box
+1) It takes about 30 minutes for pattern box to stabilize its brightness.
+Turn on the pattern box 30 minutes before the adjustment starts.
+2) Make arrangement so that the outside light does not enter the chart surface in the pattern box.
+Also, place a board between chart and camera, and make a hole at the lens part of the board so that the camera is not reflected  in the
+shot image screen.
+(Adjustment may not be performed correctly due to the influence of outside light.)
+Example 1: Place a box to block a section between pattern box and camera.
+Fig. 6-1-6
+Example 2: Place a board having a hole in front of the camera and cover the pattern box and camera with a blackout curtain
+Fig. 6-1-7
+3) Control of color chart
+The color chart will fade if it is exposed to direct sunlight or strong light.
+Since the fading of color chart progresses even with the light in the pattern box, remove and store the color chart when it is not used.
+Remove the color chart and store it.
+Store the color chart in a place not exposed to direct light, avoiding high temperature and humidity.
+Use the color chart for about three years, and afterward replace it with a new chart.
+Pattern box Front of the lens
+Make the hole of the same
+size as the lens. 
+Make the hole of the same
+size as the pattern box. 
+L = About 10 cm
+L Camera
+Pattern box Front of the lens
+Board that opens hole
+to lens part
+L = About 10 cm
+L Camera
+Cover with a blackout curtain
+
+=== PDF PAGE 8 ===
+6-7
+DSC-W300_ADJ
+5. Preparing the Flash Adjustment Box
+A dark room is required to provide an accurate flash adjustment.
+If it is not available, prepare the flash adjustment box as given
+below;
+1) Provide woody board A, B, C and D of 15 mm thickness.
+2) Apply black mat paint to one side of woody board A, B and D.
+3) Attach background paper (J-2501-130-A) to woody board C.
+4) Assemble so that the black sides and the background paper
+side of woody board A, B,C and D are internal. (Fig. 6-1-9)
+Fig. 6-1-8
+Fig. 6-1-9
+woody board A (2)
+400 mm
+woody board B (2)
+370 mm
+woody board C (1)
+700 mm
+513 mm 513 mm 700 mm
+woody board D (1)
+370 mm
+370 mm
+700 mm730 mm
+100 mm
+120 mm
+woody board A
+woody board B
+woody board B
+woody board C
+woody board A
+woody board D
+Fig. 6-1-10
+Flash adjustment box Front of the lens
+Background paper
+L = 50 cm
+L Camera
+
+=== PDF PAGE 9 ===
+6-8
+DSC-W300_ADJ
+3. Function of Each Button on Main Menu Screen
+When the Automatic Adjustment Program started, the Main Menu
+screen in Fig. 6-1-11 will appear. On this screen, select each ad-
+justment section.
+Fig. 6-1-11
+1 [Connecting the Equipment]  button
+A connection diagram of the equipment is displayed.
+2 [CONNECT] button
+The mode of Camcorder is switched to the Adjustment Mode.
+When the Adjustment Mode has switched normally, the op-
+eration of the buttons 4 – 0 is enabled.
+3 [END] button
+The mode of Camcorder is switched to the normal mode.
+When the normal mode has switched correctly, the Automatic
+Adjustment Program is finished.
+4 [DESTINATION DATA WRITE]  button
+The “DESTINATION DATA WRITE” screen appears.
+5 [USB SERIAL N0. INPUT]  button
+The “USB SERIAL No. INPUT” screen appears.
+6 [VIDEO SYSTEM ADJUSTMENT]  button
+The “VIDEO SYSTEM ADJUSTMENT” screen appears.
+7 [CAMERA SYSTEM ADJUSTMENT]  button
+The “CAMERA SYSTEM ADJUSTMENT” screen appears.
+8 [LCD SYSTEM ADJUSTMENT]  button
+The “LCD SYSTEM ADJUSTMENT” screen appears.
+9 [SERVICE MODE] button
+The “SERVICE MODE” screen appears.
+0 [DATA BACKUP] button
+The “DATA BACKUP” screen appears.
+qa This part indicates the version of Automatic Adjustment Pro-
+gram.
+qs [Adjust item] button
+“Adjusting items when replacing main parts and boards” table
+is displayed.
+1-2. ADJUSTMENT  PROGRAM
+The DSC-W300 is adjusted by the Automatic Adjustment Program.
+The Automatic Adjustment Program enters automatically via the
+SeusEX the adjustment operations that were formerly entered
+manually by the adjustment remote commander (some items may
+be adjusted by manual operation on the operation screen of the
+SeusEX).
+1. Precautions When Using Automatic Adjustment
+Program
+1) The Automatic Adjustment Program writes the adjustment re-
+sults such as EVR data to the set through two-way communi-
+cation with the camera via the SeusEX. Accordingly, the Au-
+tomatic Adjustment Program must be used in the environment
+where the SeusEX operates.
+2) The Automatic Adjustment Program cannot be used when the
+SEUS or the SeusCam is running. Exit the SEUS or the
+SeusCam before using the Automatic Adjustment Program.
+3) The SeusEX must be already started on the PC when using the
+Automatic Adjustment Program. With the SeusEX not started,
+some adjustment items will take time in adjustment.
+4) The program run time may vary depending on the environ-
+ment of the personal computer used.
+2. Start of Automatic Adjustment Program
+Double-click the application file (DSC-W300 Auto-Adj
+Ver_1.3r04.exe), and the Automatic Adjustment Program will start.
+3
+5
+4
+7
+6
+2
+1
+qs
+9
+08
+qa
+Ver. 1.3  2008.08
+
+=== PDF PAGE 10 ===
+6-9
+DSC-W300_ADJ
+4. Setting of Adjustment Mode
+Before performing the adjustment, “Setting of Adjustment Mode”
+is required.
+[Setting method]
+1) Connect the Camera to the PC with a USB cable, and turn on
+the power switch.
+2) Start the Automatic Adjustment Program, and click the [Con-
+nect] button on the Main Menu screen.
+3) Turn off the power button of the set when the following mes-
+sage is displayed.
+4) Once turn off a set completely by pulling a “DC In Jack” (Or
+you can pull a Multi-connector).
+5) Connect a “DC In Jack” again and turn on a set by the power
+button of a body.
+Click the [OK] b utton on the message screen when the set
+started.
+6) Upon successful completion of the settings in the Adjustment
+Mode, the operation of each button on the Main Menu screen
+is enabled.
+5. Release of Adjustment Mode
+To finish the adjustment, be sure to perform “Release of Adjust-
+ment Mode”.
+[Releasing method]
+1) Click the [END] button on the Main Menu screen.
+2) When the following message is displayed, releasing of adjust-
+ment mode has completed. Click the [OK] button in the mes-
+sage window to exit the Automatic Adjustment Program.
+Note: The Camera switches to the normal mode by turning
+off and on the power switch. After the adjustment fin-
+ished, turn off and on again the power switch of the
+Camera to confirm that the USB mode screen is dis-
+played.
+Ver. 1.3  2008.08
+
+=== PDF PAGE 11 ===
+6-10
+DSC-W300_ADJ
+Japanese
+English
+French
+German
+Spanish
+Italian
+Portuguese
+Simplified
+Chinese
+Traditional
+Chinese
+Dutch
+Russian
+Korean
+Persian
+Arabic
+Thai
+Melayu
+Swedish
+Norwegian
+Danish
+Finnish
+Polish
+Czech
+Hungarian
+Turkish
+Greek
+J1 J z NTSC
+JE3 JE za aa a aaaaa PAL
+U2 US za aa a a NTSC
+CA2 CND za aa a a NTSC
+CEE2 aaaaaa a z aaaaaaaaa PAL
+CEE8 z aaaaa a aaaaaaaaa PAL
+CEE9 z aaaaa a a aaaaaaaaa PAL
+CEH UK z aaaaa a aaaaaaaaa PAL
+E15 za aa a aaaaa PAL
+E32 za aa a aaaaa PAL
+E33 az aa a aaaaa NTSC
+TH6 Thai aa aa a aaaza PAL
+AU2 AUS za aa a a PAL
+HK1 HK za aa a aaaaa PAL
+CN2 CH aa az a aaaaa PAL
+KR2 KR aa aa az aaaa NTSC
+AR2 AR az aa a aaaaa NTSC
+BR1 BR aa za a aaaaa NTSC
+z: INITIAL LANGUAGE
+E
+VIDEO OUT
+Default
+AEP
+DESTINATION
+AREA
+SELECTABLE LANGUAGE
+1-3. DESTINATION  DATA  WRITE
+Note: The DESTINATION DATA WRITE cannot be set with other
+than the Service board.
+1. Function of Each Button on Destination Data Write
+Screen
+Click the [DESTINATION DATA WRITE]  button on the Main Menu
+screen, and the “DESTNATION DATA WRITE” screen in Fig. 6-
+1-12 will appear.
+Fig. 6-1-12
+1 [To Menu] button
+Return to the main menu.
+2 Destination Check button
+Current destination setting checked when the “DESTINATION
+DATA WRITE” screen started is displayed.
+When this button is clicked, the destination is checked and the
+display is updated.
+3 Destination List
+Select the written destination.
+4 [Data Write] button
+Write the destination data to the camera.
+3. Selectable Language Table
+2. Destination Data Write
+[Writing method]
+1) Select the written destination with the Destination list.
+2) Click the [Data Write] button.
+3) Following message will be appeared after completing data
+writing.
+4) After the destination data writing completed, click the Desti-
+nation Check button to check the destination
+Table 6-1-2
+4
+2
+1
+3
+Ver. 1.1  2008.05
+
+=== PDF PAGE 12 ===
+6-11
+DSC-W300_ADJ
+1. Function of Each Button on USB Serial No. Input
+Screen
+Click the [USB SERIAL No. INPUT]  button on the Main Menu
+screen, and “USB SERIAL No. INPUT” screen in Fig. 6-1-13
+will appear.
+Fig. 6-1-13
+1 [To Menu] button
+Return to the main menu.
+2 Display area
+The “PRODUCT ID” and “SERIAL No.” are displayed.
+3 [Check Serial] button
+The USB SERIAL No. data is read from the camera and dis-
+played in the display area.
+4 [Read and Save]  button
+The USB SERIAL No. data is read from the camera and saved
+in PC as a file.
+Default file name is as follows:
+5 [Load and Write]  button
+The USB SERIAL No. data is loaded from the file saved in
+PC and written to the camera.
+6 Input area
+Enter the “SERIAL No.”.
+For the “PRODUCT ID”, the last 5 characters of model
+name are fixed. For the “SERIAL No.”, read it from the label
+on the camera body and enter it.
+7 [Write Manually]  button
+The USB SERIAL No. data entered in the input area is written
+to the camera.
+1-4. USB  SERIAL  No.  INPUT
+The set is shipped with a unique ID (USB Serial No.) written in it.
+This ID has not been written in a new board for service, and there-
+fore it must be entered after the board replacement.
+If original ID can be read from the board before replacement, read
+it from the board before replacement using the “SERIAL READ/
+WRITE” screen, and then write it after replacement.
+If original ID cannot be read from the board before replacement,
+write the ID for service using the “MANUAL WRITE” screen.
+(The ID for service is different from the ID written when the set is
+shipped.)  Enter the PRODUCT ID (last 5 characters of model
+name) and SERIAL No. into the screen and write them.
+DSC-W300_SERIAL_xxxxxxxx_yyyymmdd.dat
+Date
+USB serial number
+Data name
+5
+3
+4
+2
+7
+6
+1
+
+=== PDF PAGE 13 ===
+6-12
+DSC-W300_ADJ
+1-5. VIDEO  SYSTEM  ADJUSTMENTS
+1-5-1. Function of Each Button on Video System
+Adjustment Screen
+Click the [VIDEO SYSTEM ADJUSTMENT]  button on the Main
+Menu screen, and the “VIDEO SYSTEM ADJUSTMENT”
+screen in Fig. 6-1-14 will appear.
+Fig. 6-1-14
+1 [To Menu] button
+Return to the main menu.
+2 [Preparation] button
+Notes for adjustment or jigs used are displayed.
+3 [Start] button
+Each adjustment “Composite Video Level Adjustment” or
+“Component Video Level Adjustment” starts.
+4 [Reboot] button
+When this button is clicked, the camera is rebooted.
+5 [Release Data Setting]  button
+The data setting at the adjustment is cancelled.
+During the data setting, the button color changes from “white”
+to “red”. When the data setting is cancelled, the button color
+returns to “white”.
+(Use this button when an error occurred in the video adjust-
+ment. If the adjustment completed successfully, the data set-
+ting is automatically cancelled and the button color returns to
+“white”.)
+1-5-2. Adjustment Items of VIDEO System Adjust-
+ment
+The adjustment items of video system adjustment are as listed in
+Table 6-1-3. The Automatic Adjustment Program executes the ad-
+justment items if the VIDEO Adjustment Start button is clicked.
+Table 6-1-3
+5
+4
+32
+1
+Block Page Address
+Composite
+Video Level
+Adjustment
+Composite Video
+Level Adj.
+VIDEO terminal of USB, A/V, DC IN
+cable for multi-use terminal
+(75 ohm terminated)
+Oscilloscope 11 60 06B8
+Component Out
+Y Level Adj.
+Land of HD_Y
+(Component video out jig) Oscilloscope 11 60 0680
+Component Out
+Pb Level Adj.
+Land of HD_Pb
+(Component video out jig) Oscilloscope 11 60 0681
+Component Out
+Pr Level Adj.
+Land of HD_Pr
+(Component video out jig) Oscilloscope 11 60 0682
+Adjusting Address
+Component
+Video Level
+Adjustment
+Button
+Name Adjustment Measurement Point Measuring
+Instrument
+
+=== PDF PAGE 14 ===
+6-13
+DSC-W300_ADJ
+4) If the [End] button is clicked, the following message and screen
+are displayed. Check that the sync signal level and burst level
+of the video signals satisfies the specified value, and click the
+[OK] button in the message.
+5) If the [OK] button is clicked, “3. Release of Data Setting dur-
+ing Video Adj.” will be executed.
+6) Upon successful completion of all item the Composite Video
+Level Adjustment, the following message is displayed. Click
+the [OK] button.
+1-5-3. Adjusting Method
+1. Composite Video Level Adjustment
+[Automatic Adjustment Program execution items and
+sequence]
+1. Data Setting during Video Adj.
+2. Composite Video Level Adj.
+3. Release of Data Setting during Video Adj.
+[Adjusting method]
+1) Click the [Start] button of the Composite Video Level Adj.
+2) The Automatic Adjustment Program executes the “1. Data
+Setting during Video Adj.”.
+3) If “1. Data Setting during Video Adj.” completed successfully,
+the following screen is displayed during the execution of “2.
+Composite Video Level Adj.”. Using the [Up]/[Down] button
+on the screen, adjust so that the sync level of the video signals
+satisfies the specified value. After the adjustment, click the
+[End] button in the screen.
+
+
+=== PDF PAGE 15 ===
+6-14
+DSC-W300_ADJ
+2. Component Video Level Adjustment
+[Automatic Adjustment Program execution items and
+sequence]
+1. Data Setting during Video Adj.
+2. Component Out Y Level Adj.
+3. Component Out Pb Level Adj.
+4. Component Out Pr Level Adj.
+5. Release of Data Setting during Video Adj.
+[Adjusting method]
+1) Click the [Start] button of the Component Video Level Adjust-
+ment.
+2) The Automatic Adjustment Program executes the “1. Data
+Setting during Video Adj.”.
+3) If “1. Data Setting during Video Adj.” completed successfully,
+the following screen is displayed during the execution of “2.
+Component Out Y Level Adj.”. Using the [Up]/[Down] button
+on the screen, adjust so that the Y signal level satisfies the
+specified value. After the adjustment, check that the sync level
+of the Y signals satisfies the specified value, and click the [End]
+button in the screen.
+4) After that, the following screen is displayed during the execu-
+tion of “3. Component Out Pb Level Adj.”. Using the [Up]/
+[Down] button on the screen, adjust so that the Pb signal level
+satisfies the specified value. After the adjustment, check that
+the sync level of the Pb signals satisfies the specified value,
+and click the [End] button in the screen.
+5) After that, the following screen is displayed during the execu-
+tion of “4. Component Out Pr Level Adj.”. Using the [Up]/
+[Down] button on the screen, adjust so that the Pr signal level
+satisfies the specified value. After the adjustment, check that
+the sync level of the Pr signals satisfies the specified value,
+and click the [End] button in the screen.
+6) If the [End] button is clicked, “5. Release of Data Setting dur-
+ing Video Adj.” will be executed.
+7) Upon successful completion of all item the Component Video
+Level Adjustment, the following message is displayed. Click
+the [OK] button.
+
+
+=== PDF PAGE 16 ===
+6-15
+DSC-W300_ADJ
+1-6. CAMERA  SYSTEM  ADJUSTMENTS
+1-6-1. Function of Each Button on Camera System
+Adjustment Screen
+Click the [CAMERA SYSTEM ADJUSTMENT]  button on the Main
+Menu screen, and the “CAMERA SYSTEM ADJUSTMENT”
+screen in Fig. 6-1-15 will appear.
+Fig. 6-1-15
+1 [To Menu] button
+Return to the main menu.
+2 [Preparation] button
+Notes for adjustment or jigs used are displayed.
+3 [Start] button
+Each adjustment from “Camera Adjustment 1” to “Camera
+Adjustment 8” starts.
+4 [Reboot] button
+When this button is clicked, the camera is rebooted.
+5 [Release Data Setting]  button
+The data setting at the adjustment is cancelled.
+During the data setting, the button color changes from “white”
+to “red”. When the data setting is cancelled, the button color
+returns to “white”.
+(Use this button when an error occurred in the camera adjust-
+ment. If the adjustment completed successfully, the data set-
+ting is automatically cancelled and the button color returns to
+“white”.)
+5
+4
+3
+2
+1
+2 3
+
+=== PDF PAGE 17 ===
+6-16
+DSC-W300_ADJ
+1-6-2. Adjustment Items of Camera System Adjust-
+ment
+The adjustment items of camera system adjustment are as listed in
+Table 6-1-4. The Automatic Adjustment Program divides the ad-
+justment items into eight, camera adjustment 1 to 8. Clicking ei-
+ther CAMERA Adjustment Start button allows the adjustment item
+which corresponds to that button to be executed.
+The adjustment conditions of the subject and filter vary depend-
+ing on which item is adjusted. The Adjustment Program displays
+an instruction for the subject and filter as a message during the
+adjustment.
+Block Pa ge Address
+Auto Orientation Adj. 11 61 0E0A to 0E0D
+CAMERA Adjustment 2 Flange Back Adj.
+Siemens star chart with ND filter
+for minipattern box (Note) or
+Flange back adjustment jig
+11 61
+069C to 069F,
+06CC,
+06D8 to 06DF,
+0796 to 079D,
+0F1C to 0F1D,
+0F20, 0F24,
+0F26 to 0F53
+CAMERA Adjustment 3 Flange Back Check
+Siemens star
+(1.0m from front the lens)
+(Illuminance: 200 to 400 lux)
+-- -
+F No. Compensation 11 61 095A to 095F
+Measure Gain, LV Adj. 11 61 0961 to 0968
+Mechanical Shutter Adj. 11 61 0980 to 09AD
+AWB 3200K-5800K
+Standard Data In
+put 11 61 0C00 to 0C21,
+0C24 to 0C49
+AWB 3200K-5800K Check - - -
+Color Reproduction Adj. &
+Check 11 61 0C50 to 0C57
+CCD White Defect
+Com
+pensation Check 11 61 0200 to 03FF
+CCD Black Defect
+Com
+pensation Check 11 61 0000 to 01FF
+CAMERA Adjustment 6 Strobe Adj. Flash adjustment box (50 cm) 11 61 0C72 to 0C79
+CAMERA Adjustment 7 Auto Focus Illumination Check Flash adjustment box (50 cm) 11 61 0F10 to 0F15
+CAMERA Adjustment 8 Angular Velocity Sensor
+Sensitivit
+y Adj. Not required 11 61 0E10, 0E11
+CAMERA Adjustment 1
+Hall Adj.
+Adjusting AddressButton Name Adjustment Subject
+0E00 to 0E04,
+0E08, 0E0911 61
+Not required
+Clear chart
+(Standard picture frame)
+CAMERA Adjustment 5
+CAMERA Adjustment 4 Clear chart
+(Standard picture frame)
+9 color chart
+(Standard picture frame)
+Note: Dark Siemens star chart.
+Table 6-1-4
+
+=== PDF PAGE 18 ===
+6-17
+DSC-W300_ADJ
+6) If the [OK] button is clicked, “3. Auto Orientation Adj.” and
+“4. Release of Data Setting during Camera Adj.” will be ex-
+ecuted.
+7) Upon successful completion of all items of the CAMERA
+Adjustment 1, the following message is displayed. Click the
+[OK] button.
+Processing after Completing Adjustment:
+[Checking method]
+1) [HOME screen] t [Settings] t [Shooting Settings] t
+[Shooting Settings 2] t Select [Auto Orientation] to “ON”.
+2) Shoot with the set in respective positions (a) to (c) shown be-
+low.
+3) Check the pictures in the Playback mode to confirm that the
+pictures are rotated correctly.
+Fig. 6-1-16
+1-6-3. Adjusting Method
+1. CAMERA Adjustment 1
+Note: There is no magnetic substance within around 8 cm of the
+camera.
+[Automatic Adjustment Program execution items and
+sequence]
+1. Data Setting during Camera Adj.
+2. Hall Adj.
+3. Auto Orientation Adj.
+4. Release of Data Setting during Camera Adj.
+[Adjusting method]
+1) Click the [Start] button of CAMERA Adjustment 1.
+2) The Automatic Adjustment Program executes the “1. Data Set-
+ting during Camera Adj.”.
+3) Upon successful completion of “1. Data Setting during Cam-
+era Adj.”, the following message and screen are displayed. Set
+the camera in accordance with the message.
+4) If the [OK] button is clicked, “2. Hall Adj.” will be executed.
+5) Upon successful completion of “2. Hall Adj.”, the following
+message and screen are displayed. Set the camera in accor-
+dance with the message.
+(a)
+(b)
+(c)
+
+=== PDF PAGE 19 ===
+6-18
+DSC-W300_ADJ
+2. CAMERA Adjustment 2
+[Automatic Adjustment Program execution items and
+sequence]
+1. Data Setting during Camera Adj.
+2. Flange Back Adj.
+3. Release of Data Setting during Camera Adj.
+Preparation of Flange Back Adj.
+(Using the minipattern box)
+1) The minipattern box is installed as shown in the following
+figure.
+Note 1: The attachment lenses are not used.
+Note 2: Take care not to hit the mini-pattern box when
+extending the lens.
+2) Install the minipattern box so that the distance between it and
+the front of lens of camera is less than 3 cm.
+3) Make the height of minipattern box and the camera equal.
+4) Check the output voltage of the regulated power supply is the
+specified voltage ± 0.01 Vdc.
+5) Check that the center of Siemens star chart meets the center of
+shot image screen with the zoom lens at TELE end and WIDE
+end respectively.
+Specified voltage: The specified voltage varies according to the
+minipattern box, so adjustment the power sup-
+ply output voltage to the specified voltage writ-
+ten on the sheet which is supplied with the
+minipattern box.
+Fig. 6-1-17
+Preparation of Flange Back Adj.
+(Using the flange back adjustment jig)
+(Illuminance: about 300 lux)
+Note 3: When using the flange back adjustment jig, take care of
+the following points:
+• For the illumination, use a light source such as an in-
+candescent lamp or inverter type fluorescent light free
+from flickering.
+• Do not make an adjustment in the environment where
+fluorescent lamp flickering occurs even if the il-
+Illuminance can be ensured with the room illumina-
+tion only. Use an incandescent lamp or inverter type
+fluorescent light at a place free from the influence of
+room illumination.
+1) Install the flange back adjustment jig so that the distance be-
+tween it and the front of lens of camera is less than 3 cm.
+Note 4: Take care not to hit the flange back adjustment jig
+when extending the lens.
+2) Make the height of flange back adjustment jig and the camera
+equal.
+3) Check that the center of chart meets the center of shot image
+screen with the zoom lens at TELE end and WIDE end respec-
+tively.
+Fig. 6-1-18
+Minipattern box
+Below 3 cm
+Camera
+Red (+)
+Black (–)
+Y ellow (SENS +)
+White (SENS –)
+Black (GND)
+Need not connected
+Regulated power supply
+Output voltage : Specified voltage ± 0.01 Vdc
+Output current : more than 3.5 A
+Flange back adjustment jig Below 3 cm
+Camera
+
+=== PDF PAGE 20 ===
+6-19
+DSC-W300_ADJ
+3. CAMERA Adjustment 3
+[Automatic Adjustment Program execution items and
+sequence]
+1. Data Setting during Camera Adj.
+2. Flange Back Check
+3. Release of Data Setting during Camera Adj.
+[Adjusting method]
+1) Click the [Start] button of the CAMERA Adjustment 3.
+2) The Automatic Adjustment Program executes “1. Data Setting
+during Camera Adj.”.
+3) Upon successful completion of the “1. Data Setting during
+Camera Adj.”, the following message is displayed. Set the sub-
+ject in accordance with the message.
+4) Click the [OK] button is clicked, “2. Flange Back Check” is
+executed. The following messages are displayed, and then op-
+erate the camera to make a check in accordance with the mes-
+sages.
+5) Upon completion of “2. Flange Back Check”, “3. Release of
+Data Setting during Camera Adj.” is executed.
+6) Upon successful completion of all items of the CAMERA
+Adjustment 3, the following message is displayed. Click the
+[OK] button.
+[Adjusting method]
+1) Click the [Start] button of the CAMERA Adjustment 2.
+2) The Automatic Adjustment Program executes “1. Data Setting
+during Camera Adj.”.
+3) Upon successful completion of the “1. Data Setting during
+Camera Adj.”, the following message is displayed. Set the sub-
+ject by referring to “Preparation of Flange Back Adj.”.
+4) If the [OK] button is clicked, “2. Flange Back Adj.” and “3.
+Release of Data Setting during Camera Adj.” will be executed.
+5) Upon successful completion of all items of the CAMERA
+Adjustment 2, the following message is displayed. Click the
+[OK] button.
+
+
+=== PDF PAGE 21 ===
+6-20
+DSC-W300_ADJ
+5. CAMERA Adjustment 4
+[Automatic Adjustment Program execution items and
+sequence]
+1. Data Setting during Camera Adj.
+2. Picture Frame Setting
+3. F No. Compensation
+4. Measure Gain, LV Adj.
+5. Mechanical Shutter Adj.
+6. Release of Data Setting during Camera Adj.
+[Adjusting method]
+1) Click the [Start] button of the CAMERA Adjustment 4.
+2) The Automatic Adjustment Program executes the “1. Data Set-
+ting during Camera Adj.”.
+3) Upon successful completion of “1. Data Setting during Cam-
+era Adj.”, “2. Picture Frame Setting” is executed. The follow-
+ing message is displayed, and then referring to Fig. 6-1-19 to
+Fig. 6-1-21, set the subject and click the [OK] button.
+After that, the next message is displayed. Then, change the chart
+in accordance with the message.
+4) Click the [OK] button, and the items from “3. F No. Compen-
+sation.” to “6. Release of Data Setting during Camera Adj.”
+will be executed.
+5) Upon successful completion of all items of the CAMERA
+Adjustment 4, the following message is displayed. Click the
+[OK] button.
+4. Picture Frame Setting (Standard Picture Frame)
+In the “CAMERA Adjustment 4 and CAMERA Adjustment 5”,
+set the picture frame so as to attain the positions shown in the
+following figure when shooting the 9 colors chart.
+Check on the oscilloscope
+Measurement Point: Video terminal of USB, A/V , DC IN cable for
+multi-use terminal (75 Ω  terminated)
+1. Horizontal period
+Fig. 6-1-19
+2. Vertical period
+Fig. 6-1-20
+Check on the monitor TV or the LCD screen
+Fig. 6-1-21
+AA B
+A = B
+V
+BCC
+C = B
+3
+Transparent window
+Effective picture frame
+AA B
+BlueC14 Magenta
+WhiteCyan Red
+Y ellowGreen W14
+C
+C
+B
+C =A = B
+C14: Filter for AWB 5800K adjustment
+A
+2
+B
+3
+
+
+=== PDF PAGE 22 ===
+6-21
+DSC-W300_ADJ
+At this time, the following message is displayed, and click the
+[Yes] button if the check result display at the upper right of
+Color Reproduction Check screen is OK, or the [No] button if
+NG.
+6) Upon successful completion of “5. Color Reproduction Adj.
+& Check”, the following message is displayed. Change the
+chart in accordance with the message.
+7) Click the [OK] button, and the items from “6. CCD White De-
+fect Compensation Check” to “8. Release of Data Setting dur-
+ing Camera Adj.” will be executed.
+8) Upon successful completion of all items of the CAMERA
+Adjustment 5, the following message is displayed. Click the
+[OK] button.
+6. CAMERA Adjustment 5
+[Automatic Adjustment Program execution items and
+sequence]
+1. Data Setting during Camera Adj.
+2. Picture Frame Setting
+3. AWB 3200K-5800K Standard Data Input
+4. AWB 3200K-5800K Check
+5. Color Reproduction Adj. & Check
+6. CCD White Defect Compensation Check
+7. CCD Black Defect Compensation Check
+8. Release of Data Setting during Camera Adj.
+[Adjusting method]
+1) Click the [Start] button of the CAMERA Adjustment 5.
+2) The Automatic Adjustment Program executes the “1. Data Set-
+ting during Camera Adj.”.
+3) Upon successful completion of “1. Data Setting during Cam-
+era Adj.”, “2. Picture Frame Setting” is executed. The follow-
+ing message is displayed, and then referring to Fig. 6-1-17 to
+Fig. 6-1-19, set the subject and click the [OK] button.
+4) Click the [OK] button, and the “3. AWB 3200K-5800K Stan-
+dard Data Input” and “4. AWB 3200K-5800K Check” will be
+executed.
+5) After that, “5. Color Reproduction Adj. & Check” will be ex-
+ecuted. Upon completion of adjustment, the check result is
+displayed on the Color Reproduction Check screen.
+
+
+=== PDF PAGE 23 ===
+6-22
+DSC-W300_ADJ
+7. CAMERA Adjustment 6
+Note: “CAMERA Adjustment 6” is available only once after the
+power is turned on. If the adjustment is retried, turn off the
+power and turn on again.
+[Automatic Adjustment Program execution items and
+sequence]
+1. Data Setting during Camera Adj.
+2. Strobe Adj.
+3. Release of Data Setting during Camera Adj.
+[Adjusting method]
+1) Click the [Start] button of CAMERA Adjustment 6.
+2) The Automatic Adjustment Program executes the “1. Data
+Setting during Camera Adj.”.
+3) Upon successful completion of the “1. Data Setting during
+Camera Adj.”, the following message is displayed. Set the sub-
+ject in accordance with the message.
+(For the Flash adjustment box, refer to “5. Preparing the Flash
+Adjustment Box” (see page 6-7).)
+4) Press the [OK] button, and the “2. Strobe Adj.” will be ex-
+ecuted.
+5) During execution of “2. Strobe Adj.”, the following message
+is displayed. After checking the flashing of strobe light, click
+the [OK] button. (This message is displayed 2 times during
+execution of adjustment.)
+6) Upon successful completion of “2. Strobe Adj.”, “3.Release
+of Data Setting during CAMERA Adj.” is executed.
+7) Upon successful completion of all items of the CAMERA
+Adjustment 6, the following message is displayed. Click the
+[OK] button.
+8. CAMERA Adjustment 7
+[Automatic Adjustment Program execution items and
+sequence]
+1. Data Setting during Camera Adj.
+2. Auto Focus Illumination Check
+3. Release of Data Setting during Camera Adj.
+[Adjusting method]
+1) Click the [Start] button of CAMERA Adjustment 7.
+2) T he Automatic Adjustment Program executes the “1. Data
+Setting during Camera Adj.”.
+3) Upon successful completion of the “1. Data Setting during
+Camera Adj.”, the following message is displayed. Set the sub-
+ject in accordance with the message.
+(For the Flash adjustment box, refer to “5. Preparing the Flash
+Adjustment Box” (see page 6-7).)
+4) Press the [OK] button, and the “2. Auto Focus Illumination
+Check” will be executed.
+5) Upon successful completion of the “2. Auto Focus Illumina-
+tion Check”, the “3. Release of Data Setting during Camera
+Adj.” will be executed successively.
+6) Upon successful completion of all items of the CAMERA
+Adjustment 7, the following message is displayed. Click the
+[OK] button.
+
+
+=== PDF PAGE 24 ===
+6-23
+DSC-W300_ADJ
+Preparation:
+1) Read the PITCH sensor (SY-199 board SE502) sensitivity writ-
+ten on repair parts, and named this as S
+502.
+2) Read the YAW sensor (SY-199 board SE501) sensitivity writ-
+ten on repair parts, and named this as S 501.
+Fig. 6-1-22
+How to read the sensitivity data of angular velocity sen-
+sor
+With the pins 1 and 2 of angular velocity sensor placed in the
+lower position, read the data value.
+Fig. 6-1-23
+9. CAMERA Adjustment 8
+Perform this adjustment only when replacing the angular velocity
+sensor or lens block. When the microprocessor, circuit etc. is dam-
+aged, don’t perform this adjustment but check the operations only.
+9-1. Precaution before adjustment
+Before adjustment, read the following data and record them.
+When the SY -199 board is replaced, read out the data before the
+replacement, and record them.
+Reading out method:
+1) Read out the data in Block:11, Page:61, Address:0E10, and
+name this as Dp.
+2) Read out the data in Block:11, Page:61, Address:0E11, and
+name this as Dy.
+Note: The previous data (Dp, Dy) can be read from the SY-
+199 board and it can be saved in the PC as a file by
+using the Automatic Adjustment Program. (Refer to “9-
+4. Angular Velocity Sensor Sensitivity Adjustment”)
+9-2. Preparation when the angular velocity sensor or
+the SY-199 board is replaced
+Note down the sensitivity displayed on the angular velocity sensor of
+the repair parts. At this time, note down also to which board it was
+attached to.
+Be sure to check because if attached incorrectly, the screen will vi-
+brate up and down or left and right during the steady shot operations.
+Precautions on the Parts Replacement
+The PITCH sensor and the YAW sensor are different parts.
+Precautions on Angular Velocity Sensor
+The sensor incorporates a precision oscillator. Handle it with care as
+if it dropped, the balance of oscillator will be disrupted and opera-
+tions will not be performed properly.
+Adjustment Block 11
+Adjustment Page 61
+Adjustment Address 0E10, 0E11
+Note: The sensor sensitivity of SE501 and SE502 of the SY-199
+board is written only repair parts.
+PITCH sensor sensitivity     S502
+YAW sensor sensitivity     S 501
+SY-199 BOARD (SIDE B)
+SE501
+12
+3 4
+YY
+2
+3 4
+PP
+SE502
+1
+For the sensor sensitivity value 60
+60
+Hand Writing
+12
+43
+Description example :
+
+=== PDF PAGE 25 ===
+6-24
+DSC-W300_ADJ
+9-3. Preparation when the lens is replaced
+Note down the PITCH/YAW data on the replacement lens for repair.
+Adjustment Block 11
+Adjustment Page 61
+Adjustment Address 0E10, 0E11
+Note: The PITCH/Y AW data of lens is written only repair parts.
+Preparation:
+1) Read the PITCH data written on repair parts, and named this
+as L1.
+2) Read the Y AW data written on repair parts, and named this as
+L2.
+Fig. 6-1-24
+P.PP / Y.YY
+YAW data    t L2
+PITCH/YAW Data
+P.PP/ Y .YY
+PITCH data t L1
+9-4. Angular Velocity Sensor Sensitivity Adjustment
+[Adjusting method]
+1) Click the [Start] button of Camera Adjustment 8, and the fol-
+lowing screen will appear.
+The buttons on this screen provide the following functions.
+[Read] button: Reads and displays the previous data (Dp, Dy)
+from the SY-199 board.
+[Save] button: Saves the previous data (Dp, Dy) in the PC as a
+file.
+[Load] button: Loads and displays the previous data (Dp, Dy)
+from the file saved in the PC.
+• Default file name is as follows:
+2) Input the previous data (Dp, Dy) into screen.
+If the previous data cannot be read, give a check to the checkbox
+at lower left of screen.
+3) Input the sensitivity of respective sensors (S
+501, S502) read at
+“Preparation” into the screen.
+If only either sensor was replaced, give a check to the checkbox
+for the sensor not replaced at the lower left of the screen.
+4) Input the PITCH/YAW data of lens (L
+1, L2) read at “Prepara-
+tion” into the screen.
+If the lens was not replaced, give a check to the checkbox at
+the lower left of the screen.
+Note: In order to get the correct value for the adjustment, it is
+necessary to input a decimal point (“period” or
+“comma”) as same format as windows setting because
+“Numeric Value Format” depend on the language.
+(F:123 456 789,00, GB:123,456,789.00,
+ D:123.456.789,00)
+“Numeric Value Format” setting is available in “Con-
+trol Panel”-“Regional and Language Options”.
+5) Click the [OK] button, and the adjustment data is then calcu-
+lated from the sensor sensitivity value and the calculation re-
+sult is written to the memory in the camera.
+6) Upon successful completion of the data writing, the following
+screen will appear. Check that the steady shot function oper-
+ates normally.
+DSC-W300_DpDyDT_xxxxxxxx_yyyymmdd.dat
+Date
+USB serial number
+Data name
+
+
+=== PDF PAGE 26 ===
+6-25
+DSC-W300_ADJ
+1-7. LCD  SYSTEM  ADJUSTMENTS
+1-7-1. Function of Each Button on LCD System
+Adjustment Screen
+Click the [LCD SYSTEM ADJUSTMENT] button on the Main Menu
+screen, and the “LCD SYSTEM ADJUSTMENT” screen in Fig.
+6-1-25 will appear.
+Fig. 6-1-25
+1 [To Menu] button
+Return to the main menu.
+2 [Start] button
+“LCD Adjustment” starts.
+3 [Reboot] button
+When this button is clicked, the camera is rebooted.
+3
+2
+1
+1-7-2. Adjustment Items of LCD System Adjustment
+The adjustment items of LCD system adjustment are as listed in
+Table 6-1-5. The Automatic Adjustment Program executes the ad-
+justment items if the LCD Adjustment Start button is clicked.
+Button Adjustment Adjusting  Address
+Name Block Page Address
+LCD V-COM Adj. 11 60 0401
+Adjustment White Balance Adj. 11 60 0362, 0363
+Table 6-1-5
+
+=== PDF PAGE 27 ===
+6-26
+DSC-W300_ADJ
+1-7-3. Adjusting Method
+[Automatic Adjustment Program execution items and
+sequence]
+1. Data Setting during LCD Adj.
+2. V-COM Adj.
+3. White Balance Adj.
+[Adjusting method]
+1) Click the [Start] button of the LCD Adjustment.
+2) The Automatic Adjustment Program executes “1. Data Setting
+during LCD Adj.”.
+3) Upon successful completion of the “1. Data Setting during LCD
+Adj.”, the following screen is displayed during the execution
+of “2. V-COM Adj.”. Using the [Up]/[Down] b utton on the
+screen, adjust so that the brightness of portions A and B on the
+LCD panel is equal. After the adjustment, click the [End] but-
+ton in the screen.
+4) If the [End] button is clicked, the following screen is displayed
+during the execution of “3. White Balance Adj.”. Check that
+the LCD screen is not colored. If colored, using the [Up]/[Down]
+button on the screen, adjust so that the LCD screen is not col-
+ored. After the adjustment, click the [End] button in the screen.
+5) Upon successful completion of all item the LCD Adjustment,
+the following message is displayed. Click the [OK] button.
+
+
+=== PDF PAGE 28 ===
+6-27
+DSC-W300_ADJ
+1-8. ERROR
+In the case of an error during the execution of adjustment, the
+Automatic Adjustment Program interrupts the processing at that
+point, and displays an error message, and then terminates the pro-
+gram execution there.
+1-8-1. Error Message
+When an error message is displayed, perform the remedy given
+below, and then retry adjustment. If the error message is displayed
+though the remedy was performed, the circuits will be faulty.
+1. Connect Error, Adjust Control Error
+Symptom USB communication with the set is abnormal.
+Cause • USB cable is not inserted tightly.
+• Power supply is not installed correctly.
+• Communication with SeusEX is abnormal.
+Remedy • Disconnect the USB cable once, and then re-
+connect it tightly and check that the set is in
+“USB Mode”.
+• Install the power supply correctly.
+• Start the SeusEX and click the [Connect] to
+check that the connection state is established.
+2. RESET the CAMERA and Try Again
+Symptom The camera is not ready for adjustment.
+Cause Data error exists in the camera.
+Remedy Reset the camera.
+3. Adjustment Time Out
+Symptom Adjustment does not finish within the specified
+time.
+Cause • Adjustment conditions are wrong.
+• Data error exists in the camera.
+Remedy • Check that the conditions such as a subject
+are correct.
+• Reset the camera.
+4. Adjustment NG
+Symptom The adjusted data does not become the speci-
+fied value.
+Cause • Adjustment conditions are wrong.
+• Data error exists in the camera.
+Remedy • Check that the conditions such as a subject
+are correct.
+• Reset the camera.
+This part indicates 
+the adjustment 
+item in which 
+an error occurred.
+This part indicates 
+the adjustment 
+item in which 
+an error occurred.
+
+
+=== PDF PAGE 29 ===
+6-28
+DSC-W300_ADJ
+5. Data Save Error
+Symptom data cannot be saved normally. (The data set-
+ting during adjustment cannot be cancelled)
+Cause • Data writing to the flash memory failed.
+• Connection is faulty.
+• Power supply is not installed correctly.
+Remedy • On the SeusEX Operation screen, [Set] the
+data to the pages and addresses displayed in
+the message, and [Save] them. (Cancel manu-
+ally the data setting during adjustment.)
+• Check the connection.
+• Install the power supply correctly.
+1-8-2. Precautions When an Error Occurred
+The Automatic Adjustment Program sets the data for adjustment
+before the adjustment starts. Accordingly, if the adjustment termi-
+nates by an error, the data during the adjustment may be left in the
+camera.
+Note 1: With this data left in the camera, the camera will not op-
+erate normally.
+In this case, the [Release Data Setting] button is displayed in “red”
+on the screen as shown figures below. Click the [Release Data Set-
+ting] button to cancel the data setting. When the data setting is
+cancelled, the button color becomes “white”.
+Note 2: When “Data Save Error” occurred, the [Release Data Set-
+ting] button is displayed in “white”.
+To cancel the data setting, perform it on the SeusEX Op-
+eration screen. How to cancel the data setting is displayed
+in the error message.
+Video System Adjustment screen
+Camera System Adjustment screen
+How to cancel the data setting during 
+adjustment is display here.
+
+
+=== PDF PAGE 30 ===
+6-29
+DSC-W300_ADJ
+6-2. SERVICE  MODE
+2-1. APPLICATION  FOR  ADJUSTMENT (SeusEX)
+The adjustment software (SeusEX) can change operational coeffi-
+cients of signal processing, EVR data, etc. same as the adjustment
+remote commander. The SeusEX performs two-way communica-
+tion between PC and camcorder using the USB terminal. The two-
+way communication result data can be written in the nonvolatile
+memory.
+1. Connection
+1) Connect the HASP key to the USB terminal of the PC.
+2) Connect the PC and camcorder with the USB cable.
+3) Start the SeusEX on the PC.
+4) Click [Connect] on the SeusEX screen. If the connection is
+normal, the SeusEX screen will be as shown in Fig. 6-2-1,
+indicating the “connected” state.
+Note: The SeusEX will go in “disconnect” state, if the
+camcorder is turned off (for instance, by resetting the
+set). In such a case, click [Connect] on the SeusEX
+screen to restore the “connected” state.
+Fig. 6-2-1
+2. Operation
+• Block change
+To change the block, click [Block] on the SeusEX screen and
+enter the block to be changed. The block is displayed in hexa-
+decimal notation.
+• Page change
+To change the page, click [Page] on the SeusEX screen and en-
+ter the page to be changed. The page is displayed in hexadeci-
+mal notation.
+• Address change
+To change the address, click [Address] on the SeusEX screen
+and enter the address to be changed. The address is displayed in
+hexadecimal notation.
+• Data change
+To change the data, click [Set] on the SeusEX screen and enter
+the data. The data is displayed in hexadecimal notation.
+This operation does not write the data to the nonvolatile memory.
+• Data writing
+To write the data to the EEPROM, click [Write] on the SeusEX
+screen and enter the data value to be written.
+To write the data to the flash memory, change the data value
+using the [Set] on the SeusEX screen and then click [Save] to
+save the data.
+• Data reading
+The data displayed on the SeusEX screen are the data values at
+the time when the pages and addresses were set, and they are
+not updated automatically. To check the data change, click [Read]
+on the SeusEX screen and update the displayed data.
+
+=== PDF PAGE 31 ===
+6-30
+DSC-W300_ADJ
+2. Switch Check
+Click the [Switch Check] button on the SERVICE MODE screen,
+and the “SWITCH CHECK” screen will appear.
+Using method:
+Click the [Start] button, and the switch check will start.
+During execution of switch check, the pressed switch is displayed
+in orange. Also, once the switch was pressed, its name characters
+change to blue in color.
+2-2. SER VICE  MODE
+1. Function of Each Button on Service Mode Screen
+Click the [SERVICE MODE] button on the Main Menu screen, and
+the “SERVICE MODE” screen in Fig. 6-2-2 will appear.
+Fig. 6-2-2
+1 [To Menu] button
+Return to the main menu.
+2 [Switch Check] button
+“SWITCH CHECK” screen appears.
+3 [LED Check] button
+“LED CHECK” screen appears.
+4 [Record Data] button
+“RECORD DATA” screen appears.
+5 [Aging] button
+“AGING” screen appears.
+1
+4
+5
+2
+3
+
+
+=== PDF PAGE 32 ===
+6-31
+DSC-W300_ADJ
+4. Record Data
+Click the [Record Data]  button on the SERVICE MODE screen,
+and the “RECORD DATA” screen will appear.
+The record data such as Lifetime counter is displayed.
+Initializing method:
+Click the [Clear Shot Count] button on the screen, and the Lifetime
+Count data will be initialized.
+3. LED Check
+Click the [LED Check] button on the SERVICE MODE screen, and
+the “LED CHECK” screen will appear.
+Using method:
+LED ON or OFF can be controlled with [LED ON] or [LED OFF]
+button on the screen.
+
+
+=== PDF PAGE 33 ===
+6-32
+DSC-W300_ADJ
+5. Aging
+On the AGING screen, various types of aging can be executed.
+Select the type of aging to be executed with the Aging Mode Se-
+lect buttons.
+Supply the power not from an AC adapter but from the fully charged
+battery and execute the aging until the battery end, so that its bat-
+tery use time and how many pictures the camera can record/play
+back can be checked.
+During the execution of aging, the camera automatically repeats
+recording/playback.
+During the recording, if the recording memory capacity becomes
+full, its memory is automatically formatted.
+Accordingly, when executing the aging, insert the Memory Stick
+into the camera.
+[Preparation]
+For the aging, set the camera as follows:
+Switch Setting
+1) Mode Dial .................................................... Auto Adjustment
+Home Items
+1) AF Mode
+(Settings – Shooting Settings – Shooting Settings 1) .... Single
+Menu Items
+1) REC Mode ...................................................................Normal
+(1) 10MODE
+In the 10MODE, perform continuous recording in accordance with
+the CIPA Standard. When the 10MODE starts, the following op-
+eration is repeated until the battery end.
+1) The zoom moves to the TELE end.
+2) The camera records a still picture with a strobe light flashed at
+the maximum level.
+3) The camera stands by for the time (sec.) set to the “Rec Inter-
+val”.
+4) The zoom moves to the WIDE end.
+5) The camera records a still picture without flashing a strobe
+light.
+6) The camera stands by for the time (sec.) set to the “Rec Inter-
+val”.
+7) Each time 10 still pictures are recorded, the power is turned
+off, and after the time (min.) set to the “Power Off Interval”,
+the power is turned on again.
+At the start of 10MODE, the counter in the camera is initialized.
+This counter counts the number of recording times during the ex-
+ecution of 10MODE, and it holds the counts even during the power
+off.
+Aging Mode Select button
+
+=== PDF PAGE 34 ===
+6-33
+DSC-W300_ADJ
+10MODE screen and functions of each item
+1 [Preparation] button
+Notes for aging is displayed.
+2 Rec Interval setting and display
+The setting of recording interval (sec.) is displayed. The set-
+ting can be changed by entering a numeric value in this field.
+3 Power Off Interval setting and display
+The setting of power off interval (min.) is displayed. The set-
+ting can be changed by entering a numeric value in this field.
+4 [START] button
+The settings of parameters specified by the Rec Interval and
+Power Off Interval for execution of 10MODE are sent to the
+camera.
+The 10MODE starts when the camera power is turned off once
+and then on again.
+The settings for execution of 10MODE are held until the cam-
+era detects the battery end. They cannot be reset by the power
+off or RESET button. To interrupt the 10MODE, use the [STOP]
+button.
+5 [STOP] button
+The settings for execution of 10MODE are reset.
+6 [GET] button
+After the 10MODE was executed, the number of recording
+times is got from the counter in the camera. The result is dis-
+played in the “Count” display field.
+7 Count display
+The number of recording times got by the [GET] button is dis-
+played.
+(2) AGING_REC
+In the AGING_REC mode, still pictures are continuously recorded
+at the interval (sec.) set to the “Rec Interval”.
+At the start of AGING_REC, the counter in the camera is initial-
+ized. This counter counts the number of recording times during
+the execution of AGING_REC, and it holds the counts even dur-
+ing the power off.
+AGING_REC screen and functions of each item
+1 [Preparation] button
+Notes for aging is displayed.
+2 Rec Interval setting and display
+The setting of recording interval (sec.) is displayed. The set-
+ting can be changed by entering a numeric value in this field.
+3 [START] button
+The AGING_REC starts. In the AGING_REC mode, the ag-
+ing starts immediately when the [START] button is clicked.
+At the battery end, the AGING_REC stops. To interrupt the
+AGING_REC, use the [STOP] button, though the AGING_REC
+stops also by the power off or RESET button.
+4 [STOP] button
+The AGING_REC stops.
+5 [GET] button
+After the AGING_REC was executed, the number of record-
+ing times is got from the counter in the camera. The result is
+displayed in the “Count” display field.
+6 Count display
+The number of recording times got by the [GET] button is dis-
+played.
+6
+4
+5
+1
+7
+23
+5
+3
+4
+1
+6
+2
+
+=== PDF PAGE 35 ===
+6-34
+DSC-W300_ADJ
+(3) AGING_MREC
+In the AGING_MREC mode, motion pictures are continuously
+recorded for the time (sec.) set to the “Rec Time” at the interval
+(sec.) set to the “Rec Interval”.
+At the start of AGING_MREC, the counter in the camera is ini-
+tialized. This counter counts the number of recording times dur-
+ing the execution of AGING_MREC, and it holds the counts
+even during the power off.
+AGING_MREC screen and functions of each item
+1 [Preparation] button
+Notes for aging is displayed.
+2 Rec Time setting and display
+The setting of recording time (sec.) is displayed. The setting
+can be changed by entering a numeric value in this field.
+3 Rec Interval setting and display
+The setting of recording interval (sec.) is displayed. The set-
+ting can be changed by entering a numeric value in this field.
+4 [START] button
+The AGING_MREC starts. In the AGING_MREC mode, the
+aging starts immediately when the [START] button is clicked.
+At the battery end, the AGING_MREC stops. To interrupt the
+AGING_MREC, use the [STOP]  b utton, though the
+AGING_MREC stops also by the power off or RESET button.
+5 [STOP] button
+The AGING_MREC stops.
+6 [GET] button
+After the AGING_MREC was executed, the number of record-
+ing times is got from the counter in the camera. The result is
+displayed in the “Count” display field.
+7 Count display
+The number of recording times got by the [GET] button is dis-
+played.
+(4) AGING_PB
+In the AGING_PB mode, pictures are continuously played back at
+the interval (sec.) set to the “Play Back Interval”.
+At the start of AGING_PB, the counter in the camera is initial-
+ized. This counter counts the number of play back times during
+the execution of AGING_PB, and it holds the counts even during
+the power off.
+AGING_PB screen and functions of each item
+1 [Preparation] button
+Notes for aging is displayed.
+2 Play Back Interval setting and display
+The setting of play back interval (sec.) is displayed. The set-
+ting can be changed by entering a numeric value in this field.
+3 [START] button
+The AGING_PB starts. In the AGING_PB mode, the aging
+starts immediately when the [START] button is clicked.
+At the battery end, the AGING_PB stops. To interrupt the
+AGING_PB, use the [STOP] button, though the AGING_PB
+stops also by the power off or RESET button.
+4 [STOP] button
+The AGING_PB stops.
+5 [GET] button
+After the AGING_PB was executed, the number of play back
+times is got from the counter in the camera. The result is dis-
+played in the “Count” display field.
+6 Count display
+The number of play back times got by the [GET] button is
+displayed.
+6
+4
+5
+1
+7
+23
+5
+3
+4
+1
+6
+2
+
+=== PDF PAGE 36 ===
+6-35E
+DSC-W300_ADJ
+2-3. DATA  BA CKUP
+With the “DATA BACKUP”, the adjustment data in the camera
+can be backed up in the PC as a file.
+The adjustment data that can be backed up are as follows.
+System Control Section:
+1) Video System Adjustments
+2) LCD System Adjustments
+Camera Control Section:
+1) Camera System Adjustments
+1. Function of Each Button on Data Backup Screen
+Click the [DATA BACKUP]  button on the Main Menu screen, and
+the “DATA BACKUP” screen in Fig. 6-2-3 will appear.
+Fig. 6-2-3
+1 [To Menu] button
+Return to the main menu.
+2 [Data Read and Save]  button
+Read the adjustment data from the camcorder and save them
+in PC as a file.
+Default file name is as follows:
+3 [Data Load and Write]  button
+Load the adjustment data from the file saved in PC and write
+them to the camcorder.
+DSC-W300_ADJBAK_xxxxxxxx_yyyymmdd.dat
+Date
+USB serial number
+Data name
+1
+2
+3
+
+=== PDF PAGE 37 ===
+Revision History
+Reverse
+DSC-W300_ADJ
+Ver.
+1.0
+1.1
+1.2
+1.3
+Date
+2008.03
+2008.05
+2008.06
+2008.08
+History
+Official Release
+Revised-1
+(A1 DI08-068)
+Revised-2
+(A2 DI08-113)
+Revised-3
+(A3 DI08-225)
+Contents
+—
+Replace the previously issued SERVICE
+MANUAL 9-852-287-51 with this Manual.
+• Change of Automatic Adjustment Program
+Version of Automatic Adjustment Program
+has been changed from V er_1.0r01 into
+Ver_1.1r02.
+•A ddition of Thai Model
+S.M. revised:Page 6-8, Page 6-10
+Replace the previously issued SERVICE
+MANUAL 9-852-287-52 with this Manual.
+• Change of Automatic Adjustment Program
+Version of Automatic Adjustment Program
+has been changed from V er_1.1r02 into
+Ver_1.2r03.
+• Correction of Destination Data Write
+S.M. revised:Page 6-8
+Replace the previously issued SERVICE
+MANUAL 9-852-287-53 with this Manual.
+• Change of Automatic Adjustment Program
+Version of Automatic Adjustment Program
+has been changed from V er_1.2r03 into
+Ver_1.3r04.
+• Correction of the “Setting of Adjustment
+Mode”
+S.M. revised: Page 6-8, Page 6-9
+S.M. Rev.
+issued
+—
+Yes
+Yes
+Yes
+985228754.pdf

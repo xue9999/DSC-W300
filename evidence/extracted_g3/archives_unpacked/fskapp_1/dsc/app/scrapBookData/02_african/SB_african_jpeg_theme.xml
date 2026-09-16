@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jpeg-theme xmlns="http://www.sony.co.jp/xScrapbook/1">
+	<first-frame background="SB_african_0.jpg" alpha="SB_african_alpha_0.jpg">
+	<photo left="0" top="184" width="1382" height="1352" order="0"/>
+	</first-frame>
+	<frame-1 background="SB_african_01.jpg" alpha="SB_african_alpha_01.jpg">
+	<photo left="406" top="180" width="1370" height="1180" order="0"/>
+	</frame-1>
+	<frame-2 background="SB_african_02.jpg" alpha="SB_african_alpha_02.jpg">
+	<photo left="90" top="204" width="926" height="1144" order="0"/>
+	<photo left="1016" top="524" width="944" height="768" order="1"/>
+	</frame-2>
+	<frame-3 background="SB_african_03.jpg" alpha="SB_african_alpha_03.jpg">
+	<photo left="94" top="244" width="902" height="1050" order="0"/>
+	<photo left="1030" top="184" width="890" height="682" order="1"/>
+	<photo left="1086" top="868" width="628" height="494" order="2"/>
+	</frame-3>
+	<frame-4 background="SB_african_04.jpg" alpha="SB_african_alpha_04.jpg">
+	<photo left="112" top="726" width="796" height="630" order="0"/>
+	<photo left="1116" top="182" width="772" height="930" order="1"/>
+	<photo left="274" top="176" width="676" height="550" order="2"/>
+	<photo left="994" top="856" width="630" height="500" order="3"/>
+	</frame-4>
+</jpeg-theme>

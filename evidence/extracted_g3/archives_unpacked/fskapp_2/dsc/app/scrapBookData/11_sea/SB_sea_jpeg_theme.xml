@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jpeg-theme xmlns="http://www.sony.co.jp/xScrapbook/1">
+	<first-frame background="SB_sea_0.jpg" alpha="SB_sea_alpha_0.jpg">
+	<photo left="136" top="266" width="1110" height="876" order="0"/>
+	</first-frame>
+	<frame-1 background="SB_sea_01.jpg" alpha="SB_sea_alpha_01.jpg">
+	<photo left="126" top="224" width="1366" height="1052" order="0"/>
+	</frame-1>
+	<frame-2 background="SB_sea_02.jpg" alpha="SB_sea_alpha_02.jpg">
+	<photo left="72" top="172" width="816" height="640" order="0"/>
+	<photo left="896" top="512" width="1052" height="848" order="1"/>
+	</frame-2>
+	<frame-3 background="SB_sea_03.jpg" alpha="SB_sea_alpha_03.jpg">
+	<photo left="96" top="638" width="900" height="730" order="0"/>
+	<photo left="1010" top="190" width="872" height="616" order="1"/>
+	<photo left="1198" top="762" width="742" height="554" order="2"/>
+	</frame-3>
+	<frame-4 background="SB_sea_04.jpg" alpha="SB_sea_alpha_04.jpg">
+	<photo left="248" top="186" width="644" height="474" order="0"/>
+	<photo left="176" top="728" width="834" height="638" order="1"/>
+	<photo left="1108" top="166" width="776" height="592" order="2"/>
+	<photo left="1082" top="776" width="686" height="588" order="3"/>
+	</frame-4>
+</jpeg-theme>

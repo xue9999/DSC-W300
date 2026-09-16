@@ -1,0 +1,1117 @@
+CAMMENU_0EV,0EV
+CAMMENU_100,100
+CAMMENU_10M,1.0 m
+CAMMENU_1600,1600
+CAMMENU_200,200
+CAMMENU_30M,3.0 m
+CAMMENU_3200,3200
+CAMMENU_400,400
+CAMMENU_70M,7.0 m
+CAMMENU_80,80
+CAMMENU_800,800
+CAMMENU_BRK_03EV,BRK±0,3EV
+CAMMENU_BRK_07EV,BRK±0,7EV
+CAMMENU_BRK_10EV,BRK±1,0EV
+CAMMENU_BURST,Serieoptagelse
+CAMMENU_BURST_BRK03EV_GUIDE,Tag 3 billeder med
+CAMMENU_BURST_BRK03EV_GUIDE_2,et interval på 0,3 EV
+CAMMENU_BURST_BRK07EV_GUIDE,Tag 3 billeder med
+CAMMENU_BURST_BRK07EV_GUIDE_2,et interval på 0,7 EV
+CAMMENU_BURST_BRK10EV_GUIDE,Tag 3 billeder med
+CAMMENU_BURST_BRK10EV_GUIDE_2,et interval på 1,0 EV
+CAMMENU_BURST_OFF_GUIDE,Fotografer én gang for hvert
+CAMMENU_BURST_OFF_GUIDE_2,tryk på udløserknappen
+CAMMENU_BURST_ON_GUIDE,Optag kontinuerligt, når
+CAMMENU_BURST_ON_GUIDE_2,udløserknappen holdes nede
+CAMMENU_CENTER,Center
+CAMMENU_CENTERAF,Center-AF
+CAMMENU_CLOSEEYE,Reduktion af lukkede øjne
+CAMMENU_CLOSEEYE_AUTO_GUIDE,Analyserer øjne for at undgå
+CAMMENU_CLOSEEYE_AUTO_GUIDE_2,lukkede øjne
+CAMMENU_CLOSEEYE_OFF_GUIDE,Slå Reduktion af lukkede
+CAMMENU_CLOSEEYE_OFF_GUIDE_2,øjne fra
+CAMMENU_COLOR,Farvetilstand
+CAMMENU_COLOR_BW,S-H
+CAMMENU_COLOR_BW_GUIDE,Gør billederne sort-hvide
+CAMMENU_COLOR_BW_GUIDE_2,
+CAMMENU_COLOR_NORMAL_GUIDE,Fotografer i
+CAMMENU_COLOR_NORMAL_GUIDE_2,standard farvetilstand
+CAMMENU_COLOR_SEPIA,Sepia
+CAMMENU_COLOR_SEPIA_GUIDE,Simulerer farver
+CAMMENU_COLOR_SEPIA_GUIDE_2,på gamle billeder
+CAMMENU_COLOR_VIVID,Levende
+CAMMENU_COLOR_VIVID_GUIDE,Indstiller billedet til dybe
+CAMMENU_COLOR_VIVID_GUIDE_2,og levende farver
+CAMMENU_CONTINUOUS,Fortsat
+CAMMENU_DRO,DRO
+CAMMENU_DRO_ADV,Avanceret
+CAMMENU_DRO_ADV_GUIDE,Gendan detaljerede skygger
+CAMMENU_DRO_ADV_GUIDE_2,uden at miste lyse områder
+CAMMENU_DRO_OFF_GUIDE,Ingen gengivelse af
+CAMMENU_DRO_OFF_GUIDE_2,skyggedetaljer
+CAMMENU_DRO_PLUS,DRO plus
+CAMMENU_DRO_STANDARD_GUIDE,Gendan tabte billeddetaljer i
+CAMMENU_DRO_STANDARD_GUIDE_2,skyggeområdet
+CAMMENU_DRO_STD,DRO standard
+CAMMENU_EV,EV
+CAMMENU_EV2,EV
+CAMMENU_EV_GUIDE,Juster billedets lysstyrke (+)
+CAMMENU_EV_GUIDE2,Juster billedets lysstyrke (+)
+CAMMENU_EV_GUIDE2_2,og mørke (－)
+CAMMENU_EV_GUIDE_2,og mørke (－)
+CAMMENU_FACE,Registrering af ansigter
+CAMMENU_FACE_ADULT,Prioriter voksne
+CAMMENU_FACE_ADULT_GUIDE,Fokuser med prioritet på
+CAMMENU_FACE_ADULT_GUIDE_2,voksnes ansigter
+CAMMENU_FACE_CHILD,Prioriter børn
+CAMMENU_FACE_CHILD_GUIDE,Fokuser med prioritet på
+CAMMENU_FACE_CHILD_GUIDE_2,børns ansigter
+CAMMENU_FACE_ON_GUIDE,Indstil prioritet til fokusering
+CAMMENU_FACE_ON_GUIDE_2,på personers ansigter
+CAMMENU_FACE_TOUCH_GUIDE,Aktiver kun ansigtsregistr. ,
+CAMMENU_FACE_TOUCH_GUIDE_2,når et ansigt berøres
+CAMMENU_FLASHLEVEL,Blitzniveau
+CAMMENU_FLASHLEVEL_DOWN_GUIDE,Optag med lavere
+CAMMENU_FLASHLEVEL_DOWN_GUIDE_2,intensitet for blitz
+CAMMENU_FLASHLEVEL_NORMAL_GUIDE,Optag med standard-
+CAMMENU_FLASHLEVEL_NORMAL_GUIDE_2,intensitet for blitz
+CAMMENU_FLASHLEVEL_UP_GUIDE,Optag med højere
+CAMMENU_FLASHLEVEL_UP_GUIDE_2,intensitet for blitz
+CAMMENU_FLASH_SYNCHRO,Langsom synkro
+CAMMENU_FOCUS,Fokus
+CAMMENU_FOUCS_10M_GUIDE,Indstil fokusering
+CAMMENU_FOUCS_10M_GUIDE_2,ca. 1,0 m væk
+CAMMENU_FOUCS_30M_GUIDE,Indstil fokusering
+CAMMENU_FOUCS_30M_GUIDE_2,ca. 3,0 m væk
+CAMMENU_FOUCS_70M_GUIDE,Indstil fokusering
+CAMMENU_FOUCS_70M_GUIDE_2,ca. 7,0 m væk
+CAMMENU_FOUCS_CENTER_GUIDE,Automatisk fokusering
+CAMMENU_FOUCS_CENTER_GUIDE_2,på et motiv i midten
+CAMMENU_FOUCS_INFINITY_GUIDE,Indstil fokusering
+CAMMENU_FOUCS_INFINITY_GUIDE_2,til uendelig afstand
+CAMMENU_FOUCS_MANUAL_GUIDE,Indstil fokusering manuelt
+CAMMENU_FOUCS_MANUAL_GUIDE_2,
+CAMMENU_FOUCS_MULTI_GUIDE,Automatisk fokusering
+CAMMENU_FOUCS_MULTI_GUIDE_2,i hele billedet
+CAMMENU_FOUCS_SPOT_GUIDE,Automatisk fokusering
+CAMMENU_FOUCS_SPOT_GUIDE_2,på et punkt i midten
+CAMMENU_FOUCS_TSPOT_GUIDE,Autofokusering ved at berøre
+CAMMENU_FOUCS_TSPOT_GUIDE_2,ethvert punkt på skærmen
+CAMMENU_IMAGESIZE,Billedformat
+CAMMENU_IMAGESIZE_L,Stort
+CAMMENU_IMAGESIZE_S,Lille
+CAMMENU_INFINITY,∞
+CAMMENU_ISO,ISO
+CAMMENU_ISO_100_GUIDE,Indstil følsomhed til
+CAMMENU_ISO_100_GUIDE_2,ISO 100
+CAMMENU_ISO_1600_GUIDE,Indstil følsomhed til
+CAMMENU_ISO_1600_GUIDE_2,ISO 1600
+CAMMENU_ISO_200_GUIDE,Indstil følsomhed til
+CAMMENU_ISO_200_GUIDE_2,ISO 200
+CAMMENU_ISO_3200_GUIDE,Indstil følsomhed til
+CAMMENU_ISO_3200_GUIDE_2,ISO 3200
+CAMMENU_ISO_400_GUIDE,Indstil følsomhed til
+CAMMENU_ISO_400_GUIDE_2,ISO 400
+CAMMENU_ISO_64_GUIDE,Indstil følsomhed til
+CAMMENU_ISO_64_GUIDE_2,ISO 64
+CAMMENU_ISO_800_GUIDE,Indstil følsomhed til
+CAMMENU_ISO_800_GUIDE_2,ISO 800
+CAMMENU_ISO_80_GUIDE,Indstil følsomhed til
+CAMMENU_ISO_80_GUIDE_2,ISO 80
+CAMMENU_ISO_AUTO_GUIDE,Juster automatisk følsomhed
+CAMMENU_ISO_AUTO_GUIDE_2,
+CAMMENU_M03EV,-0.3EV
+CAMMENU_M07EV,-0.7EV
+CAMMENU_M10EV,-1.0EV
+CAMMENU_M13EV,-1.3EV
+CAMMENU_M17EV,-1.7EV
+CAMMENU_M20EV,-2.0EV
+CAMMENU_MACRO,Makro
+CAMMENU_MENU,Menu
+CAMMENU_METERINGMODE,Lysmålermetode
+CAMMENU_METERING_CENTER_GUIDE,Eksponering baseret på
+CAMMENU_METERING_CENTER_GUIDE_2,centreret lysstyrke
+CAMMENU_METERING_MULTI_GUIDE,Eksponering afbalanceret
+CAMMENU_METERING_MULTI_GUIDE_2,i hele billedet
+CAMMENU_METERING_SPOT_GUIDE,Eksponering baseret på
+CAMMENU_METERING_SPOT_GUIDE_2,lysstyrken i et centralt punkt
+CAMMENU_MINUS,－
+CAMMENU_MULTI,Multi
+CAMMENU_MULTIAF,Multi-AF
+CAMMENU_NORMAL_CAP,Normal
+CAMMENU_P03EV,+0.3EV
+CAMMENU_P07EV,+0.7EV
+CAMMENU_P10EV,+1.0EV
+CAMMENU_P13EV,+1.3EV
+CAMMENU_P17EV,+1.7EV
+CAMMENU_P20EV,+2.0EV
+CAMMENU_PLUS,＋
+CAMMENU_RECMODE,Opt. funkt.
+CAMMENU_RECOGNITION,Scenegenkendelse
+CAMMENU_RECOGNITION_ADV_GUIDE,Optag automatisk et ekstra
+CAMMENU_RECOGNITION_ADV_GUIDE2,Optag automatisk et ekstra
+CAMMENU_RECOGNITION_ADV_GUIDE2_2,bill. i tusmørke eller modlys
+CAMMENU_RECOGNITION_ADV_GUIDE_2,bill. i tusmørke eller modlys
+CAMMENU_RECOGNITION_AUTO2_GUIDE,Optag med optimale
+CAMMENU_RECOGNITION_AUTO2_GUIDE_2,indstillinger for scenen
+CAMMENU_RECOGNITION_AUTO_GUIDE,Optag med optimale indstill.
+CAMMENU_RECOGNITION_AUTO_GUIDE_2,i tusmørke eller modlys
+CAMMENU_RECOGNITION_OFF_GUIDE,Slå scenegenkendelse fra
+CAMMENU_RECOGNITION_OFF_GUIDE_2,
+CAMMENU_REDEYEREDUCTION,Rødøjereduktion
+CAMMENU_REDEYE_FACE_GUIDE,Auto rødøjereduktion,
+CAMMENU_REDEYE_FACE_GUIDE_2,når ansigter registreres
+CAMMENU_REDEYE_OFF_GUIDE,Rødøjereduktion fra
+CAMMENU_REDEYE_OFF_GUIDE_2,
+CAMMENU_REDEYE_ON_GUIDE,Forberedende blitz mod
+CAMMENU_REDEYE_ON_GUIDE_2,røde øjne ved brug af blitz
+CAMMENU_REMAIN_NUMBER,Gn. bill. kapacitet
+CAMMENU_REMAIN_TIME,Ca. tid tilbage
+CAMMENU_SATURATION_DOWN_GUIDE,Tag billeder med mindre
+CAMMENU_SATURATION_DOWN_GUIDE_2,farvemætning
+CAMMENU_SATURATION_NORMAL_GUIDE,Angiv farvemætning til
+CAMMENU_SATURATION_NORMAL_GUIDE_2,normal
+CAMMENU_SATURATION_UP_GUIDE,Tag billeder med mere
+CAMMENU_SATURATION_UP_GUIDE_2,farvemætning
+CAMMENU_SELFTIMER,Selvudløser
+CAMMENU_SELFTIMER_10SEC,Selvudløser 10sek
+CAMMENU_SELFTIMER_2SEC,Selvudløser 2sek
+CAMMENU_SELFTIMER_OFF,Selvudløser fra
+CAMMENU_SETUP,Opsætning
+CAMMENU_SETUP_CHANGE_GUIDE,Gå til display for
+CAMMENU_SETUP_CHANGE_GUIDE_2,optageindstillinger
+CAMMENU_SHOOTING,Fotografer
+CAMMENU_SIZE_10MEG,10M
+CAMMENU_SIZE_12M_GUIDE,Til udskrifter op til A3+
+CAMMENU_SIZE_12M_GUIDE_2,
+CAMMENU_SIZE_16_9,16:9
+CAMMENU_SIZE_16_9_2MEG_GUIDE,Til visning på HDTV'er
+CAMMENU_SIZE_16_9_2MEG_GUIDE_2,
+CAMMENU_SIZE_16_9_A3_GUIDE,Til visning på HDTV'er og
+CAMMENU_SIZE_16_9_A3_GUIDE_2,udskrifter op til A3
+CAMMENU_SIZE_16_9_A4_GUIDE,Til visning på HDTV'er og
+CAMMENU_SIZE_16_9_A4_GUIDE_2,udskrifter op til A4
+CAMMENU_SIZE_16_9_GUIDE,Fotografer i højde-bredde-
+CAMMENU_SIZE_16_9_GUIDE_2,forholdet i HDTV
+CAMMENU_SIZE_320,320
+CAMMENU_SIZE_320_GUIDE,Optag i lille størrelse
+CAMMENU_SIZE_320_GUIDE_2,til vedhæftning i e-mails
+CAMMENU_SIZE_3MEG,3M
+CAMMENU_SIZE_3M_GUIDE,Til udskrifter op til 10x15 cm
+CAMMENU_SIZE_3M_GUIDE_2,eller 13x18 cm
+CAMMENU_SIZE_3_2_8MEG,3:2(8M)
+CAMMENU_SIZE_3_2_GUIDE,Fotografer i højde-bredde-
+CAMMENU_SIZE_3_2_GUIDE_2,forholdet 3:2
+CAMMENU_SIZE_4_3,4:3
+CAMMENU_SIZE_5MEG,5M
+CAMMENU_SIZE_5M_GUIDE,Til udskrifter op til A4
+CAMMENU_SIZE_5M_GUIDE_2,
+CAMMENU_SIZE_640FINE,640(Fin)
+CAMMENU_SIZE_640FINE_GUIDE,Optag film i høj kvalitet
+CAMMENU_SIZE_640FINE_GUIDE_2,til visning på tv-skærm
+CAMMENU_SIZE_640STD,640(Standard)
+CAMMENU_SIZE_640STD_GUIDE,Optag film i standardkvalitet
+CAMMENU_SIZE_640STD_GUIDE_2,til visning på tv-skærm
+CAMMENU_SIZE_8M_GUIDE,Til udskrifter op til A3
+CAMMENU_SIZE_8M_GUIDE_2,
+CAMMENU_SIZE_HD_2MEG,16:9(2M)
+CAMMENU_SIZE_HD_7MEG,16:9(7M)
+CAMMENU_SIZE_HD_VGA,16:9(VGA)
+CAMMENU_SIZE_VGA,VGA
+CAMMENU_SIZE_VGA_GUIDE,Brug lille billedstørrelse
+CAMMENU_SIZE_VGA_GUIDE_2,til vedhæftning i e-mails
+CAMMENU_SMILE,Registrering af smil
+CAMMENU_SMILESHUTTER_HIGH_GUIDE,Optag med høj følsomhed for
+CAMMENU_SMILESHUTTER_HIGH_GUIDE_2,registrering af smil
+CAMMENU_SMILESHUTTER_LOW_GUIDE,Optag med lav følsomhed for
+CAMMENU_SMILESHUTTER_LOW_GUIDE_2,registrering af smil
+CAMMENU_SMILESHUTTER_NORMAL_GUIDE,Optag m. standardfølsomhed
+CAMMENU_SMILESHUTTER_NORMAL_GUIDE_2,for registrering af smil
+CAMMENU_SMILE_DETECTION,Følsomhed for smilregist.
+CAMMENU_SPOT,Spot
+CAMMENU_SPOTAF,Spot - AF
+CAMMENU_STEADYSHOT,SteadyShot
+CAMMENU_STEADYSHOT_CONT_GUIDE,SteadyShot altid til
+CAMMENU_STEADYSHOT_CONT_GUIDE_2,
+CAMMENU_STEADYSHOT_OFF_GUIDE,SteadyShot fra
+CAMMENU_STEADYSHOT_OFF_GUIDE_2,
+CAMMENU_STEADYSHOT_SHOOT_GUIDE,SteadyShot til, når udløser-
+CAMMENU_STEADYSHOT_SHOOT_GUIDE_2,knap trykkes halvvejs ned
+CAMMENU_TOUCH,Ved berøring
+CAMMENU_WATERWB,Hvidbalance under vandet
+CAMMENU_WATERWB_AUTO_GUIDE,Autojuster hvidbalance
+CAMMENU_WATERWB_AUTO_GUIDE_2,til optagelser under vandet
+CAMMENU_WATERWB_FLASH_GUIDE,Brug ved optagelser med
+CAMMENU_WATERWB_FLASH_GUIDE_2,blitz under vandet
+CAMMENU_WATERWB_WATER1,Under vandet 1
+CAMMENU_WATERWB_WATER1_GUIDE,Bruges til optagelser
+CAMMENU_WATERWB_WATER1_GUIDE_2,i blåt vand
+CAMMENU_WATERWB_WATER2,Under vandet 2
+CAMMENU_WATERWB_WATER2_GUIDE,Bruges til optagelser
+CAMMENU_WATERWB_WATER2_GUIDE_2,i grønt vand
+CAMMENU_WB2,Hvidbalance
+CAMMENU_WB_AUTO_GUIDE,Juster automatisk til
+CAMMENU_WB_AUTO_GUIDE_2,naturlige farver
+CAMMENU_WB_CLOUDY,Skyet
+CAMMENU_WB_CLOUDY_GUIDE,Brug på overskyede dage
+CAMMENU_WB_CLOUDY_GUIDE_2,eller i skygge
+CAMMENU_WB_DAYLIGHT,Dagslys
+CAMMENU_WB_DAYLIGHT_GUIDE,Brug til udendørsmotiver
+CAMMENU_WB_DAYLIGHT_GUIDE_2,i solskin eller nattemotiver
+CAMMENU_WB_FLASH,Blitz
+CAMMENU_WB_FLASH_GUIDE,Brug til optagelse med blitz
+CAMMENU_WB_FLASH_GUIDE_2,
+CAMMENU_WB_FLUORESCENT1,Fluorescerende lys 1
+CAMMENU_WB_FLUORESCENT1_GUIDE,Brug under hvidt
+CAMMENU_WB_FLUORESCENT1_GUIDE_2,fluorescerende lys
+CAMMENU_WB_FLUORESCENT2,Fluorescerende lys 2
+CAMMENU_WB_FLUORESCENT2_GUIDE,Brug under naturligt hvidt
+CAMMENU_WB_FLUORESCENT2_GUIDE_2,fluorescerende lys
+CAMMENU_WB_FLUORESCENT3,Fluorescerende lys 3
+CAMMENU_WB_FLUORESCENT3_GUIDE,Brug under dagslysagtigt
+CAMMENU_WB_FLUORESCENT3_GUIDE_2,hvidt fluorescerende lys
+CAMMENU_WB_INCANDESCENT,Skinnende
+CAMMENU_WB_INCANDESCENT_GUIDE,Brug under skarpt lys
+CAMMENU_WB_INCANDESCENT_GUIDE_2,eller videolys
+CAMMODE_AUTO,Autojustering
+CAMMODE_AUTO_GUIDE,Til optagelse med
+CAMMODE_AUTO_GUIDE_2,auto indstillinger
+CAMMODE_BEACH,Strand
+CAMMODE_BEACH_GUIDE,Optag ved vandet
+CAMMODE_BEACH_GUIDE_2,med klar blå farve
+CAMMODE_COOKING,Gourmet
+CAMMODE_COOKING_GUIDE,Naturlige billeder af mad
+CAMMODE_COOKING_GUIDE_2,
+CAMMODE_EASY,Nem optagelse
+CAMMODE_EASY_GUIDE,Fuldautomatisk optagelse
+CAMMODE_EASY_GUIDE_2,med enkelt display
+CAMMODE_FIREWORKS,Fyrværkeri
+CAMMODE_FIREWORKS_GUIDE,Optag fyrværkeri
+CAMMODE_FIREWORKS_GUIDE_2,i al sin pragt
+CAMMODE_HIGHSENSITIVITY,Høj følsomhed
+CAMMODE_HIGHSENSITIVITY_GUIDE,Optagelse uden blitz i svag
+CAMMODE_HIGHSENSITIVITY_GUIDE_2,belysning reducerer sløring
+CAMMODE_HIGHSPEEDSHUTTER,Højhastigheds-lukker
+CAMMODE_HIGHSPEEDSHUTTER_GUIDE,Optag motiv i fart
+CAMMODE_HIGHSPEEDSHUTTER_GUIDE_2,og fang bevægelsen
+CAMMODE_LANDSCAPE,Landskab
+CAMMODE_LANDSCAPE_GUIDE,Optag landskaber
+CAMMODE_LANDSCAPE_GUIDE_2,med fjernt fokus
+CAMMODE_MOVIE,Filmtilstand
+CAMMODE_MOVIE_GUIDE,Optag film med lyd
+CAMMODE_MOVIE_GUIDE_2,
+CAMMODE_PAUTO,Auto programmeret
+CAMMODE_PAUTO_GUIDE,Auto eksponering
+CAMMODE_PAUTO_GUIDE_2,med just. indst.
+CAMMODE_SNOW,Sne
+CAMMODE_SNOW_GUIDE,Optag hvidt motiv
+CAMMODE_SNOW_GUIDE_2,i lyse farver
+CAMMODE_SOFTSNAP,Blødt snap
+CAMMODE_SOFTSNAP_GUIDE,Optag motiv
+CAMMODE_SOFTSNAP_GUIDE_2,med blød baggrund
+CAMMODE_TWILIGHT,Tusmørke
+CAMMODE_TWILIGHTPORTRAIT,Tusmørke portræt
+CAMMODE_TWILIGHTPORTRAIT_GUIDE,Optag svagt portræt
+CAMMODE_TWILIGHTPORTRAIT_GUIDE_2,motiv med blitz
+CAMMODE_TWILIGHTTRIPOD_GUIDE,Optag scene med svag
+CAMMODE_TWILIGHTTRIPOD_GUIDE_2,belysning med et stativ
+CAMMODE_WATER,Under vandet
+CAMMODE_WATER_GUIDE,Optag under vand i naturlige
+CAMMODE_WATER_GUIDE_2,farver med undervandshus
+CLOCKMENU_APR,APR
+CLOCKMENU_AUG,AUG
+CLOCKMENU_DEC,DEC
+CLOCKMENU_DMY,D-M-Å
+CLOCKMENU_FEB,FEB
+CLOCKMENU_JAN,JAN
+CLOCKMENU_JUL,JUL
+CLOCKMENU_JUN,JUN
+CLOCKMENU_MAR,MAR
+CLOCKMENU_MAY,MAJ
+CLOCKMENU_MDY,M-D-Å
+CLOCKMENU_NOV,NOV
+CLOCKMENU_OCT,OKT
+CLOCKMENU_SEP,SEP
+CLOCKMENU_UNKNOWN,---
+CLOCKMENU_YMD,Å-M-D
+COM_AUTO,Auto
+COM_BACK,Tilbage
+COM_CANCEL,Fortryd
+COM_CLEAR,Fjern
+COM_CLEARALL,Ryd alle
+COM_CONTINUE,Fortsæt
+COM_CREATED,Oprettet
+COM_ENTRY,Tilføj
+COM_EXIT,Afslut
+COM_FAST,Hurtig
+COM_HIGH,Høj
+COM_INTERNALMEMORY,Intern hukommelse
+COM_LOW,Lav
+COM_MED,Mellem
+COM_MIN,min
+COM_MOVIEREC,OPT
+COM_MOVIESTBY,Standby
+COM_MS,Memory Stick
+COM_MS_AND_INTERNALMEMORY,Memory Stick ＋ Intern hukommelse
+COM_NOOFFILES,Ant. Filer
+COM_NORMAL,Normal
+COM_OFF,Fra
+COM_OK,OK
+COM_ON,Til
+COM_PREVIEW,Visning
+COM_REMAIN,Rester. billeder
+COM_SAVE,Gem
+COM_SLOW,Langsom
+COM_STANDARD,Standard
+COM_STANDARD2,Standard
+COM_START,Start
+COM_USBMODE,USB-funkt.
+COM_VOLUME,VOL.
+COU_640FINE,640(Fin) er ikke tilgængelig
+COU_640FINE_2,
+COU_AUDIOPLUGIN,For lydudgang, tilslut et lydstik
+COU_AUDIOPLUGIN_2,
+COU_BATTERY_HEATED,Kameraet er overophedet
+COU_BATTERY_HEATED_2,Giv det tid til at køle af
+COU_BATTERY_INFOLITHIUM,Kun til "InfoLITHIUM"-batteri
+COU_BATTERY_INFOLITHIUM_2,
+COU_BATTERY_INVALID,Kan kun anvendes med
+COU_BATTERY_INVALID_2,kompatibelt batteri
+COU_BGM_ERROR,Fejl i musik
+COU_BGM_ERROR_2,
+COU_BGM_FORMATERROR,Formateringsfejl for
+COU_BGM_FORMATERROR_2,hukommelse til musik
+COU_BURST_INVALID,Serieoptagelse er ugyldig
+COU_BURST_INVALID_2,
+COU_CANNOTACCESS_MS,Ikke adgang til Memory Stick
+COU_CANNOTACCESS_MS_2,Adgang nægtet
+COU_CANNOTCREATE_FOLDERS,Kan ikke oprette flere mapper
+COU_CANNOTCREATE_FOLDERS_2,
+COU_DATA_ERROR,Fejl i billedhåndteringsfil
+COU_DATA_ERROR_2,
+COU_ERROR10,Fejl10
+COU_ERROR20,Fejl20
+COU_ERROR30,Fejl30
+COU_ERROR40,Fejl40
+COU_ERROR50,Fejl50
+COU_EXCEEDED_LIMIT,Maksimalt antal billeder markeret
+COU_EXCEEDED_LIMIT_2,
+COU_FILEERROR,Filfejl
+COU_FILEERROR_2,
+COU_FILEPROTECT,Filbeskyttelse
+COU_FILEPROTECT_2,
+COU_FLASHSETTING_INVALID,Indstillingerne for blitz kan
+COU_FLASHSETTING_INVALID_2,ikke ændres
+COU_FOLDER_ERROR,Mappefejl
+COU_FOLDER_ERROR_2,
+COU_FORMATERROR_INTERNALMEMORY,Formateringsfejl for intern
+COU_FORMATERROR_INTERNALMEMORY_2,hukommelse
+COU_FORMATERROR_MS,Formateringsfejl for Memory Stick
+COU_FORMATERROR_MS_2,
+COU_IMAGESIZEOVER,Til stor billedstørrelse
+COU_IMAGESIZEOVER_2,
+COU_INKERROR,Trykfarvefejl
+COU_INKERROR_2,
+COU_INVALID_FILE,Ugyldig fil
+COU_INVALID_FILE_2,
+COU_INVALID_FOLDER,Funktionen er ikke til rådighed
+COU_INVALID_FOLDER_2,sammen med mappevisning
+COU_INVALID_MS,Kan ikke gemme billedhåndter. fil
+COU_INVALID_MS_2,på denne Memory Stick
+COU_INVALID_OPERATION,Ugyldig handling
+COU_INVALID_OPERATION_HDOUT,Handlingen kan ikke udføres
+COU_INVALID_OPERATION_HDOUT_2,under HD(1080i)-output
+COU_INVALID_OPERATION_MOVIEFILE,Handlingen kan ikke udføres
+COU_INVALID_OPERATION_MOVIEFILE_2,for filmfiler
+COU_INVALID_OPERATION_NGFILE,Handlingen kan ikke udføres
+COU_INVALID_OPERATION_NGFILE_2,for ikke-understøttede filer
+COU_INVALID_OPERATION_PICTBRIDGE,Handlingen kan ikke udføres
+COU_INVALID_OPERATION_PICTBRIDGE_2,ved brug af PictBridge-forbindelse
+COU_INVALID_OPERATION_REMOTE,Handlingen kan ikke udføres
+COU_INVALID_OPERATION_REMOTE_2,ved fjernbetjening
+COU_INVALID_OPERATION_TVOUT,Handlingen kan ikke udføres
+COU_INVALID_OPERATION_TVOUT_2,under tv-output
+COU_LENSCAPOFF,Fjern objektivdæksel,
+COU_LENSCAPOFF_2,og slå strømmen fra og til igen
+COU_LENSCOVER_OPEN,Åbn objektivdækslet så kameraet
+COU_LENSCOVER_OPEN_2,kan optage
+COU_LOWINK,Lavt blækniveau
+COU_LOWINK_2,
+COU_MACRO_INVALID,Makro er ugyldig
+COU_MACRO_INVALID_2,
+COU_MEDIAERROR_INTERNALMEMORY,Intern hukomm. fejl
+COU_MEDIAERROR_INTERNALMEMORY_2,
+COU_METERING_INVALID,Brug af målemetode
+COU_METERING_INVALID_2,er ikke tilgængelig
+COU_MSR_NOTUSEFUNCTION,Funktionen understøttes ikke
+COU_MSR_NOTUSEFUNCTION_2,med denne Memory Stick
+COU_MS_ERROR,Indsæt Memory Stick'en igen
+COU_MS_ERROR_2,
+COU_MS_LOCKED,Memory Stick låst
+COU_MS_LOCKED_2,
+COU_MS_TYPEERROR,Forkert Memory Stick-type
+COU_MS_TYPEERROR_2,
+COU_NOBATTERY,Ikke nok batteri
+COU_NOIMAGE,Ingen billeder
+COU_NOIMAGE_2,
+COU_NOIMAGE_PLAY,Nogle billeder blev ikke overført
+COU_NOIMAGE_PLAY_2,Ukendt format.
+COU_NOINK,Ingen blæk
+COU_NOINK_2,
+COU_NOMS,Ingen Memory Stick
+COU_NOMS_2,
+COU_NOPAPER,Intet papir
+COU_NOPAPER_2,
+COU_NOSOFTWAREFILE,Ingen softwarefil
+COU_NOSOFTWAREFILE_2,
+COU_NOSPACE_INTERNALMEMORY,Ingen ledig plads i intern
+COU_NOSPACE_INTERNALMEMORY_2,hukommelse
+COU_NOSPACE_MS,Ingen ledig plads på Memory Stick
+COU_NOSPACE_MS_2,
+COU_NOT_SELECTED_FAV,Ingen Favoritter valgt
+COU_NOT_SELECTED_FAV_2,
+COU_NOT_SELECTED_IMAGES,Ingen billeder valgt.
+COU_NOT_SELECTED_IMAGES_2,
+COU_NOT_SELECTED_SHARE,Intet Delemærke valgt
+COU_NOT_SELECTED_SHARE_2,
+COU_PAPERERROR,Papirfejl
+COU_PAPERERROR_2,
+COU_PASSLOCK_CODE_MISS,Forkert nulstillingskode
+COU_PASSLOCK_CODE_MISS_2,
+COU_PASSLOCK_PASS_MISS,Forkert adgangskode
+COU_PASSLOCK_PASS_MISS_2,
+COU_POWEROFFON,Sluk, og tænd kameraet igen
+COU_POWEROFFON_2,
+COU_PRINTERBUSY,Printer optaget
+COU_PRINTERBUSY_2,
+COU_PRINTERERROR,Printerfejl
+COU_PRINTERERROR_2,
+COU_READONLYMEMORY,Skrivebesk. huk.
+COU_READONLYMEMORY_2,
+COU_READONLY_FOLDER,Skrivebeskyttet mappe
+COU_READONLY_FOLDER_2,
+COU_REDEYE_DETECTED,Ingen rødøjeregistrering
+COU_REDEYE_DETECTED_2,
+COU_SCRNTOUCH_INVALID,Berøringsskærm er deaktiveret i
+COU_SCRNTOUCH_INVALID_2,dette område
+COU_SELFTIMER_INVALID,Selv-timer er ugyldig
+COU_SELFTIMER_INVALID_2,
+COU_SMILESHUTTER_AUTOONLY,Smiludløser er kun til rådighed,
+COU_SMILESHUTTER_AUTOONLY_2,når Opt. funkt. er sat til "Auto"
+COU_SYSTEMERROR,Systemfejl
+COU_SYSTEMERROR_2,
+COU_TARGET_DETECTED,Kan ikke finde ansigt til
+COU_TARGET_DETECTED_2,retouchering
+COU_TARGET_NOIMAGE,Ingen stillbilleder
+COU_TARGET_NOIMAGE_2,
+COU_ZOOM_INVALID,Zoom deaktiveret
+COU_ZOOM_INVALID_2,
+DUMMY,
+GUIDE_BUTTON,Berør den knap, du vil bruge
+GUIDE_CENTER,Berør centreringspunkt
+GUIDE_CHANGEFOCUS,Skift fokusposition ved berøring
+GUIDE_CHOOSEFOCUS,Vælg fokusposition ved berøring
+GUIDE_DEMO_BACKLIGHT,Der er registreret modlys
+GUIDE_DEMO_BACKLIGHTPORTRAIT,Der er registr. modlys og personer
+GUIDE_DEMO_LANDSCAPE,Der er registreret landskab
+GUIDE_DEMO_MACRO,Registr. et motiv meget tæt på
+GUIDE_DEMO_PORTRAIT,Der er registreret personer
+GUIDE_DEMO_TRIPOD,Der er registreret tusmørke og stativ
+GUIDE_DEMO_TWILIGHT,Der er registreret tusmørke
+GUIDE_DEMO_TWILIGHTPORTRAIT,Registr. tusmørke og personer
+GUIDE_EFFECTLEVEL,Vælg effektniveau
+GUIDE_EXIT_TOUCH,Afslutter, når LCD berøres
+GUIDE_LIGHTBEAM_LEVEL,Vælg niveau for lysstråle
+GUIDE_RANGE,Vælg effektområdet
+GUIDE_RESIZE,Tilpasning er afsluttet
+GUIDE_RETOUCH_COMPLETE,Retouchering er afsluttet
+GUIDE_RETRO_LIGHT,Vælg lysstyrkeområde
+GUIDE_ROTATEIMG,Berør billedet, der skal roteres
+GUIDE_SAVESIZE,Vælg format, der skal gemmes
+GUIDE_SELECTFACE,Vælg ansigt ved berøring
+GUIDE_SELECTFAV,Vælg mappen Favoritter
+GUIDE_SMILEDEMO_START,Vælg smil-ikon for at starte
+GUIDE_SMILESHUTTER_EXIT,Vælg smil-ikon for at afslutte
+GUIDE_STARTIMG,Berør startbillede for diasshow
+GUIDE_TOUCHFAV,Berør mappen Favoritter
+GUIDE_TOUCHIMG,Berør billedet
+GUIDE_ZOOMIN_TOUCH,Berør zoompunkt
+GUIDE_ZOOMIN_TOUCHED,Zoomer ind på berørt position
+HOME,HOME
+HOME_CAM,Optagelse
+HOME_CAM_GUIDE2,Optag billeder eller film
+HOME_CAM_GUIDE2_2,
+HOME_COMMUNICATION,Kommunikation
+HOME_ETC_BGMTOOL,Musikværktøj
+HOME_ETC_BGMTOOL_GUIDE2,Styring af musik til diasshow
+HOME_ETC_BGMTOOL_GUIDE2_2,
+HOME_ETC_PRINT_GUIDE2,Udskriv billeder
+HOME_ETC_PRINT_GUIDE2_2,
+HOME_MEMORY,Hukommelsesadmin.
+HOME_MEMORY_GUIDE2,Styring af optagemedie
+HOME_MEMORY_GUIDE2_2,
+HOME_MEMORY_INTERNALMEMORYTOOL,Internt huk. værktøj
+HOME_MEMORY_MEMORYSTICKTOOL,Memory Stick-værktøj
+HOME_MEMORY_MEMORYTOOL,Hukomm. værktøj
+HOME_NETWORK,Netværk
+HOME_NETWORK_GUIDE,Tilslut til netværk
+HOME_NETWORK_GUIDE_2,
+HOME_PLAY,Vis billeder
+HOME_PLAY1,Vis billeder 1
+HOME_PLAY2,Vis billeder 2
+HOME_PLAY_INDEX_GUIDE2,Vis flere billeder
+HOME_PLAY_INDEX_GUIDE2_2,
+HOME_PLAY_NORMAL_GUIDE2,Vis enkelt billede
+HOME_PLAY_NORMAL_GUIDE2_2,
+HOME_PLAY_SLIDESHOW_GUIDE2,Auto afspilning med musik
+HOME_PLAY_SLIDESHOW_GUIDE2_2,og effekter
+HOME_PRINT,Udskriv
+HOME_SCENESELECTION,Valg af motiv
+HOME_SCRAPBOOK,Scrapbog
+HOME_SCRAPBOOK_GUIDE,Opret Scrapbog
+HOME_SCRAPBOOK_GUIDE_2,automatisk
+HOME_SETTINGS,Indstillinger
+HOME_SET_CAM,Optagelsesindstil.
+HOME_SET_CAM_GUIDE2,Tilpas optageindstillinger
+HOME_SET_CAM_GUIDE2_2,
+HOME_SET_CLOCK,Indstillinger af ur
+HOME_SET_CLOCK_GUIDE2,Indstil dato og klokkeslæt
+HOME_SET_CLOCK_GUIDE2_2,
+HOME_SET_LANGUAGE,Language Setting
+HOME_SET_LANGUAGE_CHANGE_GUIDE,Change Language
+HOME_SET_LANGUAGE_CHANGE_GUIDE_2,
+HOME_SET_LANGUAGE_GUIDE2,Change Language
+HOME_SET_LANGUAGE_GUIDE2_2,
+HOME_SET_MAIN,Primære indstill.
+HOME_SET_MAIN_GUIDE2,Tilpas primære indstillinger
+HOME_SET_MAIN_GUIDE2_2,
+HOME_SLIDESHOW,Diasshow
+HOME_VIEW_DATE,Datovisning
+HOME_VIEW_DATE_GUIDE2,Vis billeder efter
+HOME_VIEW_DATE_GUIDE2_2,optagelsesdato
+HOME_VIEW_EVENT,Vis. af Begivenh.
+HOME_VIEW_EVENT_GUIDE,Sorter og vis automatisk
+HOME_VIEW_EVENT_GUIDE_2,billeder i grupper
+HOME_VIEW_FAV,Favoritter
+HOME_VIEW_FAV_GUIDE2,Vis billeder i Favoritter
+HOME_VIEW_FAV_GUIDE2_2,
+HOME_VIEW_FOLDER,Mappevisning
+HOME_VIEW_FOLDER_GUIDE2,Vis billeder i DCF-mappe
+HOME_VIEW_FOLDER_GUIDE2_2,
+KEY_FLASH_AUTO_GUIDE,Automatisk blitz
+KEY_FLASH_AUTO_GUIDE_2,Blitzen udløses automatisk
+KEY_FLASH_OFF,Blitz fra
+KEY_FLASH_OFF_GUIDE,Blitz fra
+KEY_FLASH_OFF_GUIDE_2,Ingen blitz
+KEY_FLASH_ON,Blitz til
+KEY_FLASH_ON_GUIDE,Blitz til
+KEY_FLASH_ON_GUIDE_2,Bruger altid blitz
+KEY_FLASH_SYNCHRO_GUIDE,Bevar motiver og fjerne
+KEY_FLASH_SYNCHRO_GUIDE_2,baggrunde lyse
+KEY_MACRO_AUTO_GUIDE,Fokuser automatisk fra
+KEY_MACRO_AUTO_GUIDE_2,nærbillede til uendeligt
+KEY_MACRO_NEAR,Makro til
+KEY_MACRO_NEAR_GUIDE,Fokuser med prioritet på
+KEY_MACRO_NEAR_GUIDE_2,motiver meget tæt på
+KEY_MAGNIFY_ON,Fokusering tæt på aktiveret
+KEY_MAGNIFY_ON_GUIDE,Fokusering tæt på aktiveret
+KEY_MAGNIFY_ON_GUIDE_2,Til ultranærbilleder
+KEY_SELFTIMER_10_GUIDE,Tager billedet 10 sek. efter
+KEY_SELFTIMER_10_GUIDE_2,udløserknappen trykkes ned
+KEY_SELFTIMER_2_GUIDE,Tager billedet 2 sek. efter
+KEY_SELFTIMER_2_GUIDE_2,udløserknappen trykkes ned
+KEY_SELFTIMER_OFF_GUIDE,Selvudløser fra
+KEY_SELFTIMER_OFF_GUIDE_2,
+MSG_ACCESSING,Adgang…
+MSG_AVI_MAKING,Opretter ny billedhåndteringsfil…
+MSG_CAPTURING,Optager…
+MSG_CLOSEEYE_DETECT,Lukket øje registreret
+MSG_CONFIRM_UPDATE,Vælg OK for at opdatere
+MSG_CONFIRM_UPDATE_2,
+MSG_CONNECTING,Opretter forbindelse…
+MSG_CONNECTING_MASSSTORAGE,Tilslutter til Mass Storage…
+MSG_CONNECTING_MASSSTORAGE_2,
+MSG_CONNECTING_NETWORK,Tilslutter til netværk…
+MSG_CONNECTING_PICTBRIDGE,Tilslutter til PictBridge-enhed…
+MSG_CONNECTING_PICTBRIDGE_2,
+MSG_CONNECTING_PTPMTP,Tilslutter til
+MSG_CONNECTING_PTPMTP_2,PTP/MTP. . .
+MSG_CONNECT_PC,Tilslut til PC
+MSG_CONNECT_PC_2,
+MSG_CONNECT_PICTBRIDGE,Tilslut til PictBridge-enhed
+MSG_CONNECT_PICTBRIDGE_2,
+MSG_COPY,Alle data i intern
+MSG_COPYING,Kopierer…
+MSG_COPYING_2,
+MSG_COPY_2,hukommelse kopieres
+MSG_CREATING_RECFOLDER,Opretter lagringsmappe
+MSG_CURRENTVERSION,Aktuel version
+MSG_ENTRY_OVER,Det maksimale antal
+MSG_ENTRY_OVER_2,billeder er overskredet
+MSG_EXITTING_NETWORK,Lukker netværk…
+MSG_FORMATTING_BGM,Formaterer Musik…
+MSG_FORMATTING_BGM_2,
+MSG_FORMATTING_INTERNALMEMORY,Formaterer intern hukommelse…
+MSG_FORMATTING_INTERNALMEMORY_2,
+MSG_FORMATTING_MS,Formaterer Memory Stick…
+MSG_FORMATTING_MS_2,
+MSG_FORMAT_BGM,Alle musikfiler bliver slettet
+MSG_FORMAT_BGM_2,
+MSG_FORMAT_INTERNALMEMORY,Alle data i intern
+MSG_FORMAT_INTERNALMEMORY_2,hukommelse slettes
+MSG_FORMAT_MS,Alle data på Memory Stick slettes
+MSG_FORMAT_MS_2,
+MSG_FORWARDING,Overfører data. . .
+MSG_HOUSING,Handlingen er ændret
+MSG_INITIALIZE_ALLSETTINGS,Initialiser alle indst.
+MSG_INITIALIZE_ALLSETTINGS_2,
+MSG_NEWVERSION,Ny version
+MSG_NOTTURNOFF,Sluk ikke kameraet
+MSG_PASSLOCK_PASS_CANCEL,Indstillingen af adgangskoden
+MSG_PASSLOCK_PASS_CANCEL_2,er blevet annulleret
+MSG_PASSLOCK_PASS_RESET,Adgangskoden er blevet nulstillet
+MSG_PASSLOCK_PASS_RESET_2,
+MSG_PASSLOCK_PASS_RESET_MODE,Tilstand for nulstilling af
+MSG_PASSLOCK_PASS_RESET_MODE_2,adgangskode
+MSG_PASSLOCK_PASS_SET,Der er blevet indstillet en
+MSG_PASSLOCK_PASS_SET_2,adgangskode
+MSG_PRINTING,Udskriver…
+MSG_PROCESSING,Behandler…
+MSG_RECORDING,Optager…
+MSG_RECORD_MS,Optager til Memory Stick
+MSG_RECOVER,Gendan data
+MSG_RECOVERINGFILE,Gendanner billedhåndteringsfil…
+MSG_RECOVERINGFILE_2,
+MSG_RECOVER_2,
+MSG_SEE_SOFTWAREUPDATE_INST,Se "Opdaterings-instruktionerne"
+MSG_SEE_SOFTWAREUPDATE_INST_2,
+MSG_SMILEDEMO_GUIDE,Smil optages automatisk
+MSG_SMILEDEMO_PROCESSING,Demonstration af Smiludløser
+MSG_SMILESHUTTER_PROCESSING,Registrerer smil
+MSG_SMILE_END1,Antal fotografier
+MSG_SOFTWAREUPDATE,Softwareopdat.
+MSG_SOFTWAREUPDATE_2,
+MSG_STARTING_NETWORK,Starter netværk…
+MSG_START_BROWSER,Starter webbrowser…
+MSG_TOUCH_X_CENTER,Tryk midt på "×"-mærket
+MSG_TVOUT,Tv-output begyndt…
+MSG_USBMENU,Aktiver [MENU]
+PASSLOCK_PASS_CLEAR,Indtast nulstillingskode
+PASSLOCK_PASS_INPUT,Indtast adgangskode
+PASSLOCK_PASS_REINPUT,Genindtast adgangskode
+PASSLOCK_PASS_SET,Indstil adgangskode
+PBMENU_ALBUM_GUIDE,Tilbage til album
+PBMENU_ALBUM_GUIDE_2,
+PBMENU_BACKGROUND,Baggrund
+PBMENU_BLOG_GUIDE,Reducer billedstørrelse,
+PBMENU_BLOG_GUIDE_2,og gem som et nyt billede
+PBMENU_DATEALL,Alle billeder i datointerval
+PBMENU_DATEALL_CLEAR,Fjern alle i datointerval
+PBMENU_DATEALL_ENTRY,Tilføj alle i datointerval
+PBMENU_DATEALL_SET,Angiv alle i datointerval
+PBMENU_DATELIST,Datoliste
+PBMENU_DATELIST_GUIDE,Vælg en dato at vise
+PBMENU_DATELIST_GUIDE_2,
+PBMENU_DELETE,Slet
+PBMENU_DELETE_ALL_GUIDE,Slet alle billeder
+PBMENU_DELETE_ALL_GUIDE_2,i denne mappe
+PBMENU_DELETE_DATEALL_GUIDE,Slet alle billeder i
+PBMENU_DELETE_DATEALL_GUIDE_2,dette datointerval
+PBMENU_DELETE_EVENTALL_GUIDE,Slet alle billeder i
+PBMENU_DELETE_EVENTALL_GUIDE_2,denne begivenhed
+PBMENU_DELETE_SELECT_GUIDE,Slet flere markerede billeder
+PBMENU_DELETE_SELECT_GUIDE_2,
+PBMENU_DELETE_SINGLE_GUIDE,Slet billedet
+PBMENU_DELETE_SINGLE_GUIDE_2,
+PBMENU_DPOF,DPOF
+PBMENU_DPOF_ALL_CLEAR_GUIDE,Slet udskr. bestillingsmærke
+PBMENU_DPOF_ALL_CLEAR_GUIDE_2,for alle billeder i mappen
+PBMENU_DPOF_ALL_SET_GUIDE,Tilføj udsk. bestillingsmærke
+PBMENU_DPOF_ALL_SET_GUIDE_2,for alle billeder i mappen
+PBMENU_DPOF_DATEALL_CLEAR_GUIDE,Ryd udskr. bestillingsmærke
+PBMENU_DPOF_DATEALL_CLEAR_GUIDE_2,på alle billeder i datointerval
+PBMENU_DPOF_DATEALL_SET_GUIDE,Tilføj udsk. bestillingsmærke
+PBMENU_DPOF_DATEALL_SET_GUIDE_2,for alle billeder i datointerval
+PBMENU_DPOF_EVENTALL_CLEAR_GUIDE,Ryd udskr. bestill. mærker fra
+PBMENU_DPOF_EVENTALL_CLEAR_GUIDE_2,alle bill. i denne begiven.
+PBMENU_DPOF_EVENTALL_SET_GUIDE,Tilføj udskr. best. mærker til
+PBMENU_DPOF_EVENTALL_SET_GUIDE_2,alle bill. i denne begiven.
+PBMENU_DPOF_FAVALL_CLEAR_GUIDE,Ryd udskr. bestillingsmærke
+PBMENU_DPOF_FAVALL_CLEAR_GUIDE_2,på alle billeder i gruppen
+PBMENU_DPOF_FAVALL_SET_GUIDE,Tilføj udsk. bestillingsmærke
+PBMENU_DPOF_FAVALL_SET_GUIDE_2,for alle billeder i gruppen
+PBMENU_DPOF_SELECT_GUIDE,Slå udskr. bestillingsmærke
+PBMENU_DPOF_SELECT_GUIDE_2,til/fra på flere valgte billeder
+PBMENU_DPOF_SINGLE_GUIDE,Slå udskr. bestillingsmærke
+PBMENU_DPOF_SINGLE_GUIDE_2,til/fra på det valgte billede
+PBMENU_EDIT,Retouchering
+PBMENU_EDIT_BLOG_EMAIL,Blog / e-mail
+PBMENU_EDIT_BW,Delvis farve
+PBMENU_EDIT_BW_GUIDE,Omgiv et valgt punkt
+PBMENU_EDIT_BW_GUIDE_2,med sort-hvid
+PBMENU_EDIT_CROSS,Tværfilter
+PBMENU_EDIT_CROSS_GUIDE,Føj stjerneeksplosion-effekt
+PBMENU_EDIT_CROSS_GUIDE_2,til lyse punkter i billedet
+PBMENU_EDIT_FISHEYE,Fiskeøjeobjektiv
+PBMENU_EDIT_FISHEYE_GUIDE,Tilføj fiskeøje-effekt
+PBMENU_EDIT_FISHEYE_GUIDE_2,omkring et valgt punkt
+PBMENU_EDIT_HDTV,HDTV
+PBMENU_EDIT_RADIATION,Sløring af omkreds
+PBMENU_EDIT_RADIATION_GUIDE,Tilføj sløring omkring
+PBMENU_EDIT_RADIATION_GUIDE_2,et valgt punkt på billedet
+PBMENU_EDIT_REDEYE,Rødøjekorrektion
+PBMENU_EDIT_REDEYE_GUIDE,Fjern røde øjne
+PBMENU_EDIT_REDEYE_GUIDE_2,forårsaget af blitz
+PBMENU_EDIT_RETRO2,Retro
+PBMENU_EDIT_RETRO2_GUIDE,Gør periferien sløret og mørk
+PBMENU_EDIT_RETRO2_GUIDE_2,for at få nostalgisk effekt
+PBMENU_EDIT_SHARPFOUCS,Uskarp maskering
+PBMENU_EDIT_SHARPFOUCS_GUIDE,Gør bill. skarpere omkring
+PBMENU_EDIT_SHARPFOUCS_GUIDE_2,et bestemt punkt
+PBMENU_EDIT_SMILE,Smil
+PBMENU_EDIT_SMILE_GUIDE,Ret personers ansigter
+PBMENU_EDIT_SMILE_GUIDE_2,så de ser ud til at smile
+PBMENU_EDIT_SOFTFOUCS,Blød fokusering
+PBMENU_EDIT_SOFTFOUCS_GUIDE,Gør periferien sløret omkring
+PBMENU_EDIT_SOFTFOUCS_GUIDE_2,et valgt punkt
+PBMENU_EDIT_TRIMMING,Beskær
+PBMENU_EDIT_TRIMMING_GUIDE,Beskær billeder for at fjerne
+PBMENU_EDIT_TRIMMING_GUIDE_2,uønskede dele
+PBMENU_EVENTALL,Alle i Begivenh.
+PBMENU_EVENTALL_CLEAR,Fjern al. bill. fra den. Begiv.
+PBMENU_EVENTALL_ENTRY,Tilføj alle i Begivenh.
+PBMENU_EVENTALL_SET,Angiv al. bill. i denne Begiv.
+PBMENU_EVENTLIST,Liste over begivenheder
+PBMENU_EVENTLIST_GUIDE,Vælg en begivenhed du vil
+PBMENU_EVENTLIST_GUIDE_2,vise
+PBMENU_FAV,Favoritter
+PBMENU_FAV1,Favoritter 1
+PBMENU_FAV2,Favoritter 2
+PBMENU_FAV3,Favoritter 3
+PBMENU_FAV4,Favoritter 4
+PBMENU_FAV5,Favoritter 5
+PBMENU_FAV6,Favoritter 6
+PBMENU_FAVALL,Alle i Favoritter
+PBMENU_FAVALL_CLEAR,Fjern alle i Favoritter
+PBMENU_FAVALL_ENTRY,Tilføj alle i Favoritter
+PBMENU_FAVALL_SET,Angiv alle i denne gruppe
+PBMENU_FAV_ALL_CLEAR_GUIDE,Fjern alle billeder fra
+PBMENU_FAV_ALL_CLEAR_GUIDE_2,Favoritter
+PBMENU_FAV_CLEAR,Fjern Favoritter
+PBMENU_FAV_CLEAR_DATEALL_GUIDE,Fjern alle billeder i dette
+PBMENU_FAV_CLEAR_DATEALL_GUIDE_2,datointerval fra Favoritter
+PBMENU_FAV_CLEAR_EVENTALL_GUIDE,Fjern alle billeder i denne
+PBMENU_FAV_CLEAR_EVENTALL_GUIDE_2,begivenhed fra Favoritter
+PBMENU_FAV_ENTRY,Tilføj til Favoritter
+PBMENU_FAV_ENTRY_DATEALL_GUIDE,Føj alle billeder i dette
+PBMENU_FAV_ENTRY_DATEALL_GUIDE_2,datointerval til Favoritter
+PBMENU_FAV_ENTRY_EVENTALL_GUIDE,Tilføj alle billeder i denne
+PBMENU_FAV_ENTRY_EVENTALL_GUIDE_2,begivenhed til Favoritter
+PBMENU_FAV_SELECT_GUIDE,Tilføj/fjern de valgte billeder
+PBMENU_FAV_SELECT_GUIDE_2,til/fra Favoritter
+PBMENU_FAV_SET,Tilføj/fjern Favoritter
+PBMENU_FAV_SINGLE_GUIDE,Tilføj/fjern dette billede
+PBMENU_FAV_SINGLE_GUIDE_2,til/fra Favoritter
+PBMENU_FOLDERALL,Alle i denne mappe
+PBMENU_FOLDERALL_CLEAR,Fjern alle i denne mappe
+PBMENU_FOLDERALL_ENTRY,Tilføj alle i mappe
+PBMENU_FOLDERALL_SET,Angiv alle i denne mappe
+PBMENU_FOLDERJUMP,Vælg mappe
+PBMENU_FRAME,Ramme
+PBMENU_HDTV_GUIDE,Beskær billedet til format
+PBMENU_HDTV_GUIDE_2,16:9, og gem som nyt billede
+PBMENU_IMAGESAVE,Gem som et billede
+PBMENU_MULTIPLEIMAGES,Flere billeder
+PBMENU_MULTIPLEPAGESAVE,Vælg sider og gem dem
+PBMENU_MULTIRESIZE,Tilpasning af flere
+PBMENU_PAGESAVE,Gem denne side
+PBMENU_PAINT,Male
+PBMENU_PAINT_GUIDE,Tilføj maling, stempel eller
+PBMENU_PAINT_GUIDE_2,ramme til billedet
+PBMENU_PBFOLDER_GUIDE,Vælg en mappe til afspilning
+PBMENU_PBFOLDER_GUIDE_2,
+PBMENU_PRINT_ALL_GUIDE,Udskriv alle billeder i
+PBMENU_PRINT_ALL_GUIDE_2,mappen
+PBMENU_PRINT_DATEALL_GUIDE,Udskriv alle billeder i
+PBMENU_PRINT_DATEALL_GUIDE_2,dette datointerval
+PBMENU_PRINT_EVENTALL_GUIDE,Udskriv alle billeder
+PBMENU_PRINT_EVENTALL_GUIDE_2,i denne begivenhed
+PBMENU_PRINT_FAVALL_GUIDE,Udskriv alle billeder i
+PBMENU_PRINT_FAVALL_GUIDE_2,denne Favoritgruppe
+PBMENU_PRINT_SELECT_GUIDE,Udskriv flere markerede
+PBMENU_PRINT_SELECT_GUIDE_2,billeder
+PBMENU_PRINT_SINGLE_GUIDE,Udskriv billeder
+PBMENU_PRINT_SINGLE_GUIDE_2,
+PBMENU_PROTECT,Beskyt
+PBMENU_PROTECT_ALL_CLEAR_GUIDE,Slå billedbeskyttelse fra
+PBMENU_PROTECT_ALL_CLEAR_GUIDE_2,for alle billeder i mappen
+PBMENU_PROTECT_ALL_SET_GUIDE,Slå billedbeskyttelse til
+PBMENU_PROTECT_ALL_SET_GUIDE_2,for alle billeder i mappen
+PBMENU_PROTECT_DATEALL_CLEAR_GUIDE,Slå beskyttelse fra for alle
+PBMENU_PROTECT_DATEALL_CLEAR_GUIDE_2,billeder i dette datointerval
+PBMENU_PROTECT_DATEALL_SET_GUIDE,Slå beskyttelse til for alle
+PBMENU_PROTECT_DATEALL_SET_GUIDE_2,billeder i dette datointerval
+PBMENU_PROTECT_EVENTALL_CLEAR_GUIDE,Slå beskyttelse fra for alle
+PBMENU_PROTECT_EVENTALL_CLEAR_GUIDE_2,billeder i denne begivenhed
+PBMENU_PROTECT_EVENTALL_SET_GUIDE,Slå beskyttelse til for alle
+PBMENU_PROTECT_EVENTALL_SET_GUIDE_2,billeder i denne begivenhed
+PBMENU_PROTECT_FAVALL_CLEAR_GUIDE,Slå beskyttelse fra for alle
+PBMENU_PROTECT_FAVALL_CLEAR_GUIDE_2,billeder i denne gruppe
+PBMENU_PROTECT_FAVALL_SET_GUIDE,Slå beskyttelse til for alle
+PBMENU_PROTECT_FAVALL_SET_GUIDE_2,billeder i denne gruppe
+PBMENU_PROTECT_SELECT_GUIDE,Slå billedbeskyttelse til/fra
+PBMENU_PROTECT_SELECT_GUIDE_2,for flere markerede billeder
+PBMENU_PROTECT_SINGLE_GUIDE,Slå billedbeskyttelse til/fra
+PBMENU_PROTECT_SINGLE_GUIDE_2,
+PBMENU_REFINE,Filtrer efter ansigter
+PBMENU_REFINE_BABY,Småbørn
+PBMENU_REFINE_BABY_GUIDE,Find og vis billeder
+PBMENU_REFINE_BABY_GUIDE_2,med småbørn
+PBMENU_REFINE_CHILD,Børn
+PBMENU_REFINE_CHILD_GUIDE,Find og vis billeder
+PBMENU_REFINE_CHILD_GUIDE_2,med børns ansigter
+PBMENU_REFINE_CLEAR_GUIDE,Vis alle billeder
+PBMENU_REFINE_CLEAR_GUIDE_2,
+PBMENU_REFINE_FACE,Alle mennesker
+PBMENU_REFINE_FACE_GUIDE,Find og vis billeder
+PBMENU_REFINE_FACE_GUIDE_2,med folks ansigter
+PBMENU_REFINE_SMILE,Smil
+PBMENU_REFINE_SMILE_GUIDE,Find og vis billeder
+PBMENU_REFINE_SMILE_GUIDE_2,med folks smilende ansigter
+PBMENU_ROTATE,Roter
+PBMENU_ROTATE_GUIDE,Roter billeder
+PBMENU_ROTATE_GUIDE_2,
+PBMENU_SCRAPBOOKALLSAVE,Gem alle sider i Scrapbog
+PBMENU_SCRAPBOOKALL_GUIDE,Gem alle Scrapbog-sider
+PBMENU_SCRAPBOOKALL_GUIDE_2,som billeder
+PBMENU_SHARE_CLEAR,Fjern Delemærke
+PBMENU_SHARE_CLEAR_DATEALL_GUIDE,Fjern alle billeder i dette
+PBMENU_SHARE_CLEAR_DATEALL_GUIDE_2,datointerval fra Delemærke
+PBMENU_SHARE_CLEAR_EVENTALL_GUIDE,Fjern alle billeder i denne
+PBMENU_SHARE_CLEAR_EVENTALL_GUIDE_2,begivenhed fra Delemærke
+PBMENU_SHARE_CLEAR_FAVALL_GUIDE,Fjern alle billeder i denne
+PBMENU_SHARE_CLEAR_FAVALL_GUIDE_2,gruppe fra Delemærke
+PBMENU_SHARE_ENTRY,Tilføj til Delemærke
+PBMENU_SHARE_ENTRY_DATEALL_GUIDE,Tilføj alle billeder i dette
+PBMENU_SHARE_ENTRY_DATEALL_GUIDE_2,datointerval til Delemærke
+PBMENU_SHARE_ENTRY_EVENTALL_GUIDE,Tilføj alle billeder i denne
+PBMENU_SHARE_ENTRY_EVENTALL_GUIDE_2,begivenhed til Delemærke
+PBMENU_SHARE_ENTRY_FAVALL_GUIDE,Tilføj alle billeder i denne
+PBMENU_SHARE_ENTRY_FAVALL_GUIDE_2,gruppe til Delemærke
+PBMENU_SHARE_SELECT_GUIDE,Tilføj/fjern de valgte billeder
+PBMENU_SHARE_SELECT_GUIDE_2,til/fra Delemærke
+PBMENU_SHARE_SET,Tilføj/fjern Delemærke
+PBMENU_SHARE_SINGLE_GUIDE,Tilføj/fjern dette billede
+PBMENU_SHARE_SINGLE_GUIDE_2,til/fra Delemærke
+PBMENU_SLIDESHOW_GUIDE,Automatisk afspilning med
+PBMENU_SLIDESHOW_GUIDE_2,musik og effekter
+PBMENU_THISIMAGE,Dette bil.
+PBMENU_THISPAGE_GUIDE,Gem denne Scrapbog-side
+PBMENU_THISPAGE_GUIDE_2,som et billede
+PBMENU_VIEWSELECT,Visningstilstand
+PBMENU_VOLUMESETTINGS,Indstillinger for lydstyrke
+PBMENU_VOLUME_GUIDE,Juster lydstyrken i
+PBMENU_VOLUME_GUIDE_2,afspilning af diasshow/film
+PBMENU_WIDEZOOM,Vis zoom i bredf.
+PBMENU_WSCREEN_GUIDE,Beskær billedet til format
+PBMENU_WSCREEN_GUIDE_2,16:9, og vis det
+PRINTMENU_10X15CM,10x15 cm
+PRINTMENU_1PICBORDER,1-bill/m. ramme
+PRINTMENU_1PICNOBORDER,1-bill/u. ramme
+PRINTMENU_2L,13x18 cm
+PRINTMENU_2PICS,2-bill
+PRINTMENU_3PICS,3-bill
+PRINTMENU_4PICS,4-bill
+PRINTMENU_4X6,4x6"
+PRINTMENU_8PICS,8-bill
+PRINTMENU_A3,A3
+PRINTMENU_A3PLUS,A3+
+PRINTMENU_A4,A4
+PRINTMENU_A6,A6
+PRINTMENU_DATE,Dato
+PRINTMENU_DATE_A,Dato
+PRINTMENU_DAYANDTIME,Dato&tid
+PRINTMENU_HAGAKI,Hagaki postkort
+PRINTMENU_HDTV,Bredformat
+PRINTMENU_INDEX,Indeks
+PRINTMENU_INDEXPRINT,Indeksudskrift
+PRINTMENU_L,9x13 cm
+PRINTMENU_LETTER,Letter
+PRINTMENU_PICTUREINPAPER,Layout
+PRINTMENU_QUANTITY,Antal
+PRINTMENU_SIZE,Størrelse
+SAVE,Gem
+SETUP_AFILLUMINATOR,AF-lampe
+SETUP_AFILLUMINATOR_GUIDE2,Ekstra lys t. fokusering i svag
+SETUP_AFILLUMINATOR_GUIDE2_2,belysn.
+SETUP_AFMODE,AF-fkt.
+SETUP_AFMODE_GUIDE2,Indstillinger for automatisk
+SETUP_AFMODE_GUIDE2_2,fokusering
+SETUP_AUTOREVIEW,Autom. visn.
+SETUP_AUTOREVIEW_GUIDE2,Vis billeder 2 sek. efter optagelse
+SETUP_AUTOREVIEW_GUIDE2_2,
+SETUP_BEEP,Bip
+SETUP_BEEP_GUIDE2,Indstillinger for bip
+SETUP_BEEP_GUIDE2_2,
+SETUP_BGMTOOL_DOWNLOAD_GUIDE2,Skift musik til diasshow
+SETUP_BGMTOOL_DOWNLOAD_GUIDE2_2,
+SETUP_BGMTOOL_FORMAT_GUIDE2,Slet al musik til diasshow
+SETUP_BGMTOOL_FORMAT_GUIDE2_2,
+SETUP_BGM_DOWNLOAD,Hent musik
+SETUP_BGM_FORMAT,Format musik
+SETUP_CALIBRATION,Kalibrering
+SETUP_CAM1,Indstillinger for optagelse 1
+SETUP_CAM2,Indstillinger for optagelse 2
+SETUP_CHANGERECFOLDER,Skift lagringsmappe
+SETUP_CLOCK_GUIDE2,Indstil dato og klokkeslæt
+SETUP_CLOCK_GUIDE2_2,
+SETUP_COMPONENT,COMPONENT
+SETUP_COMPONENT_D1,SD
+SETUP_COMPONENT_D3,HD(1080i)
+SETUP_COMPONENT_GUIDE2,Indstillinger for komponent
+SETUP_COMPONENT_GUIDE2_2,-udgang
+SETUP_CONTROLGUIDE,Kontrolguide
+SETUP_CONTROLGUIDE_GUIDE,Indstillinger for kontrolguide
+SETUP_CONVERSION_GUIDE2,Vælg et konverteringsobjektiv
+SETUP_CONVERSION_GUIDE2_2,
+SETUP_COPY,Kopier
+SETUP_CREATERECFOLDER,Opret lagr. mappe
+SETUP_DEMOMODE,Demotilstand
+SETUP_DEMOMODE_GUIDE,Slå til for demotilstand
+SETUP_DEMOMODE_GUIDE_2,
+SETUP_DIGITALZOOM,Digital zoom
+SETUP_DIGITALZOOM_PRECISION,Præcision
+SETUP_DIGITALZOOM_SMART,Smart
+SETUP_DIRECTIONJUDGE,Autoretning
+SETUP_DIRECTIONJUDGE_GUIDE2,Bestem kameraretning, og gem
+SETUP_DIRECTIONJUDGE_GUIDE2_2,
+SETUP_DISP,Opsætning af display
+SETUP_DISP_09,9
+SETUP_DISP_12,12
+SETUP_DISP_16,16
+SETUP_DISP_20,20
+SETUP_DISP_BRIGHT,Lys
+SETUP_DISP_BRIGHTNESS,LCD-lysstyrke
+SETUP_DISP_BRIGHTNESSSET,Lysstyrke
+SETUP_DISP_HISTOGRAMSET,Histogram
+SETUP_DISP_IMAGEONLY,Kun billede
+SETUP_DISP_INDEX,Opsætning af billedindeks
+SETUP_DISP_MSG_GRAPH_OFF,Ingen graf vises
+SETUP_DISP_MSG_GRAPH_ON,Viser billedlysstyrke som graf
+SETUP_DISP_MSG_ICON,Viser kun betjeningsknapper
+SETUP_DISP_MSG_IMAGE,Viser kun billedet
+SETUP_DISP_MSG_INFO,Viser betjeningsknapper og info
+SETUP_DISP_MSG_LIGHT_BRIGHT,Indstiller skærmen til højere lysstyrke
+SETUP_DISP_MSG_LIGHT_NORMAL,Indstiller skærmen til normal lysstyrke
+SETUP_DISP_MSG_THUMBNAIL_09,Indeksvisning af 9 billeder
+SETUP_DISP_MSG_THUMBNAIL_12,Indeksvisning af 12 billeder
+SETUP_DISP_MSG_THUMBNAIL_16,Indeksvisning af 16 billeder
+SETUP_DISP_MSG_THUMBNAIL_20,Indeksvisning af 20 billeder
+SETUP_DISP_MSG_WIDEZOOMSET_OFF,Vis billeder i oprind. b-h-forhold
+SETUP_DISP_MSG_WIDEZOOMSET_ON,Vis billeder i fuldskærmsformat
+SETUP_DISP_OFF,Fra
+SETUP_DISP_ON,Til
+SETUP_DISP_OPT,Antal billeder
+SETUP_DISP_PLAY,Opsætning af afspilningsskærm
+SETUP_DISP_SHOOT,Opsætning af optageskærm
+SETUP_DISP_WIDEZOOMSET,Bredfm. zoom
+SETUP_EXPANDEDFOUCS_GUIDE2,Forstør centrum ved manuel
+SETUP_EXPANDEDFOUCS_GUIDE2_2,fokus
+SETUP_EZOOM_GUIDE2,Indstillinger for digital zoom
+SETUP_EZOOM_GUIDE2_2,
+SETUP_FLASHSYNCHRO_GUIDE2,Vælg tidsindstilling for blitz
+SETUP_FLASHSYNCHRO_GUIDE2_2,
+SETUP_FORMAT,Format
+SETUP_FUNCTIONGUIDE,Funkt. guide
+SETUP_FUNCTIONGUIDE_GUIDE2,Indstillinger for funktionsguide
+SETUP_FUNCTIONGUIDE_GUIDE2_2,
+SETUP_GRIDLINE,Gitterlinje
+SETUP_GRIDLINE_GUIDE2,Guide til sammensætning af
+SETUP_GRIDLINE_GUIDE2_2,billeder
+SETUP_HOUSING,Undervandshus
+SETUP_INITIALIZE,Initialiser
+SETUP_INITIALIZE_GUIDE2,Nulstil til standardindstillinger
+SETUP_INITIALIZE_GUIDE2_2,
+SETUP_INTERNALMEMORY_FORMAT_GUIDE2,Formater den interne
+SETUP_INTERNALMEMORY_FORMAT_GUIDE2_2,hukommelse
+SETUP_LANG,DANSK
+SETUP_LANG_5WAY,DANSK
+SETUP_LCD_RESPOINT_GUIDE2,Justerer berøringsfølsomhed for
+SETUP_LCD_RESPOINT_GUIDE2_2,LCD
+SETUP_LUNSET,LUN-indstillinger
+SETUP_LUNSET_GUIDE,Vælg medie der skal sluttes til
+SETUP_LUNSET_GUIDE_2,Mass Storage
+SETUP_LUNSET_MULTI,Multi
+SETUP_LUNSET_SINGLE,Enkelt
+SETUP_MAIN1,Primære indstillinger 1
+SETUP_MAIN2,Primære indstillinger 2
+SETUP_MAIN3,Primære indstillinger 3
+SETUP_MARINEPACK_GUIDE2,Sæt til ON ved brug af
+SETUP_MARINEPACK_GUIDE2_2,undervandshus
+SETUP_MASSSTORAGE,Mass Storage
+SETUP_MONITOR,Monitor
+SETUP_MS_COPY_CHANGE_GUIDE2,Kopier alle bill. fra intern
+SETUP_MS_COPY_CHANGE_GUIDE2_2,hukommelse
+SETUP_MS_FOLDER_CHANGE_GUIDE2,Skift mappe til optagelser af
+SETUP_MS_FOLDER_CHANGE_GUIDE2_2,billede
+SETUP_MS_FOLDER_CREATE_GUIDE2,Opret en ny mappe
+SETUP_MS_FOLDER_CREATE_GUIDE2_2,
+SETUP_MS_FORMAT_GUIDE2,Formater Memory Stick
+SETUP_MS_FORMAT_GUIDE2_2,
+SETUP_NTSC,NTSC
+SETUP_PAL,PAL
+SETUP_PASSLOCK,Lås m adgangskode
+SETUP_PASSLOCK_GUIDE,Indstil adgangskode for låsning af
+SETUP_PASSLOCK_GUIDE_2,bill.
+SETUP_PICTBRIDGE,PictBridge
+SETUP_PTPMTP,PTP/MTP
+SETUP_SHUTTER,Lukker
+SETUP_SINGLE,Enkelt
+SETUP_SMILEDEMO,Smil-demotilstand
+SETUP_SMILEDEMO_GUIDE2,Slå til for demotilstand for
+SETUP_SMILEDEMO_GUIDE2_2,smiludløser
+SETUP_TVTYPE,Tv-type
+SETUP_TVTYPE_GUIDE2,Til valg af tv-skærmtype
+SETUP_TVTYPE_GUIDE2_2,
+SETUP_UPDATE,Opdatering
+SETUP_USBCONNECT,USB-tilslut
+SETUP_USBCONNECT_GUIDE2,Udgangstilst. ved tilslutning via
+SETUP_USBCONNECT_GUIDE2_2,USB
+SETUP_VERSION,Version
+SETUP_VERSION_GUIDE2,Kontroller version og opdater
+SETUP_VERSION_GUIDE2_2,firmware
+SETUP_VIDEOOUT,Video ud
+SETUP_VIDEOOUT_GUIDE2,Udgang ved tilslutning til
+SETUP_VIDEOOUT_GUIDE2_2,videoudstyr
+SSMENU_10SEC,10 sek
+SSMENU_1SEC,1 sek
+SSMENU_3SEC,3 sek
+SSMENU_5SEC,5 sek
+SSMENU_ACTIVE,Aktiv
+SSMENU_ALL,Alle
+SSMENU_BASIC,Basis
+SSMENU_DETAIL,Andre indstill.
+SSMENU_EFFECTS,Effekter
+SSMENU_FACE_BASIC,Ansigt 1: Basis
+SSMENU_FACE_NOSTALGIC,Ansigt 2: Nostalgisk
+SSMENU_FACE_STYLISH,Ansigt 3: Stilfuld
+SSMENU_IMAGE,Billede
+SSMENU_INFOLDER,Mappe
+SSMENU_INTERVAL,Interval
+SSMENU_MUSIC,Musik
+SSMENU_MUSIC1,Music1
+SSMENU_MUSIC2,Music2
+SSMENU_MUSIC3,Music3
+SSMENU_MUSIC4,Music4
+SSMENU_MUSIC5,Music5
+SSMENU_MUSIC6,Music6
+SSMENU_MUSIC7,Music7
+SSMENU_MUSIC8,Music8
+SSMENU_NORMAL_A,Normal
+SSMENU_NOSTALGIC,Nostalgisk
+SSMENU_REFINE,Filter
+SSMENU_REPEAT,Gentag
+SSMENU_SIMPLE,Enkel
+SSMENU_STYLISH,Stilfuld
+SSMENU_THIS_DATE,Denne dato
+SSMENU_THIS_EVENT,Denne begivenhed

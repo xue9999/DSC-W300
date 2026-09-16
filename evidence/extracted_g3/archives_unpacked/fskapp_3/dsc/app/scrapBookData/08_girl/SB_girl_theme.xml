@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme xmlns="http://www.sony.co.jp/xScrapbook/1"
+full-frame="SB_girl_full-frame.zip/SB_girl_full-frame.xsraw"
+small-sample="SB_girl_small-sample.zip/SB_girl_small-sample.xsraw"
+background-color="#141414">
+
+  <page-number left="162" top="214" width="72" height="20" color="#ffffff" style="outline" halign="right"/> 
+
+	<first-frame background="SB_girl_0.zip/SB_girl_0.xsraw">
+        <title left="60" top="204" width="120" height="20" color="#ffffff" style="plain" halign="center"/> 
+        <date left="75" top="184" width="90" height="20" color="#ffffff" style="plain" halign="center"/> 
+        <photo left="41" top="24" width="158" height="156" order="0" /> 
+	</first-frame>
+
+
+
+	<frame-1 background="SB_girl_01.zip/SB_girl_01.xsraw">
+		<photo left="26" top="32" width="188" height="170" order="0"/>
+		<hit-area left="26" top="32" width="188" height="170"/>
+	</frame-1>
+
+	<frame-2 background="SB_girl_02.zip/SB_girl_02.xsraw">
+		<photo left="16" top="27" width="82" height="147" order="0"/>
+		<hit-area left="16" top="27" width="82" height="147"/>
+
+		<photo left="115" top="75" width="103" height="135" order="1"/>
+		<hit-area left="115" top="75" width="103" height="135"/>
+	</frame-2>
+
+	<frame-3 background="SB_girl_03.zip/SB_girl_03.xsraw">
+		<photo left="11" top="19" width="105" height="186" order="0"/>
+		<hit-area left="11" top="19" width="105" height="186"/>
+
+		<photo left="143" top="29" width="87" height="92" order="1"/>
+		<hit-area left="143" top="29" width="87" height="92"/>
+
+		<photo left="130" top="132" width="90" height="91" order="2"/>
+		<hit-area left="130" top="132" width="90" height="91"/>
+	</frame-3>
+
+ <frame-4 background="SB_girl_04.zip/SB_girl_04.xsraw">
+		<photo left="24" top="18" width="84" height="80" order="0"/>
+		<hit-area left="24" top="18" width="84" height="80"/>
+		
+		<photo left="8" top="115" width="82" height="104" order="1"/>
+		<hit-area left="8" top="115" width="82" height="104"/>
+		
+		<photo left="125" top="24" width="96" height="96" order="2"/>
+		<hit-area left="125" top="24" width="96" height="96"/>
+		
+		<photo left="101" top="135" width="129" height="82" order="3"/>
+		<hit-area left="101" top="135" width="129" height="82"/>
+  </frame-4>
+
+
+</theme>

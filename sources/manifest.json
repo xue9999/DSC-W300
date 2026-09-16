@@ -1,0 +1,88 @@
+{
+  "created_at": "2026-09-13T16:29:26.850830+00:00",
+  "artifacts": [
+    {
+      "path": "sources/sony_dsc-w300_adjustment_ver1.3.pdf",
+      "source_url": "https://elektrotanya.com/sony_dsc-w300_adjustment_ver1.3.pdf/download.html",
+      "bytes": 824718,
+      "sha256": "1cc830d94ac4cf4afad4db4b0634d8e922615118f2f570d604e950a2fbc45185",
+      "role": "Sony-authored manual supplied by user; 37 pages; not a software executable"
+    },
+    {
+      "path": "sources/W300_hb_GB.pdf",
+      "source_url": "https://www.sony.jp/cyber-shot/emdown/data/W300_hb_GB.pdf",
+      "bytes": 3794837,
+      "sha256": "fc339b0fb3c3e5c1af5ed18637d75990ca64e2d03fbfe28a014a93040bb9f8f2",
+      "role": "Sony-hosted consumer handbook"
+    },
+    {
+      "path": "sources/original-research-report.md",
+      "source_url": null,
+      "bytes": 50362,
+      "sha256": "7c5f60f91d7b54a14641d6fad115a3c67d42c43f3d4d98eb57a4cb1c438e265e",
+      "role": "Original user research preserved unchanged; unresolved citations; not operational authority"
+    },
+    {
+      "path": "sources/Sony-PMCA-RE",
+      "source_url": "https://github.com/ma1co/Sony-PMCA-RE",
+      "commit": "a82f5baaa8e9c3d9f28f94699e860fb2e48cc8e0",
+      "role": "upstream source inspected statically; no camera commands executed",
+      "reviewed_files": [
+        {
+          "path": "pmca/commands/usb.py",
+          "sha256": "44783d222548598dab97d4813abbd35c3f20540686a579949dbf54e5ab1a5673"
+        },
+        {
+          "path": "pmca/usb/sony.py",
+          "sha256": "53ffb4d9d49cb5146623fda2b66ecb137681a6fc9ab0c98d23a51e75128af97e"
+        },
+        {
+          "path": "pmca/platform/backend/senser.py",
+          "sha256": "ec48232de062781fa05d7f0edd81626ab9c07fe2d3a1c3379e30fc24a776f0e1"
+        },
+        {
+          "path": "pmca/platform/backup.py",
+          "sha256": "8614ee80f2fe15cd406bbefc06a56ca72427bebefedbef776a525bbe36d8696f"
+        },
+        {
+          "path": "pmca/backup/__init__.py",
+          "sha256": "ea09b9650ecd306e5dd4a6c7f1b57dd4b5763c0aa2e5d8509a364bdf7deeba61"
+        },
+        {
+          "path": "pmca/usb/driver/osx.py",
+          "sha256": "796efcbb46ca6a8690f127e7fbfb243165dafd7a5658256ff1eb4a3ee9594b91"
+        },
+        {
+          "path": "pmca/usb/driver/generic/libusb.py",
+          "sha256": "1c80cfaa0692cf308bd086edc9a9bad3691804b50182993c1dd960c932daa1df"
+        }
+      ]
+    },
+    {
+      "path": "sources/OpenMemories-CI",
+      "source_url": "https://github.com/ma1co/OpenMemories-CI",
+      "commit": "4f8c6367a75e9afd02bc684425e3fbff424b2223",
+      "role": "Sony camera firmware CI and QEMU test harness (CXD4108 machine runner, partition generation, and UI tests)"
+    },
+    {
+      "path": "sources/fwtool.py",
+      "source_url": "https://github.com/ma1co/fwtool.py",
+      "commit": "cdba742b73eed5981480c326aeb30033aabf0223",
+      "role": "Sony firmware unpacker utility and CramFS/FAT/MBR archive library"
+    },
+    {
+      "path": "sources/qemu",
+      "source_url": "https://github.com/ma1co/qemu",
+      "commit": "1909382c0d3533051cead7fde70ca8e84807ee14",
+      "role": "Custom QEMU fork implementing Sony CXD4108 SoC, PMIC, touch panel, and BIONZ display hardware models"
+    }
+  ],
+  "missing": [
+    "DSC-W300 Auto-Adj Ver_1.3r04.exe and matching payload",
+    "W300-compatible SeusEX package",
+    "W300-compatible Sony SEUS USB driver",
+    "HASP access for official service workflow"
+  ],
+  "supplement_status": "not verified",
+  "camera_write_performed": false
+}

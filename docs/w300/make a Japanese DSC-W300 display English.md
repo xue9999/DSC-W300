@@ -1,0 +1,1 @@
+../../make a Japanese DSC-W300 display English.md

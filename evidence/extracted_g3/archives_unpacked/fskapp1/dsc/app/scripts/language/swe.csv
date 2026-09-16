@@ -1,0 +1,1117 @@
+CAMMENU_0EV,0EV
+CAMMENU_100,100
+CAMMENU_10M,1,0 m
+CAMMENU_1600,1600
+CAMMENU_200,200
+CAMMENU_30M,3,0 m
+CAMMENU_3200,3200
+CAMMENU_400,400
+CAMMENU_70M,7,0 m
+CAMMENU_80,80
+CAMMENU_800,800
+CAMMENU_BRK_03EV,BRK±0,3EV
+CAMMENU_BRK_07EV,BRK±0,7EV
+CAMMENU_BRK_10EV,BRK±1,0EV
+CAMMENU_BURST,Burst
+CAMMENU_BURST_BRK03EV_GUIDE,Ta 3 bilder med 0,3 EV steg
+CAMMENU_BURST_BRK03EV_GUIDE_2,
+CAMMENU_BURST_BRK07EV_GUIDE,Ta 3 bilder med 0,7 EV steg
+CAMMENU_BURST_BRK07EV_GUIDE_2,
+CAMMENU_BURST_BRK10EV_GUIDE,Ta 3 bilder med 1,0 EV steg
+CAMMENU_BURST_BRK10EV_GUIDE_2,
+CAMMENU_BURST_OFF_GUIDE,En bild per tryckning
+CAMMENU_BURST_OFF_GUIDE_2,på avtryckaren
+CAMMENU_BURST_ON_GUIDE,Bilder tas oavbrutet så länge
+CAMMENU_BURST_ON_GUIDE_2,avtryckaren hålls nedtryckt
+CAMMENU_CENTER,Centrumvägd
+CAMMENU_CENTERAF,Centrumvägd AF
+CAMMENU_CLOSEEYE,Blundningsreducering
+CAMMENU_CLOSEEYE_AUTO_GUIDE,Ansiktsanalys för att undvika
+CAMMENU_CLOSEEYE_AUTO_GUIDE_2,blundning
+CAMMENU_CLOSEEYE_OFF_GUIDE,Blundningsreduceringen
+CAMMENU_CLOSEEYE_OFF_GUIDE_2,avstängd
+CAMMENU_COLOR,Färgläge
+CAMMENU_COLOR_BW,Svartvitt
+CAMMENU_COLOR_BW_GUIDE,Tagning i svartvitt
+CAMMENU_COLOR_BW_GUIDE_2,
+CAMMENU_COLOR_NORMAL_GUIDE,Tagning med standardfärger
+CAMMENU_COLOR_NORMAL_GUIDE_2,
+CAMMENU_COLOR_SEPIA,Brunton
+CAMMENU_COLOR_SEPIA_GUIDE,Tagning med färger som på
+CAMMENU_COLOR_SEPIA_GUIDE_2,gamla foton
+CAMMENU_COLOR_VIVID,Levande
+CAMMENU_COLOR_VIVID_GUIDE,Tagning med djupare och
+CAMMENU_COLOR_VIVID_GUIDE_2,mer levande färger
+CAMMENU_CONTINUOUS,Kontinuerlig
+CAMMENU_DRO,DRO
+CAMMENU_DRO_ADV,Avancerad
+CAMMENU_DRO_ADV_GUIDE,Kontrasten ställs in på
+CAMMENU_DRO_ADV_GUIDE_2,lämpligaste sätt
+CAMMENU_DRO_OFF_GUIDE,Kontrasten justeras ej
+CAMMENU_DRO_OFF_GUIDE_2,
+CAMMENU_DRO_PLUS,DRO plus
+CAMMENU_DRO_STANDARD_GUIDE,Kontrasten justeras
+CAMMENU_DRO_STANDARD_GUIDE_2,automatiskt
+CAMMENU_DRO_STD,DRO standard
+CAMMENU_EV,EV
+CAMMENU_EV2,EV
+CAMMENU_EV_GUIDE,Justera exponeringen:
+CAMMENU_EV_GUIDE2,Justera exponeringen:
+CAMMENU_EV_GUIDE2_2,Ljusare (＋) / mörkare (－)
+CAMMENU_EV_GUIDE_2,Ljusare (＋) / mörkare (－)
+CAMMENU_FACE,Ansiktsavkänning
+CAMMENU_FACE_ADULT,Vuxenprioritet
+CAMMENU_FACE_ADULT_GUIDE,Skärpan ställs in med före-
+CAMMENU_FACE_ADULT_GUIDE_2,träde för vuxnas ansikten
+CAMMENU_FACE_CHILD,Barnprioritet
+CAMMENU_FACE_CHILD_GUIDE,Skärpan ställs in med före-
+CAMMENU_FACE_CHILD_GUIDE_2,träde för barns ansikten
+CAMMENU_FACE_ON_GUIDE,Prioritera skärpa
+CAMMENU_FACE_ON_GUIDE_2,på ansikten
+CAMMENU_FACE_TOUCH_GUIDE,Aktivera ansiktsavkänning
+CAMMENU_FACE_TOUCH_GUIDE_2,bara när ett ansikte vidrörs
+CAMMENU_FLASHLEVEL,Blixtnivå
+CAMMENU_FLASHLEVEL_DOWN_GUIDE,Sänkt blixtstyrka
+CAMMENU_FLASHLEVEL_DOWN_GUIDE_2,
+CAMMENU_FLASHLEVEL_NORMAL_GUIDE,Normal blixtstyrka
+CAMMENU_FLASHLEVEL_NORMAL_GUIDE_2,
+CAMMENU_FLASHLEVEL_UP_GUIDE,Förstärkt blixtstyrka
+CAMMENU_FLASHLEVEL_UP_GUIDE_2,
+CAMMENU_FLASH_SYNCHRO,Långsam synkronisering
+CAMMENU_FOCUS,Skärpa
+CAMMENU_FOUCS_10M_GUIDE,Skärpan ställs in
+CAMMENU_FOUCS_10M_GUIDE_2,på ca 1,0 m avstånd
+CAMMENU_FOUCS_30M_GUIDE,Skärpan ställs in
+CAMMENU_FOUCS_30M_GUIDE_2,på ca 3,0 m avstånd
+CAMMENU_FOUCS_70M_GUIDE,Skärpan ställs in
+CAMMENU_FOUCS_70M_GUIDE_2,på ca 7,0 m avstånd
+CAMMENU_FOUCS_CENTER_GUIDE,Autofokus för motivet
+CAMMENU_FOUCS_CENTER_GUIDE_2,i mitten
+CAMMENU_FOUCS_INFINITY_GUIDE,Skärpan ställs in
+CAMMENU_FOUCS_INFINITY_GUIDE_2,på oändligt avstånd
+CAMMENU_FOUCS_MANUAL_GUIDE,Ställ in skärpan för hand
+CAMMENU_FOUCS_MANUAL_GUIDE_2,
+CAMMENU_FOUCS_MULTI_GUIDE,Autofokus för hela bilden
+CAMMENU_FOUCS_MULTI_GUIDE_2,
+CAMMENU_FOUCS_SPOT_GUIDE,Autofokus på en punkt
+CAMMENU_FOUCS_SPOT_GUIDE_2,i mitten
+CAMMENU_FOUCS_TSPOT_GUIDE,Autofokus för vidrört
+CAMMENU_FOUCS_TSPOT_GUIDE_2,ställe på skärmen
+CAMMENU_IMAGESIZE,Bildstorlek
+CAMMENU_IMAGESIZE_L,Stor
+CAMMENU_IMAGESIZE_S,Liten
+CAMMENU_INFINITY,∞
+CAMMENU_ISO,ISO
+CAMMENU_ISO_100_GUIDE,Känsligheten ställs in på
+CAMMENU_ISO_100_GUIDE_2,ISO 100
+CAMMENU_ISO_1600_GUIDE,Känsligheten ställs in på
+CAMMENU_ISO_1600_GUIDE_2,ISO 1600
+CAMMENU_ISO_200_GUIDE,Känsligheten ställs in på
+CAMMENU_ISO_200_GUIDE_2,ISO 200
+CAMMENU_ISO_3200_GUIDE,Känsligheten ställs in på
+CAMMENU_ISO_3200_GUIDE_2,ISO 3200
+CAMMENU_ISO_400_GUIDE,Känsligheten ställs in på
+CAMMENU_ISO_400_GUIDE_2,ISO 400
+CAMMENU_ISO_64_GUIDE,Känsligheten ställs in på
+CAMMENU_ISO_64_GUIDE_2,ISO 64
+CAMMENU_ISO_800_GUIDE,Känsligheten ställs in på
+CAMMENU_ISO_800_GUIDE_2,ISO 800
+CAMMENU_ISO_80_GUIDE,Känsligheten ställs in på
+CAMMENU_ISO_80_GUIDE_2,ISO 80
+CAMMENU_ISO_AUTO_GUIDE,Justera känsligheten
+CAMMENU_ISO_AUTO_GUIDE_2,automatiskt
+CAMMENU_M03EV,-0.3EV
+CAMMENU_M07EV,-0.7EV
+CAMMENU_M10EV,-1.0EV
+CAMMENU_M13EV,-1.3EV
+CAMMENU_M17EV,-1.7EV
+CAMMENU_M20EV,-2.0EV
+CAMMENU_MACRO,Makro
+CAMMENU_MENU,Meny
+CAMMENU_METERINGMODE,Mätmetod
+CAMMENU_METERING_CENTER_GUIDE,Exponeringen baserad på
+CAMMENU_METERING_CENTER_GUIDE_2,ljusstyrkan i mitten
+CAMMENU_METERING_MULTI_GUIDE,Exponeringen balanserad
+CAMMENU_METERING_MULTI_GUIDE_2,för hela bilden
+CAMMENU_METERING_SPOT_GUIDE,Exp. baserad på ljusstyrkan
+CAMMENU_METERING_SPOT_GUIDE_2,för en punkt i mitten
+CAMMENU_MINUS,－
+CAMMENU_MULTI,Multi
+CAMMENU_MULTIAF,Multi-AF
+CAMMENU_NORMAL_CAP,Normal
+CAMMENU_P03EV,+0.3EV
+CAMMENU_P07EV,+0.7EV
+CAMMENU_P10EV,+1.0EV
+CAMMENU_P13EV,+1.3EV
+CAMMENU_P17EV,+1.7EV
+CAMMENU_P20EV,+2.0EV
+CAMMENU_PLUS,＋
+CAMMENU_RECMODE,Inspelningssätt
+CAMMENU_RECOGNITION,Scenigenkänning
+CAMMENU_RECOGNITION_ADV_GUIDE,Autom. tagn. av 1 extra bild
+CAMMENU_RECOGNITION_ADV_GUIDE2,Autom. tagn. av 1 extra bild
+CAMMENU_RECOGNITION_ADV_GUIDE2_2,i skymnings- eller motljus
+CAMMENU_RECOGNITION_ADV_GUIDE_2,i skymnings- eller motljus
+CAMMENU_RECOGNITION_AUTO2_GUIDE,Ta bilder med optimala
+CAMMENU_RECOGNITION_AUTO2_GUIDE_2,inställningar för scentypen
+CAMMENU_RECOGNITION_AUTO_GUIDE,Tagning med optimala inst.
+CAMMENU_RECOGNITION_AUTO_GUIDE_2,i skymnings- eller motljus
+CAMMENU_RECOGNITION_OFF_GUIDE,Scenigenkänning avstängd
+CAMMENU_RECOGNITION_OFF_GUIDE_2,
+CAMMENU_REDEYEREDUCTION,Rödögereducering
+CAMMENU_REDEYE_FACE_GUIDE,Automatisk rödögereduc.
+CAMMENU_REDEYE_FACE_GUIDE_2,när ansikten avkänns
+CAMMENU_REDEYE_OFF_GUIDE,Rödögereducering av
+CAMMENU_REDEYE_OFF_GUIDE_2,
+CAMMENU_REDEYE_ON_GUIDE,En förblixt utlöses för att
+CAMMENU_REDEYE_ON_GUIDE_2,minska röda ögon med blixt
+CAMMENU_REMAIN_NUMBER,Ung. kapacitet
+CAMMENU_REMAIN_TIME,Ung. återstående tid
+CAMMENU_SATURATION_DOWN_GUIDE,Ta bilder med blekare färger
+CAMMENU_SATURATION_DOWN_GUIDE_2,
+CAMMENU_SATURATION_NORMAL_GUIDE,Ta bilder med normal
+CAMMENU_SATURATION_NORMAL_GUIDE_2,färgmättnad
+CAMMENU_SATURATION_UP_GUIDE,Ta bilder med mer
+CAMMENU_SATURATION_UP_GUIDE_2,mättade färger
+CAMMENU_SELFTIMER,Självutlösare
+CAMMENU_SELFTIMER_10SEC,Självutlösare 10 s
+CAMMENU_SELFTIMER_2SEC,Självutlösare 2 s
+CAMMENU_SELFTIMER_OFF,Självutlösare av
+CAMMENU_SETUP,Inställningar
+CAMMENU_SETUP_CHANGE_GUIDE,Gå till skärmen för
+CAMMENU_SETUP_CHANGE_GUIDE_2,tagningsinställningar
+CAMMENU_SHOOTING,Tagning
+CAMMENU_SIZE_10MEG,10M
+CAMMENU_SIZE_12M_GUIDE,För utskrift i upp till
+CAMMENU_SIZE_12M_GUIDE_2,A3+-format
+CAMMENU_SIZE_16_9,16:9
+CAMMENU_SIZE_16_9_2MEG_GUIDE,För uppspelning på en
+CAMMENU_SIZE_16_9_2MEG_GUIDE_2,HD-TV
+CAMMENU_SIZE_16_9_A3_GUIDE,För uppspelning på en HD-
+CAMMENU_SIZE_16_9_A3_GUIDE_2,TV och utskrift i upp till A3
+CAMMENU_SIZE_16_9_A4_GUIDE,För uppspelning på en HD-
+CAMMENU_SIZE_16_9_A4_GUIDE_2,TV och utskrift i upp till A4
+CAMMENU_SIZE_16_9_GUIDE,Tagning med HDTV-aspekt
+CAMMENU_SIZE_16_9_GUIDE_2,
+CAMMENU_SIZE_320,320
+CAMMENU_SIZE_320_GUIDE,Tagning i litet bildformat
+CAMMENU_SIZE_320_GUIDE_2,för epostbilagor
+CAMMENU_SIZE_3MEG,3M
+CAMMENU_SIZE_3M_GUIDE,För utskrift i upp till 10x15
+CAMMENU_SIZE_3M_GUIDE_2,eller 13x18 cm
+CAMMENU_SIZE_3_2_8MEG,3:2(8M)
+CAMMENU_SIZE_3_2_GUIDE,Tagning med 3:2-aspekt
+CAMMENU_SIZE_3_2_GUIDE_2,
+CAMMENU_SIZE_4_3,4:3
+CAMMENU_SIZE_5MEG,5M
+CAMMENU_SIZE_5M_GUIDE,För utskrift i upp till
+CAMMENU_SIZE_5M_GUIDE_2,A4-format
+CAMMENU_SIZE_640FINE,640(Fin)
+CAMMENU_SIZE_640FINE_GUIDE,Filminsp. med hög kvalitet
+CAMMENU_SIZE_640FINE_GUIDE_2,för TV-uppspelning
+CAMMENU_SIZE_640STD,640(Standard)
+CAMMENU_SIZE_640STD_GUIDE,Filminsp. med standardkval.
+CAMMENU_SIZE_640STD_GUIDE_2,för TV-uppspelning
+CAMMENU_SIZE_8M_GUIDE,För utskrift i upp till
+CAMMENU_SIZE_8M_GUIDE_2,A3-format
+CAMMENU_SIZE_HD_2MEG,16:9(2M)
+CAMMENU_SIZE_HD_7MEG,16:9(7M)
+CAMMENU_SIZE_HD_VGA,16:9(VGA)
+CAMMENU_SIZE_VGA,VGA
+CAMMENU_SIZE_VGA_GUIDE,Tagning i litet bildformat
+CAMMENU_SIZE_VGA_GUIDE_2,för epostbilagor
+CAMMENU_SMILE,Leendeavkänning
+CAMMENU_SMILESHUTTER_HIGH_GUIDE,Hög känslighet
+CAMMENU_SMILESHUTTER_HIGH_GUIDE_2,för leendeavkänning
+CAMMENU_SMILESHUTTER_LOW_GUIDE,Låg känslighet
+CAMMENU_SMILESHUTTER_LOW_GUIDE_2,för leendeavkänning
+CAMMENU_SMILESHUTTER_NORMAL_GUIDE,Normal känslighet
+CAMMENU_SMILESHUTTER_NORMAL_GUIDE_2,för leendeavkänning
+CAMMENU_SMILE_DETECTION,Känsl. för leendeavkänning
+CAMMENU_SPOT,Spot
+CAMMENU_SPOTAF,Spot-AF
+CAMMENU_STEADYSHOT,SteadyShot
+CAMMENU_STEADYSHOT_CONT_GUIDE,SteadyShot alltid på
+CAMMENU_STEADYSHOT_CONT_GUIDE_2,
+CAMMENU_STEADYSHOT_OFF_GUIDE,SteadyShot av
+CAMMENU_STEADYSHOT_OFF_GUIDE_2,
+CAMMENU_STEADYSHOT_SHOOT_GUIDE,SteadyShot på när avtr.
+CAMMENU_STEADYSHOT_SHOOT_GUIDE_2,trycks ned halvvägs
+CAMMENU_TOUCH,När skärmen vidrörs
+CAMMENU_WATERWB,Undervattensvitbalans
+CAMMENU_WATERWB_AUTO_GUIDE,Automatisk justering av vit-
+CAMMENU_WATERWB_AUTO_GUIDE_2,balans för undervattentagn.
+CAMMENU_WATERWB_FLASH_GUIDE,Undervattenstagning
+CAMMENU_WATERWB_FLASH_GUIDE_2,med blixt
+CAMMENU_WATERWB_WATER1,Undervatten 1
+CAMMENU_WATERWB_WATER1_GUIDE,Undervattenstagning i
+CAMMENU_WATERWB_WATER1_GUIDE_2,blått vatten
+CAMMENU_WATERWB_WATER2,Undervatten 2
+CAMMENU_WATERWB_WATER2_GUIDE,Undervattenstagning i
+CAMMENU_WATERWB_WATER2_GUIDE_2,grönt vatten
+CAMMENU_WB2,Vitbalans
+CAMMENU_WB_AUTO_GUIDE,Automatisk justering
+CAMMENU_WB_AUTO_GUIDE_2,för naturliga färger
+CAMMENU_WB_CLOUDY,Molnigt
+CAMMENU_WB_CLOUDY_GUIDE,För tagning en molnig dag
+CAMMENU_WB_CLOUDY_GUIDE_2,eller i skuggan
+CAMMENU_WB_DAYLIGHT,Dagsljus
+CAMMENU_WB_DAYLIGHT_GUIDE,För utomhustagning i
+CAMMENU_WB_DAYLIGHT_GUIDE_2,solsken eller nattscener
+CAMMENU_WB_FLASH,Blixt
+CAMMENU_WB_FLASH_GUIDE,För tagning med blixt
+CAMMENU_WB_FLASH_GUIDE_2,
+CAMMENU_WB_FLUORESCENT1,Lysrör 1
+CAMMENU_WB_FLUORESCENT1_GUIDE,För tagning under vita lysrör
+CAMMENU_WB_FLUORESCENT1_GUIDE_2,
+CAMMENU_WB_FLUORESCENT2,Lysrör 2
+CAMMENU_WB_FLUORESCENT2_GUIDE,För tagning under naturligt
+CAMMENU_WB_FLUORESCENT2_GUIDE_2,vita lysrör
+CAMMENU_WB_FLUORESCENT3,Lysrör 3
+CAMMENU_WB_FLUORESCENT3_GUIDE,För tagning under lysrör
+CAMMENU_WB_FLUORESCENT3_GUIDE_2,med naturligt ljus
+CAMMENU_WB_INCANDESCENT,Glödlampa
+CAMMENU_WB_INCANDESCENT_GUIDE,För tagning i glödlamps-
+CAMMENU_WB_INCANDESCENT_GUIDE_2,eller videobelysning
+CAMMODE_AUTO,Autom. inställningar
+CAMMODE_AUTO_GUIDE,Tagning med
+CAMMODE_AUTO_GUIDE_2,automatiska inställningar
+CAMMODE_BEACH,Strand
+CAMMODE_BEACH_GUIDE,Tagning vid vatten
+CAMMODE_BEACH_GUIDE_2,med en djup blå färg
+CAMMODE_COOKING,Gourmet
+CAMMODE_COOKING_GUIDE,Naturliga bilder på mat
+CAMMODE_COOKING_GUIDE_2,
+CAMMODE_EASY,Enkel tagning
+CAMMODE_EASY_GUIDE,Helautomatisk tagning
+CAMMODE_EASY_GUIDE_2,med förenklad display
+CAMMODE_FIREWORKS,Fyrverkeri
+CAMMODE_FIREWORKS_GUIDE,Ta vackra bilder
+CAMMODE_FIREWORKS_GUIDE_2,på fyrverkerier
+CAMMODE_HIGHSENSITIVITY,Hög känslighet
+CAMMODE_HIGHSENSITIVITY_GUIDE,Ta skarpa bilder utan blixt i
+CAMMODE_HIGHSENSITIVITY_GUIDE_2,svag belysning
+CAMMODE_HIGHSPEEDSHUTTER,Snabbslutarläge
+CAMMODE_HIGHSPEEDSHUTTER_GUIDE,Frysning av motiv
+CAMMODE_HIGHSPEEDSHUTTER_GUIDE_2,som rör sig snabbt
+CAMMODE_LANDSCAPE,Landskap
+CAMMODE_LANDSCAPE_GUIDE,Tagning med
+CAMMODE_LANDSCAPE_GUIDE_2,oändligt avstånd
+CAMMODE_MOVIE,Filmläge
+CAMMODE_MOVIE_GUIDE,Filminspelning med ljud
+CAMMODE_MOVIE_GUIDE_2,
+CAMMODE_PAUTO,Autoprogram
+CAMMODE_PAUTO_GUIDE,Automatisk exponering med
+CAMMODE_PAUTO_GUIDE_2,olika inställningsmöjligheter
+CAMMODE_SNOW,Snö
+CAMMODE_SNOW_GUIDE,För ljusa bilder på vitaktiga
+CAMMODE_SNOW_GUIDE_2,scener
+CAMMODE_SOFTSNAP,Soft Snap
+CAMMODE_SOFTSNAP_GUIDE,För mjuka bilder på
+CAMMODE_SOFTSNAP_GUIDE_2,människor, blommor, osv
+CAMMODE_TWILIGHT,Skymning
+CAMMODE_TWILIGHTPORTRAIT,Skymningsporträtt
+CAMMODE_TWILIGHTPORTRAIT_GUIDE,För porträttagning i svag
+CAMMODE_TWILIGHTPORTRAIT_GUIDE_2,belysning med blixt
+CAMMODE_TWILIGHTTRIPOD_GUIDE,För tagning med stativ
+CAMMODE_TWILIGHTTRIPOD_GUIDE_2,i svag belysning
+CAMMODE_WATER,Undervatten
+CAMMODE_WATER_GUIDE,För tagning med undervat-
+CAMMODE_WATER_GUIDE_2,tenshus med naturliga färger
+CLOCKMENU_APR,APR
+CLOCKMENU_AUG,AUG
+CLOCKMENU_DEC,DEC
+CLOCKMENU_DMY,D-M-Å
+CLOCKMENU_FEB,FEB
+CLOCKMENU_JAN,JAN
+CLOCKMENU_JUL,JUL
+CLOCKMENU_JUN,JUN
+CLOCKMENU_MAR,MAR
+CLOCKMENU_MAY,MAJ
+CLOCKMENU_MDY,M-D-Å
+CLOCKMENU_NOV,NOV
+CLOCKMENU_OCT,OKT
+CLOCKMENU_SEP,SEP
+CLOCKMENU_UNKNOWN,---
+CLOCKMENU_YMD,Å-M-D
+COM_AUTO,Auto
+COM_BACK,Tillbaka
+COM_CANCEL,Ångra
+COM_CLEAR,Ta bort
+COM_CLEARALL,Nollställ allt
+COM_CONTINUE,Forts.
+COM_CREATED,Skapad
+COM_ENTRY,Lägg till
+COM_EXIT,Avsluta
+COM_FAST,Snabb
+COM_HIGH,Hög
+COM_INTERNALMEMORY,Internminne
+COM_LOW,Låg
+COM_MED,Mellan
+COM_MIN,min
+COM_MOVIEREC,INSP
+COM_MOVIESTBY,Standby
+COM_MS,Memory Stick
+COM_MS_AND_INTERNALMEMORY,Memory Stick ＋ Internminne
+COM_NOOFFILES,Antal filer
+COM_NORMAL,Normal
+COM_OFF,Av
+COM_OK,OK
+COM_ON,På
+COM_PREVIEW,Förgranskning
+COM_REMAIN,Återst. bilder
+COM_SAVE,Spara
+COM_SLOW,Långsam
+COM_STANDARD,Standard
+COM_STANDARD2,Standard
+COM_START,Start
+COM_USBMODE,USB-läge
+COM_VOLUME,VOL.
+COU_640FINE,640(Fin) saknas
+COU_640FINE_2,
+COU_AUDIOPLUGIN,Sätt i en ljudkontakt för att
+COU_AUDIOPLUGIN_2,mata ut ljudet
+COU_BATTERY_HEATED,Kameran överhettad
+COU_BATTERY_HEATED_2,Låt den svalna
+COU_BATTERY_INFOLITHIUM,Endast för "InfoLITHIUM"- batteri
+COU_BATTERY_INFOLITHIUM_2,
+COU_BATTERY_INVALID,Använd endast kompatibla batterier
+COU_BATTERY_INVALID_2,
+COU_BGM_ERROR,Musikfel
+COU_BGM_ERROR_2,
+COU_BGM_FORMATERROR,Musikminnes-formateringsfel
+COU_BGM_FORMATERROR_2,
+COU_BURST_INVALID,Burst fungerar ej
+COU_BURST_INVALID_2,
+COU_CANNOTACCESS_MS,Kan ej läsa/skriva på Memory Stick
+COU_CANNOTACCESS_MS_2,Ingen åtkomst
+COU_CANNOTCREATE_FOLDERS,Kan ej skapa fler mappar
+COU_CANNOTCREATE_FOLDERS_2,
+COU_DATA_ERROR,Bildhanteringsfilfel
+COU_DATA_ERROR_2,
+COU_ERROR10,Fel 10
+COU_ERROR20,Fel 20
+COU_ERROR30,Fel 30
+COU_ERROR40,Fel 40
+COU_ERROR50,Fel 50
+COU_EXCEEDED_LIMIT,Max antal bilder valda
+COU_EXCEEDED_LIMIT_2,
+COU_FILEERROR,Filfel
+COU_FILEERROR_2,
+COU_FILEPROTECT,Filskydd
+COU_FILEPROTECT_2,
+COU_FLASHSETTING_INVALID,Blixtinställningarna går inte
+COU_FLASHSETTING_INVALID_2,att ändra
+COU_FOLDER_ERROR,Mappfel
+COU_FOLDER_ERROR_2,
+COU_FORMATERROR_INTERNALMEMORY,Formateringsfel för internminnet
+COU_FORMATERROR_INTERNALMEMORY_2,
+COU_FORMATERROR_MS,Formateringsfel för Memory Stick
+COU_FORMATERROR_MS_2,
+COU_IMAGESIZEOVER,För stor bild
+COU_IMAGESIZEOVER_2,
+COU_INKERROR,Tryckfärgsfel
+COU_INKERROR_2,
+COU_INVALID_FILE,Ogiltig fil
+COU_INVALID_FILE_2,
+COU_INVALID_FOLDER,Denna manöver kan ej utföras
+COU_INVALID_FOLDER_2,under mappvisning
+COU_INVALID_MS,Bildhanteringsfilen går ej att lagra
+COU_INVALID_MS_2,på denna Memory Stick
+COU_INVALID_OPERATION,Ogiltig manöver
+COU_INVALID_OPERATION_HDOUT,Denna manöver kan ej utföras
+COU_INVALID_OPERATION_HDOUT_2,under HD(1080i)-utmatning
+COU_INVALID_OPERATION_MOVIEFILE,Denna manöver kan ej utföras
+COU_INVALID_OPERATION_MOVIEFILE_2,för filmfiler
+COU_INVALID_OPERATION_NGFILE,Denna manöver kan ej utföras
+COU_INVALID_OPERATION_NGFILE_2,för ostödda filer
+COU_INVALID_OPERATION_PICTBRIDGE,Denna manöver kan ej utföras
+COU_INVALID_OPERATION_PICTBRIDGE_2,under PictBridge-anslutning
+COU_INVALID_OPERATION_REMOTE,Denna manöver kan ej utföras
+COU_INVALID_OPERATION_REMOTE_2,med fjärrkontrollen
+COU_INVALID_OPERATION_TVOUT,Denna manöver kan ej utföras
+COU_INVALID_OPERATION_TVOUT_2,under utmatning till en TV
+COU_LENSCAPOFF,Ta av linsskyddet, stäng av kameran
+COU_LENSCAPOFF_2,och slå på den igen
+COU_LENSCOVER_OPEN,Öppna linsskyddet för att
+COU_LENSCOVER_OPEN_2,fotografera
+COU_LOWINK,Färgen nästan slut
+COU_LOWINK_2,
+COU_MACRO_INVALID,Makroläget går ej att använda
+COU_MACRO_INVALID_2,
+COU_MEDIAERROR_INTERNALMEMORY,Internminnesfel
+COU_MEDIAERROR_INTERNALMEMORY_2,
+COU_METERING_INVALID,Ljusmätning går ej att utföra
+COU_METERING_INVALID_2,
+COU_MSR_NOTUSEFUNCTION,Funktionen ej stödd på detta
+COU_MSR_NOTUSEFUNCTION_2,Memory Stick-minneskort
+COU_MS_ERROR,Sätt i Memory Stick-kortet igen
+COU_MS_ERROR_2,
+COU_MS_LOCKED,Memory Stick låst
+COU_MS_LOCKED_2,
+COU_MS_TYPEERROR,Fel Memory Stick-typ
+COU_MS_TYPEERROR_2,
+COU_NOBATTERY,För svagt batteri
+COU_NOIMAGE,Inga bilder
+COU_NOIMAGE_2,
+COU_NOIMAGE_PLAY,Vissa bilder ej överförda
+COU_NOIMAGE_PLAY_2,Okänt format.
+COU_NOINK,Färgen slut
+COU_NOINK_2,
+COU_NOMS,Ingen Memory Stick
+COU_NOMS_2,
+COU_NOPAPER,Inget papper
+COU_NOPAPER_2,
+COU_NOSOFTWAREFILE,Ingen mjukvarufil
+COU_NOSOFTWAREFILE_2,
+COU_NOSPACE_INTERNALMEMORY,Utrymme saknas i interminnet
+COU_NOSPACE_INTERNALMEMORY_2,
+COU_NOSPACE_MS,Utrymme saknas på Memory Stick
+COU_NOSPACE_MS_2,
+COU_NOT_SELECTED_FAV,Inga Favoriter valda
+COU_NOT_SELECTED_FAV_2,
+COU_NOT_SELECTED_IMAGES,Ingen bild vald
+COU_NOT_SELECTED_IMAGES_2,
+COU_NOT_SELECTED_SHARE,Inga Delade valda
+COU_NOT_SELECTED_SHARE_2,
+COU_PAPERERROR,Pappersfel
+COU_PAPERERROR_2,
+COU_PASSLOCK_CODE_MISS,Fel nollställningskod
+COU_PASSLOCK_CODE_MISS_2,
+COU_PASSLOCK_PASS_MISS,Fel lösenord
+COU_PASSLOCK_PASS_MISS_2,
+COU_POWEROFFON,Stäng av och slå på kameran
+COU_POWEROFFON_2,
+COU_PRINTERBUSY,Skrivaren upptagen
+COU_PRINTERBUSY_2,
+COU_PRINTERERROR,Skrivarfel
+COU_PRINTERERROR_2,
+COU_READONLYMEMORY,Minne endast för läsning
+COU_READONLYMEMORY_2,
+COU_READONLY_FOLDER,Mapp endast för läsning
+COU_READONLY_FOLDER_2,
+COU_REDEYE_DETECTED,Inga röda ögon avkända
+COU_REDEYE_DETECTED_2,
+COU_SCRNTOUCH_INVALID,Pekskärmen går ej att använda
+COU_SCRNTOUCH_INVALID_2,
+COU_SELFTIMER_INVALID,Självutlösaren går ej att använda
+COU_SELFTIMER_INVALID_2,
+COU_SMILESHUTTER_AUTOONLY,Leendeavkänning fungerar bara när
+COU_SMILESHUTTER_AUTOONLY_2,inspeln. sättet är inställt på "Auto"
+COU_SYSTEMERROR,Systemfel
+COU_SYSTEMERROR_2,
+COU_TARGET_DETECTED,Kan ej upptäcka ansikte
+COU_TARGET_DETECTED_2,att retuschera
+COU_TARGET_NOIMAGE,Inga stillbilder
+COU_TARGET_NOIMAGE_2,
+COU_ZOOM_INVALID,Zoomen avstängd
+COU_ZOOM_INVALID_2,
+DUMMY,
+GUIDE_BUTTON,Peka på den knapp du vill använda
+GUIDE_CENTER,Peka på önskad mittpunkt
+GUIDE_CHANGEFOCUS,Flytta skärpan genom att peka
+GUIDE_CHOOSEFOCUS,Peka för att ställa in skärpan
+GUIDE_DEMO_BACKLIGHT,Motljus upptäckt
+GUIDE_DEMO_BACKLIGHTPORTRAIT,Människor i motljus upptäckta
+GUIDE_DEMO_LANDSCAPE,Landskap upptäckt
+GUIDE_DEMO_MACRO,Närbeläget motiv upptäckt
+GUIDE_DEMO_PORTRAIT,Människor upptäckta
+GUIDE_DEMO_TRIPOD,Stativ och skymningsljus upptäckta
+GUIDE_DEMO_TWILIGHT,Skymningsljus upptäckt
+GUIDE_DEMO_TWILIGHTPORTRAIT,Människor i skymn. ljus upptäckta
+GUIDE_EFFECTLEVEL,Ställ in effektnivån
+GUIDE_EXIT_TOUCH,Peka på skärmen för att avsluta
+GUIDE_LIGHTBEAM_LEVEL,Ställ in ljusstrålens styrka
+GUIDE_RANGE,Ställ in effektområdet
+GUIDE_RESIZE,Storleksändringen klar
+GUIDE_RETOUCH_COMPLETE,Retuscheringen klar
+GUIDE_RETRO_LIGHT,Ställ in ljusstyrkeområdet
+GUIDE_ROTATEIMG,Peka på bilden som ska vridas
+GUIDE_SAVESIZE,Välj lagringsstorlek
+GUIDE_SELECTFACE,Välj ansikte genom att peka
+GUIDE_SELECTFAV,Väljj Favoriter
+GUIDE_SMILEDEMO_START,Välj leendeikonen för att starta
+GUIDE_SMILESHUTTER_EXIT,Välj leendeikonen för att avsluta
+GUIDE_STARTIMG,Peka på startbilden för bildspelet
+GUIDE_TOUCHFAV,Peka på Favoriter
+GUIDE_TOUCHIMG,Peka på bilden
+GUIDE_ZOOMIN_TOUCH,Peka på punkten att zooma in
+GUIDE_ZOOMIN_TOUCHED,Zooma in på vidrörd position
+HOME,HOME
+HOME_CAM,Tagning
+HOME_CAM_GUIDE2,Tagning av bilder eller filmer
+HOME_CAM_GUIDE2_2,
+HOME_COMMUNICATION,Kommunikation
+HOME_ETC_BGMTOOL,Musikverktyg
+HOME_ETC_BGMTOOL_GUIDE2,Hantera musik för bildspel
+HOME_ETC_BGMTOOL_GUIDE2_2,
+HOME_ETC_PRINT_GUIDE2,Skriv ut bilder
+HOME_ETC_PRINT_GUIDE2_2,
+HOME_MEMORY,Minneshantering
+HOME_MEMORY_GUIDE2,Hantera inspelningsmedia
+HOME_MEMORY_GUIDE2_2,
+HOME_MEMORY_INTERNALMEMORYTOOL,Internminnesverktyg
+HOME_MEMORY_MEMORYSTICKTOOL,Memory Stick-verktyg
+HOME_MEMORY_MEMORYTOOL,Minnesverktyg
+HOME_NETWORK,Nätverk
+HOME_NETWORK_GUIDE,Anslut till nätverk
+HOME_NETWORK_GUIDE_2,
+HOME_PLAY,Se bilder
+HOME_PLAY1,Se bilder 1
+HOME_PLAY2,Se bilder 2
+HOME_PLAY_INDEX_GUIDE2,Lista bilder
+HOME_PLAY_INDEX_GUIDE2_2,
+HOME_PLAY_NORMAL_GUIDE2,Spela upp en bild i taget
+HOME_PLAY_NORMAL_GUIDE2_2,
+HOME_PLAY_SLIDESHOW_GUIDE2,Automatisk uppspelning med
+HOME_PLAY_SLIDESHOW_GUIDE2_2,musik och effekter
+HOME_PRINT,Utskrift
+HOME_SCENESELECTION,Scenval
+HOME_SCRAPBOOK,Klippbok
+HOME_SCRAPBOOK_GUIDE,Skapa Klippbok automatiskt
+HOME_SCRAPBOOK_GUIDE_2,
+HOME_SETTINGS,Inställningar
+HOME_SET_CAM,Tagningsinställn.
+HOME_SET_CAM_GUIDE2,Ändra
+HOME_SET_CAM_GUIDE2_2,tagningsinställningarna
+HOME_SET_CLOCK,Klockinställningar
+HOME_SET_CLOCK_GUIDE2,Ändra datum & klocka
+HOME_SET_CLOCK_GUIDE2_2,
+HOME_SET_LANGUAGE,Language Setting
+HOME_SET_LANGUAGE_CHANGE_GUIDE,Change Language
+HOME_SET_LANGUAGE_CHANGE_GUIDE_2,
+HOME_SET_LANGUAGE_GUIDE2,Change Language
+HOME_SET_LANGUAGE_GUIDE2_2,
+HOME_SET_MAIN,Huvudinställningar
+HOME_SET_MAIN_GUIDE2,Ändra huvudinställningarna
+HOME_SET_MAIN_GUIDE2_2,
+HOME_SLIDESHOW,Bildspel
+HOME_VIEW_DATE,Datumvisning
+HOME_VIEW_DATE_GUIDE2,Bilder visas efter
+HOME_VIEW_DATE_GUIDE2_2,tagningsdatum
+HOME_VIEW_EVENT,Händelsevisning
+HOME_VIEW_EVENT_GUIDE,Bilder grupperas automatiskt
+HOME_VIEW_EVENT_GUIDE_2,för visning
+HOME_VIEW_FAV,Favoriter
+HOME_VIEW_FAV_GUIDE2,Bilder markerade som
+HOME_VIEW_FAV_GUIDE2_2,Favoriter visas
+HOME_VIEW_FOLDER,Mappvisning
+HOME_VIEW_FOLDER_GUIDE2,Bilderna i DCF-mappen visas
+HOME_VIEW_FOLDER_GUIDE2_2,
+KEY_FLASH_AUTO_GUIDE,Automatisk blixt
+KEY_FLASH_AUTO_GUIDE_2,Blixten utlöses automatiskt
+KEY_FLASH_OFF,Blixten av
+KEY_FLASH_OFF_GUIDE,Blixten av
+KEY_FLASH_OFF_GUIDE_2,Blixten utlöses ej
+KEY_FLASH_ON,Blixten på
+KEY_FLASH_ON_GUIDE,Blixten på
+KEY_FLASH_ON_GUIDE_2,Blixten utlöses alltid
+KEY_FLASH_SYNCHRO_GUIDE,Både motiv och bakgrund
+KEY_FLASH_SYNCHRO_GUIDE_2,blir ljusa
+KEY_MACRO_AUTO_GUIDE,Autofokus från närbilder
+KEY_MACRO_AUTO_GUIDE_2,till oändligt avstånd
+KEY_MACRO_NEAR,Makro på
+KEY_MACRO_NEAR_GUIDE,Skärpan ställs in med före-
+KEY_MACRO_NEAR_GUIDE_2,träde för närbelägna motiv
+KEY_MAGNIFY_ON,Förstoringsglas på
+KEY_MAGNIFY_ON_GUIDE,Förstoringsglas på
+KEY_MAGNIFY_ON_GUIDE_2,För extrema närbilder
+KEY_SELFTIMER_10_GUIDE,Bilden tas 10 sekunder efter
+KEY_SELFTIMER_10_GUIDE_2,det att avtryckaren trycks ned
+KEY_SELFTIMER_2_GUIDE,Bilden tas 2 sekunder efter
+KEY_SELFTIMER_2_GUIDE_2,det att avtryckaren trycks ned
+KEY_SELFTIMER_OFF_GUIDE,Självutlösare av
+KEY_SELFTIMER_OFF_GUIDE_2,
+MSG_ACCESSING,Access…
+MSG_AVI_MAKING,Skapar ny bildhanteringsfil…
+MSG_CAPTURING,Lagring pågår…
+MSG_CLOSEEYE_DETECT,Blundning upptäckt
+MSG_CONFIRM_UPDATE,Välj OK för att uppdatera
+MSG_CONFIRM_UPDATE_2,
+MSG_CONNECTING,Ansluter…
+MSG_CONNECTING_MASSSTORAGE,Ansluter till Mass Storage-enhet…
+MSG_CONNECTING_MASSSTORAGE_2,
+MSG_CONNECTING_NETWORK,Ansluter till nätverket…
+MSG_CONNECTING_PICTBRIDGE,Ansluter till PictBridge-enhet
+MSG_CONNECTING_PICTBRIDGE_2,
+MSG_CONNECTING_PTPMTP,Ansluter till
+MSG_CONNECTING_PTPMTP_2,PTP/MTP…
+MSG_CONNECT_PC,Anslut till PC
+MSG_CONNECT_PC_2,
+MSG_CONNECT_PICTBRIDGE,Anslut till PictBridge-enhet
+MSG_CONNECT_PICTBRIDGE_2,
+MSG_COPY,Alla data i internminnet
+MSG_COPYING,Kopiering pågår…
+MSG_COPYING_2,
+MSG_COPY_2,kommer att kopieras
+MSG_CREATING_RECFOLDER,Skapar lagringsmapp
+MSG_CURRENTVERSION,Nuvarande version
+MSG_ENTRY_OVER,Maximalt antal bilder
+MSG_ENTRY_OVER_2,redan registrerade
+MSG_EXITTING_NETWORK,Avslutar nätverksanslutningen…
+MSG_FORMATTING_BGM,Formaterar Musik…
+MSG_FORMATTING_BGM_2,
+MSG_FORMATTING_INTERNALMEMORY,Formaterar internminnet…
+MSG_FORMATTING_INTERNALMEMORY_2,
+MSG_FORMATTING_MS,Formaterar Memory Stick…
+MSG_FORMATTING_MS_2,
+MSG_FORMAT_BGM,Alla musikfiler kommer att raderas
+MSG_FORMAT_BGM_2,
+MSG_FORMAT_INTERNALMEMORY,Alla data i internminnet
+MSG_FORMAT_INTERNALMEMORY_2,kommer att raderas
+MSG_FORMAT_MS,Alla data på Memory
+MSG_FORMAT_MS_2,Stick kommer att raderas
+MSG_FORWARDING,Dataöverföring pågår
+MSG_HOUSING,Manövern ändras
+MSG_INITIALIZE_ALLSETTINGS,Initialisera alla inställningar
+MSG_INITIALIZE_ALLSETTINGS_2,
+MSG_NEWVERSION,Ny version
+MSG_NOTTURNOFF,Stäng inte av kameran
+MSG_PASSLOCK_PASS_CANCEL,Lösenordsinställningen avbruten
+MSG_PASSLOCK_PASS_CANCEL_2,
+MSG_PASSLOCK_PASS_RESET,Lösenordet nollställt
+MSG_PASSLOCK_PASS_RESET_2,
+MSG_PASSLOCK_PASS_RESET_MODE,Läge för nollställning av lösenordet
+MSG_PASSLOCK_PASS_RESET_MODE_2,
+MSG_PASSLOCK_PASS_SET,Lösenordet inställt
+MSG_PASSLOCK_PASS_SET_2,
+MSG_PRINTING,Utskrift pågår…
+MSG_PROCESSING,Behandling pågår…
+MSG_RECORDING,Inspelning pågår…
+MSG_RECORD_MS,Lagrar på Memory Stick
+MSG_RECOVER,Återställ data
+MSG_RECOVERINGFILE,Återställer bildhanteringsfilen…
+MSG_RECOVERINGFILE_2,
+MSG_RECOVER_2,
+MSG_SEE_SOFTWAREUPDATE_INST,Se "uppdateringsanvisningarna"
+MSG_SEE_SOFTWAREUPDATE_INST_2,
+MSG_SMILEDEMO_GUIDE,Leenden fotograferas automatiskt
+MSG_SMILEDEMO_PROCESSING,Leendeavkänningsdemo pågår
+MSG_SMILESHUTTER_PROCESSING,Avkänner leende
+MSG_SMILE_END1,Antal tagna bilder
+MSG_SOFTWAREUPDATE,Mjukvaruuppdatering
+MSG_SOFTWAREUPDATE_2,
+MSG_STARTING_NETWORK,Startar nätverket…
+MSG_START_BROWSER,Startar webbläsaren…
+MSG_TOUCH_X_CENTER,Peka mitt på krysset
+MSG_TVOUT,TV-utmatning pågår…
+MSG_USBMENU,Slå på [MENU]
+PASSLOCK_PASS_CLEAR,Mata in nollställningskoden
+PASSLOCK_PASS_INPUT,Mata in lösenordet
+PASSLOCK_PASS_REINPUT,Mata in lösenordet igen
+PASSLOCK_PASS_SET,Lösenordsinställningar
+PBMENU_ALBUM_GUIDE,Återvänd till albumvisning
+PBMENU_ALBUM_GUIDE_2,
+PBMENU_BACKGROUND,Bakgrund
+PBMENU_BLOG_GUIDE,Krymp bilden och lagra den
+PBMENU_BLOG_GUIDE_2,som en ny bild
+PBMENU_DATEALL,Alla bilder i datumområdet
+PBMENU_DATEALL_CLEAR,Ta bort allt i datumområdet
+PBMENU_DATEALL_ENTRY,Lägg till allt i datumområdet
+PBMENU_DATEALL_SET,Markera allt i datumområdet
+PBMENU_DATELIST,Datumlista
+PBMENU_DATELIST_GUIDE,Välj visningsdatum
+PBMENU_DATELIST_GUIDE_2,
+PBMENU_DELETE,Radera
+PBMENU_DELETE_ALL_GUIDE,Radera alla bilder
+PBMENU_DELETE_ALL_GUIDE_2,i den här mappen
+PBMENU_DELETE_DATEALL_GUIDE,Radera alla bilder
+PBMENU_DELETE_DATEALL_GUIDE_2,inom detta datumområde
+PBMENU_DELETE_EVENTALL_GUIDE,Radera alla bilder för
+PBMENU_DELETE_EVENTALL_GUIDE_2,denna händelse
+PBMENU_DELETE_SELECT_GUIDE,Välj flera bilder
+PBMENU_DELETE_SELECT_GUIDE_2,och radera dem
+PBMENU_DELETE_SINGLE_GUIDE,Radera bilden
+PBMENU_DELETE_SINGLE_GUIDE_2,
+PBMENU_DPOF,DPOF
+PBMENU_DPOF_ALL_CLEAR_GUIDE,Ta bort utskriftsmarkeringar
+PBMENU_DPOF_ALL_CLEAR_GUIDE_2,för alla bilder i mappen
+PBMENU_DPOF_ALL_SET_GUIDE,Lägg till utskriftsmarkeringar
+PBMENU_DPOF_ALL_SET_GUIDE_2,för alla bilder i mappen
+PBMENU_DPOF_DATEALL_CLEAR_GUIDE,Ta bort utskriftsmarkeringar
+PBMENU_DPOF_DATEALL_CLEAR_GUIDE_2,för alla bilder i datumområdet
+PBMENU_DPOF_DATEALL_SET_GUIDE,Lägg till utskriftsmarkeringar
+PBMENU_DPOF_DATEALL_SET_GUIDE_2,för alla bilder i datumområdet
+PBMENU_DPOF_EVENTALL_CLEAR_GUIDE,Ta bort utskriftsmarker. för
+PBMENU_DPOF_EVENTALL_CLEAR_GUIDE_2,alla bilder för denna händelse
+PBMENU_DPOF_EVENTALL_SET_GUIDE,Lägg till utskriftsmarker. för
+PBMENU_DPOF_EVENTALL_SET_GUIDE_2,alla bilder för denna händelse
+PBMENU_DPOF_FAVALL_CLEAR_GUIDE,Ta bort utskriftsmarkeringar
+PBMENU_DPOF_FAVALL_CLEAR_GUIDE_2,för alla bilder i denna grupp
+PBMENU_DPOF_FAVALL_SET_GUIDE,Lägg till utskriftsmarkeringar
+PBMENU_DPOF_FAVALL_SET_GUIDE_2,för alla bilder i denna grupp
+PBMENU_DPOF_SELECT_GUIDE,Slå på/av utskriftsmarkering
+PBMENU_DPOF_SELECT_GUIDE_2,för valda bilder
+PBMENU_DPOF_SINGLE_GUIDE,Slå på/av utskriftsmarkering
+PBMENU_DPOF_SINGLE_GUIDE_2,för vald bild
+PBMENU_EDIT,Retuschering
+PBMENU_EDIT_BLOG_EMAIL,Blogg / Epostbilagor
+PBMENU_EDIT_BW,Partiell färg
+PBMENU_EDIT_BW_GUIDE,Gör området runt vald punkt
+PBMENU_EDIT_BW_GUIDE_2,svartvitt
+PBMENU_EDIT_CROSS,Korsfilter
+PBMENU_EDIT_CROSS_GUIDE,Lägg till stjärnreflexer för
+PBMENU_EDIT_CROSS_GUIDE_2,ljusa punkter i bilden
+PBMENU_EDIT_FISHEYE,Fisheye-objektiv
+PBMENU_EDIT_FISHEYE_GUIDE,Skapa en fisheye-effekt
+PBMENU_EDIT_FISHEYE_GUIDE_2,runt vald punkt
+PBMENU_EDIT_HDTV,HDTV
+PBMENU_EDIT_RADIATION,Suddiga strålar
+PBMENU_EDIT_RADIATION_GUIDE,Skapa suddiga strålar från
+PBMENU_EDIT_RADIATION_GUIDE_2,vald punkt i bilden
+PBMENU_EDIT_REDEYE,Rödögekorrigering
+PBMENU_EDIT_REDEYE_GUIDE,Undvik röda ögon som
+PBMENU_EDIT_REDEYE_GUIDE_2,beror på blixtljus
+PBMENU_EDIT_RETRO2,Gammaldags
+PBMENU_EDIT_RETRO2_GUIDE,Gör kanterna suddigare
+PBMENU_EDIT_RETRO2_GUIDE_2,för en gammaldags effekt
+PBMENU_EDIT_SHARPFOUCS,Förstärkt skärpa
+PBMENU_EDIT_SHARPFOUCS_GUIDE,Gör bilden skarpare runt
+PBMENU_EDIT_SHARPFOUCS_GUIDE_2,vald punkt
+PBMENU_EDIT_SMILE,Leenden
+PBMENU_EDIT_SMILE_GUIDE,Ändra ansikten till leenden
+PBMENU_EDIT_SMILE_GUIDE_2,
+PBMENU_EDIT_SOFTFOUCS,Mjuk skärpa
+PBMENU_EDIT_SOFTFOUCS_GUIDE,Gör området runt vald punkt
+PBMENU_EDIT_SOFTFOUCS_GUIDE_2,suddigt
+PBMENU_EDIT_TRIMMING,Trimma
+PBMENU_EDIT_TRIMMING_GUIDE,Klipp bort oönskade delar
+PBMENU_EDIT_TRIMMING_GUIDE_2,av bilden
+PBMENU_EVENTALL,Allt för denna händelse
+PBMENU_EVENTALL_CLEAR,Ta bort allt för denna händ.
+PBMENU_EVENTALL_ENTRY,Lägg till allt för denna händ.
+PBMENU_EVENTALL_SET,Välj allt för denna händelse
+PBMENU_EVENTLIST,Händelselista
+PBMENU_EVENTLIST_GUIDE,Välj en händelse att visa
+PBMENU_EVENTLIST_GUIDE_2,
+PBMENU_FAV,Favoriter
+PBMENU_FAV1,Favoriter 1
+PBMENU_FAV2,Favoriter 2
+PBMENU_FAV3,Favoriter 3
+PBMENU_FAV4,Favoriter 4
+PBMENU_FAV5,Favoriter 5
+PBMENU_FAV6,Favoriter 6
+PBMENU_FAVALL,Alla i Favoriter
+PBMENU_FAVALL_CLEAR,Ta bort allt från Favoriter
+PBMENU_FAVALL_ENTRY,Lägg till allt som Favoriter
+PBMENU_FAVALL_SET,Markera allt i denna grupp
+PBMENU_FAV_ALL_CLEAR_GUIDE,Ta bort alla bilder från
+PBMENU_FAV_ALL_CLEAR_GUIDE_2,Favoriter
+PBMENU_FAV_CLEAR,Ta bort Favoriter
+PBMENU_FAV_CLEAR_DATEALL_GUIDE,Ta bort alla bilder inom detta
+PBMENU_FAV_CLEAR_DATEALL_GUIDE_2,datumområde från Favoriter
+PBMENU_FAV_CLEAR_EVENTALL_GUIDE,Ta bort alla bilder för denna
+PBMENU_FAV_CLEAR_EVENTALL_GUIDE_2,händelse från Favoriter
+PBMENU_FAV_ENTRY,Lägg till som Favoriter
+PBMENU_FAV_ENTRY_DATEALL_GUIDE,Lägg till alla bilder inom detta
+PBMENU_FAV_ENTRY_DATEALL_GUIDE_2,datumområde till Favoriter
+PBMENU_FAV_ENTRY_EVENTALL_GUIDE,Lägg till alla bilder för denna
+PBMENU_FAV_ENTRY_EVENTALL_GUIDE_2,händelse som Favoriter
+PBMENU_FAV_SELECT_GUIDE,Lägg till/ta bort valda bilder
+PBMENU_FAV_SELECT_GUIDE_2,från Favoriter
+PBMENU_FAV_SET,Lägg till/ta bort Favoriter
+PBMENU_FAV_SINGLE_GUIDE,Lägg till/ta bort denna bild
+PBMENU_FAV_SINGLE_GUIDE_2,från Favoriter
+PBMENU_FOLDERALL,Alla i mappen
+PBMENU_FOLDERALL_CLEAR,Radera allt i mappen
+PBMENU_FOLDERALL_ENTRY,Lägg till allt i mappen
+PBMENU_FOLDERALL_SET,Välj allt i mappen
+PBMENU_FOLDERJUMP,Välj mapp
+PBMENU_FRAME,Bildruta
+PBMENU_HDTV_GUIDE,Skär bilden till 16:9-format
+PBMENU_HDTV_GUIDE_2,och lagra den som en ny bild
+PBMENU_IMAGESAVE,Spara som en bild
+PBMENU_MULTIPLEIMAGES,Flera bilder
+PBMENU_MULTIPLEPAGESAVE,Välj sidor och spara dem
+PBMENU_MULTIRESIZE,Olika storleksändringsmöjl.
+PBMENU_PAGESAVE,Spara denna sida
+PBMENU_PAINT,Måla
+PBMENU_PAINT_GUIDE,Måla eller stämpla på bilden
+PBMENU_PAINT_GUIDE_2,eller rama in den
+PBMENU_PBFOLDER_GUIDE,Välj uppspelningsmapp
+PBMENU_PBFOLDER_GUIDE_2,
+PBMENU_PRINT_ALL_GUIDE,Skriv ut alla bilder i mappen
+PBMENU_PRINT_ALL_GUIDE_2,
+PBMENU_PRINT_DATEALL_GUIDE,Skriv ut alla bilder inom
+PBMENU_PRINT_DATEALL_GUIDE_2,detta datumområde
+PBMENU_PRINT_EVENTALL_GUIDE,Skriv ut alla bilder
+PBMENU_PRINT_EVENTALL_GUIDE_2,för denna händelse
+PBMENU_PRINT_FAVALL_GUIDE,Skriv ut alla bilder i
+PBMENU_PRINT_FAVALL_GUIDE_2,denna Favoritgrupp
+PBMENU_PRINT_SELECT_GUIDE,Skriv ut flera valda bilder
+PBMENU_PRINT_SELECT_GUIDE_2,
+PBMENU_PRINT_SINGLE_GUIDE,Skriv ut bilder
+PBMENU_PRINT_SINGLE_GUIDE_2,
+PBMENU_PROTECT,Skydda
+PBMENU_PROTECT_ALL_CLEAR_GUIDE,Ta bort bildskyddet för
+PBMENU_PROTECT_ALL_CLEAR_GUIDE_2,alla bilder i mappen
+PBMENU_PROTECT_ALL_SET_GUIDE,Slå på bildskyddet för
+PBMENU_PROTECT_ALL_SET_GUIDE_2,alla bilder i mappen
+PBMENU_PROTECT_DATEALL_CLEAR_GUIDE,Ta bort skyddet för alla bilder
+PBMENU_PROTECT_DATEALL_CLEAR_GUIDE_2,inom detta datumområde
+PBMENU_PROTECT_DATEALL_SET_GUIDE,Skydda alla bilder
+PBMENU_PROTECT_DATEALL_SET_GUIDE_2,inom detta datumområde
+PBMENU_PROTECT_EVENTALL_CLEAR_GUIDE,Ta bort skyddet för alla bilder
+PBMENU_PROTECT_EVENTALL_CLEAR_GUIDE_2,för denna händelse
+PBMENU_PROTECT_EVENTALL_SET_GUIDE,Slå på skyddet för alla bilder
+PBMENU_PROTECT_EVENTALL_SET_GUIDE_2,för denna händelse
+PBMENU_PROTECT_FAVALL_CLEAR_GUIDE,Ta bort skyddet för alla bilder
+PBMENU_PROTECT_FAVALL_CLEAR_GUIDE_2,i denna grupp
+PBMENU_PROTECT_FAVALL_SET_GUIDE,Skydda alla bilder
+PBMENU_PROTECT_FAVALL_SET_GUIDE_2,i denna grupp
+PBMENU_PROTECT_SELECT_GUIDE,Bildskydd på/av
+PBMENU_PROTECT_SELECT_GUIDE_2,för valda bilder
+PBMENU_PROTECT_SINGLE_GUIDE,Bildskydd på/av
+PBMENU_PROTECT_SINGLE_GUIDE_2,
+PBMENU_REFINE,Filtrering mha ansikten
+PBMENU_REFINE_BABY,Småbarn
+PBMENU_REFINE_BABY_GUIDE,Hitta och visa bilder
+PBMENU_REFINE_BABY_GUIDE_2,med småbarnsansikten
+PBMENU_REFINE_CHILD,Barn
+PBMENU_REFINE_CHILD_GUIDE,Hitta och visa bilder
+PBMENU_REFINE_CHILD_GUIDE_2,med barnansikten
+PBMENU_REFINE_CLEAR_GUIDE,Visa alla bilder
+PBMENU_REFINE_CLEAR_GUIDE_2,
+PBMENU_REFINE_FACE,Alla människor
+PBMENU_REFINE_FACE_GUIDE,Hitta och visa bilder
+PBMENU_REFINE_FACE_GUIDE_2,med ansikten
+PBMENU_REFINE_SMILE,Leenden
+PBMENU_REFINE_SMILE_GUIDE,Hitta och visa bilder
+PBMENU_REFINE_SMILE_GUIDE_2,med leende ansikten
+PBMENU_ROTATE,Rotera
+PBMENU_ROTATE_GUIDE,Vrid bilder
+PBMENU_ROTATE_GUIDE_2,
+PBMENU_SCRAPBOOKALLSAVE,Spara alla sidor i Klippboken
+PBMENU_SCRAPBOOKALL_GUIDE,Spara alla sidor i Klippboken
+PBMENU_SCRAPBOOKALL_GUIDE_2,som bilder
+PBMENU_SHARE_CLEAR,Ta bort Delade-markeringar
+PBMENU_SHARE_CLEAR_DATEALL_GUIDE,Ta bort alla bilder inom detta
+PBMENU_SHARE_CLEAR_DATEALL_GUIDE_2,datumområde från Delade
+PBMENU_SHARE_CLEAR_EVENTALL_GUIDE,Ta bort alla bilder för denna
+PBMENU_SHARE_CLEAR_EVENTALL_GUIDE_2,händelse från Delade
+PBMENU_SHARE_CLEAR_FAVALL_GUIDE,Ta bort alla bilder i denna
+PBMENU_SHARE_CLEAR_FAVALL_GUIDE_2,grupp från Delade
+PBMENU_SHARE_ENTRY,Lägg till som Delade
+PBMENU_SHARE_ENTRY_DATEALL_GUIDE,Lägg till alla bilder inom detta
+PBMENU_SHARE_ENTRY_DATEALL_GUIDE_2,datumområde som Delade
+PBMENU_SHARE_ENTRY_EVENTALL_GUIDE,Lägg till alla bilder för denna
+PBMENU_SHARE_ENTRY_EVENTALL_GUIDE_2,händelse som Delade
+PBMENU_SHARE_ENTRY_FAVALL_GUIDE,Lägg till alla bilder i denna
+PBMENU_SHARE_ENTRY_FAVALL_GUIDE_2,grupp som Delade
+PBMENU_SHARE_SELECT_GUIDE,Lägg till/ta bort valda bilder
+PBMENU_SHARE_SELECT_GUIDE_2,från Delade
+PBMENU_SHARE_SET,Lägg till/ta bort Delade
+PBMENU_SHARE_SINGLE_GUIDE,Lägg till/ta bort denna bild
+PBMENU_SHARE_SINGLE_GUIDE_2,från Delade
+PBMENU_SLIDESHOW_GUIDE,Automatisk uppspelning med
+PBMENU_SLIDESHOW_GUIDE_2,musik och effekter
+PBMENU_THISIMAGE,Denna bild
+PBMENU_THISPAGE_GUIDE,Spara denna sida i
+PBMENU_THISPAGE_GUIDE_2,Klippboken som en bild
+PBMENU_VIEWSELECT,Visningssätt
+PBMENU_VOLUMESETTINGS,Volyminställning
+PBMENU_VOLUME_GUIDE,Volyminställning för
+PBMENU_VOLUME_GUIDE_2,bildspel/filmuppspelning
+PBMENU_WIDEZOOM,Bredzoom
+PBMENU_WSCREEN_GUIDE,Skär bilden till 16:9-format
+PBMENU_WSCREEN_GUIDE_2,och visa den
+PRINTMENU_10X15CM,10x15 cm
+PRINTMENU_1PICBORDER,1 bild med ram
+PRINTMENU_1PICNOBORDER,1 bild utan ram
+PRINTMENU_2L,13x18 cm
+PRINTMENU_2PICS,2 bilder
+PRINTMENU_3PICS,3 bilder
+PRINTMENU_4PICS,4 bilder
+PRINTMENU_4X6,4x6"
+PRINTMENU_8PICS,8 bilder
+PRINTMENU_A3,A3
+PRINTMENU_A3PLUS,A3+
+PRINTMENU_A4,A4
+PRINTMENU_A6,A6
+PRINTMENU_DATE,Datum
+PRINTMENU_DATE_A,Datum
+PRINTMENU_DAYANDTIME,Datum&klocka
+PRINTMENU_HAGAKI,Vykort
+PRINTMENU_HDTV,Bredbild
+PRINTMENU_INDEX,Index
+PRINTMENU_INDEXPRINT,Indexutskrift
+PRINTMENU_L,9x13 cm
+PRINTMENU_LETTER,Letter
+PRINTMENU_PICTUREINPAPER,Layout
+PRINTMENU_QUANTITY,Antal
+PRINTMENU_SIZE,Storlek
+SAVE,Spara
+SETUP_AFILLUMINATOR,AF-lampa
+SETUP_AFILLUMINATOR_GUIDE2,Hjälplampa f. skärpeinst. i svag
+SETUP_AFILLUMINATOR_GUIDE2_2,belysn.
+SETUP_AFMODE,AF-metod
+SETUP_AFMODE_GUIDE2,Autofokusinställningar
+SETUP_AFMODE_GUIDE2_2,
+SETUP_AUTOREVIEW,Autom. granskning
+SETUP_AUTOREVIEW_GUIDE2,Granska bilder 2 s efter tagning
+SETUP_AUTOREVIEW_GUIDE2_2,
+SETUP_BEEP,Pip
+SETUP_BEEP_GUIDE2,Pipinställningar
+SETUP_BEEP_GUIDE2_2,
+SETUP_BGMTOOL_DOWNLOAD_GUIDE2,Byt bildspelsmusik
+SETUP_BGMTOOL_DOWNLOAD_GUIDE2_2,
+SETUP_BGMTOOL_FORMAT_GUIDE2,Radera all bildspelsmusik
+SETUP_BGMTOOL_FORMAT_GUIDE2_2,
+SETUP_BGM_DOWNLOAD,Ladda ner musik
+SETUP_BGM_FORMAT,Formatera musik
+SETUP_CALIBRATION,Kalibrering
+SETUP_CAM1,Tagningsinställningar 1
+SETUP_CAM2,Tagningsinställningar 2
+SETUP_CHANGERECFOLDER,Byt lagringsmapp
+SETUP_CLOCK_GUIDE2,Ändra datum & klocka
+SETUP_CLOCK_GUIDE2_2,
+SETUP_COMPONENT,COMPONENT
+SETUP_COMPONENT_D1,SD
+SETUP_COMPONENT_D3,HD(1080i)
+SETUP_COMPONENT_GUIDE2,Inställningar för
+SETUP_COMPONENT_GUIDE2_2,komponentutgångarna
+SETUP_CONTROLGUIDE,Manöverguide
+SETUP_CONTROLGUIDE_GUIDE,Visning av manöverguide
+SETUP_CONVERSION_GUIDE2,Välj konverter
+SETUP_CONVERSION_GUIDE2_2,
+SETUP_COPY,Kopiera
+SETUP_CREATERECFOLDER,Skapa lagringsmapp
+SETUP_DEMOMODE,Demonstrationsläge
+SETUP_DEMOMODE_GUIDE,Demonstrationsläget på/av
+SETUP_DEMOMODE_GUIDE_2,
+SETUP_DIGITALZOOM,Digital zoom
+SETUP_DIGITALZOOM_PRECISION,Precision
+SETUP_DIGITALZOOM_SMART,Smart
+SETUP_DIRECTIONJUDGE,Auto-rotering
+SETUP_DIRECTIONJUDGE_GUIDE2,Avgör kamerariktning och lagra
+SETUP_DIRECTIONJUDGE_GUIDE2_2,bilden
+SETUP_DISP,Visningsinställningar
+SETUP_DISP_09,9
+SETUP_DISP_12,12
+SETUP_DISP_16,16
+SETUP_DISP_20,20
+SETUP_DISP_BRIGHT,Ljus
+SETUP_DISP_BRIGHTNESS,LCD-ljusstyrka
+SETUP_DISP_BRIGHTNESSSET,Ljusstyrka
+SETUP_DISP_HISTOGRAMSET,Histogram
+SETUP_DISP_IMAGEONLY,Endast bild
+SETUP_DISP_INDEX,Bildindexinställningar
+SETUP_DISP_MSG_GRAPH_OFF,Diagram visas ej
+SETUP_DISP_MSG_GRAPH_ON,Bildens ljusstyrka visas som diagram
+SETUP_DISP_MSG_ICON,Endast manöverknapparna visas
+SETUP_DISP_MSG_IMAGE,Endast bilden visas
+SETUP_DISP_MSG_INFO,Manöverknappar och information visas
+SETUP_DISP_MSG_LIGHT_BRIGHT,Ljusare skärm
+SETUP_DISP_MSG_LIGHT_NORMAL,Normal ljusstyrka för skärmen
+SETUP_DISP_MSG_THUMBNAIL_09,Indexskärm med 9 bilder
+SETUP_DISP_MSG_THUMBNAIL_12,Indexskärm med 12 bilder
+SETUP_DISP_MSG_THUMBNAIL_16,Indexskärm med 16 bilder
+SETUP_DISP_MSG_THUMBNAIL_20,Indexskärm med 20 bilder
+SETUP_DISP_MSG_WIDEZOOMSET_OFF,Bilder visas med urspr. bildförhållande
+SETUP_DISP_MSG_WIDEZOOMSET_ON,Bilder visas över hela skärmen
+SETUP_DISP_OFF,Av
+SETUP_DISP_ON,På
+SETUP_DISP_OPT,Antal bilder
+SETUP_DISP_PLAY,Uppspelningsskärmsinställningar
+SETUP_DISP_SHOOT,Tagningsskärmsinställningar
+SETUP_DISP_WIDEZOOMSET,Bredzoom
+SETUP_EXPANDEDFOUCS_GUIDE2,Förstora mitten vid manuell .
+SETUP_EXPANDEDFOUCS_GUIDE2_2,skärpeinst
+SETUP_EZOOM_GUIDE2,Digitala zoominställningar
+SETUP_EZOOM_GUIDE2_2,
+SETUP_FLASHSYNCHRO_GUIDE2,Välj blixtsynkronisering
+SETUP_FLASHSYNCHRO_GUIDE2_2,
+SETUP_FORMAT,Formatera
+SETUP_FUNCTIONGUIDE,Funktionsguide
+SETUP_FUNCTIONGUIDE_GUIDE2,Funktionsguideinställningar
+SETUP_FUNCTIONGUIDE_GUIDE2_2,
+SETUP_GRIDLINE,Rutnät
+SETUP_GRIDLINE_GUIDE2,Riktlinjer för bildkomposition
+SETUP_GRIDLINE_GUIDE2_2,
+SETUP_HOUSING,Undervattenshus
+SETUP_INITIALIZE,Initialisera
+SETUP_INITIALIZE_GUIDE2,Återställning till standardinställn.
+SETUP_INITIALIZE_GUIDE2_2,
+SETUP_INTERNALMEMORY_FORMAT_GUIDE2,Formatera internminnet
+SETUP_INTERNALMEMORY_FORMAT_GUIDE2_2,
+SETUP_LANG,SVENSKA
+SETUP_LANG_5WAY,SVENSKA
+SETUP_LCD_RESPOINT_GUIDE2,Justera skärmens
+SETUP_LCD_RESPOINT_GUIDE2_2,peksvarsposition
+SETUP_LUNSET,LUN-inställningar
+SETUP_LUNSET_GUIDE,Välj lagringsmedium att ansluta
+SETUP_LUNSET_GUIDE_2,som Mass Storage-enhet
+SETUP_LUNSET_MULTI,Multi
+SETUP_LUNSET_SINGLE,Enkel
+SETUP_MAIN1,Huvudinställningar 1
+SETUP_MAIN2,Huvudinställningar 2
+SETUP_MAIN3,Huvudinställningar 3
+SETUP_MARINEPACK_GUIDE2,Slå PÅ när undervattenshuset
+SETUP_MARINEPACK_GUIDE2_2,används
+SETUP_MASSSTORAGE,Mass Storage
+SETUP_MONITOR,Övervakning
+SETUP_MS_COPY_CHANGE_GUIDE2,Kopiera alla bilder från
+SETUP_MS_COPY_CHANGE_GUIDE2_2,internminnet
+SETUP_MS_FOLDER_CHANGE_GUIDE2,Byt bildlagringsmapp
+SETUP_MS_FOLDER_CHANGE_GUIDE2_2,
+SETUP_MS_FOLDER_CREATE_GUIDE2,Skapa en ny mapp
+SETUP_MS_FOLDER_CREATE_GUIDE2_2,
+SETUP_MS_FORMAT_GUIDE2,Formatera Memory Stick
+SETUP_MS_FORMAT_GUIDE2_2,
+SETUP_NTSC,NTSC
+SETUP_PAL,PAL
+SETUP_PASSLOCK,Lås med lösenord
+SETUP_PASSLOCK_GUIDE,Ställ in ett lösenord för att låsa
+SETUP_PASSLOCK_GUIDE_2,bilderna
+SETUP_PICTBRIDGE,PictBridge
+SETUP_PTPMTP,PTP/MTP
+SETUP_SHUTTER,Slutare
+SETUP_SINGLE,Engångs
+SETUP_SMILEDEMO,Leende-demo
+SETUP_SMILEDEMO_GUIDE2,Demoläget för leendeavkänning
+SETUP_SMILEDEMO_GUIDE2_2,på/av
+SETUP_TVTYPE,TV-TYP
+SETUP_TVTYPE_GUIDE2,Aspekt för ansluten TV
+SETUP_TVTYPE_GUIDE2_2,
+SETUP_UPDATE,Uppdatera
+SETUP_USBCONNECT,USB-anslutning
+SETUP_USBCONNECT_GUIDE2,Utmatningsläge vid
+SETUP_USBCONNECT_GUIDE2_2,USB-anslutning
+SETUP_VERSION,Version
+SETUP_VERSION_GUIDE2,Kontr. vers. och uppdatera
+SETUP_VERSION_GUIDE2_2,firmware
+SETUP_VIDEOOUT,Video ut
+SETUP_VIDEOOUT_GUIDE2,Utmatningsläge vid
+SETUP_VIDEOOUT_GUIDE2_2,videoanslutning
+SSMENU_10SEC,10 s
+SSMENU_1SEC,1 s
+SSMENU_3SEC,3 s
+SSMENU_5SEC,5 s
+SSMENU_ACTIVE,Aktivt
+SSMENU_ALL,Allt
+SSMENU_BASIC,Grundläggande
+SSMENU_DETAIL,Övriga inst.
+SSMENU_EFFECTS,Effekter
+SSMENU_FACE_BASIC,Ansikte1: Grundlägg.
+SSMENU_FACE_NOSTALGIC,Ansikte2: Nostalgiskt
+SSMENU_FACE_STYLISH,Ansikte3: Elegant
+SSMENU_IMAGE,Bilder
+SSMENU_INFOLDER,Mapp
+SSMENU_INTERVAL,Intervall
+SSMENU_MUSIC,Musik
+SSMENU_MUSIC1,Music1
+SSMENU_MUSIC2,Music2
+SSMENU_MUSIC3,Music3
+SSMENU_MUSIC4,Music4
+SSMENU_MUSIC5,Music5
+SSMENU_MUSIC6,Music6
+SSMENU_MUSIC7,Music7
+SSMENU_MUSIC8,Music8
+SSMENU_NORMAL_A,Normalt
+SSMENU_NOSTALGIC,Nostalgiskt
+SSMENU_REFINE,Filtrering
+SSMENU_REPEAT,Upprepa
+SSMENU_SIMPLE,Enkelt
+SSMENU_STYLISH,Elegant
+SSMENU_THIS_DATE,Detta datum
+SSMENU_THIS_EVENT,Denna händelse

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jpeg-theme xmlns="http://www.sony.co.jp/xScrapbook/1">
+	<first-frame background="SB_sky_0.jpg" alpha="SB_sky_alpha_0.jpg">
+	<photo left="632" top="186" width="1140" height="1080" order="0"/>
+	</first-frame>
+	<frame-1 background="SB_sky_01.jpg" alpha="SB_sky_alpha_01.jpg">
+	<photo left="168" top="188" width="1146" height="1072" order="0"/>
+	</frame-1>
+	<frame-2 background="SB_sky_02.jpg" alpha="SB_sky_alpha_02.jpg">
+	<photo left="114" top="244" width="960" height="954" order="0"/>
+	<photo left="1074" top="480" width="826" height="752" order="1"/>
+	</frame-2>
+	<frame-3 background="SB_sky_03.jpg" alpha="SB_sky_alpha_03.jpg">
+	<photo left="84" top="294" width="768" height="778" order="0"/>
+	<photo left="1122" top="178" width="814" height="798" order="1"/>
+	<photo left="782" top="676" width="684" height="620" order="2"/>
+	</frame-3>
+	<frame-4 background="SB_sky_04.jpg" alpha="SB_sky_alpha_04.jpg">
+	<photo left="512" top="168" width="600" height="558" order="0"/>
+	<photo left="1188" top="168" width="678" height="644" order="1"/>
+	<photo left="210" top="720" width="636" height="608" order="2"/>
+	<photo left="936" top="768" width="600" height="558" order="3"/>
+	</frame-4>
+</jpeg-theme>

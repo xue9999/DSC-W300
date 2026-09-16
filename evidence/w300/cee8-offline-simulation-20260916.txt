@@ -1,0 +1,49 @@
+[SIMULATION ONLY] Assumed profile; no physical camera validation or language change.
+[SIMULATION:LIFECYCLE] ======================================================================
+[SIMULATION:LIFECYCLE] STARTING FULL DSC-W300 CEE8 PROGRAMMING LIFECYCLE
+[SIMULATION:LIFECYCLE] ======================================================================
+[SIMULATION:DETECT] Probing USB bus for Sony Cyber-shot DSC-W300...
+[SIMULATION:DETECT] Device detected: VID 0x054C, PID 0x031B (MASS_STORAGE)
+[SIMULATION:SWITCH] Issuing Vendor Control Switch request (0x43, 1, 0x37FF, 0xD7AA)...
+[SIMULATION:USB] USB Control Request bmReq=0x43 bReq=0x01 wVal=0x37FF wIdx=0xD7AA
+[SIMULATION:SWITCH] Camera acknowledged switch. Re-enumerated as Senser device (PID 0x02A9).
+[SIMULATION:AUTH] Initiating 3-round Senser authentication handshake...
+[SIMULATION:AUTH] Auth Round 1 Step 1 response code: ret=2
+[SIMULATION:AUTH] Auth Round 1 Step 2 verification code: ret=4
+[SIMULATION:AUTH] Auth Round 2 Step 1 response code: ret=2
+[SIMULATION:AUTH] Auth Round 2 Step 2 verification code: ret=4
+[SIMULATION:AUTH] Auth Round 3 Step 1 response code: ret=2
+[SIMULATION:AUTH] Auth Round 3 Step 2 verification code: ret=4
+[SIMULATION:AUTH] Auth Step 3 finalization: ret=6, status=0x01
+[SIMULATION:AUTH] Authentication successful! Senser service channel open.
+[SIMULATION:READ] --- BASELINE INSPECTION ---
+[SIMULATION:READ] Reading persistent properties from camera NVM...
+[SIMULATION:INFO] Camera Model: W300
+[SIMULATION:INFO] Serial Number: 1458291
+[SIMULATION:INFO] Current Destination: J1
+[SIMULATION:INFO] Video Standard: NTSC
+[SIMULATION:INFO] Active Languages (1): Japanese (ja)
+[SIMULATION:UNLOCK] --- SERVICE BOARD UNLOCK ---
+[SIMULATION:UNLOCK] Transmitting Service Board ID1 Unlock packet...
+[SIMULATION:UNLOCK] Service Board ID1 write protection successfully cleared!
+[SIMULATION:WRITE] --- CEE8 PAYLOAD WRITE ---
+[SIMULATION:WRITE] Staging CEE8 regional parameters into volatile RAM...
+[SIMULATION:WRITE] CEE8 parameters staged in camera RAM successfully.
+[SIMULATION:COMMIT] --- FLASH COMMIT ---
+[SIMULATION:COMMIT] Transmitting Flash Commit packet (BACKUP_SAVE)...
+[SIMULATION:COMMIT] NOR Flash commit successful! NVM checksums updated permanently.
+[SIMULATION:VERIFY] --- VERIFICATION READBACK ---
+[SIMULATION:READ] Reading persistent properties from camera NVM...
+[SIMULATION:INFO] Camera Model: W300
+[SIMULATION:INFO] Serial Number: 1458291
+[SIMULATION:INFO] Current Destination: CEE8
+[SIMULATION:INFO] Video Standard: PAL
+[SIMULATION:INFO] Active Languages (19): English (en), French (fr), German (de), Spanish (es), Italian (it), Portuguese (pt), Dutch (nl), Swedish (sv), Norwegian (no), Danish (da), Finnish (fi), Polish (pl), Czech (cs), Hungarian (hu), Turkish (tr), Greek alt, Turkish alt, Czech alt, Hungarian alt
+[SIMULATION:VERIFY] VERIFICATION CONFIRMED: CEE8 Active, Polish Available, PAL Video Configured.
+[SIMULATION:RESET] --- CLEAN REBOOT ---
+[SIMULATION:RESET] Issuing Vendor Reboot Request (0x43, 1, 0xC800, 0x2855)...
+[SIMULATION:USB] USB Control Request bmReq=0x43 bReq=0x01 wVal=0xC800 wIdx=0x2855
+[SIMULATION:RESET] Camera cleanly rebooted into retail operational mode.
+[SIMULATION:LIFECYCLE] ======================================================================
+[SIMULATION:LIFECYCLE] LIFECYCLE COMPLETED SUCCESSFULLY
+[SIMULATION:LIFECYCLE] ======================================================================

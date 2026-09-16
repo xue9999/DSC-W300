@@ -1,0 +1,31 @@
+config 2 400
+
+screen 0 /usr/body/bin/ass/img/updating
+imagebox 0  82 128  16  16 /usr/body/bin/ass/img/normal
+imagebox 0 110 128  16  16 /usr/body/bin/ass/img/normal
+imagebox 0 138 128  16  16 /usr/body/bin/ass/img/normal
+imagebox 0 166 128  16  16 /usr/body/bin/ass/img/normal
+imagebox 0 194 128  16  16 /usr/body/bin/ass/img/normal
+imagebox 0 222 128  16  16 /usr/body/bin/ass/img/normal
+imagebox 0  82 151  16  16 /usr/body/bin/ass/img/normal
+imagebox 0 110 151  16  16 /usr/body/bin/ass/img/normal
+imagebox 0 138 151  16  16 /usr/body/bin/ass/img/normal
+imagebox 0 166 151  16  16 /usr/body/bin/ass/img/normal
+imagebox 0 194 151  16  16 /usr/body/bin/ass/img/normal
+imagebox 0 222 151  16  16 /usr/body/bin/ass/img/normal
+
+screen 1 /usr/body/bin/ass/img/updating
+imagebox 1  82 128  16  16 /usr/body/bin/ass/img/focus
+imagebox 1 110 128  16  16 /usr/body/bin/ass/img/normal
+imagebox 1 138 128  16  16 /usr/body/bin/ass/img/normal
+imagebox 1 166 128  16  16 /usr/body/bin/ass/img/normal
+imagebox 1 194 128  16  16 /usr/body/bin/ass/img/normal
+imagebox 1 222 128  16  16 /usr/body/bin/ass/img/normal
+imagebox 1  82 151  16  16 /usr/body/bin/ass/img/normal
+imagebox 1 110 151  16  16 /usr/body/bin/ass/img/normal
+imagebox 1 138 151  16  16 /usr/body/bin/ass/img/normal
+imagebox 1 166 151  16  16 /usr/body/bin/ass/img/normal
+imagebox 1 194 151  16  16 /usr/body/bin/ass/img/normal
+imagebox 1 222 151  16  16 /usr/body/bin/ass/img/normal
+
+flip

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jpeg-theme xmlns="http://www.sony.co.jp/xScrapbook/1">
+	<first-frame background="SB_sports_0.jpg" alpha="SB_sports_alpha_0.jpg">
+	<photo left="764" top="212" width="1284" height="1124" order="0"/>
+	</first-frame>
+	<frame-1 background="SB_sports_01.jpg" alpha="SB_sports_alpha_01.jpg">
+	<photo left="302" top="206" width="1442" height="1126" order="0"/>
+	</frame-1>
+	<frame-2 background="SB_sports_02.jpg" alpha="SB_sports_alpha_02.jpg">
+	<photo left="146" top="200" width="1102" height="858" order="0"/>
+	<photo left="882" top="606" width="998" height="746" order="1"/>
+	</frame-2>
+	<frame-3 background="SB_sports_03.jpg" alpha="SB_sports_alpha_03.jpg">
+	<photo left="156" top="274" width="690" height="938" order="0"/>
+	<photo left="1076" top="90" width="820" height="786" order="1"/>
+	<photo left="804" top="750" width="814" height="608" order="2"/>
+	</frame-3>
+	<frame-4 background="SB_sports_04.jpg" alpha="SB_sports_alpha_04.jpg">
+	<photo left="144" top="190" width="884" height="602" order="0"/>
+	<photo left="1044" top="742" width="846" height="616" order="1"/>
+	<photo left="232" top="792" width="760" height="572" order="2"/>
+	<photo left="1032" top="172" width="756" height="568" order="3"/>
+	</frame-4>
+</jpeg-theme>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jpeg-theme xmlns="http://www.sony.co.jp/xScrapbook/1">
+	<first-frame background="SB_leather_0.jpg" alpha="SB_leather_alpha_0.jpg">
+	<photo left="332" top="0" width="1726" height="1264" order="0"/>
+	</first-frame>
+	<frame-1 background="SB_leather_01.jpg" alpha="SB_leather_alpha_01.jpg">
+	<photo left="318" top="190" width="1444" height="1148" order="0"/>
+	</frame-1>
+	<frame-2 background="SB_leather_02.jpg" alpha="SB_leather_alpha_02.jpg">
+	<photo left="358" top="182" width="670" height="866" order="0"/>
+	<photo left="1028" top="522" width="840" height="794" order="1"/>
+	</frame-2>
+	<frame-3 background="SB_leather_03.jpg" alpha="SB_leather_alpha_03.jpg">
+	<photo left="128" top="180" width="918" height="774" order="0"/>
+	<photo left="1308" top="224" width="634" height="910" order="1"/>
+	<photo left="484" top="702" width="824" height="610" order="2"/>
+	</frame-3>
+	<frame-4 background="SB_leather_04.jpg" alpha="SB_leather_alpha_04.jpg">
+	<photo left="258" top="182" width="618" height="628" order="0"/>
+	<photo left="1132" top="204" width="784" height="772" order="1"/>
+	<photo left="132" top="810" width="600" height="546" order="2"/>
+	<photo left="882" top="664" width="560" height="714" order="3"/>
+	</frame-4>
+</jpeg-theme>

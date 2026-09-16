@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jpeg-theme xmlns="http://www.sony.co.jp/xScrapbook/1">
+	<first-frame background="SB_brazilian_0.jpg" alpha="SB_brazilian_alpha_0.jpg">
+	<photo left="716" top="228" width="1100" height="1086" order="0"/>
+	</first-frame>
+	<frame-1 background="SB_brazilian_01.jpg" alpha="SB_brazilian_alpha_01.jpg">
+	<photo left="378" top="210" width="1332" height="1186" order="0"/>
+	</frame-1>
+	<frame-2 background="SB_brazilian_02.jpg" alpha="SB_brazilian_alpha_02.jpg">
+	<photo left="126" top="196" width="978" height="1094" order="0"/>
+	<photo left="1104" top="528" width="814" height="808" order="1"/>
+	</frame-2>
+	<frame-3 background="SB_brazilian_03.jpg" alpha="SB_brazilian_alpha_03.jpg">
+	<photo left="110" top="214" width="848" height="858" order="0"/>
+	<photo left="1230" top="196" width="712" height="672" order="1"/>
+	<photo left="840" top="650" width="680" height="678" order="2"/>
+	</frame-3>
+	<frame-4 background="SB_brazilian_04.jpg" alpha="SB_brazilian_alpha_04.jpg">
+	<photo left="110" top="168" width="720" height="630" order="0"/>
+	<photo left="1208" top="672" width="702" height="654" order="1"/>
+	<photo left="318" top="734" width="626" height="628" order="2"/>
+	<photo left="950" top="200" width="582" height="588" order="3"/>
+	</frame-4>
+</jpeg-theme>

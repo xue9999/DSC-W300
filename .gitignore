@@ -1,0 +1,32 @@
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Agent state and scratchpads
+.agents/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+
+# Large firmware images and raw binary blobs
+*.exe
+*.dat
+*.fdat
+*.img
+*.bin
+*.tar
+*.iso
+
+# Raw unpacked trees (keep inventory JSON and markdown architecture reports)
+evidence/extracted_g3/sections/
+evidence/extracted_g3/rootfs/
+evidence/extracted_g3/archives_unpacked/
+evidence/extracted_g3/kernel/
+
+# Preserve tools except ghidra binary (large 10MB binary)
+tools/ghidra

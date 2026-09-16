@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<themes xmlns="http://www.sony.co.jp/xScrapbook/1">
+	<theme-folder name="../01_active" file="SB_active_theme.xml" jpeg-file="SB_active_jpeg_theme.xml" />
+	<theme-folder name="../02_african" file="SB_african_theme.xml" jpeg-file="SB_african_jpeg_theme.xml" />
+	<theme-folder name="../03_album" file="SB_album_theme.xml" jpeg-file="SB_album_jpeg_theme.xml" />
+	<theme-folder name="../04_belt" file="SB_belt_theme.xml" jpeg-file="SB_belt_jpeg_theme.xml" />
+	<theme-folder name="../05_brazilian" file="SB_brazilian_theme.xml" jpeg-file="SB_brazilian_jpeg_theme.xml" />
+	<theme-folder name="../06_child" file="SB_child_theme.xml" jpeg-file="SB_child_jpeg_theme.xml" />
+	<theme-folder name="../07_circle" file="SB_circle_theme.xml" jpeg-file="SB_circle_jpeg_theme.xml" />
+	<theme-folder name="../08_girl" file="SB_girl_theme.xml" jpeg-file="SB_girl_jpeg_theme.xml" />
+	<theme-folder name="../09_leather" file="SB_leather_theme.xml" jpeg-file="SB_leather_jpeg_theme.xml" />
+	<theme-folder name="../10_party" file="SB_party_theme.xml" jpeg-file="SB_party_jpeg_theme.xml" />
+	<theme-folder name="../11_sea" file="SB_sea_theme.xml" jpeg-file="SB_sea_jpeg_theme.xml" />
+	<theme-folder name="../12_simple" file="SB_simple_theme.xml" jpeg-file="SB_simple_jpeg_theme.xml" />
+	<theme-folder name="../13_sky" file="SB_sky_theme.xml" jpeg-file="SB_sky_jpeg_theme.xml" />
+	<theme-folder name="../14_sports" file="SB_sports_theme.xml" jpeg-file="SB_sports_jpeg_theme.xml" />
+	<theme-folder name="../15_wedding" file="SB_wedding_theme.xml" jpeg-file="SB_wedding_jpeg_theme.xml" />
+	<theme-folder name="../16_wood" file="SB_wood_theme.xml" jpeg-file="SB_wood_jpeg_theme.xml" />
+</themes>

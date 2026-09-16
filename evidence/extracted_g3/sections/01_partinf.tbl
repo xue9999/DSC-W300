@@ -1,0 +1,62 @@
+# partinf.tbl(VERSION:2007/2/27)
+#
+# Partition setting file to test Memory Stick update for E2 on ExMonitor
+#  (for OneNAND)
+#
+# Copyright (C) 2005 SONY EMCS Corporation Nagano TEC
+# Written by Kiyokazu Kobayashi <Kiyokazu.Kobayashi@jp.sony.com>
+#
+# Copyright 2005,2006 Sony Coporation
+#
+# $Id: partinf.tbl,v 1.1 2008/02/21 14:43:45 kiyokazu Exp $ GMT
+# start address,size,type,valid
+
+
+# /dev/nflasha1 2MB (Updater)
+0x00020000,0x00200000,0x00000000,0x00000001
+
+
+# /dev/nflasha2 1.5MB (RW Data)
+0x00220000,0x00180000,0x00000001,0x00000001
+
+
+# /dev/nflasha3 4MB (HOST)
+0x003A0000,0x00400000,0x00000001,0x00000001
+
+
+# /dev/nflasha4 0MB (Warm Boot Image)
+0x007A0000,0x00000000,0x00000000,0x00000000
+
+
+# /dev/nflasha5 3.5MB (AV)
+0x007A0000,0x00380000,0x00000001,0x00000001
+
+
+# /dev/nflasha6 29.875MB (reserved)
+0x00B20000,0x01DE0000,0x00000001,0x00000001
+
+
+# /dev/nflasha7 0MB (reserved)
+0x02900000,0x00000000,0x00000000,0x00000000
+
+
+# /dev/nflasha8 0MB (reserved)
+0x02900000,0x00000000,0x00000000,0x00000000
+
+
+# /dev/nflasha9 0MB (reserved)
+0x02900000,0x00000000,0x00000000,0x00000000
+
+
+# /dev/nflasha10 0MB (reserved)
+0x02900000,0x00000000,0x00000000,0x00000000
+
+
+# /dev/nflasha11 0.125MB (storage)
+0x02900000,0x00020000,0x00000001,0x00000001
+
+
+# /dev/nflasha12 19MB (BGM)
+0x02920000,0x01300000,0x00000001,0x00000001
+
+

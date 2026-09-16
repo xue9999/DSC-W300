@@ -1,0 +1,352 @@
+{
+  "artifacts": {
+    "source_executable": {
+      "path": "sources/DSCG3V2.exe",
+      "size": 55928464,
+      "sha256": "a9698c7b3822f23d71de84ba5389453b847f6de19ab293a55ebe016490fd94d9",
+      "lha_stream_offset": 29775,
+      "lha_stream_length": 55898688
+    },
+    "msfirm_container": {
+      "path": "evidence/extracted_g3/D-G3V2.dat",
+      "size": 55898688,
+      "sha256": "ea74b57161881208f177befcef003f7a0f65ae6e470e209c37f5a8da4f88dd5c"
+    },
+    "manifest_cntent": {
+      "path": "evidence/extracted_g3/cntent.dat",
+      "size": 20480,
+      "sha256": "31002b511c255d8d1df2f86d09a70c476ed142a3f7103630041babf53cbe9bb5",
+      "section_count": 24
+    },
+    "updater_body_img": {
+      "path": "evidence/extracted_g3/sections/02_BodyUdtr.img",
+      "size": 221184,
+      "sha256": "f69752fbeaaf9e51a2b6df45c7f1e0babd1f065584e5cce0d62507c4184f44a6"
+    },
+    "linux_set_archive": {
+      "path": "evidence/extracted_g3/sections/17_linuxset1.tar",
+      "size": 2836480,
+      "sha256": "68043560cc56eb6457d823db8a9890ba9c20b1943b60a9a2b058ef5408220972"
+    },
+    "av_rtos_image": {
+      "path": "evidence/extracted_g3/sections/09_av.bin",
+      "size": 2061054,
+      "sha256": "f2554be5181f5765623b0771e6aef6ff99c8483980a1192c39db85c744bda4fb"
+    }
+  },
+  "platform": {
+    "camera_model": "Sony Cyber-shot DSC-G3",
+    "model_id": "0x08210030",
+    "region_id": "0x00000000",
+    "firmware_version": "2.00",
+    "soc_architecture": "Sony CXD4108 BIONZ (ARM926EJ-S + \u00b5ITRON Core)",
+    "kernel_version_string": "Linux version 2.6.11-alp20080305 (jp06294@monet03) (gcc version 3.4.4) #1 Tue Feb 10 14:03:21 JST 2009",
+    "vmlinux_file_type": "Linux kernel ARM boot executable zImage (little-endian)",
+    "vmlinux_size": 1595560,
+    "rootfs_file_type": "Compressed ROMFS (CramFS, big-endian magic 0x28cd3d45)",
+    "rootfs_size": 569344,
+    "initrd_file_type": "Linux rev 1.0 ext2 filesystem data (magic 0xef53)",
+    "initrd_size": 660480,
+    "body_udtr_file_type": "Compressed ROMFS (CramFS, big-endian magic 0x28cd3d45)",
+    "body_udtr_size": 221184,
+    "av_rtos_file_type": "ARM bare-metal executable / \u00b5ITRON vector image",
+    "av_rtos_size": 2061054,
+    "elf_file_count": 96,
+    "elf_count_breakdown": {
+      "BodyUdtr.img": 18,
+      "bin.tar": 4,
+      "lib.tar": 17,
+      "fskrel1.tar": 27,
+      "fskrel2.tar": 8,
+      "linuxset1.tar/rootfs.img": 16,
+      "linuxset1.tar/initrd.img": 6
+    },
+    "browser_version": "ACCESS NetFront Browser v3.4 (Flash Lite 6)",
+    "app_framework": "Kinoma Platform / Fsk on Access Linux Platform"
+  },
+  "partition_table": {
+    "source_file": "evidence/extracted_g3/sections/01_partinf.tbl",
+    "storage_technology": "OneNAND Flash",
+    "entry_count": 12,
+    "entries": [
+      {
+        "device": "/dev/nflasha1",
+        "description": "Updater",
+        "start": "0x00020000",
+        "size": "0x00200000",
+        "size_mb": 2.0,
+        "type": "0x00000000",
+        "valid": "0x00000001"
+      },
+      {
+        "device": "/dev/nflasha2",
+        "description": "RW Data",
+        "start": "0x00220000",
+        "size": "0x00180000",
+        "size_mb": 1.5,
+        "type": "0x00000001",
+        "valid": "0x00000001"
+      },
+      {
+        "device": "/dev/nflasha3",
+        "description": "HOST",
+        "start": "0x003A0000",
+        "size": "0x00400000",
+        "size_mb": 4.0,
+        "type": "0x00000001",
+        "valid": "0x00000001"
+      },
+      {
+        "device": "/dev/nflasha4",
+        "description": "Warm Boot Image",
+        "start": "0x007A0000",
+        "size": "0x00000000",
+        "size_mb": 0.0,
+        "type": "0x00000000",
+        "valid": "0x00000000"
+      },
+      {
+        "device": "/dev/nflasha5",
+        "description": "AV",
+        "start": "0x007A0000",
+        "size": "0x00380000",
+        "size_mb": 3.5,
+        "type": "0x00000001",
+        "valid": "0x00000001"
+      },
+      {
+        "device": "/dev/nflasha6",
+        "description": "reserved",
+        "start": "0x00B20000",
+        "size": "0x01DE0000",
+        "size_mb": 29.875,
+        "type": "0x00000001",
+        "valid": "0x00000001"
+      },
+      {
+        "device": "/dev/nflasha7",
+        "description": "reserved",
+        "start": "0x02900000",
+        "size": "0x00000000",
+        "size_mb": 0.0,
+        "type": "0x00000000",
+        "valid": "0x00000000"
+      },
+      {
+        "device": "/dev/nflasha8",
+        "description": "reserved",
+        "start": "0x02900000",
+        "size": "0x00000000",
+        "size_mb": 0.0,
+        "type": "0x00000000",
+        "valid": "0x00000000"
+      },
+      {
+        "device": "/dev/nflasha9",
+        "description": "reserved",
+        "start": "0x02900000",
+        "size": "0x00000000",
+        "size_mb": 0.0,
+        "type": "0x00000000",
+        "valid": "0x00000000"
+      },
+      {
+        "device": "/dev/nflasha10",
+        "description": "reserved",
+        "start": "0x02900000",
+        "size": "0x00000000",
+        "size_mb": 0.0,
+        "type": "0x00000000",
+        "valid": "0x00000000"
+      },
+      {
+        "device": "/dev/nflasha11",
+        "description": "storage",
+        "start": "0x02900000",
+        "size": "0x00020000",
+        "size_mb": 0.125,
+        "type": "0x00000001",
+        "valid": "0x00000001"
+      },
+      {
+        "device": "/dev/nflasha12",
+        "description": "BGM",
+        "start": "0x02920000",
+        "size": "0x01300000",
+        "size_mb": 19.0,
+        "type": "0x00000001",
+        "valid": "0x00000001"
+      }
+    ]
+  },
+  "sections_inventory": [
+    {
+      "index": 0,
+      "name": "00_defhd.dat",
+      "size": 67,
+      "sha1": "e2cfb2348ed62ab7c0f542d449d02f7d941a392b",
+      "sha256": "143d6787f1f110fb5d14fd3988e5dfe8b24af904c152339ab71c113a3e1fbf8a"
+    },
+    {
+      "index": 1,
+      "name": "01_partinf.tbl",
+      "size": 1365,
+      "sha1": "3b2ca9381a99413d5271ff52a6f82be239c03af0",
+      "sha256": "163a992e08003f6c21d658e06e0aa3a7920f57f26ebb91628361b59065a3e760"
+    },
+    {
+      "index": 2,
+      "name": "02_BodyUdtr.img",
+      "size": 221184,
+      "sha1": "26ef62d2b354049744fa34a40d16ee911c7e965d",
+      "sha256": "f69752fbeaaf9e51a2b6df45c7f1e0babd1f065584e5cce0d62507c4184f44a6"
+    },
+    {
+      "index": 3,
+      "name": "03_av_udtr.bin",
+      "size": 2145694,
+      "sha1": "fc571fe01caa01927de467d9bc8d7c80dcbc1b29",
+      "sha256": "4df6b8fdb920b30cf72dab8a8a06816aa47555025f03331ef80c205d06ec32dd"
+    },
+    {
+      "index": 4,
+      "name": "04_backup.tar",
+      "size": 51200,
+      "sha1": "61021c13a405f718f3ee0bb8995c4c9201f0c1c4",
+      "sha256": "1191cc63d22733d0cb2c869f1cc74c3f858abe63e8ea030112996f5368a1b5a9"
+    },
+    {
+      "index": 5,
+      "name": "05_bin.tar",
+      "size": 215040,
+      "sha1": "839b7aa1c1a9ef54cf89e101f5beac17411b2077",
+      "sha256": "4855e27a37bbfa2c8e3dff3a76b10630791215b048f448b2c2d4e3dc3370baf0"
+    },
+    {
+      "index": 6,
+      "name": "06_factory.tar",
+      "size": 40960,
+      "sha1": "6eb9ed54ff09cf8caa8294b5147aa105d472777e",
+      "sha256": "764b198ab6a082c1f9bb0484c2ab0672cfeca8fd1d735c9e9a9a9a002dba3b79"
+    },
+    {
+      "index": 7,
+      "name": "07_lib.tar",
+      "size": 665600,
+      "sha1": "c5d27f449c484f0128fc399895d65113823a4ab0",
+      "sha256": "a458c2cd18fb81fa128673fb946ef4870bae5bacd33465115f1e0c0872d4d47a"
+    },
+    {
+      "index": 8,
+      "name": "08_sa.bin",
+      "size": 336664,
+      "sha1": "a99c4ff8ab1bd06c5c7be0e1d9ec9ba84e3dd8dd",
+      "sha256": "5126c376de296624280ccdc1c8692d98ec674cfaf69bfa8ef6dfa2e367010d44"
+    },
+    {
+      "index": 9,
+      "name": "09_av.bin",
+      "size": 2061054,
+      "sha1": "a1dd0a97cf34e988f8d9b32071e5a1cc587269e8",
+      "sha256": "f2554be5181f5765623b0771e6aef6ff99c8483980a1192c39db85c744bda4fb"
+    },
+    {
+      "index": 10,
+      "name": "10_fskapp1.tar",
+      "size": 2785280,
+      "sha1": "ba05d6acb9f9ab0dc069ab4d7249b530fa8a3646",
+      "sha256": "0a12f0dd3dfa75983b660b363ba9d524762694e3498cf4f4498d569762a82ff0"
+    },
+    {
+      "index": 11,
+      "name": "11_fskapp_1.tar",
+      "size": 4853760,
+      "sha1": "d8516049612bb1f06de00629047ce7bc5e889aa7",
+      "sha256": "46aa70bfa1da6a4b87b5da18e70e97e65b89c9e13417a5027668ebe09e236145"
+    },
+    {
+      "index": 12,
+      "name": "12_fskapp_2.tar",
+      "size": 4864000,
+      "sha1": "7066ec96450213afdc0ccebaa086ba3b4136dfb9",
+      "sha256": "9870a23d476368e0151e59932b6347d53f2ab5207154ccee3567003daa3e320d"
+    },
+    {
+      "index": 13,
+      "name": "13_fskapp_3.tar",
+      "size": 4864000,
+      "sha1": "b1f62f2887817df88bfd7f63ba38943259e11a18",
+      "sha256": "a959b3b775f81210f82f5163560043ff2f2317e0d91cca8831f9018c7986c0fc"
+    },
+    {
+      "index": 14,
+      "name": "14_fskfnt.tar",
+      "size": 1945600,
+      "sha1": "fe6c3cfb201a8e63f02ea463129062a9e1e4ac1c",
+      "sha256": "b0f8e6f55fa25e7288b48775e95d95485f2f5b582a61f801c6d3aaf277deda1d"
+    },
+    {
+      "index": 15,
+      "name": "15_fskrel1.tar",
+      "size": 4300800,
+      "sha1": "341167739733704135448222caed2ffa148c100d",
+      "sha256": "ce46df717ce782e715de221461be7f7880352c9f86d7ed6cbfe60b24601b3f05"
+    },
+    {
+      "index": 16,
+      "name": "16_fskrel2.tar",
+      "size": 2816000,
+      "sha1": "0f185732c0efb0b8d81e12a0b8a686b6a185c4e7",
+      "sha256": "5ee7d81fc18cec3b146d7cbaa31d9c8141be905ef3fb8e33186868c6899c569a"
+    },
+    {
+      "index": 17,
+      "name": "17_linuxset1.tar",
+      "size": 2836480,
+      "sha1": "552d1b50d65ce2a451f5341f327c6a75e9a768df",
+      "sha256": "68043560cc56eb6457d823db8a9890ba9c20b1943b60a9a2b058ef5408220972"
+    },
+    {
+      "index": 18,
+      "name": "18_omgMap00.txt",
+      "size": 42,
+      "sha1": "99990d26d2a38808faf6a3cdafc7085ca09cfeea",
+      "sha256": "5dcf7a052606cd3d3ddb993a7dfc66f007be92f21d81a0edead4f4f11d810b79"
+    },
+    {
+      "index": 19,
+      "name": "19_omgPrg00.bin",
+      "size": 10485760,
+      "sha1": "6139797fa9b384afa684231ac24aa41d7c20369e",
+      "sha256": "efca98e2f1efd2b9e6e584c99c2bc9af1196698bac070814c08573aacf78d7a6"
+    },
+    {
+      "index": 20,
+      "name": "20_omgPrg01.bin",
+      "size": 2401280,
+      "sha1": "cf965b23f877b17f9a681b617254f2f434c3a6a5",
+      "sha256": "2b93eabac59e15abd327e4239b761b9aa178de348ccc0a54f309b0bf68ac0696"
+    },
+    {
+      "index": 21,
+      "name": "21_omgLng00.csv",
+      "size": 424191,
+      "sha1": "bc81b1f11006e6ba25ace1e1a3c09180cab19394",
+      "sha256": "fc31d6503127db1ce39f70c6aaa3905d99276637d04cd6ee18224c2dc2ed90f8"
+    },
+    {
+      "index": 22,
+      "name": "22_omgAdj00.dat",
+      "size": 32,
+      "sha1": "b1e1ac5a1b1b184b2456ec0d802fdb6e6a2d7f53",
+      "sha256": "d3d56c2cf7e10ea5a4e3dccf7ac654b56533afd53c486f65d66ea28f7696eb07"
+    },
+    {
+      "index": 23,
+      "name": "23_omgRsc00.bin",
+      "size": 7558868,
+      "sha1": "34d95b4561b79112c4955bd9013c4858c1cefc09",
+      "sha256": "35df73349676bc3fbe96b54d9f497c2c5ddac7b8c66198fa9259c87ab1cfc361"
+    }
+  ]
+}

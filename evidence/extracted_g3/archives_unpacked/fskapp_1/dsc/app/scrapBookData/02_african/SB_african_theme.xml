@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme xmlns="http://www.sony.co.jp/xScrapbook/1"
+full-frame="SB_african_full-frame.zip/SB_african_full-frame.xsraw"
+small-sample="SB_african_small-sample.zip/SB_african_small-sample.xsraw"
+background-color="#141414">
+
+  <page-number left="162" top="214" width="72" height="20" color="#ffffff" style="outline" halign="right"/> 
+
+	<first-frame background="SB_african_0.zip/SB_african_0.xsraw">
+        <title left="108" top="54" width="120" height="20" color="#ffffff" style="plain" halign="right"/> 
+        <date left="138" top="74" width="90" height="20" color="#ffffff" style="plain" halign="right"/> 
+        <photo left="0" top="29" width="162" height="211" order="0" /> 
+	</first-frame>
+
+
+
+	<frame-1 background="SB_african_01.zip/SB_african_01.xsraw">
+		<photo left="47" top="28" width="161" height="183" order="0"/>
+		<hit-area left="47" top="28" width="161" height="183"/>
+	</frame-1>
+
+	<frame-2 background="SB_african_02.zip/SB_african_02.xsraw">
+		<photo left="11" top="33" width="108" height="176" order="0"/>
+		<hit-area left="11" top="33" width="105" height="176"/>
+
+		<photo left="119" top="82" width="111" height="120" order="1"/>
+		<hit-area left="122" top="82" width="108" height="120"/>
+	</frame-2>
+
+	<frame-3 background="SB_african_03.zip/SB_african_03.xsraw">
+		<photo left="11" top="38" width="105" height="164" order="0"/>
+		<hit-area left="11" top="38" width="105" height="164"/>
+
+		<photo left="120" top="29" width="105" height="106" order="1"/>
+		<hit-area left="120" top="29" width="105" height="104" />
+
+		<photo left="128" top="135" width="73" height="78" order="2"/>
+		<hit-area left="128" top="137" width="73" height="76"/>
+	</frame-3>
+
+ <frame-4 background="SB_african_04.zip/SB_african_04.xsraw">
+		<photo left="13" top="114" width="94" height="97" order="0"/>
+		<hit-area left="13" top="119" width="94" height="92"/>
+		
+		<photo left="131" top="28" width="90" height="146" order="1"/>
+		<hit-area left="131" top="28" width="90" height="101"/>
+		
+		<photo left="32" top="27" width="80" height="87" order="2"/>
+		<hit-area left="32" top="27" width="80" height="83"/>
+		
+		<photo left="116" top="133" width="75" height="79" order="3"/>
+		<hit-area left="116" top="133" width="75" height="79"/>
+  </frame-4>
+
+
+</theme>

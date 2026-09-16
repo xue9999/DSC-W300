@@ -1,0 +1,1117 @@
+CAMMENU_0EV,0EV
+CAMMENU_100,100
+CAMMENU_10M,1.0 m
+CAMMENU_1600,1600
+CAMMENU_200,200
+CAMMENU_30M,3.0 m
+CAMMENU_3200,3200
+CAMMENU_400,400
+CAMMENU_70M,7.0 m
+CAMMENU_80,80
+CAMMENU_800,800
+CAMMENU_BRK_03EV,BRK±0,3EV
+CAMMENU_BRK_07EV,BRK±0,7EV
+CAMMENU_BRK_10EV,BRK±1,0EV
+CAMMENU_BURST,Sarja
+CAMMENU_BURST_BRK03EV_GUIDE,Kuvaa 3 kuvaa 0,3 EV välein
+CAMMENU_BURST_BRK03EV_GUIDE_2,
+CAMMENU_BURST_BRK07EV_GUIDE,Kuvaa 3 kuvaa 0,7 EV välein
+CAMMENU_BURST_BRK07EV_GUIDE_2,
+CAMMENU_BURST_BRK10EV_GUIDE,Kuvaa 3 kuvaa 1,0 EV välein
+CAMMENU_BURST_BRK10EV_GUIDE_2,
+CAMMENU_BURST_OFF_GUIDE,Kuvaa kerran jokaisella
+CAMMENU_BURST_OFF_GUIDE_2,sulkimen painalluksella
+CAMMENU_BURST_ON_GUIDE,Kuvaa jatkuvasti kun
+CAMMENU_BURST_ON_GUIDE_2,suljin pidetään painettuna
+CAMMENU_CENTER,Keskip.
+CAMMENU_CENTERAF,Keskip. AF
+CAMMENU_CLOSEEYE,Suljettujen silmien esto
+CAMMENU_CLOSEEYE_AUTO_GUIDE,Analysoi silmät suljettujen
+CAMMENU_CLOSEEYE_AUTO_GUIDE_2,silmien välttämiseksi
+CAMMENU_CLOSEEYE_OFF_GUIDE,Poista suljettujen silmien
+CAMMENU_CLOSEEYE_OFF_GUIDE_2,esto käytöstä
+CAMMENU_COLOR,Väritila
+CAMMENU_COLOR_BW,Mustavalko
+CAMMENU_COLOR_BW_GUIDE,Tee kuvista mustavalkoisia
+CAMMENU_COLOR_BW_GUIDE_2,
+CAMMENU_COLOR_NORMAL_GUIDE,Kuvaa normaalivärimuodolla
+CAMMENU_COLOR_NORMAL_GUIDE_2,
+CAMMENU_COLOR_SEPIA,Seepia
+CAMMENU_COLOR_SEPIA_GUIDE,Simuloi vanhojen kuvien
+CAMMENU_COLOR_SEPIA_GUIDE_2,värejä
+CAMMENU_COLOR_VIVID,Eloisa
+CAMMENU_COLOR_VIVID_GUIDE,Asettaa kuvalle syvät
+CAMMENU_COLOR_VIVID_GUIDE_2,ja elävät värit
+CAMMENU_CONTINUOUS,Jatkuva
+CAMMENU_DRO,DRO
+CAMMENU_DRO_ADV,Lisäasetukset
+CAMMENU_DRO_ADV_GUIDE,Tuo esiin varjon yksityiskohd.
+CAMMENU_DRO_ADV_GUIDE_2,korostuksia menettämättä
+CAMMENU_DRO_OFF_GUIDE,Ei varjon yksityiskohtia
+CAMMENU_DRO_OFF_GUIDE_2,
+CAMMENU_DRO_PLUS,DRO plus
+CAMMENU_DRO_STANDARD_GUIDE,Tuo esiin varjoon katoavia
+CAMMENU_DRO_STANDARD_GUIDE_2,kuvan yksityiskohtia
+CAMMENU_DRO_STD,DRO standard
+CAMMENU_EV,EV
+CAMMENU_EV2,EV
+CAMMENU_EV_GUIDE,Säädä kuvan kirkkaus (＋)
+CAMMENU_EV_GUIDE2,Säädä kuvan kirkkaus (＋)
+CAMMENU_EV_GUIDE2_2,ja tummuus (－)
+CAMMENU_EV_GUIDE_2,ja tummuus (－)
+CAMMENU_FACE,Kasvontunnistus
+CAMMENU_FACE_ADULT,Etusija: aikuinen
+CAMMENU_FACE_ADULT_GUIDE,Kohdistus ensisijaisesti
+CAMMENU_FACE_ADULT_GUIDE_2,aikuisen kasvoihin
+CAMMENU_FACE_CHILD,Etusija: lapsi
+CAMMENU_FACE_CHILD_GUIDE,Kohdistus ensisijaisesti
+CAMMENU_FACE_CHILD_GUIDE_2,lapsen kasvoihin
+CAMMENU_FACE_ON_GUIDE,Aseta kasvoihin kohdistus
+CAMMENU_FACE_ON_GUIDE_2,etusijalle
+CAMMENU_FACE_TOUCH_GUIDE,Käynnistä kasvontunnistus
+CAMMENU_FACE_TOUCH_GUIDE_2,vain kasvoa kosketettaessa
+CAMMENU_FLASHLEVEL,Salamateho
+CAMMENU_FLASHLEVEL_DOWN_GUIDE,Kuvaa vähemmän
+CAMMENU_FLASHLEVEL_DOWN_GUIDE_2,voimakkaalla salamalla
+CAMMENU_FLASHLEVEL_NORMAL_GUIDE,Kuvaa normaalilla salamalla
+CAMMENU_FLASHLEVEL_NORMAL_GUIDE_2,
+CAMMENU_FLASHLEVEL_UP_GUIDE,Kuvaa voimakkaammalla
+CAMMENU_FLASHLEVEL_UP_GUIDE_2,salamalla
+CAMMENU_FLASH_SYNCHRO,Hidas suljin
+CAMMENU_FOCUS,Tarkennus
+CAMMENU_FOUCS_10M_GUIDE,Aseta kohdistus
+CAMMENU_FOUCS_10M_GUIDE_2,noin 1,0 m päähän
+CAMMENU_FOUCS_30M_GUIDE,Aseta kohdistus
+CAMMENU_FOUCS_30M_GUIDE_2,noin 3,0 m päähän
+CAMMENU_FOUCS_70M_GUIDE,Aseta kohdistus
+CAMMENU_FOUCS_70M_GUIDE_2,noin 7,0 m päähän
+CAMMENU_FOUCS_CENTER_GUIDE,Automaattinen kohdistus
+CAMMENU_FOUCS_CENTER_GUIDE_2,keskellä olevaan kohteeseen
+CAMMENU_FOUCS_INFINITY_GUIDE,Aseta kohdistus
+CAMMENU_FOUCS_INFINITY_GUIDE_2,rajoittamattoman kauas
+CAMMENU_FOUCS_MANUAL_GUIDE,Aseta kohdistus käsin
+CAMMENU_FOUCS_MANUAL_GUIDE_2,
+CAMMENU_FOUCS_MULTI_GUIDE,Automaattinen kohdistus
+CAMMENU_FOUCS_MULTI_GUIDE_2,kehyksen laajuudelta
+CAMMENU_FOUCS_SPOT_GUIDE,Automaattinen kohdistus
+CAMMENU_FOUCS_SPOT_GUIDE_2,keskipisteeseen
+CAMMENU_FOUCS_TSPOT_GUIDE,Automaattinen kohdistus
+CAMMENU_FOUCS_TSPOT_GUIDE_2,koskettamalla näyttöä
+CAMMENU_IMAGESIZE,Kuvakoko
+CAMMENU_IMAGESIZE_L,Suuri
+CAMMENU_IMAGESIZE_S,Pieni
+CAMMENU_INFINITY,∞
+CAMMENU_ISO,ISO
+CAMMENU_ISO_100_GUIDE,Aseta herkkyydeksi ISO 100
+CAMMENU_ISO_100_GUIDE_2,
+CAMMENU_ISO_1600_GUIDE,Aseta herkkyydeksi ISO 1600
+CAMMENU_ISO_1600_GUIDE_2,
+CAMMENU_ISO_200_GUIDE,Aseta herkkyydeksi ISO 200
+CAMMENU_ISO_200_GUIDE_2,
+CAMMENU_ISO_3200_GUIDE,Aseta herkkyydeksi ISO 3200
+CAMMENU_ISO_3200_GUIDE_2,
+CAMMENU_ISO_400_GUIDE,Aseta herkkyydeksi ISO 400
+CAMMENU_ISO_400_GUIDE_2,
+CAMMENU_ISO_64_GUIDE,Aseta herkkyydeksi ISO 64
+CAMMENU_ISO_64_GUIDE_2,
+CAMMENU_ISO_800_GUIDE,Aseta herkkyydeksi ISO 800
+CAMMENU_ISO_800_GUIDE_2,
+CAMMENU_ISO_80_GUIDE,Aseta herkkyydeksi ISO 80
+CAMMENU_ISO_80_GUIDE_2,
+CAMMENU_ISO_AUTO_GUIDE,Herkkyyden automaattisäätö
+CAMMENU_ISO_AUTO_GUIDE_2,
+CAMMENU_M03EV,-0.3EV
+CAMMENU_M07EV,-0.7EV
+CAMMENU_M10EV,-1.0EV
+CAMMENU_M13EV,-1.3EV
+CAMMENU_M17EV,-1.7EV
+CAMMENU_M20EV,-2.0EV
+CAMMENU_MACRO,Makro
+CAMMENU_MENU,Valikko
+CAMMENU_METERINGMODE,Mittausmuoto
+CAMMENU_METERING_CENTER_GUIDE,Valotus perustuu
+CAMMENU_METERING_CENTER_GUIDE_2,keskustan kirkkauteen
+CAMMENU_METERING_MULTI_GUIDE,Valotus tasapainotettu
+CAMMENU_METERING_MULTI_GUIDE_2,kehyksen laajuudelta
+CAMMENU_METERING_SPOT_GUIDE,Valotus perustuu
+CAMMENU_METERING_SPOT_GUIDE_2,keskipisteen kirkkauteen
+CAMMENU_MINUS,－
+CAMMENU_MULTI,Monipiste
+CAMMENU_MULTIAF,Monip. AF
+CAMMENU_NORMAL_CAP,Normaali
+CAMMENU_P03EV,+0.3EV
+CAMMENU_P07EV,+0.7EV
+CAMMENU_P10EV,+1.0EV
+CAMMENU_P13EV,+1.3EV
+CAMMENU_P17EV,+1.7EV
+CAMMENU_P20EV,+2.0EV
+CAMMENU_PLUS,＋
+CAMMENU_RECMODE,Kuvaustapa
+CAMMENU_RECOGNITION,Valotuksen tunnistus
+CAMMENU_RECOGNITION_ADV_GUIDE,Kuvaa autom. yksi kuva lisää
+CAMMENU_RECOGNITION_ADV_GUIDE2,Kuvaa autom. yksi kuva lisää
+CAMMENU_RECOGNITION_ADV_GUIDE2_2,hämärässä tai taustavalossa
+CAMMENU_RECOGNITION_ADV_GUIDE_2,hämärässä tai taustavalossa
+CAMMENU_RECOGNITION_AUTO2_GUIDE,Kuvaa kohtauksen
+CAMMENU_RECOGNITION_AUTO2_GUIDE_2,optimaalisilla asetuksilla
+CAMMENU_RECOGNITION_AUTO_GUIDE,Kuvaa optim. asetuksilla
+CAMMENU_RECOGNITION_AUTO_GUIDE_2,hämärässä tai taustavalossa
+CAMMENU_RECOGNITION_OFF_GUIDE,Poista valotuksen tunnistus
+CAMMENU_RECOGNITION_OFF_GUIDE_2,käytöstä
+CAMMENU_REDEYEREDUCTION,Punasilm. esto
+CAMMENU_REDEYE_FACE_GUIDE,Punasilm. autom. väh.
+CAMMENU_REDEYE_FACE_GUIDE_2,kun havaitaan kasvot
+CAMMENU_REDEYE_OFF_GUIDE,Punasilmäisyyden vähennys
+CAMMENU_REDEYE_OFF_GUIDE_2,pois päältä
+CAMMENU_REDEYE_ON_GUIDE,Käytä esisalamaa puna-
+CAMMENU_REDEYE_ON_GUIDE_2,silmäisyyden vähentämiseksi
+CAMMENU_REMAIN_NUMBER,Arvioitu kuvamäärä
+CAMMENU_REMAIN_TIME,Aikaa jäljellä noin
+CAMMENU_SATURATION_DOWN_GUIDE,Kuvaa pienemmällä
+CAMMENU_SATURATION_DOWN_GUIDE_2,värikylläisyydellä
+CAMMENU_SATURATION_NORMAL_GUIDE,Aseta värikylläisyys
+CAMMENU_SATURATION_NORMAL_GUIDE_2,normaaliksi
+CAMMENU_SATURATION_UP_GUIDE,Kuvaa suuremmalla
+CAMMENU_SATURATION_UP_GUIDE_2,värikylläisyydellä
+CAMMENU_SELFTIMER,Itselaukaisin
+CAMMENU_SELFTIMER_10SEC,Itselaukaisin 10 s
+CAMMENU_SELFTIMER_2SEC,Itselaukaisin 2 s
+CAMMENU_SELFTIMER_OFF,Itselaukaisin pois
+CAMMENU_SETUP,Asetus
+CAMMENU_SETUP_CHANGE_GUIDE,Siirry Kuvausasetukset-
+CAMMENU_SETUP_CHANGE_GUIDE_2,näyttöön
+CAMMENU_SHOOTING,Kuvaaminen
+CAMMENU_SIZE_10MEG,10M
+CAMMENU_SIZE_12M_GUIDE,Enintään A3+-tulosteille
+CAMMENU_SIZE_12M_GUIDE_2,
+CAMMENU_SIZE_16_9,16:9
+CAMMENU_SIZE_16_9_2MEG_GUIDE,HDTV: ssä katselua varten
+CAMMENU_SIZE_16_9_2MEG_GUIDE_2,
+CAMMENU_SIZE_16_9_A3_GUIDE,HDTV: ssä katselua varten ja
+CAMMENU_SIZE_16_9_A3_GUIDE_2,tulostus enintään kokoon A3
+CAMMENU_SIZE_16_9_A4_GUIDE,HDTV: ssä katselua varten ja
+CAMMENU_SIZE_16_9_A4_GUIDE_2,tulostus enintään kokoon A4
+CAMMENU_SIZE_16_9_GUIDE,Kuvaa HDTV-kuvasuhteella
+CAMMENU_SIZE_16_9_GUIDE_2,
+CAMMENU_SIZE_320,320
+CAMMENU_SIZE_320_GUIDE,Kuvaa pienessä koossa
+CAMMENU_SIZE_320_GUIDE_2,sähköpostin liitteeksi
+CAMMENU_SIZE_3MEG,3M
+CAMMENU_SIZE_3M_GUIDE,Enintään 10x15 cm: n tai
+CAMMENU_SIZE_3M_GUIDE_2,13x18 cm: n tulosteille
+CAMMENU_SIZE_3_2_8MEG,3:2(8M)
+CAMMENU_SIZE_3_2_GUIDE,Kuvaa kuvasuhteella 3:2
+CAMMENU_SIZE_3_2_GUIDE_2,
+CAMMENU_SIZE_4_3,4:3
+CAMMENU_SIZE_5MEG,5M
+CAMMENU_SIZE_5M_GUIDE,Enintään A4-tulosteille
+CAMMENU_SIZE_5M_GUIDE_2,
+CAMMENU_SIZE_640FINE,640(hieno)
+CAMMENU_SIZE_640FINE_GUIDE,Kuvaa korkealaatuista
+CAMMENU_SIZE_640FINE_GUIDE_2,elokuvaa televisiolle
+CAMMENU_SIZE_640STD,640(vakio)
+CAMMENU_SIZE_640STD_GUIDE,Kuvaa normaalilaatuista
+CAMMENU_SIZE_640STD_GUIDE_2,elokuvaa televisiolle
+CAMMENU_SIZE_8M_GUIDE,Enintään A3-tulosteille
+CAMMENU_SIZE_8M_GUIDE_2,
+CAMMENU_SIZE_HD_2MEG,16:9(2M)
+CAMMENU_SIZE_HD_7MEG,16:9(7M)
+CAMMENU_SIZE_HD_VGA,16:9(VGA)
+CAMMENU_SIZE_VGA,VGA
+CAMMENU_SIZE_VGA_GUIDE,Kuvaa pienellä kuvakoolla
+CAMMENU_SIZE_VGA_GUIDE_2,sähköpostin liitteeksi
+CAMMENU_SMILE,Hymyn tunnistus
+CAMMENU_SMILESHUTTER_HIGH_GUIDE,Kuvaa suurella hymyn-
+CAMMENU_SMILESHUTTER_HIGH_GUIDE_2,tunnistustarkkuudella
+CAMMENU_SMILESHUTTER_LOW_GUIDE,Kuvaa pienellä hymyn-
+CAMMENU_SMILESHUTTER_LOW_GUIDE_2,tunnistustarkkuudella
+CAMMENU_SMILESHUTTER_NORMAL_GUIDE,Kuvaa normaalilla hymyn-
+CAMMENU_SMILESHUTTER_NORMAL_GUIDE_2,tunnistustarkkuudella
+CAMMENU_SMILE_DETECTION,Hymyntunn. herkkyys
+CAMMENU_SPOT,Pistemit.
+CAMMENU_SPOTAF,Pistem. AF
+CAMMENU_STEADYSHOT,SteadyShot
+CAMMENU_STEADYSHOT_CONT_GUIDE,SteadyShot aina päällä
+CAMMENU_STEADYSHOT_CONT_GUIDE_2,
+CAMMENU_STEADYSHOT_OFF_GUIDE,SteadyShot pois päältä
+CAMMENU_STEADYSHOT_OFF_GUIDE_2,
+CAMMENU_STEADYSHOT_SHOOT_GUIDE,SteadyShot päällä kun suljin-
+CAMMENU_STEADYSHOT_SHOOT_GUIDE_2,painike on puolessa välissä
+CAMMENU_TOUCH,Kosketettaessa
+CAMMENU_WATERWB,Vedenalainen valkotasap.
+CAMMENU_WATERWB_AUTO_GUIDE,Valkotasapain. autom. säätö
+CAMMENU_WATERWB_AUTO_GUIDE_2,vedenalaista kuvausta varten
+CAMMENU_WATERWB_FLASH_GUIDE,Käytä vedenalaisessa
+CAMMENU_WATERWB_FLASH_GUIDE_2,kuvauksessa salaman kanssa
+CAMMENU_WATERWB_WATER1,Vedenalainen 1
+CAMMENU_WATERWB_WATER1_GUIDE,Käytä sinisessä vedessä
+CAMMENU_WATERWB_WATER1_GUIDE_2,kuvattaessa
+CAMMENU_WATERWB_WATER2,Vedenalainen 2
+CAMMENU_WATERWB_WATER2_GUIDE,Käytä vihreässä vedessä
+CAMMENU_WATERWB_WATER2_GUIDE_2,kuvattaessa
+CAMMENU_WB2,Valkotasap.
+CAMMENU_WB_AUTO_GUIDE,Säädä automaattisesti
+CAMMENU_WB_AUTO_GUIDE_2,luonnolliset värit
+CAMMENU_WB_CLOUDY,Pilvinen
+CAMMENU_WB_CLOUDY_GUIDE,Käytä pilvisinä päivinä tai
+CAMMENU_WB_CLOUDY_GUIDE_2,varjossa
+CAMMENU_WB_DAYLIGHT,Päivänvalo
+CAMMENU_WB_DAYLIGHT_GUIDE,Käytä aurinkoisissa ulko-
+CAMMENU_WB_DAYLIGHT_GUIDE_2,tiloissa tai yöllä
+CAMMENU_WB_FLASH,Salamavalo
+CAMMENU_WB_FLASH_GUIDE,Käytä kuvatessasi
+CAMMENU_WB_FLASH_GUIDE_2,salaman kanssa
+CAMMENU_WB_FLUORESCENT1,Loistevalo 1
+CAMMENU_WB_FLUORESCENT1_GUIDE,Käytä valkoisessa
+CAMMENU_WB_FLUORESCENT1_GUIDE_2,loistevalaistuksessa
+CAMMENU_WB_FLUORESCENT2,Loistevalo 2
+CAMMENU_WB_FLUORESCENT2_GUIDE,Käytä luonnollisen värisessä
+CAMMENU_WB_FLUORESCENT2_GUIDE_2,loistevalaistuksessa
+CAMMENU_WB_FLUORESCENT3,Loistevalo 3
+CAMMENU_WB_FLUORESCENT3_GUIDE,Käytä päivänvärisessä
+CAMMENU_WB_FLUORESCENT3_GUIDE_2,loistevalaistuksessa
+CAMMENU_WB_INCANDESCENT,Hehkulamppu
+CAMMENU_WB_INCANDESCENT_GUIDE,Käytä hehkulampun
+CAMMENU_WB_INCANDESCENT_GUIDE_2,valossa tai videon valossa
+CAMMODE_AUTO,Automaattisäätö
+CAMMODE_AUTO_GUIDE,Automaattiasetuksil-
+CAMMODE_AUTO_GUIDE_2,la kuvaamista varten
+CAMMODE_BEACH,Hiekkaranta
+CAMMODE_BEACH_GUIDE,Kuvaus rannoilla sy-
+CAMMODE_BEACH_GUIDE_2,vä sininen tallent.
+CAMMODE_COOKING,Gourmet
+CAMMODE_COOKING_GUIDE,Luonnollinen kuva ruoasta
+CAMMODE_COOKING_GUIDE_2,
+CAMMODE_EASY,Helppo kuvaus
+CAMMODE_EASY_GUIDE,Täysin automaattinen kuvaus
+CAMMODE_EASY_GUIDE_2,ja yksinkertainen näyttö
+CAMMODE_FIREWORKS,Ilotulitus
+CAMMODE_FIREWORKS_GUIDE,Ilotulituksen kuvaus
+CAMMODE_FIREWORKS_GUIDE_2,koko komeudessaan
+CAMMODE_HIGHSENSITIVITY,Suuri herkkyys
+CAMMODE_HIGHSENSITIVITY_GUIDE,Älä käytä salamaa vähässä
+CAMMODE_HIGHSENSITIVITY_GUIDE_2,valossa: pienempi sumenn.
+CAMMODE_HIGHSPEEDSHUTTER,Nopea suljin
+CAMMODE_HIGHSPEEDSHUTTER_GUIDE,Liikkuvan kohteen
+CAMMODE_HIGHSPEEDSHUTTER_GUIDE_2,kuvaus pysähtyneenä
+CAMMODE_LANDSCAPE,Maisema
+CAMMODE_LANDSCAPE_GUIDE,Maisemien kuvaus
+CAMMODE_LANDSCAPE_GUIDE_2,kauaksi tarkentaen
+CAMMODE_MOVIE,Elokuvamuoto
+CAMMODE_MOVIE_GUIDE,Äänivideon nauhoitus
+CAMMODE_MOVIE_GUIDE_2,
+CAMMODE_PAUTO,Ohjelmoitava autom.
+CAMMODE_PAUTO_GUIDE,Automaattivalotus ja
+CAMMODE_PAUTO_GUIDE_2,säädettävät asetuks.
+CAMMODE_SNOW,Lumi
+CAMMODE_SNOW_GUIDE,Vaalean näkymän
+CAMMODE_SNOW_GUIDE_2,kuvaus kirkkaasti
+CAMMODE_SOFTSNAP,Pehmeä kuva
+CAMMODE_SOFTSNAP_GUIDE,Pehmeällä taustalla
+CAMMODE_SOFTSNAP_GUIDE_2,olev. kohteen kuvaus
+CAMMODE_TWILIGHT,Hämärä
+CAMMODE_TWILIGHTPORTRAIT,Hämärä muotokuva
+CAMMODE_TWILIGHTPORTRAIT_GUIDE,Muotok. kuvaus väh.
+CAMMODE_TWILIGHTPORTRAIT_GUIDE_2,valossa salamalla
+CAMMODE_TWILIGHTTRIPOD_GUIDE,Kuvaa vähässä valossa
+CAMMODE_TWILIGHTTRIPOD_GUIDE_2,jalustaa käyttäen
+CAMMODE_WATER,Vedenalainen
+CAMMODE_WATER_GUIDE,Kuvaa veden alla luonnollisin
+CAMMODE_WATER_GUIDE_2,värein koteloa käyttäen
+CLOCKMENU_APR,HUH
+CLOCKMENU_AUG,ELO
+CLOCKMENU_DEC,JOU
+CLOCKMENU_DMY,P-KK-V
+CLOCKMENU_FEB,HEL
+CLOCKMENU_JAN,TAM
+CLOCKMENU_JUL,HEI
+CLOCKMENU_JUN,KES
+CLOCKMENU_MAR,MAA
+CLOCKMENU_MAY,TOU
+CLOCKMENU_MDY,KK-P-V
+CLOCKMENU_NOV,MAR
+CLOCKMENU_OCT,LOK
+CLOCKMENU_SEP,SYY
+CLOCKMENU_UNKNOWN,---
+CLOCKMENU_YMD,V-KK-P
+COM_AUTO,Auto
+COM_BACK,Takaisin
+COM_CANCEL,Peruuta
+COM_CLEAR,Poista
+COM_CLEARALL,Poista kaikki
+COM_CONTINUE,Jatka
+COM_CREATED,Luotu
+COM_ENTRY,Lisää
+COM_EXIT,Poistu
+COM_FAST,Nopea
+COM_HIGH,Suuri
+COM_INTERNALMEMORY,Sisäinen muisti
+COM_LOW,Pieni
+COM_MED,Keskisuuri
+COM_MIN,min
+COM_MOVIEREC,KUVAA
+COM_MOVIESTBY,Valmis
+COM_MS,Memory Stick
+COM_MS_AND_INTERNALMEMORY,Memory Stick ＋ Sisäinen muisti
+COM_NOOFFILES,Tiedostoja
+COM_NORMAL,Normaali
+COM_OFF,Pois
+COM_OK,OK
+COM_ON,Päällä
+COM_PREVIEW,Esikatselu
+COM_REMAIN,Kuvia jäljellä
+COM_SAVE,Tallenna
+COM_SLOW,Hidas
+COM_STANDARD,Vakio
+COM_STANDARD2,Vakio
+COM_START,Käynn
+COM_USBMODE,USB-tila
+COM_VOLUME,VOL.
+COU_640FINE,640(hieno) ei ole saatavilla
+COU_640FINE_2,
+COU_AUDIOPLUGIN,Liitä audioliitin
+COU_AUDIOPLUGIN_2,ääntä varten
+COU_BATTERY_HEATED,Kamera ylikuumentunut
+COU_BATTERY_HEATED_2,Anna sen jäähtyä
+COU_BATTERY_INFOLITHIUM,Vain "InfoLITHIUM"-akku
+COU_BATTERY_INFOLITHIUM_2,
+COU_BATTERY_INVALID,Saa käyttää vain yht. -
+COU_BATTERY_INVALID_2,sopivan akun kanssa
+COU_BGM_ERROR,Musiikkivirhe
+COU_BGM_ERROR_2,
+COU_BGM_FORMATERROR,Musiikkimuistin alustusvirhe
+COU_BGM_FORMATERROR_2,
+COU_BURST_INVALID,Purkausta ei voi käyttää
+COU_BURST_INVALID_2,
+COU_CANNOTACCESS_MS,Memory Stick -korttia ei
+COU_CANNOTACCESS_MS_2,voi käyttää. Käyttö estetty
+COU_CANNOTCREATE_FOLDERS,Ei voi luoda lisää kansioita
+COU_CANNOTCREATE_FOLDERS_2,
+COU_DATA_ERROR,Kuvanhallinnan tiedostovirhe
+COU_DATA_ERROR_2,
+COU_ERROR10,Virhe10
+COU_ERROR20,Virhe20
+COU_ERROR30,Virhe30
+COU_ERROR40,Virhe40
+COU_ERROR50,Virhe50
+COU_EXCEEDED_LIMIT,Kuvia valittu maks. määr
+COU_EXCEEDED_LIMIT_2,
+COU_FILEERROR,Tiedostovirhe
+COU_FILEERROR_2,
+COU_FILEPROTECT,Tiedoston suojaus
+COU_FILEPROTECT_2,
+COU_FLASHSETTING_INVALID,Salama-asetuksia ei voi muuttaa
+COU_FLASHSETTING_INVALID_2,
+COU_FOLDER_ERROR,Kansiovirhe
+COU_FOLDER_ERROR_2,
+COU_FORMATERROR_INTERNALMEMORY,Sisäisen muistin alustusvirhe
+COU_FORMATERROR_INTERNALMEMORY_2,
+COU_FORMATERROR_MS,Memory Stick -kortin alustusvirhe
+COU_FORMATERROR_MS_2,
+COU_IMAGESIZEOVER,Kuvan koko yli
+COU_IMAGESIZEOVER_2,
+COU_INKERROR,Mustevirhe
+COU_INKERROR_2,
+COU_INVALID_FILE,Tiedosto ei kelpaa
+COU_INVALID_FILE_2,
+COU_INVALID_FOLDER,Toiminto ei käytettävissä
+COU_INVALID_FOLDER_2,kansionäkymän kanssa
+COU_INVALID_MS,Kuvanhallintatiedostoa ei voi
+COU_INVALID_MS_2,tallentaa Memory Stick -kortille
+COU_INVALID_OPERATION,Virheellinen toiminto
+COU_INVALID_OPERATION_HDOUT,Toimintaa ei voi suorittaa
+COU_INVALID_OPERATION_HDOUT_2,HD(1080i)-toiston aikana
+COU_INVALID_OPERATION_MOVIEFILE,Toimintaa ei voi suorittaa
+COU_INVALID_OPERATION_MOVIEFILE_2,videotiedostoille
+COU_INVALID_OPERATION_NGFILE,Toimintaa ei voi suorittaa
+COU_INVALID_OPERATION_NGFILE_2,tiedostoilla, joita ei tueta
+COU_INVALID_OPERATION_PICTBRIDGE,Toimintaa ei voi suorittaa
+COU_INVALID_OPERATION_PICTBRIDGE_2,PictBridge-yhteyttä käytettäessä
+COU_INVALID_OPERATION_REMOTE,Toimintaa ei voi suorittaa
+COU_INVALID_OPERATION_REMOTE_2,kaukosäätimellä
+COU_INVALID_OPERATION_TVOUT,Toimintaa ei voi suorittaa
+COU_INVALID_OPERATION_TVOUT_2,TV: llä katselun aikana
+COU_LENSCAPOFF,Irrota objektiivin suojus ja
+COU_LENSCAPOFF_2,kytke virta pois ja uudestaan päälle
+COU_LENSCOVER_OPEN,Avaa objektiivinsuojus
+COU_LENSCOVER_OPEN_2,kuvausta varten
+COU_LOWINK,Muste vähissä
+COU_LOWINK_2,
+COU_MACRO_INVALID,Makro ei saatavilla
+COU_MACRO_INVALID_2,
+COU_MEDIAERROR_INTERNALMEMORY,Sisäisen muistin virhe
+COU_MEDIAERROR_INTERNALMEMORY_2,
+COU_METERING_INVALID,Mittausmuototoimintoja
+COU_METERING_INVALID_2,ei voi käyttää
+COU_MSR_NOTUSEFUNCTION,Tämä Memory Stick
+COU_MSR_NOTUSEFUNCTION_2,ei tue toimintoa
+COU_MS_ERROR,Aseta Memory Stick paikalleen
+COU_MS_ERROR_2,
+COU_MS_LOCKED,Memory Stick on lukittu
+COU_MS_LOCKED_2,
+COU_MS_TYPEERROR,Memory Stick -tyyppivirhe
+COU_MS_TYPEERROR_2,
+COU_NOBATTERY,Ei riittävästi virtaa
+COU_NOIMAGE,Ei kuvia
+COU_NOIMAGE_2,
+COU_NOIMAGE_PLAY,Jokin kuva ei siirtynyt
+COU_NOIMAGE_PLAY_2,Tuntematon muoto.
+COU_NOINK,Ei mustetta
+COU_NOINK_2,
+COU_NOMS,Ei Memory Stick -korttia
+COU_NOMS_2,
+COU_NOPAPER,Ei paperia
+COU_NOPAPER_2,
+COU_NOSOFTWAREFILE,Ei ohjelmatiedostoa
+COU_NOSOFTWAREFILE_2,
+COU_NOSPACE_INTERNALMEMORY,Sisäisessä muistissa ei ole tilaa
+COU_NOSPACE_INTERNALMEMORY_2,
+COU_NOSPACE_MS,Memory Stick -kortilla ei ole
+COU_NOSPACE_MS_2,muistitilaa
+COU_NOT_SELECTED_FAV,Suosikkeja ei valittu
+COU_NOT_SELECTED_FAV_2,
+COU_NOT_SELECTED_IMAGES,Kuvaa ei valittu
+COU_NOT_SELECTED_IMAGES_2,
+COU_NOT_SELECTED_SHARE,Jakomerkkiä ei valittu
+COU_NOT_SELECTED_SHARE_2,
+COU_PAPERERROR,Paperivirhe
+COU_PAPERERROR_2,
+COU_PASSLOCK_CODE_MISS,Väärä nollauskoodi
+COU_PASSLOCK_CODE_MISS_2,
+COU_PASSLOCK_PASS_MISS,Väärä salasana
+COU_PASSLOCK_PASS_MISS_2,
+COU_POWEROFFON,Katkaise virta ja kytke taas päälle
+COU_POWEROFFON_2,
+COU_PRINTERBUSY,Tulostin on varattu
+COU_PRINTERBUSY_2,
+COU_PRINTERERROR,Tulostinvirhe
+COU_PRINTERERROR_2,
+COU_READONLYMEMORY,Lukumuisti
+COU_READONLYMEMORY_2,
+COU_READONLY_FOLDER,Vain luku -kansio
+COU_READONLY_FOLDER_2,
+COU_REDEYE_DETECTED,Punasilmäisyyttä ei havaittu
+COU_REDEYE_DETECTED_2,
+COU_SCRNTOUCH_INVALID,Kosketusnäyttö pois käyt. tällä
+COU_SCRNTOUCH_INVALID_2,alueella
+COU_SELFTIMER_INVALID,Itselaukaisin ei ole käytettävissä
+COU_SELFTIMER_INVALID_2,
+COU_SMILESHUTTER_AUTOONLY,Vain hymysuljin on käytettävissä
+COU_SMILESHUTTER_AUTOONLY_2,kun kuvaustavaksi on valittu "Auto"
+COU_SYSTEMERROR,Järjestelmävirhe
+COU_SYSTEMERROR_2,
+COU_TARGET_DETECTED,Korjattavia kasvoja ei löydy
+COU_TARGET_DETECTED_2,
+COU_TARGET_NOIMAGE,Ei yksittäiskuvia
+COU_TARGET_NOIMAGE_2,
+COU_ZOOM_INVALID,Zoom pois käytöstä
+COU_ZOOM_INVALID_2,
+DUMMY,
+GUIDE_BUTTON,Kosketa painik. jota haluat käyttää
+GUIDE_CENTER,Kosketa keskityspistettä
+GUIDE_CHANGEFOCUS,Muuta tark. kohtaa koskettamalla
+GUIDE_CHOOSEFOCUS,Valitse tark. kohta koskettamalla
+GUIDE_DEMO_BACKLIGHT,Taustavalo havaittu
+GUIDE_DEMO_BACKLIGHTPORTRAIT,Taustavalo ja ihmisiä havaittu
+GUIDE_DEMO_LANDSCAPE,Maisema havaittu
+GUIDE_DEMO_MACRO,Hyvin lähellä oleva kohde havaittu
+GUIDE_DEMO_PORTRAIT,Ihmisiä havaittu
+GUIDE_DEMO_TRIPOD,Hämärä ja jalusta havaittu
+GUIDE_DEMO_TWILIGHT,Hämärä havaittu
+GUIDE_DEMO_TWILIGHTPORTRAIT,Hämärä ja ihmisiä havaittu
+GUIDE_EFFECTLEVEL,Valitse tehostetaso
+GUIDE_EXIT_TOUCH,Lopettaa kun näyttöä kosketetaan
+GUIDE_LIGHTBEAM_LEVEL,Valitse valonsäteen taso
+GUIDE_RANGE,Valitse tehosteen alue
+GUIDE_RESIZE,Koon muutos on suoritettu
+GUIDE_RETOUCH_COMPLETE,Parantelu on suoritettu
+GUIDE_RETRO_LIGHT,Valitse kirkkausalue
+GUIDE_ROTATEIMG,Kosketa käännettävää kuvaa
+GUIDE_SAVESIZE,Valitse tallennettava koko
+GUIDE_SELECTFACE,Valitse kasvot koskettamalla
+GUIDE_SELECTFAV,Valitse Suosikkikansio
+GUIDE_SMILEDEMO_START,Aloita valitsemalla hymykuvake
+GUIDE_SMILESHUTTER_EXIT,Poistu valitsemalla hymykuvake
+GUIDE_STARTIMG,Kosketa kuvaesit. aloituskuvaa
+GUIDE_TOUCHFAV,Kosketa Suosikkikansiota
+GUIDE_TOUCHIMG,Kosketa kuvaa
+GUIDE_ZOOMIN_TOUCH,Kosketa zoomattavaa pistettä
+GUIDE_ZOOMIN_TOUCHED,Zoomaa koskettuun kohtaan
+HOME,HOME
+HOME_CAM,Kuvaaminen
+HOME_CAM_GUIDE2,Kuvaa yksittäiskuvia tai
+HOME_CAM_GUIDE2_2,liikkuvaa kuvaa
+HOME_COMMUNICATION,Tiedonsiirto
+HOME_ETC_BGMTOOL,Musiikkityökalu
+HOME_ETC_BGMTOOL_GUIDE2,Hallitse kuvaesityksen
+HOME_ETC_BGMTOOL_GUIDE2_2,musiikkia
+HOME_ETC_PRINT_GUIDE2,Tulosta kuvia
+HOME_ETC_PRINT_GUIDE2_2,
+HOME_MEMORY,Hallitse muistia
+HOME_MEMORY_GUIDE2,Hallitse tallennusvälinettä
+HOME_MEMORY_GUIDE2_2,
+HOME_MEMORY_INTERNALMEMORYTOOL,Sisäinen muisti -työkalu
+HOME_MEMORY_MEMORYSTICKTOOL,Memory Stick -työkalu
+HOME_MEMORY_MEMORYTOOL,Muistityökalu
+HOME_NETWORK,Verkko
+HOME_NETWORK_GUIDE,Yhdistä verkkoon
+HOME_NETWORK_GUIDE_2,
+HOME_PLAY,Katso kuvia
+HOME_PLAY1,Katso kuvia 1
+HOME_PLAY2,Katso kuvia 2
+HOME_PLAY_INDEX_GUIDE2,Näytä useita kuvia
+HOME_PLAY_INDEX_GUIDE2_2,
+HOME_PLAY_NORMAL_GUIDE2,Katso yksittäinen kuva
+HOME_PLAY_NORMAL_GUIDE2_2,
+HOME_PLAY_SLIDESHOW_GUIDE2,Automaattinen toisto musii-
+HOME_PLAY_SLIDESHOW_GUIDE2_2,kin ja tehosteiden kanssa
+HOME_PRINT,Tulosta
+HOME_SCENESELECTION,Valotusohjelma
+HOME_SCRAPBOOK,Leikekirja
+HOME_SCRAPBOOK_GUIDE,Luo Leikekirja
+HOME_SCRAPBOOK_GUIDE_2,automaattisesti
+HOME_SETTINGS,Asetuks.
+HOME_SET_CAM,Kuvausasetukset
+HOME_SET_CAM_GUIDE2,Säädä kuvausasetuksia
+HOME_SET_CAM_GUIDE2_2,
+HOME_SET_CLOCK,Kellonajan asetuks.
+HOME_SET_CLOCK_GUIDE2,Säädä päivämäärä ja
+HOME_SET_CLOCK_GUIDE2_2,kellonaika
+HOME_SET_LANGUAGE,Language Setting
+HOME_SET_LANGUAGE_CHANGE_GUIDE,Change Language
+HOME_SET_LANGUAGE_CHANGE_GUIDE_2,
+HOME_SET_LANGUAGE_GUIDE2,Change Language
+HOME_SET_LANGUAGE_GUIDE2_2,
+HOME_SET_MAIN,Pääasetukset
+HOME_SET_MAIN_GUIDE2,Säädä pääasetuksia
+HOME_SET_MAIN_GUIDE2_2,
+HOME_SLIDESHOW,Kuvaesitys
+HOME_VIEW_DATE,Pvm. -näkymä
+HOME_VIEW_DATE_GUIDE2,Näytä kuvat kuvaus-
+HOME_VIEW_DATE_GUIDE2_2,päivämäärän mukaan
+HOME_VIEW_EVENT,Tapahtumanäkymä
+HOME_VIEW_EVENT_GUIDE,Lajittele kuvat ryhmiin auto-
+HOME_VIEW_EVENT_GUIDE_2,maattisesti näyttöä varten
+HOME_VIEW_FAV,Suosikit
+HOME_VIEW_FAV_GUIDE2,Näytä Suosikeissa olevat
+HOME_VIEW_FAV_GUIDE2_2,kuvat
+HOME_VIEW_FOLDER,Kansionäkymä
+HOME_VIEW_FOLDER_GUIDE2,Näytä DCF-kansiossa olevat
+HOME_VIEW_FOLDER_GUIDE2_2,kuvat
+KEY_FLASH_AUTO_GUIDE,Automaattisalama
+KEY_FLASH_AUTO_GUIDE_2,Automaattinen välähdys
+KEY_FLASH_OFF,Salama pois päältä
+KEY_FLASH_OFF_GUIDE,Salama pois päältä
+KEY_FLASH_OFF_GUIDE_2,Ei salamaa
+KEY_FLASH_ON,Salama päällä
+KEY_FLASH_ON_GUIDE,Salama päällä
+KEY_FLASH_ON_GUIDE_2,Käytä aina salamaa
+KEY_FLASH_SYNCHRO_GUIDE,Pitää kohteet ja kaukaiset
+KEY_FLASH_SYNCHRO_GUIDE_2,taustat kirkkaina
+KEY_MACRO_AUTO_GUIDE,Automaattikohdistus
+KEY_MACRO_AUTO_GUIDE_2,läheltä äärettömyyteen
+KEY_MACRO_NEAR,Makro päällä
+KEY_MACRO_NEAR_GUIDE,Kohdistus ensisijais. erittäin
+KEY_MACRO_NEAR_GUIDE_2,lähellä oleviin kohteisiin
+KEY_MAGNIFY_ON,Lähikuvaus käytössä
+KEY_MAGNIFY_ON_GUIDE,Lähikuvaus käytössä
+KEY_MAGNIFY_ON_GUIDE_2,Erikoislähikuville
+KEY_SELFTIMER_10_GUIDE,Laukaisee 10 sekuntia
+KEY_SELFTIMER_10_GUIDE_2,sulkimen painamisen jälkeen
+KEY_SELFTIMER_2_GUIDE,Laukaisee 2 sekuntia
+KEY_SELFTIMER_2_GUIDE_2,sulkimen painamisen jälkeen
+KEY_SELFTIMER_OFF_GUIDE,Itseajastin pois päältä
+KEY_SELFTIMER_OFF_GUIDE_2,
+MSG_ACCESSING,Hakee…
+MSG_AVI_MAKING,Luodaan uutta kuvanhallinnan
+MSG_CAPTURING,Valottaa…
+MSG_CLOSEEYE_DETECT,Suljettu silmä havaittu
+MSG_CONFIRM_UPDATE,Valitse OK päivittääksesi
+MSG_CONFIRM_UPDATE_2,
+MSG_CONNECTING,Yhdistää…
+MSG_CONNECTING_MASSSTORAGE,Yhdistää
+MSG_CONNECTING_MASSSTORAGE_2,Mass Storage -välineeseen…
+MSG_CONNECTING_NETWORK,Yhdistää verkkoon…
+MSG_CONNECTING_PICTBRIDGE,Kytkee PictBridge-laitteeseen
+MSG_CONNECTING_PICTBRIDGE_2,
+MSG_CONNECTING_PTPMTP,Yhdistää
+MSG_CONNECTING_PTPMTP_2,PTP/MTP: hen…
+MSG_CONNECT_PC,Liitä tietokoneeseen
+MSG_CONNECT_PC_2,
+MSG_CONNECT_PICTBRIDGE,Liitä PictBridge-laitteeseen
+MSG_CONNECT_PICTBRIDGE_2,
+MSG_COPY,Sisäisen muistin kaikki
+MSG_COPYING,Kopioi…
+MSG_COPYING_2,
+MSG_COPY_2,tiedot kopioidaan
+MSG_CREATING_RECFOLDER,Luo kansiota
+MSG_CURRENTVERSION,Nykyinen versio
+MSG_ENTRY_OVER,Kuvien maksimimäärä
+MSG_ENTRY_OVER_2,on ylitetty
+MSG_EXITTING_NETWORK,Suljetaan verkko…
+MSG_FORMATTING_BGM,Alustaa Musiikki…
+MSG_FORMATTING_BGM_2,
+MSG_FORMATTING_INTERNALMEMORY,Alustaa sisäistä muistia…
+MSG_FORMATTING_INTERNALMEMORY_2,
+MSG_FORMATTING_MS,Alustaa Memory Stick -korttia…
+MSG_FORMATTING_MS_2,
+MSG_FORMAT_BGM,Kaikki musiikkitiedostot poistetaan
+MSG_FORMAT_BGM_2,
+MSG_FORMAT_INTERNALMEMORY,Sisäisen muistin kaikki tiedot
+MSG_FORMAT_INTERNALMEMORY_2,poistetaan
+MSG_FORMAT_MS,Memory Stick -kortin kaikki
+MSG_FORMAT_MS_2,tiedot poistetaan
+MSG_FORWARDING,Tietoja siirretään…
+MSG_HOUSING,Toimintaa on muutettu
+MSG_INITIALIZE_ALLSETTINGS,Palauta kaikki asetukset
+MSG_INITIALIZE_ALLSETTINGS_2,
+MSG_NEWVERSION,Uusi versio
+MSG_NOTTURNOFF,Älä katkaise virtaa
+MSG_PASSLOCK_PASS_CANCEL,Salasana-asetus on peruutettu
+MSG_PASSLOCK_PASS_CANCEL_2,
+MSG_PASSLOCK_PASS_RESET,Salasana on nollattu
+MSG_PASSLOCK_PASS_RESET_2,
+MSG_PASSLOCK_PASS_RESET_MODE,Salasanan nollaustila
+MSG_PASSLOCK_PASS_RESET_MODE_2,
+MSG_PASSLOCK_PASS_SET,Salasana on asetettu
+MSG_PASSLOCK_PASS_SET_2,
+MSG_PRINTING,Tulostaa…
+MSG_PROCESSING,Käsittelee…
+MSG_RECORDING,Tallentaa…
+MSG_RECORD_MS,Tallentaa Memory Stick -kortille
+MSG_RECOVER,Palauta tiedot
+MSG_RECOVERINGFILE,Palautetaan kuvanhallinta-
+MSG_RECOVERINGFILE_2,tiedostoa…
+MSG_RECOVER_2,
+MSG_SEE_SOFTWAREUPDATE_INST,Katso "Ohjelman päivitysohje"
+MSG_SEE_SOFTWAREUPDATE_INST_2,
+MSG_SMILEDEMO_GUIDE,Hymy kuvataan automaattisesti
+MSG_SMILEDEMO_PROCESSING,Hymysulkimen esittely
+MSG_SMILESHUTTER_PROCESSING,Tunnistaa hymyn
+MSG_SMILE_END1,Kuvien määrä
+MSG_SOFTWAREUPDATE,Ohjelman päivitys
+MSG_SOFTWAREUPDATE_2,
+MSG_STARTING_NETWORK,Käynnistetään verkko…
+MSG_START_BROWSER,Käynnistetään Web-selain…
+MSG_TOUCH_X_CENTER,Kosketa ×-merkin keskipistettä
+MSG_TVOUT,TV-lähtö käynnissä…
+MSG_USBMENU,Käynnistä [MENU]
+PASSLOCK_PASS_CLEAR,Anna nollauskoodi
+PASSLOCK_PASS_INPUT,Anna salasana
+PASSLOCK_PASS_REINPUT,Anna salasana uudelleen
+PASSLOCK_PASS_SET,Aseta salasana
+PBMENU_ALBUM_GUIDE,Palaa albumiin
+PBMENU_ALBUM_GUIDE_2,
+PBMENU_BACKGROUND,Tausta
+PBMENU_BLOG_GUIDE,Pienennä kuvakokoa ja
+PBMENU_BLOG_GUIDE_2,tallenna uutena kuvana
+PBMENU_DATEALL,Kaikki pvm. -alueen kuvat
+PBMENU_DATEALL_CLEAR,Poista kaikki pvm. -alueella
+PBMENU_DATEALL_ENTRY,Lisää kaikki pvm. -alueella
+PBMENU_DATEALL_SET,Aseta kaikki pvm. -alueella
+PBMENU_DATELIST,Päivämääräluettelo
+PBMENU_DATELIST_GUIDE,Valitse katseltava päivämäärä
+PBMENU_DATELIST_GUIDE_2,
+PBMENU_DELETE,Poista
+PBMENU_DELETE_ALL_GUIDE,Poista kaikki tässä kansiossa
+PBMENU_DELETE_ALL_GUIDE_2,olevat kuvat
+PBMENU_DELETE_DATEALL_GUIDE,Poista kaikki tämän
+PBMENU_DELETE_DATEALL_GUIDE_2,pvm. -alueen kuvat
+PBMENU_DELETE_EVENTALL_GUIDE,Poista tämän tapahtuman
+PBMENU_DELETE_EVENTALL_GUIDE_2,kaikki kuvat
+PBMENU_DELETE_SELECT_GUIDE,Pyyhi useita valittuja kuvia
+PBMENU_DELETE_SELECT_GUIDE_2,
+PBMENU_DELETE_SINGLE_GUIDE,Pyyhi kuva
+PBMENU_DELETE_SINGLE_GUIDE_2,
+PBMENU_DPOF,DPOF
+PBMENU_DPOF_ALL_CLEAR_GUIDE,Poista kuvatilausmerkit kai-
+PBMENU_DPOF_ALL_CLEAR_GUIDE_2,kista tämän kansion kuvista
+PBMENU_DPOF_ALL_SET_GUIDE,Lisää kuvatilausmerkit
+PBMENU_DPOF_ALL_SET_GUIDE_2,kaikkiin tämän kansion kuviin
+PBMENU_DPOF_DATEALL_CLEAR_GUIDE,Poista kuvatilausmerkit kai-
+PBMENU_DPOF_DATEALL_CLEAR_GUIDE_2,kista tämän pvm. -al. kuvista
+PBMENU_DPOF_DATEALL_SET_GUIDE,Lisää kuvatilausmerkit kaik-
+PBMENU_DPOF_DATEALL_SET_GUIDE_2,kiin tämän pvm-alueen kuviin
+PBMENU_DPOF_EVENTALL_CLEAR_GUIDE,Tyhjennä tapahtuman kaikki
+PBMENU_DPOF_EVENTALL_CLEAR_GUIDE_2,kuvien kuvatilausmerkit
+PBMENU_DPOF_EVENTALL_SET_GUIDE,Lisää kuvatilausmerkit tämän
+PBMENU_DPOF_EVENTALL_SET_GUIDE_2,tapahtuman kaikkiin kuviin
+PBMENU_DPOF_FAVALL_CLEAR_GUIDE,Poista kuvatilausmerkit kai-
+PBMENU_DPOF_FAVALL_CLEAR_GUIDE_2,kista tämän ryhmän kuvista
+PBMENU_DPOF_FAVALL_SET_GUIDE,Lisää kuvatilausmerkit
+PBMENU_DPOF_FAVALL_SET_GUIDE_2,kaikkiin tämän ryhmän kuviin
+PBMENU_DPOF_SELECT_GUIDE,Kytke päälle/pois useiden
+PBMENU_DPOF_SELECT_GUIDE_2,valittujen kuvien tilausmerkit
+PBMENU_DPOF_SINGLE_GUIDE,Kytke päälle/pois valitun
+PBMENU_DPOF_SINGLE_GUIDE_2,kuvan tilausmerkit
+PBMENU_EDIT,Parantelu
+PBMENU_EDIT_BLOG_EMAIL,Blogi/s-posti
+PBMENU_EDIT_BW,Osittainen väri
+PBMENU_EDIT_BW_GUIDE,Ympäröi valittu kohta
+PBMENU_EDIT_BW_GUIDE_2,mustavalkoisella
+PBMENU_EDIT_CROSS,Ristikkosuodatin
+PBMENU_EDIT_CROSS_GUIDE,Lisää tähtipurkaustehoste
+PBMENU_EDIT_CROSS_GUIDE_2,kirkastaaksesi kuvan kohtia
+PBMENU_EDIT_FISHEYE,Kalansilmälinssi
+PBMENU_EDIT_FISHEYE_GUIDE,Lisää kalansilmätehoste
+PBMENU_EDIT_FISHEYE_GUIDE_2,valitun pisteen ympärille
+PBMENU_EDIT_HDTV,HDTV
+PBMENU_EDIT_RADIATION,Säteittäinen sumennus
+PBMENU_EDIT_RADIATION_GUIDE,Lisää sumennusrengas
+PBMENU_EDIT_RADIATION_GUIDE_2,valitun pisteen ympärille
+PBMENU_EDIT_REDEYE,Punasilmäisyyden korjaus
+PBMENU_EDIT_REDEYE_GUIDE,Poistaa salaman aiheut-
+PBMENU_EDIT_REDEYE_GUIDE_2,taman punasilmäisyyden
+PBMENU_EDIT_RETRO2,Retro
+PBMENU_EDIT_RETRO2_GUIDE,Sumenna ja hämärrä reuna
+PBMENU_EDIT_RETRO2_GUIDE_2,nostalgista tehostusta varten
+PBMENU_EDIT_SHARPFOUCS,Epäterävä maski
+PBMENU_EDIT_SHARPFOUCS_GUIDE,Terävöittää kuvaa valitun
+PBMENU_EDIT_SHARPFOUCS_GUIDE_2,pisteen ympäriltä
+PBMENU_EDIT_SMILE,Hymyt
+PBMENU_EDIT_SMILE_GUIDE,Muuta ihmisten kasvoja niin,
+PBMENU_EDIT_SMILE_GUIDE_2,että ne näyttävät hymyilevän
+PBMENU_EDIT_SOFTFOUCS,Pehmeä kohdistus
+PBMENU_EDIT_SOFTFOUCS_GUIDE,Sumenna reuna
+PBMENU_EDIT_SOFTFOUCS_GUIDE_2,valitun pisteen ympärillä
+PBMENU_EDIT_TRIMMING,Rajaus
+PBMENU_EDIT_TRIMMING_GUIDE,Leikkaa kuvasta
+PBMENU_EDIT_TRIMMING_GUIDE_2,ylimääräiset osat
+PBMENU_EVENTALL,Kaikki Tapahtuma-kansiossa
+PBMENU_EVENTALL_CLEAR,Poista tapahtuman kuvat
+PBMENU_EVENTALL_ENTRY,Lisää kaikki tapahtumasta
+PBMENU_EVENTALL_SET,Valitse kaikki kuvat
+PBMENU_EVENTLIST,Tapahtumaluettelo
+PBMENU_EVENTLIST_GUIDE,Valitse katseltava tapahtuma
+PBMENU_EVENTLIST_GUIDE_2,
+PBMENU_FAV,Suosikit
+PBMENU_FAV1,Suosikit 1
+PBMENU_FAV2,Suosikit 2
+PBMENU_FAV3,Suosikit 3
+PBMENU_FAV4,Suosikit 4
+PBMENU_FAV5,Suosikit 5
+PBMENU_FAV6,Suosikit 6
+PBMENU_FAVALL,Kaikki Suosikeissa
+PBMENU_FAVALL_CLEAR,Poista kaikki Suosikeista
+PBMENU_FAVALL_ENTRY,Lisää kaikki Suosikkeihin
+PBMENU_FAVALL_SET,Aseta kaikki tässä ryhmässä
+PBMENU_FAV_ALL_CLEAR_GUIDE,Poista kaikki kuvat
+PBMENU_FAV_ALL_CLEAR_GUIDE_2,Suosikeista
+PBMENU_FAV_CLEAR,Poista Suosikit
+PBMENU_FAV_CLEAR_DATEALL_GUIDE,Poista kaikki tämän pvm. -
+PBMENU_FAV_CLEAR_DATEALL_GUIDE_2,alueen kuvat Suosikeista
+PBMENU_FAV_CLEAR_EVENTALL_GUIDE,Poista tämän tapahtuman
+PBMENU_FAV_CLEAR_EVENTALL_GUIDE_2,kaikki kuvat Suosikeista
+PBMENU_FAV_ENTRY,Lisää Suosikkeihin
+PBMENU_FAV_ENTRY_DATEALL_GUIDE,Lisää kaikki tämän pvm. -
+PBMENU_FAV_ENTRY_DATEALL_GUIDE_2,alueen kuvat Suosikkeihin
+PBMENU_FAV_ENTRY_EVENTALL_GUIDE,Lisää tämän tapahtuman
+PBMENU_FAV_ENTRY_EVENTALL_GUIDE_2,kaikki kuvat Suosikkeihin
+PBMENU_FAV_SELECT_GUIDE,Lisää/poista valitut kuvat
+PBMENU_FAV_SELECT_GUIDE_2,Suosikkeihin/Suosikeista
+PBMENU_FAV_SET,Lisää/poista Suosikit
+PBMENU_FAV_SINGLE_GUIDE,Lisää/poista tämä kuva
+PBMENU_FAV_SINGLE_GUIDE_2,Suosikkeihin/Suosikeista
+PBMENU_FOLDERALL,Koko tämä kansio
+PBMENU_FOLDERALL_CLEAR,Poista kaikki tässä kansiossa
+PBMENU_FOLDERALL_ENTRY,Lisää kaikki kansiossa
+PBMENU_FOLDERALL_SET,Valitse kaikki kansiossa
+PBMENU_FOLDERJUMP,Valitse kansio
+PBMENU_FRAME,Kehys
+PBMENU_HDTV_GUIDE,Leikkaa kuva kokoon 16:9 ja
+PBMENU_HDTV_GUIDE_2,tallenna uutena kuvana
+PBMENU_IMAGESAVE,Tallenna kuvana
+PBMENU_MULTIPLEIMAGES,Useita kuvia
+PBMENU_MULTIPLEPAGESAVE,Valitse sivut ja tallenna
+PBMENU_MULTIRESIZE,Monivalint. koonmuutos
+PBMENU_PAGESAVE,Tallenna tämä sivu
+PBMENU_PAINT,Maalaus
+PBMENU_PAINT_GUIDE,Lisää kuvaan maalaus, leima
+PBMENU_PAINT_GUIDE_2,tai kehys
+PBMENU_PBFOLDER_GUIDE,Valitse toistettava kansio
+PBMENU_PBFOLDER_GUIDE_2,
+PBMENU_PRINT_ALL_GUIDE,Tulosta kaikki kansiossa
+PBMENU_PRINT_ALL_GUIDE_2,olevat kuvat
+PBMENU_PRINT_DATEALL_GUIDE,Tulosta kaikki tämän pvm. -
+PBMENU_PRINT_DATEALL_GUIDE_2,alueen mukaiset kuvat
+PBMENU_PRINT_EVENTALL_GUIDE,Tulosta tämän tapahtuman
+PBMENU_PRINT_EVENTALL_GUIDE_2,kaikki kuvat
+PBMENU_PRINT_FAVALL_GUIDE,Tulosta kaikki tässä Suosikit-
+PBMENU_PRINT_FAVALL_GUIDE_2,ryhmässä olevat kuvat
+PBMENU_PRINT_SELECT_GUIDE,Tulosta useita valittuja
+PBMENU_PRINT_SELECT_GUIDE_2,kuvia
+PBMENU_PRINT_SINGLE_GUIDE,Tulosta kuvia
+PBMENU_PRINT_SINGLE_GUIDE_2,
+PBMENU_PROTECT,Suojaa
+PBMENU_PROTECT_ALL_CLEAR_GUIDE,Kytke kaikkien kansiossa
+PBMENU_PROTECT_ALL_CLEAR_GUIDE_2,olevien kuvien suojaus pois
+PBMENU_PROTECT_ALL_SET_GUIDE,Kytke kaikkien kansiossa
+PBMENU_PROTECT_ALL_SET_GUIDE_2,olevien kuv. suojaus päälle
+PBMENU_PROTECT_DATEALL_CLEAR_GUIDE,Kytke kaikkien pvm. -alueella
+PBMENU_PROTECT_DATEALL_CLEAR_GUIDE_2,olevien kuvien suojaus pois
+PBMENU_PROTECT_DATEALL_SET_GUIDE,Kytke kaikkien pvm. -alueella
+PBMENU_PROTECT_DATEALL_SET_GUIDE_2,olevien kuvien suojaus päälle
+PBMENU_PROTECT_EVENTALL_CLEAR_GUIDE,Kytke tämän tapahtuman
+PBMENU_PROTECT_EVENTALL_CLEAR_GUIDE_2,kaikkien kuvien suojaus pois
+PBMENU_PROTECT_EVENTALL_SET_GUIDE,Kytke tapahtuman kaikkien
+PBMENU_PROTECT_EVENTALL_SET_GUIDE_2,kuvien suojaus päälle
+PBMENU_PROTECT_FAVALL_CLEAR_GUIDE,Kytke kaikkien ryhmässä
+PBMENU_PROTECT_FAVALL_CLEAR_GUIDE_2,olevien kuvien suojaus pois
+PBMENU_PROTECT_FAVALL_SET_GUIDE,Kytke kaikkien ryhmässä
+PBMENU_PROTECT_FAVALL_SET_GUIDE_2,olevien kuvien suojaus päälle
+PBMENU_PROTECT_SELECT_GUIDE,Kytke päälle/pois suojaus
+PBMENU_PROTECT_SELECT_GUIDE_2,useille valituille kuville
+PBMENU_PROTECT_SINGLE_GUIDE,Kytke päälle/pois
+PBMENU_PROTECT_SINGLE_GUIDE_2,kuvan suojaus
+PBMENU_REFINE,Suodata kasvojen mukaan
+PBMENU_REFINE_BABY,Vauvat
+PBMENU_REFINE_BABY_GUIDE,Etsi ja näytä kuvat,
+PBMENU_REFINE_BABY_GUIDE_2,joissa on vauvoja
+PBMENU_REFINE_CHILD,Lapset
+PBMENU_REFINE_CHILD_GUIDE,Etsi ja näytä kuvat,
+PBMENU_REFINE_CHILD_GUIDE_2,joissa on lasten kasvoja
+PBMENU_REFINE_CLEAR_GUIDE,Näytä kaikki kuvat
+PBMENU_REFINE_CLEAR_GUIDE_2,
+PBMENU_REFINE_FACE,Kaikki ihmiset
+PBMENU_REFINE_FACE_GUIDE,Etsi ja näytä kuvat,
+PBMENU_REFINE_FACE_GUIDE_2,joissa on kasvoja
+PBMENU_REFINE_SMILE,Hymyt
+PBMENU_REFINE_SMILE_GUIDE,Etsi ja näytä kuvat,
+PBMENU_REFINE_SMILE_GUIDE_2,joissa on hymyileviä kasvoja
+PBMENU_ROTATE,Käännä
+PBMENU_ROTATE_GUIDE,Käännä kuvia
+PBMENU_ROTATE_GUIDE_2,
+PBMENU_SCRAPBOOKALLSAVE,Tallenna Leikek. kaikki sivut
+PBMENU_SCRAPBOOKALL_GUIDE,Tallenna Leikekirjan
+PBMENU_SCRAPBOOKALL_GUIDE_2,kaikki sivut kuvina
+PBMENU_SHARE_CLEAR,Poista Jakomerkki
+PBMENU_SHARE_CLEAR_DATEALL_GUIDE,Poista tämän pvm-alueen
+PBMENU_SHARE_CLEAR_DATEALL_GUIDE_2,kaikki kuvat Jakomerkistä
+PBMENU_SHARE_CLEAR_EVENTALL_GUIDE,Poista tämän tapahtuman
+PBMENU_SHARE_CLEAR_EVENTALL_GUIDE_2,kaikki kuvat Jakomerkistä
+PBMENU_SHARE_CLEAR_FAVALL_GUIDE,Poista tämän ryhmän
+PBMENU_SHARE_CLEAR_FAVALL_GUIDE_2,kaikki kuvat Jakomerkistä
+PBMENU_SHARE_ENTRY,Lisää Jakomerkkiin
+PBMENU_SHARE_ENTRY_DATEALL_GUIDE,Lisää päivämääräalueen
+PBMENU_SHARE_ENTRY_DATEALL_GUIDE_2,kaikki kuvat Jakomerkkiin
+PBMENU_SHARE_ENTRY_EVENTALL_GUIDE,Lisää tämän tapahtuman
+PBMENU_SHARE_ENTRY_EVENTALL_GUIDE_2,kaikki kuvat Jakomerkkiin
+PBMENU_SHARE_ENTRY_FAVALL_GUIDE,Lisää tämän ryhmän
+PBMENU_SHARE_ENTRY_FAVALL_GUIDE_2,kaikki kuvat Jakomerkkiin
+PBMENU_SHARE_SELECT_GUIDE,Lisää/poista valitut kuvat
+PBMENU_SHARE_SELECT_GUIDE_2,Jakomerkkiin/Jakomerkistä
+PBMENU_SHARE_SET,Lisää/poista Jakomerkki
+PBMENU_SHARE_SINGLE_GUIDE,Lisää/poista tämä kuva
+PBMENU_SHARE_SINGLE_GUIDE_2,Jakomerkkiin/Jakomerkistä
+PBMENU_SLIDESHOW_GUIDE,Automaattinen toisto musii-
+PBMENU_SLIDESHOW_GUIDE_2,kin ja tehosteiden kanssa
+PBMENU_THISIMAGE,Tämä kuva
+PBMENU_THISPAGE_GUIDE,Tallenna Leikekirjan
+PBMENU_THISPAGE_GUIDE_2,tämän sivun kuva
+PBMENU_VIEWSELECT,Katselutila
+PBMENU_VOLUMESETTINGS,Äänenvoimakkuusasetukset
+PBMENU_VOLUME_GUIDE,Säätää kuvaesityksen/video-
+PBMENU_VOLUME_GUIDE_2,toiston äänenvoimakkuutta
+PBMENU_WIDEZOOM,Leveä zoomnäyttö
+PBMENU_WSCREEN_GUIDE,Leikkaa kuva kokoon 16:9
+PBMENU_WSCREEN_GUIDE_2,ja näytä
+PRINTMENU_10X15CM,10x15 cm
+PRINTMENU_1PICBORDER,1 kuva reunall.
+PRINTMENU_1PICNOBORDER,1 kuva reunaton
+PRINTMENU_2L,13x18 cm
+PRINTMENU_2PICS,2 kuvaa/arkki
+PRINTMENU_3PICS,3 kuvaa/arkki
+PRINTMENU_4PICS,4 kuvaa/arkki
+PRINTMENU_4X6,4x6"
+PRINTMENU_8PICS,8 kuvaa/arkki
+PRINTMENU_A3,A3
+PRINTMENU_A3PLUS,A3+
+PRINTMENU_A4,A4
+PRINTMENU_A6,A6
+PRINTMENU_DATE,Päivä
+PRINTMENU_DATE_A,Päivä
+PRINTMENU_DAYANDTIME,Päivä&aika
+PRINTMENU_HAGAKI,Hagaki
+PRINTMENU_HDTV,Leveä koko
+PRINTMENU_INDEX,Hakemisto
+PRINTMENU_INDEXPRINT,Hakemistokuva
+PRINTMENU_L,9x13 cm
+PRINTMENU_LETTER,Letter
+PRINTMENU_PICTUREINPAPER,Asettelu
+PRINTMENU_QUANTITY,Määrä
+PRINTMENU_SIZE,Koko
+SAVE,Tallenna
+SETUP_AFILLUMINATOR,AF-apuvalo
+SETUP_AFILLUMINATOR_GUIDE2,Kohdist. täyd. valo vähässä
+SETUP_AFILLUMINATOR_GUIDE2_2,valossa
+SETUP_AFMODE,AF-tila
+SETUP_AFMODE_GUIDE2,Automaattikohdennuksen
+SETUP_AFMODE_GUIDE2_2,asetukset
+SETUP_AUTOREVIEW,Autom. Katselu
+SETUP_AUTOREVIEW_GUIDE2,Katso kuva 2 sek. kuvaamisen
+SETUP_AUTOREVIEW_GUIDE2_2,jälkeen
+SETUP_BEEP,Piippaus
+SETUP_BEEP_GUIDE2,Äänimerkin asetukset
+SETUP_BEEP_GUIDE2_2,
+SETUP_BGMTOOL_DOWNLOAD_GUIDE2,Muuta diaesityksen musiikkia
+SETUP_BGMTOOL_DOWNLOAD_GUIDE2_2,
+SETUP_BGMTOOL_FORMAT_GUIDE2,Pyyhi kaikki diaesityksen musiikki
+SETUP_BGMTOOL_FORMAT_GUIDE2_2,
+SETUP_BGM_DOWNLOAD,Lataa musiikki
+SETUP_BGM_FORMAT,Alusta musiikki
+SETUP_CALIBRATION,Kalibrointi
+SETUP_CAM1,Kuvausasetukset 1
+SETUP_CAM2,Kuvausasetukset 2
+SETUP_CHANGERECFOLDER,Muuta kansiota
+SETUP_CLOCK_GUIDE2,Säädä päivämäärä ja kellonaika
+SETUP_CLOCK_GUIDE2_2,
+SETUP_COMPONENT,COMPONENT
+SETUP_COMPONENT_D1,SD
+SETUP_COMPONENT_D3,HD(1080i)
+SETUP_COMPONENT_GUIDE2,Komponenttilähdön asetukset
+SETUP_COMPONENT_GUIDE2_2,
+SETUP_CONTROLGUIDE,Ohjausopas
+SETUP_CONTROLGUIDE_GUIDE,Ohjausoppaan asetukset
+SETUP_CONVERSION_GUIDE2,Valitse muunnoslinssi
+SETUP_CONVERSION_GUIDE2_2,
+SETUP_COPY,Kopioi
+SETUP_CREATERECFOLDER,Luo kansio
+SETUP_DEMOMODE,Esittelytila
+SETUP_DEMOMODE_GUIDE,Aseta päälle esittelytilaa varten
+SETUP_DEMOMODE_GUIDE_2,
+SETUP_DIGITALZOOM,Digitaalizoomaus
+SETUP_DIGITALZOOM_PRECISION,Tarkkuus
+SETUP_DIGITALZOOM_SMART,Älykäs
+SETUP_DIRECTIONJUDGE,Autom. suuntaus
+SETUP_DIRECTIONJUDGE_GUIDE2,Määritä kameran suunta ja
+SETUP_DIRECTIONJUDGE_GUIDE2_2,tallenna
+SETUP_DISP,Näytön asetus
+SETUP_DISP_09,9
+SETUP_DISP_12,12
+SETUP_DISP_16,16
+SETUP_DISP_20,20
+SETUP_DISP_BRIGHT,Kirkas
+SETUP_DISP_BRIGHTNESS,Näytön kirkkaus
+SETUP_DISP_BRIGHTNESSSET,Kirkkaus
+SETUP_DISP_HISTOGRAMSET,Histogrammi
+SETUP_DISP_IMAGEONLY,Vain kuva
+SETUP_DISP_INDEX,Hakemistonäytön asetus
+SETUP_DISP_MSG_GRAPH_OFF,Diagrammia ei näytetä
+SETUP_DISP_MSG_GRAPH_ON,Näyttää kuvan kirkkauden diagrammina
+SETUP_DISP_MSG_ICON,Näyttää vain käyttöpainikkeet
+SETUP_DISP_MSG_IMAGE,Näyttää vain kuvan
+SETUP_DISP_MSG_INFO,Näyttää käyttöpainikkeet ja tiedot
+SETUP_DISP_MSG_LIGHT_BRIGHT,Asettaa näytön kirkkaammaksi
+SETUP_DISP_MSG_LIGHT_NORMAL,Asettaa näytön normaalikirkkaudelle
+SETUP_DISP_MSG_THUMBNAIL_09,9 kuvan hakemistonäyttö
+SETUP_DISP_MSG_THUMBNAIL_12,12 kuvan hakemistonäyttö
+SETUP_DISP_MSG_THUMBNAIL_16,16 kuvan hakemistonäyttö
+SETUP_DISP_MSG_THUMBNAIL_20,20 kuvan hakemistonäyttö
+SETUP_DISP_MSG_WIDEZOOMSET_OFF,Näytä kuvat alkup. kuvasuhteessa
+SETUP_DISP_MSG_WIDEZOOMSET_ON,Näytä kuvat koko näytön kokoisina
+SETUP_DISP_OFF,Pois
+SETUP_DISP_ON,Päällä
+SETUP_DISP_OPT,Kuvien määrä
+SETUP_DISP_PLAY,Toistonäytön asetus
+SETUP_DISP_SHOOT,Kuvausnäytön asetus
+SETUP_DISP_WIDEZOOMSET,Leveä zoom
+SETUP_EXPANDEDFOUCS_GUIDE2,Suurenna keskus käsikohd.
+SETUP_EXPANDEDFOUCS_GUIDE2_2,aikana
+SETUP_EZOOM_GUIDE2,Digitaalizoomin asetukset
+SETUP_EZOOM_GUIDE2_2,
+SETUP_FLASHSYNCHRO_GUIDE2,Valitse salaman ajastus
+SETUP_FLASHSYNCHRO_GUIDE2_2,
+SETUP_FORMAT,Alustus
+SETUP_FUNCTIONGUIDE,Toimintaop.
+SETUP_FUNCTIONGUIDE_GUIDE2,Toiminto-oppaan asetukset
+SETUP_FUNCTIONGUIDE_GUIDE2_2,
+SETUP_GRIDLINE,Apuviiva
+SETUP_GRIDLINE_GUIDE2,Ohjeita kuvien sommitteluun
+SETUP_GRIDLINE_GUIDE2_2,
+SETUP_HOUSING,Kotelo
+SETUP_INITIALIZE,Palauta
+SETUP_INITIALIZE_GUIDE2,Palauta alkuperäiset
+SETUP_INITIALIZE_GUIDE2_2,oletusasetukset
+SETUP_INTERNALMEMORY_FORMAT_GUIDE2,Alusta sisäinen muisti
+SETUP_INTERNALMEMORY_FORMAT_GUIDE2_2,
+SETUP_LANG,SUOMI
+SETUP_LANG_5WAY,SUOMI
+SETUP_LCD_RESPOINT_GUIDE2,Säätää näytön
+SETUP_LCD_RESPOINT_GUIDE2_2,kosketusvastekohtaa
+SETUP_LUNSET,LUN-asetukset
+SETUP_LUNSET_GUIDE,Valitse tallennusväline, johon
+SETUP_LUNSET_GUIDE_2,massamuisti yhdistetään
+SETUP_LUNSET_MULTI,Useita
+SETUP_LUNSET_SINGLE,Yksi
+SETUP_MAIN1,Pääasetukset 1
+SETUP_MAIN2,Pääasetukset 2
+SETUP_MAIN3,Pääasetukset 3
+SETUP_MARINEPACK_GUIDE2,Aseta päälle, kun käytät koteloa
+SETUP_MARINEPACK_GUIDE2_2,
+SETUP_MASSSTORAGE,Mass Storage
+SETUP_MONITOR,Tarkkaile
+SETUP_MS_COPY_CHANGE_GUIDE2,Kopioi kaikki kuvat sisäisestä
+SETUP_MS_COPY_CHANGE_GUIDE2_2,muistista
+SETUP_MS_FOLDER_CHANGE_GUIDE2,Muuta kuvien tallennuskansiota
+SETUP_MS_FOLDER_CHANGE_GUIDE2_2,
+SETUP_MS_FOLDER_CREATE_GUIDE2,Luo uusi kansio
+SETUP_MS_FOLDER_CREATE_GUIDE2_2,
+SETUP_MS_FORMAT_GUIDE2,Alusta Memory Stick
+SETUP_MS_FORMAT_GUIDE2_2,
+SETUP_NTSC,NTSC
+SETUP_PAL,PAL
+SETUP_PASSLOCK,Salasanalukko
+SETUP_PASSLOCK_GUIDE,Aseta kuvien lukitussalasana
+SETUP_PASSLOCK_GUIDE_2,
+SETUP_PICTBRIDGE,PictBridge
+SETUP_PTPMTP,PTP/MTP
+SETUP_SHUTTER,Suljin
+SETUP_SINGLE,Kerta
+SETUP_SMILEDEMO,Hymyn esittelytila
+SETUP_SMILEDEMO_GUIDE2,Aseta päälle hymysulkimen
+SETUP_SMILEDEMO_GUIDE2_2,esittelytilaa varten
+SETUP_TVTYPE,TV-TYYPPI
+SETUP_TVTYPE_GUIDE2,TV-näytön tyypin valintaa varten
+SETUP_TVTYPE_GUIDE2_2,
+SETUP_UPDATE,Päivitä
+SETUP_USBCONNECT,USB-liitäntä
+SETUP_USBCONNECT_GUIDE2,Lähtömuoto, kun liitetty USB: n
+SETUP_USBCONNECT_GUIDE2_2,kautta
+SETUP_VERSION,Versio
+SETUP_VERSION_GUIDE2,Tarkista versio ja päivitä
+SETUP_VERSION_GUIDE2_2,laiteohjelmisto
+SETUP_VIDEOOUT,Videolähtö
+SETUP_VIDEOOUT_GUIDE2,Lähtömuoto, kun liitetty
+SETUP_VIDEOOUT_GUIDE2_2,videolaitt.
+SSMENU_10SEC,10 s
+SSMENU_1SEC,1 s
+SSMENU_3SEC,3 s
+SSMENU_5SEC,5 s
+SSMENU_ACTIVE,Aktiivinen
+SSMENU_ALL,Kaikki
+SSMENU_BASIC,Perus
+SSMENU_DETAIL,Muut asetuks.
+SSMENU_EFFECTS,Tehosteet
+SSMENU_FACE_BASIC,Kasvot 1: Perus
+SSMENU_FACE_NOSTALGIC,Kasvot 2: Nostalgia
+SSMENU_FACE_STYLISH,Kasvot 3: Tyylikäs
+SSMENU_IMAGE,Kuva
+SSMENU_INFOLDER,Kansio
+SSMENU_INTERVAL,Kuvaväli
+SSMENU_MUSIC,Musiikki
+SSMENU_MUSIC1,Music1
+SSMENU_MUSIC2,Music2
+SSMENU_MUSIC3,Music3
+SSMENU_MUSIC4,Music4
+SSMENU_MUSIC5,Music5
+SSMENU_MUSIC6,Music6
+SSMENU_MUSIC7,Music7
+SSMENU_MUSIC8,Music8
+SSMENU_NORMAL_A,Normaali
+SSMENU_NOSTALGIC,Nostalgia
+SSMENU_REFINE,Suodatin
+SSMENU_REPEAT,Toisto
+SSMENU_SIMPLE,Yksink.
+SSMENU_STYLISH,Tyylikäs
+SSMENU_THIS_DATE,Tämä päivämäärä
+SSMENU_THIS_EVENT,Tämä tapahtuma

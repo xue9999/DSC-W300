@@ -1,0 +1,18 @@
+{
+  "responseHeader": {
+    "status": 0,
+    "QTime": 12,
+    "params": {
+      "query": "text:SeusEX OR text:SeusEX OR text__reviews:SeusEX",
+      "qin": "SeusEX",
+      "fields": "_default_",
+      "wt": "json",
+      "start": 0
+    }
+  },
+  "response": {
+    "numFound": 0,
+    "start": 0,
+    "docs": []
+  }
+}

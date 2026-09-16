@@ -1,0 +1,17 @@
+{
+  "offline_tests": {
+    "command": "python3 -m unittest discover -s tools -p 'test_*.py' -v",
+    "passed": 5,
+    "failed": 0
+  },
+  "hardware": {
+    "usb_identity": "not established",
+    "destination": null,
+    "service_backup": null,
+    "english_persistence": "not tested",
+    "shooting_playback": "not tested",
+    "focus_zoom_flash_movie": "not tested"
+  },
+  "camera_write_performed": false,
+  "conversion_complete": false
+}

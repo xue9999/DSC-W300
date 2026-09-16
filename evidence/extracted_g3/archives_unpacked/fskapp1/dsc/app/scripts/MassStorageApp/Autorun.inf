@@ -1,0 +1,4 @@
+[autorun]
+open=PMB_P.exe
+icon=app\SPUBuiltInAccessor.exe
+action= PMB Portable

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jpeg-theme xmlns="http://www.sony.co.jp/xScrapbook/1">
+	<first-frame background="SB_wood_0.jpg" alpha="SB_wood_alpha_0.jpg">
+	<photo left="178" top="192" width="1254" height="908" order="0"/>
+	</first-frame>
+	<frame-1 background="SB_wood_01.jpg" alpha="SB_wood_alpha_01.jpg">
+	<photo left="258" top="170" width="1544" height="1174" order="0"/>
+	</frame-1>
+	<frame-2 background="SB_wood_02.jpg" alpha="SB_wood_alpha_02.jpg">
+	<photo left="132" top="168" width="1064" height="860" order="0"/>
+	<photo left="988" top="628" width="974" height="722" order="1"/>
+	</frame-2>
+	<frame-3 background="SB_wood_03.jpg" alpha="SB_wood_alpha_03.jpg">
+	<photo left="1134" top="174" width="760" height="940" order="0"/>
+	<photo left="90" top="0" width="926" height="762" order="1"/>
+	<photo left="360" top="688" width="786" height="668" order="2"/>
+	</frame-3>
+	<frame-4 background="SB_wood_04.jpg" alpha="SB_wood_alpha_04.jpg">
+	<photo left="340" top="160" width="792" height="666" order="0"/>
+	<photo left="1132" top="296" width="790" height="584" order="1"/>
+	<photo left="160" top="826" width="866" height="548" order="2"/>
+	<photo left="1044" top="880" width="760" height="492" order="3"/>
+	</frame-4>
+</jpeg-theme>

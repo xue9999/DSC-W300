@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jpeg-theme xmlns="http://www.sony.co.jp/xScrapbook/1">
+	<first-frame background="SB_child_0.jpg" alpha="SB_child_alpha_0.jpg">
+	<photo left="0" top="0" width="1280" height="1536" order="0"/>
+	</first-frame>
+	<frame-1 background="SB_child_01.jpg" alpha="SB_child_alpha_01.jpg">
+	<photo left="64" top="0" width="1642" height="1536" order="0"/>
+	</frame-1>
+	<frame-2 background="SB_child_02.jpg" alpha="SB_child_alpha_02.jpg">
+	<photo left="56" top="144" width="954" height="1256" order="0"/>
+	<photo left="1032" top="216" width="962" height="1178" order="1"/>
+	</frame-2>
+	<frame-3 background="SB_child_03.jpg" alpha="SB_child_alpha_03.jpg">
+	<photo left="56" top="136" width="942" height="598" order="0"/>
+	<photo left="68" top="750" width="896" height="662" order="1"/>
+	<photo left="1074" top="136" width="912" height="1274" order="2"/>
+	</frame-3>
+	<frame-4 background="SB_child_04.jpg" alpha="SB_child_alpha_04.jpg">
+	<photo left="66" top="122" width="866" height="626" order="0"/>
+	<photo left="50" top="790" width="952" height="592" order="1"/>
+	<photo left="1002" top="122" width="956" height="664" order="2"/>
+	<photo left="1016" top="798" width="966" height="606" order="3"/>
+	</frame-4>
+</jpeg-theme>

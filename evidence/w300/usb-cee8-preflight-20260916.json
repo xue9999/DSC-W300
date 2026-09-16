@@ -1,0 +1,24 @@
+{
+  "captured_at": "2026-09-16T15:21:45.621000+00:00",
+  "host": {
+    "os": "Darwin",
+    "version": "26.6.2",
+    "architecture": "arm64"
+  },
+  "method": "OS registry only; no device handle or vendor commands",
+  "usb_device_count": 4,
+  "sony_devices": [
+    {
+      "vendor_id": "054c",
+      "product_id": "0341",
+      "product": "DSC-W300",
+      "manufacturer": "Sony",
+      "serial": "D386002E4438",
+      "location_id": 34734080
+    }
+  ],
+  "camera_identity_verified": false,
+  "destination": null,
+  "camera_write_performed": false,
+  "status": "sony_device_present_identity_unverified"
+}

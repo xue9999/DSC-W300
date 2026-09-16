@@ -1,0 +1,1117 @@
+CAMMENU_0EV,0EV
+CAMMENU_100,100
+CAMMENU_10M,1.0 m
+CAMMENU_1600,1600
+CAMMENU_200,200
+CAMMENU_30M,3.0 m
+CAMMENU_3200,3200
+CAMMENU_400,400
+CAMMENU_70M,7.0 m
+CAMMENU_80,80
+CAMMENU_800,800
+CAMMENU_BRK_03EV,BRK±0.3EV
+CAMMENU_BRK_07EV,BRK±0.7EV
+CAMMENU_BRK_10EV,BRK±1.0EV
+CAMMENU_BURST,Ριπή
+CAMMENU_BURST_BRK03EV_GUIDE,Για 3 λήψεις
+CAMMENU_BURST_BRK03EV_GUIDE_2,με διαφορά 0,3 EV
+CAMMENU_BURST_BRK07EV_GUIDE,Για 3 λήψεις
+CAMMENU_BURST_BRK07EV_GUIDE_2,με διαφορά 0,7 EV
+CAMMENU_BURST_BRK10EV_GUIDE,Για 3 λήψεις
+CAMMENU_BURST_BRK10EV_GUIDE_2,με διαφορά 1,0 EV
+CAMMENU_BURST_OFF_GUIDE,Λήψη μία φορά με κάθε
+CAMMENU_BURST_OFF_GUIDE_2,πάτημα του κλείστρου
+CAMMENU_BURST_ON_GUIDE,Συνεχής λήψη εφόσον
+CAMMENU_BURST_ON_GUIDE_2,είναι πατημένο το κλείστρο
+CAMMENU_CENTER,Κεντρική
+CAMMENU_CENTERAF,Κεντρική AF
+CAMMENU_CLOSEEYE,Μείωση κλειστών ματιών
+CAMMENU_CLOSEEYE_AUTO_GUIDE,Ανάλυση ματιών για
+CAMMENU_CLOSEEYE_AUTO_GUIDE_2,αποφυγή κλειστών ματιών
+CAMMENU_CLOSEEYE_OFF_GUIDE,Απενεργοποίηση μείωσης
+CAMMENU_CLOSEEYE_OFF_GUIDE_2,κλειστών ματιών
+CAMMENU_COLOR,Λειτουργ. χρώματος
+CAMMENU_COLOR_BW,Ασπρόμαυρα
+CAMMENU_COLOR_BW_GUIDE,Κάνει τις εικόνες
+CAMMENU_COLOR_BW_GUIDE_2,ασπρόμαυρες
+CAMMENU_COLOR_NORMAL_GUIDE,Λήψη σε τυπική
+CAMMENU_COLOR_NORMAL_GUIDE_2,λειτουργία χρώματος
+CAMMENU_COLOR_SEPIA,Σέπια
+CAMMENU_COLOR_SEPIA_GUIDE,Προσομοιώνει τα χρώματα
+CAMMENU_COLOR_SEPIA_GUIDE_2,παλιών φωτογραφιών
+CAMMENU_COLOR_VIVID,Ζωντανά
+CAMMENU_COLOR_VIVID_GUIDE,Ρυθμίζει την εικόνα σε
+CAMMENU_COLOR_VIVID_GUIDE_2,βαθιά και ζωντανά χρώματα
+CAMMENU_CONTINUOUS,Συνεχόμενα
+CAMMENU_DRO,DRO
+CAMMENU_DRO_ADV,Προηγμένο
+CAMMENU_DRO_ADV_GUIDE,Ανάκτηση λεπτομ. σκιάς
+CAMMENU_DRO_ADV_GUIDE_2,χωρίς απώλεια τονισμού
+CAMMENU_DRO_OFF_GUIDE,Καμία ανάκτηση της
+CAMMENU_DRO_OFF_GUIDE_2,λεπτομέρειας σκιάς
+CAMMENU_DRO_PLUS,DRO plus
+CAMMENU_DRO_STANDARD_GUIDE,Ανάκτηση λεπτομ. εικόνας
+CAMMENU_DRO_STANDARD_GUIDE_2,που χάθηκε σε περιοχή σκιάς
+CAMMENU_DRO_STD,DRO standard
+CAMMENU_EV,EV
+CAMMENU_EV2,EV
+CAMMENU_EV_GUIDE,Ρύθμιση φωτεινότητας
+CAMMENU_EV_GUIDE2,Ρύθμιση φωτεινότητας
+CAMMENU_EV_GUIDE2_2,εικόνας (＋) (－)
+CAMMENU_EV_GUIDE_2,εικόνας (＋) (－)
+CAMMENU_FACE,Ανίχνευση προσώπου
+CAMMENU_FACE_ADULT,Προτεραιότητα ενηλίκων
+CAMMENU_FACE_ADULT_GUIDE,Εστίαση με προτεραιότητα
+CAMMENU_FACE_ADULT_GUIDE_2,σε πρόσωπα ενηλίκων
+CAMMENU_FACE_CHILD,Προτεραιότητα παιδιών
+CAMMENU_FACE_CHILD_GUIDE,Εστίαση με προτεραιότητα
+CAMMENU_FACE_CHILD_GUIDE_2,σε πρόσωπα παιδιών
+CAMMENU_FACE_ON_GUIDE,Προτεραιότητα στην εστίαση
+CAMMENU_FACE_ON_GUIDE_2,των προσώπων
+CAMMENU_FACE_TOUCH_GUIDE,Ενεργή ανίχνευση προσώπου
+CAMMENU_FACE_TOUCH_GUIDE_2,μόνο όταν αγγιχθεί πρόσωπο
+CAMMENU_FLASHLEVEL, Ένταση φλας
+CAMMENU_FLASHLEVEL_DOWN_GUIDE,Λήψη με χαμηλή
+CAMMENU_FLASHLEVEL_DOWN_GUIDE_2,ένταση φλας
+CAMMENU_FLASHLEVEL_NORMAL_GUIDE,Λήψη με τυπική
+CAMMENU_FLASHLEVEL_NORMAL_GUIDE_2,ένταση φλας
+CAMMENU_FLASHLEVEL_UP_GUIDE,Λήψη με υψηλή
+CAMMENU_FLASHLEVEL_UP_GUIDE_2,ένταση φλας
+CAMMENU_FLASH_SYNCHRO,Αργός συγχρονισμός
+CAMMENU_FOCUS,Εστίαση
+CAMMENU_FOUCS_10M_GUIDE,Ρύθμιση εστίασης
+CAMMENU_FOUCS_10M_GUIDE_2,περίπου 1,0 μέτρο μακριά
+CAMMENU_FOUCS_30M_GUIDE,Ρύθμιση εστίασης
+CAMMENU_FOUCS_30M_GUIDE_2,περίπου 3,0 μέτρα μακριά
+CAMMENU_FOUCS_70M_GUIDE,Ρύθμιση εστίασης
+CAMMENU_FOUCS_70M_GUIDE_2,περίπου 7,0 μέτρα μακριά
+CAMMENU_FOUCS_CENTER_GUIDE,Αυτόματη εστίαση σε θέμα
+CAMMENU_FOUCS_CENTER_GUIDE_2,στο κέντρο
+CAMMENU_FOUCS_INFINITY_GUIDE,Ρύθμιση εστίασης
+CAMMENU_FOUCS_INFINITY_GUIDE_2,στο άπειρο
+CAMMENU_FOUCS_MANUAL_GUIDE,Για χειροκίνητη ρύθμιση
+CAMMENU_FOUCS_MANUAL_GUIDE_2,της εστίασης
+CAMMENU_FOUCS_MULTI_GUIDE,Αυτόματη εστίαση
+CAMMENU_FOUCS_MULTI_GUIDE_2,σε ολόκληρο το καρέ
+CAMMENU_FOUCS_SPOT_GUIDE,Αυτόματη εστίαση σε
+CAMMENU_FOUCS_SPOT_GUIDE_2,κεντρικό σημείο
+CAMMENU_FOUCS_TSPOT_GUIDE,Αυτόματη εστίαση μ' άγγιγμα
+CAMMENU_FOUCS_TSPOT_GUIDE_2,κάποιου σημείου στην οθόνη
+CAMMENU_IMAGESIZE,Μέγ. εικόνας
+CAMMENU_IMAGESIZE_L,Μεγάλο
+CAMMENU_IMAGESIZE_S,Μικρό
+CAMMENU_INFINITY,∞
+CAMMENU_ISO,ISO
+CAMMENU_ISO_100_GUIDE,Ρύθμιση ευαισθησίας
+CAMMENU_ISO_100_GUIDE_2,σε ISO 100
+CAMMENU_ISO_1600_GUIDE,Ρύθμιση ευαισθησίας
+CAMMENU_ISO_1600_GUIDE_2,σε ISO 1600
+CAMMENU_ISO_200_GUIDE,Ρύθμιση ευαισθησίας
+CAMMENU_ISO_200_GUIDE_2,σε ISO 200
+CAMMENU_ISO_3200_GUIDE,Ρύθμιση ευαισθησίας
+CAMMENU_ISO_3200_GUIDE_2,σε ISO 3200
+CAMMENU_ISO_400_GUIDE,Ρύθμιση ευαισθησίας
+CAMMENU_ISO_400_GUIDE_2,σε ISO 400
+CAMMENU_ISO_64_GUIDE,Ρύθμιση ευαισθησίας
+CAMMENU_ISO_64_GUIDE_2,σε ISO 64
+CAMMENU_ISO_800_GUIDE,Ρύθμιση ευαισθησίας
+CAMMENU_ISO_800_GUIDE_2,σε ISO 800
+CAMMENU_ISO_80_GUIDE,Ρύθμιση ευαισθησίας
+CAMMENU_ISO_80_GUIDE_2,σε ISO 80
+CAMMENU_ISO_AUTO_GUIDE,Αυτόματη προσαρμογή
+CAMMENU_ISO_AUTO_GUIDE_2,ευαισθησίας
+CAMMENU_M03EV,-0.3EV
+CAMMENU_M07EV,-0.7EV
+CAMMENU_M10EV,-1.0EV
+CAMMENU_M13EV,-1.3EV
+CAMMENU_M17EV,-1.7EV
+CAMMENU_M20EV,-2.0EV
+CAMMENU_MACRO,Μάκρο
+CAMMENU_MENU,Μενού
+CAMMENU_METERINGMODE,Λειτουργία φωτομέτρου
+CAMMENU_METERING_CENTER_GUIDE,Η έκθεση βασίζεται σε
+CAMMENU_METERING_CENTER_GUIDE_2,φωτεινότητα κέντρου
+CAMMENU_METERING_MULTI_GUIDE,Η έκθεση βασίζεται σε
+CAMMENU_METERING_MULTI_GUIDE_2,σε ολόκληρο το καρέ
+CAMMENU_METERING_SPOT_GUIDE,Η έκθεση βασίζεται σε φω-
+CAMMENU_METERING_SPOT_GUIDE_2,τεινότητα κεντρικού σημείου
+CAMMENU_MINUS,－
+CAMMENU_MULTI,Πολλαπλή
+CAMMENU_MULTIAF,Πολλαπλή AF
+CAMMENU_NORMAL_CAP,Normal
+CAMMENU_P03EV,+0.3EV
+CAMMENU_P07EV,+0.7EV
+CAMMENU_P10EV,+1.0EV
+CAMMENU_P13EV,+1.3EV
+CAMMENU_P17EV,+1.7EV
+CAMMENU_P20EV,+2.0EV
+CAMMENU_PLUS,＋
+CAMMENU_RECMODE,Λειτουργία ΕΓΓ
+CAMMENU_RECOGNITION,Αναγνώριση σκηνής
+CAMMENU_RECOGNITION_ADV_GUIDE,Μία ακόμη λήψη αυτόματα
+CAMMENU_RECOGNITION_ADV_GUIDE2,Μία ακόμη λήψη αυτόματα
+CAMMENU_RECOGNITION_ADV_GUIDE2_2,σε ημίφως ή πίσω φωτισμό
+CAMMENU_RECOGNITION_ADV_GUIDE_2,σε ημίφως ή πίσω φωτισμό
+CAMMENU_RECOGNITION_AUTO2_GUIDE,Λήψη με βέλτιστες ρυθμίσεις
+CAMMENU_RECOGNITION_AUTO2_GUIDE_2,για τη σκηνή
+CAMMENU_RECOGNITION_AUTO_GUIDE,Λήψη με βέλτιστες ρυθμίσεις
+CAMMENU_RECOGNITION_AUTO_GUIDE_2,σε ημίφως ή πίσω φωτισμό
+CAMMENU_RECOGNITION_OFF_GUIDE, Όχι αναγνώριση σκηνής
+CAMMENU_RECOGNITION_OFF_GUIDE_2,
+CAMMENU_REDEYEREDUCTION,Μείωση κόκκινων ματιών
+CAMMENU_REDEYE_FACE_GUIDE,Αυτόματη μείωσ κόκκ ματιών
+CAMMENU_REDEYE_FACE_GUIDE_2,όταν ανιχνεύονται πρόσωπα
+CAMMENU_REDEYE_OFF_GUIDE,Η μείωση κόκκινων ματιών
+CAMMENU_REDEYE_OFF_GUIDE_2,είναι ανενεργή
+CAMMENU_REDEYE_ON_GUIDE,Προ-φλας για μείωση κόκκιν
+CAMMENU_REDEYE_ON_GUIDE_2,ματιών κατά τη χρήση φλας
+CAMMENU_REMAIN_NUMBER,Χωρητικ εικόνας περίπου
+CAMMENU_REMAIN_TIME,Εναπομ χρόνος περίπου
+CAMMENU_SATURATION_DOWN_GUIDE,Λήψη εικόνων με χαμηλό-
+CAMMENU_SATURATION_DOWN_GUIDE_2,τερο κορεσμό χρώματος
+CAMMENU_SATURATION_NORMAL_GUIDE,Κορεσμός χρώματος σε
+CAMMENU_SATURATION_NORMAL_GUIDE_2,Κανονικό
+CAMMENU_SATURATION_UP_GUIDE,Λήψη εικόνων με υψηλό-
+CAMMENU_SATURATION_UP_GUIDE_2,τερο κορεσμό χρώματος
+CAMMENU_SELFTIMER,Χρονοδιακόπτης
+CAMMENU_SELFTIMER_10SEC,Χρονοδιακόπτης 10 δευτ.
+CAMMENU_SELFTIMER_2SEC,Χρονοδιακόπτης 2 δευτ.
+CAMMENU_SELFTIMER_OFF,Χρονοδιακόπτης ανενεργός
+CAMMENU_SETUP,Διαμόρφωση
+CAMMENU_SETUP_CHANGE_GUIDE,Μετάβ. σε Ρυθμίσεις λήψης
+CAMMENU_SETUP_CHANGE_GUIDE_2,Προβολή
+CAMMENU_SHOOTING,Λήψη
+CAMMENU_SIZE_10MEG,10M
+CAMMENU_SIZE_12M_GUIDE,Για εκτυπώσεις έως
+CAMMENU_SIZE_12M_GUIDE_2,A3+
+CAMMENU_SIZE_16_9,16:9
+CAMMENU_SIZE_16_9_2MEG_GUIDE,Για προβολή σε HDTV
+CAMMENU_SIZE_16_9_2MEG_GUIDE_2,
+CAMMENU_SIZE_16_9_A3_GUIDE,Για προβολή σε HDTV και
+CAMMENU_SIZE_16_9_A3_GUIDE_2,εκτύπωση έως A3
+CAMMENU_SIZE_16_9_A4_GUIDE,Για προβολή σε HDTV και
+CAMMENU_SIZE_16_9_A4_GUIDE_2,εκτύπωση έως A4
+CAMMENU_SIZE_16_9_GUIDE,Λήψη σε αναλογία
+CAMMENU_SIZE_16_9_GUIDE_2,διαστάσεων HDTV
+CAMMENU_SIZE_320,320
+CAMMENU_SIZE_320_GUIDE,Λήψη σε μικρό μέγεθος
+CAMMENU_SIZE_320_GUIDE_2,για επισύναψη email
+CAMMENU_SIZE_3MEG,3M
+CAMMENU_SIZE_3M_GUIDE,Για εκτυπώσεις έως 10x15 εκ.
+CAMMENU_SIZE_3M_GUIDE_2,ή 13x18 εκ.
+CAMMENU_SIZE_3_2_8MEG,3:2(8M)
+CAMMENU_SIZE_3_2_GUIDE,Λήψη σε αναλογία
+CAMMENU_SIZE_3_2_GUIDE_2,διαστάσεων 3:2
+CAMMENU_SIZE_4_3,4:3
+CAMMENU_SIZE_5MEG,5M
+CAMMENU_SIZE_5M_GUIDE,Για εκτυπώσεις έως A4
+CAMMENU_SIZE_5M_GUIDE_2,
+CAMMENU_SIZE_640FINE,640(Υψηλή)
+CAMMENU_SIZE_640FINE_GUIDE,Λήψη ταινίας υψηλής
+CAMMENU_SIZE_640FINE_GUIDE_2,ποιότητας για προβολή σε TV
+CAMMENU_SIZE_640STD,640(Τυπική)
+CAMMENU_SIZE_640STD_GUIDE,Λήψη ταινίας τυπικής
+CAMMENU_SIZE_640STD_GUIDE_2,ποιότητας για προβολή σε TV
+CAMMENU_SIZE_8M_GUIDE,Για εκτυπώσεις έως A3
+CAMMENU_SIZE_8M_GUIDE_2,
+CAMMENU_SIZE_HD_2MEG,16:9(2M)
+CAMMENU_SIZE_HD_7MEG,16:9(7M)
+CAMMENU_SIZE_HD_VGA,16:9(VGA)
+CAMMENU_SIZE_VGA,VGA
+CAMMENU_SIZE_VGA_GUIDE,Λήψη μικρού μέγεθ εικόνας
+CAMMENU_SIZE_VGA_GUIDE_2,για επισύναψη email
+CAMMENU_SMILE,Ανίχνευση χαμόγελου
+CAMMENU_SMILESHUTTER_HIGH_GUIDE,Λήψη με υψηλή ευαισθησία
+CAMMENU_SMILESHUTTER_HIGH_GUIDE_2,της ανίχνευσης χαμόγελου
+CAMMENU_SMILESHUTTER_LOW_GUIDE,Λήψη με χαμηλή ευαισθησία
+CAMMENU_SMILESHUTTER_LOW_GUIDE_2,της ανίχνευσης χαμόγελου
+CAMMENU_SMILESHUTTER_NORMAL_GUIDE,Λήψη με τυπική ευαισθησία
+CAMMENU_SMILESHUTTER_NORMAL_GUIDE_2,της ανίχνευσης χαμόγελου
+CAMMENU_SMILE_DETECTION,Ευαισθησία χαμόγελου
+CAMMENU_SPOT,Σημειακή
+CAMMENU_SPOTAF,Σημειακή AF
+CAMMENU_STEADYSHOT,SteadyShot
+CAMMENU_STEADYSHOT_CONT_GUIDE,SteadyShot πάντα ενεργό
+CAMMENU_STEADYSHOT_CONT_GUIDE_2,
+CAMMENU_STEADYSHOT_OFF_GUIDE,SteadyShot ανενεργό
+CAMMENU_STEADYSHOT_OFF_GUIDE_2,
+CAMMENU_STEADYSHOT_SHOOT_GUIDE,SteadyShot ενεργό όταν
+CAMMENU_STEADYSHOT_SHOOT_GUIDE_2,κλείστρο είναι μισοπατημένο
+CAMMENU_TOUCH, Όταν αγγίξετε
+CAMMENU_WATERWB,Υποβρύχια ισορ. λευκού
+CAMMENU_WATERWB_AUTO_GUIDE,Αυτόμ. ρύθμ. ισορροπίας
+CAMMENU_WATERWB_AUTO_GUIDE_2,λευκού για υποβρύχια λήψη
+CAMMENU_WATERWB_FLASH_GUIDE,Χρήση για υποβρύχια
+CAMMENU_WATERWB_FLASH_GUIDE_2,λήψη με φλας
+CAMMENU_WATERWB_WATER1,Υποβρύχια 1
+CAMMENU_WATERWB_WATER1_GUIDE,Χρήση για λήψη
+CAMMENU_WATERWB_WATER1_GUIDE_2,σε μπλε νερό
+CAMMENU_WATERWB_WATER2,Υποβρύχια 2
+CAMMENU_WATERWB_WATER2_GUIDE,Χρήση για λήψη
+CAMMENU_WATERWB_WATER2_GUIDE_2,σε πράσινο νερό
+CAMMENU_WB2,Ισορροπία λευκού
+CAMMENU_WB_AUTO_GUIDE,Αυτόματη προσαρμογή
+CAMMENU_WB_AUTO_GUIDE_2,για φυσικά χρώματα
+CAMMENU_WB_CLOUDY,Συννεφιά
+CAMMENU_WB_CLOUDY_GUIDE,Χρήση σε συννεφιά ή
+CAMMENU_WB_CLOUDY_GUIDE_2,σε σκιά
+CAMMENU_WB_DAYLIGHT,Φως ημέρας
+CAMMENU_WB_DAYLIGHT_GUIDE,Χρήση σε σκηνικά υπαίθρου
+CAMMENU_WB_DAYLIGHT_GUIDE_2,με ήλιο ή τοπία τη νύχτα
+CAMMENU_WB_FLASH,Φλας
+CAMMENU_WB_FLASH_GUIDE,Χρήση κατά τη λήψη
+CAMMENU_WB_FLASH_GUIDE_2,με φλας
+CAMMENU_WB_FLUORESCENT1,Φως φθορισμού 1
+CAMMENU_WB_FLUORESCENT1_GUIDE,Χρήση υπό λευκό
+CAMMENU_WB_FLUORESCENT1_GUIDE_2,φως φθορισμού
+CAMMENU_WB_FLUORESCENT2,Φως φθορισμού 2
+CAMMENU_WB_FLUORESCENT2_GUIDE,Χρήση υπό φυσικό λευκό
+CAMMENU_WB_FLUORESCENT2_GUIDE_2,φως φθορισμού
+CAMMENU_WB_FLUORESCENT3,Φως φθορισμού 3
+CAMMENU_WB_FLUORESCENT3_GUIDE,Χρήση υπό λευκό
+CAMMENU_WB_FLUORESCENT3_GUIDE_2,φως φθορισμού ημέρας
+CAMMENU_WB_INCANDESCENT,Πυράκτωσης
+CAMMENU_WB_INCANDESCENT_GUIDE,Χρήση υπό φως πυράκτωσης
+CAMMENU_WB_INCANDESCENT_GUIDE_2,ή φωτισμού βίντεο
+CAMMODE_AUTO,Αυτόματη προσαρμογή
+CAMMODE_AUTO_GUIDE,Για λήψη με
+CAMMODE_AUTO_GUIDE_2,αυτόματες ρυθμίσεις
+CAMMODE_BEACH,Παραλία
+CAMMODE_BEACH_GUIDE,Λήψη δίπλα στη θάλασσα
+CAMMODE_BEACH_GUIDE_2,με πλούσια μπλε χρώματα
+CAMMODE_COOKING,Φαγητά
+CAMMODE_COOKING_GUIDE,Φυσική λήψη φαγητών
+CAMMODE_COOKING_GUIDE_2,
+CAMMODE_EASY,Εύκολη λήψη
+CAMMODE_EASY_GUIDE,Πλήρως αυτόματη λήψη
+CAMMODE_EASY_GUIDE_2,με απλοποιημένη οθόνη
+CAMMODE_FIREWORKS,Πυροτεχνήματα
+CAMMODE_FIREWORKS_GUIDE,Λήψη πυροτεχνημάτων
+CAMMODE_FIREWORKS_GUIDE_2,με όλη τους τη λάμψη
+CAMMODE_HIGHSENSITIVITY,Υψηλή ευαισθησία
+CAMMODE_HIGHSENSITIVITY_GUIDE,Λήψη χωρίς φλας σε χαμηλό
+CAMMODE_HIGHSENSITIVITY_GUIDE_2,φως μειώνοντας θόλωμα
+CAMMODE_HIGHSPEEDSHUTTER,Κλείστρο υψηλής ταχύτητας
+CAMMODE_HIGHSPEEDSHUTTER_GUIDE,Λήψη "παγωμένου" στιγμι-
+CAMMODE_HIGHSPEEDSHUTTER_GUIDE_2,οτύπου σκηνής δράσης
+CAMMODE_LANDSCAPE,Τοπία
+CAMMODE_LANDSCAPE_GUIDE,Λήψη τοπίων
+CAMMODE_LANDSCAPE_GUIDE_2,με μακρινή εστίαση
+CAMMODE_MOVIE,Λειτουργία ταινίας
+CAMMODE_MOVIE_GUIDE,Εγγραφή ταινίας με ήχο
+CAMMODE_MOVIE_GUIDE_2,
+CAMMODE_PAUTO,Αυτόματο πρόγραμμα
+CAMMODE_PAUTO_GUIDE,Αυτόματη έκθεση με
+CAMMODE_PAUTO_GUIDE_2,προσαρμόσιμες ρυθμίσεις
+CAMMODE_SNOW,Χιόνι
+CAMMODE_SNOW_GUIDE,Φωτεινή λήψη
+CAMMODE_SNOW_GUIDE_2,λευκών σκηνικών
+CAMMODE_SOFTSNAP,Απαλή λήψη
+CAMMODE_SOFTSNAP_GUIDE,Λήψη θέματος
+CAMMODE_SOFTSNAP_GUIDE_2,με απαλό φόντο
+CAMMODE_TWILIGHT,Ημίφως
+CAMMODE_TWILIGHTPORTRAIT,Πορτραίτο σε ημίφως
+CAMMODE_TWILIGHTPORTRAIT_GUIDE,Λήψη πορτραίτων με
+CAMMODE_TWILIGHTPORTRAIT_GUIDE_2,χαμηλό φωτισμό με φλας
+CAMMODE_TWILIGHTTRIPOD_GUIDE,Λήψη σκηνής με χαμηλό
+CAMMODE_TWILIGHTTRIPOD_GUIDE_2,φωτισμό με χρήση τριπόδου
+CAMMODE_WATER,Υποβρύχια
+CAMMODE_WATER_GUIDE,Υποβρύχια λήψη σε φυσ-
+CAMMODE_WATER_GUIDE_2,ικά χρώματα με περίβλημα
+CLOCKMENU_APR,ΑΠΡ
+CLOCKMENU_AUG,ΑΥΓ
+CLOCKMENU_DEC,ΔΕΚ
+CLOCKMENU_DMY,Η-Μ-Ε
+CLOCKMENU_FEB,ΦΕΒ
+CLOCKMENU_JAN,ΙΑΝ
+CLOCKMENU_JUL,ΙΟΥΛ
+CLOCKMENU_JUN,ΙΟΥΝ
+CLOCKMENU_MAR,ΜΑΡ
+CLOCKMENU_MAY,ΜΑΪ
+CLOCKMENU_MDY,Μ-Η-Ε
+CLOCKMENU_NOV,ΝΟΕ
+CLOCKMENU_OCT,ΟΚΤ
+CLOCKMENU_SEP,ΣΕΠ
+CLOCKMENU_UNKNOWN,---
+CLOCKMENU_YMD,Ε-Μ-Η
+COM_AUTO,Αυτόματα
+COM_BACK,Πίσω
+COM_CANCEL,Ακύρωση
+COM_CLEAR,Αφαίρεση
+COM_CLEARALL,Διαγρ. όλων
+COM_CONTINUE,Συνέχεια
+COM_CREATED,Δημ/θηκε
+COM_ENTRY,Προσθήκη
+COM_EXIT, Έξοδος
+COM_FAST,Ταχεία
+COM_HIGH,Υψηλό
+COM_INTERNALMEMORY,Εσωτερική μνήμη
+COM_LOW,Χαμηλό
+COM_MED,Μεσαίο
+COM_MIN,λεπ
+COM_MOVIEREC,ΕΓΓ
+COM_MOVIESTBY,Αναμονή
+COM_MS,Memory Stick
+COM_MS_AND_INTERNALMEMORY,Memory Stick ＋ Εσωτερική μνήμη
+COM_NOOFFILES,Αριθμός φακέλων
+COM_NORMAL,Κανονική
+COM_OFF, Όχι
+COM_OK,OK
+COM_ON,Ναι
+COM_PREVIEW,Προεπισκόπ.
+COM_REMAIN,Λοιπές λήψεις
+COM_SAVE,Αποθήκευση
+COM_SLOW,Αργή
+COM_STANDARD,Τυπικό
+COM_STANDARD2,Τυπικό
+COM_START, Έναρξη
+COM_USBMODE,Λειτουργία USB
+COM_VOLUME,ΗΧΟ
+COU_640FINE,640(Fine)
+COU_640FINE_2,μη διαθέσιμο
+COU_AUDIOPLUGIN,Για έξοδο ήχου, συνδέστε
+COU_AUDIOPLUGIN_2,βύσμα ήχου
+COU_BATTERY_HEATED,Υπερθέρμανση κάμερας
+COU_BATTERY_HEATED_2,Αφήστε να κρυώσει
+COU_BATTERY_INFOLITHIUM,Για μπαταρία
+COU_BATTERY_INFOLITHIUM_2,"InfoLITHIUM" μόνο
+COU_BATTERY_INVALID,Για χρήση με συμβατή
+COU_BATTERY_INVALID_2,μπαταρία μόνο
+COU_BGM_ERROR,Σφάλμα μουσικής
+COU_BGM_ERROR_2,
+COU_BGM_FORMATERROR,Σφάλμα διαμόρφωσης μουσικής
+COU_BGM_FORMATERROR_2,
+COU_BURST_INVALID,Λειτουργία ριπής άκυρη
+COU_BURST_INVALID_2,
+COU_CANNOTACCESS_MS,Αδύν πρόσβ σε Memory Stick
+COU_CANNOTACCESS_MS_2,Αδυναμία πρόσβασης
+COU_CANNOTCREATE_FOLDERS,Η δημιουργία περισσότερων
+COU_CANNOTCREATE_FOLDERS_2,φακέλων δεν είναι δυνατή
+COU_DATA_ERROR,Σφάλμα αρχείου διαχείρισης εικόνας
+COU_DATA_ERROR_2,
+COU_ERROR10,Σφάλμα10
+COU_ERROR20,Σφάλμα20
+COU_ERROR30,Σφάλμα30
+COU_ERROR40,Σφάλμα40
+COU_ERROR50,Σφάλμα50
+COU_EXCEEDED_LIMIT,Επιλέχτηκε ο μέγιστος
+COU_EXCEEDED_LIMIT_2,αριθμός εικόνων
+COU_FILEERROR,Σφάλμα αρχείου
+COU_FILEERROR_2,
+COU_FILEPROTECT,Προστασία αρχείου
+COU_FILEPROTECT_2,
+COU_FLASHSETTING_INVALID,Η αλλαγή των ρυθμίσεων
+COU_FLASHSETTING_INVALID_2,φλας δεν είναι δυνατή
+COU_FOLDER_ERROR,Σφάλμα φακέλου
+COU_FOLDER_ERROR_2,
+COU_FORMATERROR_INTERNALMEMORY,Σφάλμα διαμόρφωσης
+COU_FORMATERROR_INTERNALMEMORY_2,εσωτερικής μνήμης
+COU_FORMATERROR_MS,Σφάλμα διαμόρφωσης
+COU_FORMATERROR_MS_2,Memory Stick
+COU_IMAGESIZEOVER,Υπέρβαση μεγέθους εικόνας
+COU_IMAGESIZEOVER_2,
+COU_INKERROR,Σφάλμα μελανιού
+COU_INKERROR_2,
+COU_INVALID_FILE,Μη έγκυρο αρχείο
+COU_INVALID_FILE_2,
+COU_INVALID_FOLDER,Η λειτουργία δεν διατίθεται με
+COU_INVALID_FOLDER_2,προβολή φακέλου
+COU_INVALID_MS,Αδύνατη αποθ. αρχείου διαχείρισης
+COU_INVALID_MS_2,εικόνων στο Memory Stick αυτό
+COU_INVALID_OPERATION,Μη έγκυρη λειτουργία
+COU_INVALID_OPERATION_HDOUT,Δεν είναι δυνατή η λειτουργία
+COU_INVALID_OPERATION_HDOUT_2,κατά την έξοδο HD(1080i)
+COU_INVALID_OPERATION_MOVIEFILE,Δεν είναι δυνατή η λειτουργία
+COU_INVALID_OPERATION_MOVIEFILE_2,για αρχεία ταινιών
+COU_INVALID_OPERATION_NGFILE,Δεν είναι δυνατή η λειτουργία
+COU_INVALID_OPERATION_NGFILE_2,σε αρχεία που δεν υποστηρίζονται
+COU_INVALID_OPERATION_PICTBRIDGE,Δεν είναι δυνατή η λειτουργία
+COU_INVALID_OPERATION_PICTBRIDGE_2,κατά τη χρήση σύνδεσης PictBridge
+COU_INVALID_OPERATION_REMOTE,Δεν είναι δυνατή η λειτουργία
+COU_INVALID_OPERATION_REMOTE_2,με τηλεχειρισμό
+COU_INVALID_OPERATION_TVOUT,Δεν είναι δυνατή η λειτουργία
+COU_INVALID_OPERATION_TVOUT_2,κατά την έξοδο TV
+COU_LENSCAPOFF,Βγάλτε το καπάκι φακού και απενερ-
+COU_LENSCAPOFF_2,γοποιήστε και ενεργοποιήστε ξανά
+COU_LENSCOVER_OPEN,Άνοιγμα καλύμματος φακού
+COU_LENSCOVER_OPEN_2,για λήψη
+COU_LOWINK,Χαμηλή στάθμη μελάνης
+COU_LOWINK_2,
+COU_MACRO_INVALID,Μη έγκυρο μάκρο
+COU_MACRO_INVALID_2,
+COU_MEDIAERROR_INTERNALMEMORY,Σφάλμα εσωτερικής μνήμης
+COU_MEDIAERROR_INTERNALMEMORY_2,
+COU_METERING_INVALID,Οι λειτουργίες φωτομέτρησης
+COU_METERING_INVALID_2,δεν διατίθενται
+COU_MSR_NOTUSEFUNCTION,Η λειτουργία δεν υποστηρίζεται
+COU_MSR_NOTUSEFUNCTION_2,με αυτό το Memory Stick
+COU_MS_ERROR,Επανεισάγετε Memory Stick
+COU_MS_ERROR_2,
+COU_MS_LOCKED,Κλειδωμένο Memory Stick
+COU_MS_LOCKED_2,
+COU_MS_TYPEERROR,Σφάλμα τύπου Memory Stick
+COU_MS_TYPEERROR_2,
+COU_NOBATTERY,Ανεπαρκής μπαταρία
+COU_NOIMAGE,Δεν υπάρχουν εικόνες
+COU_NOIMAGE_2,
+COU_NOIMAGE_PLAY,Κάποια εικόνα δεν μεταφέρθηκε
+COU_NOIMAGE_PLAY_2,Μη αναγνωρίσιμη μορφή.
+COU_NOINK,Εξάντληση μελάνης
+COU_NOINK_2,
+COU_NOMS, Έλλειψη Memory Stick
+COU_NOMS_2,
+COU_NOPAPER,Εξάντληση χαρτιού
+COU_NOPAPER_2,
+COU_NOSOFTWAREFILE,Δεν υπάρχει αρχείο λογισμικού
+COU_NOSOFTWAREFILE_2,
+COU_NOSPACE_INTERNALMEMORY, Έλλειψη χώρου μνήμης στην
+COU_NOSPACE_INTERNALMEMORY_2,εσωτερική μνήμη
+COU_NOSPACE_MS, Έλλειψη χώρου μνήμης στο
+COU_NOSPACE_MS_2,Memory Stick
+COU_NOT_SELECTED_FAV,Δεν επιλέχτηκε Αγαπημένο
+COU_NOT_SELECTED_FAV_2,
+COU_NOT_SELECTED_IMAGES,Δεν επιλέχθηκε εικόνα
+COU_NOT_SELECTED_IMAGES_2,
+COU_NOT_SELECTED_SHARE,Δεν επιλέχτηκε Σήμανση Κοινής
+COU_NOT_SELECTED_SHARE_2,Χρήσης
+COU_PAPERERROR,Σφάλμα χαρτιού
+COU_PAPERERROR_2,
+COU_PASSLOCK_CODE_MISS,Λανθασμένος κωδικός επαναφοράς
+COU_PASSLOCK_CODE_MISS_2,
+COU_PASSLOCK_PASS_MISS,Λανθασμένος κωδικός
+COU_PASSLOCK_PASS_MISS_2,πρόσβασης
+COU_POWEROFFON,Ανενεργοποιήστε και
+COU_POWEROFFON_2,ενεργοποιήστε ξανά
+COU_PRINTERBUSY,Απασχολημένος εκτυπωτής
+COU_PRINTERBUSY_2,
+COU_PRINTERERROR,Σφάλμα εκτυπωτή
+COU_PRINTERERROR_2,
+COU_READONLYMEMORY,Μνήμη μόνο για ανάγνωση
+COU_READONLYMEMORY_2,
+COU_READONLY_FOLDER,Φάκελος μόνο για ανάγνωση
+COU_READONLY_FOLDER_2,
+COU_REDEYE_DETECTED,Δεν ανιχνεύτηκαν κόκκινα μάτια
+COU_REDEYE_DETECTED_2,
+COU_SCRNTOUCH_INVALID,Ανενεργή οθόνη αφής στην περιοχή
+COU_SCRNTOUCH_INVALID_2,
+COU_SELFTIMER_INVALID,Μη έγκυρος αυτόματος
+COU_SELFTIMER_INVALID_2,χρονοδιακόπτης
+COU_SMILESHUTTER_AUTOONLY,Το κλείστ. χαμ. διατίθεται μόνο όταν
+COU_SMILESHUTTER_AUTOONLY_2,η λειτουρ. ΕΓΓ είναι στο Αυτόματα
+COU_SYSTEMERROR,Σφάλμα συστήματος
+COU_SYSTEMERROR_2,
+COU_TARGET_DETECTED,Δεν είναι δυνατή η ανίχνευση
+COU_TARGET_DETECTED_2,προσώπου για ρετουσάρισμα
+COU_TARGET_NOIMAGE,Καμία ακίνητη εικόνα
+COU_TARGET_NOIMAGE_2,
+COU_ZOOM_INVALID,Απενεργοποιημένο ζουμ
+COU_ZOOM_INVALID_2,
+DUMMY,
+GUIDE_BUTTON,Αγγίξτε κουμπί για χρήση
+GUIDE_CENTER,Αγγίξτε σημείο για κεντράρισμα
+GUIDE_CHANGEFOCUS,Αλλαγή θέσης εστίασης μ'άγγιγμα
+GUIDE_CHOOSEFOCUS,Επιλ. θέσης εστίασης μ' άγγιγμα
+GUIDE_DEMO_BACKLIGHT,Ανίχνευση πίσω φωτισμού
+GUIDE_DEMO_BACKLIGHTPORTRAIT,Ανίχν. πίσω φωτισμ. και ανθρώπων
+GUIDE_DEMO_LANDSCAPE,Ανίχνευση τοπίου
+GUIDE_DEMO_MACRO,Ανίχνευση πολύ κοντινού θέματος
+GUIDE_DEMO_PORTRAIT,Ανίχνευση ανθρώπων
+GUIDE_DEMO_TRIPOD,Ανίχνευση ημίφωτος και τρίποδου
+GUIDE_DEMO_TWILIGHT,Ανίχνευση ημίφωτος
+GUIDE_DEMO_TWILIGHTPORTRAIT,Ανίχνευση ημίφωτος και ανθρώπων
+GUIDE_EFFECTLEVEL,Επιλέξτε επίπεδο εφέ
+GUIDE_EXIT_TOUCH, Έξοδος όταν αγγίξετε τη LCD
+GUIDE_LIGHTBEAM_LEVEL,Επιλέξτε επίπεδο δέσμης φωτός
+GUIDE_RANGE,Επιλέξτε εύρος εφέ
+GUIDE_RESIZE,Το νέο μέγεθος ολοκληρώθηκε
+GUIDE_RETOUCH_COMPLETE,Το νέο άγγιγμα ολοκληρώθηκε
+GUIDE_RETRO_LIGHT,Επιλογή εύρους φωτεινότητας
+GUIDE_ROTATEIMG,Αγγίξτε εικόνα για περιστροφή
+GUIDE_SAVESIZE,Επιλέξτε μέγεθος για αποθήκευση
+GUIDE_SELECTFACE,Επιλογή προσώπου μ' άγγιγμα
+GUIDE_SELECTFAV,Επιλέξτε φάκελο Αγαπημένα
+GUIDE_SMILEDEMO_START,Επιλ. εικονιδ. χαμόγελου για έναρξη
+GUIDE_SMILESHUTTER_EXIT,Επιλ. εικονιδ. χαμόγελου για έξοδο
+GUIDE_STARTIMG,Αγγίξτε εικ. έναρξης παρουσίασης
+GUIDE_TOUCHFAV,Αγγίξτε φάκελο Αγαπημένα
+GUIDE_TOUCHIMG,Αγγίξτε την εικόνα
+GUIDE_ZOOMIN_TOUCH,Αγγίξτε το σημείο για ζουμ
+GUIDE_ZOOMIN_TOUCHED,Ζουμ σε σημείο
+HOME,HOME
+HOME_CAM,Λήψη
+HOME_CAM_GUIDE2,Λήψη φωτογραφιών
+HOME_CAM_GUIDE2_2,ή ταινιών
+HOME_COMMUNICATION,Επικοινωνία
+HOME_ETC_BGMTOOL,Εργαλείο μουσικής
+HOME_ETC_BGMTOOL_GUIDE2,Διαχείριση μουσικής
+HOME_ETC_BGMTOOL_GUIDE2_2,της παρουσίασης
+HOME_ETC_PRINT_GUIDE2,Εκτύπωση εικόνων
+HOME_ETC_PRINT_GUIDE2_2,
+HOME_MEMORY,Διαχείριση μνήμης
+HOME_MEMORY_GUIDE2,Διαχείριση μέσων εγγραφής
+HOME_MEMORY_GUIDE2_2,
+HOME_MEMORY_INTERNALMEMORYTOOL,Εργαλείο εσωτερ. μνήμης
+HOME_MEMORY_MEMORYSTICKTOOL,Εργαλείο Memory Stick
+HOME_MEMORY_MEMORYTOOL,Εργαλείο μνήμης
+HOME_NETWORK,Δίκτυο
+HOME_NETWORK_GUIDE,Σύνδεση σε δίκτυο
+HOME_NETWORK_GUIDE_2,
+HOME_PLAY,Προβολή εικόνων
+HOME_PLAY1,Προβολή εικόνων 1
+HOME_PLAY2,Προβολή εικόνων 2
+HOME_PLAY_INDEX_GUIDE2,Προβολή πολλαπλών
+HOME_PLAY_INDEX_GUIDE2_2,εικόνων
+HOME_PLAY_NORMAL_GUIDE2,Προβολή μεμονωμένης
+HOME_PLAY_NORMAL_GUIDE2_2,εικόνας
+HOME_PLAY_SLIDESHOW_GUIDE2,Αυτόματη αναπαραγωγή με
+HOME_PLAY_SLIDESHOW_GUIDE2_2,μουσική και εφέ
+HOME_PRINT,Εκτύπωση
+HOME_SCENESELECTION,Επιλογή σκηνικού
+HOME_SCRAPBOOK,Λεύκωμα
+HOME_SCRAPBOOK_GUIDE,Δημιουργία Λευκώματος
+HOME_SCRAPBOOK_GUIDE_2,αυτόματα
+HOME_SETTINGS,Ρυθμίσεις
+HOME_SET_CAM,Ρυθμίσεις λήψης
+HOME_SET_CAM_GUIDE2,Προσαρμογή ρυθμίσεων
+HOME_SET_CAM_GUIDE2_2,λήψης
+HOME_SET_CLOCK,Ρυθμίσεις ρολογιού
+HOME_SET_CLOCK_GUIDE2,Προσαρμογή ημερομηνίας
+HOME_SET_CLOCK_GUIDE2_2,και ώρας
+HOME_SET_LANGUAGE,Language Setting
+HOME_SET_LANGUAGE_CHANGE_GUIDE,Change Language
+HOME_SET_LANGUAGE_CHANGE_GUIDE_2,
+HOME_SET_LANGUAGE_GUIDE2,Change Language
+HOME_SET_LANGUAGE_GUIDE2_2,
+HOME_SET_MAIN,Κύριες ρυθμίσεις
+HOME_SET_MAIN_GUIDE2,Προσαρμογή κύριων
+HOME_SET_MAIN_GUIDE2_2,ρυθμίσεων
+HOME_SLIDESHOW,Παρουσίαση
+HOME_VIEW_DATE,Προβ. ημ/νίας
+HOME_VIEW_DATE_GUIDE2,Προβολή εικόνων κατά
+HOME_VIEW_DATE_GUIDE2_2,ημερομηνία
+HOME_VIEW_EVENT,Προβολή συμβάντος
+HOME_VIEW_EVENT_GUIDE,Αυτόματη ταξινόμηση εικ-
+HOME_VIEW_EVENT_GUIDE_2,όνων σε ομάδες για προβολή
+HOME_VIEW_FAV,Αγαπημένα
+HOME_VIEW_FAV_GUIDE2,Προβολή εικόνων
+HOME_VIEW_FAV_GUIDE2_2,σε Αγαπημένα
+HOME_VIEW_FOLDER,Προβ. φακέλου
+HOME_VIEW_FOLDER_GUIDE2,Προβολή εικόνων
+HOME_VIEW_FOLDER_GUIDE2_2,σε φάκελο DCF
+KEY_FLASH_AUTO_GUIDE,Αυτόματο φλας
+KEY_FLASH_AUTO_GUIDE_2,Χρήση φλας αυτόματα
+KEY_FLASH_OFF,Σβηστό φλας
+KEY_FLASH_OFF_GUIDE,Σβηστό φλας
+KEY_FLASH_OFF_GUIDE_2,Δεν χρησιμοποιείται φλας
+KEY_FLASH_ON,Αναμμένο φλας
+KEY_FLASH_ON_GUIDE,Αναμμένο φλας
+KEY_FLASH_ON_GUIDE_2,Χρησιμοποιείται πάντα φλας
+KEY_FLASH_SYNCHRO_GUIDE,Διατήρηση θεμάτων και
+KEY_FLASH_SYNCHRO_GUIDE_2,μακρινών φόντων φωτεινών
+KEY_MACRO_AUTO_GUIDE,Αυτόματη εστίαση από
+KEY_MACRO_AUTO_GUIDE_2,κοντινό σε άπειρο
+KEY_MACRO_NEAR,Μάκρο ενέργ.
+KEY_MACRO_NEAR_GUIDE,Εστίαση με προτεραιότητα σε
+KEY_MACRO_NEAR_GUIDE_2,πολύ κοντινά θέματα
+KEY_MAGNIFY_ON,Ενεργή κοντινή λήψη
+KEY_MAGNIFY_ON_GUIDE,Ενεργή κοντινή λήψη
+KEY_MAGNIFY_ON_GUIDE_2,Για πολύ κοντινές λήψεις
+KEY_SELFTIMER_10_GUIDE,Λήψη 10 δευτερόλεπτα μετά
+KEY_SELFTIMER_10_GUIDE_2,το πάτημα του κλείστρου
+KEY_SELFTIMER_2_GUIDE,Λήψη 2 δευτερόλεπτα μετά
+KEY_SELFTIMER_2_GUIDE_2,το πάτημα του κλείστρου
+KEY_SELFTIMER_OFF_GUIDE,Χρονοδιακόπτης ανενεργός
+KEY_SELFTIMER_OFF_GUIDE_2,
+MSG_ACCESSING,Πρόσβαση…
+MSG_AVI_MAKING,Δημιουργία νέου
+MSG_CAPTURING,Γίνεται λήψη…
+MSG_CLOSEEYE_DETECT,Ανίχνευση κλειστών ματιών
+MSG_CONFIRM_UPDATE,Επιλέξτε ΟΚ για αναβάθμιση
+MSG_CONFIRM_UPDATE_2,
+MSG_CONNECTING,Γίνεται σύνδεση…
+MSG_CONNECTING_MASSSTORAGE,Γίνεται σύνδεση σε Mass Storage…
+MSG_CONNECTING_MASSSTORAGE_2,
+MSG_CONNECTING_NETWORK,Σύνδεση σε δίκτυο…
+MSG_CONNECTING_PICTBRIDGE,Γίνεται σύνδεση σε
+MSG_CONNECTING_PICTBRIDGE_2,συσκευή PictBridge…
+MSG_CONNECTING_PTPMTP,Γίνεται σύνδεση σε
+MSG_CONNECTING_PTPMTP_2,PTP/MTP…
+MSG_CONNECT_PC,Σύνδεση σε PC
+MSG_CONNECT_PC_2,
+MSG_CONNECT_PICTBRIDGE,Σύνδεση σε συσκευή PictBridge
+MSG_CONNECT_PICTBRIDGE_2,
+MSG_COPY,Θα αντιγραφούν όλα τα δεδομένα
+MSG_COPYING,Γίνεται αντιγραφή…
+MSG_COPYING_2,
+MSG_COPY_2,στην εσωτερική μνήμη
+MSG_CREATING_RECFOLDER,Δημιουργία φακέλου ΕΓΓ
+MSG_CURRENTVERSION,Τρέχουσα έκδοση
+MSG_ENTRY_OVER,Ο μέγιστος αριθμός εικόνων
+MSG_ENTRY_OVER_2,έχει υπερβεί.
+MSG_EXITTING_NETWORK,Κλείσιμο δικτύου…
+MSG_FORMATTING_BGM,Γίνεται διαμόρφωση Μουσικής…
+MSG_FORMATTING_BGM_2,
+MSG_FORMATTING_INTERNALMEMORY,Γίνεται διαμόρφωση
+MSG_FORMATTING_INTERNALMEMORY_2,εσωτερικής μνήμης…
+MSG_FORMATTING_MS,Γίνεται διαμόρφωση
+MSG_FORMATTING_MS_2,Memory Stick…
+MSG_FORMAT_BGM,Θα διαγραφούν όλα τα αρχεία
+MSG_FORMAT_BGM_2,μουσικής
+MSG_FORMAT_INTERNALMEMORY,Θα διαγραφούν όλα τα δεδομένα
+MSG_FORMAT_INTERNALMEMORY_2,στην εσωτερική μνήμη
+MSG_FORMAT_MS,Θα διαγραφούν όλα τα δεδομένα
+MSG_FORMAT_MS_2,στο Memory Stick
+MSG_FORWARDING,Γίνεται μεταφορά δεδομένων. . .
+MSG_HOUSING,Άλλαξε η λειτουργία
+MSG_INITIALIZE_ALLSETTINGS,Αρχικοποίηση όλων των ρυθμίσεων
+MSG_INITIALIZE_ALLSETTINGS_2,
+MSG_NEWVERSION,Νέα έκδοση
+MSG_NOTTURNOFF,Μην απενεργοποιείτε
+MSG_PASSLOCK_PASS_CANCEL,Η ρύθμιση κωδικού
+MSG_PASSLOCK_PASS_CANCEL_2,πρόσβασης ακυρώθηκε
+MSG_PASSLOCK_PASS_RESET,Ο κωδικός πρόσβασης
+MSG_PASSLOCK_PASS_RESET_2,επαναφέρθηκε
+MSG_PASSLOCK_PASS_RESET_MODE,Λειτουργία επαναφοράς
+MSG_PASSLOCK_PASS_RESET_MODE_2,κωδικού πρόσβασης
+MSG_PASSLOCK_PASS_SET,Ο κωδικός πρόσβασης
+MSG_PASSLOCK_PASS_SET_2,ρυθμίστηκε
+MSG_PRINTING,Γίνεται εκτύπωση…
+MSG_PROCESSING,Γίνεται επεξεργασία…
+MSG_RECORDING,Γίνεται εγγραφή…
+MSG_RECORD_MS,Εγγραφή στο Memory Stick
+MSG_RECOVER,Ανάκτηση δεδομένων
+MSG_RECOVERINGFILE,Ανάκτηση αρχείου
+MSG_RECOVERINGFILE_2,διαχείρισης εικόνων…
+MSG_RECOVER_2,
+MSG_SEE_SOFTWAREUPDATE_INST,Βλ. "Οδηγίες αναβάθμισης
+MSG_SEE_SOFTWAREUPDATE_INST_2,λογισμικού"
+MSG_SMILEDEMO_GUIDE,Χαμόγελο θα συλληφθεί αυτόματα
+MSG_SMILEDEMO_PROCESSING,Κλείστρο χαμόγελου σε επίδειξη
+MSG_SMILESHUTTER_PROCESSING,Ανίχνευση χαμόγελου
+MSG_SMILE_END1,Αριθμός φωτογραφιών
+MSG_SOFTWAREUPDATE,Αναβάθμιση λογισμικού
+MSG_SOFTWAREUPDATE_2,
+MSG_STARTING_NETWORK, Έναρξη δικτύου…
+MSG_START_BROWSER, Έναρξη περιήγησης Ιστού…
+MSG_TOUCH_X_CENTER,Αγγίξτε το κέντρο του σημαδιού "×"
+MSG_TVOUT, Έξοδος τηλεόρασης σε εξέλιξη…
+MSG_USBMENU,Ενεργοποίηση σε [MENU]
+PASSLOCK_PASS_CLEAR,Εισαγ. κωδ. επαναφοράς
+PASSLOCK_PASS_INPUT,Εισαγ. κωδικού πρόσβασης
+PASSLOCK_PASS_REINPUT,Νέα εισαγ. κωδ. πρόσβ.
+PASSLOCK_PASS_SET,Ρύθμιση κωδ. πρόσβασης
+PBMENU_ALBUM_GUIDE,Επιστροφή σε Άλμπουμ
+PBMENU_ALBUM_GUIDE_2,
+PBMENU_BACKGROUND,Φόντο
+PBMENU_BLOG_GUIDE,Μείωση μεγέθους εικόνας και
+PBMENU_BLOG_GUIDE_2,αποθήκευση ως νέα εικόνα
+PBMENU_DATEALL, Όλες εικ. στο εύρος ημ/νίας
+PBMENU_DATEALL_CLEAR,Αφ. όλων σε εύρος ημ/νίας
+PBMENU_DATEALL_ENTRY,Πρ. όλων σε εύρος ημ/νίας
+PBMENU_DATEALL_SET,Ορ. όλων σε εύρος ημ/νίας
+PBMENU_DATELIST,Λίστα ημ/νίας
+PBMENU_DATELIST_GUIDE,Επιλογή ημερομηνίας
+PBMENU_DATELIST_GUIDE_2,για προβολή
+PBMENU_DELETE,Διαγραφή
+PBMENU_DELETE_ALL_GUIDE,Διαγραφή όλων των εικόνων
+PBMENU_DELETE_ALL_GUIDE_2,σε αυτό το φάκελο
+PBMENU_DELETE_DATEALL_GUIDE,Διαγραφή όλων των εικόνων
+PBMENU_DELETE_DATEALL_GUIDE_2,σε αυτό το εύρος ημ/νίας
+PBMENU_DELETE_EVENTALL_GUIDE,Διαγραφή όλων των εικόνων
+PBMENU_DELETE_EVENTALL_GUIDE_2,στο συμβάν αυτό
+PBMENU_DELETE_SELECT_GUIDE,Διαγραφή πολλαπλά
+PBMENU_DELETE_SELECT_GUIDE_2,επιλεγμένων εικόνων
+PBMENU_DELETE_SINGLE_GUIDE,Διαγραφή εικόνας
+PBMENU_DELETE_SINGLE_GUIDE_2,
+PBMENU_DPOF,DPOF
+PBMENU_DPOF_ALL_CLEAR_GUIDE,Διαγρ. σημ. παραγγ. εκτύπ.
+PBMENU_DPOF_ALL_CLEAR_GUIDE_2,για όλες εικ. σ'αυτό το φάκελ.
+PBMENU_DPOF_ALL_SET_GUIDE,Προσθ. σημ. παραγγ. εκτύπ.
+PBMENU_DPOF_ALL_SET_GUIDE_2,για όλες εικ. σ'αυτό το φάκελ.
+PBMENU_DPOF_DATEALL_CLEAR_GUIDE,Διαγρ. σημ. παραγγ. εκτ. σε
+PBMENU_DPOF_DATEALL_CLEAR_GUIDE_2,όλες εικόνες εύρους ημ/νίας
+PBMENU_DPOF_DATEALL_SET_GUIDE,Προσθ. σημ. παραγγ. εκτ. για
+PBMENU_DPOF_DATEALL_SET_GUIDE_2,όλες εικόνες εύρους ημ/νίας
+PBMENU_DPOF_EVENTALL_CLEAR_GUIDE,Διαγρ. σημ. παραγγ. εκτ. σε
+PBMENU_DPOF_EVENTALL_CLEAR_GUIDE_2,όλες τις εικ. στο συμβάν αυτό
+PBMENU_DPOF_EVENTALL_SET_GUIDE,Προσθ. σημ. παραγγ. εκτ. σε
+PBMENU_DPOF_EVENTALL_SET_GUIDE_2,όλες τις εικ. στο συμβάν αυτό
+PBMENU_DPOF_FAVALL_CLEAR_GUIDE,Διαγρ. σημ. παραγγελ. εκτ. σε
+PBMENU_DPOF_FAVALL_CLEAR_GUIDE_2,όλες εικόνες ομάδας
+PBMENU_DPOF_FAVALL_SET_GUIDE,Προσθ. σημ. παραγγ. εκτ. σε
+PBMENU_DPOF_FAVALL_SET_GUIDE_2,όλες εικόνες ομάδας
+PBMENU_DPOF_SELECT_GUIDE,Ναι/Όχι σημ. παραγγ. εκτύπ.
+PBMENU_DPOF_SELECT_GUIDE_2,σε πολλαπλά επιλεγμ. εικόνες
+PBMENU_DPOF_SINGLE_GUIDE,Ναι/Όχι σημ. παραγγ. εκτύπ.
+PBMENU_DPOF_SINGLE_GUIDE_2,στην επιλεγμένη εικόνα
+PBMENU_EDIT,Ρετουσάρισμα
+PBMENU_EDIT_BLOG_EMAIL,Blog / E-mail
+PBMENU_EDIT_BW,Μερικό χρώμα
+PBMENU_EDIT_BW_GUIDE,Περιβάλλει επιλεγμένο σημείο
+PBMENU_EDIT_BW_GUIDE_2,σε μονοχρωμία
+PBMENU_EDIT_CROSS,Διασταυρούμενο φίλτρο
+PBMENU_EDIT_CROSS_GUIDE,Προσθέτει εφέ αστεριού στα
+PBMENU_EDIT_CROSS_GUIDE_2,φωτεινά σημεία της εικόνας
+PBMENU_EDIT_FISHEYE,Φακός μάτι ψαριού
+PBMENU_EDIT_FISHEYE_GUIDE,Εφαρμόζει εφέ μάτι ψαριού
+PBMENU_EDIT_FISHEYE_GUIDE_2,γύρω από επιλεγμένο σημείο
+PBMENU_EDIT_HDTV,HDTV
+PBMENU_EDIT_RADIATION,Ακτινωτό θόλωμα
+PBMENU_EDIT_RADIATION_GUIDE,Εφαρμόζει ακτινωτό θόλωμα
+PBMENU_EDIT_RADIATION_GUIDE_2,γύρω από επιλεγμένο σημείο
+PBMENU_EDIT_REDEYE,Διόρθωση κόκκινων ματιών
+PBMENU_EDIT_REDEYE_GUIDE,Αφαιρεί τα κόκκινα μάτια
+PBMENU_EDIT_REDEYE_GUIDE_2,που προκαλεί το φλας
+PBMENU_EDIT_RETRO2,Ρετρό
+PBMENU_EDIT_RETRO2_GUIDE,Θολώνει και σκιάζει περιφέ-
+PBMENU_EDIT_RETRO2_GUIDE_2,ρεια για νοσταλγικό εφέ
+PBMENU_EDIT_SHARPFOUCS,Μάσκα κατάργ. ευκρίνειας
+PBMENU_EDIT_SHARPFOUCS_GUIDE,Κάνει ευκρινή την εικόνα
+PBMENU_EDIT_SHARPFOUCS_GUIDE_2,γύρω από επιλεγμένο σημείο
+PBMENU_EDIT_SMILE,Χαμόγελα
+PBMENU_EDIT_SMILE_GUIDE,Τροπ. προσώπων ανθρώπων
+PBMENU_EDIT_SMILE_GUIDE_2,να φαίνεται ότι χαμογελούν
+PBMENU_EDIT_SOFTFOUCS,Απαλή εστίαση
+PBMENU_EDIT_SOFTFOUCS_GUIDE,Θολώνει την περιφέρεια
+PBMENU_EDIT_SOFTFOUCS_GUIDE_2,γύρω από επιλεγμένο σημείο
+PBMENU_EDIT_TRIMMING,Περικοπή
+PBMENU_EDIT_TRIMMING_GUIDE,Κόβει εικόνες για αφαίρεση
+PBMENU_EDIT_TRIMMING_GUIDE_2,ανεπιθύμητων τμημάτων
+PBMENU_EVENTALL, Όλα σε συμβάν
+PBMENU_EVENTALL_CLEAR,Αφ. όλων εικ. από συμβάν
+PBMENU_EVENTALL_ENTRY,Προσθήκη όλων σε συμβάν
+PBMENU_EVENTALL_SET,Ρύθμ. όλων εικ. σε συμβάν
+PBMENU_EVENTLIST,Λίστα συμβάντων
+PBMENU_EVENTLIST_GUIDE,Επιλογή συμβάντος
+PBMENU_EVENTLIST_GUIDE_2,για προβολή
+PBMENU_FAV,Αγαπημένα
+PBMENU_FAV1,Αγαπημένα 1
+PBMENU_FAV2,Αγαπημένα 2
+PBMENU_FAV3,Αγαπημένα 3
+PBMENU_FAV4,Αγαπημένα 4
+PBMENU_FAV5,Αγαπημένα 5
+PBMENU_FAV6,Αγαπημένα 6
+PBMENU_FAVALL, Όλα στα Αγαπημένα
+PBMENU_FAVALL_CLEAR,Αφ. όλων από Αγαπημένα
+PBMENU_FAVALL_ENTRY,Προσθ. όλων σε Αγαπημένα
+PBMENU_FAVALL_SET,Ορισμός όλων στην ομάδα
+PBMENU_FAV_ALL_CLEAR_GUIDE,Αφαίρεση όλων εικόνων από
+PBMENU_FAV_ALL_CLEAR_GUIDE_2,Αγαπημένα
+PBMENU_FAV_CLEAR,Αφαίρεση Αγαπημένων
+PBMENU_FAV_CLEAR_DATEALL_GUIDE,Αφαίρ. όλων εικ. στο εύρος
+PBMENU_FAV_CLEAR_DATEALL_GUIDE_2,ημ/νίας από Αγαπημένα
+PBMENU_FAV_CLEAR_EVENTALL_GUIDE,Αφαίρεση όλων εικόνων από
+PBMENU_FAV_CLEAR_EVENTALL_GUIDE_2,συμβάν από τα Αγαπημένα
+PBMENU_FAV_ENTRY,Προσθήκη σε Αγαπημένα
+PBMENU_FAV_ENTRY_DATEALL_GUIDE,Προσθήκη όλων εικόνων στο
+PBMENU_FAV_ENTRY_DATEALL_GUIDE_2,εύρος ημ/νίας σε Αγαπημένα
+PBMENU_FAV_ENTRY_EVENTALL_GUIDE,Προσθήκη όλων εικόνων στο
+PBMENU_FAV_ENTRY_EVENTALL_GUIDE_2,συμβάν αυτό στα Αγαπημένα
+PBMENU_FAV_SELECT_GUIDE,Προσθήκη/Αφαίρεση επιλεγ.
+PBMENU_FAV_SELECT_GUIDE_2,εικόνων σε/από Αγαπημένα
+PBMENU_FAV_SET,Προσθ. /Αφαίρ. Αγαπημ.
+PBMENU_FAV_SINGLE_GUIDE,Προσθ. /Αφαίρ. εικόνας
+PBMENU_FAV_SINGLE_GUIDE_2,αυτής σε/από Αγαπημένα
+PBMENU_FOLDERALL, Όλα σε αυτό το φάκελο
+PBMENU_FOLDERALL_CLEAR,Αφαίρ. όλων από φάκ. αυτό
+PBMENU_FOLDERALL_ENTRY,Προσθήκη όλων στο φάκελο
+PBMENU_FOLDERALL_SET,Ρύθ. όλων στο φάκελο αυτό
+PBMENU_FOLDERJUMP,Επιλογή φακέλου
+PBMENU_FRAME,Καρέ
+PBMENU_HDTV_GUIDE,Περικοπή εικόνας σε μέγεθος
+PBMENU_HDTV_GUIDE_2,16:9 και αποθήκευση ως νέα
+PBMENU_IMAGESAVE,Αποθήκευση ως εικόνα
+PBMENU_MULTIPLEIMAGES,Πολλαπλές εικόνες
+PBMENU_MULTIPLEPAGESAVE,Επιλ. σελίδων και αποθήκευση
+PBMENU_MULTIRESIZE,Πολλαπλά νέα μεγέθη
+PBMENU_PAGESAVE,Αποθήκευση αυτής της σελίδας
+PBMENU_PAINT,Βαφή
+PBMENU_PAINT_GUIDE,Προσθήκη βαφής, σφραγίδας
+PBMENU_PAINT_GUIDE_2,ή πλαισίου στην εικόνα
+PBMENU_PBFOLDER_GUIDE,Επιλογή φακέλου
+PBMENU_PBFOLDER_GUIDE_2,για αναπαραγωγή
+PBMENU_PRINT_ALL_GUIDE,Εκτύπωση όλων
+PBMENU_PRINT_ALL_GUIDE_2,των εικόνων φακέλου
+PBMENU_PRINT_DATEALL_GUIDE,Εκτύπωση όλων των εικόνων
+PBMENU_PRINT_DATEALL_GUIDE_2,σε αυτό το εύρος ημ/νίας
+PBMENU_PRINT_EVENTALL_GUIDE,Εκτύπωση όλων των εικόνων
+PBMENU_PRINT_EVENTALL_GUIDE_2,στο συμβάν αυτό
+PBMENU_PRINT_FAVALL_GUIDE,Εκτύπωση όλων των εικόνων
+PBMENU_PRINT_FAVALL_GUIDE_2,στην ομάδα Αγαπημένων
+PBMENU_PRINT_SELECT_GUIDE,Εκτύπωση πολλαπλά
+PBMENU_PRINT_SELECT_GUIDE_2,επιλεγμένων εικόνων
+PBMENU_PRINT_SINGLE_GUIDE,Εκτύπωση εικόνων
+PBMENU_PRINT_SINGLE_GUIDE_2,
+PBMENU_PROTECT,Προστασία
+PBMENU_PROTECT_ALL_CLEAR_GUIDE,Απενεργοποίηση προστασίας
+PBMENU_PROTECT_ALL_CLEAR_GUIDE_2,εικόνας για όλες εικ. φακέλου
+PBMENU_PROTECT_ALL_SET_GUIDE,Ενεργοποίηση προστασίας
+PBMENU_PROTECT_ALL_SET_GUIDE_2,εικόνας για όλες εικ. φακέλου
+PBMENU_PROTECT_DATEALL_CLEAR_GUIDE,Απενεργ. προστ. για όλες
+PBMENU_PROTECT_DATEALL_CLEAR_GUIDE_2,εικόνες στο εύρος ημ/νίας
+PBMENU_PROTECT_DATEALL_SET_GUIDE,Ενεργ. προστ. για όλες
+PBMENU_PROTECT_DATEALL_SET_GUIDE_2,εικόνες στο εύρος ημ/νίας
+PBMENU_PROTECT_EVENTALL_CLEAR_GUIDE,Απενεργ. προστασίας για
+PBMENU_PROTECT_EVENTALL_CLEAR_GUIDE_2,όλες τις εικ. στο συμβάν αυτό
+PBMENU_PROTECT_EVENTALL_SET_GUIDE,Ενεργοπ. προστασίας για
+PBMENU_PROTECT_EVENTALL_SET_GUIDE_2,όλες τις εικ. στο συμβάν αυτό
+PBMENU_PROTECT_FAVALL_CLEAR_GUIDE,Απενεργοποίηση προστασίας
+PBMENU_PROTECT_FAVALL_CLEAR_GUIDE_2,για όλες εικόνες στην ομάδα
+PBMENU_PROTECT_FAVALL_SET_GUIDE,Ενεργοποίηση προστασίας
+PBMENU_PROTECT_FAVALL_SET_GUIDE_2,για όλες εικόνες στην ομάδα
+PBMENU_PROTECT_SELECT_GUIDE,Ναι/Όχι προστασίας εικόνας
+PBMENU_PROTECT_SELECT_GUIDE_2,για πολλαπλά επιλεγμ εικόνες
+PBMENU_PROTECT_SINGLE_GUIDE,Ναι/Όχι προστασίας εικόνας
+PBMENU_PROTECT_SINGLE_GUIDE_2,
+PBMENU_REFINE,Φίλτρο κατά πρόσωπα
+PBMENU_REFINE_BABY,Νήπια
+PBMENU_REFINE_BABY_GUIDE,Εύρεση και προβολή εικόνων
+PBMENU_REFINE_BABY_GUIDE_2,με νήπια
+PBMENU_REFINE_CHILD,Παιδιά
+PBMENU_REFINE_CHILD_GUIDE,Εύρεση και προβολή εικόνων
+PBMENU_REFINE_CHILD_GUIDE_2,με πρόσωπα παιδιών
+PBMENU_REFINE_CLEAR_GUIDE,Προβολή όλων των
+PBMENU_REFINE_CLEAR_GUIDE_2,εικόνων
+PBMENU_REFINE_FACE, Όλοι οι άνθρωποι
+PBMENU_REFINE_FACE_GUIDE,Εύρεση και προβολή εικόνων
+PBMENU_REFINE_FACE_GUIDE_2,με πρόσωπα ανθρώπων
+PBMENU_REFINE_SMILE,Χαμόγελα
+PBMENU_REFINE_SMILE_GUIDE,Εύρεση και προβολή εικόνων
+PBMENU_REFINE_SMILE_GUIDE_2,με χαμογελαστά πρόσωπα
+PBMENU_ROTATE,Περιστροφή
+PBMENU_ROTATE_GUIDE,Περιστροφή εικόνων
+PBMENU_ROTATE_GUIDE_2,
+PBMENU_SCRAPBOOKALLSAVE,Αποθ. όλων σελίδ. σε Λεύκωμα
+PBMENU_SCRAPBOOKALL_GUIDE,Αποθήκ. όλων των σελίδων
+PBMENU_SCRAPBOOKALL_GUIDE_2,του Λευκώματος ως εικόνες
+PBMENU_SHARE_CLEAR,Αφαίρεση σήμ. Κοιν. Χρήσης
+PBMENU_SHARE_CLEAR_DATEALL_GUIDE,Αφαίρ. όλων εικ. στη περιοχή
+PBMENU_SHARE_CLEAR_DATEALL_GUIDE_2,ημ/νίας από Κοινή Χρήση
+PBMENU_SHARE_CLEAR_EVENTALL_GUIDE,Αφαίρ. όλων εικ. στο συμβάν
+PBMENU_SHARE_CLEAR_EVENTALL_GUIDE_2,αυτό από Κοινή Χρήση
+PBMENU_SHARE_CLEAR_FAVALL_GUIDE,Αφαίρ. όλων των εικ. στην
+PBMENU_SHARE_CLEAR_FAVALL_GUIDE_2,ομάδα από Κοινή Χρήση
+PBMENU_SHARE_ENTRY,Προσθ. στην Κοινή Χρήση
+PBMENU_SHARE_ENTRY_DATEALL_GUIDE,Προσθ. όλων εικ. στη περιοχή
+PBMENU_SHARE_ENTRY_DATEALL_GUIDE_2,ημερ/νίας στην Κοινή Χρήση
+PBMENU_SHARE_ENTRY_EVENTALL_GUIDE,Προσθ. όλων εικ. στο συμβάν
+PBMENU_SHARE_ENTRY_EVENTALL_GUIDE_2,αυτό στην Κοινή Χρήση
+PBMENU_SHARE_ENTRY_FAVALL_GUIDE,Προσθ. όλων εικ. στην ομάδα
+PBMENU_SHARE_ENTRY_FAVALL_GUIDE_2,αυτή στην Κοινή Χρήση
+PBMENU_SHARE_SELECT_GUIDE,Προσθ. /Αφαίρ. επιλεγ. εικ.
+PBMENU_SHARE_SELECT_GUIDE_2,σε/από σήμ. Κοινής Χρήσης
+PBMENU_SHARE_SET,Προσ/Αφαίρ. σήμ. Κοιν. Χρ.
+PBMENU_SHARE_SINGLE_GUIDE,Προσθ/Αφαίρ. εικόνας αυτής
+PBMENU_SHARE_SINGLE_GUIDE_2,σε/από σήμ. Κοινής Χρήσης
+PBMENU_SLIDESHOW_GUIDE,Αυτόματη αναπαραγωγή
+PBMENU_SLIDESHOW_GUIDE_2,με μουσική και εφέ
+PBMENU_THISIMAGE,Αυτή την εικόνα
+PBMENU_THISPAGE_GUIDE,Αποθήκ. αυτής της εικόνας
+PBMENU_THISPAGE_GUIDE_2,σελίδας του Λευκώματος
+PBMENU_VIEWSELECT,Τρόπος προβολής
+PBMENU_VOLUMESETTINGS,Ρυθμίσεις έντασης ήχου
+PBMENU_VOLUME_GUIDE,Προσαρμόζει ένταση ήχου σε
+PBMENU_VOLUME_GUIDE_2,αναπαραγ. παρουσ. /ταινίας
+PBMENU_WIDEZOOM,Προβολή ευρύ ζουμ
+PBMENU_WSCREEN_GUIDE,Περικόπτει εικόνα σε μέγεθος
+PBMENU_WSCREEN_GUIDE_2,16:9 και προβολή
+PRINTMENU_10X15CM,10x15 cm
+PRINTMENU_1PICBORDER,1/Με περιθώριο
+PRINTMENU_1PICNOBORDER,1/Χωρίς περιθώριο
+PRINTMENU_2L,13x18 cm
+PRINTMENU_2PICS,2
+PRINTMENU_3PICS,3
+PRINTMENU_4PICS,4
+PRINTMENU_4X6,4x6"
+PRINTMENU_8PICS,8
+PRINTMENU_A3,A3
+PRINTMENU_A3PLUS,A3+
+PRINTMENU_A4,A4
+PRINTMENU_A6,A6
+PRINTMENU_DATE,Ημερομηνία
+PRINTMENU_DATE_A,Ημερομηνία
+PRINTMENU_DAYANDTIME,Ημέρα και ώρα
+PRINTMENU_HAGAKI,Hagaki
+PRINTMENU_HDTV,Μέγεθος πλάτους
+PRINTMENU_INDEX,Ευρετήριο
+PRINTMENU_INDEXPRINT,Εκτύπωση ευρετηρ.
+PRINTMENU_L,9x13 cm
+PRINTMENU_LETTER,Letter
+PRINTMENU_PICTUREINPAPER,Διάταξη
+PRINTMENU_QUANTITY,Ποσότητα
+PRINTMENU_SIZE,Μέγεθος
+SAVE,Αποθήκευση
+SETUP_AFILLUMINATOR,Φωτισμός AF
+SETUP_AFILLUMINATOR_GUIDE2,Γέμισμα για εστίαση σε χαμηλό
+SETUP_AFILLUMINATOR_GUIDE2_2,φως
+SETUP_AFMODE,Λειτουργία AF
+SETUP_AFMODE_GUIDE2,Ρυθμίσεις αυτόματης εστίασης
+SETUP_AFMODE_GUIDE2_2,
+SETUP_AUTOREVIEW,Αυτόμ ανασκόπηση
+SETUP_AUTOREVIEW_GUIDE2,Ανασκόπ εικόνων 2 δευτ. μετά τη
+SETUP_AUTOREVIEW_GUIDE2_2,λήψη
+SETUP_BEEP,Μπιπ
+SETUP_BEEP_GUIDE2,Ρυθμίσεις μπιπ
+SETUP_BEEP_GUIDE2_2,
+SETUP_BGMTOOL_DOWNLOAD_GUIDE2,Αλλαγή μουσικής παρουσίασης
+SETUP_BGMTOOL_DOWNLOAD_GUIDE2_2,
+SETUP_BGMTOOL_FORMAT_GUIDE2,Διαγραφή όλης μουσικής
+SETUP_BGMTOOL_FORMAT_GUIDE2_2,παρουσίασης
+SETUP_BGM_DOWNLOAD,Λήψη μουσικής
+SETUP_BGM_FORMAT,Μορφή μουσικής
+SETUP_CALIBRATION,Βαθμονόμηση
+SETUP_CAM1,Ρυθμίσεις λήψης 1
+SETUP_CAM2,Ρυθμίσεις λήψης 2
+SETUP_CHANGERECFOLDER,Αλλαγή φακέλ ΕΓΓ
+SETUP_CLOCK_GUIDE2,Προσαρμογή ημερομηνίας και
+SETUP_CLOCK_GUIDE2_2,ώρας
+SETUP_COMPONENT,COMPONENT
+SETUP_COMPONENT_D1,SD
+SETUP_COMPONENT_D3,HD(1080i)
+SETUP_COMPONENT_GUIDE2,Ρυθμίσεις εξόδου Component
+SETUP_COMPONENT_GUIDE2_2,
+SETUP_CONTROLGUIDE,Οδηγός ελέγχου
+SETUP_CONTROLGUIDE_GUIDE,Ρυθμίσεις οδηγού ελέγχου
+SETUP_CONVERSION_GUIDE2,Επιλογή φακού μετατροπής
+SETUP_CONVERSION_GUIDE2_2,
+SETUP_COPY,Αντιγραφή
+SETUP_CREATERECFOLDER,Δημιουρ φακέλ ΕΓΓ
+SETUP_DEMOMODE,Λειτουρ. επίδειξης
+SETUP_DEMOMODE_GUIDE,Ρύθμιση σε ενεργό για
+SETUP_DEMOMODE_GUIDE_2,λειτουργία επίδειξης
+SETUP_DIGITALZOOM,Ψηφιακό ζουμ
+SETUP_DIGITALZOOM_PRECISION,Ακρίβεια
+SETUP_DIGITALZOOM_SMART, Έξυπνο
+SETUP_DIRECTIONJUDGE,Αυτόμ προσανατολ
+SETUP_DIRECTIONJUDGE_GUIDE2,Καθορισ προσανατ κάμερας κι
+SETUP_DIRECTIONJUDGE_GUIDE2_2,αποθήκ
+SETUP_DISP,Διαμόρφωση προβολής
+SETUP_DISP_09,9
+SETUP_DISP_12,12
+SETUP_DISP_16,16
+SETUP_DISP_20,20
+SETUP_DISP_BRIGHT,Φωτεινό
+SETUP_DISP_BRIGHTNESS,Φωτεινότητα LCD
+SETUP_DISP_BRIGHTNESSSET,Φωτεινότητα
+SETUP_DISP_HISTOGRAMSET,Ιστόγραμμα
+SETUP_DISP_IMAGEONLY,Μόνο εικ.
+SETUP_DISP_INDEX,Διαμόρφωση ευρετηρίου εικόνας
+SETUP_DISP_MSG_GRAPH_OFF,Δεν εμφανίζεται γραφικό
+SETUP_DISP_MSG_GRAPH_ON,Προβάλλει φωτεινότ. εικ. ως γράφημα
+SETUP_DISP_MSG_ICON,Προβάλλει κουμπιά λειτουργίας μόνο
+SETUP_DISP_MSG_IMAGE,Προβάλλει εικόνα μόνο
+SETUP_DISP_MSG_INFO,Προβάλλει κουμπιά λειτ. και πληροφ.
+SETUP_DISP_MSG_LIGHT_BRIGHT,Ρυθμίζει οθόνη σε υψηλότερη φωτειν.
+SETUP_DISP_MSG_LIGHT_NORMAL,Ρυθμίζει οθόνη σε κανονική φωτεινότ.
+SETUP_DISP_MSG_THUMBNAIL_09,Προβολή ευρετηρίου των 9 εικόνων
+SETUP_DISP_MSG_THUMBNAIL_12,Προβολή ευρετηρίου των 12 εικόνων
+SETUP_DISP_MSG_THUMBNAIL_16,Προβολή ευρετηρίου των 16 εικόνων
+SETUP_DISP_MSG_THUMBNAIL_20,Προβολή ευρετηρίου των 20 εικόνων
+SETUP_DISP_MSG_WIDEZOOMSET_OFF,Προβ. εικ. σε αρχικό λόγο διαστάσεων
+SETUP_DISP_MSG_WIDEZOOMSET_ON,Προβ. εικ. σε μέγεθος πλήρους οθόνης
+SETUP_DISP_OFF, Όχι
+SETUP_DISP_ON,Ναι
+SETUP_DISP_OPT,Αριθμός εικόνων
+SETUP_DISP_PLAY,Ρυθμίσεις προβ. οθόνης αναπαρ.
+SETUP_DISP_SHOOT,Ρυθμίσεις προβολ. οθόνης λήψης
+SETUP_DISP_WIDEZOOMSET,Ευρύ ζουμ
+SETUP_EXPANDEDFOUCS_GUIDE2,Μεγέθυν κέντρου στη χειροκ
+SETUP_EXPANDEDFOUCS_GUIDE2_2,εστίαση
+SETUP_EZOOM_GUIDE2,Ρυθμίσεις ψηφιακού ζουμ
+SETUP_EZOOM_GUIDE2_2,
+SETUP_FLASHSYNCHRO_GUIDE2,Επιλογή χρονισμού φλας
+SETUP_FLASHSYNCHRO_GUIDE2_2,
+SETUP_FORMAT,Διαμόρφωση
+SETUP_FUNCTIONGUIDE,Οδηγός λειτουργίας
+SETUP_FUNCTIONGUIDE_GUIDE2,Ρυθμίσεις οδηγού λειτουργίας
+SETUP_FUNCTIONGUIDE_GUIDE2_2,
+SETUP_GRIDLINE,Γραμμή πλέγματος
+SETUP_GRIDLINE_GUIDE2,Γραμμές πλέγματ, για σύνθεση
+SETUP_GRIDLINE_GUIDE2_2,λήψεων
+SETUP_HOUSING,Περίβλημα
+SETUP_INITIALIZE,Αρχικοποίηση
+SETUP_INITIALIZE_GUIDE2,Επαναφ. σε προεπιλεγμένες
+SETUP_INITIALIZE_GUIDE2_2,ρυθμίσεις
+SETUP_INTERNALMEMORY_FORMAT_GUIDE2,Διαμόρφωση εσωτερικής μνήμης
+SETUP_INTERNALMEMORY_FORMAT_GUIDE2_2,
+SETUP_LANG,ΕΛΛHNIKA
+SETUP_LANG_5WAY,ΕΛΛHNIKA
+SETUP_LCD_RESPOINT_GUIDE2,Προσαρμόζει θέση απόκρ. αγγίγμ.
+SETUP_LCD_RESPOINT_GUIDE2_2,LCD
+SETUP_LUNSET,Ρυθμίσεις LUN
+SETUP_LUNSET_GUIDE,Επιλογή μέσου για σύνδεση σε
+SETUP_LUNSET_GUIDE_2,μαζική αποθήκευση
+SETUP_LUNSET_MULTI,Πολλαπλό
+SETUP_LUNSET_SINGLE,Μονό
+SETUP_MAIN1,Κύριες ρυθμίσεις 1
+SETUP_MAIN2,Κύριες ρυθμίσεις 2
+SETUP_MAIN3,Κύριες ρυθμίσεις 3
+SETUP_MARINEPACK_GUIDE2,Ορίστε ΝΑΙ με χρήση
+SETUP_MARINEPACK_GUIDE2_2,περιβλήματος
+SETUP_MASSSTORAGE,Mass Storage
+SETUP_MONITOR,Παρακολούθ
+SETUP_MS_COPY_CHANGE_GUIDE2,Αντιγρ όλων των εικ από  εσωτ
+SETUP_MS_COPY_CHANGE_GUIDE2_2,μνήμη
+SETUP_MS_FOLDER_CHANGE_GUIDE2,Αλλαγή φακέλου για εικόνα
+SETUP_MS_FOLDER_CHANGE_GUIDE2_2,εγγραφής
+SETUP_MS_FOLDER_CREATE_GUIDE2,Δημιουργία νέου φακέλου
+SETUP_MS_FOLDER_CREATE_GUIDE2_2,
+SETUP_MS_FORMAT_GUIDE2,Διαμόρφωση Memory Stick
+SETUP_MS_FORMAT_GUIDE2_2,
+SETUP_NTSC,NTSC
+SETUP_PAL,PAL
+SETUP_PASSLOCK,Κλείδ. κωδ. πρόσβ.
+SETUP_PASSLOCK_GUIDE,Ρύθμ. κωδικού κλειδ. για κλείδ.
+SETUP_PASSLOCK_GUIDE_2,εικόνων
+SETUP_PICTBRIDGE,PictBridge
+SETUP_PTPMTP,PTP/MTP
+SETUP_SHUTTER,Κλείστρο
+SETUP_SINGLE,Μονή
+SETUP_SMILEDEMO,Επίδειξη χαμόγελου
+SETUP_SMILEDEMO_GUIDE2,Ρύθμ. ενεργό για λειτ. επίδ.
+SETUP_SMILEDEMO_GUIDE2_2,κλείστ. χαμ.
+SETUP_TVTYPE,ΤΥΠΟΣ TV
+SETUP_TVTYPE_GUIDE2,Για επιλογή τύπου οθόνης TV
+SETUP_TVTYPE_GUIDE2_2,
+SETUP_UPDATE,Ενημέρωση
+SETUP_USBCONNECT,Σύνδεση USB
+SETUP_USBCONNECT_GUIDE2, Έξοδος όταν γίνεται σύνδεση με
+SETUP_USBCONNECT_GUIDE2_2,USB
+SETUP_VERSION, Έκδοση
+SETUP_VERSION_GUIDE2, Έλεγχος έκδ. και ενημ.
+SETUP_VERSION_GUIDE2_2,υλικολογισμικού
+SETUP_VIDEOOUT, Έξοδος βίντεο
+SETUP_VIDEOOUT_GUIDE2, Έξοδος όταν γίνεται σύνδεση με
+SETUP_VIDEOOUT_GUIDE2_2,βίντεο
+SSMENU_10SEC,10 δευτερόλεπτα
+SSMENU_1SEC,1 δευτερόλεπτα
+SSMENU_3SEC,3 δευτερόλεπτα
+SSMENU_5SEC,5 δευτερόλεπτα
+SSMENU_ACTIVE,Ενεργή
+SSMENU_ALL, Όλα
+SSMENU_BASIC,Βασικό
+SSMENU_DETAIL,Άλλες ρυθμίσ.
+SSMENU_EFFECTS,Εφέ
+SSMENU_FACE_BASIC,Πρόσωπο 1: Βασικό
+SSMENU_FACE_NOSTALGIC,Πρόσ. 2: Νοσταλγικό
+SSMENU_FACE_STYLISH,Πρόσωπο 3: Κομψό
+SSMENU_IMAGE,Εικόνα
+SSMENU_INFOLDER,Φάκελος
+SSMENU_INTERVAL,Ενδιάμ διάστ
+SSMENU_MUSIC,Μουσική
+SSMENU_MUSIC1,Music1
+SSMENU_MUSIC2,Music2
+SSMENU_MUSIC3,Music3
+SSMENU_MUSIC4,Music4
+SSMENU_MUSIC5,Music5
+SSMENU_MUSIC6,Music6
+SSMENU_MUSIC7,Music7
+SSMENU_MUSIC8,Music8
+SSMENU_NORMAL_A,Κανονικό
+SSMENU_NOSTALGIC,Νοσταλγικό
+SSMENU_REFINE,Φίλτρο
+SSMENU_REPEAT,Επανάληψη
+SSMENU_SIMPLE,Απλή
+SSMENU_STYLISH,Κομψό
+SSMENU_THIS_DATE,Αυτή η ημερομηνία
+SSMENU_THIS_EVENT,Αυτό το συμβάν

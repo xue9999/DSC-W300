@@ -1,0 +1,15 @@
+{
+  "captured_at": "2026-09-13T16:21:17.880881+00:00",
+  "host": {
+    "os": "Darwin",
+    "version": "26.6.2",
+    "architecture": "arm64"
+  },
+  "method": "OS registry only; no device handle or vendor commands",
+  "usb_device_count": 0,
+  "sony_devices": [],
+  "camera_identity_verified": false,
+  "destination": null,
+  "camera_write_performed": false,
+  "status": "no_sony_usb_device"
+}

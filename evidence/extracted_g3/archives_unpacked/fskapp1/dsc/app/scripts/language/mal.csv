@@ -1,0 +1,1117 @@
+CAMMENU_0EV,0EV
+CAMMENU_100,100
+CAMMENU_10M,1.0 m
+CAMMENU_1600,1600
+CAMMENU_200,200
+CAMMENU_30M,3.0 m
+CAMMENU_3200,3200
+CAMMENU_400,400
+CAMMENU_70M,7.0 m
+CAMMENU_80,80
+CAMMENU_800,800
+CAMMENU_BRK_03EV,BRK±0.3EV
+CAMMENU_BRK_07EV,BRK±0.7EV
+CAMMENU_BRK_10EV,BRK±1.0EV
+CAMMENU_BURST,Ambil gambar berterusan
+CAMMENU_BURST_BRK03EV_GUIDE,Ambil 3 gambar dengan
+CAMMENU_BURST_BRK03EV_GUIDE_2,0.3 EV berasingan
+CAMMENU_BURST_BRK07EV_GUIDE,Ambil 3 gambar dengan
+CAMMENU_BURST_BRK07EV_GUIDE_2,0.7 EV berasingan
+CAMMENU_BURST_BRK10EV_GUIDE,Ambil 3 gambar dengan
+CAMMENU_BURST_BRK10EV_GUIDE_2,1.0 EV berasingan
+CAMMENU_BURST_OFF_GUIDE,Ambil gambar tunggal
+CAMMENU_BURST_OFF_GUIDE_2,
+CAMMENU_BURST_ON_GUIDE,Ambil gambar bertrusan bila
+CAMMENU_BURST_ON_GUIDE_2,butang pngatup terus ditekan
+CAMMENU_CENTER,Tengah
+CAMMENU_CENTERAF,AF Tengah
+CAMMENU_CLOSEEYE,Mengelak mata tertutup
+CAMMENU_CLOSEEYE_AUTO_GUIDE,Analisasi mata utk mengelak
+CAMMENU_CLOSEEYE_AUTO_GUIDE_2,mata tertutup
+CAMMENU_CLOSEEYE_OFF_GUIDE,Padam fungsi Mengelak mata
+CAMMENU_CLOSEEYE_OFF_GUIDE_2,tertutup
+CAMMENU_COLOR,Mod Warna
+CAMMENU_COLOR_BW,Hitam Putih
+CAMMENU_COLOR_BW_GUIDE,Buat imej hitam putih
+CAMMENU_COLOR_BW_GUIDE_2,
+CAMMENU_COLOR_NORMAL_GUIDE,Ambil gambar dalam mod
+CAMMENU_COLOR_NORMAL_GUIDE_2,warna standard
+CAMMENU_COLOR_SEPIA,Sepia
+CAMMENU_COLOR_SEPIA_GUIDE,tukar warna ke mod gambar
+CAMMENU_COLOR_SEPIA_GUIDE_2,lama
+CAMMENU_COLOR_VIVID,Warna Terang
+CAMMENU_COLOR_VIVID_GUIDE,Tetap imej ke warna tua dan
+CAMMENU_COLOR_VIVID_GUIDE_2,warna terang
+CAMMENU_CONTINUOUS,Berterusan
+CAMMENU_DRO,DRO
+CAMMENU_DRO_ADV,Termaju
+CAMMENU_DRO_ADV_GUIDE,Dapatkn balik butiran
+CAMMENU_DRO_ADV_GUIDE_2,tanpa hilang penyerlahan
+CAMMENU_DRO_OFF_GUIDE,Tidak boleh dapatkan butiran
+CAMMENU_DRO_OFF_GUIDE_2,bayangan
+CAMMENU_DRO_PLUS,DRO plus
+CAMMENU_DRO_STANDARD_GUIDE,Dapatkan balik butiran imej
+CAMMENU_DRO_STANDARD_GUIDE_2,dalam kawasan bayangan
+CAMMENU_DRO_STD,DRO standard
+CAMMENU_EV,EV
+CAMMENU_EV2,EV
+CAMMENU_EV_GUIDE,Laras keterangan (＋)
+CAMMENU_EV_GUIDE2,Laras keterangan (＋)
+CAMMENU_EV_GUIDE2_2,dan kegelapan imej (－)
+CAMMENU_EV_GUIDE_2,dan kegelapan imej (－)
+CAMMENU_FACE,Pengesanan muka
+CAMMENU_FACE_ADULT,Keutamaan pd dewasa
+CAMMENU_FACE_ADULT_GUIDE,Fokus dengan keutamaan
+CAMMENU_FACE_ADULT_GUIDE_2,pada muka dewasa
+CAMMENU_FACE_CHILD,Keutamaan pd kanak-kanak
+CAMMENU_FACE_CHILD_GUIDE,Fokus dengan keutamaan
+CAMMENU_FACE_CHILD_GUIDE_2,pada muka kanak-kanak
+CAMMENU_FACE_ON_GUIDE,Utamakan fokus pada muka
+CAMMENU_FACE_ON_GUIDE_2,
+CAMMENU_FACE_TOUCH_GUIDE,Aktifkan pengesanan muka
+CAMMENU_FACE_TOUCH_GUIDE_2,hanya apabila muka disentuh
+CAMMENU_FLASHLEVEL,Tahap Denyar
+CAMMENU_FLASHLEVEL_DOWN_GUIDE,Ambil gambar dgn terangnya
+CAMMENU_FLASHLEVEL_DOWN_GUIDE_2,denyar yg lbh rendah
+CAMMENU_FLASHLEVEL_NORMAL_GUIDE,Ambil gambar dengan
+CAMMENU_FLASHLEVEL_NORMAL_GUIDE_2,terangnya denyar biasa
+CAMMENU_FLASHLEVEL_UP_GUIDE,Ambil gambar dengan
+CAMMENU_FLASHLEVEL_UP_GUIDE_2,terangnya denyar lebih tinggi
+CAMMENU_FLASH_SYNCHRO,Segerak Pelahan
+CAMMENU_FOCUS,Fokus
+CAMMENU_FOUCS_10M_GUIDE,Tetap fokus jauh lebih
+CAMMENU_FOUCS_10M_GUIDE_2,kurang 1.0 m
+CAMMENU_FOUCS_30M_GUIDE,Tetap fokus jauh lebih
+CAMMENU_FOUCS_30M_GUIDE_2,kurang 3.0 m
+CAMMENU_FOUCS_70M_GUIDE,Tetap fokus jauh lebih
+CAMMENU_FOUCS_70M_GUIDE_2,kurang 7.0 m
+CAMMENU_FOUCS_CENTER_GUIDE,Auto fokus pada subjek
+CAMMENU_FOUCS_CENTER_GUIDE_2,di tengah
+CAMMENU_FOUCS_INFINITY_GUIDE,Tetap fokus pada jarak tanpa
+CAMMENU_FOUCS_INFINITY_GUIDE_2,batas
+CAMMENU_FOUCS_MANUAL_GUIDE,Secara manual tetap fokus
+CAMMENU_FOUCS_MANUAL_GUIDE_2,
+CAMMENU_FOUCS_MULTI_GUIDE,Auto fokus  sepanjang
+CAMMENU_FOUCS_MULTI_GUIDE_2,bingkai
+CAMMENU_FOUCS_SPOT_GUIDE,Auto fokus  pada titik tengah
+CAMMENU_FOUCS_SPOT_GUIDE_2,
+CAMMENU_FOUCS_TSPOT_GUIDE,Fokus auto dgn menyentuh
+CAMMENU_FOUCS_TSPOT_GUIDE_2,mana-mana titik pada skrin
+CAMMENU_IMAGESIZE,Saiz Imej
+CAMMENU_IMAGESIZE_L,Besar
+CAMMENU_IMAGESIZE_S,Kecil
+CAMMENU_INFINITY,∞
+CAMMENU_ISO,ISO
+CAMMENU_ISO_100_GUIDE,Tetapkan sensitiviti pada
+CAMMENU_ISO_100_GUIDE_2,ISO 100
+CAMMENU_ISO_1600_GUIDE,Tetapkan sensitiviti pada
+CAMMENU_ISO_1600_GUIDE_2,ISO 1600
+CAMMENU_ISO_200_GUIDE,Tetapkan sensitiviti pada
+CAMMENU_ISO_200_GUIDE_2,ISO 200
+CAMMENU_ISO_3200_GUIDE,Tetapkan sensitiviti pada
+CAMMENU_ISO_3200_GUIDE_2,ISO 3200
+CAMMENU_ISO_400_GUIDE,Tetapkan sensitiviti pada
+CAMMENU_ISO_400_GUIDE_2,ISO 400
+CAMMENU_ISO_64_GUIDE,Tetap sensitiviti pada
+CAMMENU_ISO_64_GUIDE_2,ISO 64
+CAMMENU_ISO_800_GUIDE,Tetapkan sensitiviti pada
+CAMMENU_ISO_800_GUIDE_2,ISO 800
+CAMMENU_ISO_80_GUIDE,Tetapkan sensitiviti pada
+CAMMENU_ISO_80_GUIDE_2,ISO 80
+CAMMENU_ISO_AUTO_GUIDE,Penyelaras sensitiviti
+CAMMENU_ISO_AUTO_GUIDE_2,automatik
+CAMMENU_M03EV,-0.3EV
+CAMMENU_M07EV,-0.7EV
+CAMMENU_M10EV,-1.0EV
+CAMMENU_M13EV,-1.3EV
+CAMMENU_M17EV,-1.7EV
+CAMMENU_M20EV,-2.0EV
+CAMMENU_MACRO,Makro
+CAMMENU_MENU,Menu
+CAMMENU_METERINGMODE,Mod meter
+CAMMENU_METERING_CENTER_GUIDE,Pendedahan berasas
+CAMMENU_METERING_CENTER_GUIDE_2,keterangan tengah
+CAMMENU_METERING_MULTI_GUIDE,Pendedahan berasas
+CAMMENU_METERING_MULTI_GUIDE_2,keseluruh bingkai
+CAMMENU_METERING_SPOT_GUIDE,Pendedahan berasas
+CAMMENU_METERING_SPOT_GUIDE_2,keterangan titik tengah
+CAMMENU_MINUS,－
+CAMMENU_MULTI,Berbilang
+CAMMENU_MULTIAF,AFBrblng
+CAMMENU_NORMAL_CAP,Normal
+CAMMENU_P03EV,+0.3EV
+CAMMENU_P07EV,+0.7EV
+CAMMENU_P10EV,+1.0EV
+CAMMENU_P13EV,+1.3EV
+CAMMENU_P17EV,+1.7EV
+CAMMENU_P20EV,+2.0EV
+CAMMENU_PLUS,＋
+CAMMENU_RECMODE,Mod RAKAM
+CAMMENU_RECOGNITION,Pengecaman Adegan
+CAMMENU_RECOGNITION_ADV_GUIDE,Ambil satu atau lbh gmb auto
+CAMMENU_RECOGNITION_ADV_GUIDE2,Ambil satu atau lbh gmb auto
+CAMMENU_RECOGNITION_ADV_GUIDE2_2,dlm samar atau lampu blkng
+CAMMENU_RECOGNITION_ADV_GUIDE_2,dlm samar atau lampu blkng
+CAMMENU_RECOGNITION_AUTO2_GUIDE,Ambil gambar dgn seting
+CAMMENU_RECOGNITION_AUTO2_GUIDE_2,optimum untuk adegan
+CAMMENU_RECOGNITION_AUTO_GUIDE,Ambil dgn seting optimum
+CAMMENU_RECOGNITION_AUTO_GUIDE_2,dlm samar atau lampu blkng
+CAMMENU_RECOGNITION_OFF_GUIDE,Padamkan Pengecaman
+CAMMENU_RECOGNITION_OFF_GUIDE_2,Adegan
+CAMMENU_REDEYEREDUCTION,Pengurangan Mata Merah
+CAMMENU_REDEYE_FACE_GUIDE,Auto kurangkan mata merah
+CAMMENU_REDEYE_FACE_GUIDE_2,apabila muka dikesan
+CAMMENU_REDEYE_OFF_GUIDE,Padamkan Pengurangan mata
+CAMMENU_REDEYE_OFF_GUIDE_2,merah dimatikan
+CAMMENU_REDEYE_ON_GUIDE,Pradenyar pengurangan mata
+CAMMENU_REDEYE_ON_GUIDE_2,merah ketika guna denyar
+CAMMENU_REMAIN_NUMBER,Lebih Kurang Kapasiti Imej
+CAMMENU_REMAIN_TIME,Lebih Kurang MasaTinggal
+CAMMENU_SATURATION_DOWN_GUIDE,Ambil imej dengan tingkat
+CAMMENU_SATURATION_DOWN_GUIDE_2,kepekatn warna lebih rendah
+CAMMENU_SATURATION_NORMAL_GUIDE,Tetapkn tingkat kepekatn kpd
+CAMMENU_SATURATION_NORMAL_GUIDE_2,Normal
+CAMMENU_SATURATION_UP_GUIDE,Ambil imej dengan tingkat
+CAMMENU_SATURATION_UP_GUIDE_2,kepekatan warna lebih tinggi
+CAMMENU_SELFTIMER,Pemasa Kendiri
+CAMMENU_SELFTIMER_10SEC,Pemasa Kendiri 10 Saat
+CAMMENU_SELFTIMER_2SEC,Pemasa Kendiri 2 Saat
+CAMMENU_SELFTIMER_OFF,Pemasa Kendiri Dipadamkan
+CAMMENU_SETUP,Pemasangan
+CAMMENU_SETUP_CHANGE_GUIDE,Ke memapar seting ambil
+CAMMENU_SETUP_CHANGE_GUIDE_2,gambar
+CAMMENU_SHOOTING,Mengambil gambar
+CAMMENU_SIZE_10MEG,10M
+CAMMENU_SIZE_12M_GUIDE,Untuk cetakan sehingga A3+
+CAMMENU_SIZE_12M_GUIDE_2,
+CAMMENU_SIZE_16_9,16:9
+CAMMENU_SIZE_16_9_2MEG_GUIDE,Untuk melihat pada HDTV
+CAMMENU_SIZE_16_9_2MEG_GUIDE_2,
+CAMMENU_SIZE_16_9_A3_GUIDE,Untuk melihat pada HDTV
+CAMMENU_SIZE_16_9_A3_GUIDE_2,dan pncetakan sehingga A3
+CAMMENU_SIZE_16_9_A4_GUIDE,Untuk melihat pada HDTV
+CAMMENU_SIZE_16_9_A4_GUIDE_2,dan pncetakan sehingga A4
+CAMMENU_SIZE_16_9_GUIDE,Ambil gambar dalam ratio
+CAMMENU_SIZE_16_9_GUIDE_2,aspek HDTV
+CAMMENU_SIZE_320,320
+CAMMENU_SIZE_320_GUIDE,Ambil gambar saiz kecil
+CAMMENU_SIZE_320_GUIDE_2,untuk emel lampiran
+CAMMENU_SIZE_3MEG,3M
+CAMMENU_SIZE_3M_GUIDE,Untuk cetakan sehingga
+CAMMENU_SIZE_3M_GUIDE_2,10x15 cm atau 13x18 cm
+CAMMENU_SIZE_3_2_8MEG,3:2(8M)
+CAMMENU_SIZE_3_2_GUIDE,Ambil gambar dlm nisbah
+CAMMENU_SIZE_3_2_GUIDE_2,aspek 3:2
+CAMMENU_SIZE_4_3,4:3
+CAMMENU_SIZE_5MEG,5M
+CAMMENU_SIZE_5M_GUIDE,Untuk cetakan sehingga A4
+CAMMENU_SIZE_5M_GUIDE_2,
+CAMMENU_SIZE_640FINE,640(Halus)
+CAMMENU_SIZE_640FINE_GUIDE,Ambil wayang kualiti tinggi
+CAMMENU_SIZE_640FINE_GUIDE_2,untuk paparan di TV
+CAMMENU_SIZE_640STD,640(Biasa)
+CAMMENU_SIZE_640STD_GUIDE,Ambil wayang kualiti biasa
+CAMMENU_SIZE_640STD_GUIDE_2,untuk paparan di TV
+CAMMENU_SIZE_8M_GUIDE,Untuk cetakan sehingga A3
+CAMMENU_SIZE_8M_GUIDE_2,
+CAMMENU_SIZE_HD_2MEG,16:9(2M)
+CAMMENU_SIZE_HD_7MEG,16:9(7M)
+CAMMENU_SIZE_HD_VGA,16:9(VGA)
+CAMMENU_SIZE_VGA,VGA
+CAMMENU_SIZE_VGA_GUIDE,Ambil gambar pada saiz imej
+CAMMENU_SIZE_VGA_GUIDE_2,kecil untuk lampiran emel
+CAMMENU_SMILE,Pengesanan Senyum
+CAMMENU_SMILESHUTTER_HIGH_GUIDE,Ambil gambar dgn sensitiviti
+CAMMENU_SMILESHUTTER_HIGH_GUIDE_2,tinggi pengesanan senyum
+CAMMENU_SMILESHUTTER_LOW_GUIDE,Ambil gambar dgn sensitiviti
+CAMMENU_SMILESHUTTER_LOW_GUIDE_2,pengesanan senyum
+CAMMENU_SMILESHUTTER_NORMAL_GUIDE,Ambil gambar dgn sensitiviti
+CAMMENU_SMILESHUTTER_NORMAL_GUIDE_2,piawaian pngesanan senyum
+CAMMENU_SMILE_DETECTION,Sensitiviti Kesan Senyum
+CAMMENU_SPOT,Bintik
+CAMMENU_SPOTAF,AF Bintik
+CAMMENU_STEADYSHOT,SteadyShot
+CAMMENU_STEADYSHOT_CONT_GUIDE,SteadyShot sentiasa
+CAMMENU_STEADYSHOT_CONT_GUIDE_2,dihidupkan
+CAMMENU_STEADYSHOT_OFF_GUIDE,SteadyShot Dipadamkan
+CAMMENU_STEADYSHOT_OFF_GUIDE_2,
+CAMMENU_STEADYSHOT_SHOOT_GUIDE,SteadyShot hidup bila butang
+CAMMENU_STEADYSHOT_SHOOT_GUIDE_2,pengatup ditekan separuh
+CAMMENU_TOUCH,Apabila disentuh
+CAMMENU_WATERWB,Imbangan Putih Dalam Air
+CAMMENU_WATERWB_AUTO_GUIDE,Auto laras imbangan putih
+CAMMENU_WATERWB_AUTO_GUIDE_2,untuk ambil gambar dalam air
+CAMMENU_WATERWB_FLASH_GUIDE,Gunakn bila ambil gambar
+CAMMENU_WATERWB_FLASH_GUIDE_2,dlm air menggunakan denyar
+CAMMENU_WATERWB_WATER1,Dalam air 1
+CAMMENU_WATERWB_WATER1_GUIDE,Gunakan apabila ambil
+CAMMENU_WATERWB_WATER1_GUIDE_2,gambar dalam air biru
+CAMMENU_WATERWB_WATER2,Dalam air 2
+CAMMENU_WATERWB_WATER2_GUIDE,Gunakan apabila ambil
+CAMMENU_WATERWB_WATER2_GUIDE_2,gambar dalam air hijau
+CAMMENU_WB2,Imbangan Putih
+CAMMENU_WB_AUTO_GUIDE,Auto laras untuk warna
+CAMMENU_WB_AUTO_GUIDE_2,semula jadi
+CAMMENU_WB_CLOUDY,Mendung
+CAMMENU_WB_CLOUDY_GUIDE,Guna pada hari mendung
+CAMMENU_WB_CLOUDY_GUIDE_2,atau tempat teduh
+CAMMENU_WB_DAYLIGHT,Siang Hari
+CAMMENU_WB_DAYLIGHT_GUIDE,Untuk kegunaan ketika adegn
+CAMMENU_WB_DAYLIGHT_GUIDE_2,luar atau pandangn mlm
+CAMMENU_WB_FLASH,Denyar
+CAMMENU_WB_FLASH_GUIDE,Guna apabila ambil gambar
+CAMMENU_WB_FLASH_GUIDE_2,dengan denyar
+CAMMENU_WB_FLUORESCENT1,Lampu Pendarfluor 1
+CAMMENU_WB_FLUORESCENT1_GUIDE,Guna di bawah lampu
+CAMMENU_WB_FLUORESCENT1_GUIDE_2,pendarfluor putih
+CAMMENU_WB_FLUORESCENT2,Lampu Pendarfluor 2
+CAMMENU_WB_FLUORESCENT2_GUIDE,Guna di bawah lampu
+CAMMENU_WB_FLUORESCENT2_GUIDE_2,pendarfluor putih biasa
+CAMMENU_WB_FLUORESCENT3,Lampu Pendarfluor 3
+CAMMENU_WB_FLUORESCENT3_GUIDE,Guna di bawah hari lampu
+CAMMENU_WB_FLUORESCENT3_GUIDE_2,pendarfluor putih biasa
+CAMMENU_WB_INCANDESCENT,Pijar
+CAMMENU_WB_INCANDESCENT_GUIDE,Guna di bawah lampu
+CAMMENU_WB_INCANDESCENT_GUIDE_2,pendarfluor atau cahayavideo
+CAMMODE_AUTO,Auto Pelarasan
+CAMMODE_AUTO_GUIDE,Mengambil gambar dengan
+CAMMODE_AUTO_GUIDE_2,seting otomatik
+CAMMODE_BEACH,Pantai
+CAMMODE_BEACH_GUIDE,Menangkap gambar adegan
+CAMMODE_BEACH_GUIDE_2,sisi air dengan warna biruan
+CAMMODE_COOKING,Gourmet
+CAMMODE_COOKING_GUIDE,Ambil gambar makanan
+CAMMODE_COOKING_GUIDE_2,dengan menarik
+CAMMODE_EASY,Ambil gambar dgn mudah
+CAMMODE_EASY_GUIDE,AmbilGambarAutoSpnuhnya
+CAMMODE_EASY_GUIDE_2,dgn paparan dipermudahkan
+CAMMODE_FIREWORKS,Bunga api
+CAMMODE_FIREWORKS_GUIDE,Ambil gambar bunga api
+CAMMODE_FIREWORKS_GUIDE_2,dalam semua keindahannya
+CAMMODE_HIGHSENSITIVITY,Sensitiviti Tinggi
+CAMMODE_HIGHSENSITIVITY_GUIDE,Tngkp gmbar tnpa dnyar dlm
+CAMMODE_HIGHSENSITIVITY_GUIDE_2,cahyakurang&kurangknkabur
+CAMMODE_HIGHSPEEDSHUTTER,Pengatup Kelajuan Tinggi
+CAMMODE_HIGHSPEEDSHUTTER_GUIDE,Menangkap gambar subjek
+CAMMODE_HIGHSPEEDSHUTTER_GUIDE_2,yang bergerak pantas
+CAMMODE_LANDSCAPE,Landskap
+CAMMODE_LANDSCAPE_GUIDE,Ambil landskap
+CAMMODE_LANDSCAPE_GUIDE_2,dengan fokus jarak jauh
+CAMMODE_MOVIE,Mod Wayang
+CAMMODE_MOVIE_GUIDE,Rakam wayang dengan bunyi
+CAMMODE_MOVIE_GUIDE_2,
+CAMMODE_PAUTO,Auto program
+CAMMODE_PAUTO_GUIDE,Pendedahan Auto dengan
+CAMMODE_PAUTO_GUIDE_2,seting boleh dilaras
+CAMMODE_SNOW,Salji
+CAMMODE_SNOW_GUIDE,Ambil gambar adegan pucat
+CAMMODE_SNOW_GUIDE_2,dengan terang
+CAMMODE_SOFTSNAP,Ambil Gambar Lembut
+CAMMODE_SOFTSNAP_GUIDE,Ambl gambar subjek dengan
+CAMMODE_SOFTSNAP_GUIDE_2,latar belakang lembut
+CAMMODE_TWILIGHT,Samar-samar
+CAMMODE_TWILIGHTPORTRAIT,Potret Samar-samar
+CAMMODE_TWILIGHTPORTRAIT_GUIDE,Ambil gambar dalam
+CAMMODE_TWILIGHTPORTRAIT_GUIDE_2,kurang cahaya dgn denyar
+CAMMODE_TWILIGHTTRIPOD_GUIDE,Ambil gambarAdeganCahaya
+CAMMODE_TWILIGHTTRIPOD_GUIDE_2,malap menggunakan tripod
+CAMMODE_WATER,Dalam air
+CAMMODE_WATER_GUIDE,Ambil gamb dlm air dgn
+CAMMODE_WATER_GUIDE_2,warna s'jadi dgn Pnemptan
+CLOCKMENU_APR,APR
+CLOCKMENU_AUG,OGO
+CLOCKMENU_DEC,DIS
+CLOCKMENU_DMY,H-B-T
+CLOCKMENU_FEB,FEB
+CLOCKMENU_JAN,JAN
+CLOCKMENU_JUL,JUL
+CLOCKMENU_JUN,JUN
+CLOCKMENU_MAR,MAC
+CLOCKMENU_MAY,MEI
+CLOCKMENU_MDY,B-H-T
+CLOCKMENU_NOV,NOV
+CLOCKMENU_OCT,OKT
+CLOCKMENU_SEP,SEP
+CLOCKMENU_UNKNOWN,---
+CLOCKMENU_YMD,T-B-H
+COM_AUTO,Auto
+COM_BACK,Kembali
+COM_CANCEL,Batal
+COM_CLEAR,Keluarkan
+COM_CLEARALL,Kosong smua
+COM_CONTINUE,Teruskan
+COM_CREATED,Dibuat
+COM_ENTRY,Tambah
+COM_EXIT,Keluar
+COM_FAST,Pantas
+COM_HIGH,Tinggi
+COM_INTERNALMEMORY,Memori Dalaman
+COM_LOW,Rendah
+COM_MED,Sederhana
+COM_MIN,Min
+COM_MOVIEREC,RAKAM
+COM_MOVIESTBY,Tnggusdia
+COM_MS,Memory Stick
+COM_MS_AND_INTERNALMEMORY,Memory Stick ＋ Memori Dalaman
+COM_NOOFFILES,Bilangan Fail
+COM_NORMAL,Biasa
+COM_OFF,Padam
+COM_OK,OK
+COM_ON,Hidupkan
+COM_PREVIEW,Pratonton
+COM_REMAIN,BakiAmbilGmbar
+COM_SAVE,Simpan
+COM_SLOW,Lambat
+COM_STANDARD,Piawaian
+COM_STANDARD2,Piawaian
+COM_START,Mula
+COM_USBMODE,Mod USB
+COM_VOLUME,KUAT
+COU_640FINE,640(Halus) tidak tersedia
+COU_640FINE_2,
+COU_AUDIOPLUGIN,Untuk output audio, sambung palam
+COU_AUDIOPLUGIN_2,audio
+COU_BATTERY_HEATED,Kamera terlampau panas
+COU_BATTERY_HEATED_2,Biarkan ia menjadi dingin
+COU_BATTERY_INFOLITHIUM,Untuk bateri "InfoLITHIUM" sahaja
+COU_BATTERY_INFOLITHIUM_2,
+COU_BATTERY_INVALID,Untuk digunakan dengan bateri
+COU_BATTERY_INVALID_2,serasi sahaja
+COU_BGM_ERROR,Kegagalan fungsi muzik
+COU_BGM_ERROR_2,
+COU_BGM_FORMATERROR,Kegagalan fungsi format muzik
+COU_BGM_FORMATERROR_2,
+COU_BURST_INVALID,Ambil gambar terusan tidak sah
+COU_BURST_INVALID_2,
+COU_CANNOTACCESS_MS,Memory Stick tidak boleh diakses
+COU_CANNOTACCESS_MS_2,Akses dinafikan
+COU_CANNOTCREATE_FOLDERS,Tidak dapat menghasilkan lebih
+COU_CANNOTCREATE_FOLDERS_2,folder
+COU_DATA_ERROR,Ralat fail pengurusan imej
+COU_DATA_ERROR_2,
+COU_ERROR10,Ralat10
+COU_ERROR20,Ralat20
+COU_ERROR30,Ralat30
+COU_ERROR40,Ralat40
+COU_ERROR50,Ralat50
+COU_EXCEEDED_LIMIT,Imej maksimum dipilih
+COU_EXCEEDED_LIMIT_2,
+COU_FILEERROR,Ralat fail
+COU_FILEERROR_2,
+COU_FILEPROTECT,Lindung Fail
+COU_FILEPROTECT_2,
+COU_FLASHSETTING_INVALID,Seting denyar tidak boleh diubah
+COU_FLASHSETTING_INVALID_2,
+COU_FOLDER_ERROR,Ralat folder
+COU_FOLDER_ERROR_2,
+COU_FORMATERROR_INTERNALMEMORY,Ralat memformat memori dalaman
+COU_FORMATERROR_INTERNALMEMORY_2,
+COU_FORMATERROR_MS,Ralat format Memory Stick
+COU_FORMATERROR_MS_2,
+COU_IMAGESIZEOVER,Saiz imej melebihi
+COU_IMAGESIZEOVER_2,
+COU_INKERROR,Ralat dakwat
+COU_INKERROR_2,
+COU_INVALID_FILE,Fail tidak sah
+COU_INVALID_FILE_2,
+COU_INVALID_FOLDER,Operasi tidak tersedia semasa
+COU_INVALID_FOLDER_2,Pandangan Folder
+COU_INVALID_MS,Tidak boleh menyimpan fail
+COU_INVALID_MS_2,pengurusan imej ke Memory Stick
+COU_INVALID_OPERATION,Operasi tidak sah
+COU_INVALID_OPERATION_HDOUT,Operasi tidak boleh dilaksanakan
+COU_INVALID_OPERATION_HDOUT_2,semasa output HD(1080i)
+COU_INVALID_OPERATION_MOVIEFILE,Operasi tidak boleh dilaksanakan
+COU_INVALID_OPERATION_MOVIEFILE_2,untuk fail wayang gambar
+COU_INVALID_OPERATION_NGFILE,Operasi tidak boleh dilaksanakan
+COU_INVALID_OPERATION_NGFILE_2,pada fail yang tidak disokong
+COU_INVALID_OPERATION_PICTBRIDGE,Operasi tdk boleh dilaksana
+COU_INVALID_OPERATION_PICTBRIDGE_2,bila guna sambungn PictBridge
+COU_INVALID_OPERATION_REMOTE,Operasi tidak boleh dilaksanakan
+COU_INVALID_OPERATION_REMOTE_2,dengan kawalan jarak jauh
+COU_INVALID_OPERATION_TVOUT,Operasi tidak boleh dilaksanakan
+COU_INVALID_OPERATION_TVOUT_2,semasa output TV
+COU_LENSCAPOFF,Buka penutup lensa dan
+COU_LENSCAPOFF_2,padamkan dan hidupkan kuasa
+COU_LENSCOVER_OPEN,Buka penutup lensa
+COU_LENSCOVER_OPEN_2,untuk mengambil gambar
+COU_LOWINK,Dakwat Rendah
+COU_LOWINK_2,
+COU_MACRO_INVALID,Makro tidak sah
+COU_MACRO_INVALID_2,
+COU_MEDIAERROR_INTERNALMEMORY,Ralat memori dalaman
+COU_MEDIAERROR_INTERNALMEMORY_2,
+COU_METERING_INVALID,Operasi mod pemeteran
+COU_METERING_INVALID_2,tidak tersedia
+COU_MSR_NOTUSEFUNCTION,Fungsi tidak disokong
+COU_MSR_NOTUSEFUNCTION_2,oleh Memory Stick ini
+COU_MS_ERROR,Masuk semula Memory Stick
+COU_MS_ERROR_2,
+COU_MS_LOCKED,Memory Stick dikunci
+COU_MS_LOCKED_2,
+COU_MS_TYPEERROR,Ralat jenis Memory Stick
+COU_MS_TYPEERROR_2,
+COU_NOBATTERY,Tidak cukup bateri
+COU_NOIMAGE,Tiada imej
+COU_NOIMAGE_2,
+COU_NOIMAGE_PLAY,Beberapa imej tidak dipindah
+COU_NOIMAGE_PLAY_2,Format tidak boleh dikenal.
+COU_NOINK,Tiada dakwat
+COU_NOINK_2,
+COU_NOMS,Tiada Memory Stick
+COU_NOMS_2,
+COU_NOPAPER,Tiada Kertas
+COU_NOPAPER_2,
+COU_NOSOFTWAREFILE,Tidak ada fail perisian
+COU_NOSOFTWAREFILE_2,
+COU_NOSPACE_INTERNALMEMORY,Tidak ada ruang memory dlm
+COU_NOSPACE_INTERNALMEMORY_2,memori dalaman
+COU_NOSPACE_MS,Tidak ada ruang memory pd
+COU_NOSPACE_MS_2,Memory Stick
+COU_NOT_SELECTED_FAV,Tidak ada Kegemaran dipilih
+COU_NOT_SELECTED_FAV_2,
+COU_NOT_SELECTED_IMAGES,Tidak ada imej dipilih
+COU_NOT_SELECTED_IMAGES_2,
+COU_NOT_SELECTED_SHARE,Tidak ada Tanda Kongsi dipilih
+COU_NOT_SELECTED_SHARE_2,
+COU_PAPERERROR,Ralat kertas
+COU_PAPERERROR_2,
+COU_PASSLOCK_CODE_MISS,Kod Set Semula salah
+COU_PASSLOCK_CODE_MISS_2,
+COU_PASSLOCK_PASS_MISS,Kata laluan salah
+COU_PASSLOCK_PASS_MISS_2,
+COU_POWEROFFON,Padamkan/Hidupkan sekali lagi
+COU_POWEROFFON_2,
+COU_PRINTERBUSY,Pencetak sibuk
+COU_PRINTERBUSY_2,
+COU_PRINTERERROR,Ralat Pencetak
+COU_PRINTERERROR_2,
+COU_READONLYMEMORY,Memori baca sahaja
+COU_READONLYMEMORY_2,
+COU_READONLY_FOLDER,Baca folder sahaja
+COU_READONLY_FOLDER_2,
+COU_REDEYE_DETECTED,Tidak ada mata merah dikesan
+COU_REDEYE_DETECTED_2,
+COU_SCRNTOUCH_INVALID,Skrin sentuh tidak diaktifkan
+COU_SCRNTOUCH_INVALID_2,pada kawasan ini
+COU_SELFTIMER_INVALID,Pemasa kendiri tidak sah
+COU_SELFTIMER_INVALID_2,
+COU_SMILESHUTTER_AUTOONLY,Pengatup Senyum hanya tersedia
+COU_SMILESHUTTER_AUTOONLY_2,apabila ModRAKAM ditetap ke Auto
+COU_SYSTEMERROR,Ralat sistem
+COU_SYSTEMERROR_2,
+COU_TARGET_DETECTED,Tidak boleh mengesan muka untuk
+COU_TARGET_DETECTED_2,diperapi
+COU_TARGET_NOIMAGE,Tiada imej pegun
+COU_TARGET_NOIMAGE_2,
+COU_ZOOM_INVALID,Zum dilumpuh
+COU_ZOOM_INVALID_2,
+DUMMY,
+GUIDE_BUTTON,Sentuh butang anda mahu guna
+GUIDE_CENTER,Sentuh tempat utk diketengahkan
+GUIDE_CHANGEFOCUS,Tukar kdudukn fokus dgn sentuh
+GUIDE_CHOOSEFOCUS,Pilih kedudukn fokus dgn sentuh
+GUIDE_DEMO_BACKLIGHT,Lampu belakang dikesan
+GUIDE_DEMO_BACKLIGHTPORTRAIT,Lampu belakang & manusia dikesan
+GUIDE_DEMO_LANDSCAPE,Landskap dikesan
+GUIDE_DEMO_MACRO,Subjek yang sangat rapat dikesan
+GUIDE_DEMO_PORTRAIT,Manusia dikesan
+GUIDE_DEMO_TRIPOD,Samar-samar dan Tripod dikesan
+GUIDE_DEMO_TWILIGHT,Samar-samar dikesan
+GUIDE_DEMO_TWILIGHTPORTRAIT,Samar-samar & manusia dikesan
+GUIDE_EFFECTLEVEL,Pilih tahap kesan
+GUIDE_EXIT_TOUCH,Keluar apabila LCD disentuh
+GUIDE_LIGHTBEAM_LEVEL,Pilih aras alur lampu
+GUIDE_RANGE,Pilih jarak kesan
+GUIDE_RESIZE,Pensaizan semula selesai
+GUIDE_RETOUCH_COMPLETE,Perapian selesai
+GUIDE_RETRO_LIGHT,Pilih jarak kecerahan
+GUIDE_ROTATEIMG,Sentuh imej untuk diputar
+GUIDE_SAVESIZE,Pilih saiz untuk disimpan
+GUIDE_SELECTFACE,Pilih muka dengan menyentuh
+GUIDE_SELECTFAV,Pilih folder Kegemaran
+GUIDE_SMILEDEMO_START,Pilih ikon senyum untuk mula
+GUIDE_SMILESHUTTER_EXIT,Pilih ikon senyum untuk keluar
+GUIDE_STARTIMG,Sentuh imej mula paparan slaid
+GUIDE_TOUCHFAV,Sentuh folder Kegemaran
+GUIDE_TOUCHIMG,Sentuh imej
+GUIDE_ZOOMIN_TOUCH,Sentuh tempat untuk zum masuk
+GUIDE_ZOOMIN_TOUCHED,Zum masuk pd kedudukn dsentuh
+HOME,HOME
+HOME_CAM,Ambil Gambar
+HOME_CAM_GUIDE2,Ambil foto atau wayang
+HOME_CAM_GUIDE2_2,gambar
+HOME_COMMUNICATION,Komunikasi
+HOME_ETC_BGMTOOL,Alat Muzik
+HOME_ETC_BGMTOOL_GUIDE2,Urus muzik pertunjukan slaid
+HOME_ETC_BGMTOOL_GUIDE2_2,
+HOME_ETC_PRINT_GUIDE2,Cetak imej
+HOME_ETC_PRINT_GUIDE2_2,
+HOME_MEMORY,Mengurus Memori
+HOME_MEMORY_GUIDE2,Mengurus media rakaman
+HOME_MEMORY_GUIDE2_2,
+HOME_MEMORY_INTERNALMEMORYTOOL,Alatan Memori Dalaman
+HOME_MEMORY_MEMORYSTICKTOOL,Alat Memory Stick
+HOME_MEMORY_MEMORYTOOL,Alat Memory
+HOME_NETWORK,Rangkaian
+HOME_NETWORK_GUIDE,Hubung ke rangkaian
+HOME_NETWORK_GUIDE_2,
+HOME_PLAY,Lihat Imej
+HOME_PLAY1,Lihat Imej 1
+HOME_PLAY2,Lihat Imej 2
+HOME_PLAY_INDEX_GUIDE2,Papar berbilang imej
+HOME_PLAY_INDEX_GUIDE2_2,
+HOME_PLAY_NORMAL_GUIDE2,Lihat imej individu
+HOME_PLAY_NORMAL_GUIDE2_2,
+HOME_PLAY_SLIDESHOW_GUIDE2,Main balik auto dengan
+HOME_PLAY_SLIDESHOW_GUIDE2_2,muzik dan kesan
+HOME_PRINT,Cetak
+HOME_SCENESELECTION,Pemilihan Adegan
+HOME_SCRAPBOOK,Buku Skrap
+HOME_SCRAPBOOK_GUIDE,Buat Buku Skrap
+HOME_SCRAPBOOK_GUIDE_2,secara automatik
+HOME_SETTINGS,Seting
+HOME_SET_CAM,Seting Ambl Gmbar
+HOME_SET_CAM_GUIDE2,Melaras seting ambil gambar
+HOME_SET_CAM_GUIDE2_2,
+HOME_SET_CLOCK,Seting Jam
+HOME_SET_CLOCK_GUIDE2,Melaras tarikh dan masa
+HOME_SET_CLOCK_GUIDE2_2,
+HOME_SET_LANGUAGE,Language Setting
+HOME_SET_LANGUAGE_CHANGE_GUIDE,Change Language
+HOME_SET_LANGUAGE_CHANGE_GUIDE_2,
+HOME_SET_LANGUAGE_GUIDE2,Change Language
+HOME_SET_LANGUAGE_GUIDE2_2,
+HOME_SET_MAIN,Seting Utama
+HOME_SET_MAIN_GUIDE2,Melaras seting utama
+HOME_SET_MAIN_GUIDE2_2,
+HOME_SLIDESHOW,Pertunjukan Slaid
+HOME_VIEW_DATE,PndanganTarikh
+HOME_VIEW_DATE_GUIDE2,Paparkan imej mengikut
+HOME_VIEW_DATE_GUIDE2_2,tarikh yang diambil
+HOME_VIEW_EVENT,Pandangan Acara
+HOME_VIEW_EVENT_GUIDE,Susun imej secara automatik
+HOME_VIEW_EVENT_GUIDE_2,ikut kumpulan utk dipaparkan
+HOME_VIEW_FAV,Kegemaran
+HOME_VIEW_FAV_GUIDE2,Paparkan imej dalam
+HOME_VIEW_FAV_GUIDE2_2,Kegemaran
+HOME_VIEW_FOLDER,PndanganFolder
+HOME_VIEW_FOLDER_GUIDE2,Paparkan imej dalam folder
+HOME_VIEW_FOLDER_GUIDE2_2,DCF
+KEY_FLASH_AUTO_GUIDE,Auto denyar
+KEY_FLASH_AUTO_GUIDE_2,Denyar secara automatik
+KEY_FLASH_OFF,Denyar Dipadamkan
+KEY_FLASH_OFF_GUIDE,Denyar Dipadamkan
+KEY_FLASH_OFF_GUIDE_2,Tidak ada denyar
+KEY_FLASH_ON,Denyar dihidupkan
+KEY_FLASH_ON_GUIDE,Denyar dihidupkan
+KEY_FLASH_ON_GUIDE_2,Sentiasa guna denyar
+KEY_FLASH_SYNCHRO_GUIDE,Sentiasa  terangkan subjek &
+KEY_FLASH_SYNCHRO_GUIDE_2,latar belakang jarak jauh
+KEY_MACRO_AUTO_GUIDE,Fokus automatik dari rapat
+KEY_MACRO_AUTO_GUIDE_2,hingga infiniti
+KEY_MACRO_NEAR,Makro Dihidupkan
+KEY_MACRO_NEAR_GUIDE,Fokus dengan keutamaan pd
+KEY_MACRO_NEAR_GUIDE_2,subjek paling rapat
+KEY_MAGNIFY_ON,Fokus rapat dibolehkan
+KEY_MAGNIFY_ON_GUIDE,Fokus rapat dibolehkan
+KEY_MAGNIFY_ON_GUIDE_2,Untuk rapat ekstrem
+KEY_SELFTIMER_10_GUIDE,Ambil gambar 10 saat slepas
+KEY_SELFTIMER_10_GUIDE_2,butang pengatup ditekan
+KEY_SELFTIMER_2_GUIDE,Ambil gambar 2 saat slepas
+KEY_SELFTIMER_2_GUIDE_2,butang pengatup ditekan
+KEY_SELFTIMER_OFF_GUIDE,Pemasa Kendiri Dipadamkan
+KEY_SELFTIMER_OFF_GUIDE_2,
+MSG_ACCESSING,Mengakses…
+MSG_AVI_MAKING,Mencipta fail pengurusan
+MSG_CAPTURING,Mengambil gambar…
+MSG_CLOSEEYE_DETECT,Mata tertutup dikesan
+MSG_CONFIRM_UPDATE,Pilih OK untuk mengemas kini
+MSG_CONFIRM_UPDATE_2,
+MSG_CONNECTING,Menyambung…
+MSG_CONNECTING_MASSSTORAGE,Menyambung ke Mass Storage…
+MSG_CONNECTING_MASSSTORAGE_2,
+MSG_CONNECTING_NETWORK,Menyambung ke Rangkaian…
+MSG_CONNECTING_PICTBRIDGE,Menyambung ke
+MSG_CONNECTING_PICTBRIDGE_2,peranti PictBridge…
+MSG_CONNECTING_PTPMTP,Menyambung ke
+MSG_CONNECTING_PTPMTP_2,PTP/MTP…
+MSG_CONNECT_PC,Sambung ke PC
+MSG_CONNECT_PC_2,
+MSG_CONNECT_PICTBRIDGE,Menyambung ke peranti PictBridge
+MSG_CONNECT_PICTBRIDGE_2,
+MSG_COPY,Semua data dalam memori dalaman
+MSG_COPYING,Menyalin…
+MSG_COPYING_2,
+MSG_COPY_2,akan disalin
+MSG_CREATING_RECFOLDER,Membuat folder RAKAM
+MSG_CURRENTVERSION,Versi Semasa
+MSG_ENTRY_OVER,Bilangan imej maksimum imej
+MSG_ENTRY_OVER_2,telah melebihi
+MSG_EXITTING_NETWORK,Menutup Rangkaian…
+MSG_FORMATTING_BGM,Memformat Muzik…
+MSG_FORMATTING_BGM_2,
+MSG_FORMATTING_INTERNALMEMORY,Memformat memori dalaman…
+MSG_FORMATTING_INTERNALMEMORY_2,
+MSG_FORMATTING_MS,Memformat Memory Stick…
+MSG_FORMATTING_MS_2,
+MSG_FORMAT_BGM,Semua fail muzik akan dipadam
+MSG_FORMAT_BGM_2,
+MSG_FORMAT_INTERNALMEMORY,Semua data dalam memori dalaman
+MSG_FORMAT_INTERNALMEMORY_2,akan dipadam
+MSG_FORMAT_MS,Semua data pada Memory Stick
+MSG_FORMAT_MS_2,akan dipadam
+MSG_FORWARDING,Memindah data…
+MSG_HOUSING,Operasi ditukar
+MSG_INITIALIZE_ALLSETTINGS,Memula semua seting
+MSG_INITIALIZE_ALLSETTINGS_2,
+MSG_NEWVERSION,Versi Baru
+MSG_NOTTURNOFF,Jangan padamkan kuasa
+MSG_PASSLOCK_PASS_CANCEL,Seting kata laluan telah
+MSG_PASSLOCK_PASS_CANCEL_2,dibatalkan
+MSG_PASSLOCK_PASS_RESET,Kata laluan telah diset semula
+MSG_PASSLOCK_PASS_RESET_2,
+MSG_PASSLOCK_PASS_RESET_MODE,Mod Set Semula Kata Laluan
+MSG_PASSLOCK_PASS_RESET_MODE_2,
+MSG_PASSLOCK_PASS_SET,Kata laluan telah diset
+MSG_PASSLOCK_PASS_SET_2,
+MSG_PRINTING,Mencetak…
+MSG_PROCESSING,Memproses…
+MSG_RECORDING,Merakam…
+MSG_RECORD_MS,Merakam ke Memory Stick
+MSG_RECOVER,Dapat balik data
+MSG_RECOVERINGFILE,Mendapatkan balik fail
+MSG_RECOVERINGFILE_2,pengurusan imej…
+MSG_RECOVER_2,
+MSG_SEE_SOFTWAREUPDATE_INST,Lihat "Arahan mengemas kini
+MSG_SEE_SOFTWAREUPDATE_INST_2,Perisian"
+MSG_SMILEDEMO_GUIDE,Senyuman ditangkap dgn auto
+MSG_SMILEDEMO_PROCESSING,Demo Pengatup Senyum
+MSG_SMILESHUTTER_PROCESSING,Mengesan Senyum
+MSG_SMILE_END1,Bilangan foto
+MSG_SOFTWAREUPDATE,Kemas Kini Perisian
+MSG_SOFTWAREUPDATE_2,
+MSG_STARTING_NETWORK,Memulakan Rangkaian…
+MSG_START_BROWSER,Memulakan Pelayar Web…
+MSG_TOUCH_X_CENTER,Sentuh bahagian tengah tanda "×"
+MSG_TVOUT,Output TV dalam pelaksanaan…
+MSG_USBMENU,Hidupkan [MENU]
+PASSLOCK_PASS_CLEAR,Masukkan Kod Set Semula
+PASSLOCK_PASS_INPUT,Masukkan Kata Laluan
+PASSLOCK_PASS_REINPUT,Masukkn semula k/laluan
+PASSLOCK_PASS_SET,Tetapkan Kata Laluan
+PBMENU_ALBUM_GUIDE,Kembali ke Album
+PBMENU_ALBUM_GUIDE_2,
+PBMENU_BACKGROUND,Latar belakang
+PBMENU_BLOG_GUIDE,Kecilkan saiz imej & simpan
+PBMENU_BLOG_GUIDE_2,sebagai imej baru
+PBMENU_DATEALL,Semua Imej dlm Julat Tarikh
+PBMENU_DATEALL_CLEAR,KeluarSmua dlm JulatTarikh
+PBMENU_DATEALL_ENTRY,TmbahSmua dlm JulatTarikh
+PBMENU_DATEALL_SET,Ttpkn Smua dlm JulatTarikh
+PBMENU_DATELIST,Senarai Tarikh
+PBMENU_DATELIST_GUIDE,Pilih tarikh untuk dilihat.
+PBMENU_DATELIST_GUIDE_2,
+PBMENU_DELETE,Padam
+PBMENU_DELETE_ALL_GUIDE,Padam semua imej
+PBMENU_DELETE_ALL_GUIDE_2,dalam folder ini
+PBMENU_DELETE_DATEALL_GUIDE,Padamkan semua imej dalam
+PBMENU_DELETE_DATEALL_GUIDE_2,julat tarikh ini
+PBMENU_DELETE_EVENTALL_GUIDE,Padamkan semua imej dalam
+PBMENU_DELETE_EVENTALL_GUIDE_2,acara ini
+PBMENU_DELETE_SELECT_GUIDE,Padam imej berbilang yang
+PBMENU_DELETE_SELECT_GUIDE_2,dipilih
+PBMENU_DELETE_SINGLE_GUIDE,Padam imej
+PBMENU_DELETE_SINGLE_GUIDE_2,
+PBMENU_DPOF,DPOF
+PBMENU_DPOF_ALL_CLEAR_GUIDE,Kosong tanda arahan cetak
+PBMENU_DPOF_ALL_CLEAR_GUIDE_2,utk semua imej dalam folder
+PBMENU_DPOF_ALL_SET_GUIDE,Tndkan arhan cetak untuk
+PBMENU_DPOF_ALL_SET_GUIDE_2,semua imej dalam folder
+PBMENU_DPOF_DATEALL_CLEAR_GUIDE,Ksong tanda arahan cetak pd
+PBMENU_DPOF_DATEALL_CLEAR_GUIDE_2,smua imej dlm julat tarikh ini
+PBMENU_DPOF_DATEALL_SET_GUIDE,Tambah arahan cetak untuk
+PBMENU_DPOF_DATEALL_SET_GUIDE_2,smua imej dlm julat tarikh ini
+PBMENU_DPOF_EVENTALL_CLEAR_GUIDE,Kosong tanda arahan cetak
+PBMENU_DPOF_EVENTALL_CLEAR_GUIDE_2,pd semua imej dlm acara ini
+PBMENU_DPOF_EVENTALL_SET_GUIDE,Tambah arahan cetak untuk
+PBMENU_DPOF_EVENTALL_SET_GUIDE_2,semua imej dalam acara ini
+PBMENU_DPOF_FAVALL_CLEAR_GUIDE,Ksong tanda arahan cetak pd
+PBMENU_DPOF_FAVALL_CLEAR_GUIDE_2,semua imej dlm kump ini
+PBMENU_DPOF_FAVALL_SET_GUIDE,Tamb tanda arahan cetak pd
+PBMENU_DPOF_FAVALL_SET_GUIDE_2,semua imej dlm kump ini
+PBMENU_DPOF_SELECT_GUIDE,Hdp/Mati tanda arahan cetak
+PBMENU_DPOF_SELECT_GUIDE_2,pada imej dipilih berbilang
+PBMENU_DPOF_SINGLE_GUIDE,Hdp/Mati tanda arahan cetak
+PBMENU_DPOF_SINGLE_GUIDE_2,pada imej dipilih
+PBMENU_EDIT,Perapi
+PBMENU_EDIT_BLOG_EMAIL,Blog / Emel
+PBMENU_EDIT_BW,Separuh warna
+PBMENU_EDIT_BW_GUIDE,Persekitaran tempat yang
+PBMENU_EDIT_BW_GUIDE_2,dipilih dimonokromkan
+PBMENU_EDIT_CROSS,Penuras Silang
+PBMENU_EDIT_CROSS_GUIDE,Tambah kesan pecahan
+PBMENU_EDIT_CROSS_GUIDE_2,ke titik terang pada imej
+PBMENU_EDIT_FISHEYE,Kanta Mata Ikan
+PBMENU_EDIT_FISHEYE_GUIDE,Guna kesan mata ikan
+PBMENU_EDIT_FISHEYE_GUIDE_2,di sekitar tempat dipilih
+PBMENU_EDIT_HDTV,HDTV
+PBMENU_EDIT_RADIATION,Kabur Jejarian
+PBMENU_EDIT_RADIATION_GUIDE,Guna kabur jejarian di sekitar
+PBMENU_EDIT_RADIATION_GUIDE_2,tempat imej yang dipilih
+PBMENU_EDIT_REDEYE,Pembetulan Mata Merah
+PBMENU_EDIT_REDEYE_GUIDE,Menghilangkan mata merah
+PBMENU_EDIT_REDEYE_GUIDE_2,yang disebabkan oleh denyar
+PBMENU_EDIT_RETRO2,Retro
+PBMENU_EDIT_RETRO2_GUIDE,Kabur dan malapkan pinggir
+PBMENU_EDIT_RETRO2_GUIDE_2,utk kesan nostalgia
+PBMENU_EDIT_SHARPFOUCS,Penopengan tidak tajam
+PBMENU_EDIT_SHARPFOUCS_GUIDE,Menajamkan imej sekeliling
+PBMENU_EDIT_SHARPFOUCS_GUIDE_2,tempat yang dipilih
+PBMENU_EDIT_SMILE,Senyum
+PBMENU_EDIT_SMILE_GUIDE,Ubahsuai muka orang untuk
+PBMENU_EDIT_SMILE_GUIDE_2,dilihat sebagai senyuman
+PBMENU_EDIT_SOFTFOUCS,Fokus Lembut
+PBMENU_EDIT_SOFTFOUCS_GUIDE,Mengaburkan periferi
+PBMENU_EDIT_SOFTFOUCS_GUIDE_2,di sekitar tempat yang dipilih
+PBMENU_EDIT_TRIMMING,Perapian
+PBMENU_EDIT_TRIMMING_GUIDE,Pangkas imej untuk buang
+PBMENU_EDIT_TRIMMING_GUIDE_2,bahagian tidak dikehendaki
+PBMENU_EVENTALL,Semua dalam Acara
+PBMENU_EVENTALL_CLEAR,Keluarkn smua imej di sini
+PBMENU_EVENTALL_ENTRY,Tambah Semua dalam Acara
+PBMENU_EVENTALL_SET,Tetap smua imej di sini
+PBMENU_EVENTLIST,Senarai Acara
+PBMENU_EVENTLIST_GUIDE,Pilih acara untuk dilihat
+PBMENU_EVENTLIST_GUIDE_2,
+PBMENU_FAV,Kegemaran
+PBMENU_FAV1,Kegemaran 1
+PBMENU_FAV2,Kegemaran 2
+PBMENU_FAV3,Kegemaran 3
+PBMENU_FAV4,Kegemaran 4
+PBMENU_FAV5,Kegemaran 5
+PBMENU_FAV6,Kegemaran 6
+PBMENU_FAVALL,Semua Dalam Kegemaran
+PBMENU_FAVALL_CLEAR,Kluar Smua dlm Kegemaran
+PBMENU_FAVALL_ENTRY,TmbahSmuaDlm Kegemaran
+PBMENU_FAVALL_SET,Tetap Semua dlm kump ini
+PBMENU_FAV_ALL_CLEAR_GUIDE,Keluarkan semua imej drpd
+PBMENU_FAV_ALL_CLEAR_GUIDE_2,Kegemaran
+PBMENU_FAV_CLEAR,Padam Kegemaran
+PBMENU_FAV_CLEAR_DATEALL_GUIDE,Keluarkan semua imej dalam
+PBMENU_FAV_CLEAR_DATEALL_GUIDE_2,julat tarikh ini dr Kegemaran
+PBMENU_FAV_CLEAR_EVENTALL_GUIDE,Keluarkan semua imej dalam
+PBMENU_FAV_CLEAR_EVENTALL_GUIDE_2,acara ini dari Kegemaran
+PBMENU_FAV_ENTRY,Tambah ke Kegemaran
+PBMENU_FAV_ENTRY_DATEALL_GUIDE,Tambah smua imej dlm julat
+PBMENU_FAV_ENTRY_DATEALL_GUIDE_2,tarikh ini kepada Kegemaran
+PBMENU_FAV_ENTRY_EVENTALL_GUIDE,Tambah semua imej dalam
+PBMENU_FAV_ENTRY_EVENTALL_GUIDE_2,acara ini ke Kegemaran
+PBMENU_FAV_SELECT_GUIDE,Tambah/Padam imej dipilih
+PBMENU_FAV_SELECT_GUIDE_2,ke/daripada Kegemaran
+PBMENU_FAV_SET,Tambah/Padam Kegemaran
+PBMENU_FAV_SINGLE_GUIDE,Tambah/Padam imej ini
+PBMENU_FAV_SINGLE_GUIDE_2,ke/daripada Kegemaran
+PBMENU_FOLDERALL,SmuaDlmFld
+PBMENU_FOLDERALL_CLEAR,Keluar Semua dlm Folder ini
+PBMENU_FOLDERALL_ENTRY,Tambah Semua dlm Folder
+PBMENU_FOLDERALL_SET,Tetap Semua dlm Folder ini
+PBMENU_FOLDERJUMP,Pilih Folder
+PBMENU_FRAME,Bingkai
+PBMENU_HDTV_GUIDE,Pangkas imej ke saiz 16 : 9
+PBMENU_HDTV_GUIDE_2,dan simpan sbg imej baru
+PBMENU_IMAGESAVE,Simpan Sebagai imej
+PBMENU_MULTIPLEIMAGES,Imej berbilang
+PBMENU_MULTIPLEPAGESAVE,Pilih muka surat dan simpan
+PBMENU_MULTIRESIZE,Saiz semula berbilang
+PBMENU_PAGESAVE,Simpan muka surat ini
+PBMENU_PAINT,Lukis
+PBMENU_PAINT_GUIDE,Tambah lukis, tera atau
+PBMENU_PAINT_GUIDE_2,bingkai ke imej
+PBMENU_PBFOLDER_GUIDE,Pilih folder untuk main balik
+PBMENU_PBFOLDER_GUIDE_2,
+PBMENU_PRINT_ALL_GUIDE,Cetak semua imej imej dlm
+PBMENU_PRINT_ALL_GUIDE_2,folder
+PBMENU_PRINT_DATEALL_GUIDE,Cetak semua imej
+PBMENU_PRINT_DATEALL_GUIDE_2,dalam julat tarikh ini
+PBMENU_PRINT_EVENTALL_GUIDE,Cetak semua imej
+PBMENU_PRINT_EVENTALL_GUIDE_2,dalam acara ini
+PBMENU_PRINT_FAVALL_GUIDE,Cetak semua imej dalam
+PBMENU_PRINT_FAVALL_GUIDE_2,kumpulan Kegemaran ini
+PBMENU_PRINT_SELECT_GUIDE,Cetak imej berbilang yang
+PBMENU_PRINT_SELECT_GUIDE_2,dipilih
+PBMENU_PRINT_SINGLE_GUIDE,Cetak imej
+PBMENU_PRINT_SINGLE_GUIDE_2,
+PBMENU_PROTECT,Melindung
+PBMENU_PROTECT_ALL_CLEAR_GUIDE,Padamkan perlindungan imej
+PBMENU_PROTECT_ALL_CLEAR_GUIDE_2,untuk semua imej dlm folder
+PBMENU_PROTECT_ALL_SET_GUIDE,Hidupkan perlindungan imej
+PBMENU_PROTECT_ALL_SET_GUIDE_2,untuk semua imej dlm folder
+PBMENU_PROTECT_DATEALL_CLEAR_GUIDE,Padamkan perlindungan utk
+PBMENU_PROTECT_DATEALL_CLEAR_GUIDE_2,smua imej dlm julat tarikh ini
+PBMENU_PROTECT_DATEALL_SET_GUIDE,Hidpkn perlindungan untuk
+PBMENU_PROTECT_DATEALL_SET_GUIDE_2,smua imej dlm julat tarikh ini
+PBMENU_PROTECT_EVENTALL_CLEAR_GUIDE,Padamkn perlindungan untuk
+PBMENU_PROTECT_EVENTALL_CLEAR_GUIDE_2,semua imej dalam acara ini
+PBMENU_PROTECT_EVENTALL_SET_GUIDE,Hidupkan perlindungan untuk
+PBMENU_PROTECT_EVENTALL_SET_GUIDE_2,semua imej dalam acara ini
+PBMENU_PROTECT_FAVALL_CLEAR_GUIDE,Padamkn perlindungan untuk
+PBMENU_PROTECT_FAVALL_CLEAR_GUIDE_2,semua imej dlm kumpulan ini
+PBMENU_PROTECT_FAVALL_SET_GUIDE,Hidpkn perlindungan untuk
+PBMENU_PROTECT_FAVALL_SET_GUIDE_2,semua imej dlm kumpulan ini
+PBMENU_PROTECT_SELECT_GUIDE,Hidup/pdm pelindungan utk
+PBMENU_PROTECT_SELECT_GUIDE_2,imej berbilang yang dipilih
+PBMENU_PROTECT_SINGLE_GUIDE,Hidupkan/padamkan
+PBMENU_PROTECT_SINGLE_GUIDE_2,perlindungan imej yg dipilih
+PBMENU_REFINE,Tapis mengikut Muka
+PBMENU_REFINE_BABY,Bayi
+PBMENU_REFINE_BABY_GUIDE,Cari dan papar imej
+PBMENU_REFINE_BABY_GUIDE_2,dengan bayi
+PBMENU_REFINE_CHILD,Kanak-kanak
+PBMENU_REFINE_CHILD_GUIDE,Cari dan papar imej
+PBMENU_REFINE_CHILD_GUIDE_2,dengan muka kanak-kanak
+PBMENU_REFINE_CLEAR_GUIDE,Paparkan semua imej
+PBMENU_REFINE_CLEAR_GUIDE_2,
+PBMENU_REFINE_FACE,Semua orang
+PBMENU_REFINE_FACE_GUIDE,Cari dan papar imej
+PBMENU_REFINE_FACE_GUIDE_2,dengan muka orang
+PBMENU_REFINE_SMILE,Senyum
+PBMENU_REFINE_SMILE_GUIDE,Cari dan papar imej dgn
+PBMENU_REFINE_SMILE_GUIDE_2,muka org yg tersenyum
+PBMENU_ROTATE,Putar
+PBMENU_ROTATE_GUIDE,Putar imej
+PBMENU_ROTATE_GUIDE_2,
+PBMENU_SCRAPBOOKALLSAVE,SimpnSmua M/S dlmBukuSkrp
+PBMENU_SCRAPBOOKALL_GUIDE,Simpan semua muka surat
+PBMENU_SCRAPBOOKALL_GUIDE_2,Buku Skrap sebagai imej
+PBMENU_SHARE_CLEAR,Padam Tanda Kongsi
+PBMENU_SHARE_CLEAR_DATEALL_GUIDE,Keluarkan semua imej dalam
+PBMENU_SHARE_CLEAR_DATEALL_GUIDE_2,julat tarikh ini dri TndaKongsi
+PBMENU_SHARE_CLEAR_EVENTALL_GUIDE,Keluarkan semua imej dalam
+PBMENU_SHARE_CLEAR_EVENTALL_GUIDE_2,acara ini dari Tanda Kongsi
+PBMENU_SHARE_CLEAR_FAVALL_GUIDE,Keluarkan semua imej dalam
+PBMENU_SHARE_CLEAR_FAVALL_GUIDE_2,kumpulan ini dri TandaKongsi
+PBMENU_SHARE_ENTRY,Tambah ke Tanda Kongsi
+PBMENU_SHARE_ENTRY_DATEALL_GUIDE,Tambah semua imej dalam
+PBMENU_SHARE_ENTRY_DATEALL_GUIDE_2,julat tarikh ini ke TndaKongsi
+PBMENU_SHARE_ENTRY_EVENTALL_GUIDE,Tambah semua imej dalam
+PBMENU_SHARE_ENTRY_EVENTALL_GUIDE_2,acara ini ke Tanda Kongsi
+PBMENU_SHARE_ENTRY_FAVALL_GUIDE,Tambah semua imej dalam
+PBMENU_SHARE_ENTRY_FAVALL_GUIDE_2,kumpulan ini ke TandaKongsi
+PBMENU_SHARE_SELECT_GUIDE,Tambah/Padam imej dipilih
+PBMENU_SHARE_SELECT_GUIDE_2,ke/daripada Tanda Kongsi
+PBMENU_SHARE_SET,Tambah/PadamTndaKongsi
+PBMENU_SHARE_SINGLE_GUIDE,Tambah/Padam imej ini
+PBMENU_SHARE_SINGLE_GUIDE_2,ke/drpd Tanda Kongsi
+PBMENU_SLIDESHOW_GUIDE,Auto main balik dengan
+PBMENU_SLIDESHOW_GUIDE_2,muzik dan efek
+PBMENU_THISIMAGE,Imej Ini
+PBMENU_THISPAGE_GUIDE,Simpan imej muka surat
+PBMENU_THISPAGE_GUIDE_2,Buku Skrap ini
+PBMENU_VIEWSELECT,Mod Pandangan
+PBMENU_VOLUMESETTINGS,Seting Kekuatan
+PBMENU_VOLUME_GUIDE,Laras kekuatan dalam
+PBMENU_VOLUME_GUIDE_2,PparSlaid/MainBalikWayang
+PBMENU_WIDEZOOM,Paparan Zum Lebar
+PBMENU_WSCREEN_GUIDE,Pangkas imej ke saiz 16 : 9
+PBMENU_WSCREEN_GUIDE_2,dan papar
+PRINTMENU_10X15CM,10x15 cm
+PRINTMENU_1PICBORDER,1-imej/Smpdan
+PRINTMENU_1PICNOBORDER,1/TiadaSmpdn
+PRINTMENU_2L,13x18 cm
+PRINTMENU_2PICS,2-imej
+PRINTMENU_3PICS,3 imej
+PRINTMENU_4PICS,4 imej
+PRINTMENU_4X6,4x6"
+PRINTMENU_8PICS,8 imej
+PRINTMENU_A3,A3
+PRINTMENU_A3PLUS,A3+
+PRINTMENU_A4,A4
+PRINTMENU_A6,A6
+PRINTMENU_DATE,Tarikh
+PRINTMENU_DATE_A,Date
+PRINTMENU_DAYANDTIME,Tarikh&Masa
+PRINTMENU_HAGAKI,Hagaki
+PRINTMENU_HDTV,Saiz Luas
+PRINTMENU_INDEX,Indeks
+PRINTMENU_INDEXPRINT,Cetakan Indeks
+PRINTMENU_L,9x13 cm
+PRINTMENU_LETTER,Surat
+PRINTMENU_PICTUREINPAPER,Reka letak
+PRINTMENU_QUANTITY,Kuantiti
+PRINTMENU_SIZE,Saiz
+SAVE,Simpan
+SETUP_AFILLUMINATOR,Cahaya AF
+SETUP_AFILLUMINATOR_GUIDE2,TmbhCahayaUtkFokus Kurang
+SETUP_AFILLUMINATOR_GUIDE2_2,Cahaya
+SETUP_AFMODE,Mod AF
+SETUP_AFMODE_GUIDE2,Seting Auto fokus
+SETUP_AFMODE_GUIDE2_2,
+SETUP_AUTOREVIEW,Auto Semak
+SETUP_AUTOREVIEW_GUIDE2,Semak imej 2 saat selepas ambil
+SETUP_AUTOREVIEW_GUIDE2_2,gmbr
+SETUP_BEEP,Bip
+SETUP_BEEP_GUIDE2,Seting Bip
+SETUP_BEEP_GUIDE2_2,
+SETUP_BGMTOOL_DOWNLOAD_GUIDE2,Ubah muzik pertunjukan slaid
+SETUP_BGMTOOL_DOWNLOAD_GUIDE2_2,
+SETUP_BGMTOOL_FORMAT_GUIDE2,Padam semua muzik pertunjukan
+SETUP_BGMTOOL_FORMAT_GUIDE2_2,slaid
+SETUP_BGM_DOWNLOAD,Muat Turun Muzik
+SETUP_BGM_FORMAT,Format Muzik
+SETUP_CALIBRATION,Penentukuran
+SETUP_CAM1,Seting Ambil Gambar 1
+SETUP_CAM2,Seting Ambil Gambar 2
+SETUP_CHANGERECFOLDER,UbahFldeRAKM
+SETUP_CLOCK_GUIDE2,Melaras tarikh dan masa
+SETUP_CLOCK_GUIDE2_2,
+SETUP_COMPONENT,COMPONENT
+SETUP_COMPONENT_D1,SD
+SETUP_COMPONENT_D3,HD(1080i)
+SETUP_COMPONENT_GUIDE2,Seting output komponen
+SETUP_COMPONENT_GUIDE2_2,
+SETUP_CONTROLGUIDE,Panduan Mengawal
+SETUP_CONTROLGUIDE_GUIDE,Seting panduan mengawal
+SETUP_CONVERSION_GUIDE2,Pilih lensa pertukaran
+SETUP_CONVERSION_GUIDE2_2,
+SETUP_COPY,Salin
+SETUP_CREATERECFOLDER,Buat Folder RAKAM
+SETUP_DEMOMODE,Mod Demo
+SETUP_DEMOMODE_GUIDE,Tetapkan ke HIDUP utk mod
+SETUP_DEMOMODE_GUIDE_2,demo
+SETUP_DIGITALZOOM,Zum Digital
+SETUP_DIGITALZOOM_PRECISION,Kepersisan
+SETUP_DIGITALZOOM_SMART,Pintar
+SETUP_DIRECTIONJUDGE,Orientasi Auto
+SETUP_DIRECTIONJUDGE_GUIDE2,TentukanOrientasiKamera
+SETUP_DIRECTIONJUDGE_GUIDE2_2,DanSimpang
+SETUP_DISP,Fungsi Paparan
+SETUP_DISP_09,9
+SETUP_DISP_12,12
+SETUP_DISP_16,16
+SETUP_DISP_20,20
+SETUP_DISP_BRIGHT,Terang
+SETUP_DISP_BRIGHTNESS,Terangnya LCD
+SETUP_DISP_BRIGHTNESSSET,Kecerahan
+SETUP_DISP_HISTOGRAMSET,Histogram
+SETUP_DISP_IMAGEONLY,Imej Sahaja
+SETUP_DISP_INDEX,Pemasangan Indeks Imej
+SETUP_DISP_MSG_GRAPH_OFF,Tidak ada graf dipaparkan
+SETUP_DISP_MSG_GRAPH_ON,Papar imej keterangan sebagai graf
+SETUP_DISP_MSG_ICON,Papar butang operasi sahaja
+SETUP_DISP_MSG_IMAGE,Papar imej sahaja
+SETUP_DISP_MSG_INFO,Papar butang operasi dan info
+SETUP_DISP_MSG_LIGHT_BRIGHT,Tetap kecerahan skrin pd tahap tinggi
+SETUP_DISP_MSG_LIGHT_NORMAL,Tetap kecerahan skrin pd tahap biasa
+SETUP_DISP_MSG_THUMBNAIL_09,Paparan indeks 9 imej
+SETUP_DISP_MSG_THUMBNAIL_12,Paparan indeks 12 imej
+SETUP_DISP_MSG_THUMBNAIL_16,Paparan indeks 16 imej
+SETUP_DISP_MSG_THUMBNAIL_20,Paparan indeks 20 imej
+SETUP_DISP_MSG_WIDEZOOMSET_OFF,Papar imej dlm nisbah aspek asal
+SETUP_DISP_MSG_WIDEZOOMSET_ON,Papar imej dlm saiz skrin penuh
+SETUP_DISP_OFF,Padam
+SETUP_DISP_ON,Hidup
+SETUP_DISP_OPT,Bilangan imej
+SETUP_DISP_PLAY,Pasang Paparan Skrin Main Balik
+SETUP_DISP_SHOOT,Pasang Paparn Skrin Ambl Gmbar
+SETUP_DISP_WIDEZOOMSET,Zum Luas
+SETUP_EXPANDEDFOUCS_GUIDE2,Besarkan tengah semasa fokus
+SETUP_EXPANDEDFOUCS_GUIDE2_2,manual
+SETUP_EZOOM_GUIDE2,Seting zum digital
+SETUP_EZOOM_GUIDE2_2,
+SETUP_FLASHSYNCHRO_GUIDE2,Pilih pemasaan denyar
+SETUP_FLASHSYNCHRO_GUIDE2_2,
+SETUP_FORMAT,Format
+SETUP_FUNCTIONGUIDE,Panduan Fungsi
+SETUP_FUNCTIONGUIDE_GUIDE2,Seting panduan fungsi
+SETUP_FUNCTIONGUIDE_GUIDE2_2,
+SETUP_GRIDLINE,Garis Grid
+SETUP_GRIDLINE_GUIDE2,Garis grid utk pengambilan
+SETUP_GRIDLINE_GUIDE2_2,gambar
+SETUP_HOUSING,Penempatan
+SETUP_INITIALIZE,Memula
+SETUP_INITIALIZE_GUIDE2,Set ke seting asal
+SETUP_INITIALIZE_GUIDE2_2,
+SETUP_INTERNALMEMORY_FORMAT_GUIDE2,Format memori dalaman
+SETUP_INTERNALMEMORY_FORMAT_GUIDE2_2,
+SETUP_LANG,B. MELAYU
+SETUP_LANG_5WAY,B. MELAYU
+SETUP_LCD_RESPOINT_GUIDE2,Laras titik respon sentuh LCD
+SETUP_LCD_RESPOINT_GUIDE2_2,LCD
+SETUP_LUNSET,Seting LUN
+SETUP_LUNSET_GUIDE,Pilih media untuk menyambung
+SETUP_LUNSET_GUIDE_2,ke Mass Storage
+SETUP_LUNSET_MULTI,Berbilang
+SETUP_LUNSET_SINGLE,Tunggal
+SETUP_MAIN1,Seting Utama 1
+SETUP_MAIN2,Seting Utama 2
+SETUP_MAIN3,Seting Utama 3
+SETUP_MARINEPACK_GUIDE2,Ttp ke HIDUP bila guna
+SETUP_MARINEPACK_GUIDE2_2,penempatan
+SETUP_MASSSTORAGE,Mass Storage
+SETUP_MONITOR,Pengawas
+SETUP_MS_COPY_CHANGE_GUIDE2,Salin semua imej dari memori
+SETUP_MS_COPY_CHANGE_GUIDE2_2,dalaman
+SETUP_MS_FOLDER_CHANGE_GUIDE2,Tukar folder untuk merakam imej
+SETUP_MS_FOLDER_CHANGE_GUIDE2_2,
+SETUP_MS_FOLDER_CREATE_GUIDE2,Membuat folder baru
+SETUP_MS_FOLDER_CREATE_GUIDE2_2,
+SETUP_MS_FORMAT_GUIDE2,Format Memory Stick
+SETUP_MS_FORMAT_GUIDE2_2,
+SETUP_NTSC,NTSC
+SETUP_PAL,PAL
+SETUP_PASSLOCK,Kunci Kata Laluan
+SETUP_PASSLOCK_GUIDE,Tetapkan kata laluan utk
+SETUP_PASSLOCK_GUIDE_2,mengunci imej
+SETUP_PICTBRIDGE,PictBridge
+SETUP_PTPMTP,PTP/MTP
+SETUP_SHUTTER,Pengatup
+SETUP_SINGLE,Satu
+SETUP_SMILEDEMO,Mod demo senyum
+SETUP_SMILEDEMO_GUIDE2,HIDUP utk ModDemo
+SETUP_SMILEDEMO_GUIDE2_2,PngatupSnyum
+SETUP_TVTYPE,JENIS TV
+SETUP_TVTYPE_GUIDE2,Utk memilih jenis monitor
+SETUP_TVTYPE_GUIDE2_2,televisyen
+SETUP_UPDATE,Kemas kini
+SETUP_USBCONNECT,Sambung USB
+SETUP_USBCONNECT_GUIDE2,Mod output apabila disamb dgn
+SETUP_USBCONNECT_GUIDE2_2,USB
+SETUP_VERSION,Versi
+SETUP_VERSION_GUIDE2,Periksa versi dan kemaskini
+SETUP_VERSION_GUIDE2_2,perisian
+SETUP_VIDEOOUT,Video Keluar
+SETUP_VIDEOOUT_GUIDE2,Output bila disambung ke alatan
+SETUP_VIDEOOUT_GUIDE2_2,video
+SSMENU_10SEC,10 saat
+SSMENU_1SEC,1 saat
+SSMENU_3SEC,3 saat
+SSMENU_5SEC,5 saat
+SSMENU_ACTIVE,Aktif
+SSMENU_ALL,Semua
+SSMENU_BASIC,Asas
+SSMENU_DETAIL,Seting Lain
+SSMENU_EFFECTS,Kesan
+SSMENU_FACE_BASIC,Muka 1: Asas
+SSMENU_FACE_NOSTALGIC,Muka 2: Nostalgia
+SSMENU_FACE_STYLISH,Muka 3: Bergaya
+SSMENU_IMAGE,Imej
+SSMENU_INFOLDER,Folder
+SSMENU_INTERVAL,Sela
+SSMENU_MUSIC,Muzik
+SSMENU_MUSIC1,Music1
+SSMENU_MUSIC2,Music2
+SSMENU_MUSIC3,Music3
+SSMENU_MUSIC4,Music4
+SSMENU_MUSIC5,Music5
+SSMENU_MUSIC6,Music6
+SSMENU_MUSIC7,Music7
+SSMENU_MUSIC8,Music8
+SSMENU_NORMAL_A,Normal
+SSMENU_NOSTALGIC,Nostalgia
+SSMENU_REFINE,Penuras
+SSMENU_REPEAT,Ulang
+SSMENU_SIMPLE,Mudah
+SSMENU_STYLISH,Bergaya
+SSMENU_THIS_DATE,Tarikh ini
+SSMENU_THIS_EVENT,Acara ini

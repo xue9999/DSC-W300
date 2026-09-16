@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jpeg-theme xmlns="http://www.sony.co.jp/xScrapbook/1">
+	<first-frame background="SB_wedding_0.jpg" alpha="SB_wedding_alpha_0.jpg">
+	<photo left="1098" top="0" width="950" height="1536" order="0"/>
+	</first-frame>
+	<frame-1 background="SB_wedding_01.jpg" alpha="SB_wedding_alpha_01.jpg">
+	<photo left="252" top="0" width="1544" height="1536" order="0"/>
+	</frame-1>
+	<frame-2 background="SB_wedding_02.jpg" alpha="SB_wedding_alpha_02.jpg">
+	<photo left="114" top="138" width="908" height="1262" order="0"/>
+	<photo left="1022" top="138" width="908" height="1262" order="1"/>
+	</frame-2>
+	<frame-3 background="SB_wedding_03.jpg" alpha="SB_wedding_alpha_03.jpg">
+	<photo left="442" top="136" width="1166" height="664" order="0"/>
+	<photo left="106" top="842" width="888" height="558" order="1"/>
+	<photo left="1052" top="842" width="888" height="558" order="2"/>
+	</frame-3>
+	<frame-4 background="SB_wedding_04.jpg" alpha="SB_wedding_alpha_04.jpg">
+	<photo left="68" top="136" width="924" height="452" order="0"/>
+	<photo left="68" top="644" width="924" height="756" order="1"/>
+	<photo left="1054" top="136" width="926" height="758" order="2"/>
+	<photo left="1054" top="948" width="926" height="452" order="3"/>
+	</frame-4>
+</jpeg-theme>

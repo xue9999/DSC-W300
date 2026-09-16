@@ -1,0 +1,5 @@
+config 1
+
+screen 0 /usr/body/bin/ass/img/finished
+
+flip

@@ -1,0 +1,1117 @@
+CAMMENU_0EV,0EV
+CAMMENU_100,100
+CAMMENU_10M,1.0 m
+CAMMENU_1600,1600
+CAMMENU_200,200
+CAMMENU_30M,3.0 m
+CAMMENU_3200,3200
+CAMMENU_400,400
+CAMMENU_70M,7.0 m
+CAMMENU_80,80
+CAMMENU_800,800
+CAMMENU_BRK_03EV,BRK±0.3EV
+CAMMENU_BRK_07EV,BRK±0.7EV
+CAMMENU_BRK_10EV,BRK±1.0EV
+CAMMENU_BURST,ถ่ายต่อเนื่อง
+CAMMENU_BURST_BRK03EV_GUIDE,ถ่าย 3 ภาพ โดยมีระดับแสง
+CAMMENU_BURST_BRK03EV_GUIDE_2,ห่างกัน 0.3EV
+CAMMENU_BURST_BRK07EV_GUIDE,ถ่าย 3 ภาพ โดยมีระดับแสง
+CAMMENU_BURST_BRK07EV_GUIDE_2,ห่างกัน 0.7EV
+CAMMENU_BURST_BRK10EV_GUIDE,ถ่าย 3 ภาพ โดยมีระดับแสง
+CAMMENU_BURST_BRK10EV_GUIDE_2,ห่างกัน 1.0EV
+CAMMENU_BURST_OFF_GUIDE,ถ่ายภาพเดียวต่อการกดปุ่ม
+CAMMENU_BURST_OFF_GUIDE_2,ชัตเตอร์หนึ่งครั้ง
+CAMMENU_BURST_ON_GUIDE,ถ่ายภาพต่อเนื่องตลอดเวลา
+CAMMENU_BURST_ON_GUIDE_2,ที่กดปุ่มชัตเตอร์
+CAMMENU_CENTER,กลางภาพ
+CAMMENU_CENTERAF,AF เฉลี่ยกลาง
+CAMMENU_CLOSEEYE,ลดการกะพริบตา
+CAMMENU_CLOSEEYE_AUTO_GUIDE,วิเคราะห์ภาพดวงตา
+CAMMENU_CLOSEEYE_AUTO_GUIDE_2,เพื่อหลีกเลี่ยงตาที่ปิดอยู่
+CAMMENU_CLOSEEYE_OFF_GUIDE,ปิดระบบลดการกะพริบตา
+CAMMENU_CLOSEEYE_OFF_GUIDE_2,
+CAMMENU_COLOR,โหมดสี
+CAMMENU_COLOR_BW,ขาวดำ
+CAMMENU_COLOR_BW_GUIDE,ปรับให้เป็นภาพขาวดำ
+CAMMENU_COLOR_BW_GUIDE_2,
+CAMMENU_COLOR_NORMAL_GUIDE,ถ่ายภาพโดยใช้โหมดสีปกติ
+CAMMENU_COLOR_NORMAL_GUIDE_2,
+CAMMENU_COLOR_SEPIA,ซีเปีย
+CAMMENU_COLOR_SEPIA_GUIDE,จำลองสีของภาพถ่ายแบบโบราณ
+CAMMENU_COLOR_SEPIA_GUIDE_2,
+CAMMENU_COLOR_VIVID,สดใส
+CAMMENU_COLOR_VIVID_GUIDE,ปรับภาพให้มีสีที่ลึกและสดใส
+CAMMENU_COLOR_VIVID_GUIDE_2,
+CAMMENU_CONTINUOUS,ตั้งตลอด
+CAMMENU_DRO,DRO
+CAMMENU_DRO_ADV,ขั้นสูง
+CAMMENU_DRO_ADV_GUIDE,แก้ไขรายละเอียดในเงามืดโดย
+CAMMENU_DRO_ADV_GUIDE_2,รักษารายละเอียดบริเวณสว่าง
+CAMMENU_DRO_OFF_GUIDE,ไม่ทำการแก้ไขรายละเอียด
+CAMMENU_DRO_OFF_GUIDE_2,ในเงามืด
+CAMMENU_DRO_PLUS,DRO plus
+CAMMENU_DRO_STANDARD_GUIDE,แก้ไขรายละเอียดภาพที่สูญเสีย
+CAMMENU_DRO_STANDARD_GUIDE_2,ไปในบริเวณเงามืด
+CAMMENU_DRO_STD,DRO standard
+CAMMENU_EV,EV
+CAMMENU_EV2,EV
+CAMMENU_EV_GUIDE,ปรับความสว่าง (＋) และ
+CAMMENU_EV_GUIDE2,ปรับความสว่าง (＋) และ
+CAMMENU_EV_GUIDE2_2,ความมืด (－) ของภาพ
+CAMMENU_EV_GUIDE_2,ความมืด (－) ของภาพ
+CAMMENU_FACE,ค้นหาภาพใบหน้า
+CAMMENU_FACE_ADULT,ให้ความสำคัญกับผู้ใหญ่
+CAMMENU_FACE_ADULT_GUIDE,โฟกัสโดยให้ความสำคัญกับ
+CAMMENU_FACE_ADULT_GUIDE_2,ใบหน้าของผู้ใหญ่ก่อน
+CAMMENU_FACE_CHILD,ให้ความสำคัญกับเด็ก
+CAMMENU_FACE_CHILD_GUIDE,โฟกัสโดยให้ความสำคัญกับ
+CAMMENU_FACE_CHILD_GUIDE_2,ใบหน้าของเด็กก่อน
+CAMMENU_FACE_ON_GUIDE,ตั้งค่าให้ทำการโฟกัส
+CAMMENU_FACE_ON_GUIDE_2,บนใบหน้าบุคคลก่อน
+CAMMENU_FACE_TOUCH_GUIDE,ใช้ระบบค้นหาใบหน้า
+CAMMENU_FACE_TOUCH_GUIDE_2,เฉพาะเมื่อสัมผัสบนภาพใบหน้า
+CAMMENU_FLASHLEVEL,ระดับแฟลช
+CAMMENU_FLASHLEVEL_DOWN_GUIDE,ถ่ายภาพโดยใช้ความสว่างแฟลช
+CAMMENU_FLASHLEVEL_DOWN_GUIDE_2,ต่ำกว่าปกติ
+CAMMENU_FLASHLEVEL_NORMAL_GUIDE,ถ่ายภาพโดยใช้ความสว่างแฟลช
+CAMMENU_FLASHLEVEL_NORMAL_GUIDE_2,ปกติ
+CAMMENU_FLASHLEVEL_UP_GUIDE,ถ่ายภาพโดยใช้ความสว่างแฟลช
+CAMMENU_FLASHLEVEL_UP_GUIDE_2,สูงกว่าปกติ
+CAMMENU_FLASH_SYNCHRO,ชัตเตอร์ช้า
+CAMMENU_FOCUS,โฟกัส
+CAMMENU_FOUCS_10M_GUIDE,ตั้งโฟกัสไว้ที่ระยะประมาณ
+CAMMENU_FOUCS_10M_GUIDE_2,1.0 ม.
+CAMMENU_FOUCS_30M_GUIDE,ตั้งโฟกัสไว้ที่ระยะประมาณ
+CAMMENU_FOUCS_30M_GUIDE_2,3.0 ม.
+CAMMENU_FOUCS_70M_GUIDE,ตั้งโฟกัสไว้ที่ระยะประมาณ
+CAMMENU_FOUCS_70M_GUIDE_2,7.0 ม.
+CAMMENU_FOUCS_CENTER_GUIDE,ปรับโฟกัสอัตโนมัติ
+CAMMENU_FOUCS_CENTER_GUIDE_2,บนวัตถุที่อยู่กลางภาพ
+CAMMENU_FOUCS_INFINITY_GUIDE,ตั้งโฟกัสไว้ที่ระยะอนันต์
+CAMMENU_FOUCS_INFINITY_GUIDE_2,
+CAMMENU_FOUCS_MANUAL_GUIDE,ปรับโฟกัสเอง
+CAMMENU_FOUCS_MANUAL_GUIDE_2,
+CAMMENU_FOUCS_MULTI_GUIDE,ปรับโฟกัสอัตโนมัติ
+CAMMENU_FOUCS_MULTI_GUIDE_2,โดยดูจากทั้งภาพ
+CAMMENU_FOUCS_SPOT_GUIDE,ปรับโฟกัสอัตโนมัติ
+CAMMENU_FOUCS_SPOT_GUIDE_2,ณ จุดตรงกลางภาพ
+CAMMENU_FOUCS_TSPOT_GUIDE,ปรับโฟกัสอัตโนมัติโดย
+CAMMENU_FOUCS_TSPOT_GUIDE_2,แตะที่ตำแหน่งใดๆบนหน้าจอ
+CAMMENU_IMAGESIZE,ขนาดภาพ
+CAMMENU_IMAGESIZE_L,ใหญ่
+CAMMENU_IMAGESIZE_S,เล็ก
+CAMMENU_INFINITY,∞
+CAMMENU_ISO,ISO
+CAMMENU_ISO_100_GUIDE,ตั้งค่าความไวแสงไว้ที่ ISO 100
+CAMMENU_ISO_100_GUIDE_2,
+CAMMENU_ISO_1600_GUIDE,ตั้งค่าความไวแสงไว้ที่ ISO 1600
+CAMMENU_ISO_1600_GUIDE_2,
+CAMMENU_ISO_200_GUIDE,ตั้งค่าความไวแสงไว้ที่ ISO 200
+CAMMENU_ISO_200_GUIDE_2,
+CAMMENU_ISO_3200_GUIDE,ตั้งค่าความไวแสงไว้ที่ ISO 3200
+CAMMENU_ISO_3200_GUIDE_2,
+CAMMENU_ISO_400_GUIDE,ตั้งค่าความไวแสงไว้ที่ ISO 400
+CAMMENU_ISO_400_GUIDE_2,
+CAMMENU_ISO_64_GUIDE,ตั้งค่าความไวแสงไว้ที่ ISO 64
+CAMMENU_ISO_64_GUIDE_2,
+CAMMENU_ISO_800_GUIDE,ตั้งค่าความไวแสงไว้ที่ ISO 800
+CAMMENU_ISO_800_GUIDE_2,
+CAMMENU_ISO_80_GUIDE,ตั้งค่าความไวแสงไว้ที่ ISO 80
+CAMMENU_ISO_80_GUIDE_2,
+CAMMENU_ISO_AUTO_GUIDE,ปรับความไวแสงโดยอัตโนมัติ
+CAMMENU_ISO_AUTO_GUIDE_2,
+CAMMENU_M03EV,-0.3EV
+CAMMENU_M07EV,-0.7EV
+CAMMENU_M10EV,-1.0EV
+CAMMENU_M13EV,-1.3EV
+CAMMENU_M17EV,-1.7EV
+CAMMENU_M20EV,-2.0EV
+CAMMENU_MACRO,มาโคร
+CAMMENU_MENU,เมนู
+CAMMENU_METERINGMODE,โหมดวัดแสง
+CAMMENU_METERING_CENTER_GUIDE,ปรับระดับแสงตามความสว่าง
+CAMMENU_METERING_CENTER_GUIDE_2,บริเวณกลางภาพ
+CAMMENU_METERING_MULTI_GUIDE,ปรับระดับแสงโดยรักษาสมดุล
+CAMMENU_METERING_MULTI_GUIDE_2,ของทั้งภาพ
+CAMMENU_METERING_SPOT_GUIDE,ปรับระดับแสงตามความสว่าง
+CAMMENU_METERING_SPOT_GUIDE_2,ของจุดตรงกลางภาพ
+CAMMENU_MINUS,－
+CAMMENU_MULTI,หลายจุด
+CAMMENU_MULTIAF,AF หลายจุด
+CAMMENU_NORMAL_CAP,ปกติ
+CAMMENU_P03EV,+0.3EV
+CAMMENU_P07EV,+0.7EV
+CAMMENU_P10EV,+1.0EV
+CAMMENU_P13EV,+1.3EV
+CAMMENU_P17EV,+1.7EV
+CAMMENU_P20EV,+2.0EV
+CAMMENU_PLUS,＋
+CAMMENU_RECMODE,โหมดถ่ายภาพ
+CAMMENU_RECOGNITION,ระบบจำแนกบรรยากาศ
+CAMMENU_RECOGNITION_ADV_GUIDE,ถ่ายภาพกลางคืนหรือภาพ
+CAMMENU_RECOGNITION_ADV_GUIDE2,ถ่ายภาพกลางคืนหรือภาพ
+CAMMENU_RECOGNITION_ADV_GUIDE2_2,ย้อนแสง อีก 1 ภาพโดยอัตโนมัติ
+CAMMENU_RECOGNITION_ADV_GUIDE_2,ย้อนแสง อีก 1 ภาพโดยอัตโนมัติ
+CAMMENU_RECOGNITION_AUTO2_GUIDE,ถ่ายภาพด้วยการตั้งค่าที่
+CAMMENU_RECOGNITION_AUTO2_GUIDE_2,เหมาะสมกับบรรยากาศที่สุด
+CAMMENU_RECOGNITION_AUTO_GUIDE,ถ่ายภาพกลางคืนหรือภาพ
+CAMMENU_RECOGNITION_AUTO_GUIDE_2,ย้อนแสง ฯลฯ ด้วยค่าที่เหมาะสม
+CAMMENU_RECOGNITION_OFF_GUIDE,ปิดระบบจำแนกบรรยากาศ
+CAMMENU_RECOGNITION_OFF_GUIDE_2,
+CAMMENU_REDEYEREDUCTION,ลดตาแดง
+CAMMENU_REDEYE_FACE_GUIDE,ใช้ระบบลดตาแดงโดยอัตโนมัติ
+CAMMENU_REDEYE_FACE_GUIDE_2,เมื่อตรวจพบภาพใบหน้า
+CAMMENU_REDEYE_OFF_GUIDE,ปิดระบบลดตาแดง
+CAMMENU_REDEYE_OFF_GUIDE_2,
+CAMMENU_REDEYE_ON_GUIDE,ยิงแฟลชล่วงหน้าเพื่อลดตาแดง
+CAMMENU_REDEYE_ON_GUIDE_2,เมื่อถ่ายภาพโดยใช้แฟลช
+CAMMENU_REMAIN_NUMBER,ประมาณความจุภาพ
+CAMMENU_REMAIN_TIME,เวลาที่เหลือ
+CAMMENU_SATURATION_DOWN_GUIDE,ถ่ายภาพโดยลดความเข้มสี
+CAMMENU_SATURATION_DOWN_GUIDE_2,
+CAMMENU_SATURATION_NORMAL_GUIDE,ใช้ความเข้มสีปกติ
+CAMMENU_SATURATION_NORMAL_GUIDE_2,
+CAMMENU_SATURATION_UP_GUIDE,ถ่ายภาพโดยเพิ่มความเข้มของสี
+CAMMENU_SATURATION_UP_GUIDE_2,
+CAMMENU_SELFTIMER,ตั้งเวลา
+CAMMENU_SELFTIMER_10SEC,ตั้งเวลา 10 วินาที
+CAMMENU_SELFTIMER_2SEC,ตั้งเวลา 2 วินาที
+CAMMENU_SELFTIMER_OFF,ไม่ใช้ระบบตั้งเวลา
+CAMMENU_SETUP,ตั้งค่า
+CAMMENU_SETUP_CHANGE_GUIDE,ไปยังหน้าจอตั้งค่าถ่ายภาพ
+CAMMENU_SETUP_CHANGE_GUIDE_2,
+CAMMENU_SHOOTING,ถ่ายภาพ
+CAMMENU_SIZE_10MEG,10M
+CAMMENU_SIZE_12M_GUIDE,สำหรับพิมพ์ที่ขนาดสูงสุด A3+
+CAMMENU_SIZE_12M_GUIDE_2,
+CAMMENU_SIZE_16_9,16:9
+CAMMENU_SIZE_16_9_2MEG_GUIDE,สำหรับรับชมภาพด้วย
+CAMMENU_SIZE_16_9_2MEG_GUIDE_2,HDTV
+CAMMENU_SIZE_16_9_A3_GUIDE,สำหรับรับชมด้วย HDTV และ
+CAMMENU_SIZE_16_9_A3_GUIDE_2,พิมพ์ถึงขนาด A3
+CAMMENU_SIZE_16_9_A4_GUIDE,สำหรับรับชมด้วย HDTV
+CAMMENU_SIZE_16_9_A4_GUIDE_2,และพิมพ์ถึงขนาด A4
+CAMMENU_SIZE_16_9_GUIDE,ถ่ายภาพที่อัตราส่วน HDTV
+CAMMENU_SIZE_16_9_GUIDE_2,
+CAMMENU_SIZE_320,320
+CAMMENU_SIZE_320_GUIDE,บันทึกภาพขนาดเล็กสำหรับ
+CAMMENU_SIZE_320_GUIDE_2,ส่งแนบไปกับ e-mail
+CAMMENU_SIZE_3MEG,3M
+CAMMENU_SIZE_3M_GUIDE,สำหรับพิมพ์ที่ขนาดใหญ่สุด
+CAMMENU_SIZE_3M_GUIDE_2,10x15 ซม หรือ 13x18 ซม
+CAMMENU_SIZE_3_2_8MEG,3:2(8M)
+CAMMENU_SIZE_3_2_GUIDE,ถ่ายภาพที่อัตราส่วน 3:2
+CAMMENU_SIZE_3_2_GUIDE_2,
+CAMMENU_SIZE_4_3,4:3
+CAMMENU_SIZE_5MEG,5M
+CAMMENU_SIZE_5M_GUIDE,สำหรับพิมพ์ที่ขนาดใหญ่สุด A4
+CAMMENU_SIZE_5M_GUIDE_2,
+CAMMENU_SIZE_640FINE,640 (ละเอียด)
+CAMMENU_SIZE_640FINE_GUIDE,ถ่ายภาพเคลื่อนไหวคุณภาพสูง
+CAMMENU_SIZE_640FINE_GUIDE_2,สำหรับแสดงบนหน้าจอทีวี
+CAMMENU_SIZE_640STD,640 (ปกติ)
+CAMMENU_SIZE_640STD_GUIDE,ถ่ายภาพเคลื่อนไหวคุณภาพปกติ
+CAMMENU_SIZE_640STD_GUIDE_2,สำหรับแสดงบนหน้าจอทีวี
+CAMMENU_SIZE_8M_GUIDE,สำหรับพิมพ์ที่ขนาดใหญ่สุด A3
+CAMMENU_SIZE_8M_GUIDE_2,
+CAMMENU_SIZE_HD_2MEG,16:9(2M)
+CAMMENU_SIZE_HD_7MEG,16:9(7M)
+CAMMENU_SIZE_HD_VGA,16:9(VGA)
+CAMMENU_SIZE_VGA,VGA
+CAMMENU_SIZE_VGA_GUIDE,ถ่ายภาพที่ขนาดเล็กสำหรับ
+CAMMENU_SIZE_VGA_GUIDE_2,ส่งแนบไปกับ e-mail
+CAMMENU_SMILE,ค้นหารอยยิ้ม
+CAMMENU_SMILESHUTTER_HIGH_GUIDE,ถ่ายภาพโดยใช้การค้นหารอยยิ้ม
+CAMMENU_SMILESHUTTER_HIGH_GUIDE_2,ความไวสูง
+CAMMENU_SMILESHUTTER_LOW_GUIDE,ถ่ายภาพโดยใช้การค้นหารอยยิ้ม
+CAMMENU_SMILESHUTTER_LOW_GUIDE_2,ความไวต่ำ
+CAMMENU_SMILESHUTTER_NORMAL_GUIDE,ถ่ายภาพโดยใช้การค้นหารอยยิ้ม
+CAMMENU_SMILESHUTTER_NORMAL_GUIDE_2,ความไวปกติ
+CAMMENU_SMILE_DETECTION,ความไวตรวจสอบรอยยิ้ม
+CAMMENU_SPOT,จุดเดียว
+CAMMENU_SPOTAF,AF แบบจุด
+CAMMENU_STEADYSHOT,SteadyShot
+CAMMENU_STEADYSHOT_CONT_GUIDE,เปิดใช้ระบบ SteadyShot
+CAMMENU_STEADYSHOT_CONT_GUIDE_2,ตลอดเวลา
+CAMMENU_STEADYSHOT_OFF_GUIDE,ปิดระบบ SteadyShot
+CAMMENU_STEADYSHOT_OFF_GUIDE_2,
+CAMMENU_STEADYSHOT_SHOOT_GUIDE,เปิดระบบ SteadyShot เมื่อ
+CAMMENU_STEADYSHOT_SHOOT_GUIDE_2,กดปุ่มชัตเตอร์ครึ่งหนึ่ง
+CAMMENU_TOUCH,เมื่อถูกสัมผัส
+CAMMENU_WATERWB,อุณหภูมิสีใต้น้ำ
+CAMMENU_WATERWB_AUTO_GUIDE,ปรับอุณหภูมิสีโดยอัตโนมัติ
+CAMMENU_WATERWB_AUTO_GUIDE_2,สำหรับถ่ายภาพใต้น้ำ
+CAMMENU_WATERWB_FLASH_GUIDE,ใช้สำหรับถ่ายภาพใต้น้ำ
+CAMMENU_WATERWB_FLASH_GUIDE_2,โดยใช้แฟลช
+CAMMENU_WATERWB_WATER1,ใต้น้ำ 1
+CAMMENU_WATERWB_WATER1_GUIDE,ใช้สำหรับถ่ายภาพใต้น้ำ
+CAMMENU_WATERWB_WATER1_GUIDE_2,สีโทนน้ำเงิน
+CAMMENU_WATERWB_WATER2,ใต้น้ำ 2
+CAMMENU_WATERWB_WATER2_GUIDE,ใช้สำหรับถ่ายภาพใต้น้ำ
+CAMMENU_WATERWB_WATER2_GUIDE_2,สีโทนเขียว
+CAMMENU_WB2,อุณหภูมิสี
+CAMMENU_WB_AUTO_GUIDE,ปรับอัตโนมัติเพื่อให้ได้สี
+CAMMENU_WB_AUTO_GUIDE_2,ที่เป็นธรรมชาติ
+CAMMENU_WB_CLOUDY,แสงแดดมีเมฆ
+CAMMENU_WB_CLOUDY_GUIDE,ใช้สำหรับวันที่มีเมฆหรือ
+CAMMENU_WB_CLOUDY_GUIDE_2,ใต้ร่มเงา
+CAMMENU_WB_DAYLIGHT,แสงแดดกลางวัน
+CAMMENU_WB_DAYLIGHT_GUIDE,ใช้สำหรับฉากกลางแจ้งใต้
+CAMMENU_WB_DAYLIGHT_GUIDE_2,แสงแดดหรือวิวกลางคืน
+CAMMENU_WB_FLASH,แฟลช
+CAMMENU_WB_FLASH_GUIDE,ใช้เมื่อถ่ายภาพด้วยแฟลช
+CAMMENU_WB_FLASH_GUIDE_2,
+CAMMENU_WB_FLUORESCENT1,แสงฟลูออเรสเซนต์ 1
+CAMMENU_WB_FLUORESCENT1_GUIDE,ใช้ภายใต้แสงของ
+CAMMENU_WB_FLUORESCENT1_GUIDE_2,หลอดฟลูออเรสเซนต์ สีขาว
+CAMMENU_WB_FLUORESCENT2,แสงฟลูออเรสเซนต์ 2
+CAMMENU_WB_FLUORESCENT2_GUIDE,ใช้ภายใต้แสงขาวธรรมชาติ
+CAMMENU_WB_FLUORESCENT2_GUIDE_2,แสงฟลูออเรสเซนต์
+CAMMENU_WB_FLUORESCENT3,แสงฟลูออเรสเซนต์ 3
+CAMMENU_WB_FLUORESCENT3_GUIDE,ใช้ภายใต้แสงของหลอด
+CAMMENU_WB_FLUORESCENT3_GUIDE_2,ฟลูออเรสเซนซ์สีขาวกลางวัน
+CAMMENU_WB_INCANDESCENT,แสงหลอดไฟฟ้า
+CAMMENU_WB_INCANDESCENT_GUIDE,ใช้ภายใต้แสงของหลอดไฟมีไส้
+CAMMENU_WB_INCANDESCENT_GUIDE_2,หรือแสงวิดีโอ
+CAMMODE_AUTO,ตั้งค่าอัตโนมัติ
+CAMMODE_AUTO_GUIDE,สำหรับถ่ายภาพ
+CAMMODE_AUTO_GUIDE_2,โดยตั้งค่าอัตโนมัติ
+CAMMODE_BEACH,หาดทราย
+CAMMODE_BEACH_GUIDE,ถ่ายภาพริมน้ำโดย
+CAMMODE_BEACH_GUIDE_2,เน้นสีฟ้าของผิวน้ำ
+CAMMODE_COOKING,อาหาร
+CAMMODE_COOKING_GUIDE,ถ่ายภาพอาหารให้ดูเป็น
+CAMMODE_COOKING_GUIDE_2,ธรรมชาติ
+CAMMODE_EASY,ถ่ายภาพอย่างง่าย
+CAMMODE_EASY_GUIDE,ถ่ายภาพอัตโนมัติสมบูรณ์แบบ
+CAMMODE_EASY_GUIDE_2,ด้วยหน้าจอแสดงผลอย่างง่าย
+CAMMODE_FIREWORKS,ดอกไม้ไฟ
+CAMMODE_FIREWORKS_GUIDE,ถ่ายภาพดอกไม้ไฟ
+CAMMODE_FIREWORKS_GUIDE_2,ให้สวยงาม
+CAMMODE_HIGHSENSITIVITY,ความไวแสงสูง
+CAMMODE_HIGHSENSITIVITY_GUIDE,ลดอาการภาพเบลอเมื่อถ่ายภาพ
+CAMMODE_HIGHSENSITIVITY_GUIDE_2,ที่มีแสงน้อยโดยไม่ใช้แฟลช
+CAMMODE_HIGHSPEEDSHUTTER,ชัตเตอร์ความเร็วสูง
+CAMMODE_HIGHSPEEDSHUTTER_GUIDE,ถ่ายภาพวัตถุที่กำลัง
+CAMMODE_HIGHSPEEDSHUTTER_GUIDE_2,เคลื่อนไหวเร็ว
+CAMMODE_LANDSCAPE,วิว
+CAMMODE_LANDSCAPE_GUIDE,ถ่ายภาพวิวโดยปรับ
+CAMMODE_LANDSCAPE_GUIDE_2,โฟกัสไว้ที่ระยะไกล
+CAMMODE_MOVIE,ถ่ายภาพเคลื่อนไหว
+CAMMODE_MOVIE_GUIDE,บันทึกภาพเคลื่อนไหว
+CAMMODE_MOVIE_GUIDE_2,พร้อมเสียง
+CAMMODE_PAUTO,โปรแกรมอัตโนมัติ
+CAMMODE_PAUTO_GUIDE,ปรับระดับแสงอัตโนมัติโดย
+CAMMODE_PAUTO_GUIDE_2,ปรับการตั้งค่าต่างๆได้
+CAMMODE_SNOW,หิมะ
+CAMMODE_SNOW_GUIDE,ถ่ายภาพโทนขาวให้ได้
+CAMMODE_SNOW_GUIDE_2,ภาพที่สว่าง
+CAMMODE_SOFTSNAP,ภาพซอฟท์
+CAMMODE_SOFTSNAP_GUIDE,ถ่ายภาพวัตถุให้ได้ฉากหลัง
+CAMMODE_SOFTSNAP_GUIDE_2,นุ่มนวล
+CAMMODE_TWILIGHT,กลางคืน
+CAMMODE_TWILIGHTPORTRAIT,บุคคลกลางคืน
+CAMMODE_TWILIGHTPORTRAIT_GUIDE,ถ่ายภาพบุคคลในที่แสงน้อย
+CAMMODE_TWILIGHTPORTRAIT_GUIDE_2,โดยใช้แฟลช
+CAMMODE_TWILIGHTTRIPOD_GUIDE,ถ่ายภาพในฉากที่มีแสงน้อย
+CAMMODE_TWILIGHTTRIPOD_GUIDE_2,โดยใช้ขาตั้งกล้อง
+CAMMODE_WATER,ใต้น้ำ
+CAMMODE_WATER_GUIDE,ถ่ายภาพใต้น้ำให้ได้สีธรรมชาติ
+CAMMODE_WATER_GUIDE_2,โดยใช้กล่องกันน้ำ
+CLOCKMENU_APR,เม. ย.
+CLOCKMENU_AUG,ส. ค.
+CLOCKMENU_DEC,ธ. ค.
+CLOCKMENU_DMY,ว-ด-ป
+CLOCKMENU_FEB,ก. พ.
+CLOCKMENU_JAN,ม. ค.
+CLOCKMENU_JUL,ก. ค.
+CLOCKMENU_JUN,มิ. ย.
+CLOCKMENU_MAR,มี. ค.
+CLOCKMENU_MAY,พ. ค.
+CLOCKMENU_MDY,ด-ว-ป
+CLOCKMENU_NOV,พ. ย.
+CLOCKMENU_OCT,ต. ค.
+CLOCKMENU_SEP,ก. ย.
+CLOCKMENU_UNKNOWN,---
+CLOCKMENU_YMD,ป-ด-ว
+COM_AUTO,อัตโนมัติ
+COM_BACK,ย้อนกลับ
+COM_CANCEL,ยกเลิก
+COM_CLEAR,ถอนเลือก
+COM_CLEARALL,ลบทั้งหมด
+COM_CONTINUE,ต่อเนื่อง
+COM_CREATED,สร้างเมื่อ
+COM_ENTRY,เลือก
+COM_EXIT,ออก
+COM_FAST,เร็ว
+COM_HIGH,สูง
+COM_INTERNALMEMORY,หน่วยความจำภายใน
+COM_LOW,ต่ำ
+COM_MED,ปานกลาง
+COM_MIN,นาที
+COM_MOVIEREC,บันทึก
+COM_MOVIESTBY,พร้อม
+COM_MS,Memory Stick
+COM_MS_AND_INTERNALMEMORY,Memory Stick ＋ หน่วยความจำภายใน
+COM_NOOFFILES,จำนวนไฟล์
+COM_NORMAL,ปกติ
+COM_OFF,ปิด
+COM_OK,ตกลง
+COM_ON,เปิด
+COM_PREVIEW,แสดง
+COM_REMAIN,ถ่ายได้อีก
+COM_SAVE,จัดเก็บ
+COM_SLOW,ช้า
+COM_STANDARD,ปกติ
+COM_STANDARD2,ปกติ
+COM_START,เริ่ม
+COM_USBMODE,โหมด USB
+COM_VOLUME,เสียง
+COU_640FINE,เลือก 640 (ละเอียด) ไม่ได้
+COU_640FINE_2,
+COU_AUDIOPLUGIN,ต่อปลั้กเสียง เพื่อรับ
+COU_AUDIOPLUGIN_2,สัญญาณเสียงออกจากกล้อง
+COU_BATTERY_HEATED,กล้องร้อนเกินไป
+COU_BATTERY_HEATED_2,รอให้กล้องเย็นลง
+COU_BATTERY_INFOLITHIUM,สำหรับแบตเตอรี่
+COU_BATTERY_INFOLITHIUM_2,"InfoLITHIUM" เท่านั้น
+COU_BATTERY_INVALID,ใช้งานได้กับแบตเตอรี่
+COU_BATTERY_INVALID_2,ชนิดที่กำหนดเท่านั้น
+COU_BGM_ERROR,เสียงดนตรีผิดพลาด
+COU_BGM_ERROR_2,
+COU_BGM_FORMATERROR,เกิดข้อผิดพลาดในการ
+COU_BGM_FORMATERROR_2,ฟอร์แมตเนื้อที่เสียงดนตรี
+COU_BURST_INVALID,ถ่ายต่อเนื่องไม่ได้
+COU_BURST_INVALID_2,
+COU_CANNOTACCESS_MS,อ่านข้อมูล Memory Stick ไม่ได้
+COU_CANNOTACCESS_MS_2,การอ่านข้อมูลถูกปฏิเสธ
+COU_CANNOTCREATE_FOLDERS,สร้างโฟลเดอร์เพิ่มอีกไม่ได้
+COU_CANNOTCREATE_FOLDERS_2,
+COU_DATA_ERROR,ไฟล์จัดการภาพผิดพลาด
+COU_DATA_ERROR_2,
+COU_ERROR10,ข้อผิดพลาด10
+COU_ERROR20,ข้อผิดพลาด20
+COU_ERROR30,ข้อผิดพลาด30
+COU_ERROR40,ข้อผิดพลาด40
+COU_ERROR50,ข้อผิดพลาด50
+COU_EXCEEDED_LIMIT,เลือกภาพเกินจำนวนสูงสุด
+COU_EXCEEDED_LIMIT_2,
+COU_FILEERROR,ไฟล์ผิดพลาด
+COU_FILEERROR_2,
+COU_FILEPROTECT,ป้องกันไฟล์
+COU_FILEPROTECT_2,
+COU_FLASHSETTING_INVALID,เปลี่ยนการตั้งค่าแฟลชไม่ได้
+COU_FLASHSETTING_INVALID_2,
+COU_FOLDER_ERROR,โฟลเดอร์ผิดพลาด
+COU_FOLDER_ERROR_2,
+COU_FORMATERROR_INTERNALMEMORY,เกิดข้อผิดพลาดขณะฟอร์แมต
+COU_FORMATERROR_INTERNALMEMORY_2,หน่วยความจำภายใน
+COU_FORMATERROR_MS,เกิดข้อผิดพลาดขณะฟอร์แมต
+COU_FORMATERROR_MS_2,Memory Stick
+COU_IMAGESIZEOVER,ขนาดภาพใหญ่เกินไป
+COU_IMAGESIZEOVER_2,
+COU_INKERROR,หมึกพิมพ์เกิดข้อผิดพลาด
+COU_INKERROR_2,
+COU_INVALID_FILE,ไฟล์ไม่ถูกต้อง
+COU_INVALID_FILE_2,
+COU_INVALID_FOLDER,ใช้งานไม่ได้ขณะ
+COU_INVALID_FOLDER_2,ดูตามโฟลเดอร์
+COU_INVALID_MS,ไม่สามารถจัดเก็บไฟล์จัดการภาพ
+COU_INVALID_MS_2,ใน Memory Stick แผ่นนี้
+COU_INVALID_OPERATION,การใช้งานไม่ถูกต้อง
+COU_INVALID_OPERATION_HDOUT,ใช้งานไม่ได้ระหว่างส่งสัญญาณ
+COU_INVALID_OPERATION_HDOUT_2,ออกที่ช่อง HD(1080i)
+COU_INVALID_OPERATION_MOVIEFILE,ใช้งานไม่ได้กับไฟล์ภาพเคลื่อนไหว
+COU_INVALID_OPERATION_MOVIEFILE_2,
+COU_INVALID_OPERATION_NGFILE,ใช้งานไม่ได้กับไฟล์ที่ไม่สนับสนุน
+COU_INVALID_OPERATION_NGFILE_2,
+COU_INVALID_OPERATION_PICTBRIDGE,ใช้งานไม่ได้ระหว่างทำการ
+COU_INVALID_OPERATION_PICTBRIDGE_2,เชื่อมต่อ PictBridge
+COU_INVALID_OPERATION_REMOTE,ใช้งานไม่ได้ด้วยรีโมทคอนโทรล
+COU_INVALID_OPERATION_REMOTE_2,
+COU_INVALID_OPERATION_TVOUT,ใช้งานไม่ได้ระหว่างส่งสัญญาณ
+COU_INVALID_OPERATION_TVOUT_2,ออก TV
+COU_LENSCAPOFF,ถอดฝาปิดหน้าเลนส์ออก
+COU_LENSCAPOFF_2,แล้วปิดเปิดสวิตช์กล้องอีกครั้ง
+COU_LENSCOVER_OPEN,เปิดฝาปิดเลนส์เพื่อถ่ายภาพ
+COU_LENSCOVER_OPEN_2,
+COU_LOWINK,หมึกเหลือน้อย
+COU_LOWINK_2,
+COU_MACRO_INVALID,ถ่ายระยะใกล้ไม่ได้
+COU_MACRO_INVALID_2,
+COU_MEDIAERROR_INTERNALMEMORY,หน่วยความจำภายในผิดพลาด
+COU_MEDIAERROR_INTERNALMEMORY_2,
+COU_METERING_INVALID,เลือกโหมดวัดแสงไม่ได้
+COU_METERING_INVALID_2,
+COU_MSR_NOTUSEFUNCTION,ระบบใช้งานไม่ได้กับ Memory Stick นี้
+COU_MSR_NOTUSEFUNCTION_2,
+COU_MS_ERROR,สอดแผ่น Memory Stick อีกครั้ง
+COU_MS_ERROR_2,
+COU_MS_LOCKED,Memory Stick ถูกล็อคไว้
+COU_MS_LOCKED_2,
+COU_MS_TYPEERROR,Memory Stick ผิดประเภท
+COU_MS_TYPEERROR_2,
+COU_NOBATTERY,กำลังแบตเตอรี่ไม่เพียงพอ
+COU_NOIMAGE,ไม่มีภาพ
+COU_NOIMAGE_2,
+COU_NOIMAGE_PLAY,ส่งภาพบางภาพไม่ได้
+COU_NOIMAGE_PLAY_2,เป็นรูปแบบภาพที่ไม่รู้จัก
+COU_NOINK,หมึกหมด
+COU_NOINK_2,
+COU_NOMS,ไม่มี Memory Stick
+COU_NOMS_2,
+COU_NOPAPER,ไม่มีกระดาษ
+COU_NOPAPER_2,
+COU_NOSOFTWAREFILE,ไม่มีไฟล์ซอฟต์แวร์
+COU_NOSOFTWAREFILE_2,
+COU_NOSPACE_INTERNALMEMORY,หน่วยความจำภายในเต็ม
+COU_NOSPACE_INTERNALMEMORY_2,
+COU_NOSPACE_MS,หน่วยความจำ Memory Stick เต็ม
+COU_NOSPACE_MS_2,
+COU_NOT_SELECTED_FAV,ยังไม่ได้เลือก ภาพที่ชอบ
+COU_NOT_SELECTED_FAV_2,
+COU_NOT_SELECTED_IMAGES,ยังไม่ได้เลือกภาพ
+COU_NOT_SELECTED_IMAGES_2,
+COU_NOT_SELECTED_SHARE,ยังไม่ได้เลือก แชร์ภาพ
+COU_NOT_SELECTED_SHARE_2,
+COU_PAPERERROR,กระดาษเกิดข้อผิดพลาด
+COU_PAPERERROR_2,
+COU_PASSLOCK_CODE_MISS,รหัสปลดล็อคไม่ถูกต้อง
+COU_PASSLOCK_CODE_MISS_2,
+COU_PASSLOCK_PASS_MISS,รหัสผ่านไม่ถูกต้อง
+COU_PASSLOCK_PASS_MISS_2,
+COU_POWEROFFON,กรุณาปิดและเปิดสวิตช์ใหม่
+COU_POWEROFFON_2,
+COU_PRINTERBUSY,เครื่องพิมพ์ไม่ว่าง
+COU_PRINTERBUSY_2,
+COU_PRINTERERROR,เครื่องพิมพ์เกิดข้อผิดพลาด
+COU_PRINTERERROR_2,
+COU_READONLYMEMORY,หน่วยความจำสำหรับอ่านเท่านั้น
+COU_READONLYMEMORY_2,
+COU_READONLY_FOLDER,โฟลเดอร์อ่านอย่างเดียว
+COU_READONLY_FOLDER_2,
+COU_REDEYE_DETECTED,ตรวจไม่พบตาแดงในภาพ
+COU_REDEYE_DETECTED_2,
+COU_SCRNTOUCH_INVALID,หน้าจอสัมผัสไม่ทำงานในบริเวณนี้
+COU_SCRNTOUCH_INVALID_2,
+COU_SELFTIMER_INVALID,ระบบตั้งเวลาใช้ไม่ได้
+COU_SELFTIMER_INVALID_2,
+COU_SMILESHUTTER_AUTOONLY,ใช้งานระบบลั่นชัตเตอร์ด้วยรอยยิ้มได้
+COU_SMILESHUTTER_AUTOONLY_2,เมื่อใช้โหมดถ่ายภาพ "อัตโนมัติ" เท่านั้น
+COU_SYSTEMERROR,ระบบเกิดข้อผิดพลาด
+COU_SYSTEMERROR_2,
+COU_TARGET_DETECTED,ไม่พบภาพใบหน้าสำหรับแก้ไข
+COU_TARGET_DETECTED_2,
+COU_TARGET_NOIMAGE,ไม่มีภาพนิ่ง
+COU_TARGET_NOIMAGE_2,
+COU_ZOOM_INVALID,ระบบซูมถูกปิดอยู่
+COU_ZOOM_INVALID_2,
+DUMMY,
+GUIDE_BUTTON,เลือกปุ่มที่ท่านต้องการใช้งาน
+GUIDE_CENTER,แตะตำแหน่งสำหรับจัดศูนย์กลาง
+GUIDE_CHANGEFOCUS,เปลี่ยนตำแหน่งโฟกัสโดยการสัมผัส
+GUIDE_CHOOSEFOCUS,เลือกตำแหน่งโฟกัสโดยการสัมผัส
+GUIDE_DEMO_BACKLIGHT,ตรวจพบภาพย้อนแสง
+GUIDE_DEMO_BACKLIGHTPORTRAIT,ตรวจพบภาพย้อนแสงและบุคคล
+GUIDE_DEMO_LANDSCAPE,ตรวจพบภาพวิว
+GUIDE_DEMO_MACRO,ตรวจพบวัตถุในระยะใกล้มาก
+GUIDE_DEMO_PORTRAIT,ตรวจพบบุคคล
+GUIDE_DEMO_TRIPOD,ตรวจพบภาพกลางคืนและการใช้ขาตั้ง
+GUIDE_DEMO_TWILIGHT,ตรวจพบภาพกลางคืน
+GUIDE_DEMO_TWILIGHTPORTRAIT,ตรวจพบภาพกลางคืนและบุคคล
+GUIDE_EFFECTLEVEL,เลือกระดับการปรับ
+GUIDE_EXIT_TOUCH,ยุติเมื่อหน้าจอ LCD ถูกสัมผัส
+GUIDE_LIGHTBEAM_LEVEL,เลือกระดับความสว่างลำแสง
+GUIDE_RANGE,เลือกระยะหวังผล
+GUIDE_RESIZE,สิ้นสุดการปรับขนาดภาพ
+GUIDE_RETOUCH_COMPLETE,สิ้นสุดการปรับแต่งภาพ
+GUIDE_RETRO_LIGHT,เลือกขอบเขตความสว่าง
+GUIDE_ROTATEIMG,เลือกภาพที่ต้องการหมุน
+GUIDE_SAVESIZE,เลือกขนาดที่ต้องการจัดเก็บ
+GUIDE_SELECTFACE,เลือกภาพใบหน้าโดยการสัมผัส
+GUIDE_SELECTFAV,เลือกโฟลเดอร์ภาพที่ชอบ
+GUIDE_SMILEDEMO_START,เลือกไอคอนยิ้มเพื่อเริ่มการสาธิต
+GUIDE_SMILESHUTTER_EXIT,เลือกไอคอนยิ้มเพื่อยุติการสาธิต
+GUIDE_STARTIMG,เลือกภาพแรกสำหรับสไลด์โชว์
+GUIDE_TOUCHFAV,แตะโฟลเดอร์ภาพที่ชอบ
+GUIDE_TOUCHIMG,เลือกภาพ
+GUIDE_ZOOMIN_TOUCH,แตะตำแหน่งที่ต้องการซูมเข้า
+GUIDE_ZOOMIN_TOUCHED,ซูมเข้า ณ จุดที่สัมผัส
+HOME,HOME
+HOME_CAM,ถ่ายภาพ
+HOME_CAM_GUIDE2,ถ่ายภาพหรือภาพเคลื่อนไหว
+HOME_CAM_GUIDE2_2,
+HOME_COMMUNICATION,สื่อสาร
+HOME_ETC_BGMTOOL,เครื่องมือเสียงดนตรี
+HOME_ETC_BGMTOOL_GUIDE2,จัดการเสียงดนตรีสำหรับ
+HOME_ETC_BGMTOOL_GUIDE2_2,สไลด์โชว์
+HOME_ETC_PRINT_GUIDE2,พิมพ์ภาพ
+HOME_ETC_PRINT_GUIDE2_2,
+HOME_MEMORY,จัดการหน่วยความจำ
+HOME_MEMORY_GUIDE2,จัดการสื่อบันทึก
+HOME_MEMORY_GUIDE2_2,
+HOME_MEMORY_INTERNALMEMORYTOOL,จัดการหน่วยความจำภายใน
+HOME_MEMORY_MEMORYSTICKTOOL,จัดการ Memory Stick
+HOME_MEMORY_MEMORYTOOL,เครื่องมือหน่วยความจำ
+HOME_NETWORK,เครือข่าย
+HOME_NETWORK_GUIDE,เชื่อมต่อเครือข่าย
+HOME_NETWORK_GUIDE_2,
+HOME_PLAY,ดูภาพ
+HOME_PLAY1,ดูภาพ 1
+HOME_PLAY2,ดูภาพ 2
+HOME_PLAY_INDEX_GUIDE2,แสดงรายการหลายภาพ
+HOME_PLAY_INDEX_GUIDE2_2,
+HOME_PLAY_NORMAL_GUIDE2,ดูแต่ละภาพเดี่ยว
+HOME_PLAY_NORMAL_GUIDE2_2,
+HOME_PLAY_SLIDESHOW_GUIDE2,แสดงภาพอัตโนมัติพร้อมดนตรี
+HOME_PLAY_SLIDESHOW_GUIDE2_2,และลูกเล่น
+HOME_PRINT,พิมพ์
+HOME_SCENESELECTION,เลือกบรรยากาศ
+HOME_SCRAPBOOK,สมุดภาพ
+HOME_SCRAPBOOK_GUIDE,สร้างสมุดภาพโดยอัตโนมัติ
+HOME_SCRAPBOOK_GUIDE_2,
+HOME_SETTINGS,ตั้งค่า
+HOME_SET_CAM,ตั้งค่าถ่ายภาพ
+HOME_SET_CAM_GUIDE2,ปรับการตั้งค่าถ่ายภาพ
+HOME_SET_CAM_GUIDE2_2,
+HOME_SET_CLOCK,ตั้งเวลานาฬิกา
+HOME_SET_CLOCK_GUIDE2,ตั้งวันที่และเวลา
+HOME_SET_CLOCK_GUIDE2_2,
+HOME_SET_LANGUAGE,Language Setting
+HOME_SET_LANGUAGE_CHANGE_GUIDE,Change Language
+HOME_SET_LANGUAGE_CHANGE_GUIDE_2,
+HOME_SET_LANGUAGE_GUIDE2,Change Language
+HOME_SET_LANGUAGE_GUIDE2_2,
+HOME_SET_MAIN,ตั้งค่าหลัก
+HOME_SET_MAIN_GUIDE2,ปรับการตั้งค่าหลัก
+HOME_SET_MAIN_GUIDE2_2,
+HOME_SLIDESHOW,สไลด์โชว์
+HOME_VIEW_DATE,ดูภาพตามวันที่
+HOME_VIEW_DATE_GUIDE2,แสดงภาพตามวันที่ที่ถ่ายภาพ
+HOME_VIEW_DATE_GUIDE2_2,
+HOME_VIEW_EVENT,ดูภาพตามเหตุการณ์
+HOME_VIEW_EVENT_GUIDE,จัดลำดับภาพเป็นกลุ่มเพื่อแสดง
+HOME_VIEW_EVENT_GUIDE_2,โดยอัตโนมัติ
+HOME_VIEW_FAV,ภาพที่ชอบ
+HOME_VIEW_FAV_GUIDE2,แสดงภาพในรายการภาพที่ชอบ
+HOME_VIEW_FAV_GUIDE2_2,
+HOME_VIEW_FOLDER,ดูตามโฟลเดอร์
+HOME_VIEW_FOLDER_GUIDE2,แสดงภาพในโฟลเดอร์ DCF
+HOME_VIEW_FOLDER_GUIDE2_2,
+KEY_FLASH_AUTO_GUIDE,แฟลชอัตโนมัติ
+KEY_FLASH_AUTO_GUIDE_2,ไฟแฟลชติดโดยอัตโนมัติ
+KEY_FLASH_OFF,ปิดแฟลช
+KEY_FLASH_OFF_GUIDE,ปิดแฟลช
+KEY_FLASH_OFF_GUIDE_2,ไม่ใช้แฟลช
+KEY_FLASH_ON,เปิดแฟลช
+KEY_FLASH_ON_GUIDE,เปิดแฟลช
+KEY_FLASH_ON_GUIDE_2,ใช้แฟลชเสมอ
+KEY_FLASH_SYNCHRO_GUIDE,คงความสว่างวัตถุและฉากหลัง
+KEY_FLASH_SYNCHRO_GUIDE_2,
+KEY_MACRO_AUTO_GUIDE,โฟกัสอัตโนมัติตั้งแต่ระยะใกล้
+KEY_MACRO_AUTO_GUIDE_2,จนถึงระยะอนันต์
+KEY_MACRO_NEAR,เปิดระบบมาโคร
+KEY_MACRO_NEAR_GUIDE,โฟกัสโดยให้ความสำคัญกับ
+KEY_MACRO_NEAR_GUIDE_2,วัตถุในระยะใกล้มาก
+KEY_MAGNIFY_ON,เปิดระบบโฟกัสใกล้มาก
+KEY_MAGNIFY_ON_GUIDE,เปิดระบบโฟกัสใกล้มาก
+KEY_MAGNIFY_ON_GUIDE_2,สำหรับการถ่ายภาพใกล้มาก
+KEY_SELFTIMER_10_GUIDE,ถ่ายภาพ 10 วินาทีหลังจาก
+KEY_SELFTIMER_10_GUIDE_2,กดปุ่มชัตเตอร์
+KEY_SELFTIMER_2_GUIDE,ถ่ายภาพ 2 วินาทีหลังจาก
+KEY_SELFTIMER_2_GUIDE_2,กดปุ่มชัตเตอร์
+KEY_SELFTIMER_OFF_GUIDE,ปิดระบบตั้งเวลา
+KEY_SELFTIMER_OFF_GUIDE_2,
+MSG_ACCESSING,อ่านเขียนข้อมูล…
+MSG_AVI_MAKING,สร้างไฟล์จัดการภาพใหม่…
+MSG_CAPTURING,ถ่ายภาพ…
+MSG_CLOSEEYE_DETECT,ตรวจพบภาพกะพริบตา
+MSG_CONFIRM_UPDATE,เลือก ตกลง เพื่อปรับปรุง
+MSG_CONFIRM_UPDATE_2,
+MSG_CONNECTING,กำลังเชื่อมต่อ…
+MSG_CONNECTING_MASSSTORAGE,เชื่อมต่ออยู่แบบ
+MSG_CONNECTING_MASSSTORAGE_2,Mass Storage…
+MSG_CONNECTING_NETWORK,เชื่อมต่อกับเครือข่าย…
+MSG_CONNECTING_PICTBRIDGE,เชื่อมต่อกับ อุปกรณ์ PictBridge…
+MSG_CONNECTING_PICTBRIDGE_2,
+MSG_CONNECTING_PTPMTP,เชื่อมต่อกับ
+MSG_CONNECTING_PTPMTP_2,PTP/MTP…
+MSG_CONNECT_PC,เชื่อมต่อกับ PC
+MSG_CONNECT_PC_2,
+MSG_CONNECT_PICTBRIDGE,เชื่อมต่อกับอุปกรณ์ PictBridge
+MSG_CONNECT_PICTBRIDGE_2,
+MSG_COPY,ข้อมูลทั้งหมดในหน่วยความจำ
+MSG_COPYING,กำลังคัดลอก…
+MSG_COPYING_2,
+MSG_COPY_2,ภายในจะถูกคัดลอก
+MSG_CREATING_RECFOLDER,สร้างโฟลเดอร์บันทึก
+MSG_CURRENTVERSION,รุ่นปัจจุบัน
+MSG_ENTRY_OVER,บันทึกเกินจำนวนภาพสูงสุดแล้ว
+MSG_ENTRY_OVER_2,
+MSG_EXITTING_NETWORK,ยุติการเชื่อมต่อกับเครือข่าย…
+MSG_FORMATTING_BGM,กำลังฟอร์แมต ดนตรี…
+MSG_FORMATTING_BGM_2,
+MSG_FORMATTING_INTERNALMEMORY,กำลังฟอร์แมต หน่วยความจำภายใน…
+MSG_FORMATTING_INTERNALMEMORY_2,
+MSG_FORMATTING_MS,กำลังฟอร์แมต Memory Stick…
+MSG_FORMATTING_MS_2,
+MSG_FORMAT_BGM,ไฟล์เสียงดนตรีทั้งหมดจะถูกลบ
+MSG_FORMAT_BGM_2,
+MSG_FORMAT_INTERNALMEMORY,ข้อมูลทั้งหมดในหน่วยความจำ
+MSG_FORMAT_INTERNALMEMORY_2,ภายในจะถูกลบ
+MSG_FORMAT_MS,ข้อมูลทั้งหมดใน Memory Stick
+MSG_FORMAT_MS_2,จะถูกลบ
+MSG_FORWARDING,กำลังส่งข้อมูล…
+MSG_HOUSING,เปลี่ยนการทำงานแล้ว
+MSG_INITIALIZE_ALLSETTINGS,ใช้ค่าเริ่มต้นทุกตัวเลือก
+MSG_INITIALIZE_ALLSETTINGS_2,
+MSG_NEWVERSION,รุ่นใหม่
+MSG_NOTTURNOFF,อย่าปิดสวิตช์
+MSG_PASSLOCK_PASS_CANCEL,การป้องกันด้วยรหัสผ่าน
+MSG_PASSLOCK_PASS_CANCEL_2,ถูกยกเลิกแล้ว
+MSG_PASSLOCK_PASS_RESET,รหัสผ่านถูกปลดแล้ว
+MSG_PASSLOCK_PASS_RESET_2,
+MSG_PASSLOCK_PASS_RESET_MODE,โหมดปลดรหัสผ่าน
+MSG_PASSLOCK_PASS_RESET_MODE_2,
+MSG_PASSLOCK_PASS_SET,ตั้งค่าการป้องกันด้วยรหัสผ่าน
+MSG_PASSLOCK_PASS_SET_2,เรียบร้อยแล้ว
+MSG_PRINTING,กำลังพิมพ์…
+MSG_PROCESSING,ประมวลผล…
+MSG_RECORDING,กำลังบันทึกข้อมูล…
+MSG_RECORD_MS,บันทึกลง Memory Stick
+MSG_RECOVER,กู้ข้อมูล
+MSG_RECOVERINGFILE,กู้ไฟล์จัดการภาพ…
+MSG_RECOVERINGFILE_2,
+MSG_RECOVER_2,
+MSG_SEE_SOFTWAREUPDATE_INST,กรุณาศึกษา "วิธีการ ปรับปรุง
+MSG_SEE_SOFTWAREUPDATE_INST_2,ซอฟต์แวร์"
+MSG_SMILEDEMO_GUIDE,รอยยิ้มจะถูกถ่ายภาพโดยอัตโนมัติ
+MSG_SMILEDEMO_PROCESSING,สาธิตระบบลั่นชัตเตอร์ด้วยรอยยิ้ม
+MSG_SMILESHUTTER_PROCESSING,กำลังค้นหารอยยิ้ม
+MSG_SMILE_END1,จำนวนภาพ
+MSG_SOFTWAREUPDATE,ปรับปรุงซอฟต์แวร์
+MSG_SOFTWAREUPDATE_2,
+MSG_STARTING_NETWORK,เริ่มใช้งานเครือข่าย…
+MSG_START_BROWSER,เปิดโปรแกรมท่องเว็บ…
+MSG_TOUCH_X_CENTER,แตะตรงกลางของเครื่องหมาย "×"
+MSG_TVOUT,กำลังส่งออกสัญญาณทีวี…
+MSG_USBMENU,ตั้งค่าโดยใช้ [MENU]
+PASSLOCK_PASS_CLEAR,ป้อนรหัสปลดล็อค
+PASSLOCK_PASS_INPUT,ป้อนรหัสผ่าน
+PASSLOCK_PASS_REINPUT,ป้อนรหัสผ่านอีกครั้ง
+PASSLOCK_PASS_SET,ตั้งรหัสผ่าน
+PBMENU_ALBUM_GUIDE,กลับไปแสดงอัลบั้ม
+PBMENU_ALBUM_GUIDE_2,
+PBMENU_BACKGROUND,ฉากหลัง
+PBMENU_BLOG_GUIDE,ลดขนาดภาพและจัดเก็บ
+PBMENU_BLOG_GUIDE_2,เป็นภาพใหม่
+PBMENU_DATEALL,ทุกภาพในช่วงวันที่
+PBMENU_DATEALL_CLEAR,ถอนเลือกทุกภาพในช่วงวันที่
+PBMENU_DATEALL_ENTRY,ใส่ทุกภาพในช่วงวันที่
+PBMENU_DATEALL_SET,เลือกทุกภาพในช่วงวันที่
+PBMENU_DATELIST,รายการวันที่
+PBMENU_DATELIST_GUIDE,เลือกวันที่ ที่ต้องการแสดง
+PBMENU_DATELIST_GUIDE_2,
+PBMENU_DELETE,ลบ
+PBMENU_DELETE_ALL_GUIDE,ลบทุกภาพ
+PBMENU_DELETE_ALL_GUIDE_2,ในโฟลเดอร์นี้
+PBMENU_DELETE_DATEALL_GUIDE,ลบทุกภาพในช่วงวันที่นี้
+PBMENU_DELETE_DATEALL_GUIDE_2,
+PBMENU_DELETE_EVENTALL_GUIDE,ลบทุกภาพในเหตุการณ์นี้
+PBMENU_DELETE_EVENTALL_GUIDE_2,
+PBMENU_DELETE_SELECT_GUIDE,ลบภาพหลายภาพที่เลือกเอาไว้
+PBMENU_DELETE_SELECT_GUIDE_2,
+PBMENU_DELETE_SINGLE_GUIDE,ลบภาพ
+PBMENU_DELETE_SINGLE_GUIDE_2,
+PBMENU_DPOF,DPOF
+PBMENU_DPOF_ALL_CLEAR_GUIDE,ลบเครื่องหมายสั่งพิมพ์
+PBMENU_DPOF_ALL_CLEAR_GUIDE_2,ทุกภาพในโฟลเดอร์นี้
+PBMENU_DPOF_ALL_SET_GUIDE,ใส่เครื่องหมายสั่งพิมพ์
+PBMENU_DPOF_ALL_SET_GUIDE_2,ทุกภาพในโฟลเดอร์นี้
+PBMENU_DPOF_DATEALL_CLEAR_GUIDE,ลบเครื่องหมายสั่งพิมพ์
+PBMENU_DPOF_DATEALL_CLEAR_GUIDE_2,บนทุกภาพในช่วงวันที่นี้
+PBMENU_DPOF_DATEALL_SET_GUIDE,ใส่เครื่องหมายสั่งพิมพ์
+PBMENU_DPOF_DATEALL_SET_GUIDE_2,บนทุกภาพในช่วงวันที่นี้
+PBMENU_DPOF_EVENTALL_CLEAR_GUIDE,ลบเครื่องหมายสั่งพิมพ์
+PBMENU_DPOF_EVENTALL_CLEAR_GUIDE_2,บนทุกภาพในเหตุการณ์นี้
+PBMENU_DPOF_EVENTALL_SET_GUIDE,ใส่เครื่องหมายสั่งพิมพ์
+PBMENU_DPOF_EVENTALL_SET_GUIDE_2,บนทุกภาพในเหตุการณ์นี้
+PBMENU_DPOF_FAVALL_CLEAR_GUIDE,ลบเครื่องหมายสั่งพิมพ์
+PBMENU_DPOF_FAVALL_CLEAR_GUIDE_2,บนทุกภาพในกลุ่มนี้
+PBMENU_DPOF_FAVALL_SET_GUIDE,ใส่เครื่องหมายสั่งพิมพ์
+PBMENU_DPOF_FAVALL_SET_GUIDE_2,บนทุกภาพในกลุ่มนี้
+PBMENU_DPOF_SELECT_GUIDE,ใส่/ลบ เครื่องหมายสั่งพิมพ์
+PBMENU_DPOF_SELECT_GUIDE_2,บนภาพหลายภาพที่เลือกเอาไว้
+PBMENU_DPOF_SINGLE_GUIDE,ใส่/ลบ เครื่องหมายสั่งพิมพ์
+PBMENU_DPOF_SINGLE_GUIDE_2,บนภาพที่เลือกไว้
+PBMENU_EDIT,ปรับแต่ง
+PBMENU_EDIT_BLOG_EMAIL,Blog / E-mail
+PBMENU_EDIT_BW,สีบางส่วน
+PBMENU_EDIT_BW_GUIDE,ปรับภาพรอบจุดที่เลือก
+PBMENU_EDIT_BW_GUIDE_2,ให้เป็นภาพขาวดำ
+PBMENU_EDIT_CROSS,ประกายแสง
+PBMENU_EDIT_CROSS_GUIDE,เพิ่มประกายแสง ณ จุดสว่าง
+PBMENU_EDIT_CROSS_GUIDE_2,บนภาพ
+PBMENU_EDIT_FISHEYE,เลนส์ fisheye
+PBMENU_EDIT_FISHEYE_GUIDE,ใส่ลูกเล่นเลนส์ fisheye รอบ
+PBMENU_EDIT_FISHEYE_GUIDE_2,จุดที่เลือก
+PBMENU_EDIT_HDTV,HDTV
+PBMENU_EDIT_RADIATION,ปรับภาพเบลอแนวรัศมี
+PBMENU_EDIT_RADIATION_GUIDE,ปรับภาพรอบจุดที่เลือก
+PBMENU_EDIT_RADIATION_GUIDE_2,ให้เบลอในแนวรัศมี
+PBMENU_EDIT_REDEYE,แก้ไขตาแดง
+PBMENU_EDIT_REDEYE_GUIDE,ลบตาแดงที่เกิดจากแฟลช
+PBMENU_EDIT_REDEYE_GUIDE_2,
+PBMENU_EDIT_RETRO2,ย้อนอดีต
+PBMENU_EDIT_RETRO2_GUIDE,ปรับบริเวณขอบให้เบลอและจาง
+PBMENU_EDIT_RETRO2_GUIDE_2,เพื่อสร้างภาพชวนคิดถึง
+PBMENU_EDIT_SHARPFOUCS,ปรับภาพเพิ่มความชัด
+PBMENU_EDIT_SHARPFOUCS_GUIDE,ปรับภาพรอบจุดที่เลือก
+PBMENU_EDIT_SHARPFOUCS_GUIDE_2,ให้คมชัด
+PBMENU_EDIT_SMILE,รอยยิ้ม
+PBMENU_EDIT_SMILE_GUIDE,แก้ไขเงื่อนไขรอยยิ้มของ
+PBMENU_EDIT_SMILE_GUIDE_2,ใบหน้าบุคคล
+PBMENU_EDIT_SOFTFOUCS,ซอฟต์โฟกัส
+PBMENU_EDIT_SOFTFOUCS_GUIDE,ปรับภาพบริเวณรอบจุดที่เลือก
+PBMENU_EDIT_SOFTFOUCS_GUIDE_2,ให้เบลอ
+PBMENU_EDIT_TRIMMING,ตัดขอบ
+PBMENU_EDIT_TRIMMING_GUIDE,ตัดขอบภาพเพื่อลบ
+PBMENU_EDIT_TRIMMING_GUIDE_2,ส่วนที่ไม่ต้องการออก
+PBMENU_EVENTALL,ทุกภาพในเหตุการณ์
+PBMENU_EVENTALL_CLEAR,ถอดเลือกทุกภาพในเหตุการณ์นี้
+PBMENU_EVENTALL_ENTRY,ใส่ทุกภาพในเหตุการณ์
+PBMENU_EVENTALL_SET,เลือกทุกภาพในเหตุการณ์นี้
+PBMENU_EVENTLIST,รายการเหตุการณ์
+PBMENU_EVENTLIST_GUIDE,เลือกเหตุการณ์ที่ต้องการดู
+PBMENU_EVENTLIST_GUIDE_2,
+PBMENU_FAV,ภาพที่ชอบ
+PBMENU_FAV1,ภาพที่ชอบ 1
+PBMENU_FAV2,ภาพที่ชอบ 2
+PBMENU_FAV3,ภาพที่ชอบ 3
+PBMENU_FAV4,ภาพที่ชอบ 4
+PBMENU_FAV5,ภาพที่ชอบ 5
+PBMENU_FAV6,ภาพที่ชอบ 6
+PBMENU_FAVALL,ทุกภาพในภาพที่ชอบ
+PBMENU_FAVALL_CLEAR,ถอนจากทุกภาพในภาพที่ชอบ
+PBMENU_FAVALL_ENTRY,ใส่ทุกภาพเข้าไปในภาพที่ชอบ
+PBMENU_FAVALL_SET,ใส่ทุกภาพในกลุ่มนี้
+PBMENU_FAV_ALL_CLEAR_GUIDE,ถอนทุกภาพออกจาก
+PBMENU_FAV_ALL_CLEAR_GUIDE_2,ภาพที่ชอบ
+PBMENU_FAV_CLEAR,ถอนออกจากภาพที่ชอบ
+PBMENU_FAV_CLEAR_DATEALL_GUIDE,ถอนทุกภาพในช่วงวันที่นี้
+PBMENU_FAV_CLEAR_DATEALL_GUIDE_2,ออกจากภาพที่ชอบ
+PBMENU_FAV_CLEAR_EVENTALL_GUIDE,ถอนทุกภาพในเหตุการณ์นี้
+PBMENU_FAV_CLEAR_EVENTALL_GUIDE_2,ออกจากภาพที่ชอบ
+PBMENU_FAV_ENTRY,ใส่เข้าไปในภาพที่ชอบ
+PBMENU_FAV_ENTRY_DATEALL_GUIDE,ใส่ทุกภาพในช่วงวันที่นี้
+PBMENU_FAV_ENTRY_DATEALL_GUIDE_2,เข้าไปในภาพที่ชอบ
+PBMENU_FAV_ENTRY_EVENTALL_GUIDE,ใส่ทุกภาพในเหตุการณ์นี้
+PBMENU_FAV_ENTRY_EVENTALL_GUIDE_2,เข้าไปในภาพที่ชอบ
+PBMENU_FAV_SELECT_GUIDE,ใส่/ถอน ภาพที่เลือก
+PBMENU_FAV_SELECT_GUIDE_2,เข้า/จาก ภาพที่ชอบ
+PBMENU_FAV_SET,ใส่/ถอน ภาพที่ชอบ
+PBMENU_FAV_SINGLE_GUIDE,เพิ่ม/ลบ ภาพนี้ เข้า/จาก
+PBMENU_FAV_SINGLE_GUIDE_2,ภาพที่ชอบ
+PBMENU_FOLDERALL,ทุกภาพในโฟลเดอร์นี้
+PBMENU_FOLDERALL_CLEAR,ถอนทุกภาพในโฟลเดอร์นี้
+PBMENU_FOLDERALL_ENTRY,ใส่ทุกภาพในโฟลเดอร์นี้
+PBMENU_FOLDERALL_SET,เลือกทุกภาพในโฟลเดอร์นี้
+PBMENU_FOLDERJUMP,เลือกโฟลเดอร์
+PBMENU_FRAME,เฟรม
+PBMENU_HDTV_GUIDE,ตัดภาพให้มีขนาด 16:9
+PBMENU_HDTV_GUIDE_2,และจัดเก็บเป็นภาพใหม่
+PBMENU_IMAGESAVE,จัดเก็บเป็นภาพ
+PBMENU_MULTIPLEIMAGES,หลายภาพ
+PBMENU_MULTIPLEPAGESAVE,เลือกหลายหน้าและจัดเก็บ
+PBMENU_MULTIRESIZE,ย่อขยายขนาดต่างๆ
+PBMENU_PAGESAVE,จัดเก็บหน้านี้
+PBMENU_PAINT,ระบายสี
+PBMENU_PAINT_GUIDE,ระบายสี แสตมป์ หรือใส่กรอบ
+PBMENU_PAINT_GUIDE_2,ลงในภาพ
+PBMENU_PBFOLDER_GUIDE,เลือกโฟลเดอร์สำหรับดูภาพ
+PBMENU_PBFOLDER_GUIDE_2,
+PBMENU_PRINT_ALL_GUIDE,พิมพ์ทุกภาพในโฟลเดอร์นี้
+PBMENU_PRINT_ALL_GUIDE_2,
+PBMENU_PRINT_DATEALL_GUIDE,พิมพ์ทุกภาพในช่วงวันที่นี้
+PBMENU_PRINT_DATEALL_GUIDE_2,
+PBMENU_PRINT_EVENTALL_GUIDE,พิมพ์ทุกภาพในเหตุการณ์นี้
+PBMENU_PRINT_EVENTALL_GUIDE_2,
+PBMENU_PRINT_FAVALL_GUIDE,พิมพ์ทุกภาพในกลุ่มภาพที่ชอบนี้
+PBMENU_PRINT_FAVALL_GUIDE_2,
+PBMENU_PRINT_SELECT_GUIDE,พิมพ์ภาพหลายภาพที่เลือกเอาไว้
+PBMENU_PRINT_SELECT_GUIDE_2,
+PBMENU_PRINT_SINGLE_GUIDE,พิมพ์ภาพ
+PBMENU_PRINT_SINGLE_GUIDE_2,
+PBMENU_PROTECT,ป้องกัน
+PBMENU_PROTECT_ALL_CLEAR_GUIDE,ปิดการป้องกันภาพ
+PBMENU_PROTECT_ALL_CLEAR_GUIDE_2,สำหรับทุกภาพในโฟลเดอร์
+PBMENU_PROTECT_ALL_SET_GUIDE,เปิดการป้องกันภาพ
+PBMENU_PROTECT_ALL_SET_GUIDE_2,สำหรับทุกภาพในโฟลเดอร์
+PBMENU_PROTECT_DATEALL_CLEAR_GUIDE,ปิดการป้องกันภาพ
+PBMENU_PROTECT_DATEALL_CLEAR_GUIDE_2,ทุกภาพในช่วงวันที่นี้
+PBMENU_PROTECT_DATEALL_SET_GUIDE,เปิดการป้องกันภาพ
+PBMENU_PROTECT_DATEALL_SET_GUIDE_2,ทุกภาพในช่วงวันที่นี้
+PBMENU_PROTECT_EVENTALL_CLEAR_GUIDE,ปิดการป้องกันภาพ
+PBMENU_PROTECT_EVENTALL_CLEAR_GUIDE_2,สำหรับทุกภาพในเหตุการณ์นี้
+PBMENU_PROTECT_EVENTALL_SET_GUIDE,เปิดการป้องกันภาพ
+PBMENU_PROTECT_EVENTALL_SET_GUIDE_2,สำหรับทุกภาพในเหตุการณ์นี้
+PBMENU_PROTECT_FAVALL_CLEAR_GUIDE,ปิดการป้องกันภาพ
+PBMENU_PROTECT_FAVALL_CLEAR_GUIDE_2,ทุกภาพในกลุ่มนี้
+PBMENU_PROTECT_FAVALL_SET_GUIDE,เปิดการป้องกันภาพ
+PBMENU_PROTECT_FAVALL_SET_GUIDE_2,ทุกภาพในกลุ่มนี้
+PBMENU_PROTECT_SELECT_GUIDE,เปิด/ปิด การป้องกันภาพ
+PBMENU_PROTECT_SELECT_GUIDE_2,หลายภาพที่เลือกเอาไว้
+PBMENU_PROTECT_SINGLE_GUIDE,เปิด/ปิด การป้องกันภาพ
+PBMENU_PROTECT_SINGLE_GUIDE_2,
+PBMENU_REFINE,คัดเลือกภาพใบหน้า
+PBMENU_REFINE_BABY,ทารก
+PBMENU_REFINE_BABY_GUIDE,ค้นหาและแสดงภาพที่มีเด็กทารก
+PBMENU_REFINE_BABY_GUIDE_2,
+PBMENU_REFINE_CHILD,เด็ก
+PBMENU_REFINE_CHILD_GUIDE,ค้นหาและแสดงภาพที่มี
+PBMENU_REFINE_CHILD_GUIDE_2,ใบหน้าของเด็ก
+PBMENU_REFINE_CLEAR_GUIDE,แสดงทุกภาพ
+PBMENU_REFINE_CLEAR_GUIDE_2,
+PBMENU_REFINE_FACE,ทุกคน
+PBMENU_REFINE_FACE_GUIDE,ค้นหาและแสดงภาพที่มี
+PBMENU_REFINE_FACE_GUIDE_2,ภาพใบหน้าบุคคล
+PBMENU_REFINE_SMILE,รอยยิ้ม
+PBMENU_REFINE_SMILE_GUIDE,ค้นหาและแสดงภาพที่มี
+PBMENU_REFINE_SMILE_GUIDE_2,ภาพใบหน้ารอยยิ้ม
+PBMENU_ROTATE,หมุนภาพ
+PBMENU_ROTATE_GUIDE,หมุนภาพ
+PBMENU_ROTATE_GUIDE_2,
+PBMENU_SCRAPBOOKALLSAVE,จัดเก็บทุกหน้าในสมุดภาพ
+PBMENU_SCRAPBOOKALL_GUIDE,จัดเก็บสมุดภาพทุกหน้า
+PBMENU_SCRAPBOOKALL_GUIDE_2,เป็นภาพหลายภาพ
+PBMENU_SHARE_CLEAR,ถอนแชร์ภาพ
+PBMENU_SHARE_CLEAR_DATEALL_GUIDE,ถอนทุกภาพในช่วงวันที่นี้
+PBMENU_SHARE_CLEAR_DATEALL_GUIDE_2,ออกจากแชร์ภาพ
+PBMENU_SHARE_CLEAR_EVENTALL_GUIDE,ถอนทุกภาพในเหตุการณ์นี้
+PBMENU_SHARE_CLEAR_EVENTALL_GUIDE_2,ออกจากแชร์ภาพ
+PBMENU_SHARE_CLEAR_FAVALL_GUIDE,ถอนทุกภาพในกลุ่มนี้
+PBMENU_SHARE_CLEAR_FAVALL_GUIDE_2,ออกจากแชร์ภาพ
+PBMENU_SHARE_ENTRY,ใส่ในแชร์ภาพ
+PBMENU_SHARE_ENTRY_DATEALL_GUIDE,ใส่ทุกภาพในช่วงวันที่นี้
+PBMENU_SHARE_ENTRY_DATEALL_GUIDE_2,เข้าไปในแชร์ภาพ
+PBMENU_SHARE_ENTRY_EVENTALL_GUIDE,ใส่ทุกภาพในเหตุการณ์นี้
+PBMENU_SHARE_ENTRY_EVENTALL_GUIDE_2,เข้าไปในแชร์ภาพ
+PBMENU_SHARE_ENTRY_FAVALL_GUIDE,ใส่ทุกภาพในกลุ่มนี้
+PBMENU_SHARE_ENTRY_FAVALL_GUIDE_2,เข้าไปในแชร์ภาพ
+PBMENU_SHARE_SELECT_GUIDE,ใส่/ถอน ภาพที่เลือก
+PBMENU_SHARE_SELECT_GUIDE_2,เข้า/จาก แชร์ภาพ
+PBMENU_SHARE_SET,ใส่/ถอน แชร์ภาพ
+PBMENU_SHARE_SINGLE_GUIDE,ใส่/ถอน ภาพนี้
+PBMENU_SHARE_SINGLE_GUIDE_2,เข้า/จาก แชร์ภาพ
+PBMENU_SLIDESHOW_GUIDE,แสดงภาพอัตโนมัติพร้อมดนตรี
+PBMENU_SLIDESHOW_GUIDE_2,และลูกเล่น
+PBMENU_THISIMAGE,ภาพนี้
+PBMENU_THISPAGE_GUIDE,จัดเก็บภาพของสมุดภาพหน้านี้
+PBMENU_THISPAGE_GUIDE_2,
+PBMENU_VIEWSELECT,โหมดดูภาพ
+PBMENU_VOLUMESETTINGS,ตั้งค่าระดับเสียง
+PBMENU_VOLUME_GUIDE,ปรับระดับเสียงสำหรับ
+PBMENU_VOLUME_GUIDE_2,แสดงสไลด์โชว์/ภาพเคลื่อนไหว
+PBMENU_WIDEZOOM,หน้าจอซูมมุมกว้าง
+PBMENU_WSCREEN_GUIDE,ตัดภาพให้มีขนาด 16:9
+PBMENU_WSCREEN_GUIDE_2,และแสดงภาพ
+PRINTMENU_10X15CM,10x15 cm
+PRINTMENU_1PICBORDER,ภาพเดี่ยว/มีขอบ
+PRINTMENU_1PICNOBORDER,ภาพเดี่ยว/ไม่มีขอบ
+PRINTMENU_2L,13x18 cm
+PRINTMENU_2PICS,2 ภาพต่อแผ่น
+PRINTMENU_3PICS,3 ภาพต่อแผ่น
+PRINTMENU_4PICS,4 ภาพต่อแผ่น
+PRINTMENU_4X6,4x6"
+PRINTMENU_8PICS,8 ภาพต่อแผ่น
+PRINTMENU_A3,A3
+PRINTMENU_A3PLUS,A3+
+PRINTMENU_A4,A4
+PRINTMENU_A6,A6
+PRINTMENU_DATE,วันที่
+PRINTMENU_DATE_A,วันที่
+PRINTMENU_DAYANDTIME,วัน & เวลา
+PRINTMENU_HAGAKI,ไปรษณีย์บัตร
+PRINTMENU_HDTV,ขนาดมุมกว้าง
+PRINTMENU_INDEX,ดัชนี
+PRINTMENU_INDEXPRINT,พิมพ์ดัชนี
+PRINTMENU_L,9x13 cm
+PRINTMENU_LETTER,จดหมาย
+PRINTMENU_PICTUREINPAPER,แบบภาพ
+PRINTMENU_QUANTITY,จำนวน
+PRINTMENU_SIZE,ขนาด
+SAVE,จัดเก็บ
+SETUP_AFILLUMINATOR,แสงไฟช่วย AF
+SETUP_AFILLUMINATOR_GUIDE2,แสงไฟช่วยโฟกัสสำหรับปรับ
+SETUP_AFILLUMINATOR_GUIDE2_2,โฟกัสในที่มืด
+SETUP_AFMODE,โหมด AF
+SETUP_AFMODE_GUIDE2,ตั้งค่าระบบโฟกัสอัตโนมัติ
+SETUP_AFMODE_GUIDE2_2,
+SETUP_AUTOREVIEW,แสดงภาพอัตโนมัติ
+SETUP_AUTOREVIEW_GUIDE2,แสดงภาพค้างไว้ 2 วินาทีหลังถ่ายภาพ
+SETUP_AUTOREVIEW_GUIDE2_2,
+SETUP_BEEP,เสียงบีป
+SETUP_BEEP_GUIDE2,ตั้งค่าเสียงบีป
+SETUP_BEEP_GUIDE2_2,
+SETUP_BGMTOOL_DOWNLOAD_GUIDE2,เปลี่ยนดนตรีประกอบสไลด์โชว์
+SETUP_BGMTOOL_DOWNLOAD_GUIDE2_2,
+SETUP_BGMTOOL_FORMAT_GUIDE2,ลบดนตรีประกอบสไลด์โชว์ทั้งหมด
+SETUP_BGMTOOL_FORMAT_GUIDE2_2,
+SETUP_BGM_DOWNLOAD,ดาวน์โหลดดนตรี
+SETUP_BGM_FORMAT,ฟอร์แมตดนตรี
+SETUP_CALIBRATION,ตั้งค่าระบบสัมผัส
+SETUP_CAM1,ตั้งค่าถ่ายภาพ 1
+SETUP_CAM2,ตั้งค่าถ่ายภาพ 2
+SETUP_CHANGERECFOLDER,เปลี่ยนโฟลเดอร์
+SETUP_CLOCK_GUIDE2,ตั้งวันที่และเวลา
+SETUP_CLOCK_GUIDE2_2,
+SETUP_COMPONENT,COMPONENT
+SETUP_COMPONENT_D1,SD
+SETUP_COMPONENT_D3,HD(1080i)
+SETUP_COMPONENT_GUIDE2,ตั้งค่าสัญญาณออก Component
+SETUP_COMPONENT_GUIDE2_2,
+SETUP_CONTROLGUIDE,แนะนำการควบคุม
+SETUP_CONTROLGUIDE_GUIDE,ตั้งค่าระบบแนะนำการควบคุม
+SETUP_CONVERSION_GUIDE2,เลือกเลนส์เสริม
+SETUP_CONVERSION_GUIDE2_2,
+SETUP_COPY,คัดลอก
+SETUP_CREATERECFOLDER,สร้างโฟลเดอร์
+SETUP_DEMOMODE,โหมดสาธิต
+SETUP_DEMOMODE_GUIDE,ตั้งค่าเปิดเพื่อใช้โหมดสาธิต
+SETUP_DEMOMODE_GUIDE_2,
+SETUP_DIGITALZOOM,ซูมดิจิตอล
+SETUP_DIGITALZOOM_PRECISION,เพรซิชั่น
+SETUP_DIGITALZOOM_SMART,สมาร์ท
+SETUP_DIRECTIONJUDGE,หมุนภาพอัตโนมัติ
+SETUP_DIRECTIONJUDGE_GUIDE2,ตรวจจับแนวตั้งนอนของกล้อง
+SETUP_DIRECTIONJUDGE_GUIDE2_2,และบันทึกไว้
+SETUP_DISP,ตั้งค่าหน้าจอแสดงผล
+SETUP_DISP_09,9
+SETUP_DISP_12,12
+SETUP_DISP_16,16
+SETUP_DISP_20,20
+SETUP_DISP_BRIGHT,สว่าง
+SETUP_DISP_BRIGHTNESS,ความสว่างจอ LCD
+SETUP_DISP_BRIGHTNESSSET,ความสว่าง
+SETUP_DISP_HISTOGRAMSET,ฮิสโตแกรม
+SETUP_DISP_IMAGEONLY,เฉพาะภาพ
+SETUP_DISP_INDEX,ตั้งค่าดัชนีภาพ
+SETUP_DISP_MSG_GRAPH_OFF,ไม่แสดงกราฟใดๆ
+SETUP_DISP_MSG_GRAPH_ON,แสดงความสว่างของภาพด้วยกราฟ
+SETUP_DISP_MSG_ICON,แสดงเฉพาะปุ่มสั่งงาน
+SETUP_DISP_MSG_IMAGE,แสดงเฉพาะภาพ
+SETUP_DISP_MSG_INFO,แสดงปุ่มสั่งงานและข้อมูล
+SETUP_DISP_MSG_LIGHT_BRIGHT,ตั้งหน้าจอให้สว่างมากขึ้น
+SETUP_DISP_MSG_LIGHT_NORMAL,ตั้งหน้าจอให้สว่างปกติ
+SETUP_DISP_MSG_THUMBNAIL_09,แสดงดัชนี 9 ภาพ
+SETUP_DISP_MSG_THUMBNAIL_12,แสดงดัชนี 12 ภาพ
+SETUP_DISP_MSG_THUMBNAIL_16,แสดงดัชนี 16 ภาพ
+SETUP_DISP_MSG_THUMBNAIL_20,แสดงดัชนี 20 ภาพ
+SETUP_DISP_MSG_WIDEZOOMSET_OFF,แสดงภาพที่อัตราส่วนเดิม
+SETUP_DISP_MSG_WIDEZOOMSET_ON,แสดงภาพที่ขนาดเต็มจอ
+SETUP_DISP_OFF,ปิด
+SETUP_DISP_ON,เปิด
+SETUP_DISP_OPT,จำนวนภาพ
+SETUP_DISP_PLAY,ตั้งค่าการแสดงผลหน้าจอดูภาพ
+SETUP_DISP_SHOOT,ตั้งค่าการแสดงผลหน้าจอถ่ายภาพ
+SETUP_DISP_WIDEZOOMSET,ซูมมุมกว้าง
+SETUP_EXPANDEDFOUCS_GUIDE2,ขยายส่วนกลางของภาพขณะโฟกัส
+SETUP_EXPANDEDFOUCS_GUIDE2_2,ด้วยมือ
+SETUP_EZOOM_GUIDE2,ตั้งค่าระบบซูมดิจิตอล
+SETUP_EZOOM_GUIDE2_2,
+SETUP_FLASHSYNCHRO_GUIDE2,เลือกจังหวะเวลาของแฟลช
+SETUP_FLASHSYNCHRO_GUIDE2_2,
+SETUP_FORMAT,ฟอร์แมต
+SETUP_FUNCTIONGUIDE,คำแนะนำระบบ
+SETUP_FUNCTIONGUIDE_GUIDE2,ตั้งค่าคำแนะนำระบบ
+SETUP_FUNCTIONGUIDE_GUIDE2_2,
+SETUP_GRIDLINE,เส้นตาราง
+SETUP_GRIDLINE_GUIDE2,เส้นแนะแนวสำหรับจัดองค์ประกอบ
+SETUP_GRIDLINE_GUIDE2_2,ภาพ
+SETUP_HOUSING,กล่องกันน้ำ
+SETUP_INITIALIZE,ใช้ค่าเริ่มต้น
+SETUP_INITIALIZE_GUIDE2,ตั้งค่ากลับคืนสู่ค่าเริ่มต้น
+SETUP_INITIALIZE_GUIDE2_2,
+SETUP_INTERNALMEMORY_FORMAT_GUIDE2,ฟอร์แมตหน่วยความจำภายใน
+SETUP_INTERNALMEMORY_FORMAT_GUIDE2_2,
+SETUP_LANG,ภาษาไทย
+SETUP_LANG_5WAY,ภาษาไทย
+SETUP_LCD_RESPOINT_GUIDE2,ปรับตำแหน่งสัมผัสบนหน้าจอ LCD
+SETUP_LCD_RESPOINT_GUIDE2_2,
+SETUP_LUNSET,ตั้งค่า LUN
+SETUP_LUNSET_GUIDE,เลือกสื่อบันทึกสำหรับเชื่อมต่อ
+SETUP_LUNSET_GUIDE_2,แบบ Mass Storage
+SETUP_LUNSET_MULTI,หลายสื่อบันทึก
+SETUP_LUNSET_SINGLE,สื่อบันทึกเดียว
+SETUP_MAIN1,ตั้งค่าหลัก 1
+SETUP_MAIN2,ตั้งค่าหลัก 2
+SETUP_MAIN3,ตั้งค่าหลัก 3
+SETUP_MARINEPACK_GUIDE2,ตั้งไว้ที่ เปิด เมื่อใช้งานกล่องกันน้ำ
+SETUP_MARINEPACK_GUIDE2_2,
+SETUP_MASSSTORAGE,Mass Storage
+SETUP_MONITOR,ตั้งด้วยจอ
+SETUP_MS_COPY_CHANGE_GUIDE2,คัดลอกทุกภาพจาก
+SETUP_MS_COPY_CHANGE_GUIDE2_2,หน่วยความจำภายใน
+SETUP_MS_FOLDER_CHANGE_GUIDE2,เปลี่ยนโฟลเดอร์สำหรับบันทึกภาพ
+SETUP_MS_FOLDER_CHANGE_GUIDE2_2,
+SETUP_MS_FOLDER_CREATE_GUIDE2,สร้างโฟลเดอร์ใหม่
+SETUP_MS_FOLDER_CREATE_GUIDE2_2,
+SETUP_MS_FORMAT_GUIDE2,ฟอร์แมตแผ่น Memory Stick
+SETUP_MS_FORMAT_GUIDE2_2,
+SETUP_NTSC,NTSC
+SETUP_PAL,PAL
+SETUP_PASSLOCK,ล็อคด้วยรหัสผ่าน
+SETUP_PASSLOCK_GUIDE,ตั้งรหัสผ่านเพื่อล็อคภาพ
+SETUP_PASSLOCK_GUIDE_2,
+SETUP_PICTBRIDGE,PictBridge
+SETUP_PTPMTP,PTP/MTP
+SETUP_SHUTTER,ชัตเตอร์
+SETUP_SINGLE,ตั้งครั้งเดียว
+SETUP_SMILEDEMO,โหมดสาธิตรอยยิ้ม
+SETUP_SMILEDEMO_GUIDE2,เปิด เพื่อสาธิตระบบ
+SETUP_SMILEDEMO_GUIDE2_2,ลั่นชัตเตอร์ด้วยรอยยิ้ม
+SETUP_TVTYPE,ชนิดทีวี
+SETUP_TVTYPE_GUIDE2,สำหรับเลือกชนิดของจอ TV
+SETUP_TVTYPE_GUIDE2_2,
+SETUP_UPDATE,ปรับปรุง
+SETUP_USBCONNECT,เชื่อมต่อ USB
+SETUP_USBCONNECT_GUIDE2,โหมดสัญญาณเมื่อทำการเชื่อมต่อ
+SETUP_USBCONNECT_GUIDE2_2,USB
+SETUP_VERSION,รุ่น
+SETUP_VERSION_GUIDE2,ตรวจเลขรุ่น และปรับปรุง Firmware
+SETUP_VERSION_GUIDE2_2,
+SETUP_VIDEOOUT,สัญญาณวิดีโอ
+SETUP_VIDEOOUT_GUIDE2,โหมดสัญญาณเมื่อเชื่อมต่อกับ
+SETUP_VIDEOOUT_GUIDE2_2,อุปกรณ์วิดีโอ
+SSMENU_10SEC,10 วินาที
+SSMENU_1SEC,1 วินาที
+SSMENU_3SEC,3 วินาที
+SSMENU_5SEC,5 วินาที
+SSMENU_ACTIVE,แบบว่องไว
+SSMENU_ALL,ทุกภาพ
+SSMENU_BASIC,พื้นฐาน
+SSMENU_DETAIL,ตั้งค่าอื่นๆ
+SSMENU_EFFECTS,ลูกเล่น
+SSMENU_FACE_BASIC,ใบหน้า 1: พื้นฐาน
+SSMENU_FACE_NOSTALGIC,ใบหน้า 2: คิดถึง
+SSMENU_FACE_STYLISH,ใบหน้า 3: สมัยนิยม
+SSMENU_IMAGE,ภาพ
+SSMENU_INFOLDER,โฟลเดอร์
+SSMENU_INTERVAL,ช่วงเวลา
+SSMENU_MUSIC,ดนตรี
+SSMENU_MUSIC1,Music1
+SSMENU_MUSIC2,Music2
+SSMENU_MUSIC3,Music3
+SSMENU_MUSIC4,Music4
+SSMENU_MUSIC5,Music5
+SSMENU_MUSIC6,Music6
+SSMENU_MUSIC7,Music7
+SSMENU_MUSIC8,Music8
+SSMENU_NORMAL_A,ปกติ
+SSMENU_NOSTALGIC,แบบคิดถึง
+SSMENU_REFINE,ฟิลเตอร์
+SSMENU_REPEAT,เล่นซ้ำ
+SSMENU_SIMPLE,ธรรมดา
+SSMENU_STYLISH,แบบสมัยนิยม
+SSMENU_THIS_DATE,วันที่นี้
+SSMENU_THIS_EVENT,เหตุการณ์นี้

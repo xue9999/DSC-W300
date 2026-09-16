@@ -1,0 +1,53 @@
+{
+  "captured_at": "2026-09-16T15:32:20.468052+00:00",
+  "host": {
+    "os": "Darwin",
+    "version": "26.6.2",
+    "architecture": "arm64"
+  },
+  "method": "OS identity, libusb standard descriptor reads and bounded interface claim",
+  "usb_device_count": 4,
+  "sony_devices": [
+    {
+      "vendor_id": "054c",
+      "product_id": "0341",
+      "product": "DSC-W300",
+      "manufacturer": "Sony",
+      "serial": "D386002E4438",
+      "location_id": 34734080
+    }
+  ],
+  "camera_identity_verified": false,
+  "destination": null,
+  "camera_write_performed": false,
+  "status": "sony_device_present_identity_unverified",
+  "vendor_commands_sent": false,
+  "bulk_commands_sent": false,
+  "driver_detach_attempted": false,
+  "handle_opened": true,
+  "configuration_hex": "09022000010100c0010904000002080550000705810200020007050202000200",
+  "interfaces": [
+    {
+      "number": 0,
+      "alternate": 0,
+      "usb_class": 8,
+      "subclass": 5,
+      "protocol": 80,
+      "endpoints": [
+        {
+          "address": "0x81",
+          "attributes": 2,
+          "max_packet_size": 512
+        },
+        {
+          "address": "0x02",
+          "attributes": 2,
+          "max_packet_size": 512
+        }
+      ]
+    }
+  ],
+  "claim_result": -3,
+  "claim_result_name": "LIBUSB_ERROR_ACCESS",
+  "transport_status": "interface_claim_failed"
+}
