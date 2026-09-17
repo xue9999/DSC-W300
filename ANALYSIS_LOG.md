@@ -28,6 +28,8 @@ Active documentation is English and follows completed work, findings, next actio
 
 `sources/` and manifest-listed `evidence/` are immutable inputs. `.gitattributes` protects bytes under Windows autocrlf. Firmware symlinks retain target semantics, including Windows text representations. Remove duplicates only after checking bytes and role. Source submodule pins stay unchanged.
 
+Set `core.symlinks=false` before Windows checkout to preserve Linux targets as exact text. Native Windows symlink creation translates absolute paths and separators, which the byte-integrity audit correctly detects. Keep the strict recorded-target check; use native links on Linux/macOS.
+
 Version maintained `build/w300/` scripts, reports and manifests. Publish downloaded inputs and analysis dependencies in the research Release asset and the Windows executable environment in its own ZIP. Leave environments, caches and duplicate unpacked releases local. See `docs/w300/RELEASE_RESTORE.md` for reconstruction and verification.
 
 ## Proven tools and retry rules

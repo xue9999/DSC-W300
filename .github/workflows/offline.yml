@@ -18,9 +18,11 @@ jobs:
             python: '3.10'
     runs-on: ${{ matrix.os }}
     steps:
-      - name: Exercise Windows line-ending conversion
+      - name: Exercise Windows checkout with preserved firmware link text
         if: runner.os == 'Windows'
-        run: git config --global core.autocrlf true
+        run: |
+          git config --global core.autocrlf true
+          git config --global core.symlinks false
       - uses: actions/checkout@v4
         with:
           submodules: false

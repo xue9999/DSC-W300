@@ -14,6 +14,8 @@ Multiple different firmware filesystem paths may legitimately contain identical 
 
 Genuine firmware symlinks retain their Git link type. On Windows without link creation, Git may materialize their target text. The audit checks the recorded target in either representation; a text representation is not an executable filesystem link. No audit follows a firmware absolute link into the host filesystem.
 
+For a Windows checkout, preserve Linux link targets using `git -c core.symlinks=false clone https://github.com/xue9999/DSC-W300.git`. Native Windows symlinks can translate `/proc/...` and relative separators, changing the recorded target bytes. The Windows CI job and fresh-checkout verifier explicitly use the text representation; Linux and macOS retain native links.
+
 ## Generated files
 
 Version maintained scripts, reports and manifests under `build/w300/` through explicit ignore exceptions. Restore downloaded inputs and analysis dependencies from the research Release asset; transfer the portable environment using its separate ZIP. Reconstructible environments, caches and duplicate build directories remain local. Put new experimental outputs under ignored build paths or temporary directories. Do not write experimental results into retained sources/evidence. Keep source programs for native probes; compile locally rather than checking in binaries. Ghidra and QEMU are optional separately installed or built tools.
