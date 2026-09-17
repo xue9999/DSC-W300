@@ -1,0 +1,362 @@
+xs_backup_read section=.text value=0x1e90 file=0x1e90 symbol_size=1444
+0x00001e90 0dc0a0e1     mov      ip, sp
+0x00001e94 f0db2de9     push     {r4, r5, r6, r7, r8, sb, fp, ip, lr, pc}
+0x00001e98 04b04ce2     sub      fp, ip, #4
+0x00001e9c 0070a0e1     mov      r7, r0
+0x00001ea0 0080a0e3     mov      r8, #0
+0x00001ea4 0110a0e3     mov      r1, #1
+0x00001ea8 70fdffeb     bl       #0x1470 ; PLT:fxVars
+0x00001eac 103097e5     ldr      r3, [r7, #0x10]
+0x00001eb0 1cc087e2     add      ip, r7, #0x1c
+0x00001eb4 403083e2     add      r3, r3, #0x40
+0x00001eb8 0f0093e8     ldm      r3, {r0, r1, r2, r3}
+0x00001ebc 0f008ce8     stm      ip, {r0, r1, r2, r3}
+0x00001ec0 0700a0e1     mov      r0, r7
+0x00001ec4 0c10a0e1     mov      r1, ip
+0x00001ec8 74fdffeb     bl       #0x14a0 ; PLT:fxToInteger
+0x00001ecc 010050e3     cmp      r0, #1
+0x00001ed0 1400000a     beq      #0x1f28
+0x00001ed4 0700a0e1     mov      r0, r7
+0x00001ed8 0810a0e1     mov      r1, r8
+0x00001edc 87fdffeb     bl       #0x1500 ; PLT:fxCheckVar
+0x00001ee0 ff4460e2     rsb      r4, r0, #0xff000000
+0x00001ee4 ff4884e2     add      r4, r4, #0xff0000
+0x00001ee8 ff4c84e2     add      r4, r4, #0xff00
+0x00001eec fe4084e2     add      r4, r4, #0xfe
+0x00001ef0 105097e5     ldr      r5, [r7, #0x10]
+0x00001ef4 001097e5     ldr      r1, [r7]
+0x00001ef8 101041e2     sub      r1, r1, #0x10
+0x00001efc 001087e5     str      r1, [r7]
+0x00001f00 0700a0e1     mov      r0, r7
+0x00001f04 05fdffeb     bl       #0x1320 ; PLT:fxUndefined
+0x00001f08 003097e5     ldr      r3, [r7]
+0x00001f0c 0320a0e1     mov      r2, r3
+0x00001f10 103083e2     add      r3, r3, #0x10
+0x00001f14 003087e5     str      r3, [r7]
+0x00001f18 045285e0     add      r5, r5, r4, lsl #4
+0x00001f1c 0f0092e8     ldm      r2, {r0, r1, r2, r3}
+0x00001f20 0f0085e8     stm      r5, {r0, r1, r2, r3}
+0x00001f24 340100ea     b        #0x23fc
+0x00001f28 0700a0e1     mov      r0, r7
+0x00001f2c 0010a0e3     mov      r1, #0
+0x00001f30 f4fcffeb     bl       #0x1308 ; PLT:fxCheckArg
+0x00001f34 103097e5     ldr      r3, [r7, #0x10]
+0x00001f38 003283e0     add      r3, r3, r0, lsl #4
+0x00001f3c 503083e2     add      r3, r3, #0x50
+0x00001f40 1cc087e2     add      ip, r7, #0x1c
+0x00001f44 0f0093e8     ldm      r3, {r0, r1, r2, r3}
+0x00001f48 0f008ce8     stm      ip, {r0, r1, r2, r3}
+0x00001f4c 0700a0e1     mov      r0, r7
+0x00001f50 0c10a0e1     mov      r1, ip
+0x00001f54 1efdffeb     bl       #0x13d4 ; PLT:fxTypeOf
+0x00001f58 000ca0e1     lsl      r0, r0, #0x18
+0x00001f5c 030450e3     cmp      r0, #0x3000000
+0x00001f60 1400000a     beq      #0x1fb8
+0x00001f64 0700a0e1     mov      r0, r7
+0x00001f68 0010a0e3     mov      r1, #0
+0x00001f6c 63fdffeb     bl       #0x1500 ; PLT:fxCheckVar
+0x00001f70 ff4460e2     rsb      r4, r0, #0xff000000
+0x00001f74 ff4884e2     add      r4, r4, #0xff0000
+0x00001f78 ff4c84e2     add      r4, r4, #0xff00
+0x00001f7c fe4084e2     add      r4, r4, #0xfe
+0x00001f80 105097e5     ldr      r5, [r7, #0x10]
+0x00001f84 001097e5     ldr      r1, [r7]
+0x00001f88 101041e2     sub      r1, r1, #0x10
+0x00001f8c 001087e5     str      r1, [r7]
+0x00001f90 0700a0e1     mov      r0, r7
+0x00001f94 e1fcffeb     bl       #0x1320 ; PLT:fxUndefined
+0x00001f98 003097e5     ldr      r3, [r7]
+0x00001f9c 0320a0e1     mov      r2, r3
+0x00001fa0 103083e2     add      r3, r3, #0x10
+0x00001fa4 003087e5     str      r3, [r7]
+0x00001fa8 045285e0     add      r5, r5, r4, lsl #4
+0x00001fac 0f0092e8     ldm      r2, {r0, r1, r2, r3}
+0x00001fb0 0f0085e8     stm      r5, {r0, r1, r2, r3}
+0x00001fb4 100100ea     b        #0x23fc
+0x00001fb8 0700a0e1     mov      r0, r7
+0x00001fbc 0010a0e3     mov      r1, #0
+0x00001fc0 d0fcffeb     bl       #0x1308 ; PLT:fxCheckArg
+0x00001fc4 103097e5     ldr      r3, [r7, #0x10]
+0x00001fc8 003283e0     add      r3, r3, r0, lsl #4
+0x00001fcc 503083e2     add      r3, r3, #0x50
+0x00001fd0 1cc087e2     add      ip, r7, #0x1c
+0x00001fd4 0f0093e8     ldm      r3, {r0, r1, r2, r3}
+0x00001fd8 0f008ce8     stm      ip, {r0, r1, r2, r3}
+0x00001fdc 0700a0e1     mov      r0, r7
+0x00001fe0 0c10a0e1     mov      r1, ip
+0x00001fe4 2dfdffeb     bl       #0x14a0 ; PLT:fxToInteger
+0x00001fe8 0040a0e1     mov      r4, r0
+0x00001fec 07fdffeb     bl       #0x1410 ; PLT:Bkup_getDataSize
+0x00001ff0 0090a0e1     mov      sb, r0
+0x00001ff4 000050e3     cmp      r0, #0
+0x00001ff8 150000aa     bge      #0x2054
+0x00001ffc 0700a0e1     mov      r0, r7
+0x00002000 0010a0e3     mov      r1, #0
+0x00002004 3dfdffeb     bl       #0x1500 ; PLT:fxCheckVar
+0x00002008 ff4460e2     rsb      r4, r0, #0xff000000
+0x0000200c ff4884e2     add      r4, r4, #0xff0000
+0x00002010 ff4c84e2     add      r4, r4, #0xff00
+0x00002014 fe4084e2     add      r4, r4, #0xfe
+0x00002018 105097e5     ldr      r5, [r7, #0x10]
+0x0000201c 001097e5     ldr      r1, [r7]
+0x00002020 101041e2     sub      r1, r1, #0x10
+0x00002024 001087e5     str      r1, [r7]
+0x00002028 0700a0e1     mov      r0, r7
+0x0000202c 0920a0e1     mov      r2, sb
+0x00002030 20fdffeb     bl       #0x14b8 ; PLT:fxInteger
+0x00002034 003097e5     ldr      r3, [r7]
+0x00002038 0320a0e1     mov      r2, r3
+0x0000203c 103083e2     add      r3, r3, #0x10
+0x00002040 003087e5     str      r3, [r7]
+0x00002044 045285e0     add      r5, r5, r4, lsl #4
+0x00002048 0f0092e8     ldm      r2, {r0, r1, r2, r3}
+0x0000204c 0f0085e8     stm      r5, {r0, r1, r2, r3}
+0x00002050 e90000ea     b        #0x23fc
+0x00002054 0400a0e1     mov      r0, r4
+0x00002058 13fdffeb     bl       #0x14ac ; PLT:Bkup_getDataKind
+0x0000205c 0060a0e1     mov      r6, r0
+0x00002060 000050e3     cmp      r0, #0
+0x00002064 150000aa     bge      #0x20c0
+0x00002068 0700a0e1     mov      r0, r7
+0x0000206c 0010a0e3     mov      r1, #0
+0x00002070 22fdffeb     bl       #0x1500 ; PLT:fxCheckVar
+0x00002074 ff4460e2     rsb      r4, r0, #0xff000000
+0x00002078 ff4884e2     add      r4, r4, #0xff0000
+0x0000207c ff4c84e2     add      r4, r4, #0xff00
+0x00002080 fe4084e2     add      r4, r4, #0xfe
+0x00002084 105097e5     ldr      r5, [r7, #0x10]
+0x00002088 001097e5     ldr      r1, [r7]
+0x0000208c 101041e2     sub      r1, r1, #0x10
+0x00002090 001087e5     str      r1, [r7]
+0x00002094 0700a0e1     mov      r0, r7
+0x00002098 0620a0e1     mov      r2, r6
+0x0000209c 05fdffeb     bl       #0x14b8 ; PLT:fxInteger
+0x000020a0 003097e5     ldr      r3, [r7]
+0x000020a4 0320a0e1     mov      r2, r3
+0x000020a8 103083e2     add      r3, r3, #0x10
+0x000020ac 003087e5     str      r3, [r7]
+0x000020b0 045285e0     add      r5, r5, r4, lsl #4
+0x000020b4 0f0092e8     ldm      r2, {r0, r1, r2, r3}
+0x000020b8 0f0085e8     stm      r5, {r0, r1, r2, r3}
+0x000020bc ce0000ea     b        #0x23fc
+0x000020c0 0900a0e1     mov      r0, sb
+0x000020c4 aafcffeb     bl       #0x1374 ; PLT:malloc
+0x000020c8 0080a0e1     mov      r8, r0
+0x000020cc 000050e3     cmp      r0, #0
+0x000020d0 1400001a     bne      #0x2128
+0x000020d4 0700a0e1     mov      r0, r7
+0x000020d8 0810a0e1     mov      r1, r8
+0x000020dc 07fdffeb     bl       #0x1500 ; PLT:fxCheckVar
+0x000020e0 ff4460e2     rsb      r4, r0, #0xff000000
+0x000020e4 ff4884e2     add      r4, r4, #0xff0000
+0x000020e8 ff4c84e2     add      r4, r4, #0xff00
+0x000020ec fe4084e2     add      r4, r4, #0xfe
+0x000020f0 105097e5     ldr      r5, [r7, #0x10]
+0x000020f4 001097e5     ldr      r1, [r7]
+0x000020f8 101041e2     sub      r1, r1, #0x10
+0x000020fc 001087e5     str      r1, [r7]
+0x00002100 0700a0e1     mov      r0, r7
+0x00002104 85fcffeb     bl       #0x1320 ; PLT:fxUndefined
+0x00002108 003097e5     ldr      r3, [r7]
+0x0000210c 0320a0e1     mov      r2, r3
+0x00002110 103083e2     add      r3, r3, #0x10
+0x00002114 003087e5     str      r3, [r7]
+0x00002118 045285e0     add      r5, r5, r4, lsl #4
+0x0000211c 0f0092e8     ldm      r2, {r0, r1, r2, r3}
+0x00002120 0f0085e8     stm      r5, {r0, r1, r2, r3}
+0x00002124 b40000ea     b        #0x23fc
+0x00002128 010056e3     cmp      r6, #1
+0x0000212c 7f00001a     bne      #0x2330
+0x00002130 040059e3     cmp      sb, #4
+0x00002134 6400009a     bls      #0x22cc
+0x00002138 0400a0e1     mov      r0, r4
+0x0000213c 0810a0e1     mov      r1, r8
+0x00002140 cdfcffeb     bl       #0x147c ; PLT:Bkup_pread
+0x00002144 000050e3     cmp      r0, #0
+0x00002148 140000aa     bge      #0x21a0
+0x0000214c 0700a0e1     mov      r0, r7
+0x00002150 0010a0e3     mov      r1, #0
+0x00002154 e9fcffeb     bl       #0x1500 ; PLT:fxCheckVar
+0x00002158 ff4460e2     rsb      r4, r0, #0xff000000
+0x0000215c ff4884e2     add      r4, r4, #0xff0000
+0x00002160 ff4c84e2     add      r4, r4, #0xff00
+0x00002164 fe4084e2     add      r4, r4, #0xfe
+0x00002168 105097e5     ldr      r5, [r7, #0x10]
+0x0000216c 001097e5     ldr      r1, [r7]
+0x00002170 101041e2     sub      r1, r1, #0x10
+0x00002174 001087e5     str      r1, [r7]
+0x00002178 0700a0e1     mov      r0, r7
+0x0000217c 67fcffeb     bl       #0x1320 ; PLT:fxUndefined
+0x00002180 003097e5     ldr      r3, [r7]
+0x00002184 0320a0e1     mov      r2, r3
+0x00002188 103083e2     add      r3, r3, #0x10
+0x0000218c 003087e5     str      r3, [r7]
+0x00002190 045285e0     add      r5, r5, r4, lsl #4
+0x00002194 0f0092e8     ldm      r2, {r0, r1, r2, r3}
+0x00002198 0f0085e8     stm      r5, {r0, r1, r2, r3}
+0x0000219c 940000ea     b        #0x23f4
+0x000021a0 0700a0e1     mov      r0, r7
+0x000021a4 0010a0e3     mov      r1, #0
+0x000021a8 d4fcffeb     bl       #0x1500 ; PLT:fxCheckVar
+0x000021ac ff4460e2     rsb      r4, r0, #0xff000000
+0x000021b0 ff4884e2     add      r4, r4, #0xff0000
+0x000021b4 ff4c84e2     add      r4, r4, #0xff00
+0x000021b8 fe4084e2     add      r4, r4, #0xfe
+0x000021bc 105097e5     ldr      r5, [r7, #0x10]
+0x000021c0 0700a0e1     mov      r0, r7
+0x000021c4 0010e0e3     mvn      r1, #0
+0x000021c8 0020a0e3     mov      r2, #0
+0x000021cc 0230a0e1     mov      r3, r2
+0x000021d0 61fcffeb     bl       #0x135c ; PLT:fxOverflow
+0x000021d4 00c097e5     ldr      ip, [r7]
+0x000021d8 10c04ce2     sub      ip, ip, #0x10
+0x000021dc 00c087e5     str      ip, [r7]
+0x000021e0 083097e5     ldr      r3, [r7, #8]
+0x000021e4 a03043e2     sub      r3, r3, #0xa0
+0x000021e8 0f0093e8     ldm      r3, {r0, r1, r2, r3}
+0x000021ec 0f008ce8     stm      ip, {r0, r1, r2, r3}
+0x000021f0 0700a0e1     mov      r0, r7
+0x000021f4 55fcffeb     bl       #0x1350 ; PLT:fxNewInstanceOf
+0x000021f8 003097e5     ldr      r3, [r7]
+0x000021fc 0320a0e1     mov      r2, r3
+0x00002200 103083e2     add      r3, r3, #0x10
+0x00002204 003087e5     str      r3, [r7]
+0x00002208 045285e0     add      r5, r5, r4, lsl #4
+0x0000220c 0f0092e8     ldm      r2, {r0, r1, r2, r3}
+0x00002210 0f0085e8     stm      r5, {r0, r1, r2, r3}
+0x00002214 0050a0e3     mov      r5, #0
+0x00002218 090055e1     cmp      r5, sb
+0x0000221c 740000aa     bge      #0x23f4
+0x00002220 0700a0e1     mov      r0, r7
+0x00002224 0110e0e3     mvn      r1, #1
+0x00002228 0020a0e3     mov      r2, #0
+0x0000222c 0230a0e1     mov      r3, r2
+0x00002230 49fcffeb     bl       #0x135c ; PLT:fxOverflow
+0x00002234 004097e5     ldr      r4, [r7]
+0x00002238 104044e2     sub      r4, r4, #0x10
+0x0000223c 101044e2     sub      r1, r4, #0x10
+0x00002240 001087e5     str      r1, [r7]
+0x00002244 0700a0e1     mov      r0, r7
+0x00002248 0520d8e7     ldrb     r2, [r8, r5]
+0x0000224c 99fcffeb     bl       #0x14b8 ; PLT:fxInteger
+0x00002250 003097e5     ldr      r3, [r7]
+0x00002254 0320a0e1     mov      r2, r3
+0x00002258 103083e2     add      r3, r3, #0x10
+0x0000225c 003087e5     str      r3, [r7]
+0x00002260 0f0092e8     ldm      r2, {r0, r1, r2, r3}
+0x00002264 0f0084e8     stm      r4, {r0, r1, r2, r3}
+0x00002268 004097e5     ldr      r4, [r7]
+0x0000226c 104044e2     sub      r4, r4, #0x10
+0x00002270 004087e5     str      r4, [r7]
+0x00002274 0700a0e1     mov      r0, r7
+0x00002278 0010a0e3     mov      r1, #0
+0x0000227c 9ffcffeb     bl       #0x1500 ; PLT:fxCheckVar
+0x00002280 ff0460e2     rsb      r0, r0, #0xff000000
+0x00002284 ff0880e2     add      r0, r0, #0xff0000
+0x00002288 ff0c80e2     add      r0, r0, #0xff00
+0x0000228c fe0080e2     add      r0, r0, #0xfe
+0x00002290 103097e5     ldr      r3, [r7, #0x10]
+0x00002294 003283e0     add      r3, r3, r0, lsl #4
+0x00002298 0f0093e8     ldm      r3, {r0, r1, r2, r3}
+0x0000229c 0f0084e8     stm      r4, {r0, r1, r2, r3}
+0x000022a0 0518a0e1     lsl      r1, r5, #0x10
+0x000022a4 0700a0e1     mov      r0, r7
+0x000022a8 4118a0e1     asr      r1, r1, #0x10
+0x000022ac 39fcffeb     bl       #0x1398 ; PLT:fxSetID
+0x000022b0 003097e5     ldr      r3, [r7]
+0x000022b4 103083e2     add      r3, r3, #0x10
+0x000022b8 003087e5     str      r3, [r7]
+0x000022bc 015085e2     add      r5, r5, #1
+0x000022c0 090055e1     cmp      r5, sb
+0x000022c4 d5ffffba     blt      #0x2220
+0x000022c8 490000ea     b        #0x23f4
+0x000022cc 0400a0e1     mov      r0, r4
+0x000022d0 63fcffeb     bl       #0x1464 ; PLT:Bkup_read
+0x000022d4 0060a0e1     mov      r6, r0
+0x000022d8 0700a0e1     mov      r0, r7
+0x000022dc 0010a0e3     mov      r1, #0
+0x000022e0 86fcffeb     bl       #0x1500 ; PLT:fxCheckVar
+0x000022e4 ff4460e2     rsb      r4, r0, #0xff000000
+0x000022e8 ff4884e2     add      r4, r4, #0xff0000
+0x000022ec ff4c84e2     add      r4, r4, #0xff00
+0x000022f0 fe4084e2     add      r4, r4, #0xfe
+0x000022f4 105097e5     ldr      r5, [r7, #0x10]
+0x000022f8 001097e5     ldr      r1, [r7]
+0x000022fc 101041e2     sub      r1, r1, #0x10
+0x00002300 001087e5     str      r1, [r7]
+0x00002304 0700a0e1     mov      r0, r7
+0x00002308 0620a0e1     mov      r2, r6
+0x0000230c 69fcffeb     bl       #0x14b8 ; PLT:fxInteger
+0x00002310 003097e5     ldr      r3, [r7]
+0x00002314 0320a0e1     mov      r2, r3
+0x00002318 103083e2     add      r3, r3, #0x10
+0x0000231c 003087e5     str      r3, [r7]
+0x00002320 045285e0     add      r5, r5, r4, lsl #4
+0x00002324 0f0092e8     ldm      r2, {r0, r1, r2, r3}
+0x00002328 0f0085e8     stm      r5, {r0, r1, r2, r3}
+0x0000232c 300000ea     b        #0x23f4
+0x00002330 020056e3     cmp      r6, #2
+0x00002334 2e00001a     bne      #0x23f4
+0x00002338 0400a0e1     mov      r0, r4
+0x0000233c 0810a0e1     mov      r1, r8
+0x00002340 4dfcffeb     bl       #0x147c ; PLT:Bkup_pread
+0x00002344 000050e3     cmp      r0, #0
+0x00002348 140000aa     bge      #0x23a0
+0x0000234c 0700a0e1     mov      r0, r7
+0x00002350 0010a0e3     mov      r1, #0
+0x00002354 69fcffeb     bl       #0x1500 ; PLT:fxCheckVar
+0x00002358 ff4460e2     rsb      r4, r0, #0xff000000
+0x0000235c ff4884e2     add      r4, r4, #0xff0000
+0x00002360 ff4c84e2     add      r4, r4, #0xff00
+0x00002364 fe4084e2     add      r4, r4, #0xfe
+0x00002368 105097e5     ldr      r5, [r7, #0x10]
+0x0000236c 001097e5     ldr      r1, [r7]
+0x00002370 101041e2     sub      r1, r1, #0x10
+0x00002374 001087e5     str      r1, [r7]
+0x00002378 0700a0e1     mov      r0, r7
+0x0000237c e7fbffeb     bl       #0x1320 ; PLT:fxUndefined
+0x00002380 003097e5     ldr      r3, [r7]
+0x00002384 0320a0e1     mov      r2, r3
+0x00002388 103083e2     add      r3, r3, #0x10
+0x0000238c 003087e5     str      r3, [r7]
+0x00002390 045285e0     add      r5, r5, r4, lsl #4
+0x00002394 0f0092e8     ldm      r2, {r0, r1, r2, r3}
+0x00002398 0f0085e8     stm      r5, {r0, r1, r2, r3}
+0x0000239c 140000ea     b        #0x23f4
+0x000023a0 0700a0e1     mov      r0, r7
+0x000023a4 0010a0e3     mov      r1, #0
+0x000023a8 54fcffeb     bl       #0x1500 ; PLT:fxCheckVar
+0x000023ac ff4460e2     rsb      r4, r0, #0xff000000
+0x000023b0 ff4884e2     add      r4, r4, #0xff0000
+0x000023b4 ff4c84e2     add      r4, r4, #0xff00
+0x000023b8 fe4084e2     add      r4, r4, #0xfe
+0x000023bc 105097e5     ldr      r5, [r7, #0x10]
+0x000023c0 001097e5     ldr      r1, [r7]
+0x000023c4 101041e2     sub      r1, r1, #0x10
+0x000023c8 001087e5     str      r1, [r7]
+0x000023cc 0700a0e1     mov      r0, r7
+0x000023d0 0820a0e1     mov      r2, r8
+0x000023d4 e9fbffeb     bl       #0x1380 ; PLT:fxString
+0x000023d8 003097e5     ldr      r3, [r7]
+0x000023dc 0320a0e1     mov      r2, r3
+0x000023e0 103083e2     add      r3, r3, #0x10
+0x000023e4 003087e5     str      r3, [r7]
+0x000023e8 045285e0     add      r5, r5, r4, lsl #4
+0x000023ec 0f0092e8     ldm      r2, {r0, r1, r2, r3}
+0x000023f0 0f0085e8     stm      r5, {r0, r1, r2, r3}
+0x000023f4 0800a0e1     mov      r0, r8
+0x000023f8 4ffcffeb     bl       #0x153c ; PLT:free
+0x000023fc 104097e5     ldr      r4, [r7, #0x10]
+0x00002400 0700a0e1     mov      r0, r7
+0x00002404 0010a0e3     mov      r1, #0
+0x00002408 3cfcffeb     bl       #0x1500 ; PLT:fxCheckVar
+0x0000240c ff0460e2     rsb      r0, r0, #0xff000000
+0x00002410 ff0880e2     add      r0, r0, #0xff0000
+0x00002414 ff0c80e2     add      r0, r0, #0xff00
+0x00002418 fe0080e2     add      r0, r0, #0xfe
+0x0000241c 103097e5     ldr      r3, [r7, #0x10]
+0x00002420 104084e2     add      r4, r4, #0x10
+0x00002424 003283e0     add      r3, r3, r0, lsl #4
+0x00002428 0f0093e8     ldm      r3, {r0, r1, r2, r3}
+0x0000242c 0f0084e8     stm      r4, {r0, r1, r2, r3}
+0x00002430 f0ab9de8     ldm      sp, {r4, r5, r6, r7, r8, sb, fp, sp, pc}

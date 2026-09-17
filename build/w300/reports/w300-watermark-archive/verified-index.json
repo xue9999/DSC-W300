@@ -1,0 +1,98 @@
+{
+  "index_rows": 4707,
+  "query_limit": 5000,
+  "mime_counts": {
+    "text/html": 4447,
+    "application/xml": 2,
+    "image/gif": 147,
+    "image/jpeg": 85,
+    "text/css": 10,
+    "image/x-icon": 1,
+    "text/javascript": 1,
+    "application/x-shockwave-flash": 1,
+    "application/x-javascript": 11,
+    "text/plain": 1,
+    "image/png": 1
+  },
+  "w300_listing": [
+    {
+      "href": "thread-5681-1-1.html",
+      "text": "Sony DSC W300_L3 V1.1"
+    }
+  ],
+  "thread_capture_found": false,
+  "software_payload_acquired": false,
+  "all_forum_content_examined": false,
+  "files": [
+    {
+      "path": "build/w300/downloads/w300-watermark-archive/acquisition.json",
+      "bytes": 813,
+      "sha256": "21dc7d8ac41a3018420bc4ca74b734b0aedfd7b69613802b4e250ab84ed05573"
+    },
+    {
+      "path": "build/w300/downloads/w300-watermark-archive/attachmentList.html",
+      "bytes": 22955,
+      "sha256": "a0a282e8d939b774660b8e51c2523bccf8bcaab1b81a1e4ff74ee9dc3d1b0c68"
+    },
+    {
+      "path": "build/w300/downloads/w300-watermark-archive/bbs-cdx.response",
+      "bytes": 583923,
+      "sha256": "da37d32a05fbdae961ae242b7a8c3c4041125b26528dc5ef77b41d0e9e086dfa"
+    },
+    {
+      "path": "build/w300/downloads/w300-watermark-archive/camera-forum-links.json",
+      "bytes": 36541,
+      "sha256": "c1584884ee8b94cc2cb92d95c766bad3e169fd428af8749b336c06cae8e4f73b"
+    },
+    {
+      "path": "build/w300/downloads/w300-watermark-archive/forum-163-1.html",
+      "bytes": 30934,
+      "sha256": "c51ec5b654f81b7031a5ad6b2f06997f7a0be55237f219194295e9a59632bb8d"
+    },
+    {
+      "path": "build/w300/downloads/w300-watermark-archive/forum-163-2.html",
+      "bytes": 30177,
+      "sha256": "fcd2294492a7d24c1d261466d3dcf0318dcddec97aa5e9fe708858a11393546b"
+    },
+    {
+      "path": "build/w300/downloads/w300-watermark-archive/main-http.html",
+      "bytes": 63,
+      "sha256": "b8f856812d0810c2fcd63e6c08d3d155e52670f10b6e10ee7b4af6b8004a8f7b"
+    },
+    {
+      "path": "build/w300/downloads/w300-watermark-archive/main-http.json",
+      "bytes": 198,
+      "sha256": "6a84b78bcc1096c0042052b7f3088e06979292e6d1971aa72f6b5ddd25011165"
+    },
+    {
+      "path": "build/w300/downloads/w300-watermark-archive/pages-acquisition.json",
+      "bytes": 1127,
+      "sha256": "b52d1ed6f91182bc4997d43b765e3dc644edc8cdb7ff836e373d9f10fe1c0071"
+    },
+    {
+      "path": "build/w300/downloads/w300-watermark-archive/tag-ADJ.html",
+      "bytes": 4683,
+      "sha256": "5b8d678d90ea2cc65cc7e8368a2f453846a28d79937612d1650c9c7a36ed63e6"
+    },
+    {
+      "path": "build/w300/downloads/w300-watermark-archive/tag-SONY.html",
+      "bytes": 16728,
+      "sha256": "64fa6ce6484f5b5b8e1075b26283e11a29d38c50814b3e1cedc4706251aa8d9d"
+    },
+    {
+      "path": "build/w300/downloads/w300-watermark-archive/thread-all-statuses.response",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "build/w300/downloads/w300-watermark-archive/thread-and-successor.json",
+      "bytes": 817,
+      "sha256": "0d1e8ced380a81a7c1da37f88120901d8ac85d6651be047272fb91d608e78c0a"
+    },
+    {
+      "path": "build/w300/downloads/w300-watermark-archive/w300-thread-acquisition.json",
+      "bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    }
+  ]
+}

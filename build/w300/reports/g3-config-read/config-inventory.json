@@ -1,0 +1,1187 @@
+{
+  "scope": "G3 static grammar containers and native data table, not W300 addresses",
+  "grammar": {
+    "sha256": "8c4eb1eec33464e2297dda4ce6461f9bb94a137928368a76d33eb463ae6b02dd",
+    "struct_va": 55772,
+    "symbols_va": 49648,
+    "symbols_bytes": 2506,
+    "code_va": 52154,
+    "code_bytes": 3490
+  },
+  "symbols": [
+    {
+      "index": 0,
+      "name": "Object"
+    },
+    {
+      "index": 1,
+      "name": "Backup"
+    },
+    {
+      "index": 2,
+      "name": "backuper"
+    },
+    {
+      "index": 3,
+      "name": "@"
+    },
+    {
+      "index": 4,
+      "name": "initialize"
+    },
+    {
+      "index": 5,
+      "name": "finalize"
+    },
+    {
+      "index": 6,
+      "name": "start"
+    },
+    {
+      "index": 7,
+      "name": "stop"
+    },
+    {
+      "index": 8,
+      "name": "id"
+    },
+    {
+      "index": 9,
+      "name": "dataId"
+    },
+    {
+      "index": 10,
+      "name": "_read"
+    },
+    {
+      "index": 11,
+      "name": "read"
+    },
+    {
+      "index": 12,
+      "name": "value"
+    },
+    {
+      "index": 13,
+      "name": "_write"
+    },
+    {
+      "index": 14,
+      "name": "write"
+    },
+    {
+      "index": 15,
+      "name": "target"
+    },
+    {
+      "index": 16,
+      "name": "callback"
+    },
+    {
+      "index": 17,
+      "name": "uniqueId"
+    },
+    {
+      "index": 18,
+      "name": "categoryId"
+    },
+    {
+      "index": 19,
+      "name": "_flush"
+    },
+    {
+      "index": 20,
+      "name": "registCallback"
+    },
+    {
+      "index": 21,
+      "name": "flush"
+    },
+    {
+      "index": 22,
+      "name": "_refresh"
+    },
+    {
+      "index": 23,
+      "name": "refresh"
+    },
+    {
+      "index": 24,
+      "name": "_erase"
+    },
+    {
+      "index": 25,
+      "name": "erase"
+    },
+    {
+      "index": 26,
+      "name": "getState"
+    },
+    {
+      "index": 27,
+      "name": "resetId"
+    },
+    {
+      "index": 28,
+      "name": "_reset"
+    },
+    {
+      "index": 29,
+      "name": "reset"
+    },
+    {
+      "index": 30,
+      "name": "_resetCom"
+    },
+    {
+      "index": 31,
+      "name": "resetCom"
+    },
+    {
+      "index": 32,
+      "name": "recoverFalsification"
+    },
+    {
+      "index": 33,
+      "name": "period"
+    },
+    {
+      "index": 34,
+      "name": "element"
+    },
+    {
+      "index": 35,
+      "name": "falsification"
+    },
+    {
+      "index": 36,
+      "name": "CallbackItem"
+    },
+    {
+      "index": 37,
+      "name": "detectReportedObject"
+    },
+    {
+      "index": 38,
+      "name": "_detectFalsification"
+    },
+    {
+      "index": 39,
+      "name": "detectFalsification"
+    },
+    {
+      "index": 40,
+      "name": "_initialize"
+    },
+    {
+      "index": 41,
+      "name": "_finalize"
+    },
+    {
+      "index": 42,
+      "name": "callbackItem"
+    },
+    {
+      "index": 43,
+      "name": "__xs__number"
+    },
+    {
+      "index": 44,
+      "name": "parse"
+    },
+    {
+      "index": 45,
+      "name": "prototype"
+    },
+    {
+      "index": 46,
+      "name": "Array"
+    },
+    {
+      "index": 47,
+      "name": "callbackTable"
+    },
+    {
+      "index": 48,
+      "name": "error"
+    },
+    {
+      "index": 49,
+      "name": "unregistCallback"
+    },
+    {
+      "index": 50,
+      "name": "call"
+    },
+    {
+      "index": 51,
+      "name": "onCallback"
+    },
+    {
+      "index": 52,
+      "name": "onDetect"
+    },
+    {
+      "index": 53,
+      "name": "push"
+    },
+    {
+      "index": 54,
+      "name": "item"
+    },
+    {
+      "index": 55,
+      "name": "i"
+    },
+    {
+      "index": 56,
+      "name": "length"
+    },
+    {
+      "index": 57,
+      "name": "pop"
+    },
+    {
+      "index": 58,
+      "name": "Backuper"
+    },
+    {
+      "index": 59,
+      "name": "HOST_REGULATION"
+    },
+    {
+      "index": 60,
+      "name": "HOST_SYSTEM"
+    },
+    {
+      "index": 61,
+      "name": "HOST_USER"
+    },
+    {
+      "index": 62,
+      "name": "FRONT_REGULATION"
+    },
+    {
+      "index": 63,
+      "name": "FRONT_SYSTEM"
+    },
+    {
+      "index": 64,
+      "name": "AV_REGULATION"
+    },
+    {
+      "index": 65,
+      "name": "AV_SYSTEM"
+    },
+    {
+      "index": 66,
+      "name": "AV_USER"
+    },
+    {
+      "index": 67,
+      "name": "BkupID_Reg_cmnSenser__Factory_0"
+    },
+    {
+      "index": 68,
+      "name": "BkupID_Reg_cmn__SerialNo"
+    },
+    {
+      "index": 69,
+      "name": "BkupID_Reg_cmn__DestinationID"
+    },
+    {
+      "index": 70,
+      "name": "BkupID_Reg_cmn__EstablishmentID"
+    },
+    {
+      "index": 71,
+      "name": "BkupID_Reg_cmn__usbSerialReserved"
+    },
+    {
+      "index": 72,
+      "name": "BkupID_Reg_cmn__usbModelNumber"
+    },
+    {
+      "index": 73,
+      "name": "BkupID_Reg_cmn__usbSerialNumber"
+    },
+    {
+      "index": 74,
+      "name": "BkupID_Reg_cmn__BackupKeyData"
+    },
+    {
+      "index": 75,
+      "name": "BkupID_Reg_cmn__commonTableNoReg"
+    },
+    {
+      "index": 76,
+      "name": "BkupID_Reg_cmn__isRegComSaftyData"
+    },
+    {
+      "index": 77,
+      "name": "BkupID_Reg_cmn__isRegProdSaftyData"
+    },
+    {
+      "index": 78,
+      "name": "BkupID_Reg_brewApp__regionData"
+    },
+    {
+      "index": 79,
+      "name": "BkupID_Reg_brewApp__initLangData"
+    },
+    {
+      "index": 80,
+      "name": "BkupID_Reg_brewApp__availLangData"
+    },
+    {
+      "index": 81,
+      "name": "BkupID_Reg_brewApp__signalTypeData"
+    },
+    {
+      "index": 82,
+      "name": "BkupID_Reg___recTimeLimit"
+    },
+    {
+      "index": 83,
+      "name": "BkupID_Reg___stillRecCount"
+    },
+    {
+      "index": 84,
+      "name": "BkupID_Reg___brightness_charge_strb_led"
+    },
+    {
+      "index": 85,
+      "name": "BkupID_Reg___brightness_ae_lock_led"
+    },
+    {
+      "index": 86,
+      "name": "BkupID_Reg___PasswdUnlockCode"
+    },
+    {
+      "index": 87,
+      "name": "BkupID_Reg___Calibration1RawX"
+    },
+    {
+      "index": 88,
+      "name": "BkupID_Reg___Calibration1RawY"
+    },
+    {
+      "index": 89,
+      "name": "BkupID_Reg___Calibration2RawX"
+    },
+    {
+      "index": 90,
+      "name": "BkupID_Reg___Calibration2RawY"
+    },
+    {
+      "index": 91,
+      "name": "BkupID_Sys_cmnUSB__PhyParam_ChkSum"
+    },
+    {
+      "index": 92,
+      "name": "BkupID_Sys_cmnUSB__PhyParam"
+    },
+    {
+      "index": 93,
+      "name": "BkupID_Sys_cmnUSB__dbg_setting"
+    },
+    {
+      "index": 94,
+      "name": "BkupID_Sys_cmnUSB__dbg_block0"
+    },
+    {
+      "index": 95,
+      "name": "BkupID_Sys_cmnUSB__dbg_block1"
+    },
+    {
+      "index": 96,
+      "name": "BkupID_Sys_cmnUSB__dbg_block2"
+    },
+    {
+      "index": 97,
+      "name": "BkupID_Sys_cmnUSB__dbg_block3"
+    },
+    {
+      "index": 98,
+      "name": "BkupID_Sys_cmnSonar__SonarSate"
+    },
+    {
+      "index": 99,
+      "name": "BkupID_Sys_cmnFileSystem__mis_SclkDly"
+    },
+    {
+      "index": 100,
+      "name": "BkupID_Sys_cmn__BackupKeyData"
+    },
+    {
+      "index": 101,
+      "name": "BkupID_Sys_cmn__commonTableNoSys"
+    },
+    {
+      "index": 102,
+      "name": "BkupID_Sys_cmn__isSysComSaftyData"
+    },
+    {
+      "index": 103,
+      "name": "BkupID_Sys_cmn__isSysProdSaftyData"
+    },
+    {
+      "index": 104,
+      "name": "BkupID_Sys___boot_time_measurement"
+    },
+    {
+      "index": 105,
+      "name": "BkupID_Usr___ms_dcf_SeqNo"
+    },
+    {
+      "index": 106,
+      "name": "BkupID_Usr___ms_dcf_DirNo"
+    },
+    {
+      "index": 107,
+      "name": "BkupID_Usr___ms_dcf_MediaID_0"
+    },
+    {
+      "index": 108,
+      "name": "BkupID_Usr___ms_msv_SeqNo"
+    },
+    {
+      "index": 109,
+      "name": "BkupID_Usr___ms_msv_DirNo"
+    },
+    {
+      "index": 110,
+      "name": "BkupID_Usr___ms_msv_MediaID_0"
+    },
+    {
+      "index": 111,
+      "name": "BkupID_Usr___nand_dcf_SeqNo"
+    },
+    {
+      "index": 112,
+      "name": "BkupID_Usr___nand_dcf_DirNo"
+    },
+    {
+      "index": 113,
+      "name": "BkupID_Usr___nand_msv_SeqNo"
+    },
+    {
+      "index": 114,
+      "name": "BkupID_Usr___nand_msv_DirNo"
+    },
+    {
+      "index": 115,
+      "name": "BkupID_Usr___reject_Mode_01"
+    },
+    {
+      "index": 116,
+      "name": "BkupID_Usr___BackupKeyData"
+    },
+    {
+      "index": 117,
+      "name": "BkupID_Usr___isUsrComSaftyData"
+    },
+    {
+      "index": 118,
+      "name": "BkupID_Usr___isUsrProdSaftyData"
+    },
+    {
+      "index": 119,
+      "name": "BkupID_Usr___stillRecCount"
+    },
+    {
+      "index": 120,
+      "name": "BkupID_Usr___Calibration1RawX"
+    },
+    {
+      "index": 121,
+      "name": "BkupID_Usr___Calibration1RawY"
+    },
+    {
+      "index": 122,
+      "name": "BkupID_Usr___Calibration2RawX"
+    },
+    {
+      "index": 123,
+      "name": "BkupID_Usr___Calibration2RawY"
+    },
+    {
+      "index": 124,
+      "name": "BkupID_Usr___PasswdValue"
+    },
+    {
+      "index": 125,
+      "name": "BkupID_Usr___PasswdSetting"
+    },
+    {
+      "index": 126,
+      "name": "BKUP_RESET0"
+    },
+    {
+      "index": 127,
+      "name": "BKUP_RESET1"
+    },
+    {
+      "index": 128,
+      "name": "BKUP_RESET2"
+    },
+    {
+      "index": 129,
+      "name": "BKUP_RESET3"
+    },
+    {
+      "index": 130,
+      "name": "__xs__pattern"
+    },
+    {
+      "index": 131,
+      "name": "__xs__link"
+    }
+  ],
+  "table_sha256": "a0c2462b3c2418ae6583b22594685a69560940f50c2f07abc3d2799496ecae5e",
+  "table_base": 124896,
+  "tables": [
+    {
+      "category": 0,
+      "variant": 0,
+      "descriptor_va": 124896,
+      "array_symbol": "HOST_COM_REG",
+      "array_va": 46988,
+      "count_symbol": "HOST_COM_REG_NUM",
+      "rows": [
+        {
+          "id": 0,
+          "offset": 0,
+          "size": 256,
+          "bit_size": 0,
+          "bit_mask": 0,
+          "kind": 1
+        },
+        {
+          "id": 65536,
+          "offset": 256,
+          "size": 4,
+          "bit_size": 0,
+          "bit_mask": 0,
+          "kind": 1
+        },
+        {
+          "id": 66560,
+          "offset": 260,
+          "size": 1,
+          "bit_size": 0,
+          "bit_mask": 0,
+          "kind": 1
+        },
+        {
+          "id": 66816,
+          "offset": 261,
+          "size": 1,
+          "bit_size": 0,
+          "bit_mask": 0,
+          "kind": 1
+        },
+        {
+          "id": 95232,
+          "offset": 372,
+          "size": 1,
+          "bit_size": 0,
+          "bit_mask": 0,
+          "kind": 1
+        },
+        {
+          "id": 95488,
+          "offset": 373,
+          "size": 5,
+          "bit_size": 0,
+          "bit_mask": 0,
+          "kind": 1
+        },
+        {
+          "id": 96768,
+          "offset": 378,
+          "size": 4,
+          "bit_size": 0,
+          "bit_mask": 0,
+          "kind": 1
+        },
+        {
+          "id": 126976,
+          "offset": 496,
+          "size": 4,
+          "bit_size": 0,
+          "bit_mask": 0,
+          "kind": 1
+        },
+        {
+          "id": 130304,
+          "offset": 509,
+          "size": 1,
+          "bit_size": 0,
+          "bit_mask": 0,
+          "kind": 1
+        },
+        {
+          "id": 130560,
+          "offset": 510,
+          "size": 1,
+          "bit_size": 0,
+          "bit_mask": 0,
+          "kind": 1
+        },
+        {
+          "id": 130816,
+          "offset": 511,
+          "size": 1,
+          "bit_size": 0,
+          "bit_mask": 0,
+          "kind": 1
+        }
+      ]
+    },
+    {
+      "category": 0,
+      "variant": 1,
+      "descriptor_va": 124904,
+      "array_symbol": "HOST_PROD_REG",
+      "array_va": 46728,
+      "count_symbol": "HOST_PROD_REG_NUM",
+      "rows": [
+        {
+          "id": 262144,
+          "offset": 1024,
+          "size": 4,
+          "bit_size": 0,
+          "bit_mask": 0,
+          "kind": 1
+        },
+        {
+          "id": 263168,
+          "offset": 1028,
+          "size": 4,
+          "bit_size": 0,
+          "bit_mask": 0,
+          "kind": 1
+        },
+        {
+          "id": 264192,
+          "offset": 1032,
+          "size": 4,
+          "bit_size": 0,
+          "bit_mask": 0,
+          "kind": 1
+        },
+        {
+          "id": 265216,
+          "offset": 1036,
+          "size": 4,
+          "bit_size": 0,
+          "bit_mask": 0,
+          "kind": 1
+        },
+        {
+          "id": 266240,
+          "offset": 1040,
+          "size": 2,
+          "bit_size": 0,
+          "bit_mask": 0,
+          "kind": 1
+        },
+        {
+          "id": 266752,
+          "offset": 1042,
+          "size": 4,
+          "bit_size": 0,
+          "bit_mask": 0,
+          "kind": 1
+        },
+        {
+          "id": 267776,
+          "offset": 1046,
+          "size": 1,
+          "bit_size": 0,
+          "bit_mask": 0,
+          "kind": 1
+        },
+        {
+          "id": 268032,
+          "offset": 1047,
+          "size": 1,
+          "bit_size": 0,
+          "bit_mask": 0,
+          "kind": 1
+        },
+        {
+          "id": 268288,
+          "offset": 1048,
+          "size": 5,
+          "bit_size": 0,
+          "bit_mask": 0,
+          "kind": 2
+        },
+        {
+          "id": 327680,
+          "offset": 1280,
+          "size": 1,
+          "bit_size": 0,
+          "bit_mask": 0,
+          "kind": 1
+        },
+        {
+          "id": 327936,
+          "offset": 1281,
+          "size": 1,
+          "bit_size": 0,
+          "bit_mask": 0,
+          "kind": 1
+        },
+        {
+          "id": 328192,
+          "offset": 1282,
+          "size": 1,
+          "bit_size": 0,
+          "bit_mask": 0,
+          "kind": 1
+        },
+        {
+          "id": 328448,
+          "offset": 1283,
+          "size": 1,
+          "bit_size": 0,
+          "bit_mask": 0,
+          "kind": 1
+        }
+      ]
+    },
+    {
+      "category": 1,
+      "variant": 0,
+      "descriptor_va": 124912,
+      "array_symbol": "HOST_COM_SYS",
+      "array_va": 46468,
+      "count_symbol": "HOST_COM_SYS_NUM",
+      "rows": [
+        {
+          "id": 16974080,
+          "offset": 769,
+          "size": 1,
+          "bit_size": 0,
+          "bit_mask": 0,
+          "kind": 1
+        },
+        {
+          "id": 16974336,
+          "offset": 770,
+          "size": 6,
+          "bit_size": 0,
+          "bit_mask": 0,
+          "kind": 1
+        },
+        {
+          "id": 16975872,
+          "offset": 776,
+          "size": 4,
+          "bit_size": 0,
+          "bit_mask": 0,
+          "kind": 1
+        },
+        {
+          "id": 16976896,
+          "offset": 780,
+          "size": 4,
+          "bit_size": 0,
+          "bit_mask": 0,
+          "kind": 1
+        },
+        {
+          "id": 16977920,
+          "offset": 784,
+          "size": 4,
+          "bit_size": 0,
+          "bit_mask": 0,
+          "kind": 1
+        },
+        {
+          "id": 16978944,
+          "offset": 788,
+          "size": 4,
+          "bit_size": 0,
+          "bit_mask": 0,
+          "kind": 1
+        },
+        {
+          "id": 16979968,
+          "offset": 792,
+          "size": 4,
+          "bit_size": 0,
+          "bit_mask": 0,
+          "kind": 1
+        },
+        {
+          "id": 16986112,
+          "offset": 816,
+          "size": 1,
+          "bit_size": 0,
+          "bit_mask": 0,
+          "kind": 1
+        },
+        {
+          "id": 16990208,
+          "offset": 832,
+          "size": 1,
+          "bit_size": 0,
+          "bit_mask": 0,
+          "kind": 1
+        },
+        {
+          "id": 17035264,
+          "offset": 1008,
+          "size": 4,
+          "bit_size": 0,
+          "bit_mask": 0,
+          "kind": 1
+        },
+        {
+          "id": 17038592,
+          "offset": 1021,
+          "size": 1,
+          "bit_size": 0,
+          "bit_mask": 0,
+          "kind": 1
+        },
+        {
+          "id": 17038848,
+          "offset": 1022,
+          "size": 1,
+          "bit_size": 0,
+          "bit_mask": 0,
+          "kind": 1
+        },
+        {
+          "id": 17039104,
+          "offset": 1023,
+          "size": 1,
+          "bit_size": 0,
+          "bit_mask": 0,
+          "kind": 1
+        }
+      ]
+    },
+    {
+      "category": 1,
+      "variant": 1,
+      "descriptor_va": 124920,
+      "array_symbol": "HOST_PROD_SYS",
+      "array_va": 46448,
+      "count_symbol": "HOST_PROD_SYS_NUM",
+      "rows": [
+        {
+          "id": 17104896,
+          "offset": 1280,
+          "size": 0,
+          "bit_size": 1,
+          "bit_mask": 128,
+          "kind": 1
+        }
+      ]
+    },
+    {
+      "category": 2,
+      "variant": 0,
+      "descriptor_va": 124928,
+      "array_symbol": "HOST_COM_USR",
+      "array_va": 46168,
+      "count_symbol": "HOST_COM_USR_NUM",
+      "rows": [
+        {
+          "id": 33555456,
+          "offset": 4,
+          "size": 2,
+          "bit_size": 0,
+          "bit_mask": 0,
+          "kind": 1
+        },
+        {
+          "id": 33555968,
+          "offset": 6,
+          "size": 2,
+          "bit_size": 0,
+          "bit_mask": 0,
+          "kind": 1
+        },
+        {
+          "id": 33556480,
+          "offset": 8,
+          "size": 16,
+          "bit_size": 0,
+          "bit_mask": 0,
+          "kind": 1
+        },
+        {
+          "id": 33560576,
+          "offset": 24,
+          "size": 2,
+          "bit_size": 0,
+          "bit_mask": 0,
+          "kind": 1
+        },
+        {
+          "id": 33561088,
+          "offset": 26,
+          "size": 2,
+          "bit_size": 0,
+          "bit_mask": 0,
+          "kind": 1
+        },
+        {
+          "id": 33561600,
+          "offset": 28,
+          "size": 16,
+          "bit_size": 0,
+          "bit_mask": 0,
+          "kind": 1
+        },
+        {
+          "id": 33565696,
+          "offset": 44,
+          "size": 2,
+          "bit_size": 0,
+          "bit_mask": 0,
+          "kind": 1
+        },
+        {
+          "id": 33566208,
+          "offset": 46,
+          "size": 2,
+          "bit_size": 0,
+          "bit_mask": 0,
+          "kind": 1
+        },
+        {
+          "id": 33566720,
+          "offset": 48,
+          "size": 2,
+          "bit_size": 0,
+          "bit_mask": 0,
+          "kind": 1
+        },
+        {
+          "id": 33567232,
+          "offset": 50,
+          "size": 2,
+          "bit_size": 0,
+          "bit_mask": 0,
+          "kind": 1
+        },
+        {
+          "id": 33570816,
+          "offset": 64,
+          "size": 1,
+          "bit_size": 0,
+          "bit_mask": 0,
+          "kind": 1
+        },
+        {
+          "id": 33812480,
+          "offset": 1008,
+          "size": 4,
+          "bit_size": 0,
+          "bit_mask": 0,
+          "kind": 1
+        },
+        {
+          "id": 33816064,
+          "offset": 1022,
+          "size": 1,
+          "bit_size": 0,
+          "bit_mask": 0,
+          "kind": 1
+        },
+        {
+          "id": 33816320,
+          "offset": 1023,
+          "size": 1,
+          "bit_size": 0,
+          "bit_mask": 0,
+          "kind": 1
+        }
+      ]
+    },
+    {
+      "category": 2,
+      "variant": 1,
+      "descriptor_va": 124936,
+      "array_symbol": "HOST_PROD_USR",
+      "array_va": 46028,
+      "count_symbol": "HOST_PROD_USR_NUM",
+      "rows": [
+        {
+          "id": 33816576,
+          "offset": 1024,
+          "size": 4,
+          "bit_size": 0,
+          "bit_mask": 0,
+          "kind": 1
+        },
+        {
+          "id": 33817600,
+          "offset": 1028,
+          "size": 1,
+          "bit_size": 0,
+          "bit_mask": 0,
+          "kind": 1
+        },
+        {
+          "id": 33817856,
+          "offset": 1029,
+          "size": 1,
+          "bit_size": 0,
+          "bit_mask": 0,
+          "kind": 1
+        },
+        {
+          "id": 33818112,
+          "offset": 1030,
+          "size": 1,
+          "bit_size": 0,
+          "bit_mask": 0,
+          "kind": 1
+        },
+        {
+          "id": 33818368,
+          "offset": 1031,
+          "size": 1,
+          "bit_size": 0,
+          "bit_mask": 0,
+          "kind": 1
+        },
+        {
+          "id": 33818624,
+          "offset": 1032,
+          "size": 5,
+          "bit_size": 0,
+          "bit_mask": 0,
+          "kind": 2
+        },
+        {
+          "id": 33819904,
+          "offset": 1037,
+          "size": 0,
+          "bit_size": 1,
+          "bit_mask": 128,
+          "kind": 1
+        }
+      ]
+    }
+  ],
+  "region_xml": [
+    {
+      "path": "evidence/extracted_g3/archives_unpacked/fskapp1/dsc/app/systemData/RegionInfo/RegionInfo_ENG_2_NT.xml",
+      "sha256": "46af4476f9aa369c54da7d7590b0da5252e6b3c35ed9abe40e6103a443e0f2a7",
+      "values": {
+        "lang": "eng",
+        "langGp": "2",
+        "sigTyp": "0"
+      }
+    },
+    {
+      "path": "evidence/extracted_g3/archives_unpacked/fskapp1/dsc/app/systemData/RegionInfo/RegionInfo_ENG_2_PA.xml",
+      "sha256": "3ec6be050c1c4595a8ba64ef93a4160fe3c91e7126b084f17f5841b3f7d4a4ad",
+      "values": {
+        "lang": "eng",
+        "langGp": "2",
+        "sigTyp": "1"
+      }
+    },
+    {
+      "path": "evidence/extracted_g3/archives_unpacked/fskapp1/dsc/app/systemData/RegionInfo/RegionInfo_ENG_3_PA.xml",
+      "sha256": "56605a0c60a1d332a8354e6bba42132eed7b193671ac0725c28a3536ae4ed949",
+      "values": {
+        "lang": "eng",
+        "langGp": "3",
+        "sigTyp": "1"
+      }
+    },
+    {
+      "path": "evidence/extracted_g3/archives_unpacked/fskapp1/dsc/app/systemData/RegionInfo/RegionInfo_ENG_4_PA.xml",
+      "sha256": "18fae2ab013854e914c2a29b8705838905c43b464999e72e779971354a056adf",
+      "values": {
+        "lang": "eng",
+        "langGp": "4",
+        "sigTyp": "1"
+      }
+    },
+    {
+      "path": "evidence/extracted_g3/archives_unpacked/fskapp1/dsc/app/systemData/RegionInfo/RegionInfo_ENG_5_PA.xml",
+      "sha256": "8928237ec2d50032f01e6397f012e06143164cf52b9c3fd165120353f09863f6",
+      "values": {
+        "lang": "eng",
+        "langGp": "5",
+        "sigTyp": "1"
+      }
+    },
+    {
+      "path": "evidence/extracted_g3/archives_unpacked/fskapp1/dsc/app/systemData/RegionInfo/RegionInfo_JPN_1_NT.xml",
+      "sha256": "0841d4629e3885eb50c12a38ba5cacbe4c8772995eeb25b45c906f3b7f9997da",
+      "values": {
+        "lang": "jpn",
+        "langGp": "1",
+        "sigTyp": "0"
+      }
+    },
+    {
+      "path": "evidence/extracted_g3/archives_unpacked/fskapp1/dsc/app/systemData/RegionInfo/RegionInfo_KOR_4_NT.xml",
+      "sha256": "2c7bfa87c22a5a2e0f4924bf658fce35eff0166dece0ccb495c492003e539410",
+      "values": {
+        "lang": "kor",
+        "langGp": "4",
+        "sigTyp": "0"
+      }
+    },
+    {
+      "path": "evidence/extracted_g3/archives_unpacked/fskapp1/dsc/app/systemData/RegionInfo/RegionInfo_POR_4_NT.xml",
+      "sha256": "fb5735c8f49cbb3ca923dcbdfd1b9b74f2405e09bd27fe52c2505beb83f833ea",
+      "values": {
+        "lang": "por",
+        "langGp": "4",
+        "sigTyp": "0"
+      }
+    },
+    {
+      "path": "evidence/extracted_g3/archives_unpacked/fskapp1/dsc/app/systemData/RegionInfo/RegionInfo_RUS_3_PA.xml",
+      "sha256": "06bff0c7b4aa6481baaf35c4785a0d162877f0dbc9dc91c130c563fc28416529",
+      "values": {
+        "lang": "rus",
+        "langGp": "3",
+        "sigTyp": "1"
+      }
+    },
+    {
+      "path": "evidence/extracted_g3/archives_unpacked/fskapp1/dsc/app/systemData/RegionInfo/RegionInfo_SCH_4_PA.xml",
+      "sha256": "44a46ab492bf3b862d3fa12c1cb8586d9df85ef43315d6d449ee8ca2d02576d2",
+      "values": {
+        "lang": "sch",
+        "langGp": "4",
+        "sigTyp": "1"
+      }
+    },
+    {
+      "path": "evidence/extracted_g3/archives_unpacked/fskapp1/dsc/app/systemData/RegionInfo/RegionInfo_SPA_4_NT.xml",
+      "sha256": "4f6e6533c83c22b55f8625bf4afff6e608567a1282b896014b5117010cebba30",
+      "values": {
+        "lang": "spa",
+        "langGp": "4",
+        "sigTyp": "0"
+      }
+    },
+    {
+      "path": "evidence/extracted_g3/archives_unpacked/fskapp1/dsc/app/systemData/RegionInfo/RegionInfo_THA_4_PA.xml",
+      "sha256": "658dfa747695a2e0984fd5e86dd19b5a38fdbc765cae5ba61bb705123501ed69",
+      "values": {
+        "lang": "tha",
+        "langGp": "4",
+        "sigTyp": "1"
+      }
+    }
+  ]
+}

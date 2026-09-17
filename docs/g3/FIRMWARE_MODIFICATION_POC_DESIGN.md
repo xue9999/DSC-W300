@@ -1,1 +1,0 @@
-../../evidence/FIRMWARE_MODIFICATION_POC_DESIGN.md

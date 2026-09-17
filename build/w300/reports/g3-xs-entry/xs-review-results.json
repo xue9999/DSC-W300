@@ -1,0 +1,76 @@
+{
+  "runtime_sha256": "2fb7914c1f111650e0022db4f3c52b3d5328f9e16c20dc1a15db5cef6212203c",
+  "static_only": true,
+  "w300_qualified": false,
+  "dispatch": {
+    "28": {
+      "normal": "0x90cfc",
+      "accelerator": "0x8f4f8"
+    },
+    "29": {
+      "normal": "0x90d20",
+      "accelerator": "0x8f51c"
+    },
+    "2a": {
+      "normal": "0x90d58",
+      "accelerator": "0x8f5a0"
+    },
+    "2e": {
+      "normal": "0x91778",
+      "accelerator": "0x8f9a0"
+    },
+    "42": {
+      "normal": "0x91e08",
+      "accelerator": "0x8fcf4"
+    },
+    "64": {
+      "normal": "0x92570",
+      "accelerator": "0x8fef0"
+    },
+    "6a": {
+      "normal": "0x92b10",
+      "accelerator": "0x9076c"
+    },
+    "6c": {
+      "normal": "0x913cc",
+      "accelerator": "0x8f860"
+    },
+    "7c": {
+      "normal": "0x934a0",
+      "accelerator": "0x9076c"
+    },
+    "89": {
+      "normal": "0x929ac",
+      "accelerator": "0x900bc"
+    }
+  },
+  "files": [
+    {
+      "file": "evidence/extracted_g3/archives_unpacked/fskrel1/dsc/fsk/senserModule.xsb",
+      "sha256": "b40523072708fb049781141b7e89742e2aefa43b4cc42ca3db52feb4aac756f0",
+      "code_bytes": 1199,
+      "instructions": 563,
+      "symbol_operands": 171,
+      "branch_targets_checked": 27,
+      "framing_matches": true
+    },
+    {
+      "file": "evidence/extracted_g3/archives_unpacked/fskrel1/dsc/fsk/senserCmdTable.xsb",
+      "sha256": "d7d82f5437d375ef42fcc0fc1dbddaadc7cd90977741a4b2dc42f5cf8caa50db",
+      "code_bytes": 67871,
+      "instructions": 32196,
+      "symbol_operands": 8327,
+      "branch_targets_checked": 1315,
+      "framing_matches": true
+    },
+    {
+      "file": "evidence/extracted_g3/archives_unpacked/fskrel1/dsc/fsk/regionInfo.xsb",
+      "sha256": "76061909683201a196ce277767c61c0954b8952a458f7620415cbb748928162c",
+      "code_bytes": 4863,
+      "instructions": 1727,
+      "symbol_operands": 357,
+      "branch_targets_checked": 104,
+      "framing_matches": true
+    }
+  ]
+}

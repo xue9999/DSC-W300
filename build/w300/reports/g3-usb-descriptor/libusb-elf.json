@@ -1,0 +1,7450 @@
+{
+  "path": "evidence/extracted_g3/archives_unpacked/lib/lib/libusb.so",
+  "sha256": "618d7abb1ac055afceefbab379b522d782574ffefeee5bbbcd3148d4a01d2cb8",
+  "elf_type": 3,
+  "sections": [
+    {
+      "index": 0,
+      "name": "",
+      "type": 0,
+      "flags": 0,
+      "va": 0,
+      "off": 0,
+      "size": 0,
+      "link": 0,
+      "info": 0,
+      "entsize": 0
+    },
+    {
+      "index": 1,
+      "name": ".hash",
+      "type": 5,
+      "flags": 2,
+      "va": 180,
+      "off": 180,
+      "size": 2360,
+      "link": 2,
+      "info": 0,
+      "entsize": 4
+    },
+    {
+      "index": 2,
+      "name": ".dynsym",
+      "type": 11,
+      "flags": 2,
+      "va": 2540,
+      "off": 2540,
+      "size": 5200,
+      "link": 3,
+      "info": 12,
+      "entsize": 16
+    },
+    {
+      "index": 3,
+      "name": ".dynstr",
+      "type": 3,
+      "flags": 2,
+      "va": 7740,
+      "off": 7740,
+      "size": 7522,
+      "link": 0,
+      "info": 0,
+      "entsize": 0
+    },
+    {
+      "index": 4,
+      "name": ".gnu.version",
+      "type": 1879048191,
+      "flags": 2,
+      "va": 15262,
+      "off": 15262,
+      "size": 650,
+      "link": 2,
+      "info": 0,
+      "entsize": 2
+    },
+    {
+      "index": 5,
+      "name": ".gnu.version_r",
+      "type": 1879048190,
+      "flags": 2,
+      "va": 15912,
+      "off": 15912,
+      "size": 32,
+      "link": 3,
+      "info": 1,
+      "entsize": 0
+    },
+    {
+      "index": 6,
+      "name": ".rel.dyn",
+      "type": 9,
+      "flags": 2,
+      "va": 15944,
+      "off": 15944,
+      "size": 2776,
+      "link": 2,
+      "info": 0,
+      "entsize": 8
+    },
+    {
+      "index": 7,
+      "name": ".rel.plt",
+      "type": 9,
+      "flags": 2,
+      "va": 18720,
+      "off": 18720,
+      "size": 1216,
+      "link": 2,
+      "info": 9,
+      "entsize": 8
+    },
+    {
+      "index": 8,
+      "name": ".init",
+      "type": 1,
+      "flags": 6,
+      "va": 19936,
+      "off": 19936,
+      "size": 4,
+      "link": 0,
+      "info": 0,
+      "entsize": 0
+    },
+    {
+      "index": 9,
+      "name": ".plt",
+      "type": 1,
+      "flags": 6,
+      "va": 19940,
+      "off": 19940,
+      "size": 1844,
+      "link": 0,
+      "info": 0,
+      "entsize": 4
+    },
+    {
+      "index": 10,
+      "name": ".text",
+      "type": 1,
+      "flags": 6,
+      "va": 21784,
+      "off": 21784,
+      "size": 43536,
+      "link": 0,
+      "info": 0,
+      "entsize": 0
+    },
+    {
+      "index": 11,
+      "name": ".fini",
+      "type": 1,
+      "flags": 6,
+      "va": 65320,
+      "off": 65320,
+      "size": 4,
+      "link": 0,
+      "info": 0,
+      "entsize": 0
+    },
+    {
+      "index": 12,
+      "name": ".rodata",
+      "type": 1,
+      "flags": 2,
+      "va": 65324,
+      "off": 65324,
+      "size": 1828,
+      "link": 0,
+      "info": 0,
+      "entsize": 0
+    },
+    {
+      "index": 13,
+      "name": ".note.ABI-tag",
+      "type": 7,
+      "flags": 2,
+      "va": 67152,
+      "off": 67152,
+      "size": 32,
+      "link": 0,
+      "info": 0,
+      "entsize": 0
+    },
+    {
+      "index": 14,
+      "name": ".eh_frame",
+      "type": 1,
+      "flags": 3,
+      "va": 99952,
+      "off": 67184,
+      "size": 4,
+      "link": 0,
+      "info": 0,
+      "entsize": 0
+    },
+    {
+      "index": 15,
+      "name": ".gcc_except_table",
+      "type": 1,
+      "flags": 3,
+      "va": 99956,
+      "off": 67188,
+      "size": 310,
+      "link": 0,
+      "info": 0,
+      "entsize": 0
+    },
+    {
+      "index": 16,
+      "name": ".ctors",
+      "type": 1,
+      "flags": 3,
+      "va": 100268,
+      "off": 67500,
+      "size": 8,
+      "link": 0,
+      "info": 0,
+      "entsize": 0
+    },
+    {
+      "index": 17,
+      "name": ".dtors",
+      "type": 1,
+      "flags": 3,
+      "va": 100276,
+      "off": 67508,
+      "size": 8,
+      "link": 0,
+      "info": 0,
+      "entsize": 0
+    },
+    {
+      "index": 18,
+      "name": ".data.rel.ro",
+      "type": 1,
+      "flags": 3,
+      "va": 100284,
+      "off": 67516,
+      "size": 1284,
+      "link": 0,
+      "info": 0,
+      "entsize": 0
+    },
+    {
+      "index": 19,
+      "name": ".dynamic",
+      "type": 6,
+      "flags": 3,
+      "va": 101568,
+      "off": 68800,
+      "size": 248,
+      "link": 3,
+      "info": 0,
+      "entsize": 8
+    },
+    {
+      "index": 20,
+      "name": ".got",
+      "type": 1,
+      "flags": 3,
+      "va": 101816,
+      "off": 69048,
+      "size": 800,
+      "link": 0,
+      "info": 0,
+      "entsize": 4
+    },
+    {
+      "index": 21,
+      "name": ".data",
+      "type": 1,
+      "flags": 3,
+      "va": 102616,
+      "off": 69848,
+      "size": 1540,
+      "link": 0,
+      "info": 0,
+      "entsize": 0
+    },
+    {
+      "index": 22,
+      "name": ".bss",
+      "type": 8,
+      "flags": 3,
+      "va": 104156,
+      "off": 71388,
+      "size": 844,
+      "link": 0,
+      "info": 0,
+      "entsize": 0
+    },
+    {
+      "index": 23,
+      "name": ".comment",
+      "type": 1,
+      "flags": 0,
+      "va": 0,
+      "off": 71388,
+      "size": 522,
+      "link": 0,
+      "info": 0,
+      "entsize": 0
+    },
+    {
+      "index": 24,
+      "name": ".shstrtab",
+      "type": 3,
+      "flags": 0,
+      "va": 0,
+      "off": 71910,
+      "size": 208,
+      "link": 0,
+      "info": 0,
+      "entsize": 0
+    }
+  ],
+  "symbols": [
+    {
+      "name": "_ZN17CUsbGadgetStorage11proc_keventEmhhPv",
+      "value": 47972,
+      "size": 16,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 47972
+    },
+    {
+      "name": "_ZN15CUsbGadgetStill15proc_stop_eventEmhhPv",
+      "value": 50420,
+      "size": 64,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 50420
+    },
+    {
+      "name": "__ps_strings",
+      "value": 104156,
+      "size": 4,
+      "type": 1,
+      "section_index": 22,
+      "section": ".bss"
+    },
+    {
+      "name": "PTPT_fin",
+      "value": 59576,
+      "size": 68,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 59576
+    },
+    {
+      "name": "_ZN10CUsbGadgetD0Ev",
+      "value": 42440,
+      "size": 64,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 42440
+    },
+    {
+      "name": "PTPT_init",
+      "value": 59472,
+      "size": 104,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 59472
+    },
+    {
+      "name": "usb_trace_init",
+      "value": 64392,
+      "size": 272,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 64392
+    },
+    {
+      "name": "_ZN7CUsbSvc18proc_kevent_gadgetEmhhPv",
+      "value": 36356,
+      "size": 576,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 36356
+    },
+    {
+      "name": "_ZN4CUsb13thread_createEv",
+      "value": 30528,
+      "size": 132,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 30528
+    },
+    {
+      "name": "usbgmscif_setMediaStatus",
+      "value": 61872,
+      "size": 444,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 61872
+    },
+    {
+      "name": "pthread_setcanceltype",
+      "value": 0,
+      "size": 104,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "_ZTI4CUsb",
+      "value": 102708,
+      "size": 8,
+      "type": 1,
+      "section_index": 21,
+      "section": ".data",
+      "file_offset": 69940
+    },
+    {
+      "name": "_ZN4CUsb13que_terminateEP12CUSB_MES_QUE",
+      "value": 31228,
+      "size": 40,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 31228
+    },
+    {
+      "name": "_ZN7CUsbSvc8getSpeedEv",
+      "value": 35024,
+      "size": 116,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 35024
+    },
+    {
+      "name": "PTPT_send_event",
+      "value": 60408,
+      "size": 64,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 60408
+    },
+    {
+      "name": "_ZN4CUsbD2Ev",
+      "value": 30248,
+      "size": 48,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 30248
+    },
+    {
+      "name": "_ZN4CUsbC1Ev",
+      "value": 30192,
+      "size": 56,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 30192
+    },
+    {
+      "name": "_ZTS7CUsbSvc",
+      "value": 65536,
+      "size": 9,
+      "type": 1,
+      "section_index": 12,
+      "section": ".rodata",
+      "file_offset": 65536
+    },
+    {
+      "name": "_Znaj",
+      "value": 0,
+      "size": 220,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "_ZN7CUsbSvc13setSelectPortE21__CUSB_SVC_EVENT_PORT",
+      "value": 35472,
+      "size": 296,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 35472
+    },
+    {
+      "name": "__cxa_begin_catch",
+      "value": 0,
+      "size": 496,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "_ZN16CUsbGadgetSample9on_createEP7CUsbSvcP19CUSB_GADGET_REGINFOP19CUSB_GADGET_CREINFO",
+      "value": 55864,
+      "size": 240,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 55864
+    },
+    {
+      "name": "_ZN10CUsbGadget12createGadgetEP7CUsbSvcP19CUSB_GADGET_REGINFOP19CUSB_GADGET_CREINFO",
+      "value": 42504,
+      "size": 196,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 42504
+    },
+    {
+      "name": "_ZN13CUsbGadgetSen4sendEPhim",
+      "value": 52344,
+      "size": 124,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 52344
+    },
+    {
+      "name": "_ZN7CUsbSvc19create_serialNumberEv",
+      "value": 37672,
+      "size": 336,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 37672
+    },
+    {
+      "name": "_start",
+      "value": 21784,
+      "size": 0,
+      "type": 0,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 21784
+    },
+    {
+      "name": "open",
+      "value": 0,
+      "size": 56,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "_Unwind_SjLj_Register",
+      "value": 0,
+      "size": 136,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "_ZN7CUsbSvc11registerSvcEPvP16CUSB_SVC_REGINFO",
+      "value": 32972,
+      "size": 120,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 32972
+    },
+    {
+      "name": "PTPT_free_buffer",
+      "value": 60208,
+      "size": 56,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 60208
+    },
+    {
+      "name": "storage_NAND_desc_tbl",
+      "value": 100744,
+      "size": 48,
+      "type": 1,
+      "section_index": 18,
+      "section": ".data.rel.ro",
+      "file_offset": 67976
+    },
+    {
+      "name": "usbgmscif_user_ops_ms",
+      "value": 100544,
+      "size": 8,
+      "type": 1,
+      "section_index": 18,
+      "section": ".data.rel.ro",
+      "file_offset": 67776
+    },
+    {
+      "name": "still_interface_desc",
+      "value": 101000,
+      "size": 16,
+      "type": 1,
+      "section_index": 18,
+      "section": ".data.rel.ro",
+      "file_offset": 68232
+    },
+    {
+      "name": "_ZN7CUsbSvcC2Ev",
+      "value": 31516,
+      "size": 276,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 31516
+    },
+    {
+      "name": "_ZN7CUsbSvc7openSvcEv",
+      "value": 38860,
+      "size": 640,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 38860
+    },
+    {
+      "name": "__sF",
+      "value": 0,
+      "size": 396,
+      "type": 1,
+      "section_index": 0
+    },
+    {
+      "name": "_ZN4CUsb8setSpeedE10CUSB_SPEED",
+      "value": 30396,
+      "size": 36,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 30396
+    },
+    {
+      "name": "_ZN13CUsbGadgetSenC2Ev",
+      "value": 50932,
+      "size": 312,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 50932
+    },
+    {
+      "name": "_ZN7CUsbSvc28notify_deleteGadget_completeEP8CUSB_MES",
+      "value": 34776,
+      "size": 248,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 34776
+    },
+    {
+      "name": "memcpy",
+      "value": 0,
+      "size": 12,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "_ZN7CUsbSvc9terminateEv",
+      "value": 32920,
+      "size": 52,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 32920
+    },
+    {
+      "name": "_ZN4CUsbC2Ev",
+      "value": 30136,
+      "size": 56,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 30136
+    },
+    {
+      "name": "_ZN7CUsbSvc10new_gadgetE8CUSB_FID",
+      "value": 33184,
+      "size": 456,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 33184
+    },
+    {
+      "name": "_ZN7CUsbSvc17comp_deleteGadgetEPvS0_hi",
+      "value": 34752,
+      "size": 24,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 34752
+    },
+    {
+      "name": "_ZN13CUsbGadgetSen9on_createEP7CUsbSvcP19CUSB_GADGET_REGINFOP19CUSB_GADGET_CREINFO",
+      "value": 52592,
+      "size": 256,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 52592
+    },
+    {
+      "name": "_ZTV4CUsb",
+      "value": 102680,
+      "size": 28,
+      "type": 1,
+      "section_index": 21,
+      "section": ".data",
+      "file_offset": 69912
+    },
+    {
+      "name": "sleep",
+      "value": 0,
+      "size": 360,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "_ZN15CUsbGadgetStill9on_deleteEv",
+      "value": 50284,
+      "size": 72,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 50284
+    },
+    {
+      "name": "PTPT_fin_usbif",
+      "value": 58728,
+      "size": 168,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 58728
+    },
+    {
+      "name": "pthread_mutex_init",
+      "value": 0,
+      "size": 124,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "_ZN17CUsbGadgetStorage13mes_sendEventEP8CUSB_MES",
+      "value": 48116,
+      "size": 248,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 48116
+    },
+    {
+      "name": "_ZTV13CUsbGadgetSen",
+      "value": 102956,
+      "size": 36,
+      "type": 1,
+      "section_index": 21,
+      "section": ".data",
+      "file_offset": 70188
+    },
+    {
+      "name": "__progname",
+      "value": 0,
+      "size": 4,
+      "type": 1,
+      "section_index": 0
+    },
+    {
+      "name": "PTPT_set_error",
+      "value": 60552,
+      "size": 100,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 60552
+    },
+    {
+      "name": "usb_senif_destroy",
+      "value": 56572,
+      "size": 100,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 56572
+    },
+    {
+      "name": "_ZN4CUsbD0Ev",
+      "value": 30344,
+      "size": 52,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 30344
+    },
+    {
+      "name": "_fini",
+      "value": 22368,
+      "size": 132,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 22368
+    },
+    {
+      "name": "pthread_attr_init",
+      "value": 0,
+      "size": 76,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "_ZN7CUsbSvc8set_userEP13__cusb_user_t",
+      "value": 40480,
+      "size": 372,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 40480
+    },
+    {
+      "name": "_ZN7CUsbSvc4initE15__CUSB_SVC_PORT",
+      "value": 32820,
+      "size": 100,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 32820
+    },
+    {
+      "name": "gettimeofday",
+      "value": 0,
+      "size": 16,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "usbproduct_init_drive_type",
+      "value": 65224,
+      "size": 44,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 65224
+    },
+    {
+      "name": "usbif_getProductSerial",
+      "value": 29856,
+      "size": 280,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 29856
+    },
+    {
+      "name": "_ZN4CUsb13getLocalSpeedEv",
+      "value": 30432,
+      "size": 20,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 30432
+    },
+    {
+      "name": "storage_interface_desc",
+      "value": 100840,
+      "size": 16,
+      "type": 1,
+      "section_index": 18,
+      "section": ".data.rel.ro",
+      "file_offset": 68072
+    },
+    {
+      "name": "_ZN7CUsbSvc13getProductNumEPhi",
+      "value": 42056,
+      "size": 84,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 42056
+    },
+    {
+      "name": "_ZN10CUsbGadgetC2Ev",
+      "value": 42224,
+      "size": 56,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 42224
+    },
+    {
+      "name": "_ZTI16CUsbGadgetSample",
+      "value": 103052,
+      "size": 24,
+      "type": 1,
+      "section_index": 21,
+      "section": ".data",
+      "file_offset": 70284
+    },
+    {
+      "name": "_ZN17CUsbGadgetStorage19mes_sendExtCmdEventEP8CUSB_MES",
+      "value": 48500,
+      "size": 88,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 48500
+    },
+    {
+      "name": "_ZTI10__CUSB_RES",
+      "value": 102768,
+      "size": 8,
+      "type": 1,
+      "section_index": 21,
+      "section": ".data",
+      "file_offset": 70000
+    },
+    {
+      "name": "_Z27cusb_user_set_iproduct_utf8P13__cusb_user_tPvh",
+      "value": 53040,
+      "size": 44,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 53040
+    },
+    {
+      "name": "_ZN15CUsbGadgetStill16proc_class_eventEmhhPv",
+      "value": 50612,
+      "size": 120,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 50612
+    },
+    {
+      "name": "usb_trace_out",
+      "value": 64664,
+      "size": 224,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 64664
+    },
+    {
+      "name": "_ZTS4CUsb",
+      "value": 65528,
+      "size": 6,
+      "type": 1,
+      "section_index": 12,
+      "section": ".rodata",
+      "file_offset": 65528
+    },
+    {
+      "name": "__cxa_finalize",
+      "value": 0,
+      "size": 412,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "usb_trace_blog_init",
+      "value": 64940,
+      "size": 72,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 64940
+    },
+    {
+      "name": "_ZTI13CUsbGadgetSen",
+      "value": 102992,
+      "size": 24,
+      "type": 1,
+      "section_index": 21,
+      "section": ".data",
+      "file_offset": 70224
+    },
+    {
+      "name": "malloc",
+      "value": 0,
+      "size": 376,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "___start",
+      "value": 21948,
+      "size": 272,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 21948
+    },
+    {
+      "name": "_ZdlPv",
+      "value": 0,
+      "size": 44,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "_ZN13CUsbGadgetSen7receiveEPhim",
+      "value": 52468,
+      "size": 124,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 52468
+    },
+    {
+      "name": "_ZN10CUsbGadgetD2Ev",
+      "value": 42336,
+      "size": 52,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 42336
+    },
+    {
+      "name": "_ZN7CUsbSvc9free_userEP13__cusb_user_t",
+      "value": 39872,
+      "size": 324,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 39872
+    },
+    {
+      "name": "_ZN13CUsbGadgetSen11proc_keventEmhhPv",
+      "value": 52928,
+      "size": 112,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 52928
+    },
+    {
+      "name": "usbif_getProductNum",
+      "value": 29576,
+      "size": 280,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 29576
+    },
+    {
+      "name": "_ZTI17CUsbGadgetStorage",
+      "value": 102872,
+      "size": 24,
+      "type": 1,
+      "section_index": 21,
+      "section": ".data",
+      "file_offset": 70104
+    },
+    {
+      "name": "_ZN13CUsbGadgetSenD1Ev",
+      "value": 51816,
+      "size": 260,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 51816
+    },
+    {
+      "name": "ptbl_usbif_user_ops",
+      "value": 102620,
+      "size": 56,
+      "type": 1,
+      "section_index": 21,
+      "section": ".data",
+      "file_offset": 69852
+    },
+    {
+      "name": "_ZTS17CUsbGadgetStorage",
+      "value": 66096,
+      "size": 20,
+      "type": 1,
+      "section_index": 12,
+      "section": ".rodata",
+      "file_offset": 66096
+    },
+    {
+      "name": "storage_MULTILUN_desc_tbl",
+      "value": 100688,
+      "size": 48,
+      "type": 1,
+      "section_index": 18,
+      "section": ".data.rel.ro",
+      "file_offset": 67920
+    },
+    {
+      "name": "PTPT_get_buffer",
+      "value": 60112,
+      "size": 96,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 60112
+    },
+    {
+      "name": "ioctl",
+      "value": 0,
+      "size": 28,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "pthread_attr_setstacksize",
+      "value": 0,
+      "size": 40,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "_ZN7CUsbSvc14registerGadgetE8CUSB_FIDP19CUSB_GADGET_REGINFO",
+      "value": 33640,
+      "size": 200,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 33640
+    },
+    {
+      "name": "usbgmscif_getAccessStatus",
+      "value": 62316,
+      "size": 172,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 62316
+    },
+    {
+      "name": "pthread_mutex_lock",
+      "value": 0,
+      "size": 784,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "usbif_initialize",
+      "value": 23408,
+      "size": 756,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 23408
+    },
+    {
+      "name": "_ZTS15CUsbGadgetStill",
+      "value": 66140,
+      "size": 18,
+      "type": 1,
+      "section_index": 12,
+      "section": ".rodata",
+      "file_offset": 66140
+    },
+    {
+      "name": "snprintf",
+      "value": 0,
+      "size": 276,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "_ZN15CUsbGadgetStill9on_createEP7CUsbSvcP19CUSB_GADGET_REGINFOP19CUSB_GADGET_CREINFO",
+      "value": 50048,
+      "size": 236,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 50048
+    },
+    {
+      "name": "__cxa_pure_virtual",
+      "value": 0,
+      "size": 56,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "_ZN17CUsbGadgetStorage9on_createEP7CUsbSvcP19CUSB_GADGET_REGINFOP19CUSB_GADGET_CREINFO",
+      "value": 47712,
+      "size": 192,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 47712
+    },
+    {
+      "name": "_ZN4CUsb8que_pushEPS_P8CUSB_MES",
+      "value": 31268,
+      "size": 140,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 31268
+    },
+    {
+      "name": "_ZN15CUsbGadgetStillD2Ev",
+      "value": 49284,
+      "size": 252,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 49284
+    },
+    {
+      "name": "_ZN17CUsbGadgetStorage17check_mediaAccessEv",
+      "value": 48672,
+      "size": 52,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 48672
+    },
+    {
+      "name": "_ZTI10CUsbGadget",
+      "value": 102812,
+      "size": 24,
+      "type": 1,
+      "section_index": 21,
+      "section": ".data",
+      "file_offset": 70044
+    },
+    {
+      "name": "_ZN15CUsbGadgetStillD0Ev",
+      "value": 49788,
+      "size": 260,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 49788
+    },
+    {
+      "name": "read",
+      "value": 0,
+      "size": 52,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "_ZN7CUsbSvc8port_setEv",
+      "value": 38392,
+      "size": 468,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 38392
+    },
+    {
+      "name": "atexit",
+      "value": 0,
+      "size": 12,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "_rtld_setup",
+      "value": 21832,
+      "size": 116,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 21832
+    },
+    {
+      "name": "_ZN17CUsbGadgetStorageD2Ev",
+      "value": 46948,
+      "size": 252,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 46948
+    },
+    {
+      "name": "_exit",
+      "value": 0,
+      "size": 16,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "__cxa_allocate_exception",
+      "value": 0,
+      "size": 496,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "__data_start",
+      "value": 102616,
+      "size": 0,
+      "type": 0,
+      "section_index": 21,
+      "section": ".data",
+      "file_offset": 69848
+    },
+    {
+      "name": "_ZN7CUsbSvcD0Ev",
+      "value": 32564,
+      "size": 256,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 32564
+    },
+    {
+      "name": "_ZN7CUsbSvc16unregisterGadgetEP10CUsbGadget",
+      "value": 33840,
+      "size": 116,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 33840
+    },
+    {
+      "name": "_ZTI7CUsbSvc",
+      "value": 102744,
+      "size": 24,
+      "type": 1,
+      "section_index": 21,
+      "section": ".data",
+      "file_offset": 69976
+    },
+    {
+      "name": "_Unwind_SjLj_Resume",
+      "value": 0,
+      "size": 276,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "getpid",
+      "value": 0,
+      "size": 16,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "__bss_start__",
+      "value": 104156,
+      "size": 0,
+      "type": 0,
+      "section_index": 65521
+    },
+    {
+      "name": "Bkup_init",
+      "value": 0,
+      "size": 1264,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "usb_still_register_gadget",
+      "value": 58000,
+      "size": 120,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 58000
+    },
+    {
+      "name": "pthread_mutex_destroy",
+      "value": 0,
+      "size": 16,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "_ZN15CUsbGadgetStill16proc_start_eventEmhhPv",
+      "value": 50356,
+      "size": 64,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 50356
+    },
+    {
+      "name": "_ZTS10CUsbGadget",
+      "value": 65732,
+      "size": 13,
+      "type": 1,
+      "section_index": 12,
+      "section": ".rodata",
+      "file_offset": 65732
+    },
+    {
+      "name": "_ZN13CUsbGadgetSen9on_deleteEv",
+      "value": 52848,
+      "size": 80,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 52848
+    },
+    {
+      "name": "mmap",
+      "value": 0,
+      "size": 28,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "_ZN15CUsbGadgetStillC1Ev",
+      "value": 49004,
+      "size": 280,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 49004
+    },
+    {
+      "name": "_ZN4CUsb7requestEP8CUSB_MES",
+      "value": 31408,
+      "size": 108,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 31408
+    },
+    {
+      "name": "_ZN15CUsbGadgetStill17proc_vendor_eventEmhhPv",
+      "value": 50732,
+      "size": 200,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 50732
+    },
+    {
+      "name": "ptbl_did_to_fid",
+      "value": 103952,
+      "size": 140,
+      "type": 1,
+      "section_index": 21,
+      "section": ".data",
+      "file_offset": 71184
+    },
+    {
+      "name": "auto_NAND_desc_tbl",
+      "value": 101272,
+      "size": 48,
+      "type": 1,
+      "section_index": 18,
+      "section": ".data.rel.ro",
+      "file_offset": 68504
+    },
+    {
+      "name": "_ZN7CUsbSvc4stopE11__USBIF_DIDPvhPFS1_S1_S1_hiE",
+      "value": 34632,
+      "size": 120,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 34632
+    },
+    {
+      "name": "usbgmscif_user_ops_hdd",
+      "value": 100528,
+      "size": 8,
+      "type": 1,
+      "section_index": 18,
+      "section": ".data.rel.ro",
+      "file_offset": 67760
+    },
+    {
+      "name": "_ZN7CUsbSvc9port_initEv",
+      "value": 33956,
+      "size": 196,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 33956
+    },
+    {
+      "name": "usb_event_disable",
+      "value": 45940,
+      "size": 448,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 45940
+    },
+    {
+      "name": "usb_event_enable",
+      "value": 45544,
+      "size": 396,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 45544
+    },
+    {
+      "name": "usb_senif_init",
+      "value": 56416,
+      "size": 156,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 56416
+    },
+    {
+      "name": "_ZN7CUsbSvc17conv_serialNumberEPhS0_hS0_h",
+      "value": 37384,
+      "size": 288,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 37384
+    },
+    {
+      "name": "_ZN7CUsbSvc5startE11__USBIF_DIDPvhPFS1_S1_S1_hiE",
+      "value": 38228,
+      "size": 164,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 38228
+    },
+    {
+      "name": "_ZN7CUsbSvcD2Ev",
+      "value": 32068,
+      "size": 248,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 32068
+    },
+    {
+      "name": "sen_desc_tbl",
+      "value": 101056,
+      "size": 48,
+      "type": 1,
+      "section_index": 18,
+      "section": ".data.rel.ro",
+      "file_offset": 68288
+    },
+    {
+      "name": "address_of_errno",
+      "value": 0,
+      "size": 16,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "_ZN7CUsbSvcC1Ev",
+      "value": 31792,
+      "size": 276,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 31792
+    },
+    {
+      "name": "_ctype_",
+      "value": 0,
+      "size": 4,
+      "type": 1,
+      "section_index": 0
+    },
+    {
+      "name": "_ZN13CUsbGadgetSenC1Ev",
+      "value": 51244,
+      "size": 312,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 51244
+    },
+    {
+      "name": "pthread_attr_destroy",
+      "value": 0,
+      "size": 16,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "_ZTI15CUsbGadgetStill",
+      "value": 102932,
+      "size": 24,
+      "type": 1,
+      "section_index": 21,
+      "section": ".data",
+      "file_offset": 70164
+    },
+    {
+      "name": "usb_still_unregister_gadget",
+      "value": 58120,
+      "size": 68,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 58120
+    },
+    {
+      "name": "__cxa_throw",
+      "value": 0,
+      "size": 232,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "usbgmscif_init",
+      "value": 60672,
+      "size": 948,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 60672
+    },
+    {
+      "name": "pthread_create",
+      "value": 0,
+      "size": 888,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "write",
+      "value": 0,
+      "size": 52,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "_ZN7CUsbSvc8testPortEh",
+      "value": 35852,
+      "size": 20,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 35852
+    },
+    {
+      "name": "usbgmscif_user_ops_dvd",
+      "value": 100536,
+      "size": 8,
+      "type": 1,
+      "section_index": 18,
+      "section": ".data.rel.ro",
+      "file_offset": 67768
+    },
+    {
+      "name": "_ZN7CUsbSvc16dataCheck_ALL0_FEPhh",
+      "value": 36932,
+      "size": 128,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 36932
+    },
+    {
+      "name": "_ZN4CUsb17thread_attr_clearEv",
+      "value": 30504,
+      "size": 24,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 30504
+    },
+    {
+      "name": "pthread_cond_signal",
+      "value": 0,
+      "size": 376,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "__start",
+      "value": 21784,
+      "size": 0,
+      "type": 0,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 21784
+    },
+    {
+      "name": "close",
+      "value": 0,
+      "size": 36,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "_ZN7CUsbSvc10alloc_userEv",
+      "value": 39500,
+      "size": 372,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 39500
+    },
+    {
+      "name": "_ZN10CUsbGadget16mes_deleteGadgetEP8CUSB_MES",
+      "value": 42796,
+      "size": 88,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 42796
+    },
+    {
+      "name": "_ZTV7CUsbSvc",
+      "value": 102716,
+      "size": 28,
+      "type": 1,
+      "section_index": 21,
+      "section": ".data",
+      "file_offset": 69948
+    },
+    {
+      "name": "storage_MS_desc_tbl",
+      "value": 100792,
+      "size": 48,
+      "type": 1,
+      "section_index": 18,
+      "section": ".data.rel.ro",
+      "file_offset": 68024
+    },
+    {
+      "name": "_ZN4CUsb8que_initEP12CUSB_MES_QUE",
+      "value": 31180,
+      "size": 48,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 31180
+    },
+    {
+      "name": "usb_senif_user_ops",
+      "value": 100456,
+      "size": 8,
+      "type": 1,
+      "section_index": 18,
+      "section": ".data.rel.ro",
+      "file_offset": 67688
+    },
+    {
+      "name": "__end__",
+      "value": 105000,
+      "size": 0,
+      "type": 0,
+      "section_index": 65521
+    },
+    {
+      "name": "_ZN16CUsbGadgetSampleD2Ev",
+      "value": 54956,
+      "size": 300,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 54956
+    },
+    {
+      "name": "_ZN7CUsbSvc19getBCDProductSerialEPh",
+      "value": 41944,
+      "size": 88,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 41944
+    },
+    {
+      "name": "usbif_register_gadget",
+      "value": 22500,
+      "size": 40,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 22500
+    },
+    {
+      "name": "__bss_end__",
+      "value": 105000,
+      "size": 0,
+      "type": 0,
+      "section_index": 65521
+    },
+    {
+      "name": "_Unwind_SjLj_Unregister",
+      "value": 0,
+      "size": 100,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "usb_event_stop",
+      "value": 45112,
+      "size": 432,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 45112
+    },
+    {
+      "name": "usb_senif_pub",
+      "value": 101368,
+      "size": 8,
+      "type": 1,
+      "section_index": 18,
+      "section": ".data.rel.ro",
+      "file_offset": 68600
+    },
+    {
+      "name": "_ZTS16CUsbGadgetSample",
+      "value": 66244,
+      "size": 19,
+      "type": 1,
+      "section_index": 12,
+      "section": ".rodata",
+      "file_offset": 66244
+    },
+    {
+      "name": "usbproduct_conv_did",
+      "value": 65080,
+      "size": 144,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 65080
+    },
+    {
+      "name": "usb_trace_blog_out",
+      "value": 65012,
+      "size": 68,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 65012
+    },
+    {
+      "name": "usbgmscif_setReadOnly",
+      "value": 61620,
+      "size": 252,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 61620
+    },
+    {
+      "name": "_ZN13CUsbGadgetSenD2Ev",
+      "value": 51556,
+      "size": 260,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 51556
+    },
+    {
+      "name": "_ZTV17CUsbGadgetStorage",
+      "value": 102836,
+      "size": 36,
+      "type": 1,
+      "section_index": 21,
+      "section": ".data",
+      "file_offset": 70068
+    },
+    {
+      "name": "_ZN17CUsbGadgetStorageD0Ev",
+      "value": 47452,
+      "size": 260,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 47452
+    },
+    {
+      "name": "_ZN17CUsbGadgetStorage12set_InitInfoEP18GSTORAGE__InfoInit",
+      "value": 48588,
+      "size": 48,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 48588
+    },
+    {
+      "name": "_ZTV10CUsbGadget",
+      "value": 102776,
+      "size": 36,
+      "type": 1,
+      "section_index": 21,
+      "section": ".data",
+      "file_offset": 70008
+    },
+    {
+      "name": "_ZN17CUsbGadgetStorageC1Ev",
+      "value": 46668,
+      "size": 280,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 46668
+    },
+    {
+      "name": "initialize_malloc",
+      "value": 0,
+      "size": 52,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "pthread_cond_init",
+      "value": 0,
+      "size": 112,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "_ZN4CUsb15thread_attr_setEv",
+      "value": 30452,
+      "size": 52,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 30452
+    },
+    {
+      "name": "__cxa_end_catch",
+      "value": 0,
+      "size": 324,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "_Z14proc_svc_event16__CUSB_SVC_EVENTP18CUSB_SVC_EVENT_ARGhiP7CUsbSvc",
+      "value": 28864,
+      "size": 712,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 28864
+    },
+    {
+      "name": "_ZN16CUsbGadgetSampleC2Ev",
+      "value": 54332,
+      "size": 312,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 54332
+    },
+    {
+      "name": "pictbridge_desc_tbl",
+      "value": 100952,
+      "size": 48,
+      "type": 1,
+      "section_index": 18,
+      "section": ".data.rel.ro",
+      "file_offset": 68184
+    },
+    {
+      "name": "_ZTIi",
+      "value": 0,
+      "size": 8,
+      "type": 1,
+      "section_index": 0
+    },
+    {
+      "name": "fputs",
+      "value": 0,
+      "size": 128,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "_ZN7CUsbSvc12createGadgetEP8CUSB_MES",
+      "value": 40852,
+      "size": 1004,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 40852
+    },
+    {
+      "name": "_ZN8CUsbUserC2Ev",
+      "value": 53084,
+      "size": 16,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 53084
+    },
+    {
+      "name": "usb_trace_get_confp",
+      "value": 64888,
+      "size": 52,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 64888
+    },
+    {
+      "name": "usbproduct_set_drive_type",
+      "value": 65268,
+      "size": 52,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 65268
+    },
+    {
+      "name": "_ZN8CUsbUserD1Ev",
+      "value": 53132,
+      "size": 16,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 53132
+    },
+    {
+      "name": "pthread_attr_setschedpolicy",
+      "value": 0,
+      "size": 36,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "usbgmscif_dbg",
+      "value": 60652,
+      "size": 20,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 60652
+    },
+    {
+      "name": "usbgmscif_registerCommandProc",
+      "value": 62488,
+      "size": 252,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 62488
+    },
+    {
+      "name": "noteABI",
+      "value": 67152,
+      "size": 32,
+      "type": 1,
+      "section_index": 13,
+      "section": ".note.ABI-tag",
+      "file_offset": 67152
+    },
+    {
+      "name": "__register_frame_info",
+      "value": 0,
+      "size": 12,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "_dladdr",
+      "value": 0,
+      "size": 0,
+      "type": 0,
+      "section_index": 0
+    },
+    {
+      "name": "__gxx_personality_sj0",
+      "value": 0,
+      "size": 1820,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "_dlsym",
+      "value": 0,
+      "size": 0,
+      "type": 0,
+      "section_index": 0
+    },
+    {
+      "name": "_ZN10CUsbGadget12deleteGadgetEP7CUsbSvcPFPvS2_S2_hiEP8CUSB_MES",
+      "value": 42700,
+      "size": 96,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 42700
+    },
+    {
+      "name": "_ZN7CUsbSvc8hex_to_aEPhS0_h",
+      "value": 37060,
+      "size": 144,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 37060
+    },
+    {
+      "name": "_ZTVN10__cxxabiv121__vmi_class_type_infoE",
+      "value": 0,
+      "size": 44,
+      "type": 1,
+      "section_index": 0
+    },
+    {
+      "name": "_ZN13CUsbGadgetSenD0Ev",
+      "value": 52076,
+      "size": 268,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 52076
+    },
+    {
+      "name": "_dlclose",
+      "value": 0,
+      "size": 0,
+      "type": 0,
+      "section_index": 0
+    },
+    {
+      "name": "_ZTVN10__cxxabiv117__class_type_infoE",
+      "value": 0,
+      "size": 44,
+      "type": 1,
+      "section_index": 0
+    },
+    {
+      "name": "_ZN7CUsbSvc8usb_portEv",
+      "value": 38008,
+      "size": 220,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 38008
+    },
+    {
+      "name": "_dlerror",
+      "value": 0,
+      "size": 0,
+      "type": 0,
+      "section_index": 0
+    },
+    {
+      "name": "memset",
+      "value": 0,
+      "size": 168,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "__bss_start",
+      "value": 104156,
+      "size": 0,
+      "type": 0,
+      "section_index": 65521
+    },
+    {
+      "name": "_ZN4CUsbD1Ev",
+      "value": 30296,
+      "size": 48,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 30296
+    },
+    {
+      "name": "_ZN10CUsbGadget8getSpeedEv",
+      "value": 42884,
+      "size": 36,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 42884
+    },
+    {
+      "name": "_ZN7CUsbSvc15setSerialNumberEPch",
+      "value": 35292,
+      "size": 180,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 35292
+    },
+    {
+      "name": "usbif_init",
+      "value": 22652,
+      "size": 756,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 22652
+    },
+    {
+      "name": "usbgmscif_user_ops",
+      "value": 100552,
+      "size": 8,
+      "type": 1,
+      "section_index": 18,
+      "section": ".data.rel.ro",
+      "file_offset": 67784
+    },
+    {
+      "name": "environ",
+      "value": 0,
+      "size": 4,
+      "type": 1,
+      "section_index": 0
+    },
+    {
+      "name": "_ZN7CUsbSvc16getBCDProductNumEPh",
+      "value": 41856,
+      "size": 88,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 41856
+    },
+    {
+      "name": "_bss_end__",
+      "value": 105000,
+      "size": 0,
+      "type": 0,
+      "section_index": 65521
+    },
+    {
+      "name": "_ZN15CUsbGadgetStill19proc_set_halt_eventEmhhPv",
+      "value": 50484,
+      "size": 64,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 50484
+    },
+    {
+      "name": "munmap",
+      "value": 0,
+      "size": 16,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "usbif_thread_cancelstate_old",
+      "value": 104196,
+      "size": 4,
+      "type": 1,
+      "section_index": 22,
+      "section": ".bss"
+    },
+    {
+      "name": "fprintf",
+      "value": 0,
+      "size": 80,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "_ZN16CUsbGadgetSampleD0Ev",
+      "value": 55556,
+      "size": 308,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 55556
+    },
+    {
+      "name": "_ZN7CUsbSvc13getSelectPortEv",
+      "value": 35768,
+      "size": 84,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 35768
+    },
+    {
+      "name": "_ZN17CUsbGadgetStorage15set_mediaStatusEP25GSTORAGE__InfoMediaStatus",
+      "value": 48636,
+      "size": 36,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 48636
+    },
+    {
+      "name": "_ZTVN10__cxxabiv116__enum_type_infoE",
+      "value": 0,
+      "size": 32,
+      "type": 1,
+      "section_index": 0
+    },
+    {
+      "name": "_dlopen",
+      "value": 0,
+      "size": 0,
+      "type": 0,
+      "section_index": 0
+    },
+    {
+      "name": "_ZTS10__CUSB_RES",
+      "value": 65548,
+      "size": 13,
+      "type": 1,
+      "section_index": 12,
+      "section": ".rodata",
+      "file_offset": 65548
+    },
+    {
+      "name": "_ZN7CUsbSvc10clear_userEP13__cusb_user_t",
+      "value": 40196,
+      "size": 284,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 40196
+    },
+    {
+      "name": "PTPT_init_usbif",
+      "value": 58524,
+      "size": 204,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 58524
+    },
+    {
+      "name": "_ZTV15CUsbGadgetStill",
+      "value": 102896,
+      "size": 36,
+      "type": 1,
+      "section_index": 21,
+      "section": ".data",
+      "file_offset": 70128
+    },
+    {
+      "name": "pthread_exit",
+      "value": 0,
+      "size": 36,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "PTPT_close",
+      "value": 59644,
+      "size": 144,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 59644
+    },
+    {
+      "name": "Bkup_pread",
+      "value": 0,
+      "size": 112,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "pthread_cancel",
+      "value": 0,
+      "size": 108,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "_ZN7CUsbSvc8closeSvcEv",
+      "value": 34152,
+      "size": 144,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 34152
+    },
+    {
+      "name": "usbif_unregister_gadget",
+      "value": 22540,
+      "size": 32,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 22540
+    },
+    {
+      "name": "auto_MS_desc_tbl",
+      "value": 101320,
+      "size": 48,
+      "type": 1,
+      "section_index": 18,
+      "section": ".data.rel.ro",
+      "file_offset": 68552
+    },
+    {
+      "name": "_ZN7CUsbSvc12start_gadgetEPvhPFS0_S0_S0_hiE",
+      "value": 34296,
+      "size": 92,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 34296
+    },
+    {
+      "name": "_end",
+      "value": 105000,
+      "size": 0,
+      "type": 0,
+      "section_index": 65521
+    },
+    {
+      "name": "_ZN16CUsbGadgetSample9on_deleteEv",
+      "value": 56104,
+      "size": 160,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 56104
+    },
+    {
+      "name": "usbgmscif_drv_info_tbl",
+      "value": 100560,
+      "size": 128,
+      "type": 1,
+      "section_index": 18,
+      "section": ".data.rel.ro",
+      "file_offset": 67792
+    },
+    {
+      "name": "__mainprog_obj",
+      "value": 104996,
+      "size": 4,
+      "type": 1,
+      "section_index": 22,
+      "section": ".bss"
+    },
+    {
+      "name": "_ZN15CUsbGadgetStill19proc_clr_halt_eventEmhhPv",
+      "value": 50548,
+      "size": 64,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 50548
+    },
+    {
+      "name": "PTPT_open",
+      "value": 59788,
+      "size": 324,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 59788
+    },
+    {
+      "name": "_ZN15CUsbGadgetStillC2Ev",
+      "value": 48724,
+      "size": 280,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 48724
+    },
+    {
+      "name": "exit",
+      "value": 0,
+      "size": 76,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "_ZN4CUsb7que_popEPS_",
+      "value": 30916,
+      "size": 72,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 30916
+    },
+    {
+      "name": "PTPT_set_status",
+      "value": 60472,
+      "size": 80,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 60472
+    },
+    {
+      "name": "_ZN7CUsbSvc15proc_kevent_otgEmhhPv",
+      "value": 35968,
+      "size": 388,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 35968
+    },
+    {
+      "name": "slibc_pthread_initialize",
+      "value": 0,
+      "size": 240,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "_ZN4CUsb20proc_service_cleanupEPv",
+      "value": 30660,
+      "size": 52,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 30660
+    },
+    {
+      "name": "_ZN7CUsbSvc12a_to_utf16leEPcS0_h",
+      "value": 35140,
+      "size": 152,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 35140
+    },
+    {
+      "name": "pthread_mutex_unlock",
+      "value": 0,
+      "size": 368,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "_ZN17CUsbGadgetStorage19proc_storage_keventEmhhPv",
+      "value": 47988,
+      "size": 128,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 47988
+    },
+    {
+      "name": "_ZN7CUsbSvc11proc_notifyE16__CUSB_SVC_EVENTP18CUSB_SVC_EVENT_ARGh",
+      "value": 35872,
+      "size": 96,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 35872
+    },
+    {
+      "name": "pthread_cond_destroy",
+      "value": 0,
+      "size": 8,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "_ZN10CUsbGadgetD1Ev",
+      "value": 42388,
+      "size": 52,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 42388
+    },
+    {
+      "name": "_libnsl_lock_init",
+      "value": 0,
+      "size": 268,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "_ZN17CUsbGadgetStorage22proc_extcommand_keventEmhhPv",
+      "value": 48364,
+      "size": 136,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 48364
+    },
+    {
+      "name": "__deregister_frame_info",
+      "value": 0,
+      "size": 4,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "_ZN8CUsbUser9free_userEP13__cusb_user_t",
+      "value": 53856,
+      "size": 24,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 53856
+    },
+    {
+      "name": "_ZN8CUsbUser21clear_user_descriptorEP13__cusb_user_t",
+      "value": 54024,
+      "size": 308,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 54024
+    },
+    {
+      "name": "_ZN16CUsbGadgetSample11proc_keventEmhhPv",
+      "value": 56264,
+      "size": 152,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 56264
+    },
+    {
+      "name": "_ZN4CUsb12proc_serviceEPv",
+      "value": 30988,
+      "size": 192,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 30988
+    },
+    {
+      "name": "_ZN7CUsbSvcD1Ev",
+      "value": 32316,
+      "size": 248,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 32316
+    },
+    {
+      "name": "_ZN10CUsbGadgetC1Ev",
+      "value": 42280,
+      "size": 56,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 42280
+    },
+    {
+      "name": "Bkup_final",
+      "value": 0,
+      "size": 744,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "_ZN16CUsbGadgetSampleC1Ev",
+      "value": 54644,
+      "size": 312,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 54644
+    },
+    {
+      "name": "free",
+      "value": 0,
+      "size": 152,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "auto_MULTILUN_desc_tbl",
+      "value": 101216,
+      "size": 48,
+      "type": 1,
+      "section_index": 18,
+      "section": ".data.rel.ro",
+      "file_offset": 68448
+    },
+    {
+      "name": "_ZN7CUsbSvc10bcd_to_hexEPmPhh",
+      "value": 37204,
+      "size": 180,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 37204
+    },
+    {
+      "name": "_ZN17CUsbGadgetStorage9on_deleteEv",
+      "value": 47904,
+      "size": 68,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 47904
+    },
+    {
+      "name": "_ZN7CUsbSvc16getProductSerialEPhi",
+      "value": 42140,
+      "size": 84,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 42140
+    },
+    {
+      "name": "_edata",
+      "value": 104156,
+      "size": 0,
+      "type": 0,
+      "section_index": 65521
+    },
+    {
+      "name": "usbif_destroy",
+      "value": 24164,
+      "size": 96,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 24164
+    },
+    {
+      "name": "PTPT_recv_data",
+      "value": 60336,
+      "size": 72,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 60336
+    },
+    {
+      "name": "usbgmscif_unregisterCommandProc",
+      "value": 62740,
+      "size": 196,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 62740
+    },
+    {
+      "name": "PTPT_send_data",
+      "value": 60264,
+      "size": 72,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 60264
+    },
+    {
+      "name": "pthread_cond_wait",
+      "value": 0,
+      "size": 824,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "_ZTS13CUsbGadgetSen",
+      "value": 66180,
+      "size": 16,
+      "type": 1,
+      "section_index": 12,
+      "section": ".rodata",
+      "file_offset": 66180
+    },
+    {
+      "name": "_Znwj",
+      "value": 0,
+      "size": 412,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "_ZN8CUsbUser19set_user_descriptorEP13__cusb_user_t",
+      "value": 53880,
+      "size": 144,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 53880
+    },
+    {
+      "name": "usbgmscif_user_ops_nand",
+      "value": 100520,
+      "size": 8,
+      "type": 1,
+      "section_index": 18,
+      "section": ".data.rel.ro",
+      "file_offset": 67752
+    },
+    {
+      "name": "_ZN7CUsbSvc8bcd_to_aEPhS0_h",
+      "value": 42032,
+      "size": 24,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 42032
+    },
+    {
+      "name": "puts",
+      "value": 0,
+      "size": 180,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "mtp_desc_tbl",
+      "value": 100896,
+      "size": 48,
+      "type": 1,
+      "section_index": 18,
+      "section": ".data.rel.ro",
+      "file_offset": 68128
+    },
+    {
+      "name": "usb_event_start",
+      "value": 44376,
+      "size": 736,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 44376
+    },
+    {
+      "name": "_ZN7CUsbSvc13unregisterSvcEPv",
+      "value": 33092,
+      "size": 92,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 33092
+    },
+    {
+      "name": "_ZN8CUsbUserC1Ev",
+      "value": 53100,
+      "size": 16,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 53100
+    },
+    {
+      "name": "_ZTV16CUsbGadgetSample",
+      "value": 103016,
+      "size": 36,
+      "type": 1,
+      "section_index": 21,
+      "section": ".data",
+      "file_offset": 70248
+    },
+    {
+      "name": "_ZN8CUsbUserD2Ev",
+      "value": 53116,
+      "size": 16,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 53116
+    },
+    {
+      "name": "pthread_setcancelstate",
+      "value": 0,
+      "size": 100,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "pictbridge_user_ops",
+      "value": 103076,
+      "size": 8,
+      "type": 1,
+      "section_index": 21,
+      "section": ".data",
+      "file_offset": 70308
+    },
+    {
+      "name": "main",
+      "value": 0,
+      "size": 0,
+      "type": 0,
+      "section_index": 0
+    },
+    {
+      "name": "_DYNAMIC",
+      "value": 101568,
+      "size": 0,
+      "type": 1,
+      "section_index": 65521
+    },
+    {
+      "name": "_ZN17CUsbGadgetStorageD1Ev",
+      "value": 47200,
+      "size": 252,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 47200
+    },
+    {
+      "name": "_init",
+      "value": 22220,
+      "size": 148,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 22220
+    },
+    {
+      "name": "_ZN4CUsb13thread_cancelEv",
+      "value": 30712,
+      "size": 204,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 30712
+    },
+    {
+      "name": "_ZN16CUsbGadgetSampleD1Ev",
+      "value": 55256,
+      "size": 300,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 55256
+    },
+    {
+      "name": "_ZN8CUsbUser10alloc_userEv",
+      "value": 53464,
+      "size": 392,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 53464
+    },
+    {
+      "name": "ptbl_did",
+      "value": 103396,
+      "size": 140,
+      "type": 1,
+      "section_index": 21,
+      "section": ".data",
+      "file_offset": 70628
+    },
+    {
+      "name": "_ZN7CUsbSvc11stop_gadgetEPvhPFS0_S0_S0_hiE",
+      "value": 34388,
+      "size": 244,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 34388
+    },
+    {
+      "name": "_ZN15CUsbGadgetStillD1Ev",
+      "value": 49536,
+      "size": 252,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 49536
+    },
+    {
+      "name": "_ZN17CUsbGadgetStorageC2Ev",
+      "value": 46388,
+      "size": 280,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 46388
+    },
+    {
+      "name": "pthread_join",
+      "value": 0,
+      "size": 180,
+      "type": 2,
+      "section_index": 0
+    }
+  ],
+  "relocations": [
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 100284,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 100288,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 100292,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 100296,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 100300,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 100304,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 100308,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 100312,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 100316,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 100320,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 100324,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 100328,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 100332,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 100336,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 100340,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 100344,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 100348,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 100352,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 100452,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 100456,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 100460,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 100464,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 100468,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 100472,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 100476,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 100480,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 100484,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 100488,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 100492,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 100504,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 100508,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 100512,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 100516,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 100520,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 100524,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 100528,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 100532,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 100536,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 100540,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 100544,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 100548,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 100552,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 100556,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 100560,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 100572,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 100592,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 100604,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 100624,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 100636,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 100696,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 100712,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 100732,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 100740,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 100752,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 100768,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 100788,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 100800,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 100816,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 100836,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 100844,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 100852,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 100860,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 100880,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 100904,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 100920,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 100940,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 100948,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 100960,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 100976,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 100996,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 101004,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 101012,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 101020,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 101040,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 101064,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 101080,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 101100,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 101108,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 101116,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 101140,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 101164,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 101172,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 101180,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 101200,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 101224,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 101240,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 101260,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 101268,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 101280,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 101296,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 101316,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 101328,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 101344,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 101364,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102520,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102616,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103076,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103080,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103084,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103088,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103092,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103096,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103100,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103104,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103108,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103112,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103116,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103120,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103124,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103128,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103132,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103136,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103140,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103144,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103148,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103204,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103208,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103212,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103216,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103220,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103224,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103228,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103232,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103236,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103240,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103244,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103248,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103252,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103256,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103260,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103264,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103268,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103276,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103280,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103284,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103288,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103292,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103400,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103412,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103432,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103440,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103448,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103520,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103524,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103528,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103532,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103544,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103564,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103584,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103600,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103612,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103624,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103640,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103660,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103676,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103692,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103712,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103728,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103740,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103752,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103764,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103776,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103788,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103800,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103812,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103824,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103836,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103848,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103860,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103872,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103884,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103896,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103908,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103920,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103932,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103944,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103952,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103956,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103968,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103988,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103996,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 104000,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 104004,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 104076,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 104080,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 104084,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 104088,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 104096,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 104104,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 104112,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 104120,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 104128,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 104136,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 104144,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 104152,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 100040,
+      "type": 2,
+      "symbol": "_ZTI10__CUSB_RES",
+      "symbol_value": 102768,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 100056,
+      "type": 2,
+      "symbol": "_ZTI10__CUSB_RES",
+      "symbol_value": 102768,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 100072,
+      "type": 2,
+      "symbol": "_ZTI10__CUSB_RES",
+      "symbol_value": 102768,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 100088,
+      "type": 2,
+      "symbol": "_ZTI10__CUSB_RES",
+      "symbol_value": 102768,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102484,
+      "type": 21,
+      "symbol": "_ZTI10__CUSB_RES",
+      "symbol_value": 102768,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 100200,
+      "type": 2,
+      "symbol": "_ZTIi",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 100216,
+      "type": 2,
+      "symbol": "_ZTIi",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 100232,
+      "type": 2,
+      "symbol": "_ZTIi",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102540,
+      "type": 21,
+      "symbol": "_ZTIi",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 101368,
+      "type": 2,
+      "symbol": "usb_senif_init",
+      "symbol_value": 56416,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 101372,
+      "type": 2,
+      "symbol": "usb_senif_destroy",
+      "symbol_value": 56572,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 101380,
+      "type": 2,
+      "symbol": "storage_interface_desc",
+      "symbol_value": 100840,
+      "symbol_section": ".data.rel.ro"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 101404,
+      "type": 2,
+      "symbol": "storage_interface_desc",
+      "symbol_value": 100840,
+      "symbol_section": ".data.rel.ro"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 101476,
+      "type": 2,
+      "symbol": "storage_interface_desc",
+      "symbol_value": 100840,
+      "symbol_section": ".data.rel.ro"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 101524,
+      "type": 2,
+      "symbol": "storage_interface_desc",
+      "symbol_value": 100840,
+      "symbol_section": ".data.rel.ro"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 101428,
+      "type": 2,
+      "symbol": "still_interface_desc",
+      "symbol_value": 101000,
+      "symbol_section": ".data.rel.ro"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 101452,
+      "type": 2,
+      "symbol": "still_interface_desc",
+      "symbol_value": 101000,
+      "symbol_section": ".data.rel.ro"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 101500,
+      "type": 2,
+      "symbol": "still_interface_desc",
+      "symbol_value": 101000,
+      "symbol_section": ".data.rel.ro"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 101548,
+      "type": 2,
+      "symbol": "still_interface_desc",
+      "symbol_value": 101000,
+      "symbol_section": ".data.rel.ro"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102436,
+      "type": 21,
+      "symbol": "_ZN17CUsbGadgetStorage11proc_keventEmhhPv",
+      "symbol_value": 47972,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102440,
+      "type": 21,
+      "symbol": "_ZN15CUsbGadgetStill15proc_stop_eventEmhhPv",
+      "symbol_value": 50420,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102444,
+      "type": 21,
+      "symbol": "_ZN7CUsbSvc18proc_kevent_gadgetEmhhPv",
+      "symbol_value": 36356,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102448,
+      "type": 21,
+      "symbol": "__sF",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102452,
+      "type": 21,
+      "symbol": "_ZN7CUsbSvc28notify_deleteGadget_completeEP8CUSB_MES",
+      "symbol_value": 34776,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102456,
+      "type": 21,
+      "symbol": "_ZN7CUsbSvc17comp_deleteGadgetEPvS0_hi",
+      "symbol_value": 34752,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102460,
+      "type": 21,
+      "symbol": "_ZTV4CUsb",
+      "symbol_value": 102680,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102464,
+      "type": 21,
+      "symbol": "_ZN17CUsbGadgetStorage13mes_sendEventEP8CUSB_MES",
+      "symbol_value": 48116,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102468,
+      "type": 21,
+      "symbol": "_ZTV13CUsbGadgetSen",
+      "symbol_value": 102956,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102472,
+      "type": 21,
+      "symbol": "__progname",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102476,
+      "type": 21,
+      "symbol": "_fini",
+      "symbol_value": 22368,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102480,
+      "type": 21,
+      "symbol": "_ZN17CUsbGadgetStorage19mes_sendExtCmdEventEP8CUSB_MES",
+      "symbol_value": 48500,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102488,
+      "type": 21,
+      "symbol": "_ZN15CUsbGadgetStill16proc_class_eventEmhhPv",
+      "symbol_value": 50612,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102492,
+      "type": 21,
+      "symbol": "__cxa_finalize",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102496,
+      "type": 21,
+      "symbol": "_ZN13CUsbGadgetSen11proc_keventEmhhPv",
+      "symbol_value": 52928,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102500,
+      "type": 21,
+      "symbol": "ptbl_usbif_user_ops",
+      "symbol_value": 102620,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102504,
+      "type": 21,
+      "symbol": "_ZN15CUsbGadgetStill16proc_start_eventEmhhPv",
+      "symbol_value": 50356,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102508,
+      "type": 21,
+      "symbol": "_ZN15CUsbGadgetStill17proc_vendor_eventEmhhPv",
+      "symbol_value": 50732,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102512,
+      "type": 21,
+      "symbol": "ptbl_did_to_fid",
+      "symbol_value": 103952,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102516,
+      "type": 21,
+      "symbol": "_ctype_",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102524,
+      "type": 21,
+      "symbol": "_ZN10CUsbGadget16mes_deleteGadgetEP8CUSB_MES",
+      "symbol_value": 42796,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102528,
+      "type": 21,
+      "symbol": "_ZTV7CUsbSvc",
+      "symbol_value": 102716,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102532,
+      "type": 21,
+      "symbol": "_ZTV17CUsbGadgetStorage",
+      "symbol_value": 102836,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102536,
+      "type": 21,
+      "symbol": "_ZTV10CUsbGadget",
+      "symbol_value": 102776,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102544,
+      "type": 21,
+      "symbol": "_ZN7CUsbSvc12createGadgetEP8CUSB_MES",
+      "symbol_value": 40852,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102548,
+      "type": 21,
+      "symbol": "__register_frame_info",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102552,
+      "type": 21,
+      "symbol": "__gxx_personality_sj0",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102556,
+      "type": 21,
+      "symbol": "environ",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102560,
+      "type": 21,
+      "symbol": "_ZN15CUsbGadgetStill19proc_set_halt_eventEmhhPv",
+      "symbol_value": 50484,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102564,
+      "type": 21,
+      "symbol": "usbif_thread_cancelstate_old",
+      "symbol_value": 104196,
+      "symbol_section": ".bss"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102568,
+      "type": 21,
+      "symbol": "_ZTV15CUsbGadgetStill",
+      "symbol_value": 102896,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102572,
+      "type": 21,
+      "symbol": "usbgmscif_drv_info_tbl",
+      "symbol_value": 100560,
+      "symbol_section": ".data.rel.ro"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102576,
+      "type": 21,
+      "symbol": "_ZN15CUsbGadgetStill19proc_clr_halt_eventEmhhPv",
+      "symbol_value": 50548,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102580,
+      "type": 21,
+      "symbol": "_ZN7CUsbSvc15proc_kevent_otgEmhhPv",
+      "symbol_value": 35968,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102584,
+      "type": 21,
+      "symbol": "_ZN17CUsbGadgetStorage19proc_storage_keventEmhhPv",
+      "symbol_value": 47988,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102588,
+      "type": 21,
+      "symbol": "_ZN17CUsbGadgetStorage22proc_extcommand_keventEmhhPv",
+      "symbol_value": 48364,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102592,
+      "type": 21,
+      "symbol": "__deregister_frame_info",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102596,
+      "type": 21,
+      "symbol": "_ZN16CUsbGadgetSample11proc_keventEmhhPv",
+      "symbol_value": 56264,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102600,
+      "type": 21,
+      "symbol": "_ZN4CUsb12proc_serviceEPv",
+      "symbol_value": 30988,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102604,
+      "type": 21,
+      "symbol": "_ZTV16CUsbGadgetSample",
+      "symbol_value": 103016,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102608,
+      "type": 21,
+      "symbol": "_DYNAMIC",
+      "symbol_value": 101568,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102612,
+      "type": 21,
+      "symbol": "ptbl_did",
+      "symbol_value": 103396,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102620,
+      "type": 2,
+      "symbol": "usbgmscif_user_ops",
+      "symbol_value": 100552,
+      "symbol_section": ".data.rel.ro"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102624,
+      "type": 2,
+      "symbol": "usbgmscif_user_ops_ms",
+      "symbol_value": 100544,
+      "symbol_section": ".data.rel.ro"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102628,
+      "type": 2,
+      "symbol": "usbgmscif_user_ops_dvd",
+      "symbol_value": 100536,
+      "symbol_section": ".data.rel.ro"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102632,
+      "type": 2,
+      "symbol": "usbgmscif_user_ops_hdd",
+      "symbol_value": 100528,
+      "symbol_section": ".data.rel.ro"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102636,
+      "type": 2,
+      "symbol": "usbgmscif_user_ops_nand",
+      "symbol_value": 100520,
+      "symbol_section": ".data.rel.ro"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102660,
+      "type": 2,
+      "symbol": "pictbridge_user_ops",
+      "symbol_value": 103076,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102664,
+      "type": 2,
+      "symbol": "usb_senif_user_ops",
+      "symbol_value": 100456,
+      "symbol_section": ".data.rel.ro"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102676,
+      "type": 2,
+      "symbol": "_Z14proc_svc_event16__CUSB_SVC_EVENTP18CUSB_SVC_EVENT_ARGhiP7CUsbSvc",
+      "symbol_value": 28864,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102684,
+      "type": 2,
+      "symbol": "_ZTI4CUsb",
+      "symbol_value": 102708,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102760,
+      "type": 2,
+      "symbol": "_ZTI4CUsb",
+      "symbol_value": 102708,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102828,
+      "type": 2,
+      "symbol": "_ZTI4CUsb",
+      "symbol_value": 102708,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102688,
+      "type": 2,
+      "symbol": "_ZN4CUsbD1Ev",
+      "symbol_value": 30296,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102692,
+      "type": 2,
+      "symbol": "_ZN4CUsbD0Ev",
+      "symbol_value": 30344,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102696,
+      "type": 2,
+      "symbol": "__cxa_pure_virtual",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102804,
+      "type": 2,
+      "symbol": "__cxa_pure_virtual",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102808,
+      "type": 2,
+      "symbol": "__cxa_pure_virtual",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102700,
+      "type": 2,
+      "symbol": "_ZN4CUsb15thread_attr_setEv",
+      "symbol_value": 30452,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102736,
+      "type": 2,
+      "symbol": "_ZN4CUsb15thread_attr_setEv",
+      "symbol_value": 30452,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102796,
+      "type": 2,
+      "symbol": "_ZN4CUsb15thread_attr_setEv",
+      "symbol_value": 30452,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102856,
+      "type": 2,
+      "symbol": "_ZN4CUsb15thread_attr_setEv",
+      "symbol_value": 30452,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102916,
+      "type": 2,
+      "symbol": "_ZN4CUsb15thread_attr_setEv",
+      "symbol_value": 30452,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102976,
+      "type": 2,
+      "symbol": "_ZN4CUsb15thread_attr_setEv",
+      "symbol_value": 30452,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103036,
+      "type": 2,
+      "symbol": "_ZN4CUsb15thread_attr_setEv",
+      "symbol_value": 30452,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102704,
+      "type": 2,
+      "symbol": "_ZN4CUsb17thread_attr_clearEv",
+      "symbol_value": 30504,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102740,
+      "type": 2,
+      "symbol": "_ZN4CUsb17thread_attr_clearEv",
+      "symbol_value": 30504,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102800,
+      "type": 2,
+      "symbol": "_ZN4CUsb17thread_attr_clearEv",
+      "symbol_value": 30504,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102860,
+      "type": 2,
+      "symbol": "_ZN4CUsb17thread_attr_clearEv",
+      "symbol_value": 30504,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102920,
+      "type": 2,
+      "symbol": "_ZN4CUsb17thread_attr_clearEv",
+      "symbol_value": 30504,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102980,
+      "type": 2,
+      "symbol": "_ZN4CUsb17thread_attr_clearEv",
+      "symbol_value": 30504,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103040,
+      "type": 2,
+      "symbol": "_ZN4CUsb17thread_attr_clearEv",
+      "symbol_value": 30504,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102708,
+      "type": 2,
+      "symbol": "_ZTVN10__cxxabiv117__class_type_infoE",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102712,
+      "type": 2,
+      "symbol": "_ZTS4CUsb",
+      "symbol_value": 65528,
+      "symbol_section": ".rodata"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102720,
+      "type": 2,
+      "symbol": "_ZTI7CUsbSvc",
+      "symbol_value": 102744,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102724,
+      "type": 2,
+      "symbol": "_ZN7CUsbSvcD1Ev",
+      "symbol_value": 32316,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102728,
+      "type": 2,
+      "symbol": "_ZN7CUsbSvcD0Ev",
+      "symbol_value": 32564,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102732,
+      "type": 2,
+      "symbol": "_ZN7CUsbSvc8getSpeedEv",
+      "symbol_value": 35024,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102744,
+      "type": 2,
+      "symbol": "_ZTVN10__cxxabiv121__vmi_class_type_infoE",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102812,
+      "type": 2,
+      "symbol": "_ZTVN10__cxxabiv121__vmi_class_type_infoE",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102872,
+      "type": 2,
+      "symbol": "_ZTVN10__cxxabiv121__vmi_class_type_infoE",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102932,
+      "type": 2,
+      "symbol": "_ZTVN10__cxxabiv121__vmi_class_type_infoE",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102992,
+      "type": 2,
+      "symbol": "_ZTVN10__cxxabiv121__vmi_class_type_infoE",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103052,
+      "type": 2,
+      "symbol": "_ZTVN10__cxxabiv121__vmi_class_type_infoE",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102748,
+      "type": 2,
+      "symbol": "_ZTS7CUsbSvc",
+      "symbol_value": 65536,
+      "symbol_section": ".rodata"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102768,
+      "type": 2,
+      "symbol": "_ZTVN10__cxxabiv116__enum_type_infoE",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102772,
+      "type": 2,
+      "symbol": "_ZTS10__CUSB_RES",
+      "symbol_value": 65548,
+      "symbol_section": ".rodata"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102780,
+      "type": 2,
+      "symbol": "_ZTI10CUsbGadget",
+      "symbol_value": 102812,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102888,
+      "type": 2,
+      "symbol": "_ZTI10CUsbGadget",
+      "symbol_value": 102812,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102948,
+      "type": 2,
+      "symbol": "_ZTI10CUsbGadget",
+      "symbol_value": 102812,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103008,
+      "type": 2,
+      "symbol": "_ZTI10CUsbGadget",
+      "symbol_value": 102812,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103068,
+      "type": 2,
+      "symbol": "_ZTI10CUsbGadget",
+      "symbol_value": 102812,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102784,
+      "type": 2,
+      "symbol": "_ZN10CUsbGadgetD1Ev",
+      "symbol_value": 42388,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102788,
+      "type": 2,
+      "symbol": "_ZN10CUsbGadgetD0Ev",
+      "symbol_value": 42440,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102792,
+      "type": 2,
+      "symbol": "_ZN10CUsbGadget8getSpeedEv",
+      "symbol_value": 42884,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102852,
+      "type": 2,
+      "symbol": "_ZN10CUsbGadget8getSpeedEv",
+      "symbol_value": 42884,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102912,
+      "type": 2,
+      "symbol": "_ZN10CUsbGadget8getSpeedEv",
+      "symbol_value": 42884,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102972,
+      "type": 2,
+      "symbol": "_ZN10CUsbGadget8getSpeedEv",
+      "symbol_value": 42884,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103032,
+      "type": 2,
+      "symbol": "_ZN10CUsbGadget8getSpeedEv",
+      "symbol_value": 42884,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102816,
+      "type": 2,
+      "symbol": "_ZTS10CUsbGadget",
+      "symbol_value": 65732,
+      "symbol_section": ".rodata"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102840,
+      "type": 2,
+      "symbol": "_ZTI17CUsbGadgetStorage",
+      "symbol_value": 102872,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102844,
+      "type": 2,
+      "symbol": "_ZN17CUsbGadgetStorageD1Ev",
+      "symbol_value": 47200,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102848,
+      "type": 2,
+      "symbol": "_ZN17CUsbGadgetStorageD0Ev",
+      "symbol_value": 47452,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102864,
+      "type": 2,
+      "symbol": "_ZN17CUsbGadgetStorage9on_createEP7CUsbSvcP19CUSB_GADGET_REGINFOP19CUSB_GADGET_CREINFO",
+      "symbol_value": 47712,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102868,
+      "type": 2,
+      "symbol": "_ZN17CUsbGadgetStorage9on_deleteEv",
+      "symbol_value": 47904,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102876,
+      "type": 2,
+      "symbol": "_ZTS17CUsbGadgetStorage",
+      "symbol_value": 66096,
+      "symbol_section": ".rodata"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102900,
+      "type": 2,
+      "symbol": "_ZTI15CUsbGadgetStill",
+      "symbol_value": 102932,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102904,
+      "type": 2,
+      "symbol": "_ZN15CUsbGadgetStillD1Ev",
+      "symbol_value": 49536,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102908,
+      "type": 2,
+      "symbol": "_ZN15CUsbGadgetStillD0Ev",
+      "symbol_value": 49788,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102924,
+      "type": 2,
+      "symbol": "_ZN15CUsbGadgetStill9on_createEP7CUsbSvcP19CUSB_GADGET_REGINFOP19CUSB_GADGET_CREINFO",
+      "symbol_value": 50048,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102928,
+      "type": 2,
+      "symbol": "_ZN15CUsbGadgetStill9on_deleteEv",
+      "symbol_value": 50284,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102936,
+      "type": 2,
+      "symbol": "_ZTS15CUsbGadgetStill",
+      "symbol_value": 66140,
+      "symbol_section": ".rodata"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102960,
+      "type": 2,
+      "symbol": "_ZTI13CUsbGadgetSen",
+      "symbol_value": 102992,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102964,
+      "type": 2,
+      "symbol": "_ZN13CUsbGadgetSenD1Ev",
+      "symbol_value": 51816,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102968,
+      "type": 2,
+      "symbol": "_ZN13CUsbGadgetSenD0Ev",
+      "symbol_value": 52076,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102984,
+      "type": 2,
+      "symbol": "_ZN13CUsbGadgetSen9on_createEP7CUsbSvcP19CUSB_GADGET_REGINFOP19CUSB_GADGET_CREINFO",
+      "symbol_value": 52592,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102988,
+      "type": 2,
+      "symbol": "_ZN13CUsbGadgetSen9on_deleteEv",
+      "symbol_value": 52848,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 102996,
+      "type": 2,
+      "symbol": "_ZTS13CUsbGadgetSen",
+      "symbol_value": 66180,
+      "symbol_section": ".rodata"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103020,
+      "type": 2,
+      "symbol": "_ZTI16CUsbGadgetSample",
+      "symbol_value": 103052,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103024,
+      "type": 2,
+      "symbol": "_ZN16CUsbGadgetSampleD1Ev",
+      "symbol_value": 55256,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103028,
+      "type": 2,
+      "symbol": "_ZN16CUsbGadgetSampleD0Ev",
+      "symbol_value": 55556,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103044,
+      "type": 2,
+      "symbol": "_ZN16CUsbGadgetSample9on_createEP7CUsbSvcP19CUSB_GADGET_REGINFOP19CUSB_GADGET_CREINFO",
+      "symbol_value": 55864,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103048,
+      "type": 2,
+      "symbol": "_ZN16CUsbGadgetSample9on_deleteEv",
+      "symbol_value": 56104,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103056,
+      "type": 2,
+      "symbol": "_ZTS16CUsbGadgetSample",
+      "symbol_value": 66244,
+      "symbol_section": ".rodata"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103748,
+      "type": 2,
+      "symbol": "auto_MULTILUN_desc_tbl",
+      "symbol_value": 101216,
+      "symbol_section": ".data.rel.ro"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103772,
+      "type": 2,
+      "symbol": "storage_MULTILUN_desc_tbl",
+      "symbol_value": 100688,
+      "symbol_section": ".data.rel.ro"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103796,
+      "type": 2,
+      "symbol": "auto_NAND_desc_tbl",
+      "symbol_value": 101272,
+      "symbol_section": ".data.rel.ro"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103820,
+      "type": 2,
+      "symbol": "auto_MS_desc_tbl",
+      "symbol_value": 101320,
+      "symbol_section": ".data.rel.ro"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103844,
+      "type": 2,
+      "symbol": "sen_desc_tbl",
+      "symbol_value": 101056,
+      "symbol_section": ".data.rel.ro"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103868,
+      "type": 2,
+      "symbol": "pictbridge_desc_tbl",
+      "symbol_value": 100952,
+      "symbol_section": ".data.rel.ro"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103892,
+      "type": 2,
+      "symbol": "mtp_desc_tbl",
+      "symbol_value": 100896,
+      "symbol_section": ".data.rel.ro"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103916,
+      "type": 2,
+      "symbol": "storage_NAND_desc_tbl",
+      "symbol_value": 100744,
+      "symbol_section": ".data.rel.ro"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 103940,
+      "type": 2,
+      "symbol": "storage_MS_desc_tbl",
+      "symbol_value": 100792,
+      "symbol_section": ".data.rel.ro"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 101828,
+      "type": 22,
+      "symbol": "PTPT_fin",
+      "symbol_value": 59576,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 101832,
+      "type": 22,
+      "symbol": "PTPT_init",
+      "symbol_value": 59472,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 101836,
+      "type": 22,
+      "symbol": "usb_trace_init",
+      "symbol_value": 64392,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 101840,
+      "type": 22,
+      "symbol": "_ZN4CUsb13thread_createEv",
+      "symbol_value": 30528,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 101844,
+      "type": 22,
+      "symbol": "pthread_setcanceltype",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 101848,
+      "type": 22,
+      "symbol": "_ZN4CUsb13que_terminateEP12CUSB_MES_QUE",
+      "symbol_value": 31228,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 101852,
+      "type": 22,
+      "symbol": "_ZN4CUsbD2Ev",
+      "symbol_value": 30248,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 101856,
+      "type": 22,
+      "symbol": "_Znaj",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 101860,
+      "type": 22,
+      "symbol": "_ZN7CUsbSvc13setSelectPortE21__CUSB_SVC_EVENT_PORT",
+      "symbol_value": 35472,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 101864,
+      "type": 22,
+      "symbol": "__cxa_begin_catch",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 101868,
+      "type": 22,
+      "symbol": "_ZN10CUsbGadget12createGadgetEP7CUsbSvcP19CUSB_GADGET_REGINFOP19CUSB_GADGET_CREINFO",
+      "symbol_value": 42504,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 101872,
+      "type": 22,
+      "symbol": "_ZN13CUsbGadgetSen4sendEPhim",
+      "symbol_value": 52344,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 101876,
+      "type": 22,
+      "symbol": "_ZN7CUsbSvc19create_serialNumberEv",
+      "symbol_value": 37672,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 101880,
+      "type": 22,
+      "symbol": "open",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 101884,
+      "type": 22,
+      "symbol": "_Unwind_SjLj_Register",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 101888,
+      "type": 22,
+      "symbol": "_ZN7CUsbSvc11registerSvcEPvP16CUSB_SVC_REGINFO",
+      "symbol_value": 32972,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 101892,
+      "type": 22,
+      "symbol": "_ZN7CUsbSvc7openSvcEv",
+      "symbol_value": 38860,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 101896,
+      "type": 22,
+      "symbol": "_ZN4CUsb8setSpeedE10CUSB_SPEED",
+      "symbol_value": 30396,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 101900,
+      "type": 22,
+      "symbol": "memcpy",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 101904,
+      "type": 22,
+      "symbol": "_ZN7CUsbSvc9terminateEv",
+      "symbol_value": 32920,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 101908,
+      "type": 22,
+      "symbol": "_ZN4CUsbC2Ev",
+      "symbol_value": 30136,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 101912,
+      "type": 22,
+      "symbol": "_ZN7CUsbSvc10new_gadgetE8CUSB_FID",
+      "symbol_value": 33184,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 101916,
+      "type": 22,
+      "symbol": "sleep",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 101920,
+      "type": 22,
+      "symbol": "pthread_mutex_init",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 101924,
+      "type": 22,
+      "symbol": "pthread_attr_init",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 101928,
+      "type": 22,
+      "symbol": "_ZN7CUsbSvc8set_userEP13__cusb_user_t",
+      "symbol_value": 40480,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 101932,
+      "type": 22,
+      "symbol": "_ZN7CUsbSvc4initE15__CUSB_SVC_PORT",
+      "symbol_value": 32820,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 101936,
+      "type": 22,
+      "symbol": "gettimeofday",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 101940,
+      "type": 22,
+      "symbol": "usbproduct_init_drive_type",
+      "symbol_value": 65224,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 101944,
+      "type": 22,
+      "symbol": "_ZN4CUsb13getLocalSpeedEv",
+      "symbol_value": 30432,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 101948,
+      "type": 22,
+      "symbol": "_ZN7CUsbSvc13getProductNumEPhi",
+      "symbol_value": 42056,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 101952,
+      "type": 22,
+      "symbol": "_ZN10CUsbGadgetC2Ev",
+      "symbol_value": 42224,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 101956,
+      "type": 22,
+      "symbol": "_Z27cusb_user_set_iproduct_utf8P13__cusb_user_tPvh",
+      "symbol_value": 53040,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 101960,
+      "type": 22,
+      "symbol": "usb_trace_out",
+      "symbol_value": 64664,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 101964,
+      "type": 22,
+      "symbol": "usb_trace_blog_init",
+      "symbol_value": 64940,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 101968,
+      "type": 22,
+      "symbol": "malloc",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 101972,
+      "type": 22,
+      "symbol": "___start",
+      "symbol_value": 21948,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 101976,
+      "type": 22,
+      "symbol": "_ZdlPv",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 101980,
+      "type": 22,
+      "symbol": "_ZN13CUsbGadgetSen7receiveEPhim",
+      "symbol_value": 52468,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 101984,
+      "type": 22,
+      "symbol": "_ZN10CUsbGadgetD2Ev",
+      "symbol_value": 42336,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 101988,
+      "type": 22,
+      "symbol": "_ZN7CUsbSvc9free_userEP13__cusb_user_t",
+      "symbol_value": 39872,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 101992,
+      "type": 22,
+      "symbol": "ioctl",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 101996,
+      "type": 22,
+      "symbol": "pthread_attr_setstacksize",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102000,
+      "type": 22,
+      "symbol": "_ZN7CUsbSvc14registerGadgetE8CUSB_FIDP19CUSB_GADGET_REGINFO",
+      "symbol_value": 33640,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102004,
+      "type": 22,
+      "symbol": "pthread_mutex_lock",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102008,
+      "type": 22,
+      "symbol": "snprintf",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102012,
+      "type": 22,
+      "symbol": "__cxa_pure_virtual",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102016,
+      "type": 22,
+      "symbol": "_ZN4CUsb8que_pushEPS_P8CUSB_MES",
+      "symbol_value": 31268,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102020,
+      "type": 22,
+      "symbol": "_ZN17CUsbGadgetStorage17check_mediaAccessEv",
+      "symbol_value": 48672,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102024,
+      "type": 22,
+      "symbol": "read",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102028,
+      "type": 22,
+      "symbol": "_ZN7CUsbSvc8port_setEv",
+      "symbol_value": 38392,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102032,
+      "type": 22,
+      "symbol": "atexit",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102036,
+      "type": 22,
+      "symbol": "_rtld_setup",
+      "symbol_value": 21832,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102040,
+      "type": 22,
+      "symbol": "_exit",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102044,
+      "type": 22,
+      "symbol": "__cxa_allocate_exception",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102048,
+      "type": 22,
+      "symbol": "_ZN7CUsbSvc16unregisterGadgetEP10CUsbGadget",
+      "symbol_value": 33840,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102052,
+      "type": 22,
+      "symbol": "_Unwind_SjLj_Resume",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102056,
+      "type": 22,
+      "symbol": "getpid",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102060,
+      "type": 22,
+      "symbol": "Bkup_init",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102064,
+      "type": 22,
+      "symbol": "usb_still_register_gadget",
+      "symbol_value": 58000,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102068,
+      "type": 22,
+      "symbol": "pthread_mutex_destroy",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102072,
+      "type": 22,
+      "symbol": "mmap",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102076,
+      "type": 22,
+      "symbol": "_ZN15CUsbGadgetStillC1Ev",
+      "symbol_value": 49004,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102080,
+      "type": 22,
+      "symbol": "_ZN4CUsb7requestEP8CUSB_MES",
+      "symbol_value": 31408,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102084,
+      "type": 22,
+      "symbol": "_ZN7CUsbSvc4stopE11__USBIF_DIDPvhPFS1_S1_S1_hiE",
+      "symbol_value": 34632,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102088,
+      "type": 22,
+      "symbol": "_ZN7CUsbSvc9port_initEv",
+      "symbol_value": 33956,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102092,
+      "type": 22,
+      "symbol": "usb_event_disable",
+      "symbol_value": 45940,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102096,
+      "type": 22,
+      "symbol": "usb_event_enable",
+      "symbol_value": 45544,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102100,
+      "type": 22,
+      "symbol": "_ZN7CUsbSvc17conv_serialNumberEPhS0_hS0_h",
+      "symbol_value": 37384,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102104,
+      "type": 22,
+      "symbol": "_ZN7CUsbSvc5startE11__USBIF_DIDPvhPFS1_S1_S1_hiE",
+      "symbol_value": 38228,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102108,
+      "type": 22,
+      "symbol": "address_of_errno",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102112,
+      "type": 22,
+      "symbol": "_ZN7CUsbSvcC1Ev",
+      "symbol_value": 31792,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102116,
+      "type": 22,
+      "symbol": "_ZN13CUsbGadgetSenC1Ev",
+      "symbol_value": 51244,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102120,
+      "type": 22,
+      "symbol": "pthread_attr_destroy",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102124,
+      "type": 22,
+      "symbol": "usb_still_unregister_gadget",
+      "symbol_value": 58120,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102128,
+      "type": 22,
+      "symbol": "__cxa_throw",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102132,
+      "type": 22,
+      "symbol": "pthread_create",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102136,
+      "type": 22,
+      "symbol": "write",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102140,
+      "type": 22,
+      "symbol": "_ZN7CUsbSvc8testPortEh",
+      "symbol_value": 35852,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102144,
+      "type": 22,
+      "symbol": "_ZN7CUsbSvc16dataCheck_ALL0_FEPhh",
+      "symbol_value": 36932,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102148,
+      "type": 22,
+      "symbol": "pthread_cond_signal",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102152,
+      "type": 22,
+      "symbol": "close",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102156,
+      "type": 22,
+      "symbol": "_ZN7CUsbSvc10alloc_userEv",
+      "symbol_value": 39500,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102160,
+      "type": 22,
+      "symbol": "_ZN4CUsb8que_initEP12CUSB_MES_QUE",
+      "symbol_value": 31180,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102164,
+      "type": 22,
+      "symbol": "_ZN7CUsbSvc19getBCDProductSerialEPh",
+      "symbol_value": 41944,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102168,
+      "type": 22,
+      "symbol": "usbif_register_gadget",
+      "symbol_value": 22500,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102172,
+      "type": 22,
+      "symbol": "_Unwind_SjLj_Unregister",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102176,
+      "type": 22,
+      "symbol": "usb_event_stop",
+      "symbol_value": 45112,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102180,
+      "type": 22,
+      "symbol": "usbproduct_conv_did",
+      "symbol_value": 65080,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102184,
+      "type": 22,
+      "symbol": "usb_trace_blog_out",
+      "symbol_value": 65012,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102188,
+      "type": 22,
+      "symbol": "_ZN17CUsbGadgetStorage12set_InitInfoEP18GSTORAGE__InfoInit",
+      "symbol_value": 48588,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102192,
+      "type": 22,
+      "symbol": "_ZN17CUsbGadgetStorageC1Ev",
+      "symbol_value": 46668,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102196,
+      "type": 22,
+      "symbol": "initialize_malloc",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102200,
+      "type": 22,
+      "symbol": "pthread_cond_init",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102204,
+      "type": 22,
+      "symbol": "__cxa_end_catch",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102208,
+      "type": 22,
+      "symbol": "fputs",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102212,
+      "type": 22,
+      "symbol": "usb_trace_get_confp",
+      "symbol_value": 64888,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102216,
+      "type": 22,
+      "symbol": "usbproduct_set_drive_type",
+      "symbol_value": 65268,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102220,
+      "type": 22,
+      "symbol": "_ZN8CUsbUserD1Ev",
+      "symbol_value": 53132,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102224,
+      "type": 22,
+      "symbol": "pthread_attr_setschedpolicy",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102228,
+      "type": 22,
+      "symbol": "_ZN10CUsbGadget12deleteGadgetEP7CUsbSvcPFPvS2_S2_hiEP8CUSB_MES",
+      "symbol_value": 42700,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102232,
+      "type": 22,
+      "symbol": "_ZN7CUsbSvc8hex_to_aEPhS0_h",
+      "symbol_value": 37060,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102236,
+      "type": 22,
+      "symbol": "_ZN7CUsbSvc8usb_portEv",
+      "symbol_value": 38008,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102240,
+      "type": 22,
+      "symbol": "memset",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102244,
+      "type": 22,
+      "symbol": "_ZN7CUsbSvc15setSerialNumberEPch",
+      "symbol_value": 35292,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102248,
+      "type": 22,
+      "symbol": "usbif_init",
+      "symbol_value": 22652,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102252,
+      "type": 22,
+      "symbol": "_ZN7CUsbSvc16getBCDProductNumEPh",
+      "symbol_value": 41856,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102256,
+      "type": 22,
+      "symbol": "munmap",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102260,
+      "type": 22,
+      "symbol": "fprintf",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102264,
+      "type": 22,
+      "symbol": "_ZN7CUsbSvc13getSelectPortEv",
+      "symbol_value": 35768,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102268,
+      "type": 22,
+      "symbol": "_ZN17CUsbGadgetStorage15set_mediaStatusEP25GSTORAGE__InfoMediaStatus",
+      "symbol_value": 48636,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102272,
+      "type": 22,
+      "symbol": "_ZN7CUsbSvc10clear_userEP13__cusb_user_t",
+      "symbol_value": 40196,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102276,
+      "type": 22,
+      "symbol": "pthread_exit",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102280,
+      "type": 22,
+      "symbol": "PTPT_close",
+      "symbol_value": 59644,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102284,
+      "type": 22,
+      "symbol": "Bkup_pread",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102288,
+      "type": 22,
+      "symbol": "pthread_cancel",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102292,
+      "type": 22,
+      "symbol": "_ZN7CUsbSvc8closeSvcEv",
+      "symbol_value": 34152,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102296,
+      "type": 22,
+      "symbol": "usbif_unregister_gadget",
+      "symbol_value": 22540,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102300,
+      "type": 22,
+      "symbol": "_ZN7CUsbSvc12start_gadgetEPvhPFS0_S0_S0_hiE",
+      "symbol_value": 34296,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102304,
+      "type": 22,
+      "symbol": "exit",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102308,
+      "type": 22,
+      "symbol": "_ZN4CUsb7que_popEPS_",
+      "symbol_value": 30916,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102312,
+      "type": 22,
+      "symbol": "slibc_pthread_initialize",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102316,
+      "type": 22,
+      "symbol": "_ZN4CUsb20proc_service_cleanupEPv",
+      "symbol_value": 30660,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102320,
+      "type": 22,
+      "symbol": "_ZN7CUsbSvc12a_to_utf16leEPcS0_h",
+      "symbol_value": 35140,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102324,
+      "type": 22,
+      "symbol": "pthread_mutex_unlock",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102328,
+      "type": 22,
+      "symbol": "_ZN7CUsbSvc11proc_notifyE16__CUSB_SVC_EVENTP18CUSB_SVC_EVENT_ARGh",
+      "symbol_value": 35872,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102332,
+      "type": 22,
+      "symbol": "pthread_cond_destroy",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102336,
+      "type": 22,
+      "symbol": "_libnsl_lock_init",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102340,
+      "type": 22,
+      "symbol": "__deregister_frame_info",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102344,
+      "type": 22,
+      "symbol": "_ZN8CUsbUser9free_userEP13__cusb_user_t",
+      "symbol_value": 53856,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102348,
+      "type": 22,
+      "symbol": "_ZN8CUsbUser21clear_user_descriptorEP13__cusb_user_t",
+      "symbol_value": 54024,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102352,
+      "type": 22,
+      "symbol": "Bkup_final",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102356,
+      "type": 22,
+      "symbol": "_ZN16CUsbGadgetSampleC1Ev",
+      "symbol_value": 54644,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102360,
+      "type": 22,
+      "symbol": "free",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102364,
+      "type": 22,
+      "symbol": "_ZN7CUsbSvc10bcd_to_hexEPmPhh",
+      "symbol_value": 37204,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102368,
+      "type": 22,
+      "symbol": "_ZN7CUsbSvc16getProductSerialEPhi",
+      "symbol_value": 42140,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102372,
+      "type": 22,
+      "symbol": "usbif_destroy",
+      "symbol_value": 24164,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102376,
+      "type": 22,
+      "symbol": "pthread_cond_wait",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102380,
+      "type": 22,
+      "symbol": "_Znwj",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102384,
+      "type": 22,
+      "symbol": "_ZN8CUsbUser19set_user_descriptorEP13__cusb_user_t",
+      "symbol_value": 53880,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102388,
+      "type": 22,
+      "symbol": "_ZN7CUsbSvc8bcd_to_aEPhS0_h",
+      "symbol_value": 42032,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102392,
+      "type": 22,
+      "symbol": "puts",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102396,
+      "type": 22,
+      "symbol": "usb_event_start",
+      "symbol_value": 44376,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102400,
+      "type": 22,
+      "symbol": "_ZN7CUsbSvc13unregisterSvcEPv",
+      "symbol_value": 33092,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102404,
+      "type": 22,
+      "symbol": "_ZN8CUsbUserC1Ev",
+      "symbol_value": 53100,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102408,
+      "type": 22,
+      "symbol": "pthread_setcancelstate",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102412,
+      "type": 22,
+      "symbol": "main",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102416,
+      "type": 22,
+      "symbol": "_init",
+      "symbol_value": 22220,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102420,
+      "type": 22,
+      "symbol": "_ZN4CUsb13thread_cancelEv",
+      "symbol_value": 30712,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102424,
+      "type": 22,
+      "symbol": "_ZN8CUsbUser10alloc_userEv",
+      "symbol_value": 53464,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102428,
+      "type": 22,
+      "symbol": "_ZN7CUsbSvc11stop_gadgetEPvhPFS0_S0_S0_hiE",
+      "symbol_value": 34388,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 102432,
+      "type": 22,
+      "symbol": "pthread_join",
+      "symbol_value": 0,
+      "symbol_section": null
+    }
+  ]
+}

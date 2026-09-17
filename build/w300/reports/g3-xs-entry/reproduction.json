@@ -1,0 +1,55 @@
+{
+  "ok": true,
+  "scope": "Static G3 bytecode framing and selected native links only",
+  "scripts": [
+    {
+      "path": "evidence/extracted_g3/archives_unpacked/fskrel1/dsc/fsk/senserModule.xsb",
+      "sha256": "b40523072708fb049781141b7e89742e2aefa43b4cc42ca3db52feb4aac756f0",
+      "runtime_sha256": "2fb7914c1f111650e0022db4f3c52b3d5328f9e16c20dc1a15db5cef6212203c",
+      "code_bytes": 1199,
+      "framed_instructions": 563,
+      "checked_jump_targets": 27
+    },
+    {
+      "path": "evidence/extracted_g3/archives_unpacked/fskrel1/dsc/fsk/senserCmdTable.xsb",
+      "sha256": "d7d82f5437d375ef42fcc0fc1dbddaadc7cd90977741a4b2dc42f5cf8caa50db",
+      "runtime_sha256": "2fb7914c1f111650e0022db4f3c52b3d5328f9e16c20dc1a15db5cef6212203c",
+      "code_bytes": 67871,
+      "framed_instructions": 32196,
+      "checked_jump_targets": 1315
+    },
+    {
+      "path": "evidence/extracted_g3/archives_unpacked/fskrel1/dsc/fsk/regionInfo.xsb",
+      "sha256": "76061909683201a196ce277767c61c0954b8952a458f7620415cbb748928162c",
+      "runtime_sha256": "2fb7914c1f111650e0022db4f3c52b3d5328f9e16c20dc1a15db5cef6212203c",
+      "code_bytes": 4863,
+      "framed_instructions": 1727,
+      "checked_jump_targets": 104
+    },
+    {
+      "path": "evidence/extracted_g3/archives_unpacked/fskrel1/dsc/fsk/dsc.xsb",
+      "sha256": "8aa1c38314260731cba6d8040086de647be5d21f2680ba41df4987a0c0b51c13",
+      "runtime_sha256": "2fb7914c1f111650e0022db4f3c52b3d5328f9e16c20dc1a15db5cef6212203c",
+      "code_bytes": 1326833,
+      "framed_instructions": 558105,
+      "checked_jump_targets": 19292
+    }
+  ],
+  "native_inputs": [
+    {
+      "path": "evidence/extracted_g3/archives_unpacked/fskrel1/dsc/fsk/tinyhttp",
+      "sha256": "2fb7914c1f111650e0022db4f3c52b3d5328f9e16c20dc1a15db5cef6212203c"
+    },
+    {
+      "path": "evidence/extracted_g3/archives_unpacked/fskrel1/dsc/fsk/PExtSenser.so",
+      "sha256": "633d64cf7ce3b44b400f12b87e6044c12e840ba9c96a4dd1ed8a19a2bdd26635"
+    },
+    {
+      "path": "evidence/extracted_g3/archives_unpacked/lib/lib/libsencore.so",
+      "sha256": "401bc78bc84bd175968513a387b8951626ceb48a345eed134b998d3630103270"
+    }
+  ],
+  "w300_qualified": false,
+  "camera_io": false,
+  "firmware_executed": false
+}

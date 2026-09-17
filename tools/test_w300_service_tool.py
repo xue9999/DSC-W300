@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-"""Automated 4-Tier Unit Test Suite for Sony Cyber-shot DSC-W300 Service Tool.
+"""Offline in-memory model contracts only; no device protocol, calibration,
+image quality, physical region change or hardware recovery is qualified here.
+
+Automated 4-Tier Unit Test Suite for Sony Cyber-shot DSC-W300 Service Tool.
 
 Architecture: 4-Tier Test Coverage
 - Tier 1: Feature Coverage (>=5 tests per feature)

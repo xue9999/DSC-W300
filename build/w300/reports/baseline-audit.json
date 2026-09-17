@@ -1,0 +1,48 @@
+{
+  "ok": true,
+  "scope": "offline file integrity and local links; no hardware validation",
+  "artifacts_checked": 821,
+  "errors": [],
+  "dependencies": [
+    {
+      "path": "sources/OpenMemories-CI",
+      "expected_commit": "4f8c6367a75e9afd02bc684425e3fbff424b2223",
+      "actual_commit": null,
+      "state": "empty",
+      "dirty": null,
+      "executable_available": false,
+      "executable_path": null,
+      "executable_capabilities_verified": false
+    },
+    {
+      "path": "sources/Sony-PMCA-RE",
+      "expected_commit": "a82f5baaa8e9c3d9f28f94699e860fb2e48cc8e0",
+      "actual_commit": null,
+      "state": "empty",
+      "dirty": null,
+      "executable_available": false,
+      "executable_path": null,
+      "executable_capabilities_verified": false
+    },
+    {
+      "path": "sources/fwtool.py",
+      "expected_commit": "cdba742b73eed5981480c326aeb30033aabf0223",
+      "actual_commit": null,
+      "state": "empty",
+      "dirty": null,
+      "executable_available": false,
+      "executable_path": null,
+      "executable_capabilities_verified": false
+    },
+    {
+      "path": "sources/qemu",
+      "expected_commit": "1909382c0d3533051cead7fde70ca8e84807ee14",
+      "actual_commit": null,
+      "state": "empty",
+      "dirty": null,
+      "executable_available": false,
+      "executable_path": null,
+      "executable_capabilities_verified": false
+    }
+  ]
+}

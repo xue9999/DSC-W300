@@ -771,39 +771,11 @@ class TestEndToEndExtractionPipeline(unittest.TestCase):
             "kernel_version_string", "elf_file_count"
         }
 
-        # Reference template fixture
-        ref_fixture = {
-            "artifacts": {
-                "source_executable": {"path": "sources/DSCG3V2.exe", "size": 55928464},
-                "msfirm_container": {"path": "evidence/extracted_g3/D-G3V2.dat", "size": 55898688}
-            },
-            "platform": {
-                "camera_model": "Sony Cyber-shot DSC-G3",
-                "model_id": "0x08210030",
-                "firmware_version": "2.00",
-                "kernel_version_string": KERNEL_VERSION_EXPECTED,
-                "elf_file_count": 96
-            },
-            "partition_table": {
-                "entry_count": 12,
-                "entries": [{"device": f"/dev/nflasha{i}"} for i in range(1, 13)]
-            }
-        }
-
-        # Validate schema rules on fixture
-        self.assertTrue(required_root_keys.issubset(ref_fixture.keys()))
-        self.assertTrue(required_platform_keys.issubset(ref_fixture["platform"].keys()))
-        self.assertEqual(ref_fixture["platform"]["elf_file_count"], 96)
-        self.assertEqual(ref_fixture["partition_table"]["entry_count"], 12)
-
-        # If live inventory file exists on disk, validate it
-        if INVENTORY_JSON_PATH.exists():
-            with open(INVENTORY_JSON_PATH, 'r', encoding='utf-8') as f:
-                data = json.load(f)
-            self.assertTrue(required_root_keys.issubset(data.keys()))
-            self.assertTrue(required_platform_keys.issubset(data["platform"].keys()))
-            self.assertEqual(data["platform"]["elf_file_count"], 96)
-            self.assertEqual(data["partition_table"]["entry_count"], 12)
+        data = json.loads(INVENTORY_JSON_PATH.read_text(encoding='utf-8'))
+        self.assertTrue(required_root_keys.issubset(data.keys()))
+        self.assertTrue(required_platform_keys.issubset(data['platform'].keys()))
+        self.assertEqual(data['platform']['elf_file_count'], 96)
+        self.assertEqual(data['partition_table']['entry_count'], 12)
 
     def test_05_architecture_markdown_structure(self):
         """Validates canonical dossier headings in DECRYPTED_ARCHITECTURE.md."""
@@ -815,34 +787,12 @@ class TestEndToEndExtractionPipeline(unittest.TestCase):
             "Key Evidence Paths"
         ]
 
-        if ARCHITECTURE_MD_PATH.exists():
-            content = ARCHITECTURE_MD_PATH.read_text(encoding='utf-8')
-            for heading in canonical_headings:
-                self.assertIn(heading, content, f"Canonical section '{heading}' missing in markdown")
-        else:
-            # Structure assertion passes contract check
-            self.assertEqual(len(canonical_headings), 5)
+        content = ARCHITECTURE_MD_PATH.read_text(encoding='utf-8')
+        for heading in canonical_headings:
+            self.assertIn(heading, content)
 
     def test_06_e2e_cli_pipeline_integration(self):
-        """Executes full CLI pipeline if implemented in tools/g3_firmware_parser.py."""
-        # Check if g3_firmware_parser.py implements --all
-        try:
-            proc = subprocess.run(
-                [sys.executable, str(PARSER_SCRIPT_PATH), "--help"],
-                capture_output=True,
-                text=True,
-                timeout=5
-            )
-            cli_has_all = "--all" in proc.stdout or "--dump-sections" in proc.stdout
-        except Exception:
-            cli_has_all = False
-
-        if not cli_has_all:
-            self.skipTest(
-                "tools/g3_firmware_parser.py CLI does not yet implement --all or --dump-sections "
-                "(Milestone M1-M3 implementation in progress)"
-            )
-
+        """Required real extraction; missing implementation or inputs fail."""
         with tempfile.TemporaryDirectory() as td:
             out_dir = Path(td) / "g3_out"
             cmd = [

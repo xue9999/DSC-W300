@@ -1,0 +1,354 @@
+Static retained G3 ARM only; symbol/range listings may include trailing literal pools, which are not claimed executed.
+
+evidence/extracted_g3/archives_unpacked/fskrel1/dsc/fsk/PExtSenser.so
+
+633d64cf7ce3b44b400f12b87e6044c12e840ba9c96a4dd1ed8a19a2bdd26635
+
+range@0xd200:0xd220 section=.text value=0xd200 file=0xd200 symbol_size=32
+0x0000d200 0dc0a0e1     mov      ip, sp
+0x0000d204 00d82de9     push     {fp, ip, lr, pc}
+0x0000d208 04b04ce2     sub      fp, ip, #4
+0x0000d20c 0100a0e3     mov      r0, #1
+0x0000d210 ff1ca0e3     mov      r1, #0xff00
+0x0000d214 ff1081e2     add      r1, r1, #0xff
+0x0000d218 cdfeffeb     bl       #0xcd54
+0x0000d21c 00a89de8     ldm      sp, {fp, sp, pc}
+
+range@0xcd54:0xcff0 section=.text value=0xcd54 file=0xcd54 symbol_size=668
+0x0000cd54 0dc0a0e1     mov      ip, sp
+0x0000cd58 f0df2de9     push     {r4, r5, r6, r7, r8, sb, sl, fp, ip, lr, pc}
+0x0000cd5c 04b04ce2     sub      fp, ip, #4
+0x0000cd60 60d04de2     sub      sp, sp, #0x60
+0x0000cd64 40a29fe5     ldr      sl, [pc, #0x240] ; literal[0xcfac]=0xe4dc
+0x0000cd68 0aa08fe0     add      sl, pc, sl
+0x0000cd6c 68000be5     str      r0, [fp, #-0x68]
+0x0000cd70 6c100be5     str      r1, [fp, #-0x6c]
+0x0000cd74 34329fe5     ldr      r3, [pc, #0x234] ; literal[0xcfb0]=0x298
+0x0000cd78 03309ae7     ldr      r3, [sl, r3]
+0x0000cd7c 4c300be5     str      r3, [fp, #-0x4c]
+0x0000cd80 2c329fe5     ldr      r3, [pc, #0x22c] ; literal[0xcfb4]=0xfffffe82
+0x0000cd84 03308ae0     add      r3, sl, r3
+0x0000cd88 48300be5     str      r3, [fp, #-0x48]
+0x0000cd8c 28104be2     sub      r1, fp, #0x28
+0x0000cd90 44100be5     str      r1, [fp, #-0x44]
+0x0000cd94 1c329fe5     ldr      r3, [pc, #0x21c] ; literal[0xcfb8]=0xffff1cac
+0x0000cd98 03308ae0     add      r3, sl, r3
+0x0000cd9c 40300be5     str      r3, [fp, #-0x40]
+0x0000cda0 3cd00be5     str      sp, [fp, #-0x3c]
+0x0000cda4 38700be5     str      r7, [fp, #-0x38]
+0x0000cda8 64004be2     sub      r0, fp, #0x64
+0x0000cdac b5e9ffeb     bl       #0x7488 ; PLT:_Unwind_SjLj_Register
+0x0000cdb0 ff3ca0e3     mov      r3, #0xff00
+0x0000cdb4 ff3083e2     add      r3, r3, #0xff
+0x0000cdb8 6c201be5     ldr      r2, [fp, #-0x6c]
+0x0000cdbc 68101be5     ldr      r1, [fp, #-0x68]
+0x0000cdc0 030052e1     cmp      r2, r3
+0x0000cdc4 01005103     cmpeq    r1, #1
+0x0000cdc8 7300001a     bne      #0xcf9c
+0x0000cdcc e8219fe5     ldr      r2, [pc, #0x1e8] ; literal[0xcfbc]=0x143c
+0x0000cdd0 02308ae0     add      r3, sl, r2
+0x0000cdd4 70300be5     str      r3, [fp, #-0x70]
+0x0000cdd8 e0319fe5     ldr      r3, [pc, #0x1e0] ; literal[0xcfc0]=0x1dc
+0x0000cddc 03309ae7     ldr      r3, [sl, r3]
+0x0000cde0 083083e2     add      r3, r3, #8
+0x0000cde4 02308ae7     str      r3, [sl, r2]
+0x0000cde8 d4319fe5     ldr      r3, [pc, #0x1d4] ; literal[0xcfc4]=0x288
+0x0000cdec 03309ae7     ldr      r3, [sl, r3]
+0x0000cdf0 083083e2     add      r3, r3, #8
+0x0000cdf4 02308ae7     str      r3, [sl, r2]
+0x0000cdf8 0130a0e3     mov      r3, #1
+0x0000cdfc 70101be5     ldr      r1, [fp, #-0x70]
+0x0000ce00 043081e5     str      r3, [r1, #4]
+0x0000ce04 0020a0e3     mov      r2, #0
+0x0000ce08 082081e5     str      r2, [r1, #8]
+0x0000ce0c 0c3081e2     add      r3, r1, #0xc
+0x0000ce10 78300be5     str      r3, [fp, #-0x78]
+0x0000ce14 2c104be2     sub      r1, fp, #0x2c
+0x0000ce18 7c100be5     str      r1, [fp, #-0x7c]
+0x0000ce1c 0100a0e1     mov      r0, r1
+0x0000ce20 a0319fe5     ldr      r3, [pc, #0x1a0] ; literal[0xcfc8]=0x2c8
+0x0000ce24 03c09ae7     ldr      ip, [sl, r3]
+0x0000ce28 3cff2fe1     blx      ip
+0x0000ce2c 30204be2     sub      r2, fp, #0x30
+0x0000ce30 80200be5     str      r2, [fp, #-0x80]
+0x0000ce34 0200a0e1     mov      r0, r2
+0x0000ce38 7c101be5     ldr      r1, [fp, #-0x7c]
+0x0000ce3c 88319fe5     ldr      r3, [pc, #0x188] ; literal[0xcfcc]=0x21c
+0x0000ce40 03c09ae7     ldr      ip, [sl, r3]
+0x0000ce44 3cff2fe1     blx      ip
+0x0000ce48 78001be5     ldr      r0, [fp, #-0x78]
+0x0000ce4c 80101be5     ldr      r1, [fp, #-0x80]
+0x0000ce50 78319fe5     ldr      r3, [pc, #0x178] ; literal[0xcfd0]=0x330
+0x0000ce54 03c09ae7     ldr      ip, [sl, r3]
+0x0000ce58 3cff2fe1     blx      ip
+0x0000ce5c 0010a0e3     mov      r1, #0
+0x0000ce60 78301be5     ldr      r3, [fp, #-0x78]
+0x0000ce64 141083e5     str      r1, [r3, #0x14]
+0x0000ce68 041083e5     str      r1, [r3, #4]
+0x0000ce6c 081083e5     str      r1, [r3, #8]
+0x0000ce70 70201be5     ldr      r2, [fp, #-0x70]
+0x0000ce74 103082e2     add      r3, r2, #0x10
+0x0000ce78 78101be5     ldr      r1, [fp, #-0x78]
+0x0000ce7c 0c3081e5     str      r3, [r1, #0xc]
+0x0000ce80 103081e5     str      r3, [r1, #0x10]
+0x0000ce84 80001be5     ldr      r0, [fp, #-0x80]
+0x0000ce88 44319fe5     ldr      r3, [pc, #0x144] ; literal[0xcfd4]=0x2a0
+0x0000ce8c 03c09ae7     ldr      ip, [sl, r3]
+0x0000ce90 3cff2fe1     blx      ip
+0x0000ce94 7c001be5     ldr      r0, [fp, #-0x7c]
+0x0000ce98 38319fe5     ldr      r3, [pc, #0x138] ; literal[0xcfd8]=0x194
+0x0000ce9c 03c09ae7     ldr      ip, [sl, r3]
+0x0000cea0 3cff2fe1     blx      ip
+0x0000cea4 70201be5     ldr      r2, [fp, #-0x70]
+0x0000cea8 240082e2     add      r0, r2, #0x24
+0x0000ceac 0230a0e3     mov      r3, #2
+0x0000ceb0 60300be5     str      r3, [fp, #-0x60]
+0x0000ceb4 0010a0e3     mov      r1, #0
+0x0000ceb8 84e9ffeb     bl       #0x74d0 ; PLT:pthread_mutex_init
+0x0000cebc 290000ea     b        #0xcf68
+0x0000cec0 74301be5     ldr      r3, [fp, #-0x74]
+0x0000cec4 84300be5     str      r3, [fp, #-0x84]
+0x0000cec8 ec309fe5     ldr      r3, [pc, #0xec] ; literal[0xcfbc]=0x143c
+0x0000cecc 03308ae0     add      r3, sl, r3
+0x0000ced0 0c3083e2     add      r3, r3, #0xc
+0x0000ced4 88300be5     str      r3, [fp, #-0x88]
+0x0000ced8 081093e5     ldr      r1, [r3, #8]
+0x0000cedc 0130a0e3     mov      r3, #1
+0x0000cee0 60300be5     str      r3, [fp, #-0x60]
+0x0000cee4 88001be5     ldr      r0, [fp, #-0x88]
+0x0000cee8 ec309fe5     ldr      r3, [pc, #0xec] ; literal[0xcfdc]=0x284
+0x0000ceec 03c09ae7     ldr      ip, [sl, r3]
+0x0000cef0 3cff2fe1     blx      ip
+0x0000cef4 0c0000ea     b        #0xcf2c
+0x0000cef8 28b08be2     add      fp, fp, #0x28
+0x0000cefc dca09fe5     ldr      sl, [pc, #0xdc] ; literal[0xcfe0]=0xe344
+0x0000cf00 0aa08fe0     add      sl, pc, sl
+0x0000cf04 5c101be5     ldr      r1, [fp, #-0x5c]
+0x0000cf08 74100be5     str      r1, [fp, #-0x74]
+0x0000cf0c 60301be5     ldr      r3, [fp, #-0x60]
+0x0000cf10 010053e3     cmp      r3, #1
+0x0000cf14 e9ffff0a     beq      #0xcec0
+0x0000cf18 88001be5     ldr      r0, [fp, #-0x88]
+0x0000cf1c c0309fe5     ldr      r3, [pc, #0xc0] ; literal[0xcfe4]=0x2c0
+0x0000cf20 03c09ae7     ldr      ip, [sl, r3]
+0x0000cf24 3cff2fe1     blx      ip
+0x0000cf28 050000ea     b        #0xcf44
+0x0000cf2c 88001be5     ldr      r0, [fp, #-0x88]
+0x0000cf30 ac309fe5     ldr      r3, [pc, #0xac] ; literal[0xcfe4]=0x2c0
+0x0000cf34 03c09ae7     ldr      ip, [sl, r3]
+0x0000cf38 3cff2fe1     blx      ip
+0x0000cf3c 84201be5     ldr      r2, [fp, #-0x84]
+0x0000cf40 74200be5     str      r2, [fp, #-0x74]
+0x0000cf44 74309fe5     ldr      r3, [pc, #0x74] ; literal[0xcfc0]=0x1dc
+0x0000cf48 03309ae7     ldr      r3, [sl, r3]
+0x0000cf4c 083083e2     add      r3, r3, #8
+0x0000cf50 64209fe5     ldr      r2, [pc, #0x64] ; literal[0xcfbc]=0x143c
+0x0000cf54 02308ae7     str      r3, [sl, r2]
+0x0000cf58 0030e0e3     mvn      r3, #0
+0x0000cf5c 60300be5     str      r3, [fp, #-0x60]
+0x0000cf60 74001be5     ldr      r0, [fp, #-0x74]
+0x0000cf64 9ee9ffeb     bl       #0x75e4 ; PLT:_Unwind_SjLj_Resume
+0x0000cf68 4c309fe5     ldr      r3, [pc, #0x4c] ; literal[0xcfbc]=0x143c
+0x0000cf6c 03308ae0     add      r3, sl, r3
+0x0000cf70 0010a0e3     mov      r1, #0
+0x0000cf74 501083e5     str      r1, [r3, #0x50]
+0x0000cf78 0020e0e3     mvn      r2, #0
+0x0000cf7c 542083e5     str      r2, [r3, #0x54]
+0x0000cf80 5810c3e5     strb     r1, [r3, #0x58]
+0x0000cf84 5c2083e5     str      r2, [r3, #0x5c]
+0x0000cf88 58009fe5     ldr      r0, [pc, #0x58] ; literal[0xcfe8]=0xffff1da4
+0x0000cf8c 00008ae0     add      r0, sl, r0
+0x0000cf90 54309fe5     ldr      r3, [pc, #0x54] ; literal[0xcfec]=0x260
+0x0000cf94 03209ae7     ldr      r2, [sl, r3]
+0x0000cf98 73e9ffeb     bl       #0x756c ; PLT:__cxa_atexit
+0x0000cf9c 64004be2     sub      r0, fp, #0x64
+0x0000cfa0 d4e9ffeb     bl       #0x76f8 ; PLT:_Unwind_SjLj_Unregister
+0x0000cfa4 28d04be2     sub      sp, fp, #0x28
+0x0000cfa8 f0af9de8     ldm      sp, {r4, r5, r6, r7, r8, sb, sl, fp, sp, pc}
+0x0000cfac dce40000     ldrdeq   lr, pc, [r0], -ip
+0x0000cfb0 98020000     muleq    r0, r8, r2
+
+_ZN14StatusCallback22onSenserStatusCallbackEN6Senser6status4typeE section=.text value=0xb134 file=0xb134 symbol_size=80
+0x0000b134 0dc0a0e1     mov      ip, sp
+0x0000b138 00dc2de9     push     {sl, fp, ip, lr, pc}
+0x0000b13c 04b04ce2     sub      fp, ip, #4
+0x0000b140 08d04de2     sub      sp, sp, #8
+0x0000b144 30a09fe5     ldr      sl, [pc, #0x30] ; literal[0xb17c]=0x100fc
+0x0000b148 0aa08fe0     add      sl, pc, sl
+0x0000b14c 00c0a0e1     mov      ip, r0
+0x0000b150 0130a0e1     mov      r3, r1
+0x0000b154 0020a0e3     mov      r2, #0
+0x0000b158 00208de5     str      r2, [sp]
+0x0000b15c 04208de5     str      r2, [sp, #4]
+0x0000b160 080090e5     ldr      r0, [r0, #8]
+0x0000b164 14209fe5     ldr      r2, [pc, #0x14] ; literal[0xb180]=0x2e8
+0x0000b168 02109ae7     ldr      r1, [sl, r2]
+0x0000b16c 0c20a0e1     mov      r2, ip
+0x0000b170 dcf0ffeb     bl       #0x74e8 ; PLT:FskThreadPostCallback
+0x0000b174 10d04be2     sub      sp, fp, #0x10
+0x0000b178 00ac9de8     ldm      sp, {sl, fp, sp, pc}
+0x0000b17c fc000100     strdeq   r0, r1, [r1], -ip
+0x0000b180 e8020000     andeq    r0, r0, r8, ror #5
+
+_ZN14StatusCallback8CallbackEPvS0_S0_S0_ section=.text value=0xb184 file=0xb184 symbol_size=132
+0x0000b184 0dc0a0e1     mov      ip, sp
+0x0000b188 30dc2de9     push     {r4, r5, sl, fp, ip, lr, pc}
+0x0000b18c 04b04ce2     sub      fp, ip, #4
+0x0000b190 20d04de2     sub      sp, sp, #0x20
+0x0000b194 64a09fe5     ldr      sl, [pc, #0x64] ; literal[0xb200]=0x100ac
+0x0000b198 0aa08fe0     add      sl, pc, sl
+0x0000b19c 0040a0e1     mov      r4, r0
+0x0000b1a0 0120a0e1     mov      r2, r1
+0x0000b1a4 045080e2     add      r5, r0, #4
+0x0000b1a8 043090e5     ldr      r3, [r0, #4]
+0x0000b1ac 001093e5     ldr      r1, [r3]
+0x0000b1b0 101041e2     sub      r1, r1, #0x10
+0x0000b1b4 001083e5     str      r1, [r3]
+0x0000b1b8 040090e5     ldr      r0, [r0, #4]
+0x0000b1bc 7df1ffeb     bl       #0x77b8 ; PLT:fxInteger
+0x0000b1c0 041094e5     ldr      r1, [r4, #4]
+0x0000b1c4 003091e5     ldr      r3, [r1]
+0x0000b1c8 0320a0e1     mov      r2, r3
+0x0000b1cc 103083e2     add      r3, r3, #0x10
+0x0000b1d0 003081e5     str      r3, [r1]
+0x0000b1d4 38404be2     sub      r4, fp, #0x38
+0x0000b1d8 0400a0e1     mov      r0, r4
+0x0000b1dc 0510a0e1     mov      r1, r5
+0x0000b1e0 1c309fe5     ldr      r3, [pc, #0x1c] ; literal[0xb204]=0x1d0
+0x0000b1e4 03c09ae7     ldr      ip, [sl, r3]
+0x0000b1e8 3cff2fe1     blx      ip
+0x0000b1ec 28c04be2     sub      ip, fp, #0x28
+0x0000b1f0 0f0094e8     ldm      r4, {r0, r1, r2, r3}
+0x0000b1f4 0f008ce8     stm      ip, {r0, r1, r2, r3}
+0x0000b1f8 18d04be2     sub      sp, fp, #0x18
+0x0000b1fc 30ac9de8     ldm      sp, {r4, r5, sl, fp, sp, pc}
+0x0000b200 ac000100     andeq    r0, r1, ip, lsr #1
+0x0000b204 d0010000     ldrdeq   r0, r1, [r0], -r0
+
+range@0xb208:0xb2f8 section=.text value=0xb208 file=0xb208 symbol_size=240
+0x0000b208 0dc0a0e1     mov      ip, sp
+0x0000b20c 70dc2de9     push     {r4, r5, r6, sl, fp, ip, lr, pc}
+0x0000b210 04b04ce2     sub      fp, ip, #4
+0x0000b214 d4a09fe5     ldr      sl, [pc, #0xd4] ; literal[0xb2f0]=0x1002c
+0x0000b218 0aa08fe0     add      sl, pc, sl
+0x0000b21c 0060a0e1     mov      r6, r0
+0x0000b220 0150a0e1     mov      r5, r1
+0x0000b224 0240a0e1     mov      r4, r2
+0x0000b228 000091e5     ldr      r0, [r1]
+0x0000b22c 0310e0e3     mvn      r1, #3
+0x0000b230 0020a0e3     mov      r2, #0
+0x0000b234 0230a0e1     mov      r3, r2
+0x0000b238 a7f0ffeb     bl       #0x74dc ; PLT:fxOverflow
+0x0000b23c 003095e5     ldr      r3, [r5]
+0x0000b240 00c093e5     ldr      ip, [r3]
+0x0000b244 10c04ce2     sub      ip, ip, #0x10
+0x0000b248 00c083e5     str      ip, [r3]
+0x0000b24c 0f0094e8     ldm      r4, {r0, r1, r2, r3}
+0x0000b250 0f008ce8     stm      ip, {r0, r1, r2, r3}
+0x0000b254 003095e5     ldr      r3, [r5]
+0x0000b258 00c093e5     ldr      ip, [r3]
+0x0000b25c 10c04ce2     sub      ip, ip, #0x10
+0x0000b260 00c083e5     str      ip, [r3]
+0x0000b264 083085e2     add      r3, r5, #8
+0x0000b268 0f0093e8     ldm      r3, {r0, r1, r2, r3}
+0x0000b26c 0f008ce8     stm      ip, {r0, r1, r2, r3}
+0x0000b270 003095e5     ldr      r3, [r5]
+0x0000b274 001093e5     ldr      r1, [r3]
+0x0000b278 101041e2     sub      r1, r1, #0x10
+0x0000b27c 001083e5     str      r1, [r3]
+0x0000b280 000095e5     ldr      r0, [r5]
+0x0000b284 0220a0e3     mov      r2, #2
+0x0000b288 4af1ffeb     bl       #0x77b8 ; PLT:fxInteger
+0x0000b28c 003095e5     ldr      r3, [r5]
+0x0000b290 00c093e5     ldr      ip, [r3]
+0x0000b294 10c04ce2     sub      ip, ip, #0x10
+0x0000b298 00c083e5     str      ip, [r3]
+0x0000b29c 183085e2     add      r3, r5, #0x18
+0x0000b2a0 0f0093e8     ldm      r3, {r0, r1, r2, r3}
+0x0000b2a4 0f008ce8     stm      ip, {r0, r1, r2, r3}
+0x0000b2a8 000095e5     ldr      r0, [r5]
+0x0000b2ac 40109fe5     ldr      r1, [pc, #0x40] ; literal[0xb2f4]=0xffff71dc
+0x0000b2b0 01108ae0     add      r1, sl, r1
+0x0000b2b4 03f1ffeb     bl       #0x76c8 ; PLT:fxID
+0x0000b2b8 0030a0e1     mov      r3, r0
+0x0000b2bc 0338a0e1     lsl      r3, r3, #0x10
+0x0000b2c0 000095e5     ldr      r0, [r5]
+0x0000b2c4 4318a0e1     asr      r1, r3, #0x10
+0x0000b2c8 07f1ffeb     bl       #0x76ec ; PLT:fxCallID
+0x0000b2cc 001095e5     ldr      r1, [r5]
+0x0000b2d0 003091e5     ldr      r3, [r1]
+0x0000b2d4 0320a0e1     mov      r2, r3
+0x0000b2d8 103083e2     add      r3, r3, #0x10
+0x0000b2dc 003081e5     str      r3, [r1]
+0x0000b2e0 0f0092e8     ldm      r2, {r0, r1, r2, r3}
+0x0000b2e4 0f0086e8     stm      r6, {r0, r1, r2, r3}
+0x0000b2e8 0600a0e1     mov      r0, r6
+0x0000b2ec 70ac9de8     ldm      sp, {r4, r5, r6, sl, fp, sp, pc}
+0x0000b2f0 2c000100     andeq    r0, r1, ip, lsr #32
+
+range@0xb9b4:0xba44 section=.text value=0xb9b4 file=0xb9b4 symbol_size=144
+0x0000b9b4 0dc0a0e1     mov      ip, sp
+0x0000b9b8 00dc2de9     push     {sl, fp, ip, lr, pc}
+0x0000b9bc 04b04ce2     sub      fp, ip, #4
+0x0000b9c0 28a09fe5     ldr      sl, [pc, #0x28] ; literal[0xb9f0]=0xf880
+0x0000b9c4 0aa08fe0     add      sl, pc, sl
+0x0000b9c8 00c0a0e1     mov      ip, r0
+0x0000b9cc 0120a0e1     mov      r2, r1
+0x0000b9d0 1c309fe5     ldr      r3, [pc, #0x1c] ; literal[0xb9f4]=0x1420
+0x0000b9d4 03309ae7     ldr      r3, [sl, r3]
+0x0000b9d8 18009fe5     ldr      r0, [pc, #0x18] ; literal[0xb9f8]=0x1424
+0x0000b9dc 00008ae0     add      r0, sl, r0
+0x0000b9e0 0c10a0e1     mov      r1, ip
+0x0000b9e4 00c093e5     ldr      ip, [r3]
+0x0000b9e8 3cff2fe1     blx      ip
+0x0000b9ec 00ac9de8     ldm      sp, {sl, fp, sp, pc}
+0x0000b9f0 80f80000     andeq    pc, r0, r0, lsl #17
+0x0000b9f4 20140000     andeq    r1, r0, r0, lsr #8
+0x0000b9f8 24140000     andeq    r1, r0, r4, lsr #8
+0x0000b9fc 0dc0a0e1     mov      ip, sp
+0x0000ba00 00dc2de9     push     {sl, fp, ip, lr, pc}
+0x0000ba04 04b04ce2     sub      fp, ip, #4
+0x0000ba08 28a09fe5     ldr      sl, [pc, #0x28] ; literal[0xba38]=0xf838
+0x0000ba0c 0aa08fe0     add      sl, pc, sl
+0x0000ba10 00c0a0e1     mov      ip, r0
+0x0000ba14 0120a0e1     mov      r2, r1
+0x0000ba18 1c309fe5     ldr      r3, [pc, #0x1c] ; literal[0xba3c]=0x1420
+0x0000ba1c 03309ae7     ldr      r3, [sl, r3]
+0x0000ba20 18009fe5     ldr      r0, [pc, #0x18] ; literal[0xba40]=0x1424
+0x0000ba24 00008ae0     add      r0, sl, r0
+0x0000ba28 0c10a0e1     mov      r1, ip
+0x0000ba2c 04c093e5     ldr      ip, [r3, #4]
+0x0000ba30 3cff2fe1     blx      ip
+0x0000ba34 00ac9de8     ldm      sp, {sl, fp, sp, pc}
+0x0000ba38 38f80000     andeq    pc, r0, r8, lsr r8
+0x0000ba3c 20140000     andeq    r1, r0, r0, lsr #8
+0x0000ba40 24140000     andeq    r1, r0, r4, lsr #8
+
+senif_init section=.text value=0xec74 file=0xec74 symbol_size=108
+0x0000ec74 0dc0a0e1     mov      ip, sp
+0x0000ec78 00dc2de9     push     {sl, fp, ip, lr, pc}
+0x0000ec7c 54a09fe5     ldr      sl, [pc, #0x54] ; literal[0xecd8]=0xc5bc
+0x0000ec80 010050e3     cmp      r0, #1
+0x0000ec84 04b04ce2     sub      fp, ip, #4
+0x0000ec88 0aa08fe0     add      sl, pc, sl
+0x0000ec8c 0f0000ca     bgt      #0xecd0
+0x0000ec90 000052e3     cmp      r2, #0
+0x0000ec94 0d00000a     beq      #0xecd0
+0x0000ec98 000051e3     cmp      r1, #0
+0x0000ec9c 0b00000a     beq      #0xecd0
+0x0000eca0 34309fe5     ldr      r3, [pc, #0x34] ; literal[0xecdc]=0x348
+0x0000eca4 03309ae7     ldr      r3, [sl, r3]
+0x0000eca8 003193e7     ldr      r3, [r3, r0, lsl #2]
+0x0000ecac 000053e3     cmp      r3, #0
+0x0000ecb0 040081e5     str      r0, [r1, #4]
+0x0000ecb4 0500000a     beq      #0xecd0
+0x0000ecb8 003093e5     ldr      r3, [r3]
+0x0000ecbc 000053e3     cmp      r3, #0
+0x0000ecc0 0400e003     mvneq    r0, #4
+0x0000ecc4 00ac9d08     ldmeq    sp, {sl, fp, sp, pc}
+0x0000ecc8 33ff2fe1     blx      r3
+0x0000eccc 00ac9de8     ldm      sp, {sl, fp, sp, pc}
+0x0000ecd0 0400e0e3     mvn      r0, #4
+0x0000ecd4 00ac9de8     ldm      sp, {sl, fp, sp, pc}
+0x0000ecd8 bcc50000     strheq   ip, [r0], -ip
+0x0000ecdc 48030000     andeq    r0, r0, r8, asr #6

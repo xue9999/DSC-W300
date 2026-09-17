@@ -1,0 +1,207 @@
+{
+  "scope": "Additional offline protocol and acquisition artifacts; not W300 hardware qualification",
+  "previous_entry_count": 745,
+  "previous_entries_sha256": "df952d737cb63f6952a695ea98c92e2d44289426e13cfbe915119b77a81467a5",
+  "selected_roots": [
+    "reports/w300-watermark-archive",
+    "downloads/w300-watermark-archive",
+    "reports/w300-package-source",
+    "downloads/w300-package-source",
+    "reports/w300-owner-source",
+    "reports/w300-readiness-audit"
+  ],
+  "added_artifacts": [
+    {
+      "path": "downloads/w300-package-source/acquisition.json",
+      "bytes": 1692,
+      "sha256": "44bb3024879ce0dd3e9b0f4d20ea3bdb4d0ff559158cdd84aa6e528593d7eb82"
+    },
+    {
+      "path": "downloads/w300-package-source/catalog-followup.json",
+      "bytes": 971,
+      "sha256": "20a4793df0f18193de529b46bc6b5e847edf7a8303cf929d421e6876cc950024"
+    },
+    {
+      "path": "downloads/w300-package-source/sony-notices.html",
+      "bytes": 62774,
+      "sha256": "492368819a83ceb0fc74285cd021726b72923fbd377b43809b8e440e8a5da4e7"
+    },
+    {
+      "path": "downloads/w300-package-source/sony-relocation.html",
+      "bytes": 78916,
+      "sha256": "340e026d652fb9b0241701ac9c279bd34420adf34ac6fcc13298dd331207c4c0"
+    },
+    {
+      "path": "downloads/w300-package-source/sony-update-cdx.json",
+      "bytes": 2706,
+      "sha256": "ac1a7c5f20ea4df5e98d20028eaa0383c5484af79c7422d8501cda08bb6c905a"
+    },
+    {
+      "path": "downloads/w300-package-source/sony-w300-support.html",
+      "bytes": 1431,
+      "sha256": "f84fa3a74ec43bef556b04baf9baa680fa3d71072812e4dcf49194d714c44334"
+    },
+    {
+      "path": "downloads/w300-package-source/update-20101201053640.html",
+      "bytes": 25513,
+      "sha256": "c4116792b11216ed0bbeae31819cdf052573355961ea278f3fbc598291296256"
+    },
+    {
+      "path": "downloads/w300-package-source/update-20140206154932.html",
+      "bytes": 18645,
+      "sha256": "b7c5e5c5ac7b4e3fa92999975d56d2c2856807ec93b4482b5f2923251621b8e3"
+    },
+    {
+      "path": "downloads/w300-package-source/year-2009-cdx-20101223031809.html",
+      "bytes": 25334,
+      "sha256": "113f69c5208843926278196e4094e0c7d5162ff927eda6620a7e8e5de8fac1d9"
+    },
+    {
+      "path": "downloads/w300-package-source/year-2009-cdx.json",
+      "bytes": 729,
+      "sha256": "fb0baa9a455d134fe69dba10e21349628aa5af06cb3944dc42efe457d54e87b1"
+    },
+    {
+      "path": "downloads/w300-package-source/year-followup.json",
+      "bytes": 2121,
+      "sha256": "b1458a38bae056702f820f3c531413263d718d13a0bb64c801b68f0ecec0d14d"
+    },
+    {
+      "path": "downloads/w300-package-source/year-past-cdx-20101223032303.html",
+      "bytes": 26224,
+      "sha256": "8d9a59d342c21a8b0209adb334f3887f9957e24117f0d27b1513722cd3edbdc7"
+    },
+    {
+      "path": "downloads/w300-package-source/year-past-cdx.json",
+      "bytes": 729,
+      "sha256": "bbc8141dcb22da1e95ea613675cb63ee1896cab0d7274b7a4b502bd93afc39cd"
+    },
+    {
+      "path": "downloads/w300-watermark-archive/acquisition.json",
+      "bytes": 813,
+      "sha256": "21dc7d8ac41a3018420bc4ca74b734b0aedfd7b69613802b4e250ab84ed05573"
+    },
+    {
+      "path": "downloads/w300-watermark-archive/attachmentList.html",
+      "bytes": 22955,
+      "sha256": "a0a282e8d939b774660b8e51c2523bccf8bcaab1b81a1e4ff74ee9dc3d1b0c68"
+    },
+    {
+      "path": "downloads/w300-watermark-archive/bbs-cdx.response",
+      "bytes": 583923,
+      "sha256": "da37d32a05fbdae961ae242b7a8c3c4041125b26528dc5ef77b41d0e9e086dfa"
+    },
+    {
+      "path": "downloads/w300-watermark-archive/camera-forum-links.json",
+      "bytes": 36541,
+      "sha256": "c1584884ee8b94cc2cb92d95c766bad3e169fd428af8749b336c06cae8e4f73b"
+    },
+    {
+      "path": "downloads/w300-watermark-archive/forum-163-1.html",
+      "bytes": 30934,
+      "sha256": "c51ec5b654f81b7031a5ad6b2f06997f7a0be55237f219194295e9a59632bb8d"
+    },
+    {
+      "path": "downloads/w300-watermark-archive/forum-163-2.html",
+      "bytes": 30177,
+      "sha256": "fcd2294492a7d24c1d261466d3dcf0318dcddec97aa5e9fe708858a11393546b"
+    },
+    {
+      "path": "downloads/w300-watermark-archive/main-http.html",
+      "bytes": 63,
+      "sha256": "b8f856812d0810c2fcd63e6c08d3d155e52670f10b6e10ee7b4af6b8004a8f7b"
+    },
+    {
+      "path": "downloads/w300-watermark-archive/main-http.json",
+      "bytes": 198,
+      "sha256": "6a84b78bcc1096c0042052b7f3088e06979292e6d1971aa72f6b5ddd25011165"
+    },
+    {
+      "path": "downloads/w300-watermark-archive/pages-acquisition.json",
+      "bytes": 1127,
+      "sha256": "b52d1ed6f91182bc4997d43b765e3dc644edc8cdb7ff836e373d9f10fe1c0071"
+    },
+    {
+      "path": "downloads/w300-watermark-archive/tag-ADJ.html",
+      "bytes": 4683,
+      "sha256": "5b8d678d90ea2cc65cc7e8368a2f453846a28d79937612d1650c9c7a36ed63e6"
+    },
+    {
+      "path": "downloads/w300-watermark-archive/tag-SONY.html",
+      "bytes": 16728,
+      "sha256": "64fa6ce6484f5b5b8e1075b26283e11a29d38c50814b3e1cedc4706251aa8d9d"
+    },
+    {
+      "path": "downloads/w300-watermark-archive/thread-all-statuses.response",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "downloads/w300-watermark-archive/thread-and-successor.json",
+      "bytes": 817,
+      "sha256": "0d1e8ced380a81a7c1da37f88120901d8ac85d6651be047272fb91d608e78c0a"
+    },
+    {
+      "path": "downloads/w300-watermark-archive/w300-thread-acquisition.json",
+      "bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "reports/w300-owner-source/pages.json",
+      "bytes": 2587,
+      "sha256": "a64b87e1df2aa27e7938bf704aff1418f22a3d528afa98bb720876c44bc0e912"
+    },
+    {
+      "path": "reports/w300-owner-source/README.md",
+      "bytes": 2870,
+      "sha256": "67c41d4791116d3998d1474139afa4a7546567c82b13c7d31e75661003b6d815"
+    },
+    {
+      "path": "reports/w300-package-source/acquire.py",
+      "bytes": 1747,
+      "sha256": "780e926d95a8a228e7dd89655be1199e7b7ef905064b7d23060fc3b241f54fcc"
+    },
+    {
+      "path": "reports/w300-package-source/follow_catalog.py",
+      "bytes": 608,
+      "sha256": "85f5a2afc22c7c0f8d5b5e6f0b18fb82aa3c9d49ca8b5dd65010d2fe38ddce0f"
+    },
+    {
+      "path": "reports/w300-package-source/follow_years.py",
+      "bytes": 1057,
+      "sha256": "a88e3eb49ced62838f07c7759a8e214cb1afad76408e6188f9f745c9a5a1b4a9"
+    },
+    {
+      "path": "reports/w300-package-source/inspect_catalog.py",
+      "bytes": 1502,
+      "sha256": "4902101dd22f61d8b4d020f1c6e19680c511b0eb98f248461696b3fe269a59b0"
+    },
+    {
+      "path": "reports/w300-package-source/inspection.json",
+      "bytes": 3705,
+      "sha256": "7547551f859c8b25884ac2e4336e2528ff6a7482d7d85a71c08bfeab052f38b3"
+    },
+    {
+      "path": "reports/w300-package-source/README.md",
+      "bytes": 4844,
+      "sha256": "db5fcd0dfb6c769b01267d088e1cfe0e0bc1c804c959613fbe230d4409f19c19"
+    },
+    {
+      "path": "reports/w300-readiness-audit/README.md",
+      "bytes": 4616,
+      "sha256": "8f80de083f23e181ba26d7cd1a8efa9d6aeab01ea053bd871c9586c47d450c6d"
+    },
+    {
+      "path": "reports/w300-watermark-archive/README.md",
+      "bytes": 3664,
+      "sha256": "a8ce14d3f37290c3e1fcc732e6c75fd345f28d7363b534285211492105540c5f"
+    },
+    {
+      "path": "reports/w300-watermark-archive/verified-index.json",
+      "bytes": 3452,
+      "sha256": "d06f3a8d42bc1250b401bae42f73d9f26169746ec4ea2a165d2f8100ffe0e8cd"
+    }
+  ],
+  "camera_communication_verified": false,
+  "w300_language_write_verified": false
+}

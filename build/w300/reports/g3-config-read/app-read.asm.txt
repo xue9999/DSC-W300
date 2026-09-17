@@ -1,0 +1,100 @@
+Bkup_read section=.text value=0x3be8 file=0x3be8 symbol_size=40
+0x00003be8 0dc0a0e1     mov      ip, sp
+0x00003bec 00d82de9     push     {fp, ip, lr, pc}
+0x00003bf0 04b04ce2     sub      fp, ip, #4
+0x00003bf4 04d04de2     sub      sp, sp, #4
+0x00003bf8 0c104be2     sub      r1, fp, #0xc
+0x00003bfc 0030a0e3     mov      r3, #0
+0x00003c00 043021e5     str      r3, [r1, #-4]!
+0x00003c04 9afbffeb     bl       #0x2a74 ; PLT:Bkup_pread
+0x00003c08 10001be5     ldr      r0, [fp, #-0x10]
+0x00003c0c 00a89de9     ldmib    sp, {fp, sp, pc}
+
+Bkup_pread section=.text value=0x3b78 file=0x3b78 symbol_size=112
+0x00003b78 0dc0a0e1     mov      ip, sp
+0x00003b7c 70dc2de9     push     {r4, r5, r6, sl, fp, ip, lr, pc}
+0x00003b80 54a09fe5     ldr      sl, [pc, #0x54] ; literal[0x3bdc]=0x984c
+0x00003b84 04b04ce2     sub      fp, ip, #4
+0x00003b88 0aa08fe0     add      sl, pc, sl
+0x00003b8c 0050a0e1     mov      r5, r0
+0x00003b90 0160a0e1     mov      r6, r1
+0x00003b94 72feffeb     bl       #0x3564
+0x00003b98 000050e3     cmp      r0, #0
+0x00003b9c 0040a0e1     mov      r4, r0
+0x00003ba0 0500001a     bne      #0x3bbc
+0x00003ba4 34309fe5     ldr      r3, [pc, #0x34] ; literal[0x3be0]=0x340
+0x00003ba8 0510a0e1     mov      r1, r5
+0x00003bac 03009ae7     ldr      r0, [sl, r3]
+0x00003bb0 0620a0e1     mov      r2, r6
+0x00003bb4 7bfbffeb     bl       #0x29a8 ; PLT:_ZN12CommonMethod4readEjPv
+0x00003bb8 0040a0e1     mov      r4, r0
+0x00003bbc 000054e3     cmp      r4, #0
+0x00003bc0 1c209fb5     ldrlt    r2, [pc, #0x1c]
+0x00003bc4 0400a0b1     movlt    r0, r4
+0x00003bc8 02208ab0     addlt    r2, sl, r2
+0x00003bcc 0010a0b3     movlt    r1, #0
+0x00003bd0 8ffbffbb     bllt     #0x2a14
+0x00003bd4 0400a0e1     mov      r0, r4
+0x00003bd8 70ac9de8     ldm      sp, {r4, r5, r6, sl, fp, sp, pc}
+0x00003bdc 4c980000     andeq    sb, r0, ip, asr #16
+0x00003be0 40030000     andeq    r0, r0, r0, asr #6
+
+Bkup_getDataSize section=.text value=0x41e0 file=0x41e0 symbol_size=112
+0x000041e0 0dc0a0e1     mov      ip, sp
+0x000041e4 30dc2de9     push     {r4, r5, sl, fp, ip, lr, pc}
+0x000041e8 58a09fe5     ldr      sl, [pc, #0x58] ; literal[0x4248]=0x91e4
+0x000041ec 04b04ce2     sub      fp, ip, #4
+0x000041f0 0aa08fe0     add      sl, pc, sl
+0x000041f4 0040a0e1     mov      r4, r0
+0x000041f8 d9fcffeb     bl       #0x3564
+0x000041fc 000050e3     cmp      r0, #0
+0x00004200 30ac9d18     ldmne    sp, {r4, r5, sl, fp, sp, pc}
+0x00004204 40509fe5     ldr      r5, [pc, #0x40] ; literal[0x424c]=0x32c
+0x00004208 05309ae7     ldr      r3, [sl, r5]
+0x0000420c 0410a0e1     mov      r1, r4
+0x00004210 0300a0e1     mov      r0, r3
+0x00004214 003093e5     ldr      r3, [r3]
+0x00004218 08c093e5     ldr      ip, [r3, #8]
+0x0000421c 3cff2fe1     blx      ip
+0x00004220 ff0010e3     tst      r0, #0xff
+0x00004224 0000e003     mvneq    r0, #0
+0x00004228 30ac9d08     ldmeq    sp, {r4, r5, sl, fp, sp, pc}
+0x0000422c 05309ae7     ldr      r3, [sl, r5]
+0x00004230 0410a0e1     mov      r1, r4
+0x00004234 0300a0e1     mov      r0, r3
+0x00004238 003093e5     ldr      r3, [r3]
+0x0000423c 14c093e5     ldr      ip, [r3, #0x14]
+0x00004240 3cff2fe1     blx      ip
+0x00004244 30ac9de8     ldm      sp, {r4, r5, sl, fp, sp, pc}
+0x00004248 e4910000     andeq    sb, r0, r4, ror #3
+0x0000424c 2c030000     andeq    r0, r0, ip, lsr #6
+
+Bkup_getDataKind section=.text value=0x4170 file=0x4170 symbol_size=112
+0x00004170 0dc0a0e1     mov      ip, sp
+0x00004174 30dc2de9     push     {r4, r5, sl, fp, ip, lr, pc}
+0x00004178 58a09fe5     ldr      sl, [pc, #0x58] ; literal[0x41d8]=0x9254
+0x0000417c 04b04ce2     sub      fp, ip, #4
+0x00004180 0aa08fe0     add      sl, pc, sl
+0x00004184 0040a0e1     mov      r4, r0
+0x00004188 f5fcffeb     bl       #0x3564
+0x0000418c 000050e3     cmp      r0, #0
+0x00004190 30ac9d18     ldmne    sp, {r4, r5, sl, fp, sp, pc}
+0x00004194 40509fe5     ldr      r5, [pc, #0x40] ; literal[0x41dc]=0x32c
+0x00004198 05309ae7     ldr      r3, [sl, r5]
+0x0000419c 0410a0e1     mov      r1, r4
+0x000041a0 0300a0e1     mov      r0, r3
+0x000041a4 003093e5     ldr      r3, [r3]
+0x000041a8 08c093e5     ldr      ip, [r3, #8]
+0x000041ac 3cff2fe1     blx      ip
+0x000041b0 ff0010e3     tst      r0, #0xff
+0x000041b4 0000e003     mvneq    r0, #0
+0x000041b8 30ac9d08     ldmeq    sp, {r4, r5, sl, fp, sp, pc}
+0x000041bc 05309ae7     ldr      r3, [sl, r5]
+0x000041c0 0410a0e1     mov      r1, r4
+0x000041c4 0300a0e1     mov      r0, r3
+0x000041c8 003093e5     ldr      r3, [r3]
+0x000041cc 18c093e5     ldr      ip, [r3, #0x18]
+0x000041d0 3cff2fe1     blx      ip
+0x000041d4 30ac9de8     ldm      sp, {r4, r5, sl, fp, sp, pc}
+0x000041d8 54920000     andeq    sb, r0, r4, asr r2
+0x000041dc 2c030000     andeq    r0, r0, ip, lsr #6

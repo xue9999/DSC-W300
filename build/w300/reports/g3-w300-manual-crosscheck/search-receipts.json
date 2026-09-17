@@ -1,0 +1,40 @@
+{
+  "scope": "G3 adjustment/service manual acquisition and comparison prerequisite",
+  "g3_service_document_acquired": false,
+  "g3_sony_seus_table_observed": false,
+  "manual_crosscheck_completed": false,
+  "camera_operation_performed": false,
+  "catalogs": [
+    {
+      "url": "https://www.ultimateservicemanuals.com/products/sony-ultimate-digital-camera-repair-service-manuals-dsc-nex-dslr-a700-a900",
+      "visible_locator": "DSC-G3 ADJ v1.2 service manual",
+      "classification": "Paid collection listing, no manual contents acquired",
+      "source_is_sony_authored_manual": false
+    },
+    {
+      "url": "https://vinafix.com/threads/sony-dsc-g3-service-manual.39454/",
+      "visible_locators": ["SONY DSC-G3 L2 v1.2.pdf", "SONY DSC-G3 L3 v1.2.pdf"],
+      "classification": "Paid membership required explicitly on live page; metadata only",
+      "source_is_sony_authored_manual": false
+    },
+    {
+      "url": "https://pdf-manuals.ru/sony/dsc_g3_manuals.html",
+      "visible_locator": "sony_dsc_g3_manuals.pdf",
+      "classification": "Indexed generic catalog text; live HTTP 500, no verified service content",
+      "source_is_sony_authored_manual": false
+    }
+  ],
+  "representative_queries": [
+    "Sony DSC-G3 adjustment manual SEUS ADJ pdf",
+    "\"DSC-G3\" \"Block\" \"Address\" \"SeusEX\"",
+    "\"DSC-G3\" \"DESTINATION DATA WRITE\"",
+    "\"DSC-G3\" \"service manual\"",
+    "\"DSC-G3_ADJ\"",
+    "\"DSC-G3\" \"Auto-Adj\"",
+    "\"DSC-G3\" \"9-852\"",
+    "\"DSC-G3\" \"ADJ v1.2\"",
+    "\"DSC-G3\" \"0E10\""
+  ],
+  "browser_fallback": "Computer-use tool returned No browser is available; no browser interaction took place",
+  "w300_comparison": "Existing W300 stabilization check tuple is known; corresponding G3 manual evidence remains unavailable. No cross-model equivalence inferred."
+}

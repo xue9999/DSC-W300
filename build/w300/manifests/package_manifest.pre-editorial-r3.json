@@ -1,0 +1,3929 @@
+{
+  "schema_version": 1,
+  "scope": "Prepared scripts, dependency wheels and acquired material; not hardware certification",
+  "pmca_commit": "a82f5baaa8e9c3d9f28f94699e860fb2e48cc8e0",
+  "camera_communication_verified": false,
+  "w300_language_write_verified": false,
+  "artifacts": [
+    {
+      "path": "downloads/auto-adj/driver-candidate-0.html",
+      "bytes": 10464,
+      "sha256": "2844ece9cbe5d06edc82a75895a0fa54eff0d59472af67b993ecc6d2efd3d43d"
+    },
+    {
+      "path": "downloads/auto-adj/driver-candidate-1.html",
+      "bytes": 92446,
+      "sha256": "2b10063d13e29276a6e62719e9c481448d505417c84db6ac0660daca5eff2534"
+    },
+    {
+      "path": "downloads/auto-adj/drivermax-seus.html",
+      "bytes": 26685,
+      "sha256": "c767168f392b6e05419504325dbb9d2b79e0f698cfd2e9681a8d5d603966945f"
+    },
+    {
+      "path": "downloads/auto-adj/eservice-w300-search.html",
+      "bytes": 40362,
+      "sha256": "5a5bc30bb890eb05d6a7c45d245d39db087231fe3ba534a891938ea49a24634c"
+    },
+    {
+      "path": "downloads/auto-adj/ia-filename-search.json",
+      "bytes": 51,
+      "sha256": "35a11b646961d5fe556b23460b5c2b94013de93e3be099cf5ee07a7f106cefbf"
+    },
+    {
+      "path": "downloads/auto-adj/ia-followup-0.json",
+      "bytes": 17762,
+      "sha256": "39fc8aff297233bc08fc386b7f14e9a6cb95ee78a3568e017a82f5afae8db864"
+    },
+    {
+      "path": "downloads/auto-adj/ia-followup-1.json",
+      "bytes": 823,
+      "sha256": "3750788480869f915baba336d2ac4fd3c6775c55a232598e3d415d622e385a72"
+    },
+    {
+      "path": "downloads/auto-adj/ia-followup-2.json",
+      "bytes": 4216,
+      "sha256": "a943584d41601846d49416cb2de658400a2c7079363928ce9404335da6856060"
+    },
+    {
+      "path": "downloads/auto-adj/ia-meta-sony-cyber-shot-dsc-f828-service-manual.json",
+      "bytes": 28122,
+      "sha256": "8ea4f4b2e1059d86ab078a2a98213ecd544fcee1be2082a420d6a4b21a4ce533"
+    },
+    {
+      "path": "downloads/auto-adj/ia-meta-sony-das-original.json",
+      "bytes": 10822,
+      "sha256": "8c4d591f2b81649699f288d0c0b2dd0b5b8fb36721bed6c10c1e74ea0aea4e15"
+    },
+    {
+      "path": "downloads/auto-adj/ia-meta-sony-tekman-consumer-service-technical-information-sony-technical-information-ma.json",
+      "bytes": 11081,
+      "sha256": "63e5bdadb6b6013e1aebcccf36e1d714f3a704649108192c46579d9ef6b9dc53"
+    },
+    {
+      "path": "downloads/auto-adj/ia-meta-sony-utility-disc-compilation-v3.json",
+      "bytes": 7345,
+      "sha256": "cae727c53b145ef153feb678dc0f87c106f5faf4b31f0a786d881d8457b9e645"
+    },
+    {
+      "path": "downloads/auto-adj/ia-meta-sonypictutil_2007.json",
+      "bytes": 4181,
+      "sha256": "a518150e04bb8cc712ea344a1fb07bcd228e3755c7dc03b9fab65f02dacee547"
+    },
+    {
+      "path": "downloads/auto-adj/ia-meta-ss-010-p-2.json",
+      "bytes": 9290,
+      "sha256": "bb204af6761b09a0c766cbc3155623ea163ec0160febfce669a2cb8d28a2b8cd"
+    },
+    {
+      "path": "downloads/auto-adj/ia-meta-sudc4.json",
+      "bytes": 6060,
+      "sha256": "bf25e9ed189a1c8ca467851741c06cc611a6ad90a7283de06372006681d627ea"
+    },
+    {
+      "path": "downloads/auto-adj/ia-precise-service.json",
+      "bytes": 3115,
+      "sha256": "87e72d160586a0d8dd5b81c3f151ee93b8c1fc32f8f05ec0d6f8fe472be8ea53"
+    },
+    {
+      "path": "downloads/auto-adj/ia-search-0.json",
+      "bytes": 14477,
+      "sha256": "ac35251fb80bc3802f90404bd69efda8e3930bf69d0b6c6a34c828fe7a305907"
+    },
+    {
+      "path": "downloads/auto-adj/ia-search-1.json",
+      "bytes": 526,
+      "sha256": "2c3dfd0767b7da57e7ab7c82c358e7e7d7c4dfc64d171a3b41aafc1d4f2d5064"
+    },
+    {
+      "path": "downloads/auto-adj/ia-search-2.json",
+      "bytes": 13999,
+      "sha256": "ded2094e25313841e0cffdce44ccaccdc3e7a8241c5dc2168c6e341767fb7053"
+    },
+    {
+      "path": "downloads/auto-adj/ia-software-all.json",
+      "bytes": 27714,
+      "sha256": "a7a27d832601de538f65bb60afef8a630e3d0643e969b3a8e51ac58df3cdc8d0"
+    },
+    {
+      "path": "downloads/auto-adj/seus-driver-1.0.8-inspection/driveridentifier.txt",
+      "bytes": 157,
+      "sha256": "18d92609134c15babc9572bfbe061494158e200a4a8cbfcd16f5a170c89b4e7a"
+    },
+    {
+      "path": "downloads/auto-adj/seus-driver-1.0.8-inspection/oem21.inf",
+      "bytes": 35070,
+      "sha256": "6010300cb03edd7e4778f00c7acabbc59899973b10f589ef901ade67c2e73098"
+    },
+    {
+      "path": "downloads/auto-adj/seus-driver-1.0.8-inspection/WinRTUSB.dll",
+      "bytes": 192512,
+      "sha256": "3c2f9eeab192e15a0e9f0c1ed2f5c2805735e01398bc1cb0b0571984075d31f2"
+    },
+    {
+      "path": "downloads/auto-adj/seus-driver-1.0.8-inspection/WinRTUSB.sys",
+      "bytes": 41984,
+      "sha256": "eb8b878c813f6aab39fd418d847756ceb80c028b0599a77e28ae5d7856d09880"
+    },
+    {
+      "path": "downloads/auto-adj/seus-driver-static-verification.json",
+      "bytes": 605,
+      "sha256": "4e4b9a6bf3a4f7618d5a8e83ae487c9b4784ca6a65a7a6bb681367d458939ad2"
+    },
+    {
+      "path": "downloads/auto-adj/sony-seus-usb-1.0.8.zip",
+      "bytes": 96332,
+      "sha256": "5328fc898ecef188af7a848798593b0eadd1aa906fdda3db2a248f20b8b79ccc"
+    },
+    {
+      "path": "downloads/legacy-pmca/a330-7953397/a330.py",
+      "bytes": 2756,
+      "sha256": "e8c9f5c9f70e1a3ca9f0849c37cf1e4f07403e67efe687bf62c88aecd7be8ffc"
+    },
+    {
+      "path": "downloads/legacy-pmca/a330-7953397.zip",
+      "bytes": 1266,
+      "sha256": "86c286f8fd315a464d19b3fbf411181b466515a594e6f7de24b8e249fa9ce1bb"
+    },
+    {
+      "path": "downloads/legacy-pmca/a330-7998362/a330.py",
+      "bytes": 2900,
+      "sha256": "1e257cb6b6faffc4c3f0a0111ca168469478423b2c9845c8b73b09dce56f128e"
+    },
+    {
+      "path": "downloads/legacy-pmca/a330-7998362.zip",
+      "bytes": 1254,
+      "sha256": "cab4f3072f077c237892a9e274473fb4423a70c11e6a15eefa4a540fa6ae5ff0"
+    },
+    {
+      "path": "downloads/w300-firmware-candidates/ACQUISITION_REPORT.md",
+      "bytes": 5385,
+      "sha256": "5a2e8682c4f1fca43ae7c4ca4019ffece2998bf78497c4d15d307cc2e3cb76e5"
+    },
+    {
+      "path": "downloads/w300-firmware-candidates/elektrotanya-page-1.html",
+      "bytes": 35482,
+      "sha256": "0b6bc3548dff4725ffa121b732b5162bb4d1114e3894de224a71337dfb275733"
+    },
+    {
+      "path": "downloads/w300-firmware-candidates/elektrotanya-page-2.html",
+      "bytes": 35077,
+      "sha256": "92477cdd994eb2482f7371e58d5d0d21ca4f0af03fed50b19a4da6a52e2069dd"
+    },
+    {
+      "path": "downloads/w300-firmware-candidates/elektrotanya-remaining-links.json",
+      "bytes": 4675,
+      "sha256": "a9c7f5ea1de6493930e9604cead4d9d71db64ca13eb1c9f5f7265bbd9072149a"
+    },
+    {
+      "path": "downloads/w300-firmware-candidates/ia-central-manuals-camera_sony_DSCW300_EN_ES.pdf.json",
+      "bytes": 6087,
+      "sha256": "1298f8b6a5415b9e15d8a270c2f12832ae9148a1af6edf5411504cbe36bfc833"
+    },
+    {
+      "path": "downloads/w300-firmware-candidates/ia-central-manuals-camera_sony_DSCW300_HB.pdf.json",
+      "bytes": 6007,
+      "sha256": "29eff0e1016d06b77630dce699b426a13db63e5889d16878cce4ec0730170055"
+    },
+    {
+      "path": "downloads/w300-firmware-candidates/ia-japanese-manual-44842.json",
+      "bytes": 5828,
+      "sha256": "779b5983d4b23fbc7efb77ba808e8433fbad49092399bdf2e5061e2c6cfb523b"
+    },
+    {
+      "path": "downloads/w300-firmware-candidates/ia-japanese-manual-44843.json",
+      "bytes": 5452,
+      "sha256": "54c4193b696715127d099dab7eb014e5fdddf28ead84f7ec3f34f2114a9d5e65"
+    },
+    {
+      "path": "downloads/w300-firmware-candidates/ia-manualsbase-id-110437.json",
+      "bytes": 5466,
+      "sha256": "efb3857d3785225b295d32016ed5c8699b15dfc3fc118143a5644d00cdf8260c"
+    },
+    {
+      "path": "downloads/w300-firmware-candidates/ia-manualsbase-id-112512.json",
+      "bytes": 5688,
+      "sha256": "7c1210347314684dac9ead84c2f6b8d899bf83661fd8ed278d14a794ef798510"
+    },
+    {
+      "path": "downloads/w300-firmware-candidates/ia-manualsonline-id-d499259e-9ba3-4206-ba9d-4bfe044b1db5.json",
+      "bytes": 6491,
+      "sha256": "87129046de10558e154f74eadf0eb52adcd344cb6c5f6cee3efaa51d12d74234"
+    },
+    {
+      "path": "downloads/w300-firmware-candidates/ia-manualzilla-id-6976677.json",
+      "bytes": 7987,
+      "sha256": "1d2ab34635d3983c59e1133d1fd6fbb8a5752a63cf2a0c389df6b6c900927ec7"
+    },
+    {
+      "path": "downloads/w300-firmware-candidates/ia-manualzilla-id-6976678.json",
+      "bytes": 8284,
+      "sha256": "24441e38414c9dc785f7334d0cb39eedb8027322c35aa7fb3e554cec5c5f3390"
+    },
+    {
+      "path": "downloads/w300-firmware-candidates/ia-original-file-inventory.json",
+      "bytes": 7299,
+      "sha256": "8c9af7359e1a1bb63738cfe85493987adf56f1f20e190b89e9a162bbccedb7f2"
+    },
+    {
+      "path": "downloads/w300-firmware-candidates/ia-pmb-5802.json",
+      "bytes": 9943,
+      "sha256": "c125148653c27fbff93b7af7adb8e2f2fe18bc656f9a76884ab0566a3786d6db"
+    },
+    {
+      "path": "downloads/w300-firmware-candidates/ia-w300-search.json",
+      "bytes": 1915,
+      "sha256": "8275dde3cd0aa21b168f61d612bc12bb5a283efe3319aee63c85e3dfac71803e"
+    },
+    {
+      "path": "downloads/w300-firmware-candidates/remont-w300.html",
+      "bytes": 50333,
+      "sha256": "bbd1d4000ffa1ae3ed9149aeb66159ad1e687a85013cf54af8c04e610b02e545"
+    },
+    {
+      "path": "downloads/w300-firmware-candidates/route-page-2.html",
+      "bytes": 35113,
+      "sha256": "a01ee8303dea059c43773846033a958e7f0a32261cf4224f9ccf90e4cc996e3a"
+    },
+    {
+      "path": "downloads/w300-firmware-candidates/route-page-3.html",
+      "bytes": 36683,
+      "sha256": "a7f16b099391feca8c64f9b0910a9178a24694b4ea5a5cdd56bc4a51756fca08"
+    },
+    {
+      "path": "downloads/w300-firmware-candidates/route-pages.json",
+      "bytes": 1402,
+      "sha256": "7cda345a189088374e286d14164cfe6ccb0dcd3cae1e9ff4354c681d09173aaa"
+    },
+    {
+      "path": "downloads/w300-gpl/acquisition.json",
+      "bytes": 1706,
+      "sha256": "c85d4fb9ed181cb3145551d0e5487d3d389c3e974d71c5a0a3cfb100f4c3d8d3"
+    },
+    {
+      "path": "downloads/w300-gpl/DSC-W300.html",
+      "bytes": 6291,
+      "sha256": "a417346ec97a45f2ffe350d99e357475315e078350dd84c946b3ea3211362d01"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/.config",
+      "bytes": 14258,
+      "sha256": "1658cd81518dd9665e7e27b9959b79cb3959dd27f15283a34f8fc14bbce60404"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/arch/arm/configs/cxd4108_16550_sys_defconfig",
+      "bytes": 13906,
+      "sha256": "9d562aebd1dfd94225a81f27079b18d0d2f6241d1ffa42eb82ad87fd9985a019"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/arch/arm/configs/cxd4108_16550_sys_nfs_defconfig",
+      "bytes": 14276,
+      "sha256": "079726b6705e6b6cd41b95445c3b5b5157142b80b558917d710343720a417554"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/arch/arm/configs/cxd4108_928_defconfig",
+      "bytes": 13096,
+      "sha256": "fe344fbc8720a3831fed6f16e570ab8f1e2d8173242beec521b0f0bf7dcc646a"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/arch/arm/configs/cxd4108_928_nfs_defconfig",
+      "bytes": 15471,
+      "sha256": "a6997566aa70d57f29a05705ad4760c211e6007ac4980697abd90c15159cf57f"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/arch/arm/configs/cxd4108_set_defconfig",
+      "bytes": 13809,
+      "sha256": "08b8e545aa26749c8be750b964f11ee6c881c362af103448cdf8ba6d54f875cb"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/arch/arm/configs/cxd4108_sys_defconfig",
+      "bytes": 13855,
+      "sha256": "569694d2a118537f909c356920b328a3bb2d30277b576415cd13015071a56c68"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/arch/arm/configs/cxd4108_sys_nfs_defconfig",
+      "bytes": 14225,
+      "sha256": "5ba4cc6213a0e06bb4e5511eea9a845bd288b3d3e85bd810c87a4b140ec96e84"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/arch/arm/configs/cxd4108_updater_defconfig",
+      "bytes": 15917,
+      "sha256": "60f4142198b13733bfb4c1d3eb2b64b5d5b879089841f72a96a45e2ef4165696"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/arch/arm/mach-cxd4105/arch.c",
+      "bytes": 11342,
+      "sha256": "5dc68a618a31900918c63691a8bf6cca9cb1a84679ddb5ef0eaa71c803f8d4e6"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/arch/arm/mach-cxd4105/dma.c",
+      "bytes": 1382,
+      "sha256": "789542d0b34aee550ba84d79c977d4f7887dc81eecbf37456f7ed733c6ec7309"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/arch/arm/mach-cxd4105/irq.c",
+      "bytes": 17223,
+      "sha256": "e3637e32cd7413366e9de2750033967405681ba897c7e616b1a4ebe06129c01e"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/arch/arm/mach-cxd4105/irq.h",
+      "bytes": 872,
+      "sha256": "24cb7198ff65bb13eab4425e92b87e1c2e3624601c46bc505d74e00cb9d234b7"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/arch/arm/mach-cxd4105/Kconfig",
+      "bytes": 3282,
+      "sha256": "a2ff15c724ef03c6fca10e612b766762ed86d047f606705774b78ec7566e01f3"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/arch/arm/mach-cxd4105/Makefile",
+      "bytes": 553,
+      "sha256": "c46695b5324f54332245385b7f802126c379c7a5274ab856dd1f1eba6b8120d8"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/arch/arm/mach-cxd4105/Makefile.boot",
+      "bytes": 103,
+      "sha256": "5cd99087301baeb2188c8886a5c6ceeb8e5a510b2ca912f924ce258339b78551"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/arch/arm/mach-cxd4105/mm.c",
+      "bytes": 2127,
+      "sha256": "681bb2b0e6f617ad62485a73f94a7db4b6ff194c3cf5a36299f933a39f10b41a"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/arch/arm/mach-cxd4105/mm.h",
+      "bytes": 870,
+      "sha256": "e32cb0fd0bd85aef71582a852635963eeb60004e6fdf18b014d11d25eae9f052"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/arch/arm/mach-cxd4105/oom_kill.c",
+      "bytes": 3848,
+      "sha256": "96d910ee965e042f80bdbb064008fa0147f02ef96e1b102b7b26eea3f8cdaf77"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/arch/arm/mach-cxd4105/panic.c",
+      "bytes": 2991,
+      "sha256": "8ed52737243140717daf0d120467f851b3b716ab0bff7964c484245deae9bd72"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/arch/arm/mach-cxd4105/pci.c",
+      "bytes": 13034,
+      "sha256": "d7e5df8ae3d80cbb94714904710ebee279e835fbbdbfc861887f7ee76c7b1044"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/arch/arm/mach-cxd4105/pci_intr.c",
+      "bytes": 3722,
+      "sha256": "d2b488f985064c3ecce230d44d619d1f44c504ee8ba140247abed4f35ef6b31d"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/arch/arm/mach-cxd4105/pm.c",
+      "bytes": 12268,
+      "sha256": "27c77cf96db00ab8dfc450b6cb74a2a1aa3374a1c54c89f3f50ddd3a9f7abd72"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/arch/arm/mach-cxd4105/sleep.S",
+      "bytes": 9527,
+      "sha256": "1d80142e201dd1208288371718349adb100e2fd68233a9a360ea37cf7e26044d"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/arch/arm/mach-cxd4105/sleep4108.S",
+      "bytes": 10215,
+      "sha256": "5ff4290462ed1d92bf706839c646d22f1746d24a317c8e1ea3525aceda57dee0"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/arch/arm/mach-cxd4105/target_init.c",
+      "bytes": 2446,
+      "sha256": "1067fe288584e7bb341925aa7068b5d85b752f44a5910b2d35d046a80d62c2b0"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/atm/Kconfig",
+      "bytes": 876,
+      "sha256": "eba047230ab845e5c769683a0d143fe4c7ea088fddcac0308aad0349d60f26cd"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/atm/Makefile",
+      "bytes": 181,
+      "sha256": "abfee538e2646219a6c69a523a52b9798b1ba4e8481bc53f2b6a7b705c06864f"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/atm/speedtch.c",
+      "bytes": 23573,
+      "sha256": "999a92bc628896b285527e938d974da6d6019db857b962401dfae67aaf2a1e30"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/atm/usb_atm.c",
+      "bytes": 32891,
+      "sha256": "eeb080088cc40ce0d467f98f00336d8c52ad54bcbe5844917f7d1cd08e817685"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/atm/usb_atm.h",
+      "bytes": 4736,
+      "sha256": "855a969b120385693ed66a0b78de1cd7c30802deac35c01ba06bc49b478b8f1a"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/class/audio.c",
+      "bytes": 122994,
+      "sha256": "c31a3f3a6814bf1b15387df2afdf32112d297bc0e099e8faa7711d2f4f0a9ae4"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/class/audio.h",
+      "bytes": 2351,
+      "sha256": "4f0d3469a1d78e98e7857d0a5c852cb9c93ca943b78dcaadce207e3efb96f48f"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/class/bluetty.c",
+      "bytes": 36861,
+      "sha256": "6bb403951abcab74e55f2890762a1231835c2af5267e322c4bdab8fe071c8199"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/class/cdc-acm.c",
+      "bytes": 25736,
+      "sha256": "971ce089e2fba2baadf6a189c939163a52ee5d48d3dbc0c91428fa02de903abd"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/class/cdc-acm.h",
+      "bytes": 3309,
+      "sha256": "73633152c32219b26e722466b90d8254bf5bef659d003ee0d66964325af20ea6"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/class/Kconfig",
+      "bytes": 2585,
+      "sha256": "e5d9faace603b220198e9d2077de2c01cab02c85b82bb8a459b5f19b0ff24693"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/class/Makefile",
+      "bytes": 269,
+      "sha256": "21119f82f1a73fd6ff19bc72c88b64b59b3eacc11f8864aee10b9ba3071a6973"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/class/usb-midi.c",
+      "bytes": 54434,
+      "sha256": "a174c9408a6fe53c5d3b2f64de47af518c11c80d7bdb4aa91e5f5fb153a60ae7"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/class/usb-midi.h",
+      "bytes": 5051,
+      "sha256": "ba0fdbb76bb302ca19fa7daa27ca229eba2a5a70a679a7b88d3865546f8a720e"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/class/usblp.c",
+      "bytes": 34219,
+      "sha256": "c91f95750c17a9c70f2ec0849ce91be297a4b5f9c25fb3ebf5124d5bc0a60aef"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/core/buffer.c",
+      "bytes": 3315,
+      "sha256": "474f90597423d8d40dce0595e1bd2d156810f3c352c86879e05d3ddab514bdd8"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/core/config.c",
+      "bytes": 14841,
+      "sha256": "1c75f0ea4a922be57cc116d8858ba7f900449a3527c8d359e69982618fd2e2a5"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/core/devices.c",
+      "bytes": 18963,
+      "sha256": "800bd12b20836c00fbf81691c2c089bbc7e6be754c95f0e39e52f8ea447feecc"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/core/devio.c",
+      "bytes": 35962,
+      "sha256": "1164bdf25b3028286f768d9be8e8f61b781fc72d1406edbb3b46e8def6efa249"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/core/file.c",
+      "bytes": 6539,
+      "sha256": "fdc8cb2c8f7a8dd5047cb0a504c5a44d6b085c40ffb35cffa3b771d94918b0a5"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/core/hcd-pci.c",
+      "bytes": 11015,
+      "sha256": "bda86016e14d74545771015e64b62995d5e73a2b8be29e73660ca7852d904cf9"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/core/hcd.c",
+      "bytes": 46114,
+      "sha256": "0e1c41a6ce148dbc6aec44622017a591be4f766d7cd39cda9223102e90f168ad"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/core/hcd.h",
+      "bytes": 13680,
+      "sha256": "8fb0c63fe07230d98f9be1b79e4027ebd641b3f41a5e30d60b5c9d132baa6bb6"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/core/hub.c",
+      "bytes": 80925,
+      "sha256": "5d25cd59159ce2cd59e3a20400ebe52921db680bdb0f17fa0d9362761496d85d"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/core/hub.h",
+      "bytes": 6405,
+      "sha256": "b25d4886bb200cc3d2cda80a4a09a95d246e08bd81ad59bb06f2919550a19d69"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/core/inode.c",
+      "bytes": 17451,
+      "sha256": "9e82b48d141c25f6bda0d8f9ad90562c650307f3dfddc8749d75ca091325bdf7"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/core/Kconfig",
+      "bytes": 3380,
+      "sha256": "f3f8fafeeddba0d7d83f6b7a8848f60d4b7135754d1e16a728f187b0339bd412"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/core/Makefile",
+      "bytes": 309,
+      "sha256": "8a4f57d2f1bfd9694d493d5b15b00886e00a91b741bccdcf004f4260bfcb18bd"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/core/message.c",
+      "bytes": 44788,
+      "sha256": "67f4f975d97aa5c9b10cdb158809feb69f32696afc0b7791c28b1d015a94c54c"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/core/otg_whitelist.h",
+      "bytes": 3316,
+      "sha256": "03aa5580eda4997fddebd7219ec4ae8bd68e88888ac29f4120114e74a39f8598"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/core/sysfs.c",
+      "bytes": 8834,
+      "sha256": "161afd0292fb47ab9fd776686128916cef77d32cccae129b67cfc7eefaebb115"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/core/urb.c",
+      "bytes": 18202,
+      "sha256": "6be8adfd0a6c696a9ccbdd0d67681a86479448cf474d55e83b421957c69a6ff5"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/core/usb.c",
+      "bytes": 45759,
+      "sha256": "cbe37756b26035d6163204315b77764b26c81e6cd027fc129083cb3dce4aef53"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/core/usb.h",
+      "bytes": 1766,
+      "sha256": "1ef9be892b42617344298ec91eb2af2dc139734b2ed782aba2cebb2022917c87"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/gadget/config.c",
+      "bytes": 3761,
+      "sha256": "be112a94702954a7e0c7e90c1fae1317a403d31e1295a9b59ec17941c02336fe"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/gadget/dummy_hcd.c",
+      "bytes": 45291,
+      "sha256": "de82e65fa0491cbd00e94d31e521358c537f4f74ae940e4a7a7de9be992a38e0"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/gadget/epautoconf.c",
+      "bytes": 9097,
+      "sha256": "964de1f980acef26a717f8881969e0759a07bf9578ac587d2fbdf224138dbf98"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/gadget/ether.c",
+      "bytes": 71984,
+      "sha256": "757ca5f88f6c49d2214b7456dbe96cb382a088312bfcee4fe07efb160768c146"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/gadget/file_storage.c",
+      "bytes": 116280,
+      "sha256": "1dc40cacc89a51ff201e8ea1bf46ccc70e7b0b0213a8bc8d1dab1b89ff39fa54"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/gadget/gadget_chips.h",
+      "bytes": 1996,
+      "sha256": "625dd10c850186495b0ddaf6f7a6341cad20313b3239e2ca205745a1bac24c5d"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/gadget/goku_udc.c",
+      "bytes": 50155,
+      "sha256": "023425dfdd3dff643f4ee8078143d48daf40e5c90caadde8306ae109e1c4a040"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/gadget/goku_udc.h",
+      "bytes": 7343,
+      "sha256": "910f395e5c6ea6bc9880f2980645fd8901290d527b9d91d481abfb7d693fc187"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/gadget/inode.c",
+      "bytes": 53269,
+      "sha256": "11c994d9c1f9db74dcae194894089ea5895afa0e1ffaee67947b5fc4c4502853"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/gadget/Kconfig",
+      "bytes": 14479,
+      "sha256": "17a7a8647aaada456f8d3e244ac343efc0a9188d9d5f1084581da9deee8ddc00"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/gadget/lh7a40x_udc.c",
+      "bytes": 51497,
+      "sha256": "a5d241a0209e467dc54862a817840be732d6aff1752f2695ac3d53a8d5349820"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/gadget/lh7a40x_udc.h",
+      "bytes": 6946,
+      "sha256": "6509b7c769013ced5b1d8e1ba7d6ff0ca22dbe6b89dc117d88dc0efe8cceb81d"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/gadget/Makefile",
+      "bytes": 869,
+      "sha256": "903e0856315ab0a93e44f0523461e4d85696d839ba813dd8d2feaa169355763c"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/gadget/ndis.h",
+      "bytes": 9170,
+      "sha256": "f3b530c87c38507ebb65a55e9a4248c52ee71a2520c6c3f14e85d90894b3a725"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/gadget/net2280.c",
+      "bytes": 78789,
+      "sha256": "22121e40f275079d0a870e0eebef5a6f85b6c47070584bf169bd8e5270843ba1"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/gadget/net2280.h",
+      "bytes": 31482,
+      "sha256": "178bfa58b6886c73423cbbba1134c593507e3343481e3a45ae531f8683be217e"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/gadget/omap_udc.c",
+      "bytes": 73806,
+      "sha256": "8fa6e0840dfcc969949da04ca485b995962702fa3e5511771fcfe14e2cbf5657"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/gadget/omap_udc.h",
+      "bytes": 6691,
+      "sha256": "0e225076a1feefeed5879811cf7e4d3957627a3ae4882adcc9a24599c4146eb6"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/gadget/pxa2xx_udc.c",
+      "bytes": 64485,
+      "sha256": "fee0769818302772821f83f35af8557ebb0d2d11d50a221fd22947ed492fb162"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/gadget/pxa2xx_udc.h",
+      "bytes": 8598,
+      "sha256": "dc52aa7c2754a50a30eba61851a778c197fa3e6f25e1ef765500c17ded853f94"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/gadget/rndis.c",
+      "bytes": 36848,
+      "sha256": "6e0f098c53f1b1f7e29efd034642b166ea66ae5a06e6ad390a7d04dc955ce6da"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/gadget/rndis.h",
+      "bytes": 8397,
+      "sha256": "3271bb7bbb0b822662a29e55e793824b4497bf0866bbc0ab9e73c0aa40bc017c"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/gadget/serial.c",
+      "bytes": 63882,
+      "sha256": "9194ce60803f1d09d30122b77c7c7626fc90e01c7e99164748272cf2958b24c5"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/gadget/usbstring.c",
+      "bytes": 3509,
+      "sha256": "759fa7bbe8e71debcc0639699e666e71bfb435f7a39280b074bd354b0d8981ae"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/gadget/zero.c",
+      "bytes": 37320,
+      "sha256": "0f0450f4068ba817cc668a336e7d0dfc1b79f9047e112bdfa90c0f5f960726d5"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/gcore/Kconfig",
+      "bytes": 622,
+      "sha256": "d9ee1ac7763ea10135b78da5afbc8ddd2f3ab8698cc9b2aaa7de5bd86f6349ec"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/gcore/Makefile",
+      "bytes": 417,
+      "sha256": "33bcea913c806f02bdc171a664ca0fce3494996149ff2241453299fe573eb2a6"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/gcore/usb_event.c",
+      "bytes": 27390,
+      "sha256": "1f1abe264ca05856cc1afc12f316f9444e06927af8a16553b537891ad02b4b40"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/gcore/usb_event_cfg.h",
+      "bytes": 1188,
+      "sha256": "f738a84106e0752ac8d633f67e88846618d03267774d366896a8810972eb1eee"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/gcore/usb_event_pvt.h",
+      "bytes": 2981,
+      "sha256": "9caa80d9f6f600fdf329cecff1733e51720491ab79dcacc331c4d5a861024892"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/gcore/usb_gadgetcore_cfg.h",
+      "bytes": 1764,
+      "sha256": "3ae8ae97c8c90ef8b2b5a5d2d673c11cc1cf9d7f5293ee78d63d38d71b318ffc"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/gcore/usb_gadgetcore_pvt.h",
+      "bytes": 6185,
+      "sha256": "c3ef454fe1e99580887090c8c1bab41e792831a5043bc66ddd40c963e530dd79"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/gcore/usb_gcore_bus.c",
+      "bytes": 5835,
+      "sha256": "879711298cbc068b89a18e2f3d78420c1a7c3e8cc58345ce05f62593c2d2a2b3"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/gcore/usb_gcore_desc.c",
+      "bytes": 63194,
+      "sha256": "d433998d56a1e7330bbd3a1b59c74c92b74ae5104418217e86b4b3d539b01c35"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/gcore/usb_gcore_ep.c",
+      "bytes": 19636,
+      "sha256": "a683d4d6872890af632d270c2702f79119f30daeb149f35394b959d33f4fbddb"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/gcore/usb_gcore_main.c",
+      "bytes": 28424,
+      "sha256": "b899c61a26012551cc36de85861bddec4cd181ced27488794e1a0e08d4758d5d"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/gcore/usb_gcore_setup.c",
+      "bytes": 64097,
+      "sha256": "7ac309852f7b4382f3c163b5a141b87c8851f5e271dc4905adb832edd8f5c395"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/gcore/usb_otgcore.c",
+      "bytes": 54810,
+      "sha256": "4cffa02afe2b405279d9f72fac2d7b01346b5815d051075e48594add520f5d64"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/gcore/usb_otgcore_cfg.h",
+      "bytes": 1608,
+      "sha256": "6ccc09b08bdc79c404743cbe9c5bc4ccade0eb14a6add2e7c935f5a9385341be"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/gcore/usb_otgcore_pvt.h",
+      "bytes": 3462,
+      "sha256": "ce1e7dde85a28e98ea78c4ebf74a2cd7decb7a0b053c789a5db6e0640d6588ec"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/host/ehci-dbg.c",
+      "bytes": 20815,
+      "sha256": "ac8b5135ce93ad4cb63050b9e8b8109442f946eee19bbeda98cdc0c0860f35d0"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/host/ehci-hcd.c",
+      "bytes": 34338,
+      "sha256": "125de5be0963f2c8df10ad507b152a2ea067e6bc41a9dcafa49d7492bf3a3d87"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/host/ehci-hub.c",
+      "bytes": 14654,
+      "sha256": "05927ec0c090a118945f63016af0d1eba96fd122bdb1704100ee3b1d21087309"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/host/ehci-mem.c",
+      "bytes": 6325,
+      "sha256": "0b0bbaf398722b115138413d236e14b7188bb9b69e199ff8cbff3db8ca9594e9"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/host/ehci-q.c",
+      "bytes": 30418,
+      "sha256": "5de30d906ece909536d733bf53e862f789e5593bde71b46f4cdaf9be4c323533"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/host/ehci-sched.c",
+      "bytes": 51155,
+      "sha256": "f061c18f79ed0212accda0908f3590afe226dbf7c03571cc33410b5c504aebdb"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/host/ehci.h",
+      "bytes": 21672,
+      "sha256": "8668167e6255133b1b2593e777ccad8e4947f138c08b768a7bd3c9d1543fc2c4"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/host/hc_crisv10.c",
+      "bytes": 141625,
+      "sha256": "21c7608ac32db323a3f860d3f06a2167e3927f796ea55e1a5f1e01d8da3a1148"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/host/hc_crisv10.h",
+      "bytes": 8598,
+      "sha256": "2aa074efb340048d26130e1f312169db8d9ec732fdd35d16f3e28ba692f88a6d"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/host/Kconfig",
+      "bytes": 4434,
+      "sha256": "268eb5c3a6843deee4ed077f71578a00bc0fcbb0ef96b9626c621ed847f150fa"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/host/Makefile",
+      "bytes": 282,
+      "sha256": "7f80572be7c76396b91e619d97d90945e6d2a2bfdf236cace1e81f6e02ade96b"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/host/ohci-au1xxx.c",
+      "bytes": 8703,
+      "sha256": "8887f43119422b7ee56ab66232986432f7dcbbaaa289fa7ae827b323ff24d4c3"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/host/ohci-dbg.c",
+      "bytes": 18235,
+      "sha256": "50e7a087d4dc271d741ce0df39510cf41f66e2601dc589d365f93c2d97d278e1"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/host/ohci-hcd.c",
+      "bytes": 26125,
+      "sha256": "11ab2e285fee95550d8293b63495855989aaec74bd4895be8807754d3b4d72a7"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/host/ohci-hub.c",
+      "bytes": 16873,
+      "sha256": "36c0aebaf0bb7acd9ea2ebb01e742d29dba6d78a5aa99337e1f3d1e245a2f422"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/host/ohci-lh7a404.c",
+      "bytes": 8110,
+      "sha256": "4f030dff42a42d2740a647eaf90aa8da70f91413c94e9c702feebb385bdef2df"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/host/ohci-mem.c",
+      "bytes": 3449,
+      "sha256": "2b6ca8f0b33da45ac12b5fc9f430e4199138a84257162bf2d8149ab590269544"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/host/ohci-omap.c",
+      "bytes": 15252,
+      "sha256": "1499ea378f4d2f7e0a114d37500c341a6bdaccbb28fdf3aece216be025538af6"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/host/ohci-omap.h",
+      "bytes": 1172,
+      "sha256": "c5223437f5a9b233298fef5dd5883b866505ccd284b6517621dc12f1255845bd"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/host/ohci-pci.c",
+      "bytes": 6607,
+      "sha256": "cebcaa85903c20a34039fd72199b92d3eeffad11c344116f566dfd87fbe7263b"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/host/ohci-pxa27x.c",
+      "bytes": 10539,
+      "sha256": "826d33e2c3a7f49001f147312877ad8688c6e71f24c3005ab22d75c5aa04f7bb"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/host/ohci-q.c",
+      "bytes": 31446,
+      "sha256": "78b7f4a349727f3032a6b5b458313e5c78b3a4d3a558f16feb076f80ae454fdd"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/host/ohci-sa1111.c",
+      "bytes": 8982,
+      "sha256": "cb9eadbae9e9fba43c867cb37d0a0ab6cefd03a98d40c6affd5d5d498d094af4"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/host/ohci.h",
+      "bytes": 19574,
+      "sha256": "b4a1a15d3c0f79d58599ef8ff3e4a1cdd0228458c6cb0a76c69e59e42f1a3cbb"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/host/sl811-hcd.c",
+      "bytes": 47255,
+      "sha256": "0f4d96a53cd3bc40895f81567f0d4312c2baeef19c2c1f5202fafb0cac9789b2"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/host/sl811.h",
+      "bytes": 6814,
+      "sha256": "4099ab2bbc532aaf275f8e56edddefbc640a835f1edbdd4aab3bbbe4d90b4b97"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/host/uhci-debug.c",
+      "bytes": 14441,
+      "sha256": "333b03065aee398f8a81b5d77a03fafe6dfc9561c6b18797692d6960fc2be2a6"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/host/uhci-hcd.c",
+      "bytes": 62060,
+      "sha256": "4fc6babaa5bf79ac54723fc5a5aace362a32c12a4ddb21049b27559ce40dd428"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/host/uhci-hcd.h",
+      "bytes": 15038,
+      "sha256": "0286341a383d87fee2c131cf1130afd47a98482879dce523276d7f25a28129af"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/host/uhci-hub.c",
+      "bytes": 7902,
+      "sha256": "8280d914f2e4f299e2450c5c272a07789a35e885dcc6098cd455dc901ff0b85b"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/image/hpusbscsi.c",
+      "bytes": 13539,
+      "sha256": "5b40c5b7776546aeae20ee4a69bd605fdaa52c2843eca6dee8d60a0051d0e223"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/image/hpusbscsi.h",
+      "bytes": 2458,
+      "sha256": "9c3f01ec01c03ca28a1353cc05f897a3ff1415494caf4711f86c36e03a093cd5"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/image/Kconfig",
+      "bytes": 1465,
+      "sha256": "5b72a155af729a1ecb6c9919902382250ba323b03c2ecbd6a6c567b68b2d5275"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/image/Makefile",
+      "bytes": 159,
+      "sha256": "42f871d6813a6ecef376c023915afe5bca04899f067be71897f2ae725cf79d5a"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/image/mdc800.c",
+      "bytes": 24344,
+      "sha256": "33bfdaab23b6f3a1d80e3c9a43f47610a30cd3155f7afa7bc409d251482d8b6c"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/image/microtek.c",
+      "bytes": 24304,
+      "sha256": "c92b377c93bc42c1b9542df141d6ced558872e4b0afdedaab4eb926a8d55a173"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/image/microtek.h",
+      "bytes": 1019,
+      "sha256": "455fc8b270cf9991617b8c20ea8a2405879a59afba7c3f0cc0e593bc967f1fc1"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/input/aiptek.c",
+      "bytes": 71459,
+      "sha256": "8a19bac8d6c436739de2f1db8e94be1ddc774165da1bebfd60ad912dc38bac15"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/input/ati_remote.c",
+      "bytes": 28781,
+      "sha256": "529fded13827e3a67329732438d063ecc68276970a8d67a6ec00295395694c62"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/input/fixp-arith.h",
+      "bytes": 2288,
+      "sha256": "316f262fcdd728918a35e2d43a89da7cc0ed88425a7da27891505f32ea8d6507"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/input/hid-core.c",
+      "bytes": 53388,
+      "sha256": "7fa8f1f66e4834827b1b0b94c77dbc5aeccf063b84cbebcb60ae5f8a20865603"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/input/hid-debug.h",
+      "bytes": 26582,
+      "sha256": "3645e35e5935f48ab5bfd6769da166b9aab0688f97578841550c840eefeea7c3"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/input/hid-ff.c",
+      "bytes": 2733,
+      "sha256": "60dbaf5327d6a5f45ad19f28d35d5213c2ecdfe6a8405a6d1ce1eac1b2eb4b58"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/input/hid-input.c",
+      "bytes": 19603,
+      "sha256": "3f2c4b0ba324ec49a04f7180089936856e011cfe55fa92069be9009290e726e4"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/input/hid-lgff.c",
+      "bytes": 13883,
+      "sha256": "1b43d9ce2eeed314573e32d2bdccb85a59f4fc240b7b071f79673fa3e8d63309"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/input/hid-tmff.c",
+      "bytes": 12266,
+      "sha256": "48734762f9d868fee25832929a7c10a526ddd78d04cbcb28db15a53dc37387cb"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/input/hid.h",
+      "bytes": 15470,
+      "sha256": "1c37171c5aa9d8a135f1c069ef1e7172f79be4c6cd83149da1be74e392d5e823"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/input/hiddev.c",
+      "bytes": 21407,
+      "sha256": "5247d4fad09e29957459c9b23e955e7e31eb59ada38d974261397d1d5ed28b66"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/input/kbtab.c",
+      "bytes": 5882,
+      "sha256": "fb5d4cc09b45d5153482fa4f79d655216adce63d5b1d533559b7eef0a0d985a8"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/input/Kconfig",
+      "bytes": 7860,
+      "sha256": "dd9a7d25da26032af3430c68cd4e46c15d3d20e97ba83ff1d4b647a30b7773e7"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/input/Makefile",
+      "bytes": 924,
+      "sha256": "9968d8ae2c6a7fcbfe14b3bcb256cd3cbe14d99a47765baacdc04d5063fd54f3"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/input/mtouchusb.c",
+      "bytes": 12370,
+      "sha256": "f47261e77067a02828774f6ee36381d359f0d81a97388725a64f9868ddb6b290"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/input/pid.c",
+      "bytes": 8900,
+      "sha256": "8009fb72b6782a747da36638da1f4809769848e8de5e291224fbd2868be50fb1"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/input/pid.h",
+      "bytes": 1842,
+      "sha256": "af8e73a672180f246173fd85694c13b390ceb4c5f345ad9b5a204325569d9511"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/input/powermate.c",
+      "bytes": 15558,
+      "sha256": "c00d6f4a33c0163c1f1f4bd8a429db775d17630a9c537f09dac2301617fac649"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/input/touchkitusb.c",
+      "bytes": 8690,
+      "sha256": "0b0c07a04f686e745d7ba37ab0615ae3ee09a087d3059563c1de6d8235dd1b7e"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/input/usbkbd.c",
+      "bytes": 10530,
+      "sha256": "5bea5d86387799548a8e371eb8289e2755d874cab61ebb1195aa28211ec4902b"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/input/usbmouse.c",
+      "bytes": 7023,
+      "sha256": "a5cd7697de584e896080df363f25e65bf8856226b6c0c8f94d53d7726b1a7d05"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/input/wacom.c",
+      "bytes": 24601,
+      "sha256": "1f97bfd4eb08e69f247474da94f96565e9f62ad70e0591ab1df0de72c52f8295"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/input/xpad.c",
+      "bytes": 9961,
+      "sha256": "ef347a074e241429c44929c2dcc6df0787466c6dadfe6fab8653558f42fec29c"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/Kconfig",
+      "bytes": 3572,
+      "sha256": "d78150c3f9d89d5d2f0ff62b94009aef6c81b3a07c0314a0b62f506344f17c0e"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/Makefile",
+      "bytes": 2059,
+      "sha256": "b60c1c51f2b8676432a0f263e7ffd682c21ea714bb5023f123609ef282948562"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/mcd/Kconfig",
+      "bytes": 1429,
+      "sha256": "608da59afa7fc1dd2e5b95dc833f15bb624887733f32b06560395cae93854867"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/mcd/Makefile",
+      "bytes": 2016,
+      "sha256": "d114e458ec1a71105c0cd4b365f645f821b41d0b12f10c507ca6f0de37d78e59"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/mcd/usb_mcd_bgadget.c",
+      "bytes": 111784,
+      "sha256": "cf45901b95bdb9f650a48b01ca4896fe34cb196d051d10d2b760b9f6363acc33"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/mcd/usb_mcd_board_cxd4105.c",
+      "bytes": 40461,
+      "sha256": "0b604610ffcb43a2a307df817c6aa1d894638b2b8d8b3a043ef97840189b937b"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/mcd/usb_mcd_debug.c",
+      "bytes": 4983,
+      "sha256": "98a5fc08063a4e0fc07856141f37dab3db5462012453485adbba6bf170e0a115"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/mcd/usb_mcd_debug.h",
+      "bytes": 5453,
+      "sha256": "0406e20d8e6bea5797f2096d1b8a4f6cad14d293329c27f77e788e66b86c9365"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/mcd/usb_mcd_defs.h",
+      "bytes": 23676,
+      "sha256": "f9a28d14419a2169f5389901ef6923149024e9bd6095ba4c36ed36003e2a13d4"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/mcd/usb_mcd_dma.c",
+      "bytes": 18107,
+      "sha256": "18cb7b0564ee0f7d213e59ab2cbb0b5a7ac6405ec76896db6b4a45ff3a9b555b"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/mcd/usb_mcd_dma.h",
+      "bytes": 15318,
+      "sha256": "442821cf182a2291cdfa1a63c9185488d7b2cfd02c0683379e2d4d505df7443a"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/mcd/usb_mcd_ep0.c",
+      "bytes": 36320,
+      "sha256": "ecdb641418fa5cb5aceabb76950b64ae7e6ef17dcb8ebe08030f0b0a8e0f6b51"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/mcd/usb_mcd_fifo.c",
+      "bytes": 7379,
+      "sha256": "beb1e74cb0358f53452ff6990fcd9cf3e67670c01765b1314d5bc1b452a0f2d8"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/mcd/usb_mcd_fifo.h",
+      "bytes": 2091,
+      "sha256": "b73e7607ae49b24bc639887fcc13d47b177cf4d72076c33cb3d3a88717bf6eab"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/mcd/usb_mcd_gadget.h",
+      "bytes": 4783,
+      "sha256": "f432aa5331714a25072787fb56b71c61eff9a632cef4bcc390d5168664dbcef8"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/mcd/usb_mcd_gadgetdefs.h",
+      "bytes": 8098,
+      "sha256": "d9c67e7b8f221a66e41f4155efb04bec8b73b3efed43757a20f0634f7d4f2077"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/mcd/usb_mcd_hdrc_cnf.h",
+      "bytes": 6620,
+      "sha256": "7464660cb3f74d7d6d11900cbe1eba0c16ab48c6577d16651b75abaad672d508"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/mcd/usb_mcd_musbhdrc.h",
+      "bytes": 10703,
+      "sha256": "6656f1a05ca0926555574786d156beb5c5aa26abb49e981b3d547913d5f50015"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/mcd/usb_mcd_otg.c",
+      "bytes": 43757,
+      "sha256": "9ea6b8d0e6167a528667c489ab4c39346fdc47b90000a9cdaa1b60ce8545c46e"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/mcd/usb_mcd_otg.h",
+      "bytes": 8427,
+      "sha256": "baca21116f32b2d2bd1f952128ec551d87266fa5fc1d882b56585d0d6c54057a"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/mcd/usb_mcd_plat_arc.h",
+      "bytes": 2892,
+      "sha256": "028efdebfb09db86ad88aac01cf4181158990b63530e624777cd49f5edf8de1c"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/mcd/usb_mcd_plat_cnf.h",
+      "bytes": 7494,
+      "sha256": "97e8b22baab73c3fbd17291e390a3c5157cb71a90d7d6feda7cbb6bd00008931"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/mcd/usb_mcd_plat_uds.c",
+      "bytes": 210936,
+      "sha256": "659fc0c4f2f68c968ac544770e6947bce1d1992012e398440b0a682cb7fb7310"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/mcd/usb_mcd_procfs.c",
+      "bytes": 19659,
+      "sha256": "48ea6aea1b356e82dbb7bad344fbd47d557dec36208e78b288b41162abf52d61"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/mcd/usb_mcd_virthub.c",
+      "bytes": 22761,
+      "sha256": "c29a5ce3d39850285dc9a5b1b79c964b8f414eefe863f6fdc6e1d1f46fe9ed71"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/mcd/usb_mcd_virthub.h",
+      "bytes": 8383,
+      "sha256": "3241fcc940b871838f5622ed506726fd93b42b7a4cf65c6cf28fe12703b97617"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/mcd/usb_mcd_xgadget.c",
+      "bytes": 7650,
+      "sha256": "26b7ece726177b3ffd23aa473de457acc4a442b6b9bcddc764db31c9cf397c48"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/media/dabfirmware.h",
+      "bytes": 101773,
+      "sha256": "6e9e89d66f4abf73675fd02e8309142fa0594ef02afecf1761ba0769c07a3c6c"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/media/dabusb.c",
+      "bytes": 20634,
+      "sha256": "023f5ea6a69026817171fd7b778e9b17a1010f9853883357c341568c3807677e"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/media/dabusb.h",
+      "bytes": 1879,
+      "sha256": "c13848c03ca13586cfc2fb74b70680e1df2d6e122db7df60f9ef6a2780b73b82"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/media/dsbr100.c",
+      "bytes": 11960,
+      "sha256": "285a1ccbe936cbbfc4e22ce716ec3f9762fe3099cb657d4278d1ea80bab88455"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/media/ibmcam.c",
+      "bytes": 121911,
+      "sha256": "aa362738806a978bf52e69d571d04bcf9473188d043ae0d905cd266191063045"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/media/Kconfig",
+      "bytes": 6715,
+      "sha256": "51fcdbb1375719ee43f47f0180132a9a9d723e34be19f5a2e271793b459dc39b"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/media/konicawc.c",
+      "bytes": 26324,
+      "sha256": "14d92f13bb65f9d50ffa00ec9312c499e2ac8f59c41a4c33d97eb4a611143517"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/media/Makefile",
+      "bytes": 604,
+      "sha256": "63d1b4162b4eabc56d1c33ea1080c11ab6b6b306de3b27b6c833b69605cfea3a"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/media/ov511.c",
+      "bytes": 147707,
+      "sha256": "a7ec1f80a1c29541a3f91b5e4de77664612abfa282c913b99bdb83b75377f06c"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/media/ov511.h",
+      "bytes": 16409,
+      "sha256": "7632055c04f6f7e3c58c50edac849ab4827a6eeab1d317e01a39e580b9d19dfa"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/media/se401.c",
+      "bytes": 37063,
+      "sha256": "8c048b7217d2a9c6e72c8c2e4338393a9f3e654c55cc09e8a11ab0739f1ce69b"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/media/se401.h",
+      "bytes": 5421,
+      "sha256": "68cb185d6ebc41538a204258c26f9078ab9b6f162a1ad413e6cf4e7378bcf18c"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/media/sn9c102.h",
+      "bytes": 6657,
+      "sha256": "8331c92e97bb5c701cd5a22c11fde68dcc24b685d9616bfe2945e186d11fa33d"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/media/sn9c102_core.c",
+      "bytes": 65822,
+      "sha256": "17c967a35c7ed163434d86c7a3766e48218ee6f0cdca4e075b5abcaa5d73ae44"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/media/sn9c102_hv7131d.c",
+      "bytes": 7286,
+      "sha256": "fe57e9af6d7a3afd2390559038bc6782ecc169fe0f63fccd8f7fdf482838e45e"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/media/sn9c102_mi0343.c",
+      "bytes": 11408,
+      "sha256": "1dfa80b9bcda978f6dc353119d74cda37cd7c9a7311605521ac904bdf9f1863c"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/media/sn9c102_pas106b.c",
+      "bytes": 8303,
+      "sha256": "01b33c7cf6c2d082d8673261519b6e05629518f135cd3b2a7055eebc49e0b172"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/media/sn9c102_pas202bcb.c",
+      "bytes": 8178,
+      "sha256": "cfa4f66351dab159ac22ae1d943503c70324f69ea4e38ea01a4ccd6ee9692af6"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/media/sn9c102_sensor.h",
+      "bytes": 18616,
+      "sha256": "d8d0c48f542e10c6a8d6372deffce8a3825e896591004c045bcf37d34f7eeeb4"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/media/sn9c102_tas5110c1b.c",
+      "bytes": 5034,
+      "sha256": "09ab54706fa3cad792ae6283445618deb44b556128ff24a9c4785f0e61c07112"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/media/sn9c102_tas5130d1b.c",
+      "bytes": 5355,
+      "sha256": "7078de3c902a299f5afb146805fec2b932d7acfeb530433857c2dd8479cb2fe4"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/media/stv680.c",
+      "bytes": 43565,
+      "sha256": "c34a3efaa7f7a69614784be5f84ae13ab844364cf52e2bab79172b9260115ddd"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/media/stv680.h",
+      "bytes": 8279,
+      "sha256": "e2b8076fef79975e616e700e874f8140fec0cfab5b442b39ca7355bfeed3e857"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/media/ultracam.c",
+      "bytes": 21308,
+      "sha256": "c8b133b89db23dbf1561a72389b227c053ec5aafc6ad1da55e512a946dbfc8ce"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/media/usbvideo.c",
+      "bytes": 59830,
+      "sha256": "078c883263c2f3ba71aff826fd50dc39f5b00bef8274e6cf5430564052aae06a"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/media/usbvideo.h",
+      "bytes": 13965,
+      "sha256": "fec31a141c39ebe00e66553510aec66a1202adbd4d9c0b3846d2dcf8b6f152a9"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/media/vicam.c",
+      "bytes": 38075,
+      "sha256": "8aeff7f0122edc3c79078e0fc4de84a88d49ecb2c00465487abef39b3f93d452"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/media/w9968cf.c",
+      "bytes": 119086,
+      "sha256": "9fdd75bdac1c1ee21c70a56025e81e134c2b3592bfbce6f2596c07130403698d"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/media/w9968cf.h",
+      "bytes": 15347,
+      "sha256": "9e8f3e623434d136587b9034afbc6c468e1039e703e7a70419c219b1da5068ed"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/media/w9968cf_decoder.h",
+      "bytes": 3776,
+      "sha256": "c9afdcbe824c0bd05805953252cae3e2fc4eef7305ea5c0f0e17859e3c328b05"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/media/w9968cf_vpp.h",
+      "bytes": 2225,
+      "sha256": "399631e0b9205f221492a467ade9e944ef62628f4ac97041dc6c032262139395"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/misc/auerswald.c",
+      "bytes": 70280,
+      "sha256": "bc4b357ed43e35db060c34837250ffc693f97d157ce76c35db716dfe20f18319"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/misc/cytherm.c",
+      "bytes": 10369,
+      "sha256": "7abef306b7b56ffd267ffd4875af0cef789f3d4f88018416983ef995c6ffabe1"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/misc/emi26.c",
+      "bytes": 7688,
+      "sha256": "6b88f14ee0cfae1b2f49226522508d494882ed5dcaf2fb9813806a604331b82b"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/misc/emi26_fw.h",
+      "bytes": 580568,
+      "sha256": "1691cff6bcc4b44704b6327fb4d9e4e19635b26f6e5db5dce15241c3d359eb27"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/misc/emi62.c",
+      "bytes": 9050,
+      "sha256": "82e6531e33f4bfc783138fe603f113722a77e63a1d3acff03b9fcfa61bc308eb"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/misc/emi62_fw_m.h",
+      "bytes": 795679,
+      "sha256": "2cc52d85be0b892dd04c2495acf18615af092dede744a81726fc54882be19c3c"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/misc/emi62_fw_s.h",
+      "bytes": 802044,
+      "sha256": "0b5f6a5501a5e47cb7320f1ab9b460b5e24f4b1198e3f1f14e2764185c309e36"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/misc/idmouse.c",
+      "bytes": 11081,
+      "sha256": "803fe68b96c5e8515621bdad7f310a8720a56d5eede69378d897c876c5e171be"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/misc/Kconfig",
+      "bytes": 4845,
+      "sha256": "516a1c60c1f7d6e60f585211490d8c9b3f698be9c66e5bbd4834e956d3331019"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/misc/legousbtower.c",
+      "bytes": 30176,
+      "sha256": "8837109605b9ed782b4311c8ab1e1eeaf8683f3ebf7dc1bb27699db6409c7d5d"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/misc/Makefile",
+      "bytes": 616,
+      "sha256": "8422d8f2284036068197c3418a15b21f3188f72a420620867d2a7db862fbce0e"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/misc/phidgetkit.c",
+      "bytes": 16293,
+      "sha256": "a691cb0fd26858c9b8c87c61a7ce514c0d25c9f8ebe8056b56c008cd6e53018d"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/misc/phidgetservo.c",
+      "bytes": 8617,
+      "sha256": "e25959622bb9361a438b2a66d676eb9f9f66d257ce06ca6feafd0c7bee188aba"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/misc/rio500.c",
+      "bytes": 12943,
+      "sha256": "398c93552e9fd276e2591ec6e43b108e10b7832bf3636975460f97a30259b1a7"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/misc/rio500_usb.h",
+      "bytes": 1187,
+      "sha256": "eba4b1fd9f549cb2c5d19dd67dc63072fc1957bb8debfb27159b3c509d8353f0"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/misc/usblcd.c",
+      "bytes": 9139,
+      "sha256": "d5622c16f9aeb91a2ba85ee7ee8f80315518dd3a148d06da30ed1061092e283a"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/misc/usbled.c",
+      "bytes": 4176,
+      "sha256": "9ded16fb91c4eb8b0b7fe6bd94d45515ed6e56281f9db883fde361f1accd2b8a"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/misc/usbtest.c",
+      "bytes": 56806,
+      "sha256": "b465fc6a16c10c153bcd632d0fc7cd4504c6d4a458c1ab10e490849997725ef8"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/misc/uss720.c",
+      "bytes": 18205,
+      "sha256": "86480e0d1680db5acdfb120824966236c1495c71db76ad7eab4c417076f89882"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/net/catc.c",
+      "bytes": 23992,
+      "sha256": "4dc76aa2005fb108204e82ffb91b6cf58ef3775b243bae1f6869a84faed07718"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/net/kaweth.c",
+      "bytes": 36245,
+      "sha256": "ed8fdc353cdd617aef2799b0faf26972736dc3aa3a9da722dd458ed09bd8bbc8"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/net/kawethfw.h",
+      "bytes": 28023,
+      "sha256": "37c5db29ca4e786a626508a05a74fb837ba35e0f67e4dff7bf35e31905566dff"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/net/Kconfig",
+      "bytes": 9637,
+      "sha256": "60d2a88386159e6e2420858effd83d90ae3224dd831997366a33ed2061f181ba"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/net/Makefile",
+      "bytes": 226,
+      "sha256": "50b241f1150944f4eef028d883aebaa910b8b2d53ac4d5c59b338ef84945e9dc"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/net/pegasus.c",
+      "bytes": 32537,
+      "sha256": "18dc7920ef50d6540e81e44a69fc3bfc55c108423687f89c1c6cc379a79ab9f0"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/net/pegasus.h",
+      "bytes": 10205,
+      "sha256": "d11dd8103d820f1e4dba0f1dd608ccb74419362d59cfed5ee3f5504fc76caa35"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/net/rtl8150.c",
+      "bytes": 22480,
+      "sha256": "9ad2773da638c6836f2475a0e7a02d0283849d0bd5b05f27fd88d48563cda201"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/net/usbnet.c",
+      "bytes": 96097,
+      "sha256": "704cae54dc4b5e1e3cdbd43ff84b6f273ad96e64c808a46c1ed5f3ca223a85a9"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/README",
+      "bytes": 2419,
+      "sha256": "0ca959eb672eb02b8e74dccb6770ee8a637a7dc004aff3c8f8ce264861a9ec86"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/belkin_sa.c",
+      "bytes": 18719,
+      "sha256": "8649c87d45686cc71d0bc62c61139429691739e49219946a908b2360c82f1f88"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/belkin_sa.h",
+      "bytes": 5118,
+      "sha256": "87d45cd07ca9af2e9a5410b039451f3fc0919711b6c4fd3d0db6fd5287222add"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/bus.c",
+      "bytes": 2991,
+      "sha256": "acde3452ec8e16bedd49f11077293b33514ab3854dc101681c32776c9ee99f9c"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/console.c",
+      "bytes": 5912,
+      "sha256": "cd418798ee3863709b12aa70475f7cca2c8278f9b9305261fcdce826b91ffd08"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/cyberjack.c",
+      "bytes": 14564,
+      "sha256": "f08ae1372db66e3195621a0d14655c577dc8f0eafb1af950202af6b147fc0967"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/cypress_m8.c",
+      "bytes": 45533,
+      "sha256": "70c1895b79c7253b27f81387be7691d5f9decf2efba190d4bd025beaf2989a2e"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/cypress_m8.h",
+      "bytes": 2090,
+      "sha256": "48408c0130864b456bda7aa67c534a2a72583f54d90c1c9ba6853c51b449d1a8"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/digi_acceleport.c",
+      "bytes": 61134,
+      "sha256": "f4faf320ff46f5ef684363d88918bae3a09a98401768c8efbb7f92a170b04c00"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/empeg.c",
+      "bytes": 15705,
+      "sha256": "f9ba00c80334a3db60f6b44c326f3d1e5f4a25b48c1a8b8364ad0004f9c0e685"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/ezusb.c",
+      "bytes": 1774,
+      "sha256": "c9d0ea39be21fc7ae5287cdc2dfd3726f432eca0bbc96c0631f0a3f44fbac87f"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/ezusb_convert.pl",
+      "bytes": 1562,
+      "sha256": "571d6370f6cdd09fe9cdf98d55724c779826d5bd36441dc6e4e69d72cd782708"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/ftdi_sio.c",
+      "bytes": 84883,
+      "sha256": "1e664a832092fbd82deb3894df785025523588b9c002ef2de9a78f1f40d41d1b"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/ftdi_sio.h",
+      "bytes": 27014,
+      "sha256": "710aeb86c1d34dcdb8ef536ab0a02d27121dd601e04396ae9d86ab8ed5179fe3"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/garmin_gps.c",
+      "bytes": 40259,
+      "sha256": "82c006f05e97179b2486fdcc168c4e349a75e653c1e9850001e6e7dade5c5328"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/generic.c",
+      "bytes": 8761,
+      "sha256": "a5315f5d5f14c52556531d6a87ed6725e90772ba8e36ed0973c7a654e1160806"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/io_16654.h",
+      "bytes": 7983,
+      "sha256": "bbf2c35acbeac1b6ef3fbf895a9977c5048810b6159371ed559326855951caaf"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/io_edgeport.c",
+      "bytes": 101995,
+      "sha256": "26eaca35f5c979c84a6114f33d8a5db59aa4406a98d07ba6d438db94da452b1e"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/io_edgeport.h",
+      "bytes": 4258,
+      "sha256": "a99d103985b9976ace8403f42aae0c9b9c5eab8e93daba6e821ca633913cf239"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/io_fw_boot.h",
+      "bytes": 47558,
+      "sha256": "d923db93c5eb7d61ae6946eead6e0812982ea7992eff5d72f9674d0cc9574ff3"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/io_fw_boot2.h",
+      "bytes": 46334,
+      "sha256": "e8ce713334ef6f6a0b816af68850b0a5eb74652adb1a3c66bd82b80c8cbf1626"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/io_fw_down.h",
+      "bytes": 115922,
+      "sha256": "5fe05ff6e639b5eb668aa25dfd353204280dbd3405ad8131bcb61bcee77c5647"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/io_fw_down2.h",
+      "bytes": 106240,
+      "sha256": "9fe0576a2c0db3ad00667c756e3b93622fe8c2515aca75e203b9d2d320acba00"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/io_fw_down3.h",
+      "bytes": 78035,
+      "sha256": "549f4bebe0a8fda7ade29a2bcf8e328ae2aafe17a24b2cd63f2f49ab2aa480e8"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/io_ionsp.h",
+      "bytes": 14653,
+      "sha256": "ead9147e59d6feaf2f27ad4b12bada3b1e3a73e92730c03fbdadbedbc8cfc5f8"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/io_tables.h",
+      "bytes": 6017,
+      "sha256": "cf21b5fa99c6c34fd5f15ba43f7e95aa331ccc4760f4ac445712535dd1d62d05"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/io_ti.c",
+      "bytes": 85738,
+      "sha256": "39b12c993dd7d699e1f5b307f9e25b9e1ff8abb4ee6e54d0fac76c2c73f5f830"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/io_ti.h",
+      "bytes": 5597,
+      "sha256": "0f52c42b4b80798df30f0b5489d7620e42d119d7bc71a2682f1ad1ccca62ebbf"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/io_usbvend.h",
+      "bytes": 28564,
+      "sha256": "5443d5803584347406494d238eba797ce41dd65d23bfdddd172d852de7ce7e15"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/ipaq.c",
+      "bytes": 42505,
+      "sha256": "5a812df3f7ef19be74dfb9991c782e44f78b90c2defbd1c1cd39eef2ee0b2b20"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/ipaq.h",
+      "bytes": 1638,
+      "sha256": "131c2eb31690dd1bb7ce7f594a5c55ba2c09ed3f1337ca8a2d760b146230bde1"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/ipw.c",
+      "bytes": 14027,
+      "sha256": "60fad80d004350ce9b79e557b729fffdab2cf5d16a82af4148fff88b70d3249a"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/ir-usb.c",
+      "bytes": 16877,
+      "sha256": "3fbebae350bb73b7dd6130ad8382b6f9a12e4b96888f265f2534a43dcab3785d"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/Kconfig",
+      "bytes": 14711,
+      "sha256": "db3c6874d624b1c6b4f2bf40c9b1649fd07cec67e8ea6a16c652d0c22788e416"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/keyspan.c",
+      "bytes": 63614,
+      "sha256": "75fec81995f4ad12bff143e47ae4d6c0fddb2d52b4454f4f4008ec6164357356"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/keyspan.h",
+      "bytes": 22061,
+      "sha256": "53440fb692a71c11f2d227b61f24bc72343459cf72a10d0fcc5a69f948f687f1"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/keyspan_mpr_fw.h",
+      "bytes": 26956,
+      "sha256": "43c0c1f104224c78b18d1e620a644cba5fd7a2a0bde60954eaee34a2d7be3da6"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/keyspan_pda.c",
+      "bytes": 25184,
+      "sha256": "23d5ccb7f91c4111aac6047e322fd89a7f8046ec95a35c417f480884a282161f"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/keyspan_pda.S",
+      "bytes": 28550,
+      "sha256": "6df46ca1f1eeb2598fa0fd0dd1a0639c5fe172b039cf58ccdb302f613c01207f"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/keyspan_pda_fw.h",
+      "bytes": 9497,
+      "sha256": "e63b58d7d4be00ccfa2aae9ccf728ffdb28108d539ee84f39fe967dd43608bd9"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/keyspan_usa18x_fw.h",
+      "bytes": 43850,
+      "sha256": "aad3527722e4dd52deee7959161cadc212649ffa8d1d8790a7009bd5aa459446"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/keyspan_usa19_fw.h",
+      "bytes": 27043,
+      "sha256": "acaaba7dba6b6a6dc038978386b29bf3410ab44937783163db3d35b086a79203"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/keyspan_usa19qi_fw.h",
+      "bytes": 26973,
+      "sha256": "efe735e549ed524e8057bc2fc8802bac9c871d54459a97564ba2dc565d8c7427"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/keyspan_usa19qw_fw.h",
+      "bytes": 43767,
+      "sha256": "09bca4c9e71dc53d2ce2f9da79ce2ed8d62916f58ef79d5732b395ecf6cc2bca"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/keyspan_usa19w_fw.h",
+      "bytes": 43752,
+      "sha256": "5eab8eb96d7899f1889de80fc35de8faeaead9ae46166bcded0e87fc08d6a2e3"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/keyspan_usa26msg.h",
+      "bytes": 8810,
+      "sha256": "41a95d29283d9f0b52a3609be0d39a0b057e6b6e6fe29cbc063653674ff0cddc"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/keyspan_usa28_fw.h",
+      "bytes": 45388,
+      "sha256": "fbe219a9d67bda3afef575f5d868d2e24b0be43ed073fc089f6022b7b811ba68"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/keyspan_usa28msg.h",
+      "bytes": 6784,
+      "sha256": "82c6240cbee72baf3e3c335692e20194a689e304a019db5a1a34b15b691c5db2"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/keyspan_usa28x_fw.h",
+      "bytes": 43754,
+      "sha256": "37d8879030cc9eb85f1ae5e9f8e232d33fadc5b117061014283b8e7c3db82283"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/keyspan_usa28xa_fw.h",
+      "bytes": 43755,
+      "sha256": "2505efb0ada1b36664f64581314e484e3126adc6f0c10c104cef0128145f5825"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/keyspan_usa28xb_fw.h",
+      "bytes": 43768,
+      "sha256": "019cd377d24ed66c91b1174eda081ef4a13cda8ef677ea6243c64f9d68a0fe7c"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/keyspan_usa49msg.h",
+      "bytes": 9464,
+      "sha256": "e33f88bd0a24c076c9e94befc445fe4e371481eaddf41d3422c825897b57505b"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/keyspan_usa49w_fw.h",
+      "bytes": 45494,
+      "sha256": "8e118af08c734b5375bef357f6c809dedcb9a94ad7ef6d1c04444d89fd1a8029"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/keyspan_usa49wlc_fw.h",
+      "bytes": 45702,
+      "sha256": "206b61bf6f1bd8f099220b9d3be5c90b5a1e91f6c237cab905c9d2b49ee7b28e"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/keyspan_usa90msg.h",
+      "bytes": 6604,
+      "sha256": "da80aea8788ca2aceda1026ce5b56867810029923623ad4c710c2964fdc9fb4c"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/kl5kusb105.c",
+      "bytes": 30038,
+      "sha256": "d97b9b9bb3920a8a831105b3b011f8e28c8a4074fc12c56bda05f6328fe754ae"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/kl5kusb105.h",
+      "bytes": 1907,
+      "sha256": "a5c478afc7a409023d1ccca90754a91ca17ac406c0da563a6ab59a85db9cf856"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/kobil_sct.c",
+      "bytes": 23483,
+      "sha256": "c5d6c9c31bc784a048ecda3ea4331051bef36c7c21a693f6b62d2e001699b5f9"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/kobil_sct.h",
+      "bytes": 2471,
+      "sha256": "73e10aee5d073d04814f171ba2f7706464eae184737b153cfe886cd8d7a2ef98"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/Makefile",
+      "bytes": 1460,
+      "sha256": "43aa9ceb54006177244cc35a76a1b081c713ad53476a4c098ba554cc67a9a374"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/Makefile-keyspan_pda_fw",
+      "bytes": 353,
+      "sha256": "4ab1fb81d37bb5e76b13533f45743a741196751d3fc12bc27075c61481a35998"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/mct_u232.c",
+      "bytes": 23749,
+      "sha256": "d7f16b1a942c725caa9a8693aa99a5b935725da72d3d97c7df4376ec68ae1876"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/mct_u232.h",
+      "bytes": 19204,
+      "sha256": "2241f0828295a256ded68fd0af585e800c5f11213a330d8169c6081de684ffc4"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/omninet.c",
+      "bytes": 10127,
+      "sha256": "a88e98d091207ec2ffd3523aaff002bad415fb33d923f7ae75025eebfca865fd"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/pl2303.c",
+      "bytes": 32611,
+      "sha256": "f3b50f5119de94eabde6ab97cbafc35e1c50ebf40733a856b0448ce2bfc53b52"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/pl2303.h",
+      "bytes": 1518,
+      "sha256": "d516739659d01b629fa95e603d562e6774bea6ac4b845902de0648cb1e6a3d70"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/safe_serial.c",
+      "bytes": 14762,
+      "sha256": "9afe4c4b42189c7b6af84f8390fb7b7860b47fa429462db1240595692583e2e2"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/ti_fw_3410.h",
+      "bytes": 70335,
+      "sha256": "e77f78bcb81f3bebe7fe4770290c4c9ad84618e14f3a7d75fa33e60090d0cad8"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/ti_fw_5052.h",
+      "bytes": 70294,
+      "sha256": "7fec7910775a2332cdc34e8c5e9517225917dd1edb42ad7e5d8d1924535c4f3a"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/ti_usb_3410_5052.c",
+      "bytes": 48228,
+      "sha256": "cd79189d0dc94c55e478484dc8361fb3bebf9dba5ed0bb60f83af9f72ba35c22"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/ti_usb_3410_5052.h",
+      "bytes": 5943,
+      "sha256": "f3336df7a750a3cf1a079f39dbc1e3a2309e5c9281caa99cddffe1fdc7e481d5"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/usb-serial.c",
+      "bytes": 44099,
+      "sha256": "952a77c36a7d53ff201a99531a58fdf59bee25857beb282b54701776cc4df187"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/usb-serial.h",
+      "bytes": 13124,
+      "sha256": "5a92c65bbfebccde09eb8a8326f2db58887e6936c36e53e18d30469093742279"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/visor.c",
+      "bytes": 35900,
+      "sha256": "71bfcd306cb01c74142bf65ed7b8d0fe4609e3aae484459b64dfb3abfacdc843"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/visor.h",
+      "bytes": 5355,
+      "sha256": "a95bf95c178fd121ffa9781c847a0311e6ad74b840cb0186f93d225e7fd9a28e"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/whiteheat.c",
+      "bytes": 44784,
+      "sha256": "78ae230b4b9bf50b1825c8d93517170e7b94ee63138ca967de317fb82072084a"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/whiteheat.h",
+      "bytes": 9125,
+      "sha256": "e3a1292f1d676df62f0ba45f6b791c98557dd873a79540674d03dffee43c72b2"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/whiteheat_fw.h",
+      "bytes": 164797,
+      "sha256": "956abbfa7b7d135865ef9744a41208989dc7923a6a7952fb9cb1122b9229b71d"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/xircom_pgs.S",
+      "bytes": 29753,
+      "sha256": "c7885b19ae4de0fe7bf6f21ae98d7cc26fdccecfb54136f3c91e14ea41f7e4bf"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/xircom_pgs_fw.h",
+      "bytes": 10087,
+      "sha256": "b2e3f031f42349cc40d46b1724f8c5fdd86fdcb89e482da17ce44614ce752219"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/storage/datafab.c",
+      "bytes": 18257,
+      "sha256": "627347419afe1355648c65e09490ba093afc87b39f9e102863eb08f30b267f84"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/storage/datafab.h",
+      "bytes": 1407,
+      "sha256": "060f5dc270b0db0fca51308598836d86d54c2d3759b357451346a456c83864bf"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/storage/debug.c",
+      "bytes": 7204,
+      "sha256": "5115434d37541342444f75e176916a8754196b79bb7570e804c853b4538592d2"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/storage/debug.h",
+      "bytes": 2363,
+      "sha256": "8f13f93e5d339c02376607db1b45c47f10534d5c4bf581f835d800479134f964"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/storage/dpcm.c",
+      "bytes": 2256,
+      "sha256": "53f698f0be508e1e92196f3373728e13581adcc047010933045661d93ce91c81"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/storage/dpcm.h",
+      "bytes": 1125,
+      "sha256": "239b704ba1b03343dfdfa02b9a91247595573b2f4efca7e9fb84e75a36ebf4a9"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/storage/freecom.c",
+      "bytes": 13804,
+      "sha256": "3f648d33eb69072128f1e7e7d2ef0cd8759565069b23dfec56b3d3b2825254b3"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/storage/freecom.h",
+      "bytes": 1196,
+      "sha256": "8c4b2479dad2203c7d5882158c4240c47d3696e4349fd44245ce773eaa6e6d9c"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/storage/initializers.c",
+      "bytes": 3243,
+      "sha256": "4f36569df05bb23688bfa6a10e5362eb003cb169c6058954f23fc15a17ec5ff0"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/storage/initializers.h",
+      "bytes": 2177,
+      "sha256": "47ab5f6046323c27d809f77d3735dd05e190c75d25f5588acae44b008a2c19d3"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/storage/isd200.c",
+      "bytes": 41898,
+      "sha256": "388a39feb7d23c852433b828f557d900d0b855ce9db70aaed82314c3fd65f3ce"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/storage/isd200.h",
+      "bytes": 1094,
+      "sha256": "07fd231e2d5fd34e203ca288b6daa5e2ba7284e5ae7f3dbb7a93124bb86aa8f7"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/storage/jumpshot.c",
+      "bytes": 16204,
+      "sha256": "5bab4c4fdd5636b50d17ed64fbefdbacb783fa692f0480ba5b28204caaab2a23"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/storage/jumpshot.h",
+      "bytes": 1368,
+      "sha256": "abe6e39e2e5e18654efa4b60ecdaa4d48d4a9488bff11b265d49bbbf0430756b"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/storage/Kconfig",
+      "bytes": 4344,
+      "sha256": "0a6fb08f063f784cd6e50be3f33a95f10305ac9c4c4f5142b43400141dc636af"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/storage/Makefile",
+      "bytes": 864,
+      "sha256": "57b90b7f9b96d01cab33f06f8559495e9d55ae6a5d2512882628582f9e1af0b5"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/storage/protocol.c",
+      "bytes": 9326,
+      "sha256": "07db8cbf5831afaaab234649f8606da9c7363a107517c6a2be96ea680c6e5c65"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/storage/protocol.h",
+      "bytes": 3015,
+      "sha256": "4c945ba4acbcd7cd8643b2eb354deea7ce925ca374d365fe48189379497dc90d"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/storage/scsiglue.c",
+      "bytes": 15174,
+      "sha256": "ce80dfee165a57378c08fd8a19ad4b4edbbe3ff0a56cb9bf99dab2c89fc57bf3"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/storage/scsiglue.h",
+      "bytes": 2102,
+      "sha256": "9cd00f264c9e42acc24b9f678db8f943a5cadb83b47ceedcd4fa92671a682fce"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/storage/sddr09.c",
+      "bytes": 42058,
+      "sha256": "04f68675b5e6cea565f9c7fd45d946fb9e5621c221e62260e3ca6ed50fe63c46"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/storage/sddr09.h",
+      "bytes": 1664,
+      "sha256": "e072033a628ce4ccc30b2e27f743021aec09a09c2db0884ea54dabae2addab56"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/storage/sddr55.c",
+      "bytes": 23512,
+      "sha256": "493de46975ccb38ca857f2bc448685d2c20f6034d1e62d0fcac44435134174f3"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/storage/sddr55.h",
+      "bytes": 1103,
+      "sha256": "b5f984b08ae9afd830c2660b00637bc405509c30d580c34d02ace7964bfdaa7f"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/storage/shuttle_usbat.c",
+      "bytes": 23038,
+      "sha256": "a730babc835414c427436ab65637e02c85b5d69a04d815c56de663c886b667a4"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/storage/shuttle_usbat.h",
+      "bytes": 2086,
+      "sha256": "63fdb2cf00407c9e298542e4a671cdb0640221bc60b291e89e9fc0eb49b85bd6"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/storage/transport.c",
+      "bytes": 38245,
+      "sha256": "edc4b1ed28a10bbb0d2b227297307add9bfc0b08bf5b696ce0feac6ff87e5230"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/storage/transport.h",
+      "bytes": 6481,
+      "sha256": "c4129c5cd41e7a150c1f38ca8e50d6524e0aac21fab026931c00889152c30288"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/storage/unusual_devs.h",
+      "bytes": 26790,
+      "sha256": "b80b8fdfa9ae14d19526f29838902ab7202545b4f5a4ddedc68abc71f755f7df"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/storage/usb.c",
+      "bytes": 32050,
+      "sha256": "b704bd4617fb9d59c8e25c2c8d6347ed4b8c2b3321e3869f01b059c3ece7d4b2"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/storage/usb.h",
+      "bytes": 7019,
+      "sha256": "7a6d94e10e15083a10194e2b4e8a18d1e7736b498c14d3c3463a69dc9a53cf42"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/usb-skeleton.c",
+      "bytes": 9401,
+      "sha256": "77dca13114f38f59e3e7705c16c037e029998783fc5673d05eed222cf848e9de"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/include/linux/usb/gcore/usb_event.h",
+      "bytes": 2327,
+      "sha256": "02bf1daa5eb21842eff13787b3a55199ff49e5c49a7725efa2f633ba3095dc3f"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/include/linux/usb/gcore/usb_gadgetcore.h",
+      "bytes": 7419,
+      "sha256": "7c37aff2e9ca6bc6e371fed68062a89d490b1690e37d8002d11881b02358eb54"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/include/linux/usb/gcore/usb_otgcore.h",
+      "bytes": 6924,
+      "sha256": "7e11c0da02d83e88c4dbcd6c4f1cb7baca0a15b4152488f44bbfa2030e5fc782"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/include/linux/usb/mcd/usb_mcd_ioctl.h",
+      "bytes": 2901,
+      "sha256": "82a986a5441639e7f6df6f1cc9ae1fbab5285f434cb17c0fee4d4a6636f4bab4"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/include/linux/usb/mcd/usb_otg_control.h",
+      "bytes": 14363,
+      "sha256": "51de0c378d597d3851c369e8b0a6dc78bec305bc2ae564c8cfd8e23e6e38cd0d"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/Makefile",
+      "bytes": 44159,
+      "sha256": "915d60e145567a9ce88aaf96dae58b6e64259cd8d62bd624038fbd90bb48e171"
+    },
+    {
+      "path": "downloads/w300-gpl/kernel-file-list.txt",
+      "bytes": 335498,
+      "sha256": "bf7a07bdce31f2cce5a9acb71b8e791456fb5d11aa66437a556e93d061ac8cd3"
+    },
+    {
+      "path": "downloads/w300-gpl/keyword-hits.tsv",
+      "bytes": 122472,
+      "sha256": "0ebab7fe529adf130d7cd9670226a69082568781fa0d90f898393eec658ab48c"
+    },
+    {
+      "path": "downloads/w300-gpl/linux-kernel.tar.gz",
+      "bytes": 35784585,
+      "sha256": "97cb9298b593ac4a565ab3a9ac6fac45c30f016fe66f3e555eb5494428882834"
+    },
+    {
+      "path": "downloads/w300-gpl/sony-target-rel-busybox-1.01-010502di6.src.rpm",
+      "bytes": 1183366,
+      "sha256": "a73d68d8a643277f67bb63f2301d1324aecce7e154b465112c5db7d8c59438f0"
+    },
+    {
+      "path": "downloads/w300-gpl/sony-target-rel-busybox-1.01-010502di6.src.rpm.files.txt",
+      "bytes": 257,
+      "sha256": "1e4732c241eca2e8efe14e9ac71b52bb323ece64e3fc483a32fe74beeb32267a"
+    },
+    {
+      "path": "downloads/w300-gpl/sony-target-rel-dosfstools-2.11-010501.src.rpm",
+      "bytes": 74733,
+      "sha256": "ca38321c4b68e60ce522ec6570f7d114af717521334dbaaf998fd8d0e6b213f1"
+    },
+    {
+      "path": "downloads/w300-gpl/sony-target-rel-dosfstools-2.11-010501.src.rpm.files.txt",
+      "bytes": 124,
+      "sha256": "57583d57364cd086e5385f3eff0f177446fce994f2214d5af7a1457cc78c2a93"
+    },
+    {
+      "path": "downloads/w300-gpl/sony-target-rel-netbase-4.06-010501.src.rpm",
+      "bytes": 52925,
+      "sha256": "911f2b106b061169f7d62524dfb342313abad3a721907e9db099e2bc91cf1193"
+    },
+    {
+      "path": "downloads/w300-gpl/sony-target-rel-netbase-4.06-010501.src.rpm.files.txt",
+      "bytes": 71,
+      "sha256": "394370835e9662e05bdf6fc1987c71f60b3fff3f6df2beebcb16c905cbbed547"
+    },
+    {
+      "path": "downloads/w300-gpl/sony-target-rel-psmisc-21.6-010501.src.rpm",
+      "bytes": 228020,
+      "sha256": "1166475cee03635d220fcad27b209529bcd577b967863604f25de0b0c6b8e7f3"
+    },
+    {
+      "path": "downloads/w300-gpl/sony-target-rel-psmisc-21.6-010501.src.rpm.files.txt",
+      "bytes": 83,
+      "sha256": "f9d1c958c79a12c2033d8b934a50a548b54a547664276a69b9d548967b4d3093"
+    },
+    {
+      "path": "downloads/w300-gpl/targeted-symbol-hits.json",
+      "bytes": 646798,
+      "sha256": "426881b3078a9366f5312b3dcb82b0c2e1710aca5db040697fc9f2e40336dc95"
+    },
+    {
+      "path": "downloads/zadig-2.9.exe",
+      "bytes": 5334088,
+      "sha256": "4ecaa95df3da3621486a043aef8b3050b8bafe7c901402871e816229ef82039b"
+    },
+    {
+      "path": "inventory.ps1",
+      "bytes": 1631,
+      "sha256": "ae20725a31a67da8392bf64945c567a8ec1b9f8eeb90ffc140bb760bf82d9c5f"
+    },
+    {
+      "path": "legacy_codec.py",
+      "bytes": 1736,
+      "sha256": "1dbe9d63a6d86160e4e8670dbbc3e64590d8fdcea54a6721489ece13faa4bef0"
+    },
+    {
+      "path": "pmca_offline.py",
+      "bytes": 811,
+      "sha256": "dbf25278993aa6b8ab9c316f6c46002099cd568ae2242d790ef1bf9742417f6b"
+    },
+    {
+      "path": "requirements.lock.txt",
+      "bytes": 415,
+      "sha256": "6cbc6ef21dd43f1e9e9d652ddda4261b94a9ae9b584afea8e32b2ffd8d3ba4b2"
+    },
+    {
+      "path": "restore_environment.ps1",
+      "bytes": 1084,
+      "sha256": "4fbde5f17e6296a176f8c080e2ba14b8a9f98e4e790bdfae7b8fd304c872678c"
+    },
+    {
+      "path": "run.ps1",
+      "bytes": 694,
+      "sha256": "96f7139ce647b25b129aa19d3724e4070b42ac1768a767facc49b1e75110e4b8"
+    },
+    {
+      "path": "test_workbench.py",
+      "bytes": 3047,
+      "sha256": "ab703765c435cdcf59c6e9b0784b9f222be7b077c65d53f7cb9e35de38ffb133"
+    },
+    {
+      "path": "w300_workbench.py",
+      "bytes": 12026,
+      "sha256": "fa02b5b3a0e5cdcbc9d98305beca10a0c69e630734a49e2e1b4a1bcd4b35ae42"
+    },
+    {
+      "path": "wheels/altgraph-0.17.5-py2.py3-none-any.whl",
+      "bytes": 21228,
+      "sha256": "f3a22400bce1b0c701683820ac4f3b159cd301acab067c51c653e06961600597"
+    },
+    {
+      "path": "wheels/asn1crypto-1.5.1-py2.py3-none-any.whl",
+      "bytes": 105045,
+      "sha256": "db4e40728b728508912cbb3d44f19ce188f218e9eba635821bb4b68564f8fd67"
+    },
+    {
+      "path": "wheels/axmlparserpy-0.0.4-py3-none-any.whl",
+      "bytes": 12449,
+      "sha256": "273ad71dd4a803a7057831ccdf643f01cf5135e7e470c614b936727d5119e273"
+    },
+    {
+      "path": "wheels/certifi-2026.7.22-py3-none-any.whl",
+      "bytes": 136983,
+      "sha256": "62f22742b58a1a33014a2b6b706588a8d7e2a88ae7bd1a6ebe8c992928483775"
+    },
+    {
+      "path": "wheels/comtypes-1.4.16-py3-none-any.whl",
+      "bytes": 296230,
+      "sha256": "e18d85179ff12955524c5a8c3bc09cb3c0d890f1da4d7123d14244c7b78f84c8"
+    },
+    {
+      "path": "wheels/ecdsa-0.19.2-py2.py3-none-any.whl",
+      "bytes": 150818,
+      "sha256": "840f5dc5e375c68f36c1a7a5b9caad28f95daa65185c9253c0c08dd952bb7399"
+    },
+    {
+      "path": "wheels/importlib_resources-7.1.0-py3-none-any.whl",
+      "bytes": 37232,
+      "sha256": "1bd7b48b4088eddb2cd16382150bb515af0bd2c70128194392725f82ad2c96a1"
+    },
+    {
+      "path": "wheels/libusb_package-1.0.26.4-py3-none-win_amd64.whl",
+      "bytes": 90665,
+      "sha256": "cd8c1f5df3906444ba6eff82ef44a75515b0444b76bba8abf21cc8569637af63"
+    },
+    {
+      "path": "wheels/packaging-26.3-py3-none-any.whl",
+      "bytes": 129956,
+      "sha256": "d7193f7c8e4e93f444fde0262bf90af30e16fa0ad0ad44cb553c87339b23cd1c"
+    },
+    {
+      "path": "wheels/pefile-2024.8.26-py3-none-any.whl",
+      "bytes": 74766,
+      "sha256": "76f8b485dcd3b1bb8166f1128d395fa3d87af26360c2358fb75b80019b957c6f"
+    },
+    {
+      "path": "wheels/pycparser-2.17-py2.py3-none-any.whl",
+      "bytes": 237559,
+      "sha256": "7c8a1e171f0bdf6d401e6e13b0357a2195377acdefd608f387c871786ec2739d"
+    },
+    {
+      "path": "wheels/pycryptodomex-3.23.0-cp37-abi3-win_amd64.whl",
+      "bytes": 1803124,
+      "sha256": "52e5ca58c3a0b0bd5e100a9fbc8015059b05cffc6c66ce9d98b4b45e023443b9"
+    },
+    {
+      "path": "wheels/pyinstaller-6.22.3-py3-none-win_amd64.whl",
+      "bytes": 1454907,
+      "sha256": "500bd58c7bf7e584a8435adccbd763a0b918d5c12b08d74ff50fd79b2915458b"
+    },
+    {
+      "path": "wheels/pyinstaller_hooks_contrib-2026.7-py3-none-any.whl",
+      "bytes": 459445,
+      "sha256": "24257a04c7a5a7a034cf28e39dcee20fbeeb9f043076729480f2e1b69904408a"
+    },
+    {
+      "path": "wheels/pyusb-1.3.1-py3-none-any.whl",
+      "bytes": 58465,
+      "sha256": "bf9b754557af4717fe80c2b07cc2b923a9151f5c08d17bdb5345dac09d6a0430"
+    },
+    {
+      "path": "wheels/pywin32-312-cp312-cp312-win_amd64.whl",
+      "bytes": 6914841,
+      "sha256": "b457f6d628a47e8a7346ce22acb7e1a46a4a78b52e1d17e1af56871bd19a93bc"
+    },
+    {
+      "path": "wheels/pywin32_ctypes-0.2.3-py3-none-any.whl",
+      "bytes": 30756,
+      "sha256": "8a1513379d709975552d202d942d9837758905c8d01eb82b8bcc30918929e7b8"
+    },
+    {
+      "path": "wheels/pyyaml-6.0.3-cp312-cp312-win_amd64.whl",
+      "bytes": 154003,
+      "sha256": "5fcd34e47f6e0b794d17de1b4ff496c00986e1c83f7ab2fb8fcfe9616ff7477b"
+    },
+    {
+      "path": "wheels/setuptools-84.0.0-py3-none-any.whl",
+      "bytes": 818216,
+      "sha256": "51a52592b3b99e102b609654876bd65f19f999935166d1352678931132b0c670"
+    },
+    {
+      "path": "wheels/six-1.17.0-py2.py3-none-any.whl",
+      "bytes": 11050,
+      "sha256": "4721f391ed90541fddacab5acf947aa0d3dc7d27b2e1e8eda2be8970586c3274"
+    },
+    {
+      "path": "wheels/tlslite_ng-0.8.2-py3-none-any.whl",
+      "bytes": 297037,
+      "sha256": "bc17945ab48c7a2ecb16ae9d4b32cf976bfd67d7db74c0fedc093f9094e49ae5"
+    },
+    {
+      "path": "downloads/legacy-pmca/early-dsc-reference/a330-7874849.zip",
+      "bytes": 1093,
+      "sha256": "db214dffa04fa4963e443b40db8466c3fe31b25599fe9c857ff9fa2a4cc2ad69"
+    },
+    {
+      "path": "downloads/legacy-pmca/early-dsc-reference/a330-7890406.zip",
+      "bytes": 1089,
+      "sha256": "c90fe261bba5b94266764df616c112505325a628c4529a9a713d34df14440d31"
+    },
+    {
+      "path": "downloads/legacy-pmca/early-dsc-reference/a330-7892025.zip",
+      "bytes": 1096,
+      "sha256": "dd39b626b7f540d568cebb7ae69754a966bf3bac047018993221411a2d3f37ca"
+    },
+    {
+      "path": "downloads/legacy-pmca/early-dsc-reference/a330-7874849/a330.py",
+      "bytes": 2332,
+      "sha256": "45932af7d43664f029a3e930a8560415a4b681b2875fd3e0b50cffb0972d9153"
+    },
+    {
+      "path": "downloads/legacy-pmca/early-dsc-reference/a330-7890406/a330.py",
+      "bytes": 2359,
+      "sha256": "c8effc39ad1f9d4983328d688b077cf63284835d9874e619d935dbd0a04c0ce6"
+    },
+    {
+      "path": "downloads/legacy-pmca/early-dsc-reference/a330-7892025/a330.py",
+      "bytes": 2377,
+      "sha256": "5f6218191ac709e2ccfc52e76cf063f9809207377a79d21fb006f34429fc83bb"
+    },
+    {
+      "path": "downloads/libgphoto-reference/config.c",
+      "bytes": 498367,
+      "sha256": "d95ff9d39c3b9852e27ea961c3158650ede7475a8232451acf09896da07ef5d8"
+    },
+    {
+      "path": "downloads/libgphoto-reference/library.c",
+      "bytes": 385435,
+      "sha256": "2d6dd02a9bf3d581e368c8f4f4976210e03f3c0797a34f47ccab0ba74c8faccb"
+    },
+    {
+      "path": "downloads/libgphoto-reference/ptp.c",
+      "bytes": 389543,
+      "sha256": "3826338690d2ea3b4641f85e64c9f7f3a1d1a3b021a8011113fa19cdfdd38d44"
+    },
+    {
+      "path": "downloads/libgphoto-reference/ptp.h",
+      "bytes": 233182,
+      "sha256": "1b3811ade47db01935bd55ac8c6d2a249a8c7c4baad0517eda0c8a65c5cb12b6"
+    },
+    {
+      "path": "build_portable.py",
+      "bytes": 7814,
+      "sha256": "6f63a53064954d014cee84a9fdb68803481ee67bcd234a44b5d3d46d29259022"
+    },
+    {
+      "path": "validate_portable.py",
+      "bytes": 4553,
+      "sha256": "1b668f07ec204bd92bd74504f87c3cb293addebc2c02bc876242ee4e7b6f0d69"
+    },
+    {
+      "path": "downloads/portable-runtime/hashes.sha256",
+      "bytes": 6174,
+      "sha256": "a8dd02e41161d7c7f79108157f3ce929735e3914ec9f910104eb1b7bc9e247e6"
+    },
+    {
+      "path": "downloads/portable-runtime/PowerShell-7.4.18-win-x64.zip",
+      "bytes": 111931009,
+      "sha256": "d018ed5f92ff15a28442dce6a804b1e2aa6153d9fe1e9a06de8fd8142b171f4a"
+    },
+    {
+      "path": "downloads/portable-runtime/powershell-release.json",
+      "bytes": 3881,
+      "sha256": "62086c7d6f12d4efd05858339b9c214e8727cea53e054490f53bfe8c36640597"
+    },
+    {
+      "path": "downloads/ibiss-reference/canonical-host-results.json",
+      "bytes": 1772,
+      "sha256": "4bd86d8aeff548911be85bc90e137590e6b117aa63b3163fcfdf263dd7aa955f"
+    },
+    {
+      "path": "downloads/ibiss-reference/canonical-host-route-0.txt",
+      "bytes": 471,
+      "sha256": "79c774b39eb6a9d3f73e0f4bdaf43059c7b35f5aab76dfc68039cc0aa7fa0581"
+    },
+    {
+      "path": "downloads/ibiss-reference/canonical-host-route-1.txt",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "downloads/ibiss-reference/canonical-host-route-2.txt",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "downloads/ibiss-reference/cdx-known-prefix-result.json",
+      "bytes": 210,
+      "sha256": "654bc2885244cac81ebad7e12152c16b3c3dde862316a6e4294e3e8c2cd80fd9"
+    },
+    {
+      "path": "downloads/ibiss-reference/cdx-known-prefix.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "downloads/ibiss-reference/endpoint-checks.json",
+      "bytes": 736,
+      "sha256": "db950246a51c9d7a9b699cddbbc69975dc7c3fea35c0c8332a721c97e459dc97"
+    },
+    {
+      "path": "downloads/ibiss-reference/forum-585578.html",
+      "bytes": 104345,
+      "sha256": "94d41d05d78ea539f7d50eaf93ca340cd3af15ea42963b5827ccbbf8b2db1eb2"
+    },
+    {
+      "path": "downloads/ibiss-reference/portal-results.json",
+      "bytes": 514,
+      "sha256": "38a7e853dc9aa34e73213ab2295481f4ba95c681d20c470f36c707a704fceeeb"
+    },
+    {
+      "path": "downloads/ibiss-reference/portal-route-0.html",
+      "bytes": 5476,
+      "sha256": "d452fdba1e6b7535d286a0763e10bb8674a82f627e2bc395892c269344f9e871"
+    },
+    {
+      "path": "downloads/ibiss-reference/public-route-results.json",
+      "bytes": 1108,
+      "sha256": "68bc7fb1dc88b58a56db925d2859fee30813c6d40a8020865977e96e055a43ba"
+    },
+    {
+      "path": "downloads/legacy-pmca/addressing-reference/a330-7914900.py",
+      "bytes": 4396,
+      "sha256": "b0cec76ee4fc1b726c21dd4b7e876b4619f4cab126ef9a7d0c20f847f2dbef7a"
+    },
+    {
+      "path": "downloads/legacy-pmca/addressing-reference/a330-7914900.zip",
+      "bytes": 1488,
+      "sha256": "1b7d5799da621df3843ba139e3df326b69fd60e1ed2a21b1f167d7eb547fbf02"
+    },
+    {
+      "path": "downloads/eligibility-bulletins-20260916-r1/acquisition.json",
+      "bytes": 635,
+      "sha256": "787a35f7a0480d56037e30037f7545518da695c3766facf3d502b55b1ddd7e8c"
+    },
+    {
+      "path": "downloads/eligibility-bulletins-20260916-r1/hdr-sr11-adj-preview.html",
+      "bytes": 71463,
+      "sha256": "85ba2680015357baf89a537a937dff6f4e9ed602bea613b551c1fea3aaf12dd4"
+    },
+    {
+      "path": "downloads/eligibility-bulletins-20260916-r1/hdr-sr11-adj-preview.txt",
+      "bytes": 67179,
+      "sha256": "0d3e0fe882dac9dfb7e784397182cfb6a3960f16877578f99ac85301c701b813"
+    },
+    {
+      "path": "downloads/eligibility-bulletins-20260916-r1/w5-w7-supplement-index.html",
+      "bytes": 40296,
+      "sha256": "1335db52db02a4e1b507572d60d6d5af1a4b83d6f7e9912bec028a2ee6192fce"
+    },
+    {
+      "path": "downloads/eligibility-bulletins-20260916-r1/w5-w7-supplement-index.txt",
+      "bytes": 27520,
+      "sha256": "e193f8bd8f670bcb7545a896f5790fcebde65b5d94b92cc3c38c457705a14541"
+    },
+    {
+      "path": "downloads/seusex-public-20260916/artifact-manifest.json",
+      "bytes": 1864,
+      "sha256": "3e5ec4729d3bd2d870038f5b2e41c359f2e18b561009ea32bc48cf91b4c0003b"
+    },
+    {
+      "path": "downloads/seusex-public-20260916/catalog-archive-results.json",
+      "bytes": 3363,
+      "sha256": "e90807b195465c057f9d6ea0444e5b86ac75b5c2d1011fff60644dede7ca4b9f"
+    },
+    {
+      "path": "downloads/seusex-public-20260916/catalog-cdx-0.json",
+      "bytes": 2414,
+      "sha256": "277c281245b62590e98b34094df3596ffa6bb19520356b4ee37cf263d9f15df9"
+    },
+    {
+      "path": "downloads/seusex-public-20260916/catalog-cdx-1.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "downloads/seusex-public-20260916/catalog-snapshot-0.html",
+      "bytes": 7777,
+      "sha256": "86b386c42cafd575e995bff7dd897de57c6186a959722eecd427c05fce4bb86f"
+    },
+    {
+      "path": "downloads/seusex-public-20260916/catalog-snapshot-1.html",
+      "bytes": 14314,
+      "sha256": "e067f7240c763774facd18805c635da77e59e4a55f03475c3b86c87fade88b9b"
+    },
+    {
+      "path": "downloads/seusex-public-20260916/catalog-snapshot-2.html",
+      "bytes": 15200,
+      "sha256": "152774e63aae9ef10ba0d045d82a1a984ca789a75e44b7ff34a092b6fe8663f0"
+    },
+    {
+      "path": "downloads/seusex-public-20260916/legacy-followup-2.txt",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "downloads/seusex-public-20260916/legacy-followup-results.json",
+      "bytes": 739,
+      "sha256": "66a9ea3cfe4ec2c9030807db59c7775e539a903e175f2b6c28f6f9f8cd6ab69d"
+    },
+    {
+      "path": "downloads/seusex-public-20260916/legacy-locator-index-0.json",
+      "bytes": 209,
+      "sha256": "78ed87fbecfc2a4636285e47fe5ade4e4e6ca3c7383408775ed41e455292fde1"
+    },
+    {
+      "path": "downloads/seusex-public-20260916/legacy-locator-results.json",
+      "bytes": 856,
+      "sha256": "7a440912faaf3fd2e9b9284733f7668ee16462a8c3cff670f878930b9c162bbc"
+    },
+    {
+      "path": "downloads/seusex-public-20260916/snapshot-results.json",
+      "bytes": 962,
+      "sha256": "8d4752bda741e3bcb78c5c1415245f407e81685778d093cf023b38b32b8388d3"
+    },
+    {
+      "path": "downloads/seusex-public-20260916/software-informer-live-empty-after-failed-request.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/current-slide-structure.json",
+      "bytes": 3119,
+      "sha256": "6b27526165813b0df76cc6877feb5f683a36297462ca7740b44ebc5f9de8ec84"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/download-manifest.json",
+      "bytes": 616,
+      "sha256": "e942eb719eb7785e3cfff9715a3ec805e7f8905c1fef93905b2179207bfbbd49"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/DSC-PTPSoftStack.ppt",
+      "bytes": 35328,
+      "sha256": "10019b69eec38f621f00933aca6a81c4db81ba50edda7231b5ffb147cf0fab2f"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/inspect_ppt.py",
+      "bytes": 2060,
+      "sha256": "700c8cd67f30c0bbbf4114bcefb512988488287754edfb8b4570edfbe97af423"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/parser-deps/olefile/__init__.py",
+      "bytes": 967,
+      "sha256": "719e959251c94a8332354270e733ff8638781bf1ec6a9f921902a0b055692456"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/parser-deps/olefile/CONTRIBUTORS.txt",
+      "bytes": 792,
+      "sha256": "e12940f897b33883734a6bc06c6b5e8a3bf3508da6cfd085cadec18b7b57fbaf"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/parser-deps/olefile/doc/API.html",
+      "bytes": 15580,
+      "sha256": "20fd8a3ed6a7b056bfdb9eb2183cb1e479279dd361ea4d984d361f17deecbf61"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/parser-deps/olefile/doc/API.md",
+      "bytes": 13312,
+      "sha256": "c63c97b91409db1fa3cd087e377693e7983199ed4e1854a9249021ea4076cffd"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/parser-deps/olefile/doc/Contribute.html",
+      "bytes": 1870,
+      "sha256": "6016031dd0c44421230a1bb23992f95be712090e09e12704ee7d45a4e58957f2"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/parser-deps/olefile/doc/Contribute.md",
+      "bytes": 1199,
+      "sha256": "15fecea8048d9d6b5af8db99808a7aa35d0f6fa6acec0364b674c0735baed242"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/parser-deps/olefile/doc/Home.html",
+      "bytes": 5348,
+      "sha256": "2f71c03012e72bc59248cd149552d5d3a582fd675b9c4d63392a84b1fb4a88d0"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/parser-deps/olefile/doc/Home.md",
+      "bytes": 4306,
+      "sha256": "650ad7a3b0b2048ac7014b7ae3d10ebe06e0a95f45d90182eea468c63f650cc3"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/parser-deps/olefile/doc/Install.html",
+      "bytes": 1914,
+      "sha256": "f823b4a965a5030d0896b62892b0e24df003b63030be5356d94a4e2d5e3e1f84"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/parser-deps/olefile/doc/Install.md",
+      "bytes": 1241,
+      "sha256": "861ed1d5e21a5aeec956d01a9433d54012675294da882b658d5af4c8a0ae4a79"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/parser-deps/olefile/doc/License.html",
+      "bytes": 3833,
+      "sha256": "0dbceed92e36dbdc11d21154b2b4c40b7e0d766c0c12d6e704df3edca8974ff9"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/parser-deps/olefile/doc/License.md",
+      "bytes": 3191,
+      "sha256": "17cc0185ea7dac964e318ad80b7000bd65c09485c3fdec8617c7422ea54a9105"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/parser-deps/olefile/doc/OLE_Overview.html",
+      "bytes": 2482,
+      "sha256": "475dd8e5e3d0aeb62ab3036cd190f0f6310cd9ec35cbacc484065b54a5b7b002"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/parser-deps/olefile/doc/OLE_Overview.md",
+      "bytes": 1740,
+      "sha256": "a4e8b650964272644490ee6c514ba9b6c839e7a0801f7f4585668ee449a4cd67"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/parser-deps/olefile/doc/OLE_VBA_sample.png",
+      "bytes": 3568,
+      "sha256": "634af0ef52e97dd2580b6954a1236f8ada6c0afb8999379c98058edcaffd8f7d"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/parser-deps/olefile/LICENSE.txt",
+      "bytes": 2915,
+      "sha256": "0c349bed31cd2af10983a8d95e7455e2d15744b98585b55941ca35bd70f5bcd7"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/parser-deps/olefile/olefile.html",
+      "bytes": 33526,
+      "sha256": "57749bb9a50e7038832c9e9c402a870f1da1d42a2692a0df1ea79bc30099896b"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/parser-deps/olefile/olefile.py",
+      "bytes": 125455,
+      "sha256": "dcce514efdcbd04fa689bc920531a1985df0837c92b57fe3af0c45c46f1bbd87"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/parser-deps/olefile/olefile2.html",
+      "bytes": 18492,
+      "sha256": "55d8cf49f8a622b6a7bdb0e1d85ebc5ab2c53d18cd3c908dd45065d85fd83279"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/parser-deps/olefile/olefile2.py",
+      "bytes": 89797,
+      "sha256": "44655509298f5fd9a69bc54636f95dcd35720757c5576fe7e6ac972618b60a1f"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/parser-deps/olefile/README.html",
+      "bytes": 11237,
+      "sha256": "467fd8ed544bbfd27b8f2e6886fe0b6d2dd04018e455d05770b6b04dc99e3799"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/parser-deps/olefile/README.rst",
+      "bytes": 10221,
+      "sha256": "8bfcff05b224d73602e39602b97f0ab12e24245862bf4c96253d387b4f98ebe0"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/parser-deps/olefile-0.47.dist-info/INSTALLER",
+      "bytes": 4,
+      "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/parser-deps/olefile-0.47.dist-info/LICENSE.txt",
+      "bytes": 2846,
+      "sha256": "cf1498d5b834b3758a89d06d224a1502c54a28b3a852f46130b761deaa4890d1"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/parser-deps/olefile-0.47.dist-info/METADATA",
+      "bytes": 9718,
+      "sha256": "7d6d2e95f3419469854777a6524b0537688cf52c59bf9824a00f82f832fc2164"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/parser-deps/olefile-0.47.dist-info/RECORD",
+      "bytes": 2544,
+      "sha256": "8c7566eb863697d8d097a695f335d0545a6d927bb4c37fb710b7ffacad49f1f8"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/parser-deps/olefile-0.47.dist-info/REQUESTED",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/parser-deps/olefile-0.47.dist-info/top_level.txt",
+      "bytes": 8,
+      "sha256": "bad496e3f9cfa7eaf2b510fb56f312fbc812a7d05498a6110cd7757b1f50da4b"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/parser-deps/olefile-0.47.dist-info/WHEEL",
+      "bytes": 116,
+      "sha256": "8313daa9ca8a3cb51769200ac267c73bbfe200e955be6a77dc37b09d496e041f"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/parser-deps/OleFileIO_PL.py",
+      "bytes": 1350,
+      "sha256": "ce4c968e16bf24c3c0e2c41a260d7d350d5d0c9a868117824b919dc0bdb6116b"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/ppt-static-inspection.json",
+      "bytes": 6876,
+      "sha256": "661bcc25ea59c479be3e3b130c2fee887c4e9b2603114082cf896603ca6992b9"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/ppt-text-atoms.txt",
+      "bytes": 1318,
+      "sha256": "6d9dec5c9e49d4a51a3ecd2eb7e21669585c9c9a38386afca808056f60b48964"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/render-verification.json",
+      "bytes": 150,
+      "sha256": "ce797485c04d0ace93f3630f686aaae557995a6f2253184c8be3fc366a8af17d"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/render_readonly.ps1",
+      "bytes": 2330,
+      "sha256": "2c8160b07abdb1c0b8d01792a13ddac43af72a9282572f57755b51b850df6a29"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/slide-1.png",
+      "bytes": 29042,
+      "sha256": "54148fe5294a7189a4224744b17e6f6b6617c3f2cceeaec980e7a5ef8627105d"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/sony-reply-21014782.html",
+      "bytes": 56296,
+      "sha256": "7e6494f737b6c12dbdba53076e3183c45bbc2e3289003e111032c83759ae0a64"
+    },
+    {
+      "path": "downloads/w300-firmware-followup/owner-reference-and-vlab-response.json",
+      "bytes": 33117,
+      "sha256": "0ca626ec67c699cc7f4dc9fa4cc4444ad06af2ebc922b38a25d76b27f87b9058"
+    },
+    {
+      "path": "downloads/w300-firmware-followup/page-acquisition.json",
+      "bytes": 575,
+      "sha256": "f1f1df4d79f17b1ff3e27d1e50b6988c49ea28592f01c743644e945ea9a1bba7"
+    },
+    {
+      "path": "downloads/w300-firmware-followup/prx-family-and-watermark-search-response.json",
+      "bytes": 24601,
+      "sha256": "0ab4aee8df39ddba96e72f280ee8a99208c9e6ce0c0ded7282133912a6eabbf4"
+    },
+    {
+      "path": "downloads/w300-firmware-followup/prx765105a-search-response.json",
+      "bytes": 71,
+      "sha256": "1048ddaf93c0dfa7b1304db3ffef722f4a37db0018ad2c63d0062118c5d92b42"
+    },
+    {
+      "path": "downloads/w300-firmware-followup/regional-search-response.json",
+      "bytes": 24076,
+      "sha256": "78b2ed868ec0656bca71037d25519e58a0d7a8cdbb76c4006d243331b58e2e9e"
+    },
+    {
+      "path": "downloads/w300-firmware-followup/sony-guide-wx300-not-w300.html",
+      "bytes": 7928,
+      "sha256": "d9d173fdafe8110ef06beec79ffb4de0f83e2fc407d1637bc8dff15d6c0b5fbd"
+    },
+    {
+      "path": "downloads/w300-firmware-followup/watermark-site-access-response.json",
+      "bytes": 224,
+      "sha256": "342a18dda6ebbc9c7fb6f3b8f34ef49b3874d95a93324877a88d28c539bb5f12"
+    },
+    {
+      "path": "downloads/w300-firmware-followup/watermark-site-direct-request.json",
+      "bytes": 322,
+      "sha256": "d84b6d15fab0800695cffd2263e6bb4a6b70036d2028e8af3f56a0654fd47908"
+    },
+    {
+      "path": "downloads/w300-l3-reference/acquisition.json",
+      "bytes": 1608,
+      "sha256": "6e9b041cae8e9fada9e846b24e2f78f103905a80c1ced7326811749440c69173"
+    },
+    {
+      "path": "downloads/w300-l3-reference/l2-block-page35.html",
+      "bytes": 351776,
+      "sha256": "9c6e780e1c85adaf363b1ce7db1801fc034b32d94df7d374f46773bd46cc477b"
+    },
+    {
+      "path": "downloads/w300-l3-reference/landing.html",
+      "bytes": 28112,
+      "sha256": "5c5e10c39a5d3b4bc20c4625f86e62c86c25a79b6f9d4f0dd4f780ef7b1effb7"
+    },
+    {
+      "path": "downloads/w300-l3-reference/page14.png",
+      "bytes": 390385,
+      "sha256": "c0e472149f9151f077ab593db092d6a0f6b6b9977f39e1b051d581877c989aa5"
+    },
+    {
+      "path": "downloads/w300-l3-reference/page16.png",
+      "bytes": 319662,
+      "sha256": "c70043d887f5a0eafec88971c2cffb3c11558e0533c48b0e9498d7df286f2994"
+    },
+    {
+      "path": "downloads/w300-l3-reference/sony-w300-l3-v1.1.pdf",
+      "bytes": 2838408,
+      "sha256": "93b2b2fc8db505978ff3e8cca07dd6b452c6ac0decbf23eb57c1874966cb0325"
+    },
+    {
+      "path": "downloads/w300-l3-reference/sony-w300-l3-v1.1.txt",
+      "bytes": 95548,
+      "sha256": "33b7b6d10573cc50bcedfc1cd004bee7bf299f3218cd46549546ed0f4973a9ee"
+    },
+    {
+      "path": "reports/eligibility-bulletins-20260916-r1/research-index.json",
+      "bytes": 2345,
+      "sha256": "8e1e6127e59bf45d18cab1f194eb56e0d7d27128e2eb06d0e0b66be780510267"
+    },
+    {
+      "path": "reports/eligibility-bulletins-20260916-r1/service-board-bulletin-audit.md",
+      "bytes": 5968,
+      "sha256": "cc68a768ff0f63987fa70bedc2abc2a7a7b6ab32012a866b7c6d7e7cca1f5e44"
+    },
+    {
+      "path": "reports/fallback11/fallback11-evidence.json",
+      "bytes": 1215,
+      "sha256": "1d4628eb6f9a41db4439e85c61f1c03add7278e9503d333b4ce5479a2b5e6466"
+    },
+    {
+      "path": "reports/fallback11/fallback11.asm.txt",
+      "bytes": 27433,
+      "sha256": "a6d5aa00b9668d66c3a0927f76be73146d3055c713c3a013b82ed853bf88f826"
+    },
+    {
+      "path": "reports/fallback11/inspect_fallback11.py",
+      "bytes": 7968,
+      "sha256": "5b4acdf43c0f1d64ef32af094107324e074933857c21b60fb18596d951a663c6"
+    },
+    {
+      "path": "reports/fallback11/README.md",
+      "bytes": 5254,
+      "sha256": "6c5f880ec02845b45ffff0261763043b1013df613af52dc74c631d7e9f496e0e"
+    },
+    {
+      "path": "reports/offline-resumption-checks.json",
+      "bytes": 1493,
+      "sha256": "8e613cd3a8a4ca230a27835152e1780ac5d2e7c10543eb326acfc216c8f22765"
+    },
+    {
+      "path": "reports/seusex-public-acquisition-20260916.md",
+      "bytes": 7979,
+      "sha256": "2854eb08578d1d3f4c0572407d84548b86281c4fe72020b6a2f1408a700b8c38"
+    },
+    {
+      "path": "reports/sony-ptp-boundary-2008.md",
+      "bytes": 7073,
+      "sha256": "fccd7d4c76d7b6e1dcc0c00a562f33db395c21a21e2837bca2171874f1d3f4f4"
+    },
+    {
+      "path": "reports/verify_offline_resumption.py",
+      "bytes": 3137,
+      "sha256": "9774528a857da5547da7b1cb528dea80ee94cc77509e223e7143db6c68678d43"
+    },
+    {
+      "path": "reports/w300-firmware-followup.md",
+      "bytes": 8539,
+      "sha256": "764f605904a474ae9922558af8f5a0b67d5482f9319a3cb65adada18062cf245"
+    },
+    {
+      "path": "reports/w300-l3-architecture.md",
+      "bytes": 4701,
+      "sha256": "748fbb707930eee9c30a4df9696d751d416ead633db913ce67ffb4616b5c0439"
+    },
+    {
+      "path": "reports/w300-package-followup.md",
+      "bytes": 1471,
+      "sha256": "d88b2af83f3d06411d948de2559d5df0cc416ae3e7f5a041289e2d5104cfddea"
+    },
+    {
+      "path": "reports/av-receiver/decode_receiver.py",
+      "bytes": 6246,
+      "sha256": "1c6b03bd74bdd017ffbd5652695b19b07b96c75cec137972ff4f0914da86f2b0"
+    },
+    {
+      "path": "reports/av-receiver/inspect_av.py",
+      "bytes": 4058,
+      "sha256": "46567b6ec6d8edb0fdfd655372f864c97df124ea3d94d2145c8cd468bf7d1bb5"
+    },
+    {
+      "path": "reports/av-receiver/inventory.json",
+      "bytes": 29074,
+      "sha256": "dffcdc142fd453a98f6f30e4bdb98afa37b0413c981ec7007a62803f367b25cd"
+    },
+    {
+      "path": "reports/av-receiver/linux-body-bridge-evidence.json",
+      "bytes": 486,
+      "sha256": "fa52a33ff88c9672e9d7fa19b44aab86783b442118a13cf93e7b944945fc1f62"
+    },
+    {
+      "path": "reports/av-receiver/linux-body-bridge.asm.txt",
+      "bytes": 11361,
+      "sha256": "bc5595d746d5d53124af68ec93af509d2a3356ef641c563850685f639487e9fc"
+    },
+    {
+      "path": "reports/av-receiver/linux_body_bridge.py",
+      "bytes": 6754,
+      "sha256": "23e08ceb59574240b06edadfe576a34a1caf620b0c70c8147977cabd68582e73"
+    },
+    {
+      "path": "reports/av-receiver/README.md",
+      "bytes": 11808,
+      "sha256": "5b973df9b372306d4f40fa13d2de129d24a88ec3102b03b4517e4d810005e0a6"
+    },
+    {
+      "path": "reports/av-receiver/receiver-evidence.json",
+      "bytes": 4212,
+      "sha256": "92b189da7192160074d037325fec085d38281308ea3cd5a4502f750d05357122"
+    },
+    {
+      "path": "reports/av-receiver/receiver.asm.txt",
+      "bytes": 86274,
+      "sha256": "ea8242d862cda39f71fa2149b70260347695e30541390154de7412e9321e0a5f"
+    },
+    {
+      "path": "reports/av-receiver/vectors-and-reset.asm.txt",
+      "bytes": 6268,
+      "sha256": "11523cf98160e451cbd5b5035bde803d432d1517ad18f4b2ecc4543cf2369b1c"
+    },
+    {
+      "path": "reports/av-receiver-reproduction.json",
+      "bytes": 1392,
+      "sha256": "25b53ec6ffe55748fbc9b9d923857445f867c548689d4c36343b21c72e51a98c"
+    },
+    {
+      "path": "append_manifest.py",
+      "bytes": 3646,
+      "sha256": "8565765c09c1c90f390a8b514cbc3656be2a093ac1833b80fda64096cf89c28f"
+    },
+    {
+      "path": "downloads/g3-gpl-reference/compare_gpl.py",
+      "bytes": 1992,
+      "sha256": "bf72129f5a43945d7d0efef39d42723168f72dcd3d7a0078ac36de162e1690e4"
+    },
+    {
+      "path": "downloads/g3-gpl-reference/compare_usb_core.py",
+      "bytes": 1831,
+      "sha256": "f9ed53e870c26c42acce7e67df38944cb93e92999ce007c1b69cf37b7726c2c9"
+    },
+    {
+      "path": "downloads/g3-gpl-reference/config-comparison.json",
+      "bytes": 2950,
+      "sha256": "7a8aa7d7909992b534a9d74a0769634d47978f5f851322b93e98d9b08bac3c78"
+    },
+    {
+      "path": "downloads/g3-gpl-reference/config.diff",
+      "bytes": 1672,
+      "sha256": "3f7863b58ed0de7a5956a5b044e48539b54cfbdea7cc80bc3d3b9bbcf68ecc04"
+    },
+    {
+      "path": "downloads/g3-gpl-reference/DSC-G3.html",
+      "bytes": 6287,
+      "sha256": "aa53a9255c17f7fe36208afabfe10f540ff32396093e21a821d645d02f0bea3f"
+    },
+    {
+      "path": "downloads/g3-gpl-reference/g3.config",
+      "bytes": 14322,
+      "sha256": "6dc7d1bfbb64e80cd34218f72f464152b32b50ea63601dabd6f668f3449eed5f"
+    },
+    {
+      "path": "downloads/g3-gpl-reference/kernel-acquisition.json",
+      "bytes": 434,
+      "sha256": "12291fe64859dc9b6f714d60e731b72a7108d8ce64f8796707f4e51c383c2a44"
+    },
+    {
+      "path": "downloads/g3-gpl-reference/linux-kernel.tar.gz",
+      "bytes": 35810795,
+      "sha256": "cbb03d206740f0bcc8ed9efc90e1f48786f427188954616ed618a3cb7597e90a"
+    },
+    {
+      "path": "downloads/g3-gpl-reference/page-comparison.json",
+      "bytes": 2157,
+      "sha256": "d83483a04a5ad263ccafad098714f9f48adc139ae43414a24d9dab8d3ee2de76"
+    },
+    {
+      "path": "downloads/g3-gpl-reference/usb-core-comparison.json",
+      "bytes": 1233,
+      "sha256": "88b0bc6a2f8cd17c588eb48567e742518a76dac3565ada89d47c72b517187f43"
+    },
+    {
+      "path": "downloads/g3-gpl-reference/w300.config",
+      "bytes": 14258,
+      "sha256": "1658cd81518dd9665e7e27b9959b79cb3959dd27f15283a34f8fc14bbce60404"
+    },
+    {
+      "path": "downloads/g3-service-reference/archive-acquisition.json",
+      "bytes": 408,
+      "sha256": "e24a9cd818d3625fb8be0ec0b191c265253166b932fa6d2ab994492241cb9078"
+    },
+    {
+      "path": "downloads/g3-service-reference/candidate-acquisition.json",
+      "bytes": 490,
+      "sha256": "2a98784cea999304bb010014b63155594f4afbb8efb4a515293741571009b645"
+    },
+    {
+      "path": "downloads/g3-service-reference/catalog-acquisition.json",
+      "bytes": 1943,
+      "sha256": "c5452ee3c1cf5a23a706520a394cd7a6b3ab31004e39c22bb4285115e4002d30"
+    },
+    {
+      "path": "downloads/g3-service-reference/ia-g3-sony.json",
+      "bytes": 13973,
+      "sha256": "ebea9c4bafe9e7354ac2e47e7d0aee180693c082a965fbc503df428912f08969"
+    },
+    {
+      "path": "downloads/g3-service-reference/ia-search.json",
+      "bytes": 833,
+      "sha256": "0937f68327b70b4a1037824b481f0f7486dff8077391d29333ee052c5965dfed"
+    },
+    {
+      "path": "downloads/g3-service-reference/ia-sony-collections.json",
+      "bytes": 8808,
+      "sha256": "5e75caa5393051daca417e372e2f4bc95c395605505b28508d0534e0d63fc3eb"
+    },
+    {
+      "path": "downloads/g3-service-reference/ia-sony-manual-collections.json",
+      "bytes": 12644,
+      "sha256": "2a247051c84b1cf57c1a76d5b54702e3c209bcc7c1719b0feeb2a49e2b5175c3"
+    },
+    {
+      "path": "reports/adjustment-collections-index.json",
+      "bytes": 46650,
+      "sha256": "933f31ec9c6c5ae01047ad6498eefd33385ba9f7f96d31d6ce27ea48a91f086b"
+    },
+    {
+      "path": "reports/adjustment-collections-inventories.json",
+      "bytes": 8623,
+      "sha256": "da9dcfd7b61d80cce915dc688a14b3200cef903f6d81bae2a853bf7f37fba7f3"
+    },
+    {
+      "path": "reports/adjustment-collections.md",
+      "bytes": 4968,
+      "sha256": "d49f589bb4a21e302f5175d0669555d44c6d1716dd7a76f0c3a4f9eb262f4f74"
+    },
+    {
+      "path": "reports/av-page-init/evidence.json",
+      "bytes": 2775,
+      "sha256": "65c4509a44045cb86634d497084321a69365d0c0c6e9ecc440d98638f1151521"
+    },
+    {
+      "path": "reports/av-page-init/inspect_page_init.py",
+      "bytes": 4382,
+      "sha256": "1a87b91f8c71ca02371f40ca84befbae876f88fbdb65156c6364c86f6dce18cd"
+    },
+    {
+      "path": "reports/av-page-init/linux-persistence/decode.py",
+      "bytes": 8239,
+      "sha256": "3e298d3cea646a18ac2ba5830aa55b512a3f56caf7fa9160b1ac52d095d85743"
+    },
+    {
+      "path": "reports/av-page-init/linux-persistence/FINDINGS.md",
+      "bytes": 7052,
+      "sha256": "cfd6642df198337bb7b2f7caf6118d942725927bde4d686e69964edf82c044d2"
+    },
+    {
+      "path": "reports/av-page-init/linux-persistence/linux-backup-tables.txt",
+      "bytes": 7522,
+      "sha256": "9c1724096a39b2633022ba1b28a6a3f3e282d3eeed74925784c19c43d9407347"
+    },
+    {
+      "path": "reports/av-page-init/linux-persistence/linux-backup.asm.txt",
+      "bytes": 60366,
+      "sha256": "339d0f3c96b024cb0c97426fa41674670498ba3df13ae54ae6633601c261b8b0"
+    },
+    {
+      "path": "reports/av-page-init/linux-persistence/tables.py",
+      "bytes": 2509,
+      "sha256": "3514e01f03dc641fb2d4b139b93f9e81ba56c4c061f534aa8943c36a85f9a1e3"
+    },
+    {
+      "path": "reports/av-page-init/page-init.asm.txt",
+      "bytes": 19986,
+      "sha256": "40947131124e3ebc7ca953c51551d428f29e4298f77126e842a7d43644b1c1a4"
+    },
+    {
+      "path": "reports/av-page-init/README.md",
+      "bytes": 8756,
+      "sha256": "e79cb9a39bd60b58dd02a8181ef18089860bbbf1d9321419fdfb7877998cf718"
+    },
+    {
+      "path": "reports/g3-bank-map/bank-map.asm.txt",
+      "bytes": 31949,
+      "sha256": "34dc60bd9e4c2ce54037bbfa264be87bbb87332b142a0cc8b9494891ceea7021"
+    },
+    {
+      "path": "reports/g3-bank-map/evidence.json",
+      "bytes": 1094,
+      "sha256": "de2626d73a4d518cdb80579373670a2be71b960beeb6fde5140a7d1f98077e91"
+    },
+    {
+      "path": "reports/g3-bank-map/inspect_bank_map.py",
+      "bytes": 6120,
+      "sha256": "7e60a3ae90f0eb159f3b71427950bc32c4ec5df72689e0dcf2acba49c447059c"
+    },
+    {
+      "path": "reports/g3-bank-map/README.md",
+      "bytes": 7003,
+      "sha256": "8530460c11878e1bf80eadd6148d09712cb7c441d18a6f5d8384f098131017ad"
+    },
+    {
+      "path": "reports/g3-host-interface/compare_pmca.py",
+      "bytes": 5631,
+      "sha256": "550d77b85269b37de3892645978526dc35e918fccf142f195f605d65d0b3b340"
+    },
+    {
+      "path": "reports/g3-host-interface/decode_host.py",
+      "bytes": 6479,
+      "sha256": "cac5a29d504f4849ab4e90f647b412c667051d886bba25a904a908c70f13eda3"
+    },
+    {
+      "path": "reports/g3-host-interface/host-interface.asm.txt",
+      "bytes": 44809,
+      "sha256": "5ef4b6807fbb42434c70441fe06966e3d226500cf751a17db0f753d0ba2dd108"
+    },
+    {
+      "path": "reports/g3-host-interface/inspect_host.py",
+      "bytes": 3034,
+      "sha256": "7401050e419abc9d6d8b605a4b8d635cd62ca28d7e5495fbfa80eca93107ae77"
+    },
+    {
+      "path": "reports/g3-host-interface/inventory.json",
+      "bytes": 54584,
+      "sha256": "4649ab88e8c6ba13dd119887155701f41fef5e5b4652338587752077fee38adb"
+    },
+    {
+      "path": "reports/g3-host-interface/pmca-comparison.json",
+      "bytes": 3506,
+      "sha256": "d7cd926d7d6fddfce637f18e40d1397761e302c6d68ba63888385a3dcb0bd2aa"
+    },
+    {
+      "path": "reports/g3-host-interface/README.md",
+      "bytes": 8303,
+      "sha256": "c1ef76d0d16ec3be571350b5892ff19ffaf235791ecd00d63ec977ec2eb6e13e"
+    },
+    {
+      "path": "reports/g3-module-recovery/independent-review.json",
+      "bytes": 1886,
+      "sha256": "cc48e082661f3f823dd2f15cc697b907898acc7ac49080bef28b5e7684bf3044"
+    },
+    {
+      "path": "reports/g3-module-recovery/INDEPENDENT_REVIEW.md",
+      "bytes": 3966,
+      "sha256": "cda6d51ddd035e9108d4b4d9900652d6c58d22f0097f02699c7413dc240d0c87"
+    },
+    {
+      "path": "reports/g3-module-recovery/independent_review.py",
+      "bytes": 5927,
+      "sha256": "ca22081377d6d454b2692217cc9677b8c45e684eeb3fc8ef03f11a58f35dcd34"
+    },
+    {
+      "path": "reports/g3-module-recovery/README.md",
+      "bytes": 4008,
+      "sha256": "8f1811297232e58c6719465c5be9ce4748b79208ff74748be696d1267dadae7e"
+    },
+    {
+      "path": "reports/g3-module-recovery/recover_module.py",
+      "bytes": 5966,
+      "sha256": "7ec60e5635532fbc982c7cd2a14ba0947538b22b54f1a599f99a567639b69879"
+    },
+    {
+      "path": "reports/g3-module-recovery/recovery-evidence.json",
+      "bytes": 27362,
+      "sha256": "ec275002181a672e076f5491fc2ab69de6de897f012daee180c5204b2c884016"
+    },
+    {
+      "path": "reports/g3-module-recovery/unified_drv.complete.ko",
+      "bytes": 303816,
+      "sha256": "8d675f7071e49a75a174130ef8525767af07c157fe5f203018eb097e10aa1367"
+    },
+    {
+      "path": "reports/g3-normal-entry/core-normal-auth.asm.txt",
+      "bytes": 13780,
+      "sha256": "6b0b4fc3aa1a6cf256995e84ff20f2930e67164f342e021e5647987ceaed3cca"
+    },
+    {
+      "path": "reports/g3-normal-entry/decode_entry.py",
+      "bytes": 1825,
+      "sha256": "060765192c3550dc0df210411019a9160608b4bb590420b9947551885b34bc2e"
+    },
+    {
+      "path": "reports/g3-normal-entry/entry-evidence.json",
+      "bytes": 2539,
+      "sha256": "976e3b2a20a3cf7ea26640f94ee2d8b98c4bdea5e3c2e688b082f58803eeb296"
+    },
+    {
+      "path": "reports/g3-normal-entry/entry-inventory.json",
+      "bytes": 381841,
+      "sha256": "9ebe92ee670699e95d6b6f4fa83f5d2c30d0f6eaa16a3841944da01cbd0172da"
+    },
+    {
+      "path": "reports/g3-normal-entry/inspect_entry.py",
+      "bytes": 1154,
+      "sha256": "5f6834a1c2599196a8c52ac0d109a562acfb48766788f578999f3233f1d02983"
+    },
+    {
+      "path": "reports/g3-normal-entry/libsencore.so-extra.asm.txt",
+      "bytes": 1826,
+      "sha256": "892c920719617e41f6b8ccb0b72d890070689215db4a3e0e4f946174108d57df"
+    },
+    {
+      "path": "reports/g3-normal-entry/native-links.asm.txt",
+      "bytes": 17730,
+      "sha256": "b18551aa07c7d69e29f8bf6ce6654d9ea424fa4fc114592a33056000868bb227"
+    },
+    {
+      "path": "reports/g3-normal-entry/PExtSenser.so-extra.asm.txt",
+      "bytes": 9339,
+      "sha256": "e3f538375a1aec65183ef2d170812e237a490380cb258e9353c38d6b4b2f4fc4"
+    },
+    {
+      "path": "reports/g3-normal-entry/PExtSenser.so.asm.txt",
+      "bytes": 34438,
+      "sha256": "e443781c74c87c70982e63a03762e0873caf620da4ab374f0a6e46683f0381e8"
+    },
+    {
+      "path": "reports/g3-normal-entry/README.md",
+      "bytes": 8405,
+      "sha256": "6e2b8d941acf4d406bec3d7ae04073f1dd1e9dd26897f269ab7e717526c1cca4"
+    },
+    {
+      "path": "reports/g3-normal-entry/reproduce.py",
+      "bytes": 400,
+      "sha256": "b78267491986e7e9a8a0432cf3cb465efb99d7fd86be0e6627d83bc0ef82ac57"
+    },
+    {
+      "path": "reports/g3-normal-entry/sen-extra.asm.txt",
+      "bytes": 2233,
+      "sha256": "5289965481c6d42d49d90b919eaabf45be43f94714de02f749d75b504d72a004"
+    },
+    {
+      "path": "reports/g3-normal-entry/sen.asm.txt",
+      "bytes": 8166,
+      "sha256": "76978f89650bf472b77204e5ed94f029288646ae8cc97995dc7c12e9d337a9fa"
+    },
+    {
+      "path": "reports/g3-normal-entry/usb-registration.asm.txt",
+      "bytes": 2180,
+      "sha256": "8cab41ed31cc5a5bc292fd9aec6cb1ff19089153a76d830a8c1297bf331f5a4b"
+    },
+    {
+      "path": "reports/g3-normal-entry/usbExt.so.asm.txt",
+      "bytes": 3604,
+      "sha256": "3266d277abd9da5614a3c4d0b8c8de50e7106703e48f1b960c861f084db3e4aa"
+    },
+    {
+      "path": "reports/g3-normal-entry/USBGMsc.so.asm.txt",
+      "bytes": 3230,
+      "sha256": "16a35333dbebd085e64d5f65246bd85f8415e121d440316a09eaae2004228764"
+    },
+    {
+      "path": "reports/g3-normal-entry/verify_entry.py",
+      "bytes": 8850,
+      "sha256": "72177f9849962790bace1b64501368bad1519817d06c3b8dc3177c8f9d030768"
+    },
+    {
+      "path": "reports/g3-normal-entry/xsb-boundary.md",
+      "bytes": 3071,
+      "sha256": "38e933231f0b0828b323b80ffd454c9dbb248ec50541a066381f00c3ba5b251f"
+    },
+    {
+      "path": "reports/g3-normal-entry/xsb-inspect.py",
+      "bytes": 3076,
+      "sha256": "8d1135abf54bc0ffa9277b36966d4aaeec4d27f265fec5c336337d01e1ba89b7"
+    },
+    {
+      "path": "reports/g3-normal-entry/xsb-inventory.json",
+      "bytes": 154806,
+      "sha256": "ab7d0cb8cefe22d4814036c8ca5bbe8b632af687842dc7cd0b5bedc48fa4697c"
+    },
+    {
+      "path": "reports/g3-usb-descriptor/descriptor-evidence.json",
+      "bytes": 3067,
+      "sha256": "b5220baae97a1ad3b969c14a68c79bb5468eaa9d4678d0472cb7f147aba38265"
+    },
+    {
+      "path": "reports/g3-usb-descriptor/g3-gpl-gadgetcore/usb_gadgetcore.h",
+      "bytes": 7419,
+      "sha256": "7c37aff2e9ca6bc6e371fed68062a89d490b1690e37d8002d11881b02358eb54"
+    },
+    {
+      "path": "reports/g3-usb-descriptor/g3-gpl-gadgetcore/usb_gcore_desc.c",
+      "bytes": 63194,
+      "sha256": "d433998d56a1e7330bbd3a1b59c74c92b74ae5104418217e86b4b3d539b01c35"
+    },
+    {
+      "path": "reports/g3-usb-descriptor/g3-gpl-gadgetcore/usb_gcore_main.c",
+      "bytes": 28424,
+      "sha256": "b899c61a26012551cc36de85861bddec4cd181ced27488794e1a0e08d4758d5d"
+    },
+    {
+      "path": "reports/g3-usb-descriptor/inspect_usb.py",
+      "bytes": 6796,
+      "sha256": "1906fdc6291b9b2f860ddd447bd63b9ce95455f39b740a6ba6d5657c7e86013a"
+    },
+    {
+      "path": "reports/g3-usb-descriptor/kernel-decode.py",
+      "bytes": 3623,
+      "sha256": "7f3ac63ca0c0de4639fb53d1848936917c1873b4788b4fcc2ad18d5e8311a314"
+    },
+    {
+      "path": "reports/g3-usb-descriptor/kernel-inspect.py",
+      "bytes": 3664,
+      "sha256": "1494fbef11ed0c47728c91b0809b060486d00155606b37b4de1668f42b6dfa39"
+    },
+    {
+      "path": "reports/g3-usb-descriptor/kernel-report.md",
+      "bytes": 4949,
+      "sha256": "355d45d089117fc32b6a2d7573334902d0a9048cbf1ae52f702977dbea4c3d76"
+    },
+    {
+      "path": "reports/g3-usb-descriptor/kernel-selected.asm.txt",
+      "bytes": 11386,
+      "sha256": "10b39cb14ae0a739c6cc5bb5a20d93def2b1f5c14cc45ab995b46f50a17b341c"
+    },
+    {
+      "path": "reports/g3-usb-descriptor/kernel-sen-driver.asm.txt",
+      "bytes": 34490,
+      "sha256": "0e68881287ca431fdd298491e95e80f24f707ee9de18d08ed8dcc268ebfabf2c"
+    },
+    {
+      "path": "reports/g3-usb-descriptor/kernel-unified_drv.ko.json",
+      "bytes": 1994150,
+      "sha256": "3f96fd90054b0e39023f003d9b87922f0ae1d8b1ef8d44a0cbfee9b2aa3bf52d"
+    },
+    {
+      "path": "reports/g3-usb-descriptor/kernel-unified_drv2.ko.json",
+      "bytes": 846388,
+      "sha256": "cfc7e13e5724219b0818feaaa64307e712111372ad54d1c5053382aec06ee5de"
+    },
+    {
+      "path": "reports/g3-usb-descriptor/libsencore-chain.asm.txt",
+      "bytes": 15424,
+      "sha256": "866bbef3ea3477cb581486f5eaeaa8b810e76a03b76ef8d72e107c4ca7ec3e95"
+    },
+    {
+      "path": "reports/g3-usb-descriptor/libsencore-entry.asm.txt",
+      "bytes": 7250,
+      "sha256": "763f48569737cb41da23fdfb3b35fce3a8192541b5acd6a2d92c6d695f326b73"
+    },
+    {
+      "path": "reports/g3-usb-descriptor/libsencore-usb-events.asm.txt",
+      "bytes": 15207,
+      "sha256": "ec8f267cf05fe6dd82178fdb59e28bf2cfa72f565d85871cadf22bbb02e152e7"
+    },
+    {
+      "path": "reports/g3-usb-descriptor/libsencore-usb-setup.asm.txt",
+      "bytes": 5443,
+      "sha256": "2eadaf9a2aabc9f82bcf91554795b1e69fa907247745d46271ca5da66785751c"
+    },
+    {
+      "path": "reports/g3-usb-descriptor/libusb-chain.asm.txt",
+      "bytes": 34037,
+      "sha256": "8880669ba0f0cd4fcf41d0f3ad1e826e0f18f9b2561368b0c4cf42d757b8127b"
+    },
+    {
+      "path": "reports/g3-usb-descriptor/libusb-descriptor-path.asm.txt",
+      "bytes": 26470,
+      "sha256": "59e71236d314b7ea20e978ba471f6284d86aba8c116c116114a5ad471d55c64c"
+    },
+    {
+      "path": "reports/g3-usb-descriptor/libusb-elf.json",
+      "bytes": 176507,
+      "sha256": "a06f8a143d5cf20e54d2e9648b8423b80b5caa917c443142bd9a0d9eb92635c6"
+    },
+    {
+      "path": "reports/g3-usb-descriptor/libusb-if-init.asm.txt",
+      "bytes": 9259,
+      "sha256": "200481b22397adcaf1763bc9c6d39a87430a55eb29d1f5f384a16a970d3b7a1a"
+    },
+    {
+      "path": "reports/g3-usb-descriptor/libusb-selected.asm.txt",
+      "bytes": 14206,
+      "sha256": "70c5a981dd9254172281b38217bf22f52954a16acc6a6f53d8c1e84f9c27e146"
+    },
+    {
+      "path": "reports/g3-usb-descriptor/libusb-start-wrapper.asm.txt",
+      "bytes": 4783,
+      "sha256": "fb16068f98f3893dcc9f4841590e450566f6a06ae6004dea87bed7e052fe515f"
+    },
+    {
+      "path": "reports/g3-usb-descriptor/README.md",
+      "bytes": 10448,
+      "sha256": "5d7e369066608deaecb413ea7c4ebfb136f44d1c6288434fc663466dde44b830"
+    },
+    {
+      "path": "reports/g3-usb-descriptor/reproduce.py",
+      "bytes": 1554,
+      "sha256": "4994833c6f2f703c8b48d6e92aaa6c4d4d95af6b01ee40a19152559975605b46"
+    },
+    {
+      "path": "reports/g3-usb-descriptor/verify_descriptor.py",
+      "bytes": 5819,
+      "sha256": "4cee0e6941c5dc4197aedb16d0fe29e1f21385e85821602d6fa2abb351215488"
+    },
+    {
+      "path": "reports/g3-w300-gpl-crosscheck.md",
+      "bytes": 5123,
+      "sha256": "241d6de53f4858f8afaa0362c372bade19e978dba5bd1a43768bb70eea44473e"
+    },
+    {
+      "path": "reports/g3-w300-manual-crosscheck/local-artifacts.json",
+      "bytes": 1514,
+      "sha256": "77797ea903bd217b0c25a7996470179e4abdb4821f646e2c6f29da93788bc4c1"
+    },
+    {
+      "path": "reports/g3-w300-manual-crosscheck/README.md",
+      "bytes": 5668,
+      "sha256": "92736eb77140f692c9c3272105175ed7206bb52a66a18853b2584c56f17cc0ed"
+    },
+    {
+      "path": "reports/g3-w300-manual-crosscheck/search-receipts.json",
+      "bytes": 1820,
+      "sha256": "2f8093a5172886e59e21de63560e7be6d63453c4c0e5e77687c65dbe33e91389"
+    },
+    {
+      "path": "reports/offline-protocol-checks.json",
+      "bytes": 20440,
+      "sha256": "7bf5b6f31fb1614f30e6ae3b89bd1da71e198fa527641ae84846fc28fc3e4c6c"
+    },
+    {
+      "path": "reports/offline-protocol-followup-checks.json",
+      "bytes": 4768,
+      "sha256": "d9e9da1b92164765c134ebe56b72cf14378b5b3fa70e9fe4e5008db427d1f4b0"
+    },
+    {
+      "path": "reports/verify_offline_protocol.py",
+      "bytes": 5758,
+      "sha256": "c609b3c0979ed24930912eeb6836a142cdd3c7a5411f89dcf4749787b48831e8"
+    },
+    {
+      "path": "reports/offline-protocol-manifest-additions.json",
+      "bytes": 19742,
+      "sha256": "a558b9590c326bf847505d8f11a82221adf58419acc6c6709495bb4e6499c3cd"
+    },
+    {
+      "path": "reports/g3-config-read/app-read.asm.txt",
+      "bytes": 4803,
+      "sha256": "066840544892e30e3ed21a2afb6637d6f7ad843f5c0412169d73e54a7b5eb2e7"
+    },
+    {
+      "path": "reports/g3-config-read/backup-grammar-code.bin",
+      "bytes": 3490,
+      "sha256": "1a88baea771c1345fd92a8abfc2d821d8c000f534b1803dc32f21e48bf2e0436"
+    },
+    {
+      "path": "reports/g3-config-read/backup-grammar-framed.json",
+      "bytes": 238422,
+      "sha256": "b247d3db2bd3706a9ad19ea3dc33cd6ae391162a6da5591887d7525af9628700"
+    },
+    {
+      "path": "reports/g3-config-read/backup-grammar-framed.txt",
+      "bytes": 53022,
+      "sha256": "0e5de6bf95c100bac9f7bb3112143e8afe9fcc787ee5fe8a4f6a179cd7fec030"
+    },
+    {
+      "path": "reports/g3-config-read/backup-grammar-symbols.bin",
+      "bytes": 2506,
+      "sha256": "e3838ba0f45477d14c25df9fed60d01c2dc7126c0e8bb84b304b590eccbd5507"
+    },
+    {
+      "path": "reports/g3-config-read/config-inventory.json",
+      "bytes": 25111,
+      "sha256": "4b7802d5510a912c36f54306b8004c46960a89e121d596d991699036d3fe191c"
+    },
+    {
+      "path": "reports/g3-config-read/core-read.asm.txt",
+      "bytes": 5458,
+      "sha256": "211ec65977fd5721c404d01cf2354afb97b517490b92b16ab845b677c45e8a21"
+    },
+    {
+      "path": "reports/g3-config-read/decode_config.py",
+      "bytes": 1485,
+      "sha256": "fc638f5de7ba47a5b53da8c9546bbbab958b2bbcb59bf05ba42f606e6de2b8ff"
+    },
+    {
+      "path": "reports/g3-config-read/extension-elf.json",
+      "bytes": 38448,
+      "sha256": "3b73c738cb5cd9229942dc5d0ca74b5fb28690d59be4e7be2c8e201891eea670"
+    },
+    {
+      "path": "reports/g3-config-read/extension-read.asm.txt",
+      "bytes": 17306,
+      "sha256": "84856919bf04f3920a523737fdf75bb57f71223f549948f53d47ac4de13b77e4"
+    },
+    {
+      "path": "reports/g3-config-read/extract_config.py",
+      "bytes": 2890,
+      "sha256": "a8397cabaa8750cd9c41866450af1cbbe401ab0c10e7a158098d7e8bccd7c0b8"
+    },
+    {
+      "path": "reports/g3-config-read/frame_grammar.py",
+      "bytes": 795,
+      "sha256": "23c8351ac3fb214f896c97fa8c748e1a7cf4c78d53e56a7d873c863f9146d3d1"
+    },
+    {
+      "path": "reports/g3-config-read/inspect_config.py",
+      "bytes": 971,
+      "sha256": "d02bea364eef6928d19ffedb2d6cdb6a49896be30b4d06c5778a7db5e3d8d415"
+    },
+    {
+      "path": "reports/g3-config-read/inspect_grammar.py",
+      "bytes": 668,
+      "sha256": "05240e0ba8331363809a822949c88e502289365d66ec63555371190be753d85b"
+    },
+    {
+      "path": "reports/g3-config-read/README.md",
+      "bytes": 6114,
+      "sha256": "b003c6e1bcab05d7b9e3d89e9e17aadb6dfc4c1ae41abe740e97e98634ae2510"
+    },
+    {
+      "path": "reports/g3-config-read/reproduce.py",
+      "bytes": 2219,
+      "sha256": "f86acf6a6bd1b9a425d48a42d60ee34a06604f6b6a0ad7e5935ce760ce023cb1"
+    },
+    {
+      "path": "reports/g3-config-read/table-constructor.asm.txt",
+      "bytes": 2190,
+      "sha256": "eea162aab682a346aa18b275790dffdf185a84dfda7368922c178e63759a732e"
+    },
+    {
+      "path": "reports/g3-config-read/table-elf.json",
+      "bytes": 76273,
+      "sha256": "f680bed390fe84944274128d3fdaaf68b55a666d95a86e5a433592dbf7a8408f"
+    },
+    {
+      "path": "reports/g3-config-read/table-internal.asm.txt",
+      "bytes": 2241,
+      "sha256": "b2412cd9195d86f0f4706a3cd22a0d3997426e59d50eb8c38a8da164f6a860c7"
+    },
+    {
+      "path": "reports/g3-config-read/table-read.asm.txt",
+      "bytes": 3237,
+      "sha256": "0a0c7efee09b5352c72474b42961757a7a1ce1a1863436940e3d6947a00a456f"
+    },
+    {
+      "path": "reports/g3-config-read/verification.json",
+      "bytes": 2156,
+      "sha256": "39af4dc33908abab3eaea2e876e0f49b9974841a6dd49d814b2ef114a86ffec1"
+    },
+    {
+      "path": "reports/g3-entry-events/create.asm.txt",
+      "bytes": 10892,
+      "sha256": "cfcdfe35399624ce677b555415ed703033e47a6b06c64e76c5e0aabd88b97589"
+    },
+    {
+      "path": "reports/g3-entry-events/dispatch.asm.txt",
+      "bytes": 20701,
+      "sha256": "189e29f60ba4ca11858cfd07ba373eea6f8e98f6bcdd944607c5de757e733a12"
+    },
+    {
+      "path": "reports/g3-entry-events/event-chain.asm.txt",
+      "bytes": 42358,
+      "sha256": "d0d2e964bbc61a3b3d4ddf1456d3e42a49e1846fd6b4e799cf33759c94aacc5c"
+    },
+    {
+      "path": "reports/g3-entry-events/event-evidence.json",
+      "bytes": 10703,
+      "sha256": "12c6b52cc97469427d8409b1493cb4a87657bb20ed1c9a0f2e0f9b1d34456ba5"
+    },
+    {
+      "path": "reports/g3-entry-events/g3-gpl-event/usb_event.c",
+      "bytes": 27390,
+      "sha256": "1f1abe264ca05856cc1afc12f316f9444e06927af8a16553b537891ad02b4b40"
+    },
+    {
+      "path": "reports/g3-entry-events/g3-gpl-event/usb_event.h",
+      "bytes": 2327,
+      "sha256": "02bf1daa5eb21842eff13787b3a55199ff49e5c49a7725efa2f633ba3095dc3f"
+    },
+    {
+      "path": "reports/g3-entry-events/g3-gpl-event/usb_event_pvt.h",
+      "bytes": 2981,
+      "sha256": "9caa80d9f6f600fdf329cecff1733e51720491ab79dcacc331c4d5a861024892"
+    },
+    {
+      "path": "reports/g3-entry-events/gpl-event-source.json",
+      "bytes": 657,
+      "sha256": "4789885d7994da4353778b5a0f92cdf288c4e2246aeb8c5d5f2791fda1d65f70"
+    },
+    {
+      "path": "reports/g3-entry-events/initial-events.asm.txt",
+      "bytes": 13987,
+      "sha256": "d490e50e7df26858677f6ecfa8226e242e4303659a310cd36e40747c4d264349"
+    },
+    {
+      "path": "reports/g3-entry-events/initialize.asm.txt",
+      "bytes": 9225,
+      "sha256": "9894c78436d795005f9dcc3a7bc3b633550fd88614a8a4ad9d2a6f562ad7c99d"
+    },
+    {
+      "path": "reports/g3-entry-events/inspect_events.py",
+      "bytes": 1046,
+      "sha256": "86d3c868bd36dc2fa0724c060d75c4a3a20398d375f90bbd4f1f79a4eb321c63"
+    },
+    {
+      "path": "reports/g3-entry-events/prepare_event_source.py",
+      "bytes": 1023,
+      "sha256": "6e98a4e287fc224cdbc74f45088118b6e0a1ea7efcb8ad3b081ab3a24380be95"
+    },
+    {
+      "path": "reports/g3-entry-events/README.md",
+      "bytes": 7032,
+      "sha256": "ff888c6e99cee3457022cf1a233296dbac103c3a73b54b56ecd718fa864e5757"
+    },
+    {
+      "path": "reports/g3-entry-events/register.asm.txt",
+      "bytes": 5743,
+      "sha256": "8d1168017e38d8a81b1b37d4f5e1831dfadbec8145a0db597621ec14b4bf6084"
+    },
+    {
+      "path": "reports/g3-entry-events/reproduce_events.py",
+      "bytes": 5968,
+      "sha256": "81b83d12c48e5eef1b71266b0a14c31bf285e182c7e9efdd9a95b456c50a469e"
+    },
+    {
+      "path": "reports/g3-xs-entry/dsc.xsb.json",
+      "bytes": 879675,
+      "sha256": "3930cb588e21476cb5e12637f8ea932f80a2dc5a7dcb1b29284da89de18c9002"
+    },
+    {
+      "path": "reports/g3-xs-entry/dsc.xsb.txt",
+      "bytes": 173377,
+      "sha256": "ff764e3cc64da27b1c5b53f0b21a12f3b1867480f9b8d049971a0481501c6867"
+    },
+    {
+      "path": "reports/g3-xs-entry/frame_xs.py",
+      "bytes": 2976,
+      "sha256": "ecc51cba7a290c60dcf5169bcb3bf12bc9cff1d7ab79eb0ca16ec513067c6d28"
+    },
+    {
+      "path": "reports/g3-xs-entry/normal-start.asm.txt",
+      "bytes": 7541,
+      "sha256": "dc556ada067a27775f248180c757c2911e75e74d55f0e95ed63e508ffd02f275"
+    },
+    {
+      "path": "reports/g3-xs-entry/README.md",
+      "bytes": 4925,
+      "sha256": "d3e55c26b53e999c0ed8d0099d2231fb334a1d3f41dda219daa4888225beb299"
+    },
+    {
+      "path": "reports/g3-xs-entry/regionInfo.xsb.json",
+      "bytes": 332606,
+      "sha256": "d07d09a4c1a5a8af556d3dcebd05f81abd24633efb7025e80d9385337bf63e41"
+    },
+    {
+      "path": "reports/g3-xs-entry/regionInfo.xsb.txt",
+      "bytes": 66386,
+      "sha256": "2e26dd4da11cfe46f31bf331b4ed8fe2cbbefa65dbfe589b04972ad5657eed80"
+    },
+    {
+      "path": "reports/g3-xs-entry/reproduce_xs.py",
+      "bytes": 3091,
+      "sha256": "9db5cc01f2c861460437bb0648d4e3ef2b3fa8afab4ecc46e00f2be9b2741d5b"
+    },
+    {
+      "path": "reports/g3-xs-entry/reproduction.json",
+      "bytes": 2298,
+      "sha256": "7e3ae1fbf257a38a9c449bda740c40231ec216e2cd70743b2462e0645940e321"
+    },
+    {
+      "path": "reports/g3-xs-entry/runtime-symbols.json",
+      "bytes": 407828,
+      "sha256": "4fd4518764f3ab6797da68177c1c1eab653f6b00b3b7f5a3d3c735677dae133a"
+    },
+    {
+      "path": "reports/g3-xs-entry/runtime.asm.txt",
+      "bytes": 216369,
+      "sha256": "73bc0f10c70e359d06bc22be7d639a71297b0bc2844d00645160f684e0305105"
+    },
+    {
+      "path": "reports/g3-xs-entry/selected-handlers.asm.txt",
+      "bytes": 11018,
+      "sha256": "684a1f1865fafbf47e21ed833ec90bb772560f34583932f95b793364662a9315"
+    },
+    {
+      "path": "reports/g3-xs-entry/senserCmdTable.xsb.json",
+      "bytes": 6240455,
+      "sha256": "6f0975f6915223cda25a55c8806426afd80020085642e55e3dd10c519c0b603b"
+    },
+    {
+      "path": "reports/g3-xs-entry/senserCmdTable.xsb.txt",
+      "bytes": 1209890,
+      "sha256": "c065bdd866296849e5f14aa76cf85c82b957a15aed7e39bde9e9c15816e166da"
+    },
+    {
+      "path": "reports/g3-xs-entry/senserModule.xsb.json",
+      "bytes": 108275,
+      "sha256": "d442a7057a2be31c1b9e2329e014f03ab2a7cc391b4e6082adc5c4ac3c0473ad"
+    },
+    {
+      "path": "reports/g3-xs-entry/senserModule.xsb.txt",
+      "bytes": 21034,
+      "sha256": "3fb4594507a7f6442b4ffb4efda5fc58843711af9cb21029a5cffae0da68fcf1"
+    },
+    {
+      "path": "reports/g3-xs-entry/worker.asm.txt",
+      "bytes": 19186,
+      "sha256": "c33eef81d0c6134ba988f7a4f38f7de3f285e655f2ab56c63ddf8c4963e24a4d"
+    },
+    {
+      "path": "reports/g3-xs-entry/xs-review-handlers.asm.txt",
+      "bytes": 52066,
+      "sha256": "98a50f8f2450837e9014802074f4c332e399f2a92547ae76186a2915028cb85b"
+    },
+    {
+      "path": "reports/g3-xs-entry/xs-review-results.json",
+      "bytes": 2040,
+      "sha256": "7030eec42b10b32fadf0eba7826159318aca065484b8dfd6ce164fef4d79e20d"
+    },
+    {
+      "path": "reports/g3-xs-entry/xs-review.md",
+      "bytes": 5536,
+      "sha256": "5e83ed300f953cca924d46d47710fc0d629092934751ca92b885e55e26774fd5"
+    },
+    {
+      "path": "reports/g3-xs-entry/xs-review.py",
+      "bytes": 4352,
+      "sha256": "fa50e7662e205f990a7132f5aa88c723f3403ce9ae77f78e088c3838f213aee3"
+    },
+    {
+      "path": "reports/offline-xs-checks.json",
+      "bytes": 754,
+      "sha256": "2d559996182461943f700e2275df4c189bac3e16cdf73064bddffe8a5ffea257"
+    },
+    {
+      "path": "reports/verify_offline_xs.py",
+      "bytes": 1760,
+      "sha256": "2e74b23c2d9c881f241a3d33c35d3c22528eeaa968973b669de8c1577f2e4497"
+    },
+    {
+      "path": "reports/offline-xs-manifest-additions.json",
+      "bytes": 11206,
+      "sha256": "4d9e234d9168dfb102f91b84a5b015c867e9b8a42b30df1e086b956bc3615861"
+    },
+    {
+      "path": "downloads/w300-package-source/acquisition.json",
+      "bytes": 1692,
+      "sha256": "44bb3024879ce0dd3e9b0f4d20ea3bdb4d0ff559158cdd84aa6e528593d7eb82"
+    },
+    {
+      "path": "downloads/w300-package-source/catalog-followup.json",
+      "bytes": 971,
+      "sha256": "20a4793df0f18193de529b46bc6b5e847edf7a8303cf929d421e6876cc950024"
+    },
+    {
+      "path": "downloads/w300-package-source/sony-notices.html",
+      "bytes": 62774,
+      "sha256": "492368819a83ceb0fc74285cd021726b72923fbd377b43809b8e440e8a5da4e7"
+    },
+    {
+      "path": "downloads/w300-package-source/sony-relocation.html",
+      "bytes": 78916,
+      "sha256": "340e026d652fb9b0241701ac9c279bd34420adf34ac6fcc13298dd331207c4c0"
+    },
+    {
+      "path": "downloads/w300-package-source/sony-update-cdx.json",
+      "bytes": 2706,
+      "sha256": "ac1a7c5f20ea4df5e98d20028eaa0383c5484af79c7422d8501cda08bb6c905a"
+    },
+    {
+      "path": "downloads/w300-package-source/sony-w300-support.html",
+      "bytes": 1431,
+      "sha256": "f84fa3a74ec43bef556b04baf9baa680fa3d71072812e4dcf49194d714c44334"
+    },
+    {
+      "path": "downloads/w300-package-source/update-20101201053640.html",
+      "bytes": 25513,
+      "sha256": "c4116792b11216ed0bbeae31819cdf052573355961ea278f3fbc598291296256"
+    },
+    {
+      "path": "downloads/w300-package-source/update-20140206154932.html",
+      "bytes": 18645,
+      "sha256": "b7c5e5c5ac7b4e3fa92999975d56d2c2856807ec93b4482b5f2923251621b8e3"
+    },
+    {
+      "path": "downloads/w300-package-source/year-2009-cdx-20101223031809.html",
+      "bytes": 25334,
+      "sha256": "113f69c5208843926278196e4094e0c7d5162ff927eda6620a7e8e5de8fac1d9"
+    },
+    {
+      "path": "downloads/w300-package-source/year-2009-cdx.json",
+      "bytes": 729,
+      "sha256": "fb0baa9a455d134fe69dba10e21349628aa5af06cb3944dc42efe457d54e87b1"
+    },
+    {
+      "path": "downloads/w300-package-source/year-followup.json",
+      "bytes": 2121,
+      "sha256": "b1458a38bae056702f820f3c531413263d718d13a0bb64c801b68f0ecec0d14d"
+    },
+    {
+      "path": "downloads/w300-package-source/year-past-cdx-20101223032303.html",
+      "bytes": 26224,
+      "sha256": "8d9a59d342c21a8b0209adb334f3887f9957e24117f0d27b1513722cd3edbdc7"
+    },
+    {
+      "path": "downloads/w300-package-source/year-past-cdx.json",
+      "bytes": 729,
+      "sha256": "bbc8141dcb22da1e95ea613675cb63ee1896cab0d7274b7a4b502bd93afc39cd"
+    },
+    {
+      "path": "downloads/w300-watermark-archive/acquisition.json",
+      "bytes": 813,
+      "sha256": "21dc7d8ac41a3018420bc4ca74b734b0aedfd7b69613802b4e250ab84ed05573"
+    },
+    {
+      "path": "downloads/w300-watermark-archive/attachmentList.html",
+      "bytes": 22955,
+      "sha256": "a0a282e8d939b774660b8e51c2523bccf8bcaab1b81a1e4ff74ee9dc3d1b0c68"
+    },
+    {
+      "path": "downloads/w300-watermark-archive/bbs-cdx.response",
+      "bytes": 583923,
+      "sha256": "da37d32a05fbdae961ae242b7a8c3c4041125b26528dc5ef77b41d0e9e086dfa"
+    },
+    {
+      "path": "downloads/w300-watermark-archive/camera-forum-links.json",
+      "bytes": 36541,
+      "sha256": "c1584884ee8b94cc2cb92d95c766bad3e169fd428af8749b336c06cae8e4f73b"
+    },
+    {
+      "path": "downloads/w300-watermark-archive/forum-163-1.html",
+      "bytes": 30934,
+      "sha256": "c51ec5b654f81b7031a5ad6b2f06997f7a0be55237f219194295e9a59632bb8d"
+    },
+    {
+      "path": "downloads/w300-watermark-archive/forum-163-2.html",
+      "bytes": 30177,
+      "sha256": "fcd2294492a7d24c1d261466d3dcf0318dcddec97aa5e9fe708858a11393546b"
+    },
+    {
+      "path": "downloads/w300-watermark-archive/main-http.html",
+      "bytes": 63,
+      "sha256": "b8f856812d0810c2fcd63e6c08d3d155e52670f10b6e10ee7b4af6b8004a8f7b"
+    },
+    {
+      "path": "downloads/w300-watermark-archive/main-http.json",
+      "bytes": 198,
+      "sha256": "6a84b78bcc1096c0042052b7f3088e06979292e6d1971aa72f6b5ddd25011165"
+    },
+    {
+      "path": "downloads/w300-watermark-archive/pages-acquisition.json",
+      "bytes": 1127,
+      "sha256": "b52d1ed6f91182bc4997d43b765e3dc644edc8cdb7ff836e373d9f10fe1c0071"
+    },
+    {
+      "path": "downloads/w300-watermark-archive/tag-ADJ.html",
+      "bytes": 4683,
+      "sha256": "5b8d678d90ea2cc65cc7e8368a2f453846a28d79937612d1650c9c7a36ed63e6"
+    },
+    {
+      "path": "downloads/w300-watermark-archive/tag-SONY.html",
+      "bytes": 16728,
+      "sha256": "64fa6ce6484f5b5b8e1075b26283e11a29d38c50814b3e1cedc4706251aa8d9d"
+    },
+    {
+      "path": "downloads/w300-watermark-archive/thread-all-statuses.response",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "downloads/w300-watermark-archive/thread-and-successor.json",
+      "bytes": 817,
+      "sha256": "0d1e8ced380a81a7c1da37f88120901d8ac85d6651be047272fb91d608e78c0a"
+    },
+    {
+      "path": "downloads/w300-watermark-archive/w300-thread-acquisition.json",
+      "bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "reports/w300-owner-source/pages.json",
+      "bytes": 2587,
+      "sha256": "a64b87e1df2aa27e7938bf704aff1418f22a3d528afa98bb720876c44bc0e912"
+    },
+    {
+      "path": "reports/w300-owner-source/README.md",
+      "bytes": 2870,
+      "sha256": "67c41d4791116d3998d1474139afa4a7546567c82b13c7d31e75661003b6d815"
+    },
+    {
+      "path": "reports/w300-package-source/acquire.py",
+      "bytes": 1747,
+      "sha256": "780e926d95a8a228e7dd89655be1199e7b7ef905064b7d23060fc3b241f54fcc"
+    },
+    {
+      "path": "reports/w300-package-source/follow_catalog.py",
+      "bytes": 608,
+      "sha256": "85f5a2afc22c7c0f8d5b5e6f0b18fb82aa3c9d49ca8b5dd65010d2fe38ddce0f"
+    },
+    {
+      "path": "reports/w300-package-source/follow_years.py",
+      "bytes": 1057,
+      "sha256": "a88e3eb49ced62838f07c7759a8e214cb1afad76408e6188f9f745c9a5a1b4a9"
+    },
+    {
+      "path": "reports/w300-package-source/inspect_catalog.py",
+      "bytes": 1502,
+      "sha256": "4902101dd22f61d8b4d020f1c6e19680c511b0eb98f248461696b3fe269a59b0"
+    },
+    {
+      "path": "reports/w300-package-source/inspection.json",
+      "bytes": 3705,
+      "sha256": "7547551f859c8b25884ac2e4336e2528ff6a7482d7d85a71c08bfeab052f38b3"
+    },
+    {
+      "path": "reports/w300-package-source/README.md",
+      "bytes": 4844,
+      "sha256": "db5fcd0dfb6c769b01267d088e1cfe0e0bc1c804c959613fbe230d4409f19c19"
+    },
+    {
+      "path": "reports/w300-readiness-audit/README.md",
+      "bytes": 4616,
+      "sha256": "8f80de083f23e181ba26d7cd1a8efa9d6aeab01ea053bd871c9586c47d450c6d"
+    },
+    {
+      "path": "reports/w300-watermark-archive/README.md",
+      "bytes": 3664,
+      "sha256": "a8ce14d3f37290c3e1fcc732e6c75fd345f28d7363b534285211492105540c5f"
+    },
+    {
+      "path": "reports/w300-watermark-archive/verified-index.json",
+      "bytes": 3452,
+      "sha256": "d06f3a8d42bc1250b401bae42f73d9f26169746ec4ea2a165d2f8100ffe0e8cd"
+    },
+    {
+      "path": "reports/w300-target-source-manifest-additions.json",
+      "bytes": 7775,
+      "sha256": "f3f980e9cd8712259711d9b1d41ba548036102552bc946bbf844c4f1dd7d2b9f"
+    }
+  ]
+}

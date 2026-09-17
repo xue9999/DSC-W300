@@ -1,0 +1,286 @@
+Static ARM decoding only. Symbol sizes may include trailing literal pools; annotated words are not claimed executed.
+
+_ZN13CUsbGadgetSenC1Ev section=.text value=0xc82c file=0xc82c symbol_size=312
+0x0000c82c 0dc0a0e1     mov      ip, sp
+0x0000c830 f0df2de9     push     {r4, r5, r6, r7, r8, sb, sl, fp, ip, lr, pc}
+0x0000c834 04a19fe5     ldr      sl, [pc, #0x104] ; literal[0xc940]=0xc56c
+0x0000c838 04b04ce2     sub      fp, ip, #4
+0x0000c83c 3cd04de2     sub      sp, sp, #0x3c
+0x0000c840 fc309fe5     ldr      r3, [pc, #0xfc] ; literal[0xc944]=0x2e0
+0x0000c844 0aa08fe0     add      sl, pc, sl
+0x0000c848 03309ae7     ldr      r3, [sl, r3]
+0x0000c84c 44300be5     str      r3, [fp, #-0x44]
+0x0000c850 f0309fe5     ldr      r3, [pc, #0xf0] ; literal[0xc948]=0xfffff986
+0x0000c854 03308ae0     add      r3, sl, r3
+0x0000c858 40300be5     str      r3, [fp, #-0x40]
+0x0000c85c e8309fe5     ldr      r3, [pc, #0xe8] ; literal[0xc94c]=0xffff3b20
+0x0000c860 28204be2     sub      r2, fp, #0x28
+0x0000c864 03308ae0     add      r3, sl, r3
+0x0000c868 60000be5     str      r0, [fp, #-0x60]
+0x0000c86c 5c004be2     sub      r0, fp, #0x5c
+0x0000c870 3c200be5     str      r2, [fp, #-0x3c]
+0x0000c874 38300be5     str      r3, [fp, #-0x38]
+0x0000c878 30700be5     str      r7, [fp, #-0x30]
+0x0000c87c 34d00be5     str      sp, [fp, #-0x34]
+0x0000c880 86e1ffeb     bl       #0x4ea0 ; PLT:_Unwind_SjLj_Register
+0x0000c884 0030e0e3     mvn      r3, #0
+0x0000c888 60001be5     ldr      r0, [fp, #-0x60]
+0x0000c88c 58300be5     str      r3, [fp, #-0x58]
+0x0000c890 b5e1ffeb     bl       #0x4f6c ; PLT:_ZN10CUsbGadgetC2Ev
+0x0000c894 b4309fe5     ldr      r3, [pc, #0xb4] ; literal[0xc950]=0x28c
+0x0000c898 03309ae7     ldr      r3, [sl, r3]
+0x0000c89c 60201be5     ldr      r2, [fp, #-0x60]
+0x0000c8a0 083083e2     add      r3, r3, #8
+0x0000c8a4 003082e5     str      r3, [r2]
+0x0000c8a8 0030a0e3     mov      r3, #0
+0x0000c8ac 8c3082e5     str      r3, [r2, #0x8c]
+0x0000c8b0 013043e2     sub      r3, r3, #1
+0x0000c8b4 903082e5     str      r3, [r2, #0x90]
+0x0000c8b8 0b3083e2     add      r3, r3, #0xb
+0x0000c8bc 1a30c2e5     strb     r3, [r2, #0x1a]
+0x0000c8c0 093043e2     sub      r3, r3, #9
+0x0000c8c4 58300be5     str      r3, [fp, #-0x58]
+0x0000c8c8 0200a0e1     mov      r0, r2
+0x0000c8cc 141082e2     add      r1, r2, #0x14
+0x0000c8d0 41e2ffeb     bl       #0x51dc ; PLT:_ZN4CUsb8que_initEP12CUSB_MES_QUE
+0x0000c8d4 0c0000ea     b        #0xc90c
+0x0000c8d8 74a09fe5     ldr      sl, [pc, #0x74] ; literal[0xc954]=0xc4d4
+0x0000c8dc 0aa08fe0     add      sl, pc, sl
+0x0000c8e0 28b08be2     add      fp, fp, #0x28
+0x0000c8e4 54201be5     ldr      r2, [fp, #-0x54]
+0x0000c8e8 0030a0e3     mov      r3, #0
+0x0000c8ec 60001be5     ldr      r0, [fp, #-0x60]
+0x0000c8f0 58300be5     str      r3, [fp, #-0x58]
+0x0000c8f4 64200be5     str      r2, [fp, #-0x64]
+0x0000c8f8 b3e1ffeb     bl       #0x4fcc ; PLT:_ZN10CUsbGadgetD2Ev
+0x0000c8fc 0030e0e3     mvn      r3, #0
+0x0000c900 64001be5     ldr      r0, [fp, #-0x64]
+0x0000c904 58300be5     str      r3, [fp, #-0x58]
+0x0000c908 e2e1ffeb     bl       #0x5098 ; PLT:_Unwind_SjLj_Resume
+0x0000c90c 44309fe5     ldr      r3, [pc, #0x44] ; literal[0xc958]=0xffff74ec
+0x0000c910 60201be5     ldr      r2, [fp, #-0x60]
+0x0000c914 03308ae0     add      r3, sl, r3
+0x0000c918 d43082e5     str      r3, [r2, #0xd4]
+0x0000c91c 38309fe5     ldr      r3, [pc, #0x38] ; literal[0xc95c]=0xa010007
+0x0000c920 083082e5     str      r3, [r2, #8]
+0x0000c924 34309fe5     ldr      r3, [pc, #0x34] ; literal[0xc960]=0xffff74fc
+0x0000c928 03308ae0     add      r3, sl, r3
+0x0000c92c d03082e5     str      r3, [r2, #0xd0]
+0x0000c930 5c004be2     sub      r0, fp, #0x5c
+0x0000c934 31e2ffeb     bl       #0x5200 ; PLT:_Unwind_SjLj_Unregister
+0x0000c938 28d04be2     sub      sp, fp, #0x28
+0x0000c93c f0af9de8     ldm      sp, {r4, r5, r6, r7, r8, sb, sl, fp, sp, pc}
+0x0000c940 6cc50000     andeq    ip, r0, ip, ror #10
+0x0000c944 e0020000     andeq    r0, r0, r0, ror #5
+
+_ZN13CUsbGadgetSen9on_createEP7CUsbSvcP19CUSB_GADGET_REGINFOP19CUSB_GADGET_CREINFO section=.text value=0xcd70 file=0xcd70 symbol_size=256
+0x0000cd70 0dc0a0e1     mov      ip, sp
+0x0000cd74 f0dd2de9     push     {r4, r5, r6, r7, r8, sl, fp, ip, lr, pc}
+0x0000cd78 e0a09fe5     ldr      sl, [pc, #0xe0] ; literal[0xce60]=0xc028
+0x0000cd7c 04b04ce2     sub      fp, ip, #4
+0x0000cd80 44d04de2     sub      sp, sp, #0x44
+0x0000cd84 0070a0e1     mov      r7, r0
+0x0000cd88 0aa08fe0     add      sl, pc, sl
+0x0000cd8c 0010a0e3     mov      r1, #0
+0x0000cd90 2020a0e3     mov      r2, #0x20
+0x0000cd94 54004be2     sub      r0, fp, #0x54
+0x0000cd98 0340a0e1     mov      r4, r3
+0x0000cd9c 4ae1ffeb     bl       #0x52cc ; PLT:memset
+0x0000cda0 bc309fe5     ldr      r3, [pc, #0xbc] ; literal[0xce64]=0xffff74dc
+0x0000cda4 bcc09fe5     ldr      ip, [pc, #0xbc] ; literal[0xce68]=0x2a8
+0x0000cda8 03308ae0     add      r3, sl, r3
+0x0000cdac 0f0093e8     ldm      r3, {r0, r1, r2, r3}
+0x0000cdb0 d05097e5     ldr      r5, [r7, #0xd0]
+0x0000cdb4 0860d4e5     ldrb     r6, [r4, #8]
+0x0000cdb8 0ce09ae7     ldr      lr, [sl, ip]
+0x0000cdbc 044094e5     ldr      r4, [r4, #4]
+0x0000cdc0 68c04be2     sub      ip, fp, #0x68
+0x0000cdc4 0080e0e3     mvn      r8, #0
+0x0000cdc8 0f008ce8     stm      ip, {r0, r1, r2, r3}
+0x0000cdcc d88087e5     str      r8, [r7, #0xd8]
+0x0000cdd0 1030a0e3     mov      r3, #0x10
+0x0000cdd4 0500a0e1     mov      r0, r5
+0x0000cdd8 0210a0e3     mov      r1, #2
+0x0000cddc 34400be5     str      r4, [fp, #-0x34]
+0x0000cde0 38e00be5     str      lr, [fp, #-0x38]
+0x0000cde4 30604be5     strb     r6, [fp, #-0x30]
+0x0000cde8 2cc00be5     str      ip, [fp, #-0x2c]
+0x0000cdec 28300be5     str      r3, [fp, #-0x28]
+0x0000cdf0 54e00be5     str      lr, [fp, #-0x54]
+0x0000cdf4 50e00be5     str      lr, [fp, #-0x50]
+0x0000cdf8 58700be5     str      r7, [fp, #-0x58]
+0x0000cdfc 24e0ffeb     bl       #0x4e94 ; PLT:open
+0x0000ce00 000050e3     cmp      r0, #0
+0x0000ce04 d80087e5     str      r0, [r7, #0xd8]
+0x0000ce08 0740a0b3     movlt    r4, #7
+0x0000ce0c 100000ba     blt      #0xce54
+0x0000ce10 d40097e5     ldr      r0, [r7, #0xd4]
+0x0000ce14 dc8087e5     str      r8, [r7, #0xdc]
+0x0000ce18 0210a0e3     mov      r1, #2
+0x0000ce1c 1ce0ffeb     bl       #0x4e94 ; PLT:open
+0x0000ce20 000050e3     cmp      r0, #0
+0x0000ce24 dc0087e5     str      r0, [r7, #0xdc]
+0x0000ce28 d80097e5     ldr      r0, [r7, #0xd8]
+0x0000ce2c 020000aa     bge      #0xce3c
+0x0000ce30 0740a0e3     mov      r4, #7
+0x0000ce34 e2e0ffeb     bl       #0x51c4 ; PLT:close
+0x0000ce38 050000ea     b        #0xce54
+0x0000ce3c 28109fe5     ldr      r1, [pc, #0x28] ; literal[0xce6c]=0x4034e000
+0x0000ce40 58204be2     sub      r2, fp, #0x58
+0x0000ce44 66e0ffeb     bl       #0x4fe4 ; PLT:ioctl
+0x0000ce48 000050e3     cmp      r0, #0
+0x0000ce4c 0940a0b3     movlt    r4, #9
+0x0000ce50 0040a0a3     movge    r4, #0
+0x0000ce54 0400a0e1     mov      r0, r4
+0x0000ce58 24d04be2     sub      sp, fp, #0x24
+0x0000ce5c f0ad9de8     ldm      sp, {r4, r5, r6, r7, r8, sl, fp, sp, pc}
+0x0000ce60 28c00000     andeq    ip, r0, r8, lsr #32
+
+_ZN8CUsbUser19set_user_descriptorEP13__cusb_user_t section=.text value=0xd278 file=0xd278 symbol_size=144
+0x0000d278 0dc0a0e1     mov      ip, sp
+0x0000d27c f0d82de9     push     {r4, r5, r6, r7, fp, ip, lr, pc}
+0x0000d280 04b04ce2     sub      fp, ip, #4
+0x0000d284 0140a0e1     mov      r4, r1
+0x0000d288 99e0ffeb     bl       #0x54f4 ; PLT:_ZN8CUsbUser10alloc_userEv
+0x0000d28c 004094e5     ldr      r4, [r4]
+0x0000d290 005090e5     ldr      r5, [r0]
+0x0000d294 053094e1     orrs     r3, r4, r5
+0x0000d298 0070a0e1     mov      r7, r0
+0x0000d29c 1700000a     beq      #0xd300
+0x0000d2a0 046094e5     ldr      r6, [r4, #4]
+0x0000d2a4 000056e3     cmp      r6, #0
+0x0000d2a8 1400001a     bne      #0xd300
+0x0000d2ac 0830d4e5     ldrb     r3, [r4, #8]
+0x0000d2b0 8330a0e1     lsl      r3, r3, #1
+0x0000d2b4 0830c5e5     strb     r3, [r5, #8]
+0x0000d2b8 0800d5e5     ldrb     r0, [r5, #8]
+0x0000d2bc e2deffeb     bl       #0x4e4c ; PLT:_Znaj
+0x0000d2c0 0830d4e5     ldrb     r3, [r4, #8]
+0x0000d2c4 000085e5     str      r0, [r5]
+0x0000d2c8 0620a0e1     mov      r2, r6
+0x0000d2cc 030056e1     cmp      r6, r3
+0x0000d2d0 080000aa     bge      #0xd2f8
+0x0000d2d4 003094e5     ldr      r3, [r4]
+0x0000d2d8 0230d3e7     ldrb     r3, [r3, r2]
+0x0000d2dc 0130c0e4     strb     r3, [r0], #1
+0x0000d2e0 0030a0e3     mov      r3, #0
+0x0000d2e4 0130c0e4     strb     r3, [r0], #1
+0x0000d2e8 0830d4e5     ldrb     r3, [r4, #8]
+0x0000d2ec 012082e2     add      r2, r2, #1
+0x0000d2f0 030052e1     cmp      r2, r3
+0x0000d2f4 f5ffffea     b        #0xd2d0
+0x0000d2f8 0130a0e3     mov      r3, #1
+0x0000d2fc 043085e5     str      r3, [r5, #4]
+0x0000d300 0700a0e1     mov      r0, r7
+0x0000d304 f0a89de8     ldm      sp, {r4, r5, r6, r7, fp, sp, pc}
+
+_ZN7CUsbSvc5startE11__USBIF_DIDPvhPFS1_S1_S1_hiE section=.text value=0x9554 file=0x9554 symbol_size=164
+0x00009554 0dc0a0e1     mov      ip, sp
+0x00009558 f0d92de9     push     {r4, r5, r6, r7, r8, fp, ip, lr, pc}
+0x0000955c 240051e3     cmp      r1, #0x24
+0x00009560 04b04ce2     sub      fp, ip, #4
+0x00009564 04d04de2     sub      sp, sp, #4
+0x00009568 0150a0e3     mov      r5, #1
+0x0000956c 0040a0e1     mov      r4, r0
+0x00009570 0270a0e1     mov      r7, r2
+0x00009574 ff8003e2     and      r8, r3, #0xff
+0x00009578 0a5085c2     addgt    r5, r5, #0xa
+0x0000957c 1b0000ca     bgt      #0x95f0
+0x00009580 220051e3     cmp      r1, #0x22
+0x00009584 a01080d5     strle    r1, [r0, #0xa0]
+0x00009588 a41080c5     strgt    r1, [r0, #0xa4]
+0x0000958c 0560a0d1     movle    r6, r5
+0x00009590 0060a0c3     movgt    r6, #0
+0x00009594 49efffeb     bl       #0x52c0 ; PLT:_ZN7CUsbSvc8usb_portEv
+0x00009598 e830d4e5     ldrb     r3, [r4, #0xe8]
+0x0000959c 010053e3     cmp      r3, #1
+0x000095a0 0300001a     bne      #0x95b4
+0x000095a4 ec3094e5     ldr      r3, [r4, #0xec]
+0x000095a8 010073e3     cmn      r3, #1
+0x000095ac 1050a003     moveq    r5, #0x10
+0x000095b0 0e00000a     beq      #0x95f0
+0x000095b4 000056e3     cmp      r6, #0
+0x000095b8 0500000a     beq      #0x95d4
+0x000095bc 0710a0e1     mov      r1, r7
+0x000095c0 0820a0e1     mov      r2, r8
+0x000095c4 04309be5     ldr      r3, [fp, #4]
+0x000095c8 0400a0e1     mov      r0, r4
+0x000095cc 6befffeb     bl       #0x5380 ; PLT:_ZN7CUsbSvc12start_gadgetEPvhPFS0_S0_S0_hiE
+0x000095d0 0050a0e1     mov      r5, r0
+0x000095d4 ecc094e5     ldr      ip, [r4, #0xec]
+0x000095d8 0320a0e3     mov      r2, #3
+0x000095dc 2300a0e3     mov      r0, #0x23
+0x000095e0 0110a0e3     mov      r1, #1
+0x000095e4 0230a0e1     mov      r3, r2
+0x000095e8 00c08de5     str      ip, [sp]
+0x000095ec 64eeffeb     bl       #0x4f84 ; PLT:usb_trace_out
+0x000095f0 0500a0e1     mov      r0, r5
+0x000095f4 f0a99de9     ldmib    sp, {r4, r5, r6, r7, r8, fp, sp, pc}
+
+usbproduct_conv_did section=.text value=0xfe38 file=0xfe38 symbol_size=144
+0x0000fe38 0dc0a0e1     mov      ip, sp
+0x0000fe3c 00dc2de9     push     {sl, fp, ip, lr, pc}
+0x0000fe40 78a09fe5     ldr      sl, [pc, #0x78] ; literal[0xfec0]=0x8f68
+0x0000fe44 78309fe5     ldr      r3, [pc, #0x78] ; literal[0xfec4]=0xc68
+0x0000fe48 0aa08fe0     add      sl, pc, sl
+0x0000fe4c 03309ae7     ldr      r3, [sl, r3]
+0x0000fe50 080053e3     cmp      r3, #8
+0x0000fe54 04b04ce2     sub      fp, ip, #4
+0x0000fe58 0c00000a     beq      #0xfe90
+0x0000fe5c 0200008a     bhi      #0xfe6c
+0x0000fe60 010053e3     cmp      r3, #1
+0x0000fe64 00ac9d18     ldmne    sp, {sl, fp, sp, pc}
+0x0000fe68 020000ea     b        #0xfe78
+0x0000fe6c 090053e3     cmp      r3, #9
+0x0000fe70 00ac9d18     ldmne    sp, {sl, fp, sp, pc}
+0x0000fe74 0b0000ea     b        #0xfea8
+0x0000fe78 000050e3     cmp      r0, #0
+0x0000fe7c 0300a001     moveq    r0, r3
+0x0000fe80 00ac9d08     ldmeq    sp, {sl, fp, sp, pc}
+0x0000fe84 0c0050e3     cmp      r0, #0xc
+0x0000fe88 13008002     addeq    r0, r0, #0x13
+0x0000fe8c 00ac9de8     ldm      sp, {sl, fp, sp, pc}
+0x0000fe90 000050e3     cmp      r0, #0
+0x0000fe94 0400a003     moveq    r0, #4
+0x0000fe98 00ac9d08     ldmeq    sp, {sl, fp, sp, pc}
+0x0000fe9c 0c0050e3     cmp      r0, #0xc
+0x0000fea0 14008002     addeq    r0, r0, #0x14
+0x0000fea4 00ac9de8     ldm      sp, {sl, fp, sp, pc}
+0x0000fea8 000050e3     cmp      r0, #0
+0x0000feac 2100a003     moveq    r0, #0x21
+0x0000feb0 00ac9d08     ldmeq    sp, {sl, fp, sp, pc}
+0x0000feb4 0c0050e3     cmp      r0, #0xc
+0x0000feb8 16008002     addeq    r0, r0, #0x16
+0x0000febc 00ac9de8     ldm      sp, {sl, fp, sp, pc}
+0x0000fec0 688f0000     andeq    r8, r0, r8, ror #30
+0x0000fec4 680c0000     andeq    r0, r0, r8, ror #24
+
+_ZN13CUsbGadgetSen11proc_keventEmhhPv section=.text value=0xcec0 file=0xcec0 symbol_size=112
+0x0000cec0 ff1001e2     and      r1, r1, #0xff
+0x0000cec4 0dc0a0e1     mov      ip, sp
+0x0000cec8 010051e3     cmp      r1, #1
+0x0000cecc 00d82de9     push     {fp, ip, lr, pc}
+0x0000ced0 ff2002e2     and      r2, r2, #0xff
+0x0000ced4 04b04ce2     sub      fp, ip, #4
+0x0000ced8 00e0a0e1     mov      lr, r0
+0x0000cedc 0a00000a     beq      #0xcf0c
+0x0000cee0 070051e3     cmp      r1, #7
+0x0000cee4 00a89d18     ldmne    sp, {fp, sp, pc}
+0x0000cee8 040052e3     cmp      r2, #4
+0x0000ceec 00a89d18     ldmne    sp, {fp, sp, pc}
+0x0000cef0 003093e5     ldr      r3, [r3]
+0x0000cef4 000053e3     cmp      r3, #0
+0x0000cef8 9cc09005     ldreq    ip, [r0, #0x9c]
+0x0000cefc 0200a003     moveq    r0, #2
+0x0000cf00 0300000a     beq      #0xcf14
+0x0000cf04 010053e3     cmp      r3, #1
+0x0000cf08 00a89d18     ldmne    sp, {fp, sp, pc}
+0x0000cf0c a0c09ee5     ldr      ip, [lr, #0xa0]
+0x0000cf10 0300a0e3     mov      r0, #3
+0x0000cf14 00005ce3     cmp      ip, #0
+0x0000cf18 00a89d08     ldmeq    sp, {fp, sp, pc}
+0x0000cf1c 0010a0e3     mov      r1, #0
+0x0000cf20 0e30a0e1     mov      r3, lr
+0x0000cf24 0120a0e1     mov      r2, r1
+0x0000cf28 3cff2fe1     blx      ip
+0x0000cf2c 00a89de8     ldm      sp, {fp, sp, pc}

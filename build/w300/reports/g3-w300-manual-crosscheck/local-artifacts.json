@@ -1,0 +1,40 @@
+{
+  "artifacts": [
+    {
+      "path": "build/w300/downloads/g3-service-reference/archive-acquisition.json",
+      "bytes": 408,
+      "sha256": "e24a9cd818d3625fb8be0ec0b191c265253166b932fa6d2ab994492241cb9078"
+    },
+    {
+      "path": "build/w300/downloads/g3-service-reference/candidate-acquisition.json",
+      "bytes": 490,
+      "sha256": "2a98784cea999304bb010014b63155594f4afbb8efb4a515293741571009b645"
+    },
+    {
+      "path": "build/w300/downloads/g3-service-reference/catalog-acquisition.json",
+      "bytes": 1943,
+      "sha256": "c5452ee3c1cf5a23a706520a394cd7a6b3ab31004e39c22bb4285115e4002d30"
+    },
+    {
+      "path": "build/w300/downloads/g3-service-reference/ia-g3-sony.json",
+      "bytes": 13973,
+      "sha256": "ebea9c4bafe9e7354ac2e47e7d0aee180693c082a965fbc503df428912f08969"
+    },
+    {
+      "path": "build/w300/downloads/g3-service-reference/ia-search.json",
+      "bytes": 833,
+      "sha256": "0937f68327b70b4a1037824b481f0f7486dff8077391d29333ee052c5965dfed"
+    },
+    {
+      "path": "build/w300/downloads/g3-service-reference/ia-sony-collections.json",
+      "bytes": 8808,
+      "sha256": "5e75caa5393051daca417e372e2f4bc95c395605505b28508d0534e0d63fc3eb"
+    },
+    {
+      "path": "build/w300/downloads/g3-service-reference/ia-sony-manual-collections.json",
+      "bytes": 12644,
+      "sha256": "2a247051c84b1cf57c1a76d5b54702e3c209bcc7c1719b0feeb2a49e2b5175c3"
+    }
+  ],
+  "all_are_research_records_not_service_manuals": true
+}

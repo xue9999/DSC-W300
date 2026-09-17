@@ -1,16 +1,8 @@
 #!/usr/bin/env python3
-"""Adversarial Challenge & Stress Test Harness for Sony DSC-W300 Service Tool.
+"""Offline hypothetical service-model regression tests.
 
-Target: tools/w300_service_tool.py
-Agent: challenger_service_1 (Empirical Challenger)
-
-Test Categories:
-- Category A: Malformed Packets & Corrupted Byte Headers
-- Category B: Corrupted Challenge/Response Authentication Digests
-- Category C: Out-of-Order Command Sequences & State Machine Violations
-- Category D: Safety Guardrail Strict Exit Code 2 Enforcement
-- Category E: Fail-Closed --dry-run Non-Volatile Memory Invariance
-- Category F: Cryptographic Fault Invariant & EVR Page Boundary Stress
+All calibration, region, transport and recovery scenarios use invented fixtures.
+Passing these tests establishes no compatibility or efficacy on W300 hardware.
 """
 
 from __future__ import annotations
@@ -102,10 +94,8 @@ class TestCategoryAMalformedPackets(BaseAdversarialTestCase):
             1, 0, 0, 0, 0
         )
         packet = header + b"1234"
-        parsed = self.protocol.parse_packet(packet)
-        # Verify parser behavior on truncated payload
-        self.assertEqual(parsed['size'], 100)
-        self.assertEqual(len(parsed['payload']), 4)  # payload is truncated to actual available
+        with self.assertRaisesRegex(ValueError, 'Truncated'):
+            self.protocol.parse_packet(packet)
 
     def test_parse_auth_packet_undersized_inputs(self):
         """AuthPackets shorter than 516 bytes must fail with ValueError."""
@@ -646,12 +636,12 @@ class TestCategoryDSafetyGuardrailExit2(BaseAdversarialTestCase):
                 resp = prot.parse_packet(camera.bulk_read())
                 self.assertEqual(resp['response'], 5)
 
-    def test_cli_live_usb_failure_returns_exit_code_1(self):
-        """Running live USB command without --mock returns exit code 1."""
-        cmd = [sys.executable, str(TOOL_SCRIPT_PATH), "detect"]
+    def test_cli_live_service_is_explicitly_unsupported(self):
+        """An unsupported service command fails before any hardware access."""
+        cmd = [sys.executable, str(TOOL_SCRIPT_PATH), "read"]
         result = subprocess.run(cmd, capture_output=True, text=True)
-        self.assertEqual(result.returncode, 1)
-        self.assertIn("[ERROR: PROTOCOL]", result.stderr)
+        self.assertEqual(result.returncode, 2)
+        self.assertIn("[ERROR: UNVALIDATED_W300]", result.stderr)
 
     def test_cli_detect_mock_returns_exit_code_0(self):
         """Running --mock detect returns exit code 0."""

@@ -1,32 +1,27 @@
-# OS metadata
+# Local environment and generated output
 .DS_Store
 Thumbs.db
-
-# Agent state and scratchpads
 .agents/
-
-# Python artifacts
 __pycache__/
 *.py[cod]
-*$py.class
 .venv/
 env/
 venv/
+/build/*
+!/build/w300/
+/build/w300/*
+!/build/w300/*.py
+!/build/w300/*.ps1
+!/build/w300/requirements.lock.txt
+!/build/w300/package_manifest.json
+!/build/w300/reports/
+!/build/w300/manifests/
+/build/w300/reports/**/__pycache__/
+/build/w300/reports/**/*.pyc
+/tools/ghidra
+# Preserved firmware is intentionally tracked and protected by .gitattributes.
+# Do not globally ignore binary extensions: new evidence must remain reviewable.
 
-# Large firmware images and raw binary blobs
-*.exe
-*.dat
-*.fdat
-*.img
-*.bin
-*.tar
-*.iso
-
-# Raw unpacked trees (keep inventory JSON and markdown architecture reports)
-evidence/extracted_g3/sections/
-evidence/extracted_g3/rootfs/
-evidence/extracted_g3/archives_unpacked/
-evidence/extracted_g3/kernel/
-
-# Preserve tools except ghidra binary (large 10MB binary)
-tools/ghidra
+# Research asset bootstrap copies (canonical guide is under docs/w300).
+/RESTORE_RESEARCH.md
+/RESEARCH_MANIFEST.json

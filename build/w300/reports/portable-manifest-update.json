@@ -1,0 +1,177 @@
+[
+  {
+    "path": "w300_workbench.py",
+    "previous": {
+      "path": "w300_workbench.py",
+      "bytes": 10280,
+      "sha256": "e92b3c6eb3b8e9d4be0440a5679590ada359aae3955e2cfec80af38b7fbf96a9"
+    },
+    "current": {
+      "path": "w300_workbench.py",
+      "bytes": 12026,
+      "sha256": "fa02b5b3a0e5cdcbc9d98305beca10a0c69e630734a49e2e1b4a1bcd4b35ae42"
+    }
+  },
+  {
+    "path": "build_portable.py",
+    "previous": null,
+    "current": {
+      "path": "build_portable.py",
+      "bytes": 7814,
+      "sha256": "6f63a53064954d014cee84a9fdb68803481ee67bcd234a44b5d3d46d29259022"
+    }
+  },
+  {
+    "path": "validate_portable.py",
+    "previous": null,
+    "current": {
+      "path": "validate_portable.py",
+      "bytes": 4553,
+      "sha256": "7c630857895337c9e51be689665a467a535f0cd7614f1351ce12d0e7ca99dc99"
+    }
+  },
+  {
+    "path": "downloads/portable-runtime/hashes.sha256",
+    "previous": null,
+    "current": {
+      "path": "downloads/portable-runtime/hashes.sha256",
+      "bytes": 6174,
+      "sha256": "a8dd02e41161d7c7f79108157f3ce929735e3914ec9f910104eb1b7bc9e247e6"
+    }
+  },
+  {
+    "path": "downloads/portable-runtime/PowerShell-7.4.18-win-x64.zip",
+    "previous": null,
+    "current": {
+      "path": "downloads/portable-runtime/PowerShell-7.4.18-win-x64.zip",
+      "bytes": 111931009,
+      "sha256": "d018ed5f92ff15a28442dce6a804b1e2aa6153d9fe1e9a06de8fd8142b171f4a"
+    }
+  },
+  {
+    "path": "downloads/portable-runtime/powershell-release.json",
+    "previous": null,
+    "current": {
+      "path": "downloads/portable-runtime/powershell-release.json",
+      "bytes": 3881,
+      "sha256": "62086c7d6f12d4efd05858339b9c214e8727cea53e054490f53bfe8c36640597"
+    }
+  },
+  {
+    "path": "downloads/ibiss-reference/canonical-host-results.json",
+    "previous": null,
+    "current": {
+      "path": "downloads/ibiss-reference/canonical-host-results.json",
+      "bytes": 1772,
+      "sha256": "4bd86d8aeff548911be85bc90e137590e6b117aa63b3163fcfdf263dd7aa955f"
+    }
+  },
+  {
+    "path": "downloads/ibiss-reference/canonical-host-route-0.txt",
+    "previous": null,
+    "current": {
+      "path": "downloads/ibiss-reference/canonical-host-route-0.txt",
+      "bytes": 471,
+      "sha256": "79c774b39eb6a9d3f73e0f4bdaf43059c7b35f5aab76dfc68039cc0aa7fa0581"
+    }
+  },
+  {
+    "path": "downloads/ibiss-reference/canonical-host-route-1.txt",
+    "previous": null,
+    "current": {
+      "path": "downloads/ibiss-reference/canonical-host-route-1.txt",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    }
+  },
+  {
+    "path": "downloads/ibiss-reference/canonical-host-route-2.txt",
+    "previous": null,
+    "current": {
+      "path": "downloads/ibiss-reference/canonical-host-route-2.txt",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    }
+  },
+  {
+    "path": "downloads/ibiss-reference/cdx-known-prefix-result.json",
+    "previous": null,
+    "current": {
+      "path": "downloads/ibiss-reference/cdx-known-prefix-result.json",
+      "bytes": 210,
+      "sha256": "654bc2885244cac81ebad7e12152c16b3c3dde862316a6e4294e3e8c2cd80fd9"
+    }
+  },
+  {
+    "path": "downloads/ibiss-reference/cdx-known-prefix.json",
+    "previous": null,
+    "current": {
+      "path": "downloads/ibiss-reference/cdx-known-prefix.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    }
+  },
+  {
+    "path": "downloads/ibiss-reference/endpoint-checks.json",
+    "previous": null,
+    "current": {
+      "path": "downloads/ibiss-reference/endpoint-checks.json",
+      "bytes": 736,
+      "sha256": "db950246a51c9d7a9b699cddbbc69975dc7c3fea35c0c8332a721c97e459dc97"
+    }
+  },
+  {
+    "path": "downloads/ibiss-reference/forum-585578.html",
+    "previous": null,
+    "current": {
+      "path": "downloads/ibiss-reference/forum-585578.html",
+      "bytes": 104345,
+      "sha256": "94d41d05d78ea539f7d50eaf93ca340cd3af15ea42963b5827ccbbf8b2db1eb2"
+    }
+  },
+  {
+    "path": "downloads/ibiss-reference/portal-results.json",
+    "previous": null,
+    "current": {
+      "path": "downloads/ibiss-reference/portal-results.json",
+      "bytes": 514,
+      "sha256": "38a7e853dc9aa34e73213ab2295481f4ba95c681d20c470f36c707a704fceeeb"
+    }
+  },
+  {
+    "path": "downloads/ibiss-reference/portal-route-0.html",
+    "previous": null,
+    "current": {
+      "path": "downloads/ibiss-reference/portal-route-0.html",
+      "bytes": 5476,
+      "sha256": "d452fdba1e6b7535d286a0763e10bb8674a82f627e2bc395892c269344f9e871"
+    }
+  },
+  {
+    "path": "downloads/ibiss-reference/public-route-results.json",
+    "previous": null,
+    "current": {
+      "path": "downloads/ibiss-reference/public-route-results.json",
+      "bytes": 1108,
+      "sha256": "68bc7fb1dc88b58a56db925d2859fee30813c6d40a8020865977e96e055a43ba"
+    }
+  },
+  {
+    "path": "downloads/legacy-pmca/addressing-reference/a330-7914900.py",
+    "previous": null,
+    "current": {
+      "path": "downloads/legacy-pmca/addressing-reference/a330-7914900.py",
+      "bytes": 4396,
+      "sha256": "b0cec76ee4fc1b726c21dd4b7e876b4619f4cab126ef9a7d0c20f847f2dbef7a"
+    }
+  },
+  {
+    "path": "downloads/legacy-pmca/addressing-reference/a330-7914900.zip",
+    "previous": null,
+    "current": {
+      "path": "downloads/legacy-pmca/addressing-reference/a330-7914900.zip",
+      "bytes": 1488,
+      "sha256": "1b7d5799da621df3843ba139e3df326b69fd60e1ed2a21b1f167d7eb547fbf02"
+    }
+  }
+]

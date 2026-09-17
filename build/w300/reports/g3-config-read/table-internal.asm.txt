@@ -1,0 +1,47 @@
+range@0x21f0:0x22a8 section=.text value=0x21f0 file=0x21f0 symbol_size=184
+0x000021f0 0dc0a0e1     mov      ip, sp
+0x000021f4 00d82de9     push     {fp, ip, lr, pc}
+0x000021f8 200ca0e1     lsr      r0, r0, #0x18
+0x000021fc 04b04ce2     sub      fp, ip, #4
+0x00002200 00a89de8     ldm      sp, {fp, sp, pc}
+0x00002204 0dc0a0e1     mov      ip, sp
+0x00002208 f0dc2de9     push     {r4, r5, r6, r7, sl, fp, ip, lr, pc}
+0x0000220c 8ca09fe5     ldr      sl, [pc, #0x8c] ; literal[0x22a0]=0x9114
+0x00002210 04b04ce2     sub      fp, ip, #4
+0x00002214 0aa08fe0     add      sl, pc, sl
+0x00002218 0050a0e1     mov      r5, r0
+0x0000221c f3ffffeb     bl       #0x21f0
+0x00002220 8000a0e1     lsl      r0, r0, #1
+0x00002224 010070e3     cmn      r0, #1
+0x00002228 0070a0e3     mov      r7, #0
+0x0000222c 0060a0e1     mov      r6, r0
+0x00002230 1800002a     bhs      #0x2298
+0x00002234 68309fe5     ldr      r3, [pc, #0x68] ; literal[0x22a4]=0x134b0
+0x00002238 03208ae0     add      r2, sl, r3
+0x0000223c 803182e0     add      r3, r2, r0, lsl #3
+0x00002240 04c093e5     ldr      ip, [r3, #4]
+0x00002244 00e0a0e3     mov      lr, #0
+0x00002248 804192e7     ldr      r4, [r2, r0, lsl #3]
+0x0000224c 0c005ee1     cmp      lr, ip
+0x00002250 0c00002a     bhs      #0x2288
+0x00002254 0c308ee0     add      r3, lr, ip
+0x00002258 a310a0e1     lsr      r1, r3, #1
+0x0000225c 013181e0     add      r3, r1, r1, lsl #2
+0x00002260 0331a0e1     lsl      r3, r3, #2
+0x00002264 042093e7     ldr      r2, [r3, r4]
+0x00002268 020055e1     cmp      r5, r2
+0x0000226c 043083e0     add      r3, r3, r4
+0x00002270 0370a001     moveq    r7, r3
+0x00002274 0700000a     beq      #0x2298
+0x00002278 01e08182     addhi    lr, r1, #1
+0x0000227c 01c0a091     movls    ip, r1
+0x00002280 0c005ee1     cmp      lr, ip
+0x00002284 f1ffffea     b        #0x2250
+0x00002288 010080e2     add      r0, r0, #1
+0x0000228c 013086e2     add      r3, r6, #1
+0x00002290 030050e1     cmp      r0, r3
+0x00002294 e6ffff9a     bls      #0x2234
+0x00002298 0700a0e1     mov      r0, r7
+0x0000229c f0ac9de8     ldm      sp, {r4, r5, r6, r7, sl, fp, sp, pc}
+0x000022a0 14910000     andeq    sb, r0, r4, lsl r1
+0x000022a4 b0340100     strheq   r3, [r1], -r0

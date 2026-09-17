@@ -1,0 +1,55 @@
+{
+  "version": "1",
+  "pip_version": "25.0.1",
+  "install": [
+    {
+      "download_info": {
+        "url": "file:///C:/Users/apara01/OneDrive%20-%20Kearney/Documents/ChatGPT/W300/DSC-W300/build/w300/re-tools/wheels/capstone-5.0.6-py3-none-win_amd64.whl",
+        "archive_info": {
+          "hash": "sha256=761c3deae00b22ac697081cdae1383bb90659dd0d79387a09cf5bdbb22b17064",
+          "hashes": {
+            "sha256": "761c3deae00b22ac697081cdae1383bb90659dd0d79387a09cf5bdbb22b17064"
+          }
+        }
+      },
+      "is_direct": false,
+      "is_yanked": false,
+      "requested": true,
+      "metadata": {
+        "metadata_version": "2.1",
+        "name": "capstone",
+        "version": "5.0.6",
+        "summary": "Capstone disassembly engine",
+        "description": "To install Capstone, you should run `pip install capstone`.\r\n\r\nIf you would like to build Capstone with just the source distribution, without\r\npip, just run `python setup.py install` in the folder with setup.py in it.\r\n\r\nIn order to use this source distribution, you will need an environment that can\r\ncompile C code. On Linux, this is usually easy, but on Windows, this involves\r\ninstalling Visual Studio and using the \"Developer Command Prompt\" to perform the\r\ninstallation. See BUILDING.txt for more information.\r\n\r\nBy default, attempting to install the python bindings will trigger a build of\r\nthe capstone native core. If this is undesirable for whatever reason, for\r\ninstance, you already have a globally installed copy of libcapstone, you may\r\ninhibit the build by setting the environment variable LIBCAPSTONE_PATH. The\r\nexact value is not checked, just setting it will inhibit the build. During\r\nexecution, this variable may be set to the path of a directory containing a\r\nspecific version of libcapstone you would like to use.\r\n\r\nIf you don't want to build your own copy of Capstone, you can use a precompiled\r\nbinary distribution from PyPI. Saying `pip install capstone` should\r\nautomatically obtain an appropriate copy for your system. If it does not, please\r\nopen an issue at https://github.com/aquynh/capstone and tag @rhelmot - she\r\nwill fix this, probably!\r\n\r\n--------------------------------------------------------------------------------\r\n\r\nCapstone is a disassembly framework with the target of becoming the ultimate\r\ndisasm engine for binary analysis and reversing in the security community.\r\n\r\nCreated by Nguyen Anh Quynh, then developed and maintained by a small community,\r\nCapstone offers some unparalleled features:\r\n\r\n- Support multiple hardware architectures: ARM, ARM64 (ARMv8), Mips, PPC, Sparc,\r\n  SystemZ, XCore and X86 (including X86_64).\r\n\r\n- Having clean/simple/lightweight/intuitive architecture-neutral API.\r\n\r\n- Provide details on disassembled instruction (called “decomposer” by others).\r\n\r\n- Provide semantics of the disassembled instruction, such as list of implicit\r\n  registers read & written.\r\n\r\n- Implemented in pure C language, with lightweight wrappers for C++, C#, Go,\r\n  Java, NodeJS, Ocaml, Python, Ruby & Vala ready (available in main code,\r\n  or provided externally by the community).\r\n\r\n- Native support for all popular platforms: Windows, Mac OSX, iOS, Android,\r\n  Linux, *BSD, Solaris, etc.\r\n\r\n- Thread-safe by design.\r\n\r\n- Special support for embedding into firmware or OS kernel.\r\n\r\n- High performance & suitable for malware analysis (capable of handling various\r\n  X86 malware tricks).\r\n\r\n- Distributed under the open source BSD license.\r\n\r\nFurther information is available at http://www.capstone-engine.org\r\n\r\n\r\n[License]\r\n\r\nThis project is released under the BSD license. If you redistribute the binary\r\nor source code of Capstone, please attach file LICENSE.TXT with your products.\r\n",
+        "description_content_type": "text/markdown",
+        "home_page": "https://www.capstone-engine.org",
+        "author": "Nguyen Anh Quynh",
+        "author_email": "aquynh@gmail.com",
+        "license_file": [
+          "LICENSE.TXT"
+        ],
+        "classifier": [
+          "License :: OSI Approved :: BSD License",
+          "Programming Language :: Python :: 3"
+        ],
+        "requires_dist": [
+          "importlib-resources ; python_version < \"3.9\""
+        ],
+        "requires_python": ">=3.8"
+      }
+    }
+  ],
+  "environment": {
+    "implementation_name": "cpython",
+    "implementation_version": "3.12.14",
+    "os_name": "nt",
+    "platform_machine": "AMD64",
+    "platform_release": "11",
+    "platform_system": "Windows",
+    "platform_version": "10.0.26200",
+    "python_full_version": "3.12.14",
+    "platform_python_implementation": "CPython",
+    "python_version": "3.12",
+    "sys_platform": "win32"
+  }
+}

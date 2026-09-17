@@ -1,0 +1,73 @@
+Static G3 code only. Symbol-size decoding may include trailing literal pools; those words are not claimed executed.
+
+evidence/extracted_g3/archives_unpacked/fskrel1/dsc/fsk/usbExt.so
+
+6d60f8a247202ad4f64bd8edba7ea35845885a4dde349cbd3a9e77ff8061dca9
+
+xs_reqStart section=.text value=0x2948 file=0x2948 symbol_size=276
+0x00002948 0dc0a0e1     mov      ip, sp
+0x0000294c 30dc2de9     push     {r4, r5, sl, fp, ip, lr, pc}
+0x00002950 04b04ce2     sub      fp, ip, #4
+0x00002954 e8a09fe5     ldr      sl, [pc, #0xe8] ; literal[0x2a44]=0x977c
+0x00002958 0aa08fe0     add      sl, pc, sl
+0x0000295c 0050a0e1     mov      r5, r0
+0x00002960 0010a0e3     mov      r1, #0
+0x00002964 35faffeb     bl       #0x1240 ; PLT:fxCheckArg
+0x00002968 103095e5     ldr      r3, [r5, #0x10]
+0x0000296c 003283e0     add      r3, r3, r0, lsl #4
+0x00002970 503083e2     add      r3, r3, #0x50
+0x00002974 1cc085e2     add      ip, r5, #0x1c
+0x00002978 0f0093e8     ldm      r3, {r0, r1, r2, r3}
+0x0000297c 0f008ce8     stm      ip, {r0, r1, r2, r3}
+0x00002980 0500a0e1     mov      r0, r5
+0x00002984 0c10a0e1     mov      r1, ip
+0x00002988 83faffeb     bl       #0x139c ; PLT:fxToInteger
+0x0000298c 0020a0e1     mov      r2, r0
+0x00002990 b0309fe5     ldr      r3, [pc, #0xb0] ; literal[0x2a48]=0x1608
+0x00002994 03308ae0     add      r3, sl, r3
+0x00002998 1c3093e5     ldr      r3, [r3, #0x1c]
+0x0000299c 000053e3     cmp      r3, #0
+0x000029a0 0900000a     beq      #0x29cc
+0x000029a4 a0309fe5     ldr      r3, [pc, #0xa0] ; literal[0x2a4c]=0x1648
+0x000029a8 03309ae7     ldr      r3, [sl, r3]
+0x000029ac 0300a0e1     mov      r0, r3
+0x000029b0 0210a0e1     mov      r1, r2
+0x000029b4 94209fe5     ldr      r2, [pc, #0x94] ; literal[0x2a50]=0xffff5b2c
+0x000029b8 02208ae0     add      r2, sl, r2
+0x000029bc 08c093e5     ldr      ip, [r3, #8]
+0x000029c0 3cff2fe1     blx      ip
+0x000029c4 0030a0e1     mov      r3, r0
+0x000029c8 0e0000ea     b        #0x2a08
+0x000029cc 80309fe5     ldr      r3, [pc, #0x80] ; literal[0x2a54]=0x1628
+0x000029d0 03308ae0     add      r3, sl, r3
+0x000029d4 1c3093e5     ldr      r3, [r3, #0x1c]
+0x000029d8 000053e3     cmp      r3, #0
+0x000029dc 0030a003     moveq    r3, #0
+0x000029e0 0800000a     beq      #0x2a08
+0x000029e4 60309fe5     ldr      r3, [pc, #0x60] ; literal[0x2a4c]=0x1648
+0x000029e8 03309ae7     ldr      r3, [sl, r3]
+0x000029ec 0300a0e1     mov      r0, r3
+0x000029f0 0210a0e1     mov      r1, r2
+0x000029f4 5c209fe5     ldr      r2, [pc, #0x5c] ; literal[0x2a58]=0xffff5f50
+0x000029f8 02208ae0     add      r2, sl, r2
+0x000029fc 0cc093e5     ldr      ip, [r3, #0xc]
+0x00002a00 3cff2fe1     blx      ip
+0x00002a04 0030a0e1     mov      r3, r0
+0x00002a08 104095e5     ldr      r4, [r5, #0x10]
+0x00002a0c 001095e5     ldr      r1, [r5]
+0x00002a10 101041e2     sub      r1, r1, #0x10
+0x00002a14 001085e5     str      r1, [r5]
+0x00002a18 0500a0e1     mov      r0, r5
+0x00002a1c 0320a0e1     mov      r2, r3
+0x00002a20 60faffeb     bl       #0x13a8 ; PLT:fxInteger
+0x00002a24 003095e5     ldr      r3, [r5]
+0x00002a28 0320a0e1     mov      r2, r3
+0x00002a2c 103083e2     add      r3, r3, #0x10
+0x00002a30 003085e5     str      r3, [r5]
+0x00002a34 104084e2     add      r4, r4, #0x10
+0x00002a38 0f0092e8     ldm      r2, {r0, r1, r2, r3}
+0x00002a3c 0f0084e8     stm      r4, {r0, r1, r2, r3}
+0x00002a40 30ac9de8     ldm      sp, {r4, r5, sl, fp, sp, pc}
+0x00002a44 7c970000     andeq    sb, r0, ip, ror r7
+0x00002a48 08160000     andeq    r1, r0, r8, lsl #12
+0x00002a4c 48160000     andeq    r1, r0, r8, asr #12

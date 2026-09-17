@@ -1,0 +1,316 @@
+G3 static analysis. VA=file+0x20100000. Inline switch tables are retained as data in evidence.json; firmware is never executed.
+
+initializer-call file[0x4216:0x421a]
+file+0x00004216 VA=0x20104216 0af04bfc     bl        #0x2010eab0
+
+bank-select-and-row-dispatch file[0xeab0:0xeb48]
+file+0x0000eab0 VA=0x2010eab0 f8b5         push      {r3, r4, r5, r6, r7, lr}
+file+0x0000eab2 VA=0x2010eab2 c54b         ldr       r3, [pc, #0x314] ; literal file+0xedc8=0x200fd880
+file+0x0000eab4 VA=0x2010eab4 c54d         ldr       r5, [pc, #0x314] ; literal file+0xedcc=0xaaaaaaaa
+file+0x0000eab6 VA=0x2010eab6 196a         ldr       r1, [r3, #0x20]
+file+0x0000eab8 VA=0x2010eab8 1806         lsls      r0, r3, #0x18
+file+0x0000eaba VA=0x2010eaba 0a00         movs      r2, r1
+file+0x0000eabc VA=0x2010eabc e032         adds      r2, #0xe0
+file+0x0000eabe VA=0x2010eabe 0243         orrs      r2, r0
+file+0x0000eac0 VA=0x2010eac0 1268         ldr       r2, [r2]
+file+0x0000eac2 VA=0x2010eac2 c34c         ldr       r4, [pc, #0x30c] ; literal file+0xedd0=0x20303fcc
+file+0x0000eac4 VA=0x2010eac4 aa42         cmp       r2, r5
+file+0x0000eac6 VA=0x2010eac6 02d1         bne       #0x2010eace
+file+0x0000eac8 VA=0x2010eac8 0143         orrs      r1, r0
+file+0x0000eaca VA=0x2010eaca a160         str       r1, [r4, #8]
+file+0x0000eacc VA=0x2010eacc 02e0         b         #0x2010ead4
+file+0x0000eace VA=0x2010eace 996b         ldr       r1, [r3, #0x38]
+file+0x0000ead0 VA=0x2010ead0 0143         orrs      r1, r0
+file+0x0000ead2 VA=0x2010ead2 a160         str       r1, [r4, #8]
+file+0x0000ead4 VA=0x2010ead4 9969         ldr       r1, [r3, #0x18]
+file+0x0000ead6 VA=0x2010ead6 0a00         movs      r2, r1
+file+0x0000ead8 VA=0x2010ead8 e032         adds      r2, #0xe0
+file+0x0000eada VA=0x2010eada 0243         orrs      r2, r0
+file+0x0000eadc VA=0x2010eadc 1268         ldr       r2, [r2]
+file+0x0000eade VA=0x2010eade aa42         cmp       r2, r5
+file+0x0000eae0 VA=0x2010eae0 02d1         bne       #0x2010eae8
+file+0x0000eae2 VA=0x2010eae2 0143         orrs      r1, r0
+file+0x0000eae4 VA=0x2010eae4 6160         str       r1, [r4, #4]
+file+0x0000eae6 VA=0x2010eae6 02e0         b         #0x2010eaee
+file+0x0000eae8 VA=0x2010eae8 196b         ldr       r1, [r3, #0x30]
+file+0x0000eaea VA=0x2010eaea 0143         orrs      r1, r0
+file+0x0000eaec VA=0x2010eaec 6160         str       r1, [r4, #4]
+file+0x0000eaee VA=0x2010eaee 1969         ldr       r1, [r3, #0x10]
+file+0x0000eaf0 VA=0x2010eaf0 0a00         movs      r2, r1
+file+0x0000eaf2 VA=0x2010eaf2 e032         adds      r2, #0xe0
+file+0x0000eaf4 VA=0x2010eaf4 0243         orrs      r2, r0
+file+0x0000eaf6 VA=0x2010eaf6 1268         ldr       r2, [r2]
+file+0x0000eaf8 VA=0x2010eaf8 aa42         cmp       r2, r5
+file+0x0000eafa VA=0x2010eafa 02d1         bne       #0x2010eb02
+file+0x0000eafc VA=0x2010eafc 0843         orrs      r0, r1
+file+0x0000eafe VA=0x2010eafe 2060         str       r0, [r4]
+file+0x0000eb00 VA=0x2010eb00 02e0         b         #0x2010eb08
+file+0x0000eb02 VA=0x2010eb02 996a         ldr       r1, [r3, #0x28]
+file+0x0000eb04 VA=0x2010eb04 0843         orrs      r0, r1
+file+0x0000eb06 VA=0x2010eb06 2060         str       r0, [r4]
+file+0x0000eb08 VA=0x2010eb08 b24e         ldr       r6, [pc, #0x2c8] ; literal file+0xedd4=0x203043fc
+file+0x0000eb0a VA=0x2010eb0a 0025         movs      r5, #0
+file+0x0000eb0c VA=0x2010eb0c 3088         ldrh      r0, [r6]
+file+0x0000eb0e VA=0x2010eb0e ff28         cmp       r0, #0xff
+file+0x0000eb10 VA=0x2010eb10 6bd0         beq       #0x2010ebea
+file+0x0000eb12 VA=0x2010eb12 0727         movs      r7, #7
+file+0x0000eb14 VA=0x2010eb14 7f02         lsls      r7, r7, #9
+file+0x0000eb16 VA=0x2010eb16 a900         lsls      r1, r5, #2
+file+0x0000eb18 VA=0x2010eb18 4919         adds      r1, r1, r5
+file+0x0000eb1a VA=0x2010eb1a 8900         lsls      r1, r1, #2
+file+0x0000eb1c VA=0x2010eb1c 8819         adds      r0, r1, r6
+file+0x0000eb1e VA=0x2010eb1e c278         ldrb      r2, [r0, #3]
+file+0x0000eb20 VA=0x2010eb20 032a         cmp       r2, #3
+file+0x0000eb22 VA=0x2010eb22 41d1         bne       #0x2010eba8
+file+0x0000eb24 VA=0x2010eb24 715a         ldrh      r1, [r6, r1]
+file+0x0000eb26 VA=0x2010eb26 f022         movs      r2, #0xf0
+file+0x0000eb28 VA=0x2010eb28 1140         ands      r1, r2
+file+0x0000eb2a VA=0x2010eb2a 4029         cmp       r1, #0x40
+file+0x0000eb2c VA=0x2010eb2c 10d0         beq       #0x2010eb50
+file+0x0000eb2e VA=0x2010eb2e 5029         cmp       r1, #0x50
+file+0x0000eb30 VA=0x2010eb30 72d0         beq       #0x2010ec18
+file+0x0000eb32 VA=0x2010eb32 6029         cmp       r1, #0x60
+file+0x0000eb34 VA=0x2010eb34 38d1         bne       #0x2010eba8
+file+0x0000eb36 VA=0x2010eb36 0188         ldrh      r1, [r0]
+file+0x0000eb38 VA=0x2010eb38 03a3         adr       r3, #0xc
+file+0x0000eb3a VA=0x2010eb3a 0907         lsls      r1, r1, #0x1c
+file+0x0000eb3c VA=0x2010eb3c 090f         lsrs      r1, r1, #0x1c
+file+0x0000eb3e VA=0x2010eb3e 0729         cmp       r1, #7
+file+0x0000eb40 VA=0x2010eb40 32d2         bhs       #0x2010eba8
+file+0x0000eb42 VA=0x2010eb42 5b5c         ldrb      r3, [r3, r1]
+file+0x0000eb44 VA=0x2010eb44 db18         adds      r3, r3, r3
+file+0x0000eb46 VA=0x2010eb46 9f44         add       pc, r3
+
+segment-switch file[0xec72:0xec80]
+file+0x0000ec72 VA=0x2010ec72 8178         ldrb      r1, [r0, #2]
+file+0x0000ec74 VA=0x2010ec74 02a3         adr       r3, #8
+file+0x0000ec76 VA=0x2010ec76 1129         cmp       r1, #0x11
+file+0x0000ec78 VA=0x2010ec78 7ad2         bhs       #0x2010ed70
+file+0x0000ec7a VA=0x2010ec7a 5b5c         ldrb      r3, [r3, r1]
+file+0x0000ec7c VA=0x2010ec7c db18         adds      r3, r3, r3
+file+0x0000ec7e VA=0x2010ec7e 9f44         add       pc, r3
+
+segment0E-assignment file[0xed34:0xed40]
+file+0x0000ed34 VA=0x2010ed34 2168         ldr       r1, [r4]
+file+0x0000ed36 VA=0x2010ed36 0d22         movs      r2, #0xd
+file+0x0000ed38 VA=0x2010ed38 5202         lsls      r2, r2, #9
+file+0x0000ed3a VA=0x2010ed3a 8918         adds      r1, r1, r2
+file+0x0000ed3c VA=0x2010ed3c 4160         str       r1, [r0, #4]
+file+0x0000ed3e VA=0x2010ed3e 17e0         b         #0x2010ed70
+
+next-table-row file[0xed70:0xed80]
+file+0x0000ed70 VA=0x2010ed70 6d1c         adds      r5, r5, #1
+file+0x0000ed72 VA=0x2010ed72 a800         lsls      r0, r5, #2
+file+0x0000ed74 VA=0x2010ed74 4019         adds      r0, r0, r5
+file+0x0000ed76 VA=0x2010ed76 8000         lsls      r0, r0, #2
+file+0x0000ed78 VA=0x2010ed78 305a         ldrh      r0, [r6, r0]
+file+0x0000ed7a VA=0x2010ed7a ff28         cmp       r0, #0xff
+file+0x0000ed7c VA=0x2010ed7c 00d0         beq       #0x2010ed80
+file+0x0000ed7e VA=0x2010ed7e cae6         b         #0x2010eb16
+
+bank-validation file[0xed80:0xedb2]
+file+0x0000ed80 VA=0x2010ed80 6068         ldr       r0, [r4, #4]
+file+0x0000ed82 VA=0x2010ed82 0078         ldrb      r0, [r0]
+file+0x0000ed84 VA=0x2010ed84 144d         ldr       r5, [pc, #0x50] ; literal file+0xedd8=0xf001
+file+0x0000ed86 VA=0x2010ed86 2328         cmp       r0, #0x23
+file+0x0000ed88 VA=0x2010ed88 01d2         bhs       #0x2010ed8e
+file+0x0000ed8a VA=0x2010ed8a 0028         cmp       r0, #0
+file+0x0000ed8c VA=0x2010ed8c 07d1         bne       #0x2010ed9e
+file+0x0000ed8e VA=0x2010ed8e 5021         movs      r1, #0x50
+file+0x0000ed90 VA=0x2010ed90 2800         movs      r0, r5
+file+0x0000ed92 VA=0x2010ed92 fff761fc     bl        #0x2010e658
+file+0x0000ed96 VA=0x2010ed96 6068         ldr       r0, [r4, #4]
+file+0x0000ed98 VA=0x2010ed98 0121         movs      r1, #1
+file+0x0000ed9a VA=0x2010ed9a c030         adds      r0, #0xc0
+file+0x0000ed9c VA=0x2010ed9c 0174         strb      r1, [r0, #0x10]
+file+0x0000ed9e VA=0x2010ed9e 2068         ldr       r0, [r4]
+file+0x0000eda0 VA=0x2010eda0 0078         ldrb      r0, [r0]
+file+0x0000eda2 VA=0x2010eda2 2328         cmp       r0, #0x23
+file+0x0000eda4 VA=0x2010eda4 01d2         bhs       #0x2010edaa
+file+0x0000eda6 VA=0x2010eda6 0028         cmp       r0, #0
+file+0x0000eda8 VA=0x2010eda8 03d1         bne       #0x2010edb2
+file+0x0000edaa VA=0x2010edaa 6021         movs      r1, #0x60
+file+0x0000edac VA=0x2010edac 2800         movs      r0, r5
+file+0x0000edae VA=0x2010edae fff753fc     bl        #0x2010e658
+
+default-control-dispatch file[0xe658:0xe67e]
+file+0x0000e658 VA=0x2010e658 f8b5         push      {r3, r4, r5, r6, r7, lr}
+file+0x0000e65a VA=0x2010e65a 0d00         movs      r5, r1
+file+0x0000e65c VA=0x2010e65c f64e         ldr       r6, [pc, #0x3d8] ; literal file+0xea38=0x203043fc
+file+0x0000e65e VA=0x2010e65e 0100         movs      r1, r0
+file+0x0000e660 VA=0x2010e660 f027         movs      r7, #0xf0
+file+0x0000e662 VA=0x2010e662 3088         ldrh      r0, [r6]
+file+0x0000e664 VA=0x2010e664 1029         cmp       r1, #0x10
+file+0x0000e666 VA=0x2010e666 0ad0         beq       #0x2010e67e
+file+0x0000e668 VA=0x2010e668 f44a         ldr       r2, [pc, #0x3d0] ; literal file+0xea3c=0xffff0fff
+file+0x0000e66a VA=0x2010e66a 8918         adds      r1, r1, r2
+file+0x0000e66c VA=0x2010e66c 4ad0         beq       #0x2010e704
+file+0x0000e66e VA=0x2010e66e 0129         cmp       r1, #1
+file+0x0000e670 VA=0x2010e670 25d0         beq       #0x2010e6be
+file+0x0000e672 VA=0x2010e672 0229         cmp       r1, #2
+file+0x0000e674 VA=0x2010e674 22d1         bne       #0x2010e6bc
+file+0x0000e676 VA=0x2010e676 0024         movs      r4, #0
+file+0x0000e678 VA=0x2010e678 ff28         cmp       r0, #0xff
+file+0x0000e67a VA=0x2010e67a 1fd0         beq       #0x2010e6bc
+file+0x0000e67c VA=0x2010e67c 5ee0         b         #0x2010e73c
+
+single-page-default-copy file[0xe6be:0xe704]
+file+0x0000e6be VA=0x2010e6be 0024         movs      r4, #0
+file+0x0000e6c0 VA=0x2010e6c0 3100         movs      r1, r6
+file+0x0000e6c2 VA=0x2010e6c2 ff28         cmp       r0, #0xff
+file+0x0000e6c4 VA=0x2010e6c4 fad0         beq       #0x2010e6bc
+file+0x0000e6c6 VA=0x2010e6c6 2e0a         lsrs      r6, r5, #8
+file+0x0000e6c8 VA=0x2010e6c8 2f06         lsls      r7, r5, #0x18
+file+0x0000e6ca VA=0x2010e6ca 3f0e         lsrs      r7, r7, #0x18
+file+0x0000e6cc VA=0x2010e6cc 0d00         movs      r5, r1
+file+0x0000e6ce VA=0x2010e6ce a100         lsls      r1, r4, #2
+file+0x0000e6d0 VA=0x2010e6d0 0919         adds      r1, r1, r4
+file+0x0000e6d2 VA=0x2010e6d2 8900         lsls      r1, r1, #2
+file+0x0000e6d4 VA=0x2010e6d4 4819         adds      r0, r1, r5
+file+0x0000e6d6 VA=0x2010e6d6 c278         ldrb      r2, [r0, #3]
+file+0x0000e6d8 VA=0x2010e6d8 032a         cmp       r2, #3
+file+0x0000e6da VA=0x2010e6da 0bd1         bne       #0x2010e6f4
+file+0x0000e6dc VA=0x2010e6dc 6a5a         ldrh      r2, [r5, r1]
+file+0x0000e6de VA=0x2010e6de 8178         ldrb      r1, [r0, #2]
+file+0x0000e6e0 VA=0x2010e6e0 9642         cmp       r6, r2
+file+0x0000e6e2 VA=0x2010e6e2 07d1         bne       #0x2010e6f4
+file+0x0000e6e4 VA=0x2010e6e4 8f42         cmp       r7, r1
+file+0x0000e6e6 VA=0x2010e6e6 05d1         bne       #0x2010e6f4
+file+0x0000e6e8 VA=0x2010e6e8 c168         ldr       r1, [r0, #0xc]
+file+0x0000e6ea VA=0x2010e6ea 028a         ldrh      r2, [r0, #0x10]
+file+0x0000e6ec VA=0x2010e6ec 4068         ldr       r0, [r0, #4]
+file+0x0000e6ee VA=0x2010e6ee 0968         ldr       r1, [r1]
+file+0x0000e6f0 VA=0x2010e6f0 49f152eb     blx       #0x20257d98
+file+0x0000e6f4 VA=0x2010e6f4 641c         adds      r4, r4, #1
+file+0x0000e6f6 VA=0x2010e6f6 a000         lsls      r0, r4, #2
+file+0x0000e6f8 VA=0x2010e6f8 0019         adds      r0, r0, r4
+file+0x0000e6fa VA=0x2010e6fa 8000         lsls      r0, r0, #2
+file+0x0000e6fc VA=0x2010e6fc 285a         ldrh      r0, [r5, r0]
+file+0x0000e6fe VA=0x2010e6fe ff28         cmp       r0, #0xff
+file+0x0000e700 VA=0x2010e700 e5d1         bne       #0x2010e6ce
+file+0x0000e702 VA=0x2010e702 f8bd         pop       {r3, r4, r5, r6, r7, pc}
+
+group-default-copy file[0xe704:0xe73c]
+file+0x0000e704 VA=0x2010e704 0024         movs      r4, #0
+file+0x0000e706 VA=0x2010e706 ff28         cmp       r0, #0xff
+file+0x0000e708 VA=0x2010e708 fbd0         beq       #0x2010e702
+file+0x0000e70a VA=0x2010e70a a100         lsls      r1, r4, #2
+file+0x0000e70c VA=0x2010e70c 0919         adds      r1, r1, r4
+file+0x0000e70e VA=0x2010e70e 8900         lsls      r1, r1, #2
+file+0x0000e710 VA=0x2010e710 8819         adds      r0, r1, r6
+file+0x0000e712 VA=0x2010e712 c278         ldrb      r2, [r0, #3]
+file+0x0000e714 VA=0x2010e714 032a         cmp       r2, #3
+file+0x0000e716 VA=0x2010e716 09d1         bne       #0x2010e72c
+file+0x0000e718 VA=0x2010e718 715a         ldrh      r1, [r6, r1]
+file+0x0000e71a VA=0x2010e71a 3940         ands      r1, r7
+file+0x0000e71c VA=0x2010e71c a942         cmp       r1, r5
+file+0x0000e71e VA=0x2010e71e 05d1         bne       #0x2010e72c
+file+0x0000e720 VA=0x2010e720 c168         ldr       r1, [r0, #0xc]
+file+0x0000e722 VA=0x2010e722 028a         ldrh      r2, [r0, #0x10]
+file+0x0000e724 VA=0x2010e724 4068         ldr       r0, [r0, #4]
+file+0x0000e726 VA=0x2010e726 0968         ldr       r1, [r1]
+file+0x0000e728 VA=0x2010e728 49f136eb     blx       #0x20257d98
+file+0x0000e72c VA=0x2010e72c 641c         adds      r4, r4, #1
+file+0x0000e72e VA=0x2010e72e a000         lsls      r0, r4, #2
+file+0x0000e730 VA=0x2010e730 0019         adds      r0, r0, r4
+file+0x0000e732 VA=0x2010e732 8000         lsls      r0, r0, #2
+file+0x0000e734 VA=0x2010e734 305a         ldrh      r0, [r6, r0]
+file+0x0000e736 VA=0x2010e736 ff28         cmp       r0, #0xff
+file+0x0000e738 VA=0x2010e738 e7d1         bne       #0x2010e70a
+file+0x0000e73a VA=0x2010e73a f8bd         pop       {r3, r4, r5, r6, r7, pc}
+
+separate-op4-op5-request file[0x225e4:0x22626]
+file+0x000225e4 VA=0x201225e4 042e         cmp       r6, #4
+file+0x000225e6 VA=0x201225e6 0dd1         bne       #0x20122604
+file+0x000225e8 VA=0x201225e8 c64d         ldr       r5, [pc, #0x318] ; literal file+0x22904=0x2033f394
+file+0x000225ea VA=0x201225ea 0122         movs      r2, #1
+file+0x000225ec VA=0x201225ec 2a80         strh      r2, [r5]
+file+0x000225ee VA=0x201225ee 3a88         ldrh      r2, [r7]
+file+0x000225f0 VA=0x201225f0 6a80         strh      r2, [r5, #2]
+file+0x000225f2 VA=0x201225f2 0979         ldrb      r1, [r1, #4]
+file+0x000225f4 VA=0x201225f4 c44a         ldr       r2, [pc, #0x310] ; literal file+0x22908=0x1002
+file+0x000225f6 VA=0x201225f6 a980         strh      r1, [r5, #4]
+file+0x000225f8 VA=0x201225f8 0192         str       r2, [sp, #4]
+file+0x000225fa VA=0x201225fa 0090         str       r0, [sp]
+file+0x000225fc VA=0x201225fc 6069         ldr       r0, [r4, #0x14]
+file+0x000225fe VA=0x201225fe a169         ldr       r1, [r4, #0x18]
+file+0x00022600 VA=0x20122600 7246         mov       r2, lr
+file+0x00022602 VA=0x20122602 c4e0         b         #0x2012278e
+file+0x00022604 VA=0x20122604 bc4a         ldr       r2, [pc, #0x2f0] ; literal file+0x228f8=0x20304c78
+file+0x00022606 VA=0x20122606 052e         cmp       r6, #5
+file+0x00022608 VA=0x20122608 0dd1         bne       #0x20122626
+file+0x0002260a VA=0x2012260a be4d         ldr       r5, [pc, #0x2f8] ; literal file+0x22904=0x2033f394
+file+0x0002260c VA=0x2012260c 0322         movs      r2, #3
+file+0x0002260e VA=0x2012260e 2a80         strh      r2, [r5]
+file+0x00022610 VA=0x20122610 3a88         ldrh      r2, [r7]
+file+0x00022612 VA=0x20122612 6a80         strh      r2, [r5, #2]
+file+0x00022614 VA=0x20122614 0979         ldrb      r1, [r1, #4]
+file+0x00022616 VA=0x20122616 bc4a         ldr       r2, [pc, #0x2f0] ; literal file+0x22908=0x1002
+file+0x00022618 VA=0x20122618 a980         strh      r1, [r5, #4]
+file+0x0002261a VA=0x2012261a 0192         str       r2, [sp, #4]
+file+0x0002261c VA=0x2012261c 0090         str       r0, [sp]
+file+0x0002261e VA=0x2012261e 6069         ldr       r0, [r4, #0x14]
+file+0x00022620 VA=0x20122620 a169         ldr       r1, [r4, #0x18]
+file+0x00022622 VA=0x20122622 7246         mov       r2, lr
+file+0x00022624 VA=0x20122624 b3e0         b         #0x2012278e
+
+channel1002-response-callback file[0xe242:0xe27c]
+file+0x0000e242 VA=0x2010e242 10b5         push      {r4, lr}
+file+0x0000e244 VA=0x2010e244 0400         movs      r4, r0
+file+0x0000e246 VA=0x2010e246 84b0         sub       sp, #0x10
+file+0x0000e248 VA=0x2010e248 ce49         ldr       r1, [pc, #0x338] ; literal file+0xe584=0x2031b6c8
+file+0x0000e24a VA=0x2010e24a 0220         movs      r0, #2
+file+0x0000e24c VA=0x2010e24c 6b46         mov       r3, sp
+file+0x0000e24e VA=0x2010e24e 1870         strb      r0, [r3]
+file+0x0000e250 VA=0x2010e250 c888         ldrh      r0, [r1, #6]
+file+0x0000e252 VA=0x2010e252 0028         cmp       r0, #0
+file+0x0000e254 VA=0x2010e254 01d0         beq       #0x2010e25a
+file+0x0000e256 VA=0x2010e256 8020         movs      r0, #0x80
+file+0x0000e258 VA=0x2010e258 00e0         b         #0x2010e25c
+file+0x0000e25a VA=0x2010e25a 0120         movs      r0, #1
+file+0x0000e25c VA=0x2010e25c 6b46         mov       r3, sp
+file+0x0000e25e VA=0x2010e25e 5870         strb      r0, [r3, #1]
+file+0x0000e260 VA=0x2010e260 4888         ldrh      r0, [r1, #2]
+file+0x0000e262 VA=0x2010e262 1022         movs      r2, #0x10
+file+0x0000e264 VA=0x2010e264 6946         mov       r1, sp
+file+0x0000e266 VA=0x2010e266 5880         strh      r0, [r3, #2]
+file+0x0000e268 VA=0x2010e268 0020         movs      r0, #0
+file+0x0000e26a VA=0x2010e26a 0290         str       r0, [sp, #8]
+file+0x0000e26c VA=0x2010e26c 0120         movs      r0, #1
+file+0x0000e26e VA=0x2010e26e f4f7fffd     bl        #0x20102e70
+file+0x0000e272 VA=0x2010e272 2000         movs      r0, r4
+file+0x0000e274 VA=0x2010e274 13f033f8     bl        #0x201212de
+file+0x0000e278 VA=0x2010e278 04b0         add       sp, #0x10
+file+0x0000e27a VA=0x2010e27a 10bd         pop       {r4, pc}
+
+outgoing-ipc file[0xe1f0:0xe234]
+file+0x0000e1f0 VA=0x2010e1f0 0fb4         push      {r0, r1, r2, r3}
+file+0x0000e1f2 VA=0x2010e1f2 38b5         push      {r3, r4, r5, lr}
+file+0x0000e1f4 VA=0x2010e1f4 099c         ldr       r4, [sp, #0x24]
+file+0x0000e1f6 VA=0x2010e1f6 1420         movs      r0, #0x14
+file+0x0000e1f8 VA=0x2010e1f8 13f07bf8     bl        #0x201212f2
+file+0x0000e1fc VA=0x2010e1fc 0500         movs      r5, r0
+file+0x0000e1fe VA=0x2010e1fe 12d0         beq       #0x2010e226
+file+0x0000e200 VA=0x2010e200 1422         movs      r2, #0x14
+file+0x0000e202 VA=0x2010e202 2800         movs      r0, r5
+file+0x0000e204 VA=0x2010e204 04a9         add       r1, sp, #0x10
+file+0x0000e206 VA=0x2010e206 49f1c8ed     blx       #0x20257d98
+file+0x0000e20a VA=0x2010e20a 1422         movs      r2, #0x14
+file+0x0000e20c VA=0x2010e20c 0092         str       r2, [sp]
+file+0x0000e20e VA=0x2010e20e 2200         movs      r2, r4
+file+0x0000e210 VA=0x2010e210 2b00         movs      r3, r5
+file+0x0000e212 VA=0x2010e212 0221         movs      r1, #2
+file+0x0000e214 VA=0x2010e214 0120         movs      r0, #1
+file+0x0000e216 VA=0x2010e216 13f02ef8     bl        #0x20121276
+file+0x0000e21a VA=0x2010e21a 0400         movs      r4, r0
+file+0x0000e21c VA=0x2010e21c 05d0         beq       #0x2010e22a
+file+0x0000e21e VA=0x2010e21e 2800         movs      r0, r5
+file+0x0000e220 VA=0x2010e220 13f070f8     bl        #0x20121304
+file+0x0000e224 VA=0x2010e224 01e0         b         #0x2010e22a
+file+0x0000e226 VA=0x2010e226 0024         movs      r4, #0
+file+0x0000e228 VA=0x2010e228 e443         mvns      r4, r4
+file+0x0000e22a VA=0x2010e22a 2000         movs      r0, r4
+file+0x0000e22c VA=0x2010e22c 38bc         pop       {r3, r4, r5}
+file+0x0000e22e VA=0x2010e22e 08bc         pop       {r3}
+file+0x0000e230 VA=0x2010e230 04b0         add       sp, #0x10
+file+0x0000e232 VA=0x2010e232 1847         bx        r3

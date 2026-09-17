@@ -1,1 +1,0 @@
-../../G3_RESEARCH_GUIDANCE.md

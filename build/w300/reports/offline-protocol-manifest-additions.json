@@ -1,0 +1,533 @@
+{
+  "scope": "Additional offline protocol and acquisition artifacts; not W300 hardware qualification",
+  "previous_entry_count": 583,
+  "previous_entries_sha256": "9ae02a4bb5847e4aec93c08dc7907761f8f2205ba53af35020a68c649cb8aaf6",
+  "selected_roots": [
+    "append_manifest.py",
+    "reports/g3-host-interface",
+    "reports/av-page-init",
+    "reports/g3-w300-manual-crosscheck",
+    "downloads/g3-service-reference",
+    "reports/g3-w300-gpl-crosscheck.md",
+    "downloads/g3-gpl-reference",
+    "reports/g3-bank-map",
+    "reports/g3-usb-descriptor",
+    "reports/g3-normal-entry",
+    "reports/g3-module-recovery",
+    "reports/adjustment-collections.md",
+    "reports/adjustment-collections-index.json",
+    "reports/adjustment-collections-inventories.json",
+    "reports/verify_offline_protocol.py",
+    "reports/offline-protocol-checks.json",
+    "reports/offline-protocol-followup-checks.json"
+  ],
+  "added_artifacts": [
+    {
+      "path": "append_manifest.py",
+      "bytes": 3646,
+      "sha256": "8565765c09c1c90f390a8b514cbc3656be2a093ac1833b80fda64096cf89c28f"
+    },
+    {
+      "path": "downloads/g3-gpl-reference/compare_gpl.py",
+      "bytes": 1992,
+      "sha256": "bf72129f5a43945d7d0efef39d42723168f72dcd3d7a0078ac36de162e1690e4"
+    },
+    {
+      "path": "downloads/g3-gpl-reference/compare_usb_core.py",
+      "bytes": 1831,
+      "sha256": "f9ed53e870c26c42acce7e67df38944cb93e92999ce007c1b69cf37b7726c2c9"
+    },
+    {
+      "path": "downloads/g3-gpl-reference/config-comparison.json",
+      "bytes": 2950,
+      "sha256": "7a8aa7d7909992b534a9d74a0769634d47978f5f851322b93e98d9b08bac3c78"
+    },
+    {
+      "path": "downloads/g3-gpl-reference/config.diff",
+      "bytes": 1672,
+      "sha256": "3f7863b58ed0de7a5956a5b044e48539b54cfbdea7cc80bc3d3b9bbcf68ecc04"
+    },
+    {
+      "path": "downloads/g3-gpl-reference/DSC-G3.html",
+      "bytes": 6287,
+      "sha256": "aa53a9255c17f7fe36208afabfe10f540ff32396093e21a821d645d02f0bea3f"
+    },
+    {
+      "path": "downloads/g3-gpl-reference/g3.config",
+      "bytes": 14322,
+      "sha256": "6dc7d1bfbb64e80cd34218f72f464152b32b50ea63601dabd6f668f3449eed5f"
+    },
+    {
+      "path": "downloads/g3-gpl-reference/kernel-acquisition.json",
+      "bytes": 434,
+      "sha256": "12291fe64859dc9b6f714d60e731b72a7108d8ce64f8796707f4e51c383c2a44"
+    },
+    {
+      "path": "downloads/g3-gpl-reference/linux-kernel.tar.gz",
+      "bytes": 35810795,
+      "sha256": "cbb03d206740f0bcc8ed9efc90e1f48786f427188954616ed618a3cb7597e90a"
+    },
+    {
+      "path": "downloads/g3-gpl-reference/page-comparison.json",
+      "bytes": 2157,
+      "sha256": "d83483a04a5ad263ccafad098714f9f48adc139ae43414a24d9dab8d3ee2de76"
+    },
+    {
+      "path": "downloads/g3-gpl-reference/usb-core-comparison.json",
+      "bytes": 1233,
+      "sha256": "88b0bc6a2f8cd17c588eb48567e742518a76dac3565ada89d47c72b517187f43"
+    },
+    {
+      "path": "downloads/g3-gpl-reference/w300.config",
+      "bytes": 14258,
+      "sha256": "1658cd81518dd9665e7e27b9959b79cb3959dd27f15283a34f8fc14bbce60404"
+    },
+    {
+      "path": "downloads/g3-service-reference/archive-acquisition.json",
+      "bytes": 408,
+      "sha256": "e24a9cd818d3625fb8be0ec0b191c265253166b932fa6d2ab994492241cb9078"
+    },
+    {
+      "path": "downloads/g3-service-reference/candidate-acquisition.json",
+      "bytes": 490,
+      "sha256": "2a98784cea999304bb010014b63155594f4afbb8efb4a515293741571009b645"
+    },
+    {
+      "path": "downloads/g3-service-reference/catalog-acquisition.json",
+      "bytes": 1943,
+      "sha256": "c5452ee3c1cf5a23a706520a394cd7a6b3ab31004e39c22bb4285115e4002d30"
+    },
+    {
+      "path": "downloads/g3-service-reference/ia-g3-sony.json",
+      "bytes": 13973,
+      "sha256": "ebea9c4bafe9e7354ac2e47e7d0aee180693c082a965fbc503df428912f08969"
+    },
+    {
+      "path": "downloads/g3-service-reference/ia-search.json",
+      "bytes": 833,
+      "sha256": "0937f68327b70b4a1037824b481f0f7486dff8077391d29333ee052c5965dfed"
+    },
+    {
+      "path": "downloads/g3-service-reference/ia-sony-collections.json",
+      "bytes": 8808,
+      "sha256": "5e75caa5393051daca417e372e2f4bc95c395605505b28508d0534e0d63fc3eb"
+    },
+    {
+      "path": "downloads/g3-service-reference/ia-sony-manual-collections.json",
+      "bytes": 12644,
+      "sha256": "2a247051c84b1cf57c1a76d5b54702e3c209bcc7c1719b0feeb2a49e2b5175c3"
+    },
+    {
+      "path": "reports/adjustment-collections-index.json",
+      "bytes": 46650,
+      "sha256": "933f31ec9c6c5ae01047ad6498eefd33385ba9f7f96d31d6ce27ea48a91f086b"
+    },
+    {
+      "path": "reports/adjustment-collections-inventories.json",
+      "bytes": 8623,
+      "sha256": "da9dcfd7b61d80cce915dc688a14b3200cef903f6d81bae2a853bf7f37fba7f3"
+    },
+    {
+      "path": "reports/adjustment-collections.md",
+      "bytes": 4968,
+      "sha256": "d49f589bb4a21e302f5175d0669555d44c6d1716dd7a76f0c3a4f9eb262f4f74"
+    },
+    {
+      "path": "reports/av-page-init/evidence.json",
+      "bytes": 2775,
+      "sha256": "65c4509a44045cb86634d497084321a69365d0c0c6e9ecc440d98638f1151521"
+    },
+    {
+      "path": "reports/av-page-init/inspect_page_init.py",
+      "bytes": 4382,
+      "sha256": "1a87b91f8c71ca02371f40ca84befbae876f88fbdb65156c6364c86f6dce18cd"
+    },
+    {
+      "path": "reports/av-page-init/linux-persistence/decode.py",
+      "bytes": 8239,
+      "sha256": "3e298d3cea646a18ac2ba5830aa55b512a3f56caf7fa9160b1ac52d095d85743"
+    },
+    {
+      "path": "reports/av-page-init/linux-persistence/FINDINGS.md",
+      "bytes": 7052,
+      "sha256": "cfd6642df198337bb7b2f7caf6118d942725927bde4d686e69964edf82c044d2"
+    },
+    {
+      "path": "reports/av-page-init/linux-persistence/linux-backup-tables.txt",
+      "bytes": 7522,
+      "sha256": "9c1724096a39b2633022ba1b28a6a3f3e282d3eeed74925784c19c43d9407347"
+    },
+    {
+      "path": "reports/av-page-init/linux-persistence/linux-backup.asm.txt",
+      "bytes": 60366,
+      "sha256": "339d0f3c96b024cb0c97426fa41674670498ba3df13ae54ae6633601c261b8b0"
+    },
+    {
+      "path": "reports/av-page-init/linux-persistence/tables.py",
+      "bytes": 2509,
+      "sha256": "3514e01f03dc641fb2d4b139b93f9e81ba56c4c061f534aa8943c36a85f9a1e3"
+    },
+    {
+      "path": "reports/av-page-init/page-init.asm.txt",
+      "bytes": 19986,
+      "sha256": "40947131124e3ebc7ca953c51551d428f29e4298f77126e842a7d43644b1c1a4"
+    },
+    {
+      "path": "reports/av-page-init/README.md",
+      "bytes": 8756,
+      "sha256": "e79cb9a39bd60b58dd02a8181ef18089860bbbf1d9321419fdfb7877998cf718"
+    },
+    {
+      "path": "reports/g3-bank-map/bank-map.asm.txt",
+      "bytes": 31949,
+      "sha256": "34dc60bd9e4c2ce54037bbfa264be87bbb87332b142a0cc8b9494891ceea7021"
+    },
+    {
+      "path": "reports/g3-bank-map/evidence.json",
+      "bytes": 1094,
+      "sha256": "de2626d73a4d518cdb80579373670a2be71b960beeb6fde5140a7d1f98077e91"
+    },
+    {
+      "path": "reports/g3-bank-map/inspect_bank_map.py",
+      "bytes": 6120,
+      "sha256": "7e60a3ae90f0eb159f3b71427950bc32c4ec5df72689e0dcf2acba49c447059c"
+    },
+    {
+      "path": "reports/g3-bank-map/README.md",
+      "bytes": 7003,
+      "sha256": "8530460c11878e1bf80eadd6148d09712cb7c441d18a6f5d8384f098131017ad"
+    },
+    {
+      "path": "reports/g3-host-interface/compare_pmca.py",
+      "bytes": 5631,
+      "sha256": "550d77b85269b37de3892645978526dc35e918fccf142f195f605d65d0b3b340"
+    },
+    {
+      "path": "reports/g3-host-interface/decode_host.py",
+      "bytes": 6479,
+      "sha256": "cac5a29d504f4849ab4e90f647b412c667051d886bba25a904a908c70f13eda3"
+    },
+    {
+      "path": "reports/g3-host-interface/host-interface.asm.txt",
+      "bytes": 44809,
+      "sha256": "5ef4b6807fbb42434c70441fe06966e3d226500cf751a17db0f753d0ba2dd108"
+    },
+    {
+      "path": "reports/g3-host-interface/inspect_host.py",
+      "bytes": 3034,
+      "sha256": "7401050e419abc9d6d8b605a4b8d635cd62ca28d7e5495fbfa80eca93107ae77"
+    },
+    {
+      "path": "reports/g3-host-interface/inventory.json",
+      "bytes": 54584,
+      "sha256": "4649ab88e8c6ba13dd119887155701f41fef5e5b4652338587752077fee38adb"
+    },
+    {
+      "path": "reports/g3-host-interface/pmca-comparison.json",
+      "bytes": 3506,
+      "sha256": "d7cd926d7d6fddfce637f18e40d1397761e302c6d68ba63888385a3dcb0bd2aa"
+    },
+    {
+      "path": "reports/g3-host-interface/README.md",
+      "bytes": 8303,
+      "sha256": "c1ef76d0d16ec3be571350b5892ff19ffaf235791ecd00d63ec977ec2eb6e13e"
+    },
+    {
+      "path": "reports/g3-module-recovery/independent-review.json",
+      "bytes": 1886,
+      "sha256": "cc48e082661f3f823dd2f15cc697b907898acc7ac49080bef28b5e7684bf3044"
+    },
+    {
+      "path": "reports/g3-module-recovery/INDEPENDENT_REVIEW.md",
+      "bytes": 3966,
+      "sha256": "cda6d51ddd035e9108d4b4d9900652d6c58d22f0097f02699c7413dc240d0c87"
+    },
+    {
+      "path": "reports/g3-module-recovery/independent_review.py",
+      "bytes": 5927,
+      "sha256": "ca22081377d6d454b2692217cc9677b8c45e684eeb3fc8ef03f11a58f35dcd34"
+    },
+    {
+      "path": "reports/g3-module-recovery/README.md",
+      "bytes": 4008,
+      "sha256": "8f1811297232e58c6719465c5be9ce4748b79208ff74748be696d1267dadae7e"
+    },
+    {
+      "path": "reports/g3-module-recovery/recover_module.py",
+      "bytes": 5966,
+      "sha256": "7ec60e5635532fbc982c7cd2a14ba0947538b22b54f1a599f99a567639b69879"
+    },
+    {
+      "path": "reports/g3-module-recovery/recovery-evidence.json",
+      "bytes": 27362,
+      "sha256": "ec275002181a672e076f5491fc2ab69de6de897f012daee180c5204b2c884016"
+    },
+    {
+      "path": "reports/g3-module-recovery/unified_drv.complete.ko",
+      "bytes": 303816,
+      "sha256": "8d675f7071e49a75a174130ef8525767af07c157fe5f203018eb097e10aa1367"
+    },
+    {
+      "path": "reports/g3-normal-entry/core-normal-auth.asm.txt",
+      "bytes": 13780,
+      "sha256": "6b0b4fc3aa1a6cf256995e84ff20f2930e67164f342e021e5647987ceaed3cca"
+    },
+    {
+      "path": "reports/g3-normal-entry/decode_entry.py",
+      "bytes": 1825,
+      "sha256": "060765192c3550dc0df210411019a9160608b4bb590420b9947551885b34bc2e"
+    },
+    {
+      "path": "reports/g3-normal-entry/entry-evidence.json",
+      "bytes": 2539,
+      "sha256": "976e3b2a20a3cf7ea26640f94ee2d8b98c4bdea5e3c2e688b082f58803eeb296"
+    },
+    {
+      "path": "reports/g3-normal-entry/entry-inventory.json",
+      "bytes": 381841,
+      "sha256": "9ebe92ee670699e95d6b6f4fa83f5d2c30d0f6eaa16a3841944da01cbd0172da"
+    },
+    {
+      "path": "reports/g3-normal-entry/inspect_entry.py",
+      "bytes": 1154,
+      "sha256": "5f6834a1c2599196a8c52ac0d109a562acfb48766788f578999f3233f1d02983"
+    },
+    {
+      "path": "reports/g3-normal-entry/libsencore.so-extra.asm.txt",
+      "bytes": 1826,
+      "sha256": "892c920719617e41f6b8ccb0b72d890070689215db4a3e0e4f946174108d57df"
+    },
+    {
+      "path": "reports/g3-normal-entry/native-links.asm.txt",
+      "bytes": 17730,
+      "sha256": "b18551aa07c7d69e29f8bf6ce6654d9ea424fa4fc114592a33056000868bb227"
+    },
+    {
+      "path": "reports/g3-normal-entry/PExtSenser.so-extra.asm.txt",
+      "bytes": 9339,
+      "sha256": "e3f538375a1aec65183ef2d170812e237a490380cb258e9353c38d6b4b2f4fc4"
+    },
+    {
+      "path": "reports/g3-normal-entry/PExtSenser.so.asm.txt",
+      "bytes": 34438,
+      "sha256": "e443781c74c87c70982e63a03762e0873caf620da4ab374f0a6e46683f0381e8"
+    },
+    {
+      "path": "reports/g3-normal-entry/README.md",
+      "bytes": 8405,
+      "sha256": "6e2b8d941acf4d406bec3d7ae04073f1dd1e9dd26897f269ab7e717526c1cca4"
+    },
+    {
+      "path": "reports/g3-normal-entry/reproduce.py",
+      "bytes": 400,
+      "sha256": "b78267491986e7e9a8a0432cf3cb465efb99d7fd86be0e6627d83bc0ef82ac57"
+    },
+    {
+      "path": "reports/g3-normal-entry/sen-extra.asm.txt",
+      "bytes": 2233,
+      "sha256": "5289965481c6d42d49d90b919eaabf45be43f94714de02f749d75b504d72a004"
+    },
+    {
+      "path": "reports/g3-normal-entry/sen.asm.txt",
+      "bytes": 8166,
+      "sha256": "76978f89650bf472b77204e5ed94f029288646ae8cc97995dc7c12e9d337a9fa"
+    },
+    {
+      "path": "reports/g3-normal-entry/usb-registration.asm.txt",
+      "bytes": 2180,
+      "sha256": "8cab41ed31cc5a5bc292fd9aec6cb1ff19089153a76d830a8c1297bf331f5a4b"
+    },
+    {
+      "path": "reports/g3-normal-entry/usbExt.so.asm.txt",
+      "bytes": 3604,
+      "sha256": "3266d277abd9da5614a3c4d0b8c8de50e7106703e48f1b960c861f084db3e4aa"
+    },
+    {
+      "path": "reports/g3-normal-entry/USBGMsc.so.asm.txt",
+      "bytes": 3230,
+      "sha256": "16a35333dbebd085e64d5f65246bd85f8415e121d440316a09eaae2004228764"
+    },
+    {
+      "path": "reports/g3-normal-entry/verify_entry.py",
+      "bytes": 8850,
+      "sha256": "72177f9849962790bace1b64501368bad1519817d06c3b8dc3177c8f9d030768"
+    },
+    {
+      "path": "reports/g3-normal-entry/xsb-boundary.md",
+      "bytes": 3071,
+      "sha256": "38e933231f0b0828b323b80ffd454c9dbb248ec50541a066381f00c3ba5b251f"
+    },
+    {
+      "path": "reports/g3-normal-entry/xsb-inspect.py",
+      "bytes": 3076,
+      "sha256": "8d1135abf54bc0ffa9277b36966d4aaeec4d27f265fec5c336337d01e1ba89b7"
+    },
+    {
+      "path": "reports/g3-normal-entry/xsb-inventory.json",
+      "bytes": 154806,
+      "sha256": "ab7d0cb8cefe22d4814036c8ca5bbe8b632af687842dc7cd0b5bedc48fa4697c"
+    },
+    {
+      "path": "reports/g3-usb-descriptor/descriptor-evidence.json",
+      "bytes": 3067,
+      "sha256": "b5220baae97a1ad3b969c14a68c79bb5468eaa9d4678d0472cb7f147aba38265"
+    },
+    {
+      "path": "reports/g3-usb-descriptor/g3-gpl-gadgetcore/usb_gadgetcore.h",
+      "bytes": 7419,
+      "sha256": "7c37aff2e9ca6bc6e371fed68062a89d490b1690e37d8002d11881b02358eb54"
+    },
+    {
+      "path": "reports/g3-usb-descriptor/g3-gpl-gadgetcore/usb_gcore_desc.c",
+      "bytes": 63194,
+      "sha256": "d433998d56a1e7330bbd3a1b59c74c92b74ae5104418217e86b4b3d539b01c35"
+    },
+    {
+      "path": "reports/g3-usb-descriptor/g3-gpl-gadgetcore/usb_gcore_main.c",
+      "bytes": 28424,
+      "sha256": "b899c61a26012551cc36de85861bddec4cd181ced27488794e1a0e08d4758d5d"
+    },
+    {
+      "path": "reports/g3-usb-descriptor/inspect_usb.py",
+      "bytes": 6796,
+      "sha256": "1906fdc6291b9b2f860ddd447bd63b9ce95455f39b740a6ba6d5657c7e86013a"
+    },
+    {
+      "path": "reports/g3-usb-descriptor/kernel-decode.py",
+      "bytes": 3623,
+      "sha256": "7f3ac63ca0c0de4639fb53d1848936917c1873b4788b4fcc2ad18d5e8311a314"
+    },
+    {
+      "path": "reports/g3-usb-descriptor/kernel-inspect.py",
+      "bytes": 3664,
+      "sha256": "1494fbef11ed0c47728c91b0809b060486d00155606b37b4de1668f42b6dfa39"
+    },
+    {
+      "path": "reports/g3-usb-descriptor/kernel-report.md",
+      "bytes": 4949,
+      "sha256": "355d45d089117fc32b6a2d7573334902d0a9048cbf1ae52f702977dbea4c3d76"
+    },
+    {
+      "path": "reports/g3-usb-descriptor/kernel-selected.asm.txt",
+      "bytes": 11386,
+      "sha256": "10b39cb14ae0a739c6cc5bb5a20d93def2b1f5c14cc45ab995b46f50a17b341c"
+    },
+    {
+      "path": "reports/g3-usb-descriptor/kernel-sen-driver.asm.txt",
+      "bytes": 34490,
+      "sha256": "0e68881287ca431fdd298491e95e80f24f707ee9de18d08ed8dcc268ebfabf2c"
+    },
+    {
+      "path": "reports/g3-usb-descriptor/kernel-unified_drv.ko.json",
+      "bytes": 1994150,
+      "sha256": "3f96fd90054b0e39023f003d9b87922f0ae1d8b1ef8d44a0cbfee9b2aa3bf52d"
+    },
+    {
+      "path": "reports/g3-usb-descriptor/kernel-unified_drv2.ko.json",
+      "bytes": 846388,
+      "sha256": "cfc7e13e5724219b0818feaaa64307e712111372ad54d1c5053382aec06ee5de"
+    },
+    {
+      "path": "reports/g3-usb-descriptor/libsencore-chain.asm.txt",
+      "bytes": 15424,
+      "sha256": "866bbef3ea3477cb581486f5eaeaa8b810e76a03b76ef8d72e107c4ca7ec3e95"
+    },
+    {
+      "path": "reports/g3-usb-descriptor/libsencore-entry.asm.txt",
+      "bytes": 7250,
+      "sha256": "763f48569737cb41da23fdfb3b35fce3a8192541b5acd6a2d92c6d695f326b73"
+    },
+    {
+      "path": "reports/g3-usb-descriptor/libsencore-usb-events.asm.txt",
+      "bytes": 15207,
+      "sha256": "ec8f267cf05fe6dd82178fdb59e28bf2cfa72f565d85871cadf22bbb02e152e7"
+    },
+    {
+      "path": "reports/g3-usb-descriptor/libsencore-usb-setup.asm.txt",
+      "bytes": 5443,
+      "sha256": "2eadaf9a2aabc9f82bcf91554795b1e69fa907247745d46271ca5da66785751c"
+    },
+    {
+      "path": "reports/g3-usb-descriptor/libusb-chain.asm.txt",
+      "bytes": 34037,
+      "sha256": "8880669ba0f0cd4fcf41d0f3ad1e826e0f18f9b2561368b0c4cf42d757b8127b"
+    },
+    {
+      "path": "reports/g3-usb-descriptor/libusb-descriptor-path.asm.txt",
+      "bytes": 26470,
+      "sha256": "59e71236d314b7ea20e978ba471f6284d86aba8c116c116114a5ad471d55c64c"
+    },
+    {
+      "path": "reports/g3-usb-descriptor/libusb-elf.json",
+      "bytes": 176507,
+      "sha256": "a06f8a143d5cf20e54d2e9648b8423b80b5caa917c443142bd9a0d9eb92635c6"
+    },
+    {
+      "path": "reports/g3-usb-descriptor/libusb-if-init.asm.txt",
+      "bytes": 9259,
+      "sha256": "200481b22397adcaf1763bc9c6d39a87430a55eb29d1f5f384a16a970d3b7a1a"
+    },
+    {
+      "path": "reports/g3-usb-descriptor/libusb-selected.asm.txt",
+      "bytes": 14206,
+      "sha256": "70c5a981dd9254172281b38217bf22f52954a16acc6a6f53d8c1e84f9c27e146"
+    },
+    {
+      "path": "reports/g3-usb-descriptor/libusb-start-wrapper.asm.txt",
+      "bytes": 4783,
+      "sha256": "fb16068f98f3893dcc9f4841590e450566f6a06ae6004dea87bed7e052fe515f"
+    },
+    {
+      "path": "reports/g3-usb-descriptor/README.md",
+      "bytes": 10448,
+      "sha256": "5d7e369066608deaecb413ea7c4ebfb136f44d1c6288434fc663466dde44b830"
+    },
+    {
+      "path": "reports/g3-usb-descriptor/reproduce.py",
+      "bytes": 1554,
+      "sha256": "4994833c6f2f703c8b48d6e92aaa6c4d4d95af6b01ee40a19152559975605b46"
+    },
+    {
+      "path": "reports/g3-usb-descriptor/verify_descriptor.py",
+      "bytes": 5819,
+      "sha256": "4cee0e6941c5dc4197aedb16d0fe29e1f21385e85821602d6fa2abb351215488"
+    },
+    {
+      "path": "reports/g3-w300-gpl-crosscheck.md",
+      "bytes": 5123,
+      "sha256": "241d6de53f4858f8afaa0362c372bade19e978dba5bd1a43768bb70eea44473e"
+    },
+    {
+      "path": "reports/g3-w300-manual-crosscheck/local-artifacts.json",
+      "bytes": 1514,
+      "sha256": "77797ea903bd217b0c25a7996470179e4abdb4821f646e2c6f29da93788bc4c1"
+    },
+    {
+      "path": "reports/g3-w300-manual-crosscheck/README.md",
+      "bytes": 5668,
+      "sha256": "92736eb77140f692c9c3272105175ed7206bb52a66a18853b2584c56f17cc0ed"
+    },
+    {
+      "path": "reports/g3-w300-manual-crosscheck/search-receipts.json",
+      "bytes": 1820,
+      "sha256": "2f8093a5172886e59e21de63560e7be6d63453c4c0e5e77687c65dbe33e91389"
+    },
+    {
+      "path": "reports/offline-protocol-checks.json",
+      "bytes": 20440,
+      "sha256": "7bf5b6f31fb1614f30e6ae3b89bd1da71e198fa527641ae84846fc28fc3e4c6c"
+    },
+    {
+      "path": "reports/offline-protocol-followup-checks.json",
+      "bytes": 4768,
+      "sha256": "d9e9da1b92164765c134ebe56b72cf14378b5b3fa70e9fe4e5008db427d1f4b0"
+    },
+    {
+      "path": "reports/verify_offline_protocol.py",
+      "bytes": 5758,
+      "sha256": "c609b3c0979ed24930912eeb6836a142cdd3c7a5411f89dcf4749787b48831e8"
+    }
+  ],
+  "camera_communication_verified": false,
+  "w300_language_write_verified": false
+}

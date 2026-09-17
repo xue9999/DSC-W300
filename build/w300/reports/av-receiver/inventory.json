@@ -1,0 +1,991 @@
+{
+  "source": "sources/DSCG3V2.exe",
+  "sha256": "a9698c7b3822f23d71de84ba5389453b847f6de19ab293a55ebe016490fd94d9",
+  "dat_is_exact_exe_slice": true,
+  "manifest_hmac_and_checksum": true,
+  "sections": [
+    {
+      "index": 0,
+      "name": "00_defhd.dat",
+      "source_manifest": {
+        "index": 0,
+        "tag": "header",
+        "fnum": "00",
+        "name": "defhd.dat",
+        "offset": 20480,
+        "offset_hex": "00005000",
+        "size": 67,
+        "size_hex": "43",
+        "cksum": "781b19c4",
+        "progress": "00000000",
+        "encrypt": true,
+        "encrypt_raw": "yes"
+      },
+      "size": 67,
+      "sha256": "143d6787f1f110fb5d14fd3988e5dfe8b24af904c152339ab71c113a3e1fbf8a",
+      "hmac_verified": true,
+      "equals_preserved_section": true,
+      "first_64_hex": "5b76657273696f6e5d0a7665723d303030320a5b6d6f64656c5d0a6d6f64656c3d30383231303033300a5b726567696f6e5d0a726567696f6e3d303030303030",
+      "selected_ascii_strings": [],
+      "literal_model_hits": {
+        "DSC-W300/ascii": [],
+        "DSC-W300/utf-16le": [],
+        "DSC-W300/utf-16be": [],
+        "W300/ascii": [],
+        "W300/utf-16le": [],
+        "W300/utf-16be": [],
+        "DSC-G3/ascii": [],
+        "DSC-G3/utf-16le": [],
+        "DSC-G3/utf-16be": [],
+        "G3/ascii": [],
+        "G3/utf-16le": [],
+        "G3/utf-16be": [],
+        "08210030/ascii": [
+          "0x21"
+        ],
+        "08210030/utf-16le": [],
+        "08210030/utf-16be": []
+      }
+    },
+    {
+      "index": 3,
+      "name": "03_av_udtr.bin",
+      "source_manifest": {
+        "index": 3,
+        "tag": "program data",
+        "fnum": "03",
+        "name": "av_udtr.bin",
+        "offset": 243136,
+        "offset_hex": "0003b5c0",
+        "size": 2145694,
+        "size_hex": "20bd9e",
+        "cksum": "5fa81e77",
+        "progress": "00000003",
+        "encrypt": true,
+        "encrypt_raw": "yes"
+      },
+      "size": 2145694,
+      "sha256": "4df6b8fdb920b30cf72dab8a8a06816aa47555025f03331ef80c205d06ec32dd",
+      "hmac_verified": true,
+      "equals_preserved_section": true,
+      "first_64_hex": "18f09fe518f09fe518f09fe518f09fe518f09fe50000a0e114f09fe514f09fe53c0010209c001020a8001020b8001020c8001020d8001020e4001020d3f021e3",
+      "selected_ascii_strings": [
+        {
+          "file_offset": "0x34f7",
+          "text": " Senser"
+        },
+        {
+          "file_offset": "0x421e",
+          "text": "2 IPCM Hash"
+        },
+        {
+          "file_offset": "0xd300",
+          "text": "[Info]Task tsk_ipcm Wake Up"
+        },
+        {
+          "file_offset": "0xd322",
+          "text": "2 [IPCM_TASK] Failed Receive Mail"
+        },
+        {
+          "file_offset": "0x1dc0f",
+          "text": " [ERROR][IPCM]Send MBF Failed"
+        },
+        {
+          "file_offset": "0x1f3f4",
+          "text": "3)IPCM Control "
+        },
+        {
+          "file_offset": "0x32ba1",
+          "text": "u' src\\EventDispatcher.cpp"
+        },
+        {
+          "file_offset": "0x4c1bc",
+          "text": "3)Send     IPCM Data(Command Line Mode) "
+        },
+        {
+          "file_offset": "0x4c1e8",
+          "text": "4)Send     IPCM Data(Interactive Mode) "
+        },
+        {
+          "file_offset": "0x4c384",
+          "text": "IPCM Menu Func1 "
+        },
+        {
+          "file_offset": "0x4c398",
+          "text": "IPCM Menu Func2 "
+        },
+        {
+          "file_offset": "0x4c3ac",
+          "text": "IPCM Menu Func3 "
+        },
+        {
+          "file_offset": "0x4c3c2",
+          "text": "6 IPCM>"
+        },
+        {
+          "file_offset": "0x4c47c",
+          "text": "     Return Debug IPCM Meunu "
+        },
+        {
+          "file_offset": "0x4c664",
+          "text": "Failed allocate IPCM memory buffer."
+        },
+        {
+          "file_offset": "0x4c68d",
+          "text": "IPCM>Message ID            = "
+        },
+        {
+          "file_offset": "0x4c6b5",
+          "text": "IPCM>Message ID            = %d "
+        },
+        {
+          "file_offset": "0x4c6da",
+          "text": "+ IPCM>Select CPU            = "
+        },
+        {
+          "file_offset": "0x4c6fc",
+          "text": "IPCM>(1:Low, 2:Middle, 3:High, Other:High) "
+        },
+        {
+          "file_offset": "0x4c72c",
+          "text": "IPCM>priority              = "
+        },
+        {
+          "file_offset": "0x4c750",
+          "text": "IPCM>priority              = %d "
+        },
+        {
+          "file_offset": "0x4c774",
+          "text": "IPCM>(0-20, Other:20) "
+        },
+        {
+          "file_offset": "0x4c78c",
+          "text": "IPCM>Buffer size           = "
+        },
+        {
+          "file_offset": "0x4c7ac",
+          "text": "IPCM>Buffer size"
+        },
+        {
+          "file_offset": "0x4c7cc",
+          "text": "IPCM>Message(Max %d bytes) = "
+        },
+        {
+          "file_offset": "0x4c99c",
+          "text": "IPCM Menu Func4 "
+        },
+        {
+          "file_offset": "0x4c9b3",
+          "text": " IPCM Menu Func5 "
+        },
+        {
+          "file_offset": "0x4c9cb",
+          "text": " IPCM Menu Func6 "
+        },
+        {
+          "file_offset": "0x4ca10",
+          "text": "IPCM Menu Func7 "
+        },
+        {
+          "file_offset": "0x4cacf",
+          "text": "pIPCMINT%1d       %08X %08X "
+        },
+        {
+          "file_offset": "0x4cb8c",
+          "text": "IPCM Menu Func8 "
+        },
+        {
+          "file_offset": "0x4d67c",
+          "text": "2)ESeus Dummy(Prompt Mode) "
+        },
+        {
+          "file_offset": "0x4e900",
+          "text": "ESEUS Menu is Disabled."
+        },
+        {
+          "file_offset": "0x4e91c",
+          "text": "If you need ESEUS Menu, you have to enable CompileSwitch."
+        },
+        {
+          "file_offset": "0x50147",
+          "text": " src\\senser\\sys_senser.c"
+        },
+        {
+          "file_offset": "0xa641e",
+          "text": "2 IPCM Alloc Buffer Error!msg_buf = %x"
+        },
+        {
+          "file_offset": "0xa6448",
+          "text": "IPCM To Host Failed!MID: %x"
+        },
+        {
+          "file_offset": "0xa8c1c",
+          "text": "BBIF SendAckIpcmToHost Called"
+        },
+        {
+          "file_offset": "0x105d5c",
+          "text": "Failed allocate IPCM memory buffer."
+        },
+        {
+          "file_offset": "0x10727c",
+          "text": "****************| BREW AVcon Version |*******************"
+        },
+        {
+          "file_offset": "0x107738",
+          "text": " ex) ipcm 2 3 0x100 0x00010000 0xAABBCC 0xEEEE 0x0 0x0"
+        },
+        {
+          "file_offset": "0x107e38",
+          "text": " IPCM Communication:   AVCON "
+        },
+        {
+          "file_offset": "0x107e57",
+          "text": " AVCON      "
+        },
+        {
+          "file_offset": "0x107e68",
+          "text": " IPCM Communication:   AVCON "
+        },
+        {
+          "file_offset": "0x107f9d",
+          "text": " pGDisable Debug Mode. IPCM Communication: "
+        },
+        {
+          "file_offset": "0x107fcc",
+          "text": " IPCM Communication:   AVCON "
+        },
+        {
+          "file_offset": "0x107feb",
+          "text": " AVCON      "
+        },
+        {
+          "file_offset": "0x107ffc",
+          "text": " IPCM Communication:   AVCON "
+        },
+        {
+          "file_offset": "0x108068",
+          "text": "Failed allocate IPCM memory buffer."
+        },
+        {
+          "file_offset": "0x11b532",
+          "text": "2 Senser::FeatureModelName_Get call"
+        },
+        {
+          "file_offset": "0x152d28",
+          "text": "tsk_senser"
+        },
+        {
+          "file_offset": "0x15b659",
+          "text": "DispatchAsyncCapCmd"
+        },
+        {
+          "file_offset": "0x15b678",
+          "text": "GetCmdAndDispatchAsyncCapCmd"
+        },
+        {
+          "file_offset": "0x1b161c",
+          "text": "ipcm [DST_CPUID] [PRIORITY] [MESSAGE_ID] [DATA1] [DATA2] [DATA3] [DATA4] [DATA5] "
+        },
+        {
+          "file_offset": "0x1b16c4",
+          "text": "     ex) ipcm 1 3 1 0x12345678 0xFFFFFFFF 0xAABBCC 0xEEEE 0x0 "
+        },
+        {
+          "file_offset": "0x1b1708",
+          "text": "IPCM>(1:HOST, 2:AV, 3:Video, 4:Audio0, 5:Audio1, 6:Audio2, Other:AV) "
+        },
+        {
+          "file_offset": "0x1b1751",
+          "text": "== IPCM CONFIGRATION =============================================== "
+        },
+        {
+          "file_offset": "0x1b17e1",
+          "text": "== IPCM MAILBOX ==================================================== "
+        },
+        {
+          "file_offset": "0x1b1871",
+          "text": "== IPCM INTERRUPT ================================================== "
+        },
+        {
+          "file_offset": "0x1b18b9",
+          "text": "== IPCM DEBUG MENU HELP=========================================== "
+        },
+        {
+          "file_offset": "0x1da8ad",
+          "text": "|      PRIUS SA SHELL on AVARM(uITRON Edt.)  |"
+        },
+        {
+          "file_offset": "0x1e7cc0",
+          "text": "debugmode        -- Enable  AVCON "
+        },
+        {
+          "file_offset": "0x1e7ce4",
+          "text": " AVCON Comm. Disable AVCON "
+        },
+        {
+          "file_offset": "0x1e7d10",
+          "text": "exitdebugmode    -- Disable AVCON "
+        },
+        {
+          "file_offset": "0x1e7d34",
+          "text": " AVCON Comm. Enable  AVCON "
+        },
+        {
+          "file_offset": "0x1e7d60",
+          "text": "ipcm [DST_CPUID] [PRIORITY] [MESSAGE_ID] [DATA1] [DATA2] [DATA3] [DATA4] [DATA5]"
+        }
+      ],
+      "literal_model_hits": {
+        "DSC-W300/ascii": [],
+        "DSC-W300/utf-16le": [],
+        "DSC-W300/utf-16be": [],
+        "W300/ascii": [],
+        "W300/utf-16le": [],
+        "W300/utf-16be": [],
+        "DSC-G3/ascii": [],
+        "DSC-G3/utf-16le": [],
+        "DSC-G3/utf-16be": [],
+        "G3/ascii": [
+          "0x120d7",
+          "0x38535",
+          "0x41c83",
+          "0x425cf",
+          "0x65481",
+          "0x68eff",
+          "0x68f05",
+          "0x9efa1",
+          "0xa18a5",
+          "0xca9a7",
+          "0xf43e3",
+          "0xfd0cd",
+          "0xfd6f5",
+          "0x12df0d",
+          "0x12eeb7",
+          "0x12f61b",
+          "0x12f9f5",
+          "0x12faf5",
+          "0x130a09",
+          "0x130c15",
+          "0x130fcf",
+          "0x131533",
+          "0x131c73",
+          "0x131eb1",
+          "0x19c975",
+          "0x1d6ba7"
+        ],
+        "G3/utf-16le": [],
+        "G3/utf-16be": [],
+        "08210030/ascii": [],
+        "08210030/utf-16le": [],
+        "08210030/utf-16be": []
+      },
+      "vector_pointer_words_le": [
+        "0x2010003c",
+        "0x2010009c",
+        "0x201000a8",
+        "0x201000b8",
+        "0x201000c8",
+        "0x201000d8",
+        "0x201000e4"
+      ]
+    },
+    {
+      "index": 8,
+      "name": "08_sa.bin",
+      "source_manifest": {
+        "index": 8,
+        "tag": "program data",
+        "fnum": "08",
+        "name": "sa.bin",
+        "offset": 3361632,
+        "offset_hex": "00334b60",
+        "size": 336664,
+        "size_hex": "52318",
+        "cksum": "805b6707",
+        "progress": "00000005",
+        "encrypt": true,
+        "encrypt_raw": "yes"
+      },
+      "size": 336664,
+      "sha256": "5126c376de296624280ccdc1c8692d98ec674cfaf69bfa8ef6dfa2e367010d44",
+      "hmac_verified": true,
+      "equals_preserved_section": true,
+      "first_64_hex": "534132555f415050332e30381600000094000000f01a0000dc3300003854000014a0000070fb00001c3a0100986f0100a4d0010090f301009c3e0200f8780200",
+      "selected_ascii_strings": [
+        {
+          "file_offset": "0x0",
+          "text": "SA2U_APP3.08"
+        }
+      ],
+      "literal_model_hits": {
+        "DSC-W300/ascii": [],
+        "DSC-W300/utf-16le": [],
+        "DSC-W300/utf-16be": [],
+        "W300/ascii": [],
+        "W300/utf-16le": [],
+        "W300/utf-16be": [],
+        "DSC-G3/ascii": [],
+        "DSC-G3/utf-16le": [],
+        "DSC-G3/utf-16be": [],
+        "G3/ascii": [
+          "0x3d257"
+        ],
+        "G3/utf-16le": [],
+        "G3/utf-16be": [],
+        "08210030/ascii": [],
+        "08210030/utf-16le": [],
+        "08210030/utf-16be": []
+      }
+    },
+    {
+      "index": 9,
+      "name": "09_av.bin",
+      "source_manifest": {
+        "index": 9,
+        "tag": "program data",
+        "fnum": "09",
+        "name": "av.bin",
+        "offset": 3698304,
+        "offset_hex": "00386e80",
+        "size": 2061054,
+        "size_hex": "1f72fe",
+        "cksum": "6f412f40",
+        "progress": "00000009",
+        "encrypt": true,
+        "encrypt_raw": "yes"
+      },
+      "size": 2061054,
+      "sha256": "f2554be5181f5765623b0771e6aef6ff99c8483980a1192c39db85c744bda4fb",
+      "hmac_verified": true,
+      "equals_preserved_section": true,
+      "first_64_hex": "18f09fe518f09fe518f09fe518f09fe518f09fe50000a0e114f09fe514f09fe53c001020a0001020ac001020bc001020cc001020dc001020e8001020d3f021e3",
+      "selected_ascii_strings": [
+        {
+          "file_offset": "0x370e",
+          "text": "1 IPCM"
+        },
+        {
+          "file_offset": "0x373e",
+          "text": "1 Senser"
+        },
+        {
+          "file_offset": "0x3dc6",
+          "text": "1 Senser"
+        },
+        {
+          "file_offset": "0x4322",
+          "text": "1 IPCM Hash"
+        },
+        {
+          "file_offset": "0xdbc8",
+          "text": "[Info]Task tsk_ipcm Wake Up"
+        },
+        {
+          "file_offset": "0xdbea",
+          "text": "1 [IPCM_TASK] Failed Receive Mail"
+        },
+        {
+          "file_offset": "0x1ff83",
+          "text": " [ERROR][IPCM]Send MBF Failed"
+        },
+        {
+          "file_offset": "0x21b94",
+          "text": "3)IPCM Control "
+        },
+        {
+          "file_offset": "0x37f02",
+          "text": "' src\\EventDispatcher.cpp"
+        },
+        {
+          "file_offset": "0x53744",
+          "text": "3)Send     IPCM Data(Command Line Mode) "
+        },
+        {
+          "file_offset": "0x53770",
+          "text": "4)Send     IPCM Data(Interactive Mode) "
+        },
+        {
+          "file_offset": "0x53918",
+          "text": "IPCM Menu Func1 "
+        },
+        {
+          "file_offset": "0x5392c",
+          "text": "IPCM Menu Func2 "
+        },
+        {
+          "file_offset": "0x53940",
+          "text": "IPCM Menu Func3 "
+        },
+        {
+          "file_offset": "0x53956",
+          "text": "5 IPCM>"
+        },
+        {
+          "file_offset": "0x53a18",
+          "text": "     Return Debug IPCM Meunu "
+        },
+        {
+          "file_offset": "0x53c44",
+          "text": "Failed allocate IPCM memory buffer."
+        },
+        {
+          "file_offset": "0x53c6d",
+          "text": "IPCM>Message ID            = "
+        },
+        {
+          "file_offset": "0x53c95",
+          "text": "IPCM>Message ID            = %d "
+        },
+        {
+          "file_offset": "0x53cb9",
+          "text": "0* IPCM>Select CPU            = "
+        },
+        {
+          "file_offset": "0x53cdc",
+          "text": "IPCM>(1:Low, 2:Middle, 3:High, Other:High) "
+        },
+        {
+          "file_offset": "0x53d0c",
+          "text": "IPCM>priority              = "
+        },
+        {
+          "file_offset": "0x53d30",
+          "text": "IPCM>priority              = %d "
+        },
+        {
+          "file_offset": "0x53d54",
+          "text": "IPCM>(0-20, Other:20) "
+        },
+        {
+          "file_offset": "0x53d6c",
+          "text": "IPCM>Buffer size           = "
+        },
+        {
+          "file_offset": "0x53d8c",
+          "text": "IPCM>Buffer size"
+        },
+        {
+          "file_offset": "0x53dac",
+          "text": "IPCM>Message(Max %d bytes) = "
+        },
+        {
+          "file_offset": "0x53fac",
+          "text": "IPCM Menu Func4 "
+        },
+        {
+          "file_offset": "0x53fc3",
+          "text": " IPCM Menu Func5 "
+        },
+        {
+          "file_offset": "0x53fdb",
+          "text": " IPCM Menu Func6 "
+        },
+        {
+          "file_offset": "0x54020",
+          "text": "IPCM Menu Func7 "
+        },
+        {
+          "file_offset": "0x540eb",
+          "text": "pIPCMINT%1d       %08X %08X "
+        },
+        {
+          "file_offset": "0x541a8",
+          "text": "IPCM Menu Func8 "
+        },
+        {
+          "file_offset": "0x54cd8",
+          "text": "2)ESeus Dummy(Prompt Mode) "
+        },
+        {
+          "file_offset": "0x55f28",
+          "text": "ESEUS Menu is Disabled."
+        },
+        {
+          "file_offset": "0x55f44",
+          "text": "If you need ESEUS Menu, you have to enable CompileSwitch."
+        },
+        {
+          "file_offset": "0x578cc",
+          "text": "src\\senser\\sys_senser.c"
+        },
+        {
+          "file_offset": "0xb4db9",
+          "text": "i1 IPCM Alloc Buffer Error!msg_buf = %x"
+        },
+        {
+          "file_offset": "0xb4de4",
+          "text": "IPCM To Host Failed!MID: %x"
+        },
+        {
+          "file_offset": "0xb7828",
+          "text": "BBIF SendAckIpcmToHost Called"
+        },
+        {
+          "file_offset": "0x11afbc",
+          "text": "Failed allocate IPCM memory buffer."
+        },
+        {
+          "file_offset": "0x11c790",
+          "text": "****************| BREW AVcon Version |*******************"
+        },
+        {
+          "file_offset": "0x11cc5c",
+          "text": " ex) ipcm 2 3 0x100 0x00010000 0xAABBCC 0xEEEE 0x0 0x0"
+        },
+        {
+          "file_offset": "0x11d390",
+          "text": " IPCM Communication:   AVCON "
+        },
+        {
+          "file_offset": "0x11d3af",
+          "text": " AVCON      "
+        },
+        {
+          "file_offset": "0x11d3c0",
+          "text": " IPCM Communication:   AVCON "
+        },
+        {
+          "file_offset": "0x11d460",
+          "text": "Disable Debug Mode. IPCM Communication: "
+        },
+        {
+          "file_offset": "0x11d48c",
+          "text": " IPCM Communication:   AVCON "
+        },
+        {
+          "file_offset": "0x11d4ab",
+          "text": " AVCON      "
+        },
+        {
+          "file_offset": "0x11d4bc",
+          "text": " IPCM Communication:   AVCON "
+        },
+        {
+          "file_offset": "0x11d70c",
+          "text": "Failed allocate IPCM memory buffer."
+        },
+        {
+          "file_offset": "0x12e749",
+          "text": "n1 Senser::FeatureModelName_Get call"
+        },
+        {
+          "file_offset": "0x162078",
+          "text": "tsk_senser"
+        },
+        {
+          "file_offset": "0x164691",
+          "text": "DispatchAsyncCapCmd"
+        },
+        {
+          "file_offset": "0x1646b0",
+          "text": "GetCmdAndDispatchAsyncCapCmd"
+        },
+        {
+          "file_offset": "0x1a2f1c",
+          "text": "ipcm [DST_CPUID] [PRIORITY] [MESSAGE_ID] [DATA1] [DATA2] [DATA3] [DATA4] [DATA5] "
+        },
+        {
+          "file_offset": "0x1a2fc4",
+          "text": "     ex) ipcm 1 3 1 0x12345678 0xFFFFFFFF 0xAABBCC 0xEEEE 0x0 "
+        },
+        {
+          "file_offset": "0x1a3008",
+          "text": "IPCM>(1:HOST, 2:AV, 3:Video, 4:Audio0, 5:Audio1, 6:Audio2, Other:AV) "
+        },
+        {
+          "file_offset": "0x1a3051",
+          "text": "== IPCM CONFIGRATION =============================================== "
+        },
+        {
+          "file_offset": "0x1a30e1",
+          "text": "== IPCM MAILBOX ==================================================== "
+        },
+        {
+          "file_offset": "0x1a3171",
+          "text": "== IPCM INTERRUPT ================================================== "
+        },
+        {
+          "file_offset": "0x1a31b9",
+          "text": "== IPCM DEBUG MENU HELP=========================================== "
+        },
+        {
+          "file_offset": "0x1c7a3d",
+          "text": "|      PRIUS SA SHELL on AVARM(uITRON Edt.)  |"
+        },
+        {
+          "file_offset": "0x1d49fc",
+          "text": "debugmode        -- Enable  AVCON "
+        },
+        {
+          "file_offset": "0x1d4a20",
+          "text": " AVCON Comm. Disable AVCON "
+        },
+        {
+          "file_offset": "0x1d4a4c",
+          "text": "exitdebugmode    -- Disable AVCON "
+        },
+        {
+          "file_offset": "0x1d4a70",
+          "text": " AVCON Comm. Enable  AVCON "
+        },
+        {
+          "file_offset": "0x1d4af8",
+          "text": "exitpedebug      -- Disable AVCON "
+        },
+        {
+          "file_offset": "0x1d4b54",
+          "text": "ipcm [DST_CPUID] [PRIORITY] [MESSAGE_ID] [DATA1] [DATA2] [DATA3] [DATA4] [DATA5]"
+        }
+      ],
+      "literal_model_hits": {
+        "DSC-W300/ascii": [],
+        "DSC-W300/utf-16le": [],
+        "DSC-W300/utf-16be": [],
+        "W300/ascii": [],
+        "W300/utf-16le": [],
+        "W300/utf-16be": [],
+        "DSC-G3/ascii": [
+          "0x1c7ee8"
+        ],
+        "DSC-G3/utf-16le": [],
+        "DSC-G3/utf-16be": [],
+        "G3/ascii": [
+          "0xe9c9",
+          "0x2a0f9",
+          "0x32d8b",
+          "0x34bfd",
+          "0x3ebef",
+          "0x42877",
+          "0x6a01d",
+          "0x6a021",
+          "0x6ed33",
+          "0x6ed43",
+          "0x6ed49",
+          "0x72f47",
+          "0x72f4d",
+          "0xad1b9",
+          "0xaffdd",
+          "0xb083f",
+          "0xcc4f9",
+          "0xd9f4b",
+          "0xf9497",
+          "0xf9a17",
+          "0xfef87",
+          "0x104d87",
+          "0x121627",
+          "0x12ed53",
+          "0x143557",
+          "0x143ab1",
+          "0x143d37",
+          "0x145b03",
+          "0x1461c5",
+          "0x1467d1",
+          "0x146a89",
+          "0x146d59",
+          "0x19a935",
+          "0x1c3d37",
+          "0x1c7eec"
+        ],
+        "G3/utf-16le": [],
+        "G3/utf-16be": [],
+        "08210030/ascii": [],
+        "08210030/utf-16le": [],
+        "08210030/utf-16be": []
+      },
+      "vector_pointer_words_le": [
+        "0x2010003c",
+        "0x201000a0",
+        "0x201000ac",
+        "0x201000bc",
+        "0x201000cc",
+        "0x201000dc",
+        "0x201000e8"
+      ]
+    },
+    {
+      "index": 19,
+      "name": "19_omgPrg00.bin",
+      "source_manifest": {
+        "index": 19,
+        "tag": "program data",
+        "fnum": "13",
+        "name": "omgPrg00.bin",
+        "offset": 35025344,
+        "offset_hex": "021671c0",
+        "size": 10485760,
+        "size_hex": "a00000",
+        "cksum": "8e246e35",
+        "progress": "00000049",
+        "encrypt": true,
+        "encrypt_raw": "yes"
+      },
+      "size": 10485760,
+      "sha256": "efca98e2f1efd2b9e6e584c99c2bc9af1196698bac070814c08573aacf78d7a6",
+      "hmac_verified": true,
+      "equals_preserved_section": true,
+      "first_64_hex": "07d208d321503030148b07d207d1126030cb022102d0e300236f05d02b400900200000ff000000000000f0ad00002fff4000000c01d2e9af090000000000f0ad",
+      "selected_ascii_strings": [
+        {
+          "file_offset": "0x14bc",
+          "text": "Copyright (c) 2000(2007) Renesas Technology Corp. and Renesas Solutions Corp. All Rights Reserved.HI7700/4(R0R40770TxW02x)V.2.02.02"
+        },
+        {
+          "file_offset": "0x791d4",
+          "text": "@(#) IP8021X $Name: ip8021x-any-r6_0_0 $ - Copyright 2000-2006 Interpeak AB (http://www.interpeak.se). All rights reserved."
+        },
+        {
+          "file_offset": "0x795dc",
+          "text": "@(#) IPCOM $Name: ipcom-itron-r6_0_17 $ - Copyright 2000-2006 Interpeak AB (http://www.interpeak.se). All rights reserved."
+        },
+        {
+          "file_offset": "0x7d661",
+          "text": "Copyright (c) 2003-2007 Datalight, Inc."
+        },
+        {
+          "file_offset": "0x7d6d4",
+          "text": "Copyright (c) 2003-2007 Datalight, Inc."
+        },
+        {
+          "file_offset": "0x6d4fca",
+          "text": "Copyright(c) 1992-2007 ACCESS CO., LTD. All rights are reserved by ACCESS CO., LTD. whether the whole or part of the source code including any modifications."
+        },
+        {
+          "file_offset": "0x6d5160",
+          "text": "MD5 message-digest algorithm: Copyright (C)1991-1992 RSA Data Security, Inc."
+        },
+        {
+          "file_offset": "0x6d5228",
+          "text": "Copyright (C) 1989 Regents of the University of California."
+        },
+        {
+          "file_offset": "0x6e882c",
+          "text": "Copyright (C) 1998, Thomas G. Lane"
+        },
+        {
+          "file_offset": "0x6eb1a9",
+          "text": "   Copyright (c) 1998-2002 Glenn Randers-Pehrson"
+        },
+        {
+          "file_offset": "0x6eb1da",
+          "text": "   Copyright (c) 1996-1997 Andreas Dilger"
+        },
+        {
+          "file_offset": "0x6eb204",
+          "text": "   Copyright (c) 1995-1996 Guy Eric Schalnat, Group 42, Inc."
+        },
+        {
+          "file_offset": "0x6ee37b",
+          "text": "copyright"
+        },
+        {
+          "file_offset": "0x6f7849",
+          "text": "dispatchEvent"
+        },
+        {
+          "file_offset": "0x6fd343",
+          "text": "copyright"
+        },
+        {
+          "file_offset": "0x779980",
+          "text": " deflate 1.2.3 Copyright 1995-2005 Jean-loup Gailly "
+        },
+        {
+          "file_offset": "0x779a8c",
+          "text": " inflate 1.2.3 Copyright 1995-2005 Mark Adler "
+        },
+        {
+          "file_offset": "0x7d2962",
+          "text": "'.5<=6/7>?MIDDLEWARE=\"Progressive-JPEG middleware for SH3-DSP/SH4AL-DSP\"LIBRARY=\"little-endian,ELF\"VERSION=\"1.00\"COPYRIGHT=\"(C)Copyright 1994-2004 Hitachi ULSI Systems Co.,Ltd.\""
+        },
+        {
+          "file_offset": "0x7d2a43",
+          "text": "Copyright (C) Renesas Technology Corp., 2004.All rights reserved."
+        }
+      ],
+      "literal_model_hits": {
+        "DSC-W300/ascii": [],
+        "DSC-W300/utf-16le": [],
+        "DSC-W300/utf-16be": [],
+        "W300/ascii": [],
+        "W300/utf-16le": [],
+        "W300/utf-16be": [],
+        "DSC-G3/ascii": [],
+        "DSC-G3/utf-16le": [],
+        "DSC-G3/utf-16be": [],
+        "G3/ascii": [
+          "0x78898",
+          "0x78ba7",
+          "0x7120ba",
+          "0x7121b1",
+          "0x71229e",
+          "0x712536",
+          "0x71262e",
+          "0x71271b",
+          "0x7129b2",
+          "0x712aaa",
+          "0x712b97",
+          "0x7144c6",
+          "0x7145be",
+          "0x7146ab",
+          "0x924c79"
+        ],
+        "G3/utf-16le": [],
+        "G3/utf-16be": [],
+        "08210030/ascii": [],
+        "08210030/utf-16le": [],
+        "08210030/utf-16be": []
+      }
+    },
+    {
+      "index": 20,
+      "name": "20_omgPrg01.bin",
+      "source_manifest": {
+        "index": 20,
+        "tag": "program data",
+        "fnum": "14",
+        "name": "omgPrg01.bin",
+        "offset": 45511104,
+        "offset_hex": "02b671c0",
+        "size": 2401280,
+        "size_hex": "24a400",
+        "cksum": "185b2ae3",
+        "progress": "0000004d",
+        "encrypt": true,
+        "encrypt_raw": "yes"
+      },
+      "size": 2401280,
+      "sha256": "2b93eabac59e15abd327e4239b761b9aa178de348ccc0a54f309b0bf68ac0696",
+      "hmac_verified": true,
+      "equals_preserved_section": true,
+      "first_64_hex": "0489f15c4356c2622c36622cf25778272389445672622c361fa06227f15668260489f15c4856c2622c36622cf25778271389495672622c360fa06227f1566826",
+      "selected_ascii_strings": [
+        {
+          "file_offset": "0x21f823",
+          "text": "Copyright (c) 1993-2007 Datalight, Inc."
+        }
+      ],
+      "literal_model_hits": {
+        "DSC-W300/ascii": [],
+        "DSC-W300/utf-16le": [],
+        "DSC-W300/utf-16be": [],
+        "W300/ascii": [],
+        "W300/utf-16le": [],
+        "W300/utf-16be": [],
+        "DSC-G3/ascii": [],
+        "DSC-G3/utf-16le": [],
+        "DSC-G3/utf-16be": [],
+        "G3/ascii": [
+          "0x16acf",
+          "0x665fb",
+          "0x111799",
+          "0x121aa7"
+        ],
+        "G3/utf-16le": [],
+        "G3/utf-16be": [],
+        "08210030/ascii": [],
+        "08210030/utf-16le": [],
+        "08210030/utf-16be": []
+      }
+    }
+  ]
+}

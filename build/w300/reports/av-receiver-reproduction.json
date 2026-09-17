@@ -1,0 +1,26 @@
+{
+  "scope": "Independent reproduction of new bounded G3 receiver decoding and Linux bridge only",
+  "runs": [
+    {
+      "script": "build\\w300\\reports\\av-receiver\\decode_receiver.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"ok\": true,\n  \"ranges\": 11,\n  \"g3_base\": \"0x20100000\",\n  \"initial_table_pointer_for_reference_row\": \"0x0\"\n}"
+    },
+    {
+      "script": "build\\w300\\reports\\av-receiver\\linux_body_bridge.py",
+      "exit_code": 0,
+      "stdout": "C:\\Users\\apara01\\OneDrive - Kearney\\Documents\\ChatGPT\\W300\\DSC-W300\\build\\w300\\reports\\av-receiver\\linux-body-bridge.asm.txt"
+    }
+  ],
+  "outputs_identical": true,
+  "output_sha256": {
+    "receiver-evidence.json": "92b189da7192160074d037325fec085d38281308ea3cd5a4502f750d05357122",
+    "receiver.asm.txt": "ea8242d862cda39f71fa2149b70260347695e30541390154de7412e9321e0a5f",
+    "linux-body-bridge-evidence.json": "fa52a33ff88c9672e9d7fa19b44aab86783b442118a13cf93e7b944945fc1f62",
+    "linux-body-bridge.asm.txt": "bc5595d746d5d53124af68ec93af509d2a3356ef641c563850685f639487e9fc"
+  },
+  "firmware_executed": false,
+  "usb_commands_sent": false,
+  "w300_protocol_verified": false,
+  "review_correction": "Direct copy callee added as range 11; actual load/store direction verified, then decoder rerun with identical outputs. Unchanged Linux bridge was not rerun."
+}

@@ -1,0 +1,111 @@
+libAppBackupApi.so sha256=9ce75b37757afb5ec3934f6091992185942cc7d2a52ff98348f14b713534a699
+AV command -> BackupEvent @0x51e4
+  (1, 5)
+  (2, 6)
+  (3, 7)
+AV category -> CommonMethod category @0x51b4
+  (1, 7)
+  (2, 6)
+  (3, 5)
+libBackupCore.so sha256=56aa2595c4747b6aadc1c0c3bb7a438b15086951121024a8649254cdec61fd4b
+_ZTV12CommonMethod @0x166a0
+  +0x0 raw=0x0 relocation=None 
+  +0x4 raw=0x0 relocation=(2, '_ZTI12CommonMethod', 91860) 
+  +0x8 raw=0x0 relocation=(2, '_ZN12CommonMethodD1Ev', 38168) 
+  +0xc raw=0x0 relocation=(2, '_ZN12CommonMethodD0Ev', 38220) 
+  +0x10 raw=0x0 relocation=(2, '_ZN11BasicMethod10initializeEv', 36428) 
+  +0x14 raw=0x0 relocation=(2, '_ZN11BasicMethod8finalizeEv', 36496) 
+  +0x18 raw=0x0 relocation=(2, '_ZN11BasicMethod4readEjjjPv', 36564) 
+  +0x1c raw=0x0 relocation=(2, '_ZN11BasicMethod5writeEjjjPKv', 36760) 
+  +0x20 raw=0x0 relocation=(2, '_ZN11BasicMethod5flushEjjj', 37000) 
+  +0x24 raw=0x0 relocation=(2, '_ZN11BasicMethod7refreshEjjj', 37348) 
+  +0x28 raw=0x0 relocation=(2, '_ZN11BasicMethod5eraseEjjj', 37640) 
+  +0x2c raw=0x0 relocation=(2, '_ZN11BasicMethod14selectDataAreaEv', 37816) 
+  +0x30 raw=0x0 relocation=(2, '_ZN11BasicMethod14checkParameterEjjj', 37852) 
+_ZTV13CategoryTable @0x16414
+  +0x0 raw=0x0 relocation=None 
+  +0x4 raw=0x0 relocation=(2, '_ZTI13CategoryTable', 91180) 
+  +0x8 raw=0x0 relocation=(2, '_ZN13CategoryTableD1Ev', 26832) 
+  +0xc raw=0x0 relocation=(2, '_ZN13CategoryTableD0Ev', 26880) 
+  +0x10 raw=0x0 relocation=(2, '_ZN13CategoryTable14getCategoryNumEv', 26932) 
+  +0x14 raw=0x0 relocation=(2, '_ZN13CategoryTable15getCategorySizeEj', 26952) 
+_ZN12FileAccesser9FILE_NAMEE @0x165e0
+  +0x0 raw=0xd638 relocation=(23, '', 0) b'/boot/factory/Hreg.bin'
+  +0x4 raw=0xd650 relocation=(23, '', 0) b'/boot/factory/Hsys.bin'
+  +0x8 raw=0xd668 relocation=(23, '', 0) b'/boot/backup/Husr.bin'
+  +0xc raw=0x0 relocation=None 
+  +0x10 raw=0x0 relocation=None 
+  +0x14 raw=0xd680 relocation=(23, '', 0) b'/boot/factory/Areg.bin'
+  +0x18 raw=0xd698 relocation=(23, '', 0) b'/boot/factory/Asys.bin'
+  +0x1c raw=0xd6b0 relocation=(23, '', 0) b'/boot/backup/Ausr.bin'
+_ZTV28FileAccesserMeasures2BattOff @0x16600
+  +0x0 raw=0x0 relocation=None 
+  +0x4 raw=0x0 relocation=(2, '_ZTI28FileAccesserMeasures2BattOff', 91704) 
+  +0x8 raw=0x0 relocation=(2, '_ZN28FileAccesserMeasures2BattOffD1Ev', 34560) 
+  +0xc raw=0x0 relocation=(2, '_ZN28FileAccesserMeasures2BattOffD0Ev', 34612) 
+  +0x10 raw=0x0 relocation=(2, '_ZN12FileAccesser10initializeEv', 33892) 
+  +0x14 raw=0x0 relocation=(2, '_ZN12FileAccesser8finalizeEv', 34024) 
+  +0x18 raw=0x0 relocation=(2, '_ZN28FileAccesserMeasures2BattOff5writeEjjjPKv', 34676) 
+  +0x1c raw=0x0 relocation=(2, '_ZN28FileAccesserMeasures2BattOff4readEjjjPv', 34832) 
+  +0x20 raw=0x0 relocation=(2, '_ZN12FileAccesser13getHeaderSizeEjPj', 34320) 
+  +0x24 raw=0x0 relocation=(2, '_ZN28FileAccesserMeasures2BattOff5eraseEjjjPKv', 35088) 
+  +0x28 raw=0x0 relocation=(2, '_ZN28FileAccesserMeasures2BattOff9writeUserEjjjPKv', 35164) 
+  +0x2c raw=0x0 relocation=(2, '_ZN28FileAccesserMeasures2BattOff11writeSafelyEjPKcjjPKv', 35496) 
+  +0x30 raw=0x0 relocation=(2, '_ZN28FileAccesserMeasures2BattOff13getDataOffsetEjPj', 35928) 
+  +0x34 raw=0x0 relocation=(2, '_ZN28FileAccesserMeasures2BattOff13checkFlushFlgEjPj', 36032) 
+_ZTV30ShadowAccesserMeasures2BattOff @0x16560
+  +0x0 raw=0x0 relocation=None 
+  +0x4 raw=0x0 relocation=(2, '_ZTI30ShadowAccesserMeasures2BattOff', 91560) 
+  +0x8 raw=0x0 relocation=(2, '_ZN30ShadowAccesserMeasures2BattOffD1Ev', 32064) 
+  +0xc raw=0x0 relocation=(2, '_ZN30ShadowAccesserMeasures2BattOffD0Ev', 32116) 
+  +0x10 raw=0x0 relocation=(2, '_ZN30ShadowAccesserMeasures2BattOff10initializeEv', 32180) 
+  +0x14 raw=0x0 relocation=(2, '_ZN30ShadowAccesserMeasures2BattOff8finalizeEv', 32200) 
+  +0x18 raw=0x0 relocation=(2, '_ZN14ShadowAccesser7getAddrEjj', 31200) 
+  +0x1c raw=0x0 relocation=(2, '_ZN14ShadowAccesser4lockEjjj', 31128) 
+  +0x20 raw=0x0 relocation=(2, '_ZN14ShadowAccesser7releaseEjjj', 31164) 
+  +0x24 raw=0x0 relocation=(2, '_ZN30ShadowAccesserMeasures2BattOff14selectDataAreaEv', 32996) 
+  +0x28 raw=0x0 relocation=(2, '_ZN14ShadowAccesser9markDirtyEjjj', 31388) 
+  +0x2c raw=0x0 relocation=(2, '_ZN14ShadowAccesser10eraseDirtyEjjj', 31408) 
+  +0x30 raw=0x0 relocation=(2, '_ZN14ShadowAccesser7isDirtyEjjj', 31428) 
+  +0x34 raw=0x0 relocation=(2, '_ZN14ShadowAccesser16createShadowAreaEv', 31448) 
+  +0x38 raw=0x0 relocation=(2, '_ZN14ShadowAccesser16createSharedAreaEPPvjj', 31576) 
+  +0x3c raw=0x0 relocation=(2, '_ZN14ShadowAccesser16deleteShadowAreaEv', 31696) 
+  +0x40 raw=0x0 relocation=(2, '_ZN14ShadowAccesser16deleteSharedAreaEPvj', 31808) 
+  +0x44 raw=0x0 relocation=(2, '_ZN30ShadowAccesserMeasures2BattOff17isFlushCompletionEv', 33500) 
+_ZN28FileAccesserMeasures2BattOff15SPARE_FILE_NAMEE @0x16644
+  +0x0 raw=0xd6e8 relocation=(23, '', 0) b'/boot/factory/Hreg2.bak'
+  +0x4 raw=0xd700 relocation=(23, '', 0) b'/boot/factory/Hsys2.bak'
+  +0x8 raw=0xd718 relocation=(23, '', 0) b'/boot/backup/Husr2.bak'
+  +0xc raw=0x0 relocation=None 
+  +0x10 raw=0x0 relocation=None 
+  +0x14 raw=0xd730 relocation=(23, '', 0) b'/boot/factory/Areg2.bak'
+  +0x18 raw=0xd748 relocation=(23, '', 0) b'/boot/factory/Asys2.bak'
+  +0x1c raw=0xd760 relocation=(23, '', 0) b'/boot/backup/Ausr2.bak'
+_ZTV11BasicMethod @0x16664
+  +0x0 raw=0x0 relocation=None 
+  +0x4 raw=0x0 relocation=(2, '_ZTI11BasicMethod', 91800) 
+  +0x8 raw=0x0 relocation=(2, '_ZN11BasicMethodD1Ev', 36328) 
+  +0xc raw=0x0 relocation=(2, '_ZN11BasicMethodD0Ev', 36376) 
+  +0x10 raw=0x0 relocation=(2, '_ZN11BasicMethod10initializeEv', 36428) 
+  +0x14 raw=0x0 relocation=(2, '_ZN11BasicMethod8finalizeEv', 36496) 
+  +0x18 raw=0x0 relocation=(2, '_ZN11BasicMethod4readEjjjPv', 36564) 
+  +0x1c raw=0x0 relocation=(2, '_ZN11BasicMethod5writeEjjjPKv', 36760) 
+  +0x20 raw=0x0 relocation=(2, '_ZN11BasicMethod5flushEjjj', 37000) 
+  +0x24 raw=0x0 relocation=(2, '_ZN11BasicMethod7refreshEjjj', 37348) 
+  +0x28 raw=0x0 relocation=(2, '_ZN11BasicMethod5eraseEjjj', 37640) 
+  +0x2c raw=0x0 relocation=(2, '_ZN11BasicMethod14selectDataAreaEv', 37816) 
+  +0x30 raw=0x0 relocation=(2, '_ZN11BasicMethod14checkParameterEjjj', 37852) 
+_ZTV11ShadowTable @0x164b8
+  +0x0 raw=0x0 relocation=None 
+  +0x4 raw=0x0 relocation=(2, '_ZTI11ShadowTable', 91356) 
+  +0x8 raw=0x0 relocation=(2, '_ZN11ShadowTableD1Ev', 27580) 
+  +0xc raw=0x0 relocation=(2, '_ZN11ShadowTableD0Ev', 27628) 
+  +0x10 raw=0x0 relocation=(2, '_ZN11ShadowTable13getShadowAddrEj', 27680) 
+  +0x14 raw=0x0 relocation=(2, '_ZN11ShadowTable13getShadowSizeEj', 27724) 
+  +0x18 raw=0x0 relocation=(2, '_ZN11ShadowTable16getShadowTopAddrEv', 27768) 
+  +0x1c raw=0x0 relocation=(2, '_ZN11ShadowTable16getShadowAllSizeEv', 27788) 
+  +0x20 raw=0x0 relocation=(2, '_ZN11ShadowTable18getShadowSpareAddrEj', 27808) 
+Shadow table @0x16458 [('0x0', None), ('0x0', None), ('0x0', None), ('0x0', None), ('0x0', None), ('0x0', None), ('0x0', None), ('0x0', None)]
+Shadow table @0x16478 [('0x0', None), ('0x0', None), ('0x0', None), ('0x0', None), ('0x0', None), ('0x0', None), ('0x0', None), ('0x0', None)]
+Shadow table @0x16498 [('0x0', None), ('0x0', None), ('0x0', None), ('0x0', None), ('0x0', None), ('0x0', None), ('0x0', None), ('0x0', None)]
+Shadow table @0x16908 [('BSS', None), ('BSS', None), ('BSS', None), ('BSS', None), ('BSS', None), ('BSS', None), ('BSS', None), ('BSS', None)]

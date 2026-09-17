@@ -1,0 +1,497 @@
+{
+  "scope": "Incremental manifest entries for resumed offline acquisition and static analysis; original 486 entries preserved",
+  "added_artifacts": [
+    {
+      "path": "downloads/eligibility-bulletins-20260916-r1/acquisition.json",
+      "bytes": 635,
+      "sha256": "787a35f7a0480d56037e30037f7545518da695c3766facf3d502b55b1ddd7e8c"
+    },
+    {
+      "path": "downloads/eligibility-bulletins-20260916-r1/hdr-sr11-adj-preview.html",
+      "bytes": 71463,
+      "sha256": "85ba2680015357baf89a537a937dff6f4e9ed602bea613b551c1fea3aaf12dd4"
+    },
+    {
+      "path": "downloads/eligibility-bulletins-20260916-r1/hdr-sr11-adj-preview.txt",
+      "bytes": 67179,
+      "sha256": "0d3e0fe882dac9dfb7e784397182cfb6a3960f16877578f99ac85301c701b813"
+    },
+    {
+      "path": "downloads/eligibility-bulletins-20260916-r1/w5-w7-supplement-index.html",
+      "bytes": 40296,
+      "sha256": "1335db52db02a4e1b507572d60d6d5af1a4b83d6f7e9912bec028a2ee6192fce"
+    },
+    {
+      "path": "downloads/eligibility-bulletins-20260916-r1/w5-w7-supplement-index.txt",
+      "bytes": 27520,
+      "sha256": "e193f8bd8f670bcb7545a896f5790fcebde65b5d94b92cc3c38c457705a14541"
+    },
+    {
+      "path": "downloads/seusex-public-20260916/artifact-manifest.json",
+      "bytes": 1864,
+      "sha256": "3e5ec4729d3bd2d870038f5b2e41c359f2e18b561009ea32bc48cf91b4c0003b"
+    },
+    {
+      "path": "downloads/seusex-public-20260916/catalog-archive-results.json",
+      "bytes": 3363,
+      "sha256": "e90807b195465c057f9d6ea0444e5b86ac75b5c2d1011fff60644dede7ca4b9f"
+    },
+    {
+      "path": "downloads/seusex-public-20260916/catalog-cdx-0.json",
+      "bytes": 2414,
+      "sha256": "277c281245b62590e98b34094df3596ffa6bb19520356b4ee37cf263d9f15df9"
+    },
+    {
+      "path": "downloads/seusex-public-20260916/catalog-cdx-1.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "downloads/seusex-public-20260916/catalog-snapshot-0.html",
+      "bytes": 7777,
+      "sha256": "86b386c42cafd575e995bff7dd897de57c6186a959722eecd427c05fce4bb86f"
+    },
+    {
+      "path": "downloads/seusex-public-20260916/catalog-snapshot-1.html",
+      "bytes": 14314,
+      "sha256": "e067f7240c763774facd18805c635da77e59e4a55f03475c3b86c87fade88b9b"
+    },
+    {
+      "path": "downloads/seusex-public-20260916/catalog-snapshot-2.html",
+      "bytes": 15200,
+      "sha256": "152774e63aae9ef10ba0d045d82a1a984ca789a75e44b7ff34a092b6fe8663f0"
+    },
+    {
+      "path": "downloads/seusex-public-20260916/legacy-followup-2.txt",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "downloads/seusex-public-20260916/legacy-followup-results.json",
+      "bytes": 739,
+      "sha256": "66a9ea3cfe4ec2c9030807db59c7775e539a903e175f2b6c28f6f9f8cd6ab69d"
+    },
+    {
+      "path": "downloads/seusex-public-20260916/legacy-locator-index-0.json",
+      "bytes": 209,
+      "sha256": "78ed87fbecfc2a4636285e47fe5ade4e4e6ca3c7383408775ed41e455292fde1"
+    },
+    {
+      "path": "downloads/seusex-public-20260916/legacy-locator-results.json",
+      "bytes": 856,
+      "sha256": "7a440912faaf3fd2e9b9284733f7668ee16462a8c3cff670f878930b9c162bbc"
+    },
+    {
+      "path": "downloads/seusex-public-20260916/snapshot-results.json",
+      "bytes": 962,
+      "sha256": "8d4752bda741e3bcb78c5c1415245f407e81685778d093cf023b38b32b8388d3"
+    },
+    {
+      "path": "downloads/seusex-public-20260916/software-informer-live-empty-after-failed-request.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/current-slide-structure.json",
+      "bytes": 3119,
+      "sha256": "6b27526165813b0df76cc6877feb5f683a36297462ca7740b44ebc5f9de8ec84"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/download-manifest.json",
+      "bytes": 616,
+      "sha256": "e942eb719eb7785e3cfff9715a3ec805e7f8905c1fef93905b2179207bfbbd49"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/DSC-PTPSoftStack.ppt",
+      "bytes": 35328,
+      "sha256": "10019b69eec38f621f00933aca6a81c4db81ba50edda7231b5ffb147cf0fab2f"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/inspect_ppt.py",
+      "bytes": 2060,
+      "sha256": "700c8cd67f30c0bbbf4114bcefb512988488287754edfb8b4570edfbe97af423"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/parser-deps/olefile/__init__.py",
+      "bytes": 967,
+      "sha256": "719e959251c94a8332354270e733ff8638781bf1ec6a9f921902a0b055692456"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/parser-deps/olefile/CONTRIBUTORS.txt",
+      "bytes": 792,
+      "sha256": "e12940f897b33883734a6bc06c6b5e8a3bf3508da6cfd085cadec18b7b57fbaf"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/parser-deps/olefile/doc/API.html",
+      "bytes": 15580,
+      "sha256": "20fd8a3ed6a7b056bfdb9eb2183cb1e479279dd361ea4d984d361f17deecbf61"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/parser-deps/olefile/doc/API.md",
+      "bytes": 13312,
+      "sha256": "c63c97b91409db1fa3cd087e377693e7983199ed4e1854a9249021ea4076cffd"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/parser-deps/olefile/doc/Contribute.html",
+      "bytes": 1870,
+      "sha256": "6016031dd0c44421230a1bb23992f95be712090e09e12704ee7d45a4e58957f2"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/parser-deps/olefile/doc/Contribute.md",
+      "bytes": 1199,
+      "sha256": "15fecea8048d9d6b5af8db99808a7aa35d0f6fa6acec0364b674c0735baed242"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/parser-deps/olefile/doc/Home.html",
+      "bytes": 5348,
+      "sha256": "2f71c03012e72bc59248cd149552d5d3a582fd675b9c4d63392a84b1fb4a88d0"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/parser-deps/olefile/doc/Home.md",
+      "bytes": 4306,
+      "sha256": "650ad7a3b0b2048ac7014b7ae3d10ebe06e0a95f45d90182eea468c63f650cc3"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/parser-deps/olefile/doc/Install.html",
+      "bytes": 1914,
+      "sha256": "f823b4a965a5030d0896b62892b0e24df003b63030be5356d94a4e2d5e3e1f84"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/parser-deps/olefile/doc/Install.md",
+      "bytes": 1241,
+      "sha256": "861ed1d5e21a5aeec956d01a9433d54012675294da882b658d5af4c8a0ae4a79"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/parser-deps/olefile/doc/License.html",
+      "bytes": 3833,
+      "sha256": "0dbceed92e36dbdc11d21154b2b4c40b7e0d766c0c12d6e704df3edca8974ff9"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/parser-deps/olefile/doc/License.md",
+      "bytes": 3191,
+      "sha256": "17cc0185ea7dac964e318ad80b7000bd65c09485c3fdec8617c7422ea54a9105"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/parser-deps/olefile/doc/OLE_Overview.html",
+      "bytes": 2482,
+      "sha256": "475dd8e5e3d0aeb62ab3036cd190f0f6310cd9ec35cbacc484065b54a5b7b002"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/parser-deps/olefile/doc/OLE_Overview.md",
+      "bytes": 1740,
+      "sha256": "a4e8b650964272644490ee6c514ba9b6c839e7a0801f7f4585668ee449a4cd67"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/parser-deps/olefile/doc/OLE_VBA_sample.png",
+      "bytes": 3568,
+      "sha256": "634af0ef52e97dd2580b6954a1236f8ada6c0afb8999379c98058edcaffd8f7d"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/parser-deps/olefile/LICENSE.txt",
+      "bytes": 2915,
+      "sha256": "0c349bed31cd2af10983a8d95e7455e2d15744b98585b55941ca35bd70f5bcd7"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/parser-deps/olefile/olefile.html",
+      "bytes": 33526,
+      "sha256": "57749bb9a50e7038832c9e9c402a870f1da1d42a2692a0df1ea79bc30099896b"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/parser-deps/olefile/olefile.py",
+      "bytes": 125455,
+      "sha256": "dcce514efdcbd04fa689bc920531a1985df0837c92b57fe3af0c45c46f1bbd87"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/parser-deps/olefile/olefile2.html",
+      "bytes": 18492,
+      "sha256": "55d8cf49f8a622b6a7bdb0e1d85ebc5ab2c53d18cd3c908dd45065d85fd83279"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/parser-deps/olefile/olefile2.py",
+      "bytes": 89797,
+      "sha256": "44655509298f5fd9a69bc54636f95dcd35720757c5576fe7e6ac972618b60a1f"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/parser-deps/olefile/README.html",
+      "bytes": 11237,
+      "sha256": "467fd8ed544bbfd27b8f2e6886fe0b6d2dd04018e455d05770b6b04dc99e3799"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/parser-deps/olefile/README.rst",
+      "bytes": 10221,
+      "sha256": "8bfcff05b224d73602e39602b97f0ab12e24245862bf4c96253d387b4f98ebe0"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/parser-deps/olefile-0.47.dist-info/INSTALLER",
+      "bytes": 4,
+      "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/parser-deps/olefile-0.47.dist-info/LICENSE.txt",
+      "bytes": 2846,
+      "sha256": "cf1498d5b834b3758a89d06d224a1502c54a28b3a852f46130b761deaa4890d1"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/parser-deps/olefile-0.47.dist-info/METADATA",
+      "bytes": 9718,
+      "sha256": "7d6d2e95f3419469854777a6524b0537688cf52c59bf9824a00f82f832fc2164"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/parser-deps/olefile-0.47.dist-info/RECORD",
+      "bytes": 2544,
+      "sha256": "8c7566eb863697d8d097a695f335d0545a6d927bb4c37fb710b7ffacad49f1f8"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/parser-deps/olefile-0.47.dist-info/REQUESTED",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/parser-deps/olefile-0.47.dist-info/top_level.txt",
+      "bytes": 8,
+      "sha256": "bad496e3f9cfa7eaf2b510fb56f312fbc812a7d05498a6110cd7757b1f50da4b"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/parser-deps/olefile-0.47.dist-info/WHEEL",
+      "bytes": 116,
+      "sha256": "8313daa9ca8a3cb51769200ac267c73bbfe200e955be6a77dc37b09d496e041f"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/parser-deps/OleFileIO_PL.py",
+      "bytes": 1350,
+      "sha256": "ce4c968e16bf24c3c0e2c41a260d7d350d5d0c9a868117824b919dc0bdb6116b"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/ppt-static-inspection.json",
+      "bytes": 6876,
+      "sha256": "661bcc25ea59c479be3e3b130c2fee887c4e9b2603114082cf896603ca6992b9"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/ppt-text-atoms.txt",
+      "bytes": 1318,
+      "sha256": "6d9dec5c9e49d4a51a3ecd2eb7e21669585c9c9a38386afca808056f60b48964"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/render-verification.json",
+      "bytes": 150,
+      "sha256": "ce797485c04d0ace93f3630f686aaae557995a6f2253184c8be3fc366a8af17d"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/render_readonly.ps1",
+      "bytes": 2330,
+      "sha256": "2c8160b07abdb1c0b8d01792a13ddac43af72a9282572f57755b51b850df6a29"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/slide-1.png",
+      "bytes": 29042,
+      "sha256": "54148fe5294a7189a4224744b17e6f6b6617c3f2cceeaec980e7a5ef8627105d"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/sony-reply-21014782.html",
+      "bytes": 56296,
+      "sha256": "7e6494f737b6c12dbdba53076e3183c45bbc2e3289003e111032c83759ae0a64"
+    },
+    {
+      "path": "downloads/w300-firmware-followup/owner-reference-and-vlab-response.json",
+      "bytes": 33117,
+      "sha256": "0ca626ec67c699cc7f4dc9fa4cc4444ad06af2ebc922b38a25d76b27f87b9058"
+    },
+    {
+      "path": "downloads/w300-firmware-followup/page-acquisition.json",
+      "bytes": 575,
+      "sha256": "f1f1df4d79f17b1ff3e27d1e50b6988c49ea28592f01c743644e945ea9a1bba7"
+    },
+    {
+      "path": "downloads/w300-firmware-followup/prx-family-and-watermark-search-response.json",
+      "bytes": 24601,
+      "sha256": "0ab4aee8df39ddba96e72f280ee8a99208c9e6ce0c0ded7282133912a6eabbf4"
+    },
+    {
+      "path": "downloads/w300-firmware-followup/prx765105a-search-response.json",
+      "bytes": 71,
+      "sha256": "1048ddaf93c0dfa7b1304db3ffef722f4a37db0018ad2c63d0062118c5d92b42"
+    },
+    {
+      "path": "downloads/w300-firmware-followup/regional-search-response.json",
+      "bytes": 24076,
+      "sha256": "78b2ed868ec0656bca71037d25519e58a0d7a8cdbb76c4006d243331b58e2e9e"
+    },
+    {
+      "path": "downloads/w300-firmware-followup/sony-guide-wx300-not-w300.html",
+      "bytes": 7928,
+      "sha256": "d9d173fdafe8110ef06beec79ffb4de0f83e2fc407d1637bc8dff15d6c0b5fbd"
+    },
+    {
+      "path": "downloads/w300-firmware-followup/watermark-site-access-response.json",
+      "bytes": 224,
+      "sha256": "342a18dda6ebbc9c7fb6f3b8f34ef49b3874d95a93324877a88d28c539bb5f12"
+    },
+    {
+      "path": "downloads/w300-firmware-followup/watermark-site-direct-request.json",
+      "bytes": 322,
+      "sha256": "d84b6d15fab0800695cffd2263e6bb4a6b70036d2028e8af3f56a0654fd47908"
+    },
+    {
+      "path": "downloads/w300-l3-reference/acquisition.json",
+      "bytes": 1608,
+      "sha256": "6e9b041cae8e9fada9e846b24e2f78f103905a80c1ced7326811749440c69173"
+    },
+    {
+      "path": "downloads/w300-l3-reference/l2-block-page35.html",
+      "bytes": 351776,
+      "sha256": "9c6e780e1c85adaf363b1ce7db1801fc034b32d94df7d374f46773bd46cc477b"
+    },
+    {
+      "path": "downloads/w300-l3-reference/landing.html",
+      "bytes": 28112,
+      "sha256": "5c5e10c39a5d3b4bc20c4625f86e62c86c25a79b6f9d4f0dd4f780ef7b1effb7"
+    },
+    {
+      "path": "downloads/w300-l3-reference/page14.png",
+      "bytes": 390385,
+      "sha256": "c0e472149f9151f077ab593db092d6a0f6b6b9977f39e1b051d581877c989aa5"
+    },
+    {
+      "path": "downloads/w300-l3-reference/page16.png",
+      "bytes": 319662,
+      "sha256": "c70043d887f5a0eafec88971c2cffb3c11558e0533c48b0e9498d7df286f2994"
+    },
+    {
+      "path": "downloads/w300-l3-reference/sony-w300-l3-v1.1.pdf",
+      "bytes": 2838408,
+      "sha256": "93b2b2fc8db505978ff3e8cca07dd6b452c6ac0decbf23eb57c1874966cb0325"
+    },
+    {
+      "path": "downloads/w300-l3-reference/sony-w300-l3-v1.1.txt",
+      "bytes": 95548,
+      "sha256": "33b7b6d10573cc50bcedfc1cd004bee7bf299f3218cd46549546ed0f4973a9ee"
+    },
+    {
+      "path": "reports/eligibility-bulletins-20260916-r1/research-index.json",
+      "bytes": 2345,
+      "sha256": "8e1e6127e59bf45d18cab1f194eb56e0d7d27128e2eb06d0e0b66be780510267"
+    },
+    {
+      "path": "reports/eligibility-bulletins-20260916-r1/service-board-bulletin-audit.md",
+      "bytes": 5968,
+      "sha256": "cc68a768ff0f63987fa70bedc2abc2a7a7b6ab32012a866b7c6d7e7cca1f5e44"
+    },
+    {
+      "path": "reports/fallback11/fallback11-evidence.json",
+      "bytes": 1215,
+      "sha256": "1d4628eb6f9a41db4439e85c61f1c03add7278e9503d333b4ce5479a2b5e6466"
+    },
+    {
+      "path": "reports/fallback11/fallback11.asm.txt",
+      "bytes": 27433,
+      "sha256": "a6d5aa00b9668d66c3a0927f76be73146d3055c713c3a013b82ed853bf88f826"
+    },
+    {
+      "path": "reports/fallback11/inspect_fallback11.py",
+      "bytes": 7968,
+      "sha256": "5b4acdf43c0f1d64ef32af094107324e074933857c21b60fb18596d951a663c6"
+    },
+    {
+      "path": "reports/fallback11/README.md",
+      "bytes": 5254,
+      "sha256": "6c5f880ec02845b45ffff0261763043b1013df613af52dc74c631d7e9f496e0e"
+    },
+    {
+      "path": "reports/offline-resumption-checks.json",
+      "bytes": 1493,
+      "sha256": "8e613cd3a8a4ca230a27835152e1780ac5d2e7c10543eb326acfc216c8f22765"
+    },
+    {
+      "path": "reports/seusex-public-acquisition-20260916.md",
+      "bytes": 7979,
+      "sha256": "2854eb08578d1d3f4c0572407d84548b86281c4fe72020b6a2f1408a700b8c38"
+    },
+    {
+      "path": "reports/sony-ptp-boundary-2008.md",
+      "bytes": 7073,
+      "sha256": "fccd7d4c76d7b6e1dcc0c00a562f33db395c21a21e2837bca2171874f1d3f4f4"
+    },
+    {
+      "path": "reports/verify_offline_resumption.py",
+      "bytes": 3137,
+      "sha256": "9774528a857da5547da7b1cb528dea80ee94cc77509e223e7143db6c68678d43"
+    },
+    {
+      "path": "reports/w300-firmware-followup.md",
+      "bytes": 8539,
+      "sha256": "764f605904a474ae9922558af8f5a0b67d5482f9319a3cb65adada18062cf245"
+    },
+    {
+      "path": "reports/w300-l3-architecture.md",
+      "bytes": 4701,
+      "sha256": "748fbb707930eee9c30a4df9696d751d416ead633db913ce67ffb4616b5c0439"
+    },
+    {
+      "path": "reports/w300-package-followup.md",
+      "bytes": 1471,
+      "sha256": "d88b2af83f3d06411d948de2559d5df0cc416ae3e7f5a041289e2d5104cfddea"
+    },
+    {
+      "path": "reports/av-receiver/decode_receiver.py",
+      "bytes": 6246,
+      "sha256": "1c6b03bd74bdd017ffbd5652695b19b07b96c75cec137972ff4f0914da86f2b0"
+    },
+    {
+      "path": "reports/av-receiver/inspect_av.py",
+      "bytes": 4058,
+      "sha256": "46567b6ec6d8edb0fdfd655372f864c97df124ea3d94d2145c8cd468bf7d1bb5"
+    },
+    {
+      "path": "reports/av-receiver/inventory.json",
+      "bytes": 29074,
+      "sha256": "dffcdc142fd453a98f6f30e4bdb98afa37b0413c981ec7007a62803f367b25cd"
+    },
+    {
+      "path": "reports/av-receiver/linux-body-bridge-evidence.json",
+      "bytes": 486,
+      "sha256": "fa52a33ff88c9672e9d7fa19b44aab86783b442118a13cf93e7b944945fc1f62"
+    },
+    {
+      "path": "reports/av-receiver/linux-body-bridge.asm.txt",
+      "bytes": 11361,
+      "sha256": "bc5595d746d5d53124af68ec93af509d2a3356ef641c563850685f639487e9fc"
+    },
+    {
+      "path": "reports/av-receiver/linux_body_bridge.py",
+      "bytes": 6754,
+      "sha256": "23e08ceb59574240b06edadfe576a34a1caf620b0c70c8147977cabd68582e73"
+    },
+    {
+      "path": "reports/av-receiver/README.md",
+      "bytes": 11808,
+      "sha256": "5b973df9b372306d4f40fa13d2de129d24a88ec3102b03b4517e4d810005e0a6"
+    },
+    {
+      "path": "reports/av-receiver/receiver-evidence.json",
+      "bytes": 4212,
+      "sha256": "92b189da7192160074d037325fec085d38281308ea3cd5a4502f750d05357122"
+    },
+    {
+      "path": "reports/av-receiver/receiver.asm.txt",
+      "bytes": 86274,
+      "sha256": "ea8242d862cda39f71fa2149b70260347695e30541390154de7412e9321e0a5f"
+    },
+    {
+      "path": "reports/av-receiver/vectors-and-reset.asm.txt",
+      "bytes": 6268,
+      "sha256": "11523cf98160e451cbd5b5035bde803d432d1517ad18f4b2ecc4543cf2369b1c"
+    },
+    {
+      "path": "reports/av-receiver-reproduction.json",
+      "bytes": 1392,
+      "sha256": "25b53ec6ffe55748fbc9b9d923857445f867c548689d4c36343b21c72e51a98c"
+    }
+  ],
+  "new_entries_verified": 97,
+  "documentation_checked": {
+    "ANALYSIS_LOG.md": "206b822aea71194945b0d3269254b07a386c4bdd2997868e279055f1a6d6aad8",
+    "docs/w300/EXECUTION_PLAN.md": "b2b0f7e9fb4d7e668011713b772dff3e7ab6a189540760d96f0c7ce877f2222f",
+    "docs/w300/VERIFICATION.md": "71c36742683085ca29144a8a1625a5f5ddc41822021830bf84c59021df18a928"
+  },
+  "diff_check_exit_code": 0
+}

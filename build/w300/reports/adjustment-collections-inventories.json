@@ -1,0 +1,246 @@
+[
+  {
+    "identifier": "Sony_A_DSLR_Picture_utilities",
+    "metadata": {
+      "identifier": "Sony_A_DSLR_Picture_utilities",
+      "mediatype": "software",
+      "collection": [
+        "cdromsoftware",
+        "cd-roms",
+        "vintagesoftware"
+      ],
+      "creator": "Sony Corporation",
+      "date": "2007",
+      "description": "Software for Sony α 200 and other Sony α DSLR Cameras:<div><div>Picture Motion Browser (Windows 2000 Professional SP4/ Windows XP SP2 / Windows Vista / 64 Bit not supported (but seems to work, tested on Windows 8)</div><div>Image Data Lightbox SR  (Windows 2000 Professional SP4/ Windows XP SP2 / Windows Vista / MAC OS X 64 Bit not supported (but seems to work, tested on Windows 8)</div><div><br /></div><div>Image Data Converter SR (Windows 2000 Professional SP4/ Windows XP SP2 / Windows Vista / MAC OS X 64 Bit not supported (but seems to work, tested on Windows 8)</div></div><div><br /></div><div>Product Registration</div>",
+      "language": "eng",
+      "licenseurl": "http://creativecommons.org/publicdomain/mark/1.0/",
+      "scanner": "Internet Archive HTML5 Uploader 1.6.4",
+      "subject": [
+        "Sony",
+        "A series",
+        "A",
+        "α",
+        "alfa A 200",
+        "DSLR",
+        "Camera",
+        "Sony Corporation"
+      ],
+      "title": "Sony α Series DSLR Camera Picture Utilities",
+      "uploader": "Glenvold91@gmail.com",
+      "publicdate": "2021-02-11 21:17:57",
+      "addeddate": "2021-02-11 21:17:57",
+      "curation": "[curator]validator@archive.org[/curator][date]20210211211839[/date][comment]checked for malware[/comment]",
+      "year": "2007"
+    },
+    "originalFiles": [
+      {
+        "name": "SONYPICTUTIL.ISO",
+        "size": "284491776",
+        "format": "ISO Image",
+        "sha1": "b276014d8b7ce8d8997e58d102c5fec63ef31812",
+        "md5": "c0cd8936de51e829f55875655a7fe744"
+      },
+      {
+        "name": "Sony_A_DSLR_Picture_utilities_files.xml",
+        "size": null,
+        "format": "Metadata",
+        "sha1": null,
+        "md5": "5f6311108572f4940994fd33d040843f"
+      },
+      {
+        "name": "Sony_A_DSLR_Picture_utilities_meta.sqlite",
+        "size": "18432",
+        "format": "Metadata",
+        "sha1": "ceaa262f9b7a8d85aa216d857c3400767402d398",
+        "md5": "5efd5f5a41738a67aa0d57716fea8da9"
+      },
+      {
+        "name": "Sony_A_DSLR_Picture_utilities_meta.xml",
+        "size": "1826",
+        "format": "Metadata",
+        "sha1": "7beeed9af7af926bb287d014222bb309c9bfd02f",
+        "md5": "9717c8ca3212f8e70c1f8d5faf394d78"
+      },
+      {
+        "name": "__ia_thumb.jpg",
+        "size": "11173",
+        "format": "Item Tile",
+        "sha1": "234993e71b36a5bfe5f43c1def274997e58a6aff",
+        "md5": "5bb5ce13653fea391d640805afb895c3"
+      },
+      {
+        "name": "photo_2021-02-11_22-00-08.jpg",
+        "size": "79215",
+        "format": "JPEG",
+        "sha1": "e767f7593c52ba19eb2f3268ae448279ad937c4f",
+        "md5": "21d36f92c9a5bd80678ae2a59b970da4"
+      }
+    ]
+  },
+  {
+    "identifier": "sony-cyber-shot-dsc-t100",
+    "metadata": {
+      "identifier": "sony-cyber-shot-dsc-t100",
+      "mediatype": "software",
+      "collection": [
+        "cdromsoftware",
+        "cd-roms",
+        "vintagesoftware"
+      ],
+      "creator": "Sony",
+      "date": "2007",
+      "description": "Installation CD for the Sony Cyber-shot DSC-T100 camera.<br />",
+      "scanner": "Internet Archive HTML5 Uploader 1.6.4",
+      "subject": [
+        "sony",
+        "cyber-shot",
+        "cybershot",
+        "DSC-T100",
+        "T100"
+      ],
+      "title": "Sony Cyber-shot DSC-T100 CD",
+      "uploader": "brunocasarini@outlook.com",
+      "publicdate": "2021-11-05 13:28:21",
+      "addeddate": "2021-11-05 13:28:21",
+      "curation": "[curator]validator@archive.org[/curator][date]20211105132906[/date][comment]checked for malware[/comment]"
+    },
+    "originalFiles": [
+      {
+        "name": "Cyber-shot DSC-T100 CD Sleeve 01.jpg",
+        "size": "493571",
+        "format": "JPEG",
+        "sha1": "bef5958eb03a5b1f2e4479bdbd80a6a8444e1c5d",
+        "md5": "1c99f373fef531a2da6f283f4b763a63"
+      },
+      {
+        "name": "Cyber-shot DSC-T100 CD Sleeve 02.jpg",
+        "size": "544180",
+        "format": "JPEG",
+        "sha1": "f4d00a9e7064f51cbe2242da82302f2b17189062",
+        "md5": "2891d5c08b20324bf2ae18aac0d69144"
+      },
+      {
+        "name": "Cyber-shot DSC-T100 CD.iso",
+        "size": "370925568",
+        "format": "ISO Image",
+        "sha1": "0029c7af0cc86b95f0e1d0e3732dbaed56e15336",
+        "md5": "f3229c560721a578b68c10f2c6a21f32"
+      },
+      {
+        "name": "Cyber-shot DSC-T100 CD.jpg",
+        "size": "152983",
+        "format": "JPEG",
+        "sha1": "4f2a3bcc39c0f5ca02a2224268913e129e35be3e",
+        "md5": "9afecde287f45d3081eb822cccef669a"
+      },
+      {
+        "name": "__ia_thumb.jpg",
+        "size": "8333",
+        "format": "Item Tile",
+        "sha1": "4dafc313ea7b1fe7809d2b7c2e6b4309a66bdd2d",
+        "md5": "aecd275ff15c32253954c103fc43ab4a"
+      },
+      {
+        "name": "sony-cyber-shot-dsc-t100_files.xml",
+        "size": null,
+        "format": "Metadata",
+        "sha1": null,
+        "md5": "623574eae3e1af0aff53cf501af12c43"
+      },
+      {
+        "name": "sony-cyber-shot-dsc-t100_meta.sqlite",
+        "size": "28672",
+        "format": "Metadata",
+        "sha1": "f2b455921524b3be39e22f83477d08037f9f8074",
+        "md5": "cc4549e767f5f32d6d0af062e5e90ce9"
+      },
+      {
+        "name": "sony-cyber-shot-dsc-t100_meta.xml",
+        "size": "930",
+        "format": "Metadata",
+        "sha1": "c537becea956aac23d6ea5738a58f6f5ee6c1166",
+        "md5": "a47d9431ec8fb79eb14558f7785dec13"
+      }
+    ]
+  },
+  {
+    "identifier": "SonyHandycam",
+    "metadata": {
+      "identifier": "SonyHandycam",
+      "mediatype": "software",
+      "collection": [
+        "cdromsoftware",
+        "cd-roms",
+        "vintagesoftware"
+      ],
+      "creator": "Sony",
+      "date": "2009",
+      "description": "CD-ROM that came with a Sony Handycam device.<div><br /></div><div>Includes as stated on the CD:</div><div><ul><li>Picture Motion browser Ver.4.2.00 for HDD Camcorder</li><li>Handycam Handbook</li><li>Product Registration</li></ul></div>",
+      "scanner": "Internet Archive HTML5 Uploader 1.6.3",
+      "subject": [
+        "Sony Handycam",
+        "Picture Motion Browser",
+        "Sony",
+        "Windows XP",
+        "Windows Vista"
+      ],
+      "title": "Sony Handycam",
+      "publicdate": "2018-11-23 00:15:16",
+      "uploader": "jaubert@lusfiber.net",
+      "addeddate": "2018-11-23 00:15:16",
+      "curation": "[curator]validator@archive.org[/curator][date]20181123001608[/date][comment]checked for malware[/comment]",
+      "backup_location": "ia906804_17"
+    },
+    "originalFiles": [
+      {
+        "name": "IMG_20181121_120750111.png",
+        "size": "9074589",
+        "format": "PNG",
+        "sha1": "a95f0b1d5244f544f585839a7fbba23b1518c9ab",
+        "md5": "4f263c356f02a27de35287e8ee82813e"
+      },
+      {
+        "name": "SONYPICTUTIL.iso",
+        "size": "513265664",
+        "format": "ISO Image",
+        "sha1": "913bf38ef5dd2dfa4da611c73752f121ee0cbcff",
+        "md5": "43286d4a02b93d8ee4ee29fb4bd2ad3a"
+      },
+      {
+        "name": "SonyHandycam_files.xml",
+        "size": null,
+        "format": "Metadata",
+        "sha1": null,
+        "md5": "ce4b7c88f5182c5349979c2f7e6ca460"
+      },
+      {
+        "name": "SonyHandycam_meta.sqlite",
+        "size": "14336",
+        "format": "Metadata",
+        "sha1": "a5139071277ee6d25472c5d8aea38c6f0247d287",
+        "md5": "5f56da5f5781c91dcf65f367418bb59e"
+      },
+      {
+        "name": "SonyHandycam_meta.xml",
+        "size": "1234",
+        "format": "Metadata",
+        "sha1": "a9dc022cdb0e00f80a90156ba5717b57dd96d0b3",
+        "md5": "b23c28a97e9e1c058f250367f557bbd0"
+      },
+      {
+        "name": "SonyHandycam_reviews.xml",
+        "size": "1769",
+        "format": "Metadata",
+        "sha1": "a93ab558de11f7141d65580f0fa9ff9e29e11779",
+        "md5": "6c64e6a5e94202f3368daf2a9d19a429"
+      },
+      {
+        "name": "__ia_thumb.jpg",
+        "size": "14213",
+        "format": "Item Tile",
+        "sha1": "5a1d611c0f93ac9706c1699c8243f7b8d92e0ae0",
+        "md5": "192ee5d6e41b27a87537b2f5e1af7d98"
+      }
+    ]
+  }
+]

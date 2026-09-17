@@ -1,0 +1,57 @@
+{
+  "new_artifacts": [
+    {
+      "path": "downloads/legacy-pmca/early-dsc-reference/a330-7874849.zip",
+      "bytes": 1093,
+      "sha256": "db214dffa04fa4963e443b40db8466c3fe31b25599fe9c857ff9fa2a4cc2ad69"
+    },
+    {
+      "path": "downloads/legacy-pmca/early-dsc-reference/a330-7890406.zip",
+      "bytes": 1089,
+      "sha256": "c90fe261bba5b94266764df616c112505325a628c4529a9a713d34df14440d31"
+    },
+    {
+      "path": "downloads/legacy-pmca/early-dsc-reference/a330-7892025.zip",
+      "bytes": 1096,
+      "sha256": "dd39b626b7f540d568cebb7ae69754a966bf3bac047018993221411a2d3f37ca"
+    },
+    {
+      "path": "downloads/legacy-pmca/early-dsc-reference/a330-7874849/a330.py",
+      "bytes": 2332,
+      "sha256": "45932af7d43664f029a3e930a8560415a4b681b2875fd3e0b50cffb0972d9153"
+    },
+    {
+      "path": "downloads/legacy-pmca/early-dsc-reference/a330-7890406/a330.py",
+      "bytes": 2359,
+      "sha256": "c8effc39ad1f9d4983328d688b077cf63284835d9874e619d935dbd0a04c0ce6"
+    },
+    {
+      "path": "downloads/legacy-pmca/early-dsc-reference/a330-7892025/a330.py",
+      "bytes": 2377,
+      "sha256": "5f6218191ac709e2ccfc52e76cf063f9809207377a79d21fb006f34429fc83bb"
+    },
+    {
+      "path": "downloads/libgphoto-reference/config.c",
+      "bytes": 498367,
+      "sha256": "d95ff9d39c3b9852e27ea961c3158650ede7475a8232451acf09896da07ef5d8"
+    },
+    {
+      "path": "downloads/libgphoto-reference/library.c",
+      "bytes": 385435,
+      "sha256": "2d6dd02a9bf3d581e368c8f4f4976210e03f3c0797a34f47ccab0ba74c8faccb"
+    },
+    {
+      "path": "downloads/libgphoto-reference/ptp.c",
+      "bytes": 389543,
+      "sha256": "3826338690d2ea3b4641f85e64c9f7f3a1d1a3b021a8011113fa19cdfdd38d44"
+    },
+    {
+      "path": "downloads/libgphoto-reference/ptp.h",
+      "bytes": 233182,
+      "sha256": "1b3811ade47db01935bd55ac8c6d2a249a8c7c4baad0517eda0c8a65c5cb12b6"
+    }
+  ],
+  "total": 468,
+  "unique_paths": true,
+  "existing_entries_replaced": false
+}

@@ -1,0 +1,358 @@
+_ZN6Senser9Extension12workerThreadEPv section=.text value=0xbf3c file=0xbf3c symbol_size=1336
+0x0000bf3c 0dc0a0e1     mov      ip, sp
+0x0000bf40 f0df2de9     push     {r4, r5, r6, r7, r8, sb, sl, fp, ip, lr, pc}
+0x0000bf44 04b04ce2     sub      fp, ip, #4
+0x0000bf48 84d04de2     sub      sp, sp, #0x84
+0x0000bf4c c4a49fe5     ldr      sl, [pc, #0x4c4] ; literal[0xc418]=0xf2f4
+0x0000bf50 0aa08fe0     add      sl, pc, sl
+0x0000bf54 c0349fe5     ldr      r3, [pc, #0x4c0] ; literal[0xc41c]=0x298
+0x0000bf58 03309ae7     ldr      r3, [sl, r3]
+0x0000bf5c 4c300be5     str      r3, [fp, #-0x4c]
+0x0000bf60 b8349fe5     ldr      r3, [pc, #0x4b8] ; literal[0xc420]=0xfffffe40
+0x0000bf64 03308ae0     add      r3, sl, r3
+0x0000bf68 48300be5     str      r3, [fp, #-0x48]
+0x0000bf6c 28204be2     sub      r2, fp, #0x28
+0x0000bf70 44200be5     str      r2, [fp, #-0x44]
+0x0000bf74 a8349fe5     ldr      r3, [pc, #0x4a8] ; literal[0xc424]=0xffff10e0
+0x0000bf78 03308ae0     add      r3, sl, r3
+0x0000bf7c 40300be5     str      r3, [fp, #-0x40]
+0x0000bf80 3cd00be5     str      sp, [fp, #-0x3c]
+0x0000bf84 38700be5     str      r7, [fp, #-0x38]
+0x0000bf88 64004be2     sub      r0, fp, #0x64
+0x0000bf8c 3dedffeb     bl       #0x7488 ; PLT:_Unwind_SjLj_Register
+0x0000bf90 0934a0e3     mov      r3, #0x9000000
+0x0000bf94 023883e2     add      r3, r3, #0x20000
+0x0000bf98 68300be5     str      r3, [fp, #-0x68]
+0x0000bf9c 0030e0e3     mvn      r3, #0
+0x0000bfa0 60300be5     str      r3, [fp, #-0x60]
+0x0000bfa4 0400a0e3     mov      r0, #4
+0x0000bfa8 0310a0e3     mov      r1, #3
+0x0000bfac 68204be2     sub      r2, fp, #0x68
+0x0000bfb0 0030a0e1     mov      r3, r0
+0x0000bfb4 101500eb     bl       #0x113fc ; blog
+0x0000bfb8 9800a0e3     mov      r0, #0x98
+0x0000bfbc 2aeeffeb     bl       #0x786c ; PLT:_Znwj
+0x0000bfc0 74000be5     str      r0, [fp, #-0x74]
+0x0000bfc4 78000be5     str      r0, [fp, #-0x78]
+0x0000bfc8 58349fe5     ldr      r3, [pc, #0x458] ; literal[0xc428]=0x220
+0x0000bfcc 03309ae7     ldr      r3, [sl, r3]
+0x0000bfd0 083083e2     add      r3, r3, #8
+0x0000bfd4 003080e5     str      r3, [r0]
+0x0000bfd8 4c349fe5     ldr      r3, [pc, #0x44c] ; literal[0xc42c]=0x224
+0x0000bfdc 03309ae7     ldr      r3, [sl, r3]
+0x0000bfe0 083083e2     add      r3, r3, #8
+0x0000bfe4 74201be5     ldr      r2, [fp, #-0x74]
+0x0000bfe8 003082e5     str      r3, [r2]
+0x0000bfec 0030e0e3     mvn      r3, #0
+0x0000bff0 043082e5     str      r3, [r2, #4]
+0x0000bff4 080082e2     add      r0, r2, #8
+0x0000bff8 0420a0e3     mov      r2, #4
+0x0000bffc 60200be5     str      r2, [fp, #-0x60]
+0x0000c000 470100eb     bl       #0xc524 ; _ZN6Senser7SPacketC1Ev
+0x0000c004 24049fe5     ldr      r0, [pc, #0x424] ; literal[0xc430]=0xffff740c
+0x0000c008 00008ae0     add      r0, sl, r0
+0x0000c00c 7f1fa0e3     mov      r1, #0x1fc
+0x0000c010 031081e2     add      r1, r1, #3
+0x0000c014 3fedffeb     bl       #0x7518 ; PLT:mkdir
+0x0000c018 000050e3     cmp      r0, #0
+0x0000c01c 0300000a     beq      #0xc030
+0x0000c020 90edffeb     bl       #0x7668 ; PLT:address_of_errno
+0x0000c024 003090e5     ldr      r3, [r0]
+0x0000c028 110053e3     cmp      r3, #0x11
+0x0000c02c 0800001a     bne      #0xc054
+0x0000c030 0430a0e3     mov      r3, #4
+0x0000c034 60300be5     str      r3, [fp, #-0x60]
+0x0000c038 f4039fe5     ldr      r0, [pc, #0x3f4] ; literal[0xc434]=0xffff7418
+0x0000c03c 00008ae0     add      r0, sl, r0
+0x0000c040 fffeffeb     bl       #0xbc44 ; _ZN6Senser30HostCommunicationPacketHandler6mkfifoEPKc
+0x0000c044 ec039fe5     ldr      r0, [pc, #0x3ec] ; literal[0xc438]=0xffff7430
+0x0000c048 00008ae0     add      r0, sl, r0
+0x0000c04c fcfeffeb     bl       #0xbc44 ; _ZN6Senser30HostCommunicationPacketHandler6mkfifoEPKc
+0x0000c050 130000ea     b        #0xc0a4
+0x0000c054 0430a0e3     mov      r3, #4
+0x0000c058 60300be5     str      r3, [fp, #-0x60]
+0x0000c05c 81edffeb     bl       #0x7668 ; PLT:address_of_errno
+0x0000c060 003090e5     ldr      r3, [r0]
+0x0000c064 6c300be5     str      r3, [fp, #-0x6c]
+0x0000c068 8000a0e3     mov      r0, #0x80
+0x0000c06c 6c104be2     sub      r1, fp, #0x6c
+0x0000c070 820400eb     bl       #0xd280 ; _Z4blogIiEvhRKT_
+0x0000c074 60edffeb     bl       #0x75fc ; PLT:getpid
+0x0000c078 0030a0e1     mov      r3, r0
+0x0000c07c b8039fe5     ldr      r0, [pc, #0x3b8] ; literal[0xc43c]=0xffff7448
+0x0000c080 00008ae0     add      r0, sl, r0
+0x0000c084 0310a0e1     mov      r1, r3
+0x0000c088 b0239fe5     ldr      r2, [pc, #0x3b0] ; literal[0xc440]=0xffff75ac
+0x0000c08c 02208ae0     add      r2, sl, r2
+0x0000c090 6c301be5     ldr      r3, [fp, #-0x6c]
+0x0000c094 eeedffeb     bl       #0x7854 ; PLT:printf
+0x0000c098 72edffeb     bl       #0x7668 ; PLT:address_of_errno
+0x0000c09c 6c301be5     ldr      r3, [fp, #-0x6c]
+0x0000c0a0 003080e5     str      r3, [r0]
+0x0000c0a4 78301be5     ldr      r3, [fp, #-0x78]
+0x0000c0a8 040083e2     add      r0, r3, #4
+0x0000c0ac 0430a0e3     mov      r3, #4
+0x0000c0b0 60300be5     str      r3, [fp, #-0x60]
+0x0000c0b4 78139fe5     ldr      r1, [pc, #0x378] ; literal[0xc434]=0xffff7418
+0x0000c0b8 01108ae0     add      r1, sl, r1
+0x0000c0bc 022ba0e3     mov      r2, #0x800
+0x0000c0c0 022082e2     add      r2, r2, #2
+0x0000c0c4 a50d00eb     bl       #0xf760 ; _ZN8DeviceIo4openEPKci
+0x0000c0c8 0f0000ea     b        #0xc10c
+0x0000c0cc 78201be5     ldr      r2, [fp, #-0x78]
+0x0000c0d0 040082e2     add      r0, r2, #4
+0x0000c0d4 0030a0e3     mov      r3, #0
+0x0000c0d8 60300be5     str      r3, [fp, #-0x60]
+0x0000c0dc 6b0d00eb     bl       #0xf690 ; _ZN8DeviceIo5closeEv
+0x0000c0e0 40339fe5     ldr      r3, [pc, #0x340] ; literal[0xc428]=0x220
+0x0000c0e4 03309ae7     ldr      r3, [sl, r3]
+0x0000c0e8 083083e2     add      r3, r3, #8
+0x0000c0ec 78201be5     ldr      r2, [fp, #-0x78]
+0x0000c0f0 003082e5     str      r3, [r2]
+0x0000c0f4 74001be5     ldr      r0, [fp, #-0x74]
+0x0000c0f8 09edffeb     bl       #0x7524 ; PLT:_ZdlPv
+0x0000c0fc 0030e0e3     mvn      r3, #0
+0x0000c100 60300be5     str      r3, [fp, #-0x60]
+0x0000c104 7c001be5     ldr      r0, [fp, #-0x7c]
+0x0000c108 35edffeb     bl       #0x75e4 ; PLT:_Unwind_SjLj_Resume
+0x0000c10c 74301be5     ldr      r3, [fp, #-0x74]
+0x0000c110 70300be5     str      r3, [fp, #-0x70]
+0x0000c114 0030e0e3     mvn      r3, #0
+0x0000c118 60300be5     str      r3, [fp, #-0x60]
+0x0000c11c 70001be5     ldr      r0, [fp, #-0x70]
+0x0000c120 f80200eb     bl       #0xcd08
+0x0000c124 70101be5     ldr      r1, [fp, #-0x70]
+0x0000c128 d0ecffeb     bl       #0x7470 ; PLT:pthread_cleanup_push
+0x0000c12c 2400a0e3     mov      r0, #0x24
+0x0000c130 cdedffeb     bl       #0x786c ; PLT:_Znwj
+0x0000c134 84000be5     str      r0, [fp, #-0x84]
+0x0000c138 88000be5     str      r0, [fp, #-0x88]
+0x0000c13c 2c204be2     sub      r2, fp, #0x2c
+0x0000c140 8c200be5     str      r2, [fp, #-0x8c]
+0x0000c144 0200a0e1     mov      r0, r2
+0x0000c148 ba0600eb     bl       #0xdc38 ; _ZNSaISt4pairIKiP14IoEventHandlerEEC1Ev
+0x0000c14c 30304be2     sub      r3, fp, #0x30
+0x0000c150 90300be5     str      r3, [fp, #-0x90]
+0x0000c154 0300a0e1     mov      r0, r3
+0x0000c158 8c101be5     ldr      r1, [fp, #-0x8c]
+0x0000c15c bf0600eb     bl       #0xdc60 ; _ZNSaISt13_Rb_tree_nodeISt4pairIKiP14IoEventHandlerEEEC1IS4_EERKSaIT_E
+0x0000c160 84001be5     ldr      r0, [fp, #-0x84]
+0x0000c164 90101be5     ldr      r1, [fp, #-0x90]
+0x0000c168 c10600eb     bl       #0xdc74 ; _ZNSaISt13_Rb_tree_nodeISt4pairIKiP14IoEventHandlerEEEC2ERKS6_
+0x0000c16c 0030a0e3     mov      r3, #0
+0x0000c170 84201be5     ldr      r2, [fp, #-0x84]
+0x0000c174 143082e5     str      r3, [r2, #0x14]
+0x0000c178 043082e5     str      r3, [r2, #4]
+0x0000c17c 083082e5     str      r3, [r2, #8]
+0x0000c180 043082e2     add      r3, r2, #4
+0x0000c184 0c3082e5     str      r3, [r2, #0xc]
+0x0000c188 103082e5     str      r3, [r2, #0x10]
+0x0000c18c 90001be5     ldr      r0, [fp, #-0x90]
+0x0000c190 590600eb     bl       #0xdafc ; _ZNSaISt13_Rb_tree_nodeISt4pairIKiP14IoEventHandlerEEED1Ev
+0x0000c194 8c001be5     ldr      r0, [fp, #-0x8c]
+0x0000c198 ab0600eb     bl       #0xdc4c ; _ZNSaISt4pairIKiP14IoEventHandlerEED1Ev
+0x0000c19c 90001be5     ldr      r0, [fp, #-0x90]
+0x0000c1a0 b80600eb     bl       #0xdc88 ; _ZNSaI6pollfdEC1Ev
+0x0000c1a4 84301be5     ldr      r3, [fp, #-0x84]
+0x0000c1a8 180083e2     add      r0, r3, #0x18
+0x0000c1ac 0330a0e3     mov      r3, #3
+0x0000c1b0 60300be5     str      r3, [fp, #-0x60]
+0x0000c1b4 90101be5     ldr      r1, [fp, #-0x90]
+0x0000c1b8 c10600eb     bl       #0xdcc4 ; _ZNSt6vectorI6pollfdSaIS0_EEC1ERKS1_
+0x0000c1bc 1a0000ea     b        #0xc22c
+0x0000c1c0 30004be2     sub      r0, fp, #0x30
+0x0000c1c4 b90600eb     bl       #0xdcb0 ; _ZNSaI6pollfdED1Ev
+0x0000c1c8 7c201be5     ldr      r2, [fp, #-0x7c]
+0x0000c1cc 94200be5     str      r2, [fp, #-0x94]
+0x0000c1d0 88301be5     ldr      r3, [fp, #-0x88]
+0x0000c1d4 98300be5     str      r3, [fp, #-0x98]
+0x0000c1d8 081093e5     ldr      r1, [r3, #8]
+0x0000c1dc 0230a0e3     mov      r3, #2
+0x0000c1e0 60300be5     str      r3, [fp, #-0x60]
+0x0000c1e4 98001be5     ldr      r0, [fp, #-0x98]
+0x0000c1e8 54329fe5     ldr      r3, [pc, #0x254] ; literal[0xc444]=0x238
+0x0000c1ec 03c09ae7     ldr      ip, [sl, r3]
+0x0000c1f0 3cff2fe1     blx      ip
+0x0000c1f4 020000ea     b        #0xc204
+0x0000c1f8 98001be5     ldr      r0, [fp, #-0x98]
+0x0000c1fc 390600eb     bl       #0xdae8 ; _ZNSaISt13_Rb_tree_nodeISt4pairIKiP14IoEventHandlerEEED2Ev
+0x0000c200 030000ea     b        #0xc214
+0x0000c204 98001be5     ldr      r0, [fp, #-0x98]
+0x0000c208 360600eb     bl       #0xdae8 ; _ZNSaISt13_Rb_tree_nodeISt4pairIKiP14IoEventHandlerEEED2Ev
+0x0000c20c 94201be5     ldr      r2, [fp, #-0x94]
+0x0000c210 7c200be5     str      r2, [fp, #-0x7c]
+0x0000c214 84001be5     ldr      r0, [fp, #-0x84]
+0x0000c218 c1ecffeb     bl       #0x7524 ; PLT:_ZdlPv
+0x0000c21c 0030e0e3     mvn      r3, #0
+0x0000c220 60300be5     str      r3, [fp, #-0x60]
+0x0000c224 7c001be5     ldr      r0, [fp, #-0x7c]
+0x0000c228 edecffeb     bl       #0x75e4 ; PLT:_Unwind_SjLj_Resume
+0x0000c22c 30004be2     sub      r0, fp, #0x30
+0x0000c230 9e0600eb     bl       #0xdcb0 ; _ZNSaI6pollfdED1Ev
+0x0000c234 84301be5     ldr      r3, [fp, #-0x84]
+0x0000c238 80300be5     str      r3, [fp, #-0x80]
+0x0000c23c 04329fe5     ldr      r3, [pc, #0x204] ; literal[0xc448]=0x1f8
+0x0000c240 03009ae7     ldr      r0, [sl, r3]
+0x0000c244 0030e0e3     mvn      r3, #0
+0x0000c248 60300be5     str      r3, [fp, #-0x60]
+0x0000c24c 80101be5     ldr      r1, [fp, #-0x80]
+0x0000c250 86ecffeb     bl       #0x7470 ; PLT:pthread_cleanup_push
+0x0000c254 e31000eb     bl       #0x105e8 ; GetSenserMode
+0x0000c258 9c000be5     str      r0, [fp, #-0x9c]
+0x0000c25c 000050e3     cmp      r0, #0
+0x0000c260 5c00001a     bne      #0xc3d8
+0x0000c264 e0019fe5     ldr      r0, [pc, #0x1e0] ; literal[0xc44c]=0x1424
+0x0000c268 00008ae0     add      r0, sl, r0
+0x0000c26c 9b0a00eb     bl       #0xece0 ; senif_destroy
+0x0000c270 a0000be5     str      r0, [fp, #-0xa0]
+0x0000c274 000050e3     cmp      r0, #0
+0x0000c278 0a00000a     beq      #0xc2a8
+0x0000c27c deecffeb     bl       #0x75fc ; PLT:getpid
+0x0000c280 0030a0e1     mov      r3, r0
+0x0000c284 c4019fe5     ldr      r0, [pc, #0x1c4] ; literal[0xc450]=0xffff748c
+0x0000c288 00008ae0     add      r0, sl, r0
+0x0000c28c 0310a0e1     mov      r1, r3
+0x0000c290 bc219fe5     ldr      r2, [pc, #0x1bc] ; literal[0xc454]=0xffff75cc
+0x0000c294 02208ae0     add      r2, sl, r2
+0x0000c298 a0301be5     ldr      r3, [fp, #-0xa0]
+0x0000c29c 6cedffeb     bl       #0x7854 ; PLT:printf
+0x0000c2a0 9c301be5     ldr      r3, [fp, #-0x9c]
+0x0000c2a4 030000ea     b        #0xc2b8
+0x0000c2a8 0020a0e3     mov      r2, #0
+0x0000c2ac a4319fe5     ldr      r3, [pc, #0x1a4] ; literal[0xc458]=0x1438
+0x0000c2b0 0320cae7     strb     r2, [sl, r3]
+0x0000c2b4 0130a0e3     mov      r3, #1
+0x0000c2b8 ff3013e2     ands     r3, r3, #0xff
+0x0000c2bc 5000000a     beq      #0xc404
+0x0000c2c0 94319fe5     ldr      r3, [pc, #0x194] ; literal[0xc45c]=0x143c
+0x0000c2c4 03308ae0     add      r3, sl, r3
+0x0000c2c8 a4300be5     str      r3, [fp, #-0xa4]
+0x0000c2cc 240083e2     add      r0, r3, #0x24
+0x0000c2d0 30000be5     str      r0, [fp, #-0x30]
+0x0000c2d4 0030e0e3     mvn      r3, #0
+0x0000c2d8 60300be5     str      r3, [fp, #-0x60]
+0x0000c2dc 7c319fe5     ldr      r3, [pc, #0x17c] ; literal[0xc460]=0x218
+0x0000c2e0 03c09ae7     ldr      ip, [sl, r3]
+0x0000c2e4 3cff2fe1     blx      ip
+0x0000c2e8 a4201be5     ldr      r2, [fp, #-0xa4]
+0x0000c2ec 542082e2     add      r2, r2, #0x54
+0x0000c2f0 a8200be5     str      r2, [fp, #-0xa8]
+0x0000c2f4 0130a0e3     mov      r3, #1
+0x0000c2f8 60300be5     str      r3, [fp, #-0x60]
+0x0000c2fc 0200a0e1     mov      r0, r2
+0x0000c300 bf0a00eb     bl       #0xee04 ; _ZN6Thread6cancelEv
+0x0000c304 a8001be5     ldr      r0, [fp, #-0xa8]
+0x0000c308 0010a0e3     mov      r1, #0
+0x0000c30c e40a00eb     bl       #0xeea4 ; _ZN6Thread4joinEPPv
+0x0000c310 a4201be5     ldr      r2, [fp, #-0xa4]
+0x0000c314 5830d2e5     ldrb     r3, [r2, #0x58]
+0x0000c318 000053e3     cmp      r3, #0
+0x0000c31c 1600000a     beq      #0xc37c
+0x0000c320 500082e2     add      r0, r2, #0x50
+0x0000c324 981300eb     bl       #0x1118c ; _ZN10CoreModule8nin_failEv
+0x0000c328 130000ea     b        #0xc37c
+0x0000c32c 28b08be2     add      fp, fp, #0x28
+0x0000c330 2ca19fe5     ldr      sl, [pc, #0x12c] ; literal[0xc464]=0xef10
+0x0000c334 0aa08fe0     add      sl, pc, sl
+0x0000c338 60301be5     ldr      r3, [fp, #-0x60]
+0x0000c33c 5c201be5     ldr      r2, [fp, #-0x5c]
+0x0000c340 7c200be5     str      r2, [fp, #-0x7c]
+0x0000c344 010053e3     cmp      r3, #1
+0x0000c348 aaffff0a     beq      #0xc1f8
+0x0000c34c 020053e3     cmp      r3, #2
+0x0000c350 9affff0a     beq      #0xc1c0
+0x0000c354 030053e3     cmp      r3, #3
+0x0000c358 5bffff0a     beq      #0xc0cc
+0x0000c35c 0030a0e3     mov      r3, #0
+0x0000c360 60300be5     str      r3, [fp, #-0x60]
+0x0000c364 30001be5     ldr      r0, [fp, #-0x30]
+0x0000c368 1bedffeb     bl       #0x77dc ; PLT:pthread_mutex_unlock
+0x0000c36c 0030e0e3     mvn      r3, #0
+0x0000c370 60300be5     str      r3, [fp, #-0x60]
+0x0000c374 7c001be5     ldr      r0, [fp, #-0x7c]
+0x0000c378 99ecffeb     bl       #0x75e4 ; PLT:_Unwind_SjLj_Resume
+0x0000c37c 0030e0e3     mvn      r3, #0
+0x0000c380 60300be5     str      r3, [fp, #-0x60]
+0x0000c384 30001be5     ldr      r0, [fp, #-0x30]
+0x0000c388 13edffeb     bl       #0x77dc ; PLT:pthread_mutex_unlock
+0x0000c38c c8309fe5     ldr      r3, [pc, #0xc8] ; literal[0xc45c]=0x143c
+0x0000c390 03008ae0     add      r0, sl, r3
+0x0000c394 500080e2     add      r0, r0, #0x50
+0x0000c398 80101be5     ldr      r1, [fp, #-0x80]
+0x0000c39c c4309fe5     ldr      r3, [pc, #0xc4] ; literal[0xc468]=0x2d8
+0x0000c3a0 03209ae7     ldr      r2, [sl, r3]
+0x0000c3a4 ae1300eb     bl       #0x11264 ; _ZN10CoreModule17normal_mode_startER20InitiationDispatcherPFvvE
+0x0000c3a8 ff0010e2     ands     r0, r0, #0xff
+0x0000c3ac ac000be5     str      r0, [fp, #-0xac]
+0x0000c3b0 0800001a     bne      #0xc3d8
+0x0000c3b4 90ecffeb     bl       #0x75fc ; PLT:getpid
+0x0000c3b8 0030a0e1     mov      r3, r0
+0x0000c3bc a8009fe5     ldr      r0, [pc, #0xa8] ; literal[0xc46c]=0xffff74c0
+0x0000c3c0 00008ae0     add      r0, sl, r0
+0x0000c3c4 0310a0e1     mov      r1, r3
+0x0000c3c8 a0209fe5     ldr      r2, [pc, #0xa0] ; literal[0xc470]=0xffff759c
+0x0000c3cc 02208ae0     add      r2, sl, r2
+0x0000c3d0 1fedffeb     bl       #0x7854 ; PLT:printf
+0x0000c3d4 0a0000ea     b        #0xc404
+0x0000c3d8 0030e0e3     mvn      r3, #0
+0x0000c3dc 60300be5     str      r3, [fp, #-0x60]
+0x0000c3e0 80001be5     ldr      r0, [fp, #-0x80]
+0x0000c3e4 70101be5     ldr      r1, [fp, #-0x70]
+0x0000c3e8 b81000eb     bl       #0x106d0 ; _ZN20InitiationDispatcher16register_handlerER14IoEventHandler
+0x0000c3ec 80001be5     ldr      r0, [fp, #-0x80]
+0x0000c3f0 f91000eb     bl       #0x107dc ; _ZN20InitiationDispatcher13handle_eventsEv
+0x0000c3f4 0100a0e3     mov      r0, #1
+0x0000c3f8 09edffeb     bl       #0x7824 ; PLT:pthread_cleanup_pop
+0x0000c3fc 0100a0e3     mov      r0, #1
+0x0000c400 07edffeb     bl       #0x7824 ; PLT:pthread_cleanup_pop
+0x0000c404 64004be2     sub      r0, fp, #0x64
+0x0000c408 baecffeb     bl       #0x76f8 ; PLT:_Unwind_SjLj_Unregister
+0x0000c40c 0000a0e3     mov      r0, #0
+0x0000c410 28d04be2     sub      sp, fp, #0x28
+0x0000c414 f0af9de8     ldm      sp, {r4, r5, r6, r7, r8, sb, sl, fp, sp, pc}
+
+_ZN10CoreModule14usb_mode_startER20InitiationDispatcher section=.text value=0x112c0 file=0x112c0 symbol_size=84
+0x000112c0 0dc0a0e1     mov      ip, sp
+0x000112c4 30dc2de9     push     {r4, r5, sl, fp, ip, lr, pc}
+0x000112c8 3ca09fe5     ldr      sl, [pc, #0x3c] ; literal[0x1130c]=0x9f74
+0x000112cc 04b04ce2     sub      fp, ip, #4
+0x000112d0 0aa08fe0     add      sl, pc, sl
+0x000112d4 0040a0e1     mov      r4, r0
+0x000112d8 0150a0e1     mov      r5, r1
+0x000112dc 9effffeb     bl       #0x1115c ; _ZN10CoreModule4openEv
+0x000112e0 ff0010e2     ands     r0, r0, #0xff
+0x000112e4 30ac9d08     ldmeq    sp, {r4, r5, sl, fp, sp, pc}
+0x000112e8 20109fe5     ldr      r1, [pc, #0x20] ; literal[0x11310]=0xffff7b58
+0x000112ec 0400a0e1     mov      r0, r4
+0x000112f0 01108ae0     add      r1, sl, r1
+0x000112f4 3df7ffeb     bl       #0xeff0 ; _ZN18DynamicLinkLibrary13get_symbol_byEPKc
+0x000112f8 0030a0e1     mov      r3, r0
+0x000112fc 0500a0e1     mov      r0, r5
+0x00011300 33ff2fe1     blx      r3
+0x00011304 ff0000e2     and      r0, r0, #0xff
+0x00011308 30ac9de8     ldm      sp, {r4, r5, sl, fp, sp, pc}
+0x0001130c 749f0000     andeq    sb, r0, r4, ror pc
+
+_ZN10CoreModule17normal_mode_startER20InitiationDispatcherPFvvE section=.text value=0x11264 file=0x11264 symbol_size=92
+0x00011264 0dc0a0e1     mov      ip, sp
+0x00011268 70dc2de9     push     {r4, r5, r6, sl, fp, ip, lr, pc}
+0x0001126c 44a09fe5     ldr      sl, [pc, #0x44] ; literal[0x112b8]=0x9fd0
+0x00011270 04b04ce2     sub      fp, ip, #4
+0x00011274 0aa08fe0     add      sl, pc, sl
+0x00011278 0040a0e1     mov      r4, r0
+0x0001127c 0150a0e1     mov      r5, r1
+0x00011280 0260a0e1     mov      r6, r2
+0x00011284 b4ffffeb     bl       #0x1115c ; _ZN10CoreModule4openEv
+0x00011288 ff0010e2     ands     r0, r0, #0xff
+0x0001128c 70ac9d08     ldmeq    sp, {r4, r5, r6, sl, fp, sp, pc}
+0x00011290 24109fe5     ldr      r1, [pc, #0x24] ; literal[0x112bc]=0xffff7b3c
+0x00011294 0400a0e1     mov      r0, r4
+0x00011298 01108ae0     add      r1, sl, r1
+0x0001129c 53f7ffeb     bl       #0xeff0 ; _ZN18DynamicLinkLibrary13get_symbol_byEPKc
+0x000112a0 0610a0e1     mov      r1, r6
+0x000112a4 0030a0e1     mov      r3, r0
+0x000112a8 0500a0e1     mov      r0, r5
+0x000112ac 33ff2fe1     blx      r3
+0x000112b0 ff0000e2     and      r0, r0, #0xff
+0x000112b4 70ac9de8     ldm      sp, {r4, r5, r6, sl, fp, sp, pc}
+0x000112b8 d09f0000     ldrdeq   sb, sl, [r0], -r0

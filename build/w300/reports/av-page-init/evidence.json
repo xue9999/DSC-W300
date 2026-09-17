@@ -1,0 +1,105 @@
+{
+  "source": "evidence/extracted_g3/sections/09_av.bin",
+  "sha256": "f2554be5181f5765623b0771e6aef6ff99c8483980a1192c39db85c744bda4fb",
+  "row": {
+    "file_offset": "0x1e4ab4",
+    "page": "0x61",
+    "segment": "0x0e",
+    "type": 3,
+    "initial_pointer": 0,
+    "size": 256
+  },
+  "page_dispatch": {
+    "table_file": "0xeb48",
+    "bytes": "6b942f2f2feeed",
+    "index": 1,
+    "target_file": "0xec72"
+  },
+  "segment_dispatch": {
+    "table_file": "0xec80",
+    "bytes": "080c12151b21272d33393f454b53595f65",
+    "index": 14,
+    "target_file": "0xed34"
+  },
+  "bank_descriptor": "0x200fd880",
+  "bank_pointer_slot": "0x20303fcc",
+  "primary_descriptor_offset": "0x10",
+  "fallback_descriptor_offset": "0x28",
+  "pointer_alias_or_mask": "0x80000000",
+  "primary_check": {
+    "offset": "0xe0",
+    "value": "0xaaaaaaaa"
+  },
+  "page_pointer_expression": "selected_bank_pointer + 0x1a00",
+  "single_row_default_pointer_table": "0x202bb2e0",
+  "single_row_default_data_pointer": "0x202bb1e0",
+  "single_row_default_length": 256,
+  "default_bytes_exported": false,
+  "op4_op5_channel": "0x1002",
+  "op4_outgoing_first_halfword": 1,
+  "op5_outgoing_first_halfword": 3,
+  "persistence_semantics_from_av_alone": "not established; separate request/reply path located",
+  "runtime_bank_pointer_numeric_value": "not available in static image",
+  "ranges": [
+    {
+      "label": "initializer-call",
+      "file_start": "0x4216",
+      "file_end": "0x421a"
+    },
+    {
+      "label": "bank-select-and-row-dispatch",
+      "file_start": "0xeab0",
+      "file_end": "0xeb48"
+    },
+    {
+      "label": "segment-switch",
+      "file_start": "0xec72",
+      "file_end": "0xec80"
+    },
+    {
+      "label": "segment0E-assignment",
+      "file_start": "0xed34",
+      "file_end": "0xed40"
+    },
+    {
+      "label": "next-table-row",
+      "file_start": "0xed70",
+      "file_end": "0xed80"
+    },
+    {
+      "label": "bank-validation",
+      "file_start": "0xed80",
+      "file_end": "0xedb2"
+    },
+    {
+      "label": "default-control-dispatch",
+      "file_start": "0xe658",
+      "file_end": "0xe67e"
+    },
+    {
+      "label": "single-page-default-copy",
+      "file_start": "0xe6be",
+      "file_end": "0xe704"
+    },
+    {
+      "label": "group-default-copy",
+      "file_start": "0xe704",
+      "file_end": "0xe73c"
+    },
+    {
+      "label": "separate-op4-op5-request",
+      "file_start": "0x225e4",
+      "file_end": "0x22626"
+    },
+    {
+      "label": "channel1002-response-callback",
+      "file_start": "0xe242",
+      "file_end": "0xe27c"
+    },
+    {
+      "label": "outgoing-ipc",
+      "file_start": "0xe1f0",
+      "file_end": "0xe234"
+    }
+  ]
+}

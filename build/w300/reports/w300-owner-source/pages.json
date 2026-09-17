@@ -1,0 +1,49 @@
+{
+  "checked_date": "2026-09-17",
+  "retrieval": "Public web search and direct page extraction; no account or correspondence",
+  "queries": [
+    "\"DSC-W300\" \"日本語\" \"英語\" 変更",
+    "\"DSC-W300\" \"日文\" \"中文\" 刷机",
+    "\"DSC-W300\" \"language\" \"changed\" hack",
+    "\"DSC-W300\" \"Japanese\" \"English\" -site:manuals* -site:helpowl.com -site:ebay.com -site:amazon.com -site:etsy.com",
+    "\"W300\" site:github.com/ma1co/Sony-PMCA-RE",
+    "\"索尼\" \"W300\" \"刷机\"",
+    "\"DSC-W300\" site:reddit.com language",
+    "\"DSC-W300\" \"ファームウェア\"",
+    "\"DSC-W300\" \"прошивка\" язык"
+  ],
+  "opened_owner_pages": [
+    {
+      "url": "https://www.reddit.com/r/Cameras/comments/1j6hpi4/need_help_or_advice/",
+      "title": "Need help or advice",
+      "author": "myshameismyname",
+      "content_type": "text/html",
+      "actual_topic": "Owner reports autofocus failure and blurry view on DSC-W300.",
+      "evidence_scope": "Main post was readable; no relevant comments supplied by page extraction.",
+      "service_or_dump_attachment_identified": false,
+      "language_conversion_evidence": false
+    },
+    {
+      "url": "https://www.reddit.com/r/Beginning_Photography/comments/1i6r2yx/needing_help/",
+      "title": "NEEDING HELP",
+      "author": "Excellent-Bed5060",
+      "content_type": "text/html",
+      "actual_topic": "Owner reports DSC-W300 powers on and then off; asks about battery contacts.",
+      "evidence_scope": "Main post was readable; no relevant comments supplied by page extraction.",
+      "service_or_dump_attachment_identified": false,
+      "language_conversion_evidence": false
+    },
+    {
+      "url": "https://www.reddit.com/r/Cameras/comments/1vaye7g/i_bought_a_sony_cybershot/",
+      "title": "I bought a Sony Cybershot.",
+      "author": "JUDE_2208",
+      "content_type": "text/html",
+      "actual_topic": "Owner describes purchased DSC-W300 and its battery life and Memory Stick use; visible discussion suggests RX100.",
+      "evidence_scope": "Main post and two visible replies; further replies and image bytes not acquired.",
+      "service_or_dump_attachment_identified": false,
+      "language_conversion_evidence": false
+    }
+  ],
+  "result": "No trustworthy new W300 language-conversion, service transaction, firmware dump, or service payload source was found in this bounded search.",
+  "limits": "Search snippets and extracted public page bodies do not exhaust sites, private material, hidden comments or archive interiors. No absence claim about the whole internet."
+}

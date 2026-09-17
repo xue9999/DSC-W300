@@ -1,0 +1,311 @@
+{
+  "scope": "Additional offline protocol and acquisition artifacts; not W300 hardware qualification",
+  "previous_entry_count": 685,
+  "previous_entries_sha256": "ed2097cb886c56d006207a2c6f92f937fc19901d8a37500a0de864783d686525",
+  "selected_roots": [
+    "reports/g3-entry-events",
+    "reports/g3-xs-entry",
+    "reports/g3-config-read",
+    "reports/verify_offline_xs.py",
+    "reports/offline-xs-checks.json"
+  ],
+  "added_artifacts": [
+    {
+      "path": "reports/g3-config-read/app-read.asm.txt",
+      "bytes": 4803,
+      "sha256": "066840544892e30e3ed21a2afb6637d6f7ad843f5c0412169d73e54a7b5eb2e7"
+    },
+    {
+      "path": "reports/g3-config-read/backup-grammar-code.bin",
+      "bytes": 3490,
+      "sha256": "1a88baea771c1345fd92a8abfc2d821d8c000f534b1803dc32f21e48bf2e0436"
+    },
+    {
+      "path": "reports/g3-config-read/backup-grammar-framed.json",
+      "bytes": 238422,
+      "sha256": "b247d3db2bd3706a9ad19ea3dc33cd6ae391162a6da5591887d7525af9628700"
+    },
+    {
+      "path": "reports/g3-config-read/backup-grammar-framed.txt",
+      "bytes": 53022,
+      "sha256": "0e5de6bf95c100bac9f7bb3112143e8afe9fcc787ee5fe8a4f6a179cd7fec030"
+    },
+    {
+      "path": "reports/g3-config-read/backup-grammar-symbols.bin",
+      "bytes": 2506,
+      "sha256": "e3838ba0f45477d14c25df9fed60d01c2dc7126c0e8bb84b304b590eccbd5507"
+    },
+    {
+      "path": "reports/g3-config-read/config-inventory.json",
+      "bytes": 25111,
+      "sha256": "4b7802d5510a912c36f54306b8004c46960a89e121d596d991699036d3fe191c"
+    },
+    {
+      "path": "reports/g3-config-read/core-read.asm.txt",
+      "bytes": 5458,
+      "sha256": "211ec65977fd5721c404d01cf2354afb97b517490b92b16ab845b677c45e8a21"
+    },
+    {
+      "path": "reports/g3-config-read/decode_config.py",
+      "bytes": 1485,
+      "sha256": "fc638f5de7ba47a5b53da8c9546bbbab958b2bbcb59bf05ba42f606e6de2b8ff"
+    },
+    {
+      "path": "reports/g3-config-read/extension-elf.json",
+      "bytes": 38448,
+      "sha256": "3b73c738cb5cd9229942dc5d0ca74b5fb28690d59be4e7be2c8e201891eea670"
+    },
+    {
+      "path": "reports/g3-config-read/extension-read.asm.txt",
+      "bytes": 17306,
+      "sha256": "84856919bf04f3920a523737fdf75bb57f71223f549948f53d47ac4de13b77e4"
+    },
+    {
+      "path": "reports/g3-config-read/extract_config.py",
+      "bytes": 2890,
+      "sha256": "a8397cabaa8750cd9c41866450af1cbbe401ab0c10e7a158098d7e8bccd7c0b8"
+    },
+    {
+      "path": "reports/g3-config-read/frame_grammar.py",
+      "bytes": 795,
+      "sha256": "23c8351ac3fb214f896c97fa8c748e1a7cf4c78d53e56a7d873c863f9146d3d1"
+    },
+    {
+      "path": "reports/g3-config-read/inspect_config.py",
+      "bytes": 971,
+      "sha256": "d02bea364eef6928d19ffedb2d6cdb6a49896be30b4d06c5778a7db5e3d8d415"
+    },
+    {
+      "path": "reports/g3-config-read/inspect_grammar.py",
+      "bytes": 668,
+      "sha256": "05240e0ba8331363809a822949c88e502289365d66ec63555371190be753d85b"
+    },
+    {
+      "path": "reports/g3-config-read/README.md",
+      "bytes": 6114,
+      "sha256": "b003c6e1bcab05d7b9e3d89e9e17aadb6dfc4c1ae41abe740e97e98634ae2510"
+    },
+    {
+      "path": "reports/g3-config-read/reproduce.py",
+      "bytes": 2219,
+      "sha256": "f86acf6a6bd1b9a425d48a42d60ee34a06604f6b6a0ad7e5935ce760ce023cb1"
+    },
+    {
+      "path": "reports/g3-config-read/table-constructor.asm.txt",
+      "bytes": 2190,
+      "sha256": "eea162aab682a346aa18b275790dffdf185a84dfda7368922c178e63759a732e"
+    },
+    {
+      "path": "reports/g3-config-read/table-elf.json",
+      "bytes": 76273,
+      "sha256": "f680bed390fe84944274128d3fdaaf68b55a666d95a86e5a433592dbf7a8408f"
+    },
+    {
+      "path": "reports/g3-config-read/table-internal.asm.txt",
+      "bytes": 2241,
+      "sha256": "b2412cd9195d86f0f4706a3cd22a0d3997426e59d50eb8c38a8da164f6a860c7"
+    },
+    {
+      "path": "reports/g3-config-read/table-read.asm.txt",
+      "bytes": 3237,
+      "sha256": "0a0c7efee09b5352c72474b42961757a7a1ce1a1863436940e3d6947a00a456f"
+    },
+    {
+      "path": "reports/g3-config-read/verification.json",
+      "bytes": 2156,
+      "sha256": "39af4dc33908abab3eaea2e876e0f49b9974841a6dd49d814b2ef114a86ffec1"
+    },
+    {
+      "path": "reports/g3-entry-events/create.asm.txt",
+      "bytes": 10892,
+      "sha256": "cfcdfe35399624ce677b555415ed703033e47a6b06c64e76c5e0aabd88b97589"
+    },
+    {
+      "path": "reports/g3-entry-events/dispatch.asm.txt",
+      "bytes": 20701,
+      "sha256": "189e29f60ba4ca11858cfd07ba373eea6f8e98f6bcdd944607c5de757e733a12"
+    },
+    {
+      "path": "reports/g3-entry-events/event-chain.asm.txt",
+      "bytes": 42358,
+      "sha256": "d0d2e964bbc61a3b3d4ddf1456d3e42a49e1846fd6b4e799cf33759c94aacc5c"
+    },
+    {
+      "path": "reports/g3-entry-events/event-evidence.json",
+      "bytes": 10703,
+      "sha256": "12c6b52cc97469427d8409b1493cb4a87657bb20ed1c9a0f2e0f9b1d34456ba5"
+    },
+    {
+      "path": "reports/g3-entry-events/g3-gpl-event/usb_event.c",
+      "bytes": 27390,
+      "sha256": "1f1abe264ca05856cc1afc12f316f9444e06927af8a16553b537891ad02b4b40"
+    },
+    {
+      "path": "reports/g3-entry-events/g3-gpl-event/usb_event.h",
+      "bytes": 2327,
+      "sha256": "02bf1daa5eb21842eff13787b3a55199ff49e5c49a7725efa2f633ba3095dc3f"
+    },
+    {
+      "path": "reports/g3-entry-events/g3-gpl-event/usb_event_pvt.h",
+      "bytes": 2981,
+      "sha256": "9caa80d9f6f600fdf329cecff1733e51720491ab79dcacc331c4d5a861024892"
+    },
+    {
+      "path": "reports/g3-entry-events/gpl-event-source.json",
+      "bytes": 657,
+      "sha256": "4789885d7994da4353778b5a0f92cdf288c4e2246aeb8c5d5f2791fda1d65f70"
+    },
+    {
+      "path": "reports/g3-entry-events/initial-events.asm.txt",
+      "bytes": 13987,
+      "sha256": "d490e50e7df26858677f6ecfa8226e242e4303659a310cd36e40747c4d264349"
+    },
+    {
+      "path": "reports/g3-entry-events/initialize.asm.txt",
+      "bytes": 9225,
+      "sha256": "9894c78436d795005f9dcc3a7bc3b633550fd88614a8a4ad9d2a6f562ad7c99d"
+    },
+    {
+      "path": "reports/g3-entry-events/inspect_events.py",
+      "bytes": 1046,
+      "sha256": "86d3c868bd36dc2fa0724c060d75c4a3a20398d375f90bbd4f1f79a4eb321c63"
+    },
+    {
+      "path": "reports/g3-entry-events/prepare_event_source.py",
+      "bytes": 1023,
+      "sha256": "6e98a4e287fc224cdbc74f45088118b6e0a1ea7efcb8ad3b081ab3a24380be95"
+    },
+    {
+      "path": "reports/g3-entry-events/README.md",
+      "bytes": 7032,
+      "sha256": "ff888c6e99cee3457022cf1a233296dbac103c3a73b54b56ecd718fa864e5757"
+    },
+    {
+      "path": "reports/g3-entry-events/register.asm.txt",
+      "bytes": 5743,
+      "sha256": "8d1168017e38d8a81b1b37d4f5e1831dfadbec8145a0db597621ec14b4bf6084"
+    },
+    {
+      "path": "reports/g3-entry-events/reproduce_events.py",
+      "bytes": 5968,
+      "sha256": "81b83d12c48e5eef1b71266b0a14c31bf285e182c7e9efdd9a95b456c50a469e"
+    },
+    {
+      "path": "reports/g3-xs-entry/dsc.xsb.json",
+      "bytes": 879675,
+      "sha256": "3930cb588e21476cb5e12637f8ea932f80a2dc5a7dcb1b29284da89de18c9002"
+    },
+    {
+      "path": "reports/g3-xs-entry/dsc.xsb.txt",
+      "bytes": 173377,
+      "sha256": "ff764e3cc64da27b1c5b53f0b21a12f3b1867480f9b8d049971a0481501c6867"
+    },
+    {
+      "path": "reports/g3-xs-entry/frame_xs.py",
+      "bytes": 2976,
+      "sha256": "ecc51cba7a290c60dcf5169bcb3bf12bc9cff1d7ab79eb0ca16ec513067c6d28"
+    },
+    {
+      "path": "reports/g3-xs-entry/normal-start.asm.txt",
+      "bytes": 7541,
+      "sha256": "dc556ada067a27775f248180c757c2911e75e74d55f0e95ed63e508ffd02f275"
+    },
+    {
+      "path": "reports/g3-xs-entry/README.md",
+      "bytes": 4925,
+      "sha256": "d3e55c26b53e999c0ed8d0099d2231fb334a1d3f41dda219daa4888225beb299"
+    },
+    {
+      "path": "reports/g3-xs-entry/regionInfo.xsb.json",
+      "bytes": 332606,
+      "sha256": "d07d09a4c1a5a8af556d3dcebd05f81abd24633efb7025e80d9385337bf63e41"
+    },
+    {
+      "path": "reports/g3-xs-entry/regionInfo.xsb.txt",
+      "bytes": 66386,
+      "sha256": "2e26dd4da11cfe46f31bf331b4ed8fe2cbbefa65dbfe589b04972ad5657eed80"
+    },
+    {
+      "path": "reports/g3-xs-entry/reproduce_xs.py",
+      "bytes": 3091,
+      "sha256": "9db5cc01f2c861460437bb0648d4e3ef2b3fa8afab4ecc46e00f2be9b2741d5b"
+    },
+    {
+      "path": "reports/g3-xs-entry/reproduction.json",
+      "bytes": 2298,
+      "sha256": "7e3ae1fbf257a38a9c449bda740c40231ec216e2cd70743b2462e0645940e321"
+    },
+    {
+      "path": "reports/g3-xs-entry/runtime-symbols.json",
+      "bytes": 407828,
+      "sha256": "4fd4518764f3ab6797da68177c1c1eab653f6b00b3b7f5a3d3c735677dae133a"
+    },
+    {
+      "path": "reports/g3-xs-entry/runtime.asm.txt",
+      "bytes": 216369,
+      "sha256": "73bc0f10c70e359d06bc22be7d639a71297b0bc2844d00645160f684e0305105"
+    },
+    {
+      "path": "reports/g3-xs-entry/selected-handlers.asm.txt",
+      "bytes": 11018,
+      "sha256": "684a1f1865fafbf47e21ed833ec90bb772560f34583932f95b793364662a9315"
+    },
+    {
+      "path": "reports/g3-xs-entry/senserCmdTable.xsb.json",
+      "bytes": 6240455,
+      "sha256": "6f0975f6915223cda25a55c8806426afd80020085642e55e3dd10c519c0b603b"
+    },
+    {
+      "path": "reports/g3-xs-entry/senserCmdTable.xsb.txt",
+      "bytes": 1209890,
+      "sha256": "c065bdd866296849e5f14aa76cf85c82b957a15aed7e39bde9e9c15816e166da"
+    },
+    {
+      "path": "reports/g3-xs-entry/senserModule.xsb.json",
+      "bytes": 108275,
+      "sha256": "d442a7057a2be31c1b9e2329e014f03ab2a7cc391b4e6082adc5c4ac3c0473ad"
+    },
+    {
+      "path": "reports/g3-xs-entry/senserModule.xsb.txt",
+      "bytes": 21034,
+      "sha256": "3fb4594507a7f6442b4ffb4efda5fc58843711af9cb21029a5cffae0da68fcf1"
+    },
+    {
+      "path": "reports/g3-xs-entry/worker.asm.txt",
+      "bytes": 19186,
+      "sha256": "c33eef81d0c6134ba988f7a4f38f7de3f285e655f2ab56c63ddf8c4963e24a4d"
+    },
+    {
+      "path": "reports/g3-xs-entry/xs-review-handlers.asm.txt",
+      "bytes": 52066,
+      "sha256": "98a50f8f2450837e9014802074f4c332e399f2a92547ae76186a2915028cb85b"
+    },
+    {
+      "path": "reports/g3-xs-entry/xs-review-results.json",
+      "bytes": 2040,
+      "sha256": "7030eec42b10b32fadf0eba7826159318aca065484b8dfd6ce164fef4d79e20d"
+    },
+    {
+      "path": "reports/g3-xs-entry/xs-review.md",
+      "bytes": 5536,
+      "sha256": "5e83ed300f953cca924d46d47710fc0d629092934751ca92b885e55e26774fd5"
+    },
+    {
+      "path": "reports/g3-xs-entry/xs-review.py",
+      "bytes": 4352,
+      "sha256": "fa50e7662e205f990a7132f5aa88c723f3403ce9ae77f78e088c3838f213aee3"
+    },
+    {
+      "path": "reports/offline-xs-checks.json",
+      "bytes": 754,
+      "sha256": "2d559996182461943f700e2275df4c189bac3e16cdf73064bddffe8a5ffea257"
+    },
+    {
+      "path": "reports/verify_offline_xs.py",
+      "bytes": 1760,
+      "sha256": "2e74b23c2d9c881f241a3d33c35d3c22528eeaa968973b669de8c1577f2e4497"
+    }
+  ],
+  "camera_communication_verified": false,
+  "w300_language_write_verified": false
+}

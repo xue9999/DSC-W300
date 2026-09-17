@@ -1,0 +1,101 @@
+Static ARM decoding only. Symbol sizes may include trailing literal pools; annotated words are not claimed executed.
+
+range@0x6314:0x67a4 section=.text value=0x6314 file=0x6314 symbol_size=1168
+0x00006314 0dc0a0e1     mov      ip, sp
+0x00006318 f0dc2de9     push     {r4, r5, r6, r7, sl, fp, ip, lr, pc}
+0x0000631c 68a19fe5     ldr      sl, [pc, #0x168] ; literal[0x648c]=0x12a80
+0x00006320 04d04de2     sub      sp, sp, #4
+0x00006324 04b04ce2     sub      fp, ip, #4
+0x00006328 0050a0e1     mov      r5, r0
+0x0000632c 0140a0e1     mov      r4, r1
+0x00006330 0aa08fe0     add      sl, pc, sl
+0x00006334 0270a0e1     mov      r7, r2
+0x00006338 2100a0e3     mov      r0, #0x21
+0x0000633c 0110a0e3     mov      r1, #1
+0x00006340 0520a0e3     mov      r2, #5
+0x00006344 0030a0e3     mov      r3, #0
+0x00006348 00408de5     str      r4, [sp]
+0x0000634c 0cfbffeb     bl       #0x4f84 ; PLT:usb_trace_out
+0x00006350 000055e3     cmp      r5, #0
+0x00006354 0700001a     bne      #0x6378
+0x00006358 0110a0e3     mov      r1, #1
+0x0000635c 2cc19fe5     ldr      ip, [pc, #0x12c] ; literal[0x6490]=0x1d3
+0x00006360 2100a0e3     mov      r0, #0x21
+0x00006364 0120a0e1     mov      r2, r1
+0x00006368 0530a0e3     mov      r3, #5
+0x0000636c 025045e2     sub      r5, r5, #2
+0x00006370 00c08de5     str      ip, [sp]
+0x00006374 410000ea     b        #0x6480
+0x00006378 0400a0e1     mov      r0, r4
+0x0000637c 486095e5     ldr      r6, [r5, #0x48]
+0x00006380 a4fbffeb     bl       #0x5218 ; PLT:usbproduct_conv_did
+0x00006384 0110a0e3     mov      r1, #1
+0x00006388 0040a0e1     mov      r4, r0
+0x0000638c 0520a0e3     mov      r2, #5
+0x00006390 2100a0e3     mov      r0, #0x21
+0x00006394 0230a0e3     mov      r3, #2
+0x00006398 00408de5     str      r4, [sp]
+0x0000639c f8faffeb     bl       #0x4f84 ; PLT:usb_trace_out
+0x000063a0 230054e3     cmp      r4, #0x23
+0x000063a4 0800001a     bne      #0x63cc
+0x000063a8 0110a0e3     mov      r1, #1
+0x000063ac e0c09fe5     ldr      ip, [pc, #0xe0] ; literal[0x6494]=0x1db
+0x000063b0 2100a0e3     mov      r0, #0x21
+0x000063b4 0120a0e1     mov      r2, r1
+0x000063b8 0530a0e3     mov      r3, #5
+0x000063bc 00c08de5     str      ip, [sp]
+0x000063c0 effaffeb     bl       #0x4f84 ; PLT:usb_trace_out
+0x000063c4 0200e0e3     mvn      r0, #2
+0x000063c8 f0ac9de9     ldmib    sp, {r4, r5, r6, r7, sl, fp, sp, pc}
+0x000063cc 0600a0e1     mov      r0, r6
+0x000063d0 0410a0e1     mov      r1, r4
+0x000063d4 28ffffeb     bl       #0x607c
+0x000063d8 000050e3     cmp      r0, #0
+0x000063dc 0050a0e1     mov      r5, r0
+0x000063e0 0500000a     beq      #0x63fc
+0x000063e4 0110a0e3     mov      r1, #1
+0x000063e8 a8c09fe5     ldr      ip, [pc, #0xa8] ; literal[0x6498]=0x1e1
+0x000063ec 2100a0e3     mov      r0, #0x21
+0x000063f0 0120a0e1     mov      r2, r1
+0x000063f4 0530a0e3     mov      r3, #5
+0x000063f8 190000ea     b        #0x6464
+0x000063fc 98c09fe5     ldr      ip, [pc, #0x98] ; literal[0x649c]=0xfffed264
+0x00006400 0600a0e1     mov      r0, r6
+0x00006404 0cc08ae0     add      ip, sl, ip
+0x00006408 0410a0e1     mov      r1, r4
+0x0000640c 0720a0e1     mov      r2, r7
+0x00006410 0430a0e3     mov      r3, #4
+0x00006414 00c08de5     str      ip, [sp]
+0x00006418 45fbffeb     bl       #0x5134 ; PLT:_ZN7CUsbSvc5startE11__USBIF_DIDPvhPFS1_S1_S1_hiE
+0x0000641c 0b0050e3     cmp      r0, #0xb
+0x00006420 0700000a     beq      #0x6444
+0x00006424 020000ca     bgt      #0x6434
+0x00006428 000050e3     cmp      r0, #0
+0x0000642c 0e00000a     beq      #0x646c
+0x00006430 050000ea     b        #0x644c
+0x00006434 100050e3     cmp      r0, #0x10
+0x00006438 0350e003     mvneq    r5, #3
+0x0000643c 0300000a     beq      #0x6450
+0x00006440 010000ea     b        #0x644c
+0x00006444 0250e0e3     mvn      r5, #2
+0x00006448 000000ea     b        #0x6450
+0x0000644c 0450e0e3     mvn      r5, #4
+0x00006450 0110a0e3     mov      r1, #1
+0x00006454 2100a0e3     mov      r0, #0x21
+0x00006458 0120a0e1     mov      r2, r1
+0x0000645c 0530a0e3     mov      r3, #5
+0x00006460 7ecfa0e3     mov      ip, #0x1f8
+0x00006464 00c08de5     str      ip, [sp]
+0x00006468 040000ea     b        #0x6480
+0x0000646c 00508de5     str      r5, [sp]
+0x00006470 2100a0e3     mov      r0, #0x21
+0x00006474 0110a0e3     mov      r1, #1
+0x00006478 0420a0e3     mov      r2, #4
+0x0000647c 0230a0e3     mov      r3, #2
+0x00006480 bffaffeb     bl       #0x4f84 ; PLT:usb_trace_out
+0x00006484 0500a0e1     mov      r0, r5
+0x00006488 f0ac9de9     ldmib    sp, {r4, r5, r6, r7, sl, fp, sp, pc}
+0x0000648c 802a0100     andeq    r2, r1, r0, lsl #21
+0x00006490 d3010000     ldrdeq   r0, r1, [r0], -r3
+0x00006494 db010000     ldrdeq   r0, r1, [r0], -fp
+0x00006498 e1010000     andeq    r0, r0, r1, ror #3

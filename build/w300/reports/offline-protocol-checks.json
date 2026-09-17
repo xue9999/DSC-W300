@@ -1,0 +1,121 @@
+{
+  "scope": "Static G3 protocol analysis and exact-model official GPL comparison; no hardware qualification",
+  "jobs": [
+    {
+      "script": "reports/g3-host-interface/inspect_host.py",
+      "script_sha256": "7401050e419abc9d6d8b605a4b8d635cd62ca28d7e5495fbfa80eca93107ae77",
+      "exit_code": 0,
+      "outputs_identical": true,
+      "outputs": {
+        "reports/g3-host-interface/inventory.json": "4649ab88e8c6ba13dd119887155701f41fef5e5b4652338587752077fee38adb"
+      },
+      "stdout": "libsencore.so ELF type 3 selected symbols 48\n  0xf678 108 senif_init\n  0x8dac 204 _ZN3Usb20active_event_handlerE15__SENIF_EVENT_TPhji\n  0x7f48 84 _ZN19WorkerThreadManager20start_authenticationEPFvvE\n  undefined 8 usb_senif_pub\n  0x137f4 8 _ZN3Usb20senif_event_handlersE\n  0xf6e4 80 senif_destroy\n  0x8e78 204 _ZN3Usb22inactive_event_handlerE15__SENIF_EVENT_TPhji\n  0x8f44 48 _ZN3Usb24onCompleteAuthenticationEv\n  0x13b08 8 ptbl_senif\nlibusb.so ELF type 3 selected symbols 40\n  0xdcfc 100 usb_senif_destroy\n  0xbd74 88 _ZN17CUsbGadgetStorage19mes_sendExtCmdEventEP8CUSB_MES\n  0xdc60 156 usb_senif_init\n  0x10868 8 usb_senif_user_ops\n  0x10bf8 8 usb_senif_pub\nunified_drv.ko ELF type 1 selected symbols 64\n  0x19434 644 extCmd_readMedia\n  0x112a8 36 storage_drvcnt_extcmdCancel\n  0x1116c 204 storage_drvcnt_extcmdOpen\n  0x196b8 84 extCmd_read_std_continue\n  0x1970c 1204 extCmd_exec\n  0x11238 112 storage_drvcnt_extcmdClose\n  0x19bc0 64 extCmd_ata\n  0x19c00 52 extCmd_std\n  0x19c34 216 extcmd_cancel\n  0x19148 664 extCmd_writeMedia\n  0x193e0 84 extCmd_write_std_continue\n  vermagic=2.6.11-alp20080305 preempt ARMv5 gcc-3.4\nunified_drv2.ko ELF type 1 selected symbols 0\n  vermagic=2.6.11-alp20080305 preempt ARMv5 gcc-3.4"
+    },
+    {
+      "script": "reports/g3-host-interface/decode_host.py",
+      "script_sha256": "cac5a29d504f4849ab4e90f647b412c667051d886bba25a904a908c70f13eda3",
+      "exit_code": 0,
+      "outputs_identical": true,
+      "outputs": {
+        "reports/g3-host-interface/host-interface.asm.txt": "5ef4b6807fbb42434c70441fe06966e3d226500cf751a17db0f753d0ba2dd108"
+      },
+      "stdout": "C:\\Users\\apara01\\OneDrive - Kearney\\Documents\\ChatGPT\\W300\\DSC-W300\\build\\w300\\reports\\g3-host-interface\\host-interface.asm.txt"
+    },
+    {
+      "script": "reports/g3-host-interface/compare_pmca.py",
+      "script_sha256": "550d77b85269b37de3892645978526dc35e918fccf142f195f605d65d0b3b340",
+      "exit_code": 0,
+      "outputs_identical": true,
+      "outputs": {
+        "reports/g3-host-interface/pmca-comparison.json": "d7cd926d7d6fddfce637f18e40d1397761e302c6d68ba63888385a3dcb0bd2aa"
+      },
+      "stdout": "{\n  \"ok\": true,\n  \"matched_keys\": 3,\n  \"auth_frame_bytes\": 516,\n  \"senser_header_bytes\": 12\n}"
+    },
+    {
+      "script": "reports/av-page-init/inspect_page_init.py",
+      "script_sha256": "1a87b91f8c71ca02371f40ca84befbae876f88fbdb65156c6364c86f6dce18cd",
+      "exit_code": 0,
+      "outputs_identical": true,
+      "outputs": {
+        "reports/av-page-init/evidence.json": "65c4509a44045cb86634d497084321a69365d0c0c6e9ecc440d98638f1151521",
+        "reports/av-page-init/page-init.asm.txt": "40947131124e3ebc7ca953c51551d428f29e4298f77126e842a7d43644b1c1a4"
+      },
+      "stdout": "{\n  \"ok\": true,\n  \"ranges\": 12,\n  \"page_pointer\": \"selected bank + 0x1A00\",\n  \"runtime_base_known\": false\n}"
+    },
+    {
+      "script": "reports/av-page-init/linux-persistence/decode.py",
+      "script_sha256": "3e298d3cea646a18ac2ba5830aa55b512a3f56caf7fa9160b1ac52d095d85743",
+      "exit_code": 0,
+      "outputs_identical": true,
+      "outputs": {
+        "reports/av-page-init/linux-persistence/linux-backup.asm.txt": "339d0f3c96b024cb0c97426fa41674670498ba3df13ae54ae6633601c261b8b0"
+      },
+      "stdout": "C:\\Users\\apara01\\OneDrive - Kearney\\Documents\\ChatGPT\\W300\\DSC-W300\\build\\w300\\reports\\av-page-init\\linux-persistence\\linux-backup.asm.txt"
+    },
+    {
+      "script": "reports/av-page-init/linux-persistence/tables.py",
+      "script_sha256": "3514e01f03dc641fb2d4b139b93f9e81ba56c4c061f534aa8943c36a85f9a1e3",
+      "exit_code": 0,
+      "outputs_identical": true,
+      "outputs": {
+        "reports/av-page-init/linux-persistence/linux-backup-tables.txt": "9c1724096a39b2633022ba1b28a6a3f3e282d3eeed74925784c19c43d9407347"
+      },
+      "stdout": "libAppBackupApi.so sha256=9ce75b37757afb5ec3934f6091992185942cc7d2a52ff98348f14b713534a699\nAV command -> BackupEvent @0x51e4\n  (1, 5)\n  (2, 6)\n  (3, 7)\nAV category -> CommonMethod category @0x51b4\n  (1, 7)\n  (2, 6)\n  (3, 5)\nlibBackupCore.so sha256=56aa2595c4747b6aadc1c0c3bb7a438b15086951121024a8649254cdec61fd4b\n_ZTV12CommonMethod @0x166a0\n  +0x0 raw=0x0 relocation=None \n  +0x4 raw=0x0 relocation=(2, '_ZTI12CommonMethod', 91860) \n  +0x8 raw=0x0 relocation=(2, '_ZN12CommonMethodD1Ev', 38168) \n  +0xc raw=0x0 relocation=(2, '_ZN12CommonMethodD0Ev', 38220) \n  +0x10 raw=0x0 relocation=(2, '_ZN11BasicMethod10initializeEv', 36428) \n  +0x14 raw=0x0 relocation=(2, '_ZN11BasicMethod8finalizeEv', 36496) \n  +0x18 raw=0x0 relocation=(2, '_ZN11BasicMethod4readEjjjPv', 36564) \n  +0x1c raw=0x0 relocation=(2, '_ZN11BasicMethod5writeEjjjPKv', 36760) \n  +0x20 raw=0x0 relocation=(2, '_ZN11BasicMethod5flushEjjj', 37000) \n  +0x24 raw=0x0 relocation=(2, '_ZN11BasicMethod7refreshEjjj', 37348) \n  +0x28 raw=0x0 relocation=(2, '_ZN11BasicMethod5eraseEjjj', 37640) \n  +0x2c raw=0x0 relocation=(2, '_ZN11BasicMethod14selectDataAreaEv', 37816) \n  +0x30 raw=0x0 relocation=(2, '_ZN11BasicMethod14checkParameterEjjj', 37852) \n_ZTV13CategoryTable @0x16414\n  +0x0 raw=0x0 relocation=None \n  +0x4 raw=0x0 relocation=(2, '_ZTI13CategoryTable', 91180) \n  +0x8 raw=0x0 relocation=(2, '_ZN13CategoryTableD1Ev', 26832) \n  +0xc raw=0x0 relocation=(2, '_ZN13CategoryTableD0Ev', 26880) \n  +0x10 raw=0x0 relocation=(2, '_ZN13CategoryTable14getCategoryNumEv', 26932) \n  +0x14 raw=0x0 relocation=(2, '_ZN13CategoryTable15getCategorySizeEj', 26952) \n_ZN12FileAccesser9FILE_NAMEE @0x165e0\n  +0x0 raw=0xd638 relocation=(23, '', 0) b'/boot/factory/Hreg.bin'\n  +0x4 raw=0xd650 relocation=(23, '', 0) b'/boot/factory/Hsys.bin'\n  +0x8 raw=0xd668 relocation=(23, '', 0) b'/boot/backup/Husr.bin'\n  +0xc raw=0x0 relocation=None \n  +0x10 raw=0x0 relocation=None \n  +0x14 raw=0xd680 relocation=(23, '', 0) b'/boot/factory/Areg.bin'\n  +0x18 raw=0xd698 relocation=(23, '', 0) b'/boot/factory/Asys.bin'\n  +0x1c raw=0xd6b0 relocation=(23, '', 0) b'/boot/backup/Ausr.bin'\n_ZTV28FileAccesserMeasures2BattOff @0x16600\n  +0x0 raw=0x0 relocation=None \n  +0x4 raw=0x0 relocation=(2, '_ZTI28FileAccesserMeasures2BattOff', 91704) \n  +0x8 raw=0x0 relocation=(2, '_ZN28FileAccesserMeasures2BattOffD1Ev', 34560) \n  +0xc raw=0x0 relocation=(2, '_ZN28FileAccesserMeasures2BattOffD0Ev', 34612) \n  +0x10 raw=0x0 relocation=(2, '_ZN12FileAccesser10initializeEv', 33892) \n  +0x14 raw=0x0 relocation=(2, '_ZN12FileAccesser8finalizeEv', 34024) \n  +0x18 raw=0x0 relocation=(2, '_ZN28FileAccesserMeasures2BattOff5writeEjjjPKv', 34676) \n  +0x1c raw=0x0 relocation=(2, '_ZN28FileAccesserMeasures2BattOff4readEjjjPv', 34832) \n  +0x20 raw=0x0 relocation=(2, '_ZN12FileAccesser13getHeaderSizeEjPj', 34320) \n  +0x24 raw=0x0 relocation=(2, '_ZN28FileAccesserMeasures2BattOff5eraseEjjjPKv', 35088) \n  +0x28 raw=0x0 relocation=(2, '_ZN28FileAccesserMeasures2BattOff9writeUserEjjjPKv', 35164) \n  +0x2c raw=0x0 relocation=(2, '_ZN28FileAccesserMeasures2BattOff11writeSafelyEjPKcjjPKv', 35496) \n  +0x30 raw=0x0 relocation=(2, '_ZN28FileAccesserMeasures2BattOff13getDataOffsetEjPj', 35928) \n  +0x34 raw=0x0 relocation=(2, '_ZN28FileAccesserMeasures2BattOff13checkFlushFlgEjPj', 36032) \n_ZTV30ShadowAccesserMeasures2BattOff @0x16560\n  +0x0 raw=0x0 relocation=None \n  +0x4 raw=0x0 relocation=(2, '_ZTI30ShadowAccesserMeasures2BattOff', 91560) \n  +0x8 raw=0x0 relocation=(2, '_ZN30ShadowAccesserMeasures2BattOffD1Ev', 32064) \n  +0xc raw=0x0 relocation=(2, '_ZN30ShadowAccesserMeasures2BattOffD0Ev', 32116) \n  +0x10 raw=0x0 relocation=(2, '_ZN30ShadowAccesserMeasures2BattOff10initializeEv', 32180) \n  +0x14 raw=0x0 relocation=(2, '_ZN30ShadowAccesserMeasures2BattOff8finalizeEv', 32200) \n  +0x18 raw=0x0 relocation=(2, '_ZN14ShadowAccesser7getAddrEjj', 31200) \n  +0x1c raw=0x0 relocation=(2, '_ZN14ShadowAccesser4lockEjjj', 31128) \n  +0x20 raw=0x0 relocation=(2, '_ZN14ShadowAccesser7releaseEjjj', 31164) \n  +0x24 raw=0x0 relocation=(2, '_ZN30ShadowAccesserMeasures2BattOff14selectDataAreaEv', 32996) \n  +0x28 raw=0x0 relocation=(2, '_ZN14ShadowAccesser9markDirtyEjjj', 31388) \n  +0x2c raw=0x0 relocation=(2, '_ZN14ShadowAccesser10eraseDirtyEjjj', 31408) \n  +0x30 raw=0x0 relocation=(2, '_ZN14ShadowAccesser7isDirtyEjjj', 31428) \n  +0x34 raw=0x0 relocation=(2, '_ZN14ShadowAccesser16createShadowAreaEv', 31448) \n  +0x38 raw=0x0 relocation=(2, '_ZN14ShadowAccesser16createSharedAreaEPPvjj', 31576) \n  +0x3c raw=0x0 relocation=(2, '_ZN14ShadowAccesser16deleteShadowAreaEv', 31696) \n  +0x40 raw=0x0 relocation=(2, '_ZN14ShadowAccesser16deleteSharedAreaEPvj', 31808) \n  +0x44 raw=0x0 relocation=(2, '_ZN30ShadowAccesserMeasures2BattOff17isFlushCompletionEv', 33500) \n_ZN28FileAccesserMeasures2BattOff15SPARE_FILE_NAMEE @0x16644\n  +0x0 raw=0xd6e8 relocation=(23, '', 0) b'/boot/factory/Hreg2.bak'\n  +0x4 raw=0xd700 relocation=(23, '', 0) b'/boot/factory/Hsys2.bak'\n  +0x8 raw=0xd718 relocation=(23, '', 0) b'/boot/backup/Husr2.bak'\n  +0xc raw=0x0 relocation=None \n  +0x10 raw=0x0 relocation=None \n  +0x14 raw=0xd730 relocation=(23, '', 0) b'/boot/factory/Areg2.bak'\n  +0x18 raw=0xd748 relocation=(23, '', 0) b'/boot/factory/Asys2.bak'\n  +0x1c raw=0xd760 relocation=(23, '', 0) b'/boot/backup/Ausr2.bak'\n_ZTV11BasicMethod @0x16664\n  +0x0 raw=0x0 relocation=None \n  +0x4 raw=0x0 relocation=(2, '_ZTI11BasicMethod', 91800) \n  +0x8 raw=0x0 relocation=(2, '_ZN11BasicMethodD1Ev', 36328) \n  +0xc raw=0x0 relocation=(2, '_ZN11BasicMethodD0Ev', 36376) \n  +0x10 raw=0x0 relocation=(2, '_ZN11BasicMethod10initializeEv', 36428) \n  +0x14 raw=0x0 relocation=(2, '_ZN11BasicMethod8finalizeEv', 36496) \n  +0x18 raw=0x0 relocation=(2, '_ZN11BasicMethod4readEjjjPv', 36564) \n  +0x1c raw=0x0 relocation=(2, '_ZN11BasicMethod5writeEjjjPKv', 36760) \n  +0x20 raw=0x0 relocation=(2, '_ZN11BasicMethod5flushEjjj', 37000) \n  +0x24 raw=0x0 relocation=(2, '_ZN11BasicMethod7refreshEjjj', 37348) \n  +0x28 raw=0x0 relocation=(2, '_ZN11BasicMethod5eraseEjjj', 37640) \n  +0x2c raw=0x0 relocation=(2, '_ZN11BasicMethod14selectDataAreaEv', 37816) \n  +0x30 raw=0x0 relocation=(2, '_ZN11BasicMethod14checkParameterEjjj', 37852) \n_ZTV11ShadowTable @0x164b8\n  +0x0 raw=0x0 relocation=None \n  +0x4 raw=0x0 relocation=(2, '_ZTI11ShadowTable', 91356) \n  +0x8 raw=0x0 relocation=(2, '_ZN11ShadowTableD1Ev', 27580) \n  +0xc raw=0x0 relocation=(2, '_ZN11ShadowTableD0Ev', 27628) \n  +0x10 raw=0x0 relocation=(2, '_ZN11ShadowTable13getShadowAddrEj', 27680) \n  +0x14 raw=0x0 relocation=(2, '_ZN11ShadowTable13getShadowSizeEj', 27724) \n  +0x18 raw=0x0 relocation=(2, '_ZN11ShadowTable16getShadowTopAddrEv', 27768) \n  +0x1c raw=0x0 relocation=(2, '_ZN11ShadowTable16getShadowAllSizeEv', 27788) \n  +0x20 raw=0x0 relocation=(2, '_ZN11ShadowTable18getShadowSpareAddrEj', 27808) \nShadow table @0x16458 [('0x0', None), ('0x0', None), ('0x0', None), ('0x0', None), ('0x0', None), ('0x0', None), ('0x0', None), ('0x0', None)]\nShadow table @0x16478 [('0x0', None), ('0x0', None), ('0x0', None), ('0x0', None), ('0x0', None), ('0x0', None), ('0x0', None), ('0x0', None)]\nShadow table @0x16498 [('0x0', None), ('0x0', None), ('0x0', None), ('0x0', None), ('0x0', None), ('0x0', None), ('0x0', None), ('0x0', None)]\nShadow table @0x16908 [('BSS', None), ('BSS', None), ('BSS', None), ('BSS', None), ('BSS', None), ('BSS', None), ('BSS', None), ('BSS', None)]"
+    },
+    {
+      "script": "reports/g3-bank-map/inspect_bank_map.py",
+      "script_sha256": "7e60a3ae90f0eb159f3b71427950bc32c4ec5df72689e0dcf2acba49c447059c",
+      "exit_code": 0,
+      "outputs_identical": true,
+      "outputs": {
+        "reports/g3-bank-map/bank-map.asm.txt": "34dc60bd9e4c2ce54037bbfa264be87bbb87332b142a0cc8b9494891ceea7021",
+        "reports/g3-bank-map/evidence.json": "de2626d73a4d518cdb80579373670a2be71b960beeb6fde5140a7d1f98077e91"
+      },
+      "stdout": "{\"ok\": true, \"category\": 5, \"main_file\": \"/boot/factory/Areg.bin\", \"w300_qualified\": false}"
+    },
+    {
+      "script": "downloads/g3-gpl-reference/compare_gpl.py",
+      "script_sha256": "bf72129f5a43945d7d0efef39d42723168f72dcd3d7a0078ac36de162e1690e4",
+      "exit_code": 0,
+      "outputs_identical": true,
+      "outputs": {
+        "downloads/g3-gpl-reference/g3.config": "6dc7d1bfbb64e80cd34218f72f464152b32b50ea63601dabd6f668f3449eed5f",
+        "downloads/g3-gpl-reference/w300.config": "1658cd81518dd9665e7e27b9959b79cb3959dd27f15283a34f8fc14bbce60404",
+        "downloads/g3-gpl-reference/config.diff": "3f7863b58ed0de7a5956a5b044e48539b54cfbdea7cc80bc3d3b9bbcf68ecc04",
+        "downloads/g3-gpl-reference/config-comparison.json": "7a8aa7d7909992b534a9d74a0769634d47978f5f851322b93e98d9b08bac3c78"
+      },
+      "stdout": "W300 members 10004 configs ['linux/.config']\nCONFIG_ARCH_CXD4108=y\nCONFIG_ARCH_CXD4105BASED=y\nCONFIG_CXD4105_PHYS_OFFSET=0x20400000\nCONFIG_CPU_32=y\nCONFIG_CPU_ARM926T=y\nCONFIG_CPU_32v5=y\nCONFIG_CPU_ABRT_EV5TJ=y\nCONFIG_CPU_CACHE_VIVT=y\nCONFIG_CPU_COPY_V4WB=y\nCONFIG_CPU_TLB_V4WBI=y\nCONFIG_USB_ARCH_HAS_HCD=y\nCONFIG_USB_MCD_CD=y\nCONFIG_USB_MCD_LOGGING=0\nCONFIG_USB_MCD_FORCE_HOST=y\nCONFIG_USB_MCD_MAX_PORT_NUM=1\nCONFIG_USB_MCD_MAX_SELECT_PORT_NUM=0\nCONFIG_USB_MCD_PORT_DESCRIPTOR=\"1:2,4,0,14,0x0:0:0\"\nCONFIG_USB_EVENT=y\nCONFIG_USB_EVENT_LOGGING=0\nCONFIG_USB_OTG_CORE=y\nCONFIG_USB_OTG_CORE_LOGGING=0\nCONFIG_USB_GADGET_CORE=y\nCONFIG_USB_GADGET_CORE_LOGGING=0\nG3 members 10012 configs ['linux/.config']\nCONFIG_ARCH_CXD4108=y\nCONFIG_ARCH_CXD4105BASED=y\nCONFIG_CXD4105_PHYS_OFFSET=0x20400000\nCONFIG_CPU_32=y\nCONFIG_CPU_ARM926T=y\nCONFIG_CPU_32v5=y\nCONFIG_CPU_ABRT_EV5TJ=y\nCONFIG_CPU_CACHE_VIVT=y\nCONFIG_CPU_COPY_V4WB=y\nCONFIG_CPU_TLB_V4WBI=y\nCONFIG_USB_ARCH_HAS_HCD=y\nCONFIG_USB_MCD_CD=y\nCONFIG_USB_MCD_LOGGING=0\nCONFIG_USB_MCD_FORCE_HOST=y\nCONFIG_USB_MCD_MAX_PORT_NUM=1\nCONFIG_USB_MCD_MAX_SELECT_PORT_NUM=0\nCONFIG_USB_MCD_PORT_DESCRIPTOR=\"1:2,4,0,14,0x0:0:0\"\nCONFIG_USB_EVENT=y\nCONFIG_USB_EVENT_LOGGING=0\nCONFIG_USB_OTG_CORE=y\nCONFIG_USB_OTG_CORE_LOGGING=0\nCONFIG_USB_GADGET_CORE=y\nCONFIG_USB_GADGET_CORE_LOGGING=0\n--- W300/linux/.config\n+++ G3/linux/.config\n@@ -1,7 +1,7 @@\n #\n # Automatically generated make config: don't edit\n-# Linux kernel version: 2.6.11-alp20070919\n-# Fri Jan 11 14:34:16 2008\n+# Linux kernel version: 2.6.11-alp20080305\n+# Tue Jul 15 10:03:47 2008\n #\n CONFIG_ARM=y\n CONFIG_MMU=y\n@@ -25,7 +25,7 @@\n CONFIG_SYSVIPC=y\n # CONFIG_POSIX_MQUEUE is not set\n # CONFIG_BSD_PROCESS_ACCT is not set\n-CONFIG_SYSCTL=y\n+# CONFIG_SYSCTL is not set\n # CONFIG_AUDIT is not set\n CONFIG_LOG_BUF_SHIFT=12\n # CONFIG_HOTPLUG is not set\n@@ -42,6 +42,7 @@\n # CONFIG_AUDIT_BOOTMEM is not set\n CONFIG_PRINTK_FUNC=y\n # CONFIG_PRINTK is not set\n+# CONFIG_KLOG is not set\n # CONFIG_ELF_CORE is not set\n CONFIG_CORE_SMALL=y\n CONFIG_NET_SMALL=y\n@@ -114,6 +115,7 @@\n # CONFIG_IRQ_LATENCY is not set\n # CONFIG_PREEMPTION_LATENCY is not set\n CONFIG_OVERCOMMIT_ALWAYS=y\n+# CONFIG_ZONE_RO is not set\n CONFIG_FORCE_MAX_ZONEORDER=9\n \n #\n@@ -190,7 +192,7 @@\n # CONFIG_APM is not set\n # CONFIG_ARTHUR is not set\n CONFIG_MAX_RESERVE_AREA=4\n-CONFIG_CMDLINE=\"console=ttyAM0,115200n8 ip=on mem=60M memmap=0x298A000@0x21676000 initrd=0x2062E000,0x004ff000 root=/dev/ram0 init=/linuxrc rw\"\n+CONFIG_CMDLINE=\"console=ttyAM0,115200n8 ip=on mem=60M memmap=0x02c8a000@0x21376000 initrd=0x2062e000,0x002ff000 root=/dev/ram0 init=/linuxrc rw\"\n CONFIG_ALIGNMENT_TRAP=y\n \n #\n@@ -672,7 +674,7 @@\n # CONFIG_DEBUG_LL is not set\n # CONFIG_KFI is not set\n # CONFIG_LOG_DRIVER is not set\n-CONFIG_EM_LOG_PATH=\"/boot/exception.txt\"\n+CONFIG_EM_LOG_PATH=\"/var/exception.txt\"\n CONFIG_EM_MAX_SHARE_LIBRARIES=100\n CONFIG_PANIC_LOG_PATH=\"/var/PANIC.TXT\"\n CONFIG_OOM_CALLBACK=y"
+    },
+    {
+      "script": "reports/g3-usb-descriptor/reproduce.py",
+      "script_sha256": "4994833c6f2f703c8b48d6e92aaa6c4d4d95af6b01ee40a19152559975605b46",
+      "exit_code": 0,
+      "outputs_identical": true,
+      "outputs": {
+        "reports/g3-usb-descriptor/libusb-chain.asm.txt": "8880669ba0f0cd4fcf41d0f3ad1e826e0f18f9b2561368b0c4cf42d757b8127b",
+        "reports/g3-usb-descriptor/libsencore-chain.asm.txt": "866bbef3ea3477cb581486f5eaeaa8b810e76a03b76ef8d72e107c4ca7ec3e95",
+        "reports/g3-usb-descriptor/kernel-unified_drv.ko.json": "3f96fd90054b0e39023f003d9b87922f0ae1d8b1ef8d44a0cbfee9b2aa3bf52d",
+        "reports/g3-usb-descriptor/kernel-unified_drv2.ko.json": "cfc7e13e5724219b0818feaaa64307e712111372ad54d1c5053382aec06ee5de",
+        "reports/g3-usb-descriptor/kernel-sen-driver.asm.txt": "0e68881287ca431fdd298491e95e80f24f707ee9de18d08ed8dcc268ebfabf2c",
+        "reports/g3-usb-descriptor/descriptor-evidence.json": "b5220baae97a1ad3b969c14a68c79bb5468eaa9d4678d0472cb7f147aba38265",
+        "reports/g3-usb-descriptor/g3-gpl-gadgetcore/usb_gadgetcore.h": "7c37aff2e9ca6bc6e371fed68062a89d490b1690e37d8002d11881b02358eb54",
+        "reports/g3-usb-descriptor/g3-gpl-gadgetcore/usb_gcore_desc.c": "d433998d56a1e7330bbd3a1b59c74c92b74ae5104418217e86b4b3d539b01c35",
+        "reports/g3-usb-descriptor/g3-gpl-gadgetcore/usb_gcore_main.c": "b899c61a26012551cc36de85861bddec4cd181ced27488794e1a0e08d4758d5d"
+      },
+      "stdout": "unified_drv.ko symbols 774 available relocations 5429 matches 27 incomplete ['.rel.text', '.rel.init.text', '.rel.exit.text', '.rel.fixup', '.rel.rodata', '.rel__ksymtab', '.rel__param', '.rel__ex_table', '.rel.data', '.rel.gnu.linkonce.this_module']\nusb_gadgetcore_register_driver 0x0 0x0 None -\nusbg_cmn_copy_probe_info 0xb480 0x164 .text 0xb4b4\ninit_usbg_storage 0x870 0xa0 .init.text 0x2a510\nusbg_ldisc_cleanup_ep_data 0x1cc80 0x70 .text 0x1ccb4\nusbg_cmn_make_ep_list 0xb5e4 0x70 .text 0xb618\nusb_gadgetcore_stop_other_driver 0x0 0x0 None -\nusbg_cmn_new 0xb3d4 0x4c .text 0xb408\nusb_gadgetcore_unregister_driver 0x0 0x0 None -\nexit_usbg_storage 0x2b0 0x64 .exit.text 0x2ae90\ninit_usbg_sen 0x910 0x100 .init.text 0x2a5b0\nusbg_trace_out 0xb778 0x13c .text 0xb7ac\nusbg_cmn_clear_probe_info 0xb43c 0x44 .text 0xb470\nusbg_ldisc_stop 0x1cbb0 0xd0 .text 0x1cbe4\nusbg_sen_get_ep 0x19e8c 0x2c .text 0x19ec0\nusbg_ldisc_init 0x1c934 0xd0 .text 0x1c968\nusb_event_add_queue 0x0 0x0 None -\nusbg_cmn_clear_ep_list 0xb654 0x2c .text 0xb688\nusbg_trace_init 0xb70c 0x6c .text 0xb740\nusbg_ldisc_start 0x1ca74 0x13c .text 0x1caa8\nusbg_ldisc_exit 0x1ca04 0x70 .text 0x1ca38\ninit_usbg_stillimage 0x7a4 0xcc .init.text 0x2a444\nusbg_trace_set 0xb680 0x8c .text 0xb6b4\nexit_usbg_stillimage 0x278 0x38 .exit.text 0x2ae58\nexit_usbg_sen 0x314 0x98 .exit.text 0x2aef4\nusbg_cmn_dereg 0xb3c0 0x14 .text 0xb3f4\nusbg_cmn_delete 0xb420 0x1c .text 0xb454\nusbg_cmn_reg 0xb3ac 0x14 .text 0xb3e0\nunified_drv2.ko symbols 177 available relocations 2400 matches 0 incomplete []\nC:\\Users\\apara01\\OneDrive - Kearney\\Documents\\ChatGPT\\W300\\DSC-W300\\build\\w300\\reports\\g3-usb-descriptor\\kernel-sen-driver.asm.txt\n{\n  \"ok\": true,\n  \"vid\": \"0x54c\",\n  \"pid\": \"0x336\",\n  \"did\": 13,\n  \"control_request_patterns_match_pmca\": true,\n  \"gpl_files\": 3\n}\n{\"ok\": true, \"scope\": \"G3 descriptor/request chain, offline static only\", \"decoded_library_ranges\": 9}"
+    }
+  ],
+  "documentation": {
+    "whitespace_and_conflict_check": true,
+    "git_diff_check": true,
+    "checkpoint_hashes": {
+      "ANALYSIS_LOG.md": "411fffc5b6358e7bf1d3d4b1898123762a0449680d6eaf8a38d712fcafbc404b",
+      "docs/w300/EXECUTION_PLAN.md": "9c44db9f6071cb8504c30a5276781c8e89cbd49c8a31795ae3b9f7390ceb6225",
+      "docs/w300/VERIFICATION.md": "25f6b6e6f3f975730ed3c1c9471891205b055bbaea77172f5082aaf046db7542"
+    }
+  },
+  "camera_commands_sent": false,
+  "firmware_executed": false,
+  "w300_language_operation_qualified": false,
+  "portable_runtime_checks_repeated": false
+}

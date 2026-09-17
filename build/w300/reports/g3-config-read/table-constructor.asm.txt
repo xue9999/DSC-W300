@@ -1,0 +1,41 @@
+range@0x2488:0x2528 section=.text value=0x2488 file=0x2488 symbol_size=160
+0x00002488 0dc0a0e1     mov      ip, sp
+0x0000248c 00dc2de9     push     {sl, fp, ip, lr, pc}
+0x00002490 70a09fe5     ldr      sl, [pc, #0x70] ; literal[0x2508]=0x8e90
+0x00002494 70309fe5     ldr      r3, [pc, #0x70] ; literal[0x250c]=0x68
+0x00002498 0aa08fe0     add      sl, pc, sl
+0x0000249c 03309ae7     ldr      r3, [sl, r3]
+0x000024a0 002093e5     ldr      r2, [r3]
+0x000024a4 64309fe5     ldr      r3, [pc, #0x64] ; literal[0x2510]=0x134b0
+0x000024a8 03108ae0     add      r1, sl, r3
+0x000024ac 042081e5     str      r2, [r1, #4]
+0x000024b0 5c309fe5     ldr      r3, [pc, #0x5c] ; literal[0x2514]=0x64
+0x000024b4 03309ae7     ldr      r3, [sl, r3]
+0x000024b8 003093e5     ldr      r3, [r3]
+0x000024bc 0c3081e5     str      r3, [r1, #0xc]
+0x000024c0 50309fe5     ldr      r3, [pc, #0x50] ; literal[0x2518]=0x8c
+0x000024c4 03309ae7     ldr      r3, [sl, r3]
+0x000024c8 003093e5     ldr      r3, [r3]
+0x000024cc 143081e5     str      r3, [r1, #0x14]
+0x000024d0 44309fe5     ldr      r3, [pc, #0x44] ; literal[0x251c]=0x48
+0x000024d4 03309ae7     ldr      r3, [sl, r3]
+0x000024d8 003093e5     ldr      r3, [r3]
+0x000024dc 1c3081e5     str      r3, [r1, #0x1c]
+0x000024e0 38309fe5     ldr      r3, [pc, #0x38] ; literal[0x2520]=0x6c
+0x000024e4 03309ae7     ldr      r3, [sl, r3]
+0x000024e8 003093e5     ldr      r3, [r3]
+0x000024ec 243081e5     str      r3, [r1, #0x24]
+0x000024f0 2c309fe5     ldr      r3, [pc, #0x2c] ; literal[0x2524]=0x5c
+0x000024f4 03309ae7     ldr      r3, [sl, r3]
+0x000024f8 003093e5     ldr      r3, [r3]
+0x000024fc 04b04ce2     sub      fp, ip, #4
+0x00002500 2c3081e5     str      r3, [r1, #0x2c]
+0x00002504 00ac9de8     ldm      sp, {sl, fp, sp, pc}
+0x00002508 908e0000     muleq    r0, r0, lr
+0x0000250c 68000000     andeq    r0, r0, r8, rrx
+0x00002510 b0340100     strheq   r3, [r1], -r0
+0x00002514 64000000     andeq    r0, r0, r4, rrx
+0x00002518 8c000000     andeq    r0, r0, ip, lsl #1
+0x0000251c 48000000     andeq    r0, r0, r8, asr #32
+0x00002520 6c000000     andeq    r0, r0, ip, rrx
+0x00002524 5c000000     andeq    r0, r0, ip, asr r0

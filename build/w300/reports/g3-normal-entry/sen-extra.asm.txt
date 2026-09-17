@@ -1,0 +1,42 @@
+Static G3 code only. Symbol-size decoding may include trailing literal pools; those words are not claimed executed.
+
+evidence/extracted_g3/archives_unpacked/bin/bin/sen
+
+6e1ff9d1668786808d8d349f0ea532cfa5437437dd85672d054b9e755d4a51f3
+
+_ZN17PowerEventHandler9onPowerOnEv section=.text value=0x9da0 file=0x1da0 symbol_size=152
+0x00009da0 0dc0a0e1     mov      ip, sp
+0x00009da4 10dc2de9     push     {r4, sl, fp, ip, lr, pc}
+0x00009da8 74a09fe5     ldr      sl, [pc, #0x74] ; literal[0x9e24]=0xca58
+0x00009dac 04b04ce2     sub      fp, ip, #4
+0x00009db0 0aa08fe0     add      sl, pc, sl
+0x00009db4 0040a0e1     mov      r4, r0
+0x00009db8 b20800eb     bl       #0xc088 ; $a | LoadSenserMode
+0x00009dbc de0800eb     bl       #0xc13c ; $a | GetSenserMode
+0x00009dc0 000050e3     cmp      r0, #0
+0x00009dc4 10ac9d08     ldmeq    sp, {r4, sl, fp, sp, pc}
+0x00009dc8 58109fe5     ldr      r1, [pc, #0x58] ; literal[0x9e28]=0x22c
+0x00009dcc 080084e2     add      r0, r4, #8
+0x00009dd0 01108ae0     add      r1, sl, r1
+0x00009dd4 0e0c00eb     bl       #0xce14 ; $a | _ZN10CoreModule14usb_mode_startER20InitiationDispatcher
+0x00009dd8 ff0010e3     tst      r0, #0xff
+0x00009ddc 10ac9d18     ldmne    sp, {r4, sl, fp, sp, pc}
+0x00009de0 44309fe5     ldr      r3, [pc, #0x44] ; literal[0x9e2c]=0xffff775c
+0x00009de4 03408ae0     add      r4, sl, r3
+0x00009de8 0400a0e1     mov      r0, r4
+0x00009dec a8feffeb     bl       #0x9894 ; PLT:strlen
+0x00009df0 0420a0e1     mov      r2, r4
+0x00009df4 0030a0e1     mov      r3, r0
+0x00009df8 0110a0e3     mov      r1, #1
+0x00009dfc ff00a0e3     mov      r0, #0xff
+0x00009e00 520c00eb     bl       #0xcf50 ; blog
+0x00009e04 c6feffeb     bl       #0x9924 ; PLT:getpid
+0x00009e08 20209fe5     ldr      r2, [pc, #0x20] ; literal[0x9e30]=0xffff7734
+0x00009e0c 0010a0e1     mov      r1, r0
+0x00009e10 1c009fe5     ldr      r0, [pc, #0x1c] ; literal[0x9e34]=0xffff7780
+0x00009e14 02208ae0     add      r2, sl, r2
+0x00009e18 00008ae0     add      r0, sl, r0
+0x00009e1c 1affffeb     bl       #0x9a8c ; PLT:printf
+0x00009e20 f8feffeb     bl       #0x9a08 ; PLT:abort
+0x00009e24 58ca0000     andeq    ip, r0, r8, asr sl
+0x00009e28 2c020000     andeq    r0, r0, ip, lsr #4

@@ -1,0 +1,8 @@
+{
+  "captured_at": "2026-09-16T16:43:47.247424+00:00",
+  "operation": "inventory",
+  "ok": false,
+  "error_type": "CalledProcessError",
+  "error": "Command '['powershell.exe', '-NoProfile', '-File', 'C:\\\\Users\\\\apara01\\\\OneDrive - Kearney\\\\Documents\\\\ChatGPT\\\\W300\\\\DSC-W300\\\\build\\\\w300\\\\inventory.ps1', '-JsonOnly']' returned non-zero exit status 1.",
+  "scope": "No language-changing operation implemented"
+}

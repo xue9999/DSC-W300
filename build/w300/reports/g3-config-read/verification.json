@@ -1,0 +1,89 @@
+{
+  "ok": true,
+  "scope": "Static native getter and XS framing; property semantic qualification recorded separately",
+  "selected": [
+    {
+      "symbol": "69:BkupID_Reg_cmn__DestinationID",
+      "id_hex": "0x10400",
+      "literal_code_offset": 1564,
+      "property_code_offset": 1586,
+      "array": "HOST_COM_REG",
+      "row": {
+        "id": 66560,
+        "offset": 260,
+        "size": 1,
+        "bit_size": 0,
+        "bit_mask": 0,
+        "kind": 1
+      }
+    },
+    {
+      "symbol": "78:BkupID_Reg_brewApp__regionData",
+      "id_hex": "0x40000",
+      "literal_code_offset": 1825,
+      "property_code_offset": 1847,
+      "array": "HOST_PROD_REG",
+      "row": {
+        "id": 262144,
+        "offset": 1024,
+        "size": 4,
+        "bit_size": 0,
+        "bit_mask": 0,
+        "kind": 1
+      }
+    },
+    {
+      "symbol": "79:BkupID_Reg_brewApp__initLangData",
+      "id_hex": "0x40400",
+      "literal_code_offset": 1854,
+      "property_code_offset": 1876,
+      "array": "HOST_PROD_REG",
+      "row": {
+        "id": 263168,
+        "offset": 1028,
+        "size": 4,
+        "bit_size": 0,
+        "bit_mask": 0,
+        "kind": 1
+      }
+    },
+    {
+      "symbol": "80:BkupID_Reg_brewApp__availLangData",
+      "id_hex": "0x40800",
+      "literal_code_offset": 1883,
+      "property_code_offset": 1905,
+      "array": "HOST_PROD_REG",
+      "row": {
+        "id": 264192,
+        "offset": 1032,
+        "size": 4,
+        "bit_size": 0,
+        "bit_mask": 0,
+        "kind": 1
+      }
+    },
+    {
+      "symbol": "81:BkupID_Reg_brewApp__signalTypeData",
+      "id_hex": "0x40c00",
+      "literal_code_offset": 1912,
+      "property_code_offset": 1934,
+      "array": "HOST_PROD_REG",
+      "row": {
+        "id": 265216,
+        "offset": 1036,
+        "size": 4,
+        "bit_size": 0,
+        "bit_mask": 0,
+        "kind": 1
+      }
+    }
+  ],
+  "category": 0,
+  "category_files": [
+    "/boot/factory/Hreg.bin",
+    "/boot/factory/Hreg2.bak"
+  ],
+  "no_usb": true,
+  "no_firmware_execution": true,
+  "w300_qualified": false
+}

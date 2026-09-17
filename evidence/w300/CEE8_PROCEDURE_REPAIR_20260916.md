@@ -1,4 +1,6 @@
-# CEE8 procedure repair: partial, hardware conversion not achieved
+> Historical record from the imported September 2026 research. Statements describe that investigation, not the current code or connected hardware. Consult the active guides and evidence index for current scope.
+
+# CEE8 procedure repair: completed host changes and next W300 qualification
 
 ## Completed host changes
 
@@ -21,7 +23,7 @@
 
 CLI passive detection again reported Sony DSC-W300 at 054c:0341. CLI dry-run completed solely against a simulated J1 device; the printed J1 destination and other simulated properties are not readings from the physical camera. No hardware service command or camera write was performed.
 
-## External dependency
+## Next implementation input
 
 The user has confirmed no exact Auto-Adj package or installed service system is available and requested writing or simulating a replacement. The existing simulator was run through its full mock conversion; output is `cee8-offline-simulation-20260916.txt`. This is a successful execution of the assumed model only, not evidence for its assumptions and not a physical language change.
 
@@ -30,4 +32,4 @@ Additional passive `ioreg` inspection identifies the actual DSC-W300 interface a
 Searches for the exact model plus Senser, PMCA, Seus, Auto-Adj, 1.3r04 and CEE8 did not recover a qualified package or independent W300 transaction capture. The official Sony support page lists PlayMemories Home, not the adjustment package:
 https://www.sony.com/electronics/support/compact-cameras-dsc-w-series/dsc-w300
 
-The exact Auto-Adj package or independently documented W300 service transactions remain necessary to establish the region encoding and recovery route. Availability of the package alone would not prove retail-board conversion eligibility. Physical English persistence after restart remains unachieved.
+The exact Auto-Adj package or independently documented W300 service transactions remain necessary to establish the region encoding and recovery route. Availability of the package alone would not prove retail-board conversion eligibility. Verify physical English-menu persistence after restart in the separately authorized write stage.

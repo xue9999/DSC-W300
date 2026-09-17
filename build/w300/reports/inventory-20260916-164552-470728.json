@@ -1,0 +1,11 @@
+{
+  "captured_at": "2026-09-16T16:45:52.470728+00:00",
+  "operation": "inventory",
+  "result": {
+    "captured_at": "2026-09-16T16:45:55.1260098Z",
+    "method": "Windows PnP registry properties only; no application camera commands",
+    "sony_devices": [],
+    "camera_setting_write_performed": false
+  },
+  "ok": true
+}

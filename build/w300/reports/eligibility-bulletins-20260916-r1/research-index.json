@@ -1,0 +1,51 @@
+{
+  "scope": "Additional W300 destination eligibility and Sony service bulletin search; no repetition of local baseline manual or PDF object audit",
+  "w300_bulletin_queries": [
+    "\"DSC-W300\" \"DI08-113\"",
+    "\"DSC-W300\" \"DI08-225\"",
+    "\"DI08-068\"",
+    "\"Sony\" \"DI08-113\"",
+    "\"Sony\" \"DI08-225\"",
+    "\"DSC-W300\" \"1.2r03\"",
+    "\"DSC-W300\" \"DI08-068\"",
+    "\"DSC-W300\" \"service bulletin\""
+  ],
+  "w300_result": "No verified standalone bulletin contents or usable software package was found in this search. This does not establish non-existence.",
+  "sources": [
+    {
+      "url": "https://www.eserviceinfo.com/preview_html.php?fileid=42734&previewid=21068",
+      "authorship": "Sony; third-party text mirror",
+      "model": "HDR-SR11/SR11E/SR12/SR12E",
+      "document": "ADJ Ver. 1.2 2008.06 9-852-254-53",
+      "locator": "Printed p. 6-12, 1-4 Destination Data Write",
+      "local_content": "build/w300/downloads/eligibility-bulletins-20260916-r1/hdr-sr11-adj-preview.html",
+      "content_verified": true,
+      "w300_proof": false
+    },
+    {
+      "url": "https://www.eserviceinfo.com/preview_html.php?fileid=42735&previewid=38539",
+      "alternative_url": "https://manualzilla.com/doc/6035160/hdr-sr11-sr11e-sr12-sr12e",
+      "authorship": "Sony; third-party text mirrors",
+      "model": "HDR-SR11/SR11E/SR12/SR12E",
+      "document": "Level 2, host-labelled Ver. 1.4 2009.03; extracted cover suffix differs",
+      "locator": "Printed p. 1-2, E:20:00 and Note 1",
+      "access": "Read successfully through web tool; both direct Python download attempts returned HTTP 403",
+      "local_content": null,
+      "content_verified": true,
+      "w300_proof": false
+    },
+    {
+      "url": "https://www.eserviceinfo.com/download.php?fileid=35776",
+      "authorship": "Sony; third-party text mirror",
+      "model": "DSC-W5/W7/W15/W17",
+      "document": "Supplement-1 2007.08 DI07-045 9-876-856-86",
+      "locator": "Destination Data Write function addition and font preparation",
+      "local_content": "build/w300/downloads/eligibility-bulletins-20260916-r1/w5-w7-supplement-index.html",
+      "content_verified": true,
+      "w300_proof": false
+    }
+  ],
+  "camera_commands_executed": false,
+  "w300_destination_address_found": false,
+  "w300_original_board_eligibility_resolved": false
+}

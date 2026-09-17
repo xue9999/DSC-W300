@@ -1,0 +1,20 @@
+{
+  "scope": "Offline G3 code decoding only; no W300 command qualification",
+  "files": [
+    {
+      "path": "re-tools/wheels/capstone-5.0.6-py3-none-win_amd64.whl",
+      "bytes": 1271345,
+      "sha256": "761c3deae00b22ac697081cdae1383bb90659dd0d79387a09cf5bdbb22b17064"
+    },
+    {
+      "path": "reports/disassemble_service_dispatch.py",
+      "bytes": 5479,
+      "sha256": "d4dc10c749dd82e6489abb86e3c1a9e372e6b3f95e8ea668b12e6753572503e3"
+    },
+    {
+      "path": "reports/retained-service-dispatch.asm.txt",
+      "bytes": 14059,
+      "sha256": "0e26e6f0ffa9db8172f59b7849f2a2d8fbe55d612413e1d61661005ed7133a17"
+    }
+  ]
+}

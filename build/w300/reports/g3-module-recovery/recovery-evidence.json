@@ -1,0 +1,1518 @@
+{
+  "scope": "Read-only reconstruction from actual ext2 data blocks; no firmware/module execution",
+  "image": {
+    "path": "evidence/extracted_g3/archives_unpacked/linuxset1/initrd.img",
+    "sha256": "a011eef609836a0d6bc33e827782148952f0634a7d09f2a9c9b49955e6f767be"
+  },
+  "metadata_reader": {
+    "path": "tools/g3_firmware_parser.py",
+    "sha256": "34e565247558771d5866f087568f207a6f6efe57392d8f3a267c7c9a56a09987"
+  },
+  "inode": 14,
+  "inode_declared_size": 303816,
+  "block_size": 1024,
+  "preserved_extraction": {
+    "path": "evidence/extracted_g3/rootfs/initrd/bin/unified_drv.ko",
+    "bytes": 274432,
+    "sha256": "69b3536228712cd180c8747ae80f0548725fd628c5bc00fee9ca940c61960985"
+  },
+  "complete_output": {
+    "path": "unified_drv.complete.ko",
+    "bytes": 303816,
+    "sha256": "8d675f7071e49a75a174130ef8525767af07c157fe5f203018eb097e10aa1367"
+  },
+  "legacy_parser_output_equals_preserved_extraction": true,
+  "complete_output_has_preserved_prefix": true,
+  "source_extraction_limit_bytes": 274432,
+  "data_blocks": [
+    {
+      "block": 111,
+      "bytes": 1024,
+      "indirection_depth": 0
+    },
+    {
+      "block": 112,
+      "bytes": 1024,
+      "indirection_depth": 0
+    },
+    {
+      "block": 113,
+      "bytes": 1024,
+      "indirection_depth": 0
+    },
+    {
+      "block": 114,
+      "bytes": 1024,
+      "indirection_depth": 0
+    },
+    {
+      "block": 115,
+      "bytes": 1024,
+      "indirection_depth": 0
+    },
+    {
+      "block": 116,
+      "bytes": 1024,
+      "indirection_depth": 0
+    },
+    {
+      "block": 117,
+      "bytes": 1024,
+      "indirection_depth": 0
+    },
+    {
+      "block": 118,
+      "bytes": 1024,
+      "indirection_depth": 0
+    },
+    {
+      "block": 119,
+      "bytes": 1024,
+      "indirection_depth": 0
+    },
+    {
+      "block": 120,
+      "bytes": 1024,
+      "indirection_depth": 0
+    },
+    {
+      "block": 121,
+      "bytes": 1024,
+      "indirection_depth": 0
+    },
+    {
+      "block": 122,
+      "bytes": 1024,
+      "indirection_depth": 0
+    },
+    {
+      "block": 124,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 125,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 126,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 127,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 128,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 129,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 130,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 131,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 132,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 133,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 134,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 135,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 136,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 137,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 138,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 139,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 140,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 141,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 142,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 143,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 144,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 145,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 146,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 147,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 148,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 149,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 150,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 151,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 152,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 153,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 154,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 155,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 156,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 157,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 158,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 159,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 160,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 161,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 162,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 163,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 164,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 165,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 166,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 167,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 168,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 169,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 170,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 171,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 172,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 173,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 174,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 175,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 176,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 177,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 178,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 179,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 180,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 181,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 182,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 183,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 184,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 185,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 186,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 187,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 188,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 189,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 190,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 191,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 192,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 193,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 194,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 195,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 196,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 197,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 198,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 199,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 200,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 201,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 202,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 203,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 204,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 205,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 206,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 207,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 208,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 209,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 210,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 211,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 212,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 213,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 214,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 215,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 216,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 217,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 218,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 219,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 220,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 221,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 222,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 223,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 224,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 225,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 226,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 227,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 228,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 229,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 230,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 231,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 232,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 233,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 234,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 235,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 236,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 237,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 238,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 239,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 240,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 241,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 242,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 243,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 244,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 245,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 246,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 247,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 248,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 249,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 250,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 251,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 252,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 253,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 254,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 255,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 256,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 257,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 258,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 259,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 260,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 261,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 262,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 263,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 264,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 265,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 266,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 267,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 268,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 269,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 270,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 271,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 272,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 273,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 274,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 275,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 276,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 277,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 278,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 279,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 280,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 281,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 282,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 283,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 284,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 285,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 286,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 287,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 288,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 289,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 290,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 291,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 292,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 293,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 294,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 295,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 296,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 297,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 298,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 299,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 300,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 301,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 302,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 303,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 304,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 305,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 306,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 307,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 308,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 309,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 310,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 311,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 312,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 313,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 314,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 315,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 316,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 317,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 318,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 319,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 320,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 321,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 322,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 323,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 324,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 325,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 326,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 327,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 328,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 329,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 330,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 331,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 332,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 333,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 334,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 335,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 336,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 337,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 338,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 339,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 340,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 341,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 342,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 343,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 344,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 345,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 346,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 347,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 348,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 349,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 350,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 351,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 352,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 353,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 354,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 355,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 356,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 357,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 358,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 359,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 360,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 361,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 362,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 363,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 364,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 365,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 366,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 367,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 368,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 369,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 370,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 371,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 372,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 373,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 374,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 375,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 376,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 377,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 378,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 379,
+      "bytes": 1024,
+      "indirection_depth": 1
+    },
+    {
+      "block": 382,
+      "bytes": 1024,
+      "indirection_depth": 2
+    },
+    {
+      "block": 383,
+      "bytes": 1024,
+      "indirection_depth": 2
+    },
+    {
+      "block": 384,
+      "bytes": 1024,
+      "indirection_depth": 2
+    },
+    {
+      "block": 385,
+      "bytes": 1024,
+      "indirection_depth": 2
+    },
+    {
+      "block": 386,
+      "bytes": 1024,
+      "indirection_depth": 2
+    },
+    {
+      "block": 387,
+      "bytes": 1024,
+      "indirection_depth": 2
+    },
+    {
+      "block": 388,
+      "bytes": 1024,
+      "indirection_depth": 2
+    },
+    {
+      "block": 389,
+      "bytes": 1024,
+      "indirection_depth": 2
+    },
+    {
+      "block": 390,
+      "bytes": 1024,
+      "indirection_depth": 2
+    },
+    {
+      "block": 391,
+      "bytes": 1024,
+      "indirection_depth": 2
+    },
+    {
+      "block": 392,
+      "bytes": 1024,
+      "indirection_depth": 2
+    },
+    {
+      "block": 393,
+      "bytes": 1024,
+      "indirection_depth": 2
+    },
+    {
+      "block": 394,
+      "bytes": 1024,
+      "indirection_depth": 2
+    },
+    {
+      "block": 395,
+      "bytes": 1024,
+      "indirection_depth": 2
+    },
+    {
+      "block": 396,
+      "bytes": 1024,
+      "indirection_depth": 2
+    },
+    {
+      "block": 397,
+      "bytes": 1024,
+      "indirection_depth": 2
+    },
+    {
+      "block": 398,
+      "bytes": 1024,
+      "indirection_depth": 2
+    },
+    {
+      "block": 399,
+      "bytes": 1024,
+      "indirection_depth": 2
+    },
+    {
+      "block": 400,
+      "bytes": 1024,
+      "indirection_depth": 2
+    },
+    {
+      "block": 401,
+      "bytes": 1024,
+      "indirection_depth": 2
+    },
+    {
+      "block": 402,
+      "bytes": 1024,
+      "indirection_depth": 2
+    },
+    {
+      "block": 403,
+      "bytes": 1024,
+      "indirection_depth": 2
+    },
+    {
+      "block": 404,
+      "bytes": 1024,
+      "indirection_depth": 2
+    },
+    {
+      "block": 405,
+      "bytes": 1024,
+      "indirection_depth": 2
+    },
+    {
+      "block": 406,
+      "bytes": 1024,
+      "indirection_depth": 2
+    },
+    {
+      "block": 407,
+      "bytes": 1024,
+      "indirection_depth": 2
+    },
+    {
+      "block": 408,
+      "bytes": 1024,
+      "indirection_depth": 2
+    },
+    {
+      "block": 409,
+      "bytes": 1024,
+      "indirection_depth": 2
+    },
+    {
+      "block": 410,
+      "bytes": 712,
+      "indirection_depth": 2
+    }
+  ],
+  "all_declared_elf_sections_present": true,
+  "validated_relocation_entries": 9102,
+  "camera_commands_sent": false,
+  "firmware_executed": false
+}

@@ -1,0 +1,78 @@
+{
+  "scope": "Static retained G3 descriptor binding and service request matching only; no live enumeration, auth, W300 support or successful normal-to-service transition.",
+  "inputs": {
+    "evidence/extracted_g3/archives_unpacked/lib/lib/libusb.so": "618d7abb1ac055afceefbab379b522d782574ffefeee5bbbcd3148d4a01d2cb8",
+    "evidence/extracted_g3/archives_unpacked/lib/lib/libsencore.so": "401bc78bc84bd175968513a387b8951626ceb48a345eed134b998d3630103270"
+  },
+  "pmca_commit": "a82f5baaa8e9c3d9f28f94699e860fb2e48cc8e0",
+  "pmca_source_pins": {
+    "pmca/usb/sony.py": "53ffb4d9d49cb5146623fda2b66ecb137681a6fc9ab0c98d23a51e75128af97e",
+    "pmca/usb/driver/generic/libusb.py": "1c80cfaa0692cf308bd086edc9a9bad3691804b50182993c1dd960c932daa1df"
+  },
+  "did": 13,
+  "did_table_slot": "0x19418",
+  "did_record": "0x19598",
+  "descriptor_relocation": {
+    "relocation_section": ".rel.dyn",
+    "target_section": null,
+    "offset": 103844,
+    "type": 2,
+    "symbol": "sen_desc_tbl",
+    "symbol_value": 101056,
+    "symbol_section": ".data.rel.ro"
+  },
+  "descriptor_va": "0x18ac0",
+  "descriptor_file_offset": "0x10ac0",
+  "descriptor_hex": "0002000000010000f88a0100000000000002000000010000108b0100000000004c0536030001c00102000100f08a0100",
+  "vid": "0x54c",
+  "pid": "0x336",
+  "usb_api_template": "0x187bc",
+  "start_wrapper": "0x6314",
+  "gadgetcore_start_ioctl": "0x400ce203",
+  "gadgetcore_path": "/dev/usb/gadgetcore",
+  "request_table_va": "0x10294",
+  "request_table_file_offset": "0x10294",
+  "request_table_hex": "4301ff37aad70000430100c855280000",
+  "sen_probe_ioctl": "0x4034e000",
+  "pmca_matching_requests": [
+    {
+      "name": "SONY_VendorRequest_StartSenser",
+      "bmRequestType": "0x43",
+      "request": 1,
+      "value": "0x37ff",
+      "index": "0xd7aa",
+      "length": 0
+    },
+    {
+      "name": "SONY_VendorRequest_StopSenser",
+      "bmRequestType": "0x43",
+      "request": 1,
+      "value": "0xc800",
+      "index": "0x2855",
+      "length": 0
+    }
+  ],
+  "gpl_archive_sha256": "cbb03d206740f0bcc8ed9efc90e1f48786f427188954616ed618a3cb7597e90a",
+  "gpl_members": [
+    {
+      "member": "linux/include/linux/usb/gcore/usb_gadgetcore.h",
+      "local": "build\\w300\\reports\\g3-usb-descriptor\\g3-gpl-gadgetcore\\usb_gadgetcore.h",
+      "sha256": "7c37aff2e9ca6bc6e371fed68062a89d490b1690e37d8002d11881b02358eb54",
+      "bytes": 7419
+    },
+    {
+      "member": "linux/drivers/usb/gcore/usb_gcore_desc.c",
+      "local": "build\\w300\\reports\\g3-usb-descriptor\\g3-gpl-gadgetcore\\usb_gcore_desc.c",
+      "sha256": "d433998d56a1e7330bbd3a1b59c74c92b74ae5104418217e86b4b3d539b01c35",
+      "bytes": 63194
+    },
+    {
+      "member": "linux/drivers/usb/gcore/usb_gcore_main.c",
+      "local": "build\\w300\\reports\\g3-usb-descriptor\\g3-gpl-gadgetcore\\usb_gcore_main.c",
+      "sha256": "b899c61a26012551cc36de85861bddec4cd181ced27488794e1a0e08d4758d5d",
+      "bytes": 28424
+    }
+  ],
+  "firmware_executed": false,
+  "usb_commands_sent": false
+}

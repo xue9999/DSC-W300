@@ -1,0 +1,176 @@
+{
+  "base": "0x20100000",
+  "base_checks": [
+    "ARM vector literal",
+    "tsk_senser literal reference",
+    "scatter copy source/destination/function pointers"
+  ],
+  "scatter_table_file": "0x1e3850",
+  "scatter_regions": [
+    {
+      "source": "0x202e3a78",
+      "destination": "0x20303a78",
+      "size": "0x1365c",
+      "operation": "0x20100158"
+    },
+    {
+      "source": "0x202f70d4",
+      "destination": "0xffff0000",
+      "size": "0x218",
+      "operation": "0x20100158"
+    },
+    {
+      "source": "0x202f72ec",
+      "destination": "0xffff4000",
+      "size": "0x4",
+      "operation": "0x20100158"
+    },
+    {
+      "source": "0x202f70d4",
+      "destination": "0x203170d4",
+      "size": "0x82e24",
+      "operation": "0x20100180"
+    },
+    {
+      "source": "0x202f70d4",
+      "destination": "0x20399ef8",
+      "size": "0x6108",
+      "operation": "0x20100180"
+    },
+    {
+      "source": "0x202f70d4",
+      "destination": "0x203a0000",
+      "size": "0x8",
+      "operation": "0x20100180"
+    },
+    {
+      "source": "0x202f70d4",
+      "destination": "0x203b0008",
+      "size": "0xc00",
+      "operation": "0x20100180"
+    },
+    {
+      "source": "0x202f70d4",
+      "destination": "0x203b0c08",
+      "size": "0x4",
+      "operation": "0x20100180"
+    },
+    {
+      "source": "0x202f70d4",
+      "destination": "0x203f7ffc",
+      "size": "0x4",
+      "operation": "0x20100180"
+    },
+    {
+      "source": "0x202f70d4",
+      "destination": "0xa03f8000",
+      "size": "0x5628",
+      "operation": "0x20100180"
+    },
+    {
+      "source": "0x202f72f0",
+      "destination": "0xffff4004",
+      "size": "0xc",
+      "operation": "0x20100180"
+    }
+  ],
+  "initial_page_table_va": "0x203043fc",
+  "initial_page_table_file": "0x1e43fc",
+  "page_table_rows_before_sentinel": 107,
+  "single_reference_row": [
+    {
+      "index": 86,
+      "file_offset": "0x1e4ab4",
+      "page_key": "0x61",
+      "segment": "0xe",
+      "type": 3,
+      "initial_runtime_data_pointer": "0x0",
+      "length": 256
+    }
+  ],
+  "linux_ipcm_connect_words": [
+    0,
+    1,
+    4097
+  ],
+  "direct_data_copy": {
+    "call_file": "0x226c2",
+    "callee_va": "0x20257d98",
+    "callee_file": "0x157d98",
+    "callee_end_file": "0x157eb8",
+    "source_register": "r1",
+    "destination_register": "r0",
+    "length_register": "r2",
+    "basis": "Decoded byte and aligned/unaligned word load/store paths; verified final BX LR"
+  },
+  "receiver_channel_literal": "0x1001",
+  "ranges": [
+    {
+      "label": "scatter-loop",
+      "file_start": "0x120",
+      "file_end": "0x150",
+      "thumb": false
+    },
+    {
+      "label": "copy-region",
+      "file_start": "0x158",
+      "file_end": "0x180",
+      "thumb": false
+    },
+    {
+      "label": "ipcm-to-task-callback",
+      "file_start": "0xe27c",
+      "file_end": "0xe2ba",
+      "thumb": true
+    },
+    {
+      "label": "senser-task",
+      "file_start": "0xe2ba",
+      "file_end": "0xe580",
+      "thumb": true
+    },
+    {
+      "label": "page-segment-lookup",
+      "file_start": "0x21d6c",
+      "file_end": "0x21dae",
+      "thumb": true
+    },
+    {
+      "label": "remaining-length",
+      "file_start": "0x21e10",
+      "file_end": "0x21e5c",
+      "thumb": true
+    },
+    {
+      "label": "page-alias",
+      "file_start": "0x21e5c",
+      "file_end": "0x21e70",
+      "thumb": true
+    },
+    {
+      "label": "adjust-dispatch",
+      "file_start": "0x221e0",
+      "file_end": "0x22596",
+      "thumb": true
+    },
+    {
+      "label": "page-access-handler",
+      "file_start": "0x225b4",
+      "file_end": "0x2279c",
+      "thumb": true
+    },
+    {
+      "label": "source-name-reference",
+      "file_start": "0x57772",
+      "file_end": "0x5779a",
+      "thumb": true
+    },
+    {
+      "label": "direct-data-copy-callee",
+      "file_start": "0x157d98",
+      "file_end": "0x157eb8",
+      "thumb": false
+    }
+  ],
+  "scope": "G3 static receiver and one table reference; no W300 mapping, no runtime pointer assumed, no device payload generated"
+}

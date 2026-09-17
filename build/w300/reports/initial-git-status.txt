@@ -1,0 +1,576 @@
+ M .gitignore
+ M ANALYSIS_LOG.md
+ D G3_RESEARCH_GUIDANCE.md
+ M README.md
+ M TEST_INFRA.md
+ D TEST_READY.md
+ D build/W300Probe.app/Contents/Info.plist
+ D build/W300Probe.app/Contents/MacOS/w300_native_probe
+ D build/w300_capture_inquiry
+ D build/w300_native_probe
+ D docs/g3/DECRYPTED_ARCHITECTURE.md
+ D docs/g3/FIRMWARE_MODIFICATION_POC_DESIGN.md
+ D docs/g3/G3_RESEARCH_GUIDANCE.md
+ D docs/g3/STILLS_NR_DISABLE_GUIDE.md
+ M docs/shared/CROSS_PLATFORM_ARCHITECTURE.md
+ M docs/shared/EMULATION_AND_OPENMEMORIES_CI.md
+ D docs/w300/ANALYSIS_LOG.md
+ D docs/w300/SERVICE_PROTOCOL_SPEC.md
+ D docs/w300/STILLS_NR_DISABLE_GUIDE.md
+ D "docs/w300/make a Japanese DSC-W300 display English.md"
+ M evidence/DECRYPTED_ARCHITECTURE.md
+ D evidence/FIRMWARE_MODIFICATION_POC_DESIGN.md
+ M evidence/acquisition.md
+ M evidence/archive_seusex.json
+ M evidence/archive_w300.json
+ M evidence/decrypted_inventory.json
+ D evidence/extracted_g3/D-G3V2.dat
+ M evidence/extracted_g3/D-G3V2_nonr.dat
+ M evidence/extracted_g3/D-G3V2_poc.dat
+ D evidence/extracted_g3/DECRYPTED_ARCHITECTURE.md
+ M evidence/extracted_g3/archives_unpacked/bin/bin/usbport.sh
+ M evidence/extracted_g3/archives_unpacked/fskapp1/dsc/app/scripts/language/ara.csv
+ M evidence/extracted_g3/archives_unpacked/fskapp1/dsc/app/scripts/language/cze.csv
+ M evidence/extracted_g3/archives_unpacked/fskapp1/dsc/app/scripts/language/dan.csv
+ M evidence/extracted_g3/archives_unpacked/fskapp1/dsc/app/scripts/language/dut.csv
+ M evidence/extracted_g3/archives_unpacked/fskapp1/dsc/app/scripts/language/eng.csv
+ M evidence/extracted_g3/archives_unpacked/fskapp1/dsc/app/scripts/language/fin.csv
+ M evidence/extracted_g3/archives_unpacked/fskapp1/dsc/app/scripts/language/fre.csv
+ M evidence/extracted_g3/archives_unpacked/fskapp1/dsc/app/scripts/language/ger.csv
+ M evidence/extracted_g3/archives_unpacked/fskapp1/dsc/app/scripts/language/gre.csv
+ M evidence/extracted_g3/archives_unpacked/fskapp1/dsc/app/scripts/language/hun.csv
+ M evidence/extracted_g3/archives_unpacked/fskapp1/dsc/app/scripts/language/ita.csv
+ M evidence/extracted_g3/archives_unpacked/fskapp1/dsc/app/scripts/language/jpn.csv
+ M evidence/extracted_g3/archives_unpacked/fskapp1/dsc/app/scripts/language/kor.csv
+ M evidence/extracted_g3/archives_unpacked/fskapp1/dsc/app/scripts/language/mal.csv
+ M evidence/extracted_g3/archives_unpacked/fskapp1/dsc/app/scripts/language/nor.csv
+ M evidence/extracted_g3/archives_unpacked/fskapp1/dsc/app/scripts/language/per.csv
+ M evidence/extracted_g3/archives_unpacked/fskapp1/dsc/app/scripts/language/pol.csv
+ M evidence/extracted_g3/archives_unpacked/fskapp1/dsc/app/scripts/language/por.csv
+ M evidence/extracted_g3/archives_unpacked/fskapp1/dsc/app/scripts/language/rus.csv
+ M evidence/extracted_g3/archives_unpacked/fskapp1/dsc/app/scripts/language/sch.csv
+ M evidence/extracted_g3/archives_unpacked/fskapp1/dsc/app/scripts/language/spa.csv
+ M evidence/extracted_g3/archives_unpacked/fskapp1/dsc/app/scripts/language/swe.csv
+ M evidence/extracted_g3/archives_unpacked/fskapp1/dsc/app/scripts/language/tch.csv
+ M evidence/extracted_g3/archives_unpacked/fskapp1/dsc/app/scripts/language/tha.csv
+ M evidence/extracted_g3/archives_unpacked/fskapp1/dsc/app/scripts/language/tur.csv
+ M evidence/extracted_g3/archives_unpacked/fskapp_1/dsc/app/scrapBookData/01_active/SB_active_jpeg_theme.xml
+ M evidence/extracted_g3/archives_unpacked/fskapp_1/dsc/app/scrapBookData/02_african/SB_african_jpeg_theme.xml
+ M evidence/extracted_g3/archives_unpacked/fskapp_1/dsc/app/scrapBookData/04_belt/SB_belt_jpeg_theme.xml
+ M evidence/extracted_g3/archives_unpacked/fskapp_1/dsc/app/scrapBookData/05_brazilian/SB_brazilian_jpeg_theme.xml
+ M evidence/extracted_g3/archives_unpacked/fskapp_1/dsc/app/scrapBookData/15_wedding/SB_wedding_jpeg_theme.xml
+ M evidence/extracted_g3/archives_unpacked/fskapp_2/dsc/app/scrapBookData/03_album/SB_album_jpeg_theme.xml
+ M evidence/extracted_g3/archives_unpacked/fskapp_2/dsc/app/scrapBookData/06_child/SB_child_jpeg_theme.xml
+ M evidence/extracted_g3/archives_unpacked/fskapp_2/dsc/app/scrapBookData/07_circle/SB_circle_jpeg_theme.xml
+ M evidence/extracted_g3/archives_unpacked/fskapp_2/dsc/app/scrapBookData/09_leather/SB_leather_jpeg_theme.xml
+ M evidence/extracted_g3/archives_unpacked/fskapp_2/dsc/app/scrapBookData/10_party/SB_party_jpeg_theme.xml
+ M evidence/extracted_g3/archives_unpacked/fskapp_2/dsc/app/scrapBookData/11_sea/SB_sea_jpeg_theme.xml
+ M evidence/extracted_g3/archives_unpacked/fskapp_3/dsc/app/scrapBookData/08_girl/SB_girl_jpeg_theme.xml
+ M evidence/extracted_g3/archives_unpacked/fskapp_3/dsc/app/scrapBookData/12_simple/SB_simple_jpeg_theme.xml
+ M evidence/extracted_g3/archives_unpacked/fskapp_3/dsc/app/scrapBookData/13_sky/SB_sky_jpeg_theme.xml
+ M evidence/extracted_g3/archives_unpacked/fskapp_3/dsc/app/scrapBookData/14_sports/SB_sports_jpeg_theme.xml
+ M evidence/extracted_g3/archives_unpacked/fskapp_3/dsc/app/scrapBookData/16_wood/SB_wood_jpeg_theme.xml
+ M evidence/extracted_g3/archives_unpacked/fskrel1/dsc/fsk/ImageEditorMessage.xml
+ M evidence/extracted_g3/archives_unpacked/fskrel1/dsc/fsk/kconfig.xml
+ M evidence/extracted_g3/archives_unpacked/fskrel2/dsc/fsk/thaiunidict.txt
+ M evidence/extracted_g3/cntent.dat
+ M evidence/extracted_g3/decrypted_inventory.json
+ M evidence/extracted_g3/manifest.json
+ M evidence/extracted_g3/rootfs/BodyUdtr/BodyUdtr.sh
+ M evidence/extracted_g3/rootfs/BodyUdtr/bin/ass/script/updater_script1
+ M evidence/extracted_g3/rootfs/BodyUdtr/bin/ass/script/updater_script2
+ M evidence/extracted_g3/rootfs/BodyUdtr/bin/ass/script/updater_script3
+ M evidence/extracted_g3/rootfs/BodyUdtr/bin/ass/script/updater_script4
+ M evidence/extracted_g3/rootfs/BodyUdtr/bin/ass/script/updater_script5
+ M evidence/extracted_g3/rootfs/BodyUdtr/bin/ass/script/updater_script6
+ M evidence/extracted_g3/rootfs/BodyUdtr/bin/ass/script/updater_script_error
+ M evidence/extracted_g3/rootfs/BodyUdtr/bin/ass/script/updater_script_finished
+ M evidence/extracted_g3/rootfs/BodyUdtr/bin/utility/shell/UdtrMain.sh
+ M evidence/extracted_g3/rootfs/BodyUdtr/bin/utility/shell/body_led_ctrl.sh
+ M evidence/extracted_g3/rootfs/BodyUdtr/bin/utility/shell/body_preparation.sh
+ M evidence/extracted_g3/rootfs/BodyUdtr/bin/utility/shell/ud_progress.sh
+ M evidence/extracted_g3/rootfs/initrd/bin/insmod.sh
+ D "evidence/extracted_g3/rootfs/initrd/dev/fd 2"
+ D "evidence/extracted_g3/rootfs/initrd/dev/fd 3"
+ D "evidence/extracted_g3/rootfs/initrd/dev/fd 4"
+ D "evidence/extracted_g3/rootfs/initrd/dev/ram 2"
+ D "evidence/extracted_g3/rootfs/initrd/dev/ram 3"
+ D "evidence/extracted_g3/rootfs/initrd/dev/ram 4"
+ D "evidence/extracted_g3/rootfs/initrd/dev/stderr 2"
+ D "evidence/extracted_g3/rootfs/initrd/dev/stderr 3"
+ D "evidence/extracted_g3/rootfs/initrd/dev/stderr 4"
+ D "evidence/extracted_g3/rootfs/initrd/dev/stdin 2"
+ D "evidence/extracted_g3/rootfs/initrd/dev/stdin 3"
+ D "evidence/extracted_g3/rootfs/initrd/dev/stdin 4"
+ D "evidence/extracted_g3/rootfs/initrd/dev/stdout 2"
+ D "evidence/extracted_g3/rootfs/initrd/dev/stdout 3"
+ D "evidence/extracted_g3/rootfs/initrd/dev/stdout 4"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/[ 2"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/[ 3"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/[ 4"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/ash 2"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/ash 3"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/ash 4"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/cat 2"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/cat 3"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/chgrp 2"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/chgrp 3"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/chgrp 4"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/chmod 2"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/chmod 3"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/chmod 4"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/chown 2"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/chown 3"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/chown 4"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/chroot 2"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/chroot 3"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/chroot 4"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/cmp 2"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/cmp 3"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/cmp 4"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/cp 2"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/cp 3"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/cpio 2"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/cpio 3"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/date 2"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/date 3"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/date 4"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/dd 2"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/dd 3"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/df 2"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/df 3"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/dmesg 2"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/dmesg 3"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/dmesg 4"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/echo 2"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/echo 3"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/echo 4"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/egrep 2"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/egrep 3"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/egrep 4"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/false 2"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/false 3"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/false 4"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/fgrep 2"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/fgrep 3"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/fgrep 4"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/free 2"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/free 3"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/grep 2"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/grep 3"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/gunzip 2"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/gunzip 3"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/gunzip 4"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/gzip 2"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/gzip 3"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/kill 2"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/kill 3"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/ln 2"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/ln 3"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/ln 4"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/logger 2"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/logger 3"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/logger 4"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/login 2"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/login 3"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/login 4"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/ls 2"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/ls 3"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/mkdir 2"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/mkdir 3"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/mkdir 4"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/mknod 2"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/mknod 3"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/mknod 4"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/mktemp 2"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/mktemp 3"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/mktemp 4"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/mount 2"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/mount 3"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/mv 2"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/mv 3"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/pidof 2"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/pidof 3"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/pidof 4"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/ping 2"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/ping 3"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/ps 2"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/ps 3"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/ps 4"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/pwd 2"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/pwd 3"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/rm 2"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/rm 3"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/rm 4"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/rmdir 2"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/rmdir 3"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/rmdir 4"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/sed 2"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/sed 3"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/sh 2"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/sh 3"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/sleep 2"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/sleep 3"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/sleep 4"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/sleep 5"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/sync 2"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/sync 3"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/sync 4"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/sync 5"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/tar 2"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/tar 3"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/tar 4"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/tar 5"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/touch 2"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/touch 3"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/touch 4"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/touch 5"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/true 2"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/true 3"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/true 4"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/true 5"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/umount 2"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/umount 3"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/umount 4"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/umount 5"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/uname 2"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/uname 3"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/uname 4"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/usleep 2"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/usleep 3"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/usleep 4"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/usleep 5"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/zcat 2"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/zcat 3"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/zcat 4"
+ D "evidence/extracted_g3/rootfs/system_rootfs/bin/zcat 5"
+ D "evidence/extracted_g3/rootfs/system_rootfs/dev/blog_boot 2"
+ D "evidence/extracted_g3/rootfs/system_rootfs/dev/blog_boot 3"
+ D "evidence/extracted_g3/rootfs/system_rootfs/dev/blog_boot 4"
+ D "evidence/extracted_g3/rootfs/system_rootfs/dev/blog_boot 5"
+ D "evidence/extracted_g3/rootfs/system_rootfs/dev/blog_nwsvc 2"
+ D "evidence/extracted_g3/rootfs/system_rootfs/dev/blog_nwsvc 3"
+ D "evidence/extracted_g3/rootfs/system_rootfs/dev/blog_nwsvc 4"
+ D "evidence/extracted_g3/rootfs/system_rootfs/dev/blog_nwsvc 5"
+ D "evidence/extracted_g3/rootfs/system_rootfs/dev/blog_sonar 2"
+ D "evidence/extracted_g3/rootfs/system_rootfs/dev/blog_sonar 3"
+ D "evidence/extracted_g3/rootfs/system_rootfs/dev/blog_sonar 4"
+ D "evidence/extracted_g3/rootfs/system_rootfs/dev/blog_sonar 5"
+ D "evidence/extracted_g3/rootfs/system_rootfs/dev/blog_sys 2"
+ D "evidence/extracted_g3/rootfs/system_rootfs/dev/blog_sys 3"
+ D "evidence/extracted_g3/rootfs/system_rootfs/dev/blog_sys 4"
+ D "evidence/extracted_g3/rootfs/system_rootfs/dev/blog_sys 5"
+ D "evidence/extracted_g3/rootfs/system_rootfs/dev/core 2"
+ D "evidence/extracted_g3/rootfs/system_rootfs/dev/core 3"
+ D "evidence/extracted_g3/rootfs/system_rootfs/dev/fd 2"
+ D "evidence/extracted_g3/rootfs/system_rootfs/dev/fd 3"
+ D "evidence/extracted_g3/rootfs/system_rootfs/dev/ram 2"
+ D "evidence/extracted_g3/rootfs/system_rootfs/dev/ram 3"
+ D "evidence/extracted_g3/rootfs/system_rootfs/dev/ram 4"
+ D "evidence/extracted_g3/rootfs/system_rootfs/dev/stderr 2"
+ D "evidence/extracted_g3/rootfs/system_rootfs/dev/stderr 3"
+ D "evidence/extracted_g3/rootfs/system_rootfs/dev/stderr 4"
+ D "evidence/extracted_g3/rootfs/system_rootfs/dev/stderr 5"
+ D "evidence/extracted_g3/rootfs/system_rootfs/dev/stdin 2"
+ D "evidence/extracted_g3/rootfs/system_rootfs/dev/stdin 3"
+ D "evidence/extracted_g3/rootfs/system_rootfs/dev/stdin 4"
+ D "evidence/extracted_g3/rootfs/system_rootfs/dev/stdin 5"
+ D "evidence/extracted_g3/rootfs/system_rootfs/dev/stdout 2"
+ D "evidence/extracted_g3/rootfs/system_rootfs/dev/stdout 3"
+ D "evidence/extracted_g3/rootfs/system_rootfs/dev/stdout 4"
+ D "evidence/extracted_g3/rootfs/system_rootfs/dev/stdout 5"
+ M evidence/extracted_g3/rootfs/system_rootfs/etc/group
+ M evidence/extracted_g3/rootfs/system_rootfs/etc/hosts
+ D "evidence/extracted_g3/rootfs/system_rootfs/etc/mtab 2"
+ D "evidence/extracted_g3/rootfs/system_rootfs/etc/mtab 3"
+ D "evidence/extracted_g3/rootfs/system_rootfs/etc/mtab 4"
+ D "evidence/extracted_g3/rootfs/system_rootfs/etc/mtab 5"
+ M evidence/extracted_g3/rootfs/system_rootfs/etc/passwd
+ M evidence/extracted_g3/rootfs/system_rootfs/etc/services
+ D "evidence/extracted_g3/rootfs/system_rootfs/lib/libsonygcc_s 2.so"
+ D "evidence/extracted_g3/rootfs/system_rootfs/lib/libsonygcc_s 3.so"
+ D "evidence/extracted_g3/rootfs/system_rootfs/lib/libsonygcc_s 4.so"
+ D "evidence/extracted_g3/rootfs/system_rootfs/lib/libsonygcc_s 5.so"
+ D "evidence/extracted_g3/rootfs/system_rootfs/lib/libsonyld 2.so"
+ D "evidence/extracted_g3/rootfs/system_rootfs/lib/libsonyld 3.so"
+ D "evidence/extracted_g3/rootfs/system_rootfs/lib/libsonyld 4.so"
+ D "evidence/extracted_g3/rootfs/system_rootfs/lib/libsonyld 5.so"
+ D "evidence/extracted_g3/rootfs/system_rootfs/lib/libsonysupc++ 2.so"
+ D "evidence/extracted_g3/rootfs/system_rootfs/lib/libsonysupc++ 3.so"
+ D "evidence/extracted_g3/rootfs/system_rootfs/lib/libsonythread_db.so.1 2"
+ D "evidence/extracted_g3/rootfs/system_rootfs/lib/libsonythread_db.so.1 3"
+ D "evidence/extracted_g3/rootfs/system_rootfs/lib/libsonythread_db.so.1 4"
+ D "evidence/extracted_g3/rootfs/system_rootfs/lib/libsonythread_db.so.1 5"
+ D "evidence/extracted_g3/rootfs/system_rootfs/sbin/freeramdisk 2"
+ D "evidence/extracted_g3/rootfs/system_rootfs/sbin/freeramdisk 3"
+ D "evidence/extracted_g3/rootfs/system_rootfs/sbin/freeramdisk 4"
+ D "evidence/extracted_g3/rootfs/system_rootfs/sbin/fsck 2.msdos"
+ D "evidence/extracted_g3/rootfs/system_rootfs/sbin/fsck 2.vfat"
+ D "evidence/extracted_g3/rootfs/system_rootfs/sbin/fsck 3.msdos"
+ D "evidence/extracted_g3/rootfs/system_rootfs/sbin/fsck 3.vfat"
+ D "evidence/extracted_g3/rootfs/system_rootfs/sbin/fsck 4.msdos"
+ D "evidence/extracted_g3/rootfs/system_rootfs/sbin/fsck 4.vfat"
+ D "evidence/extracted_g3/rootfs/system_rootfs/sbin/fsck 5.msdos"
+ D "evidence/extracted_g3/rootfs/system_rootfs/sbin/fsck 5.vfat"
+ D "evidence/extracted_g3/rootfs/system_rootfs/sbin/getty 2"
+ D "evidence/extracted_g3/rootfs/system_rootfs/sbin/getty 3"
+ D "evidence/extracted_g3/rootfs/system_rootfs/sbin/getty 4"
+ D "evidence/extracted_g3/rootfs/system_rootfs/sbin/halt 2"
+ D "evidence/extracted_g3/rootfs/system_rootfs/sbin/halt 3"
+ D "evidence/extracted_g3/rootfs/system_rootfs/sbin/halt 4"
+ D "evidence/extracted_g3/rootfs/system_rootfs/sbin/ifconfig 2"
+ D "evidence/extracted_g3/rootfs/system_rootfs/sbin/ifconfig 3"
+ D "evidence/extracted_g3/rootfs/system_rootfs/sbin/ifconfig 4"
+ D "evidence/extracted_g3/rootfs/system_rootfs/sbin/ifconfig 5"
+ D "evidence/extracted_g3/rootfs/system_rootfs/sbin/insmod 2"
+ D "evidence/extracted_g3/rootfs/system_rootfs/sbin/insmod 3"
+ D "evidence/extracted_g3/rootfs/system_rootfs/sbin/insmod 4"
+ M evidence/extracted_g3/rootfs/system_rootfs/sbin/insmod.sh
+ D "evidence/extracted_g3/rootfs/system_rootfs/sbin/klogd 2"
+ D "evidence/extracted_g3/rootfs/system_rootfs/sbin/klogd 3"
+ D "evidence/extracted_g3/rootfs/system_rootfs/sbin/klogd 4"
+ D "evidence/extracted_g3/rootfs/system_rootfs/sbin/klogd 5"
+ D "evidence/extracted_g3/rootfs/system_rootfs/sbin/losetup 2"
+ D "evidence/extracted_g3/rootfs/system_rootfs/sbin/losetup 3"
+ D "evidence/extracted_g3/rootfs/system_rootfs/sbin/losetup 4"
+ D "evidence/extracted_g3/rootfs/system_rootfs/sbin/losetup 5"
+ D "evidence/extracted_g3/rootfs/system_rootfs/sbin/lsmod 2"
+ D "evidence/extracted_g3/rootfs/system_rootfs/sbin/lsmod 3"
+ D "evidence/extracted_g3/rootfs/system_rootfs/sbin/lsmod 4"
+ D "evidence/extracted_g3/rootfs/system_rootfs/sbin/lsmod 5"
+ D "evidence/extracted_g3/rootfs/system_rootfs/sbin/mkfs 2.msdos"
+ D "evidence/extracted_g3/rootfs/system_rootfs/sbin/mkfs 2.vfat"
+ D "evidence/extracted_g3/rootfs/system_rootfs/sbin/mkfs 3.msdos"
+ D "evidence/extracted_g3/rootfs/system_rootfs/sbin/mkfs 3.vfat"
+ D "evidence/extracted_g3/rootfs/system_rootfs/sbin/mkfs 4.msdos"
+ D "evidence/extracted_g3/rootfs/system_rootfs/sbin/mkfs 4.vfat"
+ D "evidence/extracted_g3/rootfs/system_rootfs/sbin/mkfs 5.msdos"
+ D "evidence/extracted_g3/rootfs/system_rootfs/sbin/mkfs 5.vfat"
+ D "evidence/extracted_g3/rootfs/system_rootfs/sbin/modprobe 2"
+ D "evidence/extracted_g3/rootfs/system_rootfs/sbin/modprobe 3"
+ D "evidence/extracted_g3/rootfs/system_rootfs/sbin/modprobe 4"
+ D "evidence/extracted_g3/rootfs/system_rootfs/sbin/modprobe 5"
+ D "evidence/extracted_g3/rootfs/system_rootfs/sbin/pivot_root 2"
+ D "evidence/extracted_g3/rootfs/system_rootfs/sbin/pivot_root 3"
+ D "evidence/extracted_g3/rootfs/system_rootfs/sbin/pivot_root 4"
+ D "evidence/extracted_g3/rootfs/system_rootfs/sbin/pivot_root 5"
+ D "evidence/extracted_g3/rootfs/system_rootfs/sbin/poweroff 2"
+ D "evidence/extracted_g3/rootfs/system_rootfs/sbin/poweroff 3"
+ D "evidence/extracted_g3/rootfs/system_rootfs/sbin/poweroff 4"
+ D "evidence/extracted_g3/rootfs/system_rootfs/sbin/poweroff 5"
+ D "evidence/extracted_g3/rootfs/system_rootfs/sbin/reboot 2"
+ D "evidence/extracted_g3/rootfs/system_rootfs/sbin/reboot 3"
+ D "evidence/extracted_g3/rootfs/system_rootfs/sbin/reboot 4"
+ D "evidence/extracted_g3/rootfs/system_rootfs/sbin/reboot 5"
+ D "evidence/extracted_g3/rootfs/system_rootfs/sbin/rmmod 2"
+ D "evidence/extracted_g3/rootfs/system_rootfs/sbin/rmmod 3"
+ D "evidence/extracted_g3/rootfs/system_rootfs/sbin/rmmod 4"
+ D "evidence/extracted_g3/rootfs/system_rootfs/sbin/rmmod 5"
+ D "evidence/extracted_g3/rootfs/system_rootfs/sbin/route 2"
+ D "evidence/extracted_g3/rootfs/system_rootfs/sbin/route 3"
+ D "evidence/extracted_g3/rootfs/system_rootfs/sbin/route 4"
+ D "evidence/extracted_g3/rootfs/system_rootfs/sbin/route 5"
+ D "evidence/extracted_g3/rootfs/system_rootfs/sbin/swapoff 2"
+ D "evidence/extracted_g3/rootfs/system_rootfs/sbin/swapoff 3"
+ D "evidence/extracted_g3/rootfs/system_rootfs/sbin/swapoff 4"
+ D "evidence/extracted_g3/rootfs/system_rootfs/sbin/swapoff 5"
+ D "evidence/extracted_g3/rootfs/system_rootfs/sbin/swapon 2"
+ D "evidence/extracted_g3/rootfs/system_rootfs/sbin/swapon 3"
+ D "evidence/extracted_g3/rootfs/system_rootfs/sbin/swapon 4"
+ D "evidence/extracted_g3/rootfs/system_rootfs/sbin/swapon 5"
+ D "evidence/extracted_g3/rootfs/system_rootfs/sbin/syslogd 2"
+ D "evidence/extracted_g3/rootfs/system_rootfs/sbin/syslogd 3"
+ D "evidence/extracted_g3/rootfs/system_rootfs/sbin/syslogd 4"
+ M evidence/extracted_g3/rootfs/system_rootfs/version.txt
+ M evidence/extracted_g3/sections/00_defhd.dat
+ M evidence/extracted_g3/sections/21_omgLng00.csv
+ D "evidence/extracted_g3/sections/BodyUdtr 2.img"
+ D "evidence/extracted_g3/sections/BodyUdtr 3.img"
+ D "evidence/extracted_g3/sections/BodyUdtr 4.img"
+ D evidence/extracted_g3/sections/BodyUdtr.img
+ D "evidence/extracted_g3/sections/av 2.bin"
+ D "evidence/extracted_g3/sections/av 3.bin"
+ D "evidence/extracted_g3/sections/av 4.bin"
+ D "evidence/extracted_g3/sections/av 5.bin"
+ D evidence/extracted_g3/sections/av.bin
+ D "evidence/extracted_g3/sections/av_udtr 2.bin"
+ D "evidence/extracted_g3/sections/av_udtr 3.bin"
+ D "evidence/extracted_g3/sections/av_udtr 4.bin"
+ D evidence/extracted_g3/sections/av_udtr.bin
+ D "evidence/extracted_g3/sections/backup 2.tar"
+ D "evidence/extracted_g3/sections/backup 3.tar"
+ D "evidence/extracted_g3/sections/backup 4.tar"
+ D evidence/extracted_g3/sections/backup.tar
+ D "evidence/extracted_g3/sections/bin 2.tar"
+ D "evidence/extracted_g3/sections/bin 3.tar"
+ D "evidence/extracted_g3/sections/bin 4.tar"
+ D evidence/extracted_g3/sections/bin.tar
+ M evidence/extracted_g3/sections/cntent.dat
+ D "evidence/extracted_g3/sections/defhd 2.dat"
+ D "evidence/extracted_g3/sections/defhd 3.dat"
+ D "evidence/extracted_g3/sections/defhd 4.dat"
+ D evidence/extracted_g3/sections/defhd.dat
+ D "evidence/extracted_g3/sections/factory 2.tar"
+ D "evidence/extracted_g3/sections/factory 3.tar"
+ D "evidence/extracted_g3/sections/factory 4.tar"
+ D evidence/extracted_g3/sections/factory.tar
+ D "evidence/extracted_g3/sections/fskapp1 2.tar"
+ D "evidence/extracted_g3/sections/fskapp1 3.tar"
+ D "evidence/extracted_g3/sections/fskapp1 4.tar"
+ D evidence/extracted_g3/sections/fskapp1.tar
+ D "evidence/extracted_g3/sections/fskapp_1 2.tar"
+ D "evidence/extracted_g3/sections/fskapp_1 3.tar"
+ D "evidence/extracted_g3/sections/fskapp_1 4.tar"
+ D "evidence/extracted_g3/sections/fskapp_1 5.tar"
+ D evidence/extracted_g3/sections/fskapp_1.tar
+ D "evidence/extracted_g3/sections/fskapp_2 2.tar"
+ D "evidence/extracted_g3/sections/fskapp_2 3.tar"
+ D "evidence/extracted_g3/sections/fskapp_2 4.tar"
+ D "evidence/extracted_g3/sections/fskapp_2 5.tar"
+ D evidence/extracted_g3/sections/fskapp_2.tar
+ D "evidence/extracted_g3/sections/fskapp_3 2.tar"
+ D "evidence/extracted_g3/sections/fskapp_3 3.tar"
+ D "evidence/extracted_g3/sections/fskapp_3 4.tar"
+ D "evidence/extracted_g3/sections/fskapp_3 5.tar"
+ D evidence/extracted_g3/sections/fskapp_3.tar
+ D "evidence/extracted_g3/sections/fskfnt 2.tar"
+ D "evidence/extracted_g3/sections/fskfnt 3.tar"
+ D "evidence/extracted_g3/sections/fskfnt 4.tar"
+ D "evidence/extracted_g3/sections/fskfnt 5.tar"
+ D evidence/extracted_g3/sections/fskfnt.tar
+ D "evidence/extracted_g3/sections/fskrel1 2.tar"
+ D "evidence/extracted_g3/sections/fskrel1 3.tar"
+ D "evidence/extracted_g3/sections/fskrel1 4.tar"
+ D "evidence/extracted_g3/sections/fskrel1 5.tar"
+ D evidence/extracted_g3/sections/fskrel1.tar
+ D "evidence/extracted_g3/sections/fskrel2 2.tar"
+ D "evidence/extracted_g3/sections/fskrel2 3.tar"
+ D "evidence/extracted_g3/sections/fskrel2 4.tar"
+ D "evidence/extracted_g3/sections/fskrel2 5.tar"
+ D evidence/extracted_g3/sections/fskrel2.tar
+ D "evidence/extracted_g3/sections/lib 2.tar"
+ D "evidence/extracted_g3/sections/lib 3.tar"
+ D "evidence/extracted_g3/sections/lib 4.tar"
+ D evidence/extracted_g3/sections/lib.tar
+ D "evidence/extracted_g3/sections/linuxset1 2.tar"
+ D "evidence/extracted_g3/sections/linuxset1 3.tar"
+ D "evidence/extracted_g3/sections/linuxset1 4.tar"
+ D "evidence/extracted_g3/sections/linuxset1 5.tar"
+ D evidence/extracted_g3/sections/linuxset1.tar
+ D "evidence/extracted_g3/sections/omgAdj00 2.dat"
+ D "evidence/extracted_g3/sections/omgAdj00 3.dat"
+ D "evidence/extracted_g3/sections/omgAdj00 4.dat"
+ D "evidence/extracted_g3/sections/omgAdj00 5.dat"
+ D evidence/extracted_g3/sections/omgAdj00.dat
+ D "evidence/extracted_g3/sections/omgLng00 2.csv"
+ D "evidence/extracted_g3/sections/omgLng00 3.csv"
+ D "evidence/extracted_g3/sections/omgLng00 4.csv"
+ D "evidence/extracted_g3/sections/omgLng00 5.csv"
+ D evidence/extracted_g3/sections/omgLng00.csv
+ D "evidence/extracted_g3/sections/omgMap00 2.txt"
+ D "evidence/extracted_g3/sections/omgMap00 3.txt"
+ D "evidence/extracted_g3/sections/omgMap00 4.txt"
+ D "evidence/extracted_g3/sections/omgMap00 5.txt"
+ D evidence/extracted_g3/sections/omgMap00.txt
+ D "evidence/extracted_g3/sections/omgPrg00 2.bin"
+ D "evidence/extracted_g3/sections/omgPrg00 3.bin"
+ D "evidence/extracted_g3/sections/omgPrg00 4.bin"
+ D "evidence/extracted_g3/sections/omgPrg00 5.bin"
+ D evidence/extracted_g3/sections/omgPrg00.bin
+ D "evidence/extracted_g3/sections/omgPrg01 2.bin"
+ D "evidence/extracted_g3/sections/omgPrg01 3.bin"
+ D "evidence/extracted_g3/sections/omgPrg01 4.bin"
+ D "evidence/extracted_g3/sections/omgPrg01 5.bin"
+ D evidence/extracted_g3/sections/omgPrg01.bin
+ D "evidence/extracted_g3/sections/omgRsc00 2.bin"
+ D "evidence/extracted_g3/sections/omgRsc00 3.bin"
+ D "evidence/extracted_g3/sections/omgRsc00 4.bin"
+ D "evidence/extracted_g3/sections/omgRsc00 5.bin"
+ D evidence/extracted_g3/sections/omgRsc00.bin
+ D "evidence/extracted_g3/sections/partinf 2.tbl"
+ D "evidence/extracted_g3/sections/partinf 3.tbl"
+ D "evidence/extracted_g3/sections/partinf 4.tbl"
+ D evidence/extracted_g3/sections/partinf.tbl
+ D "evidence/extracted_g3/sections/sa 2.bin"
+ D "evidence/extracted_g3/sections/sa 3.bin"
+ D "evidence/extracted_g3/sections/sa 4.bin"
+ D evidence/extracted_g3/sections/sa.bin
+ M evidence/g3-device-baseline.json
+ D evidence/g3/DECRYPTED_ARCHITECTURE.md
+ D evidence/g3/FIRMWARE_MODIFICATION_POC_DESIGN.md
+ D evidence/g3/decrypted_inventory.json
+ D evidence/g3/extracted_g3
+ D evidence/g3/g3-device-baseline.json
+ D evidence/g3/g3_acquisition.md
+ M evidence/g3_acquisition.md
+ M evidence/github_seus_sony_repositories.json
+ M evidence/github_seusex_repositories.json
+ M evidence/github_w300.json
+ M evidence/github_w300_repositories.json
+ M evidence/usb-baseline.json
+ M evidence/usb-investigation.md
+ M evidence/usb-session-20260916-1517.json
+ M evidence/validation.json
+ M evidence/w300/CEE8_PREFLIGHT_REVIEW_20260916.md
+ M evidence/w300/CEE8_PROCEDURE_REPAIR_20260916.md
+ D evidence/w300/TECHNICAL_EVIDENCE_DOSSIER.md
+ D evidence/w300/acquisition.md
+ D evidence/w300/adj-page-11.png
+ D evidence/w300/adj-page-36.png
+ D evidence/w300/archive_seusex.json
+ D evidence/w300/archive_w300.json
+ M evidence/w300/cee8-offline-simulation-20260916.txt
+ D evidence/w300/usb-baseline.json
+ M evidence/w300/usb-cee8-preflight-20260916.json
+ D evidence/w300/usb-investigation.md
+ M evidence/w300/usb-transport-probe-20260916.json
+ D evidence/w300/validation.json
+ D "make a Japanese DSC-W300 display English.md"
+ D sources/g3/D-G3V2.dat
+ D sources/g3/DSCG3V2.exe
+ M sources/manifest.json
+ M sources/original-research-report.md
+ D sources/shared/OpenMemories-CI
+ D sources/shared/Sony-PMCA-RE
+ D sources/shared/fwtool.py
+ D sources/shared/qemu
+ M sources/sony_dsc-w300_adjustment_ver1.3.txt
+ D sources/w300/W300_hb_GB.pdf
+ D sources/w300/manifest.json
+ D sources/w300/original-research-report.md
+ D sources/w300/sony_dsc-w300_adjustment_ver1.3.pdf
+ D sources/w300/sony_dsc-w300_adjustment_ver1.3.txt
+ M tools/cxd4108_emulator/__init__.py
+ M tools/cxd4108_emulator/flash_builder.py
+ M tools/cxd4108_emulator/qemu_launcher.py
+ M tools/g3_firmware_parser.py
+ M tools/g3_stills_nr_patcher.py
+ M tools/g3_text_poc.py
+ D tools/ghidra
+ M tools/test_challenger_m1_gate.py
+ M tools/test_challenger_service_gate.py
+ M tools/test_g3_firmware_parser.py
+ M tools/test_g3_stills_nr_patcher.py
+ M tools/test_g3_text_poc.py
+ M tools/test_m1_adversarial.py
+ M tools/test_w300_challenger_service_gate.py
+ M tools/test_w300_live_boundary.py
+ M tools/test_w300_service_tool.py
+ M tools/test_w300_stills_nr.py
+ M tools/w300_service_tool.py
+ M tools/w300_stills_nr.py
+ M tools/w300_usb_probe.py
+?? .gitattributes
+?? .github/
+?? CLEANUP_REPORT.md
+?? docs/g3/README.md
+?? docs/shared/ARTIFACTS.md
+?? docs/w300/README.md
+?? evidence/README.md
+?? evidence/artifact_manifest.json
+?? tools/check_fresh_checkout.py
+?? tools/g3_verified.py
+?? tools/repo_audit.py
+?? tools/run_checks.py
+?? tools/test_repo_audit.py
+?? tools/test_repository_contracts.py

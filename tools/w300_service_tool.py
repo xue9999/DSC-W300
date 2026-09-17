@@ -2,6 +2,7 @@
 """Sony Cyber-shot DSC-W300 Service Protocol & CEE8 Destination Tool.
 
 Experimental offline model of Sony Senser and destination programming.
+Every service action and response below is simulated, including USB terminology.
 The property map and retail-board unlock are NOT validated for W300.
 Live detection is passive; service operations require missing model evidence
 and are disabled. A successful simulation does not establish compatibility.
@@ -13,13 +14,9 @@ from __future__ import annotations
 
 import argparse
 import binascii
-import ctypes
-import ctypes.util
-import os
 import json
 import struct
 import sys
-import time
 from typing import Any, Dict, List, Optional, Tuple
 
 
@@ -241,7 +238,7 @@ class Cee8Payload:
     PROP_VIDEO_OUT = 0x01070148
     PROP_LANG_BASE = 0x010D008F
 
-    # Table 6-1-2 Column Language Names (35 slots)
+    # Assumed 35-slot model, not an established W300 property layout.
     LANGUAGE_NAMES = [
         "English (en)",           # 0
         "Japanese (ja)",          # 1
@@ -304,7 +301,7 @@ class Cee8Payload:
 
     @staticmethod
     def calculate_evr_checksum(data: bytes) -> int:
-        """Additive two's complement modulo-256 checksum used across Sony EVR pages.
+        """Additive two's complement modulo-256 checksum used in this simulation.
 
         Formula: (0x100 - (sum(data) & 0xFF)) & 0xFF.
         """
@@ -331,7 +328,7 @@ class Cee8Payload:
 # ============================================================================
 
 class W300MockUsbCamera:
-    """Stateful, authentic software emulator for Sony Cyber-shot DSC-W300 USB device.
+    """Stateful hypothetical USB model; not a W300 hardware emulator.
 
     Emulates:
     - Normal Mass Storage mode (VID 0x054C, PID 0x031B)
@@ -357,7 +354,7 @@ class W300MockUsbCamera:
         self.auth_state = 0
         self.auth_challenge = b'\x4a\x8e\x12\xbd\x99\x21\x7f\x03'
 
-        # ID1 Lock state on retail board: locked (True) by default!
+        # Assumed ID1 lock state for this simulated profile.
         self.id1_locked = True
 
         # Persistent Flash Store (ROM/NOR)
@@ -496,7 +493,7 @@ class W300MockUsbCamera:
                     write_val = param[4:]
 
                     # Service Board Protection Check:
-                    # If ID1 is locked, reject destination / language write on retail board!
+                    # Model rule: a locked ID1 rejects destination/language mutation.
                     if self.id1_locked and prop_id in (
                         Cee8Payload.PROP_DESTINATION,
                         Cee8Payload.PROP_LANG_BASE,
@@ -560,186 +557,9 @@ class W300MockUsbCamera:
 
 
 ## ============================================================================
-# 4.5. High-Precision 64-bit USB Hardware Transport (macOS Apple Silicon)
+# No live USB transport is implemented.
 # ============================================================================
 
-class SafeLibUsbTransport:
-    """Robust 64-bit USB Transport using libusb-1.0 for macOS Apple Silicon (arm64)."""
-
-    LIB_PATHS = [
-        "/opt/homebrew/lib/libusb-1.0.dylib",
-        "/usr/local/lib/libusb-1.0.dylib",
-        "/usr/lib/libusb-1.0.dylib",
-    ]
-
-    def __init__(self):
-        self.lib: Optional[ctypes.CDLL] = None
-        self.ctx = ctypes.c_void_p()
-        self.handle = ctypes.c_void_p()
-        self.current_pid: Optional[int] = None
-        self._init_lib()
-
-    def _init_lib(self):
-        lib_file = None
-        for p in self.LIB_PATHS:
-            if os.path.exists(p):
-                lib_file = p
-                break
-        if not lib_file:
-            found = ctypes.util.find_library("usb-1.0")
-            if found:
-                lib_file = found
-        if not lib_file:
-            return
-
-        try:
-            self.lib = ctypes.CDLL(lib_file)
-            # Crucial: 64-bit function signatures to prevent 32-bit pointer truncation on arm64
-            self.lib.libusb_init.argtypes = [ctypes.POINTER(ctypes.c_void_p)]
-            self.lib.libusb_init.restype = ctypes.c_int
-
-            self.lib.libusb_exit.argtypes = [ctypes.c_void_p]
-            self.lib.libusb_exit.restype = None
-
-            self.lib.libusb_open_device_with_vid_pid.argtypes = [ctypes.c_void_p, ctypes.c_uint16, ctypes.c_uint16]
-            self.lib.libusb_open_device_with_vid_pid.restype = ctypes.c_void_p
-
-            self.lib.libusb_close.argtypes = [ctypes.c_void_p]
-            self.lib.libusb_close.restype = None
-
-            self.lib.libusb_claim_interface.argtypes = [ctypes.c_void_p, ctypes.c_int]
-            self.lib.libusb_claim_interface.restype = ctypes.c_int
-
-            self.lib.libusb_release_interface.argtypes = [ctypes.c_void_p, ctypes.c_int]
-            self.lib.libusb_release_interface.restype = ctypes.c_int
-
-            self.lib.libusb_control_transfer.argtypes = [
-                ctypes.c_void_p, ctypes.c_uint8, ctypes.c_uint8,
-                ctypes.c_uint16, ctypes.c_uint16, ctypes.POINTER(ctypes.c_ubyte),
-                ctypes.c_uint16, ctypes.c_uint32
-            ]
-            self.lib.libusb_control_transfer.restype = ctypes.c_int
-
-            self.lib.libusb_bulk_transfer.argtypes = [
-                ctypes.c_void_p, ctypes.c_uint8, ctypes.POINTER(ctypes.c_ubyte),
-                ctypes.c_int, ctypes.POINTER(ctypes.c_int), ctypes.c_uint32
-            ]
-            self.lib.libusb_bulk_transfer.restype = ctypes.c_int
-
-            res = self.lib.libusb_init(ctypes.byref(self.ctx))
-            if res != 0:
-                self.lib = None
-        except Exception:
-            self.lib = None
-
-    def is_available(self) -> bool:
-        return self.lib is not None
-
-    def open_device(self, vid: int = 0x054C, pid: Optional[int] = None) -> bool:
-        if not self.lib:
-            return False
-        if self.handle:
-            self.close_device()
-        if pid is not None:
-            handle = self.lib.libusb_open_device_with_vid_pid(self.ctx, vid, pid)
-            if handle:
-                self.handle = handle
-                self.current_pid = pid
-                return True
-            return False
-        for cand_pid in (0x02A9, 0x0340, 0x031B):
-            handle = self.lib.libusb_open_device_with_vid_pid(self.ctx, vid, cand_pid)
-            if handle:
-                self.handle = handle
-                self.current_pid = cand_pid
-                return True
-        return False
-
-    def close_device(self):
-        if self.lib and self.handle:
-            try:
-                self.lib.libusb_release_interface(self.handle, 0)
-            except Exception:
-                pass
-            try:
-                self.lib.libusb_close(self.handle)
-            except Exception:
-                pass
-            self.handle = ctypes.c_void_p()
-            self.current_pid = None
-
-    def claim_interface(self, iface: int = 0) -> bool:
-        if not self.lib or not self.handle:
-            return False
-        return self.lib.libusb_claim_interface(self.handle, iface) == 0
-
-    def control_request(self, bm_req: int, b_req: int, w_val: int, w_idx: int, data: bytes = b"", timeout_ms: int = 5000) -> bool:
-        if not self.lib or not self.handle:
-            raise ConnectionError("No live USB device opened for control transfer.")
-        buf = (ctypes.c_ubyte * len(data)).from_buffer_copy(data) if data else None
-        res = self.lib.libusb_control_transfer(
-            self.handle, bm_req, b_req, w_val, w_idx, buf, len(data), timeout_ms
-        )
-        return res >= 0
-
-    def bulk_write(self, data: bytes, endpoint: int = 0x02, timeout_ms: int = 5000) -> int:
-        if not self.lib or not self.handle:
-            raise ConnectionError("No live USB device opened for bulk write.")
-        transferred = ctypes.c_int(0)
-        buf = (ctypes.c_ubyte * len(data)).from_buffer_copy(data)
-        res = self.lib.libusb_bulk_transfer(
-            self.handle, endpoint, buf, len(data), ctypes.byref(transferred), timeout_ms
-        )
-        if res != 0:
-            raise ConnectionError(f"Bulk write failed on EP 0x{endpoint:02X}: libusb error {res}")
-        return transferred.value
-
-    def bulk_read(self, length: int = 4096, endpoint: int = 0x81, timeout_ms: int = 5000) -> bytes:
-        if not self.lib or not self.handle:
-            raise ConnectionError("No live USB device opened for bulk read.")
-        transferred = ctypes.c_int(0)
-        buf = (ctypes.c_ubyte * length)()
-        res = self.lib.libusb_bulk_transfer(
-            self.handle, endpoint, buf, length, ctypes.byref(transferred), timeout_ms
-        )
-        if res != 0:
-            raise ConnectionError(f"Bulk read failed on EP 0x{endpoint:02X}: libusb error {res}")
-        return bytes(buf[:transferred.value])
-
-    def switch_to_senser(self, timeout_sec: float = 10.0) -> bool:
-        """Issues Vendor Request to switch to Senser mode and waits for PID 0x02A9."""
-        self.control_request(0x43, 0x01, 0x37FF, 0xD7AA)
-        self.close_device()
-        start = time.time()
-        while time.time() - start < timeout_sec:
-            time.sleep(0.5)
-            if self.open_device(0x054C, 0x02A9):
-                self.claim_interface(0)
-                return True
-        raise TimeoutError("Camera did not re-enumerate as Senser (PID 0x02A9).")
-
-    def reset_to_mass_storage(self, timeout_sec: float = 10.0) -> bool:
-        """Issues Vendor Request to reboot camera back into Mass Storage mode."""
-        try:
-            self.control_request(0x43, 0x01, 0xC800, 0x2855)
-        except Exception:
-            pass
-        self.close_device()
-        start = time.time()
-        while time.time() - start < timeout_sec:
-            time.sleep(0.5)
-            if self.open_device(0x054C, 0x0340) or self.open_device(0x054C, 0x031B):
-                return True
-        return True
-
-    def close(self):
-        self.close_device()
-        if self.lib and self.ctx:
-            try:
-                self.lib.libusb_exit(self.ctx)
-            except Exception:
-                pass
-            self.ctx = ctypes.c_void_p()
 
 
 # ============================================================================
@@ -747,7 +567,7 @@ class SafeLibUsbTransport:
 # ============================================================================
 
 class W300ServiceController:
-    """Orchestrates communication, safety checks, and destination programming."""
+    """Orchestrates only the hypothetical in-memory programming model."""
 
     def __init__(self, mock_camera: Optional[W300MockUsbCamera] = None, dry_run: bool = False, verbose: bool = False):
         self.mock_camera = mock_camera if mock_camera is not None else (W300MockUsbCamera() if dry_run else None)
@@ -756,7 +576,8 @@ class W300ServiceController:
         self.protocol = SenserWireProtocol()
         self.authenticated = False
         self.mode = "DISCONNECTED"
-        self.transport: Optional[SafeLibUsbTransport] = None
+        self.simulation = True
+        self.hardware_validated = False
         # Never initialize a USB backend from this unqualified controller.
         # Dry-run always uses the offline model, including via the Python API.
 
@@ -785,10 +606,6 @@ class W300ServiceController:
         if self.mock_camera:
             res = self.mock_camera.control_request(bm_req, b_req, w_val, w_idx)
             return res == 0
-        else:
-            if not self.transport or not self.transport.handle:
-                raise ConnectionError("Live USB hardware communication not configured or camera not open. Please use --mock or connect camera.")
-            return self.transport.control_request(bm_req, b_req, w_val, w_idx)
 
     def transfer_bulk(self, out_data: bytes, read_length: int = 4096) -> bytes:
         self.require_offline_model()
@@ -796,13 +613,6 @@ class W300ServiceController:
         if self.mock_camera:
             self.mock_camera.bulk_write(out_data)
             in_data = self.mock_camera.bulk_read(read_length)
-            self.log_hex("IN", in_data)
-            return in_data
-        else:
-            if not self.transport or not self.transport.handle:
-                raise ConnectionError("Live USB hardware communication not configured or camera not open. Please use --mock or connect camera.")
-            self.transport.bulk_write(out_data)
-            in_data = self.transport.bulk_read(read_length)
             self.log_hex("IN", in_data)
             return in_data
 
@@ -815,23 +625,7 @@ class W300ServiceController:
             pid = self.mock_camera.current_pid
             mode = self.mock_camera.mode
             self.log(f"Device detected: VID 0x054C, PID 0x{pid:04X} ({mode})", "DETECT")
-            return {"vid": 0x054C, "pid": pid, "mode": mode, "status": "CONNECTED"}
-        else:
-            if not self.transport or not self.transport.is_available():
-                raise ConnectionError("libusb-1.0 not found or could not be loaded. Please install via 'brew install libusb'.")
-            # Try Senser mode first (0x02A9)
-            if self.transport.open_device(0x054C, 0x02A9):
-                self.transport.claim_interface(0)
-                self.mode = "SENSER"
-                self.log("Device detected: VID 0x054C, PID 0x02A9 (SENSER)", "DETECT")
-                return {"vid": 0x054C, "pid": 0x02A9, "mode": "SENSER", "status": "CONNECTED"}
-            # Try Mass Storage modes (0x0340 for physical W300, 0x031B for generic/mock)
-            for msc_pid in (0x0340, 0x031B):
-                if self.transport.open_device(0x054C, msc_pid):
-                    self.mode = "MASS_STORAGE"
-                    self.log(f"Device detected: VID 0x054C, PID 0x{msc_pid:04X} (MASS_STORAGE)", "DETECT")
-                    return {"vid": 0x054C, "pid": msc_pid, "mode": "MASS_STORAGE", "status": "CONNECTED"}
-            raise ConnectionError("Live USB Sony camera not found. Please connect camera in Mass Storage mode.")
+            return {"vid": 0x054C, "pid": pid, "mode": mode, "status": "SIMULATED", "simulation": True, "hardware_validated": False}
 
     def switch_to_senser_mode(self) -> bool:
         """Transitions camera from Mass Storage to Senser Mode (PID 0x02A9)."""
@@ -839,14 +633,6 @@ class W300ServiceController:
         self.log("Issuing Vendor Control Switch request (0x43, 1, 0x37FF, 0xD7AA)...", "SWITCH")
         if self.mock_camera:
             success = self.send_control_request(0x43, 0x01, 0x37FF, 0xD7AA)
-            if success:
-                self.mode = "SENSER"
-                self.log("Camera acknowledged switch. Re-enumerated as Senser device (PID 0x02A9).", "SWITCH")
-            return success
-        else:
-            if not self.transport:
-                raise ConnectionError("Live USB transport not initialized.")
-            success = self.transport.switch_to_senser()
             if success:
                 self.mode = "SENSER"
                 self.log("Camera acknowledged switch. Re-enumerated as Senser device (PID 0x02A9).", "SWITCH")
@@ -952,6 +738,7 @@ class W300ServiceController:
         self.log(f"Current Destination: {dest_str}", "INFO")
         self.log(f"Video Standard: {video_str}", "INFO")
         self.log(f"Active Languages ({len(active_langs)}): {', '.join(active_langs)}", "INFO")
+        info.update(simulation=True, hardware_validated=False)
         return info
 
     def unlock_service_board(self) -> bool:
@@ -1042,12 +829,6 @@ class W300ServiceController:
                 self.mode = "MASS_STORAGE"
                 self.log("Camera cleanly rebooted into retail operational mode.", "RESET")
             return success
-        else:
-            if self.transport:
-                self.transport.reset_to_mass_storage()
-            self.mode = "MASS_STORAGE"
-            self.log("Camera cleanly rebooted into retail operational mode.", "RESET")
-            return True
 
     def run_full_cycle(self) -> bool:
         """Runs the complete end-to-end destination programming lifecycle."""
@@ -1185,9 +966,9 @@ def main() -> int:
               "No USB commands sent.", file=sys.stderr)
         return 2
 
-    print("[SIMULATION ONLY] Assumed profile; no physical camera validation or language change.")
+    print(json.dumps({"simulation": True, "hardware_validated": False, "profile": "assumed"}))
 
-    # Initialize Mock camera or Live device
+    # Initialize the offline model only.
     mock_camera: Optional[W300MockUsbCamera] = None
     if is_mock:
         mock_camera = W300MockUsbCamera(destination="J1")

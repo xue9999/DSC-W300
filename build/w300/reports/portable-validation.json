@@ -1,0 +1,73 @@
+{
+  "captured_at": "2026-09-16T17:24:57.853452+00:00",
+  "scope": "Relocated runtime, not camera or language verification",
+  "archive": "C:\\Users\\apara01\\OneDrive - Kearney\\Documents\\ChatGPT\\W300\\DSC-W300\\build\\w300\\portable\\release2\\W300-Workbench-Windows-x64.zip",
+  "archive_sha256": "dee08fac887e3db1acc8ace191b1952013d6fbeb15a9e260743309014c3de914",
+  "extraction": "C:\\Users\\apara01\\OneDrive - Kearney\\Documents\\ChatGPT\\W300\\DSC-W300\\build\\w300\\portable\\relocation release2 \u0105\u0119\\W300Workbench",
+  "files_verified": 1317,
+  "path": "C:\\Windows\\System32;C:\\Windows",
+  "ps_module_path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules;C:\\Users\\apara01\\OneDrive - Kearney\\Documents\\ChatGPT\\W300\\DSC-W300\\build\\w300\\portable\\relocation release2 \u0105\u0119\\W300Workbench\\runtime\\powershell\\Modules",
+  "external_tools_visible": {
+    "python": null,
+    "git": null,
+    "pwsh": null
+  },
+  "runs": [
+    {
+      "operation": "selftest",
+      "exit_code": 0,
+      "stdout": "{\r\n  \"captured_at\": \"2026-09-16T17:24:58.791029+00:00\",\r\n  \"operation\": \"selftest\",\r\n  \"result\": {\r\n    \"python\": \"3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]\",\r\n    \"platform\": \"Windows-11-10.0.26200-SP0\",\r\n    \"pmca_commit\": \"a82f5baaa8e9c3d9f28f94699e860fb2e48cc8e0\",\r\n    \"frozen_portable_executable\": true,\r\n    \"source_revision_check\": \"Packaged reviewed source hashes and recorded build revision; no Git dependency\",\r\n    \"native_driver_imports\": [\r\n      \"MscContext\",\r\n      \"MtpContext\",\r\n      \"VendorSpecificContext\"\r\n    ],\r\n    \"libusb_dll_loaded\": \"C:\\\\Users\\\\apara01\\\\OneDrive - Kearney\\\\Documents\\\\ChatGPT\\\\W300\\\\DSC-W300\\\\build\\\\w300\\\\portable\\\\relocation release2 \\u0105\\u0119\\\\W300Workbench\\\\_internal\\\\libusb_package\\\\libusb-1.0.dll\",\r\n    \"dependencies\": {\r\n      \"pyusb\": \"1.3.1\",\r\n      \"pywin32\": \"312\",\r\n      \"comtypes\": \"1.4.16\",\r\n      \"libusb-package\": \"1.0.26.4\"\r\n    },\r\n    \"published_a330_authentication_replay\": \"PASS\",\r\n    \"pmca_source_pin\": \"PASS\",\r\n    \"pmca_reviewed_source_hashes\": \"PASS\",\r\n    \"camera_communication_tested\": false,\r\n    \"w300_language_function_verified\": false,\r\n    \"camera_setting_write_performed\": false,\r\n    \"scope\": \"Host runtime and offline transcript verification; no camera calls\"\r\n  },\r\n  \"ok\": true\r\n}\r\nReport: C:\\Users\\apara01\\OneDrive - Kearney\\Documents\\ChatGPT\\W300\\DSC-W300\\build\\w300\\portable\\relocation release2 \u0105\u0119\\W300Workbench\\reports\\selftest-20260916-172458-791029.json\r\n",
+      "stderr": "",
+      "report": {
+        "captured_at": "2026-09-16T17:24:58.791029+00:00",
+        "operation": "selftest",
+        "result": {
+          "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+          "platform": "Windows-11-10.0.26200-SP0",
+          "pmca_commit": "a82f5baaa8e9c3d9f28f94699e860fb2e48cc8e0",
+          "frozen_portable_executable": true,
+          "source_revision_check": "Packaged reviewed source hashes and recorded build revision; no Git dependency",
+          "native_driver_imports": [
+            "MscContext",
+            "MtpContext",
+            "VendorSpecificContext"
+          ],
+          "libusb_dll_loaded": "C:\\Users\\apara01\\OneDrive - Kearney\\Documents\\ChatGPT\\W300\\DSC-W300\\build\\w300\\portable\\relocation release2 \u0105\u0119\\W300Workbench\\_internal\\libusb_package\\libusb-1.0.dll",
+          "dependencies": {
+            "pyusb": "1.3.1",
+            "pywin32": "312",
+            "comtypes": "1.4.16",
+            "libusb-package": "1.0.26.4"
+          },
+          "published_a330_authentication_replay": "PASS",
+          "pmca_source_pin": "PASS",
+          "pmca_reviewed_source_hashes": "PASS",
+          "camera_communication_tested": false,
+          "w300_language_function_verified": false,
+          "camera_setting_write_performed": false,
+          "scope": "Host runtime and offline transcript verification; no camera calls"
+        },
+        "ok": true
+      }
+    },
+    {
+      "operation": "inventory",
+      "exit_code": 0,
+      "stdout": "{\r\n  \"captured_at\": \"2026-09-16T17:25:00.375492+00:00\",\r\n  \"operation\": \"inventory\",\r\n  \"result\": {\r\n    \"captured_at\": \"2026-09-16T17:25:07.8601989Z\",\r\n    \"method\": \"Windows PnP registry properties only; no application camera commands\",\r\n    \"sony_devices\": [],\r\n    \"camera_setting_write_performed\": false,\r\n    \"powershell_executable\": \"C:\\\\Users\\\\apara01\\\\OneDrive - Kearney\\\\Documents\\\\ChatGPT\\\\W300\\\\DSC-W300\\\\build\\\\w300\\\\portable\\\\relocation release2 \\u0105\\u0119\\\\W300Workbench\\\\runtime\\\\powershell\\\\pwsh.exe\"\r\n  },\r\n  \"ok\": true\r\n}\r\nReport: C:\\Users\\apara01\\OneDrive - Kearney\\Documents\\ChatGPT\\W300\\DSC-W300\\build\\w300\\portable\\relocation release2 \u0105\u0119\\W300Workbench\\reports\\inventory-20260916-172500-375492.json\r\n",
+      "stderr": "",
+      "report": {
+        "captured_at": "2026-09-16T17:25:00.375492+00:00",
+        "operation": "inventory",
+        "result": {
+          "captured_at": "2026-09-16T17:25:07.8601989Z",
+          "method": "Windows PnP registry properties only; no application camera commands",
+          "sony_devices": [],
+          "camera_setting_write_performed": false,
+          "powershell_executable": "C:\\Users\\apara01\\OneDrive - Kearney\\Documents\\ChatGPT\\W300\\DSC-W300\\build\\w300\\portable\\relocation release2 \u0105\u0119\\W300Workbench\\runtime\\powershell\\pwsh.exe"
+        },
+        "ok": true
+      }
+    }
+  ],
+  "ok": true
+}

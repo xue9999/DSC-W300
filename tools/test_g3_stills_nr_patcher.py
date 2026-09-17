@@ -1,68 +1,120 @@
-#!/usr/bin/env python3
-"""
-Unit and regression test suite for g3_stills_nr_patcher.py.
-"""
-
-from __future__ import annotations
-
+"""Offline tests: provenance, allowed byte changes, generation and publication."""
 from pathlib import Path
 import sys
+import tempfile
 import unittest
-
-TOOLS_DIR = Path(__file__).resolve().parent
-if str(TOOLS_DIR) not in sys.path:
-    sys.path.insert(0, str(TOOLS_DIR))
-
-from g3_stills_nr_patcher import (
-    patch_av_bin,
-    build_nonr_firmware,
-    verify_nonr_dat,
-    OFFSET_NR32_CNR,
-    OFFSET_NR32_RGB,
-    ORIGINAL_OPCODE,
-    BYPASS_OPCODE,
-)
+from unittest.mock import patch
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from g3_stills_nr_patcher import (patch_av_bin, build_nonr_firmware, verify_nonr_dat,
+    OFFSET_NR32_CNR, OFFSET_NR32_RGB, ORIGINAL_OPCODE, BYPASS_OPCODE)
+from g3_verified import (trusted_source, verified_extracted, assemble, verify_expected,
+    check_output, publish, SOURCE, EXTRACTED, ROOT)
 
 
 class TestG3StillsNrPatcher(unittest.TestCase):
-    def setUp(self):
-        self.sections_dir = Path("evidence/extracted_g3/sections")
-        self.av_path = self.sections_dir / "09_av.bin"
-        if not self.av_path.exists():
-            self.skipTest("09_av.bin missing")
-        self.av_bytes = self.av_path.read_bytes()
+    @classmethod
+    def setUpClass(cls):
+        cls.baseline = trusted_source()
+        cls.av_bytes = cls.baseline[2][9]
 
-    def test_patch_offsets_validity(self):
-        self.assertEqual(self.av_bytes[OFFSET_NR32_CNR:OFFSET_NR32_CNR + 2], ORIGINAL_OPCODE)
-        self.assertEqual(self.av_bytes[OFFSET_NR32_RGB:OFFSET_NR32_RGB + 2], ORIGINAL_OPCODE)
-
-    def test_patch_application(self):
+    def test_patch_is_exact(self):
         patched = patch_av_bin(self.av_bytes)
-        self.assertEqual(len(patched), len(self.av_bytes))
-        self.assertEqual(patched[OFFSET_NR32_CNR:OFFSET_NR32_CNR + 2], BYPASS_OPCODE)
-        self.assertEqual(patched[OFFSET_NR32_RGB:OFFSET_NR32_RGB + 2], BYPASS_OPCODE)
-        # Verify isolation: other bytes unchanged
-        self.assertEqual(patched[:OFFSET_NR32_CNR], self.av_bytes[:OFFSET_NR32_CNR])
-        self.assertEqual(patched[OFFSET_NR32_CNR + 2:OFFSET_NR32_RGB], self.av_bytes[OFFSET_NR32_CNR + 2:OFFSET_NR32_RGB])
-        self.assertEqual(patched[OFFSET_NR32_RGB + 2:], self.av_bytes[OFFSET_NR32_RGB + 2:])
+        expected = bytearray(self.av_bytes)
+        for offset in (OFFSET_NR32_CNR, OFFSET_NR32_RGB):
+            expected[offset:offset + 2] = BYPASS_OPCODE
+        self.assertEqual(patched, bytes(expected))
 
-    def test_mismatched_byte_rejection(self):
-        corrupted = bytearray(self.av_bytes)
-        corrupted[OFFSET_NR32_CNR] = 0x00
-        with self.assertRaises(ValueError) as ctx:
-            patch_av_bin(bytes(corrupted))
-        self.assertIn("CNR offset mismatch", str(ctx.exception))
+    def test_full_hash_rejects_mutation_away_from_opcodes(self):
+        changed = bytearray(self.av_bytes); changed[123] ^= 1
+        with self.assertRaisesRegex(ValueError, 'SHA-256'):
+            patch_av_bin(bytes(changed))
 
-    def test_verified_dat_roundtrip(self):
-        dat_path = Path("evidence/extracted_g3/D-G3V2_nonr.dat")
-        if not dat_path.exists():
-            self.skipTest("D-G3V2_nonr.dat missing")
-        res = verify_nonr_dat(dat_path)
-        self.assertEqual(res["status"], "PASS")
-        self.assertTrue(res["cnr_bypassed"])
-        self.assertTrue(res["rgb_bypassed"])
-        self.assertEqual(res["sections_verified"], 24)
+    def test_source_hash_rejection(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            source = Path(temporary) / 'wrong.exe'; source.write_bytes(b'untrusted')
+            with self.assertRaisesRegex(ValueError, 'SHA-256'):
+                trusted_source(source)
+
+    def test_generation_roundtrip_and_derived_input_rejection(self):
+        manifest, sections, payloads = self.baseline
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary); extracted = root / 'sections'; extracted.mkdir()
+            for i, (section, payload) in enumerate(zip(sections, payloads)):
+                (extracted / f'{i:02d}_{section["name"]}').write_bytes(payload)
+            cntent = root / 'cntent.dat'; cntent.write_bytes(manifest)
+            output = root / 'nonr.dat'
+            build_nonr_firmware(output, extracted, cntent)
+            self.assertEqual(verify_nonr_dat(output)['status'], 'OFFLINE_INTEGRITY_VERIFIED')
+            victim = extracted / ('00_' + sections[0]['name'])
+            victim.write_bytes(b'tampered')
+            with self.assertRaisesRegex(ValueError, 'Untrusted extracted section'):
+                verified_extracted(extracted, cntent, self.baseline)
+            victim.unlink()
+            with self.assertRaisesRegex(ValueError, 'names/order'):
+                verified_extracted(extracted, cntent, self.baseline)
+
+    def test_source_and_evidence_output_refused(self):
+        for output in (SOURCE, EXTRACTED / 'D-G3V2_nonr.dat', ROOT / 'evidence/usb-baseline.json'):
+            with self.subTest(output=output), self.assertRaises(ValueError):
+                check_output(output, overwrite=True)
+
+    def test_alternate_source_filename_collision_refused(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            source = Path(temporary) / 'renamed-firmware.exe'
+            source.write_bytes(b'unchanged')
+            with self.assertRaisesRegex(ValueError, 'source'):
+                check_output(source, source=source, overwrite=True)
+            self.assertEqual(source.read_bytes(), b'unchanged')
+
+    def test_failed_verification_never_publishes(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            output = Path(temporary) / 'out.dat'
+            output.write_bytes(b'previous')
+            def reject(path):
+                raise ValueError('verification rejected')
+            with self.assertRaises(ValueError):
+                publish(b'new', output, reject, overwrite=True)
+            self.assertEqual(output.read_bytes(), b'previous')
+            self.assertEqual(list(Path(temporary).iterdir()), [output])
+            publish(b'new', output, lambda p: None, overwrite=True)
+            self.assertEqual(output.read_bytes(), b'new')
+
+    def test_derived_input_collision_refused(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            for output in (root / 'sections' / '09_av.bin', root / 'cntent.dat'):
+                with self.assertRaisesRegex(ValueError, 'collides'):
+                    build_nonr_firmware(output, root / 'sections', root / 'cntent.dat', overwrite=True)
+
+    def test_publication_race_does_not_overwrite(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            output = Path(temporary) / 'out.dat'
+            def concurrent_writer(staged):
+                output.write_bytes(b'concurrent writer')
+            with self.assertRaises(FileExistsError):
+                publish(b'new', output, concurrent_writer)
+            self.assertEqual(output.read_bytes(), b'concurrent writer')
+            self.assertEqual(list(Path(temporary).iterdir()), [output])
+
+    def test_container_padding_tamper_rejected(self):
+        manifest, sections, payloads = self.baseline
+        expected = list(payloads); expected[9] = patch_av_bin(payloads[9])
+        raw = bytearray(assemble(manifest, expected, self.baseline.container))
+        raw[-1] ^= 1
+        with tempfile.TemporaryDirectory() as temporary:
+            output = Path(temporary) / 'bad-padding.dat'; output.write_bytes(raw)
+            with self.assertRaisesRegex(ValueError, 'trailer'):
+                verify_expected(output, self.baseline, manifest, expected)
+
+    def test_unrelated_section_change_rejected_even_with_valid_hmac(self):
+        manifest, sections, payloads = self.baseline
+        expected = list(payloads); expected[9] = patch_av_bin(payloads[9])
+        actual = list(expected); actual[0] = bytes([actual[0][0] ^ 1]) + actual[0][1:]
+        with tempfile.TemporaryDirectory() as temporary:
+            output = Path(temporary) / 'bad.dat'; output.write_bytes(assemble(manifest, actual))
+            with self.assertRaisesRegex(ValueError, 'section 0'):
+                verify_expected(output, self.baseline, manifest, expected)
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     unittest.main()

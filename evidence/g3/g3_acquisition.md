@@ -1,1 +1,0 @@
-../g3_acquisition.md

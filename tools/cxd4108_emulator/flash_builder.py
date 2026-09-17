@@ -1,10 +1,7 @@
-"""Pure-Python Sony CXD4108 Flash and OneNAND Image Builder.
+"""Offline SDM/OneNAND assembly and synthetic emulator-fixture helpers.
 
-This module implements the Sony SDM partition table, OneNAND spare area framing,
-and factory calibration layout discovered from reverse engineering the Sony
-Cyber-shot DSC-G3, DSC-T100, and DSC-W90/W300 architectures.
-
-Zero external dependencies - 100% standard library.
+Factory profiles below are assumed test layouts, not validated camera calibration
+or destination encodings. Outputs are not qualified for physical hardware.
 """
 
 from __future__ import annotations
@@ -28,13 +25,13 @@ SECTORS_PER_BLOCK = 0x100     # 256 sectors per block (128 KB per block)
 BLOCK_SIZE = SECTOR_SIZE * SECTORS_PER_BLOCK  # 131,072 bytes (128 KB)
 DEFAULT_NAND_SIZE = 0x4000000 # 64 MB (OneNAND default on CXD4108)
 
-# Factory Calibration Offsets in Partition 2 (/factory/ and /backup/)
+# Assumed synthetic fixture offsets, NOT a qualified physical calibration map.
 DESTINATION_BYTE_OFFSET = 0x00
 TOUCHSCREEN_ENABLE_OFFSET = 0x2A5
 LENS_COVER_ENABLE_OFFSET = 0x2A6
 TV_STANDARD_OFFSET = 0x400    # In Hreg.bin: 0x02 = NTSC, 0x01 = PAL
 
-# Symbolic Sony Destinations for BIONZ cameras
+# Hypothetical destination labels for test scenarios; bytes are not hardware evidence.
 SONY_DESTINATIONS = {
     0x01: "J1 (Japan Domestic - Japanese only)",
     0x02: "UC2 (North America - English/French/Spanish)",
@@ -242,7 +239,7 @@ def build_factory_partition2(
     base_asys: Optional[bytes] = None,
     base_hsys: Optional[bytes] = None,
 ) -> Dict[str, bytes]:
-    """Generate Sony calibration and factory files for partition 2.
+    """Generate synthetic partition-2 fixtures, never actual camera calibration.
     
     Returns a dictionary mapping relative filesystem paths to binary contents:
       - /factory/Asys.bin
@@ -286,7 +283,7 @@ def build_factory_partition2(
 
 
 class Cxd4108FlashBuilder:
-    """High-level builder for Sony CXD4108 camera flash images."""
+    """Host-only image assembly experiment; no hardware compatibility guarantee."""
 
     def __init__(self, nand_size: int = DEFAULT_NAND_SIZE):
         self.nand_size = nand_size

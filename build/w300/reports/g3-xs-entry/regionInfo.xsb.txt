@@ -1,0 +1,1727 @@
+00000 23ffff22007900           65535:<special> 
+00007 600003                    
+0000a 280001                    
+0000d 38                        
+0000e 6d                        
+0000f 37                        
+00010 8900                      
+00012 6d                        
+00013 558000                   0:Object 
+00016 7d                        
+00017 6c                        
+00018 7c80010c04               1:regionInfo 
+0001d 37                        
+0001e 59                        
+0001f 6c                        
+00020 7c80020c0c               2:langArray 
+00025 5c                        
+00026 37                        
+00027 59                        
+00028 6c                        
+00029 7c80030c0c               3:path 
+0002e 5c                        
+0002f 37                        
+00030 6a426b757049445f5265675f627265774170705f5f726567696f6e4461746100  'BkupID_Reg_brewApp__regionData'
+00050 8901                      
+00052 6d                        
+00053 428004                   4:__xs__string 
+00056 2e8005                   5:parse 
+00059 6c                        
+0005a 7c80060c0c               6:bdIDRegion 
+0005f 5c                        
+00060 37                        
+00061 6a426b757049445f5265675f627265774170705f5f696e69744c616e674461746100  'BkupID_Reg_brewApp__initLangData'
+00083 8901                      
+00085 6d                        
+00086 428004                   4:__xs__string 
+00089 2e8005                   5:parse 
+0008c 6c                        
+0008d 7c80070c0c               7:bdIDLanguage 
+00092 5c                        
+00093 37                        
+00094 6a426b757049445f5265675f627265774170705f5f617661696c4c616e674461746100  'BkupID_Reg_brewApp__availLangData'
+000b7 8901                      
+000b9 6d                        
+000ba 428004                   4:__xs__string 
+000bd 2e8005                   5:parse 
+000c0 6c                        
+000c1 7c80080c0c               8:bdIDAvailLang 
+000c6 5c                        
+000c7 37                        
+000c8 6a426b757049445f5265675f627265774170705f5f7369676e616c547970654461746100  'BkupID_Reg_brewApp__signalTypeData'
+000ec 8901                      
+000ee 6d                        
+000ef 428004                   4:__xs__string 
+000f2 2e8005                   5:parse 
+000f5 6c                        
+000f6 7c80090c0c               9:bdIDSignalType 
+000fb 5c                        
+000fc 37                        
+000fd 6a484f53545f524547554c4154494f4e00  'HOST_REGULATION'
+0010e 8901                      
+00110 6d                        
+00111 428004                   4:__xs__string 
+00114 2e8005                   5:parse 
+00117 6c                        
+00118 7c800a0c0c               10:bcIDHostRegulation 
+0011d 5c                        
+0011e 37                        
+0011f 6a323500                  '25'
+00123 8901                      
+00125 6d                        
+00126 42800b                   11:__xs__number 
+00129 2e8005                   5:parse 
+0012c 6c                        
+0012d 7c800c0c0c               12:maxLangCnt 
+00132 5c                        
+00133 37                        
+00134 8900                      
+00136 6d                        
+00137 558000                   0:Object 
+0013a 7d                        
+0013b 6c                        
+0013c 7c800d0c0c               13:languageData 
+00141 37                        
+00142 6a00                      ''
+00144 8901                      
+00146 6d                        
+00147 428004                   4:__xs__string 
+0014a 2e8005                   5:parse 
+0014d 6c                        
+0014e 7c800e0c0c               14:langName 
+00153 5c                        
+00154 37                        
+00155 6a3000                    '0'
+00158 8901                      
+0015a 6d                        
+0015b 42800b                   11:__xs__number 
+0015e 2e8005                   5:parse 
+00161 6c                        
+00162 7c800f0c0c               15:value 
+00167 5c                        
+00168 5c                        
+00169 37                        
+0016a 3f001d                    
+0016d 23ffff22028010800f7900   65535:<special> 16:name 15:value 
+00178 60000e                    
+0017b 4100                      
+0017d 6d                        
+0017e 64800e                   14:langName 
+00181 5c                        
+00182 4101                      
+00184 6d                        
+00185 64800f                   15:value 
+00188 5c                        
+00189 38                        
+0018a 37                        
+0018b 6d                        
+0018c 428001                   1:regionInfo 
+0018f 42800d                   13:languageData 
+00192 6c                        
+00193 648011                   17:prototype 
+00196 5c                        
+00197 6c                        
+00198 7c80120c0c               18:LanguageData 
+0019d 5c                        
+0019e 37                        
+0019f 3f0279                    
+001a2 23ffff22007900           65535:<special> 
+001a9 60026e                    
+001ac 6d                        
+001ad 42800c                   12:maxLangCnt 
+001b0 8901                      
+001b2 5d                        
+001b3 558013                   19:Array 
+001b6 6d                        
+001b7 648002                   2:langArray 
+001ba 5c                        
+001bb 8910                      
+001bd 6a61726100                'ara'
+001c2 8902                      
+001c4 6d                        
+001c5 558012                   18:LanguageData 
+001c8 6d                        
+001c9 428002                   2:langArray 
+001cc 8900                      
+001ce 65                        
+001cf 5c                        
+001d0 8920                      
+001d2 6a637a6500                'cze'
+001d7 8902                      
+001d9 6d                        
+001da 558012                   18:LanguageData 
+001dd 6d                        
+001de 428002                   2:langArray 
+001e1 8901                      
+001e3 65                        
+001e4 5c                        
+001e5 8940                      
+001e7 6a64616e00                'dan'
+001ec 8902                      
+001ee 6d                        
+001ef 558012                   18:LanguageData 
+001f2 6d                        
+001f3 428002                   2:langArray 
+001f6 8902                      
+001f8 65                        
+001f9 5c                        
+001fa 8a0080                    
+001fd 6a64757400                'dut'
+00202 8902                      
+00204 6d                        
+00205 558012                   18:LanguageData 
+00208 6d                        
+00209 428002                   2:langArray 
+0020c 8903                      
+0020e 65                        
+0020f 5c                        
+00210 8a0100                    
+00213 6a656e6700                'eng'
+00218 8902                      
+0021a 6d                        
+0021b 558012                   18:LanguageData 
+0021e 6d                        
+0021f 428002                   2:langArray 
+00222 8904                      
+00224 65                        
+00225 5c                        
+00226 8a0200                    
+00229 6a66696e00                'fin'
+0022e 8902                      
+00230 6d                        
+00231 558012                   18:LanguageData 
+00234 6d                        
+00235 428002                   2:langArray 
+00238 8905                      
+0023a 65                        
+0023b 5c                        
+0023c 8a0400                    
+0023f 6a66726500                'fre'
+00244 8902                      
+00246 6d                        
+00247 558012                   18:LanguageData 
+0024a 6d                        
+0024b 428002                   2:langArray 
+0024e 8906                      
+00250 65                        
+00251 5c                        
+00252 8a0800                    
+00255 6a67657200                'ger'
+0025a 8902                      
+0025c 6d                        
+0025d 558012                   18:LanguageData 
+00260 6d                        
+00261 428002                   2:langArray 
+00264 8907                      
+00266 65                        
+00267 5c                        
+00268 8a1000                    
+0026b 6a67726500                'gre'
+00270 8902                      
+00272 6d                        
+00273 558012                   18:LanguageData 
+00276 6d                        
+00277 428002                   2:langArray 
+0027a 8908                      
+0027c 65                        
+0027d 5c                        
+0027e 8a2000                    
+00281 6a68756e00                'hun'
+00286 8902                      
+00288 6d                        
+00289 558012                   18:LanguageData 
+0028c 6d                        
+0028d 428002                   2:langArray 
+00290 8909                      
+00292 65                        
+00293 5c                        
+00294 8a4000                    
+00297 6a69746100                'ita'
+0029c 8902                      
+0029e 6d                        
+0029f 558012                   18:LanguageData 
+002a2 6d                        
+002a3 428002                   2:langArray 
+002a6 890a                      
+002a8 65                        
+002a9 5c                        
+002aa 4800008000                
+002af 6a6a706e00                'jpn'
+002b4 8902                      
+002b6 6d                        
+002b7 558012                   18:LanguageData 
+002ba 6d                        
+002bb 428002                   2:langArray 
+002be 890b                      
+002c0 65                        
+002c1 5c                        
+002c2 4800010000                
+002c7 6a6b6f7200                'kor'
+002cc 8902                      
+002ce 6d                        
+002cf 558012                   18:LanguageData 
+002d2 6d                        
+002d3 428002                   2:langArray 
+002d6 890c                      
+002d8 65                        
+002d9 5c                        
+002da 4800020000                
+002df 6a6d616c00                'mal'
+002e4 8902                      
+002e6 6d                        
+002e7 558012                   18:LanguageData 
+002ea 6d                        
+002eb 428002                   2:langArray 
+002ee 890d                      
+002f0 65                        
+002f1 5c                        
+002f2 4800040000                
+002f7 6a6e6f7200                'nor'
+002fc 8902                      
+002fe 6d                        
+002ff 558012                   18:LanguageData 
+00302 6d                        
+00303 428002                   2:langArray 
+00306 890e                      
+00308 65                        
+00309 5c                        
+0030a 4800080000                
+0030f 6a70657200                'per'
+00314 8902                      
+00316 6d                        
+00317 558012                   18:LanguageData 
+0031a 6d                        
+0031b 428002                   2:langArray 
+0031e 890f                      
+00320 65                        
+00321 5c                        
+00322 4800100000                
+00327 6a706f6c00                'pol'
+0032c 8902                      
+0032e 6d                        
+0032f 558012                   18:LanguageData 
+00332 6d                        
+00333 428002                   2:langArray 
+00336 8910                      
+00338 65                        
+00339 5c                        
+0033a 4800200000                
+0033f 6a706f7200                'por'
+00344 8902                      
+00346 6d                        
+00347 558012                   18:LanguageData 
+0034a 6d                        
+0034b 428002                   2:langArray 
+0034e 8911                      
+00350 65                        
+00351 5c                        
+00352 4800400000                
+00357 6a72757300                'rus'
+0035c 8902                      
+0035e 6d                        
+0035f 558012                   18:LanguageData 
+00362 6d                        
+00363 428002                   2:langArray 
+00366 8912                      
+00368 65                        
+00369 5c                        
+0036a 4800800000                
+0036f 6a73636800                'sch'
+00374 8902                      
+00376 6d                        
+00377 558012                   18:LanguageData 
+0037a 6d                        
+0037b 428002                   2:langArray 
+0037e 8913                      
+00380 65                        
+00381 5c                        
+00382 4801000000                
+00387 6a73706100                'spa'
+0038c 8902                      
+0038e 6d                        
+0038f 558012                   18:LanguageData 
+00392 6d                        
+00393 428002                   2:langArray 
+00396 8914                      
+00398 65                        
+00399 5c                        
+0039a 4802000000                
+0039f 6a73776500                'swe'
+003a4 8902                      
+003a6 6d                        
+003a7 558012                   18:LanguageData 
+003aa 6d                        
+003ab 428002                   2:langArray 
+003ae 8915                      
+003b0 65                        
+003b1 5c                        
+003b2 4804000000                
+003b7 6a74636800                'tch'
+003bc 8902                      
+003be 6d                        
+003bf 558012                   18:LanguageData 
+003c2 6d                        
+003c3 428002                   2:langArray 
+003c6 8916                      
+003c8 65                        
+003c9 5c                        
+003ca 4808000000                
+003cf 6a74686100                'tha'
+003d4 8902                      
+003d6 6d                        
+003d7 558012                   18:LanguageData 
+003da 6d                        
+003db 428002                   2:langArray 
+003de 8917                      
+003e0 65                        
+003e1 5c                        
+003e2 4810000000                
+003e7 6a74757200                'tur'
+003ec 8902                      
+003ee 6d                        
+003ef 558012                   18:LanguageData 
+003f2 6d                        
+003f3 428002                   2:langArray 
+003f6 8918                      
+003f8 65                        
+003f9 5c                        
+003fa 6a5b726567696f6e496e666f506174685d00  '[regionInfoPath]'
+0040c 8901                      
+0040e 5d                        
+0040f 428014                   20:System 
+00412 2e8015                   21:applyEnvironment 
+00415 6d                        
+00416 648003                   3:path 
+00419 5c                        
+0041a 38                        
+0041b 6c                        
+0041c 7c80160c0c               22:initialize 
+00421 5c                        
+00422 37                        
+00423 3f0149                    
+00426 23ffff2204801780188019801a7907801b801c801d800e801e801f8020 65535:<special> 23:region 24:language 25:availLang 26:videoSignal 27:pathRegionInfoSrc 28:pathRegionSrcDir 29:regionInfoFile 14:langName 30:availLanguage 31:langGp 32:singnalType 
+00443 600128                    
+00446 4100                      
+00448 8a00ff                    
+0044b 58                        
+0044c 290077                    
+0044f 59                        
+00450 63ff                      
+00452 5c                        
+00453 6a5b696e697469616c44617461506174685d00  '[initialDataPath]'
+00466 8901                      
+00468 5d                        
+00469 428014                   20:System 
+0046c 2e8015                   21:applyEnvironment 
+0046f 6a2f526567696f6e496e666f2f00  '/RegionInfo/'
+0047d 21                        
+0047e 63fe                      
+00480 5c                        
+00481 4100                      
+00483 8901                      
+00485 6d                        
+00486 2e8021                   33:getRegionInfoFile 
+00489 63fd                      
+0048b 5c                        
+0048c 41fd                      
+0048e 6a00                      ''
+00490 58                        
+00491 29000b                    
+00494 41fe                      
+00496 41fd                      
+00498 21                        
+00499 63ff                      
+0049b 5c                        
+0049c 280003                    
+0049f 3c                        
+004a0 80                        
+004a1 5f                        
+004a2 8900                      
+004a4 6d                        
+004a5 2e8022                   34:deleteUserInfoFiles 
+004a8 5c                        
+004a9 8900                      
+004ab 6d                        
+004ac 2e8023                   35:deleteRegionInfoFile 
+004af 5c                        
+004b0 41ff                      
+004b2 8901                      
+004b4 6d                        
+004b5 2e8024                   36:createRegionInfoFile 
+004b8 5c                        
+004b9 8900                      
+004bb 5d                        
+004bc 428025                   37:FileSystem 
+004bf 2e8026                   38:sync 
+004c2 5c                        
+004c3 2800a5                    
+004c6 6a00                      ''
+004c8 63fc                      
+004ca 5c                        
+004cb 6a00                      ''
+004cd 63fb                      
+004cf 5c                        
+004d0 59                        
+004d1 63fa                      
+004d3 5c                        
+004d4 59                        
+004d5 63f9                      
+004d7 5c                        
+004d8 4101                      
+004da 8901                      
+004dc 6d                        
+004dd 2e8027                   39:checkLanguageName 
+004e0 63fc                      
+004e2 5c                        
+004e3 4102                      
+004e5 8901                      
+004e7 6d                        
+004e8 2e8028                   40:getLanguageGroup 
+004eb 63fa                      
+004ed 5c                        
+004ee 41fa                      
+004f0 8963                      
+004f2 3a                        
+004f3 29000b                    
+004f6 4102                      
+004f8 8901                      
+004fa 6d                        
+004fb 2e8029                   41:getAvailableLanguageList 
+004fe 63fb                      
+00500 5c                        
+00501 4103                      
+00503 8901                      
+00505 6d                        
+00506 2e802a                   42:getVideoSignalType 
+00509 63f9                      
+0050b 5c                        
+0050c 41fc                      
+0050e 6a00                      ''
+00510 3a                        
+00511 37                        
+00512 2a000e                    
+00515 5c                        
+00516 41fa                      
+00518 59                        
+00519 3a                        
+0051a 37                        
+0051b 2a0005                    
+0051e 5c                        
+0051f 41f9                      
+00521 59                        
+00522 3a                        
+00523 290006                    
+00526 3c                        
+00527 80                        
+00528 5f                        
+00529 28003f                    
+0052c 41fa                      
+0052e 8963                      
+00530 3a                        
+00531 37                        
+00532 290006                    
+00535 5c                        
+00536 41fb                      
+00538 6a00                      ''
+0053a 3a                        
+0053b 290006                    
+0053e 3c                        
+0053f 80                        
+00540 5f                        
+00541 280027                    
+00544 8900                      
+00546 6d                        
+00547 2e8022                   34:deleteUserInfoFiles 
+0054a 5c                        
+0054b 8900                      
+0054d 6d                        
+0054e 2e8023                   35:deleteRegionInfoFile 
+00551 5c                        
+00552 41f9                      
+00554 41fb                      
+00556 41fa                      
+00558 41fc                      
+0055a 8904                      
+0055c 6d                        
+0055d 2e802b                   43:createManualRegionInfoFile 
+00560 5c                        
+00561 8900                      
+00563 5d                        
+00564 428025                   37:FileSystem 
+00567 2e8026                   38:sync 
+0056a 5c                        
+0056b 73                        
+0056c 80                        
+0056d 5f                        
+0056e 38                        
+0056f 6c                        
+00570 7c802c0c04               44:makeRegionInfoFile 
+00575 5c                        
+00576 37                        
+00577 3f0084                    
+0057a 23ffff22007906802d8017801880198020802e 65535:<special> 45:backuper 23:region 24:language 25:availLang 32:singnalType 46:ret 
+0058d 60006d                    
+00590 5d                        
+00591 42802f                   47:Backup 
+00594 42802d                   45:backuper 
+00597 63ff                      
+00599 5c                        
+0059a 6d                        
+0059b 428006                   6:bdIDRegion 
+0059e 8901                      
+005a0 41ff                      
+005a2 2e8030                   48:read 
+005a5 63fe                      
+005a7 5c                        
+005a8 6d                        
+005a9 428007                   7:bdIDLanguage 
+005ac 8901                      
+005ae 41ff                      
+005b0 2e8030                   48:read 
+005b3 63fd                      
+005b5 5c                        
+005b6 6d                        
+005b7 428008                   8:bdIDAvailLang 
+005ba 8901                      
+005bc 41ff                      
+005be 2e8030                   48:read 
+005c1 63fc                      
+005c3 5c                        
+005c4 6d                        
+005c5 428009                   9:bdIDSignalType 
+005c8 8901                      
+005ca 41ff                      
+005cc 2e8030                   48:read 
+005cf 63fb                      
+005d1 5c                        
+005d2 41fb                      
+005d4 41fc                      
+005d6 41fd                      
+005d8 41fe                      
+005da 8904                      
+005dc 6d                        
+005dd 2e802c                   44:makeRegionInfoFile 
+005e0 63fa                      
+005e2 5c                        
+005e3 41fa                      
+005e5 57                        
+005e6 290014                    
+005e9 8900                      
+005eb 4800008100                
+005f0 8a0100                    
+005f3 8a00ff                    
+005f6 8904                      
+005f8 6d                        
+005f9 2e802c                   44:makeRegionInfoFile 
+005fc 5c                        
+005fd 38                        
+005fe 6c                        
+005ff 7c80310c04               49:makeRegionInfoFileFromBackupData 
+00604 5c                        
+00605 37                        
+00606 3f0068                    
+00609 23ffff220480178018801980207901802d 65535:<special> 23:region 24:language 25:availLang 32:singnalType 45:backuper 
+0061a 600053                    
+0061d 5d                        
+0061e 42802f                   47:Backup 
+00621 42802d                   45:backuper 
+00624 63ff                      
+00626 5c                        
+00627 4100                      
+00629 6d                        
+0062a 428006                   6:bdIDRegion 
+0062d 8902                      
+0062f 41ff                      
+00631 2e8032                   50:write 
+00634 5c                        
+00635 4101                      
+00637 6d                        
+00638 428007                   7:bdIDLanguage 
+0063b 8902                      
+0063d 41ff                      
+0063f 2e8032                   50:write 
+00642 5c                        
+00643 4102                      
+00645 6d                        
+00646 428008                   8:bdIDAvailLang 
+00649 8902                      
+0064b 41ff                      
+0064d 2e8032                   50:write 
+00650 5c                        
+00651 4103                      
+00653 6d                        
+00654 428009                   9:bdIDSignalType 
+00657 8902                      
+00659 41ff                      
+0065b 2e8032                   50:write 
+0065e 5c                        
+0065f 6d                        
+00660 428033                   51:onFlushComplete 
+00663 6d                        
+00664 6d                        
+00665 42800a                   10:bcIDHostRegulation 
+00668 8903                      
+0066a 41ff                      
+0066c 2e8034                   52:flush 
+0066f 5c                        
+00670 38                        
+00671 6c                        
+00672 7c80350c04               53:saveRegionInfoData 
+00677 5c                        
+00678 37                        
+00679 3f000b                    
+0067c 23ffff22007900           65535:<special> 
+00683 600000                    
+00686 38                        
+00687 6c                        
+00688 7c80330c04               51:onFlushComplete 
+0068d 5c                        
+0068e 37                        
+0068f 3f036a                    
+00692 23ffff2201803679018003   65535:<special> 54:regionID 3:path 
+0069d 60035b                    
+006a0 6a00                      ''
+006a2 63ff                      
+006a4 5c                        
+006a5 4100                      
+006a7 37                        
+006a8 8900                      
+006aa 69                        
+006ab 290096                    
+006ae 37                        
+006af 8901                      
+006b1 69                        
+006b2 2900ae                    
+006b5 37                        
+006b6 8902                      
+006b8 69                        
+006b9 2900c6                    
+006bc 37                        
+006bd 8903                      
+006bf 69                        
+006c0 2900de                    
+006c3 37                        
+006c4 8904                      
+006c6 69                        
+006c7 2900f6                    
+006ca 37                        
+006cb 8905                      
+006cd 69                        
+006ce 29010e                    
+006d1 37                        
+006d2 8906                      
+006d4 69                        
+006d5 290126                    
+006d8 37                        
+006d9 8907                      
+006db 69                        
+006dc 29013e                    
+006df 37                        
+006e0 8908                      
+006e2 69                        
+006e3 290156                    
+006e6 37                        
+006e7 8909                      
+006e9 69                        
+006ea 29016e                    
+006ed 37                        
+006ee 890a                      
+006f0 69                        
+006f1 290186                    
+006f4 37                        
+006f5 890b                      
+006f7 69                        
+006f8 29019e                    
+006fb 37                        
+006fc 890c                      
+006fe 69                        
+006ff 2901b6                    
+00702 37                        
+00703 890d                      
+00705 69                        
+00706 2901ce                    
+00709 37                        
+0070a 890e                      
+0070c 69                        
+0070d 2901e6                    
+00710 37                        
+00711 890f                      
+00713 69                        
+00714 2901fe                    
+00717 37                        
+00718 8910                      
+0071a 69                        
+0071b 290216                    
+0071e 37                        
+0071f 8911                      
+00721 69                        
+00722 29022e                    
+00725 37                        
+00726 8912                      
+00728 69                        
+00729 290246                    
+0072c 37                        
+0072d 8913                      
+0072f 69                        
+00730 29025e                    
+00733 37                        
+00734 8914                      
+00736 69                        
+00737 290276                    
+0073a 37                        
+0073b 8915                      
+0073d 69                        
+0073e 29028e                    
+00741 2802aa                    
+00744 6a526567696f6e496e666f5f4a504e5f315f4e542e786d6c00  'RegionInfo_JPN_1_NT.xml'
+0075d 63ff                      
+0075f 5c                        
+00760 280293                    
+00763 6a526567696f6e496e666f5f454e475f345f50412e786d6c00  'RegionInfo_ENG_4_PA.xml'
+0077c 63ff                      
+0077e 5c                        
+0077f 280274                    
+00782 6a526567696f6e496e666f5f454e475f325f4e542e786d6c00  'RegionInfo_ENG_2_NT.xml'
+0079b 63ff                      
+0079d 5c                        
+0079e 280255                    
+007a1 6a526567696f6e496e666f5f454e475f325f4e542e786d6c00  'RegionInfo_ENG_2_NT.xml'
+007ba 63ff                      
+007bc 5c                        
+007bd 280236                    
+007c0 6a526567696f6e496e666f5f5255535f335f50412e786d6c00  'RegionInfo_RUS_3_PA.xml'
+007d9 63ff                      
+007db 5c                        
+007dc 280217                    
+007df 6a526567696f6e496e666f5f454e475f355f50412e786d6c00  'RegionInfo_ENG_5_PA.xml'
+007f8 63ff                      
+007fa 5c                        
+007fb 2801f8                    
+007fe 6a526567696f6e496e666f5f454e475f335f50412e786d6c00  'RegionInfo_ENG_3_PA.xml'
+00817 63ff                      
+00819 5c                        
+0081a 2801d9                    
+0081d 6a526567696f6e496e666f5f454e475f355f50412e786d6c00  'RegionInfo_ENG_5_PA.xml'
+00836 63ff                      
+00838 5c                        
+00839 2801ba                    
+0083c 6a526567696f6e496e666f5f454e475f345f50412e786d6c00  'RegionInfo_ENG_4_PA.xml'
+00855 63ff                      
+00857 5c                        
+00858 28019b                    
+0085b 6a526567696f6e496e666f5f454e475f345f50412e786d6c00  'RegionInfo_ENG_4_PA.xml'
+00874 63ff                      
+00876 5c                        
+00877 28017c                    
+0087a 6a526567696f6e496e666f5f5350415f345f4e542e786d6c00  'RegionInfo_SPA_4_NT.xml'
+00893 63ff                      
+00895 5c                        
+00896 28015d                    
+00899 6a526567696f6e496e666f5f454e475f325f50412e786d6c00  'RegionInfo_ENG_2_PA.xml'
+008b2 63ff                      
+008b4 5c                        
+008b5 28013e                    
+008b8 6a526567696f6e496e666f5f454e475f345f50412e786d6c00  'RegionInfo_ENG_4_PA.xml'
+008d1 63ff                      
+008d3 5c                        
+008d4 28011f                    
+008d7 6a526567696f6e496e666f5f5343485f345f50412e786d6c00  'RegionInfo_SCH_4_PA.xml'
+008f0 63ff                      
+008f2 5c                        
+008f3 280100                    
+008f6 6a526567696f6e496e666f5f4b4f525f345f4e542e786d6c00  'RegionInfo_KOR_4_NT.xml'
+0090f 63ff                      
+00911 5c                        
+00912 2800e1                    
+00915 6a526567696f6e496e666f5f504f525f345f4e542e786d6c00  'RegionInfo_POR_4_NT.xml'
+0092e 63ff                      
+00930 5c                        
+00931 2800c2                    
+00934 6a526567696f6e496e666f5f454e475f345f50412e786d6c00  'RegionInfo_ENG_4_PA.xml'
+0094d 63ff                      
+0094f 5c                        
+00950 2800a3                    
+00953 6a526567696f6e496e666f5f5350415f345f4e542e786d6c00  'RegionInfo_SPA_4_NT.xml'
+0096c 63ff                      
+0096e 5c                        
+0096f 280084                    
+00972 6a526567696f6e496e666f5f5343485f345f50412e786d6c00  'RegionInfo_SCH_4_PA.xml'
+0098b 63ff                      
+0098d 5c                        
+0098e 280065                    
+00991 6a526567696f6e496e666f5f454e475f345f50412e786d6c00  'RegionInfo_ENG_4_PA.xml'
+009aa 63ff                      
+009ac 5c                        
+009ad 280046                    
+009b0 6a526567696f6e496e666f5f454e475f345f50412e786d6c00  'RegionInfo_ENG_4_PA.xml'
+009c9 63ff                      
+009cb 5c                        
+009cc 280027                    
+009cf 6a526567696f6e496e666f5f5448415f345f50412e786d6c00  'RegionInfo_THA_4_PA.xml'
+009e8 63ff                      
+009ea 5c                        
+009eb 280008                    
+009ee 6a00                      ''
+009f0 63ff                      
+009f2 5c                        
+009f3 280000                    
+009f6 5c                        
+009f7 41ff                      
+009f9 80                        
+009fa 5f                        
+009fb 38                        
+009fc 6c                        
+009fd 7c80210c0c               33:getRegionInfoFile 
+00a02 5c                        
+00a03 37                        
+00a04 3f0054                    
+00a07 23ffff220180187902800e8037 65535:<special> 24:language 14:langName 55:i 
+00a14 600043                    
+00a17 6a00                      ''
+00a19 63ff                      
+00a1b 5c                        
+00a1c 8900                      
+00a1e 63fe                      
+00a20 5c                        
+00a21 41fe                      
+00a23 6d                        
+00a24 42800c                   12:maxLangCnt 
+00a27 4b                        
+00a28 29002b                    
+00a2b 4100                      
+00a2d 6d                        
+00a2e 428002                   2:langArray 
+00a31 41fe                      
+00a33 43                        
+00a34 42800f                   15:value 
+00a37 3a                        
+00a38 290010                    
+00a3b 6d                        
+00a3c 428002                   2:langArray 
+00a3f 41fe                      
+00a41 43                        
+00a42 42800e                   14:langName 
+00a45 63ff                      
+00a47 5c                        
+00a48 28000b                    
+00a4b 41fe                      
+00a4d 37                        
+00a4e 45                        
+00a4f 63fe                      
+00a51 5c                        
+00a52 5c                        
+00a53 28ffcb                    
+00a56 41ff                      
+00a58 80                        
+00a59 5f                        
+00a5a 38                        
+00a5b 6c                        
+00a5c 7c80270c0c               39:checkLanguageName 
+00a61 5c                        
+00a62 37                        
+00a63 3f0050                    
+00a66 23ffff220180197901801f   65535:<special> 25:availLang 31:langGp 
+00a71 600041                    
+00a74 8963                      
+00a76 63ff                      
+00a78 5c                        
+00a79 4100                      
+00a7b 37                        
+00a7c 8900                      
+00a7e 69                        
+00a7f 290026                    
+00a82 37                        
+00a83 8901                      
+00a85 69                        
+00a86 29001f                    
+00a89 37                        
+00a8a 8902                      
+00a8c 69                        
+00a8d 290018                    
+00a90 37                        
+00a91 8903                      
+00a93 69                        
+00a94 290011                    
+00a97 37                        
+00a98 8904                      
+00a9a 69                        
+00a9b 29000a                    
+00a9e 37                        
+00a9f 8905                      
+00aa1 69                        
+00aa2 290003                    
+00aa5 280008                    
+00aa8 4100                      
+00aaa 63ff                      
+00aac 5c                        
+00aad 280000                    
+00ab0 5c                        
+00ab1 41ff                      
+00ab3 80                        
+00ab4 5f                        
+00ab5 38                        
+00ab6 6c                        
+00ab7 7c80280c0c               40:getLanguageGroup 
+00abc 5c                        
+00abd 37                        
+00abe 3f0029                    
+00ac1 23ffff2201801a7900       65535:<special> 26:videoSignal 
+00aca 60001c                    
+00acd 4100                      
+00acf 8900                      
+00ad1 3a                        
+00ad2 37                        
+00ad3 2a0006                    
+00ad6 5c                        
+00ad7 4100                      
+00ad9 8901                      
+00adb 3a                        
+00adc 290007                    
+00adf 4100                      
+00ae1 80                        
+00ae2 5f                        
+00ae3 280003                    
+00ae6 59                        
+00ae7 80                        
+00ae8 5f                        
+00ae9 38                        
+00aea 6c                        
+00aeb 7c802a0c0c               42:getVideoSignalType 
+00af0 5c                        
+00af1 37                        
+00af2 3f0058                    
+00af5 23ffff22018019790280188037 65535:<special> 25:availLang 24:language 55:i 
+00b02 600047                    
+00b05 6a00                      ''
+00b07 63ff                      
+00b09 5c                        
+00b0a 8900                      
+00b0c 63fe                      
+00b0e 5c                        
+00b0f 41fe                      
+00b11 6d                        
+00b12 42800c                   12:maxLangCnt 
+00b15 4b                        
+00b16 29002f                    
+00b19 4100                      
+00b1b 6d                        
+00b1c 428002                   2:langArray 
+00b1f 41fe                      
+00b21 43                        
+00b22 42800f                   15:value 
+00b25 24                        
+00b26 290014                    
+00b29 41ff                      
+00b2b 6d                        
+00b2c 428002                   2:langArray 
+00b2f 41fe                      
+00b31 43                        
+00b32 42800e                   14:langName 
+00b35 21                        
+00b36 6a2c00                    ','
+00b39 21                        
+00b3a 63ff                      
+00b3c 5c                        
+00b3d 41fe                      
+00b3f 37                        
+00b40 45                        
+00b41 63fe                      
+00b43 5c                        
+00b44 5c                        
+00b45 28ffc7                    
+00b48 41ff                      
+00b4a 80                        
+00b4b 5f                        
+00b4c 38                        
+00b4d 6c                        
+00b4e 7c80290c0c               41:getAvailableLanguageList 
+00b53 5c                        
+00b54 37                        
+00b55 3f0029                    
+00b58 23ffff22007900           65535:<special> 
+00b5f 60001e                    
+00b62 6d                        
+00b63 428003                   3:path 
+00b66 8901                      
+00b68 5d                        
+00b69 428025                   37:FileSystem 
+00b6c 2e8038                   56:getFileInfo 
+00b6f 29000e                    
+00b72 6d                        
+00b73 428003                   3:path 
+00b76 8901                      
+00b78 5d                        
+00b79 428025                   37:FileSystem 
+00b7c 2e8039                   57:deleteFile 
+00b7f 5c                        
+00b80 38                        
+00b81 6c                        
+00b82 7c80230c0c               35:deleteRegionInfoFile 
+00b87 5c                        
+00b88 37                        
+00b89 3f0088                    
+00b8c 23ffff22007903803a803b803c 65535:<special> 58:pathUserInfo 59:pathUserInfoBak 60:tmpPath 
+00b99 600077                    
+00b9c 6a5b75736572496e666f506174685d00  '[userInfoPath]'
+00bac 8901                      
+00bae 5d                        
+00baf 428014                   20:System 
+00bb2 2e8015                   21:applyEnvironment 
+00bb5 63ff                      
+00bb7 5c                        
+00bb8 6a00                      ''
+00bba 63fe                      
+00bbc 5c                        
+00bbd 6a2e00                    '.'
+00bc0 8901                      
+00bc2 41ff                      
+00bc4 2e803d                   61:lastIndexOf 
+00bc7 63fd                      
+00bc9 5c                        
+00bca 41fd                      
+00bcc 8900                      
+00bce 8902                      
+00bd0 41ff                      
+00bd2 2e803e                   62:substring 
+00bd5 6a2e62616b00              '.bak'
+00bdb 21                        
+00bdc 63fe                      
+00bde 5c                        
+00bdf 41fe                      
+00be1 8901                      
+00be3 5d                        
+00be4 428025                   37:FileSystem 
+00be7 2e8038                   56:getFileInfo 
+00bea 29000c                    
+00bed 41fe                      
+00bef 8901                      
+00bf1 5d                        
+00bf2 428025                   37:FileSystem 
+00bf5 2e8039                   57:deleteFile 
+00bf8 5c                        
+00bf9 41ff                      
+00bfb 8901                      
+00bfd 5d                        
+00bfe 428025                   37:FileSystem 
+00c01 2e8038                   56:getFileInfo 
+00c04 29000c                    
+00c07 41ff                      
+00c09 8901                      
+00c0b 5d                        
+00c0c 428025                   37:FileSystem 
+00c0f 2e8039                   57:deleteFile 
+00c12 5c                        
+00c13 38                        
+00c14 6c                        
+00c15 7c80220c0c               34:deleteUserInfoFiles 
+00c1a 5c                        
+00c1b 37                        
+00c1c 3f005c                    
+00c1f 23ffff2201801b7903803f80408041 65535:<special> 27:pathRegionInfoSrc 63:stream0 64:buffer 65:stream1 
+00c2e 600049                    
+00c31 4100                      
+00c33 8901                      
+00c35 5d                        
+00c36 428042                   66:Stream 
+00c39 558043                   67:File 
+00c3c 63ff                      
+00c3e 5c                        
+00c3f 41ff                      
+00c41 428044                   68:bytesAvailable 
+00c44 8901                      
+00c46 41ff                      
+00c48 2e8045                   69:readString 
+00c4b 63fe                      
+00c4d 5c                        
+00c4e 8903                      
+00c50 6d                        
+00c51 428003                   3:path 
+00c54 8902                      
+00c56 5d                        
+00c57 428042                   66:Stream 
+00c5a 558043                   67:File 
+00c5d 63fd                      
+00c5f 5c                        
+00c60 41fe                      
+00c62 8901                      
+00c64 41fd                      
+00c66 2e8046                   70:writeString 
+00c69 5c                        
+00c6a 8900                      
+00c6c 41fd                      
+00c6e 2e8047                   71:close 
+00c71 5c                        
+00c72 8900                      
+00c74 41ff                      
+00c76 2e8047                   71:close 
+00c79 5c                        
+00c7a 38                        
+00c7b 6c                        
+00c7c 7c80240c0c               36:createRegionInfoFile 
+00c81 5c                        
+00c82 37                        
+00c83 3f019a                    
+00c86 23ffff2204800e801f801e8020790280488040 65535:<special> 14:langName 31:langGp 30:availLanguage 32:singnalType 72:file 64:buffer 
+00c99 600183                    
+00c9c 8903                      
+00c9e 6d                        
+00c9f 428003                   3:path 
+00ca2 8902                      
+00ca4 5d                        
+00ca5 428042                   66:Stream 
+00ca8 558043                   67:File 
+00cab 63ff                      
+00cad 5c                        
+00cae 6a00                      ''
+00cb0 63fe                      
+00cb2 5c                        
+00cb3 6a3c3f786d6c2076657273696f6e3d22312e302220656e636f64696e673d225554462d38223f3e00  '<?xml version="1.0" encoding="UTF-8"?>'
+00cdb 8901                      
+00cdd 41ff                      
+00cdf 2e8049                   73:writeLine 
+00ce2 5c                        
+00ce3 6a3c6d616e6167657220786d6c6e733d22687474703a2f2f7777772e6b696e6f6d612e636f6d2f66736b696e2f31223e00  '<manager xmlns="http://www.kinoma.com/fskin/1">'
+00d14 8901                      
+00d16 41ff                      
+00d18 2e8049                   73:writeLine 
+00d1b 5c                        
+00d1c 6a3c73797374656d446174612069643d2273797374656d44617461223e00  '<systemData id="systemData">'
+00d3a 8901                      
+00d3c 41ff                      
+00d3e 2e8049                   73:writeLine 
+00d41 5c                        
+00d42 6a3c6c616e673e00          '<lang>'
+00d4a 4100                      
+00d4c 21                        
+00d4d 6a3c2f6c616e673e00        '</lang>'
+00d56 21                        
+00d57 63fe                      
+00d59 5c                        
+00d5a 41fe                      
+00d5c 8901                      
+00d5e 41ff                      
+00d60 2e8049                   73:writeLine 
+00d63 5c                        
+00d64 6a3c6c616e6747703e00      '<langGp>'
+00d6e 4101                      
+00d70 21                        
+00d71 6a3c2f6c616e6747703e00    '</langGp>'
+00d7c 21                        
+00d7d 63fe                      
+00d7f 5c                        
+00d80 41fe                      
+00d82 8901                      
+00d84 41ff                      
+00d86 2e8049                   73:writeLine 
+00d89 5c                        
+00d8a 4101                      
+00d8c 8963                      
+00d8e 3a                        
+00d8f 290034                    
+00d92 6a3c617661696c61626c654c616e673e00  '<availableLang>'
+00da3 4102                      
+00da5 21                        
+00da6 6a3c2f617661696c61626c654c616e673e00  '</availableLang>'
+00db8 21                        
+00db9 63fe                      
+00dbb 5c                        
+00dbc 41fe                      
+00dbe 8901                      
+00dc0 41ff                      
+00dc2 2e8049                   73:writeLine 
+00dc5 5c                        
+00dc6 6a3c7369675479703e00      '<sigTyp>'
+00dd0 4103                      
+00dd2 21                        
+00dd3 6a3c2f7369675479703e00    '</sigTyp>'
+00dde 21                        
+00ddf 63fe                      
+00de1 5c                        
+00de2 41fe                      
+00de4 8901                      
+00de6 41ff                      
+00de8 2e8049                   73:writeLine 
+00deb 5c                        
+00dec 6a3c2f73797374656d446174613e00  '</systemData>'
+00dfb 8901                      
+00dfd 41ff                      
+00dff 2e8049                   73:writeLine 
+00e02 5c                        
+00e03 6a3c2f6d616e616765723e00  '</manager>'
+00e0f 8901                      
+00e11 41ff                      
+00e13 2e8049                   73:writeLine 
+00e16 5c                        
+00e17 8900                      
+00e19 41ff                      
+00e1b 2e8047                   71:close 
+00e1e 5c                        
+00e1f 38                        
+00e20 6c                        
+00e21 7c802b0c0c               43:createManualRegionInfoFile 
+00e26 5c                        
+00e27 5c                        
+00e28 6d                        
+00e29 428001                   1:regionInfo 
+00e2c 37                        
+00e2d 3f0279                    
+00e30 23ffff22007900           65535:<special> 
+00e37 60026e                    
+00e3a 6d                        
+00e3b 42800c                   12:maxLangCnt 
+00e3e 8901                      
+00e40 5d                        
+00e41 558013                   19:Array 
+00e44 6d                        
+00e45 648002                   2:langArray 
+00e48 5c                        
+00e49 8910                      
+00e4b 6a61726100                'ara'
+00e50 8902                      
+00e52 6d                        
+00e53 558012                   18:LanguageData 
+00e56 6d                        
+00e57 428002                   2:langArray 
+00e5a 8900                      
+00e5c 65                        
+00e5d 5c                        
+00e5e 8920                      
+00e60 6a637a6500                'cze'
+00e65 8902                      
+00e67 6d                        
+00e68 558012                   18:LanguageData 
+00e6b 6d                        
+00e6c 428002                   2:langArray 
+00e6f 8901                      
+00e71 65                        
+00e72 5c                        
+00e73 8940                      
+00e75 6a64616e00                'dan'
+00e7a 8902                      
+00e7c 6d                        
+00e7d 558012                   18:LanguageData 
+00e80 6d                        
+00e81 428002                   2:langArray 
+00e84 8902                      
+00e86 65                        
+00e87 5c                        
+00e88 8a0080                    
+00e8b 6a64757400                'dut'
+00e90 8902                      
+00e92 6d                        
+00e93 558012                   18:LanguageData 
+00e96 6d                        
+00e97 428002                   2:langArray 
+00e9a 8903                      
+00e9c 65                        
+00e9d 5c                        
+00e9e 8a0100                    
+00ea1 6a656e6700                'eng'
+00ea6 8902                      
+00ea8 6d                        
+00ea9 558012                   18:LanguageData 
+00eac 6d                        
+00ead 428002                   2:langArray 
+00eb0 8904                      
+00eb2 65                        
+00eb3 5c                        
+00eb4 8a0200                    
+00eb7 6a66696e00                'fin'
+00ebc 8902                      
+00ebe 6d                        
+00ebf 558012                   18:LanguageData 
+00ec2 6d                        
+00ec3 428002                   2:langArray 
+00ec6 8905                      
+00ec8 65                        
+00ec9 5c                        
+00eca 8a0400                    
+00ecd 6a66726500                'fre'
+00ed2 8902                      
+00ed4 6d                        
+00ed5 558012                   18:LanguageData 
+00ed8 6d                        
+00ed9 428002                   2:langArray 
+00edc 8906                      
+00ede 65                        
+00edf 5c                        
+00ee0 8a0800                    
+00ee3 6a67657200                'ger'
+00ee8 8902                      
+00eea 6d                        
+00eeb 558012                   18:LanguageData 
+00eee 6d                        
+00eef 428002                   2:langArray 
+00ef2 8907                      
+00ef4 65                        
+00ef5 5c                        
+00ef6 8a1000                    
+00ef9 6a67726500                'gre'
+00efe 8902                      
+00f00 6d                        
+00f01 558012                   18:LanguageData 
+00f04 6d                        
+00f05 428002                   2:langArray 
+00f08 8908                      
+00f0a 65                        
+00f0b 5c                        
+00f0c 8a2000                    
+00f0f 6a68756e00                'hun'
+00f14 8902                      
+00f16 6d                        
+00f17 558012                   18:LanguageData 
+00f1a 6d                        
+00f1b 428002                   2:langArray 
+00f1e 8909                      
+00f20 65                        
+00f21 5c                        
+00f22 8a4000                    
+00f25 6a69746100                'ita'
+00f2a 8902                      
+00f2c 6d                        
+00f2d 558012                   18:LanguageData 
+00f30 6d                        
+00f31 428002                   2:langArray 
+00f34 890a                      
+00f36 65                        
+00f37 5c                        
+00f38 4800008000                
+00f3d 6a6a706e00                'jpn'
+00f42 8902                      
+00f44 6d                        
+00f45 558012                   18:LanguageData 
+00f48 6d                        
+00f49 428002                   2:langArray 
+00f4c 890b                      
+00f4e 65                        
+00f4f 5c                        
+00f50 4800010000                
+00f55 6a6b6f7200                'kor'
+00f5a 8902                      
+00f5c 6d                        
+00f5d 558012                   18:LanguageData 
+00f60 6d                        
+00f61 428002                   2:langArray 
+00f64 890c                      
+00f66 65                        
+00f67 5c                        
+00f68 4800020000                
+00f6d 6a6d616c00                'mal'
+00f72 8902                      
+00f74 6d                        
+00f75 558012                   18:LanguageData 
+00f78 6d                        
+00f79 428002                   2:langArray 
+00f7c 890d                      
+00f7e 65                        
+00f7f 5c                        
+00f80 4800040000                
+00f85 6a6e6f7200                'nor'
+00f8a 8902                      
+00f8c 6d                        
+00f8d 558012                   18:LanguageData 
+00f90 6d                        
+00f91 428002                   2:langArray 
+00f94 890e                      
+00f96 65                        
+00f97 5c                        
+00f98 4800080000                
+00f9d 6a70657200                'per'
+00fa2 8902                      
+00fa4 6d                        
+00fa5 558012                   18:LanguageData 
+00fa8 6d                        
+00fa9 428002                   2:langArray 
+00fac 890f                      
+00fae 65                        
+00faf 5c                        
+00fb0 4800100000                
+00fb5 6a706f6c00                'pol'
+00fba 8902                      
+00fbc 6d                        
+00fbd 558012                   18:LanguageData 
+00fc0 6d                        
+00fc1 428002                   2:langArray 
+00fc4 8910                      
+00fc6 65                        
+00fc7 5c                        
+00fc8 4800200000                
+00fcd 6a706f7200                'por'
+00fd2 8902                      
+00fd4 6d                        
+00fd5 558012                   18:LanguageData 
+00fd8 6d                        
+00fd9 428002                   2:langArray 
+00fdc 8911                      
+00fde 65                        
+00fdf 5c                        
+00fe0 4800400000                
+00fe5 6a72757300                'rus'
+00fea 8902                      
+00fec 6d                        
+00fed 558012                   18:LanguageData 
+00ff0 6d                        
+00ff1 428002                   2:langArray 
+00ff4 8912                      
+00ff6 65                        
+00ff7 5c                        
+00ff8 4800800000                
+00ffd 6a73636800                'sch'
+01002 8902                      
+01004 6d                        
+01005 558012                   18:LanguageData 
+01008 6d                        
+01009 428002                   2:langArray 
+0100c 8913                      
+0100e 65                        
+0100f 5c                        
+01010 4801000000                
+01015 6a73706100                'spa'
+0101a 8902                      
+0101c 6d                        
+0101d 558012                   18:LanguageData 
+01020 6d                        
+01021 428002                   2:langArray 
+01024 8914                      
+01026 65                        
+01027 5c                        
+01028 4802000000                
+0102d 6a73776500                'swe'
+01032 8902                      
+01034 6d                        
+01035 558012                   18:LanguageData 
+01038 6d                        
+01039 428002                   2:langArray 
+0103c 8915                      
+0103e 65                        
+0103f 5c                        
+01040 4804000000                
+01045 6a74636800                'tch'
+0104a 8902                      
+0104c 6d                        
+0104d 558012                   18:LanguageData 
+01050 6d                        
+01051 428002                   2:langArray 
+01054 8916                      
+01056 65                        
+01057 5c                        
+01058 4808000000                
+0105d 6a74686100                'tha'
+01062 8902                      
+01064 6d                        
+01065 558012                   18:LanguageData 
+01068 6d                        
+01069 428002                   2:langArray 
+0106c 8917                      
+0106e 65                        
+0106f 5c                        
+01070 4810000000                
+01075 6a74757200                'tur'
+0107a 8902                      
+0107c 6d                        
+0107d 558012                   18:LanguageData 
+01080 6d                        
+01081 428002                   2:langArray 
+01084 8918                      
+01086 65                        
+01087 5c                        
+01088 6a5b726567696f6e496e666f506174685d00  '[regionInfoPath]'
+0109a 8901                      
+0109c 5d                        
+0109d 428014                   20:System 
+010a0 2e8015                   21:applyEnvironment 
+010a3 6d                        
+010a4 648003                   3:path 
+010a7 5c                        
+010a8 38                        
+010a9 6c                        
+010aa 7c80160c0c               22:initialize 
+010af 5c                        
+010b0 37                        
+010b1 3f01a2                    
+010b4 23ffff2201803679018003   65535:<special> 54:regionID 3:path 
+010bf 600193                    
+010c2 6a00                      ''
+010c4 63ff                      
+010c6 5c                        
+010c7 4100                      
+010c9 37                        
+010ca 8900                      
+010cc 69                        
+010cd 290042                    
+010d0 37                        
+010d1 8902                      
+010d3 69                        
+010d4 29005a                    
+010d7 37                        
+010d8 8903                      
+010da 69                        
+010db 290072                    
+010de 37                        
+010df 8904                      
+010e1 69                        
+010e2 29008a                    
+010e5 37                        
+010e6 8905                      
+010e8 69                        
+010e9 2900a2                    
+010ec 37                        
+010ed 8907                      
+010ef 69                        
+010f0 2900ba                    
+010f3 37                        
+010f4 8909                      
+010f6 69                        
+010f7 2900d2                    
+010fa 37                        
+010fb 890c                      
+010fd 69                        
+010fe 2900ea                    
+01101 37                        
+01102 890d                      
+01104 69                        
+01105 290102                    
+01108 37                        
+01109 890e                      
+0110b 69                        
+0110c 29011a                    
+0110f 280136                    
+01112 6a526567696f6e496e666f5f4a504e5f315f4e542e786d6c00  'RegionInfo_JPN_1_NT.xml'
+0112b 63ff                      
+0112d 5c                        
+0112e 28011f                    
+01131 6a526567696f6e496e666f5f454e475f325f4e542e786d6c00  'RegionInfo_ENG_2_NT.xml'
+0114a 63ff                      
+0114c 5c                        
+0114d 280100                    
+01150 6a526567696f6e496e666f5f454e475f325f4e542e786d6c00  'RegionInfo_ENG_2_NT.xml'
+01169 63ff                      
+0116b 5c                        
+0116c 2800e1                    
+0116f 6a526567696f6e496e666f5f5255535f335f50412e786d6c00  'RegionInfo_RUS_3_PA.xml'
+01188 63ff                      
+0118a 5c                        
+0118b 2800c2                    
+0118e 6a526567696f6e496e666f5f454e475f355f50412e786d6c00  'RegionInfo_ENG_5_PA.xml'
+011a7 63ff                      
+011a9 5c                        
+011aa 2800a3                    
+011ad 6a526567696f6e496e666f5f454e475f355f50412e786d6c00  'RegionInfo_ENG_5_PA.xml'
+011c6 63ff                      
+011c8 5c                        
+011c9 280084                    
+011cc 6a526567696f6e496e666f5f454e475f345f50412e786d6c00  'RegionInfo_ENG_4_PA.xml'
+011e5 63ff                      
+011e7 5c                        
+011e8 280065                    
+011eb 6a526567696f6e496e666f5f454e475f345f50412e786d6c00  'RegionInfo_ENG_4_PA.xml'
+01204 63ff                      
+01206 5c                        
+01207 280046                    
+0120a 6a526567696f6e496e666f5f5343485f345f50412e786d6c00  'RegionInfo_SCH_4_PA.xml'
+01223 63ff                      
+01225 5c                        
+01226 280027                    
+01229 6a526567696f6e496e666f5f4b4f525f345f4e542e786d6c00  'RegionInfo_KOR_4_NT.xml'
+01242 63ff                      
+01244 5c                        
+01245 280008                    
+01248 6a00                      ''
+0124a 63ff                      
+0124c 5c                        
+0124d 280000                    
+01250 5c                        
+01251 41ff                      
+01253 80                        
+01254 5f                        
+01255 38                        
+01256 6c                        
+01257 7c80210c0c               33:getRegionInfoFile 
+0125c 5c                        
+0125d 5c                        
+0125e 5c                        
+0125f 8900                      
+01261 6d                        
+01262 558000                   0:Object 
+01265 37                        
+01266 59                        
+01267 6c                        
+01268 64804a                   74:http://www.kinoma.com/fskin/1 
+0126b 5c                        
+0126c 8901                      
+0126e 6d                        
+0126f 2e804b                   75:__xs__prefix 
+01272 5c                        
+01273 8900                      
+01275 6d                        
+01276 558000                   0:Object 
+01279 37                        
+0127a 59                        
+0127b 6c                        
+0127c 64804a                   74:http://www.kinoma.com/fskin/1 
+0127f 5c                        
+01280 8901                      
+01282 6d                        
+01283 2e804b                   75:__xs__prefix 
+01286 5c                        
+01287 8900                      
+01289 6d                        
+0128a 558000                   0:Object 
+0128d 37                        
+0128e 59                        
+0128f 6c                        
+01290 64ffff                   65535:<special> 
+01293 5c                        
+01294 6d                        
+01295 428001                   1:regionInfo 
+01298 8902                      
+0129a 6d                        
+0129b 2e804c                   76:__xs__pattern 
+0129e 5c                        
+0129f 8900                      
+012a1 6d                        
+012a2 558000                   0:Object 
+012a5 37                        
+012a6 59                        
+012a7 6c                        
+012a8 64ffff                   65535:<special> 
+012ab 5c                        
+012ac 37                        
+012ad 6d                        
+012ae 428004                   4:__xs__string 
+012b1 8302804a804dffff804e     74:http://www.kinoma.com/fskin/1 77:lang 65535:<special> 78:. 
+012bb 6c                        
+012bc 64800e                   14:langName 
+012bf 5c                        
+012c0 37                        
+012c1 6d                        
+012c2 42800b                   11:__xs__number 
+012c5 8302804a800fffff804e     74:http://www.kinoma.com/fskin/1 15:value 65535:<special> 78:. 
+012cf 6c                        
+012d0 64800f                   15:value 
+012d3 5c                        
+012d4 6d                        
+012d5 428001                   1:regionInfo 
+012d8 42800d                   13:languageData 
+012db 8902                      
+012dd 6d                        
+012de 2e804c                   76:__xs__pattern 
+012e1 5c                        
+012e2 8900                      
+012e4 6d                        
+012e5 558000                   0:Object 
+012e8 37                        
+012e9 59                        
+012ea 6c                        
+012eb 64804a                   74:http://www.kinoma.com/fskin/1 
+012ee 5c                        
+012ef 8901                      
+012f1 6d                        
+012f2 2e804b                   75:__xs__prefix 
+012f5 5c                        
+012f6 8900                      
+012f8 6d                        
+012f9 2e804f                   79:__xs__link 
+012fc 5c                        
+012fd 38                        
+012fe 20                        

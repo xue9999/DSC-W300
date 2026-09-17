@@ -1,0 +1,12 @@
+{
+  "scope": "Portability review and validation",
+  "review": "No service entry, calibration access or settings-write capability added",
+  "resolved": [
+    "Explicit UTF-8 console output fixes redirected Polish-path failure",
+    "Normalize subprocess environment keys and replace PSMODULEPATH consistently"
+  ],
+  "final_result": "Relocated release2 selftest and inventory pass",
+  "camera_communication_verified": false,
+  "language_operation_verified": false,
+  "original_goal_complete": false
+}

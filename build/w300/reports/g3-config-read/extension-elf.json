@@ -1,0 +1,1821 @@
+{
+  "path": "evidence/extracted_g3/archives_unpacked/fskrel1/dsc/fsk/PExtBackup.so",
+  "sha256": "8c4eb1eec33464e2297dda4ce6461f9bb94a137928368a76d33eb463ae6b02dd",
+  "sections": [
+    {
+      "index": 0,
+      "name": "",
+      "type": 0,
+      "flags": 0,
+      "va": 0,
+      "off": 0,
+      "size": 0,
+      "link": 0,
+      "info": 0,
+      "entsize": 0
+    },
+    {
+      "index": 1,
+      "name": ".hash",
+      "type": 5,
+      "flags": 2,
+      "va": 180,
+      "off": 180,
+      "size": 844,
+      "link": 2,
+      "info": 0,
+      "entsize": 4
+    },
+    {
+      "index": 2,
+      "name": ".dynsym",
+      "type": 11,
+      "flags": 2,
+      "va": 1024,
+      "off": 1024,
+      "size": 1792,
+      "link": 3,
+      "info": 10,
+      "entsize": 16
+    },
+    {
+      "index": 3,
+      "name": ".dynstr",
+      "type": 3,
+      "flags": 2,
+      "va": 2816,
+      "off": 2816,
+      "size": 1335,
+      "link": 0,
+      "info": 0,
+      "entsize": 0
+    },
+    {
+      "index": 4,
+      "name": ".rel.dyn",
+      "type": 9,
+      "flags": 2,
+      "va": 4152,
+      "off": 4152,
+      "size": 272,
+      "link": 2,
+      "info": 0,
+      "entsize": 8
+    },
+    {
+      "index": 5,
+      "name": ".rel.plt",
+      "type": 9,
+      "flags": 2,
+      "va": 4424,
+      "off": 4424,
+      "size": 424,
+      "link": 2,
+      "info": 7,
+      "entsize": 8
+    },
+    {
+      "index": 6,
+      "name": ".init",
+      "type": 1,
+      "flags": 6,
+      "va": 4848,
+      "off": 4848,
+      "size": 4,
+      "link": 0,
+      "info": 0,
+      "entsize": 0
+    },
+    {
+      "index": 7,
+      "name": ".plt",
+      "type": 1,
+      "flags": 6,
+      "va": 4852,
+      "off": 4852,
+      "size": 656,
+      "link": 0,
+      "info": 0,
+      "entsize": 4
+    },
+    {
+      "index": 8,
+      "name": ".text",
+      "type": 1,
+      "flags": 6,
+      "va": 5508,
+      "off": 5508,
+      "size": 9704,
+      "link": 0,
+      "info": 0,
+      "entsize": 0
+    },
+    {
+      "index": 9,
+      "name": ".fini",
+      "type": 1,
+      "flags": 6,
+      "va": 15212,
+      "off": 15212,
+      "size": 4,
+      "link": 0,
+      "info": 0,
+      "entsize": 0
+    },
+    {
+      "index": 10,
+      "name": ".rodata",
+      "type": 1,
+      "flags": 50,
+      "va": 15216,
+      "off": 15216,
+      "size": 169,
+      "link": 0,
+      "info": 0,
+      "entsize": 1
+    },
+    {
+      "index": 11,
+      "name": ".note.ABI-tag",
+      "type": 7,
+      "flags": 2,
+      "va": 15388,
+      "off": 15388,
+      "size": 32,
+      "link": 0,
+      "info": 0,
+      "entsize": 0
+    },
+    {
+      "index": 12,
+      "name": ".eh_frame",
+      "type": 1,
+      "flags": 3,
+      "va": 49152,
+      "off": 16384,
+      "size": 4,
+      "link": 0,
+      "info": 0,
+      "entsize": 0
+    },
+    {
+      "index": 13,
+      "name": ".ctors",
+      "type": 1,
+      "flags": 3,
+      "va": 49156,
+      "off": 16388,
+      "size": 8,
+      "link": 0,
+      "info": 0,
+      "entsize": 0
+    },
+    {
+      "index": 14,
+      "name": ".dtors",
+      "type": 1,
+      "flags": 3,
+      "va": 49164,
+      "off": 16396,
+      "size": 8,
+      "link": 0,
+      "info": 0,
+      "entsize": 0
+    },
+    {
+      "index": 15,
+      "name": ".dynamic",
+      "type": 6,
+      "flags": 3,
+      "va": 49172,
+      "off": 16404,
+      "size": 200,
+      "link": 3,
+      "info": 0,
+      "entsize": 8
+    },
+    {
+      "index": 16,
+      "name": ".got",
+      "type": 1,
+      "flags": 3,
+      "va": 49372,
+      "off": 16604,
+      "size": 272,
+      "link": 0,
+      "info": 0,
+      "entsize": 4
+    },
+    {
+      "index": 17,
+      "name": ".data",
+      "type": 1,
+      "flags": 3,
+      "va": 49644,
+      "off": 16876,
+      "size": 6156,
+      "link": 0,
+      "info": 0,
+      "entsize": 0
+    },
+    {
+      "index": 18,
+      "name": ".bss",
+      "type": 8,
+      "flags": 3,
+      "va": 55800,
+      "off": 23032,
+      "size": 72,
+      "link": 0,
+      "info": 0,
+      "entsize": 0
+    },
+    {
+      "index": 19,
+      "name": ".comment",
+      "type": 1,
+      "flags": 0,
+      "va": 0,
+      "off": 23032,
+      "size": 108,
+      "link": 0,
+      "info": 0,
+      "entsize": 0
+    },
+    {
+      "index": 20,
+      "name": ".shstrtab",
+      "type": 3,
+      "flags": 0,
+      "va": 0,
+      "off": 23140,
+      "size": 149,
+      "link": 0,
+      "info": 0,
+      "entsize": 0
+    }
+  ],
+  "symbols": [
+    {
+      "name": "__ps_strings",
+      "value": 55800,
+      "size": 4,
+      "type": 1,
+      "section_index": 18,
+      "section": ".bss"
+    },
+    {
+      "name": "fxCheckArg",
+      "value": 0,
+      "size": 0,
+      "type": 0,
+      "section_index": 0
+    },
+    {
+      "name": "Bkup_refresh_async",
+      "value": 0,
+      "size": 180,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "__register_frame_info",
+      "value": 0,
+      "size": 0,
+      "type": 0,
+      "section_index": 0
+    },
+    {
+      "name": "xs_backup_erase",
+      "value": 11612,
+      "size": 756,
+      "type": 2,
+      "section_index": 8,
+      "section": ".text",
+      "file_offset": 11612
+    },
+    {
+      "name": "xs_backup_final",
+      "value": 7308,
+      "size": 172,
+      "type": 2,
+      "section_index": 8,
+      "section": ".text",
+      "file_offset": 7308
+    },
+    {
+      "name": "_start",
+      "value": 5508,
+      "size": 0,
+      "type": 0,
+      "section_index": 8,
+      "section": ".text",
+      "file_offset": 5508
+    },
+    {
+      "name": "fxUndefined",
+      "value": 0,
+      "size": 0,
+      "type": 0,
+      "section_index": 0
+    },
+    {
+      "name": "fxNewHostObject",
+      "value": 0,
+      "size": 0,
+      "type": 0,
+      "section_index": 0
+    },
+    {
+      "name": "fxNewHostFunction",
+      "value": 0,
+      "size": 0,
+      "type": 0,
+      "section_index": 0
+    },
+    {
+      "name": "Bkup_flush_async",
+      "value": 0,
+      "size": 308,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "xs_backup_read",
+      "value": 7824,
+      "size": 1444,
+      "type": 2,
+      "section_index": 8,
+      "section": ".text",
+      "file_offset": 7824
+    },
+    {
+      "name": "fxNewInstanceOf",
+      "value": 0,
+      "size": 0,
+      "type": 0,
+      "section_index": 0
+    },
+    {
+      "name": "fxOverflow",
+      "value": 0,
+      "size": 0,
+      "type": 0,
+      "section_index": 0
+    },
+    {
+      "name": "FskThreadPostCallback",
+      "value": 0,
+      "size": 0,
+      "type": 0,
+      "section_index": 0
+    },
+    {
+      "name": "__progname",
+      "value": 0,
+      "size": 4,
+      "type": 1,
+      "section_index": 0
+    },
+    {
+      "name": "_fini",
+      "value": 6092,
+      "size": 132,
+      "type": 2,
+      "section_index": 8,
+      "section": ".text",
+      "file_offset": 6092
+    },
+    {
+      "name": "backup_handler",
+      "value": 14044,
+      "size": 492,
+      "type": 2,
+      "section_index": 8,
+      "section": ".text",
+      "file_offset": 14044
+    },
+    {
+      "name": "backup_detect_callback",
+      "value": 15120,
+      "size": 92,
+      "type": 2,
+      "section_index": 8,
+      "section": ".text",
+      "file_offset": 15120
+    },
+    {
+      "name": "__cxa_finalize",
+      "value": 0,
+      "size": 412,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "malloc",
+      "value": 0,
+      "size": 376,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "___start",
+      "value": 5672,
+      "size": 272,
+      "type": 2,
+      "section_index": 8,
+      "section": ".text",
+      "file_offset": 5672
+    },
+    {
+      "name": "fxString",
+      "value": 0,
+      "size": 0,
+      "type": 0,
+      "section_index": 0
+    },
+    {
+      "name": "fxToString",
+      "value": 0,
+      "size": 0,
+      "type": 0,
+      "section_index": 0
+    },
+    {
+      "name": "xs_backup_stop",
+      "value": 7652,
+      "size": 172,
+      "type": 2,
+      "section_index": 8,
+      "section": ".text",
+      "file_offset": 7652
+    },
+    {
+      "name": "fxSetID",
+      "value": 0,
+      "size": 0,
+      "type": 0,
+      "section_index": 0
+    },
+    {
+      "name": "atexit",
+      "value": 0,
+      "size": 12,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "_rtld_setup",
+      "value": 5556,
+      "size": 116,
+      "type": 2,
+      "section_index": 8,
+      "section": ".text",
+      "file_offset": 5556
+    },
+    {
+      "name": "_exit",
+      "value": 0,
+      "size": 16,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "__data_start",
+      "value": 49644,
+      "size": 0,
+      "type": 0,
+      "section_index": 17,
+      "section": ".data",
+      "file_offset": 16876
+    },
+    {
+      "name": "Bkup_start",
+      "value": 0,
+      "size": 136,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "__bss_start__",
+      "value": 55800,
+      "size": 0,
+      "type": 0,
+      "section_index": 65521
+    },
+    {
+      "name": "Bkup_init",
+      "value": 0,
+      "size": 1264,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "fxTypeOf",
+      "value": 0,
+      "size": 0,
+      "type": 0,
+      "section_index": 0
+    },
+    {
+      "name": "setjmp",
+      "value": 0,
+      "size": 8,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "fxPutID",
+      "value": 0,
+      "size": 0,
+      "type": 0,
+      "section_index": 0
+    },
+    {
+      "name": "fxBeginHost",
+      "value": 0,
+      "size": 0,
+      "type": 0,
+      "section_index": 0
+    },
+    {
+      "name": "Bkup_detectFalsification",
+      "value": 0,
+      "size": 240,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "fskLoad",
+      "value": 7020,
+      "size": 20,
+      "type": 2,
+      "section_index": 8,
+      "section": ".text",
+      "file_offset": 7020
+    },
+    {
+      "name": "Bkup_getDataSize",
+      "value": 0,
+      "size": 112,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "xs_backup_refresh",
+      "value": 10856,
+      "size": 756,
+      "type": 2,
+      "section_index": 8,
+      "section": ".text",
+      "file_offset": 10856
+    },
+    {
+      "name": "write",
+      "value": 0,
+      "size": 16,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "xs_backup_flush",
+      "value": 10100,
+      "size": 756,
+      "type": 2,
+      "section_index": 8,
+      "section": ".text",
+      "file_offset": 10100
+    },
+    {
+      "name": "PExtBackupGrammar",
+      "value": 55772,
+      "size": 24,
+      "type": 1,
+      "section_index": 17,
+      "section": ".data",
+      "file_offset": 23004
+    },
+    {
+      "name": "__start",
+      "value": 5508,
+      "size": 0,
+      "type": 0,
+      "section_index": 8,
+      "section": ".text",
+      "file_offset": 5508
+    },
+    {
+      "name": "fxID",
+      "value": 0,
+      "size": 0,
+      "type": 0,
+      "section_index": 0
+    },
+    {
+      "name": "__end__",
+      "value": 55872,
+      "size": 0,
+      "type": 0,
+      "section_index": 65521
+    },
+    {
+      "name": "fxCallID",
+      "value": 0,
+      "size": 0,
+      "type": 0,
+      "section_index": 0
+    },
+    {
+      "name": "__bss_end__",
+      "value": 55872,
+      "size": 0,
+      "type": 0,
+      "section_index": 65521
+    },
+    {
+      "name": "backup_detect_handler",
+      "value": 14628,
+      "size": 492,
+      "type": 2,
+      "section_index": 8,
+      "section": ".text",
+      "file_offset": 14628
+    },
+    {
+      "name": "initialize_malloc",
+      "value": 0,
+      "size": 52,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "noteABI",
+      "value": 15388,
+      "size": 32,
+      "type": 1,
+      "section_index": 11,
+      "section": ".note.ABI-tag",
+      "file_offset": 15388
+    },
+    {
+      "name": "_dladdr",
+      "value": 0,
+      "size": 0,
+      "type": 0,
+      "section_index": 0
+    },
+    {
+      "name": "_dlsym",
+      "value": 0,
+      "size": 0,
+      "type": 0,
+      "section_index": 0
+    },
+    {
+      "name": "_dlclose",
+      "value": 0,
+      "size": 0,
+      "type": 0,
+      "section_index": 0
+    },
+    {
+      "name": "_dlerror",
+      "value": 0,
+      "size": 0,
+      "type": 0,
+      "section_index": 0
+    },
+    {
+      "name": "__bss_start",
+      "value": 55800,
+      "size": 0,
+      "type": 0,
+      "section_index": 65521
+    },
+    {
+      "name": "environ",
+      "value": 0,
+      "size": 4,
+      "type": 1,
+      "section_index": 0
+    },
+    {
+      "name": "xs_backup_start",
+      "value": 7480,
+      "size": 172,
+      "type": 2,
+      "section_index": 8,
+      "section": ".text",
+      "file_offset": 7480
+    },
+    {
+      "name": "FskThreadGetCurrent",
+      "value": 0,
+      "size": 0,
+      "type": 0,
+      "section_index": 0
+    },
+    {
+      "name": "xs_backup_detectFalsification",
+      "value": 13436,
+      "size": 524,
+      "type": 2,
+      "section_index": 8,
+      "section": ".text",
+      "file_offset": 13436
+    },
+    {
+      "name": "_bss_end__",
+      "value": 55872,
+      "size": 0,
+      "type": 0,
+      "section_index": 65521
+    },
+    {
+      "name": "Bkup_resetCom",
+      "value": 0,
+      "size": 156,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "_dlopen",
+      "value": 0,
+      "size": 0,
+      "type": 0,
+      "section_index": 0
+    },
+    {
+      "name": "xs_backup_init",
+      "value": 7060,
+      "size": 248,
+      "type": 2,
+      "section_index": 8,
+      "section": ".text",
+      "file_offset": 7060
+    },
+    {
+      "name": "Bkup_read",
+      "value": 0,
+      "size": 40,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "xs_backup_getState",
+      "value": 12368,
+      "size": 84,
+      "type": 2,
+      "section_index": 8,
+      "section": ".text",
+      "file_offset": 12368
+    },
+    {
+      "name": "fxVars",
+      "value": 0,
+      "size": 0,
+      "type": 0,
+      "section_index": 0
+    },
+    {
+      "name": "Bkup_pread",
+      "value": 0,
+      "size": 112,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "Bkup_getState",
+      "value": 0,
+      "size": 20,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "Bkup_reset",
+      "value": 0,
+      "size": 176,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "fxToInteger",
+      "value": 0,
+      "size": 0,
+      "type": 0,
+      "section_index": 0
+    },
+    {
+      "name": "_end",
+      "value": 55872,
+      "size": 0,
+      "type": 0,
+      "section_index": 65521
+    },
+    {
+      "name": "Bkup_getDataKind",
+      "value": 0,
+      "size": 112,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "fxInteger",
+      "value": 0,
+      "size": 0,
+      "type": 0,
+      "section_index": 0
+    },
+    {
+      "name": "__mainprog_obj",
+      "value": 55868,
+      "size": 4,
+      "type": 1,
+      "section_index": 18,
+      "section": ".bss"
+    },
+    {
+      "name": "exit",
+      "value": 0,
+      "size": 76,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "slibc_pthread_initialize",
+      "value": 0,
+      "size": 8,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "fxNewHostConstructor",
+      "value": 0,
+      "size": 0,
+      "type": 0,
+      "section_index": 0
+    },
+    {
+      "name": "_libnsl_lock_init",
+      "value": 0,
+      "size": 268,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "Bkup_stop",
+      "value": 0,
+      "size": 164,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "fxCheckVar",
+      "value": 0,
+      "size": 0,
+      "type": 0,
+      "section_index": 0
+    },
+    {
+      "name": "Bkup_pwrite",
+      "value": 0,
+      "size": 72,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "Bkup_recoverFalsification",
+      "value": 0,
+      "size": 148,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "Bkup_write",
+      "value": 0,
+      "size": 36,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "xs_backup_write",
+      "value": 9268,
+      "size": 832,
+      "type": 2,
+      "section_index": 8,
+      "section": ".text",
+      "file_offset": 9268
+    },
+    {
+      "name": "Bkup_final",
+      "value": 0,
+      "size": 744,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "free",
+      "value": 0,
+      "size": 152,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "_edata",
+      "value": 55800,
+      "size": 0,
+      "type": 0,
+      "section_index": 65521
+    },
+    {
+      "name": "xs_backup_recoverFalsification",
+      "value": 13960,
+      "size": 84,
+      "type": 2,
+      "section_index": 8,
+      "section": ".text",
+      "file_offset": 13960
+    },
+    {
+      "name": "fskUnload",
+      "value": 7040,
+      "size": 20,
+      "type": 2,
+      "section_index": 8,
+      "section": ".text",
+      "file_offset": 7040
+    },
+    {
+      "name": "puts",
+      "value": 0,
+      "size": 180,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "backup_callback",
+      "value": 14536,
+      "size": 92,
+      "type": 2,
+      "section_index": 8,
+      "section": ".text",
+      "file_offset": 14536
+    },
+    {
+      "name": "fskGrammar",
+      "value": 55796,
+      "size": 4,
+      "type": 1,
+      "section_index": 17,
+      "section": ".data",
+      "file_offset": 23028
+    },
+    {
+      "name": "xs_backup_reset",
+      "value": 12452,
+      "size": 492,
+      "type": 2,
+      "section_index": 8,
+      "section": ".text",
+      "file_offset": 12452
+    },
+    {
+      "name": "main",
+      "value": 0,
+      "size": 0,
+      "type": 0,
+      "section_index": 0
+    },
+    {
+      "name": "fxEndHost",
+      "value": 0,
+      "size": 0,
+      "type": 0,
+      "section_index": 0
+    },
+    {
+      "name": "_DYNAMIC",
+      "value": 49172,
+      "size": 0,
+      "type": 1,
+      "section_index": 65521
+    },
+    {
+      "name": "_init",
+      "value": 5944,
+      "size": 148,
+      "type": 2,
+      "section_index": 8,
+      "section": ".text",
+      "file_offset": 5944
+    },
+    {
+      "name": "Bkup_erase_async",
+      "value": 0,
+      "size": 180,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "__deregister_frame_info",
+      "value": 0,
+      "size": 0,
+      "type": 0,
+      "section_index": 0
+    },
+    {
+      "name": "xs_backup_resetCom",
+      "value": 12944,
+      "size": 492,
+      "type": 2,
+      "section_index": 8,
+      "section": ".text",
+      "file_offset": 12944
+    }
+  ],
+  "relocations": [
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 49604,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 49608,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 49612,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 49620,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 49624,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 49632,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 49636,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 49644,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 55648,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 55656,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 55664,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 55672,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 55680,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 55688,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 55696,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 55704,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 55712,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 55720,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 55728,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 55736,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 55744,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 55752,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 55760,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 55768,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 55772,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 55776,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 55784,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 55792,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 55796,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 49596,
+      "type": 21,
+      "symbol": "__register_frame_info",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 49600,
+      "type": 21,
+      "symbol": "__progname",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 49616,
+      "type": 21,
+      "symbol": "__cxa_finalize",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 49628,
+      "type": 21,
+      "symbol": "environ",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 49640,
+      "type": 21,
+      "symbol": "__deregister_frame_info",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 49384,
+      "type": 22,
+      "symbol": "fxCheckArg",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 49388,
+      "type": 22,
+      "symbol": "Bkup_refresh_async",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 49392,
+      "type": 22,
+      "symbol": "fxUndefined",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 49396,
+      "type": 22,
+      "symbol": "fxNewHostObject",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 49400,
+      "type": 22,
+      "symbol": "fxNewHostFunction",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 49404,
+      "type": 22,
+      "symbol": "Bkup_flush_async",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 49408,
+      "type": 22,
+      "symbol": "fxNewInstanceOf",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 49412,
+      "type": 22,
+      "symbol": "fxOverflow",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 49416,
+      "type": 22,
+      "symbol": "FskThreadPostCallback",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 49420,
+      "type": 22,
+      "symbol": "malloc",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 49424,
+      "type": 22,
+      "symbol": "fxString",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 49428,
+      "type": 22,
+      "symbol": "fxToString",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 49432,
+      "type": 22,
+      "symbol": "fxSetID",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 49436,
+      "type": 22,
+      "symbol": "atexit",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 49440,
+      "type": 22,
+      "symbol": "_exit",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 49444,
+      "type": 22,
+      "symbol": "Bkup_start",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 49448,
+      "type": 22,
+      "symbol": "Bkup_init",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 49452,
+      "type": 22,
+      "symbol": "fxTypeOf",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 49456,
+      "type": 22,
+      "symbol": "setjmp",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 49460,
+      "type": 22,
+      "symbol": "fxPutID",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 49464,
+      "type": 22,
+      "symbol": "fxBeginHost",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 49468,
+      "type": 22,
+      "symbol": "Bkup_detectFalsification",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 49472,
+      "type": 22,
+      "symbol": "Bkup_getDataSize",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 49476,
+      "type": 22,
+      "symbol": "write",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 49480,
+      "type": 22,
+      "symbol": "fxID",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 49484,
+      "type": 22,
+      "symbol": "fxCallID",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 49488,
+      "type": 22,
+      "symbol": "initialize_malloc",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 49492,
+      "type": 22,
+      "symbol": "FskThreadGetCurrent",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 49496,
+      "type": 22,
+      "symbol": "Bkup_resetCom",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 49500,
+      "type": 22,
+      "symbol": "Bkup_read",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 49504,
+      "type": 22,
+      "symbol": "fxVars",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 49508,
+      "type": 22,
+      "symbol": "Bkup_pread",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 49512,
+      "type": 22,
+      "symbol": "Bkup_getState",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 49516,
+      "type": 22,
+      "symbol": "Bkup_reset",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 49520,
+      "type": 22,
+      "symbol": "fxToInteger",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 49524,
+      "type": 22,
+      "symbol": "Bkup_getDataKind",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 49528,
+      "type": 22,
+      "symbol": "fxInteger",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 49532,
+      "type": 22,
+      "symbol": "exit",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 49536,
+      "type": 22,
+      "symbol": "slibc_pthread_initialize",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 49540,
+      "type": 22,
+      "symbol": "fxNewHostConstructor",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 49544,
+      "type": 22,
+      "symbol": "_libnsl_lock_init",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 49548,
+      "type": 22,
+      "symbol": "Bkup_stop",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 49552,
+      "type": 22,
+      "symbol": "fxCheckVar",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 49556,
+      "type": 22,
+      "symbol": "Bkup_pwrite",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 49560,
+      "type": 22,
+      "symbol": "Bkup_recoverFalsification",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 49564,
+      "type": 22,
+      "symbol": "Bkup_write",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 49568,
+      "type": 22,
+      "symbol": "Bkup_final",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 49572,
+      "type": 22,
+      "symbol": "free",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 49576,
+      "type": 22,
+      "symbol": "puts",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 49580,
+      "type": 22,
+      "symbol": "main",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 49584,
+      "type": 22,
+      "symbol": "fxEndHost",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 49588,
+      "type": 22,
+      "symbol": "Bkup_erase_async",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 49592,
+      "type": 22,
+      "symbol": "__deregister_frame_info",
+      "symbol_value": 0,
+      "symbol_section": null
+    }
+  ]
+}

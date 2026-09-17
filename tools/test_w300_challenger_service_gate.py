@@ -1,13 +1,8 @@
 #!/usr/bin/env python3
-"""Challenger 2 Empirical Verification Suite for Sony Cyber-shot DSC-W300 Service Tool.
+"""Offline hypothetical service-model regression tests.
 
-Authoritative empirical stress harness and verification tests for:
-1. Full J1 -> CEE8 -> J1 roundtrip reversibility and bit-for-bit restoration
-2. Factory optical, sensor, and gyro calibration isolation (Block 11 Page 60/61 & Subsystems 0x02/0x03)
-3. Sequence counter monotonicity, overflow wrapping at 0xFFFF, and multi-wrap stress
-4. Large payload and multi-chunk packet handling, fragmentation, and buffer boundary dynamics
-
-Pure Python 3 standard library unittest only. Zero external dependencies.
+All calibration, region, transport and recovery scenarios use invented fixtures.
+Passing these tests establishes no compatibility or efficacy on W300 hardware.
 """
 
 from __future__ import annotations
@@ -36,12 +31,6 @@ from w300_service_tool import (
     W300ServiceController,
 )
 
-from w300_stills_nr import (
-    PROTECTED_WINDOWS,
-    PROTECTED_CALIBRATION_RANGES,
-    is_address_protected,
-    get_address_description,
-)
 
 
 class BaseChallengerTestCase(unittest.TestCase):
@@ -274,19 +263,6 @@ class TestCalibrationIsolation(BaseChallengerTestCase):
                 f"Security violation: write targeted protected subsystem 0x{subsystem:02X} (prop 0x{prop_id:08X})"
             )
 
-    def test_inviolable_calibration_windows_coverage(self):
-        """Verify that all 25 calibration windows from Service Manual Ver 1.3 are recognized as protected."""
-        self.assertEqual(len(PROTECTED_WINDOWS), 5)
-        self.assertEqual(len(PROTECTED_CALIBRATION_RANGES), 25)
-
-        # Test boundary addresses for each of the 25 ranges
-        for start_addr, end_addr, desc in PROTECTED_CALIBRATION_RANGES:
-            # Page 61 tests
-            self.assertTrue(is_address_protected(61, start_addr), f"Start addr {start_addr:#06x} ({desc}) not protected!")
-            self.assertTrue(is_address_protected(61, end_addr), f"End addr {end_addr:#06x} ({desc}) not protected!")
-            # Check description lookup
-            lookup_desc = get_address_description(61, start_addr)
-            self.assertIsNotNone(lookup_desc)
 
 
 # ============================================================================

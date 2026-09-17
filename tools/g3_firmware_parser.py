@@ -530,10 +530,21 @@ class SafeTarExtractor:
 
                 extracted_names.append(member.name)
 
+            # Preserve identical regular files on repeat extraction. Reopening
+            # PE files for mutation can be denied by Windows; byte equality lets
+            # an idempotent run retain them without changing any source bytes.
+            pending = []
+            for member in tf.getmembers():
+                target = dest_dir / member.name
+                if member.isfile() and target.is_file() and not target.is_symlink():
+                    with tf.extractfile(member) as source:
+                        if target.read_bytes() == source.read():
+                            continue
+                pending.append(member)
             if hasattr(tarfile, 'data_filter'):
-                tf.extractall(dest_dir, filter='data')
+                tf.extractall(dest_dir, members=pending, filter='data')
             else:
-                tf.extractall(dest_dir)
+                tf.extractall(dest_dir, members=pending)
 
             return extracted_names
 
@@ -779,103 +790,36 @@ def count_elf_files(root_dir: Path | str) -> int:
 
 
 def generate_architecture_markdown(inventory: dict, md_path: Path | str) -> None:
-    """
-    Generates canonical architecture dossier markdown adhering strictly
-    to the SONY_NX3_Reversal benchmark structure.
-    """
-    p = inventory["platform"]
-    art = inventory["artifacts"]
-    pt = inventory["partition_table"]
+    """Render bounded offline findings without inferring hardware qualification."""
+    platform = inventory['platform']
+    artifacts = inventory['artifacts']
+    partitions = inventory['partition_table']
     lines = [
-        "# Sony Cyber-shot DSC-G3 Decrypted Firmware Architecture",
-        "",
-        "## Decryption Status",
-        "- Firmware was successfully carved, decrypted, and verified 100% offline.",
-        f"- Source Executable (`{art['source_executable']['path']}`): `{art['source_executable']['size']:,}` bytes (SHA-256: `{art['source_executable']['sha256']}`)",
-        f"- LHA Level 2 stream carved at offset `{art['source_executable']['lha_stream_offset']:#06x}` (length: `{art['source_executable']['lha_stream_length']:,}` bytes).",
-        f"- Container (`{art['msfirm_container']['path']}`): `{art['msfirm_container']['size']:,}` bytes (SHA-256: `{art['msfirm_container']['sha256']}`)",
-        "- Cryptographic verification: 128-byte block header HMAC-SHA1 and 20-byte payload HMAC verified across all 24 sections with zero errors.",
-        f"- Manifest (`cntent.dat`): Declared `{art['manifest_cntent']['section_count']}` payload sections, checksum verified.",
-        "",
-        "## Platform Facts",
-        f"- Camera Model: `{p['camera_model']}` (Model ID: `{p['model_id']}`, Firmware Ver: `{p['firmware_version']}`)",
-        f"- SoC Architecture: `{p['soc_architecture']}`",
-        f"- Kernel: `{p['kernel_version_string']}`",
-        f"- Kernel Image (`vmlinux`): `{p['vmlinux_file_type']}` ({p['vmlinux_size']:,} bytes)",
-        f"- Updater RootFS (`BodyUdtr.img`): `{p['body_udtr_file_type']}` ({p['body_udtr_size']:,} bytes, 48 nodes, 18 ELFs)",
-        f"- System RootFS (`rootfs.img`): `{p['rootfs_file_type']}` ({p['rootfs_size']:,} bytes, 130 nodes, 16 ELFs)",
-        f"- Initial Ramdisk (`initrd.img`): `{p['initrd_file_type']}` ({p['initrd_size']:,} bytes, 6 ELFs)",
-        f"- Real-Time Co-Processor Image (`av.bin`): `{p['av_rtos_file_type']}` ({p['av_rtos_size']:,} bytes)",
-        f"- Total ELF Binaries/Libraries across all subsystems: `{p['elf_file_count']}`",
-        "- ELF Breakdown:",
+        '# DSC-G3 offline extraction summary', '',
+        '## Decryption Status',
+        'This report describes a reproducible offline extraction. Hashes and container HMACs establish recorded integrity checks; provenance and hardware behavior have separate qualification steps.',
+        '',
+        '## Platform Facts',
+        'Model/architecture/browser labels in the imported profile are research descriptions. Counts, extracted strings and byte hashes are separately reproducible; descriptive labels are not hardware measurements.',
+        f"- Model profile: `{platform['camera_model']}`",
+        f"- Extracted kernel string: `{platform['kernel_version_string']}`",
+        f"- Observed ELF files: {platform['elf_file_count']}",
+        f"- Declared payload section count: {artifacts['manifest_cntent']['section_count']}",
+        '', '## Storage Layout',
+        f"Parsed table entries: {partitions['entry_count']}. A table entry can be unused; it is not necessarily an active partition.",
+        '', '| Device | Offset | Size | Valid field |', '| --- | --- | --- | --- |',
     ]
-    for k, v in p.get("elf_count_breakdown", {}).items():
-        lines.append(f"  - `{k}`: {v} ELFs")
-
-    lines.extend([
-        f"- Web Browser Engine: `{p['browser_version']}`",
-        f"- Application Framework: `{p['app_framework']}`",
-        "",
-        "## Storage Layout",
-        f"- Storage Technology: `{pt['storage_technology']}` (from `partinf.tbl`)",
-        f"- Parsed Partitions: `{pt['entry_count']}` active entries",
-        "",
-        "| Partition Device | Description | Start Address | Size (Bytes) | Size (MB) | Type | Valid |",
-        "| :--- | :--- | :--- | :--- | :--- | :--- | :--- |"
-    ])
-
-    for entry in pt.get("entries", []):
-        lines.append(
-            f"| `{entry['device']}` | {entry['description']} | `{entry['start']}` | `{int(entry['size'], 16):,}` | {entry.get('size_mb', 0.0):.3f} MB | `{entry['type']}` | `{entry['valid']}` |"
-        )
-
-    lines.extend([
-        "",
-        "## Subsystem Analysis",
-        "### 1. Dual-Core Asymmetric Architecture",
-        "- **Application Core**: ARM926EJ-S running Linux 2.6.11-alp20080305 ('Woozy Beaver', Access Linux Platform). Host for NetFront Browser, Kinoma media framework, Wi-Fi networking, and UI rendering.",
-        "- **Real-Time Core**: ARM/DSP running Sony AV RTOS (µITRON 4.0). Manages BIONZ image sensor pipeline, CCD timing, optical lens actuators, and hardware compression engines (`av.bin`, `av_udtr.bin`).",
-        "- **Inter-Processor Communication (IPC)**: ARM PrimeCell PL320 mailbox interface driven by `ipcm_pl320.ko`, `ipcm.ko`, and `ipcm_dev.ko` kernel modules in `/lib/`.",
-        "",
-        "### 2. Dual RootFS Topology",
-        "- **Updater Environment (`BodyUdtr.img`)**: Standalone CramFS RAM rootfs booted during firmware flashing. Contains Sony update orchestration scripts (`BodyUdtr.sh`, `UdtrMain.sh`), diagnostic tools (`ud_datcnv`), frame buffer drivers (`cxd4108fb.ko`), and keypad drivers (`cxd4108kbd.ko`).",
-        "- **Runtime System Environment (`rootfs.img`)**: Production CramFS rootfs containing BusyBox userland, dynamic linker, system initialization scripts (`/etc/init.d/`), and kernel modules in `/lib/modules/2.6.11-alp20080305/`.",
-        "- **Initial Ramdisk (`initrd.img`)**: Ext2 filesystem containing early initialization hooks (`linuxrc`), event controller (`evctrl.ko`), logger (`blog.ko`), and unified hardware drivers (`unified_drv.ko`, `unified_drv2.ko`).",
-        "",
-        "### 3. Application Stack & Frameworks",
-        "- **ACCESS NetFront Browser v3.4**: Embedded full web browser (`omgPrg00.bin`, `omgPrg01.bin`, `omgRsc00.bin`) featuring Flash Lite 6 runtime, SSL/TLS, and multi-language localized string tables (`omgLng00.csv`).",
-        "- **Kinoma / Fsk Media Platform**: Dynamic multimedia scripting engine powering the touchscreen GUI and Scrapbook photo presentation suite (`fskrel1.tar`, `fskrel2.tar`, `fskapp*.tar`). Includes FreeType rasterizer (`textenginefreetype.so`) and USB extensions (`usbExt.so`).",
-        "- **Senser Diagnostic Daemon (`sen`)**: Factory test harness and sensor calibration daemon interfacing with `/dev/mem` and `libsencore.so` (benchmarked against NX3 Tier 3 diagnostics).",
-        "",
-        "## Architectural Comparison Benchmark: DSC-G3 vs. HXR-NX3",
-        "| Feature / Dimension | Sony Cyber-shot DSC-G3 (2009) | Sony HXR-NX3 (2014) |",
-        "| :--- | :--- | :--- |",
-        "| **Product Class** | Connected Consumer Compact Camera | Professional Handheld AVCHD Camcorder |",
-        "| **BIONZ ASIC** | CXD4108 (ARM926EJ-S + µITRON) | CXD90014 (Dual Cortex-A9 + µITRON) |",
-        "| **Firmware Packaging** | PE EXE -> LHA Level 2 -> MsFirm | UFU container (`DATV`, `PROV`, `FDAT`, `DEND`) |",
-        "| **Cryptographic Scheme** | Double HMAC-SHA1 (`key_cxd4108_ms`) + stream cipher | AES / Proprietary CXD90014 cipher |",
-        "| **Section Manifest** | `cntent.dat` (24 sections with 128-byte headers) | `part_image.sum` CRC32 / `partinf.conf` |",
-        "| **Linux Kernel** | 2.6.11-alp20080305 (ARMv5TEJ) | 3.0.27_nl-rt106 PREEMPT RT (ARMv7 Cortex-A9) |",
-        "| **Root Filesystem** | CramFS (`0x28cd3d45`) + ext2 initrd | ext2 (`UUID=22fcb12a...`) in LZPT compressed block |",
-        "| **Application Stack** | Access Linux Platform + Kinoma Fsk + NetFront 3.4 | `im.elf` / `libObj.so` + SUGILITE UI + `orb-server` |",
-        "| **Diagnostic Daemon** | `sen` / `libsencore.so` (early Senser) | `sen.elf` / `libsencore.so` (mature Senser protocol) |",
-        f"| **Total ELF Binaries** | {p['elf_file_count']} binaries/libraries | 209 binaries/libraries |",
-        "",
-        "## Key Evidence Paths",
-        f"- Partition table: `{pt['source_file']}`",
-        f"- Carved container stream: `{art['msfirm_container']['path']}`",
-        f"- Manifest table: `{art['manifest_cntent']['path']}`",
-        f"- Decrypted section payloads: `evidence/extracted_g3/sections/`",
-        f"- Kernel artifacts: `evidence/extracted_g3/kernel/` (`vmlinux`, `initrd.img`, `rootfs.img`)",
-        f"- Updater RootFS: `evidence/extracted_g3/rootfs/BodyUdtr/`",
-        f"- System RootFS: `evidence/extracted_g3/rootfs/system_rootfs/`",
-        f"- Initrd RootFS: `evidence/extracted_g3/rootfs/initrd/`",
-        f"- Unpacked tar archives: `evidence/extracted_g3/archives_unpacked/` (12 archives)",
-        f"- Machine-readable inventory: `evidence/decrypted_inventory.json`",
-        f"- Canonical architecture dossier: `evidence/DECRYPTED_ARCHITECTURE.md`"
-    ])
-
-    Path(md_path).write_text("\n".join(lines) + "\n", encoding='utf-8')
+    for item in partitions.get('entries', []):
+        lines.append(f"| `{item['device']}` | `{item['start']}` | `{item['size']}` | `{item['valid']}` |")
+    lines += ['', '## Subsystem Analysis',
+              'The retained payload contains updater/runtime filesystems and application archives for static inspection. Use G3 findings as comparative material and qualify equivalent W300 firmware and calibration operations against W300 evidence.',
+              'AV instruction edits and text-resource edits are offline experiments. Next qualification: verify installation, boot, recovery and image-quality effects on the target camera.',
+              '', '## Key Evidence Paths']
+    for name, item in artifacts.items():
+        if isinstance(item, dict) and 'path' in item:
+            lines.append(f"- {name}: `{item['path']}`; SHA-256: `{item.get('sha256', 'not recorded')}`")
+    lines += ['', 'Paths in this generated report refer to the extraction run. Historical copies can contain historical paths. See the active repository guides and artifact manifest for canonical retained locations.']
+    Path(md_path).write_text('\n'.join(lines) + '\n', encoding='utf-8', newline='\n')
 
 
 class G3FirmwareParser:
@@ -1004,20 +948,10 @@ class G3FirmwareParser:
                 dec_sha1 = hashlib.sha1(dec_payload).hexdigest()
                 dec_sha256 = hashlib.sha256(dec_payload).hexdigest()
 
-                # Output file names: prefixed (00_defhd.dat) and raw (defhd.dat)
+                # Numbered section files are canonical; no organizational aliases.
                 prefix_name = f"{i:02d}_{sec['name']}"
                 out_file = sections_path / prefix_name
                 out_file.write_bytes(dec_payload)
-
-                # Also create symlink or copy with raw name
-                raw_file = sections_path / sec['name']
-                if raw_file != out_file:
-                    try:
-                        if raw_file.is_symlink() or raw_file.exists():
-                            raw_file.unlink()
-                        raw_file.symlink_to(prefix_name)
-                    except OSError:
-                        raw_file.write_bytes(dec_payload)
 
                 sec_info = {
                     'index': i,
@@ -1289,8 +1223,6 @@ class G3FirmwareParser:
             inv_targets.append(Path(inventory_json_path))
         else:
             inv_targets.append(out_path / 'decrypted_inventory.json')
-            if out_path.name == 'extracted_g3':
-                inv_targets.append(out_path.parent / 'decrypted_inventory.json')
 
         for tgt in inv_targets:
             tgt.parent.mkdir(parents=True, exist_ok=True)
@@ -1303,8 +1235,6 @@ class G3FirmwareParser:
             md_targets.append(Path(architecture_md_path))
         else:
             md_targets.append(out_path / 'DECRYPTED_ARCHITECTURE.md')
-            if out_path.name == 'extracted_g3':
-                md_targets.append(out_path.parent / 'DECRYPTED_ARCHITECTURE.md')
 
         for md_tgt in md_targets:
             md_tgt.parent.mkdir(parents=True, exist_ok=True)
@@ -1326,8 +1256,8 @@ def main():
     parser.add_argument(
         '--output',
         type=Path,
-        default=Path("evidence/extracted_g3"),
-        help="Output base directory (default: evidence/extracted_g3)"
+        default=Path("build/g3/extracted"),
+        help="Output base directory (default: build/g3/extracted)"
     )
     parser.add_argument(
         '--dump-sections',
@@ -1366,6 +1296,10 @@ def main():
     )
 
     args = parser.parse_args()
+    repository = Path(__file__).resolve().parents[1]
+    for protected in (repository / 'sources', repository / 'evidence'):
+        if args.output.resolve().is_relative_to(protected.resolve()):
+            parser.error('Extraction output cannot overwrite preserved sources or evidence; use build/ or a temporary directory')
 
     # If no specific action specified, default to --dump-sections
     if not (args.dump_sections or args.dump_container or args.info or args.all or args.unpack_rootfs or args.unpack_archives or args.generate_inventory):

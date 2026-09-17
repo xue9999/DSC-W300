@@ -18,6 +18,13 @@ import sys
 from typing import Dict, List, Optional, Tuple
 
 
+REPO_ROOT = Path(__file__).resolve().parents[2]
+TOOLS_ROOT = REPO_ROOT / 'tools'
+if str(TOOLS_ROOT) not in sys.path:
+    sys.path.insert(0, str(TOOLS_ROOT))
+from repo_audit import submodule_status
+
+
 def check_machine_cxd4108(qemu_bin: Path) -> bool:
     """Verify if the QEMU binary supports the Sony cxd4108 machine."""
     try:
@@ -42,13 +49,15 @@ def find_qemu_binary(custom_path: Optional[str] = None) -> Optional[Path]:
     """
     if custom_path:
         p = Path(custom_path)
-        if p.is_file() and os.access(p, os.X_OK):
+        if p.is_file() and os.access(p, os.X_OK) and check_machine_cxd4108(p):
             return p.resolve()
 
-    # Check local repository sources/qemu build tree
-    local_build = Path("sources/qemu/arm-softmmu/qemu-system-arm")
-    if local_build.is_file() and os.access(local_build, os.X_OK):
-        return local_build.resolve()
+    # Resolve relative to this tool, independent of the calling directory.
+    for name in ('arm-softmmu/qemu-system-arm', 'build/qemu-system-arm'):
+        local_build = REPO_ROOT / 'sources/qemu' / name
+        for candidate in (local_build, local_build.with_suffix('.exe')):
+            if candidate.is_file() and os.access(candidate, os.X_OK) and check_machine_cxd4108(candidate):
+                return candidate.resolve()
 
     # Check system PATH
     system_bin = shutil.which("qemu-system-arm")
@@ -182,19 +191,15 @@ class Cxd4108QemuLauncher:
     def is_available(self) -> bool:
         return self.qemu_bin is not None
 
-    def get_status(self) -> Dict[str, Union[bool, str]]:
-        openmemories_dir = Path("sources/OpenMemories-CI")
-        qemu_dir = Path("sources/qemu")
-        fwtool_dir = Path("sources/fwtool.py")
-        extracted_g3 = Path("evidence/extracted_g3")
-
+    def get_status(self) -> dict:
         return {
-            "qemu_available": self.is_available(),
-            "qemu_binary": str(self.qemu_bin) if self.qemu_bin else "Not found",
-            "openmemories_ci_cloned": openmemories_dir.is_dir(),
-            "qemu_source_cloned": qemu_dir.is_dir(),
-            "fwtool_cloned": fwtool_dir.is_dir(),
-            "g3_extracted_evidence": extracted_g3.is_dir(),
+            'qemu_available': self.is_available(),
+            'qemu_binary': str(self.qemu_bin) if self.qemu_bin else None,
+            'machine_cxd4108_verified': self.is_available(),
+            'submodules': submodule_status(REPO_ROOT),
+            'g3_extracted_evidence': (REPO_ROOT / 'evidence/extracted_g3/sections/09_av.bin').is_file(),
+            'emulator_boot_validated': False,
+            'hardware_validated': False,
         }
 
 
@@ -223,10 +228,7 @@ def main():
         for k, v in status.items():
             print(f"  {k:25}: {v}")
         if not status["qemu_available"]:
-            print("\nNote: To compile the CXD4108 QEMU binary:")
-            print("  cd sources/qemu")
-            print("  ./configure --target-list=arm-softmmu --disable-docs --disable-tools --disable-user")
-            print("  make -j$(sysctl -n hw.ncpu)")
+            print("\nQEMU with cxd4108 support unavailable. See docs/shared/EMULATION_AND_OPENMEMORIES_CI.md.")
         return 0
 
     elif args.command == "print-args":

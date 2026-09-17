@@ -1,0 +1,134 @@
+{
+  "scope": "Static G3/PMCA correspondence; no W300 compatibility, live authentication or complete SHA1 implementation proof",
+  "pmca_commit": "a82f5baaa8e9c3d9f28f94699e860fb2e48cc8e0",
+  "source_pins": {
+    "pmca/usb/constants.py": "94bf081d3c1a51a60cf8fc214dce25a491413d4d786716460fde3fba832eb692",
+    "pmca/usb/crypto.py": "74660a42235f7efac6f47f38e2151049647bd0bc61ed6eb0763538815b2b6886",
+    "pmca/usb/sony.py": "53ffb4d9d49cb5146623fda2b66ecb137681a6fc9ab0c98d23a51e75128af97e"
+  },
+  "auth_thread": {
+    "slot": "0x1b628",
+    "type": 21,
+    "name": "NinThread",
+    "value": "0x7888"
+  },
+  "manager_get_product": {
+    "slot": "0x1b6d0",
+    "type": 2,
+    "name": "_ZNK19WorkerThreadManager12getProductIdEv",
+    "value": "0x80ac"
+  },
+  "sha1_keys": [
+    {
+      "index": 0,
+      "va": "0x1bf11",
+      "file_offset": "0x13f11",
+      "bytes": 512,
+      "sha256": "91a02111b8734848782a5b344c64c48a38ff4e9bbff0f1a1a86f09019e3e9eae",
+      "equals_pmca": true
+    },
+    {
+      "index": 1,
+      "va": "0x1bd11",
+      "file_offset": "0x13d11",
+      "bytes": 512,
+      "sha256": "736909cecc41ce0d5079603de3aa400e009666fcc91b7c0062fb2df8e5c741bb",
+      "equals_pmca": true
+    },
+    {
+      "index": 2,
+      "va": "0x1bb11",
+      "file_offset": "0x13b11",
+      "bytes": 512,
+      "sha256": "a32e826a50b69f7040722418881fca44a795b4ddb67aadb3dc38458de7057569",
+      "equals_pmca": true
+    }
+  ],
+  "auth_frame_bytes": 516,
+  "senser_header_bytes": 12,
+  "selected_hash_input_bytes": 1024,
+  "pmca_matching_branch": {
+    "usb_pid": "0x0336",
+    "matching_input": "512-byte challenge + 512-byte key",
+    "other_pid_input": "first 4 challenge bytes",
+    "g3_session_pid_established_by_this_report": false,
+    "w300_session_pid_established": false
+  },
+  "sha1_initial_words": [
+    "0x67452301",
+    "0xefcdab89",
+    "0x98badcfe",
+    "0x10325476",
+    "0xc3d2e1f0"
+  ],
+  "padding_length_checks": [
+    {
+      "bytes": 0,
+      "observed_encoded_bits": 0,
+      "pmca_encoded_bits": 0
+    },
+    {
+      "bytes": 1,
+      "observed_encoded_bits": 8,
+      "pmca_encoded_bits": 8
+    },
+    {
+      "bytes": 4,
+      "observed_encoded_bits": 32,
+      "pmca_encoded_bits": 32
+    },
+    {
+      "bytes": 31,
+      "observed_encoded_bits": 248,
+      "pmca_encoded_bits": 248
+    },
+    {
+      "bytes": 32,
+      "observed_encoded_bits": 0,
+      "pmca_encoded_bits": 0
+    },
+    {
+      "bytes": 55,
+      "observed_encoded_bits": 184,
+      "pmca_encoded_bits": 184
+    },
+    {
+      "bytes": 56,
+      "observed_encoded_bits": 192,
+      "pmca_encoded_bits": 192
+    },
+    {
+      "bytes": 63,
+      "observed_encoded_bits": 248,
+      "pmca_encoded_bits": 248
+    },
+    {
+      "bytes": 64,
+      "observed_encoded_bits": 0,
+      "pmca_encoded_bits": 0
+    },
+    {
+      "bytes": 511,
+      "observed_encoded_bits": 248,
+      "pmca_encoded_bits": 248
+    },
+    {
+      "bytes": 512,
+      "observed_encoded_bits": 0,
+      "pmca_encoded_bits": 0
+    },
+    {
+      "bytes": 1024,
+      "observed_encoded_bits": 0,
+      "pmca_encoded_bits": 0
+    },
+    {
+      "bytes": 4096,
+      "observed_encoded_bits": 0,
+      "pmca_encoded_bits": 0
+    }
+  ],
+  "receiver_scope": "12-byte header and pFunc0x40 routing observed; USB mode entry and W300 acceptance unqualified",
+  "firmware_executed": false,
+  "usb_commands_sent": false
+}

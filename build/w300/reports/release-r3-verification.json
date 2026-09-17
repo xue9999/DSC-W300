@@ -1,0 +1,49 @@
+{
+  "editorial_revision": 3,
+  "scope": "Repository publication, offline reconstruction and portable identification runtime",
+  "local_tests": {
+    "status": "passed",
+    "tests_run": 253,
+    "failures": 0,
+    "errors": 0,
+    "skipped": []
+  },
+  "fresh_checkout_tests": {
+    "status": "passed",
+    "tests_run": 253,
+    "failures": 0,
+    "errors": 0,
+    "skipped": [],
+    "snapshot_tree": "d21d198ae7a4033d490faf98a98090029e387712",
+    "checkout_settings": {
+      "core.autocrlf": true,
+      "core.symlinks": false
+    },
+    "original_index_unchanged": true
+  },
+  "artifacts_checked": 821,
+  "active_and_report_links": "passed",
+  "portable_doc_generator_consistency": "passed",
+  "portable_files_verified": 1318,
+  "research_files_verified": 2894,
+  "offline_environment_rebuild": "passed",
+  "relocated_protocol_jobs": 13,
+  "protocol_outputs_identical": true,
+  "assets": [
+    {
+      "path": "build/w300/portable/release3/W300-Workbench-Windows-x64.zip",
+      "bytes": 124644569,
+      "sha256": "31b817fcd1d52c171e84fe6c67b2f8b917847ee6fcaf041eca9448280467b6e0"
+    },
+    {
+      "path": "build/w300/publication/W300-Research-Offline-r3.zip",
+      "bytes": 230219930,
+      "sha256": "28e910304f85515b92ed98c8cd03eed84ca45e11c113ad92fe48200482796c8a"
+    }
+  ],
+  "camera_commands_sent": false,
+  "settings_written": false,
+  "git_diff_check": "passed for maintained code/prose; raw capture whitespace preserved by attributes",
+  "staged_manifest_entries_verified": 264,
+  "submodule_pins_preserved": 4
+}

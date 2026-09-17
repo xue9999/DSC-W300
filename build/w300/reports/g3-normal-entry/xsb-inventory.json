@@ -1,0 +1,7113 @@
+{
+  "scope": "Static byte-container and symbol-string inventory only; no bytecode control-flow interpretation.",
+  "manifest": "evidence/artifact_manifest.json",
+  "artifacts": [
+    {
+      "path": "evidence/extracted_g3/archives_unpacked/fskrel1/dsc/fsk/senserModule.xsb",
+      "bytes": 1681,
+      "sha256": "b40523072708fb049781141b7e89742e2aefa43b4cc42ca3db52feb4aac756f0",
+      "manifest_pin_pass": true,
+      "magic": "XS11",
+      "top_declared_size": 1681,
+      "sections": [
+        {
+          "offset": 8,
+          "tag": "SYMB",
+          "size": 466,
+          "payload_offset": 16,
+          "payload_size": 458,
+          "declared_symbol_count": 48
+        },
+        {
+          "offset": 474,
+          "tag": "CODE",
+          "size": 1207,
+          "payload_offset": 482,
+          "payload_size": 1199
+        }
+      ],
+      "symbols": [
+        {
+          "index": 0,
+          "offset": 18,
+          "name": "Object"
+        },
+        {
+          "index": 1,
+          "offset": 25,
+          "name": "senserModule"
+        },
+        {
+          "index": 2,
+          "offset": 38,
+          "name": "cmdTable"
+        },
+        {
+          "index": 3,
+          "offset": 47,
+          "name": "__xs__number"
+        },
+        {
+          "index": 4,
+          "offset": 60,
+          "name": "parse"
+        },
+        {
+          "index": 5,
+          "offset": 66,
+          "name": "OK"
+        },
+        {
+          "index": 6,
+          "offset": 69,
+          "name": "ERROR"
+        },
+        {
+          "index": 7,
+          "offset": 75,
+          "name": "NORMAL"
+        },
+        {
+          "index": 8,
+          "offset": 82,
+          "name": "FORCE_UART"
+        },
+        {
+          "index": 9,
+          "offset": 93,
+          "name": "FORCE_USB"
+        },
+        {
+          "index": 10,
+          "offset": 103,
+          "name": "FORCE_DRIVE"
+        },
+        {
+          "index": 11,
+          "offset": 115,
+          "name": "target"
+        },
+        {
+          "index": 12,
+          "offset": 122,
+          "name": "callback"
+        },
+        {
+          "index": 13,
+          "offset": 131,
+          "name": "statusConnect"
+        },
+        {
+          "index": 14,
+          "offset": 145,
+          "name": "SENSER_ON"
+        },
+        {
+          "index": 15,
+          "offset": 155,
+          "name": "SENSER_OFF"
+        },
+        {
+          "index": 16,
+          "offset": 166,
+          "name": "err"
+        },
+        {
+          "index": 17,
+          "offset": 170,
+          "name": "result"
+        },
+        {
+          "index": 18,
+          "offset": 177,
+          "name": "trace"
+        },
+        {
+          "index": 19,
+          "offset": 183,
+          "name": "readyCallBack"
+        },
+        {
+          "index": 20,
+          "offset": 197,
+          "name": "Senser"
+        },
+        {
+          "index": 21,
+          "offset": 204,
+          "name": "Ready"
+        },
+        {
+          "index": 22,
+          "offset": 210,
+          "name": "SMode"
+        },
+        {
+          "index": 23,
+          "offset": 216,
+          "name": "smode"
+        },
+        {
+          "index": 24,
+          "offset": 222,
+          "name": "registerCallback"
+        },
+        {
+          "index": 25,
+          "offset": 239,
+          "name": "initialize"
+        },
+        {
+          "index": 26,
+          "offset": 250,
+          "name": "disconnect"
+        },
+        {
+          "index": 27,
+          "offset": 261,
+          "name": "finalize"
+        },
+        {
+          "index": 28,
+          "offset": 270,
+          "name": "connect"
+        },
+        {
+          "index": 29,
+          "offset": 278,
+          "name": "unregisterCallback"
+        },
+        {
+          "index": 30,
+          "offset": 297,
+          "name": "command"
+        },
+        {
+          "index": 31,
+          "offset": 305,
+          "name": "dscUtil"
+        },
+        {
+          "index": 32,
+          "offset": 313,
+          "name": "extensionManager"
+        },
+        {
+          "index": 33,
+          "offset": 330,
+          "name": "loadBytecode"
+        },
+        {
+          "index": 34,
+          "offset": 343,
+          "name": "registry"
+        },
+        {
+          "index": 35,
+          "offset": 352,
+          "name": "On"
+        },
+        {
+          "index": 36,
+          "offset": 355,
+          "name": "unregistry"
+        },
+        {
+          "index": 37,
+          "offset": 366,
+          "name": "Off"
+        },
+        {
+          "index": 38,
+          "offset": 370,
+          "name": "event"
+        },
+        {
+          "index": 39,
+          "offset": 376,
+          "name": "param"
+        },
+        {
+          "index": 40,
+          "offset": 382,
+          "name": "status"
+        },
+        {
+          "index": 41,
+          "offset": 389,
+          "name": "ACTIVE"
+        },
+        {
+          "index": 42,
+          "offset": 396,
+          "name": "STOP"
+        },
+        {
+          "index": 43,
+          "offset": 401,
+          "name": "call"
+        },
+        {
+          "index": 44,
+          "offset": 406,
+          "name": "http://www.kinoma.com/fskin/1"
+        },
+        {
+          "index": 45,
+          "offset": 436,
+          "name": "__xs__prefix"
+        },
+        {
+          "index": 46,
+          "offset": 449,
+          "name": "__xs__pattern"
+        },
+        {
+          "index": 47,
+          "offset": 463,
+          "name": "__xs__link"
+        }
+      ],
+      "literal_occurrences": {
+        "xs_senser_on": [],
+        "xs_senser_ready": [],
+        "xs_senser_activeTrig": [],
+        "activeTrig": [],
+        "ready": [
+          183
+        ],
+        "reqStart": [],
+        "usbObject": [],
+        "Senser": [
+          197
+        ],
+        "Ready": [
+          204
+        ],
+        "SENSER_ON": [
+          145
+        ],
+        "SENSER_OFF": [
+          155
+        ],
+        "FORCE_USB": [
+          93
+        ],
+        "senserCmdTable.xsb": [
+          1163
+        ]
+      },
+      "exact_requested_symbols": [
+        {
+          "index": 9,
+          "offset": 93,
+          "name": "FORCE_USB"
+        },
+        {
+          "index": 14,
+          "offset": 145,
+          "name": "SENSER_ON"
+        },
+        {
+          "index": 15,
+          "offset": 155,
+          "name": "SENSER_OFF"
+        },
+        {
+          "index": 20,
+          "offset": 197,
+          "name": "Senser"
+        },
+        {
+          "index": 21,
+          "offset": 204,
+          "name": "Ready"
+        }
+      ]
+    },
+    {
+      "path": "evidence/extracted_g3/archives_unpacked/fskrel1/dsc/fsk/senserCmdTable.xsb",
+      "bytes": 84575,
+      "sha256": "d7d82f5437d375ef42fcc0fc1dbddaadc7cd90977741a4b2dc42f5cf8caa50db",
+      "manifest_pin_pass": true,
+      "magic": "XS11",
+      "top_declared_size": 84575,
+      "sections": [
+        {
+          "offset": 8,
+          "tag": "SYMB",
+          "size": 16688,
+          "payload_offset": 16,
+          "payload_size": 16680,
+          "declared_symbol_count": 1342
+        },
+        {
+          "offset": 16696,
+          "tag": "CODE",
+          "size": 67879,
+          "payload_offset": 16704,
+          "payload_size": 67871
+        }
+      ],
+      "symbols": [
+        {
+          "index": 0,
+          "offset": 18,
+          "name": "senserModule"
+        },
+        {
+          "index": 1,
+          "offset": 31,
+          "name": "Senser"
+        },
+        {
+          "index": 2,
+          "offset": 38,
+          "name": "command"
+        },
+        {
+          "index": 3,
+          "offset": 46,
+          "name": "senserCommand"
+        },
+        {
+          "index": 4,
+          "offset": 60,
+          "name": "__xs__number"
+        },
+        {
+          "index": 5,
+          "offset": 73,
+          "name": "parse"
+        },
+        {
+          "index": 6,
+          "offset": 79,
+          "name": "SUCCESS"
+        },
+        {
+          "index": 7,
+          "offset": 87,
+          "name": "NG_CMD"
+        },
+        {
+          "index": 8,
+          "offset": 94,
+          "name": "NG_PARAM"
+        },
+        {
+          "index": 9,
+          "offset": 103,
+          "name": "NG_FATAL"
+        },
+        {
+          "index": 10,
+          "offset": 112,
+          "name": "lenResArg"
+        },
+        {
+          "index": 11,
+          "offset": 122,
+          "name": "__xs__boolean"
+        },
+        {
+          "index": 12,
+          "offset": 136,
+          "name": "blResister"
+        },
+        {
+          "index": 13,
+          "offset": 147,
+          "name": "timerMultiPurpose"
+        },
+        {
+          "index": 14,
+          "offset": 165,
+          "name": "initialize"
+        },
+        {
+          "index": 15,
+          "offset": 176,
+          "name": "terminate"
+        },
+        {
+          "index": 16,
+          "offset": 186,
+          "name": "err"
+        },
+        {
+          "index": 17,
+          "offset": 190,
+          "name": "exec"
+        },
+        {
+          "index": 18,
+          "offset": 195,
+          "name": "RegCallback"
+        },
+        {
+          "index": 19,
+          "offset": 207,
+          "name": "CB_EXIST"
+        },
+        {
+          "index": 20,
+          "offset": 216,
+          "name": "UnRegCallback"
+        },
+        {
+          "index": 21,
+          "offset": 230,
+          "name": "OK"
+        },
+        {
+          "index": 22,
+          "offset": 233,
+          "name": "trace"
+        },
+        {
+          "index": 23,
+          "offset": 239,
+          "name": "registry"
+        },
+        {
+          "index": 24,
+          "offset": 248,
+          "name": "unregistry"
+        },
+        {
+          "index": 25,
+          "offset": 259,
+          "name": "event"
+        },
+        {
+          "index": 26,
+          "offset": 265,
+          "name": "packet"
+        },
+        {
+          "index": 27,
+          "offset": 272,
+          "name": "response"
+        },
+        {
+          "index": 28,
+          "offset": 281,
+          "name": "data1"
+        },
+        {
+          "index": 29,
+          "offset": 287,
+          "name": "data2"
+        },
+        {
+          "index": 30,
+          "offset": 293,
+          "name": "data3"
+        },
+        {
+          "index": 31,
+          "offset": 299,
+          "name": "data4"
+        },
+        {
+          "index": 32,
+          "offset": 305,
+          "name": "tblData"
+        },
+        {
+          "index": 33,
+          "offset": 313,
+          "name": "tblResult"
+        },
+        {
+          "index": 34,
+          "offset": 323,
+          "name": "result"
+        },
+        {
+          "index": 35,
+          "offset": 330,
+          "name": "Array"
+        },
+        {
+          "index": 36,
+          "offset": 336,
+          "name": "resp"
+        },
+        {
+          "index": 37,
+          "offset": 341,
+          "name": "ACCEPT"
+        },
+        {
+          "index": 38,
+          "offset": 348,
+          "name": "REJECT_CMDNG"
+        },
+        {
+          "index": 39,
+          "offset": 361,
+          "name": "REJECT_PARAM"
+        },
+        {
+          "index": 40,
+          "offset": 374,
+          "name": "REJECT_FATAL"
+        },
+        {
+          "index": 41,
+          "offset": 387,
+          "name": "length"
+        },
+        {
+          "index": 42,
+          "offset": 394,
+          "name": "data"
+        },
+        {
+          "index": 43,
+          "offset": 399,
+          "name": "CallbackResp"
+        },
+        {
+          "index": 44,
+          "offset": 412,
+          "name": "sendResponse"
+        },
+        {
+          "index": 45,
+          "offset": 425,
+          "name": "bool"
+        },
+        {
+          "index": 46,
+          "offset": 430,
+          "name": "bit"
+        },
+        {
+          "index": 47,
+          "offset": 434,
+          "name": "convertBoolToBit"
+        },
+        {
+          "index": 48,
+          "offset": 451,
+          "name": "convertBitToBool"
+        },
+        {
+          "index": 49,
+          "offset": 468,
+          "name": "target"
+        },
+        {
+          "index": 50,
+          "offset": 475,
+          "name": "table"
+        },
+        {
+          "index": 51,
+          "offset": 481,
+          "name": "index"
+        },
+        {
+          "index": 52,
+          "offset": 487,
+          "name": "getTableIndex"
+        },
+        {
+          "index": 53,
+          "offset": 501,
+          "name": "interval"
+        },
+        {
+          "index": 54,
+          "offset": 510,
+          "name": "timeout"
+        },
+        {
+          "index": 55,
+          "offset": 518,
+          "name": "funcWatch"
+        },
+        {
+          "index": 56,
+          "offset": 528,
+          "name": "funcNotify"
+        },
+        {
+          "index": 57,
+          "offset": 539,
+          "name": "arg"
+        },
+        {
+          "index": 58,
+          "offset": 543,
+          "name": "setTimer"
+        },
+        {
+          "index": 59,
+          "offset": 552,
+          "name": "Timer"
+        },
+        {
+          "index": 60,
+          "offset": 558,
+          "name": "counter"
+        },
+        {
+          "index": 61,
+          "offset": 566,
+          "name": "cbWatchTimer"
+        },
+        {
+          "index": 62,
+          "offset": 579,
+          "name": "onCallback"
+        },
+        {
+          "index": 63,
+          "offset": 590,
+          "name": "watch"
+        },
+        {
+          "index": 64,
+          "offset": 596,
+          "name": "notify"
+        },
+        {
+          "index": 65,
+          "offset": 603,
+          "name": "schedule"
+        },
+        {
+          "index": 66,
+          "offset": 612,
+          "name": "startWatchTimer"
+        },
+        {
+          "index": 67,
+          "offset": 628,
+          "name": "cancel"
+        },
+        {
+          "index": 68,
+          "offset": 635,
+          "name": "close"
+        },
+        {
+          "index": 69,
+          "offset": 641,
+          "name": "stopTimer"
+        },
+        {
+          "index": 70,
+          "offset": 651,
+          "name": "source"
+        },
+        {
+          "index": 71,
+          "offset": 658,
+          "name": "call"
+        },
+        {
+          "index": 72,
+          "offset": 663,
+          "name": "app"
+        },
+        {
+          "index": 73,
+          "offset": 667,
+          "name": "mode"
+        },
+        {
+          "index": 74,
+          "offset": 672,
+          "name": "appId"
+        },
+        {
+          "index": 75,
+          "offset": 678,
+          "name": "appState"
+        },
+        {
+          "index": 76,
+          "offset": 687,
+          "name": "dsc"
+        },
+        {
+          "index": 77,
+          "offset": 691,
+          "name": "appCoreModel"
+        },
+        {
+          "index": 78,
+          "offset": 704,
+          "name": "getCurrentAppID"
+        },
+        {
+          "index": 79,
+          "offset": 720,
+          "name": "getCurrentAppState"
+        },
+        {
+          "index": 80,
+          "offset": 739,
+          "name": "checkCurrentApp"
+        },
+        {
+          "index": 81,
+          "offset": 755,
+          "name": "idApp"
+        },
+        {
+          "index": 82,
+          "offset": 761,
+          "name": "idMode"
+        },
+        {
+          "index": 83,
+          "offset": 768,
+          "name": "cbFunc"
+        },
+        {
+          "index": 84,
+          "offset": 775,
+          "name": "changeApp"
+        },
+        {
+          "index": 85,
+          "offset": 785,
+          "name": "checkCompChangeApp"
+        },
+        {
+          "index": 86,
+          "offset": 804,
+          "name": "startChangeApp"
+        },
+        {
+          "index": 87,
+          "offset": 819,
+          "name": "path"
+        },
+        {
+          "index": 88,
+          "offset": 824,
+          "name": "info"
+        },
+        {
+          "index": 89,
+          "offset": 829,
+          "name": "file"
+        },
+        {
+          "index": 90,
+          "offset": 834,
+          "name": "Brew"
+        },
+        {
+          "index": 91,
+          "offset": 839,
+          "name": "FileSystem"
+        },
+        {
+          "index": 92,
+          "offset": 850,
+          "name": "ensureDirectory"
+        },
+        {
+          "index": 93,
+          "offset": 866,
+          "name": "Stream"
+        },
+        {
+          "index": 94,
+          "offset": 873,
+          "name": "File"
+        },
+        {
+          "index": 95,
+          "offset": 878,
+          "name": "writeString"
+        },
+        {
+          "index": 96,
+          "offset": 890,
+          "name": "createModeFile"
+        },
+        {
+          "index": 97,
+          "offset": 905,
+          "name": "getFileInfo"
+        },
+        {
+          "index": 98,
+          "offset": 917,
+          "name": "deleteFile"
+        },
+        {
+          "index": 99,
+          "offset": 928,
+          "name": "string"
+        },
+        {
+          "index": 100,
+          "offset": 935,
+          "name": "size"
+        },
+        {
+          "index": 101,
+          "offset": 940,
+          "name": "readLine"
+        },
+        {
+          "index": 102,
+          "offset": 949,
+          "name": "checkFileString"
+        },
+        {
+          "index": 103,
+          "offset": 965,
+          "name": "cmdTable"
+        },
+        {
+          "index": 104,
+          "offset": 974,
+          "name": "senserCommand_RegionSetting"
+        },
+        {
+          "index": 105,
+          "offset": 1002,
+          "name": "regionInfo"
+        },
+        {
+          "index": 106,
+          "offset": 1013,
+          "name": "func"
+        },
+        {
+          "index": 107,
+          "offset": 1018,
+          "name": "ADJUST_CNTL"
+        },
+        {
+          "index": 108,
+          "offset": 1030,
+          "name": "ablk"
+        },
+        {
+          "index": 109,
+          "offset": 1035,
+          "name": "HOST"
+        },
+        {
+          "index": 110,
+          "offset": 1040,
+          "name": "blk"
+        },
+        {
+          "index": 111,
+          "offset": 1044,
+          "name": "cmd"
+        },
+        {
+          "index": 112,
+          "offset": 1048,
+          "name": "region"
+        },
+        {
+          "index": 113,
+          "offset": 1055,
+          "name": "language"
+        },
+        {
+          "index": 114,
+          "offset": 1064,
+          "name": "availLang"
+        },
+        {
+          "index": 115,
+          "offset": 1074,
+          "name": "videoSignal"
+        },
+        {
+          "index": 116,
+          "offset": 1086,
+          "name": "ret"
+        },
+        {
+          "index": 117,
+          "offset": 1090,
+          "name": "dscUtil"
+        },
+        {
+          "index": 118,
+          "offset": 1098,
+          "name": "extensionManager"
+        },
+        {
+          "index": 119,
+          "offset": 1115,
+          "name": "loadExtensions"
+        },
+        {
+          "index": 120,
+          "offset": 1130,
+          "name": "makeRegionInfoFile"
+        },
+        {
+          "index": 121,
+          "offset": 1149,
+          "name": "saveRegionInfoData"
+        },
+        {
+          "index": 122,
+          "offset": 1168,
+          "name": "Registry"
+        },
+        {
+          "index": 123,
+          "offset": 1177,
+          "name": "reset"
+        },
+        {
+          "index": 124,
+          "offset": 1183,
+          "name": "System"
+        },
+        {
+          "index": 125,
+          "offset": 1190,
+          "name": "applyEnvironment"
+        },
+        {
+          "index": 126,
+          "offset": 1207,
+          "name": "langManager"
+        },
+        {
+          "index": 127,
+          "offset": 1219,
+          "name": "_setLanguage"
+        },
+        {
+          "index": 128,
+          "offset": 1232,
+          "name": "videoControl"
+        },
+        {
+          "index": 129,
+          "offset": 1245,
+          "name": "senserCommand_Led"
+        },
+        {
+          "index": 130,
+          "offset": 1263,
+          "name": "acmd"
+        },
+        {
+          "index": 131,
+          "offset": 1268,
+          "name": "LED"
+        },
+        {
+          "index": 132,
+          "offset": 1272,
+          "name": "cmdName"
+        },
+        {
+          "index": 133,
+          "offset": 1280,
+          "name": "toString"
+        },
+        {
+          "index": 134,
+          "offset": 1289,
+          "name": "idLed"
+        },
+        {
+          "index": 135,
+          "offset": 1295,
+          "name": "ledMng"
+        },
+        {
+          "index": 136,
+          "offset": 1302,
+          "name": "state"
+        },
+        {
+          "index": 137,
+          "offset": 1308,
+          "name": "Service"
+        },
+        {
+          "index": 138,
+          "offset": 1316,
+          "name": "led"
+        },
+        {
+          "index": 139,
+          "offset": 1320,
+          "name": "OFF"
+        },
+        {
+          "index": 140,
+          "offset": 1324,
+          "name": "ON"
+        },
+        {
+          "index": 141,
+          "offset": 1327,
+          "name": "set"
+        },
+        {
+          "index": 142,
+          "offset": 1331,
+          "name": "cmdExec0x0"
+        },
+        {
+          "index": 143,
+          "offset": 1342,
+          "name": "mngLed"
+        },
+        {
+          "index": 144,
+          "offset": 1349,
+          "name": "cnt"
+        },
+        {
+          "index": 145,
+          "offset": 1353,
+          "name": "getLedID"
+        },
+        {
+          "index": 146,
+          "offset": 1362,
+          "name": "cmdExec0x1"
+        },
+        {
+          "index": 147,
+          "offset": 1373,
+          "name": "cmdExec0x2"
+        },
+        {
+          "index": 148,
+          "offset": 1384,
+          "name": "tblBlink"
+        },
+        {
+          "index": 149,
+          "offset": 1393,
+          "name": "BLINK_08"
+        },
+        {
+          "index": 150,
+          "offset": 1402,
+          "name": "BLINK_32"
+        },
+        {
+          "index": 151,
+          "offset": 1411,
+          "name": "power"
+        },
+        {
+          "index": 152,
+          "offset": 1417,
+          "name": "access"
+        },
+        {
+          "index": 153,
+          "offset": 1424,
+          "name": "charge"
+        },
+        {
+          "index": 154,
+          "offset": 1431,
+          "name": "strobe"
+        },
+        {
+          "index": 155,
+          "offset": 1438,
+          "name": "tally"
+        },
+        {
+          "index": 156,
+          "offset": 1444,
+          "name": "selftimer"
+        },
+        {
+          "index": 157,
+          "offset": 1454,
+          "name": "aeaflock"
+        },
+        {
+          "index": 158,
+          "offset": 1463,
+          "name": "cmdExec0xF"
+        },
+        {
+          "index": 159,
+          "offset": 1474,
+          "name": "senserCommand_TpCalib"
+        },
+        {
+          "index": 160,
+          "offset": 1496,
+          "name": "orgValidate"
+        },
+        {
+          "index": 161,
+          "offset": 1508,
+          "name": "orgCancelCalibration"
+        },
+        {
+          "index": 162,
+          "offset": 1529,
+          "name": "TP_CALIBRATION"
+        },
+        {
+          "index": 163,
+          "offset": 1544,
+          "name": "checkAppTimer"
+        },
+        {
+          "index": 164,
+          "offset": 1558,
+          "name": "cbChangeApp"
+        },
+        {
+          "index": 165,
+          "offset": 1570,
+          "name": "getRegulationCalibData"
+        },
+        {
+          "index": 166,
+          "offset": 1593,
+          "name": "getUserCalibData"
+        },
+        {
+          "index": 167,
+          "offset": 1610,
+          "name": "stCalib"
+        },
+        {
+          "index": 168,
+          "offset": 1618,
+          "name": "settingsApp"
+        },
+        {
+          "index": 169,
+          "offset": 1630,
+          "name": "stCalibration"
+        },
+        {
+          "index": 170,
+          "offset": 1644,
+          "name": "model"
+        },
+        {
+          "index": 171,
+          "offset": 1650,
+          "name": "onValidate"
+        },
+        {
+          "index": 172,
+          "offset": 1661,
+          "name": "doCancelCalibration"
+        },
+        {
+          "index": 173,
+          "offset": 1681,
+          "name": "disguiseValidate"
+        },
+        {
+          "index": 174,
+          "offset": 1698,
+          "name": "disguiseCancelCalibration"
+        },
+        {
+          "index": 175,
+          "offset": 1724,
+          "name": "stModel"
+        },
+        {
+          "index": 176,
+          "offset": 1732,
+          "name": "doCalibration"
+        },
+        {
+          "index": 177,
+          "offset": 1746,
+          "name": "infoButton"
+        },
+        {
+          "index": 178,
+          "offset": 1757,
+          "name": "cmdTpCalib"
+        },
+        {
+          "index": 179,
+          "offset": 1768,
+          "name": "compCalibration"
+        },
+        {
+          "index": 180,
+          "offset": 1784,
+          "name": "setRegulationCalibData"
+        },
+        {
+          "index": 181,
+          "offset": 1807,
+          "name": "idBackup"
+        },
+        {
+          "index": 182,
+          "offset": 1816,
+          "name": "DataManager"
+        },
+        {
+          "index": 183,
+          "offset": 1828,
+          "name": "rawWrapper"
+        },
+        {
+          "index": 184,
+          "offset": 1839,
+          "name": "bId"
+        },
+        {
+          "index": 185,
+          "offset": 1843,
+          "name": "calibUsr2X"
+        },
+        {
+          "index": 186,
+          "offset": 1854,
+          "name": "KEY_RAW"
+        },
+        {
+          "index": 187,
+          "offset": 1862,
+          "name": "get"
+        },
+        {
+          "index": 188,
+          "offset": 1866,
+          "name": "calibUsr2Y"
+        },
+        {
+          "index": 189,
+          "offset": 1877,
+          "name": "calibUsr1X"
+        },
+        {
+          "index": 190,
+          "offset": 1888,
+          "name": "calibUsr1Y"
+        },
+        {
+          "index": 191,
+          "offset": 1899,
+          "name": "calibReg2X"
+        },
+        {
+          "index": 192,
+          "offset": 1910,
+          "name": "calibReg2Y"
+        },
+        {
+          "index": 193,
+          "offset": 1921,
+          "name": "calibReg1X"
+        },
+        {
+          "index": 194,
+          "offset": 1932,
+          "name": "calibReg1Y"
+        },
+        {
+          "index": 195,
+          "offset": 1943,
+          "name": "senserCommand_OutputSel"
+        },
+        {
+          "index": 196,
+          "offset": 1967,
+          "name": "OUTPUT_SEL"
+        },
+        {
+          "index": 197,
+          "offset": 1978,
+          "name": "Output"
+        },
+        {
+          "index": 198,
+          "offset": 1985,
+          "name": "tblDest"
+        },
+        {
+          "index": 199,
+          "offset": 1993,
+          "name": "videoOut"
+        },
+        {
+          "index": 200,
+          "offset": 2002,
+          "name": "VIDEO_OUT_OFF"
+        },
+        {
+          "index": 201,
+          "offset": 2016,
+          "name": "VIDEO_OUT_LINE"
+        },
+        {
+          "index": 202,
+          "offset": 2031,
+          "name": "VIDEO_OUT_D"
+        },
+        {
+          "index": 203,
+          "offset": 2043,
+          "name": "senserCommand_Panel"
+        },
+        {
+          "index": 204,
+          "offset": 2063,
+          "name": "PANEL"
+        },
+        {
+          "index": 205,
+          "offset": 2069,
+          "name": "screen"
+        },
+        {
+          "index": 206,
+          "offset": 2076,
+          "name": "dispPanel"
+        },
+        {
+          "index": 207,
+          "offset": 2086,
+          "name": "DISP_PANEL_OFF"
+        },
+        {
+          "index": 208,
+          "offset": 2101,
+          "name": "DISP_PANEL_LCD"
+        },
+        {
+          "index": 209,
+          "offset": 2116,
+          "name": "senserCommand_Evf"
+        },
+        {
+          "index": 210,
+          "offset": 2134,
+          "name": "EVF"
+        },
+        {
+          "index": 211,
+          "offset": 2138,
+          "name": "DISP_PANEL_EVF"
+        },
+        {
+          "index": 212,
+          "offset": 2153,
+          "name": "senserCommand_Key"
+        },
+        {
+          "index": 213,
+          "offset": 2171,
+          "name": "ignoreFlag"
+        },
+        {
+          "index": 214,
+          "offset": 2182,
+          "name": "KEY_INH"
+        },
+        {
+          "index": 215,
+          "offset": 2190,
+          "name": "param"
+        },
+        {
+          "index": 216,
+          "offset": 2196,
+          "name": "keyWatcher"
+        },
+        {
+          "index": 217,
+          "offset": 2207,
+          "name": "setEnableAllKey"
+        },
+        {
+          "index": 218,
+          "offset": 2223,
+          "name": "postKeyEvent"
+        },
+        {
+          "index": 219,
+          "offset": 2236,
+          "name": "keyCode"
+        },
+        {
+          "index": 220,
+          "offset": 2244,
+          "name": "flgEnable"
+        },
+        {
+          "index": 221,
+          "offset": 2254,
+          "name": "tblKeyName"
+        },
+        {
+          "index": 222,
+          "offset": 2265,
+          "name": "keyName"
+        },
+        {
+          "index": 223,
+          "offset": 2273,
+          "name": "parts"
+        },
+        {
+          "index": 224,
+          "offset": 2279,
+          "name": "notifyKeyEvent"
+        },
+        {
+          "index": 225,
+          "offset": 2294,
+          "name": "senserCommand_BatTest"
+        },
+        {
+          "index": 226,
+          "offset": 2316,
+          "name": "__xs__string"
+        },
+        {
+          "index": 227,
+          "offset": 2329,
+          "name": "filePath"
+        },
+        {
+          "index": 228,
+          "offset": 2338,
+          "name": "batteryWatcher"
+        },
+        {
+          "index": 229,
+          "offset": 2353,
+          "name": "setIbErrorIgnoreFlag"
+        },
+        {
+          "index": 230,
+          "offset": 2374,
+          "name": "dErrMgr"
+        },
+        {
+          "index": 231,
+          "offset": 2382,
+          "name": "factorId"
+        },
+        {
+          "index": 232,
+          "offset": 2391,
+          "name": "fBatteryInfoLithium"
+        },
+        {
+          "index": 233,
+          "offset": 2411,
+          "name": "setFactor"
+        },
+        {
+          "index": 234,
+          "offset": 2421,
+          "name": "flgDisable"
+        },
+        {
+          "index": 235,
+          "offset": 2432,
+          "name": "getIbErrorIgnoreFlag"
+        },
+        {
+          "index": 236,
+          "offset": 2453,
+          "name": "setAcErrorIgnoreFlag"
+        },
+        {
+          "index": 237,
+          "offset": 2474,
+          "name": "getAcErrorIgnoreFlag"
+        },
+        {
+          "index": 238,
+          "offset": 2495,
+          "name": "cmdExec0x3"
+        },
+        {
+          "index": 239,
+          "offset": 2506,
+          "name": "setTimerIgnoreFlag"
+        },
+        {
+          "index": 240,
+          "offset": 2525,
+          "name": "cmdExec0x4"
+        },
+        {
+          "index": 241,
+          "offset": 2536,
+          "name": "getTimerIgnoreFlag"
+        },
+        {
+          "index": 242,
+          "offset": 2555,
+          "name": "cmdExec0x5"
+        },
+        {
+          "index": 243,
+          "offset": 2566,
+          "name": "remain"
+        },
+        {
+          "index": 244,
+          "offset": 2573,
+          "name": "getbattLvl"
+        },
+        {
+          "index": 245,
+          "offset": 2584,
+          "name": "cmdExec0x6"
+        },
+        {
+          "index": 246,
+          "offset": 2595,
+          "name": "BattWatcher"
+        },
+        {
+          "index": 247,
+          "offset": 2607,
+          "name": "errorFlag"
+        },
+        {
+          "index": 248,
+          "offset": 2617,
+          "name": "powerControl"
+        },
+        {
+          "index": 249,
+          "offset": 2630,
+          "name": "errorType"
+        },
+        {
+          "index": 250,
+          "offset": 2640,
+          "name": "ERROR_END_OF_BATTERY"
+        },
+        {
+          "index": 251,
+          "offset": 2661,
+          "name": "errorCallback"
+        },
+        {
+          "index": 252,
+          "offset": 2675,
+          "name": "cmdExec0x7"
+        },
+        {
+          "index": 253,
+          "offset": 2686,
+          "name": "senserCommand_PowerMode"
+        },
+        {
+          "index": 254,
+          "offset": 2710,
+          "name": "handlingEvent"
+        },
+        {
+          "index": 255,
+          "offset": 2724,
+          "name": "browserState"
+        },
+        {
+          "index": 256,
+          "offset": 2737,
+          "name": "POWER_MODE"
+        },
+        {
+          "index": 257,
+          "offset": 2748,
+          "name": "tblAppID"
+        },
+        {
+          "index": 258,
+          "offset": 2757,
+          "name": "tblAppState"
+        },
+        {
+          "index": 259,
+          "offset": 2769,
+          "name": "idTargetApp"
+        },
+        {
+          "index": 260,
+          "offset": 2781,
+          "name": "idTargetState"
+        },
+        {
+          "index": 261,
+          "offset": 2795,
+          "name": "cbChangeToSingleView"
+        },
+        {
+          "index": 262,
+          "offset": 2816,
+          "name": "checkCompChangeView"
+        },
+        {
+          "index": 263,
+          "offset": 2836,
+          "name": "KEY_USER"
+        },
+        {
+          "index": 264,
+          "offset": 2845,
+          "name": "currentGroup"
+        },
+        {
+          "index": 265,
+          "offset": 2858,
+          "name": "browserApp"
+        },
+        {
+          "index": 266,
+          "offset": 2869,
+          "name": "pictureModel"
+        },
+        {
+          "index": 267,
+          "offset": 2882,
+          "name": "senserCommand_MediaMode"
+        },
+        {
+          "index": 268,
+          "offset": 2906,
+          "name": "objTemp"
+        },
+        {
+          "index": 269,
+          "offset": 2914,
+          "name": "funcOrg"
+        },
+        {
+          "index": 270,
+          "offset": 2922,
+          "name": "funcFmtResOrg"
+        },
+        {
+          "index": 271,
+          "offset": 2936,
+          "name": "prmFormat"
+        },
+        {
+          "index": 272,
+          "offset": 2946,
+          "name": "OPE_MODE"
+        },
+        {
+          "index": 273,
+          "offset": 2955,
+          "name": "flgLock"
+        },
+        {
+          "index": 274,
+          "offset": 2963,
+          "name": "cameraApp"
+        },
+        {
+          "index": 275,
+          "offset": 2973,
+          "name": "setting"
+        },
+        {
+          "index": 276,
+          "offset": 2981,
+          "name": "STILL_MOVIE"
+        },
+        {
+          "index": 277,
+          "offset": 2993,
+          "name": "settingFacade"
+        },
+        {
+          "index": 278,
+          "offset": 3007,
+          "name": "STILL_MOVIE_S"
+        },
+        {
+          "index": 279,
+          "offset": 3021,
+          "name": "diCapture"
+        },
+        {
+          "index": 280,
+          "offset": 3031,
+          "name": "_spinalModeOn"
+        },
+        {
+          "index": 281,
+          "offset": 3045,
+          "name": "setSpinalMode"
+        },
+        {
+          "index": 282,
+          "offset": 3059,
+          "name": "eventKeyPush"
+        },
+        {
+          "index": 283,
+          "offset": 3072,
+          "name": "currentAppModel"
+        },
+        {
+          "index": 284,
+          "offset": 3088,
+          "name": "Still"
+        },
+        {
+          "index": 285,
+          "offset": 3094,
+          "name": "Monitoring"
+        },
+        {
+          "index": 286,
+          "offset": 3105,
+          "name": "cbCompStillCapture"
+        },
+        {
+          "index": 287,
+          "offset": 3124,
+          "name": "checkCameraAppStatus"
+        },
+        {
+          "index": 288,
+          "offset": 3145,
+          "name": "STILL_MOVIE_M"
+        },
+        {
+          "index": 289,
+          "offset": 3159,
+          "name": "changeDispCamera"
+        },
+        {
+          "index": 290,
+          "offset": 3176,
+          "name": "changeDispBrowser"
+        },
+        {
+          "index": 291,
+          "offset": 3194,
+          "name": "tblKeyCode"
+        },
+        {
+          "index": 292,
+          "offset": 3205,
+          "name": "operateZoom"
+        },
+        {
+          "index": 293,
+          "offset": 3217,
+          "name": "pushKeyOnBrowser"
+        },
+        {
+          "index": 294,
+          "offset": 3234,
+          "name": "cmdExec0xD"
+        },
+        {
+          "index": 295,
+          "offset": 3245,
+          "name": "cmdExec0xE"
+        },
+        {
+          "index": 296,
+          "offset": 3256,
+          "name": "idxMax"
+        },
+        {
+          "index": 297,
+          "offset": 3263,
+          "name": "idxTarget"
+        },
+        {
+          "index": 298,
+          "offset": 3273,
+          "name": "objDir"
+        },
+        {
+          "index": 299,
+          "offset": 3280,
+          "name": "dMounter"
+        },
+        {
+          "index": 300,
+          "offset": 3289,
+          "name": "dMS"
+        },
+        {
+          "index": 301,
+          "offset": 3293,
+          "name": "isMediaPresent"
+        },
+        {
+          "index": 302,
+          "offset": 3308,
+          "name": "dfmMs"
+        },
+        {
+          "index": 303,
+          "offset": 3314,
+          "name": "getCount"
+        },
+        {
+          "index": 304,
+          "offset": 3323,
+          "name": "Index"
+        },
+        {
+          "index": 305,
+          "offset": 3329,
+          "name": "refreshFocus"
+        },
+        {
+          "index": 306,
+          "offset": 3342,
+          "name": "cmdExec0x13"
+        },
+        {
+          "index": 307,
+          "offset": 3354,
+          "name": "deleteModel"
+        },
+        {
+          "index": 308,
+          "offset": 3366,
+          "name": "browserStateManager"
+        },
+        {
+          "index": 309,
+          "offset": 3386,
+          "name": "funcDeleteState"
+        },
+        {
+          "index": 310,
+          "offset": 3402,
+          "name": "startBrowserSubFunc"
+        },
+        {
+          "index": 311,
+          "offset": 3422,
+          "name": "cmdExec0x15"
+        },
+        {
+          "index": 312,
+          "offset": 3434,
+          "name": "funcProtectState"
+        },
+        {
+          "index": 313,
+          "offset": 3451,
+          "name": "cmdExec0x17"
+        },
+        {
+          "index": 314,
+          "offset": 3463,
+          "name": "orient"
+        },
+        {
+          "index": 315,
+          "offset": 3470,
+          "name": "direction"
+        },
+        {
+          "index": 316,
+          "offset": 3480,
+          "name": "curOrient"
+        },
+        {
+          "index": 317,
+          "offset": 3490,
+          "name": "tblOrientation"
+        },
+        {
+          "index": 318,
+          "offset": 3505,
+          "name": "getCurrentStateId"
+        },
+        {
+          "index": 319,
+          "offset": 3523,
+          "name": "browserModel"
+        },
+        {
+          "index": 320,
+          "offset": 3536,
+          "name": "getCurrentOrientation"
+        },
+        {
+          "index": 321,
+          "offset": 3558,
+          "name": "setRotateDegree"
+        },
+        {
+          "index": 322,
+          "offset": 3574,
+          "name": "saveOrientation"
+        },
+        {
+          "index": 323,
+          "offset": 3590,
+          "name": "cmdExec0x18"
+        },
+        {
+          "index": 324,
+          "offset": 3602,
+          "name": "funcDpofState"
+        },
+        {
+          "index": 325,
+          "offset": 3616,
+          "name": "cmdExec0x24"
+        },
+        {
+          "index": 326,
+          "offset": 3628,
+          "name": "dBGM"
+        },
+        {
+          "index": 327,
+          "offset": 3633,
+          "name": "mediaToolApp"
+        },
+        {
+          "index": 328,
+          "offset": 3646,
+          "name": "mtUiModel"
+        },
+        {
+          "index": 329,
+          "offset": 3656,
+          "name": "idxMS"
+        },
+        {
+          "index": 330,
+          "offset": 3662,
+          "name": "startForceFormat"
+        },
+        {
+          "index": 331,
+          "offset": 3679,
+          "name": "cmdExec0x2E"
+        },
+        {
+          "index": 332,
+          "offset": 3691,
+          "name": "strDirName"
+        },
+        {
+          "index": 333,
+          "offset": 3702,
+          "name": "modelMediaTool"
+        },
+        {
+          "index": 334,
+          "offset": 3717,
+          "name": "getMountLevel"
+        },
+        {
+          "index": 335,
+          "offset": 3731,
+          "name": "mlDfm"
+        },
+        {
+          "index": 336,
+          "offset": 3737,
+          "name": "getNext"
+        },
+        {
+          "index": 337,
+          "offset": 3745,
+          "name": "createDirectory"
+        },
+        {
+          "index": 338,
+          "offset": 3761,
+          "name": "storages"
+        },
+        {
+          "index": 339,
+          "offset": 3770,
+          "name": "onChangeMediaStatus"
+        },
+        {
+          "index": 340,
+          "offset": 3790,
+          "name": "cmdExec0x2F"
+        },
+        {
+          "index": 341,
+          "offset": 3802,
+          "name": "mntLv"
+        },
+        {
+          "index": 342,
+          "offset": 3808,
+          "name": "maxIndex"
+        },
+        {
+          "index": 343,
+          "offset": 3817,
+          "name": "reqIndex"
+        },
+        {
+          "index": 344,
+          "offset": 3826,
+          "name": "dir"
+        },
+        {
+          "index": 345,
+          "offset": 3830,
+          "name": "getAt"
+        },
+        {
+          "index": 346,
+          "offset": 3836,
+          "name": "number"
+        },
+        {
+          "index": 347,
+          "offset": 3843,
+          "name": "setRegistryRecDir"
+        },
+        {
+          "index": 348,
+          "offset": 3861,
+          "name": "cmdExec0x30"
+        },
+        {
+          "index": 349,
+          "offset": 3873,
+          "name": "idxInternal"
+        },
+        {
+          "index": 350,
+          "offset": 3885,
+          "name": "dInternal"
+        },
+        {
+          "index": 351,
+          "offset": 3895,
+          "name": "cmdExec0x32"
+        },
+        {
+          "index": 352,
+          "offset": 3907,
+          "name": "idxBGM"
+        },
+        {
+          "index": 353,
+          "offset": 3914,
+          "name": "cmdExec0x33"
+        },
+        {
+          "index": 354,
+          "offset": 3926,
+          "name": "pathPri"
+        },
+        {
+          "index": 355,
+          "offset": 3934,
+          "name": "pathSec"
+        },
+        {
+          "index": 356,
+          "offset": 3942,
+          "name": "cmdExec0x34"
+        },
+        {
+          "index": 357,
+          "offset": 3954,
+          "name": "modelDlgClock"
+        },
+        {
+          "index": 358,
+          "offset": 3968,
+          "name": "popupDialogBubbleModel"
+        },
+        {
+          "index": 359,
+          "offset": 3991,
+          "name": "isShown"
+        },
+        {
+          "index": 360,
+          "offset": 3999,
+          "name": "dialogPath"
+        },
+        {
+          "index": 361,
+          "offset": 4010,
+          "name": "getDialogModel"
+        },
+        {
+          "index": 362,
+          "offset": 4025,
+          "name": "closeDialog"
+        },
+        {
+          "index": 363,
+          "offset": 4037,
+          "name": "stCoreModel"
+        },
+        {
+          "index": 364,
+          "offset": 4049,
+          "name": "doSettingDataReset"
+        },
+        {
+          "index": 365,
+          "offset": 4068,
+          "name": "cmdExec0x35"
+        },
+        {
+          "index": 366,
+          "offset": 4080,
+          "name": "retBatt"
+        },
+        {
+          "index": 367,
+          "offset": 4088,
+          "name": "Object"
+        },
+        {
+          "index": 368,
+          "offset": 4095,
+          "name": "cmdExec0x44"
+        },
+        {
+          "index": 369,
+          "offset": 4107,
+          "name": "Power"
+        },
+        {
+          "index": 370,
+          "offset": 4113,
+          "name": "State"
+        },
+        {
+          "index": 371,
+          "offset": 4119,
+          "name": "Off"
+        },
+        {
+          "index": 372,
+          "offset": 4123,
+          "name": "PowerManager"
+        },
+        {
+          "index": 373,
+          "offset": 4136,
+          "name": "toPowerOffExt"
+        },
+        {
+          "index": 374,
+          "offset": 4150,
+          "name": "cmdExec0x4A"
+        },
+        {
+          "index": 375,
+          "offset": 4162,
+          "name": "reboot"
+        },
+        {
+          "index": 376,
+          "offset": 4169,
+          "name": "Suspend"
+        },
+        {
+          "index": 377,
+          "offset": 4177,
+          "name": "cmdExec0x4B"
+        },
+        {
+          "index": 378,
+          "offset": 4189,
+          "name": "muteRGB"
+        },
+        {
+          "index": 379,
+          "offset": 4197,
+          "name": "cmdExec0x4C"
+        },
+        {
+          "index": 380,
+          "offset": 4209,
+          "name": "doOK"
+        },
+        {
+          "index": 381,
+          "offset": 4214,
+          "name": "cmdExec0x4D"
+        },
+        {
+          "index": 382,
+          "offset": 4226,
+          "name": "toReboot"
+        },
+        {
+          "index": 383,
+          "offset": 4235,
+          "name": "cmdExec0x4E"
+        },
+        {
+          "index": 384,
+          "offset": 4247,
+          "name": "volume"
+        },
+        {
+          "index": 385,
+          "offset": 4254,
+          "name": "audioControl"
+        },
+        {
+          "index": 386,
+          "offset": 4267,
+          "name": "cmdExec0x4F"
+        },
+        {
+          "index": 387,
+          "offset": 4279,
+          "name": "lcdBacklight"
+        },
+        {
+          "index": 388,
+          "offset": 4292,
+          "name": "LCD_BACKLIGHT_NORMAL"
+        },
+        {
+          "index": 389,
+          "offset": 4313,
+          "name": "LCD_BACKLIGHT_BRIGHT"
+        },
+        {
+          "index": 390,
+          "offset": 4334,
+          "name": "cmdExec0x50"
+        },
+        {
+          "index": 391,
+          "offset": 4346,
+          "name": "flush"
+        },
+        {
+          "index": 392,
+          "offset": 4352,
+          "name": "cmdExec0x51"
+        },
+        {
+          "index": 393,
+          "offset": 4364,
+          "name": "cmdExec0x56"
+        },
+        {
+          "index": 394,
+          "offset": 4376,
+          "name": "lcd"
+        },
+        {
+          "index": 395,
+          "offset": 4380,
+          "name": "cmdExec0x63"
+        },
+        {
+          "index": 396,
+          "offset": 4392,
+          "name": "cameraState"
+        },
+        {
+          "index": 397,
+          "offset": 4404,
+          "name": "cameraFacade"
+        },
+        {
+          "index": 398,
+          "offset": 4417,
+          "name": "cameraConst"
+        },
+        {
+          "index": 399,
+          "offset": 4429,
+          "name": "movieMode"
+        },
+        {
+          "index": 400,
+          "offset": 4439,
+          "name": "stillMode"
+        },
+        {
+          "index": 401,
+          "offset": 4449,
+          "name": "cameraMode"
+        },
+        {
+          "index": 402,
+          "offset": 4460,
+          "name": "Movie"
+        },
+        {
+          "index": 403,
+          "offset": 4466,
+          "name": "Standby"
+        },
+        {
+          "index": 404,
+          "offset": 4474,
+          "name": "CAMERA_MODE"
+        },
+        {
+          "index": 405,
+          "offset": 4486,
+          "name": "CAMERA_SCENE"
+        },
+        {
+          "index": 406,
+          "offset": 4499,
+          "name": "SCENE_SELECTION"
+        },
+        {
+          "index": 407,
+          "offset": 4515,
+          "name": "TOOL_CAM_MODE"
+        },
+        {
+          "index": 408,
+          "offset": 4529,
+          "name": "WB"
+        },
+        {
+          "index": 409,
+          "offset": 4532,
+          "name": "TOOL_POS_ITEM"
+        },
+        {
+          "index": 410,
+          "offset": 4546,
+          "name": "WB_ONEPUSH"
+        },
+        {
+          "index": 411,
+          "offset": 4557,
+          "name": "doTool"
+        },
+        {
+          "index": 412,
+          "offset": 4564,
+          "name": "WB_ONEPUSHGET"
+        },
+        {
+          "index": 413,
+          "offset": 4578,
+          "name": "Tool"
+        },
+        {
+          "index": 414,
+          "offset": 4583,
+          "name": "Normal"
+        },
+        {
+          "index": 415,
+          "offset": 4590,
+          "name": "cbCompOnePushWB"
+        },
+        {
+          "index": 416,
+          "offset": 4606,
+          "name": "cmdExec0x64"
+        },
+        {
+          "index": 417,
+          "offset": 4618,
+          "name": "reqStart"
+        },
+        {
+          "index": 418,
+          "offset": 4627,
+          "name": "cbChangedSlideshow"
+        },
+        {
+          "index": 419,
+          "offset": 4646,
+          "name": "checkChangedSlideshow"
+        },
+        {
+          "index": 420,
+          "offset": 4668,
+          "name": "cmdExec0x65"
+        },
+        {
+          "index": 421,
+          "offset": 4680,
+          "name": "setSlideShowParam"
+        },
+        {
+          "index": 422,
+          "offset": 4698,
+          "name": "cmdExec0x66"
+        },
+        {
+          "index": 423,
+          "offset": 4710,
+          "name": "cmdExec0x67"
+        },
+        {
+          "index": 424,
+          "offset": 4722,
+          "name": "cmdExec0x68"
+        },
+        {
+          "index": 425,
+          "offset": 4734,
+          "name": "cmdExec0x69"
+        },
+        {
+          "index": 426,
+          "offset": 4746,
+          "name": "retDial"
+        },
+        {
+          "index": 427,
+          "offset": 4754,
+          "name": "retNotice"
+        },
+        {
+          "index": 428,
+          "offset": 4764,
+          "name": "retPopup"
+        },
+        {
+          "index": 429,
+          "offset": 4773,
+          "name": "modeDialGuideModel"
+        },
+        {
+          "index": 430,
+          "offset": 4792,
+          "name": "modeNoticeGuideModel"
+        },
+        {
+          "index": 431,
+          "offset": 4813,
+          "name": "Popup"
+        },
+        {
+          "index": 432,
+          "offset": 4819,
+          "name": "cmdExec0x6A"
+        },
+        {
+          "index": 433,
+          "offset": 4831,
+          "name": "cbMountBgmCnt"
+        },
+        {
+          "index": 434,
+          "offset": 4845,
+          "name": "mountBgmSpace"
+        },
+        {
+          "index": 435,
+          "offset": 4859,
+          "name": "cmdExec0x6B"
+        },
+        {
+          "index": 436,
+          "offset": 4871,
+          "name": "dAutoPowerOff"
+        },
+        {
+          "index": 437,
+          "offset": 4885,
+          "name": "lSenser"
+        },
+        {
+          "index": 438,
+          "offset": 4893,
+          "name": "enable"
+        },
+        {
+          "index": 439,
+          "offset": 4900,
+          "name": "disable"
+        },
+        {
+          "index": 440,
+          "offset": 4908,
+          "name": "cmdExec0x6C"
+        },
+        {
+          "index": 441,
+          "offset": 4920,
+          "name": "lenArg"
+        },
+        {
+          "index": 442,
+          "offset": 4927,
+          "name": "Property"
+        },
+        {
+          "index": 443,
+          "offset": 4936,
+          "name": "reflexMode"
+        },
+        {
+          "index": 444,
+          "offset": 4947,
+          "name": "on"
+        },
+        {
+          "index": 445,
+          "offset": 4950,
+          "name": "cmdExec0x6D"
+        },
+        {
+          "index": 446,
+          "offset": 4962,
+          "name": "isChangingApp"
+        },
+        {
+          "index": 447,
+          "offset": 4976,
+          "name": "cmdExec0x6E"
+        },
+        {
+          "index": 448,
+          "offset": 4988,
+          "name": "recCouentId"
+        },
+        {
+          "index": 449,
+          "offset": 5000,
+          "name": "cntLifetimeRec"
+        },
+        {
+          "index": 450,
+          "offset": 5015,
+          "name": "recCount"
+        },
+        {
+          "index": 451,
+          "offset": 5024,
+          "name": "cmdExec0x6F"
+        },
+        {
+          "index": 452,
+          "offset": 5036,
+          "name": "Debug"
+        },
+        {
+          "index": 453,
+          "offset": 5042,
+          "name": "forcePB"
+        },
+        {
+          "index": 454,
+          "offset": 5050,
+          "name": "cmdExec0x70"
+        },
+        {
+          "index": 455,
+          "offset": 5062,
+          "name": "flgApp"
+        },
+        {
+          "index": 456,
+          "offset": 5069,
+          "name": "flgShow"
+        },
+        {
+          "index": 457,
+          "offset": 5077,
+          "name": "toolTarget"
+        },
+        {
+          "index": 458,
+          "offset": 5088,
+          "name": "toolFunc"
+        },
+        {
+          "index": 459,
+          "offset": 5097,
+          "name": "showMenu"
+        },
+        {
+          "index": 460,
+          "offset": 5106,
+          "name": "Size"
+        },
+        {
+          "index": 461,
+          "offset": 5111,
+          "name": "OnePush"
+        },
+        {
+          "index": 462,
+          "offset": 5119,
+          "name": "broToolModel"
+        },
+        {
+          "index": 463,
+          "offset": 5132,
+          "name": "doToolPush"
+        },
+        {
+          "index": 464,
+          "offset": 5143,
+          "name": "cmdExec0x71"
+        },
+        {
+          "index": 465,
+          "offset": 5155,
+          "name": "currentApp"
+        },
+        {
+          "index": 466,
+          "offset": 5166,
+          "name": "mediaToolModel"
+        },
+        {
+          "index": 467,
+          "offset": 5181,
+          "name": "xs"
+        },
+        {
+          "index": 468,
+          "offset": 5184,
+          "name": "newInstanceOf"
+        },
+        {
+          "index": 469,
+          "offset": 5198,
+          "name": "dfmInt"
+        },
+        {
+          "index": 470,
+          "offset": 5205,
+          "name": "cbMountCompForCopy"
+        },
+        {
+          "index": 471,
+          "offset": 5224,
+          "name": "mediaMount"
+        },
+        {
+          "index": 472,
+          "offset": 5235,
+          "name": "cmdExec0x72"
+        },
+        {
+          "index": 473,
+          "offset": 5247,
+          "name": "cmdExec0x73"
+        },
+        {
+          "index": 474,
+          "offset": 5259,
+          "name": "cmdExec0x74"
+        },
+        {
+          "index": 475,
+          "offset": 5271,
+          "name": "tblEffect"
+        },
+        {
+          "index": 476,
+          "offset": 5281,
+          "name": "tblBGM"
+        },
+        {
+          "index": 477,
+          "offset": 5288,
+          "name": "effect"
+        },
+        {
+          "index": 478,
+          "offset": 5295,
+          "name": "bgm"
+        },
+        {
+          "index": 479,
+          "offset": 5299,
+          "name": "infoSlideShow"
+        },
+        {
+          "index": 480,
+          "offset": 5313,
+          "name": "getObject"
+        },
+        {
+          "index": 481,
+          "offset": 5323,
+          "name": "setObject"
+        },
+        {
+          "index": 482,
+          "offset": 5333,
+          "name": "cmdExec0x75"
+        },
+        {
+          "index": 483,
+          "offset": 5345,
+          "name": "testCaution"
+        },
+        {
+          "index": 484,
+          "offset": 5357,
+          "name": "cmdExec0x76"
+        },
+        {
+          "index": 485,
+          "offset": 5369,
+          "name": "nowTime"
+        },
+        {
+          "index": 486,
+          "offset": 5377,
+          "name": "temp"
+        },
+        {
+          "index": 487,
+          "offset": 5382,
+          "name": "Date"
+        },
+        {
+          "index": 488,
+          "offset": 5387,
+          "name": "getFullYear"
+        },
+        {
+          "index": 489,
+          "offset": 5399,
+          "name": "getMonth"
+        },
+        {
+          "index": 490,
+          "offset": 5408,
+          "name": "getDate"
+        },
+        {
+          "index": 491,
+          "offset": 5416,
+          "name": "getHours"
+        },
+        {
+          "index": 492,
+          "offset": 5425,
+          "name": "getMinutes"
+        },
+        {
+          "index": 493,
+          "offset": 5436,
+          "name": "getSeconds"
+        },
+        {
+          "index": 494,
+          "offset": 5447,
+          "name": "cmdExec0x77"
+        },
+        {
+          "index": 495,
+          "offset": 5459,
+          "name": "yuvMute"
+        },
+        {
+          "index": 496,
+          "offset": 5467,
+          "name": "tblOutput"
+        },
+        {
+          "index": 497,
+          "offset": 5477,
+          "name": "tblColor"
+        },
+        {
+          "index": 498,
+          "offset": 5486,
+          "name": "argOutput"
+        },
+        {
+          "index": 499,
+          "offset": 5496,
+          "name": "argColor"
+        },
+        {
+          "index": 500,
+          "offset": 5505,
+          "name": "MUTE_LINE_PANEL"
+        },
+        {
+          "index": 501,
+          "offset": 5521,
+          "name": "MUTE_LINE_VIDEOOUT"
+        },
+        {
+          "index": 502,
+          "offset": 5540,
+          "name": "MUTE_LINE_BOTH"
+        },
+        {
+          "index": 503,
+          "offset": 5555,
+          "name": "MUTE_COLOR_OFF"
+        },
+        {
+          "index": 504,
+          "offset": 5570,
+          "name": "MUTE_COLOR_BLACK"
+        },
+        {
+          "index": 505,
+          "offset": 5587,
+          "name": "MUTE_COLOR_BLUE"
+        },
+        {
+          "index": 506,
+          "offset": 5603,
+          "name": "set_yuvMute"
+        },
+        {
+          "index": 507,
+          "offset": 5615,
+          "name": "get_yuvMute"
+        },
+        {
+          "index": 508,
+          "offset": 5627,
+          "name": "cmdExec0x78"
+        },
+        {
+          "index": 509,
+          "offset": 5639,
+          "name": "input"
+        },
+        {
+          "index": 510,
+          "offset": 5645,
+          "name": "isACAttached"
+        },
+        {
+          "index": 511,
+          "offset": 5658,
+          "name": "isBatteryAttached"
+        },
+        {
+          "index": 512,
+          "offset": 5676,
+          "name": "cmdExec0x79"
+        },
+        {
+          "index": 513,
+          "offset": 5688,
+          "name": "massObj"
+        },
+        {
+          "index": 514,
+          "offset": 5696,
+          "name": "massStorageObject"
+        },
+        {
+          "index": 515,
+          "offset": 5714,
+          "name": "setReadOnlyInvalidateFlag"
+        },
+        {
+          "index": 516,
+          "offset": 5740,
+          "name": "getReadOnlyInvalidateFlag"
+        },
+        {
+          "index": 517,
+          "offset": 5766,
+          "name": "cmdExec0x7A"
+        },
+        {
+          "index": 518,
+          "offset": 5778,
+          "name": "appName"
+        },
+        {
+          "index": 519,
+          "offset": 5786,
+          "name": "tempState"
+        },
+        {
+          "index": 520,
+          "offset": 5796,
+          "name": "Enter"
+        },
+        {
+          "index": 521,
+          "offset": 5802,
+          "name": "Leave"
+        },
+        {
+          "index": 522,
+          "offset": 5808,
+          "name": "Transit"
+        },
+        {
+          "index": 523,
+          "offset": 5816,
+          "name": "MediaAccess"
+        },
+        {
+          "index": 524,
+          "offset": 5828,
+          "name": "Waiting"
+        },
+        {
+          "index": 525,
+          "offset": 5836,
+          "name": "StroboWaiting"
+        },
+        {
+          "index": 526,
+          "offset": 5850,
+          "name": "Locking"
+        },
+        {
+          "index": 527,
+          "offset": 5858,
+          "name": "Locked"
+        },
+        {
+          "index": 528,
+          "offset": 5865,
+          "name": "UnLocking"
+        },
+        {
+          "index": 529,
+          "offset": 5875,
+          "name": "Capture"
+        },
+        {
+          "index": 530,
+          "offset": 5883,
+          "name": "Burst"
+        },
+        {
+          "index": 531,
+          "offset": 5889,
+          "name": "Bracket"
+        },
+        {
+          "index": 532,
+          "offset": 5897,
+          "name": "Exit"
+        },
+        {
+          "index": 533,
+          "offset": 5902,
+          "name": "Review"
+        },
+        {
+          "index": 534,
+          "offset": 5909,
+          "name": "SelfTimer"
+        },
+        {
+          "index": 535,
+          "offset": 5919,
+          "name": "FaceScan"
+        },
+        {
+          "index": 536,
+          "offset": 5928,
+          "name": "Smile"
+        },
+        {
+          "index": 537,
+          "offset": 5934,
+          "name": "Detecting"
+        },
+        {
+          "index": 538,
+          "offset": 5944,
+          "name": "Detected"
+        },
+        {
+          "index": 539,
+          "offset": 5953,
+          "name": "Ready"
+        },
+        {
+          "index": 540,
+          "offset": 5959,
+          "name": "Record"
+        },
+        {
+          "index": 541,
+          "offset": 5966,
+          "name": "Save"
+        },
+        {
+          "index": 542,
+          "offset": 5971,
+          "name": "Disp"
+        },
+        {
+          "index": 543,
+          "offset": 5976,
+          "name": "DtiMenu"
+        },
+        {
+          "index": 544,
+          "offset": 5984,
+          "name": "Macro"
+        },
+        {
+          "index": 545,
+          "offset": 5990,
+          "name": "Flash"
+        },
+        {
+          "index": 546,
+          "offset": 5996,
+          "name": "Metering"
+        },
+        {
+          "index": 547,
+          "offset": 6005,
+          "name": "Housing"
+        },
+        {
+          "index": 548,
+          "offset": 6013,
+          "name": "stateManager"
+        },
+        {
+          "index": 549,
+          "offset": 6026,
+          "name": "currentState"
+        },
+        {
+          "index": 550,
+          "offset": 6039,
+          "name": "picture"
+        },
+        {
+          "index": 551,
+          "offset": 6047,
+          "name": "singleOpenMode"
+        },
+        {
+          "index": 552,
+          "offset": 6062,
+          "name": "moviePlayMode"
+        },
+        {
+          "index": 553,
+          "offset": 6076,
+          "name": "FIRST_FRAME"
+        },
+        {
+          "index": 554,
+          "offset": 6088,
+          "name": "id"
+        },
+        {
+          "index": 555,
+          "offset": 6091,
+          "name": "accessStatus"
+        },
+        {
+          "index": 556,
+          "offset": 6104,
+          "name": "homeModel"
+        },
+        {
+          "index": 557,
+          "offset": 6114,
+          "name": "isHomeShown"
+        },
+        {
+          "index": 558,
+          "offset": 6126,
+          "name": "cmdExec0x7B"
+        },
+        {
+          "index": 559,
+          "offset": 6138,
+          "name": "cbMountBgmSize"
+        },
+        {
+          "index": 560,
+          "offset": 6153,
+          "name": "cmdExec0x7C"
+        },
+        {
+          "index": 561,
+          "offset": 6165,
+          "name": "camerafacade"
+        },
+        {
+          "index": 562,
+          "offset": 6178,
+          "name": "cameraconst"
+        },
+        {
+          "index": 563,
+          "offset": 6190,
+          "name": "recMode"
+        },
+        {
+          "index": 564,
+          "offset": 6198,
+          "name": "recorder"
+        },
+        {
+          "index": 565,
+          "offset": 6207,
+          "name": "getRemainMovieSec"
+        },
+        {
+          "index": 566,
+          "offset": 6225,
+          "name": "commandManager"
+        },
+        {
+          "index": 567,
+          "offset": 6240,
+          "name": "getRemainStill"
+        },
+        {
+          "index": 568,
+          "offset": 6255,
+          "name": "cmdExec0x7D"
+        },
+        {
+          "index": 569,
+          "offset": 6267,
+          "name": "_isStroboPopUp"
+        },
+        {
+          "index": 570,
+          "offset": 6282,
+          "name": "cmdExec0x7E"
+        },
+        {
+          "index": 571,
+          "offset": 6294,
+          "name": "ayMntDev"
+        },
+        {
+          "index": 572,
+          "offset": 6303,
+          "name": "aySysEnv"
+        },
+        {
+          "index": 573,
+          "offset": 6312,
+          "name": "idxMntDev"
+        },
+        {
+          "index": 574,
+          "offset": 6322,
+          "name": "noSpace"
+        },
+        {
+          "index": 575,
+          "offset": 6330,
+          "name": "flag"
+        },
+        {
+          "index": 576,
+          "offset": 6335,
+          "name": "forceMediaRemainZero"
+        },
+        {
+          "index": 577,
+          "offset": 6356,
+          "name": "mlFileSystem"
+        },
+        {
+          "index": 578,
+          "offset": 6369,
+          "name": "seek"
+        },
+        {
+          "index": 579,
+          "offset": 6374,
+          "name": "writeChar"
+        },
+        {
+          "index": 580,
+          "offset": 6384,
+          "name": "cmdExec0x7F"
+        },
+        {
+          "index": 581,
+          "offset": 6396,
+          "name": "cbMountIntPhotoSize"
+        },
+        {
+          "index": 582,
+          "offset": 6416,
+          "name": "mountInternalMemory"
+        },
+        {
+          "index": 583,
+          "offset": 6436,
+          "name": "cmdExec0x80"
+        },
+        {
+          "index": 584,
+          "offset": 6448,
+          "name": "dummyEvent"
+        },
+        {
+          "index": 585,
+          "offset": 6459,
+          "name": "senserCommand_MenuSetting"
+        },
+        {
+          "index": 586,
+          "offset": 6485,
+          "name": "cmdExec0x8"
+        },
+        {
+          "index": 587,
+          "offset": 6496,
+          "name": "cmdExec0x81"
+        },
+        {
+          "index": 588,
+          "offset": 6508,
+          "name": "cmdExec0x82"
+        },
+        {
+          "index": 589,
+          "offset": 6520,
+          "name": "shipmentSetting"
+        },
+        {
+          "index": 590,
+          "offset": 6536,
+          "name": "startFormatOnGUI"
+        },
+        {
+          "index": 591,
+          "offset": 6553,
+          "name": "cmdExec0x83"
+        },
+        {
+          "index": 592,
+          "offset": 6565,
+          "name": "cbCountInternalFile"
+        },
+        {
+          "index": 593,
+          "offset": 6585,
+          "name": "cmdExec0x84"
+        },
+        {
+          "index": 594,
+          "offset": 6597,
+          "name": "Backup"
+        },
+        {
+          "index": 595,
+          "offset": 6604,
+          "name": "backuper"
+        },
+        {
+          "index": 596,
+          "offset": 6613,
+          "name": "read"
+        },
+        {
+          "index": 597,
+          "offset": 6618,
+          "name": "cmdExec0x85"
+        },
+        {
+          "index": 598,
+          "offset": 6630,
+          "name": "storage"
+        },
+        {
+          "index": 599,
+          "offset": 6638,
+          "name": "fixed"
+        },
+        {
+          "index": 600,
+          "offset": 6644,
+          "name": "format"
+        },
+        {
+          "index": 601,
+          "offset": 6651,
+          "name": "orig_func"
+        },
+        {
+          "index": 602,
+          "offset": 6661,
+          "name": "moviForceFormat"
+        },
+        {
+          "index": 603,
+          "offset": 6677,
+          "name": "cmdExec0x86"
+        },
+        {
+          "index": 604,
+          "offset": 6689,
+          "name": "cbMountPmbpCnt"
+        },
+        {
+          "index": 605,
+          "offset": 6704,
+          "name": "mountPmbpSpace"
+        },
+        {
+          "index": 606,
+          "offset": 6719,
+          "name": "cmdExec0x87"
+        },
+        {
+          "index": 607,
+          "offset": 6731,
+          "name": "subItem"
+        },
+        {
+          "index": 608,
+          "offset": 6739,
+          "name": "value"
+        },
+        {
+          "index": 609,
+          "offset": 6745,
+          "name": "valueExt"
+        },
+        {
+          "index": 610,
+          "offset": 6754,
+          "name": "doToolEnter"
+        },
+        {
+          "index": 611,
+          "offset": 6766,
+          "name": "cbChangePaint"
+        },
+        {
+          "index": 612,
+          "offset": 6780,
+          "name": "checkPaintTransition"
+        },
+        {
+          "index": 613,
+          "offset": 6801,
+          "name": "cmdExec0x8C"
+        },
+        {
+          "index": 614,
+          "offset": 6813,
+          "name": "onCompGuiFormat"
+        },
+        {
+          "index": 615,
+          "offset": 6829,
+          "name": "cmdExec0x100"
+        },
+        {
+          "index": 616,
+          "offset": 6842,
+          "name": "cmdExec0x101"
+        },
+        {
+          "index": 617,
+          "offset": 6855,
+          "name": "cmdExec0x102"
+        },
+        {
+          "index": 618,
+          "offset": 6868,
+          "name": "retryExec"
+        },
+        {
+          "index": 619,
+          "offset": 6878,
+          "name": "doubleMountComp"
+        },
+        {
+          "index": 620,
+          "offset": 6894,
+          "name": "disguiseDblMntComp"
+        },
+        {
+          "index": 621,
+          "offset": 6913,
+          "name": "container"
+        },
+        {
+          "index": 622,
+          "offset": 6923,
+          "name": "doShowMsCopyDialog"
+        },
+        {
+          "index": 623,
+          "offset": 6942,
+          "name": "cmdExec0x103"
+        },
+        {
+          "index": 624,
+          "offset": 6955,
+          "name": "ayMntLv"
+        },
+        {
+          "index": 625,
+          "offset": 6963,
+          "name": "cbChangeMount"
+        },
+        {
+          "index": 626,
+          "offset": 6977,
+          "name": "changeMount"
+        },
+        {
+          "index": 627,
+          "offset": 6989,
+          "name": "mlUnmount"
+        },
+        {
+          "index": 628,
+          "offset": 6999,
+          "name": "cmdExec0x104"
+        },
+        {
+          "index": 629,
+          "offset": 7012,
+          "name": "cmdExec0x1F4"
+        },
+        {
+          "index": 630,
+          "offset": 7025,
+          "name": "isLensCapOpened"
+        },
+        {
+          "index": 631,
+          "offset": 7041,
+          "name": "cmdExec0x1F5"
+        },
+        {
+          "index": 632,
+          "offset": 7054,
+          "name": "out"
+        },
+        {
+          "index": 633,
+          "offset": 7058,
+          "name": "getValue"
+        },
+        {
+          "index": 634,
+          "offset": 7067,
+          "name": "audio"
+        },
+        {
+          "index": 635,
+          "offset": 7073,
+          "name": "getCached"
+        },
+        {
+          "index": 636,
+          "offset": 7083,
+          "name": "LINE"
+        },
+        {
+          "index": 637,
+          "offset": 7088,
+          "name": "SPEAKER"
+        },
+        {
+          "index": 638,
+          "offset": 7096,
+          "name": "BOTH"
+        },
+        {
+          "index": 639,
+          "offset": 7101,
+          "name": "video"
+        },
+        {
+          "index": 640,
+          "offset": 7107,
+          "name": "LINE_WIDE"
+        },
+        {
+          "index": 641,
+          "offset": 7117,
+          "name": "D1"
+        },
+        {
+          "index": 642,
+          "offset": 7120,
+          "name": "D1_WIDE"
+        },
+        {
+          "index": 643,
+          "offset": 7128,
+          "name": "D3"
+        },
+        {
+          "index": 644,
+          "offset": 7131,
+          "name": "cmdExec0x1F6"
+        },
+        {
+          "index": 645,
+          "offset": 7144,
+          "name": "usbObject"
+        },
+        {
+          "index": 646,
+          "offset": 7154,
+          "name": "getvbusOnState"
+        },
+        {
+          "index": 647,
+          "offset": 7169,
+          "name": "cmdExec0x1F7"
+        },
+        {
+          "index": 648,
+          "offset": 7182,
+          "name": "targetStatus"
+        },
+        {
+          "index": 649,
+          "offset": 7195,
+          "name": "captureObj"
+        },
+        {
+          "index": 650,
+          "offset": 7206,
+          "name": "histo"
+        },
+        {
+          "index": 651,
+          "offset": 7212,
+          "name": "tblDispMode"
+        },
+        {
+          "index": 652,
+          "offset": 7224,
+          "name": "tblHistogram"
+        },
+        {
+          "index": 653,
+          "offset": 7237,
+          "name": "camState"
+        },
+        {
+          "index": 654,
+          "offset": 7246,
+          "name": "DISP_OFF"
+        },
+        {
+          "index": 655,
+          "offset": 7255,
+          "name": "DISP_ON"
+        },
+        {
+          "index": 656,
+          "offset": 7263,
+          "name": "DISP_HISTOGRAM"
+        },
+        {
+          "index": 657,
+          "offset": 7278,
+          "name": "DISP_NORMAL"
+        },
+        {
+          "index": 658,
+          "offset": 7290,
+          "name": "DISP_SIMPLE"
+        },
+        {
+          "index": 659,
+          "offset": 7302,
+          "name": "DISP_FULL"
+        },
+        {
+          "index": 660,
+          "offset": 7312,
+          "name": "HIST_OFF"
+        },
+        {
+          "index": 661,
+          "offset": 7321,
+          "name": "HIST_ON"
+        },
+        {
+          "index": 662,
+          "offset": 7329,
+          "name": "DISPLAY"
+        },
+        {
+          "index": 663,
+          "offset": 7337,
+          "name": "HIST_MODE"
+        },
+        {
+          "index": 664,
+          "offset": 7347,
+          "name": "dCamViewModel"
+        },
+        {
+          "index": 665,
+          "offset": 7361,
+          "name": "setDisplayMode"
+        },
+        {
+          "index": 666,
+          "offset": 7376,
+          "name": "MOVIE_STATE"
+        },
+        {
+          "index": 667,
+          "offset": 7388,
+          "name": "STATE_CAPTURE"
+        },
+        {
+          "index": 668,
+          "offset": 7402,
+          "name": "dispMode"
+        },
+        {
+          "index": 669,
+          "offset": 7411,
+          "name": "onMovieDisplay"
+        },
+        {
+          "index": 670,
+          "offset": 7426,
+          "name": "exitDispMenu"
+        },
+        {
+          "index": 671,
+          "offset": 7439,
+          "name": "flgFast"
+        },
+        {
+          "index": 672,
+          "offset": 7447,
+          "name": "flgPush"
+        },
+        {
+          "index": 673,
+          "offset": 7455,
+          "name": "blPush"
+        },
+        {
+          "index": 674,
+          "offset": 7462,
+          "name": "objZoom"
+        },
+        {
+          "index": 675,
+          "offset": 7470,
+          "name": "zoom"
+        },
+        {
+          "index": 676,
+          "offset": 7475,
+          "name": "checkZoomStop"
+        },
+        {
+          "index": 677,
+          "offset": 7489,
+          "name": "disguiseCheckZoomStop"
+        },
+        {
+          "index": 678,
+          "offset": 7511,
+          "name": "keyDevice"
+        },
+        {
+          "index": 679,
+          "offset": 7521,
+          "name": "keyRemote"
+        },
+        {
+          "index": 680,
+          "offset": 7531,
+          "name": "subState"
+        },
+        {
+          "index": 681,
+          "offset": 7540,
+          "name": "subModel"
+        },
+        {
+          "index": 682,
+          "offset": 7549,
+          "name": "compareElement"
+        },
+        {
+          "index": 683,
+          "offset": 7564,
+          "name": "idTool"
+        },
+        {
+          "index": 684,
+          "offset": 7571,
+          "name": "infoContent"
+        },
+        {
+          "index": 685,
+          "offset": 7583,
+          "name": "appBrowser"
+        },
+        {
+          "index": 686,
+          "offset": 7594,
+          "name": "getFocusContent"
+        },
+        {
+          "index": 687,
+          "offset": 7610,
+          "name": "fileNo"
+        },
+        {
+          "index": 688,
+          "offset": 7617,
+          "name": "count"
+        },
+        {
+          "index": 689,
+          "offset": 7623,
+          "name": "cbBrowserSubFunc"
+        },
+        {
+          "index": 690,
+          "offset": 7640,
+          "name": "TaskManager"
+        },
+        {
+          "index": 691,
+          "offset": 7652,
+          "name": "_taskMan"
+        },
+        {
+          "index": 692,
+          "offset": 7661,
+          "name": "browserToolMenu"
+        },
+        {
+          "index": 693,
+          "offset": 7677,
+          "name": "toolId"
+        },
+        {
+          "index": 694,
+          "offset": 7684,
+          "name": "enterState"
+        },
+        {
+          "index": 695,
+          "offset": 7695,
+          "name": "doFunction"
+        },
+        {
+          "index": 696,
+          "offset": 7706,
+          "name": "onCompletionAllTask"
+        },
+        {
+          "index": 697,
+          "offset": 7726,
+          "name": "strMedia"
+        },
+        {
+          "index": 698,
+          "offset": 7735,
+          "name": "flgQuick"
+        },
+        {
+          "index": 699,
+          "offset": 7744,
+          "name": "cbTarget"
+        },
+        {
+          "index": 700,
+          "offset": 7753,
+          "name": "mediaTool"
+        },
+        {
+          "index": 701,
+          "offset": 7763,
+          "name": "flgResult"
+        },
+        {
+          "index": 702,
+          "offset": 7773,
+          "name": "ACCESS_BGM_FORMAT"
+        },
+        {
+          "index": 703,
+          "offset": 7791,
+          "name": "ACCESS_MS_FORMAT"
+        },
+        {
+          "index": 704,
+          "offset": 7808,
+          "name": "ACCESS_FLASH_FORMAT"
+        },
+        {
+          "index": 705,
+          "offset": 7828,
+          "name": "formatQuick"
+        },
+        {
+          "index": 706,
+          "offset": 7840,
+          "name": "onFormatComplete"
+        },
+        {
+          "index": 707,
+          "offset": 7857,
+          "name": "checkFormatResult"
+        },
+        {
+          "index": 708,
+          "offset": 7875,
+          "name": "mtFormatModel"
+        },
+        {
+          "index": 709,
+          "offset": 7889,
+          "name": "doOk"
+        },
+        {
+          "index": 710,
+          "offset": 7894,
+          "name": "compGuiFormat"
+        },
+        {
+          "index": 711,
+          "offset": 7908,
+          "name": "checkGuiFormatStatus"
+        },
+        {
+          "index": 712,
+          "offset": 7929,
+          "name": "resResult"
+        },
+        {
+          "index": 713,
+          "offset": 7939,
+          "name": "flgFmtResult"
+        },
+        {
+          "index": 714,
+          "offset": 7952,
+          "name": "objSenserOpeMode"
+        },
+        {
+          "index": 715,
+          "offset": 7969,
+          "name": "rcSuccess"
+        },
+        {
+          "index": 716,
+          "offset": 7979,
+          "name": "media"
+        },
+        {
+          "index": 717,
+          "offset": 7985,
+          "name": "cbState"
+        },
+        {
+          "index": 718,
+          "offset": 7993,
+          "name": "targetMedia"
+        },
+        {
+          "index": 719,
+          "offset": 8005,
+          "name": "tempMedia"
+        },
+        {
+          "index": 720,
+          "offset": 8015,
+          "name": "fileSys"
+        },
+        {
+          "index": 721,
+          "offset": 8023,
+          "name": "mtLvMS"
+        },
+        {
+          "index": 722,
+          "offset": 8030,
+          "name": "mtLvInternal"
+        },
+        {
+          "index": 723,
+          "offset": 8043,
+          "name": "mtLvBGM"
+        },
+        {
+          "index": 724,
+          "offset": 8051,
+          "name": "formatCompTarget"
+        },
+        {
+          "index": 725,
+          "offset": 8068,
+          "name": "formatCompCallback"
+        },
+        {
+          "index": 726,
+          "offset": 8087,
+          "name": "formatStateCallback"
+        },
+        {
+          "index": 727,
+          "offset": 8107,
+          "name": "msMountFlg"
+        },
+        {
+          "index": 728,
+          "offset": 8118,
+          "name": "setMountLevel"
+        },
+        {
+          "index": 729,
+          "offset": 8132,
+          "name": "onFormatStatusCallback"
+        },
+        {
+          "index": 730,
+          "offset": 8155,
+          "name": "QUICK"
+        },
+        {
+          "index": 731,
+          "offset": 8161,
+          "name": "executeFormat"
+        },
+        {
+          "index": 732,
+          "offset": 8175,
+          "name": "dPostEvent"
+        },
+        {
+          "index": 733,
+          "offset": 8186,
+          "name": "entry"
+        },
+        {
+          "index": 734,
+          "offset": 8192,
+          "name": "rcAsyncAccept"
+        },
+        {
+          "index": 735,
+          "offset": 8206,
+          "name": "ACCESS_NONE"
+        },
+        {
+          "index": 736,
+          "offset": 8218,
+          "name": "mediaTarget"
+        },
+        {
+          "index": 737,
+          "offset": 8230,
+          "name": "mediaTemp"
+        },
+        {
+          "index": 738,
+          "offset": 8240,
+          "name": "cbPogress"
+        },
+        {
+          "index": 739,
+          "offset": 8250,
+          "name": "cbForceFormat"
+        },
+        {
+          "index": 740,
+          "offset": 8264,
+          "name": "status"
+        },
+        {
+          "index": 741,
+          "offset": 8271,
+          "name": "clearFsErr"
+        },
+        {
+          "index": 742,
+          "offset": 8282,
+          "name": "formatComplete"
+        },
+        {
+          "index": 743,
+          "offset": 8297,
+          "name": "formatMode"
+        },
+        {
+          "index": 744,
+          "offset": 8308,
+          "name": "MOVI"
+        },
+        {
+          "index": 745,
+          "offset": 8313,
+          "name": "rcBusy"
+        },
+        {
+          "index": 746,
+          "offset": 8320,
+          "name": "systemErr"
+        },
+        {
+          "index": 747,
+          "offset": 8330,
+          "name": "rcErr"
+        },
+        {
+          "index": 748,
+          "offset": 8336,
+          "name": "blFormat"
+        },
+        {
+          "index": 749,
+          "offset": 8345,
+          "name": "busyLevel"
+        },
+        {
+          "index": 750,
+          "offset": 8355,
+          "name": "funcBusy"
+        },
+        {
+          "index": 751,
+          "offset": 8364,
+          "name": "property"
+        },
+        {
+          "index": 752,
+          "offset": 8373,
+          "name": "mntResult"
+        },
+        {
+          "index": 753,
+          "offset": 8383,
+          "name": "mntMedia"
+        },
+        {
+          "index": 754,
+          "offset": 8392,
+          "name": "mntLevel"
+        },
+        {
+          "index": 755,
+          "offset": 8401,
+          "name": "curMntLv"
+        },
+        {
+          "index": 756,
+          "offset": 8410,
+          "name": "checkAsyncMount"
+        },
+        {
+          "index": 757,
+          "offset": 8426,
+          "name": "mntLvMS"
+        },
+        {
+          "index": 758,
+          "offset": 8434,
+          "name": "mntLvNAND"
+        },
+        {
+          "index": 759,
+          "offset": 8444,
+          "name": "executeMount"
+        },
+        {
+          "index": 760,
+          "offset": 8457,
+          "name": "iCnt"
+        },
+        {
+          "index": 761,
+          "offset": 8462,
+          "name": "iShift"
+        },
+        {
+          "index": 762,
+          "offset": 8469,
+          "name": "strPath"
+        },
+        {
+          "index": 763,
+          "offset": 8477,
+          "name": "bgmCount"
+        },
+        {
+          "index": 764,
+          "offset": 8486,
+          "name": "bgmExist"
+        },
+        {
+          "index": 765,
+          "offset": 8495,
+          "name": "idxMusic"
+        },
+        {
+          "index": 766,
+          "offset": 8504,
+          "name": "fileInfo"
+        },
+        {
+          "index": 767,
+          "offset": 8513,
+          "name": "Math"
+        },
+        {
+          "index": 768,
+          "offset": 8518,
+          "name": "pow"
+        },
+        {
+          "index": 769,
+          "offset": 8522,
+          "name": "dPMBP"
+        },
+        {
+          "index": 770,
+          "offset": 8528,
+          "name": "fileCount"
+        },
+        {
+          "index": 771,
+          "offset": 8538,
+          "name": "it"
+        },
+        {
+          "index": 772,
+          "offset": 8541,
+          "name": "TreeIterator"
+        },
+        {
+          "index": 773,
+          "offset": 8554,
+          "name": "startGuiCopy"
+        },
+        {
+          "index": 774,
+          "offset": 8567,
+          "name": "mtMsCopyModel"
+        },
+        {
+          "index": 775,
+          "offset": 8581,
+          "name": "compGuiCopy"
+        },
+        {
+          "index": 776,
+          "offset": 8593,
+          "name": "checkGuiCopyStatus"
+        },
+        {
+          "index": 777,
+          "offset": 8612,
+          "name": "dfmDirStart"
+        },
+        {
+          "index": 778,
+          "offset": 8624,
+          "name": "cbCopyComp"
+        },
+        {
+          "index": 779,
+          "offset": 8635,
+          "name": "msCopyStart"
+        },
+        {
+          "index": 780,
+          "offset": 8647,
+          "name": "progress"
+        },
+        {
+          "index": 781,
+          "offset": 8656,
+          "name": "mntLvInt"
+        },
+        {
+          "index": 782,
+          "offset": 8665,
+          "name": "mntLvBGM"
+        },
+        {
+          "index": 783,
+          "offset": 8674,
+          "name": "idxPhoto"
+        },
+        {
+          "index": 784,
+          "offset": 8683,
+          "name": "fmtResult"
+        },
+        {
+          "index": 785,
+          "offset": 8693,
+          "name": "Result"
+        },
+        {
+          "index": 786,
+          "offset": 8700,
+          "name": "cntFile"
+        },
+        {
+          "index": 787,
+          "offset": 8708,
+          "name": "itrIntMem"
+        },
+        {
+          "index": 788,
+          "offset": 8718,
+          "name": "objInfo"
+        },
+        {
+          "index": 789,
+          "offset": 8726,
+          "name": "Iterator"
+        },
+        {
+          "index": 790,
+          "offset": 8735,
+          "name": "flgMS"
+        },
+        {
+          "index": 791,
+          "offset": 8741,
+          "name": "flgInternal"
+        },
+        {
+          "index": 792,
+          "offset": 8753,
+          "name": "flgBGM"
+        },
+        {
+          "index": 793,
+          "offset": 8760,
+          "name": "mntState"
+        },
+        {
+          "index": 794,
+          "offset": 8769,
+          "name": "select"
+        },
+        {
+          "index": 795,
+          "offset": 8776,
+          "name": "view"
+        },
+        {
+          "index": 796,
+          "offset": 8781,
+          "name": "getUI"
+        },
+        {
+          "index": 797,
+          "offset": 8787,
+          "name": "sandbox"
+        },
+        {
+          "index": 798,
+          "offset": 8795,
+          "name": "getData"
+        },
+        {
+          "index": 799,
+          "offset": 8803,
+          "name": "doSlideShowStart"
+        },
+        {
+          "index": 800,
+          "offset": 8820,
+          "name": "resData"
+        },
+        {
+          "index": 801,
+          "offset": 8828,
+          "name": "MENU_SETTING"
+        },
+        {
+          "index": 802,
+          "offset": 8841,
+          "name": "execDscSetting"
+        },
+        {
+          "index": 803,
+          "offset": 8856,
+          "name": "cmdExec0xA"
+        },
+        {
+          "index": 804,
+          "offset": 8867,
+          "name": "STILL_VGA"
+        },
+        {
+          "index": 805,
+          "offset": 8877,
+          "name": "STILL_16_9"
+        },
+        {
+          "index": 806,
+          "offset": 8888,
+          "name": "STILL_16_9_LARGE"
+        },
+        {
+          "index": 807,
+          "offset": 8905,
+          "name": "STILL_3M"
+        },
+        {
+          "index": 808,
+          "offset": 8914,
+          "name": "STILL_5M"
+        },
+        {
+          "index": 809,
+          "offset": 8923,
+          "name": "STILL_3_2"
+        },
+        {
+          "index": 810,
+          "offset": 8933,
+          "name": "STILL_7M"
+        },
+        {
+          "index": 811,
+          "offset": 8942,
+          "name": "STILL_8M"
+        },
+        {
+          "index": 812,
+          "offset": 8951,
+          "name": "STILL_9M"
+        },
+        {
+          "index": 813,
+          "offset": 8960,
+          "name": "STILL_10M"
+        },
+        {
+          "index": 814,
+          "offset": 8970,
+          "name": "STILL_12M"
+        },
+        {
+          "index": 815,
+          "offset": 8980,
+          "name": "STILL_13M"
+        },
+        {
+          "index": 816,
+          "offset": 8990,
+          "name": "STILL_SIZE"
+        },
+        {
+          "index": 817,
+          "offset": 9001,
+          "name": "execCameraAppSetting"
+        },
+        {
+          "index": 818,
+          "offset": 9022,
+          "name": "cmdExec0xB"
+        },
+        {
+          "index": 819,
+          "offset": 9033,
+          "name": "MOVIE_320"
+        },
+        {
+          "index": 820,
+          "offset": 9043,
+          "name": "MOVIE_640Std"
+        },
+        {
+          "index": 821,
+          "offset": 9056,
+          "name": "MOVIE_640Fine"
+        },
+        {
+          "index": 822,
+          "offset": 9070,
+          "name": "MOVIE_SIZE"
+        },
+        {
+          "index": 823,
+          "offset": 9081,
+          "name": "cmdExec0xC"
+        },
+        {
+          "index": 824,
+          "offset": 9092,
+          "name": "RE_OFF"
+        },
+        {
+          "index": 825,
+          "offset": 9099,
+          "name": "RE_ON"
+        },
+        {
+          "index": 826,
+          "offset": 9105,
+          "name": "RE_AUTO"
+        },
+        {
+          "index": 827,
+          "offset": 9113,
+          "name": "RE_REDUCTION"
+        },
+        {
+          "index": 828,
+          "offset": 9126,
+          "name": "cmdExec0x10"
+        },
+        {
+          "index": 829,
+          "offset": 9138,
+          "name": "ANTI_OFF"
+        },
+        {
+          "index": 830,
+          "offset": 9147,
+          "name": "ANTI_SHOOTING"
+        },
+        {
+          "index": 831,
+          "offset": 9161,
+          "name": "ANTI_CONTINUOUS"
+        },
+        {
+          "index": 832,
+          "offset": 9177,
+          "name": "ANTI_SHAKE"
+        },
+        {
+          "index": 833,
+          "offset": 9188,
+          "name": "cmdExec0x11"
+        },
+        {
+          "index": 834,
+          "offset": 9200,
+          "name": "cmdExec0x12"
+        },
+        {
+          "index": 835,
+          "offset": 9212,
+          "name": "CAMERA_MANUAL"
+        },
+        {
+          "index": 836,
+          "offset": 9226,
+          "name": "SCENE_HI_SENSITIVE"
+        },
+        {
+          "index": 837,
+          "offset": 9245,
+          "name": "SCENE_TWILIGHT"
+        },
+        {
+          "index": 838,
+          "offset": 9260,
+          "name": "SCENE_TWILIGHT_PORTRAIT"
+        },
+        {
+          "index": 839,
+          "offset": 9284,
+          "name": "SCENE_LANDSCAPE"
+        },
+        {
+          "index": 840,
+          "offset": 9300,
+          "name": "CAMERA_AEA"
+        },
+        {
+          "index": 841,
+          "offset": 9311,
+          "name": "CAMERA_AES"
+        },
+        {
+          "index": 842,
+          "offset": 9322,
+          "name": "CAMERA_PROGRAM"
+        },
+        {
+          "index": 843,
+          "offset": 9337,
+          "name": "CAMERA_AUTO"
+        },
+        {
+          "index": 844,
+          "offset": 9349,
+          "name": "SCENE_PORTRAIT"
+        },
+        {
+          "index": 845,
+          "offset": 9364,
+          "name": "SCENE_ADV_SPORTS"
+        },
+        {
+          "index": 846,
+          "offset": 9381,
+          "name": "SCENE_BEACH"
+        },
+        {
+          "index": 847,
+          "offset": 9393,
+          "name": "SCENE_SNOW"
+        },
+        {
+          "index": 848,
+          "offset": 9404,
+          "name": "SCENE_SMILE_SHUTTER"
+        },
+        {
+          "index": 849,
+          "offset": 9424,
+          "name": "CAMERA_EASY"
+        },
+        {
+          "index": 850,
+          "offset": 9436,
+          "name": "SCENE_EX_HI_SENSITIVE"
+        },
+        {
+          "index": 851,
+          "offset": 9458,
+          "name": "SCENE_FIREWORKS"
+        },
+        {
+          "index": 852,
+          "offset": 9474,
+          "name": "SCENE_HI_SPEED_SHUTTER"
+        },
+        {
+          "index": 853,
+          "offset": 9497,
+          "name": "SCENE_AQUATIC"
+        },
+        {
+          "index": 854,
+          "offset": 9511,
+          "name": "SCENE_SOFT_SNAP"
+        },
+        {
+          "index": 855,
+          "offset": 9527,
+          "name": "SCENE_COOKING"
+        },
+        {
+          "index": 856,
+          "offset": 9541,
+          "name": "doModeDialSpin"
+        },
+        {
+          "index": 857,
+          "offset": 9556,
+          "name": "aeSwitch"
+        },
+        {
+          "index": 858,
+          "offset": 9565,
+          "name": "changeAppCameraByModeDialPosition"
+        },
+        {
+          "index": 859,
+          "offset": 9599,
+          "name": "EV_P20"
+        },
+        {
+          "index": 860,
+          "offset": 9606,
+          "name": "EV_P17"
+        },
+        {
+          "index": 861,
+          "offset": 9613,
+          "name": "EV_P13"
+        },
+        {
+          "index": 862,
+          "offset": 9620,
+          "name": "EV_P10"
+        },
+        {
+          "index": 863,
+          "offset": 9627,
+          "name": "EV_P07"
+        },
+        {
+          "index": 864,
+          "offset": 9634,
+          "name": "EV_P03"
+        },
+        {
+          "index": 865,
+          "offset": 9641,
+          "name": "EV_00"
+        },
+        {
+          "index": 866,
+          "offset": 9647,
+          "name": "EV_N03"
+        },
+        {
+          "index": 867,
+          "offset": 9654,
+          "name": "EV_N07"
+        },
+        {
+          "index": 868,
+          "offset": 9661,
+          "name": "EV_N10"
+        },
+        {
+          "index": 869,
+          "offset": 9668,
+          "name": "EV_N13"
+        },
+        {
+          "index": 870,
+          "offset": 9675,
+          "name": "EV_N17"
+        },
+        {
+          "index": 871,
+          "offset": 9682,
+          "name": "EV_N20"
+        },
+        {
+          "index": 872,
+          "offset": 9689,
+          "name": "EV"
+        },
+        {
+          "index": 873,
+          "offset": 9692,
+          "name": "cmdExec0x1A"
+        },
+        {
+          "index": 874,
+          "offset": 9704,
+          "name": "FOCUS_AF_MULTI"
+        },
+        {
+          "index": 875,
+          "offset": 9719,
+          "name": "FOCUS_AF_CENTER"
+        },
+        {
+          "index": 876,
+          "offset": 9735,
+          "name": "FOCUS_AF_SPOT"
+        },
+        {
+          "index": 877,
+          "offset": 9749,
+          "name": "FOCUS_MF_05"
+        },
+        {
+          "index": 878,
+          "offset": 9761,
+          "name": "FOCUS_MF_10"
+        },
+        {
+          "index": 879,
+          "offset": 9773,
+          "name": "FOCUS_MF_30"
+        },
+        {
+          "index": 880,
+          "offset": 9785,
+          "name": "FOCUS_MF_70"
+        },
+        {
+          "index": 881,
+          "offset": 9797,
+          "name": "FOCUS_MF_INFINIT"
+        },
+        {
+          "index": 882,
+          "offset": 9814,
+          "name": "FOCUS_AF_FLEXIBLESPOT"
+        },
+        {
+          "index": 883,
+          "offset": 9836,
+          "name": "FOCUS_MF"
+        },
+        {
+          "index": 884,
+          "offset": 9845,
+          "name": "FOCUS"
+        },
+        {
+          "index": 885,
+          "offset": 9851,
+          "name": "cmdExec0x1B"
+        },
+        {
+          "index": 886,
+          "offset": 9863,
+          "name": "SPOT_MODE_MULTI"
+        },
+        {
+          "index": 887,
+          "offset": 9879,
+          "name": "SPOT_MODE_CENTER"
+        },
+        {
+          "index": 888,
+          "offset": 9896,
+          "name": "SPOT_MODE_SPOT"
+        },
+        {
+          "index": 889,
+          "offset": 9911,
+          "name": "SPOT_MODE"
+        },
+        {
+          "index": 890,
+          "offset": 9921,
+          "name": "cmdExec0x1C"
+        },
+        {
+          "index": 891,
+          "offset": 9933,
+          "name": "WB_AUTO"
+        },
+        {
+          "index": 892,
+          "offset": 9941,
+          "name": "WB_DAYLIGHT"
+        },
+        {
+          "index": 893,
+          "offset": 9953,
+          "name": "WB_CLOUDY"
+        },
+        {
+          "index": 894,
+          "offset": 9963,
+          "name": "WB_FLUORESCENT1"
+        },
+        {
+          "index": 895,
+          "offset": 9979,
+          "name": "WB_FLUORESCENT2"
+        },
+        {
+          "index": 896,
+          "offset": 9995,
+          "name": "WB_FLUORESCENT3"
+        },
+        {
+          "index": 897,
+          "offset": 10011,
+          "name": "WB_INCANDESCENT"
+        },
+        {
+          "index": 898,
+          "offset": 10027,
+          "name": "WB_FLASH"
+        },
+        {
+          "index": 899,
+          "offset": 10036,
+          "name": "cmdExec0x1D"
+        },
+        {
+          "index": 900,
+          "offset": 10048,
+          "name": "ISO_AUTO"
+        },
+        {
+          "index": 901,
+          "offset": 10057,
+          "name": "ISO_64"
+        },
+        {
+          "index": 902,
+          "offset": 10064,
+          "name": "ISO_80"
+        },
+        {
+          "index": 903,
+          "offset": 10071,
+          "name": "ISO_100"
+        },
+        {
+          "index": 904,
+          "offset": 10079,
+          "name": "ISO_200"
+        },
+        {
+          "index": 905,
+          "offset": 10087,
+          "name": "ISO_400"
+        },
+        {
+          "index": 906,
+          "offset": 10095,
+          "name": "ISO_640"
+        },
+        {
+          "index": 907,
+          "offset": 10103,
+          "name": "ISO_800"
+        },
+        {
+          "index": 908,
+          "offset": 10111,
+          "name": "ISO_1600"
+        },
+        {
+          "index": 909,
+          "offset": 10120,
+          "name": "ISO_3200"
+        },
+        {
+          "index": 910,
+          "offset": 10129,
+          "name": "ISO"
+        },
+        {
+          "index": 911,
+          "offset": 10133,
+          "name": "cmdExec0x1E"
+        },
+        {
+          "index": 912,
+          "offset": 10145,
+          "name": "tblCapture"
+        },
+        {
+          "index": 913,
+          "offset": 10156,
+          "name": "tblBracket"
+        },
+        {
+          "index": 914,
+          "offset": 10167,
+          "name": "tblIdxCap"
+        },
+        {
+          "index": 915,
+          "offset": 10177,
+          "name": "tblIdxBrc"
+        },
+        {
+          "index": 916,
+          "offset": 10187,
+          "name": "CAPTURE_NORMAL"
+        },
+        {
+          "index": 917,
+          "offset": 10202,
+          "name": "CAPTURE_BURST"
+        },
+        {
+          "index": 918,
+          "offset": 10216,
+          "name": "CAPTURE_BRACKET"
+        },
+        {
+          "index": 919,
+          "offset": 10232,
+          "name": "BRACKET_STEP03"
+        },
+        {
+          "index": 920,
+          "offset": 10247,
+          "name": "BRACKET_STEP07"
+        },
+        {
+          "index": 921,
+          "offset": 10262,
+          "name": "BRACKET_STEP10"
+        },
+        {
+          "index": 922,
+          "offset": 10277,
+          "name": "CAPTURE_MODE"
+        },
+        {
+          "index": 923,
+          "offset": 10290,
+          "name": "BRACKET_STEP"
+        },
+        {
+          "index": 924,
+          "offset": 10303,
+          "name": "cmdExec0x1F"
+        },
+        {
+          "index": 925,
+          "offset": 10315,
+          "name": "setFlashLvNormal"
+        },
+        {
+          "index": 926,
+          "offset": 10332,
+          "name": "setFlashLvMulti"
+        },
+        {
+          "index": 927,
+          "offset": 10348,
+          "name": "cmdExec0x20"
+        },
+        {
+          "index": 928,
+          "offset": 10360,
+          "name": "MACRO_AUTO"
+        },
+        {
+          "index": 929,
+          "offset": 10371,
+          "name": "MACRO_ON"
+        },
+        {
+          "index": 930,
+          "offset": 10380,
+          "name": "MACRO_SUPER"
+        },
+        {
+          "index": 931,
+          "offset": 10392,
+          "name": "MACRO"
+        },
+        {
+          "index": 932,
+          "offset": 10398,
+          "name": "cmdExec0x26"
+        },
+        {
+          "index": 933,
+          "offset": 10410,
+          "name": "FLASH_AUTO"
+        },
+        {
+          "index": 934,
+          "offset": 10421,
+          "name": "FLASH_ON"
+        },
+        {
+          "index": 935,
+          "offset": 10430,
+          "name": "FLASH_OFF"
+        },
+        {
+          "index": 936,
+          "offset": 10440,
+          "name": "FLASH_SL"
+        },
+        {
+          "index": 937,
+          "offset": 10449,
+          "name": "FLASH_MODE"
+        },
+        {
+          "index": 938,
+          "offset": 10460,
+          "name": "cmdExec0x27"
+        },
+        {
+          "index": 939,
+          "offset": 10472,
+          "name": "TIMER_OFF"
+        },
+        {
+          "index": 940,
+          "offset": 10482,
+          "name": "TIMER_10"
+        },
+        {
+          "index": 941,
+          "offset": 10491,
+          "name": "TIMER_2"
+        },
+        {
+          "index": 942,
+          "offset": 10499,
+          "name": "SELF_TIMER"
+        },
+        {
+          "index": 943,
+          "offset": 10510,
+          "name": "cmdExec0x28"
+        },
+        {
+          "index": 944,
+          "offset": 10522,
+          "name": "adjustDiCapture"
+        },
+        {
+          "index": 945,
+          "offset": 10538,
+          "name": "cmdExec0x29"
+        },
+        {
+          "index": 946,
+          "offset": 10550,
+          "name": "cmdExec0x2A"
+        },
+        {
+          "index": 947,
+          "offset": 10562,
+          "name": "cmdExec0x2B"
+        },
+        {
+          "index": 948,
+          "offset": 10574,
+          "name": "cmdExec0x2C"
+        },
+        {
+          "index": 949,
+          "offset": 10586,
+          "name": "cmdExec0x2D"
+        },
+        {
+          "index": 950,
+          "offset": 10598,
+          "name": "settingModel"
+        },
+        {
+          "index": 951,
+          "offset": 10611,
+          "name": "setLanguage"
+        },
+        {
+          "index": 952,
+          "offset": 10623,
+          "name": "updateSettingApp"
+        },
+        {
+          "index": 953,
+          "offset": 10640,
+          "name": "getLanguage"
+        },
+        {
+          "index": 954,
+          "offset": 10652,
+          "name": "CONTRAST_MINUS"
+        },
+        {
+          "index": 955,
+          "offset": 10667,
+          "name": "CONTRAST_NORMAL"
+        },
+        {
+          "index": 956,
+          "offset": 10683,
+          "name": "CONTRAST_PLUS"
+        },
+        {
+          "index": 957,
+          "offset": 10697,
+          "name": "CONTRAST"
+        },
+        {
+          "index": 958,
+          "offset": 10706,
+          "name": "SHARPNESS_MINUS"
+        },
+        {
+          "index": 959,
+          "offset": 10722,
+          "name": "SHARPNESS_NORMAL"
+        },
+        {
+          "index": 960,
+          "offset": 10739,
+          "name": "SHARPNESS_PLUS"
+        },
+        {
+          "index": 961,
+          "offset": 10754,
+          "name": "SHARPNESS"
+        },
+        {
+          "index": 962,
+          "offset": 10764,
+          "name": "cmdExec0x31"
+        },
+        {
+          "index": 963,
+          "offset": 10776,
+          "name": "tblInvAE"
+        },
+        {
+          "index": 964,
+          "offset": 10785,
+          "name": "cmdGetAE"
+        },
+        {
+          "index": 965,
+          "offset": 10794,
+          "name": "cameraModel"
+        },
+        {
+          "index": 966,
+          "offset": 10806,
+          "name": "tblKey"
+        },
+        {
+          "index": 967,
+          "offset": 10813,
+          "name": "tblDetect"
+        },
+        {
+          "index": 968,
+          "offset": 10823,
+          "name": "idxKey"
+        },
+        {
+          "index": 969,
+          "offset": 10830,
+          "name": "idxData"
+        },
+        {
+          "index": 970,
+          "offset": 10838,
+          "name": "faceAuto"
+        },
+        {
+          "index": 971,
+          "offset": 10847,
+          "name": "faceScene"
+        },
+        {
+          "index": 972,
+          "offset": 10857,
+          "name": "FACE_MODE_OFF"
+        },
+        {
+          "index": 973,
+          "offset": 10871,
+          "name": "FACE_MODE_TOUCH"
+        },
+        {
+          "index": 974,
+          "offset": 10887,
+          "name": "FACE_MODE_AUTO"
+        },
+        {
+          "index": 975,
+          "offset": 10902,
+          "name": "FACE_MODE_CHILD"
+        },
+        {
+          "index": 976,
+          "offset": 10918,
+          "name": "FACE_MODE_ADULT"
+        },
+        {
+          "index": 977,
+          "offset": 10934,
+          "name": "NIGHTSHOT_MODE"
+        },
+        {
+          "index": 978,
+          "offset": 10949,
+          "name": "NIGHTSHOT_MODE_ON"
+        },
+        {
+          "index": 979,
+          "offset": 10967,
+          "name": "FACE_MODE"
+        },
+        {
+          "index": 980,
+          "offset": 10977,
+          "name": "FACE_MODE_SCENE"
+        },
+        {
+          "index": 981,
+          "offset": 10993,
+          "name": "FACE_MODE_AUTO_TOUCH"
+        },
+        {
+          "index": 982,
+          "offset": 11014,
+          "name": "FACE_MODE_AUTO_NORMAL"
+        },
+        {
+          "index": 983,
+          "offset": 11036,
+          "name": "FACE_MODE_SCENE_TOUCH"
+        },
+        {
+          "index": 984,
+          "offset": 11058,
+          "name": "FACE_MODE_SCENE_NORMAL"
+        },
+        {
+          "index": 985,
+          "offset": 11081,
+          "name": "FACE_DETECTION_OFF"
+        },
+        {
+          "index": 986,
+          "offset": 11100,
+          "name": "FACE_DETECTION_ON"
+        },
+        {
+          "index": 987,
+          "offset": 11118,
+          "name": "INVALIDATE"
+        },
+        {
+          "index": 988,
+          "offset": 11129,
+          "name": "_viewCtrlModel"
+        },
+        {
+          "index": 989,
+          "offset": 11144,
+          "name": "idOffPush"
+        },
+        {
+          "index": 990,
+          "offset": 11154,
+          "name": "visible"
+        },
+        {
+          "index": 991,
+          "offset": 11162,
+          "name": "doOffPush"
+        },
+        {
+          "index": 992,
+          "offset": 11172,
+          "name": "FACE_DETECTION"
+        },
+        {
+          "index": 993,
+          "offset": 11187,
+          "name": "COLOR_MODE_NORMAL"
+        },
+        {
+          "index": 994,
+          "offset": 11205,
+          "name": "COLOR_MODE_VIVID"
+        },
+        {
+          "index": 995,
+          "offset": 11222,
+          "name": "COLOR_MODE_REAL"
+        },
+        {
+          "index": 996,
+          "offset": 11238,
+          "name": "COLOR_MODE_SEPIA"
+        },
+        {
+          "index": 997,
+          "offset": 11255,
+          "name": "COLOR_MODE_MONOTONE"
+        },
+        {
+          "index": 998,
+          "offset": 11275,
+          "name": "COLOR_MODE"
+        },
+        {
+          "index": 999,
+          "offset": 11286,
+          "name": "DRO_OFF"
+        },
+        {
+          "index": 1000,
+          "offset": 11294,
+          "name": "DRO_STANDARD"
+        },
+        {
+          "index": 1001,
+          "offset": 11307,
+          "name": "DRO_ADVANCE"
+        },
+        {
+          "index": 1002,
+          "offset": 11319,
+          "name": "DRO"
+        },
+        {
+          "index": 1003,
+          "offset": 11323,
+          "name": "cmdExec0x36"
+        },
+        {
+          "index": 1004,
+          "offset": 11335,
+          "name": "loadCurrentSettings"
+        },
+        {
+          "index": 1005,
+          "offset": 11355,
+          "name": "operation"
+        },
+        {
+          "index": 1006,
+          "offset": 11365,
+          "name": "key"
+        },
+        {
+          "index": 1007,
+          "offset": 11369,
+          "name": "item"
+        },
+        {
+          "index": 1008,
+          "offset": 11374,
+          "name": "FLASH_LEVEL"
+        },
+        {
+          "index": 1009,
+          "offset": 11386,
+          "name": "FLASH_PLUS"
+        },
+        {
+          "index": 1010,
+          "offset": 11397,
+          "name": "FLASH_NORMAL"
+        },
+        {
+          "index": 1011,
+          "offset": 11410,
+          "name": "FLASH_MINUS"
+        },
+        {
+          "index": 1012,
+          "offset": 11422,
+          "name": "setUnique"
+        },
+        {
+          "index": 1013,
+          "offset": 11432,
+          "name": "cameraData"
+        },
+        {
+          "index": 1014,
+          "offset": 11443,
+          "name": "flashLvMulti"
+        },
+        {
+          "index": 1015,
+          "offset": 11456,
+          "name": "FLASH_LEVEL_MULTI"
+        },
+        {
+          "index": 1016,
+          "offset": 11474,
+          "name": "FLASH_EV_P20"
+        },
+        {
+          "index": 1017,
+          "offset": 11487,
+          "name": "FLASH_EV_00"
+        },
+        {
+          "index": 1018,
+          "offset": 11499,
+          "name": "FLASH_EV_N20"
+        },
+        {
+          "index": 1019,
+          "offset": 11512,
+          "name": "FLASH_EV_P17"
+        },
+        {
+          "index": 1020,
+          "offset": 11525,
+          "name": "FLASH_EV_P13"
+        },
+        {
+          "index": 1021,
+          "offset": 11538,
+          "name": "FLASH_EV_P10"
+        },
+        {
+          "index": 1022,
+          "offset": 11551,
+          "name": "FLASH_EV_P07"
+        },
+        {
+          "index": 1023,
+          "offset": 11564,
+          "name": "FLASH_EV_P03"
+        },
+        {
+          "index": 1024,
+          "offset": 11577,
+          "name": "FLASH_EV_N03"
+        },
+        {
+          "index": 1025,
+          "offset": 11590,
+          "name": "FLASH_EV_N07"
+        },
+        {
+          "index": 1026,
+          "offset": 11603,
+          "name": "FLASH_EV_N10"
+        },
+        {
+          "index": 1027,
+          "offset": 11616,
+          "name": "FLASH_EV_N13"
+        },
+        {
+          "index": 1028,
+          "offset": 11629,
+          "name": "FLASH_EV_N17"
+        },
+        {
+          "index": 1029,
+          "offset": 11642,
+          "name": "flgUpDown"
+        },
+        {
+          "index": 1030,
+          "offset": 11652,
+          "name": "cameraCapture"
+        },
+        {
+          "index": 1031,
+          "offset": 11666,
+          "name": "DRIVE_DOWN"
+        },
+        {
+          "index": 1032,
+          "offset": 11677,
+          "name": "DRIVE_UP"
+        },
+        {
+          "index": 1033,
+          "offset": 11686,
+          "name": "senserCommand_Aging"
+        },
+        {
+          "index": 1034,
+          "offset": 11706,
+          "name": "ERROR_MEDIA_MS"
+        },
+        {
+          "index": 1035,
+          "offset": 11721,
+          "name": "ERROR_MEDIA_NAND"
+        },
+        {
+          "index": 1036,
+          "offset": 11738,
+          "name": "ERROR_STILL"
+        },
+        {
+          "index": 1037,
+          "offset": 11750,
+          "name": "ERROR_MOVIE"
+        },
+        {
+          "index": 1038,
+          "offset": 11762,
+          "name": "ERROR_PLAYBACK"
+        },
+        {
+          "index": 1039,
+          "offset": 11777,
+          "name": "ERROR_MEDIATOOL"
+        },
+        {
+          "index": 1040,
+          "offset": 11793,
+          "name": "ERROR_FORMAT"
+        },
+        {
+          "index": 1041,
+          "offset": 11806,
+          "name": "application"
+        },
+        {
+          "index": 1042,
+          "offset": 11818,
+          "name": "appMode"
+        },
+        {
+          "index": 1043,
+          "offset": 11826,
+          "name": "agingTimer"
+        },
+        {
+          "index": 1044,
+          "offset": 11837,
+          "name": "agingFlag"
+        },
+        {
+          "index": 1045,
+          "offset": 11847,
+          "name": "execModeFlag"
+        },
+        {
+          "index": 1046,
+          "offset": 11860,
+          "name": "emfLcdOff"
+        },
+        {
+          "index": 1047,
+          "offset": 11870,
+          "name": "emfMediaFull"
+        },
+        {
+          "index": 1048,
+          "offset": 11883,
+          "name": "emfEVF"
+        },
+        {
+          "index": 1049,
+          "offset": 11890,
+          "name": "recTime"
+        },
+        {
+          "index": 1050,
+          "offset": 11898,
+          "name": "cntExecFunc"
+        },
+        {
+          "index": 1051,
+          "offset": 11910,
+          "name": "errCode"
+        },
+        {
+          "index": 1052,
+          "offset": 11918,
+          "name": "loadAgingInfo"
+        },
+        {
+          "index": 1053,
+          "offset": 11932,
+          "name": "onEndAging"
+        },
+        {
+          "index": 1054,
+          "offset": 11943,
+          "name": "saveAgingInfo"
+        },
+        {
+          "index": 1055,
+          "offset": 11957,
+          "name": "fileSetting"
+        },
+        {
+          "index": 1056,
+          "offset": 11969,
+          "name": "writeLine"
+        },
+        {
+          "index": 1057,
+          "offset": 11979,
+          "name": "strError"
+        },
+        {
+          "index": 1058,
+          "offset": 11988,
+          "name": "boot"
+        },
+        {
+          "index": 1059,
+          "offset": 11993,
+          "name": "error"
+        },
+        {
+          "index": 1060,
+          "offset": 11999,
+          "name": "wait"
+        },
+        {
+          "index": 1061,
+          "offset": 12004,
+          "name": "wakeup"
+        },
+        {
+          "index": 1062,
+          "offset": 12011,
+          "name": "parseInt"
+        },
+        {
+          "index": 1063,
+          "offset": 12020,
+          "name": "NaN"
+        },
+        {
+          "index": 1064,
+          "offset": 12024,
+          "name": "cntExec"
+        },
+        {
+          "index": 1065,
+          "offset": 12032,
+          "name": "getEventParam"
+        },
+        {
+          "index": 1066,
+          "offset": 12046,
+          "name": "onStartAging"
+        },
+        {
+          "index": 1067,
+          "offset": 12059,
+          "name": "flgChanging"
+        },
+        {
+          "index": 1068,
+          "offset": 12071,
+          "name": "flgAgingApp"
+        },
+        {
+          "index": 1069,
+          "offset": 12083,
+          "name": "onExecAgingFunc"
+        },
+        {
+          "index": 1070,
+          "offset": 12099,
+          "name": "changeAgingApp"
+        },
+        {
+          "index": 1071,
+          "offset": 12114,
+          "name": "cntCheckStatus"
+        },
+        {
+          "index": 1072,
+          "offset": 12129,
+          "name": "onAgingTimerCallback"
+        },
+        {
+          "index": 1073,
+          "offset": 12150,
+          "name": "getRemainCount"
+        },
+        {
+          "index": 1074,
+          "offset": 12165,
+          "name": "recMedia"
+        },
+        {
+          "index": 1075,
+          "offset": 12174,
+          "name": "mediaToolState"
+        },
+        {
+          "index": 1076,
+          "offset": 12189,
+          "name": "curMediaType"
+        },
+        {
+          "index": 1077,
+          "offset": 12202,
+          "name": "startFormat"
+        },
+        {
+          "index": 1078,
+          "offset": 12214,
+          "name": "senserCommand_AgingStillRec"
+        },
+        {
+          "index": 1079,
+          "offset": 12242,
+          "name": "flashLv"
+        },
+        {
+          "index": 1080,
+          "offset": 12250,
+          "name": "spinalModeOrg"
+        },
+        {
+          "index": 1081,
+          "offset": 12264,
+          "name": "prepareAging"
+        },
+        {
+          "index": 1082,
+          "offset": 12277,
+          "name": "checkStatus"
+        },
+        {
+          "index": 1083,
+          "offset": 12289,
+          "name": "execStilCapture"
+        },
+        {
+          "index": 1084,
+          "offset": 12305,
+          "name": "onAfLock"
+        },
+        {
+          "index": 1085,
+          "offset": 12314,
+          "name": "errorCheckStatus"
+        },
+        {
+          "index": 1086,
+          "offset": 12331,
+          "name": "onMonitoring"
+        },
+        {
+          "index": 1087,
+          "offset": 12344,
+          "name": "getCameraStateCode"
+        },
+        {
+          "index": 1088,
+          "offset": 12363,
+          "name": "stateCode"
+        },
+        {
+          "index": 1089,
+          "offset": 12373,
+          "name": "senserCommand_AgingMovieRec"
+        },
+        {
+          "index": 1090,
+          "offset": 12401,
+          "name": "RecordingFlag"
+        },
+        {
+          "index": 1091,
+          "offset": 12415,
+          "name": "remainTime"
+        },
+        {
+          "index": 1092,
+          "offset": 12426,
+          "name": "switchMovieRec"
+        },
+        {
+          "index": 1093,
+          "offset": 12441,
+          "name": "movieState"
+        },
+        {
+          "index": 1094,
+          "offset": 12452,
+          "name": "onStartReq"
+        },
+        {
+          "index": 1095,
+          "offset": 12463,
+          "name": "onStopReq"
+        },
+        {
+          "index": 1096,
+          "offset": 12473,
+          "name": "senserCommand_AgingBrowse"
+        },
+        {
+          "index": 1097,
+          "offset": 12499,
+          "name": "strKey"
+        },
+        {
+          "index": 1098,
+          "offset": 12506,
+          "name": "tblHardKey"
+        },
+        {
+          "index": 1099,
+          "offset": 12517,
+          "name": "senserCommand_10mode"
+        },
+        {
+          "index": 1100,
+          "offset": 12538,
+          "name": "blReboot"
+        },
+        {
+          "index": 1101,
+          "offset": 12547,
+          "name": "wakeupTime"
+        },
+        {
+          "index": 1102,
+          "offset": 12558,
+          "name": "zoomTimer"
+        },
+        {
+          "index": 1103,
+          "offset": 12568,
+          "name": "zoomButton"
+        },
+        {
+          "index": 1104,
+          "offset": 12579,
+          "name": "zoomTarget"
+        },
+        {
+          "index": 1105,
+          "offset": 12590,
+          "name": "checkZoomStopOrg"
+        },
+        {
+          "index": 1106,
+          "offset": 12607,
+          "name": "notifyZoomOrg"
+        },
+        {
+          "index": 1107,
+          "offset": 12621,
+          "name": "cntNotifyZoom"
+        },
+        {
+          "index": 1108,
+          "offset": 12635,
+          "name": "cntNotifyZoomBack"
+        },
+        {
+          "index": 1109,
+          "offset": 12653,
+          "name": "flash"
+        },
+        {
+          "index": 1110,
+          "offset": 12659,
+          "name": "ayData"
+        },
+        {
+          "index": 1111,
+          "offset": 12666,
+          "name": "stopZoom"
+        },
+        {
+          "index": 1112,
+          "offset": 12675,
+          "name": "tblFlash"
+        },
+        {
+          "index": 1113,
+          "offset": 12684,
+          "name": "toSuspend"
+        },
+        {
+          "index": 1114,
+          "offset": 12694,
+          "name": "AUTOREVIEW_OFF"
+        },
+        {
+          "index": 1115,
+          "offset": 12709,
+          "name": "AUTOREVIEW"
+        },
+        {
+          "index": 1116,
+          "offset": 12720,
+          "name": "DIGITAL_OFF"
+        },
+        {
+          "index": 1117,
+          "offset": 12732,
+          "name": "DIGITAL_ZOOM"
+        },
+        {
+          "index": 1118,
+          "offset": 12745,
+          "name": "startZoom"
+        },
+        {
+          "index": 1119,
+          "offset": 12755,
+          "name": "notifier"
+        },
+        {
+          "index": 1120,
+          "offset": 12764,
+          "name": "zoomInfo"
+        },
+        {
+          "index": 1121,
+          "offset": 12773,
+          "name": "_onNotification"
+        },
+        {
+          "index": 1122,
+          "offset": 12789,
+          "name": "notifyZoom"
+        },
+        {
+          "index": 1123,
+          "offset": 12800,
+          "name": "zoomTimerCallback"
+        },
+        {
+          "index": 1124,
+          "offset": 12818,
+          "name": "cntRemain"
+        },
+        {
+          "index": 1125,
+          "offset": 12828,
+          "name": "senserCommand_CheckMode"
+        },
+        {
+          "index": 1126,
+          "offset": 12852,
+          "name": "flgRestart"
+        },
+        {
+          "index": 1127,
+          "offset": 12863,
+          "name": "STABLE"
+        },
+        {
+          "index": 1128,
+          "offset": 12870,
+          "name": "RESTART"
+        },
+        {
+          "index": 1129,
+          "offset": 12878,
+          "name": "operationTimer"
+        },
+        {
+          "index": 1130,
+          "offset": 12893,
+          "name": "keyCodeTable"
+        },
+        {
+          "index": 1131,
+          "offset": 12906,
+          "name": "cntKeyImitate"
+        },
+        {
+          "index": 1132,
+          "offset": 12920,
+          "name": "bufKeyImitate"
+        },
+        {
+          "index": 1133,
+          "offset": 12934,
+          "name": "cbKeyImitate"
+        },
+        {
+          "index": 1134,
+          "offset": 12947,
+          "name": "ayScenario"
+        },
+        {
+          "index": 1135,
+          "offset": 12958,
+          "name": "execStatus"
+        },
+        {
+          "index": 1136,
+          "offset": 12969,
+          "name": "cntScenario"
+        },
+        {
+          "index": 1137,
+          "offset": 12981,
+          "name": "strPathMemInfo"
+        },
+        {
+          "index": 1138,
+          "offset": 12996,
+          "name": "backupCameraStatus"
+        },
+        {
+          "index": 1139,
+          "offset": 13015,
+          "name": "existMS"
+        },
+        {
+          "index": 1140,
+          "offset": 13023,
+          "name": "ayAppNameTable"
+        },
+        {
+          "index": 1141,
+          "offset": 13038,
+          "name": "ayModeDialTable"
+        },
+        {
+          "index": 1142,
+          "offset": 13054,
+          "name": "MOVIE_NORMAL"
+        },
+        {
+          "index": 1143,
+          "offset": 13067,
+          "name": "restart"
+        },
+        {
+          "index": 1144,
+          "offset": 13075,
+          "name": "ScenarioSize"
+        },
+        {
+          "index": 1145,
+          "offset": 13088,
+          "name": "deleteAgingInfo"
+        },
+        {
+          "index": 1146,
+          "offset": 13104,
+          "name": "returnParam1"
+        },
+        {
+          "index": 1147,
+          "offset": 13117,
+          "name": "returnParam2"
+        },
+        {
+          "index": 1148,
+          "offset": 13130,
+          "name": "shift"
+        },
+        {
+          "index": 1149,
+          "offset": 13136,
+          "name": "targetCallback"
+        },
+        {
+          "index": 1150,
+          "offset": 13151,
+          "name": "onOperationTimerCallback"
+        },
+        {
+          "index": 1151,
+          "offset": 13176,
+          "name": "systemFunction"
+        },
+        {
+          "index": 1152,
+          "offset": 13191,
+          "name": "changeCheckApp"
+        },
+        {
+          "index": 1153,
+          "offset": 13206,
+          "name": "execFunction"
+        },
+        {
+          "index": 1154,
+          "offset": 13219,
+          "name": "callback"
+        },
+        {
+          "index": 1155,
+          "offset": 13228,
+          "name": "startOperationTimer"
+        },
+        {
+          "index": 1156,
+          "offset": 13248,
+          "name": "ayKeyEvent"
+        },
+        {
+          "index": 1157,
+          "offset": 13259,
+          "name": "callbackKeyImitate"
+        },
+        {
+          "index": 1158,
+          "offset": 13278,
+          "name": "startKeyImitate"
+        },
+        {
+          "index": 1159,
+          "offset": 13294,
+          "name": "keyEvent"
+        },
+        {
+          "index": 1160,
+          "offset": 13303,
+          "name": "actID"
+        },
+        {
+          "index": 1161,
+          "offset": 13309,
+          "name": "argument"
+        },
+        {
+          "index": 1162,
+          "offset": 13318,
+          "name": "senCmdKey"
+        },
+        {
+          "index": 1163,
+          "offset": 13328,
+          "name": "execFormat"
+        },
+        {
+          "index": 1164,
+          "offset": 13339,
+          "name": "nextID"
+        },
+        {
+          "index": 1165,
+          "offset": 13346,
+          "name": "nextMode"
+        },
+        {
+          "index": 1166,
+          "offset": 13355,
+          "name": "checkChangeAppComp"
+        },
+        {
+          "index": 1167,
+          "offset": 13374,
+          "name": "msExist"
+        },
+        {
+          "index": 1168,
+          "offset": 13382,
+          "name": "curApp"
+        },
+        {
+          "index": 1169,
+          "offset": 13389,
+          "name": "curMode"
+        },
+        {
+          "index": 1170,
+          "offset": 13397,
+          "name": "sceneMode"
+        },
+        {
+          "index": 1171,
+          "offset": 13407,
+          "name": "flgModeDial"
+        },
+        {
+          "index": 1172,
+          "offset": 13419,
+          "name": "KEY_SYSTEM"
+        },
+        {
+          "index": 1173,
+          "offset": 13430,
+          "name": "appID"
+        },
+        {
+          "index": 1174,
+          "offset": 13436,
+          "name": "funcTable"
+        },
+        {
+          "index": 1175,
+          "offset": 13446,
+          "name": "execBaseFunc"
+        },
+        {
+          "index": 1176,
+          "offset": 13459,
+          "name": "execCameraFunc"
+        },
+        {
+          "index": 1177,
+          "offset": 13474,
+          "name": "execPlayBackFunc"
+        },
+        {
+          "index": 1178,
+          "offset": 13491,
+          "name": "execMediaToolFunc"
+        },
+        {
+          "index": 1179,
+          "offset": 13509,
+          "name": "execSettingToolFunc"
+        },
+        {
+          "index": 1180,
+          "offset": 13529,
+          "name": "opeID"
+        },
+        {
+          "index": 1181,
+          "offset": 13535,
+          "name": "memory"
+        },
+        {
+          "index": 1182,
+          "offset": 13542,
+          "name": "getFreeMemory"
+        },
+        {
+          "index": 1183,
+          "offset": 13556,
+          "name": "saveMemInfo"
+        },
+        {
+          "index": 1184,
+          "offset": 13568,
+          "name": "ModeSwitcher"
+        },
+        {
+          "index": 1185,
+          "offset": 13581,
+          "name": "getMemoryFree"
+        },
+        {
+          "index": 1186,
+          "offset": 13595,
+          "name": "floor"
+        },
+        {
+          "index": 1187,
+          "offset": 13601,
+          "name": "getMemoryContiguous"
+        },
+        {
+          "index": 1188,
+          "offset": 13621,
+          "name": "continuous"
+        },
+        {
+          "index": 1189,
+          "offset": 13632,
+          "name": "checkCamStatus"
+        },
+        {
+          "index": 1190,
+          "offset": 13647,
+          "name": "checkMediaCapacity"
+        },
+        {
+          "index": 1191,
+          "offset": 13666,
+          "name": "callbackCameraFunc"
+        },
+        {
+          "index": 1192,
+          "offset": 13685,
+          "name": "callbackMediaToolFunc"
+        },
+        {
+          "index": 1193,
+          "offset": 13707,
+          "name": "checkCapacity"
+        },
+        {
+          "index": 1194,
+          "offset": 13721,
+          "name": "kindMedia"
+        },
+        {
+          "index": 1195,
+          "offset": 13731,
+          "name": "formatMethod"
+        },
+        {
+          "index": 1196,
+          "offset": 13744,
+          "name": "unmntMedia"
+        },
+        {
+          "index": 1197,
+          "offset": 13755,
+          "name": "getCapacity"
+        },
+        {
+          "index": 1198,
+          "offset": 13767,
+          "name": "FULL"
+        },
+        {
+          "index": 1199,
+          "offset": 13772,
+          "name": "onFormatCallback"
+        },
+        {
+          "index": 1200,
+          "offset": 13789,
+          "name": "capacity"
+        },
+        {
+          "index": 1201,
+          "offset": 13798,
+          "name": "memKind"
+        },
+        {
+          "index": 1202,
+          "offset": 13806,
+          "name": "memFree"
+        },
+        {
+          "index": 1203,
+          "offset": 13814,
+          "name": "fpMemInfo"
+        },
+        {
+          "index": 1204,
+          "offset": 13824,
+          "name": "strMemory"
+        },
+        {
+          "index": 1205,
+          "offset": 13834,
+          "name": "senserCommand_ApLogGet"
+        },
+        {
+          "index": 1206,
+          "offset": 13857,
+          "name": "apLog"
+        },
+        {
+          "index": 1207,
+          "offset": 13863,
+          "name": "saveFile"
+        },
+        {
+          "index": 1208,
+          "offset": 13872,
+          "name": "senserCommand_ApLogChgOutput"
+        },
+        {
+          "index": 1209,
+          "offset": 13901,
+          "name": "selectPrint"
+        },
+        {
+          "index": 1210,
+          "offset": 13913,
+          "name": "OmegaCommand"
+        },
+        {
+          "index": 1211,
+          "offset": 13926,
+          "name": "msgID"
+        },
+        {
+          "index": 1212,
+          "offset": 13932,
+          "name": "msgBody"
+        },
+        {
+          "index": 1213,
+          "offset": 13940,
+          "name": "onOmegaDebugResponse"
+        },
+        {
+          "index": 1214,
+          "offset": 13961,
+          "name": "OmegaDebugCommnadCheck"
+        },
+        {
+          "index": 1215,
+          "offset": 13984,
+          "name": "msgId"
+        },
+        {
+          "index": 1216,
+          "offset": 13990,
+          "name": "msg"
+        },
+        {
+          "index": 1217,
+          "offset": 13994,
+          "name": "payload"
+        },
+        {
+          "index": 1218,
+          "offset": 14002,
+          "name": "cb"
+        },
+        {
+          "index": 1219,
+          "offset": 14005,
+          "name": "responseEvent"
+        },
+        {
+          "index": 1220,
+          "offset": 14019,
+          "name": "omegaControl"
+        },
+        {
+          "index": 1221,
+          "offset": 14032,
+          "name": "msgObject"
+        },
+        {
+          "index": 1222,
+          "offset": 14042,
+          "name": "cbObject"
+        },
+        {
+          "index": 1223,
+          "offset": 14051,
+          "name": "completion"
+        },
+        {
+          "index": 1224,
+          "offset": 14062,
+          "name": "setDebugCommand"
+        },
+        {
+          "index": 1225,
+          "offset": 14078,
+          "name": "getData32"
+        },
+        {
+          "index": 1226,
+          "offset": 14088,
+          "name": "OmegaDebugCommandResponse"
+        },
+        {
+          "index": 1227,
+          "offset": 14114,
+          "name": "senserCommand_OmegaDebugOn"
+        },
+        {
+          "index": 1228,
+          "offset": 14141,
+          "name": "MSG_CMD_ENTRY_DEBUGMODE"
+        },
+        {
+          "index": 1229,
+          "offset": 14165,
+          "name": "MSG_RES_ENTRY_DEBUGMODE"
+        },
+        {
+          "index": 1230,
+          "offset": 14189,
+          "name": "senserCommand_OmegaWlanStart"
+        },
+        {
+          "index": 1231,
+          "offset": 14218,
+          "name": "MSG_CMD_WLAN_POWER_ON"
+        },
+        {
+          "index": 1232,
+          "offset": 14240,
+          "name": "MSG_RES_WLAN_POWER_ON"
+        },
+        {
+          "index": 1233,
+          "offset": 14262,
+          "name": "senserCommand_OmegaWlanControl"
+        },
+        {
+          "index": 1234,
+          "offset": 14293,
+          "name": "MSG_CMD_GET_MAC_ADDRESS"
+        },
+        {
+          "index": 1235,
+          "offset": 14317,
+          "name": "MSG_CMD_SET_SSID"
+        },
+        {
+          "index": 1236,
+          "offset": 14334,
+          "name": "MSG_CMD_AP_CONNECT"
+        },
+        {
+          "index": 1237,
+          "offset": 14353,
+          "name": "MSG_CMD_WLAN_PING"
+        },
+        {
+          "index": 1238,
+          "offset": 14371,
+          "name": "MSG_CMD_GET_MAC_ADDR_TFW"
+        },
+        {
+          "index": 1239,
+          "offset": 14396,
+          "name": "MSG_RES_GET_MAC_ADDRESS"
+        },
+        {
+          "index": 1240,
+          "offset": 14420,
+          "name": "MSG_RES_SET_SSID"
+        },
+        {
+          "index": 1241,
+          "offset": 14437,
+          "name": "MSG_RES_AP_CONNECT"
+        },
+        {
+          "index": 1242,
+          "offset": 14456,
+          "name": "MSG_RES_WLAN_PING"
+        },
+        {
+          "index": 1243,
+          "offset": 14474,
+          "name": "MSG_RES_GET_MAC_ADDR_TFW"
+        },
+        {
+          "index": 1244,
+          "offset": 14499,
+          "name": "senserCommand_OmegaWlanSetting"
+        },
+        {
+          "index": 1245,
+          "offset": 14530,
+          "name": "MSG_CMD_GET_RF_CHANNEL"
+        },
+        {
+          "index": 1246,
+          "offset": 14553,
+          "name": "MSG_CMD_OUT_HENTYO_HA"
+        },
+        {
+          "index": 1247,
+          "offset": 14575,
+          "name": "MSG_CMD_OUT_MUHENTYO_HA"
+        },
+        {
+          "index": 1248,
+          "offset": 14599,
+          "name": "MSG_CMD_SET_OUT_SETTING"
+        },
+        {
+          "index": 1249,
+          "offset": 14623,
+          "name": "MSG_CMD_BURST_HENTYO_HA"
+        },
+        {
+          "index": 1250,
+          "offset": 14647,
+          "name": "MSG_CMD_CLR_RCV_PACKET"
+        },
+        {
+          "index": 1251,
+          "offset": 14670,
+          "name": "MSG_CMD_GET_RCV_PACKET"
+        },
+        {
+          "index": 1252,
+          "offset": 14693,
+          "name": "MSG_CMD_RCV_MLT_ERR_PAC_CNT"
+        },
+        {
+          "index": 1253,
+          "offset": 14721,
+          "name": "MSG_CMD_SET_RF_CHANNEL"
+        },
+        {
+          "index": 1254,
+          "offset": 14744,
+          "name": "MSG_CMD_WRITE_USE_CHANNEL"
+        },
+        {
+          "index": 1255,
+          "offset": 14770,
+          "name": "MSG_CMD_READ_USE_CHANNEL"
+        },
+        {
+          "index": 1256,
+          "offset": 14795,
+          "name": "MSG_RES_GET_RF_CHANNEL"
+        },
+        {
+          "index": 1257,
+          "offset": 14818,
+          "name": "MSG_RES_OUT_HENTYO_HA"
+        },
+        {
+          "index": 1258,
+          "offset": 14840,
+          "name": "MSG_RES_OUT_MUHENTYO_HA"
+        },
+        {
+          "index": 1259,
+          "offset": 14864,
+          "name": "MSG_RES_SET_OUT_SETTING"
+        },
+        {
+          "index": 1260,
+          "offset": 14888,
+          "name": "MSG_RES_BURST_HENTYO_HA"
+        },
+        {
+          "index": 1261,
+          "offset": 14912,
+          "name": "MSG_RES_CLR_RCV_PACKET"
+        },
+        {
+          "index": 1262,
+          "offset": 14935,
+          "name": "MSG_RES_GET_RCV_PACKET"
+        },
+        {
+          "index": 1263,
+          "offset": 14958,
+          "name": "MSG_RES_RCV_MLT_ERR_PAC_CNT"
+        },
+        {
+          "index": 1264,
+          "offset": 14986,
+          "name": "MSG_RES_SET_RF_CHANNEL"
+        },
+        {
+          "index": 1265,
+          "offset": 15009,
+          "name": "MSG_RES_WRITE_USE_CHANNEL"
+        },
+        {
+          "index": 1266,
+          "offset": 15035,
+          "name": "MSG_RES_READ_USE_CHANNEL"
+        },
+        {
+          "index": 1267,
+          "offset": 15060,
+          "name": "senserCommand_OmegaThrouput"
+        },
+        {
+          "index": 1268,
+          "offset": 15088,
+          "name": "MSG_CMD_GET_THROGUPUT"
+        },
+        {
+          "index": 1269,
+          "offset": 15110,
+          "name": "MSG_RES_GET_THROGUPUT"
+        },
+        {
+          "index": 1270,
+          "offset": 15132,
+          "name": "senserCommand_OmegaLcdControl"
+        },
+        {
+          "index": 1271,
+          "offset": 15162,
+          "name": "MSG_CMD_LCD_MUTE"
+        },
+        {
+          "index": 1272,
+          "offset": 15179,
+          "name": "MSG_CMD_SET_COL_PATTRN"
+        },
+        {
+          "index": 1273,
+          "offset": 15202,
+          "name": "MSG_RES_LCD_MUTE"
+        },
+        {
+          "index": 1274,
+          "offset": 15219,
+          "name": "MSG_RES_SET_COL_PATTRN"
+        },
+        {
+          "index": 1275,
+          "offset": 15242,
+          "name": "senserCommand_OmegaLcdSetting"
+        },
+        {
+          "index": 1276,
+          "offset": 15272,
+          "name": "MSG_CMD_SET_LCD_REG"
+        },
+        {
+          "index": 1277,
+          "offset": 15292,
+          "name": "MSG_CMD_SET_LCD_ADJ_DATA"
+        },
+        {
+          "index": 1278,
+          "offset": 15317,
+          "name": "MSG_CMD_GET_LCD_ADJ_DATA"
+        },
+        {
+          "index": 1279,
+          "offset": 15342,
+          "name": "MSG_CMD_CLR_LCD_ADJ_TBL"
+        },
+        {
+          "index": 1280,
+          "offset": 15366,
+          "name": "MSG_CMD_GET_LCD_ADJ_NUM"
+        },
+        {
+          "index": 1281,
+          "offset": 15390,
+          "name": "MSG_CMD_GET_FUP_ADJ_DATA"
+        },
+        {
+          "index": 1282,
+          "offset": 15415,
+          "name": "MSG_RES_SET_LCD_REG"
+        },
+        {
+          "index": 1283,
+          "offset": 15435,
+          "name": "MSG_RES_SET_LCD_ADJ_DATA"
+        },
+        {
+          "index": 1284,
+          "offset": 15460,
+          "name": "MSG_RES_GET_LCD_ADJ_DATA"
+        },
+        {
+          "index": 1285,
+          "offset": 15485,
+          "name": "MSG_RES_CLR_LCD_ADJ_TBL"
+        },
+        {
+          "index": 1286,
+          "offset": 15509,
+          "name": "MSG_RES_GET_LCD_ADJ_NUM"
+        },
+        {
+          "index": 1287,
+          "offset": 15533,
+          "name": "MSG_RES_GET_FUP_ADJ_DATA"
+        },
+        {
+          "index": 1288,
+          "offset": 15558,
+          "name": "senserCommand_OmegaDithering"
+        },
+        {
+          "index": 1289,
+          "offset": 15587,
+          "name": "MSG_CMD_SET_DITHERING"
+        },
+        {
+          "index": 1290,
+          "offset": 15609,
+          "name": "MSG_RES_SET_DITHERING"
+        },
+        {
+          "index": 1291,
+          "offset": 15631,
+          "name": "senserCommand_OmegaMemory"
+        },
+        {
+          "index": 1292,
+          "offset": 15657,
+          "name": "MSG_CMD_DUMP_MEMORY"
+        },
+        {
+          "index": 1293,
+          "offset": 15677,
+          "name": "MSG_CMD_FILL_MEMORY"
+        },
+        {
+          "index": 1294,
+          "offset": 15697,
+          "name": "MSG_RES_DUMP_MEMORY"
+        },
+        {
+          "index": 1295,
+          "offset": 15717,
+          "name": "MSG_RES_FILL_MEMORY"
+        },
+        {
+          "index": 1296,
+          "offset": 15737,
+          "name": "senserCommand_OmegaGpio"
+        },
+        {
+          "index": 1297,
+          "offset": 15761,
+          "name": "MSG_CMD_GET_GPIO_VALUE"
+        },
+        {
+          "index": 1298,
+          "offset": 15784,
+          "name": "MSG_CMD_SET_GPIO_VALUE"
+        },
+        {
+          "index": 1299,
+          "offset": 15807,
+          "name": "MSG_RES_GET_GPIO_VALUE"
+        },
+        {
+          "index": 1300,
+          "offset": 15830,
+          "name": "MSG_RES_SET_GPIO_VALUE"
+        },
+        {
+          "index": 1301,
+          "offset": 15853,
+          "name": "senserCommand_OmegaNorSdr"
+        },
+        {
+          "index": 1302,
+          "offset": 15879,
+          "name": "MSG_CMD_CHECK_FLASH"
+        },
+        {
+          "index": 1303,
+          "offset": 15899,
+          "name": "MSG_CMD_CHECK_DRAM"
+        },
+        {
+          "index": 1304,
+          "offset": 15918,
+          "name": "MSG_RES_CHECK_FLASH"
+        },
+        {
+          "index": 1305,
+          "offset": 15938,
+          "name": "MSG_RES_CHECK_DRAM"
+        },
+        {
+          "index": 1306,
+          "offset": 15957,
+          "name": "senserCommand_OmegaRtcRegister"
+        },
+        {
+          "index": 1307,
+          "offset": 15988,
+          "name": "MSG_CMD_GET_RTC_REG"
+        },
+        {
+          "index": 1308,
+          "offset": 16008,
+          "name": "MSG_CMD_SET_RTC_REG"
+        },
+        {
+          "index": 1309,
+          "offset": 16028,
+          "name": "MSG_RES_GET_RTC_REG"
+        },
+        {
+          "index": 1310,
+          "offset": 16048,
+          "name": "MSG_RES_SET_RTC_REG"
+        },
+        {
+          "index": 1311,
+          "offset": 16068,
+          "name": "senserCommand_OmegaMain"
+        },
+        {
+          "index": 1312,
+          "offset": 16092,
+          "name": "MSG_PUSH_OPEN_SESSION"
+        },
+        {
+          "index": 1313,
+          "offset": 16114,
+          "name": "MSG_CMD_GET_VERSION"
+        },
+        {
+          "index": 1314,
+          "offset": 16134,
+          "name": "MSG_CMD_RESET_SETTING"
+        },
+        {
+          "index": 1315,
+          "offset": 16156,
+          "name": "MSG_CMD_UPDATE_ADJ_DATA"
+        },
+        {
+          "index": 1316,
+          "offset": 16180,
+          "name": "MSG_CMD_GET_RESOURCE_VER"
+        },
+        {
+          "index": 1317,
+          "offset": 16205,
+          "name": "MSG_RES_GET_VERSION"
+        },
+        {
+          "index": 1318,
+          "offset": 16225,
+          "name": "MSG_RES_RESET_SETTING"
+        },
+        {
+          "index": 1319,
+          "offset": 16247,
+          "name": "MSG_RES_UPDATE_ADJ_DATA"
+        },
+        {
+          "index": 1320,
+          "offset": 16271,
+          "name": "MSG_RES_GET_RESOURCE_VER"
+        },
+        {
+          "index": 1321,
+          "offset": 16296,
+          "name": "senserCommand_OmegaErrorLog"
+        },
+        {
+          "index": 1322,
+          "offset": 16324,
+          "name": "MSG_CMD_CHG_LOG_LV"
+        },
+        {
+          "index": 1323,
+          "offset": 16343,
+          "name": "MSG_CMD_GET_OMEGA_LOG"
+        },
+        {
+          "index": 1324,
+          "offset": 16365,
+          "name": "MSG_RES_CHG_LOG_LV"
+        },
+        {
+          "index": 1325,
+          "offset": 16384,
+          "name": "MSG_RES_GET_OMEGA_LOG"
+        },
+        {
+          "index": 1326,
+          "offset": 16406,
+          "name": "senserCommand_OmegaFirmUp"
+        },
+        {
+          "index": 1327,
+          "offset": 16432,
+          "name": "OMG_CMD_MODE_SEP"
+        },
+        {
+          "index": 1328,
+          "offset": 16449,
+          "name": "OMG_CMD_MODE_PROD"
+        },
+        {
+          "index": 1329,
+          "offset": 16467,
+          "name": "OMG_CMD_MODE_USER"
+        },
+        {
+          "index": 1330,
+          "offset": 16485,
+          "name": "OMG_CMD_ROUTE_UART"
+        },
+        {
+          "index": 1331,
+          "offset": 16504,
+          "name": "OMG_CMD_MODE_RESET"
+        },
+        {
+          "index": 1332,
+          "offset": 16523,
+          "name": "omegaUpdate"
+        },
+        {
+          "index": 1333,
+          "offset": 16535,
+          "name": "omegaUpdateApp"
+        },
+        {
+          "index": 1334,
+          "offset": 16550,
+          "name": "omegaUpdateModel"
+        },
+        {
+          "index": 1335,
+          "offset": 16567,
+          "name": "omegaFirmUpModeOn"
+        },
+        {
+          "index": 1336,
+          "offset": 16585,
+          "name": "omegaFirmUpUARTRouteSet"
+        },
+        {
+          "index": 1337,
+          "offset": 16609,
+          "name": "omegaFirmUpModeOff"
+        },
+        {
+          "index": 1338,
+          "offset": 16628,
+          "name": "http://www.kinoma.com/fskin/1"
+        },
+        {
+          "index": 1339,
+          "offset": 16658,
+          "name": "__xs__prefix"
+        },
+        {
+          "index": 1340,
+          "offset": 16671,
+          "name": "__xs__pattern"
+        },
+        {
+          "index": 1341,
+          "offset": 16685,
+          "name": "__xs__link"
+        }
+      ],
+      "literal_occurrences": {
+        "xs_senser_on": [],
+        "xs_senser_ready": [],
+        "xs_senser_activeTrig": [],
+        "activeTrig": [],
+        "ready": [],
+        "reqStart": [
+          4618
+        ],
+        "usbObject": [
+          7144
+        ],
+        "Senser": [
+          31,
+          4886,
+          7955
+        ],
+        "Ready": [
+          5953
+        ],
+        "SENSER_ON": [],
+        "SENSER_OFF": [],
+        "FORCE_USB": [],
+        "senserCmdTable.xsb": []
+      },
+      "exact_requested_symbols": [
+        {
+          "index": 1,
+          "offset": 31,
+          "name": "Senser"
+        },
+        {
+          "index": 417,
+          "offset": 4618,
+          "name": "reqStart"
+        },
+        {
+          "index": 539,
+          "offset": 5953,
+          "name": "Ready"
+        },
+        {
+          "index": 645,
+          "offset": 7144,
+          "name": "usbObject"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "verified_saved_responses": [
+    "sony-notices.html",
+    "sony-relocation.html",
+    "sony-w300-support.html",
+    "sony-update-cdx.json",
+    "update-20101201053640.html",
+    "update-20140206154932.html",
+    "year-past-cdx.json",
+    "year-2009-cdx.json",
+    "year-past-cdx-20101223032303.html",
+    "year-2009-cdx-20101223031809.html"
+  ],
+  "catalogs": [
+    {
+      "name": "sony-notices.html",
+      "has_w300": true,
+      "update_blocks": [],
+      "update_links": []
+    },
+    {
+      "name": "sony-relocation.html",
+      "has_w300": false,
+      "update_blocks": [],
+      "update_links": []
+    },
+    {
+      "name": "sony-w300-support.html",
+      "has_w300": true,
+      "update_blocks": [],
+      "update_links": []
+    },
+    {
+      "name": "update-20101201053640.html",
+      "has_w300": false,
+      "update_blocks": [
+        "2010年8月26日 \n  デジタルスチルカメラ“サイバーショット”「DSC-HX5V」ファームウェアアップデートのお知らせ を掲載しました。 \n\n 2010年4月20日 \n  TransferJetステーション「TJS-1」本体ソフトウェアアップデートのお知らせ を掲載しました。"
+      ],
+      "update_links": [
+        "/www/cyber-shot/information/info/top_dsc-hx5v.html",
+        "/www/cyber-shot/download/tjs-1/index.html"
+      ]
+    },
+    {
+      "name": "update-20140206154932.html",
+      "has_w300": false,
+      "update_blocks": [
+        "2014年1月31日 \n\t\t\t\t  デジタルスチルカメラ サイバーショット『DSC-QX100』、『DSC-QX10』ファームウェアアップデートのお知らせを掲載しました。"
+      ],
+      "update_links": [
+        "http://www.sony.jp/cyber-shot/info2/20140131.html"
+      ]
+    },
+    {
+      "name": "year-past-cdx-20101223032303.html",
+      "has_w300": false,
+      "update_blocks": [
+        "2005年12月1日 \n  DSC-R1をお使いのお客様へ：ファームウェアアップデートのご案内 を掲載しました。 \n\n\n \n 2004年4月2日 \n DSC-F828をお使いのお客様へ  ファームウェアアップデートのご案内（最新情報） を掲載しました。 \n\n 2004年4月2日 \n DSC-T1をお使いのお客様へ  ファームウェアアップデートのご案内（最新情報） を掲載しました。 \n\n 2004年3月25日 \n DSC-F828をお使いのお客様へ ファームウェアアップデートのご案内を掲載しました。 \n\n 2004年3月12日 \n DSC-T1をお使いのお客様へ ファームウェアアップデートのご案内 を掲載しました。 \n\n 2004年2月25日 \n DSC-T1用PictBridge対応ファームウェアアップデートの開始日延期のお知らせを掲載しました。 \n\n 2004年2月20日 \n DSC-T1用PictBridge対応ファームウェアアップデートの開始日延期のお知らせを掲載しました。"
+      ],
+      "update_links": [
+        "/www/cyber-shot/information/info/top_dsc-r1_info.html",
+        "/www/cyber-shot/download/dsc-f828/index.html",
+        "/www/cyber-shot/download/dsc-t1_2/index.html"
+      ]
+    },
+    {
+      "name": "year-2009-cdx-20101223031809.html",
+      "has_w300": false,
+      "update_blocks": [
+        "2009年3月25日 \n  デジタルスチルカメラ“サイバーショット”「DSC-G3」ファームウェアアップデートのお知らせ を掲載しました。"
+      ],
+      "update_links": [
+        "/www/cyber-shot/information/info/top_dsc-g3.html"
+      ]
+    }
+  ],
+  "boundary": "Public historical consumer update catalogs only. No W300 binary or Auto-Adj package acquired."
+}

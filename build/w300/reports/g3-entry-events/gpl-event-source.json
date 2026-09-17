@@ -1,0 +1,20 @@
+{
+  "archive_sha256": "cbb03d206740f0bcc8ed9efc90e1f48786f427188954616ed618a3cb7597e90a",
+  "members": [
+    {
+      "member": "linux/drivers/usb/gcore/usb_event.c",
+      "bytes": 27390,
+      "sha256": "1f1abe264ca05856cc1afc12f316f9444e06927af8a16553b537891ad02b4b40"
+    },
+    {
+      "member": "linux/drivers/usb/gcore/usb_event_pvt.h",
+      "bytes": 2981,
+      "sha256": "9caa80d9f6f600fdf329cecff1733e51720491ab79dcacc331c4d5a861024892"
+    },
+    {
+      "member": "linux/include/linux/usb/gcore/usb_event.h",
+      "bytes": 2327,
+      "sha256": "02bf1daa5eb21842eff13787b3a55199ff49e5c49a7725efa2f633ba3095dc3f"
+    }
+  ]
+}

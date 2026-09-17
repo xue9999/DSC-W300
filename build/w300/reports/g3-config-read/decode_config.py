@@ -1,0 +1,15 @@
+exec(open(__file__.replace('decode_config.py','inspect_config.py')).read().split('for label,relative')[0])
+for label,path,names in [('extension','evidence/extracted_g3/archives_unpacked/fskrel1/dsc/fsk/PExtBackup.so',['xs_backup_read']),('table','evidence/extracted_g3/archives_unpacked/lib/lib/libBackupTable.so',['_ZN9DataTable13isValidDataIdEj','_ZN9DataTable13getCategoryIdEj','_ZN9DataTable9getOffsetEj','_ZN9DataTable7getSizeEj','_ZN9DataTable11getDataKindEj','_ZN9DataTable10getBitMaskEj','_ZN9DataTable10getBitSizeEj'])]:
+ e=m.Elf(path)
+ (HERE/(label+'-read.asm.txt')).write_text('\n\n'.join(e.decode(n) for n in names)+'\n')
+ print(label,e.sha)
+ eoff=e.data.find(b'BkupID_Reg_cmn__DestinationID')
+ if eoff>=0:print(e.data[eoff-60:eoff+440].hex(' '))
+
+e=m.Elf('evidence/extracted_g3/archives_unpacked/lib/lib/libAppBackupApi.so')
+(HERE/'app-read.asm.txt').write_text('\n\n'.join(e.decode(n) for n in ['Bkup_read','Bkup_pread','Bkup_getDataSize','Bkup_getDataKind'])+'\n')
+e=m.Elf('evidence/extracted_g3/archives_unpacked/lib/lib/libBackupCore.so')
+(HERE/'core-read.asm.txt').write_text('\n\n'.join(e.decode(n) for n in ['_ZN12CommonMethod4readEjPv','_ZN12CommonMethod8readDataEjPv','_ZN11BasicMethod4readEjjjPv'])+'\n')
+e=m.Elf('evidence/extracted_g3/archives_unpacked/lib/lib/libBackupTable.so')
+(HERE/'table-internal.asm.txt').write_text(e.decode('range@0x21f0:0x22a8')+'\n')
+(HERE/'table-constructor.asm.txt').write_text(e.decode('range@0x2488:0x2528')+'\n')

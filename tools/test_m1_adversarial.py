@@ -133,14 +133,11 @@ class TestMilestone1Adversarial(unittest.TestCase):
             corrupt_exe = Path(td) / "corrupt_section_hdr.exe"
             # Read authentic manifest offset for section 0 (defhd.dat at 0x744F + 0x5000 + 128)
             sec0_hdr_offset = LHA_PAYLOAD_OFFSET + 0x5000 + 128
-            shutil.copyfile(EXE_PATH, corrupt_exe)
-
-            # Corrupt section 0 header HMAC (last byte)
-            with open(corrupt_exe, 'r+b') as f:
-                f.seek(sec0_hdr_offset + 127)
-                byte = f.read(1)
-                f.seek(sec0_hdr_offset + 127)
-                f.write(bytes([byte[0] ^ 0xFF]))
+            # Assemble the tampered fixture before publishing the EXE once.
+            # Windows may deny reopening newly written PE files for mutation.
+            data = bytearray(EXE_PATH.read_bytes())
+            data[sec0_hdr_offset + 127] ^= 0xFF
+            corrupt_exe.write_bytes(data)
 
             parser = G3FirmwareParser(corrupt_exe)
             out_dir = Path(td) / "output"
@@ -156,14 +153,9 @@ class TestMilestone1Adversarial(unittest.TestCase):
         with tempfile.TemporaryDirectory() as td:
             corrupt_exe = Path(td) / "corrupt_section_data.exe"
             sec0_data_offset = LHA_PAYLOAD_OFFSET + 0x5000 + 128 + 128
-            shutil.copyfile(EXE_PATH, corrupt_exe)
-
-            # Corrupt section 0 data byte 0
-            with open(corrupt_exe, 'r+b') as f:
-                f.seek(sec0_data_offset)
-                byte = f.read(1)
-                f.seek(sec0_data_offset)
-                f.write(bytes([byte[0] ^ 0x01]))
+            data = bytearray(EXE_PATH.read_bytes())
+            data[sec0_data_offset] ^= 0x01
+            corrupt_exe.write_bytes(data)
 
             parser = G3FirmwareParser(corrupt_exe)
             out_dir = Path(td) / "output"
@@ -177,12 +169,9 @@ class TestMilestone1Adversarial(unittest.TestCase):
         """
         with tempfile.TemporaryDirectory() as td:
             corrupt_exe = Path(td) / "corrupt_cli.exe"
-            shutil.copyfile(EXE_PATH, corrupt_exe)
-
-            # Corrupt container header HMAC at 0x744F + 127
-            with open(corrupt_exe, 'r+b') as f:
-                f.seek(LHA_PAYLOAD_OFFSET + 127)
-                f.write(b'\x00')
+            data = bytearray(EXE_PATH.read_bytes())
+            data[LHA_PAYLOAD_OFFSET + 127] = 0
+            corrupt_exe.write_bytes(data)
 
             cmd = [
                 sys.executable,
@@ -218,55 +207,40 @@ class TestMilestone1Adversarial(unittest.TestCase):
         self.assertIn("Firmware source not found", res.stderr)
 
     def test_08_empty_zero_byte_file(self):
-        """Adversarial: Empty 0-byte file must raise ValueError."""
-        with tempfile.NamedTemporaryFile(suffix=".exe") as tf:
-            tf.flush()
-            with self.assertRaises(ValueError) as ctx:
-                G3FirmwareParser(tf.name)
-            self.assertIn("Unrecognized container or executable format", str(ctx.exception))
+        with tempfile.TemporaryDirectory() as td:
+            target = Path(td) / "empty.exe"
+            target.write_bytes(b"")
+            with self.assertRaisesRegex(ValueError, "Unrecognized container or executable format"):
+                G3FirmwareParser(target)
 
     def test_09_executable_truncated_before_lha_header(self):
-        """Adversarial: File with MZ magic but truncated before 0x7400."""
-        with tempfile.NamedTemporaryFile(suffix=".exe") as tf:
-            tf.write(b'MZ' + b'\x00' * 500)
-            tf.flush()
-            with self.assertRaises(ValueError) as ctx:
-                G3FirmwareParser(tf.name)
-            self.assertIn("File truncated before LHA header", str(ctx.exception))
+        with tempfile.TemporaryDirectory() as td:
+            target = Path(td) / "truncated.exe"
+            target.write_bytes(b"MZ" + bytes(500))
+            with self.assertRaisesRegex(ValueError, "File truncated before LHA header"):
+                G3FirmwareParser(target)
 
     def test_10_executable_truncated_inside_lha_header(self):
-        """Adversarial: File truncated inside LHA header at 0x7400."""
-        with tempfile.NamedTemporaryFile(suffix=".exe") as tf:
-            # Write MZ and pad up to 0x7400, then write partial LHA header (only 4 bytes)
-            tf.write(b'MZ' + b'\x00' * (0x7400 - 2) + b'\x4f\x00-l')
-            tf.flush()
-            with self.assertRaises(Exception) as ctx:
-                G3FirmwareParser(tf.name)
-            # Expect either ValueError or struct.error
-            self.assertTrue(isinstance(ctx.exception, (ValueError, struct.error)))
+        with tempfile.TemporaryDirectory() as td:
+            target = Path(td) / "header.exe"
+            target.write_bytes(b"MZ" + bytes(0x7400 - 2) + bytes.fromhex("4f002d6c"))
+            with self.assertRaises((ValueError, struct.error)):
+                G3FirmwareParser(target)
 
     def test_11_container_truncated_header(self):
-        """Adversarial: File truncated inside container header."""
-        with tempfile.NamedTemporaryFile(suffix=".dat") as tf:
-            # Write 64 bytes instead of 128 bytes
-            tf.write(b'\x00' * 64)
-            tf.flush()
-            with self.assertRaises(ValueError) as ctx:
-                G3FirmwareParser(tf.name)
-            self.assertIn("Unrecognized container or executable format", str(ctx.exception))
+        with tempfile.TemporaryDirectory() as td:
+            target = Path(td) / "header.dat"
+            target.write_bytes(bytes(64))
+            with self.assertRaisesRegex(ValueError, "Unrecognized container or executable format"):
+                G3FirmwareParser(target)
 
     def test_12_container_truncated_manifest(self):
-        """Adversarial: Container has valid header but truncated manifest (< 20480 bytes)."""
-        with tempfile.NamedTemporaryFile(suffix=".dat") as tf:
-            with open(EXE_PATH, 'rb') as f:
-                f.seek(LHA_PAYLOAD_OFFSET)
-                # Read 128 byte header + 500 bytes of manifest
-                partial = f.read(128 + 500)
-            tf.write(partial)
-            tf.flush()
-
-            parser = G3FirmwareParser(tf.name)
-            # verify_container_header checks data HMAC of manifest, which fails due to truncation
+        with tempfile.TemporaryDirectory() as td:
+            target = Path(td) / "manifest.dat"
+            with EXE_PATH.open("rb") as source:
+                source.seek(LHA_PAYLOAD_OFFSET)
+                target.write_bytes(source.read(128 + 500))
+            parser = G3FirmwareParser(target)
             with self.assertRaises(ValueError):
                 parser.verify_container_header()
 

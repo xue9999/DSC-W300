@@ -1,0 +1,19 @@
+C:\Users\apara01\OneDrive - Kearney\Documents\ChatGPT\W300\DSC-W300\build\w300\upstream\Sony-PMCA-RE\pmca\marketclient\__init__.py:32: SyntaxWarning: invalid escape sequence '\d'
+  r = re.compile('<div class="camera-manage-box" id="(?P<deviceid>\d*?)">.*?<td class = "w104 h20">(?P<name>.*?)</td>.*?<span class="sirial-hint">Serial:(?P<serial>.*?)</span>', re.DOTALL)
+C:\Users\apara01\OneDrive - Kearney\Documents\ChatGPT\W300\DSC-W300\build\w300\upstream\Sony-PMCA-RE\pmca\marketclient\__init__.py:45: SyntaxWarning: invalid escape sequence '\s'
+  yield MarketApp(app['app_id'], re.sub('\s+', ' ', app['app_name']), app['appimg_url'], None if app['app_price'] == 'Free' else app['app_price'], int(app['regist_date']))
+C:\Users\apara01\OneDrive - Kearney\Documents\ChatGPT\W300\DSC-W300\build\w300\upstream\Sony-PMCA-RE\pmca\shell\parser.py:18: SyntaxWarning: invalid escape sequence '\s'
+  m = self._consume('\s+')
+C:\Users\apara01\OneDrive - Kearney\Documents\ChatGPT\W300\DSC-W300\build\w300\upstream\Sony-PMCA-RE\pmca\shell\parser.py:34: SyntaxWarning: invalid escape sequence '\s'
+  m = self._consume('([^\s"\'\\\\]|\\\\[^\s])*(\\\\(?=(\s|$)))?')
+C:\Users\apara01\OneDrive - Kearney\Documents\ChatGPT\W300\DSC-W300\build\w300\upstream\Sony-PMCA-RE\pmca\shell\parser.py:46: SyntaxWarning: invalid escape sequence '\s'
+  while self.available() and not self._match('\s'):
+usage: pmca-console.py [-h]
+                       {info,install,market,apk2spk,spk2apk,firmware,updatershell,serviceshell,guess_firmware,gps,stream,wifi,print_backup}
+                       ...
+
+options:
+  -h, --help            show this help message and exit
+
+commands:
+  {info,install,market,apk2spk,spk2apk,firmware,updatershell,serviceshell,guess_firmware,gps,stream,wifi,print_backup}

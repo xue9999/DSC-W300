@@ -274,17 +274,13 @@ class TestMilestone1Challenger(unittest.TestCase):
 
                 # Read on-disk section payload
                 disk_file = SECTIONS_DIR / f"{i:02d}_{name}"
-                symlink_file = SECTIONS_DIR / name
 
                 self.assertTrue(disk_file.exists(), f"Payload missing on disk: {disk_file}")
-                self.assertTrue(symlink_file.exists(), f"Symlink missing on disk: {symlink_file}")
 
                 disk_bytes = disk_file.read_bytes()
-                symlink_bytes = symlink_file.read_bytes()
 
                 self.assertEqual(len(disk_bytes), size, f"Disk file size mismatch for sec {i}")
                 self.assertEqual(disk_bytes, decrypted, f"Decrypted payload != disk bytes for sec {i}")
-                self.assertEqual(symlink_bytes, disk_bytes, f"Symlink bytes != target bytes for sec {i}")
 
                 # Re-encrypt disk bytes and verify data HMAC reproduces header[:20]
                 re_encrypted = stream_cipher(KEY_CXD4108_MS, disk_bytes)

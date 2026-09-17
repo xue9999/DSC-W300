@@ -1,3 +1,5 @@
+> Historical record from the imported September 2026 research. Statements describe that investigation, not the current code or connected hardware. Consult the active guides and evidence index for current scope.
+
 # USB implementation review
 
 Upstream: https://github.com/ma1co/Sony-PMCA-RE/tree/a82f5baaa8e9c3d9f28f94699e860fb2e48cc8e0
@@ -9,7 +11,7 @@ Upstream: https://github.com/ma1co/Sony-PMCA-RE/tree/a82f5baaa8e9c3d9f28f94699e8
 - `pmca/usb/sony.py`, `SonySenserCamera`: generic product-info, backup, file, memory, terminal commands exist. No W300-specific identifiers or verified readable ranges were found.
 - `pmca/platform/backup.py`, `BackupInterface`: language support uses 35 property bytes and generic region profiles; W300 ADJ table lists 25 language columns. This difference is not proof of incompatibility, but these addresses cannot be transferred to W300 without validation.
 - `pmca/backup/__init__.py`: parses BK2/BK4 backup files with a header, subsystem/property tables, and checksum. No W300 dump is available to establish that it uses this format. The documented Sony ADJ `.dat` backup is not proven equivalent to PMCA `Backup.bin`.
-- `pmca/usb/driver/osx.py`: native transport expects Sony kernel interfaces. Apple Silicon compatibility not established.
+- `pmca/usb/driver/osx.py`: native transport expects Sony kernel interfaces. Qualify Apple Silicon compatibility against the required native interfaces.
 - `pmca/usb/driver/generic/libusb.py`: reset may detach a kernel driver. Passive helper deliberately avoids this backend.
 
 ## Next technically meaningful steps

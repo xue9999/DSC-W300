@@ -1,0 +1,7 @@
+{
+  "directory": "C:\\Users\\apara01\\Downloads",
+  "scope": "Recursive filenames and directory names within Downloads only; no symlink traversal requested; task-related matches only",
+  "matches": [],
+  "matchingDirectories": [],
+  "inaccessibleEntryErrors": 0
+}

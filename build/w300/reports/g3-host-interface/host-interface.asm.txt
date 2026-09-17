@@ -1,0 +1,911 @@
+Capstone 5.0.6; static decoding only. Addresses below are G3 ELF addresses, not W300 camera addresses.
+libsencore.so: verified 137 PLT stub GOT slots against relocation r_offset.
+
+libsencore.so NinThread file=0x7888 value=0x7888 size=744 sha256=401bc78bc84bd175968513a387b8951626ceb48a345eed134b998d3630103270
+0x00007888  0dc0a0e1     mov      ip, sp
+0x0000788c  f0df2de9     push     {r4, r5, r6, r7, r8, sb, sl, fp, ip, lr, pc}
+0x00007890  04b04ce2     sub      fp, ip, #4
+0x00007894  41de4de2     sub      sp, sp, #0x410
+0x00007898  d0a29fe5     ldr      sl, [pc, #0x2d0]
+0x0000789c  04d04de2     sub      sp, sp, #4
+0x000078a0  ccc29fe5     ldr      ip, [pc, #0x2cc]
+0x000078a4  0070a0e1     mov      r7, r0
+0x000078a8  432e4be2     sub      r2, fp, #0x430
+0x000078ac  0400a0e3     mov      r0, #4
+0x000078b0  0080a0e3     mov      r8, #0
+0x000078b4  0aa08fe0     add      sl, pc, sl
+0x000078b8  0030a0e1     mov      r3, r0
+0x000078bc  0310a0e3     mov      r1, #3
+0x000078c0  082042e2     sub      r2, r2, #8
+0x000078c4  38c40be5     str      ip, [fp, #-0x438]
+0x000078c8  ba824be1     strh     r8, [fp, #-0x2a]
+0x000078cc  b8f9ffeb     bl       #0x5fb4 ; symbol=PLT:blog
+0x000078d0  0800a0e3     mov      r0, #8
+0x000078d4  0810a0e1     mov      r1, r8
+0x000078d8  0830a0e1     mov      r3, r8
+0x000078dc  0820a0e1     mov      r2, r8
+0x000078e0  b3f9ffeb     bl       #0x5fb4 ; symbol=PLT:blog
+0x000078e4  8c029fe5     ldr      r0, [pc, #0x28c]
+0x000078e8  233e4be2     sub      r3, fp, #0x230
+0x000078ec  00008ae0     add      r0, sl, r0
+0x000078f0  0810a0e1     mov      r1, r8
+0x000078f4  0860a0e1     mov      r6, r8
+0x000078f8  3c340be5     str      r3, [fp, #-0x43c]
+0x000078fc  0890a0e1     mov      sb, r8
+0x00007900  fdf8ffeb     bl       #0x5cfc ; symbol=PLT:pthread_cleanup_push
+0x00007904  0010a0e3     mov      r1, #0
+0x00007908  0100a0e1     mov      r0, r1
+0x0000790c  6bfaffeb     bl       #0x62c0 ; symbol=PLT:pthread_setcancelstate
+0x00007910  d1f9ffeb     bl       #0x605c ; symbol=PLT:pthread_testcancel
+0x00007914  0010a0e3     mov      r1, #0
+0x00007918  0100a0e3     mov      r0, #1
+0x0000791c  67faffeb     bl       #0x62c0 ; symbol=PLT:pthread_setcancelstate
+0x00007920  003097e5     ldr      r3, [r7]
+0x00007924  0700a0e1     mov      r0, r7
+0x00007928  08c093e5     ldr      ip, [r3, #8]
+0x0000792c  3cff2fe1     blx      ip
+0x00007930  3c141be5     ldr      r1, [fp, #-0x43c]
+0x00007934  812fa0e3     mov      r2, #0x204
+0x00007938  24faffeb     bl       #0x61d0 ; symbol=PLT:_Z9SerializePFiPhjEPvj
+0x0000793c  2a004be2     sub      r0, fp, #0x2a
+0x00007940  3c141be5     ldr      r1, [fp, #-0x43c]
+0x00007944  e5f9ffeb     bl       #0x60e0 ; symbol=PLT:CmdDecode
+0x00007948  ba325be1     ldrh     r3, [fp, #-0x2a]
+0x0000794c  030053e3     cmp      r3, #3
+0x00007950  2e00000a     beq      #0x7a10
+0x00007954  020000ca     bgt      #0x7964
+0x00007958  010053e3     cmp      r3, #1
+0x0000795c  0300000a     beq      #0x7970
+0x00007960  700000ea     b        #0x7b28
+0x00007964  050053e3     cmp      r3, #5
+0x00007968  4900000a     beq      #0x7a94
+0x0000796c  6d0000ea     b        #0x7b28
+0x00007970  424e4be2     sub      r4, fp, #0x420
+0x00007974  084044e2     sub      r4, r4, #8
+0x00007978  0c4044e2     sub      r4, r4, #0xc
+0x0000797c  0410a0e1     mov      r1, r4
+0x00007980  3c041be5     ldr      r0, [fp, #-0x43c]
+0x00007984  b1f9ffeb     bl       #0x6050 ; symbol=PLT:xxhop
+0x00007988  003097e5     ldr      r3, [r7]
+0x0000798c  0050a0e1     mov      r5, r0
+0x00007990  0700a0e1     mov      r0, r7
+0x00007994  0cc093e5     ldr      ip, [r3, #0xc]
+0x00007998  3cff2fe1     blx      ip
+0x0000799c  0410a0e1     mov      r1, r4
+0x000079a0  812fa0e3     mov      r2, #0x204
+0x000079a4  09faffeb     bl       #0x61d0 ; symbol=PLT:_Z9SerializePFiPhjEPvj
+0x000079a8  003097e5     ldr      r3, [r7]
+0x000079ac  0700a0e1     mov      r0, r7
+0x000079b0  18c093e5     ldr      ip, [r3, #0x18]
+0x000079b4  3cff2fe1     blx      ip
+0x000079b8  000055e3     cmp      r5, #0
+0x000079bc  ff60a013     movne    r6, #0xff
+0x000079c0  010050e3     cmp      r0, #1
+0x000079c4  0400001a     bne      #0x79dc
+0x000079c8  0400a0e1     mov      r0, r4
+0x000079cc  0410a0e1     mov      r1, r4
+0x000079d0  0920a0e1     mov      r2, sb
+0x000079d4  3af9ffeb     bl       #0x5ec4 ; symbol=PLT:xxstep2
+0x000079d8  030000ea     b        #0x79ec
+0x000079dc  0400a0e1     mov      r0, r4
+0x000079e0  0410a0e1     mov      r1, r4
+0x000079e4  0920a0e1     mov      r2, sb
+0x000079e8  0dfaffeb     bl       #0x6224 ; symbol=PLT:xxstep
+0x000079ec  020070e3     cmn      r0, #2
+0x000079f0  ff60a003     moveq    r6, #0xff
+0x000079f4  0090a003     moveq    sb, #0
+0x000079f8  000058e3     cmp      r8, #0
+0x000079fc  02005813     cmpne    r8, #2
+0x00007a00  0050a0e1     mov      r5, r0
+0x00007a04  ff60a013     movne    r6, #0xff
+0x00007a08  0180a0e3     mov      r8, #1
+0x00007a0c  470000ea     b        #0x7b30
+0x00007a10  424e4be2     sub      r4, fp, #0x420
+0x00007a14  084044e2     sub      r4, r4, #8
+0x00007a18  0c4044e2     sub      r4, r4, #0xc
+0x00007a1c  0410a0e1     mov      r1, r4
+0x00007a20  3c041be5     ldr      r0, [fp, #-0x43c]
+0x00007a24  cbf9ffeb     bl       #0x6158 ; symbol=PLT:xxjump
+0x00007a28  003097e5     ldr      r3, [r7]
+0x00007a2c  0050a0e1     mov      r5, r0
+0x00007a30  0700a0e1     mov      r0, r7
+0x00007a34  0cc093e5     ldr      ip, [r3, #0xc]
+0x00007a38  3cff2fe1     blx      ip
+0x00007a3c  0410a0e1     mov      r1, r4
+0x00007a40  812fa0e3     mov      r2, #0x204
+0x00007a44  e1f9ffeb     bl       #0x61d0 ; symbol=PLT:_Z9SerializePFiPhjEPvj
+0x00007a48  000055e3     cmp      r5, #0
+0x00007a4c  ff60a013     movne    r6, #0xff
+0x00007a50  0090a013     movne    sb, #0
+0x00007a54  0a00001a     bne      #0x7a84
+0x00007a58  063ca0e1     lsl      r3, r6, #0x18
+0x00007a5c  ff0453e3     cmp      r3, #0xff000000
+0x00007a60  0590a001     moveq    sb, r5
+0x00007a64  ff60a003     moveq    r6, #0xff
+0x00007a68  0500000a     beq      #0x7a84
+0x00007a6c  013089e2     add      r3, sb, #1
+0x00007a70  ff9003e2     and      sb, r3, #0xff
+0x00007a74  020059e3     cmp      sb, #2
+0x00007a78  013086e2     add      r3, r6, #1
+0x00007a7c  ff6003e2     and      r6, r3, #0xff
+0x00007a80  0590a081     movhi    sb, r5
+0x00007a84  010058e3     cmp      r8, #1
+0x00007a88  ff60a013     movne    r6, #0xff
+0x00007a8c  0280a0e3     mov      r8, #2
+0x00007a90  260000ea     b        #0x7b30
+0x00007a94  424e4be2     sub      r4, fp, #0x420
+0x00007a98  084044e2     sub      r4, r4, #8
+0x00007a9c  0c4044e2     sub      r4, r4, #0xc
+0x00007aa0  0410a0e1     mov      r1, r4
+0x00007aa4  3c041be5     ldr      r0, [fp, #-0x43c]
+0x00007aa8  bcf9ffeb     bl       #0x61a0 ; symbol=PLT:xxkick
+0x00007aac  003097e5     ldr      r3, [r7]
+0x00007ab0  0050a0e1     mov      r5, r0
+0x00007ab4  0700a0e1     mov      r0, r7
+0x00007ab8  0cc093e5     ldr      ip, [r3, #0xc]
+0x00007abc  3cff2fe1     blx      ip
+0x00007ac0  0410a0e1     mov      r1, r4
+0x00007ac4  812fa0e3     mov      r2, #0x204
+0x00007ac8  c0f9ffeb     bl       #0x61d0 ; symbol=PLT:_Z9SerializePFiPhjEPvj
+0x00007acc  000055e3     cmp      r5, #0
+0x00007ad0  0d0000ba     blt      #0x7b0c
+0x00007ad4  0510a011     movne    r1, r5
+0x00007ad8  00309715     ldrne    r3, [r7]
+0x00007adc  0700a011     movne    r0, r7
+0x00007ae0  10c09315     ldrne    ip, [r3, #0x10]
+0x00007ae4  3cff2f11     blxne    ip
+0x00007ae8  020058e3     cmp      r8, #2
+0x00007aec  0a00001a     bne      #0x7b1c
+0x00007af0  061ca0e1     lsl      r1, r6, #0x18
+0x00007af4  411ca0e1     asr      r1, r1, #0x18
+0x00007af8  003097e5     ldr      r3, [r7]
+0x00007afc  0700a0e1     mov      r0, r7
+0x00007b00  14c093e5     ldr      ip, [r3, #0x14]
+0x00007b04  3cff2fe1     blx      ip
+0x00007b08  040000ea     b        #0x7b20
+0x00007b0c  020058e3     cmp      r8, #2
+0x00007b10  ff60a0e3     mov      r6, #0xff
+0x00007b14  0090a0e3     mov      sb, #0
+0x00007b18  0000000a     beq      #0x7b20
+0x00007b1c  ff60a0e3     mov      r6, #0xff
+0x00007b20  0080a0e3     mov      r8, #0
+0x00007b24  010000ea     b        #0x7b30
+0x00007b28  ff60a0e3     mov      r6, #0xff
+0x00007b2c  0090a0e3     mov      sb, #0
+0x00007b30  063ca0e1     lsl      r3, r6, #0x18
+0x00007b34  ff0453e3     cmp      r3, #0xff000000
+0x00007b38  71ffff0a     beq      #0x7904
+0x00007b3c  ba325be1     ldrh     r3, [fp, #-0x2a]
+0x00007b40  050053e3     cmp      r3, #5
+0x00007b44  6effff1a     bne      #0x7904
+0x00007b48  0010a0e3     mov      r1, #0
+0x00007b4c  0120a0e1     mov      r2, r1
+0x00007b50  0130a0e1     mov      r3, r1
+0x00007b54  0900a0e3     mov      r0, #9
+0x00007b58  15f9ffeb     bl       #0x5fb4 ; symbol=PLT:blog
+0x00007b5c  0100a0e3     mov      r0, #1
+0x00007b60  a9f9ffeb     bl       #0x620c ; symbol=PLT:pthread_cleanup_pop
+0x00007b64  0000a0e3     mov      r0, #0
+0x00007b68  28d04be2     sub      sp, fp, #0x28
+0x00007b6c  f0af9de8     ldm      sp, {r4, r5, r6, r7, r8, sb, sl, fp, sp, pc}
+
+libsencore.so senser-header-prefix file=0x6df8 value=0x6df8 size=680 sha256=401bc78bc84bd175968513a387b8951626ceb48a345eed134b998d3630103270
+0x00006df8  0dc0a0e1     mov      ip, sp
+0x00006dfc  f0df2de9     push     {r4, r5, r6, r7, r8, sb, sl, fp, ip, lr, pc}
+0x00006e00  54a79fe5     ldr      sl, [pc, #0x754]
+0x00006e04  04b04ce2     sub      fp, ip, #4
+0x00006e08  acd04de2     sub      sp, sp, #0xac
+0x00006e0c  4c379fe5     ldr      r3, [pc, #0x74c]
+0x00006e10  0aa08fe0     add      sl, pc, sl
+0x00006e14  03309ae7     ldr      r3, [sl, r3]
+0x00006e18  44300be5     str      r3, [fp, #-0x44]
+0x00006e1c  40379fe5     ldr      r3, [pc, #0x740]
+0x00006e20  03308ae0     add      r3, sl, r3
+0x00006e24  40300be5     str      r3, [fp, #-0x40]
+0x00006e28  38379fe5     ldr      r3, [pc, #0x738]
+0x00006e2c  28104be2     sub      r1, fp, #0x28
+0x00006e30  03308ae0     add      r3, sl, r3
+0x00006e34  5c004be2     sub      r0, fp, #0x5c
+0x00006e38  38300be5     str      r3, [fp, #-0x38]
+0x00006e3c  3c100be5     str      r1, [fp, #-0x3c]
+0x00006e40  30700be5     str      r7, [fp, #-0x30]
+0x00006e44  34d00be5     str      sp, [fp, #-0x34]
+0x00006e48  b7fbffeb     bl       #0x5d2c ; symbol=PLT:_Unwind_SjLj_Register
+0x00006e4c  18379fe5     ldr      r3, [pc, #0x718]
+0x00006e50  0400a0e3     mov      r0, #4
+0x00006e54  0020e0e3     mvn      r2, #0
+0x00006e58  60300be5     str      r3, [fp, #-0x60]
+0x00006e5c  58200be5     str      r2, [fp, #-0x58]
+0x00006e60  0030a0e1     mov      r3, r0
+0x00006e64  60204be2     sub      r2, fp, #0x60
+0x00006e68  0310a0e3     mov      r1, #3
+0x00006e6c  50fcffeb     bl       #0x5fb4 ; symbol=PLT:blog
+0x00006e70  f8069fe5     ldr      r0, [pc, #0x6f8]
+0x00006e74  0010a0e3     mov      r1, #0
+0x00006e78  00008ae0     add      r0, sl, r0
+0x00006e7c  9efbffeb     bl       #0x5cfc ; symbol=PLT:pthread_cleanup_push
+0x00006e80  0010a0e3     mov      r1, #0
+0x00006e84  0100a0e3     mov      r0, #1
+0x00006e88  0cfdffeb     bl       #0x62c0 ; symbol=PLT:pthread_setcancelstate
+0x00006e8c  e0069fe5     ldr      r0, [pc, #0x6e0]
+0x00006e90  d2fbffeb     bl       #0x5de0 ; symbol=PLT:malloc
+0x00006e94  000050e3     cmp      r0, #0
+0x00006e98  84000be5     str      r0, [fp, #-0x84]
+0x00006e9c  1100001a     bne      #0x6ee8
+0x00006ea0  d0369fe5     ldr      r3, [pc, #0x6d0]
+0x00006ea4  03308ae0     add      r3, sl, r3
+0x00006ea8  88300be5     str      r3, [fp, #-0x88]
+0x00006eac  0300a0e1     mov      r0, r3
+0x00006eb0  eefbffeb     bl       #0x5e70 ; symbol=PLT:strlen
+0x00006eb4  0030e0e3     mvn      r3, #0
+0x00006eb8  88201be5     ldr      r2, [fp, #-0x88]
+0x00006ebc  0110a0e3     mov      r1, #1
+0x00006ec0  58300be5     str      r3, [fp, #-0x58]
+0x00006ec4  0030a0e1     mov      r3, r0
+0x00006ec8  ff00a0e3     mov      r0, #0xff
+0x00006ecc  38fcffeb     bl       #0x5fb4 ; symbol=PLT:blog
+0x00006ed0  16fcffeb     bl       #0x5f30 ; symbol=PLT:getpid
+0x00006ed4  a0269fe5     ldr      r2, [pc, #0x6a0]
+0x00006ed8  0010a0e1     mov      r1, r0
+0x00006edc  9c069fe5     ldr      r0, [pc, #0x69c]
+0x00006ee0  02208ae0     add      r2, sl, r2
+0x00006ee4  730100ea     b        #0x74b8
+0x00006ee8  94369fe5     ldr      r3, [pc, #0x694]
+0x00006eec  0040e0e3     mvn      r4, #0
+0x00006ef0  03009ae7     ldr      r0, [sl, r3]
+0x00006ef4  84101be5     ldr      r1, [fp, #-0x84]
+0x00006ef8  58400be5     str      r4, [fp, #-0x58]
+0x00006efc  7efbffeb     bl       #0x5cfc ; symbol=PLT:pthread_cleanup_push
+0x00006f00  80369fe5     ldr      r3, [pc, #0x680]
+0x00006f04  03308ae0     add      r3, sl, r3
+0x00006f08  8c300be5     str      r3, [fp, #-0x8c]
+0x00006f0c  0030e0e3     mvn      r3, #0
+0x00006f10  58300be5     str      r3, [fp, #-0x58]
+0x00006f14  8c001be5     ldr      r0, [fp, #-0x8c]
+0x00006f18  6c369fe5     ldr      r3, [pc, #0x66c]
+0x00006f1c  03c09ae7     ldr      ip, [sl, r3]
+0x00006f20  3cff2fe1     blx      ip
+0x00006f24  40fcffeb     bl       #0x602c ; symbol=PLT:pthread_self
+0x00006f28  8cc01be5     ldr      ip, [fp, #-0x8c]
+0x00006f2c  0030a0e1     mov      r3, r0
+0x00006f30  0010a0e3     mov      r1, #0
+0x00006f34  2c308ce5     str      r3, [ip, #0x2c]
+0x00006f38  0100a0e1     mov      r0, r1
+0x00006f3c  dffcffeb     bl       #0x62c0 ; symbol=PLT:pthread_setcancelstate
+0x00006f40  45fcffeb     bl       #0x605c ; symbol=PLT:pthread_testcancel
+0x00006f44  0010a0e3     mov      r1, #0
+0x00006f48  0100a0e3     mov      r0, #1
+0x00006f4c  dbfcffeb     bl       #0x62c0 ; symbol=PLT:pthread_setcancelstate
+0x00006f50  38369fe5     ldr      r3, [pc, #0x638]
+0x00006f54  03009ae7     ldr      r0, [sl, r3]
+0x00006f58  34369fe5     ldr      r3, [pc, #0x634]
+0x00006f5c  03309ae7     ldr      r3, [sl, r3]
+0x00006f60  0040a0e3     mov      r4, #0
+0x00006f64  84101be5     ldr      r1, [fp, #-0x84]
+0x00006f68  0c20a0e3     mov      r2, #0xc
+0x00006f6c  004083e5     str      r4, [r3]
+0x00006f70  96fcffeb     bl       #0x61d0 ; symbol=PLT:_Z9SerializePFiPhjEPvj
+0x00006f74  84001be5     ldr      r0, [fp, #-0x84]
+0x00006f78  00c090e5     ldr      ip, [r0]
+0x00006f7c  0410a0e1     mov      r1, r4
+0x00006f80  01065ce3     cmp      ip, #0x100000
+0x00006f84  00c0a083     movhi    ip, #0
+0x00006f88  01c0a093     movls    ip, #1
+0x00006f8c  0b00a0e3     mov      r0, #0xb
+0x00006f90  84201be5     ldr      r2, [fp, #-0x84]
+0x00006f94  0c30a0e3     mov      r3, #0xc
+0x00006f98  90c00be5     str      ip, [fp, #-0x90]
+0x00006f9c  04fcffeb     bl       #0x5fb4 ; symbol=PLT:blog
+0x00006fa0  84101be5     ldr      r1, [fp, #-0x84]
+0x00006fa4  b600d1e1     ldrh     r0, [r1, #6]
+0x00006fa8  040050e1     cmp      r0, r4
+0x00006fac  0300000a     beq      #0x6fc0
+0x00006fb0  41ffffeb     bl       #0x6cbc
+0x00006fb4  040050e1     cmp      r0, r4
+0x00006fb8  04009015     ldrne    r0, [r0, #4]
+0x00006fbc  0000001a     bne      #0x6fc4
+0x00006fc0  0000a0e3     mov      r0, #0
+0x00006fc4  000050e3     cmp      r0, #0
+0x00006fc8  94000be5     str      r0, [fp, #-0x94]
+0x00006fcc  0e00000a     beq      #0x700c
+0x00006fd0  90201be5     ldr      r2, [fp, #-0x90]
+0x00006fd4  000052e3     cmp      r2, #0
+0x00006fd8  0501000a     beq      #0x73f4
+0x00006fdc  84301be5     ldr      r3, [fp, #-0x84]
+0x00006fe0  b600d3e1     ldrh     r0, [r3, #6]
+0x00006fe4  34ffffeb     bl       #0x6cbc
+0x00006fe8  000050e3     cmp      r0, #0
+0x00006fec  0001000a     beq      #0x73f4
+0x00006ff0  0030a0e3     mov      r3, #0
+0x00006ff4  64300be5     str      r3, [fp, #-0x64]
+0x00006ff8  b8364be1     strh     r3, [fp, #-0x68]
+0x00006ffc  68304be2     sub      r3, fp, #0x68
+0x00007000  060093e8     ldm      r3, {r1, r2}
+0x00007004  060080e8     stm      r0, {r1, r2}
+0x00007008  f90000ea     b        #0x73f4
+0x0000700c  0020e0e3     mvn      r2, #0
+0x00007010  84001be5     ldr      r0, [fp, #-0x84]
+0x00007014  58200be5     str      r2, [fp, #-0x58]
+0x00007018  5dfcffeb     bl       #0x6194 ; symbol=PLT:_Z5ParsePK12SenserPacket
+0x0000701c  000050e3     cmp      r0, #0
+0x00007020  94000be5     str      r0, [fp, #-0x94]
+0x00007024  1100001a     bne      #0x7070
+0x00007028  68359fe5     ldr      r3, [pc, #0x568]
+0x0000702c  03308ae0     add      r3, sl, r3
+0x00007030  98300be5     str      r3, [fp, #-0x98]
+0x00007034  0300a0e1     mov      r0, r3
+0x00007038  8cfbffeb     bl       #0x5e70 ; symbol=PLT:strlen
+0x0000703c  0030e0e3     mvn      r3, #0
+0x00007040  98201be5     ldr      r2, [fp, #-0x98]
+0x00007044  0110a0e3     mov      r1, #1
+0x00007048  58300be5     str      r3, [fp, #-0x58]
+0x0000704c  0030a0e1     mov      r3, r0
+0x00007050  ff00a0e3     mov      r0, #0xff
+0x00007054  d6fbffeb     bl       #0x5fb4 ; symbol=PLT:blog
+0x00007058  b4fbffeb     bl       #0x5f30 ; symbol=PLT:getpid
+0x0000705c  18259fe5     ldr      r2, [pc, #0x518]
+0x00007060  0010a0e1     mov      r1, r0
+0x00007064  30059fe5     ldr      r0, [pc, #0x530]
+0x00007068  02208ae0     add      r2, sl, r2
+0x0000706c  110100ea     b        #0x74b8
+0x00007070  1c359fe5     ldr      r3, [pc, #0x51c]
+0x00007074  84401be5     ldr      r4, [fp, #-0x84]
+0x00007078  03309ae7     ldr      r3, [sl, r3]
+0x0000707c  94c01be5     ldr      ip, [fp, #-0x94]
+0x00007080  002093e5     ldr      r2, [r3]
+0x00007084  003094e5     ldr      r3, [r4]
+0x00007088  04c09ce5     ldr      ip, [ip, #4]
+0x0000708c  033062e0     rsb      r3, r2, r3
+0x00007090  0c3083e2     add      r3, r3, #0xc
+0x00007094  00005ce3     cmp      ip, #0
+0x00007098  a0c00be5     str      ip, [fp, #-0xa0]
+0x0000709c  9c300be5     str      r3, [fp, #-0x9c]
+
+libsencore.so _Z15SenserIfReceivePhj file=0x911c value=0x911c size=204 sha256=401bc78bc84bd175968513a387b8951626ceb48a345eed134b998d3630103270
+0x0000911c  0dc0a0e1     mov      ip, sp
+0x00009120  10dc2de9     push     {r4, sl, fp, ip, lr, pc}
+0x00009124  04b04ce2     sub      fp, ip, #4
+0x00009128  14204be2     sub      r2, fp, #0x14
+0x0000912c  04d04de2     sub      sp, sp, #4
+0x00009130  b0a09fe5     ldr      sl, [pc, #0xb0]
+0x00009134  b0c09fe5     ldr      ip, [pc, #0xb0]
+0x00009138  041022e5     str      r1, [r2, #-4]!
+0x0000913c  0aa08fe0     add      sl, pc, sl
+0x00009140  0c309ae7     ldr      r3, [sl, ip]
+0x00009144  030051e1     cmp      r1, r3
+0x00009148  a0309fe5     ldr      r3, [pc, #0xa0]
+0x0000914c  0c208a20     addhs    r2, sl, ip
+0x00009150  03c09ae7     ldr      ip, [sl, r3]
+0x00009154  002092e5     ldr      r2, [r2]
+0x00009158  00005ce3     cmp      ip, #0
+0x0000915c  0030a0e1     mov      r3, r0
+0x00009160  18200be5     str      r2, [fp, #-0x18]
+0x00009164  1200001a     bne      #0x91b4
+0x00009168  84309fe5     ldr      r3, [pc, #0x84]
+0x0000916c  03408ae0     add      r4, sl, r3
+0x00009170  0400a0e1     mov      r0, r4
+0x00009174  3df3ffeb     bl       #0x5e70 ; symbol=PLT:strlen
+0x00009178  0420a0e1     mov      r2, r4
+0x0000917c  0030a0e1     mov      r3, r0
+0x00009180  0110a0e3     mov      r1, #1
+0x00009184  8300a0e3     mov      r0, #0x83
+0x00009188  89f3ffeb     bl       #0x5fb4 ; symbol=PLT:blog
+0x0000918c  67f3ffeb     bl       #0x5f30 ; symbol=PLT:getpid
+0x00009190  60209fe5     ldr      r2, [pc, #0x60]
+0x00009194  0030a0e1     mov      r3, r0
+0x00009198  5c009fe5     ldr      r0, [pc, #0x5c]
+0x0000919c  0310a0e1     mov      r1, r3
+0x000091a0  00008ae0     add      r0, sl, r0
+0x000091a4  02208ae0     add      r2, sl, r2
+0x000091a8  2ff4ffeb     bl       #0x626c ; symbol=PLT:printf
+0x000091ac  0500e0e3     mvn      r0, #5
+0x000091b0  10ac9de9     ldmib    sp, {r4, sl, fp, sp, pc}
+0x000091b4  44009fe5     ldr      r0, [pc, #0x44]
+0x000091b8  0310a0e1     mov      r1, r3
+0x000091bc  00008ae0     add      r0, sl, r0
+0x000091c0  00c09ce5     ldr      ip, [ip]
+0x000091c4  3cff2fe1     blx      ip
+0x000091c8  000050e3     cmp      r0, #0
+0x000091cc  10ac9dd9     ldmible  sp, {r4, sl, fp, sp, pc}
+0x000091d0  2c309fe5     ldr      r3, [pc, #0x2c]
+0x000091d4  03209ae7     ldr      r2, [sl, r3]
+0x000091d8  003092e5     ldr      r3, [r2]
+0x000091dc  003083e0     add      r3, r3, r0
+0x000091e0  003082e5     str      r3, [r2]
+0x000091e4  10ac9de9     ldmib    sp, {r4, sl, fp, sp, pc}
+
+libsencore.so _ZN19WorkerThreadManager20start_authenticationEPFvvE file=0x7f48 value=0x7f48 size=72 sha256=401bc78bc84bd175968513a387b8951626ceb48a345eed134b998d3630103270
+0x00007f48  0dc0a0e1     mov      ip, sp
+0x00007f4c  00dc2de9     push     {sl, fp, ip, lr, pc}
+0x00007f50  38a09fe5     ldr      sl, [pc, #0x38]
+0x00007f54  04b04ce2     sub      fp, ip, #4
+0x00007f58  34c09fe5     ldr      ip, [pc, #0x34]
+0x00007f5c  0aa08fe0     add      sl, pc, sl
+0x00007f60  0030a0e1     mov      r3, r0
+0x00007f64  0c1083e5     str      r1, [r3, #0xc]
+0x00007f68  0cc09ae7     ldr      ip, [sl, ip]
+0x00007f6c  24309fe5     ldr      r3, [pc, #0x24]
+0x00007f70  00e0a0e3     mov      lr, #0
+0x00007f74  03209ae7     ldr      r2, [sl, r3]
+0x00007f78  0e10a0e1     mov      r1, lr
+0x00007f7c  0030a0e1     mov      r3, r0
+0x00007f80  00e08ce5     str      lr, [ip]
+0x00007f84  a1f7ffeb     bl       #0x5e10 ; symbol=PLT:_ZN19WorkerThreadManager10run_workerEiPFPvS0_ES0_
+0x00007f88  ff0000e2     and      r0, r0, #0xff
+0x00007f8c  00ac9de8     ldm      sp, {sl, fp, sp, pc}
+
+libsencore.so _ZNK19WorkerThreadManager12getProductIdEv file=0x80ac value=0x80ac size=20 sha256=401bc78bc84bd175968513a387b8951626ceb48a345eed134b998d3630103270
+0x000080ac  0dc0a0e1     mov      ip, sp
+0x000080b0  00d82de9     push     {fp, ip, lr, pc}
+0x000080b4  0100a0e3     mov      r0, #1
+0x000080b8  04b04ce2     sub      fp, ip, #4
+0x000080bc  00a89de8     ldm      sp, {fp, sp, pc}
+
+libsencore.so CmdDecode file=0x1137c value=0x1137c size=52 sha256=401bc78bc84bd175968513a387b8951626ceb48a345eed134b998d3630103270
+0x0001137c  0020d1e5     ldrb     r2, [r1]
+0x00011380  0130d1e5     ldrb     r3, [r1, #1]
+0x00011384  0dc0a0e1     mov      ip, sp
+0x00011388  023483e0     add      r3, r3, r2, lsl #8
+0x0001138c  00d82de9     push     {fp, ip, lr, pc}
+0x00011390  0320d1e5     ldrb     r2, [r1, #3]
+0x00011394  0338a0e1     lsl      r3, r3, #0x10
+0x00011398  2338e0e1     mvn      r3, r3, lsr #16
+0x0001139c  033062e0     rsb      r3, r2, r3
+0x000113a0  ff3003e2     and      r3, r3, #0xff
+0x000113a4  04b04ce2     sub      fp, ip, #4
+0x000113a8  b030c0e1     strh     r3, [r0]
+0x000113ac  00a89de8     ldm      sp, {fp, sp, pc}
+
+libsencore.so CmdEncode file=0x111f8 value=0x111f8 size=80 sha256=401bc78bc84bd175968513a387b8951626ceb48a345eed134b998d3630103270
+0x000111f8  0dc0a0e1     mov      ip, sp
+0x000111fc  30d82de9     push     {r4, r5, fp, ip, lr, pc}
+0x00011200  0008a0e1     lsl      r0, r0, #0x10
+0x00011204  04b04ce2     sub      fp, ip, #4
+0x00011208  0140a0e1     mov      r4, r1
+0x0001120c  2058a0e1     lsr      r5, r0, #0x10
+0x00011210  07d3ffeb     bl       #0x5e34 ; symbol=PLT:RandumGeneration
+0x00011214  0008a0e1     lsl      r0, r0, #0x10
+0x00011218  2028a0e1     lsr      r2, r0, #0x10
+0x0001121c  053082e0     add      r3, r2, r5
+0x00011220  0330e0e1     mvn      r3, r3
+0x00011224  0318a0e1     lsl      r1, r3, #0x10
+0x00011228  213ca0e1     lsr      r3, r1, #0x18
+0x0001122c  200ca0e1     lsr      r0, r0, #0x18
+0x00011230  2118a0e1     lsr      r1, r1, #0x10
+0x00011234  0320c4e5     strb     r2, [r4, #3]
+0x00011238  0030c4e5     strb     r3, [r4]
+0x0001123c  0110c4e5     strb     r1, [r4, #1]
+0x00011240  0200c4e5     strb     r0, [r4, #2]
+0x00011244  30a89de8     ldm      sp, {r4, r5, fp, sp, pc}
+
+libsencore.so xxhop file=0x1131c value=0x1131c size=92 sha256=401bc78bc84bd175968513a387b8951626ceb48a345eed134b998d3630103270
+0x0001131c  0dc0a0e1     mov      ip, sp
+0x00011320  043081e2     add      r3, r1, #4
+0x00011324  30d82de9     push     {r4, r5, fp, ip, lr, pc}
+0x00011328  04b04ce2     sub      fp, ip, #4
+0x0001132c  0050a0e1     mov      r5, r0
+0x00011330  0300a0e1     mov      r0, r3
+0x00011334  0140a0e1     mov      r4, r1
+0x00011338  20d3ffeb     bl       #0x5fc0 ; symbol=PLT:GenerateDummyData
+0x0001133c  34009fe5     ldr      r0, [pc, #0x34]
+0x00011340  0010a0e3     mov      r1, #0
+0x00011344  013085e0     add      r3, r5, r1
+0x00011348  0420d3e5     ldrb     r2, [r3, #4]
+0x0001134c  0130d4e7     ldrb     r3, [r4, r1]
+0x00011350  023023e0     eor      r3, r3, r2
+0x00011354  0130c4e7     strb     r3, [r4, r1]
+0x00011358  011081e2     add      r1, r1, #1
+0x0001135c  000051e1     cmp      r1, r0
+0x00011360  f7ffffda     ble      #0x11344
+0x00011364  0410a0e1     mov      r1, r4
+0x00011368  0200a0e3     mov      r0, #2
+0x0001136c  8fd2ffeb     bl       #0x5db0 ; symbol=PLT:CmdEncode
+0x00011370  0000a0e3     mov      r0, #0
+0x00011374  30a89de8     ldm      sp, {r4, r5, fp, sp, pc}
+
+libsencore.so xxjump file=0x112a4 value=0x112a4 size=108 sha256=401bc78bc84bd175968513a387b8951626ceb48a345eed134b998d3630103270
+0x000112a4  0dc0a0e1     mov      ip, sp
+0x000112a8  30dc2de9     push     {r4, r5, sl, fp, ip, lr, pc}
+0x000112ac  0430d0e5     ldrb     r3, [r0, #4]
+0x000112b0  58a09fe5     ldr      sl, [pc, #0x58]
+0x000112b4  030080e0     add      r0, r0, r3
+0x000112b8  54309fe5     ldr      r3, [pc, #0x54]
+0x000112bc  0aa08fe0     add      sl, pc, sl
+0x000112c0  04b04ce2     sub      fp, ip, #4
+0x000112c4  040080e2     add      r0, r0, #4
+0x000112c8  0140a0e1     mov      r4, r1
+0x000112cc  1420a0e3     mov      r2, #0x14
+0x000112d0  03109ae7     ldr      r1, [sl, r3]
+0x000112d4  d3d2ffeb     bl       #0x5e28 ; symbol=PLT:strncmp
+0x000112d8  000050e3     cmp      r0, #0
+0x000112dc  0050a0e3     mov      r5, #0
+0x000112e0  30209f15     ldrne    r2, [pc, #0x30]
+0x000112e4  02209a17     ldrne    r2, [sl, r2]
+0x000112e8  7f30e013     mvnne    r3, #0x7f
+0x000112ec  0030c215     strbne   r3, [r2]
+0x000112f0  02504512     subne    r5, r5, #2
+0x000112f4  040084e2     add      r0, r4, #4
+0x000112f8  30d3ffeb     bl       #0x5fc0 ; symbol=PLT:GenerateDummyData
+0x000112fc  0410a0e1     mov      r1, r4
+0x00011300  0400a0e3     mov      r0, #4
+0x00011304  a9d2ffeb     bl       #0x5db0 ; symbol=PLT:CmdEncode
+0x00011308  0500a0e1     mov      r0, r5
+0x0001130c  30ac9de8     ldm      sp, {r4, r5, sl, fp, sp, pc}
+
+libsencore.so xxkick file=0x11248 value=0x11248 size=84 sha256=401bc78bc84bd175968513a387b8951626ceb48a345eed134b998d3630103270
+0x00011248  0dc0a0e1     mov      ip, sp
+0x0001124c  30dc2de9     push     {r4, r5, sl, fp, ip, lr, pc}
+0x00011250  0430d0e5     ldrb     r3, [r0, #4]
+0x00011254  40a09fe5     ldr      sl, [pc, #0x40]
+0x00011258  ff0053e3     cmp      r3, #0xff
+0x0001125c  0aa08fe0     add      sl, pc, sl
+0x00011260  0140a0e1     mov      r4, r1
+0x00011264  04b04ce2     sub      fp, ip, #4
+0x00011268  0050a0e3     mov      r5, #0
+0x0001126c  ba50d001     ldrheq   r5, [r0, #0xa]
+0x00011270  040081e2     add      r0, r1, #4
+0x00011274  51d3ffeb     bl       #0x5fc0 ; symbol=PLT:GenerateDummyData
+0x00011278  0600a0e3     mov      r0, #6
+0x0001127c  0410a0e1     mov      r1, r4
+0x00011280  cad2ffeb     bl       #0x5db0 ; symbol=PLT:CmdEncode
+0x00011284  14309fe5     ldr      r3, [pc, #0x14]
+0x00011288  03309ae7     ldr      r3, [sl, r3]
+0x0001128c  0030d3e5     ldrb     r3, [r3]
+0x00011290  0500a0e1     mov      r0, r5
+0x00011294  0430c4e5     strb     r3, [r4, #4]
+0x00011298  30ac9de8     ldm      sp, {r4, r5, sl, fp, sp, pc}
+
+libsencore.so xxstep file=0x11b44 value=0x11b44 size=236 sha256=401bc78bc84bd175968513a387b8951626ceb48a345eed134b998d3630103270
+0x00011b44  0dc0a0e1     mov      ip, sp
+0x00011b48  f0dd2de9     push     {r4, r5, r6, r7, r8, sl, fp, ip, lr, pc}
+0x00011b4c  04b04ce2     sub      fp, ip, #4
+0x00011b50  d8a09fe5     ldr      sl, [pc, #0xd8]
+0x00011b54  427e4be2     sub      r7, fp, #0x420
+0x00011b58  01db4de2     sub      sp, sp, #0x400
+0x00011b5c  0060a0e3     mov      r6, #0
+0x00011b60  047047e2     sub      r7, r7, #4
+0x00011b64  c8809fe5     ldr      r8, [pc, #0xc8]
+0x00011b68  0230a0e1     mov      r3, r2
+0x00011b6c  0aa08fe0     add      sl, pc, sl
+0x00011b70  0040a0e1     mov      r4, r0
+0x00011b74  0610a0e1     mov      r1, r6
+0x00011b78  012ba0e3     mov      r2, #0x400
+0x00011b7c  0700a0e1     mov      r0, r7
+0x00011b80  ff5003e2     and      r5, r3, #0xff
+0x00011b84  4fd1ffeb     bl       #0x60c8 ; symbol=PLT:memset
+0x00011b88  0610a0e1     mov      r1, r6
+0x00011b8c  1420a0e3     mov      r2, #0x14
+0x00011b90  08009ae7     ldr      r0, [sl, r8]
+0x00011b94  4bd1ffeb     bl       #0x60c8 ; symbol=PLT:memset
+0x00011b98  0700a0e1     mov      r0, r7
+0x00011b9c  041084e2     add      r1, r4, #4
+0x00011ba0  022ca0e3     mov      r2, #0x200
+0x00011ba4  6cd0ffeb     bl       #0x5d5c ; symbol=PLT:memcpy
+0x00011ba8  010055e3     cmp      r5, #1
+0x00011bac  0900000a     beq      #0x11bd8
+0x00011bb0  020000ca     bgt      #0x11bc0
+0x00011bb4  060055e1     cmp      r5, r6
+0x00011bb8  0300000a     beq      #0x11bcc
+0x00011bbc  140000ea     b        #0x11c14
+0x00011bc0  020055e3     cmp      r5, #2
+0x00011bc4  0600000a     beq      #0x11be4
+0x00011bc8  110000ea     b        #0x11c14
+0x00011bcc  64109fe5     ldr      r1, [pc, #0x64]
+0x00011bd0  890f4be2     sub      r0, fp, #0x224
+0x00011bd4  040000ea     b        #0x11bec
+0x00011bd8  5c109fe5     ldr      r1, [pc, #0x5c]
+0x00011bdc  890f4be2     sub      r0, fp, #0x224
+0x00011be0  010000ea     b        #0x11bec
+0x00011be4  54109fe5     ldr      r1, [pc, #0x54]
+0x00011be8  890f4be2     sub      r0, fp, #0x224
+0x00011bec  01108ae0     add      r1, sl, r1
+0x00011bf0  022ca0e3     mov      r2, #0x200
+0x00011bf4  58d0ffeb     bl       #0x5d5c ; symbol=PLT:memcpy
+0x00011bf8  0700a0e1     mov      r0, r7
+0x00011bfc  08109ae7     ldr      r1, [sl, r8]
+0x00011c00  84d1ffeb     bl       #0x6218 ; symbol=PLT:shimashima
+0x00011c04  000050e3     cmp      r0, #0
+0x00011c08  0060a0e1     mov      r6, r0
+0x00011c0c  0000a0a3     movge    r0, #0
+0x00011c10  040000aa     bge      #0x11c28
+0x00011c14  28209fe5     ldr      r2, [pc, #0x28]
+0x00011c18  02209ae7     ldr      r2, [sl, r2]
+0x00011c1c  7f30e0e3     mvn      r3, #0x7f
+0x00011c20  0030c2e5     strb     r3, [r2]
+0x00011c24  0100e0e3     mvn      r0, #1
+0x00011c28  24d04be2     sub      sp, fp, #0x24
+0x00011c2c  f0ad9de8     ldm      sp, {r4, r5, r6, r7, r8, sl, fp, sp, pc}
+
+libsencore.so xxstep2 file=0x119b8 value=0x119b8 size=236 sha256=401bc78bc84bd175968513a387b8951626ceb48a345eed134b998d3630103270
+0x000119b8  0dc0a0e1     mov      ip, sp
+0x000119bc  f0dd2de9     push     {r4, r5, r6, r7, r8, sl, fp, ip, lr, pc}
+0x000119c0  04b04ce2     sub      fp, ip, #4
+0x000119c4  d8a09fe5     ldr      sl, [pc, #0xd8]
+0x000119c8  427e4be2     sub      r7, fp, #0x420
+0x000119cc  01db4de2     sub      sp, sp, #0x400
+0x000119d0  0060a0e3     mov      r6, #0
+0x000119d4  047047e2     sub      r7, r7, #4
+0x000119d8  c8809fe5     ldr      r8, [pc, #0xc8]
+0x000119dc  0230a0e1     mov      r3, r2
+0x000119e0  0aa08fe0     add      sl, pc, sl
+0x000119e4  0040a0e1     mov      r4, r0
+0x000119e8  0610a0e1     mov      r1, r6
+0x000119ec  012ba0e3     mov      r2, #0x400
+0x000119f0  0700a0e1     mov      r0, r7
+0x000119f4  ff5003e2     and      r5, r3, #0xff
+0x000119f8  b2d1ffeb     bl       #0x60c8 ; symbol=PLT:memset
+0x000119fc  0610a0e1     mov      r1, r6
+0x00011a00  1420a0e3     mov      r2, #0x14
+0x00011a04  08009ae7     ldr      r0, [sl, r8]
+0x00011a08  aed1ffeb     bl       #0x60c8 ; symbol=PLT:memset
+0x00011a0c  0700a0e1     mov      r0, r7
+0x00011a10  041084e2     add      r1, r4, #4
+0x00011a14  022ca0e3     mov      r2, #0x200
+0x00011a18  cfd0ffeb     bl       #0x5d5c ; symbol=PLT:memcpy
+0x00011a1c  010055e3     cmp      r5, #1
+0x00011a20  0900000a     beq      #0x11a4c
+0x00011a24  020000ca     bgt      #0x11a34
+0x00011a28  060055e1     cmp      r5, r6
+0x00011a2c  0300000a     beq      #0x11a40
+0x00011a30  140000ea     b        #0x11a88
+0x00011a34  020055e3     cmp      r5, #2
+0x00011a38  0600000a     beq      #0x11a58
+0x00011a3c  110000ea     b        #0x11a88
+0x00011a40  64109fe5     ldr      r1, [pc, #0x64]
+0x00011a44  890f4be2     sub      r0, fp, #0x224
+0x00011a48  040000ea     b        #0x11a60
+0x00011a4c  5c109fe5     ldr      r1, [pc, #0x5c]
+0x00011a50  890f4be2     sub      r0, fp, #0x224
+0x00011a54  010000ea     b        #0x11a60
+0x00011a58  54109fe5     ldr      r1, [pc, #0x54]
+0x00011a5c  890f4be2     sub      r0, fp, #0x224
+0x00011a60  01108ae0     add      r1, sl, r1
+0x00011a64  022ca0e3     mov      r2, #0x200
+0x00011a68  bbd0ffeb     bl       #0x5d5c ; symbol=PLT:memcpy
+0x00011a6c  0700a0e1     mov      r0, r7
+0x00011a70  08109ae7     ldr      r1, [sl, r8]
+0x00011a74  f3d1ffeb     bl       #0x6248 ; symbol=PLT:shimashima2
+0x00011a78  000050e3     cmp      r0, #0
+0x00011a7c  0060a0e1     mov      r6, r0
+0x00011a80  0000a0a3     movge    r0, #0
+0x00011a84  040000aa     bge      #0x11a9c
+0x00011a88  28209fe5     ldr      r2, [pc, #0x28]
+0x00011a8c  02209ae7     ldr      r2, [sl, r2]
+0x00011a90  7f30e0e3     mvn      r3, #0x7f
+0x00011a94  0030c2e5     strb     r3, [r2]
+0x00011a98  0100e0e3     mvn      r0, #1
+0x00011a9c  24d04be2     sub      sp, fp, #0x24
+0x00011aa0  f0ad9de8     ldm      sp, {r4, r5, r6, r7, r8, sl, fp, sp, pc}
+
+libsencore.so shimashima2 file=0x11930 value=0x11930 size=136 sha256=401bc78bc84bd175968513a387b8951626ceb48a345eed134b998d3630103270
+0x00011930  0dc0a0e1     mov      ip, sp
+0x00011934  70d82de9     push     {r4, r5, r6, fp, ip, lr, pc}
+0x00011938  04b04ce2     sub      fp, ip, #4
+0x0001193c  7cd04de2     sub      sp, sp, #0x7c
+0x00011940  80504be2     sub      r5, fp, #0x80
+0x00011944  0040a0e1     mov      r4, r0
+0x00011948  0500a0e1     mov      r0, r5
+0x0001194c  0160a0e1     mov      r6, r1
+0x00011950  96feffeb     bl       #0x113b0
+0x00011954  000050e3     cmp      r0, #0
+0x00011958  0c00001a     bne      #0x11990
+0x0001195c  0410a0e1     mov      r1, r4
+0x00011960  0500a0e1     mov      r0, r5
+0x00011964  012ba0e3     mov      r2, #0x400
+0x00011968  4affffeb     bl       #0x11698
+0x0001196c  000050e3     cmp      r0, #0
+0x00011970  0600001a     bne      #0x11990
+0x00011974  94404be2     sub      r4, fp, #0x94
+0x00011978  0410a0e1     mov      r1, r4
+0x0001197c  0500a0e1     mov      r0, r5
+0x00011980  7affffeb     bl       #0x11770
+0x00011984  000050e3     cmp      r0, #0
+0x00011988  0410a001     moveq    r1, r4
+0x0001198c  0100000a     beq      #0x11998
+0x00011990  0100e0e3     mvn      r0, #1
+0x00011994  050000ea     b        #0x119b0
+0x00011998  0130d1e4     ldrb     r3, [r1], #1
+0x0001199c  0030c6e7     strb     r3, [r6, r0]
+0x000119a0  010080e2     add      r0, r0, #1
+0x000119a4  130050e3     cmp      r0, #0x13
+0x000119a8  faffffda     ble      #0x11998
+0x000119ac  0000a0e3     mov      r0, #0
+0x000119b0  18d04be2     sub      sp, fp, #0x18
+0x000119b4  70a89de8     ldm      sp, {r4, r5, r6, fp, sp, pc}
+
+libsencore.so sha1-init file=0x113b0 value=0x113b0 size=100 sha256=401bc78bc84bd175968513a387b8951626ceb48a345eed134b998d3630103270
+0x000113b0  0020a0e3     mov      r2, #0
+0x000113b4  0dc0a0e1     mov      ip, sp
+0x000113b8  020050e1     cmp      r0, r2
+0x000113bc  00d82de9     push     {fp, ip, lr, pc}
+0x000113c0  0130a0e3     mov      r3, #1
+0x000113c4  04b04ce2     sub      fp, ip, #4
+0x000113c8  0f00000a     beq      #0x1140c
+0x000113cc  40309fe5     ldr      r3, [pc, #0x40]
+0x000113d0  003080e5     str      r3, [r0]
+0x000113d4  3c309fe5     ldr      r3, [pc, #0x3c]
+0x000113d8  043080e5     str      r3, [r0, #4]
+0x000113dc  38309fe5     ldr      r3, [pc, #0x38]
+0x000113e0  083080e5     str      r3, [r0, #8]
+0x000113e4  34309fe5     ldr      r3, [pc, #0x34]
+0x000113e8  0c3080e5     str      r3, [r0, #0xc]
+0x000113ec  30309fe5     ldr      r3, [pc, #0x30]
+0x000113f0  642080e5     str      r2, [r0, #0x64]
+0x000113f4  142080e5     str      r2, [r0, #0x14]
+0x000113f8  182080e5     str      r2, [r0, #0x18]
+0x000113fc  bc21c0e1     strh     r2, [r0, #0x1c]
+0x00011400  602080e5     str      r2, [r0, #0x60]
+0x00011404  103080e5     str      r3, [r0, #0x10]
+0x00011408  0230a0e1     mov      r3, r2
+0x0001140c  0300a0e1     mov      r0, r3
+0x00011410  00a89de8     ldm      sp, {fp, sp, pc}
+
+libsencore.so sha1-input file=0x11698 value=0x11698 size=216 sha256=401bc78bc84bd175968513a387b8951626ceb48a345eed134b998d3630103270
+0x00011698  0dc0a0e1     mov      ip, sp
+0x0001169c  70d82de9     push     {r4, r5, r6, fp, ip, lr, pc}
+0x000116a0  005052e2     subs     r5, r2, #0
+0x000116a4  0040a0e1     mov      r4, r0
+0x000116a8  04b04ce2     sub      fp, ip, #4
+0x000116ac  0160a0e1     mov      r6, r1
+0x000116b0  0500a001     moveq    r0, r5
+0x000116b4  70a89d08     ldmeq    sp, {r4, r5, r6, fp, sp, pc}
+0x000116b8  000051e3     cmp      r1, #0
+0x000116bc  00005413     cmpne    r4, #0
+0x000116c0  0100a003     moveq    r0, #1
+0x000116c4  70a89d08     ldmeq    sp, {r4, r5, r6, fp, sp, pc}
+0x000116c8  603094e5     ldr      r3, [r4, #0x60]
+0x000116cc  000053e3     cmp      r3, #0
+0x000116d0  0330a013     movne    r3, #3
+0x000116d4  0300a011     movne    r0, r3
+0x000116d8  64308415     strne    r3, [r4, #0x64]
+0x000116dc  70a89d18     ldmne    sp, {r4, r5, r6, fp, sp, pc}
+0x000116e0  640094e5     ldr      r0, [r4, #0x64]
+0x000116e4  000050e3     cmp      r0, #0
+0x000116e8  70a89d18     ldmne    sp, {r4, r5, r6, fp, sp, pc}
+0x000116ec  015055e2     subs     r5, r5, #1
+0x000116f0  1c00003a     blo      #0x11768
+0x000116f4  bc21d4e1     ldrh     r2, [r4, #0x1c]
+0x000116f8  013082e2     add      r3, r2, #1
+0x000116fc  bc31c4e1     strh     r3, [r4, #0x1c]
+0x00011700  143094e5     ldr      r3, [r4, #0x14]
+0x00011704  0010d6e5     ldrb     r1, [r6]
+0x00011708  083083e2     add      r3, r3, #8
+0x0001170c  0228a0e1     lsl      r2, r2, #0x10
+0x00011710  422884e0     add      r2, r4, r2, asr #16
+0x00011714  000053e3     cmp      r3, #0
+0x00011718  015045e2     sub      r5, r5, #1
+0x0001171c  1e10c2e5     strb     r1, [r2, #0x1e]
+0x00011720  143084e5     str      r3, [r4, #0x14]
+0x00011724  0500001a     bne      #0x11740
+0x00011728  183094e5     ldr      r3, [r4, #0x18]
+0x0001172c  013083e2     add      r3, r3, #1
+0x00011730  000053e3     cmp      r3, #0
+0x00011734  183084e5     str      r3, [r4, #0x18]
+0x00011738  01308302     addeq    r3, r3, #1
+0x0001173c  64308405     streq    r3, [r4, #0x64]
+0x00011740  fc31d4e1     ldrsh    r3, [r4, #0x1c]
+0x00011744  400053e3     cmp      r3, #0x40
+0x00011748  016086e2     add      r6, r6, #1
+0x0001174c  0400a001     moveq    r0, r4
+0x00011750  34ffff0b     bleq     #0x11428
+0x00011754  010075e3     cmn      r5, #1
+0x00011758  0200000a     beq      #0x11768
+0x0001175c  643094e5     ldr      r3, [r4, #0x64]
+0x00011760  000053e3     cmp      r3, #0
+0x00011764  e2ffff0a     beq      #0x116f4
+0x00011768  0000a0e3     mov      r0, #0
+0x0001176c  70a89de8     ldm      sp, {r4, r5, r6, fp, sp, pc}
+
+libsencore.so sha1-result file=0x11770 value=0x11770 size=448 sha256=401bc78bc84bd175968513a387b8951626ceb48a345eed134b998d3630103270
+0x00011770  0dc0a0e1     mov      ip, sp
+0x00011774  000051e3     cmp      r1, #0
+0x00011778  00005013     cmpne    r0, #0
+0x0001177c  f0d82de9     push     {r4, r5, r6, r7, fp, ip, lr, pc}
+0x00011780  0060a0e1     mov      r6, r0
+0x00011784  04b04ce2     sub      fp, ip, #4
+0x00011788  0170a0e1     mov      r7, r1
+0x0001178c  0100a003     moveq    r0, #1
+0x00011790  f0a89d08     ldmeq    sp, {r4, r5, r6, r7, fp, sp, pc}
+0x00011794  640096e5     ldr      r0, [r6, #0x64]
+0x00011798  000050e3     cmp      r0, #0
+0x0001179c  f0a89d18     ldmne    sp, {r4, r5, r6, r7, fp, sp, pc}
+0x000117a0  603096e5     ldr      r3, [r6, #0x60]
+0x000117a4  000053e3     cmp      r3, #0
+0x000117a8  5300001a     bne      #0x118fc
+0x000117ac  fc21d6e1     ldrsh    r2, [r6, #0x1c]
+0x000117b0  bc31d6e1     ldrh     r3, [r6, #0x1c]
+0x000117b4  370052e3     cmp      r2, #0x37
+0x000117b8  013083e2     add      r3, r3, #1
+0x000117bc  062082e0     add      r2, r2, r6
+0x000117c0  1e0000da     ble      #0x11840
+0x000117c4  bc31c6e1     strh     r3, [r6, #0x1c]
+0x000117c8  fc31d6e1     ldrsh    r3, [r6, #0x1c]
+0x000117cc  3f0053e3     cmp      r3, #0x3f
+0x000117d0  7f30e0e3     mvn      r3, #0x7f
+0x000117d4  1e30c2e5     strb     r3, [r2, #0x1e]
+0x000117d8  bc11d6e1     ldrh     r1, [r6, #0x1c]
+0x000117dc  080000ca     bgt      #0x11804
+0x000117e0  013081e2     add      r3, r1, #1
+0x000117e4  bc31c6e1     strh     r3, [r6, #0x1c]
+0x000117e8  fc21d6e1     ldrsh    r2, [r6, #0x1c]
+0x000117ec  0138a0e1     lsl      r3, r1, #0x10
+0x000117f0  3f0052e3     cmp      r2, #0x3f
+0x000117f4  433886e0     add      r3, r6, r3, asr #16
+0x000117f8  0020a0e3     mov      r2, #0
+0x000117fc  1e20c3e5     strb     r2, [r3, #0x1e]
+0x00011800  f4ffffea     b        #0x117d8
+0x00011804  0600a0e1     mov      r0, r6
+0x00011808  06ffffeb     bl       #0x11428
+0x0001180c  bc11d6e1     ldrh     r1, [r6, #0x1c]
+0x00011810  0108a0e1     lsl      r0, r1, #0x10
+0x00011814  370850e3     cmp      r0, #0x370000
+0x00011818  180000ca     bgt      #0x11880
+0x0001181c  013081e2     add      r3, r1, #1
+0x00011820  bc31c6e1     strh     r3, [r6, #0x1c]
+0x00011824  bc11d6e1     ldrh     r1, [r6, #0x1c]
+0x00011828  402886e0     add      r2, r6, r0, asr #16
+0x0001182c  0108a0e1     lsl      r0, r1, #0x10
+0x00011830  0030a0e3     mov      r3, #0
+0x00011834  370850e3     cmp      r0, #0x370000
+0x00011838  1e30c2e5     strb     r3, [r2, #0x1e]
+0x0001183c  f5ffffea     b        #0x11818
+0x00011840  bc31c6e1     strh     r3, [r6, #0x1c]
+0x00011844  fc31d6e1     ldrsh    r3, [r6, #0x1c]
+0x00011848  370053e3     cmp      r3, #0x37
+0x0001184c  7f30e0e3     mvn      r3, #0x7f
+0x00011850  1e30c2e5     strb     r3, [r2, #0x1e]
+0x00011854  bc11d6e1     ldrh     r1, [r6, #0x1c]
+0x00011858  080000ca     bgt      #0x11880
+0x0001185c  013081e2     add      r3, r1, #1
+0x00011860  bc31c6e1     strh     r3, [r6, #0x1c]
+0x00011864  fc21d6e1     ldrsh    r2, [r6, #0x1c]
+0x00011868  0138a0e1     lsl      r3, r1, #0x10
+0x0001186c  370052e3     cmp      r2, #0x37
+0x00011870  433886e0     add      r3, r6, r3, asr #16
+0x00011874  0020a0e3     mov      r2, #0
+0x00011878  1e20c3e5     strb     r2, [r3, #0x1e]
+0x0001187c  f4ffffea     b        #0x11854
+0x00011880  144086e2     add      r4, r6, #0x14
+0x00011884  104094e8     ldm      r4, {r4, lr}
+0x00011888  ff300ee2     and      r3, lr, #0xff
+0x0001188c  ff2004e2     and      r2, r4, #0xff
+0x00011890  431ca0e1     asr      r1, r3, #0x18
+0x00011894  43c4a0e1     asr      ip, r3, #8
+0x00011898  420ca0e1     asr      r0, r2, #0x18
+0x0001189c  4338a0e1     asr      r3, r3, #0x10
+0x000118a0  4254a0e1     asr      r5, r2, #8
+0x000118a4  4228a0e1     asr      r2, r2, #0x10
+0x000118a8  5610c6e5     strb     r1, [r6, #0x56]
+0x000118ac  5730c6e5     strb     r3, [r6, #0x57]
+0x000118b0  5a00c6e5     strb     r0, [r6, #0x5a]
+0x000118b4  58c0c6e5     strb     ip, [r6, #0x58]
+0x000118b8  59e0c6e5     strb     lr, [r6, #0x59]
+0x000118bc  5b20c6e5     strb     r2, [r6, #0x5b]
+0x000118c0  5c50c6e5     strb     r5, [r6, #0x5c]
+0x000118c4  5d40c6e5     strb     r4, [r6, #0x5d]
+0x000118c8  0600a0e1     mov      r0, r6
+0x000118cc  d5feffeb     bl       #0x11428
+0x000118d0  1c3086e2     add      r3, r6, #0x1c
+0x000118d4  3f10a0e3     mov      r1, #0x3f
+0x000118d8  0020a0e3     mov      r2, #0
+0x000118dc  011051e2     subs     r1, r1, #1
+0x000118e0  0220c3e5     strb     r2, [r3, #2]
+0x000118e4  013083e2     add      r3, r3, #1
+0x000118e8  faffff5a     bpl      #0x118d8
+0x000118ec  0130a0e3     mov      r3, #1
+0x000118f0  182086e5     str      r2, [r6, #0x18]
+0x000118f4  603086e5     str      r3, [r6, #0x60]
+0x000118f8  142086e5     str      r2, [r6, #0x14]
+0x000118fc  0010a0e3     mov      r1, #0
+0x00011900  4131a0e1     asr      r3, r1, #2
+0x00011904  0120e0e1     mvn      r2, r1
+0x00011908  033196e7     ldr      r3, [r6, r3, lsl #2]
+0x0001190c  032002e2     and      r2, r2, #3
+0x00011910  8221a0e1     lsl      r2, r2, #3
+0x00011914  3332a0e1     lsr      r3, r3, r2
+0x00011918  0130c7e7     strb     r3, [r7, r1]
+0x0001191c  011081e2     add      r1, r1, #1
+0x00011920  130051e3     cmp      r1, #0x13
+0x00011924  f5ffffda     ble      #0x11900
+0x00011928  0000a0e3     mov      r0, #0
+0x0001192c  f0a89de8     ldm      sp, {r4, r5, r6, r7, fp, sp, pc}

@@ -1,0 +1,280 @@
+Capstone 5.0.6; static decoding only. Addresses below are G3 ELF addresses, not W300 camera addresses.
+libsencore.so: verified 137 PLT stub GOT slots against relocation r_offset.
+
+libsencore.so _Z5ParsePK12SenserPacket file=0xce18 value=0xce18 size=392 sha256=401bc78bc84bd175968513a387b8951626ceb48a345eed134b998d3630103270
+0x0000ce18  0dc0a0e1     mov      ip, sp
+0x0000ce1c  f0df2de9     push     {r4, r5, r6, r7, r8, sb, sl, fp, ip, lr, pc}
+0x0000ce20  5ca19fe5     ldr      sl, [pc, #0x15c]
+0x0000ce24  04b04ce2     sub      fp, ip, #4
+0x0000ce28  44d04de2     sub      sp, sp, #0x44
+0x0000ce2c  54319fe5     ldr      r3, [pc, #0x154]
+0x0000ce30  0aa08fe0     add      sl, pc, sl
+0x0000ce34  03309ae7     ldr      r3, [sl, r3]
+0x0000ce38  44300be5     str      r3, [fp, #-0x44]
+0x0000ce3c  48319fe5     ldr      r3, [pc, #0x148]
+0x0000ce40  03308ae0     add      r3, sl, r3
+0x0000ce44  40300be5     str      r3, [fp, #-0x40]
+0x0000ce48  40319fe5     ldr      r3, [pc, #0x140]
+0x0000ce4c  03308ae0     add      r3, sl, r3
+0x0000ce50  38300be5     str      r3, [fp, #-0x38]
+0x0000ce54  64000be5     str      r0, [fp, #-0x64]
+0x0000ce58  28304be2     sub      r3, fp, #0x28
+0x0000ce5c  5c004be2     sub      r0, fp, #0x5c
+0x0000ce60  3c300be5     str      r3, [fp, #-0x3c]
+0x0000ce64  30700be5     str      r7, [fp, #-0x30]
+0x0000ce68  34d00be5     str      sp, [fp, #-0x34]
+0x0000ce6c  aee3ffeb     bl       #0x5d2c ; symbol=PLT:_Unwind_SjLj_Register
+0x0000ce70  1c319fe5     ldr      r3, [pc, #0x11c]
+0x0000ce74  03309ae7     ldr      r3, [sl, r3]
+0x0000ce78  003093e5     ldr      r3, [r3]
+0x0000ce7c  000053e3     cmp      r3, #0
+0x0000ce80  1900000a     beq      #0xceec
+0x0000ce84  043093e5     ldr      r3, [r3, #4]
+0x0000ce88  000053e3     cmp      r3, #0
+0x0000ce8c  1600000a     beq      #0xceec
+0x0000ce90  0000a0e3     mov      r0, #0
+0x0000ce94  f8309fe5     ldr      r3, [pc, #0xf8]
+0x0000ce98  03309ae7     ldr      r3, [sl, r3]
+0x0000ce9c  001093e5     ldr      r1, [r3]
+0x0000cea0  64301be5     ldr      r3, [fp, #-0x64]
+0x0000cea4  b420d3e1     ldrh     r2, [r3, #4]
+0x0000cea8  b13090e1     ldrh     r3, [r0, r1]
+0x0000ceac  030052e1     cmp      r2, r3
+0x0000ceb0  013080e0     add      r3, r0, r1
+0x0000ceb4  0700001a     bne      #0xced8
+0x0000ceb8  042093e5     ldr      r2, [r3, #4]
+0x0000cebc  0030e0e3     mvn      r3, #0
+0x0000cec0  58300be5     str      r3, [fp, #-0x58]
+0x0000cec4  64001be5     ldr      r0, [fp, #-0x64]
+0x0000cec8  32ff2fe1     blx      r2
+0x0000cecc  000050e3     cmp      r0, #0
+0x0000ced0  0500000a     beq      #0xceec
+0x0000ced4  240000ea     b        #0xcf6c
+0x0000ced8  080080e2     add      r0, r0, #8
+0x0000cedc  013080e0     add      r3, r0, r1
+0x0000cee0  043093e5     ldr      r3, [r3, #4]
+0x0000cee4  000053e3     cmp      r3, #0
+0x0000cee8  e9ffff1a     bne      #0xce94
+0x0000ceec  0030e0e3     mvn      r3, #0
+0x0000cef0  0400a0e3     mov      r0, #4
+0x0000cef4  58300be5     str      r3, [fp, #-0x58]
+0x0000cef8  dee4ffeb     bl       #0x6278 ; symbol=PLT:_Znwj
+0x0000cefc  0130a0e3     mov      r3, #1
+0x0000cf00  68000be5     str      r0, [fp, #-0x68]
+0x0000cf04  58300be5     str      r3, [fp, #-0x58]
+0x0000cf08  95e4ffeb     bl       #0x6164 ; symbol=PLT:_ZN8NoAction15DiscardRecvDataC1Ev
+0x0000cf0c  0a0000ea     b        #0xcf3c
+0x0000cf10  80a09fe5     ldr      sl, [pc, #0x80]
+0x0000cf14  0aa08fe0     add      sl, pc, sl
+0x0000cf18  28b08be2     add      fp, fp, #0x28
+0x0000cf1c  54301be5     ldr      r3, [fp, #-0x54]
+0x0000cf20  68001be5     ldr      r0, [fp, #-0x68]
+0x0000cf24  6c300be5     str      r3, [fp, #-0x6c]
+0x0000cf28  b2e3ffeb     bl       #0x5df8 ; symbol=PLT:_ZdlPv
+0x0000cf2c  0030e0e3     mvn      r3, #0
+0x0000cf30  6c001be5     ldr      r0, [fp, #-0x6c]
+0x0000cf34  58300be5     str      r3, [fp, #-0x58]
+0x0000cf38  f0e3ffeb     bl       #0x5f00 ; symbol=PLT:_Unwind_SjLj_Resume
+0x0000cf3c  0030e0e3     mvn      r3, #0
+0x0000cf40  0c00a0e3     mov      r0, #0xc
+0x0000cf44  58300be5     str      r3, [fp, #-0x58]
+0x0000cf48  cae4ffeb     bl       #0x6278 ; symbol=PLT:_Znwj
+0x0000cf4c  48209fe5     ldr      r2, [pc, #0x48]
+0x0000cf50  68301be5     ldr      r3, [fp, #-0x68]
+0x0000cf54  02209ae7     ldr      r2, [sl, r2]
+0x0000cf58  043080e5     str      r3, [r0, #4]
+0x0000cf5c  082082e2     add      r2, r2, #8
+0x0000cf60  8030a0e3     mov      r3, #0x80
+0x0000cf64  002080e5     str      r2, [r0]
+0x0000cf68  0830c0e5     strb     r3, [r0, #8]
+0x0000cf6c  60000be5     str      r0, [fp, #-0x60]
+0x0000cf70  5c004be2     sub      r0, fp, #0x5c
+0x0000cf74  29e4ffeb     bl       #0x6020 ; symbol=PLT:_Unwind_SjLj_Unregister
+0x0000cf78  60001be5     ldr      r0, [fp, #-0x60]
+0x0000cf7c  28d04be2     sub      sp, fp, #0x28
+0x0000cf80  f0af9de8     ldm      sp, {r4, r5, r6, r7, r8, sb, sl, fp, sp, pc}
+0x0000cf84  9ce40000     muleq    r0, ip, r4
+0x0000cf88  dc020000     ldrdeq   r0, r1, [r0], -ip
+
+libsencore.so _Z17AdjustControlFuncPK12SenserPacket file=0xd7f8 value=0xd7f8 size=180 sha256=401bc78bc84bd175968513a387b8951626ceb48a345eed134b998d3630103270
+0x0000d7f8  0dc0a0e1     mov      ip, sp
+0x0000d7fc  70dc2de9     push     {r4, r5, r6, sl, fp, ip, lr, pc}
+0x0000d800  94a09fe5     ldr      sl, [pc, #0x94]
+0x0000d804  04b04ce2     sub      fp, ip, #4
+0x0000d808  04d04de2     sub      sp, sp, #4
+0x0000d80c  8c309fe5     ldr      r3, [pc, #0x8c]
+0x0000d810  0aa08fe0     add      sl, pc, sl
+0x0000d814  03309ae7     ldr      r3, [sl, r3]
+0x0000d818  20504be2     sub      r5, fp, #0x20
+0x0000d81c  0060a0e1     mov      r6, r0
+0x0000d820  0510a0e1     mov      r1, r5
+0x0000d824  0300a0e1     mov      r0, r3
+0x0000d828  0420a0e3     mov      r2, #4
+0x0000d82c  67e2ffeb     bl       #0x61d0 ; symbol=PLT:_Z9SerializePFiPhjEPvj
+0x0000d830  0010a0e3     mov      r1, #0
+0x0000d834  0520a0e1     mov      r2, r5
+0x0000d838  0430a0e3     mov      r3, #4
+0x0000d83c  1e00a0e3     mov      r0, #0x1e
+0x0000d840  dbe1ffeb     bl       #0x5fb4 ; symbol=PLT:blog
+0x0000d844  58309fe5     ldr      r3, [pc, #0x58]
+0x0000d848  03309ae7     ldr      r3, [sl, r3]
+0x0000d84c  004096e5     ldr      r4, [r6]
+0x0000d850  003093e5     ldr      r3, [r3]
+0x0000d854  044063e0     rsb      r4, r3, r4
+0x0000d858  20005be5     ldrb     r0, [fp, #-0x20]
+0x0000d85c  0c4084e2     add      r4, r4, #0xc
+0x0000d860  d6ffffeb     bl       #0xd7c0
+0x0000d864  0420a0e1     mov      r2, r4
+0x0000d868  be115be1     ldrh     r1, [fp, #-0x1e]
+0x0000d86c  c4e1ffeb     bl       #0x5f84 ; symbol=PLT:_Z19CreatePluginCommandPvtj
+0x0000d870  000050e3     cmp      r0, #0
+0x0000d874  70ac9d19     ldmibne  sp, {r4, r5, r6, sl, fp, sp, pc}
+0x0000d878  20305be5     ldrb     r3, [fp, #-0x20]
+0x0000d87c  24209fe5     ldr      r2, [pc, #0x24]
+0x0000d880  2332a0e1     lsr      r3, r3, #4
+0x0000d884  0600a0e1     mov      r0, r6
+0x0000d888  0510a0e1     mov      r1, r5
+0x0000d88c  02209ae7     ldr      r2, [sl, r2]
+0x0000d890  03c192e7     ldr      ip, [r2, r3, lsl #2]
+0x0000d894  3cff2fe1     blx      ip
+0x0000d898  70ac9de9     ldmib    sp, {r4, r5, r6, sl, fp, sp, pc}
+0x0000d89c  bcda0000     strheq   sp, [r0], -ip
+0x0000d8a0  68020000     andeq    r0, r0, r8, ror #4
+0x0000d8a4  bc020000     strheq   r0, [r0], -ip
+0x0000d8a8  00030000     andeq    r0, r0, r0, lsl #6
+
+libsencore.so local-category-helper file=0xd7c0 value=0xd7c0 size=56 sha256=401bc78bc84bd175968513a387b8951626ceb48a345eed134b998d3630103270
+0x0000d7c0  0dc0a0e1     mov      ip, sp
+0x0000d7c4  00dc2de9     push     {sl, fp, ip, lr, pc}
+0x0000d7c8  20a09fe5     ldr      sl, [pc, #0x20]
+0x0000d7cc  ff3000e2     and      r3, r0, #0xff
+0x0000d7d0  1c009fe5     ldr      r0, [pc, #0x1c]
+0x0000d7d4  0aa08fe0     add      sl, pc, sl
+0x0000d7d8  04b04ce2     sub      fp, ip, #4
+0x0000d7dc  00008ae0     add      r0, sl, r0
+0x0000d7e0  0320a0e1     mov      r2, r3
+0x0000d7e4  4010a0e3     mov      r1, #0x40
+0x0000d7e8  006c9de8     ldm      sp, {sl, fp, sp, lr}
+0x0000d7ec  23e2ffea     b        #0x6080 ; symbol=PLT:_Z15GetPluginModulePKcth
+0x0000d7f0  f8da0000     strdeq   sp, lr, [r0], -r8
+libadj33.so: verified 56 PLT stub GOT slots against relocation r_offset.
+
+libadj33.so command0001 file=0x2bd4 value=0x2bd4 size=212 sha256=58ecce0488e7c37f201e9b99363cae5acc64b2ccffec4dc99bf85183e8bee5f9
+0x00002bd4  0dc0a0e1     mov      ip, sp
+0x00002bd8  30d82de9     push     {r4, r5, fp, ip, lr, pc}
+0x00002bdc  04b04ce2     sub      fp, ip, #4
+0x00002be0  04d04de2     sub      sp, sp, #4
+0x00002be4  043090e5     ldr      r3, [r0, #4]
+0x00002be8  8820a0e3     mov      r2, #0x88
+0x00002bec  020053e3     cmp      r3, #2
+0x00002bf0  005090e5     ldr      r5, [r0]
+0x00002bf4  00c0a0e3     mov      ip, #0
+0x00002bf8  07204292     subls    r2, r2, #7
+0x00002bfc  2700009a     bls      #0x2ca0
+0x00002c00  0040d5e5     ldrb     r4, [r5]
+0x00002c04  000054e3     cmp      r4, #0
+0x00002c08  0c30a0e1     mov      r3, ip
+0x00002c0c  0210a0e3     mov      r1, #2
+0x00002c10  0c00a0e3     mov      r0, #0xc
+0x00002c14  2100001a     bne      #0x2ca0
+0x00002c18  0220d5e5     ldrb     r2, [r5, #2]
+0x00002c1c  00c08de5     str      ip, [sp]
+0x00002c20  89faffeb     bl       #0x164c ; symbol=PLT:Bkup_Sen_ctrl_exeCmd
+0x00002c24  00c0a0e1     mov      ip, r0
+0x00002c28  00005ce3     cmp      ip, #0
+0x00002c2c  0410a0e3     mov      r1, #4
+0x00002c30  0430a0e1     mov      r3, r4
+0x00002c34  0c00a0e3     mov      r0, #0xc
+0x00002c38  170000ba     blt      #0x2c9c
+0x00002c3c  0220d5e5     ldrb     r2, [r5, #2]
+0x00002c40  00408de5     str      r4, [sp]
+0x00002c44  80faffeb     bl       #0x164c ; symbol=PLT:Bkup_Sen_ctrl_exeCmd
+0x00002c48  00c0a0e1     mov      ip, r0
+0x00002c4c  00005ce3     cmp      ip, #0
+0x00002c50  0310a0e3     mov      r1, #3
+0x00002c54  0430a0e1     mov      r3, r4
+0x00002c58  0c00a0e3     mov      r0, #0xc
+0x00002c5c  0e0000ba     blt      #0x2c9c
+0x00002c60  0120d5e5     ldrb     r2, [r5, #1]
+0x00002c64  00408de5     str      r4, [sp]
+0x00002c68  77faffeb     bl       #0x164c ; symbol=PLT:Bkup_Sen_ctrl_exeCmd
+0x00002c6c  00c0a0e1     mov      ip, r0
+0x00002c70  00005ce3     cmp      ip, #0
+0x00002c74  0430a0e1     mov      r3, r4
+0x00002c78  0510a0e3     mov      r1, #5
+0x00002c7c  0c00a0e3     mov      r0, #0xc
+0x00002c80  050000ba     blt      #0x2c9c
+0x00002c84  0120d5e5     ldrb     r2, [r5, #1]
+0x00002c88  00408de5     str      r4, [sp]
+0x00002c8c  6efaffeb     bl       #0x164c ; symbol=PLT:Bkup_Sen_ctrl_exeCmd
+0x00002c90  000050e3     cmp      r0, #0
+0x00002c94  0120a0a3     movge    r2, #1
+0x00002c98  000000aa     bge      #0x2ca0
+0x00002c9c  8820a0e3     mov      r2, #0x88
+0x00002ca0  0200a0e1     mov      r0, r2
+0x00002ca4  30a89de9     ldmib    sp, {r4, r5, fp, sp, pc}
+libadj36.so: verified 18 PLT stub GOT slots against relocation r_offset.
+
+libadj36.so command0001 file=0xcec value=0xcec size=248 sha256=5b5acac6cbd5a8d9de32786e46e19afe08a6c43ee2113a6ee24a69ceeb15f7f8
+0x00000cec  0dc0a0e1     mov      ip, sp
+0x00000cf0  f0d82de9     push     {r4, r5, r6, r7, fp, ip, lr, pc}
+0x00000cf4  043090e5     ldr      r3, [r0, #4]
+0x00000cf8  0a0053e3     cmp      r3, #0xa
+0x00000cfc  04b04ce2     sub      fp, ip, #4
+0x00000d00  0060a0e1     mov      r6, r0
+0x00000d04  0170a0e3     mov      r7, #1
+0x00000d08  3000001a     bne      #0xdd0
+0x00000d0c  005090e5     ldr      r5, [r0]
+0x00000d10  0030d5e5     ldrb     r3, [r5]
+0x00000d14  000053e3     cmp      r3, #0
+0x00000d18  0200000a     beq      #0xd28
+0x00000d1c  070053e1     cmp      r3, r7
+0x00000d20  1300000a     beq      #0xd74
+0x00000d24  290000ea     b        #0xdd0
+0x00000d28  dffeffeb     bl       #0x8ac ; symbol=PLT:Bkup_init
+0x00000d2c  000050e3     cmp      r0, #0
+0x00000d30  2400001a     bne      #0xdc8
+0x00000d34  a0009fe5     ldr      r0, [pc, #0xa0]
+0x00000d38  011085e2     add      r1, r5, #1
+0x00000d3c  effeffeb     bl       #0x900 ; symbol=PLT:Bkup_pwrite
+0x00000d40  050050e3     cmp      r0, #5
+0x00000d44  0040e013     mvnne    r4, #0
+0x00000d48  0500001a     bne      #0xd64
+0x00000d4c  061085e2     add      r1, r5, #6
+0x00000d50  88009fe5     ldr      r0, [pc, #0x88]
+0x00000d54  e9feffeb     bl       #0x900 ; symbol=PLT:Bkup_pwrite
+0x00000d58  040050e3     cmp      r0, #4
+0x00000d5c  0040e013     mvnne    r4, #0
+0x00000d60  0940a003     moveq    r4, #9
+0x00000d64  e8feffeb     bl       #0x90c ; symbol=PLT:Bkup_final
+0x00000d68  090054e3     cmp      r4, #9
+0x00000d6c  1800000a     beq      #0xdd4
+0x00000d70  140000ea     b        #0xdc8
+0x00000d74  014085e2     add      r4, r5, #1
+0x00000d78  0c4080e5     str      r4, [r0, #0xc]
+0x00000d7c  cafeffeb     bl       #0x8ac ; symbol=PLT:Bkup_init
+0x00000d80  000050e3     cmp      r0, #0
+0x00000d84  0f00001a     bne      #0xdc8
+0x00000d88  0410a0e1     mov      r1, r4
+0x00000d8c  48009fe5     ldr      r0, [pc, #0x48]
+0x00000d90  cefeffeb     bl       #0x8d0 ; symbol=PLT:Bkup_pread
+0x00000d94  050050e3     cmp      r0, #5
+0x00000d98  0040e013     mvnne    r4, #0
+0x00000d9c  0500001a     bne      #0xdb8
+0x00000da0  061085e2     add      r1, r5, #6
+0x00000da4  34009fe5     ldr      r0, [pc, #0x34]
+0x00000da8  c8feffeb     bl       #0x8d0 ; symbol=PLT:Bkup_pread
+0x00000dac  040050e3     cmp      r0, #4
+0x00000db0  0040e013     mvnne    r4, #0
+0x00000db4  0940a003     moveq    r4, #9
+0x00000db8  d3feffeb     bl       #0x90c ; symbol=PLT:Bkup_final
+0x00000dbc  090054e3     cmp      r4, #9
+0x00000dc0  10408605     streq    r4, [r6, #0x10]
+0x00000dc4  0200000a     beq      #0xdd4
+0x00000dc8  8270a0e3     mov      r7, #0x82
+0x00000dcc  000000ea     b        #0xdd4
+0x00000dd0  8170a0e3     mov      r7, #0x81
+0x00000dd4  0700a0e1     mov      r0, r7
+0x00000dd8  f0a89de8     ldm      sp, {r4, r5, r6, r7, fp, sp, pc}
+0x00000ddc  00750100     andeq    r7, r1, r0, lsl #10
+0x00000de0  007a0100     andeq    r7, r1, r0, lsl #20

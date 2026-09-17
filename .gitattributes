@@ -1,0 +1,30 @@
+# Human-maintained code and documentation use LF on every checkout.
+* text=auto
+*.py text eol=lf
+*.c text eol=lf
+*.m text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+.gitattributes text eol=lf
+.gitignore text eol=lf
+.gitmodules text eol=lf
+# Evidence bytes are part of the experiment, including XML, scripts and CSV.
+sources/** -text
+evidence/** -text
+# These are editorial documents, not firmware or immutable source evidence.
+evidence/**/*.md text eol=lf
+evidence/*.md text eol=lf
+evidence/artifact_manifest.json text eol=lf
+
+# Published research outputs retain measured bytes; maintained prose/code use LF.
+build/w300/** -text
+build/w300/**/*.md text eol=lf
+build/w300/**/*.py text eol=lf
+build/w300/*.ps1 text eol=lf
+# Raw captures and historical manifests retain CRLF and captured whitespace.
+# Keep ordinary whitespace validation enabled for maintained prose and code.
+build/w300/** -whitespace
+build/w300/**/*.md whitespace=blank-at-eol,blank-at-eof,space-before-tab
+build/w300/**/*.py whitespace=blank-at-eol,blank-at-eof,space-before-tab
+build/w300/*.ps1 whitespace=blank-at-eol,blank-at-eof,space-before-tab

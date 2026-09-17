@@ -1,0 +1,222 @@
+Capstone 5.0.6; static decoding only. Addresses below are G3 ELF addresses, not W300 camera addresses.
+libsencore.so: verified 137 PLT stub GOT slots against relocation r_offset.
+
+libsencore.so _ZN22AVCommunicationCommand9DoExecuteEP12SenserPacket file=0xf014 value=0xf014 size=436 sha256=401bc78bc84bd175968513a387b8951626ceb48a345eed134b998d3630103270
+0x0000f014  0dc0a0e1     mov      ip, sp
+0x0000f018  f0df2de9     push     {r4, r5, r6, r7, r8, sb, sl, fp, ip, lr, pc}
+0x0000f01c  a4a19fe5     ldr      sl, [pc, #0x1a4]
+0x0000f020  04b04ce2     sub      fp, ip, #4
+0x0000f024  64d04de2     sub      sp, sp, #0x64
+0x0000f028  9c319fe5     ldr      r3, [pc, #0x19c]
+0x0000f02c  0aa08fe0     add      sl, pc, sl
+0x0000f030  03309ae7     ldr      r3, [sl, r3]
+0x0000f034  58300be5     str      r3, [fp, #-0x58]
+0x0000f038  90319fe5     ldr      r3, [pc, #0x190]
+0x0000f03c  03308ae0     add      r3, sl, r3
+0x0000f040  54300be5     str      r3, [fp, #-0x54]
+0x0000f044  88319fe5     ldr      r3, [pc, #0x188]
+0x0000f048  03308ae0     add      r3, sl, r3
+0x0000f04c  28204be2     sub      r2, fp, #0x28
+0x0000f050  4c300be5     str      r3, [fp, #-0x4c]
+0x0000f054  78000be5     str      r0, [fp, #-0x78]
+0x0000f058  3c304be2     sub      r3, fp, #0x3c
+0x0000f05c  70004be2     sub      r0, fp, #0x70
+0x0000f060  80300be5     str      r3, [fp, #-0x80]
+0x0000f064  50200be5     str      r2, [fp, #-0x50]
+0x0000f068  7c100be5     str      r1, [fp, #-0x7c]
+0x0000f06c  44700be5     str      r7, [fp, #-0x44]
+0x0000f070  48d00be5     str      sp, [fp, #-0x48]
+0x0000f074  2cdbffeb     bl       #0x5d2c ; symbol=PLT:_Unwind_SjLj_Register
+0x0000f078  0010a0e3     mov      r1, #0
+0x0000f07c  1420a0e3     mov      r2, #0x14
+0x0000f080  80001be5     ldr      r0, [fp, #-0x80]
+0x0000f084  0fdcffeb     bl       #0x60c8 ; symbol=PLT:memset
+0x0000f088  78201be5     ldr      r2, [fp, #-0x78]
+0x0000f08c  0030a0e3     mov      r3, #0
+0x0000f090  1130c2e5     strb     r3, [r2, #0x11]
+0x0000f094  013043e2     sub      r3, r3, #1
+0x0000f098  6c300be5     str      r3, [fp, #-0x6c]
+0x0000f09c  78301be5     ldr      r3, [fp, #-0x78]
+0x0000f0a0  0c0082e2     add      r0, r2, #0xc
+0x0000f0a4  101083e2     add      r1, r3, #0x10
+0x0000f0a8  80201be5     ldr      r2, [fp, #-0x80]
+0x0000f0ac  34fbffeb     bl       #0xdd84
+0x0000f0b0  ff0010e2     ands     r0, r0, #0xff
+0x0000f0b4  1000001a     bne      #0xf0fc
+0x0000f0b8  3b305be5     ldrb     r3, [fp, #-0x3b]
+0x0000f0bc  010053e3     cmp      r3, #1
+0x0000f0c0  0d00009a     bls      #0xf0fc
+0x0000f0c4  0020e0e3     mvn      r2, #0
+0x0000f0c8  6c200be5     str      r2, [fp, #-0x6c]
+0x0000f0cc  97dbffeb     bl       #0x5f30 ; symbol=PLT:getpid
+0x0000f0d0  0020a0e1     mov      r2, r0
+0x0000f0d4  0210a0e1     mov      r1, r2
+0x0000f0d8  f8009fe5     ldr      r0, [pc, #0xf8]
+0x0000f0dc  f8209fe5     ldr      r2, [pc, #0xf8]
+0x0000f0e0  3bc05be5     ldrb     ip, [fp, #-0x3b]
+0x0000f0e4  3c305be5     ldrb     r3, [fp, #-0x3c]
+0x0000f0e8  00008ae0     add      r0, sl, r0
+0x0000f0ec  02208ae0     add      r2, sl, r2
+0x0000f0f0  00c08de5     str      ip, [sp]
+0x0000f0f4  5cdcffeb     bl       #0x626c ; symbol=PLT:printf
+0x0000f0f8  3b005be5     ldrb     r0, [fp, #-0x3b]
+0x0000f0fc  ff0000e2     and      r0, r0, #0xff
+0x0000f100  000050e3     cmp      r0, #0
+0x0000f104  0800000a     beq      #0xf12c
+0x0000f108  880050e3     cmp      r0, #0x88
+0x0000f10c  0600000a     beq      #0xf12c
+0x0000f110  7c201be5     ldr      r2, [fp, #-0x7c]
+0x0000f114  0030a0e3     mov      r3, #0
+0x0000f118  74300be5     str      r3, [fp, #-0x74]
+0x0000f11c  0b00c2e5     strb     r0, [r2, #0xb]
+0x0000f120  78201be5     ldr      r2, [fp, #-0x78]
+0x0000f124  1030c2e5     strb     r3, [r2, #0x10]
+0x0000f128  210000ea     b        #0xf1b4
+0x0000f12c  3b305be5     ldrb     r3, [fp, #-0x3b]
+0x0000f130  7c201be5     ldr      r2, [fp, #-0x7c]
+0x0000f134  0b30c2e5     strb     r3, [r2, #0xb]
+0x0000f138  78201be5     ldr      r2, [fp, #-0x78]
+0x0000f13c  1030a0e3     mov      r3, #0x10
+0x0000f140  1030c2e5     strb     r3, [r2, #0x10]
+0x0000f144  1800a0e3     mov      r0, #0x18
+0x0000f148  113043e2     sub      r3, r3, #0x11
+0x0000f14c  6c300be5     str      r3, [fp, #-0x6c]
+0x0000f150  48dcffeb     bl       #0x6278 ; symbol=PLT:_Znwj
+0x0000f154  0010a0e3     mov      r1, #0
+0x0000f158  00108de5     str      r1, [sp]
+0x0000f15c  011081e2     add      r1, r1, #1
+0x0000f160  6c100be5     str      r1, [fp, #-0x6c]
+0x0000f164  74109fe5     ldr      r1, [pc, #0x74]
+0x0000f168  84000be5     str      r0, [fp, #-0x84]
+0x0000f16c  38204be2     sub      r2, fp, #0x38
+0x0000f170  0c0092e8     ldm      r2, {r2, r3}
+0x0000f174  01109ae7     ldr      r1, [sl, r1]
+0x0000f178  41dcffeb     bl       #0x6284 ; symbol=PLT:_ZN10MemoryDataC1EPFiPhjEPvjPFvS3_E
+0x0000f17c  0a0000ea     b        #0xf1ac
+0x0000f180  5ca09fe5     ldr      sl, [pc, #0x5c]
+0x0000f184  0aa08fe0     add      sl, pc, sl
+0x0000f188  28b08be2     add      fp, fp, #0x28
+0x0000f18c  68301be5     ldr      r3, [fp, #-0x68]
+0x0000f190  84001be5     ldr      r0, [fp, #-0x84]
+0x0000f194  88300be5     str      r3, [fp, #-0x88]
+0x0000f198  16dbffeb     bl       #0x5df8 ; symbol=PLT:_ZdlPv
+0x0000f19c  0030e0e3     mvn      r3, #0
+0x0000f1a0  88001be5     ldr      r0, [fp, #-0x88]
+0x0000f1a4  6c300be5     str      r3, [fp, #-0x6c]
+0x0000f1a8  54dbffeb     bl       #0x5f00 ; symbol=PLT:_Unwind_SjLj_Resume
+0x0000f1ac  84201be5     ldr      r2, [fp, #-0x84]
+0x0000f1b0  74200be5     str      r2, [fp, #-0x74]
+0x0000f1b4  70004be2     sub      r0, fp, #0x70
+0x0000f1b8  98dbffeb     bl       #0x6020 ; symbol=PLT:_Unwind_SjLj_Unregister
+0x0000f1bc  74001be5     ldr      r0, [fp, #-0x74]
+0x0000f1c0  28d04be2     sub      sp, fp, #0x28
+0x0000f1c4  f0af9de8     ldm      sp, {r4, r5, r6, r7, r8, sb, sl, fp, sp, pc}
+
+libsencore.so _ZN10MemoryDataC1EPFiPhjEPvjPFvS3_E file=0x97ac value=0x97ac size=80 sha256=401bc78bc84bd175968513a387b8951626ceb48a345eed134b998d3630103270
+0x000097ac  0dc0a0e1     mov      ip, sp
+0x000097b0  10dc2de9     push     {r4, sl, fp, ip, lr, pc}
+0x000097b4  40a09fe5     ldr      sl, [pc, #0x40]
+0x000097b8  40e09fe5     ldr      lr, [pc, #0x40]
+0x000097bc  40409fe5     ldr      r4, [pc, #0x40]
+0x000097c0  0aa08fe0     add      sl, pc, sl
+0x000097c4  04b04ce2     sub      fp, ip, #4
+0x000097c8  0ee09ae7     ldr      lr, [sl, lr]
+0x000097cc  04409ae7     ldr      r4, [sl, r4]
+0x000097d0  04c09be5     ldr      ip, [fp, #4]
+0x000097d4  084084e2     add      r4, r4, #8
+0x000097d8  033082e0     add      r3, r2, r3
+0x000097dc  08e08ee2     add      lr, lr, #8
+0x000097e0  14c080e5     str      ip, [r0, #0x14]
+0x000097e4  041080e5     str      r1, [r0, #4]
+0x000097e8  004080e5     str      r4, [r0]
+0x000097ec  0c3080e5     str      r3, [r0, #0xc]
+0x000097f0  102080e5     str      r2, [r0, #0x10]
+0x000097f4  082080e5     str      r2, [r0, #8]
+0x000097f8  10ac9de8     ldm      sp, {r4, sl, fp, sp, pc}
+
+libsencore.so _Z9SerializePFiPhjEPvj file=0x66a0 value=0x66a0 size=340 sha256=401bc78bc84bd175968513a387b8951626ceb48a345eed134b998d3630103270
+0x000066a0  0dc0a0e1     mov      ip, sp
+0x000066a4  70dc2de9     push     {r4, r5, r6, sl, fp, ip, lr, pc}
+0x000066a8  44a19fe5     ldr      sl, [pc, #0x144]
+0x000066ac  004052e2     subs     r4, r2, #0
+0x000066b0  04b04ce2     sub      fp, ip, #4
+0x000066b4  0aa08fe0     add      sl, pc, sl
+0x000066b8  0060a0e1     mov      r6, r0
+0x000066bc  0150a0e1     mov      r5, r1
+0x000066c0  70ac9d08     ldmeq    sp, {r4, r5, r6, sl, fp, sp, pc}
+0x000066c4  0500a0e1     mov      r0, r5
+0x000066c8  0410a0e1     mov      r1, r4
+0x000066cc  36ff2fe1     blx      r6
+0x000066d0  040070e3     cmn      r0, #4
+0x000066d4  06007013     cmnne    r0, #6
+0x000066d8  1900001a     bne      #0x6744
+0x000066dc  14319fe5     ldr      r3, [pc, #0x114]
+0x000066e0  03408ae0     add      r4, sl, r3
+0x000066e4  50feffeb     bl       #0x602c ; symbol=PLT:pthread_self
+0x000066e8  2c3094e5     ldr      r3, [r4, #0x2c]
+0x000066ec  000053e1     cmp      r3, r0
+0x000066f0  0030e003     mvneq    r3, #0
+0x000066f4  2c308405     streq    r3, [r4, #0x2c]
+0x000066f8  0400a001     moveq    r0, r4
+0x000066fc  f8309f05     ldreq    r3, [pc, #0xf8]
+0x00006700  03c09a07     ldreq    ip, [sl, r3]
+0x00006704  3cff2f01     blxeq    ip
+0x00006708  47feffeb     bl       #0x602c ; symbol=PLT:pthread_self
+0x0000670c  5c3094e5     ldr      r3, [r4, #0x5c]
+0x00006710  000053e1     cmp      r3, r0
+0x00006714  300084e2     add      r0, r4, #0x30
+0x00006718  0030e003     mvneq    r3, #0
+0x0000671c  5c308405     streq    r3, [r4, #0x5c]
+0x00006720  d4309f05     ldreq    r3, [pc, #0xd4]
+0x00006724  03c09a07     ldreq    ip, [sl, r3]
+0x00006728  3cff2f01     blxeq    ip
+0x0000672c  0000a0e3     mov      r0, #0
+0x00006730  0010a0e1     mov      r1, r0
+0x00006734  e1feffeb     bl       #0x62c0 ; symbol=PLT:pthread_setcancelstate
+0x00006738  47feffeb     bl       #0x605c ; symbol=PLT:pthread_testcancel
+0x0000673c  fefdffeb     bl       #0x5f3c ; symbol=PLT:sched_yield
+0x00006740  fcffffea     b        #0x6738
+0x00006744  000050e3     cmp      r0, #0
+0x00006748  0e0000aa     bge      #0x6788
+0x0000674c  ac309fe5     ldr      r3, [pc, #0xac]
+0x00006750  03408ae0     add      r4, sl, r3
+0x00006754  0400a0e1     mov      r0, r4
+0x00006758  c4fdffeb     bl       #0x5e70 ; symbol=PLT:strlen
+0x0000675c  0420a0e1     mov      r2, r4
+0x00006760  0030a0e1     mov      r3, r0
+0x00006764  0110a0e3     mov      r1, #1
+0x00006768  ff00a0e3     mov      r0, #0xff
+0x0000676c  10feffeb     bl       #0x5fb4 ; symbol=PLT:blog
+0x00006770  eefdffeb     bl       #0x5f30 ; symbol=PLT:getpid
+0x00006774  88209fe5     ldr      r2, [pc, #0x88]
+0x00006778  0010a0e1     mov      r1, r0
+0x0000677c  84009fe5     ldr      r0, [pc, #0x84]
+0x00006780  02208ae0     add      r2, sl, r2
+0x00006784  130000ea     b        #0x67d8
+0x00006788  0030a013     movne    r3, #0
+0x0000678c  0130a003     moveq    r3, #1
+0x00006790  040050e1     cmp      r0, r4
+0x00006794  01308383     orrhi    r3, r3, #1
+0x00006798  000053e3     cmp      r3, #0
+0x0000679c  1000000a     beq      #0x67e4
+0x000067a0  64309fe5     ldr      r3, [pc, #0x64]
+0x000067a4  03408ae0     add      r4, sl, r3
+0x000067a8  0400a0e1     mov      r0, r4
+0x000067ac  affdffeb     bl       #0x5e70 ; symbol=PLT:strlen
+0x000067b0  0420a0e1     mov      r2, r4
+0x000067b4  0030a0e1     mov      r3, r0
+0x000067b8  0110a0e3     mov      r1, #1
+0x000067bc  ff00a0e3     mov      r0, #0xff
+0x000067c0  fbfdffeb     bl       #0x5fb4 ; symbol=PLT:blog
+0x000067c4  d9fdffeb     bl       #0x5f30 ; symbol=PLT:getpid
+0x000067c8  34209fe5     ldr      r2, [pc, #0x34]
+0x000067cc  0010a0e1     mov      r1, r0
+0x000067d0  38009fe5     ldr      r0, [pc, #0x38]
+0x000067d4  02208ae0     add      r2, sl, r2
+0x000067d8  00008ae0     add      r0, sl, r0
+0x000067dc  a2feffeb     bl       #0x626c ; symbol=PLT:printf
+0x000067e0  50feffeb     bl       #0x6128 ; symbol=PLT:abort
+0x000067e4  004054e0     subs     r4, r4, r0
+0x000067e8  005085e0     add      r5, r5, r0
+0x000067ec  b4ffff1a     bne      #0x66c4
+0x000067f0  70ac9de8     ldm      sp, {r4, r5, r6, sl, fp, sp, pc}

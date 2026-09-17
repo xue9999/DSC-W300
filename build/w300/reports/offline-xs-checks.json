@@ -1,0 +1,20 @@
+{
+  "ok": true,
+  "checks": [
+    {
+      "folder": "g3-entry-events",
+      "returncode": 0,
+      "identical_files": 15,
+      "stdout": "{\"ok\": true, \"static_event_translation\": [{\"kernel_event\": 7, \"payload_u32\": 0, \"gadget_event\": 2, \"senif_event\": 1}, {\"kernel_event\": 7, \"payload_u32\": 1, \"gadget_event\": 3, \"senif_event\": 2}], \"w300_qualified\": false}"
+    },
+    {
+      "folder": "g3-config-read",
+      "returncode": 0,
+      "identical_files": 21,
+      "stdout": "{\"ok\": true, \"configuration_rows\": 5, \"native_category\": 0, \"source_model\": \"DSC-G3\", \"w300_qualified\": false}"
+    }
+  ],
+  "existing_package_pins_verified": 685,
+  "camera_io": false,
+  "w300_language_qualified": false
+}

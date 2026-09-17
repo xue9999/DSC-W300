@@ -1,0 +1,169 @@
+PRELIMINARY RAW ET_REL DECODING: displayed branch targets are unrelocated and must not be used as control-flow targets. Superseded for interpretation by kernel-sen-driver.asm.txt. Initializer relocation section is absent in retained source.
+
+{'name': 'init_usbg_sen', 'value': 2320, 'size': 256, 'type': 2, 'bind': 1, 'section_index': 3, 'section': '.init.text', 'file_offset': 173488}
+00000910 0dc0a0e1 mov ip, sp
+00000914 70d82de9 push {r4, r5, r6, fp, ip, lr, pc}
+00000918 04b04ce2 sub fp, ip, #4
+0000091c d0009fe5 ldr r0, [pc, #0xd0]
+00000920 feffffeb bl #0x920
+00000924 cc009fe5 ldr r0, [pc, #0xcc]
+00000928 feffffeb bl #0x928
+0000092c feffffeb bl #0x92c
+00000930 000050e3 cmp r0, #0
+00000934 0050a0e1 mov r5, r0
+00000938 7902001a bne #0x1324
+0000093c b8309f15 ldrne r3, [pc, #0xb8]
+00000940 b4309f05 ldreq r3, [pc, #0xb4]
+00000944 08009315 ldrne r0, [r3, #8]
+00000948 04009305 ldreq r0, [r3, #4]
+0000094c 2010a0e3 mov r1, #0x20
+00000950 feffffeb bl #0x950
+00000954 a0309fe5 ldr r3, [pc, #0xa0]
+00000958 a0409fe5 ldr r4, [pc, #0xa0]
+0000095c 043093e5 ldr r3, [r3, #4]
+00000960 2010a0e3 mov r1, #0x20
+00000964 000084e5 str r0, [r4]
+00000968 0300a0e1 mov r0, r3
+0000096c feffffeb bl #0x96c
+00000970 0030a0e1 mov r3, r0
+00000974 000094e5 ldr r0, [r4]
+00000978 84409fe5 ldr r4, [pc, #0x84]
+0000097c 000050e3 cmp r0, #0
+00000980 003084e5 str r3, [r4]
+00000984 0060a0e3 mov r6, #0
+00000988 6302000a beq #0x131c
+0000098c 060053e1 cmp r3, r6
+00000990 6e02001a bne #0x1350
+00000994 000050e3 cmp r0, #0
+00000998 0b50e0e3 mvn r5, #0xb
+0000099c 6902000a beq #0x1348
+000009a0 feffffeb bl #0x9a0
+000009a4 54309fe5 ldr r3, [pc, #0x54]
+000009a8 006083e5 str r6, [r3]
+000009ac 000094e5 ldr r0, [r4]
+000009b0 000050e3 cmp r0, #0
+000009b4 6e02000a beq #0x1374
+000009b8 feffffeb bl #0x9b8
+000009bc 006084e5 str r6, [r4]
+000009c0 0040a0e3 mov r4, #0
+000009c4 3c309fe5 ldr r3, [pc, #0x3c]
+000009c8 2010a0e3 mov r1, #0x20
+000009cc 040093e5 ldr r0, [r3, #4]
+000009d0 feffffeb bl #0x9d0
+000009d4 012084e2 add r2, r4, #1
+000009d8 2c309fe5 ldr r3, [pc, #0x2c]
+000009dc 030052e3 cmp r2, #3
+000009e0 040183e7 str r0, [r3, r4, lsl #2]
+000009e4 0240a0e1 mov r4, r2
+000009e8 6f0200da ble #0x13ac
+000009ec 0500a0e1 mov r0, r5
+000009f0 70a89de8 ldm sp, {r4, r5, r6, fp, sp, pc}
+000009f4 10190000 andeq r1, r0, r0, lsl sb
+000009f8 90180000 muleq r0, r0, r8
+000009fc 90000000 muleq r0, r0, r0
+00000a00 24c70000 andeq ip, r0, r4, lsr #14
+00000a04 20c70000 andeq ip, r0, r0, lsr #14
+00000a08 0c000000 andeq r0, r0, ip
+00000a0c 00000000 andeq r0, r0, r0
+{'name': 'usbg_sen_get_ep', 'value': 106124, 'size': 44, 'type': 2, 'bind': 1, 'section_index': 1, 'section': '.text', 'file_offset': 106176}
+00019e8c 0dc0a0e1 mov ip, sp
+00019e90 00d82de9 push {fp, ip, lr, pc}
+00019e94 04b04ce2 sub fp, ip, #4
+00019e98 000050e3 cmp r0, #0
+00019e9c aa67000a beq #0x33d4c RELOC {'rel_section': '.rel.text', 'target_section': '.text', 'offset': 106140, 'type': 29, 'symbol': {'name': '', 'value': 0, 'size': 0, 'type': 3, 'bind': 0, 'section_index': 1, 'section': '.text', 'file_offset': 52}}
+00019ea0 640090e5 ldr r0, [r0, #0x64]
+00019ea4 000050e3 cmp r0, #0
+00019ea8 01019017 ldrne r0, [r0, r1, lsl #2]
+00019eac 00a89d18 ldmne sp, {fp, sp, pc}
+00019eb0 0000a0e3 mov r0, #0
+00019eb4 00a89de8 ldm sp, {fp, sp, pc}
+{'name': 'usbg_cmn_copy_probe_info', 'value': 46208, 'size': 356, 'type': 2, 'bind': 1, 'section_index': 1, 'section': '.text', 'file_offset': 46260}
+0000b480 0dc0a0e1 mov ip, sp
+0000b484 f0d82de9 push {r4, r5, r6, r7, fp, ip, lr, pc}
+0000b488 04b04ce2 sub fp, ip, #4
+0000b48c 7f7dcde3 bic r7, sp, #0x1fc0
+0000b490 3f70c7e3 bic r7, r7, #0x3f
+0000b494 083097e5 ldr r3, [r7, #8]
+0000b498 342091e2 adds r2, r1, #0x34
+0000b49c 0320d230 sbcslo r2, r2, r3
+0000b4a0 0030a033 movlo r3, #0
+0000b4a4 000053e3 cmp r3, #0
+0000b4a8 0160a0e1 mov r6, r1
+0000b4ac 0050a0e1 mov r5, r0
+0000b4b0 3430a0e3 mov r3, #0x34
+0000b4b4 2f2d000a beq #0x16978 RELOC {'rel_section': '.rel.text', 'target_section': '.text', 'offset': 46260, 'type': 29, 'symbol': {'name': '', 'value': 0, 'size': 0, 'type': 3, 'bind': 0, 'section_index': 1, 'section': '.text', 'file_offset': 52}}
+0000b4b8 0310a0e1 mov r1, r3
+0000b4bc feffffeb bl #0xb4bc RELOC {'rel_section': '.rel.text', 'target_section': '.text', 'offset': 46268, 'type': 28, 'symbol': {'name': '__memzero', 'value': 0, 'size': 0, 'type': 0, 'bind': 1, 'section_index': 0}}
+0000b4c0 502d00ea b #0x16a08 RELOC {'rel_section': '.rel.text', 'target_section': '.text', 'offset': 46272, 'type': 29, 'symbol': {'name': '', 'value': 0, 'size': 0, 'type': 3, 'bind': 0, 'section_index': 1, 'section': '.text', 'file_offset': 52}}
+0000b4c4 0320a0e1 mov r2, r3
+0000b4c8 feffffeb bl #0xb4c8 RELOC {'rel_section': '.rel.text', 'target_section': '.text', 'offset': 46280, 'type': 28, 'symbol': {'name': '__arch_copy_from_user', 'value': 0, 'size': 0, 'type': 0, 'bind': 1, 'section_index': 0}}
+0000b4cc 000050e3 cmp r0, #0
+0000b4d0 502d001a bne #0x16a18 RELOC {'rel_section': '.rel.text', 'target_section': '.text', 'offset': 46288, 'type': 29, 'symbol': {'name': '', 'value': 0, 'size': 0, 'type': 3, 'bind': 0, 'section_index': 1, 'section': '.text', 'file_offset': 52}}
+0000b4d4 2800d5e5 ldrb r0, [r5, #0x28]
+0000b4d8 2010a0e3 mov r1, #0x20
+0000b4dc 0001a0e1 lsl r0, r0, #2
+0000b4e0 feffffeb bl #0xb4e0 RELOC {'rel_section': '.rel.text', 'target_section': '.text', 'offset': 46304, 'type': 28, 'symbol': {'name': '__kmalloc', 'value': 0, 'size': 0, 'type': 0, 'bind': 1, 'section_index': 0}}
+0000b4e4 000050e3 cmp r0, #0
+0000b4e8 240085e5 str r0, [r5, #0x24]
+0000b4ec 69004002 subeq r0, r0, #0x69
+0000b4f0 f0a89d08 ldmeq sp, {r4, r5, r6, r7, fp, sp, pc}
+0000b4f4 2830d5e5 ldrb r3, [r5, #0x28]
+0000b4f8 241096e5 ldr r1, [r6, #0x24]
+0000b4fc 0341a0e1 lsl r4, r3, #2
+0000b500 083097e5 ldr r3, [r7, #8]
+0000b504 042091e0 adds r2, r1, r4
+0000b508 0320d230 sbcslo r2, r2, r3
+0000b50c 0030a033 movlo r3, #0
+0000b510 000053e3 cmp r3, #0
+0000b514 482d001a bne #0x16a3c RELOC {'rel_section': '.rel.text', 'target_section': '.text', 'offset': 46356, 'type': 29, 'symbol': {'name': '', 'value': 0, 'size': 0, 'type': 3, 'bind': 0, 'section_index': 1, 'section': '.text', 'file_offset': 52}}
+0000b518 0420a0e1 mov r2, r4
+0000b51c feffffeb bl #0xb51c RELOC {'rel_section': '.rel.text', 'target_section': '.text', 'offset': 46364, 'type': 28, 'symbol': {'name': '__arch_copy_from_user', 'value': 0, 'size': 0, 'type': 0, 'bind': 1, 'section_index': 0}}
+0000b520 0040a0e1 mov r4, r0
+0000b524 4c2d00ea b #0x16a5c RELOC {'rel_section': '.rel.text', 'target_section': '.text', 'offset': 46372, 'type': 29, 'symbol': {'name': '', 'value': 0, 'size': 0, 'type': 3, 'bind': 0, 'section_index': 1, 'section': '.text', 'file_offset': 52}}
+0000b528 000054e3 cmp r4, #0
+0000b52c 522d000a beq #0x16a7c RELOC {'rel_section': '.rel.text', 'target_section': '.text', 'offset': 46380, 'type': 29, 'symbol': {'name': '', 'value': 0, 'size': 0, 'type': 3, 'bind': 0, 'section_index': 1, 'section': '.text', 'file_offset': 52}}
+0000b530 0410a0e1 mov r1, r4
+0000b534 feffffeb bl #0xb534 RELOC {'rel_section': '.rel.text', 'target_section': '.text', 'offset': 46388, 'type': 28, 'symbol': {'name': '__memzero', 'value': 0, 'size': 0, 'type': 0, 'bind': 1, 'section_index': 0}}
+0000b538 000054e3 cmp r4, #0
+0000b53c 522d000a beq #0x16a8c RELOC {'rel_section': '.rel.text', 'target_section': '.text', 'offset': 46396, 'type': 29, 'symbol': {'name': '', 'value': 0, 'size': 0, 'type': 3, 'bind': 0, 'section_index': 1, 'section': '.text', 'file_offset': 52}}
+0000b540 0500a0e1 mov r0, r5
+0000b544 feffffeb bl #0xb544 RELOC {'rel_section': '.rel.text', 'target_section': '.text', 'offset': 46404, 'type': 28, 'symbol': {'name': 'usbg_cmn_clear_probe_info', 'value': 46140, 'size': 68, 'type': 2, 'bind': 1, 'section_index': 1, 'section': '.text', 'file_offset': 46192}}
+0000b548 6800e0e3 mvn r0, #0x68
+0000b54c f0a89de8 ldm sp, {r4, r5, r6, r7, fp, sp, pc}
+0000b550 2c3096e5 ldr r3, [r6, #0x2c]
+0000b554 000053e3 cmp r3, #0
+0000b558 30308505 streq r3, [r5, #0x30]
+0000b55c 2c308505 streq r3, [r5, #0x2c]
+0000b560 752d000a beq #0x16b3c RELOC {'rel_section': '.rel.text', 'target_section': '.text', 'offset': 46432, 'type': 29, 'symbol': {'name': '', 'value': 0, 'size': 0, 'type': 3, 'bind': 0, 'section_index': 1, 'section': '.text', 'file_offset': 52}}
+0000b564 300095e5 ldr r0, [r5, #0x30]
+0000b568 2010a0e3 mov r1, #0x20
+0000b56c feffffeb bl #0xb56c RELOC {'rel_section': '.rel.text', 'target_section': '.text', 'offset': 46444, 'type': 28, 'symbol': {'name': '__kmalloc', 'value': 0, 'size': 0, 'type': 0, 'bind': 1, 'section_index': 0}}
+0000b570 000050e3 cmp r0, #0
+0000b574 2c0085e5 str r0, [r5, #0x2c]
+0000b578 4e2d000a beq #0x16ab8 RELOC {'rel_section': '.rel.text', 'target_section': '.text', 'offset': 46456, 'type': 29, 'symbol': {'name': '', 'value': 0, 'size': 0, 'type': 3, 'bind': 0, 'section_index': 1, 'section': '.text', 'file_offset': 52}}
+0000b57c 304096e5 ldr r4, [r6, #0x30]
+0000b580 083097e5 ldr r3, [r7, #8]
+0000b584 2c1096e5 ldr r1, [r6, #0x2c]
+0000b588 042091e0 adds r2, r1, r4
+0000b58c 0320d230 sbcslo r2, r2, r3
+0000b590 0030a033 movlo r3, #0
+0000b594 000053e3 cmp r3, #0
+0000b598 692d001a bne #0x16b44 RELOC {'rel_section': '.rel.text', 'target_section': '.text', 'offset': 46488, 'type': 29, 'symbol': {'name': '', 'value': 0, 'size': 0, 'type': 3, 'bind': 0, 'section_index': 1, 'section': '.text', 'file_offset': 52}}
+0000b59c 0420a0e1 mov r2, r4
+0000b5a0 feffffeb bl #0xb5a0 RELOC {'rel_section': '.rel.text', 'target_section': '.text', 'offset': 46496, 'type': 28, 'symbol': {'name': '__arch_copy_from_user', 'value': 0, 'size': 0, 'type': 0, 'bind': 1, 'section_index': 0}}
+0000b5a4 0040a0e1 mov r4, r0
+0000b5a8 6d2d00ea b #0x16b64 RELOC {'rel_section': '.rel.text', 'target_section': '.text', 'offset': 46504, 'type': 29, 'symbol': {'name': '', 'value': 0, 'size': 0, 'type': 3, 'bind': 0, 'section_index': 1, 'section': '.text', 'file_offset': 52}}
+0000b5ac 000054e3 cmp r4, #0
+0000b5b0 752d000a beq #0x16b8c RELOC {'rel_section': '.rel.text', 'target_section': '.text', 'offset': 46512, 'type': 29, 'symbol': {'name': '', 'value': 0, 'size': 0, 'type': 3, 'bind': 0, 'section_index': 1, 'section': '.text', 'file_offset': 52}}
+0000b5b4 0410a0e1 mov r1, r4
+0000b5b8 feffffeb bl #0xb5b8 RELOC {'rel_section': '.rel.text', 'target_section': '.text', 'offset': 46520, 'type': 28, 'symbol': {'name': '__memzero', 'value': 0, 'size': 0, 'type': 0, 'bind': 1, 'section_index': 0}}
+0000b5bc 000054e3 cmp r4, #0
+0000b5c0 752d000a beq #0x16b9c RELOC {'rel_section': '.rel.text', 'target_section': '.text', 'offset': 46528, 'type': 29, 'symbol': {'name': '', 'value': 0, 'size': 0, 'type': 3, 'bind': 0, 'section_index': 1, 'section': '.text', 'file_offset': 52}}
+0000b5c4 240095e5 ldr r0, [r5, #0x24]
+0000b5c8 feffffeb bl #0xb5c8 RELOC {'rel_section': '.rel.text', 'target_section': '.text', 'offset': 46536, 'type': 28, 'symbol': {'name': 'kfree', 'value': 0, 'size': 0, 'type': 0, 'bind': 1, 'section_index': 0}}
+0000b5cc 0030a0e3 mov r3, #0
+0000b5d0 6800e0e3 mvn r0, #0x68
+0000b5d4 243085e5 str r3, [r5, #0x24]
+0000b5d8 f0a89de8 ldm sp, {r4, r5, r6, r7, fp, sp, pc}
+0000b5dc 0000a0e3 mov r0, #0
+0000b5e0 f0a89de8 ldm sp, {r4, r5, r6, r7, fp, sp, pc}

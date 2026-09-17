@@ -1,0 +1,371 @@
+{
+  "ok": true,
+  "scope": "static retained G3 code + published G3 GPL event ABI",
+  "inputs": {
+    "evidence/extracted_g3/archives_unpacked/lib/lib/libusb.so": "618d7abb1ac055afceefbab379b522d782574ffefeee5bbbcd3148d4a01d2cb8",
+    "evidence/extracted_g3/archives_unpacked/fskrel1/dsc/fsk/PExtSenser.so": "633d64cf7ce3b44b400f12b87e6044c12e840ba9c96a4dd1ed8a19a2bdd26635",
+    "build/w300/reports/g3-module-recovery/unified_drv.complete.ko": "8d675f7071e49a75a174130ef8525767af07c157fe5f203018eb097e10aa1367"
+  },
+  "assertions": [
+    {
+      "file": "evidence/extracted_g3/archives_unpacked/lib/lib/libusb.so",
+      "va": "0x18868",
+      "word": "0xdd60"
+    },
+    {
+      "file": "evidence/extracted_g3/archives_unpacked/lib/lib/libusb.so",
+      "va": "0xddc4",
+      "word": "0xe3a0100b"
+    },
+    {
+      "file": "evidence/extracted_g3/archives_unpacked/lib/lib/libusb.so",
+      "va": "0xddc8",
+      "call": "usbif_register_gadget"
+    },
+    {
+      "file": "evidence/extracted_g3/archives_unpacked/lib/lib/libusb.so",
+      "va": "0x18870",
+      "word": "0xde64"
+    },
+    {
+      "file": "evidence/extracted_g3/archives_unpacked/lib/lib/libusb.so",
+      "va": "0x18874",
+      "word": "0xde64"
+    },
+    {
+      "file": "evidence/extracted_g3/archives_unpacked/lib/lib/libusb.so",
+      "va": "0x18878",
+      "word": "0xde64"
+    },
+    {
+      "file": "evidence/extracted_g3/archives_unpacked/lib/lib/libusb.so",
+      "va": "0x1887c",
+      "word": "0xde64"
+    },
+    {
+      "file": "evidence/extracted_g3/archives_unpacked/lib/lib/libusb.so",
+      "va": "0x18880",
+      "word": "0xde64"
+    },
+    {
+      "file": "evidence/extracted_g3/archives_unpacked/lib/lib/libusb.so",
+      "va": "0x18884",
+      "word": "0xde64"
+    },
+    {
+      "file": "evidence/extracted_g3/archives_unpacked/lib/lib/libusb.so",
+      "va": "0x18888",
+      "word": "0xde64"
+    },
+    {
+      "file": "evidence/extracted_g3/archives_unpacked/lib/lib/libusb.so",
+      "va": "0x1888c",
+      "word": "0xde64"
+    },
+    {
+      "file": "evidence/extracted_g3/archives_unpacked/lib/lib/libusb.so",
+      "va": "0xddd8",
+      "word": "0xe3530000"
+    },
+    {
+      "file": "evidence/extracted_g3/archives_unpacked/lib/lib/libusb.so",
+      "va": "0xdddc",
+      "word": "0x158320cc"
+    },
+    {
+      "file": "evidence/extracted_g3/archives_unpacked/lib/lib/libusb.so",
+      "va": "0x823c",
+      "word": "0xea00000b"
+    },
+    {
+      "file": "evidence/extracted_g3/archives_unpacked/lib/lib/libusb.so",
+      "va": "0x828c",
+      "call": "_ZN13CUsbGadgetSenC1Ev"
+    },
+    {
+      "file": "evidence/extracted_g3/archives_unpacked/lib/lib/libusb.so",
+      "va": "0xa654",
+      "word": "0xe1a0e004"
+    },
+    {
+      "file": "evidence/extracted_g3/archives_unpacked/lib/lib/libusb.so",
+      "va": "0xa658",
+      "word": "0xe8be000f"
+    },
+    {
+      "file": "evidence/extracted_g3/archives_unpacked/lib/lib/libusb.so",
+      "va": "0xa65c",
+      "word": "0xe285c094"
+    },
+    {
+      "file": "evidence/extracted_g3/archives_unpacked/lib/lib/libusb.so",
+      "va": "0xa660",
+      "word": "0xe8ac000f"
+    },
+    {
+      "file": "evidence/extracted_g3/archives_unpacked/lib/lib/libusb.so",
+      "va": "0xa664",
+      "word": "0xe8be000f"
+    },
+    {
+      "file": "evidence/extracted_g3/archives_unpacked/lib/lib/libusb.so",
+      "va": "0xa668",
+      "word": "0xe8ac000f"
+    },
+    {
+      "file": "evidence/extracted_g3/archives_unpacked/lib/lib/libusb.so",
+      "va": "0xa66c",
+      "word": "0xe89e0003"
+    },
+    {
+      "file": "evidence/extracted_g3/archives_unpacked/lib/lib/libusb.so",
+      "va": "0xa670",
+      "word": "0xe88c0003"
+    },
+    {
+      "file": "evidence/extracted_g3/archives_unpacked/lib/lib/libusb.so",
+      "va": "0xcdb8",
+      "word": "0xe79ae00c"
+    },
+    {
+      "file": "evidence/extracted_g3/archives_unpacked/lib/lib/libusb.so",
+      "va": "0xcde0",
+      "word": "0xe50be038"
+    },
+    {
+      "file": "evidence/extracted_g3/archives_unpacked/lib/lib/libusb.so",
+      "va": "0xcdf8",
+      "word": "0xe50b7058"
+    },
+    {
+      "file": "evidence/extracted_g3/archives_unpacked/lib/lib/libusb.so",
+      "va": "0xce40",
+      "word": "0xe24b2058"
+    },
+    {
+      "file": "evidence/extracted_g3/archives_unpacked/lib/lib/libusb.so",
+      "va": "0xce44",
+      "call": "ioctl"
+    },
+    {
+      "file": "evidence/extracted_g3/archives_unpacked/lib/lib/libusb.so",
+      "va": "0xce6c",
+      "word": "0x4034e000"
+    },
+    {
+      "file": "evidence/extracted_g3/archives_unpacked/lib/lib/libusb.so",
+      "va": "0xaf4c",
+      "call": "pthread_create"
+    },
+    {
+      "file": "evidence/extracted_g3/archives_unpacked/lib/lib/libusb.so",
+      "va": "0xa8a4",
+      "call": "read"
+    },
+    {
+      "file": "evidence/extracted_g3/archives_unpacked/lib/lib/libusb.so",
+      "va": "0xac64",
+      "word": "0xe1a03005"
+    },
+    {
+      "file": "evidence/extracted_g3/archives_unpacked/lib/lib/libusb.so",
+      "va": "0xac68",
+      "word": "0xe55b102a"
+    },
+    {
+      "file": "evidence/extracted_g3/archives_unpacked/lib/lib/libusb.so",
+      "va": "0xac6c",
+      "word": "0xe51b0034"
+    },
+    {
+      "file": "evidence/extracted_g3/archives_unpacked/lib/lib/libusb.so",
+      "va": "0xac70",
+      "word": "0xe51bc038"
+    },
+    {
+      "file": "evidence/extracted_g3/archives_unpacked/lib/lib/libusb.so",
+      "va": "0xac74",
+      "word": "0xe12fff3c"
+    },
+    {
+      "file": "evidence/extracted_g3/archives_unpacked/lib/lib/libusb.so",
+      "va": "0xcee0",
+      "word": "0xe3510007"
+    },
+    {
+      "file": "evidence/extracted_g3/archives_unpacked/lib/lib/libusb.so",
+      "va": "0xcee8",
+      "word": "0xe3520004"
+    },
+    {
+      "file": "evidence/extracted_g3/archives_unpacked/lib/lib/libusb.so",
+      "va": "0xcef0",
+      "word": "0xe5933000"
+    },
+    {
+      "file": "evidence/extracted_g3/archives_unpacked/lib/lib/libusb.so",
+      "va": "0xcef4",
+      "word": "0xe3530000"
+    },
+    {
+      "file": "evidence/extracted_g3/archives_unpacked/lib/lib/libusb.so",
+      "va": "0xcef8",
+      "word": "0x590c09c"
+    },
+    {
+      "file": "evidence/extracted_g3/archives_unpacked/lib/lib/libusb.so",
+      "va": "0xcefc",
+      "word": "0x3a00002"
+    },
+    {
+      "file": "evidence/extracted_g3/archives_unpacked/lib/lib/libusb.so",
+      "va": "0xcf04",
+      "word": "0xe3530001"
+    },
+    {
+      "file": "evidence/extracted_g3/archives_unpacked/lib/lib/libusb.so",
+      "va": "0xcf0c",
+      "word": "0xe59ec0a0"
+    },
+    {
+      "file": "evidence/extracted_g3/archives_unpacked/lib/lib/libusb.so",
+      "va": "0xcf10",
+      "word": "0xe3a00003"
+    },
+    {
+      "file": "evidence/extracted_g3/archives_unpacked/lib/lib/libusb.so",
+      "va": "0xcf20",
+      "word": "0xe1a0300e"
+    },
+    {
+      "file": "evidence/extracted_g3/archives_unpacked/lib/lib/libusb.so",
+      "va": "0xcf28",
+      "word": "0xe12fff3c"
+    },
+    {
+      "file": "evidence/extracted_g3/archives_unpacked/lib/lib/libusb.so",
+      "va": "0xde98",
+      "word": "0xe59330cc"
+    },
+    {
+      "file": "evidence/extracted_g3/archives_unpacked/lib/lib/libusb.so",
+      "va": "0xdea4",
+      "word": "0xe593e000"
+    },
+    {
+      "file": "evidence/extracted_g3/archives_unpacked/lib/lib/libusb.so",
+      "va": "0xdeb0",
+      "word": "0xe59e400c"
+    },
+    {
+      "file": "evidence/extracted_g3/archives_unpacked/lib/lib/libusb.so",
+      "va": "0xdebc",
+      "word": "0xe3500002"
+    },
+    {
+      "file": "evidence/extracted_g3/archives_unpacked/lib/lib/libusb.so",
+      "va": "0xdec4",
+      "word": "0xe3500003"
+    },
+    {
+      "file": "evidence/extracted_g3/archives_unpacked/lib/lib/libusb.so",
+      "va": "0xded4",
+      "word": "0xe3a05001"
+    },
+    {
+      "file": "evidence/extracted_g3/archives_unpacked/lib/lib/libusb.so",
+      "va": "0xdedc",
+      "word": "0xe5944000"
+    },
+    {
+      "file": "evidence/extracted_g3/archives_unpacked/lib/lib/libusb.so",
+      "va": "0xdef4",
+      "word": "0xe58ec008"
+    },
+    {
+      "file": "evidence/extracted_g3/archives_unpacked/lib/lib/libusb.so",
+      "va": "0xdf00",
+      "word": "0xe3a05002"
+    },
+    {
+      "file": "evidence/extracted_g3/archives_unpacked/lib/lib/libusb.so",
+      "va": "0xdf04",
+      "word": "0xe59e6008"
+    },
+    {
+      "file": "evidence/extracted_g3/archives_unpacked/lib/lib/libusb.so",
+      "va": "0xdf08",
+      "word": "0xe5944004"
+    },
+    {
+      "file": "evidence/extracted_g3/archives_unpacked/lib/lib/libusb.so",
+      "va": "0xdf4c",
+      "word": "0xe3a07010"
+    },
+    {
+      "file": "evidence/extracted_g3/archives_unpacked/lib/lib/libusb.so",
+      "va": "0xdf54",
+      "word": "0xe1a00005"
+    },
+    {
+      "file": "evidence/extracted_g3/archives_unpacked/lib/lib/libusb.so",
+      "va": "0xdf58",
+      "word": "0xe1a01006"
+    },
+    {
+      "file": "evidence/extracted_g3/archives_unpacked/lib/lib/libusb.so",
+      "va": "0xdf5c",
+      "word": "0xe1a02007"
+    },
+    {
+      "file": "evidence/extracted_g3/archives_unpacked/lib/lib/libusb.so",
+      "va": "0xdf64",
+      "word": "0xe12fff34"
+    },
+    {
+      "file": "evidence/extracted_g3/archives_unpacked/lib/lib/libusb.so",
+      "va": "0xdc78",
+      "word": "0xe581200c"
+    },
+    {
+      "file": "evidence/extracted_g3/archives_unpacked/lib/lib/libusb.so",
+      "va": "0xdccc",
+      "word": "0xe5834000"
+    },
+    {
+      "file": "evidence/extracted_g3/archives_unpacked/fskrel1/dsc/fsk/PExtSenser.so",
+      "va": "0x1c540",
+      "word": "0xb504"
+    },
+    {
+      "file": "evidence/extracted_g3/archives_unpacked/fskrel1/dsc/fsk/PExtSenser.so",
+      "va": "0x1c544",
+      "word": "0xb504"
+    },
+    {
+      "file": "evidence/extracted_g3/archives_unpacked/fskrel1/dsc/fsk/PExtSenser.so",
+      "va": "0xb564",
+      "word": "0xe3530001"
+    }
+  ],
+  "translation": [
+    {
+      "kernel_event": 7,
+      "payload_u32": 0,
+      "gadget_event": 2,
+      "senif_event": 1
+    },
+    {
+      "kernel_event": 7,
+      "payload_u32": 1,
+      "gadget_event": 3,
+      "senif_event": 2
+    }
+  ],
+  "io_table_va": "0x18898",
+  "io_table_bytes": 16,
+  "conditional_on_registered_created_enabled_senser_function": true,
+  "normal_usb_lifecycle_qualified": false,
+  "w300_qualified": false,
+  "live_usb_test": false
+}

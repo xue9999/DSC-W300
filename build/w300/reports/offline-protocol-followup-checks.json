@@ -1,0 +1,64 @@
+{
+  "scope": "Static G3 protocol analysis and exact-model official GPL comparison; no hardware qualification",
+  "jobs": [
+    {
+      "script": "downloads/g3-gpl-reference/compare_usb_core.py",
+      "script_sha256": "f9ed53e870c26c42acce7e67df38944cb93e92999ce007c1b69cf37b7726c2c9",
+      "exit_code": 0,
+      "outputs_identical": true,
+      "outputs": {
+        "downloads/g3-gpl-reference/usb-core-comparison.json": "88b0bc6a2f8cd17c588eb48567e742518a76dac3565ada89d47c72b517187f43"
+      },
+      "stdout": "{\n  \"ok\": true,\n  \"identical_members\": 3,\n  \"w300_language_operation_qualified\": false\n}"
+    },
+    {
+      "script": "reports/g3-module-recovery/recover_module.py",
+      "script_sha256": "7ec60e5635532fbc982c7cd2a14ba0947538b22b54f1a599f99a567639b69879",
+      "exit_code": 0,
+      "outputs_identical": true,
+      "outputs": {
+        "reports/g3-module-recovery/recovery-evidence.json": "ec275002181a672e076f5491fc2ab69de6de897f012daee180c5204b2c884016",
+        "reports/g3-module-recovery/unified_drv.complete.ko": "8d675f7071e49a75a174130ef8525767af07c157fe5f203018eb097e10aa1367"
+      },
+      "stdout": "{\n  \"ok\": true,\n  \"old_bytes\": 274432,\n  \"complete_bytes\": 303816,\n  \"prefix_identical\": true,\n  \"all_elf_sections_present\": true,\n  \"relocations\": 9102\n}"
+    },
+    {
+      "script": "reports/g3-module-recovery/independent_review.py",
+      "script_sha256": "ca22081377d6d454b2692217cc9677b8c45e684eeb3fc8ef03f11a58f35dcd34",
+      "exit_code": 0,
+      "outputs_identical": true,
+      "outputs": {
+        "reports/g3-module-recovery/independent-review.json": "cc48e082661f3f823dd2f15cc697b907898acc7ac49080bef28b5e7684bf3044"
+      },
+      "stdout": "{\n  \"ok\": true,\n  \"data_block_count\": 297,\n  \"metadata_block_count\": 3,\n  \"omitted_tail_bytes\": 29384,\n  \"full_size\": 303816,\n  \"sha256\": \"8d675f7071e49a75a174130ef8525767af07c157fe5f203018eb097e10aa1367\",\n  \"elf_relocations\": 9102,\n  \"synthetic_zero_fill_used\": false\n}"
+    },
+    {
+      "script": "reports/g3-normal-entry/reproduce.py",
+      "script_sha256": "b78267491986e7e9a8a0432cf3cb465efb99d7fd86be0e6627d83bc0ef82ac57",
+      "exit_code": 0,
+      "outputs_identical": true,
+      "outputs": {
+        "reports/g3-normal-entry/entry-inventory.json": "9ebe92ee670699e95d6b6f4fa83f5d2c30d0f6eaa16a3841944da01cbd0172da",
+        "reports/g3-normal-entry/entry-evidence.json": "976e3b2a20a3cf7ea26640f94ee2d8b98c4bdea5e3c2e688b082f58803eeb296",
+        "reports/g3-normal-entry/xsb-inventory.json": "ab7d0cb8cefe22d4814036c8ca5bbe8b632af687842dc7cd0b5bedc48fa4697c",
+        "reports/g3-normal-entry/native-links.asm.txt": "b18551aa07c7d69e29f8bf6ce6654d9ea424fa4fc114592a33056000868bb227",
+        "reports/g3-normal-entry/core-normal-auth.asm.txt": "6b0b4fc3aa1a6cf256995e84ff20f2930e67164f342e021e5647987ceaed3cca",
+        "reports/g3-normal-entry/usb-registration.asm.txt": "8cab41ed31cc5a5bc292fd9aec6cb1ff19089153a76d830a8c1297bf331f5a4b"
+      },
+      "stdout": "USBGMsc.so\nsymbols 78 relocations 61 selected strings 19 sha256 afb3ea18b71d215e18227cc289bfaa2f039a7f8a9d44b0d61984f89433b247f1\n\nPExtSenser.so\nsymbols 400 relocations 297 selected strings 179 sha256 633d64cf7ce3b44b400f12b87e6044c12e840ba9c96a4dd1ed8a19a2bdd26635\n\nusbExt.so\nsymbols 96 relocations 97 selected strings 99 sha256 6d60f8a247202ad4f64bd8edba7ea35845885a4dde349cbd3a9e77ff8061dca9\n\nsen\nsymbols 393 relocations 85 selected strings 178 sha256 6e1ff9d1668786808d8d349f0ea532cfa5437437dd85672d054b9e755d4a51f3\nPExtSenser.so.asm.txt 7\nsen.asm.txt 1\nusbExt.so.asm.txt 1\nUSBGMsc.so.asm.txt 1\nPExtSenser.so-extra.asm.txt 7\nsen-extra.asm.txt 1\nlibsencore.so-extra.asm.txt 1\nC:\\Users\\apara01\\OneDrive - Kearney\\Documents\\ChatGPT\\W300\\DSC-W300\\build\\w300\\reports\\g3-normal-entry\\xsb-inventory.json\nsenserModule.xsb 1681 PIN PASS symbols 48\nsenserCmdTable.xsb 84575 PIN PASS symbols 1342\n{\"ok\": true, \"G3_Extension_product_id\": 0, \"selected_hash_input_bytes\": 4, \"full_entry_transition_proven\": false, \"W300_compatibility_proven\": false}"
+    }
+  ],
+  "documentation": {
+    "whitespace_and_conflict_check": true,
+    "git_diff_check": true,
+    "checkpoint_hashes": {
+      "ANALYSIS_LOG.md": "f2008580eea4cd4ee62187306097220a54d7d27c9dfcd773eeaee0b902ab0c68",
+      "docs/w300/EXECUTION_PLAN.md": "9c44db9f6071cb8504c30a5276781c8e89cbd49c8a31795ae3b9f7390ceb6225",
+      "docs/w300/VERIFICATION.md": "4e1432a925aff7c1012b745a891ab2574b9d3a3b437b1b9d1956b7ef881cdbd1"
+    }
+  },
+  "camera_commands_sent": false,
+  "firmware_executed": false,
+  "w300_language_operation_qualified": false,
+  "portable_runtime_checks_repeated": false
+}

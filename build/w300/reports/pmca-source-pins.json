@@ -1,0 +1,44 @@
+[
+  {
+    "path": "pmca/commands/usb.py",
+    "expected": "44783d222548598dab97d4813abbd35c3f20540686a579949dbf54e5ab1a5673",
+    "actual": "44783d222548598dab97d4813abbd35c3f20540686a579949dbf54e5ab1a5673",
+    "matches": true
+  },
+  {
+    "path": "pmca/usb/sony.py",
+    "expected": "53ffb4d9d49cb5146623fda2b66ecb137681a6fc9ab0c98d23a51e75128af97e",
+    "actual": "53ffb4d9d49cb5146623fda2b66ecb137681a6fc9ab0c98d23a51e75128af97e",
+    "matches": true
+  },
+  {
+    "path": "pmca/platform/backend/senser.py",
+    "expected": "ec48232de062781fa05d7f0edd81626ab9c07fe2d3a1c3379e30fc24a776f0e1",
+    "actual": "ec48232de062781fa05d7f0edd81626ab9c07fe2d3a1c3379e30fc24a776f0e1",
+    "matches": true
+  },
+  {
+    "path": "pmca/platform/backup.py",
+    "expected": "8614ee80f2fe15cd406bbefc06a56ca72427bebefedbef776a525bbe36d8696f",
+    "actual": "8614ee80f2fe15cd406bbefc06a56ca72427bebefedbef776a525bbe36d8696f",
+    "matches": true
+  },
+  {
+    "path": "pmca/backup/__init__.py",
+    "expected": "ea09b9650ecd306e5dd4a6c7f1b57dd4b5763c0aa2e5d8509a364bdf7deeba61",
+    "actual": "ea09b9650ecd306e5dd4a6c7f1b57dd4b5763c0aa2e5d8509a364bdf7deeba61",
+    "matches": true
+  },
+  {
+    "path": "pmca/usb/driver/osx.py",
+    "expected": "796efcbb46ca6a8690f127e7fbfb243165dafd7a5658256ff1eb4a3ee9594b91",
+    "actual": "796efcbb46ca6a8690f127e7fbfb243165dafd7a5658256ff1eb4a3ee9594b91",
+    "matches": true
+  },
+  {
+    "path": "pmca/usb/driver/generic/libusb.py",
+    "expected": "1c80cfaa0692cf308bd086edc9a9bad3691804b50182993c1dd960c932daa1df",
+    "actual": "1c80cfaa0692cf308bd086edc9a9bad3691804b50182993c1dd960c932daa1df",
+    "matches": true
+  }
+]

@@ -1,0 +1,10 @@
+test_auth_rejects_malformed_replies (test_workbench.BoundaryTests.test_auth_rejects_malformed_replies) ... ok
+test_identity_refuses_missing_multiple_wrong_serial_and_model (test_workbench.BoundaryTests.test_identity_refuses_missing_multiple_wrong_serial_and_model) ... ok
+test_identity_selection (test_workbench.BoundaryTests.test_identity_selection) ... ok
+test_inquiry_parser_rejects_short_data (test_workbench.BoundaryTests.test_inquiry_parser_rejects_short_data) ... ok
+test_real_a330_auth_transcript (test_workbench.BoundaryTests.test_real_a330_auth_transcript) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK

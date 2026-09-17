@@ -1,0 +1,3271 @@
+{
+  "path": "evidence/extracted_g3/archives_unpacked/lib/lib/libBackupTable.so",
+  "sha256": "a0c2462b3c2418ae6583b22594685a69560940f50c2f07abc3d2799496ecae5e",
+  "sections": [
+    {
+      "index": 0,
+      "name": "",
+      "type": 0,
+      "flags": 0,
+      "va": 0,
+      "off": 0,
+      "size": 0,
+      "link": 0,
+      "info": 0,
+      "entsize": 0
+    },
+    {
+      "index": 1,
+      "name": ".hash",
+      "type": 5,
+      "flags": 2,
+      "va": 180,
+      "off": 180,
+      "size": 1072,
+      "link": 2,
+      "info": 0,
+      "entsize": 4
+    },
+    {
+      "index": 2,
+      "name": ".dynsym",
+      "type": 11,
+      "flags": 2,
+      "va": 1252,
+      "off": 1252,
+      "size": 2160,
+      "link": 3,
+      "info": 11,
+      "entsize": 16
+    },
+    {
+      "index": 3,
+      "name": ".dynstr",
+      "type": 3,
+      "flags": 2,
+      "va": 3412,
+      "off": 3412,
+      "size": 2341,
+      "link": 0,
+      "info": 0,
+      "entsize": 0
+    },
+    {
+      "index": 4,
+      "name": ".gnu.version",
+      "type": 1879048191,
+      "flags": 2,
+      "va": 5754,
+      "off": 5754,
+      "size": 270,
+      "link": 2,
+      "info": 0,
+      "entsize": 2
+    },
+    {
+      "index": 5,
+      "name": ".gnu.version_r",
+      "type": 1879048190,
+      "flags": 2,
+      "va": 6024,
+      "off": 6024,
+      "size": 32,
+      "link": 3,
+      "info": 1,
+      "entsize": 0
+    },
+    {
+      "index": 6,
+      "name": ".rel.dyn",
+      "type": 9,
+      "flags": 2,
+      "va": 6056,
+      "off": 6056,
+      "size": 1592,
+      "link": 2,
+      "info": 0,
+      "entsize": 8
+    },
+    {
+      "index": 7,
+      "name": ".rel.plt",
+      "type": 9,
+      "flags": 2,
+      "va": 7648,
+      "off": 7648,
+      "size": 120,
+      "link": 2,
+      "info": 9,
+      "entsize": 8
+    },
+    {
+      "index": 8,
+      "name": ".init",
+      "type": 1,
+      "flags": 6,
+      "va": 7768,
+      "off": 7768,
+      "size": 4,
+      "link": 0,
+      "info": 0,
+      "entsize": 0
+    },
+    {
+      "index": 9,
+      "name": ".plt",
+      "type": 1,
+      "flags": 6,
+      "va": 7772,
+      "off": 7772,
+      "size": 200,
+      "link": 0,
+      "info": 0,
+      "entsize": 4
+    },
+    {
+      "index": 10,
+      "name": ".text",
+      "type": 1,
+      "flags": 6,
+      "va": 7972,
+      "off": 7972,
+      "size": 2748,
+      "link": 0,
+      "info": 0,
+      "entsize": 0
+    },
+    {
+      "index": 11,
+      "name": ".fini",
+      "type": 1,
+      "flags": 6,
+      "va": 10720,
+      "off": 10720,
+      "size": 4,
+      "link": 0,
+      "info": 0,
+      "entsize": 0
+    },
+    {
+      "index": 12,
+      "name": ".rodata",
+      "type": 1,
+      "flags": 2,
+      "va": 10724,
+      "off": 10724,
+      "size": 272,
+      "link": 0,
+      "info": 0,
+      "entsize": 0
+    },
+    {
+      "index": 13,
+      "name": ".note.ABI-tag",
+      "type": 7,
+      "flags": 2,
+      "va": 10996,
+      "off": 10996,
+      "size": 32,
+      "link": 0,
+      "info": 0,
+      "entsize": 0
+    },
+    {
+      "index": 14,
+      "name": ".eh_frame",
+      "type": 1,
+      "flags": 3,
+      "va": 45056,
+      "off": 12288,
+      "size": 4,
+      "link": 0,
+      "info": 0,
+      "entsize": 0
+    },
+    {
+      "index": 15,
+      "name": ".ctors",
+      "type": 1,
+      "flags": 3,
+      "va": 45060,
+      "off": 12292,
+      "size": 12,
+      "link": 0,
+      "info": 0,
+      "entsize": 0
+    },
+    {
+      "index": 16,
+      "name": ".dtors",
+      "type": 1,
+      "flags": 3,
+      "va": 45072,
+      "off": 12304,
+      "size": 8,
+      "link": 0,
+      "info": 0,
+      "entsize": 0
+    },
+    {
+      "index": 17,
+      "name": ".data.rel.ro",
+      "type": 1,
+      "flags": 3,
+      "va": 45080,
+      "off": 12312,
+      "size": 576,
+      "link": 0,
+      "info": 0,
+      "entsize": 0
+    },
+    {
+      "index": 18,
+      "name": ".dynamic",
+      "type": 6,
+      "flags": 3,
+      "va": 45656,
+      "off": 12888,
+      "size": 216,
+      "link": 3,
+      "info": 0,
+      "entsize": 8
+    },
+    {
+      "index": 19,
+      "name": ".got",
+      "type": 1,
+      "flags": 3,
+      "va": 45872,
+      "off": 13104,
+      "size": 152,
+      "link": 0,
+      "info": 0,
+      "entsize": 4
+    },
+    {
+      "index": 20,
+      "name": ".data",
+      "type": 1,
+      "flags": 3,
+      "va": 46024,
+      "off": 13256,
+      "size": 79156,
+      "link": 0,
+      "info": 0,
+      "entsize": 0
+    },
+    {
+      "index": 21,
+      "name": ".bss",
+      "type": 8,
+      "flags": 3,
+      "va": 125180,
+      "off": 92412,
+      "size": 64,
+      "link": 0,
+      "info": 0,
+      "entsize": 0
+    },
+    {
+      "index": 22,
+      "name": ".comment",
+      "type": 1,
+      "flags": 0,
+      "va": 0,
+      "off": 92412,
+      "size": 180,
+      "link": 0,
+      "info": 0,
+      "entsize": 0
+    },
+    {
+      "index": 23,
+      "name": ".shstrtab",
+      "type": 3,
+      "flags": 0,
+      "va": 0,
+      "off": 92592,
+      "size": 190,
+      "link": 0,
+      "info": 0,
+      "entsize": 0
+    }
+  ],
+  "symbols": [
+    {
+      "name": "__ps_strings",
+      "value": 125180,
+      "size": 4,
+      "type": 1,
+      "section_index": 21,
+      "section": ".bss"
+    },
+    {
+      "name": "_ZN12PackageTableC2Ev",
+      "value": 9612,
+      "size": 48,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 9612
+    },
+    {
+      "name": "_ZN18DataTableInterfaceD1Ev",
+      "value": 9512,
+      "size": 48,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 9512
+    },
+    {
+      "name": "_ZN10ResetTable19getAllResetComDatasEv",
+      "value": 10580,
+      "size": 40,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 10580
+    },
+    {
+      "name": "_ZTS18DataTableInterface",
+      "value": 10880,
+      "size": 21,
+      "type": 1,
+      "section_index": 12,
+      "section": ".rodata",
+      "file_offset": 10880
+    },
+    {
+      "name": "_ZN10ResetTable11getResetNumEv",
+      "value": 10432,
+      "size": 20,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 10432
+    },
+    {
+      "name": "HOST_PROD_SYS_NUM",
+      "value": 10864,
+      "size": 4,
+      "type": 1,
+      "section_index": 12,
+      "section": ".rodata",
+      "file_offset": 10864
+    },
+    {
+      "name": "ResetInitProd0",
+      "value": 125228,
+      "size": 0,
+      "type": 1,
+      "section_index": 21,
+      "section": ".bss"
+    },
+    {
+      "name": "TblSysInit",
+      "value": 87968,
+      "size": 36864,
+      "type": 1,
+      "section_index": 20,
+      "section": ".data",
+      "file_offset": 55200
+    },
+    {
+      "name": "_ZTI10ResetTable",
+      "value": 125124,
+      "size": 12,
+      "type": 1,
+      "section_index": 20,
+      "section": ".data",
+      "file_offset": 92356
+    },
+    {
+      "name": "_start",
+      "value": 7972,
+      "size": 0,
+      "type": 0,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 7972
+    },
+    {
+      "name": "_ZN21PackageTableInterfaceD0Ev",
+      "value": 10136,
+      "size": 52,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 10136
+    },
+    {
+      "name": "_ZN12PackageTable11getGroupNumEv",
+      "value": 9856,
+      "size": 20,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 9856
+    },
+    {
+      "name": "_ZN12PackageTable13getCategoryIdEj",
+      "value": 9896,
+      "size": 44,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 9896
+    },
+    {
+      "name": "_ZTI9DataTable",
+      "value": 124876,
+      "size": 12,
+      "type": 1,
+      "section_index": 20,
+      "section": ".data",
+      "file_offset": 92108
+    },
+    {
+      "name": "ResetInitComAll",
+      "value": 47336,
+      "size": 112,
+      "type": 1,
+      "section_index": 20,
+      "section": ".data",
+      "file_offset": 14568
+    },
+    {
+      "name": "_ZTV12PackageTable",
+      "value": 124988,
+      "size": 40,
+      "type": 1,
+      "section_index": 20,
+      "section": ".data",
+      "file_offset": 92220
+    },
+    {
+      "name": "TblFrontRegInit",
+      "value": 50608,
+      "size": 248,
+      "type": 1,
+      "section_index": 20,
+      "section": ".data",
+      "file_offset": 17840
+    },
+    {
+      "name": "__progname",
+      "value": 0,
+      "size": 4,
+      "type": 1,
+      "section_index": 0
+    },
+    {
+      "name": "_fini",
+      "value": 8556,
+      "size": 132,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 8556
+    },
+    {
+      "name": "_ZN9DataTable7getSizeEj",
+      "value": 9240,
+      "size": 28,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 9240
+    },
+    {
+      "name": "_ZTS21PackageTableInterface",
+      "value": 10916,
+      "size": 24,
+      "type": 1,
+      "section_index": 12,
+      "section": ".rodata",
+      "file_offset": 10916
+    },
+    {
+      "name": "_ZTI18DataTableInterface",
+      "value": 124888,
+      "size": 8,
+      "type": 1,
+      "section_index": 20,
+      "section": ".data",
+      "file_offset": 92120
+    },
+    {
+      "name": "__cxa_finalize",
+      "value": 0,
+      "size": 412,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "___start",
+      "value": 8136,
+      "size": 272,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 8136
+    },
+    {
+      "name": "_ZdlPv",
+      "value": 0,
+      "size": 44,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "HOST_COM_SYS",
+      "value": 46468,
+      "size": 260,
+      "type": 1,
+      "section_index": 20,
+      "section": ".data",
+      "file_offset": 13700
+    },
+    {
+      "name": "_ZN9DataTableD1Ev",
+      "value": 9016,
+      "size": 48,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 9016
+    },
+    {
+      "name": "ResetInitCom0",
+      "value": 47448,
+      "size": 88,
+      "type": 1,
+      "section_index": 20,
+      "section": ".data",
+      "file_offset": 14680
+    },
+    {
+      "name": "_ZN9DataTableC2Ev",
+      "value": 8872,
+      "size": 48,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 8872
+    },
+    {
+      "name": "_ZN9DataTable11getDataKindEj",
+      "value": 9268,
+      "size": 28,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 9268
+    },
+    {
+      "name": "_ZN10ResetTableD1Ev",
+      "value": 10332,
+      "size": 48,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 10332
+    },
+    {
+      "name": "_ZN21PackageTableInterfaceD1Ev",
+      "value": 10088,
+      "size": 48,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 10088
+    },
+    {
+      "name": "_ZN12PackageTableC1Ev",
+      "value": 9660,
+      "size": 48,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 9660
+    },
+    {
+      "name": "_ZN9DataTableD2Ev",
+      "value": 8968,
+      "size": 48,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 8968
+    },
+    {
+      "name": "HOST_PROD_USR_NUM",
+      "value": 10856,
+      "size": 4,
+      "type": 1,
+      "section_index": 12,
+      "section": ".rodata",
+      "file_offset": 10856
+    },
+    {
+      "name": "HOST_PROD_USR",
+      "value": 46028,
+      "size": 140,
+      "type": 1,
+      "section_index": 20,
+      "section": ".data",
+      "file_offset": 13260
+    },
+    {
+      "name": "_ZTI21PackageTableInterface",
+      "value": 125040,
+      "size": 8,
+      "type": 1,
+      "section_index": 20,
+      "section": ".data",
+      "file_offset": 92272
+    },
+    {
+      "name": "__cxa_pure_virtual",
+      "value": 0,
+      "size": 56,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "_ZN19ResetTableInterfaceD1Ev",
+      "value": 10620,
+      "size": 48,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 10620
+    },
+    {
+      "name": "_ZN10ResetTableD2Ev",
+      "value": 10284,
+      "size": 48,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 10284
+    },
+    {
+      "name": "TblUsrInit",
+      "value": 47536,
+      "size": 3072,
+      "type": 1,
+      "section_index": 20,
+      "section": ".data",
+      "file_offset": 14768
+    },
+    {
+      "name": "atexit",
+      "value": 0,
+      "size": 12,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "_ZN10ResetTableC1Ev",
+      "value": 10236,
+      "size": 48,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 10236
+    },
+    {
+      "name": "_rtld_setup",
+      "value": 8020,
+      "size": 116,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 8020
+    },
+    {
+      "name": "_ZTV18DataTableInterface",
+      "value": 124944,
+      "size": 44,
+      "type": 1,
+      "section_index": 20,
+      "section": ".data",
+      "file_offset": 92176
+    },
+    {
+      "name": "_ZN12PackageTableD2Ev",
+      "value": 9708,
+      "size": 48,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 9708
+    },
+    {
+      "name": "_exit",
+      "value": 0,
+      "size": 16,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "__data_start",
+      "value": 46024,
+      "size": 0,
+      "type": 0,
+      "section_index": 20,
+      "section": ".data",
+      "file_offset": 13256
+    },
+    {
+      "name": "_ZN10ResetTableD0Ev",
+      "value": 10380,
+      "size": 52,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 10380
+    },
+    {
+      "name": "HOST_COM_USR",
+      "value": 46168,
+      "size": 280,
+      "type": 1,
+      "section_index": 20,
+      "section": ".data",
+      "file_offset": 13400
+    },
+    {
+      "name": "_ZN12PackageTableD0Ev",
+      "value": 9804,
+      "size": 52,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 9804
+    },
+    {
+      "name": "__bss_start__",
+      "value": 125180,
+      "size": 0,
+      "type": 0,
+      "section_index": 65521
+    },
+    {
+      "name": "_ZN9DataTable13getCategoryIdEj",
+      "value": 9188,
+      "size": 24,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 9188
+    },
+    {
+      "name": "HOST_PROD_REG_NUM",
+      "value": 10872,
+      "size": 4,
+      "type": 1,
+      "section_index": 12,
+      "section": ".rodata",
+      "file_offset": 10872
+    },
+    {
+      "name": "_ZN9DataTable10getBitSizeEj",
+      "value": 9324,
+      "size": 28,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 9324
+    },
+    {
+      "name": "HOST_COM_REG_NUM",
+      "value": 10876,
+      "size": 4,
+      "type": 1,
+      "section_index": 12,
+      "section": ".rodata",
+      "file_offset": 10876
+    },
+    {
+      "name": "_ZN12PackageTable9getOffsetEj",
+      "value": 9940,
+      "size": 48,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 9940
+    },
+    {
+      "name": "_ZN12PackageTable15getVariationNumEv",
+      "value": 9876,
+      "size": 20,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 9876
+    },
+    {
+      "name": "HOST_COM_USR_NUM",
+      "value": 10860,
+      "size": 4,
+      "type": 1,
+      "section_index": 12,
+      "section": ".rodata",
+      "file_offset": 10860
+    },
+    {
+      "name": "_ZN10ResetTable13getResetDatasEj",
+      "value": 10452,
+      "size": 44,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 10452
+    },
+    {
+      "name": "write",
+      "value": 0,
+      "size": 16,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "HOST_PROD_REG",
+      "value": 46728,
+      "size": 260,
+      "type": 1,
+      "section_index": 20,
+      "section": ".data",
+      "file_offset": 13960
+    },
+    {
+      "name": "_ZTV10ResetTable",
+      "value": 125088,
+      "size": 36,
+      "type": 1,
+      "section_index": 20,
+      "section": ".data",
+      "file_offset": 92320
+    },
+    {
+      "name": "ResetInitCom1",
+      "value": 125236,
+      "size": 0,
+      "type": 1,
+      "section_index": 21,
+      "section": ".bss"
+    },
+    {
+      "name": "__start",
+      "value": 7972,
+      "size": 0,
+      "type": 0,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 7972
+    },
+    {
+      "name": "__end__",
+      "value": 125244,
+      "size": 0,
+      "type": 0,
+      "section_index": 65521
+    },
+    {
+      "name": "__bss_end__",
+      "value": 125244,
+      "size": 0,
+      "type": 0,
+      "section_index": 65521
+    },
+    {
+      "name": "ResetInitProd2",
+      "value": 125220,
+      "size": 0,
+      "type": 1,
+      "section_index": 21,
+      "section": ".bss"
+    },
+    {
+      "name": "_ZN18DataTableInterfaceD0Ev",
+      "value": 9560,
+      "size": 52,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 9560
+    },
+    {
+      "name": "_ZTS10ResetTable",
+      "value": 10980,
+      "size": 13,
+      "type": 1,
+      "section_index": 12,
+      "section": ".rodata",
+      "file_offset": 10980
+    },
+    {
+      "name": "HOST_COM_REG",
+      "value": 46988,
+      "size": 220,
+      "type": 1,
+      "section_index": 20,
+      "section": ".data",
+      "file_offset": 14220
+    },
+    {
+      "name": "initialize_malloc",
+      "value": 0,
+      "size": 52,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "_ZTI19ResetTableInterface",
+      "value": 125136,
+      "size": 8,
+      "type": 1,
+      "section_index": 20,
+      "section": ".data",
+      "file_offset": 92368
+    },
+    {
+      "name": "_ZTV9DataTable",
+      "value": 124832,
+      "size": 44,
+      "type": 1,
+      "section_index": 20,
+      "section": ".data",
+      "file_offset": 92064
+    },
+    {
+      "name": "_ZN12PackageTable7getDataEjj",
+      "value": 10036,
+      "size": 52,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 10036
+    },
+    {
+      "name": "_ZTI12PackageTable",
+      "value": 125028,
+      "size": 12,
+      "type": 1,
+      "section_index": 20,
+      "section": ".data",
+      "file_offset": 92260
+    },
+    {
+      "name": "noteABI",
+      "value": 10996,
+      "size": 32,
+      "type": 1,
+      "section_index": 13,
+      "section": ".note.ABI-tag",
+      "file_offset": 10996
+    },
+    {
+      "name": "__register_frame_info",
+      "value": 0,
+      "size": 12,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "_dladdr",
+      "value": 0,
+      "size": 0,
+      "type": 0,
+      "section_index": 0
+    },
+    {
+      "name": "_dlsym",
+      "value": 0,
+      "size": 0,
+      "type": 0,
+      "section_index": 0
+    },
+    {
+      "name": "_dlclose",
+      "value": 0,
+      "size": 0,
+      "type": 0,
+      "section_index": 0
+    },
+    {
+      "name": "_ZTVN10__cxxabiv117__class_type_infoE",
+      "value": 0,
+      "size": 44,
+      "type": 1,
+      "section_index": 0
+    },
+    {
+      "name": "_dlerror",
+      "value": 0,
+      "size": 0,
+      "type": 0,
+      "section_index": 0
+    },
+    {
+      "name": "__bss_start",
+      "value": 125180,
+      "size": 0,
+      "type": 0,
+      "section_index": 65521
+    },
+    {
+      "name": "_ZTV21PackageTableInterface",
+      "value": 125048,
+      "size": 40,
+      "type": 1,
+      "section_index": 20,
+      "section": ".data",
+      "file_offset": 92280
+    },
+    {
+      "name": "environ",
+      "value": 0,
+      "size": 4,
+      "type": 1,
+      "section_index": 0
+    },
+    {
+      "name": "_ZTV19ResetTableInterface",
+      "value": 125144,
+      "size": 36,
+      "type": 1,
+      "section_index": 20,
+      "section": ".data",
+      "file_offset": 92376
+    },
+    {
+      "name": "_bss_end__",
+      "value": 125244,
+      "size": 0,
+      "type": 0,
+      "section_index": 65521
+    },
+    {
+      "name": "_ZTS9DataTable",
+      "value": 10904,
+      "size": 11,
+      "type": 1,
+      "section_index": 12,
+      "section": ".rodata",
+      "file_offset": 10904
+    },
+    {
+      "name": "_ZN10ResetTable16getAllResetDatasEv",
+      "value": 10496,
+      "size": 40,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 10496
+    },
+    {
+      "name": "_dlopen",
+      "value": 0,
+      "size": 0,
+      "type": 0,
+      "section_index": 0
+    },
+    {
+      "name": "_ZN9DataTable9getOffsetEj",
+      "value": 9212,
+      "size": 28,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 9212
+    },
+    {
+      "name": "ResetInitCom2",
+      "value": 125232,
+      "size": 0,
+      "type": 1,
+      "section_index": 21,
+      "section": ".bss"
+    },
+    {
+      "name": "TblRegInit",
+      "value": 51104,
+      "size": 36864,
+      "type": 1,
+      "section_index": 20,
+      "section": ".data",
+      "file_offset": 18336
+    },
+    {
+      "name": "ResetInitProdAll",
+      "value": 47280,
+      "size": 56,
+      "type": 1,
+      "section_index": 20,
+      "section": ".data",
+      "file_offset": 14512
+    },
+    {
+      "name": "_ZN9DataTable13isValidDataIdEj",
+      "value": 9116,
+      "size": 72,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 9116
+    },
+    {
+      "name": "_end",
+      "value": 125244,
+      "size": 0,
+      "type": 0,
+      "section_index": 65521
+    },
+    {
+      "name": "__mainprog_obj",
+      "value": 125240,
+      "size": 4,
+      "type": 1,
+      "section_index": 21,
+      "section": ".bss"
+    },
+    {
+      "name": "exit",
+      "value": 0,
+      "size": 76,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "HOST_COM_SYS_NUM",
+      "value": 10868,
+      "size": 4,
+      "type": 1,
+      "section_index": 12,
+      "section": ".rodata",
+      "file_offset": 10868
+    },
+    {
+      "name": "_ZN12PackageTable7getSizeEj",
+      "value": 9988,
+      "size": 48,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 9988
+    },
+    {
+      "name": "ResetInitProd1",
+      "value": 125224,
+      "size": 0,
+      "type": 1,
+      "section_index": 21,
+      "section": ".bss"
+    },
+    {
+      "name": "slibc_pthread_initialize",
+      "value": 0,
+      "size": 8,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "_ZN9DataTable10getBitMaskEj",
+      "value": 9296,
+      "size": 28,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 9296
+    },
+    {
+      "name": "_libnsl_lock_init",
+      "value": 0,
+      "size": 268,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "_ZN12PackageTableD1Ev",
+      "value": 9756,
+      "size": 48,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 9756
+    },
+    {
+      "name": "__deregister_frame_info",
+      "value": 0,
+      "size": 4,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "TblFrontSysInit",
+      "value": 50856,
+      "size": 248,
+      "type": 1,
+      "section_index": 20,
+      "section": ".data",
+      "file_offset": 18088
+    },
+    {
+      "name": "BkupdataCtr",
+      "value": 47208,
+      "size": 72,
+      "type": 1,
+      "section_index": 20,
+      "section": ".data",
+      "file_offset": 14440
+    },
+    {
+      "name": "_ZN9DataTableC1Ev",
+      "value": 8920,
+      "size": 48,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 8920
+    },
+    {
+      "name": "_ZN9DataTableD0Ev",
+      "value": 9064,
+      "size": 52,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 9064
+    },
+    {
+      "name": "_ZN10ResetTable16getResetComDatasEj",
+      "value": 10536,
+      "size": 44,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 10536
+    },
+    {
+      "name": "_edata",
+      "value": 125180,
+      "size": 0,
+      "type": 0,
+      "section_index": 65521
+    },
+    {
+      "name": "_ZTS19ResetTableInterface",
+      "value": 10956,
+      "size": 22,
+      "type": 1,
+      "section_index": 12,
+      "section": ".rodata",
+      "file_offset": 10956
+    },
+    {
+      "name": "puts",
+      "value": 0,
+      "size": 180,
+      "type": 2,
+      "section_index": 0
+    },
+    {
+      "name": "_ZN19ResetTableInterfaceD0Ev",
+      "value": 10668,
+      "size": 52,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 10668
+    },
+    {
+      "name": "_ZTS12PackageTable",
+      "value": 10940,
+      "size": 15,
+      "type": 1,
+      "section_index": 12,
+      "section": ".rodata",
+      "file_offset": 10940
+    },
+    {
+      "name": "_ZTVN10__cxxabiv120__si_class_type_infoE",
+      "value": 0,
+      "size": 44,
+      "type": 1,
+      "section_index": 0
+    },
+    {
+      "name": "HOST_PROD_SYS",
+      "value": 46448,
+      "size": 20,
+      "type": 1,
+      "section_index": 20,
+      "section": ".data",
+      "file_offset": 13680
+    },
+    {
+      "name": "main",
+      "value": 0,
+      "size": 0,
+      "type": 0,
+      "section_index": 0
+    },
+    {
+      "name": "_DYNAMIC",
+      "value": 45656,
+      "size": 0,
+      "type": 1,
+      "section_index": 65521
+    },
+    {
+      "name": "_init",
+      "value": 8408,
+      "size": 148,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 8408
+    },
+    {
+      "name": "_ZN10ResetTableC2Ev",
+      "value": 10188,
+      "size": 48,
+      "type": 2,
+      "section_index": 10,
+      "section": ".text",
+      "file_offset": 10188
+    }
+  ],
+  "relocations": [
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45064,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45988,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 46024,
+      "type": 23,
+      "symbol": "",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45096,
+      "type": 2,
+      "symbol": "TblRegInit",
+      "symbol_value": 51104,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45100,
+      "type": 2,
+      "symbol": "TblRegInit",
+      "symbol_value": 51104,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45104,
+      "type": 2,
+      "symbol": "TblRegInit",
+      "symbol_value": 51104,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45108,
+      "type": 2,
+      "symbol": "TblRegInit",
+      "symbol_value": 51104,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45112,
+      "type": 2,
+      "symbol": "TblRegInit",
+      "symbol_value": 51104,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45116,
+      "type": 2,
+      "symbol": "TblRegInit",
+      "symbol_value": 51104,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45120,
+      "type": 2,
+      "symbol": "TblRegInit",
+      "symbol_value": 51104,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45124,
+      "type": 2,
+      "symbol": "TblRegInit",
+      "symbol_value": 51104,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45128,
+      "type": 2,
+      "symbol": "TblRegInit",
+      "symbol_value": 51104,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45132,
+      "type": 2,
+      "symbol": "TblRegInit",
+      "symbol_value": 51104,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45136,
+      "type": 2,
+      "symbol": "TblRegInit",
+      "symbol_value": 51104,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45140,
+      "type": 2,
+      "symbol": "TblRegInit",
+      "symbol_value": 51104,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45160,
+      "type": 2,
+      "symbol": "TblRegInit",
+      "symbol_value": 51104,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45164,
+      "type": 2,
+      "symbol": "TblRegInit",
+      "symbol_value": 51104,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45168,
+      "type": 2,
+      "symbol": "TblRegInit",
+      "symbol_value": 51104,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45172,
+      "type": 2,
+      "symbol": "TblRegInit",
+      "symbol_value": 51104,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45176,
+      "type": 2,
+      "symbol": "TblRegInit",
+      "symbol_value": 51104,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45180,
+      "type": 2,
+      "symbol": "TblRegInit",
+      "symbol_value": 51104,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45184,
+      "type": 2,
+      "symbol": "TblRegInit",
+      "symbol_value": 51104,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45188,
+      "type": 2,
+      "symbol": "TblRegInit",
+      "symbol_value": 51104,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45192,
+      "type": 2,
+      "symbol": "TblRegInit",
+      "symbol_value": 51104,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45196,
+      "type": 2,
+      "symbol": "TblRegInit",
+      "symbol_value": 51104,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45200,
+      "type": 2,
+      "symbol": "TblRegInit",
+      "symbol_value": 51104,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45204,
+      "type": 2,
+      "symbol": "TblRegInit",
+      "symbol_value": 51104,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45224,
+      "type": 2,
+      "symbol": "TblSysInit",
+      "symbol_value": 87968,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45228,
+      "type": 2,
+      "symbol": "TblSysInit",
+      "symbol_value": 87968,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45232,
+      "type": 2,
+      "symbol": "TblSysInit",
+      "symbol_value": 87968,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45236,
+      "type": 2,
+      "symbol": "TblSysInit",
+      "symbol_value": 87968,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45240,
+      "type": 2,
+      "symbol": "TblSysInit",
+      "symbol_value": 87968,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45244,
+      "type": 2,
+      "symbol": "TblSysInit",
+      "symbol_value": 87968,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45248,
+      "type": 2,
+      "symbol": "TblSysInit",
+      "symbol_value": 87968,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45252,
+      "type": 2,
+      "symbol": "TblSysInit",
+      "symbol_value": 87968,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45256,
+      "type": 2,
+      "symbol": "TblSysInit",
+      "symbol_value": 87968,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45260,
+      "type": 2,
+      "symbol": "TblSysInit",
+      "symbol_value": 87968,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45264,
+      "type": 2,
+      "symbol": "TblSysInit",
+      "symbol_value": 87968,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45268,
+      "type": 2,
+      "symbol": "TblSysInit",
+      "symbol_value": 87968,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45288,
+      "type": 2,
+      "symbol": "TblSysInit",
+      "symbol_value": 87968,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45292,
+      "type": 2,
+      "symbol": "TblSysInit",
+      "symbol_value": 87968,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45296,
+      "type": 2,
+      "symbol": "TblSysInit",
+      "symbol_value": 87968,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45300,
+      "type": 2,
+      "symbol": "TblSysInit",
+      "symbol_value": 87968,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45304,
+      "type": 2,
+      "symbol": "TblSysInit",
+      "symbol_value": 87968,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45308,
+      "type": 2,
+      "symbol": "TblSysInit",
+      "symbol_value": 87968,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45312,
+      "type": 2,
+      "symbol": "TblSysInit",
+      "symbol_value": 87968,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45316,
+      "type": 2,
+      "symbol": "TblSysInit",
+      "symbol_value": 87968,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45320,
+      "type": 2,
+      "symbol": "TblSysInit",
+      "symbol_value": 87968,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45324,
+      "type": 2,
+      "symbol": "TblSysInit",
+      "symbol_value": 87968,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45328,
+      "type": 2,
+      "symbol": "TblSysInit",
+      "symbol_value": 87968,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45332,
+      "type": 2,
+      "symbol": "TblSysInit",
+      "symbol_value": 87968,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45352,
+      "type": 2,
+      "symbol": "TblUsrInit",
+      "symbol_value": 47536,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45356,
+      "type": 2,
+      "symbol": "TblUsrInit",
+      "symbol_value": 47536,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45360,
+      "type": 2,
+      "symbol": "TblUsrInit",
+      "symbol_value": 47536,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45364,
+      "type": 2,
+      "symbol": "TblUsrInit",
+      "symbol_value": 47536,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45368,
+      "type": 2,
+      "symbol": "TblUsrInit",
+      "symbol_value": 47536,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45372,
+      "type": 2,
+      "symbol": "TblUsrInit",
+      "symbol_value": 47536,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45376,
+      "type": 2,
+      "symbol": "TblUsrInit",
+      "symbol_value": 47536,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45380,
+      "type": 2,
+      "symbol": "TblUsrInit",
+      "symbol_value": 47536,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45384,
+      "type": 2,
+      "symbol": "TblUsrInit",
+      "symbol_value": 47536,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45388,
+      "type": 2,
+      "symbol": "TblUsrInit",
+      "symbol_value": 47536,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45392,
+      "type": 2,
+      "symbol": "TblUsrInit",
+      "symbol_value": 47536,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45396,
+      "type": 2,
+      "symbol": "TblUsrInit",
+      "symbol_value": 47536,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45416,
+      "type": 2,
+      "symbol": "TblUsrInit",
+      "symbol_value": 47536,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45420,
+      "type": 2,
+      "symbol": "TblUsrInit",
+      "symbol_value": 47536,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45424,
+      "type": 2,
+      "symbol": "TblUsrInit",
+      "symbol_value": 47536,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45428,
+      "type": 2,
+      "symbol": "TblUsrInit",
+      "symbol_value": 47536,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45432,
+      "type": 2,
+      "symbol": "TblUsrInit",
+      "symbol_value": 47536,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45436,
+      "type": 2,
+      "symbol": "TblUsrInit",
+      "symbol_value": 47536,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45440,
+      "type": 2,
+      "symbol": "TblUsrInit",
+      "symbol_value": 47536,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45444,
+      "type": 2,
+      "symbol": "TblUsrInit",
+      "symbol_value": 47536,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45448,
+      "type": 2,
+      "symbol": "TblUsrInit",
+      "symbol_value": 47536,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45452,
+      "type": 2,
+      "symbol": "TblUsrInit",
+      "symbol_value": 47536,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45456,
+      "type": 2,
+      "symbol": "TblUsrInit",
+      "symbol_value": 47536,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45460,
+      "type": 2,
+      "symbol": "TblUsrInit",
+      "symbol_value": 47536,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45480,
+      "type": 2,
+      "symbol": "TblFrontRegInit",
+      "symbol_value": 50608,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45484,
+      "type": 2,
+      "symbol": "TblFrontRegInit",
+      "symbol_value": 50608,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45488,
+      "type": 2,
+      "symbol": "TblFrontRegInit",
+      "symbol_value": 50608,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45492,
+      "type": 2,
+      "symbol": "TblFrontRegInit",
+      "symbol_value": 50608,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45496,
+      "type": 2,
+      "symbol": "TblFrontRegInit",
+      "symbol_value": 50608,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45500,
+      "type": 2,
+      "symbol": "TblFrontRegInit",
+      "symbol_value": 50608,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45504,
+      "type": 2,
+      "symbol": "TblFrontRegInit",
+      "symbol_value": 50608,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45508,
+      "type": 2,
+      "symbol": "TblFrontRegInit",
+      "symbol_value": 50608,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45544,
+      "type": 2,
+      "symbol": "TblFrontSysInit",
+      "symbol_value": 50856,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45548,
+      "type": 2,
+      "symbol": "TblFrontSysInit",
+      "symbol_value": 50856,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45552,
+      "type": 2,
+      "symbol": "TblFrontSysInit",
+      "symbol_value": 50856,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45556,
+      "type": 2,
+      "symbol": "TblFrontSysInit",
+      "symbol_value": 50856,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45560,
+      "type": 2,
+      "symbol": "TblFrontSysInit",
+      "symbol_value": 50856,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45564,
+      "type": 2,
+      "symbol": "TblFrontSysInit",
+      "symbol_value": 50856,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45568,
+      "type": 2,
+      "symbol": "TblFrontSysInit",
+      "symbol_value": 50856,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45572,
+      "type": 2,
+      "symbol": "TblFrontSysInit",
+      "symbol_value": 50856,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45596,
+      "type": 2,
+      "symbol": "ResetInitComAll",
+      "symbol_value": 47336,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45604,
+      "type": 2,
+      "symbol": "ResetInitCom0",
+      "symbol_value": 47448,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45612,
+      "type": 2,
+      "symbol": "ResetInitCom1",
+      "symbol_value": 125236,
+      "symbol_section": ".bss"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45620,
+      "type": 2,
+      "symbol": "ResetInitCom2",
+      "symbol_value": 125232,
+      "symbol_section": ".bss"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45628,
+      "type": 2,
+      "symbol": "ResetInitProdAll",
+      "symbol_value": 47280,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45636,
+      "type": 2,
+      "symbol": "ResetInitProd0",
+      "symbol_value": 125228,
+      "symbol_section": ".bss"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45644,
+      "type": 2,
+      "symbol": "ResetInitProd1",
+      "symbol_value": 125224,
+      "symbol_section": ".bss"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45652,
+      "type": 2,
+      "symbol": "ResetInitProd2",
+      "symbol_value": 125220,
+      "symbol_section": ".bss"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45944,
+      "type": 21,
+      "symbol": "HOST_PROD_SYS_NUM",
+      "symbol_value": 10864,
+      "symbol_section": ".rodata"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45948,
+      "type": 21,
+      "symbol": "_ZTV12PackageTable",
+      "symbol_value": 124988,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45952,
+      "type": 21,
+      "symbol": "__progname",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45956,
+      "type": 21,
+      "symbol": "_fini",
+      "symbol_value": 8556,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45960,
+      "type": 21,
+      "symbol": "__cxa_finalize",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45964,
+      "type": 21,
+      "symbol": "HOST_PROD_USR_NUM",
+      "symbol_value": 10856,
+      "symbol_section": ".rodata"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45968,
+      "type": 21,
+      "symbol": "_ZTV18DataTableInterface",
+      "symbol_value": 124944,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45972,
+      "type": 21,
+      "symbol": "HOST_PROD_REG_NUM",
+      "symbol_value": 10872,
+      "symbol_section": ".rodata"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45976,
+      "type": 21,
+      "symbol": "HOST_COM_REG_NUM",
+      "symbol_value": 10876,
+      "symbol_section": ".rodata"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45980,
+      "type": 21,
+      "symbol": "HOST_COM_USR_NUM",
+      "symbol_value": 10860,
+      "symbol_section": ".rodata"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45984,
+      "type": 21,
+      "symbol": "_ZTV10ResetTable",
+      "symbol_value": 125088,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45992,
+      "type": 21,
+      "symbol": "_ZTV9DataTable",
+      "symbol_value": 124832,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 45996,
+      "type": 21,
+      "symbol": "__register_frame_info",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 46000,
+      "type": 21,
+      "symbol": "_ZTV21PackageTableInterface",
+      "symbol_value": 125048,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 46004,
+      "type": 21,
+      "symbol": "environ",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 46008,
+      "type": 21,
+      "symbol": "_ZTV19ResetTableInterface",
+      "symbol_value": 125144,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 46012,
+      "type": 21,
+      "symbol": "HOST_COM_SYS_NUM",
+      "symbol_value": 10868,
+      "symbol_section": ".rodata"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 46016,
+      "type": 21,
+      "symbol": "__deregister_frame_info",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 46020,
+      "type": 21,
+      "symbol": "_DYNAMIC",
+      "symbol_value": 45656,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 47208,
+      "type": 2,
+      "symbol": "HOST_COM_REG",
+      "symbol_value": 46988,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 124896,
+      "type": 2,
+      "symbol": "HOST_COM_REG",
+      "symbol_value": 46988,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 47220,
+      "type": 2,
+      "symbol": "HOST_PROD_REG",
+      "symbol_value": 46728,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 124904,
+      "type": 2,
+      "symbol": "HOST_PROD_REG",
+      "symbol_value": 46728,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 47232,
+      "type": 2,
+      "symbol": "HOST_COM_SYS",
+      "symbol_value": 46468,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 124912,
+      "type": 2,
+      "symbol": "HOST_COM_SYS",
+      "symbol_value": 46468,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 47244,
+      "type": 2,
+      "symbol": "HOST_PROD_SYS",
+      "symbol_value": 46448,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 124920,
+      "type": 2,
+      "symbol": "HOST_PROD_SYS",
+      "symbol_value": 46448,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 47256,
+      "type": 2,
+      "symbol": "HOST_COM_USR",
+      "symbol_value": 46168,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 124928,
+      "type": 2,
+      "symbol": "HOST_COM_USR",
+      "symbol_value": 46168,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 47268,
+      "type": 2,
+      "symbol": "HOST_PROD_USR",
+      "symbol_value": 46028,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 124936,
+      "type": 2,
+      "symbol": "HOST_PROD_USR",
+      "symbol_value": 46028,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 124836,
+      "type": 2,
+      "symbol": "_ZTI9DataTable",
+      "symbol_value": 124876,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 124840,
+      "type": 2,
+      "symbol": "_ZN9DataTableD1Ev",
+      "symbol_value": 9016,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 124844,
+      "type": 2,
+      "symbol": "_ZN9DataTableD0Ev",
+      "symbol_value": 9064,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 124848,
+      "type": 2,
+      "symbol": "_ZN9DataTable13isValidDataIdEj",
+      "symbol_value": 9116,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 124852,
+      "type": 2,
+      "symbol": "_ZN9DataTable13getCategoryIdEj",
+      "symbol_value": 9188,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 124856,
+      "type": 2,
+      "symbol": "_ZN9DataTable9getOffsetEj",
+      "symbol_value": 9212,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 124860,
+      "type": 2,
+      "symbol": "_ZN9DataTable7getSizeEj",
+      "symbol_value": 9240,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 124864,
+      "type": 2,
+      "symbol": "_ZN9DataTable11getDataKindEj",
+      "symbol_value": 9268,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 124868,
+      "type": 2,
+      "symbol": "_ZN9DataTable10getBitMaskEj",
+      "symbol_value": 9296,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 124872,
+      "type": 2,
+      "symbol": "_ZN9DataTable10getBitSizeEj",
+      "symbol_value": 9324,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 124876,
+      "type": 2,
+      "symbol": "_ZTVN10__cxxabiv120__si_class_type_infoE",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 125028,
+      "type": 2,
+      "symbol": "_ZTVN10__cxxabiv120__si_class_type_infoE",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 125124,
+      "type": 2,
+      "symbol": "_ZTVN10__cxxabiv120__si_class_type_infoE",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 124880,
+      "type": 2,
+      "symbol": "_ZTS9DataTable",
+      "symbol_value": 10904,
+      "symbol_section": ".rodata"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 124884,
+      "type": 2,
+      "symbol": "_ZTI18DataTableInterface",
+      "symbol_value": 124888,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 124948,
+      "type": 2,
+      "symbol": "_ZTI18DataTableInterface",
+      "symbol_value": 124888,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 124888,
+      "type": 2,
+      "symbol": "_ZTVN10__cxxabiv117__class_type_infoE",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 125040,
+      "type": 2,
+      "symbol": "_ZTVN10__cxxabiv117__class_type_infoE",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 125136,
+      "type": 2,
+      "symbol": "_ZTVN10__cxxabiv117__class_type_infoE",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 124892,
+      "type": 2,
+      "symbol": "_ZTS18DataTableInterface",
+      "symbol_value": 10880,
+      "symbol_section": ".rodata"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 124952,
+      "type": 2,
+      "symbol": "_ZN18DataTableInterfaceD1Ev",
+      "symbol_value": 9512,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 124956,
+      "type": 2,
+      "symbol": "_ZN18DataTableInterfaceD0Ev",
+      "symbol_value": 9560,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 124960,
+      "type": 2,
+      "symbol": "__cxa_pure_virtual",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 124964,
+      "type": 2,
+      "symbol": "__cxa_pure_virtual",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 124968,
+      "type": 2,
+      "symbol": "__cxa_pure_virtual",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 124972,
+      "type": 2,
+      "symbol": "__cxa_pure_virtual",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 124976,
+      "type": 2,
+      "symbol": "__cxa_pure_virtual",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 124980,
+      "type": 2,
+      "symbol": "__cxa_pure_virtual",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 124984,
+      "type": 2,
+      "symbol": "__cxa_pure_virtual",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 125064,
+      "type": 2,
+      "symbol": "__cxa_pure_virtual",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 125068,
+      "type": 2,
+      "symbol": "__cxa_pure_virtual",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 125072,
+      "type": 2,
+      "symbol": "__cxa_pure_virtual",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 125076,
+      "type": 2,
+      "symbol": "__cxa_pure_virtual",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 125080,
+      "type": 2,
+      "symbol": "__cxa_pure_virtual",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 125084,
+      "type": 2,
+      "symbol": "__cxa_pure_virtual",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 125160,
+      "type": 2,
+      "symbol": "__cxa_pure_virtual",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 125164,
+      "type": 2,
+      "symbol": "__cxa_pure_virtual",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 125168,
+      "type": 2,
+      "symbol": "__cxa_pure_virtual",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 125172,
+      "type": 2,
+      "symbol": "__cxa_pure_virtual",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 125176,
+      "type": 2,
+      "symbol": "__cxa_pure_virtual",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 124992,
+      "type": 2,
+      "symbol": "_ZTI12PackageTable",
+      "symbol_value": 125028,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 124996,
+      "type": 2,
+      "symbol": "_ZN12PackageTableD1Ev",
+      "symbol_value": 9756,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 125000,
+      "type": 2,
+      "symbol": "_ZN12PackageTableD0Ev",
+      "symbol_value": 9804,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 125004,
+      "type": 2,
+      "symbol": "_ZN12PackageTable11getGroupNumEv",
+      "symbol_value": 9856,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 125008,
+      "type": 2,
+      "symbol": "_ZN12PackageTable15getVariationNumEv",
+      "symbol_value": 9876,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 125012,
+      "type": 2,
+      "symbol": "_ZN12PackageTable13getCategoryIdEj",
+      "symbol_value": 9896,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 125016,
+      "type": 2,
+      "symbol": "_ZN12PackageTable9getOffsetEj",
+      "symbol_value": 9940,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 125020,
+      "type": 2,
+      "symbol": "_ZN12PackageTable7getSizeEj",
+      "symbol_value": 9988,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 125024,
+      "type": 2,
+      "symbol": "_ZN12PackageTable7getDataEjj",
+      "symbol_value": 10036,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 125032,
+      "type": 2,
+      "symbol": "_ZTS12PackageTable",
+      "symbol_value": 10940,
+      "symbol_section": ".rodata"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 125036,
+      "type": 2,
+      "symbol": "_ZTI21PackageTableInterface",
+      "symbol_value": 125040,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 125052,
+      "type": 2,
+      "symbol": "_ZTI21PackageTableInterface",
+      "symbol_value": 125040,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 125044,
+      "type": 2,
+      "symbol": "_ZTS21PackageTableInterface",
+      "symbol_value": 10916,
+      "symbol_section": ".rodata"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 125056,
+      "type": 2,
+      "symbol": "_ZN21PackageTableInterfaceD1Ev",
+      "symbol_value": 10088,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 125060,
+      "type": 2,
+      "symbol": "_ZN21PackageTableInterfaceD0Ev",
+      "symbol_value": 10136,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 125092,
+      "type": 2,
+      "symbol": "_ZTI10ResetTable",
+      "symbol_value": 125124,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 125096,
+      "type": 2,
+      "symbol": "_ZN10ResetTableD1Ev",
+      "symbol_value": 10332,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 125100,
+      "type": 2,
+      "symbol": "_ZN10ResetTableD0Ev",
+      "symbol_value": 10380,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 125104,
+      "type": 2,
+      "symbol": "_ZN10ResetTable11getResetNumEv",
+      "symbol_value": 10432,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 125108,
+      "type": 2,
+      "symbol": "_ZN10ResetTable13getResetDatasEj",
+      "symbol_value": 10452,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 125112,
+      "type": 2,
+      "symbol": "_ZN10ResetTable16getAllResetDatasEv",
+      "symbol_value": 10496,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 125116,
+      "type": 2,
+      "symbol": "_ZN10ResetTable16getResetComDatasEj",
+      "symbol_value": 10536,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 125120,
+      "type": 2,
+      "symbol": "_ZN10ResetTable19getAllResetComDatasEv",
+      "symbol_value": 10580,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 125128,
+      "type": 2,
+      "symbol": "_ZTS10ResetTable",
+      "symbol_value": 10980,
+      "symbol_section": ".rodata"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 125132,
+      "type": 2,
+      "symbol": "_ZTI19ResetTableInterface",
+      "symbol_value": 125136,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 125148,
+      "type": 2,
+      "symbol": "_ZTI19ResetTableInterface",
+      "symbol_value": 125136,
+      "symbol_section": ".data"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 125140,
+      "type": 2,
+      "symbol": "_ZTS19ResetTableInterface",
+      "symbol_value": 10956,
+      "symbol_section": ".rodata"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 125152,
+      "type": 2,
+      "symbol": "_ZN19ResetTableInterfaceD1Ev",
+      "symbol_value": 10620,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.dyn",
+      "target_section": null,
+      "offset": 125156,
+      "type": 2,
+      "symbol": "_ZN19ResetTableInterfaceD0Ev",
+      "symbol_value": 10668,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 45884,
+      "type": 22,
+      "symbol": "___start",
+      "symbol_value": 8136,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 45888,
+      "type": 22,
+      "symbol": "_ZdlPv",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 45892,
+      "type": 22,
+      "symbol": "__cxa_pure_virtual",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 45896,
+      "type": 22,
+      "symbol": "atexit",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 45900,
+      "type": 22,
+      "symbol": "_rtld_setup",
+      "symbol_value": 8020,
+      "symbol_section": ".text"
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 45904,
+      "type": 22,
+      "symbol": "_exit",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 45908,
+      "type": 22,
+      "symbol": "write",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 45912,
+      "type": 22,
+      "symbol": "initialize_malloc",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 45916,
+      "type": 22,
+      "symbol": "exit",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 45920,
+      "type": 22,
+      "symbol": "slibc_pthread_initialize",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 45924,
+      "type": 22,
+      "symbol": "_libnsl_lock_init",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 45928,
+      "type": 22,
+      "symbol": "__deregister_frame_info",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 45932,
+      "type": 22,
+      "symbol": "puts",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 45936,
+      "type": 22,
+      "symbol": "main",
+      "symbol_value": 0,
+      "symbol_section": null
+    },
+    {
+      "relocation_section": ".rel.plt",
+      "target_section": ".plt",
+      "offset": 45940,
+      "type": 22,
+      "symbol": "_init",
+      "symbol_value": 8408,
+      "symbol_section": ".text"
+    }
+  ]
+}

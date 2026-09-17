@@ -1,0 +1,391 @@
+[
+  {
+    "query": "collection:cdromsoftware AND sony AND date:[2006-01-01T00:00:00Z TO 2012-12-31T23:59:59Z]",
+    "url": "https://archive.org/advancedsearch.php?q=collection%3Acdromsoftware%20AND%20sony%20AND%20date%3A%5B2006-01-01T00%3A00%3A00Z%20TO%202012-12-31T23%3A59%3A59Z%5D&fl[]=identifier&fl[]=title&fl[]=description&rows=100&output=json",
+    "total": 60,
+    "docs": [
+      {
+        "description": "This was my first prototype that i ever dumped and was originally published on ObscureGamers. It is a late Preview of Playstation Move Heroes from the 3rd of December, 2010. It was Dumped in July 2018",
+        "identifier": "PlaystationMoveHeroes_3.12.2010",
+        "title": "Playstation Move Heroes 3rd December 2010"
+      },
+      {
+        "description": "Mainichi Issho (まいにちいっしょ, Mainichi Issho which translates as \"Everyday Together\") is a November 11, 2006 Sony Computer Entertainment online game for the PlayStation 3 . It is based on the Toro franchise, a cartoon character which is a mascot for SCEJ. This game is exclusively for the Japanese market. Its international title is Everyday Together ! as seen romanized in the Mainichi Issho Store. A PlayStation Portable port called Mainichi Issho Portable was released on October 15, 2008 and a sequel to the very first Dokodemo Issho game (Which was released on the PS1) titled Toro to Morimori was released on the PlayStation 3 on July 23, 2009. https://en.wikipedia.org/wiki/Mainichi_Issho",
+        "identifier": "mainichi-issho",
+        "title": "Mainichi Issho (Everyday Together!)"
+      },
+      {
+        "description": "This is the 'Wootonia Boom' CD-ROM ripped into a ZIP file so you will be able to launch it from your computer. This CD-ROM (and three other variants) was distributed in Happy Meals that can be bought from any McDonald's restaurant in Australia, and was available in April 2010. The three other discs each had other characters including Rok , Vim and  Zak .",
+        "identifier": "wootonia-boom",
+        "title": "Wootonia Boom"
+      },
+      {
+        "description": "CD distributed with Sony Ericsson K770i.",
+        "identifier": "sony-ericsson-k770i-cd",
+        "title": "Sony Ericsson K770i CD"
+      },
+      {
+        "description": "This is the 'Wootonia Zak' CD-ROM ripped into a ZIP file so you will be able to launch it from your computer. This CD-ROM (and three other variants) was distributed in Happy Meals that can be bought from any McDonald's restaurant in Australia, and was available in April 2010. The three other discs each had other characters including Boom , Vim and Rok .",
+        "identifier": "wootonia-zak",
+        "title": "Wootonia Zak"
+      },
+      {
+        "description": "Here's the ISO to one of the discs of the Volume 1 set of Sesame Street: Old School, as per request from a friend.",
+        "identifier": "old-school-disc-3",
+        "title": "Sesame Street: Old School - Volume 1 (2006 DVD, Disc 3)"
+      },
+      {
+        "description": "This is a copy of Sony Vegas Movie Studio 9 I have in my CD-ROM collection, and decided to create it to an ISO and upload it here. Enjoy! (No serial key is included)",
+        "identifier": "MovieStudio9",
+        "title": "Sony Vegas Movie Studio 9 CD-ROM"
+      },
+      {
+        "description": "Ratchet & Clank - Quest for Booty (Asia) (En,Zh)",
+        "identifier": "ratchetclankquestforbootyasiaenzh",
+        "title": "Ratchet & Clank - Quest for Booty (Asia) (En,Zh)"
+      },
+      {
+        "description": "A Late Debug Build of LittleBigPlanet that has Debugging Features Enabled  It has a Revision of \"r26479\"  it was Dumped & Released on 6/17/2019 by Yours Truly.",
+        "identifier": "LittleBigPlanetReviewBeta",
+        "title": "LittleBigPlanet Beta Review Build - (r26479, September 14 2008, BCES00141)"
+      },
+      {
+        "description": "MainConcept AAC Encoder 1.0.6 MainConcept AAC Encoder 1.0.6 (2010) ----------------------------------------------------------------------------- MainConcept AAC Encoder is the latest addition to MainConcept’s successful set of Plug-Ins to enrich Adobe products with state-of-the-art codec solutions. It offers professional AAC Encoding within the Adobe® Flash® Media Live Encoder 2.5 that only comes with Nellymoser or MP3 audio encoding as standard. Get better quality with AAC ----------------------------------------------------------------------------- AAC is the emerging future audio standard that might replace existing ones, such as MP3. It is already supported by popular devices such as Apple iPod, Sony PSP, Sony PS3, Nintendo Wii, various cell phones etc. Some technical snap-shots: AAC and HE-AAC offer a significantly better audio quality while using the same bit rate as other audio codecs, especially for bit rates below 192 kbps. AAC may only need a fraction of the bandwidth than MP3 for your field of application (e.g. broadcasting concerts), thus resulting file sizes will be smaller too. AAC offers a significantly higher coding as well as compression efficiency and allows you a higher flexibility in usage than MP3. Most importantly, saving bandwidth and having smaller file sizes means saving money – especially if your business relies on continuous video & audio streaming over scarce resources. Providing better audio quality to your audience and encoding efficiency only add to the advantages of the AAC encoding standard.  AAC was developed to be the successor of MP3. For more technical details on AAC you may refer to comprehensive public documents at Wikipedia. Adobe Flash Media Live Encoder 3.0 (FMLE) already includes the MainConcept H.264 Encoder technology to create professional video streams. Now using the AAC Encoder Plug-In, it additionally supports AAC (MPEG-4 AAC & HE Audio), enabling you to directly create and stream Flash compliant F4V or FLV files that include both H.264/AVC video and AAC audio. It is the perfect companion for FMLE, as it enables you to generate Flash compliant streams using these encoders on-the-fly. And your files are always compliant with the latest Flash Player version. Where to get the base application? ----------------------------------------------------------------------------- You can find more information about Adobe® Flash® Media Live Encoder and download information for the product at the following location: www.adobe.com/products/flash-media-encoder.html Features ----------------------------------------------------------------------------- Fully compliant to ISO/IEC 14496-3 (MPEG-4 AAC) and ISO/IEC 13818-7 (MPEG-2 AAC) Encodes PCM audio streams to MPEG-2 / MPEG-4 Low Complexity, HE AAC v1 as SBR, and HE AAC v2 as Parametric Stereo audio streams Supports output bit rates from 10 to 320 kbps Supports sample rates from 8 to 48 kHz Tech Specs ----------------------------------------------------------------------------- To use the AAC Encoder, you'll need to make sure that your computer system meets at least these minimum requirements: Operating systems: ----------------------------------------------------------------------------- The AAC Encoder plug-in is designed to work on any PC which meets the Adobe Flash Media Live Encoder 2.5 or higher minimum system requirements (Microsoft® Windows® 7, Windows XP Service Pack 2, Windows Vista (Business, Ultimate or Enterprise), and Windows Server 2003 (32-bit Web Edition or higher) required). MainConcept AAC Encoder Plug-In requires Adobe Flash Media Live Encoder 2.5 or higher (not included – click here for getting more information about the product www.adobe.com/go/fme). The free demo version of the MainConcept AAC Encoder Plug-In for the Flash Media Live Encoder 3.0 comes with an audio limitation of 30 seconds (required by licensor of the AAC standard) – the encoding process for both audio and video will stop after this period of time. Attention: ----------------------------------------------------------------------------- Before you start to install the new version of the AAC Encoder, please uninstall the current one. Additionally, make sure that no other MainConcept program is running during de-installation or installation. The AAC Encoder Plug-In v1.0.6 includes the following fixes and improvement: Solves synch problems with streaming from Wowza Server to the Apple iPhone/iPod Touch using Osprey cards.",
+        "identifier": "MainConceptAACEncoder1.0.6",
+        "title": "MainConcept AAC Encoder 1.0.6"
+      },
+      {
+        "description": "The H.264 files are MP4 files of the DVD, which you can download them as MP4 videos. The ISO file gives you access to the DVD features, which you can burn them into a DVD (Region Free) and play it on any DVD player (e.g. Sony PlayStation 2). You can also play it on VLC media player, Kodi, or an ISO player. Audio: AC3 Stereo / AC3 5.1: English Subtitles: French, Spanish, Portuguese Aspect Ratio: 4:3 Video format: NTSC (480p/480i) NTSC: United States, Canada, Bermuda, Latin America, Japan, etc. Dual-Layer Format (DVD-9)",
+        "identifier": "pink-panther-cartoons-disk-1",
+        "title": "Pink Panther Cartoon Volume 1: Pranks in the Pink (27 Episodes) (2006) (DVD ISO Download)"
+      },
+      {
+        "description": "Portuguese version of Disney/Pixar Ratatouille for the PSP. Distributed by Sony Computer Entertainment of Europe / THQ. Voices in English. Texts in Portuguese. Covers and manual included in Portuguese.",
+        "identifier": "disneypixar-ratatui-psp",
+        "title": "Disney/Pixar Ratatui (Portugal) PSP"
+      },
+      {
+        "description": "This is the 'Wootonia Rok' CD-ROM ripped into a ZIP file so you will be able to launch it from your computer. This CD-ROM (and three other variants) was distributed in Happy Meals that can be bought from any McDonald's restaurant in Australia, and was available in April 2010. The three other discs each had other characters including Boom , Vim and Zak .",
+        "identifier": "wootonia-rok",
+        "title": "Wootonia Rok"
+      },
+      {
+        "description": "Players control Louise as she flies through and shoots down a barrage of enemies in this 2D horizontal shooter inspired by games of the 8 bit era. Collect powerups, use screen clearing magic and try to make it to the end of each stage. This is a bonus disc sidescrolling shooter game bundled with Limited Edition Zero no Tsukaima: Muma ga Tsumugu Yokaze no Nocturne . The game appears only in this bundle. Source: PCSX2 Wiki",
+        "identifier": "zero-no-tsukaima-fantasy-force",
+        "title": "Zero No Tsukaima - Fantasy Force [NTSC-J] [SLPS-20502]"
+      },
+      {
+        "description": "Retro CDROM ISO",
+        "identifier": "sony-sound-organizer-v-1.1.1",
+        "title": "Sony Sound Organizer v1.1.1"
+      },
+      {
+        "description": "Dutch software to learn English language Demo version sha1: 4D8CB0CF36D9D34518D7CB56F090D020A774D3CD mastering code: Sony DADC    www.tapes.nl        403914        14 toolstamp: A0 mastering sid: IFPI L554 mould sid: IFPI 94W8",
+        "identifier": "tom-demo-2",
+        "title": "My name is Tom demo cd-rom"
+      },
+      {
+        "description": "Kompakt Sony Acid Pro Edition Vsti это библиотека сэмплов, плагинов и модулей для самых популярных аудио редакторов от компаний Sony и Native. Также в программе содержится чрезвычайно мощный и гибкий сэмплер, легкий в использовании, с огромным количеством функций и обширной библиотекой инструментов. ",
+        "identifier": "KOMPAKT",
+        "title": "Kompakt Sony Acid Pro Edition Vsti"
+      },
+      {
+        "description": "Software install CD for Sony Ericsson K800 mobile phone (cell phone), as seen in the UK in the late 2000s.",
+        "identifier": "SonyEricssonK800PCSuite",
+        "title": "Sony Ericsson K800 PC Suite"
+      },
+      {
+        "description": "Difficult to find Japanese wrestling anime PS2 game. Good Price rereleased 2008.",
+        "identifier": "wrestle-angels-survivor-ntsc-j-slpm-66239",
+        "title": "Wrestle Angels - Survivor [NTSC-J] [SLPM-66239]"
+      },
+      {
+        "description": "this dvd contains 2 full episodes",
+        "identifier": "wubbzy-farm-games-2008-el-kadsre",
+        "title": "Wow Wow Wubbzy: The Farm Games (2008) ( El Kadsre)"
+      },
+      {
+        "description": "This is the 'Wootonia Vim' CD-ROM ripped into a ZIP file so you will be able to launch it from your computer. This CD-ROM (and three other variants) was distributed in Happy Meals that can be bought from any McDonald's restaurant in Australia, and was available in April 2010. The three other discs each had other characters including  Rok , Boom and  Zak .",
+        "identifier": "wootonia-vim",
+        "title": "Wootonia Vim"
+      },
+      {
+        "description": "Texts are only in Korean, English language is not available.",
+        "identifier": "personal-utility-disc",
+        "title": "Personal Utility Disc Ver. 1.0 KOREAN version PSP APP"
+      },
+      {
+        "description": "Sony Bravia promotional cd-rom mdf/mds Track2 has intentional bad sectors For promotional use only BRAVIA-EU-0908 4-122-490-01 mastering code: Sony DADC A0100993729-0101 84 mastering sid: IFPI L554 Minimum Requirements: PC: IBM compatible Pentium 2 GHz or faster, 512 Mbytes RAM,  Microsoft Windows 2000, XP, Vista 1024 x 768 screen resolution 32k colours (16 bit),  8x speed or faster CD-ROM drive, 8 bit sound card. end-user must have admin rights MAC: Power Macintosh G4 or higher, 512 Mbytes RAM,  System 10.4, 1024 x 768-screen resolution, 32k colour display,  8x speed CD-ROM drive, end-user must have admin rights",
+        "identifier": "bravia-eu-08-08",
+        "title": "Sony Bravia cd-rom (BRAVIA-EU-0908)"
+      },
+      {
+        "description": "Datname: [PS3] PlayStation 3 Big Hit Titles' Demo Collection (Asia) Disc key: 643AC465F5FB547A802A908F766AE512 The 1st volume of the Asian PlayStation 3 Big Hit Titles' Demo Collection.  Contents: Demos :  BAYONETTA First Climax Demo [NPJB-90212]  Comet Crash [NPHB-00160]  NINJA GAIDEN Σ2 DEMO [NPHB-00159]  Ratchet & Clank Future: A Crack in Time Clank Demo [NPHA-80079]  Ratchet & Clank Future: A Crack in Time Ratchet Demo [NPHA-80078]  RESIDENT EVIL 5 Demo [NPHB-00070]  真・三國無双 MULTI RAID Special [NPJB-90220]  topatoi: Demo [NPHB-00158]  WORLD SOCCER Winning Eleven 2010 DEMO [NPHB-00149]  Videos :  FINAL FANTASY XIII  TORO ! Let's Party !(Chinese Subtitle)  TORO ! Let's Party !(Korean Subtitle)  UNCHARTED 2: Among Thieves  https://redump.info/disc/90326/",
+        "identifier": "playstation-3-big-hit-titles-demo-collection-bcax-90003",
+        "title": "PlayStation 3 Big Hit Titles' Demo Collection [BCAX-90003]"
+      },
+      {
+        "description": "Recovery media (2 DVDs) for the Sony VAIO VGC-LA3 (PCG-272M) all-in-one desktop computer. The preloaded OS was Windows Vista Home Premium RTM 32-bit in German.",
+        "identifier": "pcg272m-recovery",
+        "title": "Sony PCG-272M Recovery Media [German]"
+      },
+      {
+        "description": "BRAVIA HDTV Product Registration Disc (2009)",
+        "identifier": "braviahdtvproductregistrationdisc",
+        "title": "BRAVIA HDTV Product Registration Disc (2009)"
+      },
+      {
+        "description": "Metal Slug 6 (メタルスラッグ６) is a Run and gun video game published by SNK Playmore released on September 14th, 2006 for the PlayStation 2.",
+        "identifier": "metal-slug-6-PS2",
+        "title": "Metal Slug 6 (Japan) PS2"
+      },
+      {
+        "description": "\"From this CD, you will be able to install/download the following applications: Main Applications: ·                      Sony Ericsson PC Suite 4.0 (Installation) Includes synchronization, file transfer, messaging, backup & restore and connecting to the Internet. ·                      Sony Ericsson Media Manager 1.2 (Installation) Transfer music, video and photos between your computer and phone. External Applications: ·                      Sony Ericsson Update Service (Download) Update your phone software to get the latest improvements. ·                      Apple Quick Time Player 7.4 (Installation) For viewing phone videos on your computer. ·                      Adobe Photoshop Album 3.2 (Installation) Transfer and store your pictures in album on computer.\" \" The Sony Ericsson PC Suite is designed to work with: ·          Windows XP Home, Pro, MediaCenter (SP1/SP2/SP3) ·          Windows Vista 32 & 64 bits Ultimate, Enterprise, Business, Home Premium and Home  Basic (With or without  SP1) The general system requirements are: Pentium II – 233 MHz or more At least 50 MB free hard disk space. Windows XP: 128 MB RAM Windows Vista: 512 MB RAM The following Operating Systems are not supported by the Sony Ericsson PC Suite: §       Windows 2000 §       Windows 98 §       Windows ME §       Windows NT If you want to connect your phone using Bluetooth technology, the following Bluetooth Stacks are supported by the Sony Ericsson PC Suite: §       Microsoft XP Service Pack 2 embedded Bluetooth Stack §       Microsoft Vista embedded Bluetooth Stack §       Widcomm Bluetooth Stack: 1.4, 3.x, 4.x, 5.x, 6.x §       Toshiba Bluetooth Stack: 3.x, 4.x, 5.x, 6.x If you are using Toshiba Bluetooth stack, it is strongly advised that you pair your Sony Ericsson phone outside the PC Suite, using the stack built-in pairing wizard. It is recommended that the Sony Ericsson PC Suite is installed in the same language as the Operating System otherwise trash characters in the applications  might be the result, especially for Asian languages.\"  \" The Sony Ericsson PC Suite is designed to work with the following Sony Ericsson Phones: §    C501a, C510, C510c, C702, C702c, C902, C902c, C905, C905a, C905c §    G502, G502c, G705a, G705i, G705u §    K530c, K530i, K550i, K550im, K580im, K610, K610im, K618i, K630i, K660i, K770i, K790i, K800i, K810i, K818i, K850i, K858c, K858i §    S500i §    T650i, T658i, T700, TM506 §    V630i, V640i §    W350i, W350i, W380i, W380i, W580i, W595, W595c, W595s, W610i, W660i, W705, W705a, W705u, W710c, W710i, W712a, W715, W715c, W760a, W760c, W760i, W830i, W850i, W880i, W888i, W890i, W902, W908c, W910i, W980, §    Z310i, Z555i, Z555i, Z610i, Z710a, Z710i, Z715i, Z750a, Z750i, Z770i, Z780a, Z780i\"",
+        "identifier": "SonyEricssonC510",
+        "title": "Sony Ericsson Cyber-shot C510: software CD (CD-ROM, 2009)"
+      },
+      {
+        "description": "Recovery Discs for Sony Vaio SZ3, nordic language but has English. Windows XP",
+        "identifier": "VGN-SZ3XP",
+        "title": "Sony Vaio VGN-SZ3XP Recovery Discs"
+      },
+      {
+        "description": "Software for Sony α 200 and other Sony α DSLR Cameras: Picture Motion Browser (Windows 2000 Professional SP4/ Windows XP SP2 / Windows Vista / 64 Bit not supported (but seems to work, tested on Windows 8) Image Data Lightbox SR  (Windows 2000 Professional SP4/ Windows XP SP2 / Windows Vista / MAC OS X 64 Bit not supported (but seems to work, tested on Windows 8) Image Data Converter SR (Windows 2000 Professional SP4/ Windows XP SP2 / Windows Vista / MAC OS X 64 Bit not supported (but seems to work, tested on Windows 8) Product Registration",
+        "identifier": "Sony_A_DSLR_Picture_utilities",
+        "title": "Sony α Series DSLR Camera Picture Utilities"
+      },
+      {
+        "description": "This Disc Came With Around Town Baby Driver.",
+        "identifier": "sphe-demo-disc",
+        "title": "Sony Pictures Home Entertainment Demo Disc"
+      },
+      {
+        "description": "Installation CD for the Sony Cyber-shot DSC-T100 camera.",
+        "identifier": "sony-cyber-shot-dsc-t100",
+        "title": "Sony Cyber-shot DSC-T100 CD"
+      },
+      {
+        "description": "Dutch kids game for Windows 1022871 barcode: 3546430122945 SHA1: 1342ed09873680e4cac1b37316f7f9857074eae0 mastering code: Sony DADC A0100682609-0101 14 toolstamp: A1 mastering sid: IFPI L554 mould sid: IFPI 94W3",
+        "identifier": "dora-rugzak",
+        "title": "Dora het rugzak avontuur! cd-rom"
+      },
+      {
+        "description": "Files for creating PSP themes.",
+        "identifier": "jp.sony.customthemeconverter",
+        "title": "PSP Theme Toolbox"
+      },
+      {
+        "description": "Mia Muis Knutselbox Ollo en de Reuzentomaat Clifford: Verjaardagsfeestje barcode: 5400646054354 sha1: d639ee99ad7869aac86712eac0c05710512e0e37 mastering code: Sony DADC    A0100885055-A511    36 toolstamp: A0 mastering sid: IFPI L556 mould sid: IFPI 949Z",
+        "identifier": "3in1jubileum",
+        "title": "Jubileumfeest dvd-rom"
+      },
+      {
+        "description": "Sony Vegas Movie Studio 9 1x CD d'installation Multilingue",
+        "identifier": "movie-studio-9",
+        "title": "Sony Vegas Movie Studio 9"
+      },
+      {
+        "description": ":3 💿 💿 💿 💿 💿 💿 💿 💿 💿 💿 💿 💿 💿 💿 HOW DO I EXTRACT FILES FROM THIS DISC IMAGE, you ask? I've seen this question a lot in the comments on various uploads. Here is a free, cross-platform, open source app for doing so ( direct github link here ). 💿 💿 💿 💿 💿 💿 💿 💿 💿 💿 💿 💿 💿 💿",
+        "identifier": "MonsterKingdomJewelSummonerUSATradeDemoULUS80017",
+        "title": "Monster Kingdom: Jewel Summoner (USA) (Trade Demo) [ULUS-80017]"
+      },
+      {
+        "description": "Sony Ericsson PC Suite W810/W810i    2006 ISO Content: Sony Ericsson Pc Suite 1.20.173 Disc2Phone Adobe Photoshop Album Starter Edition 3.0 Adobe Acrobat Reader 7.0 Quicktime",
+        "identifier": "sony-ericsson-pc-suite-w-810",
+        "title": "Sony Ericsson PC Suite W810"
+      },
+      {
+        "description": "PC Suite for Sony Ericsson Mobile Phones The Sony Ericsson PC Suite is designed to work with  Windows 2000 SP3 or SP4, Windows XP Home SP1 and SP2, Windows XP Pro SP1 and SP2. The general system requirements are: At least 500 MB free hard disk space. Internet Explorer 5.0 or later has to be installed. Windows 2000 with SP3 or SP4: 128 MB RAM, 500 MHz Windows XP Home with SP1 or SP2: 256 MB RAM, 500 MHz Windows XP Pro with SP1 or SP2: 256 MB RAM, 500 MHz The Operating Systems Windows 2000, Windows XP Home and  Windows XP Pro will allow Installation while older Operating Systems, e.g. Windows 98, Windows ME and Windows NT are blocked.  It is recommended that the PC SW is installed in the same language as  the Operating System otherwise trash characters in the applications  might be the result, especially for non-latin character languages. ",
+        "identifier": "k800-pc-suite",
+        "title": "Sony Ericsson K800 Pc Suite cd-rom"
+      },
+      {
+        "description": "CD-ROM that came with a Sony Handycam device. Includes as stated on the CD: Picture Motion browser Ver.4.2.00 for HDD Camcorder Handycam Handbook Product Registration",
+        "identifier": "SonyHandycam",
+        "title": "Sony Handycam"
+      },
+      {
+        "description": "Sony Cybershot DSC-W350 / W360 / W380 / W390 4162396020 2010",
+        "identifier": "SONYPMB",
+        "title": "Sony Cybershot DSC-W350 / W360 / W380 / W390 CD"
+      },
+      {
+        "description": "Rayman Origins (Japan) (En,Ja)",
+        "identifier": "raymanoriginsjapanenja",
+        "title": "Rayman Origins (Japan) (En,Ja)"
+      },
+      {
+        "description": "Hundreds of fantastic original audio & video clips Play with your family, friends or on your own Suitable for all ages Over 1200 fiendish questions covering 50 years of chart music Hosted by Steve Furst (Little Britain/The Late Edition/Lenny Beige) Become an official \"Pop Genius\" and win prizes The ultimate fun test of your music knowledge",
+        "identifier": "BritishHitSinglesQuizDVDGame",
+        "title": "Guinness World Records: British Hit Singles and Albums No. 1 Music Quiz (Interactive DVD Game)"
+      },
+      {
+        "description": "RHYTHM is an audio sequencer for the Sony PSP (Playstation Portable). RHYTHM is a single player game where the user organizes sounds into rhythmic and melodic patterns, and then organizes the patterns into complete, exportable songs. Up to 16 sounds can be simultaneously sequenced with a precise degree of control in up to 64 patterns. These patterns can then be arranged into a song which can consist of up to 999 song steps. The user can then export the completed song as CD quality PCM wave files. Package includes Rhythm8, the newest available version; together with older",
+        "identifier": "rhythm-8",
+        "title": "PSP Rhythm"
+      },
+      {
+        "description": "Dutch educational game for Windows sha1: 53b5ab20a861e46035845a2f760c3fedd998e13c mastering code: Sony DADC A0101797000-A511 13 toolstamp: A00 mastering sid: IFPI L553 mould sid: IFPI 94B6",
+        "identifier": "fp1112dvd",
+        "title": "AmbraSoft Familiepakket 1112 dvd-rom"
+      },
+      {
+        "description": "This is an ISO of Everybody's Tennis. The  BIN file contains the save data of the game, which has all of the medals unlocked.  This is an upload with the 100% complete game file to recover data. You can play it on PPSSPP or PSP. You may download the save data in a ZIP file, extract it and put it in the “SAVEDATA” file. Languages: English, Spanish, French, Italian, German",
+        "identifier": "everybodys-tennis-europe_202103",
+        "title": "Everybody's Tennis (2010) (PSP ISO Download) (Comes with 100% save file)"
+      },
+      {
+        "description": "Radiance for Sony Vegas 6.0, 7.0 and Pro 8.0.",
+        "identifier": "radiance-vegas-6-8",
+        "title": "Radiance Vegas 6 & 8"
+      },
+      {
+        "description": "Sony Handycam PMB (Picture Motion Browser) Handbook",
+        "identifier": "sonypmb_202105",
+        "title": "Sony Handycam PMB"
+      },
+      {
+        "description": "Prototype of The Eye of Judgement from June 1st 2007, it has unseen xmb artwork afaik and uses a japanese serial number. ~4+ months before release, Dumped by Hope.",
+        "identifier": "theeyeofjudgementjune012007",
+        "title": "The Eye of Judgement - [June 1st 2007]"
+      },
+      {
+        "description": "Software CD-ROM as included with Sony Handycam HDR-XR100",
+        "identifier": "sonypictutil_hdrxr100",
+        "title": "Sony Handycam CD-ROM Software"
+      },
+      {
+        "description": "hey",
+        "identifier": "letter-of-the-month",
+        "title": "Sesame Street: The Letter of the Month Club (2006 Sony Wonder DVD)"
+      },
+      {
+        "description": "PlayStation 2 Bonus Demo #12 (old) (listed as 12m in its menus). I have no idea where this disc was bundled, since it doesn't seem like it originated from OPM2. Contents: Formula One 06 (Demo) Lemmings (Demo) Lemmings with EyeToy (Demo) Lego Star Wars II (Demo) MadeMan (Demo) Micro Machines V4 (Demo) Fifa 07 (Demo) Rogue Galaxy (Demo) SingStar Rocks! (Demo) Buzz (Demo) Kingdom Hearts (Demo) EyeToy Play 3 (Video) EyeToy Kinetic (Video) EyeToy Monkey Mania (Video) SpyToy (Video) SingStar (Video) SingStar '80s (Video) EyeToy Chat (Video) EyeToy Play (Demo) EyeToy Play 2 (Demo)",
+        "identifier": "playstation2bonusdemo12",
+        "title": "PlayStation 2 Bonus Demo #12 (old)"
+      },
+      {
+        "description": "ISO of the PlayStation 2 version of SingStar: The Wiggles . Uploaded solely for archival purposes, as ISO rips of the game are a pain to come across.",
+        "identifier": "singstar-the-wiggles-ps2",
+        "title": "SingStar: The Wiggles (PS2)"
+      },
+      {
+        "description": "Disco de instalação com o aplicativo \"PC Suite\"para o telefone Sony Ericsson W300. Sony Ericsson - 2006.",
+        "identifier": "sonyericsson_w300",
+        "title": "Sony Ericsson W300"
+      },
+      {
+        "description": "A CD-ROM included with the sale of Sony AIT Tape Storage devices and includes Symantec Backup Exec 11d for Windows Servers (32-bit version).",
+        "identifier": "symantecbackupexec11d",
+        "title": "Symantec Backup Exec 11d for Windows Servers (32-bit version) (Sony OEM)"
+      },
+      {
+        "description": "Here's the ISO to one of the discs of the Volume 1 set of Sesame Street: Old School, as per request from a friend.",
+        "identifier": "old-school-disc-2",
+        "title": "Sesame Street: Old School - Volume 1 (2006 DVD, Disc 2)"
+      },
+      {
+        "description": "Here's the ISO to one of the discs of the Volume 1 set of Sesame Street: Old School, as per request from a friend.",
+        "identifier": "oldschooldisc1",
+        "title": "Sesame Street: Old School - Volume 1 (2006 DVD, Disc 1)"
+      },
+      {
+        "description": "These are the recovery discs For the VAIO VGN-UX280P,these where created by burning recovery discs on the device itself,then imaging them with another computer",
+        "identifier": "vaio-ux280p-recovery-disc-iso",
+        "title": "Vaio VGN-UX280P Recovery Discs"
+      },
+      {
+        "description": "New ISO Sony Sound Forge Audio Studio 9.0. Serial: 15T-KGVL-EB0F-WRZY",
+        "identifier": "sound-forge-audio-studio-9.0",
+        "title": "Sound Forge Audio Studio 9.0"
+      },
+      {
+        "description": "this archive contains most of Project Diva games ever released for Playstation Portable (PSP) with official DLC for Extend and 2nd (Okaidoku Ban version) , excluding the actual leaked demo from 2008 both Extend and 2nd# were English-patched, for original Project Diva needs to be patched manually",
+        "identifier": "project-diva-psp",
+        "title": "Hatsune Miku Project Diva Pack"
+      }
+    ]
+  },
+  {
+    "query": "mediatype:software AND (title:(\"Digital Imaging\") OR title:(\"Camera Service\") OR title:(\"Adjustment Software\"))",
+    "url": "https://archive.org/advancedsearch.php?q=mediatype%3Asoftware%20AND%20%28title%3A%28%22Digital%20Imaging%22%29%20OR%20title%3A%28%22Camera%20Service%22%29%20OR%20title%3A%28%22Adjustment%20Software%22%29%29&fl[]=identifier&fl[]=title&fl[]=description&rows=100&output=json",
+    "total": 15,
+    "docs": [
+      {
+        "description": "Vivitar Digital Imaging  Application Library CD ViviScan Compact II VSF-300 Xerox Textbridge OCR Software iPHOTO Plus 1.2",
+        "identifier": "vivitar-digital-imaging-application-library-cd",
+        "title": "Vivitar Digital Imaging ViviScan Compact II"
+      },
+      {
+        "description": "Digital Imaging in C World Wide Web Companion CD ROM Wordware",
+        "identifier": "Digital_Imaging_in_C_World_Wide_Web_Companion_CD-ROM_Wordware",
+        "title": "Digital Imaging in C World Wide Web Companion CD ROM Wordware"
+      },
+      {
+        "description": "Retro CDROM ISO",
+        "identifier": "AmericaOnlineMadeEasyDigitalImaging",
+        "title": "America Online - Made Easy: Digital Imaging"
+      },
+      {
+        "description": "Retro CDROM ISO containing: Serif MontagePlus Serfi PagePlus 8 Serif PhotoPlus 7 Burner II Pro Pixel",
+        "identifier": "zennox-digital-imaging-pack-2",
+        "title": "Zennox Digital Imaging Pack 2"
+      },
+      {
+        "description": "31113623368880 The 123 of digital imaging Interactive e-book Version 2.0 by Vincent Bockaert is the easy way to master digital photography and Adobe® Photoshop® . This new type of e-book consists of more than 2,000 pages containing more than 5,000 graphics, interconnected by more than 50,000 links conveniently packed into one single self running program that requires no installation. Subjects Covered - The e-book covers hardware such as cameras, scanners, batteries, memory, CRT monitors, LCD monitors, and printers. Software topics covered are in detail Adobe Photoshop Album 1.0 and 2.0, Photoshop Elements 2.0, Photoshop 7.0, and Photoshop CS as well as software for data recovery, CD cataloging, screen saver creation, and image uploading. The e-book features just released and upcoming software and technology such as the new Adobe Photoshop JPEG 2000 and RAW plug-in, Adobe Photoshop CS, Detailed comparisions between CMSO and JFET LBCAST sensors, expanded sections on panoramas, monitor calibration, printing, and new topics such as 3D effects and printer profile creation. Content Arrangement - The content is split up into 16 main chapters. Most of the topics come in essential and advanced complimentary versions which are selectable by the user and also have a one page summary at the end. The essential sections bring the user up speed easily, while the advanced sections give in depth information and bring the user to the next level. The Advanced sections go into more detail, but are still meant to be understood easily through the use of animated and interactive graphics. Many pages have interactive animations and simulations whereby the user can click on buttons and see the effect of his choice instantly. Some pages have as many as 70 different views. Three Easy Steps - Step 1 - Understanding Dgitial Imaging & Digital Camera Selection (365 pages). Helps you select your digital camera and explains digital photography via unique interactive simulations and colorful high quality animated graphics. Photography is explained from a digital perspective with content varying from simple things like explaining pixels, focal length, analog to digital conversion in the essential sections, to specialized content in the advanced sections such as explaining CCD and CMOS technology, and JPEG compression. Step 2 - Enhance Your Images in the \"Pixelroom\" (620 pages). Teaches you to create amazing images in the \"Pixelroom\" on your PC, the equivalent of the conventional darkroom. This section is packed with step-by-step, hands-on, interactive and animated tutorials. The essential sections are based on Adobe Photoshop Elements 2, while the advanced sections use Photoshop CS with tutorials varying from a single click fix up to professional editing tutorials with as many as 120 screen shot frames. It will teach you countless editing techniques such as the removal of red-eye, removal of tourists from pictures, bringing out shadow detail, creating panoramas, enhance color, and advanced noise removal methods. Step 3 - Manage, View, Share & Print Your Images (187 pages). Shows you how to manage, view, share, print and process your images, and covers the newly released Adobe Photoshop Album 2 and Photoshop CS in detail. System Requirements - 120Mhz PC with Windows 95/98/ME/NT/2000/XP, 128MB RAM, 80MB free hard disk space, 800x600 color monitor, CD-ROM drive.",
+        "identifier": "123di-2.0-epson",
+        "title": "The 123 of digital imaging"
+      },
+      {
+        "description": "The 123 of digital imaging combines several digital photography books into one comprehensive interactive learning suite.",
+        "identifier": "123di-40",
+        "title": "The 123 of Digital Imaging for Windows"
+      },
+      {
+        "description": "Retro CDROM ISO",
+        "identifier": "digital-imaging-associates-3-general-biology",
+        "title": "Digital Imaging Associates 3 General Biology"
+      },
+      {
+        "description": "eFilm Digital Imaging Software Pack Digital Camera Suite by Ixla Piccolo by Pixology Web Easy by Ixla DJ2000 by 215 Technology Explorer by Ixla MP3 Wolf by Trellian Software Make Your Own Screen Saver by Preferred Computer Services Labels, Cards and More by CAM Development FREE SOFTWARE Over $150 Value! Delkin Devices www.delkin.com System Requirements: IBM compatible 486/33 or faster CPU Windows 95/98, NT 2x CD-ROM drive or faster DDSFTWPK1-DC v1.10 Source Media Volume Identifier: eFilm_Pack Source Media Application Identifier: EASY CD CREATOR 4.0 (140) COPYRIGHT (C) 1996-1999 ADAPTEC, INC. Source Media File System(s): ISO9660, Joliet",
+        "identifier": "eFilm_Pack",
+        "title": "eFilm Digital Imaging Software Pack DDSFTWPK1-DC v1.10"
+      },
+      {
+        "description": "        *************************************************************************************     *   PLEASE READ THIS DOCUMENT COMPLETELY BEFORE YOU PERFORM THE FOLLWING STEPS!!!   *     *   PLEASE READ THIS DOCUMENT COMPLETELY BEFORE YOU PERFORM THE FOLLWING STEPS!!!   *     *   PLEASE READ THIS DOCUMENT COMPLETELY BEFORE YOU PERFORM THE FOLLWING STEPS!!!   *     *************************************************************************************                             DATA RESTORING   -   DATA RESTORING     Note: QV utility files are located on CASIOPIE under the ALL RELATED FILES     Button as well as C.A.P.O.E.S. 1.    When the QV finds an error in the internal flash memory a Memory Error message         appears on the built-in Displat LCD as shown below,                                MEMORY ERROR                 MEMORY ERROR                                    CALL           or               # 1-3                                TECH SUPPORT     This memory error is caused by the following events:     1.  The power is interrupted while the camera is recording an image.     2.  The cable is disconnected while the camera is communicating with a computer.     3.  Severe electrostatic charge, strong impact, severe change in temperature or         humidity.     4.  Hardware problems.     The camera has no function to escape from the error message.  If the memory error     appears on the display, the camera will locked-up and will not accept any operation     except power on/off.   2.    Requirements for Data Restoring:     1.  Computer     2.  QV  support utility disk with:         Restoring utility: AMED.EXE         Color Adjustment utility: ADJ4.EXE     3.  Cable and adapter for LK-1 connection kit.     4.  AC adapter for QV: AD-K64 or AD-K65. 3.    Preparing your computer:     1.  Required software:  Microsoft MS-DOS Ver. 3.1 or later.     2.  Required hardware:  IBM PC/AT or compatible with 386SX CPU or higher.                 4 MB RAM minimum (8 MB recommended).                 10 MB available hard disk space.                 3.5\" 1.44 MB disk drive.                 RS-232C serial port (D-Sub 9-pin).                 VGA monitor. 4.    Installing QV support utilities:     1. Create a directory for the QV support utilities on drive C:&gt;.         For example:  MD QV11UTIL     2. Change from the current directory to the new directory.         For example:  CD\\QV11UTIL     3. Copy the QV support utility file QV11UTIL.EXE into the new directory.         For example:  COPY A:\\QV11UTIL.EXE C:\\QV11UTIL     4.  Explode the self-extracting file QV11UTIL.         For example: Type \"QV11UTIL\" at the prompt and press enter.     5. Remove the QV support utilities disk from drive A. 5.    Connecting QV to your computer:     NOTE: Use an AC adapter AD-K64 or AD-K65 for the power source of the QV.     Weak batteries may cause a failure of the data restoring. In the worst case,     all images might be lost.     1.  If your computer is on, turn off the power.     2.  If the camera is on, turn off the power.     3.  Connect the 25-pin plug of the cable into the adapter.     4.  Connect the 9-pin plug of the adapter into your computer's serial     port. (COM1 )     5.  Connect the mini jack of the cable into the camera's DIGITAL terminal.     6.  Connect an AC adapter to the camera. 6.    Restoring Images stored in QV at Memory Error:     1.  Change to the directory where the utility AMED.EXE exists.     2.  Type \"AMED -PIR\" and press Enter.         The utility loads the images onto the hard disk and restores the         images on the computer.  After restoring, the utility clears all         original images in the camera and copies the restored images into         the camera.     NOTE:         1.  The utility automatically creates files of the restored images         in the current directory, IMAGE001 .CAM, IMAGE002.CAM, IMAGE003,         so on.  If old image files IMAGE???.CAM exist, they are replaced         with new ones. So please move the old image files to another directory         or rename the files.         2.  To see the usage of the utility AMED, type \"AMED\". The usage will be         displayed.         3.  In case of \"Time Out Error\", select the suitable com port or change         slower bit rate, then retry.     What to do if the data restoring is incomplete:     1.  Make sure that all connections between the QV and your computer are secure.     2.  Select slower bit rate then retry.         If the data restoring is still incomplete, then the camera could be a defect. Replace the digital PCB in the camera. 7.    After replacing digital PCB:     First copy the backup file on the hard disk into the camera.     1.  Change to the directory where the utility FLASH.EXE and the backup file exist.     2.  Type \"FLASH -L Filename\" and press Enter.         In this example, type \"FLASH -L BACKUP\".  This utility copies the original         images on the hard disk into the camera. The message on the camera's         monitor will change \"MEMORY EMPTY\" to \"MEMORY ERROR\".     Restore the images stored in QV at memory error.     3. Change to the directory where the utility AMED.EXE exists.     4. Type \"AMED -PIR\" and press Enter. 8.    Color Adjustment:          Color adjustment should be done:     1.  After replacing the digital PCB ass'y.     2.  After replacing the camera's case unit. COLOR ADJUSTMENT   -   COLOR ADJUSTMENT   -   COLOR ADJUSTMENT   -   COLOR ADJUSTMENT     Color adjustment should be done after replacing the digital PCB ass'y. Because the     PCB has correction data of CCD color characteristics in the flash memory.  Also, the     PCB adjusts the vividness of the hues using the data.  Color adjustment utility examines     for CCD color characteristics of the camera. Then the utility generates correction     data and stores the data into the flash memory.     Note: If color adjustment is not done after the following:     1.  After replacing the digital PCB ass'y.     2.  After replacing the camera case unit.     The camera records images without fidelity in color.  In the worst case, there will     be any correction data in the flash memory.  The camera will displays a monochrome     image in the record mode and will also record strange images. 1    Requirements for Data Restoring:     1.  Computer                      IBM PC/AT or compatible     2.  QV support utility disk    Color adjustment utility: ADJ4.EXE     3.  Light source                  (Color temperature 5000K)       4.  Color filter           (Color temperature 4350K)     5.  Cable and Adapter for LK-1 connection kit     6.  AC adapter for QV       (AD-K64 or AD-K65)     The light source (PN 00000000) and color filter (PN 00000000) are available     in our parts center. 2.    Preparing your computer:     Refer to \"Data Restoring\". 3.    Installing QV support utilities:     Refer to \"Data Restoring\". 4.    Connecting QV to your computer:     Refer to \"Data Restoring\". 5.    Color adjustment:     1.  Put the color filter over the screen on the light source, and turn on the     light source.     2.  Set the aperture switch to F8 (black filled in circle) position, and turn     on the camera.     3.  Put the camera with its lens toward the light source.     4.  Turn on your computer.     5.  Change to the directory where the utility ADJ4.EXE exists.     6.  Type \"ADJ4\" and press Enter.     The message \"WAIT\" appears on the monitor of the camera.     Some parameters appear on the screen of your computer, then the utility will finish.",
+        "identifier": "qv-10",
+        "title": "Casio QV-10 camera service manual and flash repair tool"
+      },
+      {
+        "description": "ACDsee The Digital Imaging Company (Toronto Stock Exchange)",
+        "identifier": "ACDsee_The_Digital_Imaging_Company_Toronto_Stock_Exchange",
+        "title": "ACDsee The Digital Imaging Company (Toronto Stock Exchange)"
+      },
+      {
+        "description": "Mamiya's press cd-rom from 2006 containing information about new products like the Mamiya ZD, new Mamiya AF 28mm f4.5 and AF 75-150mm f4.5 lenses and the Mamiya Photo Studio Server",
+        "identifier": "mamiya-digital-imaging-press-cd-rom-2006",
+        "title": "Mamiya Digital Imaging Press cd-rom 2006"
+      },
+      {
+        "description": "Retro CDROM ISO",
+        "identifier": "digital-imaging-associates-5-appalachian-flora",
+        "title": "Digital Imaging Associates 5 Appalachian Flora"
+      },
+      {
+        "description": "Retro CDROM ISO",
+        "identifier": "digital-imaging-associates-1-the-birds-of-hugh-brandenburg",
+        "title": "Digital Imaging Associates 1 The Birds Of Hugh Brandenburg"
+      },
+      {
+        "description": "Retro CDROM ISO",
+        "identifier": "digital-imaging-associates-2-mollusks-seashells-paleontology",
+        "title": "Digital Imaging Associates 2 Mollusks Seashells & Paleontology"
+      },
+      {
+        "description": "Retro CDROM ISO",
+        "identifier": "digital-imaging-associates-4-cell-biology",
+        "title": "Digital Imaging Associates 4 Cell Biology"
+      }
+    ]
+  }
+]

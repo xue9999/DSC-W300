@@ -1,128 +1,51 @@
-# Sony Cyber-shot Dual-Platform Research: DSC-W300 and DSC-G3
+# Sony DSC-W300 and DSC-G3 research laboratory
 
-A unified laboratory repository for offline reverse engineering, firmware analysis, and software modifications across two iconic Sony Cyber-shot digital cameras from the BIONZ era:
+This repository supplies preserved sources, reproducible offline firmware analysis, labelled simulations and a portable W300 identification environment. Continue from these verified foundations to qualify each model-specific hardware operation.
 
-1. **Sony Cyber-shot DSC-W300** (13.6 MP CCD, Titanium Chassis, USB Service Adjustment & English Menu Persistence).
-2. **Sony Cyber-shot DSC-G3** (10.1 MP CCD, 802.11b/g Wi-Fi, 3.5" Touchscreen, CXD4108 BIONZ Linux/µITRON Architecture).
+| Workstream | Established foundation | Next qualification |
+| --- | --- | --- |
+| DSC-W300 language research | Sony service-manual findings, historical USB observations, offline service simulator | Retail-board destination encoding, recoverable conversion, persistent English on an actual camera |
+| DSC-G3 firmware | EXE/container parsing, section integrity, filesystem extraction, experimental file modifications | Acceptance of modified firmware by a camera, bootability, image-quality improvement |
+| Emulation | Image assembly and QEMU argument generation | Successful camera boot or reproduction of the imaging pipeline |
 
----
+## Start here
 
-## 1. Workstream Status & Highlights
+Python 3.10 or later and Git are required for repository checks. Offline Python tools use the standard library. Windows, Linux and macOS are CI targets; a configured workflow is not evidence of a completed run. Optional upstream submodules and QEMU are not prerequisites for offline tests.
 
-```
-+===================================================================================+
-|                              WORKSTREAM DASHBOARD                                 |
-+===================================================================================+
-| DSC-W300 Workstream:                                                              |
-| - Focus: Japanese Domestic (J1) Model English Persistence                         |
-| - Status: Service Manual Ver 1.3 analyzed (p. 11 Destination Write boundaries)     |
-| - Tooling: tools/w300_evidence.py (passive macOS IOKit USB inventory)             |
-| - Guidance: docs/w300/ANALYSIS_LOG.md & make a Japanese DSC-W300 display English.md|
-+-----------------------------------------------------------------------------------+
-| DSC-G3 Workstream:                                                                |
-| - Focus: Firmware Decryption, RootFS Extraction, Custom String POC & Image Tuning |
-| - Status: 100% VICTORY CONFIRMED by Independent Victory Auditor                   |
-| - Decryption: LHA Level 2 stream (0x744F) + CXD4108 MsFirm (24 sections decrypted)|
-| - Filesystems: Pure-Python CramFS userland decompressor (BodyUdtr.img & rootfs.img)|
-| - Custom String POC: tools/g3_text_poc.py (SETUP_VERSION -> "G3 POC" in eng.csv)   |
-| - Image Pipeline: BIONZ video NR analysis (setNR & Qscale in 09_av.bin)           |
-| - Dossiers: docs/g3/DECRYPTED_ARCHITECTURE.md & FIRMWARE_MODIFICATION_POC_DESIGN.md |
-+-----------------------------------------------------------------------------------+
-| Shared Foundations:                                                               |
-| - Architecture: Dual-Core ARM Host + µITRON 4.0 Co-Processor + Memory Stick Bus   |
-| - Emulation: CXD4108 QEMU staging, SDM partition builder & launcher tooling       |
-| - Test Suite: 94/94 Automated Tests Passing (python3 -m unittest discover)        |
-+===================================================================================+
+```sh
+python tools/repo_audit.py --json
+python tools/run_checks.py
+python tools/cxd4108_emulator/qemu_launcher.py status
 ```
 
----
+The check runner writes `build/test-results.json` with environment, revision, working-tree state, failures, skips and artifact audits. Any skipped required test makes that report fail. For tests alone:
 
-## 2. Repository Structure
-
-The codebase is structured to allow clean separation between camera-specific assets while enabling maximum reuse of shared reverse-engineering tooling:
-
-```
-DSC-W300 and DSC-G3/
-├── README.md                              # This document
-├── .gitignore                             # Git tracking rules excluding large blobs
-│
-├── docs/                                  # Structured technical documentation
-│   ├── w300/                              # DSC-W300 guides and adjustment procedures
-│   │   ├── ANALYSIS_LOG.md                # W300 durable project guidance
-│   │   └── make a Japanese DSC-W300...md  # Japanese menu persistence roadmap
-│   ├── g3/                                # DSC-G3 reverse engineering dossiers
-│   │   ├── G3_RESEARCH_GUIDANCE.md        # Hardware, Wi-Fi & firmware reference
-│   │   ├── DECRYPTED_ARCHITECTURE.md      # Canonical architecture dossier (NX3 format)
-│   │   └── FIRMWARE_MODIFICATION_POC_DESIGN.md # Custom string POC design
-│   └── shared/                            # Shared BIONZ architecture & comparisons
-│       ├── CROSS_PLATFORM_ARCHITECTURE.md # Cross-model architecture & reuse matrix
-│       └── EMULATION_AND_OPENMEMORIES_CI.md # QEMU CXD4108 & OpenMemories-CI guide
-│
-├── evidence/                              # Verified empirical logs & extracted artifacts
-│   ├── w300/                              # W300 USB captures, service manual page PNGs
-│   ├── g3/                                # G3 decrypted inventory JSON & extracted tree
-│   │   └── extracted_g3/                  # 24 decrypted sections, rootfs, kernel
-│   └── shared/                            # Benchmarking against SONY_NX3_Reversal
-│
-├── sources/                               # Firmware executables, manuals & upstreams
-│   ├── w300/                              # W300 adjustment manuals (PDF/TXT) & handbooks
-│   ├── g3/                                # G3 firmware updater (DSCG3V2.exe, D-G3V2.dat)
-│   ├── OpenMemories-CI/                   # Upstream firmware CI test suite & runners
-│   ├── fwtool.py/                         # Upstream firmware & CramFS archive library
-│   ├── qemu/                              # Upstream QEMU fork implementing 'cxd4108'
-│   └── shared/                            # Sony-PMCA-RE, OpenMemories-CI, fwtool, qemu
-│
-└── tools/                                 # Production Python CLI tools & test suites
-    ├── cxd4108_emulator/                  # CXD4108 SDM flash builder & QEMU launcher
-    ├── w300_evidence.py                   # W300 passive macOS USB inventory parser
-    ├── g3_firmware_parser.py              # G3 MsFirm decrypter & pure-Python CramFS engine
-    ├── g3_text_poc.py                     # Fail-closed custom string POC tool
-    ├── g3_network_analyzer.py             # G3 Wi-Fi PCAP analyzer & mock gateway
-    ├── ghidra                             # Headless Ghidra CLI binary (macOS ARM64)
-    └── test_*.py                          # 94 automated unit and integration tests
+```sh
+python -m unittest discover -s tools -p "test_*.py" -v
 ```
 
----
+## Repository map
 
-## 3. Quick Start & Tool Usage
+| Directory | Purpose |
+| --- | --- |
+| `sources/` | Byte-preserved inputs, original research and pinned optional upstreams |
+| `evidence/` | Historical observations, one retained extracted G3 tree and artifact integrity manifest |
+| `docs/` | Current findings and qualification steps, grouped by camera and shared tooling |
+| `tools/` | Offline tools, tests and separately identified hardware-probe source code |
+| `build/` | Versioned W300 scripts/reports; Release materials and local generated output |
 
-### Running the Test Suite
-All 94 tests execute 100% offline within the secure sandbox without external dependencies:
-```bash
-python3 -m unittest discover -s tools -p "test_*.py" -v
-```
+Read [W300 findings](docs/w300/README.md), [G3 offline tools](docs/g3/README.md), [artifact policy](docs/shared/ARTIFACTS.md), [model boundaries](docs/shared/CROSS_PLATFORM_ARCHITECTURE.md), [emulation and optional tools](docs/shared/EMULATION_AND_OPENMEMORIES_CI.md), and [test contracts](TEST_INFRA.md).
 
-### Checking CXD4108 Emulation Status
-Verify the availability of QEMU binaries, cloned upstreams, and firmware evidence:
-```bash
-python3 tools/cxd4108_emulator/qemu_launcher.py status
-```
+## Evidence rules
 
-### Unpacking DSC-G3 Firmware
-Decrypt and extract all 24 sections, CramFS filesystems, and tarballs:
-```bash
-python3 tools/g3_firmware_parser.py unpack \
-  --exe sources/DSCG3V2.exe \
-  --out evidence/extracted_g3
-```
+A source document, an observed byte sequence, a simulation and a hardware result are different kinds of evidence. Each current guide identifies its basis and limits. HMAC verifies container integrity. Qualify provenance and hardware effects separately, using device observations to connect an instruction change with its behavior.
 
-### Generating the Custom String Display POC
-Generate a verified, cryptographically signed firmware container with a custom display string:
-```bash
-python3 tools/g3_text_poc.py --string "G3 POC"
-```
+The repository keeps historical sources unchanged where possible. Historical status files and imported research can contain superseded statements; consult the [evidence index](evidence/README.md) before treating them as instructions. Removed misleading guides remain in Git history.
 
-### Auditing Connected Sony USB Hardware
-Passively inspect connected Sony digital cameras via macOS IOKit:
-```bash
-python3 tools/w300_evidence.py inventory
-```
+Default tests and repository audits run offline. Native USB probes are active research utilities. Follow the bounded identification procedure for the first device session and complete model-specific qualification before a separately authorized write.
 
----
+The [cleanup verification report](CLEANUP_REPORT.md) records the checks actually performed during the repository cleanup and the next qualification steps.
 
-## 4. Non-Destructive Laboratory Policy
+## Complete research handoff
 
-All research and tooling strictly adhere to non-destructive laboratory rules:
-1. **Closed Enclosure**: No physical hardware disassembly, probing, or board modification.
-2. **Zero In-Camera Flashing**: No arbitrary code or experimental writes sent to physical cameras.
-3. **Fail-Closed Verification**: All modified firmware files must pass end-to-end cryptographic and structural roundtrip tests before acceptance.
+The matching [GitHub Release](https://github.com/xue9999/DSC-W300/releases/tag/w300-research-r3) supplies the Windows x64 workbench and offline research inputs with SHA-256 inventories. Follow the [restoration guide](docs/w300/RELEASE_RESTORE.md) to rebuild the original directory layout and run checks from retained dependencies. Revision 3 includes constructive report prose, historical manifests and the separately verified portable environment.

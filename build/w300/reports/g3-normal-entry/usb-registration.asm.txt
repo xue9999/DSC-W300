@@ -1,0 +1,46 @@
+Static retained G3 ARM only; symbol/range listings may include trailing literal pools, which are not claimed executed.
+
+evidence/extracted_g3/archives_unpacked/lib/lib/libusb.so
+
+618d7abb1ac055afceefbab379b522d782574ffefeee5bbbcd3148d4a01d2cb8
+
+usb_senif_init section=.text value=0xdc60 file=0xdc60 symbol_size=156
+0x0000dc60 0dc0a0e1     mov      ip, sp
+0x0000dc64 70dc2de9     push     {r4, r5, r6, sl, fp, ip, lr, pc}
+0x0000dc68 84a09fe5     ldr      sl, [pc, #0x84] ; literal[0xdcf4]=0xb13c
+0x0000dc6c 04b04ce2     sub      fp, ip, #4
+0x0000dc70 04d04de2     sub      sp, sp, #4
+0x0000dc74 0aa08fe0     add      sl, pc, sl
+0x0000dc78 0c2081e5     str      r2, [r1, #0xc]
+0x0000dc7c 0c00a0e3     mov      r0, #0xc
+0x0000dc80 0140a0e1     mov      r4, r1
+0x0000dc84 c4dcffeb     bl       #0x4f9c ; PLT:malloc
+0x0000dc88 68609fe5     ldr      r6, [pc, #0x68] ; literal[0xdcf8]=0x9ec
+0x0000dc8c 000050e3     cmp      r0, #0
+0x0000dc90 00c0a0e1     mov      ip, r0
+0x0000dc94 06008ae7     str      r0, [sl, r6]
+0x0000dc98 0050a0e3     mov      r5, #0
+0x0000dc9c 0600001a     bne      #0xdcbc
+0x0000dca0 0110a0e3     mov      r1, #1
+0x0000dca4 3400a0e3     mov      r0, #0x34
+0x0000dca8 0120a0e1     mov      r2, r1
+0x0000dcac 6830a0e3     mov      r3, #0x68
+0x0000dcb0 055045e2     sub      r5, r5, #5
+0x0000dcb4 00c08de5     str      ip, [sp]
+0x0000dcb8 0a0000ea     b        #0xdce8
+0x0000dcbc 0510a0e1     mov      r1, r5
+0x0000dcc0 0c20a0e3     mov      r2, #0xc
+0x0000dcc4 80ddffeb     bl       #0x52cc ; PLT:memset
+0x0000dcc8 06309ae7     ldr      r3, [sl, r6]
+0x0000dccc 004083e5     str      r4, [r3]
+0x0000dcd0 103084e5     str      r3, [r4, #0x10]
+0x0000dcd4 00508de5     str      r5, [sp]
+0x0000dcd8 3400a0e3     mov      r0, #0x34
+0x0000dcdc 0110a0e3     mov      r1, #1
+0x0000dce0 0220a0e3     mov      r2, #2
+0x0000dce4 0530a0e1     mov      r3, r5
+0x0000dce8 a5dcffeb     bl       #0x4f84 ; PLT:usb_trace_out
+0x0000dcec 0500a0e1     mov      r0, r5
+0x0000dcf0 70ac9de9     ldmib    sp, {r4, r5, r6, sl, fp, sp, pc}
+0x0000dcf4 3cb10000     andeq    fp, r0, ip, lsr r1
+0x0000dcf8 ec090000     andeq    r0, r0, ip, ror #19

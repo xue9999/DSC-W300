@@ -1,0 +1,42 @@
+{
+  "scope": "Resumed offline acquisition and static analysis; no hardware certification",
+  "acquisition_manifests": [
+    {
+      "manifest": "downloads/w300-l3-reference/acquisition.json",
+      "entries_verified": 6,
+      "passed": true
+    },
+    {
+      "manifest": "downloads/seusex-public-20260916/artifact-manifest.json",
+      "entries_verified": 12,
+      "passed": true
+    },
+    {
+      "manifest": "downloads/sony-ptp-2008/download-manifest.json",
+      "entries_verified": 2,
+      "passed": true
+    },
+    {
+      "manifest": "downloads/eligibility-bulletins-20260916-r1/acquisition.json",
+      "entries_verified": 2,
+      "passed": true
+    }
+  ],
+  "fallback_reproduction": {
+    "exit_code": 0,
+    "outputs_identical": true,
+    "output_sha256": {
+      "fallback11-evidence.json": "1d4628eb6f9a41db4439e85c61f1c03add7278e9503d333b4ce5479a2b5e6466",
+      "fallback11.asm.txt": "a6d5aa00b9668d66c3a0927f76be73146d3055c713c3a013b82ed853bf88f826"
+    },
+    "stdout": "C:\\Users\\apara01\\OneDrive - Kearney\\Documents\\ChatGPT\\W300\\DSC-W300\\build\\w300\\reports\\fallback11\\fallback11.asm.txt"
+  },
+  "documentation_diff_check": {
+    "exit_code": 0
+  },
+  "l3_independent_review": "No material correction reported after checking source pages and scope",
+  "camera_commands_sent": false,
+  "new_camera_executable_acquired": false,
+  "w300_language_operation_qualified": false,
+  "previous_runtime_checks_repeated": false
+}

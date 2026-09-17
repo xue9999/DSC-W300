@@ -1,0 +1,112 @@
+Static decoding of retained G3 AV candidates only. Display addresses are file offsets unless explicitly stated.
+
+03_av_udtr.bin first 32 bytes ARM vectors, then reset-entry candidate file+0x3C (local inference to inspect).
+file+0x00000000 18f09fe5     ldr       pc, [pc, #0x18]
+file+0x00000004 18f09fe5     ldr       pc, [pc, #0x18]
+file+0x00000008 18f09fe5     ldr       pc, [pc, #0x18]
+file+0x0000000c 18f09fe5     ldr       pc, [pc, #0x18]
+file+0x00000010 18f09fe5     ldr       pc, [pc, #0x18]
+file+0x00000014 0000a0e1     mov       r0, r0
+file+0x00000018 14f09fe5     ldr       pc, [pc, #0x14]
+file+0x0000001c 14f09fe5     ldr       pc, [pc, #0x14]
+file+0x0000003c d3f021e3     msr       cpsr_c, #0xd3
+file+0x00000040 a8d09fe5     ldr       sp, [pc, #0xa8]
+file+0x00000044 d1f021e3     msr       cpsr_c, #0xd1
+file+0x00000048 a4d09fe5     ldr       sp, [pc, #0xa4]
+file+0x0000004c d2f021e3     msr       cpsr_c, #0xd2
+file+0x00000050 a0d09fe5     ldr       sp, [pc, #0xa0]
+file+0x00000054 d7f021e3     msr       cpsr_c, #0xd7
+file+0x00000058 9cd09fe5     ldr       sp, [pc, #0x9c]
+file+0x0000005c dbf021e3     msr       cpsr_c, #0xdb
+file+0x00000060 98d09fe5     ldr       sp, [pc, #0x98]
+file+0x00000064 dff021e3     msr       cpsr_c, #0xdf
+file+0x00000068 94d09fe5     ldr       sp, [pc, #0x94]
+file+0x0000006c 1e0000eb     bl        #0xec
+file+0x00000070 1c0000eb     bl        #0xe8
+file+0x00000074 400100eb     bl        #0x57c
+file+0x00000078 1a0000eb     bl        #0xe8
+file+0x0000007c 690100eb     bl        #0x628
+file+0x00000080 180000eb     bl        #0xe8
+file+0x00000084 ca0000eb     bl        #0x3b4
+file+0x00000088 af0805ea     b         #0x14234c
+file+0x0000008c 150000eb     bl        #0xe8
+file+0x00000090 70009fe5     ldr       r0, [pc, #0x70]
+file+0x00000094 10ff2fe1     bx        r0
+file+0x00000098 6c009fe5     ldr       r0, [pc, #0x6c]
+file+0x0000009c ff5f2de9     push      {r0, r1, r2, r3, r4, r5, r6, r7, r8, sb, sl, fp, ip, lr}
+file+0x000000a0 0040a0e3     mov       r4, #0
+file+0x000000a4 732705ea     b         #0x149e78
+file+0x000000a8 40d09fe5     ldr       sp, [pc, #0x40]
+file+0x000000ac ff5f2de9     push      {r0, r1, r2, r3, r4, r5, r6, r7, r8, sb, sl, fp, ip, lr}
+file+0x000000b0 0140a0e3     mov       r4, #1
+file+0x000000b4 6f2705ea     b         #0x149e78
+file+0x000000b8 04e04ee2     sub       lr, lr, #4
+file+0x000000bc ff5f2de9     push      {r0, r1, r2, r3, r4, r5, r6, r7, r8, sb, sl, fp, ip, lr}
+file+0x000000c0 0240a0e3     mov       r4, #2
+file+0x000000c4 6b2705ea     b         #0x149e78
+file+0x000000c8 08e04ee2     sub       lr, lr, #8
+file+0x000000cc ff5f2de9     push      {r0, r1, r2, r3, r4, r5, r6, r7, r8, sb, sl, fp, ip, lr}
+file+0x000000d0 0340a0e3     mov       r4, #3
+file+0x000000d4 672705ea     b         #0x149e78
+file+0x000000d8 04e04ee2     sub       lr, lr, #4
+file+0x000000dc ff5f2de9     push      {r0, r1, r2, r3, r4, r5, r6, r7, r8, sb, sl, fp, ip, lr}
+file+0x000000e0 ec2605ea     b         #0x149c98
+file+0x000000e4 feffffea     b         #0xe4
+file+0x000000e8 1eff2fe1     bx        lr
+file+0x000000ec 1eff2fe1     bx        lr
+
+09_av.bin first 32 bytes ARM vectors, then reset-entry candidate file+0x3C (local inference to inspect).
+file+0x00000000 18f09fe5     ldr       pc, [pc, #0x18]
+file+0x00000004 18f09fe5     ldr       pc, [pc, #0x18]
+file+0x00000008 18f09fe5     ldr       pc, [pc, #0x18]
+file+0x0000000c 18f09fe5     ldr       pc, [pc, #0x18]
+file+0x00000010 18f09fe5     ldr       pc, [pc, #0x18]
+file+0x00000014 0000a0e1     mov       r0, r0
+file+0x00000018 14f09fe5     ldr       pc, [pc, #0x14]
+file+0x0000001c 14f09fe5     ldr       pc, [pc, #0x14]
+file+0x0000003c d3f021e3     msr       cpsr_c, #0xd3
+file+0x00000040 acd09fe5     ldr       sp, [pc, #0xac]
+file+0x00000044 d1f021e3     msr       cpsr_c, #0xd1
+file+0x00000048 a8d09fe5     ldr       sp, [pc, #0xa8]
+file+0x0000004c d2f021e3     msr       cpsr_c, #0xd2
+file+0x00000050 a4d09fe5     ldr       sp, [pc, #0xa4]
+file+0x00000054 d7f021e3     msr       cpsr_c, #0xd7
+file+0x00000058 a0d09fe5     ldr       sp, [pc, #0xa0]
+file+0x0000005c dbf021e3     msr       cpsr_c, #0xdb
+file+0x00000060 9cd09fe5     ldr       sp, [pc, #0x9c]
+file+0x00000064 dff021e3     msr       cpsr_c, #0xdf
+file+0x00000068 98d09fe5     ldr       sp, [pc, #0x98]
+file+0x0000006c 1f0000eb     bl        #0xf0
+file+0x00000070 1d0000eb     bl        #0xec
+file+0x00000074 500100eb     bl        #0x5bc
+file+0x00000078 1b0000eb     bl        #0xec
+file+0x0000007c 870100eb     bl        #0x6a0
+file+0x00000080 190000eb     bl        #0xec
+file+0x00000084 680000eb     bl        #0x22c
+file+0x00000088 cd5b05ea     b         #0x156fc4
+file+0x0000008c 160000eb     bl        #0xec
+file+0x00000090 74009fe5     ldr       r0, [pc, #0x74]
+file+0x00000094 10ff2fe1     bx        r0
+file+0x00000098 70009fe5     ldr       r0, [pc, #0x70]
+file+0x0000009c 70009fe5     ldr       r0, [pc, #0x70]
+file+0x000000a0 ff5f2de9     push      {r0, r1, r2, r3, r4, r5, r6, r7, r8, sb, sl, fp, ip, lr}
+file+0x000000a4 0040a0e3     mov       r4, #0
+file+0x000000a8 687a05ea     b         #0x15ea50
+file+0x000000ac 40d09fe5     ldr       sp, [pc, #0x40]
+file+0x000000b0 ff5f2de9     push      {r0, r1, r2, r3, r4, r5, r6, r7, r8, sb, sl, fp, ip, lr}
+file+0x000000b4 0140a0e3     mov       r4, #1
+file+0x000000b8 647a05ea     b         #0x15ea50
+file+0x000000bc 04e04ee2     sub       lr, lr, #4
+file+0x000000c0 ff5f2de9     push      {r0, r1, r2, r3, r4, r5, r6, r7, r8, sb, sl, fp, ip, lr}
+file+0x000000c4 0240a0e3     mov       r4, #2
+file+0x000000c8 607a05ea     b         #0x15ea50
+file+0x000000cc 08e04ee2     sub       lr, lr, #8
+file+0x000000d0 ff5f2de9     push      {r0, r1, r2, r3, r4, r5, r6, r7, r8, sb, sl, fp, ip, lr}
+file+0x000000d4 0340a0e3     mov       r4, #3
+file+0x000000d8 5c7a05ea     b         #0x15ea50
+file+0x000000dc 04e04ee2     sub       lr, lr, #4
+file+0x000000e0 ff5f2de9     push      {r0, r1, r2, r3, r4, r5, r6, r7, r8, sb, sl, fp, ip, lr}
+file+0x000000e4 e17905ea     b         #0x15e870
+file+0x000000e8 feffffea     b         #0xe8
+file+0x000000ec 1eff2fe1     bx        lr
+file+0x000000f0 1eff2fe1     bx        lr

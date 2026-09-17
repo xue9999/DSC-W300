@@ -1,0 +1,59 @@
+{
+  "scope": "Static retained G3 native cooperator and first-stage hash-length evidence; no complete normal-MSC entry or W300 proof",
+  "input_manifest_pins_verified": {
+    "evidence/extracted_g3/archives_unpacked/fskrel1/dsc/fsk/PExtSenser.so": "633d64cf7ce3b44b400f12b87e6044c12e840ba9c96a4dd1ed8a19a2bdd26635",
+    "evidence/extracted_g3/archives_unpacked/lib/lib/libsencore.so": "401bc78bc84bd175968513a387b8951626ceb48a345eed134b998d3630103270",
+    "evidence/extracted_g3/archives_unpacked/lib/lib/libusb.so": "618d7abb1ac055afceefbab379b522d782574ffefeee5bbbcd3148d4a01d2cb8",
+    "evidence/extracted_g3/archives_unpacked/bin/bin/sen": "6e1ff9d1668786808d8d349f0ea532cfa5437437dd85672d054b9e755d4a51f3",
+    "evidence/extracted_g3/archives_unpacked/fskrel1/dsc/fsk/usbExt.so": "6d60f8a247202ad4f64bd8edba7ea35845885a4dde349cbd3a9e77ff8061dca9"
+  },
+  "pmca_commit": "a82f5baaa8e9c3d9f28f94699e860fb2e48cc8e0",
+  "pmca_sony_py_sha256": "53ffb4d9d49cb5146623fda2b66ecb137681a6fc9ab0c98d23a51e75128af97e",
+  "extension": {
+    "constructor": "0xd200",
+    "initializer": "0xcd54",
+    "instance_va": "0x1c688",
+    "vptr_va": "0x1c568",
+    "get_product_vslot": "0x18",
+    "get_product_function": "0xbbb4",
+    "get_product_value": 0,
+    "event_handler": "0xb504",
+    "start_event": 1,
+    "nin_start_call": "0xb614"
+  },
+  "dynamic_thread": {
+    "library": "libsencore.so",
+    "library_string_va": "0x12d60",
+    "symbol": "NinThread",
+    "symbol_string_va": "0x12d70",
+    "cooperator_passed_as_thread_argument": true
+  },
+  "registration": {
+    "senif_type_argument": 1,
+    "callback_table": "0x1c540",
+    "senif_pub_import": "usb_senif_pub",
+    "usb_senif_init": "0xdc60",
+    "upstream_kernel_event_to_callback_full_path_traced": false
+  },
+  "hash_branch": {
+    "nin_thread_product_id_condition": "value != 1",
+    "step": "xxstep",
+    "hash_wrapper": "shimashima",
+    "input_bytes": 4,
+    "digest_bytes": 20,
+    "same_length_as_pmca_non_0336_branch": true,
+    "sha_compression_executed_or_fully_proven_here": false
+  },
+  "completion_boundary": {
+    "callback": "StatusCallback::onSenserStatusCallback",
+    "posting_api": "FskThreadPostCallback",
+    "xs_call_api": "fxCallID",
+    "xs_property_name": "call",
+    "script_target_and_order_resolved": false
+  },
+  "normal_msc_to_senser_transition_proven": false,
+  "live_authentication_tested": false,
+  "firmware_executed": false,
+  "usb_commands_sent": false,
+  "w300_compatibility_proven": false
+}

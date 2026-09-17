@@ -1,0 +1,25 @@
+{
+  "captured_at": "2026-09-16T17:20:43.278814+00:00",
+  "scope": "Relocated runtime, not camera or language verification",
+  "archive": "C:\\Users\\apara01\\OneDrive - Kearney\\Documents\\ChatGPT\\W300\\DSC-W300\\build\\w300\\portable\\release1\\W300-Workbench-Windows-x64.zip",
+  "archive_sha256": "f69047f0dff1f655205b1e5c822b3a4d32d1a71b8fb1d8c13044c05ee758c05e",
+  "extraction": "C:\\Users\\apara01\\OneDrive - Kearney\\Documents\\ChatGPT\\W300\\DSC-W300\\build\\w300\\portable\\relocation test \u0105\u0119\\W300Workbench",
+  "files_verified": 1317,
+  "path": "C:\\Windows\\System32;C:\\Windows",
+  "ps_module_path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules;C:\\Users\\apara01\\OneDrive - Kearney\\Documents\\ChatGPT\\W300\\DSC-W300\\build\\w300\\portable\\relocation test \u0105\u0119\\W300Workbench\\runtime\\powershell\\Modules",
+  "external_tools_visible": {
+    "python": null,
+    "git": null,
+    "pwsh": null
+  },
+  "runs": [
+    {
+      "operation": "selftest",
+      "exit_code": 1,
+      "stdout": "{\r\n  \"captured_at\": \"2026-09-16T17:20:43.790432+00:00\",\r\n  \"operation\": \"selftest\",\r\n  \"result\": {\r\n    \"python\": \"3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]\",\r\n    \"platform\": \"Windows-11-10.0.26200-SP0\",\r\n    \"pmca_commit\": \"a82f5baaa8e9c3d9f28f94699e860fb2e48cc8e0\",\r\n    \"frozen_portable_executable\": true,\r\n    \"source_revision_check\": \"Packaged reviewed source hashes and recorded build revision; no Git dependency\",\r\n    \"native_driver_imports\": [\r\n      \"MscContext\",\r\n      \"MtpContext\",\r\n      \"VendorSpecificContext\"\r\n    ],\r\n    \"libusb_dll_loaded\": \"C:\\\\Users\\\\apara01\\\\OneDrive - Kearney\\\\Documents\\\\ChatGPT\\\\W300\\\\DSC-W300\\\\build\\\\w300\\\\portable\\\\relocation test \\u0105\\u0119\\\\W300Workbench\\\\_internal\\\\libusb_package\\\\libusb-1.0.dll\",\r\n    \"dependencies\": {\r\n      \"pyusb\": \"1.3.1\",\r\n      \"pywin32\": \"312\",\r\n      \"comtypes\": \"1.4.16\",\r\n      \"libusb-package\": \"1.0.26.4\"\r\n    },\r\n    \"published_a330_authentication_replay\": \"PASS\",\r\n    \"pmca_source_pin\": \"PASS\",\r\n    \"pmca_reviewed_source_hashes\": \"PASS\",\r\n    \"camera_communication_tested\": false,\r\n    \"w300_language_function_verified\": false,\r\n    \"camera_setting_write_performed\": false,\r\n    \"scope\": \"Host runtime and offline transcript verification; no camera calls\"\r\n  },\r\n  \"ok\": true\r\n}\r\nReport: ",
+      "stderr": "Traceback (most recent call last):\r\n  File \"w300_workbench.py\", line 207, in <module>\r\n  File \"w300_workbench.py\", line 202, in main\r\n  File \"encodings\\cp1252.py\", line 19, in encode\r\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 104-105: character maps to <undefined>\r\n[PYI-37228:ERROR] Failed to execute script 'w300_workbench' due to unhandled exception!\r\n"
+    }
+  ],
+  "ok": false,
+  "error": "selftest failed"
+}

@@ -1,0 +1,146 @@
+{
+  "version": "1",
+  "pip_version": "25.0.1",
+  "install": [
+    {
+      "download_info": {
+        "url": "https://files.pythonhosted.org/packages/ea/fc/8c42060a9acf016a6dcb0ca352c9c0d6a993e64eecb1c9869fb59bbb4702/libusb_package-1.0.26.4-py3-none-win_amd64.whl",
+        "archive_info": {
+          "hash": "sha256=cd8c1f5df3906444ba6eff82ef44a75515b0444b76bba8abf21cc8569637af63",
+          "hashes": {
+            "sha256": "cd8c1f5df3906444ba6eff82ef44a75515b0444b76bba8abf21cc8569637af63"
+          }
+        }
+      },
+      "is_direct": false,
+      "is_yanked": false,
+      "requested": true,
+      "metadata": {
+        "metadata_version": "2.4",
+        "name": "libusb-package",
+        "version": "1.0.26.4",
+        "dynamic": [
+          "license-file"
+        ],
+        "summary": "Package containing libusb so it can be installed via Python package managers",
+        "description": "# Container package for libusb\r\n\r\nThis Python package functions as an installation vehicle for libusb shared libraries, to\r\nsimplify installation of tools that require libusb. The main use case is so that users\r\ndon't have to install libusb manually for projects that use pyusb. However, any Python\r\nproject that uses a libusb wrapper can also benefit.\r\n\r\nSee [libusb.info](https://libusb.info) for more information about libusb.\r\n\r\nNote: Currently the included libusb is built _without_ udev support on Linux.\r\n\r\nNote: The libusb upstream git repository is included as a submodule, so you need to clone with submodules\r\nenabled. You can either clone with `--recurse-submodules` or run `git submodule update --init` after cloning.\r\n\r\n\r\n## Installation\r\n\r\nAll releases include wheels for Linux, macOS, and Windows for multiple architectures. In addition, a source\r\ndistribution is released.\r\n\r\nIf a matching wheel is not available, the source distribution will be installed and libusb will be compiled.\r\nThis means the libusb build requirements must be installed:\r\n\r\n- Linux and macOS: autoconf, automake, libtool, and m4. As mentioned above, libusb is built without udev support,\r\n    so libudev-dev is not required on Linux.\r\n- Windows: Visual Studio 2019 (Community is ok).\r\n\r\nIf the libusb build fails when installing from a source distribution, the `libusb-package` install _will still\r\nsucceed_. In this case, an \"empty\" `libusb-package` is installed that doesn't contain a libusb shared library.\r\n`get_library_path()` returns None and `find_library()` falls back to returning a system installation of libusb,\r\nif available.\r\n\r\nYou can also install from a clone of the git repository by running `pip install .` from the repository root directory.\r\nEditable installs are supported. Please note that running `setup.py` directly is no longer supported for PEP 517\r\ncompliant packages. When building from the repo, because libusb 1.0.24 does not support out of tree builds, the build is\r\ndone in-place in the `src/libusb` directory. `make clean` is run before compiling to ensure a clean build.\r\n\r\n\r\n## APIs\r\n\r\nThere are four public functions exported by `libusb_package`.\r\n\r\n- `find(*args, **kwargs)`: Wrapper around pyusb's `usb.core.find()` that sets the `backend`\r\n    parameter to a libusb1 backend created from the libusb library included in `libusb_package`.\r\n    All other parameters are passed unmodified\r\n\r\n- `get_libusb1_backend()`: Returns a `pyusb` backend object for the libusb version contained\r\n    in `libusb_package`.\r\n\r\n- `find_library(candidate)`: Lower level function that returns either the full path to a\r\n    library contained in `libusb_package` with a name starting with `candidate`, or None if\r\n    no matching library is found. This function is suitable for use with the `find_library`\r\n    callback parameter for pyusb's `get_backend()` functions.\r\n\r\n    If `get_library_path()` returns None, indicating there is no included library, this function\r\n    will fall back to `ctypes.util.find_library()`.\r\n\r\n- `get_library_path()`: Returns an absolute Path object for the included library. If there is not\r\n    an included library, None is returned.\r\n\r\nBoth `get_libusb1_backend()` and `get_library_path()` cache their return values.\r\n\r\n\r\n## Versioning\r\n\r\nThe version of libusb-package is composed of the libusb version plus an additional field for\r\nthe version of the Python code. For instance, 1.0.24.0. The Python code version will be reset\r\nto 0 when the libusb version is incremented for new libusb release.\r\n\r\n\r\n## Examples\r\n\r\nUsage example for `find()`:\r\n\r\n```py\r\nimport libusb_package\r\n\r\nfor dev in libusb_package.find(find_all=True):\r\n    print(dev)\r\n```\r\n\r\n\r\nUsage example for `find_library()`:\r\n\r\n```py\r\nimport libusb_package\r\nimport usb.core\r\nimport usb.backend.libusb1\r\n\r\nlibusb1_backend = usb.backend.libusb1.get_backend(find_library=libusb_package.find_library)\r\n# -> calls usb.libloader.load_locate_library(\r\n#                ('usb-1.0', 'libusb-1.0', 'usb'),\r\n#                'cygusb-1.0.dll', 'Libusb 1',\r\n#                win_cls=win_cls,\r\n#                find_library=find_library, check_symbols=('libusb_init',))\r\n#\r\n# -> calls find_library(candidate) with candidate in ('usb-1.0', 'libusb-1.0', 'usb')\r\n#   returns lib name or path (as appropriate for OS) if matching lib is found\r\n\r\n# It would also be possible to pass the output of libusb_package.get_libsusb1_backend()\r\n# to the backend parameter here. In fact, that function is simply a shorthand for the line\r\n# above.\r\nprint(list(usb.core.find(find_all=True, backend=libusb1_backend)))\r\n```\r\n\r\n\r\n### Source distribution\r\n\r\nBefore building a source distribution, be sure to clean all untracked files from the libusb\r\nsubmodule using `git -C src/libusb clean -dfx`.\r\n\r\n\r\n### License\r\n\r\nThe Python code for `libusb-package` is licensed with Apache 2.0.\\\r\nThe libusb library and its source code are licensed with LGPLv2.1.\r\n",
+        "description_content_type": "text/markdown",
+        "home_page": "https://github.com/pyocd/libusb-package",
+        "author": "Chris Reed",
+        "author_email": "flit@me.com",
+        "license": "Apache 2.0",
+        "license_file": [
+          "LICENSE"
+        ],
+        "classifier": [
+          "Development Status :: 4 - Beta",
+          "Intended Audience :: Developers",
+          "License :: OSI Approved :: Apache Software License",
+          "Operating System :: MacOS",
+          "Operating System :: Microsoft :: Windows",
+          "Operating System :: POSIX",
+          "Operating System :: Unix",
+          "Programming Language :: Python",
+          "Programming Language :: Python :: 3.7",
+          "Programming Language :: Python :: 3.8",
+          "Programming Language :: Python :: 3.9",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Programming Language :: Python :: 3.13",
+          "Programming Language :: Python :: 3.14",
+          "Topic :: System :: Hardware :: Universal Serial Bus (USB)",
+          "Typing :: Typed"
+        ],
+        "requires_dist": [
+          "importlib_resources"
+        ],
+        "requires_python": ">=3.7",
+        "project_url": [
+          "Bug Tracker, https://github.com/pyocd/libusb-package/issues",
+          "Discussions, https://github.com/pyocd/libusb-package/discussions",
+          "Changelog, https://github.com/pyocd/libusb-package/releases"
+        ]
+      }
+    },
+    {
+      "download_info": {
+        "url": "https://files.pythonhosted.org/packages/8a/db/55a262f3606bebcae07cc14095338471ad7c0bbcaa37707e6f0ee49725b7/importlib_resources-7.1.0-py3-none-any.whl",
+        "archive_info": {
+          "hash": "sha256=1bd7b48b4088eddb2cd16382150bb515af0bd2c70128194392725f82ad2c96a1",
+          "hashes": {
+            "sha256": "1bd7b48b4088eddb2cd16382150bb515af0bd2c70128194392725f82ad2c96a1"
+          }
+        }
+      },
+      "is_direct": false,
+      "is_yanked": false,
+      "requested": false,
+      "metadata": {
+        "metadata_version": "2.4",
+        "name": "importlib_resources",
+        "version": "7.1.0",
+        "dynamic": [
+          "license-file"
+        ],
+        "summary": "Read resources from Python packages",
+        "description": ".. image:: https://img.shields.io/pypi/v/importlib_resources.svg\n   :target: https://pypi.org/project/importlib_resources\n\n.. image:: https://img.shields.io/pypi/pyversions/importlib_resources.svg\n\n.. image:: https://github.com/python/importlib_resources/actions/workflows/main.yml/badge.svg\n   :target: https://github.com/python/importlib_resources/actions?query=workflow%3A%22tests%22\n   :alt: tests\n\n.. image:: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json\n    :target: https://github.com/astral-sh/ruff\n    :alt: Ruff\n\n.. image:: https://readthedocs.org/projects/importlib-resources/badge/?version=latest\n   :target: https://importlib-resources.readthedocs.io/en/latest/?badge=latest\n\n.. image:: https://img.shields.io/badge/skeleton-2025-informational\n   :target: https://blog.jaraco.com/skeleton\n\n.. image:: https://tidelift.com/badges/package/pypi/importlib-resources\n   :target: https://tidelift.com/subscription/pkg/pypi-importlib-resources?utm_source=pypi-importlib-resources&utm_medium=readme\n\n``importlib_resources`` is a backport of Python standard library\n`importlib.resources\n<https://docs.python.org/3/library/importlib.html#module-importlib.resources>`_\nmodule for older Pythons.\n\nThe key goal of this module is to replace parts of `pkg_resources\n<https://setuptools.readthedocs.io/en/latest/pkg_resources.html>`_ with a\nsolution in Python's stdlib that relies on well-defined APIs.  This makes\nreading resources included in packages easier, with more stable and consistent\nsemantics.\n\nCompatibility\n=============\n\nNew features are introduced in this third-party library and later merged\ninto CPython. The following table indicates which versions of this library\nwere contributed to different versions in the standard library:\n\n.. list-table::\n   :header-rows: 1\n\n   * - importlib_resources\n     - stdlib\n   * - 6.0\n     - 3.13\n   * - 5.12\n     - 3.12\n   * - 5.7\n     - 3.11\n   * - 5.0\n     - 3.10\n   * - 1.3\n     - 3.9\n   * - 0.5 (?)\n     - 3.7\n\nFor Enterprise\n==============\n\nAvailable as part of the Tidelift Subscription.\n\nThis project and the maintainers of thousands of other packages are working with Tidelift to deliver one enterprise subscription that covers all of the open source you use.\n\n`Learn more <https://tidelift.com/subscription/pkg/pypi-importlib-resources?utm_source=pypi-importlib-resources&utm_medium=referral&utm_campaign=github>`_.\n",
+        "description_content_type": "text/x-rst",
+        "author_email": "Barry Warsaw <barry@python.org>",
+        "maintainer_email": "\"Jason R. Coombs\" <jaraco@jaraco.com>",
+        "license_expression": "Apache-2.0",
+        "license_file": [
+          "LICENSE"
+        ],
+        "classifier": [
+          "Development Status :: 5 - Production/Stable",
+          "Intended Audience :: Developers",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 3 :: Only"
+        ],
+        "requires_dist": [
+          "zipp>=3.1.0; python_version < \"3.10\"",
+          "pytest!=8.1.*,>=6; extra == \"test\"",
+          "zipp>=3.17; extra == \"test\"",
+          "jaraco.test>=5.4; extra == \"test\"",
+          "sphinx>=3.5; extra == \"doc\"",
+          "jaraco.packaging>=9.3; extra == \"doc\"",
+          "rst.linker>=1.9; extra == \"doc\"",
+          "furo; extra == \"doc\"",
+          "sphinx-lint; extra == \"doc\"",
+          "jaraco.tidelift>=1.4; extra == \"doc\"",
+          "pytest-checkdocs>=2.14; extra == \"check\"",
+          "pytest-ruff>=0.2.1; sys_platform != \"cygwin\" and extra == \"check\"",
+          "pytest-cov; extra == \"cover\"",
+          "pytest-enabler>=3.4; extra == \"enabler\"",
+          "pytest-mypy>=1.0.1; platform_python_implementation != \"PyPy\" and extra == \"type\""
+        ],
+        "requires_python": ">=3.10",
+        "project_url": [
+          "Source, https://github.com/python/importlib_resources"
+        ],
+        "provides_extra": [
+          "test",
+          "doc",
+          "check",
+          "cover",
+          "enabler",
+          "type"
+        ]
+      }
+    }
+  ],
+  "environment": {
+    "implementation_name": "cpython",
+    "implementation_version": "3.12.14",
+    "os_name": "nt",
+    "platform_machine": "AMD64",
+    "platform_release": "11",
+    "platform_system": "Windows",
+    "platform_version": "10.0.26200",
+    "python_full_version": "3.12.14",
+    "platform_python_implementation": "CPython",
+    "python_version": "3.12",
+    "sys_platform": "win32"
+  }
+}

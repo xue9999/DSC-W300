@@ -1,0 +1,45 @@
+{
+  "source": "evidence/extracted_g3/archives_unpacked/lib/lib/libsencore.so",
+  "sha256": "401bc78bc84bd175968513a387b8951626ceb48a345eed134b998d3630103270",
+  "pic_base": "0x1b2d4",
+  "got_slot": "0x1b5d4",
+  "got_relocation": "R_ARM_GLOB_DAT: AdjustCommunication",
+  "table_va": "0x1ba04",
+  "table_file_offset": "0x13a04",
+  "index_for_header_0x11": 1,
+  "entry_relocation": "R_ARM_RELATIVE",
+  "target": "0xe894",
+  "strings": {
+    "device": {
+      "va": "0x12b54",
+      "file_offset": "0x12b54",
+      "text": "/dev/ipcm"
+    },
+    "connect_error": {
+      "va": "0x12b60",
+      "file_offset": "0x12b60",
+      "text": "IPCMIOC_CONNECT Failed"
+    },
+    "transaction": {
+      "va": "0x1298c",
+      "file_offset": "0x1298c",
+      "text": "TransactionStart"
+    },
+    "av_result": {
+      "va": "0x12b04",
+      "file_offset": "0x12b04",
+      "text": "[ERR][S][%d][%s] : AV con result failed[Mode = 0x%02X, ResponseCode = 0x%02X]\n"
+    },
+    "mapping": {
+      "va": "0x12ba4",
+      "file_offset": "0x12ba4",
+      "text": "/dev/kmem"
+    }
+  },
+  "connect_ioctl": "0x400c4901",
+  "seus_ascii_hits": {
+    "SEUS": 0,
+    "Seus": 0,
+    "seus": 0
+  }
+}

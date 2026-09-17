@@ -1,7 +1,7 @@
-"""Sony CXD4108 BIONZ Emulation & Flash Staging Tooling.
+"""Offline image assembly and QEMU profile experiments.
 
-This package bridges decrypted Sony Cyber-shot DSC-G3 and DSC-W90/W300 firmware
-artifacts with the OpenMemories QEMU hardware emulation platform.
+These helpers do not establish W300 compatibility, boot success or hardware
+calibration. Factory layouts are synthetic fixtures.
 """
 
 from .flash_builder import (

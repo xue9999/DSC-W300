@@ -1,0 +1,2126 @@
+[
+  {
+    "path": "evidence/extracted_g3/archives_unpacked/lib/lib/libsencore.so",
+    "bytes": 84120,
+    "sha256": "401bc78bc84bd175968513a387b8951626ceb48a345eed134b998d3630103270",
+    "elf_type": 3,
+    "machine": 40,
+    "symbols": [
+      {
+        "name": "_Z8TestModePK12SenserPacket",
+        "value": "0xd274",
+        "size": 268,
+        "type": 2,
+        "section_index": 10,
+        "section": ".text",
+        "file_offset": "0xd274"
+      },
+      {
+        "name": "_ZN12Inconcurrent10resource_t4lockEPK12SenserPacket",
+        "value": "0xad68",
+        "size": 160,
+        "type": 2,
+        "section_index": 10,
+        "section": ".text",
+        "file_offset": "0xad68"
+      },
+      {
+        "name": "_Z18FirmwareUpdateFuncPK12SenserPacket",
+        "value": "0xcfa0",
+        "size": 20,
+        "type": 2,
+        "section_index": 10,
+        "section": ".text",
+        "file_offset": "0xcfa0"
+      },
+      {
+        "name": "_ZN3Usb14start_callbackE13__USBIF_EVENTP17usbif_event_parami",
+        "value": "0x8cbc",
+        "size": 88,
+        "type": 2,
+        "section_index": 10,
+        "section": ".text",
+        "file_offset": "0x8cbc"
+      },
+      {
+        "name": "_ZN3Usb19synch_stop_callbackE13__USBIF_EVENTP17usbif_event_parami",
+        "value": "0x8d70",
+        "size": 60,
+        "type": 2,
+        "section_index": 10,
+        "section": ".text",
+        "file_offset": "0x8d70"
+      },
+      {
+        "name": "_ZN24HostCommunicationCommandC1EPK12SenserPacketRK15CommandCodeType",
+        "value": "0xa3e0",
+        "size": 484,
+        "type": 2,
+        "section_index": 10,
+        "section": ".text",
+        "file_offset": "0xa3e0"
+      },
+      {
+        "name": "_Z9SonarFuncPK12SenserPacket",
+        "value": "0xdd0c",
+        "size": 80,
+        "type": 2,
+        "section_index": 10,
+        "section": ".text",
+        "file_offset": "0xdd0c"
+      },
+      {
+        "name": "senif_init",
+        "value": "0xf678",
+        "size": 108,
+        "type": 2,
+        "section_index": 10,
+        "section": ".text",
+        "file_offset": "0xf678"
+      },
+      {
+        "name": "_Z15SenserIfReceivePhj",
+        "value": "0x911c",
+        "size": 236,
+        "type": 2,
+        "section_index": 10,
+        "section": ".text",
+        "file_offset": "0x911c"
+      },
+      {
+        "name": "_ZN3Usb20usbif_event_handlersE",
+        "value": "0x1b7d0",
+        "size": 36,
+        "type": 1,
+        "section_index": 20,
+        "section": ".data",
+        "file_offset": "0x137d0"
+      },
+      {
+        "name": "_ZN15DispatchCommand9DoExecuteEP12SenserPacket",
+        "value": "0x9f48",
+        "size": 288,
+        "type": 2,
+        "section_index": 10,
+        "section": ".text",
+        "file_offset": "0x9f48"
+      },
+      {
+        "name": "_Z12SenserIfStopR20InitiationDispatcher",
+        "value": "0x8fd0",
+        "size": 64,
+        "type": 2,
+        "section_index": 10,
+        "section": ".text",
+        "file_offset": "0x8fd0"
+      },
+      {
+        "name": "_ZN7Command7ExecuteEP12SenserPacket",
+        "value": "0x9ed4",
+        "size": 88,
+        "type": 2,
+        "section_index": 10,
+        "section": ".text",
+        "file_offset": "0x9ed4"
+      },
+      {
+        "name": "_Z13SenserIfStartR20InitiationDispatcherPFvvE20usb_port_selection_t",
+        "value": "0x8f74",
+        "size": 92,
+        "type": 2,
+        "section_index": 10,
+        "section": ".text",
+        "file_offset": "0x8f74"
+      },
+      {
+        "name": "_ZN3Usb24connection_event_handlerE13__USBIF_EVENTP17usbif_event_parami",
+        "value": "0x8b44",
+        "size": 376,
+        "type": 2,
+        "section_index": 10,
+        "section": ".text",
+        "file_offset": "0x8b44"
+      },
+      {
+        "name": "_Z12SenserThreadPv",
+        "value": "0x6df8",
+        "size": 2004,
+        "type": 2,
+        "section_index": 10,
+        "section": ".text",
+        "file_offset": "0x6df8"
+      },
+      {
+        "name": "usbif_initialize",
+        "value": "0x0",
+        "size": 756,
+        "type": 2,
+        "section_index": 0
+      },
+      {
+        "name": "_Z25UnloadSenserPluginModulesv",
+        "value": "0xaca0",
+        "size": 84,
+        "type": 2,
+        "section_index": 10,
+        "section": ".text",
+        "file_offset": "0xaca0"
+      },
+      {
+        "name": "senser_stop",
+        "value": "0x6678",
+        "size": 40,
+        "type": 2,
+        "section_index": 10,
+        "section": ".text",
+        "file_offset": "0x6678"
+      },
+      {
+        "name": "_ZN13PluginCommand9DoExecuteEP12SenserPacket",
+        "value": "0xa068",
+        "size": 404,
+        "type": 2,
+        "section_index": 10,
+        "section": ".text",
+        "file_offset": "0xa068"
+      },
+      {
+        "name": "_Z17AdjustControlFuncPK12SenserPacket",
+        "value": "0xd7f8",
+        "size": 180,
+        "type": 2,
+        "section_index": 10,
+        "section": ".text",
+        "file_offset": "0xd7f8"
+      },
+      {
+        "name": "_ZN3Usb20active_event_handlerE15__SENIF_EVENT_TPhji",
+        "value": "0x8dac",
+        "size": 204,
+        "type": 2,
+        "section_index": 10,
+        "section": ".text",
+        "file_offset": "0x8dac"
+      },
+      {
+        "name": "_ZN22AVCommunicationCommand9DoExecuteEP12SenserPacket",
+        "value": "0xf014",
+        "size": 468,
+        "type": 2,
+        "section_index": 10,
+        "section": ".text",
+        "file_offset": "0xf014"
+      },
+      {
+        "name": "senser_normal_mode_start",
+        "value": "0x6638",
+        "size": 64,
+        "type": 2,
+        "section_index": 10,
+        "section": ".text",
+        "file_offset": "0x6638"
+      },
+      {
+        "name": "_ZN24HostCommunicationCommandC2EPK12SenserPacketRK15CommandCodeType",
+        "value": "0xa1fc",
+        "size": 484,
+        "type": 2,
+        "section_index": 10,
+        "section": ".text",
+        "file_offset": "0xa1fc"
+      },
+      {
+        "name": "_ZN8NoAction9DoExecuteEP12SenserPacket",
+        "value": "0x9f2c",
+        "size": 28,
+        "type": 2,
+        "section_index": 10,
+        "section": ".text",
+        "file_offset": "0x9f2c"
+      },
+      {
+        "name": "_ZN19WorkerThreadManager20start_authenticationEPFvvE",
+        "value": "0x7f48",
+        "size": 84,
+        "type": 2,
+        "section_index": 10,
+        "section": ".text",
+        "file_offset": "0x7f48"
+      },
+      {
+        "name": "usb_senif_pub",
+        "value": "0x0",
+        "size": 8,
+        "type": 1,
+        "section_index": 0
+      },
+      {
+        "name": "_ZN24HostCommunicationCommand9DoExecuteEP12SenserPacket",
+        "value": "0xa5c4",
+        "size": 1248,
+        "type": 2,
+        "section_index": 10,
+        "section": ".text",
+        "file_offset": "0xa5c4"
+      },
+      {
+        "name": "_Z15SenserIfRestartv",
+        "value": "0x9010",
+        "size": 64,
+        "type": 2,
+        "section_index": 10,
+        "section": ".text",
+        "file_offset": "0x9010"
+      },
+      {
+        "name": "senser_usb_mode_start",
+        "value": "0x65e0",
+        "size": 88,
+        "type": 2,
+        "section_index": 10,
+        "section": ".text",
+        "file_offset": "0x65e0"
+      },
+      {
+        "name": "_Z12SenserIfSendPhj",
+        "value": "0x9050",
+        "size": 204,
+        "type": 2,
+        "section_index": 10,
+        "section": ".text",
+        "file_offset": "0x9050"
+      },
+      {
+        "name": "_Z15ProductInfoFuncPK12SenserPacket",
+        "value": "0xd8ac",
+        "size": 444,
+        "type": 2,
+        "section_index": 10,
+        "section": ".text",
+        "file_offset": "0xd8ac"
+      },
+      {
+        "name": "_ZN3Usb20senif_event_handlersE",
+        "value": "0x1b7f4",
+        "size": 8,
+        "type": 1,
+        "section_index": 20,
+        "section": ".data",
+        "file_offset": "0x137f4"
+      },
+      {
+        "name": "_ZN3Usb13stop_callbackE13__USBIF_EVENTP17usbif_event_parami",
+        "value": "0x8d14",
+        "size": 92,
+        "type": 2,
+        "section_index": 10,
+        "section": ".text",
+        "file_offset": "0x8d14"
+      },
+      {
+        "name": "_Z12SendResponseP12SenserPacketP10PacketData",
+        "value": "0x6994",
+        "size": 656,
+        "type": 2,
+        "section_index": 10,
+        "section": ".text",
+        "file_offset": "0x6994"
+      },
+      {
+        "name": "_Z10MemoryDumpPK12SenserPacket",
+        "value": "0xd58c",
+        "size": 564,
+        "type": 2,
+        "section_index": 10,
+        "section": ".text",
+        "file_offset": "0xd58c"
+      },
+      {
+        "name": "senif_destroy",
+        "value": "0xf6e4",
+        "size": 80,
+        "type": 2,
+        "section_index": 10,
+        "section": ".text",
+        "file_offset": "0xf6e4"
+      },
+      {
+        "name": "_ZN3Usb22inactive_event_handlerE15__SENIF_EVENT_TPhji",
+        "value": "0x8e78",
+        "size": 204,
+        "type": 2,
+        "section_index": 10,
+        "section": ".text",
+        "file_offset": "0x8e78"
+      },
+      {
+        "name": "_Z11FileControlPK12SenserPacket",
+        "value": "0xed1c",
+        "size": 760,
+        "type": 2,
+        "section_index": 10,
+        "section": ".text",
+        "file_offset": "0xed1c"
+      },
+      {
+        "name": "_Z15MiconAccessFuncPK12SenserPacket",
+        "value": "0xd380",
+        "size": 128,
+        "type": 2,
+        "section_index": 10,
+        "section": ".text",
+        "file_offset": "0xd380"
+      },
+      {
+        "name": "_Z5ParsePK12SenserPacket",
+        "value": "0xce18",
+        "size": 392,
+        "type": 2,
+        "section_index": 10,
+        "section": ".text",
+        "file_offset": "0xce18"
+      },
+      {
+        "name": "_Z15SenserIfSndPhysPhj",
+        "value": "0x9208",
+        "size": 204,
+        "type": 2,
+        "section_index": 10,
+        "section": ".text",
+        "file_offset": "0x9208"
+      },
+      {
+        "name": "_ZN3Usb16no_event_handlerE13__USBIF_EVENTP17usbif_event_parami",
+        "value": "0x8b34",
+        "size": 16,
+        "type": 2,
+        "section_index": 10,
+        "section": ".text",
+        "file_offset": "0x8b34"
+      },
+      {
+        "name": "_Z15SenserIfRcvPhysPhj",
+        "value": "0x92d4",
+        "size": 236,
+        "type": 2,
+        "section_index": 10,
+        "section": ".text",
+        "file_offset": "0x92d4"
+      },
+      {
+        "name": "_ZN3Usb24onCompleteAuthenticationEv",
+        "value": "0x8f44",
+        "size": 48,
+        "type": 2,
+        "section_index": 10,
+        "section": ".text",
+        "file_offset": "0x8f44"
+      },
+      {
+        "name": "usbif_destroy",
+        "value": "0x0",
+        "size": 96,
+        "type": 2,
+        "section_index": 0
+      },
+      {
+        "name": "ptbl_senif",
+        "value": "0x1bb08",
+        "size": 8,
+        "type": 1,
+        "section_index": 20,
+        "section": ".data",
+        "file_offset": "0x13b08"
+      }
+    ],
+    "strings": [
+      {
+        "file_offset": "0x2437",
+        "text": "senser_usb_mode_start"
+      },
+      {
+        "file_offset": "0x245f",
+        "text": "_Z13SenserIfStartR20InitiationDispatcherPFvvE20usb_port_selection_t"
+      },
+      {
+        "file_offset": "0x24a3",
+        "text": "_Z15SenserIfRestartv"
+      },
+      {
+        "file_offset": "0x24b8",
+        "text": "senser_normal_mode_start"
+      },
+      {
+        "file_offset": "0x24d1",
+        "text": "senser_stop"
+      },
+      {
+        "file_offset": "0x24dd",
+        "text": "_Z12SenserIfStopR20InitiationDispatcher"
+      },
+      {
+        "file_offset": "0x262a",
+        "text": "_Z12SendResponseP12SenserPacketP10PacketData"
+      },
+      {
+        "file_offset": "0x266a",
+        "text": "_Z12SenserIfSendPhj"
+      },
+      {
+        "file_offset": "0x2759",
+        "text": "_Z12SenserThreadPv"
+      },
+      {
+        "file_offset": "0x2781",
+        "text": "_Z5ParsePK12SenserPacket"
+      },
+      {
+        "file_offset": "0x27f6",
+        "text": "_ZN7Command7ExecuteEP12SenserPacket"
+      },
+      {
+        "file_offset": "0x2833",
+        "text": "_Z15SenserIfReceivePhj"
+      },
+      {
+        "file_offset": "0x2a67",
+        "text": "_Z17AdjustControlFuncPK12SenserPacket"
+      },
+      {
+        "file_offset": "0x2a8d",
+        "text": "_Z18FirmwareUpdateFuncPK12SenserPacket"
+      },
+      {
+        "file_offset": "0x2ac2",
+        "text": "_Z15ProductInfoFuncPK12SenserPacket"
+      },
+      {
+        "file_offset": "0x2af4",
+        "text": "_Z15MiconAccessFuncPK12SenserPacket"
+      },
+      {
+        "file_offset": "0x2b18",
+        "text": "_Z8TestModePK12SenserPacket"
+      },
+      {
+        "file_offset": "0x2b34",
+        "text": "_Z11FileControlPK12SenserPacket"
+      },
+      {
+        "file_offset": "0x2b54",
+        "text": "_Z10MemoryDumpPK12SenserPacket"
+      },
+      {
+        "file_offset": "0x2b73",
+        "text": "_Z9SonarFuncPK12SenserPacket"
+      },
+      {
+        "file_offset": "0x2c3c",
+        "text": "_Z25UnloadSenserPluginModulesv"
+      },
+      {
+        "file_offset": "0x2dce",
+        "text": "_ZN19WorkerThreadManager20start_authenticationEPFvvE"
+      },
+      {
+        "file_offset": "0x2ede",
+        "text": "_ZN3Usb20usbif_event_handlersE"
+      },
+      {
+        "file_offset": "0x2efd",
+        "text": "_ZN3Usb24connection_event_handlerE13__USBIF_EVENTP17usbif_event_parami"
+      },
+      {
+        "file_offset": "0x2f44",
+        "text": "_ZN3Usb16no_event_handlerE13__USBIF_EVENTP17usbif_event_parami"
+      },
+      {
+        "file_offset": "0x2f83",
+        "text": "_ZN3Usb20senif_event_handlersE"
+      },
+      {
+        "file_offset": "0x2fa2",
+        "text": "_ZN3Usb20active_event_handlerE15__SENIF_EVENT_TPhji"
+      },
+      {
+        "file_offset": "0x2fd6",
+        "text": "_ZN3Usb22inactive_event_handlerE15__SENIF_EVENT_TPhji"
+      },
+      {
+        "file_offset": "0x30d3",
+        "text": "_ZN3Usb14start_callbackE13__USBIF_EVENTP17usbif_event_parami"
+      },
+      {
+        "file_offset": "0x3110",
+        "text": "_ZN3Usb24onCompleteAuthenticationEv"
+      },
+      {
+        "file_offset": "0x3134",
+        "text": "_ZN3Usb13stop_callbackE13__USBIF_EVENTP17usbif_event_parami"
+      },
+      {
+        "file_offset": "0x31d6",
+        "text": "usbif_destroy"
+      },
+      {
+        "file_offset": "0x31e4",
+        "text": "senif_destroy"
+      },
+      {
+        "file_offset": "0x31f2",
+        "text": "_ZN3Usb19synch_stop_callbackE13__USBIF_EVENTP17usbif_event_parami"
+      },
+      {
+        "file_offset": "0x326d",
+        "text": "senif_init"
+      },
+      {
+        "file_offset": "0x3278",
+        "text": "usbif_initialize"
+      },
+      {
+        "file_offset": "0x331c",
+        "text": "_Z15SenserIfSndPhysPhj"
+      },
+      {
+        "file_offset": "0x3333",
+        "text": "_Z15SenserIfRcvPhysPhj"
+      },
+      {
+        "file_offset": "0x3a85",
+        "text": "_ZN8NoAction9DoExecuteEP12SenserPacket"
+      },
+      {
+        "file_offset": "0x3b18",
+        "text": "_ZN15DispatchCommand9DoExecuteEP12SenserPacket"
+      },
+      {
+        "file_offset": "0x3bb3",
+        "text": "_ZN13PluginCommand9DoExecuteEP12SenserPacket"
+      },
+      {
+        "file_offset": "0x3c76",
+        "text": "_ZN24HostCommunicationCommand9DoExecuteEP12SenserPacket"
+      },
+      {
+        "file_offset": "0x3dbb",
+        "text": "_ZN24HostCommunicationCommandC2EPK12SenserPacketRK15CommandCodeType"
+      },
+      {
+        "file_offset": "0x3dff",
+        "text": "_ZN24HostCommunicationCommandC1EPK12SenserPacketRK15CommandCodeType"
+      },
+      {
+        "file_offset": "0x3e98",
+        "text": "_ZN12Inconcurrent10resource_t4lockEPK12SenserPacket"
+      },
+      {
+        "file_offset": "0x422a",
+        "text": "_ZN22AVCommunicationCommand9DoExecuteEP12SenserPacket"
+      },
+      {
+        "file_offset": "0x43c5",
+        "text": "ptbl_senif"
+      },
+      {
+        "file_offset": "0x43d0",
+        "text": "usb_senif_pub"
+      },
+      {
+        "file_offset": "0x11d04",
+        "text": "SenserThread"
+      },
+      {
+        "file_offset": "0x12020",
+        "text": "!!!![SENSER] Debug Assertion Failed!!!!"
+      },
+      {
+        "file_offset": "0x1208c",
+        "text": "worker_thread[AUTHENTICATION_THREAD].is_created()"
+      },
+      {
+        "file_offset": "0x122d0",
+        "text": "senser_if.cpp"
+      },
+      {
+        "file_offset": "0x12334",
+        "text": "Senser Interface Destroy is Failed"
+      },
+      {
+        "file_offset": "0x12358",
+        "text": "[ERR][S][%d][%s] : Senser Interface Destroy is Failed"
+      },
+      {
+        "file_offset": "0x12390",
+        "text": "senif init failed!"
+      },
+      {
+        "file_offset": "0x123a4",
+        "text": "[ERR][S][%d][%s] : senif init failed!"
+      },
+      {
+        "file_offset": "0x123cc",
+        "text": "usbif init failed!"
+      },
+      {
+        "file_offset": "0x123e0",
+        "text": "[ERR][S][%d][%s] : usbif init failed!"
+      },
+      {
+        "file_offset": "0x12408",
+        "text": "usbif open failed!"
+      },
+      {
+        "file_offset": "0x1241c",
+        "text": "[ERR][S][%d][%s] : usbif open failed!"
+      },
+      {
+        "file_offset": "0x124d4",
+        "text": "SENIF Event: invalid id"
+      },
+      {
+        "file_offset": "0x124ec",
+        "text": "[ERR][S][%d][%s] : SENIF Event: invalid id"
+      },
+      {
+        "file_offset": "0x12518",
+        "text": "senif object is NULL"
+      },
+      {
+        "file_offset": "0x12530",
+        "text": "[ERR][S][%d][%s] : senif object is NULL"
+      },
+      {
+        "file_offset": "0x12bf8",
+        "text": "senser_reactor.cpp"
+      },
+      {
+        "file_offset": "0x12ce8",
+        "text": "SenserTeam Mr.Chiba Mr.Sadamori Mr.Yarimizu Ms.Sagane Mr.Takagi Mr.Fukumoto"
+      }
+    ]
+  },
+  {
+    "path": "evidence/extracted_g3/archives_unpacked/lib/lib/libusb.so",
+    "bytes": 73120,
+    "sha256": "618d7abb1ac055afceefbab379b522d782574ffefeee5bbbcd3148d4a01d2cb8",
+    "elf_type": 3,
+    "machine": 40,
+    "symbols": [
+      {
+        "name": "_ZN17CUsbGadgetStorage11proc_keventEmhhPv",
+        "value": "0xbb64",
+        "size": 16,
+        "type": 2,
+        "section_index": 10,
+        "section": ".text",
+        "file_offset": "0xbb64"
+      },
+      {
+        "name": "storage_NAND_desc_tbl",
+        "value": "0x18988",
+        "size": 48,
+        "type": 1,
+        "section_index": 18,
+        "section": ".data.rel.ro",
+        "file_offset": "0x10988"
+      },
+      {
+        "name": "PTPT_fin_usbif",
+        "value": "0xe568",
+        "size": 168,
+        "type": 2,
+        "section_index": 10,
+        "section": ".text",
+        "file_offset": "0xe568"
+      },
+      {
+        "name": "_ZN17CUsbGadgetStorage13mes_sendEventEP8CUSB_MES",
+        "value": "0xbbf4",
+        "size": 248,
+        "type": 2,
+        "section_index": 10,
+        "section": ".text",
+        "file_offset": "0xbbf4"
+      },
+      {
+        "name": "usb_senif_destroy",
+        "value": "0xdcfc",
+        "size": 100,
+        "type": 2,
+        "section_index": 10,
+        "section": ".text",
+        "file_offset": "0xdcfc"
+      },
+      {
+        "name": "usbif_getProductSerial",
+        "value": "0x74a0",
+        "size": 280,
+        "type": 2,
+        "section_index": 10,
+        "section": ".text",
+        "file_offset": "0x74a0"
+      },
+      {
+        "name": "storage_interface_desc",
+        "value": "0x189e8",
+        "size": 16,
+        "type": 1,
+        "section_index": 18,
+        "section": ".data.rel.ro",
+        "file_offset": "0x109e8"
+      },
+      {
+        "name": "_ZN17CUsbGadgetStorage19mes_sendExtCmdEventEP8CUSB_MES",
+        "value": "0xbd74",
+        "size": 88,
+        "type": 2,
+        "section_index": 10,
+        "section": ".text",
+        "file_offset": "0xbd74"
+      },
+      {
+        "name": "usbif_getProductNum",
+        "value": "0x7388",
+        "size": 280,
+        "type": 2,
+        "section_index": 10,
+        "section": ".text",
+        "file_offset": "0x7388"
+      },
+      {
+        "name": "_ZTI17CUsbGadgetStorage",
+        "value": "0x191d8",
+        "size": 24,
+        "type": 1,
+        "section_index": 21,
+        "section": ".data",
+        "file_offset": "0x111d8"
+      },
+      {
+        "name": "ptbl_usbif_user_ops",
+        "value": "0x190dc",
+        "size": 56,
+        "type": 1,
+        "section_index": 21,
+        "section": ".data",
+        "file_offset": "0x110dc"
+      },
+      {
+        "name": "_ZTS17CUsbGadgetStorage",
+        "value": "0x10230",
+        "size": 20,
+        "type": 1,
+        "section_index": 12,
+        "section": ".rodata",
+        "file_offset": "0x10230"
+      },
+      {
+        "name": "storage_MULTILUN_desc_tbl",
+        "value": "0x18950",
+        "size": 48,
+        "type": 1,
+        "section_index": 18,
+        "section": ".data.rel.ro",
+        "file_offset": "0x10950"
+      },
+      {
+        "name": "usbif_initialize",
+        "value": "0x5b70",
+        "size": 756,
+        "type": 2,
+        "section_index": 10,
+        "section": ".text",
+        "file_offset": "0x5b70"
+      },
+      {
+        "name": "_ZN17CUsbGadgetStorage9on_createEP7CUsbSvcP19CUSB_GADGET_REGINFOP19CUSB_GADGET_CREINFO",
+        "value": "0xba60",
+        "size": 192,
+        "type": 2,
+        "section_index": 10,
+        "section": ".text",
+        "file_offset": "0xba60"
+      },
+      {
+        "name": "_ZN17CUsbGadgetStorage17check_mediaAccessEv",
+        "value": "0xbe20",
+        "size": 52,
+        "type": 2,
+        "section_index": 10,
+        "section": ".text",
+        "file_offset": "0xbe20"
+      },
+      {
+        "name": "_ZN17CUsbGadgetStorageD2Ev",
+        "value": "0xb764",
+        "size": 252,
+        "type": 2,
+        "section_index": 10,
+        "section": ".text",
+        "file_offset": "0xb764"
+      },
+      {
+        "name": "_ZN15CUsbGadgetStill17proc_vendor_eventEmhhPv",
+        "value": "0xc62c",
+        "size": 200,
+        "type": 2,
+        "section_index": 10,
+        "section": ".text",
+        "file_offset": "0xc62c"
+      },
+      {
+        "name": "_ZN7CUsbSvc4stopE11__USBIF_DIDPvhPFS1_S1_S1_hiE",
+        "value": "0x8748",
+        "size": 120,
+        "type": 2,
+        "section_index": 10,
+        "section": ".text",
+        "file_offset": "0x8748"
+      },
+      {
+        "name": "usb_senif_init",
+        "value": "0xdc60",
+        "size": 156,
+        "type": 2,
+        "section_index": 10,
+        "section": ".text",
+        "file_offset": "0xdc60"
+      },
+      {
+        "name": "_ZN7CUsbSvc5startE11__USBIF_DIDPvhPFS1_S1_S1_hiE",
+        "value": "0x9554",
+        "size": 164,
+        "type": 2,
+        "section_index": 10,
+        "section": ".text",
+        "file_offset": "0x9554"
+      },
+      {
+        "name": "storage_MS_desc_tbl",
+        "value": "0x189b8",
+        "size": 48,
+        "type": 1,
+        "section_index": 18,
+        "section": ".data.rel.ro",
+        "file_offset": "0x109b8"
+      },
+      {
+        "name": "usb_senif_user_ops",
+        "value": "0x18868",
+        "size": 8,
+        "type": 1,
+        "section_index": 18,
+        "section": ".data.rel.ro",
+        "file_offset": "0x10868"
+      },
+      {
+        "name": "usbif_register_gadget",
+        "value": "0x57e4",
+        "size": 40,
+        "type": 2,
+        "section_index": 10,
+        "section": ".text",
+        "file_offset": "0x57e4"
+      },
+      {
+        "name": "usb_senif_pub",
+        "value": "0x18bf8",
+        "size": 8,
+        "type": 1,
+        "section_index": 18,
+        "section": ".data.rel.ro",
+        "file_offset": "0x10bf8"
+      },
+      {
+        "name": "_ZTV17CUsbGadgetStorage",
+        "value": "0x191b4",
+        "size": 36,
+        "type": 1,
+        "section_index": 21,
+        "section": ".data",
+        "file_offset": "0x111b4"
+      },
+      {
+        "name": "_ZN17CUsbGadgetStorageD0Ev",
+        "value": "0xb95c",
+        "size": 260,
+        "type": 2,
+        "section_index": 10,
+        "section": ".text",
+        "file_offset": "0xb95c"
+      },
+      {
+        "name": "_ZN17CUsbGadgetStorage12set_InitInfoEP18GSTORAGE__InfoInit",
+        "value": "0xbdcc",
+        "size": 48,
+        "type": 2,
+        "section_index": 10,
+        "section": ".text",
+        "file_offset": "0xbdcc"
+      },
+      {
+        "name": "_ZN17CUsbGadgetStorageC1Ev",
+        "value": "0xb64c",
+        "size": 280,
+        "type": 2,
+        "section_index": 10,
+        "section": ".text",
+        "file_offset": "0xb64c"
+      },
+      {
+        "name": "usbif_init",
+        "value": "0x587c",
+        "size": 756,
+        "type": 2,
+        "section_index": 10,
+        "section": ".text",
+        "file_offset": "0x587c"
+      },
+      {
+        "name": "usbif_thread_cancelstate_old",
+        "value": "0x19704",
+        "size": 4,
+        "type": 1,
+        "section_index": 22,
+        "section": ".bss"
+      },
+      {
+        "name": "_ZN17CUsbGadgetStorage15set_mediaStatusEP25GSTORAGE__InfoMediaStatus",
+        "value": "0xbdfc",
+        "size": 36,
+        "type": 2,
+        "section_index": 10,
+        "section": ".text",
+        "file_offset": "0xbdfc"
+      },
+      {
+        "name": "PTPT_init_usbif",
+        "value": "0xe49c",
+        "size": 204,
+        "type": 2,
+        "section_index": 10,
+        "section": ".text",
+        "file_offset": "0xe49c"
+      },
+      {
+        "name": "usbif_unregister_gadget",
+        "value": "0x580c",
+        "size": 32,
+        "type": 2,
+        "section_index": 10,
+        "section": ".text",
+        "file_offset": "0x580c"
+      },
+      {
+        "name": "_ZN17CUsbGadgetStorage19proc_storage_keventEmhhPv",
+        "value": "0xbb74",
+        "size": 128,
+        "type": 2,
+        "section_index": 10,
+        "section": ".text",
+        "file_offset": "0xbb74"
+      },
+      {
+        "name": "_ZN17CUsbGadgetStorage22proc_extcommand_keventEmhhPv",
+        "value": "0xbcec",
+        "size": 136,
+        "type": 2,
+        "section_index": 10,
+        "section": ".text",
+        "file_offset": "0xbcec"
+      },
+      {
+        "name": "_ZN17CUsbGadgetStorage9on_deleteEv",
+        "value": "0xbb20",
+        "size": 68,
+        "type": 2,
+        "section_index": 10,
+        "section": ".text",
+        "file_offset": "0xbb20"
+      },
+      {
+        "name": "usbif_destroy",
+        "value": "0x5e64",
+        "size": 96,
+        "type": 2,
+        "section_index": 10,
+        "section": ".text",
+        "file_offset": "0x5e64"
+      },
+      {
+        "name": "_ZN17CUsbGadgetStorageD1Ev",
+        "value": "0xb860",
+        "size": 252,
+        "type": 2,
+        "section_index": 10,
+        "section": ".text",
+        "file_offset": "0xb860"
+      },
+      {
+        "name": "_ZN17CUsbGadgetStorageC2Ev",
+        "value": "0xb534",
+        "size": 280,
+        "type": 2,
+        "section_index": 10,
+        "section": ".text",
+        "file_offset": "0xb534"
+      }
+    ],
+    "strings": [
+      {
+        "file_offset": "0x1f4d",
+        "text": "ptbl_usbif_user_ops"
+      },
+      {
+        "file_offset": "0x1fe4",
+        "text": "usb_senif_user_ops"
+      },
+      {
+        "file_offset": "0x1ff7",
+        "text": "usbif_register_gadget"
+      },
+      {
+        "file_offset": "0x2049",
+        "text": "usbif_unregister_gadget"
+      },
+      {
+        "file_offset": "0x208d",
+        "text": "usbif_thread_cancelstate_old"
+      },
+      {
+        "file_offset": "0x214e",
+        "text": "usbif_init"
+      },
+      {
+        "file_offset": "0x21e5",
+        "text": "usbif_initialize"
+      },
+      {
+        "file_offset": "0x21f6",
+        "text": "usbif_destroy"
+      },
+      {
+        "file_offset": "0x228b",
+        "text": "_ZN7CUsbSvc5startE11__USBIF_DIDPvhPFS1_S1_S1_hiE"
+      },
+      {
+        "file_offset": "0x22d3",
+        "text": "_ZN7CUsbSvc4stopE11__USBIF_DIDPvhPFS1_S1_S1_hiE"
+      },
+      {
+        "file_offset": "0x243d",
+        "text": "usbif_getProductNum"
+      },
+      {
+        "file_offset": "0x2470",
+        "text": "usbif_getProductSerial"
+      },
+      {
+        "file_offset": "0x28fe",
+        "text": "_ZN17CUsbGadgetStorageC1Ev"
+      },
+      {
+        "file_offset": "0x2f91",
+        "text": "_ZTV17CUsbGadgetStorage"
+      },
+      {
+        "file_offset": "0x2fa9",
+        "text": "_ZTI17CUsbGadgetStorage"
+      },
+      {
+        "file_offset": "0x2fc1",
+        "text": "_ZN17CUsbGadgetStorageD1Ev"
+      },
+      {
+        "file_offset": "0x2fdc",
+        "text": "_ZN17CUsbGadgetStorageD0Ev"
+      },
+      {
+        "file_offset": "0x2ff7",
+        "text": "_ZN17CUsbGadgetStorage9on_createEP7CUsbSvcP19CUSB_GADGET_REGINFOP19CUSB_GADGET_CREINFO"
+      },
+      {
+        "file_offset": "0x304e",
+        "text": "_ZN17CUsbGadgetStorage9on_deleteEv"
+      },
+      {
+        "file_offset": "0x3071",
+        "text": "_ZTS17CUsbGadgetStorage"
+      },
+      {
+        "file_offset": "0x3089",
+        "text": "_ZN17CUsbGadgetStorageC2Ev"
+      },
+      {
+        "file_offset": "0x30a4",
+        "text": "_ZN17CUsbGadgetStorageD2Ev"
+      },
+      {
+        "file_offset": "0x30bf",
+        "text": "_ZN17CUsbGadgetStorage19proc_storage_keventEmhhPv"
+      },
+      {
+        "file_offset": "0x30f1",
+        "text": "_ZN17CUsbGadgetStorage11proc_keventEmhhPv"
+      },
+      {
+        "file_offset": "0x311b",
+        "text": "_ZN17CUsbGadgetStorage22proc_extcommand_keventEmhhPv"
+      },
+      {
+        "file_offset": "0x3150",
+        "text": "_ZN17CUsbGadgetStorage13mes_sendEventEP8CUSB_MES"
+      },
+      {
+        "file_offset": "0x3181",
+        "text": "_ZN17CUsbGadgetStorage19mes_sendExtCmdEventEP8CUSB_MES"
+      },
+      {
+        "file_offset": "0x31b8",
+        "text": "_ZN17CUsbGadgetStorage12set_InitInfoEP18GSTORAGE__InfoInit"
+      },
+      {
+        "file_offset": "0x31f3",
+        "text": "_ZN17CUsbGadgetStorage15set_mediaStatusEP25GSTORAGE__InfoMediaStatus"
+      },
+      {
+        "file_offset": "0x3238",
+        "text": "_ZN17CUsbGadgetStorage17check_mediaAccessEv"
+      },
+      {
+        "file_offset": "0x3466",
+        "text": "_ZN15CUsbGadgetStill17proc_vendor_eventEmhhPv"
+      },
+      {
+        "file_offset": "0x377d",
+        "text": "usb_senif_pub"
+      },
+      {
+        "file_offset": "0x378b",
+        "text": "usb_senif_init"
+      },
+      {
+        "file_offset": "0x379a",
+        "text": "usb_senif_destroy"
+      },
+      {
+        "file_offset": "0x37f5",
+        "text": "PTPT_init_usbif"
+      },
+      {
+        "file_offset": "0x380b",
+        "text": "PTPT_fin_usbif"
+      },
+      {
+        "file_offset": "0x3a80",
+        "text": "storage_MULTILUN_desc_tbl"
+      },
+      {
+        "file_offset": "0x3aec",
+        "text": "storage_NAND_desc_tbl"
+      },
+      {
+        "file_offset": "0x3b02",
+        "text": "storage_MS_desc_tbl"
+      },
+      {
+        "file_offset": "0x3b16",
+        "text": "storage_interface_desc"
+      },
+      {
+        "file_offset": "0x10230",
+        "text": "17CUsbGadgetStorage"
+      },
+      {
+        "file_offset": "0x10244",
+        "text": "/dev/usb/massstorage"
+      }
+    ]
+  },
+  {
+    "path": "evidence/extracted_g3/rootfs/initrd/bin/unified_drv.ko",
+    "bytes": 274432,
+    "sha256": "69b3536228712cd180c8747ae80f0548725fd628c5bc00fee9ca940c61960985",
+    "elf_type": 1,
+    "machine": 40,
+    "symbols": [
+      {
+        "name": "storage_reqRemoveMassStorage",
+        "value": "0x10cec",
+        "size": 76,
+        "type": 2,
+        "section_index": 1,
+        "section": ".text",
+        "file_offset": "0x10d20"
+      },
+      {
+        "name": "storage_maincnt_compResetRecovery",
+        "value": "0x10b50",
+        "size": 76,
+        "type": 2,
+        "section_index": 1,
+        "section": ".text",
+        "file_offset": "0x10b84"
+      },
+      {
+        "name": "extCmd_readMedia",
+        "value": "0x19400",
+        "size": 644,
+        "type": 2,
+        "section_index": 1,
+        "section": ".text",
+        "file_offset": "0x19434"
+      },
+      {
+        "name": "init_usbg_storage",
+        "value": "0x870",
+        "size": 160,
+        "type": 2,
+        "section_index": 3,
+        "section": ".init.text",
+        "file_offset": "0x2a510"
+      },
+      {
+        "name": "storage_maincnt_allocThread",
+        "value": "0x102ac",
+        "size": 328,
+        "type": 2,
+        "section_index": 1,
+        "section": ".text",
+        "file_offset": "0x102e0"
+      },
+      {
+        "name": "storage_drvcnt_setMediaAccess",
+        "value": "0x13b88",
+        "size": 88,
+        "type": 2,
+        "section_index": 1,
+        "section": ".text",
+        "file_offset": "0x13bbc"
+      },
+      {
+        "name": "storage_drvcnt_checkMediaAccess",
+        "value": "0x13aec",
+        "size": 156,
+        "type": 2,
+        "section_index": 1,
+        "section": ".text",
+        "file_offset": "0x13b20"
+      },
+      {
+        "name": "storage_drvcnt_sndCmdContinue",
+        "value": "0x14160",
+        "size": 52,
+        "type": 2,
+        "section_index": 1,
+        "section": ".text",
+        "file_offset": "0x14194"
+      },
+      {
+        "name": "storage_drvcnt_clearInitInfo",
+        "value": "0x10ebc",
+        "size": 596,
+        "type": 2,
+        "section_index": 1,
+        "section": ".text",
+        "file_offset": "0x10ef0"
+      },
+      {
+        "name": "storage_detect_ExtCommand",
+        "value": "0xd6dc",
+        "size": 136,
+        "type": 2,
+        "section_index": 1,
+        "section": ".text",
+        "file_offset": "0xd710"
+      },
+      {
+        "name": "storage_ata_idleImmediate",
+        "value": "0x17180",
+        "size": 68,
+        "type": 2,
+        "section_index": 1,
+        "section": ".text",
+        "file_offset": "0x171b4"
+      },
+      {
+        "name": "storage_write_hard",
+        "value": "0x18d30",
+        "size": 272,
+        "type": 2,
+        "section_index": 1,
+        "section": ".text",
+        "file_offset": "0x18d64"
+      },
+      {
+        "name": "storage_drvcnt_getReceiveBufP",
+        "value": "0x11110",
+        "size": 40,
+        "type": 2,
+        "section_index": 1,
+        "section": ".text",
+        "file_offset": "0x11144"
+      },
+      {
+        "name": "storage_storageOut",
+        "value": "0xdae0",
+        "size": 112,
+        "type": 2,
+        "section_index": 1,
+        "section": ".text",
+        "file_offset": "0xdb14"
+      },
+      {
+        "name": "storage_drvcnt_extcmdCancel",
+        "value": "0x11274",
+        "size": 36,
+        "type": 2,
+        "section_index": 1,
+        "section": ".text",
+        "file_offset": "0x112a8"
+      },
+      {
+        "name": "storage_drvcnt_extcmdOpen",
+        "value": "0x11138",
+        "size": 204,
+        "type": 2,
+        "section_index": 1,
+        "section": ".text",
+        "file_offset": "0x1116c"
+      },
+      {
+        "name": "exit_usbg_storage",
+        "value": "0x2b0",
+        "size": 100,
+        "type": 2,
+        "section_index": 5,
+        "section": ".exit.text",
+        "file_offset": "0x2ae90"
+      },
+      {
+        "name": "storage_write",
+        "value": "0x16940",
+        "size": 44,
+        "type": 2,
+        "section_index": 1,
+        "section": ".text",
+        "file_offset": "0x16974"
+      },
+      {
+        "name": "storage_maincnt_reqStart",
+        "value": "0x10ca4",
+        "size": 72,
+        "type": 2,
+        "section_index": 1,
+        "section": ".text",
+        "file_offset": "0x10cd8"
+      },
+      {
+        "name": "storage_drvcnt_reqSetMediaStatus",
+        "value": "0x141e4",
+        "size": 100,
+        "type": 2,
+        "section_index": 1,
+        "section": ".text",
+        "file_offset": "0x14218"
+      },
+      {
+        "name": "storage_exec_remove",
+        "value": "0xc3cc",
+        "size": 96,
+        "type": 2,
+        "section_index": 1,
+        "section": ".text",
+        "file_offset": "0xc400"
+      },
+      {
+        "name": "storage_ata_standbyImmediate",
+        "value": "0x17030",
+        "size": 64,
+        "type": 2,
+        "section_index": 1,
+        "section": ".text",
+        "file_offset": "0x17064"
+      },
+      {
+        "name": "storage_maincnt_freeThread",
+        "value": "0x10238",
+        "size": 116,
+        "type": 2,
+        "section_index": 1,
+        "section": ".text",
+        "file_offset": "0x1026c"
+      },
+      {
+        "name": "storage_maincnt_setEp",
+        "value": "0x10448",
+        "size": 80,
+        "type": 2,
+        "section_index": 1,
+        "section": ".text",
+        "file_offset": "0x1047c"
+      },
+      {
+        "name": "extCmd_read_std_continue",
+        "value": "0x19684",
+        "size": 84,
+        "type": 2,
+        "section_index": 1,
+        "section": ".text",
+        "file_offset": "0x196b8"
+      },
+      {
+        "name": "storage_maincnt_clearInitInfo",
+        "value": "0xe5ac",
+        "size": 220,
+        "type": 2,
+        "section_index": 1,
+        "section": ".text",
+        "file_offset": "0xe5e0"
+      },
+      {
+        "name": "extCmd_exec",
+        "value": "0x196d8",
+        "size": 1204,
+        "type": 2,
+        "section_index": 1,
+        "section": ".text",
+        "file_offset": "0x1970c"
+      },
+      {
+        "name": "storage_ata_standbyImmediate_hard",
+        "value": "0x18f18",
+        "size": 20,
+        "type": 2,
+        "section_index": 1,
+        "section": ".text",
+        "file_offset": "0x18f4c"
+      },
+      {
+        "name": "storage_maincnt_reqSetMediaStatus",
+        "value": "0x10be8",
+        "size": 92,
+        "type": 2,
+        "section_index": 1,
+        "section": ".text",
+        "file_offset": "0x10c1c"
+      },
+      {
+        "name": "storage_read_cmn",
+        "value": "0x16144",
+        "size": 104,
+        "type": 2,
+        "section_index": 1,
+        "section": ".text",
+        "file_offset": "0x16178"
+      },
+      {
+        "name": "storage_drvcnt_extcmdClose",
+        "value": "0x11204",
+        "size": 112,
+        "type": 2,
+        "section_index": 1,
+        "section": ".text",
+        "file_offset": "0x11238"
+      },
+      {
+        "name": "storage_drvcnt_reqStopThread",
+        "value": "0x142ec",
+        "size": 80,
+        "type": 2,
+        "section_index": 1,
+        "section": ".text",
+        "file_offset": "0x14320"
+      },
+      {
+        "name": "extCmd_ata",
+        "value": "0x19b8c",
+        "size": 64,
+        "type": 2,
+        "section_index": 1,
+        "section": ".text",
+        "file_offset": "0x19bc0"
+      },
+      {
+        "name": "storage_drvcnt_allocThread",
+        "value": "0x13fdc",
+        "size": 296,
+        "type": 2,
+        "section_index": 1,
+        "section": ".text",
+        "file_offset": "0x14010"
+      },
+      {
+        "name": "storage_dequeue_ep",
+        "value": "0xd98c",
+        "size": 84,
+        "type": 2,
+        "section_index": 1,
+        "section": ".text",
+        "file_offset": "0xd9c0"
+      },
+      {
+        "name": "storage_drvcnt_setInitInfo",
+        "value": "0x11714",
+        "size": 4856,
+        "type": 2,
+        "section_index": 1,
+        "section": ".text",
+        "file_offset": "0x11748"
+      },
+      {
+        "name": "storage_maincnt_setInitInfo",
+        "value": "0xe2c0",
+        "size": 748,
+        "type": 2,
+        "section_index": 1,
+        "section": ".text",
+        "file_offset": "0xe2f4"
+      },
+      {
+        "name": "storage_cmd_cmdPacket",
+        "value": "0x17988",
+        "size": 152,
+        "type": 2,
+        "section_index": 1,
+        "section": ".text",
+        "file_offset": "0x179bc"
+      },
+      {
+        "name": "storage_maincnt_reqStop",
+        "value": "0x10c44",
+        "size": 96,
+        "type": 2,
+        "section_index": 1,
+        "section": ".text",
+        "file_offset": "0x10c78"
+      },
+      {
+        "name": "storage_probeMassStorage",
+        "value": "0x10d38",
+        "size": 72,
+        "type": 2,
+        "section_index": 1,
+        "section": ".text",
+        "file_offset": "0x10d6c"
+      },
+      {
+        "name": "storage_maincnt_clearEp",
+        "value": "0x10498",
+        "size": 92,
+        "type": 2,
+        "section_index": 1,
+        "section": ".text",
+        "file_offset": "0x104cc"
+      },
+      {
+        "name": "storage_maincnt_compMassStorageReset",
+        "value": "0x10b9c",
+        "size": 76,
+        "type": 2,
+        "section_index": 1,
+        "section": ".text",
+        "file_offset": "0x10bd0"
+      },
+      {
+        "name": "storage_drvcnt_stopDrvCnt",
+        "value": "0x14248",
+        "size": 80,
+        "type": 2,
+        "section_index": 1,
+        "section": ".text",
+        "file_offset": "0x1427c"
+      },
+      {
+        "name": "storage_maincnt_epClearHalt",
+        "value": "0x10ae8",
+        "size": 104,
+        "type": 2,
+        "section_index": 1,
+        "section": ".text",
+        "file_offset": "0x10b1c"
+      },
+      {
+        "name": "init_usbg_stillimage",
+        "value": "0x7a4",
+        "size": 204,
+        "type": 2,
+        "section_index": 3,
+        "section": ".init.text",
+        "file_offset": "0x2a444"
+      },
+      {
+        "name": "storage_cmd_cmdContinue",
+        "value": "0x14484",
+        "size": 168,
+        "type": 2,
+        "section_index": 1,
+        "section": ".text",
+        "file_offset": "0x144b8"
+      },
+      {
+        "name": "storage_ata_idleImmediate_hard",
+        "value": "0x1900c",
+        "size": 20,
+        "type": 2,
+        "section_index": 1,
+        "section": ".text",
+        "file_offset": "0x19040"
+      },
+      {
+        "name": "storage_comp_setMediaStatus",
+        "value": "0xc42c",
+        "size": 128,
+        "type": 2,
+        "section_index": 1,
+        "section": ".text",
+        "file_offset": "0xc460"
+      },
+      {
+        "name": "extCmd_std",
+        "value": "0x19bcc",
+        "size": 52,
+        "type": 2,
+        "section_index": 1,
+        "section": ".text",
+        "file_offset": "0x19c00"
+      },
+      {
+        "name": "sony_storage_dev",
+        "value": "0x17ac",
+        "size": 20,
+        "type": 1,
+        "section_index": 20,
+        "section": ".data",
+        "file_offset": "0x30c54"
+      },
+      {
+        "name": "storage_set_waitResetRecovery",
+        "value": "0xdd88",
+        "size": 92,
+        "type": 2,
+        "section_index": 1,
+        "section": ".text",
+        "file_offset": "0xddbc"
+      },
+      {
+        "name": "exit_usbg_stillimage",
+        "value": "0x278",
+        "size": 56,
+        "type": 2,
+        "section_index": 5,
+        "section": ".exit.text",
+        "file_offset": "0x2ae58"
+      },
+      {
+        "name": "storage_drvcnt_startDrvCnt",
+        "value": "0x14298",
+        "size": 84,
+        "type": 2,
+        "section_index": 1,
+        "section": ".text",
+        "file_offset": "0x142cc"
+      },
+      {
+        "name": "storage_drvcnt_freeThread",
+        "value": "0x13f68",
+        "size": 116,
+        "type": 2,
+        "section_index": 1,
+        "section": ".text",
+        "file_offset": "0x13f9c"
+      },
+      {
+        "name": "storage_storageIn",
+        "value": "0xda70",
+        "size": 112,
+        "type": 2,
+        "section_index": 1,
+        "section": ".text",
+        "file_offset": "0xdaa4"
+      },
+      {
+        "name": "storage_execFunc",
+        "value": "0xc1c4",
+        "size": 84,
+        "type": 2,
+        "section_index": 1,
+        "section": ".text",
+        "file_offset": "0xc1f8"
+      },
+      {
+        "name": "extcmd_cancel",
+        "value": "0x19c00",
+        "size": 216,
+        "type": 2,
+        "section_index": 1,
+        "section": ".text",
+        "file_offset": "0x19c34"
+      },
+      {
+        "name": "storage_drvcnt_sndCmdPacket",
+        "value": "0x14194",
+        "size": 80,
+        "type": 2,
+        "section_index": 1,
+        "section": ".text",
+        "file_offset": "0x141c8"
+      },
+      {
+        "name": "storage_maincnt_getEp",
+        "value": "0x103f4",
+        "size": 84,
+        "type": 2,
+        "section_index": 1,
+        "section": ".text",
+        "file_offset": "0x10428"
+      },
+      {
+        "name": "storage_write_cmn",
+        "value": "0x1696c",
+        "size": 104,
+        "type": 2,
+        "section_index": 1,
+        "section": ".text",
+        "file_offset": "0x169a0"
+      },
+      {
+        "name": "extCmd_writeMedia",
+        "value": "0x19114",
+        "size": 664,
+        "type": 2,
+        "section_index": 1,
+        "section": ".text",
+        "file_offset": "0x19148"
+      },
+      {
+        "name": "storage_read_hard",
+        "value": "0x18c20",
+        "size": 272,
+        "type": 2,
+        "section_index": 1,
+        "section": ".text",
+        "file_offset": "0x18c54"
+      },
+      {
+        "name": "extCmd_write_std_continue",
+        "value": "0x193ac",
+        "size": 84,
+        "type": 2,
+        "section_index": 1,
+        "section": ".text",
+        "file_offset": "0x193e0"
+      },
+      {
+        "name": "storage_read",
+        "value": "0x16118",
+        "size": 44,
+        "type": 2,
+        "section_index": 1,
+        "section": ".text",
+        "file_offset": "0x1614c"
+      }
+    ],
+    "strings": [
+      {
+        "file_offset": "0x2c5e0",
+        "text": "author=Sony Corporation"
+      },
+      {
+        "file_offset": "0x2c69c",
+        "text": "vermagic=2.6.11-alp20080305 preempt ARMv5 gcc-3.4"
+      },
+      {
+        "file_offset": "0x2e948",
+        "text": "usbg_stillimage"
+      },
+      {
+        "file_offset": "0x2eeb8",
+        "text": "/dev/usb/massstorage"
+      },
+      {
+        "file_offset": "0x2eed0",
+        "text": "USB Gadget Mass Storage"
+      },
+      {
+        "file_offset": "0x2eefc",
+        "text": "/dev/usb/usb_extcmd"
+      },
+      {
+        "file_offset": "0x34ef6",
+        "text": "storage_reqRemoveMassStorage"
+      },
+      {
+        "file_offset": "0x3503d",
+        "text": "storage_maincnt_compResetRecovery"
+      },
+      {
+        "file_offset": "0x3511b",
+        "text": "extCmd_readMedia"
+      },
+      {
+        "file_offset": "0x35150",
+        "text": "init_usbg_storage"
+      },
+      {
+        "file_offset": "0x35193",
+        "text": "storage_maincnt_allocThread"
+      },
+      {
+        "file_offset": "0x351c1",
+        "text": "storage_drvcnt_setMediaAccess"
+      },
+      {
+        "file_offset": "0x3529c",
+        "text": "storage_drvcnt_checkMediaAccess"
+      },
+      {
+        "file_offset": "0x352bc",
+        "text": "storage_drvcnt_sndCmdContinue"
+      },
+      {
+        "file_offset": "0x3551b",
+        "text": "storage_drvcnt_clearInitInfo"
+      },
+      {
+        "file_offset": "0x35607",
+        "text": "storage_detect_ExtCommand"
+      },
+      {
+        "file_offset": "0x35690",
+        "text": "storage_ata_idleImmediate"
+      },
+      {
+        "file_offset": "0x35744",
+        "text": "storage_write_hard"
+      },
+      {
+        "file_offset": "0x3582b",
+        "text": "storage_drvcnt_getReceiveBufP"
+      },
+      {
+        "file_offset": "0x35a98",
+        "text": "storage_storageOut"
+      },
+      {
+        "file_offset": "0x35aab",
+        "text": "storage_drvcnt_extcmdCancel"
+      },
+      {
+        "file_offset": "0x35bf5",
+        "text": "storage_drvcnt_extcmdOpen"
+      },
+      {
+        "file_offset": "0x35c50",
+        "text": "exit_usbg_storage"
+      },
+      {
+        "file_offset": "0x35cea",
+        "text": "storage_write"
+      },
+      {
+        "file_offset": "0x35d8f",
+        "text": "storage_maincnt_reqStart"
+      },
+      {
+        "file_offset": "0x35f45",
+        "text": "storage_drvcnt_reqSetMediaStatus"
+      },
+      {
+        "file_offset": "0x35fa8",
+        "text": "storage_exec_remove"
+      },
+      {
+        "file_offset": "0x361ba",
+        "text": "storage_ata_standbyImmediate"
+      },
+      {
+        "file_offset": "0x3632f",
+        "text": "storage_maincnt_freeThread"
+      },
+      {
+        "file_offset": "0x36387",
+        "text": "storage_maincnt_setEp"
+      },
+      {
+        "file_offset": "0x365a7",
+        "text": "extCmd_read_std_continue"
+      },
+      {
+        "file_offset": "0x3673c",
+        "text": "storage_maincnt_clearInitInfo"
+      },
+      {
+        "file_offset": "0x36883",
+        "text": "extCmd_exec"
+      },
+      {
+        "file_offset": "0x36c0b",
+        "text": "storage_ata_standbyImmediate_hard"
+      },
+      {
+        "file_offset": "0x36d2d",
+        "text": "storage_maincnt_reqSetMediaStatus"
+      },
+      {
+        "file_offset": "0x36e41",
+        "text": "storage_read_cmn"
+      },
+      {
+        "file_offset": "0x36e78",
+        "text": "storage_drvcnt_extcmdClose"
+      },
+      {
+        "file_offset": "0x36ec7",
+        "text": "storage_drvcnt_reqStopThread"
+      },
+      {
+        "file_offset": "0x36f44",
+        "text": "extCmd_ata"
+      },
+      {
+        "file_offset": "0x3704b",
+        "text": "storage_drvcnt_allocThread"
+      },
+      {
+        "file_offset": "0x3711a",
+        "text": "storage_dequeue_ep"
+      },
+      {
+        "file_offset": "0x37261",
+        "text": "storage_drvcnt_setInitInfo"
+      },
+      {
+        "file_offset": "0x3735c",
+        "text": "storage_maincnt_setInitInfo"
+      },
+      {
+        "file_offset": "0x37515",
+        "text": "storage_cmd_cmdPacket"
+      },
+      {
+        "file_offset": "0x37590",
+        "text": "storage_maincnt_reqStop"
+      },
+      {
+        "file_offset": "0x375ee",
+        "text": "storage_probeMassStorage"
+      },
+      {
+        "file_offset": "0x37614",
+        "text": "storage_maincnt_clearEp"
+      },
+      {
+        "file_offset": "0x376c3",
+        "text": "storage_maincnt_compMassStorageReset"
+      },
+      {
+        "file_offset": "0x37718",
+        "text": "storage_drvcnt_stopDrvCnt"
+      },
+      {
+        "file_offset": "0x37789",
+        "text": "storage_maincnt_epClearHalt"
+      },
+      {
+        "file_offset": "0x378c0",
+        "text": "init_usbg_stillimage"
+      },
+      {
+        "file_offset": "0x3795f",
+        "text": "storage_cmd_cmdContinue"
+      },
+      {
+        "file_offset": "0x379dc",
+        "text": "storage_ata_idleImmediate_hard"
+      },
+      {
+        "file_offset": "0x37a58",
+        "text": "storage_comp_setMediaStatus"
+      },
+      {
+        "file_offset": "0x37a86",
+        "text": "extCmd_std"
+      },
+      {
+        "file_offset": "0x37ac4",
+        "text": "sony_storage_dev"
+      },
+      {
+        "file_offset": "0x37b4a",
+        "text": "storage_set_waitResetRecovery"
+      },
+      {
+        "file_offset": "0x37b8e",
+        "text": "exit_usbg_stillimage"
+      },
+      {
+        "file_offset": "0x37c46",
+        "text": "storage_drvcnt_startDrvCnt"
+      },
+      {
+        "file_offset": "0x37e64",
+        "text": "storage_drvcnt_freeThread"
+      },
+      {
+        "file_offset": "0x37e96",
+        "text": "storage_storageIn"
+      },
+      {
+        "file_offset": "0x37f8e",
+        "text": "storage_execFunc"
+      },
+      {
+        "file_offset": "0x37fb0",
+        "text": "extcmd_cancel"
+      },
+      {
+        "file_offset": "0x3822c",
+        "text": "storage_drvcnt_sndCmdPacket"
+      },
+      {
+        "file_offset": "0x383b4",
+        "text": "storage_maincnt_getEp"
+      },
+      {
+        "file_offset": "0x38413",
+        "text": "storage_write_cmn"
+      },
+      {
+        "file_offset": "0x384eb",
+        "text": "extCmd_writeMedia"
+      },
+      {
+        "file_offset": "0x38539",
+        "text": "storage_read_hard"
+      },
+      {
+        "file_offset": "0x3856c",
+        "text": "extCmd_write_std_continue"
+      },
+      {
+        "file_offset": "0x385bc",
+        "text": "storage_read"
+      }
+    ]
+  },
+  {
+    "path": "evidence/extracted_g3/rootfs/initrd/bin/unified_drv2.ko",
+    "bytes": 90548,
+    "sha256": "cac111ff960fd8cf44b028cea131fe986edb51aea55aacf2a155c366331ef83b",
+    "elf_type": 1,
+    "machine": 40,
+    "symbols": [],
+    "strings": [
+      {
+        "file_offset": "0xd7fc",
+        "text": "author=Sony Corporation"
+      },
+      {
+        "file_offset": "0xd844",
+        "text": "vermagic=2.6.11-alp20080305 preempt ARMv5 gcc-3.4"
+      }
+    ]
+  }
+]
