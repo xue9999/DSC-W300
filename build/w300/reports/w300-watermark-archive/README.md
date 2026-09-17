@@ -1,6 +1,6 @@
 # W300 manual-watermark archive follow-up
 
-Editorial revision 3; underlying measurements and captured results retain their recorded scope.
+Editorial revision 4; underlying measurements and captured results retain their recorded scope.
 
 ## Result
 
@@ -29,4 +29,4 @@ The 4707-row successful-capture index contains no archive/binary MIME type and n
 
 Raw CDX/HTML responses, URLs, HTTP results and hashes are under `build/w300/downloads/w300-watermark-archive/`. GBK pages were decoded with Python `gb18030`; the parser retained actual link labels and targets in `camera-forum-links.json`. `verified-index.json` checks row count, content types, the exact W300 title/link, empty thread query and acquired-file hashes. The existing W300 L3 PDF was not downloaded again. No camera or firmware execution occurred.
 
-Do not retry these exact archived pages as a new software source. Reopen this branch only for a concrete different archived thread, mirror or attachment locator. A manual listing does not supply the required executable, device read/write mapping or production-board eligibility.
+Reuse these exact archived pages as completed search coverage. Search for a different thread, mirror or attachment inventory and verify any W300-linked binary from its actual contents. If no distinct archive lead emerges, move to the other package/firmware routes and file-acquisition preparation in the [execution plan](../../../../docs/w300/EXECUTION_PLAN.md). The manual listing remains a source locator; executable behavior, device mapping and production-board eligibility require their own evidence.

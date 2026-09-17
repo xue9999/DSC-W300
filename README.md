@@ -1,6 +1,8 @@
 # Sony DSC-W300 and DSC-G3 research laboratory
 
-This repository supplies preserved sources, reproducible offline firmware analysis, labelled simulations and a portable W300 identification environment. Continue from these verified foundations to qualify each model-specific hardware operation.
+This repository develops a reproducible route to persistent English menus on the original Japanese DSC-W300 and maintains a separate DSC-G3 firmware research workstream. Preserved sources, offline analysis, labelled simulations and the portable W300 identification environment provide the foundations for the next engineering step.
+
+For W300 work, start with the [execution plan](docs/w300/EXECUTION_PLAN.md) and the [agent continuation rules](AGENTS.md). The analyst owns finding the needed implementation evidence and pursuing alternative routes. An exhausted source closes that search attempt; it directs the next acquisition or analysis task. Hardware milestones are verified on the camera at the appropriate stage.
 
 | Workstream | Established foundation | Next qualification |
 | --- | --- | --- |
@@ -48,4 +50,4 @@ The [cleanup verification report](CLEANUP_REPORT.md) records the checks actually
 
 ## Complete research handoff
 
-The matching [GitHub Release](https://github.com/xue9999/DSC-W300/releases/tag/w300-research-r3) supplies the Windows x64 workbench and offline research inputs with SHA-256 inventories. Follow the [restoration guide](docs/w300/RELEASE_RESTORE.md) to rebuild the original directory layout and run checks from retained dependencies. Revision 3 includes constructive report prose, historical manifests and the separately verified portable environment.
+The historical [revision-3 GitHub Release](https://github.com/xue9999/DSC-W300/releases/tag/w300-research-r3) supplies the Windows x64 identification workbench and offline research inputs with SHA-256 inventories. Follow the [restoration guide](docs/w300/RELEASE_RESTORE.md) for its matching checkout and dependencies. Current main uses editorial revision 4 with an explicit continuation policy and additional research reports. The revision-3 ZIPs retain their original contents and manifests; current documentation does not add service commands to that executable.

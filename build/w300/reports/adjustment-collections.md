@@ -1,6 +1,6 @@
 # Sony adjustment collection acquisition check
 
-Editorial revision 3; underlying measurements and captured results retain their recorded scope.
+Editorial revision 4; underlying measurements and captured results retain their recorded scope.
 
 Checked: 2026-09-16. Scope: three new collection/catalog routes, without a camera. No program was downloaded, executed or installed in this check. No useful public service-package locator was established.
 
@@ -36,8 +36,8 @@ Sony's [India Top Support Downloads catalog](https://www.sony.co.in/support/reso
 
 Classification: a real Sony catalog, but its adjustment entry is for another product class. This was not an authentication or execution failure.
 
-## Result and stop rule
+## Result and acquisition handoff
 
 No `DSC-W300 Auto-Adj Ver_1.3r04.exe`, SeusEX executable or qualifying service collection was acquired. No empty download directory was created. The two saved JSON files preserve the newly examined archive records and file inventories for reproducibility; they are metadata evidence, not executable packages.
 
-The three routes establish the search coverage below. Continue with a service-CD identifier, a package manifest containing W300/SeusEX, or a new public package URL and inspect its actual payload. Changing keyword spelling again without such evidence would repeat the same acquisition failure. The root task still requires the real service package/protocol and a validated original-board language operation; these checks do not satisfy those requirements.
+The three routes establish the search coverage above. The next acquisition task is to find a service-CD identifier or inspect a newly located service-collection manifest for W300/SeusEX, then retrieve and inspect any corresponding payload. Use the saved inventories to exclude these already reviewed consumer-CD descriptions. If a collection supplies no relevant lead, move to model-linked firmware or transaction acquisition in the [execution plan](../../../docs/w300/EXECUTION_PLAN.md). This closes the examined catalog queries, while acquisition and preparation of a validated original-board language operation continue.

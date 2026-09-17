@@ -5,7 +5,7 @@ Git contains maintained code, documentation, reports and manifests at their orig
 - `W300-Workbench-Windows-x64.zip`: the independently runnable identification environment.
 - `W300-Research-Offline-r3.zip`: downloaded research inputs, 21 locked environment wheels, Capstone 5.0.6, a pinned PMCA Git bundle, Python 3.12 x64 base runtime and the historical editorial baseline. Every file has a repository-relative path, byte length and SHA-256 in `RESEARCH_MANIFEST.json`.
 
-The preserved baseline and earlier manifests are historical verification records. Active instructions and report prose use revision 3. Raw sources, captured replies, machine booleans and prior measured results preserve their meaning.
+The preserved baseline and earlier manifests are historical verification records. The published ZIPs retain revision-3 instructions and bytes. Current `main` uses revision-4 research documentation and a new manifest checkpoint; this update does not rebuild those ZIPs. Raw sources, captured replies, machine booleans and prior measured results preserve their meaning.
 
 ## Restore on Windows x64
 
@@ -44,3 +44,11 @@ The research asset retains the official PowerShell 7.4.18 ZIP and locked PyInsta
 ```
 
 Each build and validation uses a new output path. Preserve earlier reports and publish new manifest revisions for edited maintained files. The runtime and input checks measure offline preparation; camera communication and language persistence have their own qualification steps in the execution plan.
+
+## Continue from the historical release on current main
+
+The steps above reproduce the revision-3 release at its matching commit. For current research, use a separate current-`main` checkout. Run that checkout's `build/w300/release_bundle.py restore` with Python 3.12 from the restored historical environment, passing `--destination` with the current checkout's absolute path.
+
+The restore command processes the entire research asset; it has no selective-input option. It verifies every entry and every existing destination before writing absent files, then reconstructs the pinned PMCA checkout. The asset contains inputs, wheels, runtime, bundles and `RESTORE_RESEARCH.md`; that last file remains the historical release guide, not the active repository instructions. A differing existing file causes refusal before extraction. Resolve the specific conflict or use a fresh destination rather than overwrite files. Keep the historical release checkout as the reproduction baseline.
+
+Verify current files against the current package manifest before replaying analyses. Acquisition and offline implementation preparation continue according to the current execution plan; the absence of a camera affects only the later device measurements.

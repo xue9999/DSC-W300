@@ -1,6 +1,6 @@
 # SeusEX public package acquisition: historical catalog route
 
-Editorial revision 3; underlying measurements and captured results retain their recorded scope.
+Editorial revision 4; underlying measurements and captured results retain their recorded scope.
 
 Date: 2026-09-16. Bounded follow-up to `auto-adj-acquisition.md` and `ibiss-acquisition.md`, which were consulted first. Scope is SeusEX package acquisition without a camera connection; no W300 Auto-Adj broad search, portal login, forms, contact, purchases, credential use, installation, or program execution.
 
@@ -77,4 +77,4 @@ Invoke-WebRequest -Uri 'https://web.archive.org/cdx/search/cdx?url=seusex.softwa
   Select-Object StatusCode, Content
 ```
 
-The remaining dependencies are unchanged: actual SeusEX package bytes, a compatible USB driver and runtime, any required legitimate HASP access, and the W300-specific operation. The new HTML cannot replace any of them. No executable was run, no driver was installed, and no camera communication or language change occurred.
+For the SeusEX route, acquire actual package bytes and inspect the compatible USB driver/runtime, any legitimate HASP requirement and the W300-specific operation. Use the retained HTML as locator evidence; verify the payload before planning execution. If these public references produce no additional package link, continue the independent W300 firmware/trace and file-acquisition preparation routes in the [execution plan](../../../docs/w300/EXECUTION_PLAN.md). No executable was run, no driver was installed, and no camera communication or language change occurred in this check.

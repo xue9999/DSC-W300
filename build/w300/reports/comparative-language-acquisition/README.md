@@ -14,4 +14,8 @@ Reproduce from the repository root:
 .\build\w300\venv\Scripts\python.exe -B build/w300/reports/comparative-language-acquisition/verify_g3_targets.py
 ```
 
-The separate `../g3-file-read/` report establishes a possible route to acquiring proprietary libraries from the owner's camera later, after model-specific qualification. No such acquisition has occurred.
+The separate [file-read report](../g3-file-read/README.md) establishes a possible route to acquiring proprietary libraries from the owner's camera later, after model-specific qualification. Prepare its bounded transfer and entry/exit checks while locating W300 packages or traces. Use the source-pinned anchors above to compare any acquired payload's getter, save call chain and affected fields; record actual differences instead of importing G3 values. Coordinate route selection through the [execution plan](../../../../docs/w300/EXECUTION_PLAN.md). No W300 acquisition is claimed by this comparative analysis.
+
+## Manifest interpretation
+
+`manifest.json` preserves the acquisition-era record. Its README entry was already stale before editorial revision 4; the remaining entries match the retained acquisition inputs and static outputs. Use the current `build/w300/package_manifest.json` for maintained report hashes. The older record remains unchanged so its original scope is inspectable.

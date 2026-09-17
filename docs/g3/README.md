@@ -30,3 +30,7 @@ The retained experimental images were regenerated during repository cleanup afte
 ## Network and emulation work
 
 `g3_network_analyzer.py` parses supplied PCAP files offline. Its separate mock-gateway server is an active local network service; it is not started by the test suite. See `--help` before choosing a mode. QEMU profiles are configuration experiments described in the [emulation guide](../shared/EMULATION_AND_OPENMEMORIES_CI.md).
+
+## Turn comparison findings into W300 progress
+
+For each comparative analysis, name the W300 question first, such as service entry, segmented address width, a language-field consumer or file-read framing. Record the G3 finding, the corresponding W300 evidence to acquire and the comparison that will accept or reject reuse. When a G3 path ends at an unresolved callback, use that boundary to narrow the W300 acquisition target; continue another independent question while pursuing it. Follow the [W300 execution plan](../w300/EXECUTION_PLAN.md) for the active language-change routes.

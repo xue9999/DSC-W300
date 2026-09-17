@@ -1,6 +1,6 @@
 # W300 workbench handoff — revision 3, Windows x64
 
-Transfer the verified identification environment and continue model-specific qualification using `RESEARCH_PLAN.md`. The executable implements `selftest`, `inventory` and bounded `inquiry`; preserve the separate hardware and language-verification flags in its reports.
+Transfer the verified identification environment. In the revision-3 ZIP, `RESEARCH_PLAN.md` is the packaged research guide; for continued work use the current [repository execution plan](https://github.com/xue9999/DSC-W300/blob/main/docs/w300/EXECUTION_PLAN.md). The executable implements `selftest`, `inventory` and bounded `inquiry`; preserve the separate hardware and language-verification flags in its reports.
 
 ## Transfer
 
@@ -35,10 +35,16 @@ Expected: Sony PnP records, current VID/PID, serial, model and driver. An empty 
 
 The helper performs two bounded standard SCSI INQUIRY reads and records transactions. Resolve access-denied errors using an elevated terminal if required. A generic SCSI product `DSC` can be normal; selection uses current USB/PnP identity. Service entry, settings and calibration are outside these commands.
 
-5. Retain all JSON reports. Continue the qualified read/backup/restore and language-operation worklist in `RESEARCH_PLAN.md` before the separately authorized write stage.
+5. Retain all JSON reports. Use the current repository execution plan to continue qualified read/backup/restore and language-operation work. The ZIP's `RESEARCH_PLAN.md` records the revision-3 handoff; current research can advance independently of that historical package.
 
 ## Reproduction and validation
 
-Build with `build/w300/build_portable.py --output build/w300/portable/release3` in the restored development environment. The builder accepts a new directory and preserves earlier outputs. `build/w300/validate_portable.py` validates archive hashes, relocates into a path containing spaces and Polish characters, and runs selftest and OS inventory with external Python/Git/pwsh removed from PATH. Current results are in `build/w300/reports/portable-validation-r3.json`; the prior release-2 record remains historical.
+To build a later edition, use `build/w300/build_portable.py --output build/w300/portable/release-next` in the restored development environment. The builder accepts a new directory and preserves earlier outputs. `build/w300/validate_portable.py` validates archive hashes, relocates into a path containing spaces and Polish characters, and runs selftest and OS inventory with external Python/Git/pwsh removed from PATH. Revision-3 results are in `build/w300/reports/portable-validation-r3.json`; the prior release-2 record remains historical.
 
 The relocation check measures packaging on the preparation Windows 11 host. Record the receiving PC's own reports for its OS and camera session. Release 3 updates instructions while retaining bounded identification behavior.
+
+## Continue between device sessions
+
+An empty inventory is an observation about this computer. Save its report and continue package/firmware acquisition, static protocol analysis and offline tooling. When a receiving PC has the camera, resume at current identity verification. An access or identity error pauses the affected identification command while its exact cause is investigated; it does not prevent independent research.
+
+This revision-4 repository guidance leaves the published revision-3 ZIP and its checksums intact. No new portable build is required for the documentation update.

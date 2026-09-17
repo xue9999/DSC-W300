@@ -1,6 +1,6 @@
 # W300 firmware and transaction evidence: additional bounded acquisition
 
-Editorial revision 3; underlying measurements and captured results retain their recorded scope.
+Editorial revision 4; underlying measurements and captured results retain their recorded scope.
 
 ## Result
 
@@ -46,6 +46,6 @@ The manual's extracted text also repeats a Chinese archive watermark directing r
 
 ## Remaining concrete lead and qualification requirement
 
-The newly source-linked regional archive is the historical `bbs.520101.com` forum. Its surviving mirror or archived W300 thread, if found, could supply actual attachment metadata beyond the manual already obtained. The present address did not resolve through the attempted public request, and no binary is identified. This is a specific acquisition lead, not a hidden dependency represented as completed work.
+The source-linked regional archive is the historical `bbs.520101.com` forum. This check identified that lead without acquiring a binary. The subsequent [watermark archive audit](w300-watermark-archive/README.md) recovered its archived W300 manual listing and recorded the inspected thread/attachment coverage. Reuse that result, then seek a distinct binary-bearing thread or mirror instead of restarting from the failed live address. If no distinct source is found, continue the alternative routes in the [execution plan](../../../docs/w300/EXECUTION_PLAN.md).
 
 Any future hit still needs its original uploader/model context and actual binary inspection: full length versus established storage capacity, spare/ECC layout if applicable, container/filesystem signatures and internal model evidence. A matching component alone does not make a dump W300-specific. A different unit's calibration/identity must never be written wholesale to the user's original camera. Continue from the recorded source coverage to a binary-bearing firmware or service-trace lead and verify its provenance.

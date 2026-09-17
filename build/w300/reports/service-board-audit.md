@@ -1,6 +1,6 @@
 # W300 service-board and recovery audit
 
-Editorial revision 3; underlying measurements and captured results retain their recorded scope.
+Editorial revision 4; underlying measurements and captured results retain their recorded scope.
 
 ## Result and scope
 
@@ -59,6 +59,6 @@ ADJ pp.28-29 / printed 6-27 to 6-28 distinguishes communication errors from data
 
 Web queries covered exact W300 destination/service-board/SeusEX/Auto-Adj combinations, W300 language conversion, and English/Russian/Japanese variants. Results included the W300 Level 2 primary service content above, consumer support, neighbouring-model manuals, and unrelated commerce pages. No W300-specific retail-board destination encoding, reproducible conversion trace, or documented override was obtained in this bounded audit. Search absence is not proof that none exists.
 
-The smallest technically justified next research object is the **exact W300 Auto-Adj executable and its payload**, plus its SeusEX API surface. Static analysis could identify the destination-read path, service-board eligibility check, destination-data bounds, and any checksums without touching the camera. That analysis must precede writing an adapter. If only the generic SeusEX tool becomes available, arbitrary address reads/writes still lack a W300 specification. If PMCA independently produces a real W300 backup through a qualified read path, its actual format and properties could provide an alternative, but this audit supplies no such qualification.
+For the Auto-Adj route, acquire the **exact W300 Auto-Adj executable and its payload**, plus its SeusEX API surface. Static analysis could identify the destination-read path, service-board eligibility check, destination-data bounds, and any checksums without touching the camera. Inspect that implementation before writing its adapter; an independent W300 firmware or qualified transaction source can support a separate route. If only the generic SeusEX tool becomes available, arbitrary address reads/writes still lack a W300 specification. If PMCA independently produces a real W300 backup through a qualified read path, its actual format and properties could provide an alternative, but this audit supplies no such qualification.
 
-This report does not select a safe executable procedure for the original board and does not claim the user's completion criteria are met.
+The next deliverable is an evidence-backed account of the eligibility condition and affected fields, obtained from the exact application, W300 firmware or a qualified trace. Prioritize a language-only path if the acquired implementation supports one. If Auto-Adj acquisition is unsuccessful, continue the alternative routes in the [execution plan](../../../docs/w300/EXECUTION_PLAN.md). This report preserves the original-board qualification question for that work; it does not establish a hardware procedure or completed conversion.

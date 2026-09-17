@@ -41,3 +41,7 @@ AV instruction edits and text-resource edits are offline experiments. Next quali
 - av_rtos_image: `evidence/extracted_g3/sections/09_av.bin`; SHA-256: `f2554be5181f5765623b0771e6aef6ff99c8483980a1192c39db85c744bda4fb`
 
 Paths in this generated report refer to the extraction run. Historical copies can contain historical paths. See the active repository guides and artifact manifest for canonical retained locations.
+
+## Current research use
+
+Choose a specific W300 protocol or language-field question from the [execution plan](../docs/w300/EXECUTION_PLAN.md), locate its G3 analogue in the retained extraction and record the W300 evidence needed to test the mapping. This makes the architecture summary a route to a bounded analysis task while preserving the distinction between static findings and later device measurements.

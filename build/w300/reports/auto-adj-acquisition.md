@@ -1,6 +1,6 @@
 # Auto-Adj acquisition and driver inspection
 
-Editorial revision 3; underlying measurements and captured results retain their recorded scope.
+Editorial revision 4; underlying measurements and captured results retain their recorded scope.
 
 Date: 2026-09-16. Scope: public read-only acquisition; no camera connected, no driver installed, no downloaded binary executed. Existing `sources/` and `evidence/` were unchanged.
 
@@ -86,4 +86,4 @@ Archive inspection uses .NET `System.IO.Compression.ZipFile.OpenRead`, then read
 
 ## Next acquisition and implementation task
 
-Acquire the exact W300 Auto-Adj executable with usable SeusEX and documented HASP requirements. Inspect its destination routine, original-board eligibility and affected data before implementing the smallest required adapter. Preserve the identification helper and simulator as distinct tools while qualifying the hardware operation. Verify backup/restoration and persistence before the separately authorized write stage.
+Acquire the exact W300 Auto-Adj executable with usable SeusEX and documented HASP requirements. Inspect its destination routine, original-board eligibility and affected data before implementing the smallest required adapter. If the package source cannot supply bytes, continue W300 firmware/trace acquisition and prepare the alternative [file-read route](g3-file-read/README.md), coordinated by the [execution plan](../../../docs/w300/EXECUTION_PLAN.md). Preserve the identification helper and simulator as distinct tools while qualifying the hardware operation. Verify backup/restoration and persistence before the separately authorized write stage.

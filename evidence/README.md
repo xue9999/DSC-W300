@@ -12,3 +12,7 @@ This directory preserves historical observations and reproducible offline firmwa
 - [G3 architecture summary](DECRYPTED_ARCHITECTURE.md): bounded interpretation of the retained extraction.
 
 Raw JSON/TXT captures and source documents are preserved byte-for-byte where recorded. Their timestamps, serial identifiers, historical paths and unsupported claims are source content, not current instructions. Superseded operational guides and generated success narratives have been removed from the active tree, with history retained in Git.
+
+## From historical evidence to the next action
+
+Use the [current W300 execution plan](../docs/w300/EXECUTION_PLAN.md) as operating guidance. Historical statements such as an unavailable package, an untested driver or a completed review describe their dated scope. The analyst owns the next acquisition or qualification task: develop another source, derive a specific comparison from retained firmware, or prepare bounded file acquisition. Preserve original observations while recording new results separately.

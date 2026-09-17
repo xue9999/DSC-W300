@@ -33,3 +33,7 @@ Searches for the exact model plus Senser, PMCA, Seus, Auto-Adj, 1.3r04 and CEE8 
 https://www.sony.com/electronics/support/compact-cameras-dsc-w-series/dsc-w300
 
 The exact Auto-Adj package or independently documented W300 service transactions remain necessary to establish the region encoding and recovery route. Availability of the package alone would not prove retail-board conversion eligibility. Verify physical English-menu persistence after restart in the separately authorized write stage.
+
+## Current continuation guidance
+
+Keep the repaired simulation as an offline regression baseline. The next implementation task is to derive a bounded W300 read and service exit from model-specific evidence, test response completeness and failure handling, and prepare a separate hardware adapter. Use the observed mass-storage interface to inform the receiving-PC identity checks; do not request a mode change merely because a historical PID differed. The [current execution plan](../../docs/w300/EXECUTION_PLAN.md) connects package, firmware and file-acquisition routes to the remaining protocol questions.

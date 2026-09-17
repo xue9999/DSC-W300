@@ -1,86 +1,261 @@
 {
   "schema_version": 1,
-  "editorial_revision": 4,
+  "editorial_revision": 3,
   "scope": "Current scripts, reports and offline research inputs",
   "pmca_commit": "a82f5baaa8e9c3d9f28f94699e860fb2e48cc8e0",
   "camera_communication_verified": false,
   "w300_language_write_verified": false,
-  "historical_manifest": "manifests/package_manifest.pre-editorial-r4.json",
+  "historical_manifest": "manifests/package_manifest.pre-editorial-r3.json",
   "editorial_changes": [
     {
-      "path": "release_manifest.py",
-      "previous_sha256": "6b1401acf6fda765939daee0b216a0e4bd04e58d8b3de46348df469f31e2c904",
-      "current_sha256": "b4e3aa3ed48013e79dc037965cba79c5be8f91069ef63cae5b5546c36a7b5220"
+      "path": "downloads/w300-firmware-candidates/ACQUISITION_REPORT.md",
+      "previous_sha256": "5a2e8682c4f1fca43ae7c4ca4019ffece2998bf78497c4d15d307cc2e3cb76e5",
+      "current_sha256": "cc92934a0b9c9829391fb4682f6e49223a909b9db5d5fd7432edeb694bd8828f"
     },
     {
-      "path": "reports/adjustment-collections.md",
-      "previous_sha256": "e408a8cac2d53c629c5c4d8a9740394feedbe9595e737934dc90e93183259f60",
-      "current_sha256": "6b037f9da92da5e3c24cfc3c631e0ab7049da90931ccb61e669c3a95e16d5c3c"
+      "path": "restore_environment.ps1",
+      "previous_sha256": "4fbde5f17e6296a176f8c080e2ba14b8a9f98e4e790bdfae7b8fd304c872678c",
+      "current_sha256": "6a896cea6e5c9084f5aeb0f9c7dd08e4acbae2ca4c7838a51b06a3e547756d22"
     },
     {
-      "path": "reports/auto-adj-acquisition.md",
-      "previous_sha256": "bf04d0ed3c3de1531606c7e14a79685cb7e7ce2dc8e2d3308adcf69082a27ab9",
-      "current_sha256": "e6432cccc3a3444c3278c1b41ddce8a6fce8bfd3c4b52f671421116c03327e21"
+      "path": "build_portable.py",
+      "previous_sha256": "6f63a53064954d014cee84a9fdb68803481ee67bcd234a44b5d3d46d29259022",
+      "current_sha256": "f1b066ae4847897b6ad369dd290ba899b7a4ff8e224fd8905dd102267312fcb3"
     },
     {
-      "path": "reports/av-page-init/linux-persistence/FINDINGS.md",
-      "previous_sha256": "95707872ca484785e0399316a09873910861769f3869275e801681b260535810",
-      "current_sha256": "29f8dff8d285cd56fe1bb28ac1a155ea29f0a0bab12ad333da7194453b5f558f"
+      "path": "validate_portable.py",
+      "previous_sha256": "1b668f07ec204bd92bd74504f87c3cb293addebc2c02bc876242ee4e7b6f0d69",
+      "current_sha256": "53a79c96b7962e1e76216f3b64c0936c7ea3276cb8897b047e42f04c77c1853a"
+    },
+    {
+      "path": "reports/eligibility-bulletins-20260916-r1/service-board-bulletin-audit.md",
+      "previous_sha256": "cc68a768ff0f63987fa70bedc2abc2a7a7b6ab32012a866b7c6d7e7cca1f5e44",
+      "current_sha256": "a11095f56a4f6952c63b09a3defd79abf1927cdd44df78ef8f724eef1da192aa"
+    },
+    {
+      "path": "reports/fallback11/inspect_fallback11.py",
+      "previous_sha256": "5b4acdf43c0f1d64ef32af094107324e074933857c21b60fb18596d951a663c6",
+      "current_sha256": "9b5d002ae1f02c3c89d443146a58fb03124a329bfd2e1b4eba51eb75e9f51498"
     },
     {
       "path": "reports/fallback11/README.md",
-      "previous_sha256": "b805e7d39f6e9305bd8821d126171a7809c794dc59a3a699c5198802cd42a3fa",
-      "current_sha256": "be75587f22abb266e99fd9624409e0f66f15771a086dc6b14321c7612351307a"
-    },
-    {
-      "path": "reports/g3-w300-manual-crosscheck/README.md",
-      "previous_sha256": "f557e6173a89d0963fa51d4b0f00b3d6cf3f9223783c3ccfda2639ffde76d0ed",
-      "current_sha256": "badcf42968e7223300616e8df1d4b829d073f34e431c8b2e53684fdfdac0aed6"
-    },
-    {
-      "path": "reports/libgphoto-w300-scope.md",
-      "previous_sha256": "380c105465e919bab5458511da39ac0c60a5392beb0e948981bbf437c9faccfb",
-      "current_sha256": "3e3c925fc48f0108cdb9122a9942bfe2ca1ec5cbc4390b2d24a9ac9f2a41ba3e"
-    },
-    {
-      "path": "reports/local-service-package-check.md",
-      "previous_sha256": "deee82073abb7457233b3ed2e9b66726e3a50769bede7d27788544b26c33e98a",
-      "current_sha256": "0fdd141a3eafea3e488e1808ef8f968ad872249d178e0ae61c71c5431e8b4db1"
-    },
-    {
-      "path": "reports/retained-service-code-scope.md",
-      "previous_sha256": "3cb654d6333c54fee4840a94be7c3a876d4b92e97ce1d66aaf550a0d05926a55",
-      "current_sha256": "3cd69e1d919f80ae9ec1b15ce0aec7cab3bf6246fa26205b81761edd62f48dea"
-    },
-    {
-      "path": "reports/service-board-audit.md",
-      "previous_sha256": "a7a80fda36d473770fe09b1c3aa3ba914f3862ed8d471a39a72b8c5d1e2bad04",
-      "current_sha256": "b08e27fd754229677b1ee350b85c2ddbd28cf0fb07028dbb7f29c81b4a8c3c2b"
+      "previous_sha256": "6c5f880ec02845b45ffff0261763043b1013df613af52dc74c631d7e9f496e0e",
+      "current_sha256": "b805e7d39f6e9305bd8821d126171a7809c794dc59a3a699c5198802cd42a3fa"
     },
     {
       "path": "reports/seusex-public-acquisition-20260916.md",
-      "previous_sha256": "0543814c2165477b194ea97b1843a11511accdd0226c5235150044cbdad3e29a",
-      "current_sha256": "ec4e138868a42a5f95147205d092b7ad1e454ad5c40cfd38edb6cf80e69d4e4d"
+      "previous_sha256": "2854eb08578d1d3f4c0572407d84548b86281c4fe72020b6a2f1408a700b8c38",
+      "current_sha256": "0543814c2165477b194ea97b1843a11511accdd0226c5235150044cbdad3e29a"
+    },
+    {
+      "path": "reports/sony-ptp-boundary-2008.md",
+      "previous_sha256": "fccd7d4c76d7b6e1dcc0c00a562f33db395c21a21e2837bca2171874f1d3f4f4",
+      "current_sha256": "2e3f46db16b42f34da4a64663678431ea23f9915555d44e4a5486988fdd46777"
     },
     {
       "path": "reports/w300-firmware-followup.md",
-      "previous_sha256": "818c0887397259492dcb72ab1cee1fbeaa89b24b3738c116b5285884bc2c42b4",
-      "current_sha256": "e1acce54af04e90cb2409f807925dbd3d279d2b8530ea46866493270a5e6bc3f"
+      "previous_sha256": "764f605904a474ae9922558af8f5a0b67d5482f9319a3cb65adada18062cf245",
+      "current_sha256": "818c0887397259492dcb72ab1cee1fbeaa89b24b3738c116b5285884bc2c42b4"
+    },
+    {
+      "path": "reports/w300-l3-architecture.md",
+      "previous_sha256": "748fbb707930eee9c30a4df9696d751d416ead633db913ce67ffb4616b5c0439",
+      "current_sha256": "287ae18bb17d00ce67a5f8477e31fd36f24db65d5c9e5f817e7634b57df1f695"
+    },
+    {
+      "path": "reports/w300-package-followup.md",
+      "previous_sha256": "d88b2af83f3d06411d948de2559d5df0cc416ae3e7f5a041289e2d5104cfddea",
+      "current_sha256": "278d97ac0ccd8f387f3c4b2259524ead470bb806e9b9a4a2385379f9f1085729"
+    },
+    {
+      "path": "reports/av-receiver/linux_body_bridge.py",
+      "previous_sha256": "23e08ceb59574240b06edadfe576a34a1caf620b0c70c8147977cabd68582e73",
+      "current_sha256": "b250af4d129ac71e594e2b9ccf7f277c1a538e324e4b5e973f6908f4ef5018ab"
+    },
+    {
+      "path": "reports/av-receiver/README.md",
+      "previous_sha256": "5b973df9b372306d4f40fa13d2de129d24a88ec3102b03b4517e4d810005e0a6",
+      "current_sha256": "3f91995b4890aa9be2a41b45b337631a95f0f2fcfe3cf5f1581b32e11768f66b"
+    },
+    {
+      "path": "reports/adjustment-collections.md",
+      "previous_sha256": "d49f589bb4a21e302f5175d0669555d44c6d1716dd7a76f0c3a4f9eb262f4f74",
+      "current_sha256": "e408a8cac2d53c629c5c4d8a9740394feedbe9595e737934dc90e93183259f60"
+    },
+    {
+      "path": "reports/av-page-init/linux-persistence/decode.py",
+      "previous_sha256": "3e298d3cea646a18ac2ba5830aa55b512a3f56caf7fa9160b1ac52d095d85743",
+      "current_sha256": "a951360494178a4983eafe9aed63913ae4aa0ccb56f646f83a5fa9dff055b766"
+    },
+    {
+      "path": "reports/av-page-init/linux-persistence/FINDINGS.md",
+      "previous_sha256": "cfd6642df198337bb7b2f7caf6118d942725927bde4d686e69964edf82c044d2",
+      "current_sha256": "95707872ca484785e0399316a09873910861769f3869275e801681b260535810"
+    },
+    {
+      "path": "reports/av-page-init/linux-persistence/tables.py",
+      "previous_sha256": "3514e01f03dc641fb2d4b139b93f9e81ba56c4c061f534aa8943c36a85f9a1e3",
+      "current_sha256": "24f5f1f6f9f424e268be743f94475b4ae96cbbc986391efe2ab9d5e7d6e2e336"
+    },
+    {
+      "path": "reports/av-page-init/README.md",
+      "previous_sha256": "e79cb9a39bd60b58dd02a8181ef18089860bbbf1d9321419fdfb7877998cf718",
+      "current_sha256": "a4b7ef73a37adad91a09d0ab5c129a1987782fee0050dd41e3c16380d4e3781e"
+    },
+    {
+      "path": "reports/g3-bank-map/README.md",
+      "previous_sha256": "8530460c11878e1bf80eadd6148d09712cb7c441d18a6f5d8384f098131017ad",
+      "current_sha256": "c46f36f4fcb3d612981a9c26271601a847aa83778371d07920284f5b389c7752"
+    },
+    {
+      "path": "reports/g3-host-interface/README.md",
+      "previous_sha256": "c1ef76d0d16ec3be571350b5892ff19ffaf235791ecd00d63ec977ec2eb6e13e",
+      "current_sha256": "68c1eaf72337ad634963978b26a8bc91c648d0c4b4648767a787c5e15b8564be"
+    },
+    {
+      "path": "reports/g3-module-recovery/INDEPENDENT_REVIEW.md",
+      "previous_sha256": "cda6d51ddd035e9108d4b4d9900652d6c58d22f0097f02699c7413dc240d0c87",
+      "current_sha256": "d2affa78ec87b026ee760349ad87a6d6965bdf8b157bacb06195c32bc11f3539"
+    },
+    {
+      "path": "reports/g3-module-recovery/README.md",
+      "previous_sha256": "8f1811297232e58c6719465c5be9ce4748b79208ff74748be696d1267dadae7e",
+      "current_sha256": "c2f056c515e06c864b9ee4d3fbd9c6a9badad48fca3025dd023446703983f552"
+    },
+    {
+      "path": "reports/g3-module-recovery/recover_module.py",
+      "previous_sha256": "7ec60e5635532fbc982c7cd2a14ba0947538b22b54f1a599f99a567639b69879",
+      "current_sha256": "d6178fc94919213ef06bbb387f694ec8640eed6eb688eb0d063affb8bddcd07e"
+    },
+    {
+      "path": "reports/g3-module-recovery/recovery-evidence.json",
+      "previous_sha256": "ec275002181a672e076f5491fc2ab69de6de897f012daee180c5204b2c884016",
+      "current_sha256": "7eb00d0c74c0f294d4fecb773a70a784514d783a3a88f55594891bf9a6197b93"
+    },
+    {
+      "path": "reports/g3-normal-entry/README.md",
+      "previous_sha256": "6e2b8d941acf4d406bec3d7ae04073f1dd1e9dd26897f269ab7e717526c1cca4",
+      "current_sha256": "a5c10b5b80a91b303057641dc500c67a4c73a915c6726c641a0eb6ed726336c0"
+    },
+    {
+      "path": "reports/g3-normal-entry/xsb-boundary.md",
+      "previous_sha256": "38e933231f0b0828b323b80ffd454c9dbb248ec50541a066381f00c3ba5b251f",
+      "current_sha256": "fbca8bdfabf58ce1d2c1d9433b3a2534ac05e610b537bcbe0859f0fa014596f3"
+    },
+    {
+      "path": "reports/g3-usb-descriptor/kernel-report.md",
+      "previous_sha256": "355d45d089117fc32b6a2d7573334902d0a9048cbf1ae52f702977dbea4c3d76",
+      "current_sha256": "4ebeed6bc05ec0f1a6b710dc4ecfd5b7086274fe9b65778f42db8b180c03d437"
+    },
+    {
+      "path": "reports/g3-usb-descriptor/README.md",
+      "previous_sha256": "5d7e369066608deaecb413ea7c4ebfb136f44d1c6288434fc663466dde44b830",
+      "current_sha256": "7625f14edcf63a371505cdb236d85e6b87d43164832a58b2bd0a62113bd1cd5b"
+    },
+    {
+      "path": "reports/g3-w300-gpl-crosscheck.md",
+      "previous_sha256": "241d6de53f4858f8afaa0362c372bade19e978dba5bd1a43768bb70eea44473e",
+      "current_sha256": "7b45765fc546c9fb2075a40b42edd99d72eef2247682003098bfae174a5886a3"
+    },
+    {
+      "path": "reports/g3-w300-manual-crosscheck/README.md",
+      "previous_sha256": "92736eb77140f692c9c3272105175ed7206bb52a66a18853b2584c56f17cc0ed",
+      "current_sha256": "f557e6173a89d0963fa51d4b0f00b3d6cf3f9223783c3ccfda2639ffde76d0ed"
+    },
+    {
+      "path": "reports/g3-config-read/decode_config.py",
+      "previous_sha256": "fc638f5de7ba47a5b53da8c9546bbbab958b2bbcb59bf05ba42f606e6de2b8ff",
+      "current_sha256": "623247168bbdb2fcb175dc82e04a86db5b0653d4ea4199297f8711669c2e5fb2"
+    },
+    {
+      "path": "reports/g3-config-read/extract_config.py",
+      "previous_sha256": "a8397cabaa8750cd9c41866450af1cbbe401ab0c10e7a158098d7e8bccd7c0b8",
+      "current_sha256": "283ec0a9fabd19ae16bdb010658be2e0047286383f16980891d086ab7397388b"
+    },
+    {
+      "path": "reports/g3-config-read/frame_grammar.py",
+      "previous_sha256": "23c8351ac3fb214f896c97fa8c748e1a7cf4c78d53e56a7d873c863f9146d3d1",
+      "current_sha256": "94dda38faa31e1463065db6073587ccdd15c975d90ea902134f1ff3adf9dc76d"
+    },
+    {
+      "path": "reports/g3-config-read/inspect_config.py",
+      "previous_sha256": "d02bea364eef6928d19ffedb2d6cdb6a49896be30b4d06c5778a7db5e3d8d415",
+      "current_sha256": "3594cfabf6ddcd21abfb88c058e697179af341760b02068bccf321d3a661d0fa"
+    },
+    {
+      "path": "reports/g3-config-read/inspect_grammar.py",
+      "previous_sha256": "05240e0ba8331363809a822949c88e502289365d66ec63555371190be753d85b",
+      "current_sha256": "2e3f3bcde34eb8919473b3d5d203625718f0cbebadfdb86fa3378f18024b2b81"
+    },
+    {
+      "path": "reports/g3-config-read/README.md",
+      "previous_sha256": "b003c6e1bcab05d7b9e3d89e9e17aadb6dfc4c1ae41abe740e97e98634ae2510",
+      "current_sha256": "304c463c990fc771a6206597c8921c30f11ad3cc2b97f71be3975e3a40f4f32a"
+    },
+    {
+      "path": "reports/g3-config-read/reproduce.py",
+      "previous_sha256": "f86acf6a6bd1b9a425d48a42d60ee34a06604f6b6a0ad7e5935ce760ce023cb1",
+      "current_sha256": "dbb7672e6c5aa3bda8d9936f310063c8091482834f9cfabc8bcfaf4eb0b4a503"
+    },
+    {
+      "path": "reports/g3-entry-events/README.md",
+      "previous_sha256": "ff888c6e99cee3457022cf1a233296dbac103c3a73b54b56ecd718fa864e5757",
+      "current_sha256": "aefa6ed432f3f17ab8f4cd13e0635a72ab1c6fbfae12fd5c9ea34c4048554933"
+    },
+    {
+      "path": "reports/g3-entry-events/reproduce_events.py",
+      "previous_sha256": "81b83d12c48e5eef1b71266b0a14c31bf285e182c7e9efdd9a95b456c50a469e",
+      "current_sha256": "03fba7fe0cf085a211e70265098ae13c963152fb3c5e8528c761c5887b7cab6e"
+    },
+    {
+      "path": "reports/g3-xs-entry/frame_xs.py",
+      "previous_sha256": "ecc51cba7a290c60dcf5169bcb3bf12bc9cff1d7ab79eb0ca16ec513067c6d28",
+      "current_sha256": "1e18552c0021c69dd9e282efca6a95da0747e980f2cdbe662735e732c2301751"
+    },
+    {
+      "path": "reports/g3-xs-entry/README.md",
+      "previous_sha256": "d3e55c26b53e999c0ed8d0099d2231fb334a1d3f41dda219daa4888225beb299",
+      "current_sha256": "8d5c230c280894fd580705849c7b647e42a2c2dd9519f97ec7849dcc64a22b2f"
+    },
+    {
+      "path": "reports/g3-xs-entry/reproduce_xs.py",
+      "previous_sha256": "9db5cc01f2c861460437bb0648d4e3ef2b3fa8afab4ecc46e00f2be9b2741d5b",
+      "current_sha256": "0a22722c25105a16288c97ee725c1c217236640f670ff03b3931e3c09b3bdf4c"
+    },
+    {
+      "path": "reports/g3-xs-entry/xs-review.md",
+      "previous_sha256": "5e83ed300f953cca924d46d47710fc0d629092934751ca92b885e55e26774fd5",
+      "current_sha256": "331d7df48f479b4298b98d4d248f957d0b0b4f8404ea9b963d2505743853435f"
+    },
+    {
+      "path": "reports/g3-xs-entry/xs-review.py",
+      "previous_sha256": "fa50e7662e205f990a7132f5aa88c723f3403ce9ae77f78e088c3838f213aee3",
+      "current_sha256": "4bd8ccf308832b6adc90df5202274a4ec88d75ce39e5122e5ca78c1a303dc30f"
+    },
+    {
+      "path": "reports/verify_offline_xs.py",
+      "previous_sha256": "2e74b23c2d9c881f241a3d33c35d3c22528eeaa968973b669de8c1577f2e4497",
+      "current_sha256": "d8c112eacdb4e5aac1b49d02256680f1a07b62eff53ba805240a291ebdcc33c6"
     },
     {
       "path": "reports/w300-owner-source/README.md",
-      "previous_sha256": "31d50cf9a220a1e3efa1315f02fddf0ba0511c63d0e43a88ef34cab80f0f4978",
-      "current_sha256": "5662b22a32310eee1cd6563a204376d87c1e7325634ce4c24c92751e6ca6c85e"
+      "previous_sha256": "67c41d4791116d3998d1474139afa4a7546567c82b13c7d31e75661003b6d815",
+      "current_sha256": "31d50cf9a220a1e3efa1315f02fddf0ba0511c63d0e43a88ef34cab80f0f4978"
     },
     {
       "path": "reports/w300-package-source/README.md",
-      "previous_sha256": "0d0507c5a5614045e5d10bcb00c1180d88a0c55b4f75812ec034fb08460cbb9f",
-      "current_sha256": "3875f8babcf027c3eabd3168a94ddbb52c70f26e35acc661f0bd8777b88a7416"
+      "previous_sha256": "db5fcd0dfb6c769b01267d088e1cfe0e0bc1c804c959613fbe230d4409f19c19",
+      "current_sha256": "0d0507c5a5614045e5d10bcb00c1180d88a0c55b4f75812ec034fb08460cbb9f"
+    },
+    {
+      "path": "reports/w300-readiness-audit/README.md",
+      "previous_sha256": "8f80de083f23e181ba26d7cd1a8efa9d6aeab01ea053bd871c9586c47d450c6d",
+      "current_sha256": "5175f9d5a3e8bfe5437b627038152dc6e0dca5df8a3047b1745ae56e6defceca"
     },
     {
       "path": "reports/w300-watermark-archive/README.md",
-      "previous_sha256": "7289aef3e4310c0e5335cb8989e6a8f464e9f051fc825c803e7a0393fef9a652",
-      "current_sha256": "49b29f410403bfcb44f299b0b899b4ce81f1d2937ba2653b14ad8db4fb39b884"
+      "previous_sha256": "a8ce14d3f37290c3e1fcc732e6c75fd345f28d7363b534285211492105540c5f",
+      "current_sha256": "7289aef3e4310c0e5335cb8989e6a8f464e9f051fc825c803e7a0393fef9a652"
     }
   ],
   "artifacts": [
@@ -195,16 +370,6 @@
       "sha256": "a7a27d832601de538f65bb60afef8a630e3d0643e969b3a8e51ac58df3cdc8d0"
     },
     {
-      "path": "downloads/auto-adj/seus-driver-1.0.8-inspection/WinRTUSB.dll",
-      "bytes": 192512,
-      "sha256": "3c2f9eeab192e15a0e9f0c1ed2f5c2805735e01398bc1cb0b0571984075d31f2"
-    },
-    {
-      "path": "downloads/auto-adj/seus-driver-1.0.8-inspection/WinRTUSB.sys",
-      "bytes": 41984,
-      "sha256": "eb8b878c813f6aab39fd418d847756ceb80c028b0599a77e28ae5d7856d09880"
-    },
-    {
       "path": "downloads/auto-adj/seus-driver-1.0.8-inspection/driveridentifier.txt",
       "bytes": 157,
       "sha256": "18d92609134c15babc9572bfbe061494158e200a4a8cbfcd16f5a170c89b4e7a"
@@ -215,6 +380,16 @@
       "sha256": "6010300cb03edd7e4778f00c7acabbc59899973b10f589ef901ade67c2e73098"
     },
     {
+      "path": "downloads/auto-adj/seus-driver-1.0.8-inspection/WinRTUSB.dll",
+      "bytes": 192512,
+      "sha256": "3c2f9eeab192e15a0e9f0c1ed2f5c2805735e01398bc1cb0b0571984075d31f2"
+    },
+    {
+      "path": "downloads/auto-adj/seus-driver-1.0.8-inspection/WinRTUSB.sys",
+      "bytes": 41984,
+      "sha256": "eb8b878c813f6aab39fd418d847756ceb80c028b0599a77e28ae5d7856d09880"
+    },
+    {
       "path": "downloads/auto-adj/seus-driver-static-verification.json",
       "bytes": 605,
       "sha256": "4e4b9a6bf3a4f7618d5a8e83ae487c9b4784ca6a65a7a6bb681367d458939ad2"
@@ -223,31 +398,6 @@
       "path": "downloads/auto-adj/sony-seus-usb-1.0.8.zip",
       "bytes": 96332,
       "sha256": "5328fc898ecef188af7a848798593b0eadd1aa906fdda3db2a248f20b8b79ccc"
-    },
-    {
-      "path": "downloads/comparative-language-acquisition/DSC-H50.html",
-      "bytes": 6289,
-      "sha256": "d34766c02fd42e71ba0ba4a1992bf4055decac640f119d6d9ca6eb3a18cd6993"
-    },
-    {
-      "path": "downloads/comparative-language-acquisition/DSC-T300.html",
-      "bytes": 6291,
-      "sha256": "c71033c1f8a059a07d04ab2c99833203e1962f97f91f5b392b1f120f546161c9"
-    },
-    {
-      "path": "downloads/comparative-language-acquisition/DSC-W150.html",
-      "bytes": 6300,
-      "sha256": "b18cebdfafaddca6949510c0a8dcf4dee085bbd69ef0c6ef77ad1917c37789eb"
-    },
-    {
-      "path": "downloads/comparative-language-acquisition/DSC-W300.html",
-      "bytes": 6291,
-      "sha256": "a417346ec97a45f2ffe350d99e357475315e078350dd84c946b3ea3211362d01"
-    },
-    {
-      "path": "downloads/comparative-language-acquisition/acquisition.json",
-      "bytes": 4230,
-      "sha256": "9ba0aeeae0e83903fef00cc41896f3bfff8ead829e8bc42334021aef71585c3e"
     },
     {
       "path": "downloads/eligibility-bulletins-20260916-r1/acquisition.json",
@@ -275,11 +425,6 @@
       "sha256": "e193f8bd8f670bcb7545a896f5790fcebde65b5d94b92cc3c38c457705a14541"
     },
     {
-      "path": "downloads/g3-gpl-reference/DSC-G3.html",
-      "bytes": 6287,
-      "sha256": "aa53a9255c17f7fe36208afabfe10f540ff32396093e21a821d645d02f0bea3f"
-    },
-    {
       "path": "downloads/g3-gpl-reference/compare_gpl.py",
       "bytes": 1992,
       "sha256": "bf72129f5a43945d7d0efef39d42723168f72dcd3d7a0078ac36de162e1690e4"
@@ -298,6 +443,11 @@
       "path": "downloads/g3-gpl-reference/config.diff",
       "bytes": 1672,
       "sha256": "3f7863b58ed0de7a5956a5b044e48539b54cfbdea7cc80bc3d3b9bbcf68ecc04"
+    },
+    {
+      "path": "downloads/g3-gpl-reference/DSC-G3.html",
+      "bytes": 6287,
+      "sha256": "aa53a9255c17f7fe36208afabfe10f540ff32396093e21a821d645d02f0bea3f"
     },
     {
       "path": "downloads/g3-gpl-reference/g3.config",
@@ -420,24 +570,24 @@
       "sha256": "68bc7fb1dc88b58a56db925d2859fee30813c6d40a8020865977e96e055a43ba"
     },
     {
-      "path": "downloads/legacy-pmca/a330-7953397.zip",
-      "bytes": 1266,
-      "sha256": "86c286f8fd315a464d19b3fbf411181b466515a594e6f7de24b8e249fa9ce1bb"
-    },
-    {
       "path": "downloads/legacy-pmca/a330-7953397/a330.py",
       "bytes": 2756,
       "sha256": "e8c9f5c9f70e1a3ca9f0849c37cf1e4f07403e67efe687bf62c88aecd7be8ffc"
     },
     {
-      "path": "downloads/legacy-pmca/a330-7998362.zip",
-      "bytes": 1254,
-      "sha256": "cab4f3072f077c237892a9e274473fb4423a70c11e6a15eefa4a540fa6ae5ff0"
+      "path": "downloads/legacy-pmca/a330-7953397.zip",
+      "bytes": 1266,
+      "sha256": "86c286f8fd315a464d19b3fbf411181b466515a594e6f7de24b8e249fa9ce1bb"
     },
     {
       "path": "downloads/legacy-pmca/a330-7998362/a330.py",
       "bytes": 2900,
       "sha256": "1e257cb6b6faffc4c3f0a0111ca168469478423b2c9845c8b73b09dce56f128e"
+    },
+    {
+      "path": "downloads/legacy-pmca/a330-7998362.zip",
+      "bytes": 1254,
+      "sha256": "cab4f3072f077c237892a9e274473fb4423a70c11e6a15eefa4a540fa6ae5ff0"
     },
     {
       "path": "downloads/legacy-pmca/addressing-reference/a330-7914900.py",
@@ -450,19 +600,14 @@
       "sha256": "1b7d5799da621df3843ba139e3df326b69fd60e1ed2a21b1f167d7eb547fbf02"
     },
     {
-      "path": "downloads/legacy-pmca/early-dsc-reference/a330-7874849.zip",
-      "bytes": 1093,
-      "sha256": "db214dffa04fa4963e443b40db8466c3fe31b25599fe9c857ff9fa2a4cc2ad69"
-    },
-    {
       "path": "downloads/legacy-pmca/early-dsc-reference/a330-7874849/a330.py",
       "bytes": 2332,
       "sha256": "45932af7d43664f029a3e930a8560415a4b681b2875fd3e0b50cffb0972d9153"
     },
     {
-      "path": "downloads/legacy-pmca/early-dsc-reference/a330-7890406.zip",
-      "bytes": 1089,
-      "sha256": "c90fe261bba5b94266764df616c112505325a628c4529a9a713d34df14440d31"
+      "path": "downloads/legacy-pmca/early-dsc-reference/a330-7874849.zip",
+      "bytes": 1093,
+      "sha256": "db214dffa04fa4963e443b40db8466c3fe31b25599fe9c857ff9fa2a4cc2ad69"
     },
     {
       "path": "downloads/legacy-pmca/early-dsc-reference/a330-7890406/a330.py",
@@ -470,14 +615,19 @@
       "sha256": "c8effc39ad1f9d4983328d688b077cf63284835d9874e619d935dbd0a04c0ce6"
     },
     {
-      "path": "downloads/legacy-pmca/early-dsc-reference/a330-7892025.zip",
-      "bytes": 1096,
-      "sha256": "dd39b626b7f540d568cebb7ae69754a966bf3bac047018993221411a2d3f37ca"
+      "path": "downloads/legacy-pmca/early-dsc-reference/a330-7890406.zip",
+      "bytes": 1089,
+      "sha256": "c90fe261bba5b94266764df616c112505325a628c4529a9a713d34df14440d31"
     },
     {
       "path": "downloads/legacy-pmca/early-dsc-reference/a330-7892025/a330.py",
       "bytes": 2377,
       "sha256": "5f6218191ac709e2ccfc52e76cf063f9809207377a79d21fb006f34429fc83bb"
+    },
+    {
+      "path": "downloads/legacy-pmca/early-dsc-reference/a330-7892025.zip",
+      "bytes": 1096,
+      "sha256": "dd39b626b7f540d568cebb7ae69754a966bf3bac047018993221411a2d3f37ca"
     },
     {
       "path": "downloads/libgphoto-reference/config.c",
@@ -500,14 +650,14 @@
       "sha256": "1b3811ade47db01935bd55ac8c6d2a249a8c7c4baad0517eda0c8a65c5cb12b6"
     },
     {
-      "path": "downloads/portable-runtime/PowerShell-7.4.18-win-x64.zip",
-      "bytes": 111931009,
-      "sha256": "d018ed5f92ff15a28442dce6a804b1e2aa6153d9fe1e9a06de8fd8142b171f4a"
-    },
-    {
       "path": "downloads/portable-runtime/hashes.sha256",
       "bytes": 6174,
       "sha256": "a8dd02e41161d7c7f79108157f3ce929735e3914ec9f910104eb1b7bc9e247e6"
+    },
+    {
+      "path": "downloads/portable-runtime/PowerShell-7.4.18-win-x64.zip",
+      "bytes": 111931009,
+      "sha256": "d018ed5f92ff15a28442dce6a804b1e2aa6153d9fe1e9a06de8fd8142b171f4a"
     },
     {
       "path": "downloads/portable-runtime/powershell-release.json",
@@ -580,11 +730,6 @@
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     {
-      "path": "downloads/sony-ptp-2008/DSC-PTPSoftStack.ppt",
-      "bytes": 35328,
-      "sha256": "10019b69eec38f621f00933aca6a81c4db81ba50edda7231b5ffb147cf0fab2f"
-    },
-    {
       "path": "downloads/sony-ptp-2008/current-slide-structure.json",
       "bytes": 3119,
       "sha256": "6b27526165813b0df76cc6877feb5f683a36297462ca7740b44ebc5f9de8ec84"
@@ -595,74 +740,24 @@
       "sha256": "e942eb719eb7785e3cfff9715a3ec805e7f8905c1fef93905b2179207bfbbd49"
     },
     {
+      "path": "downloads/sony-ptp-2008/DSC-PTPSoftStack.ppt",
+      "bytes": 35328,
+      "sha256": "10019b69eec38f621f00933aca6a81c4db81ba50edda7231b5ffb147cf0fab2f"
+    },
+    {
       "path": "downloads/sony-ptp-2008/inspect_ppt.py",
       "bytes": 2060,
       "sha256": "700c8cd67f30c0bbbf4114bcefb512988488287754edfb8b4570edfbe97af423"
     },
     {
-      "path": "downloads/sony-ptp-2008/parser-deps/OleFileIO_PL.py",
-      "bytes": 1350,
-      "sha256": "ce4c968e16bf24c3c0e2c41a260d7d350d5d0c9a868117824b919dc0bdb6116b"
-    },
-    {
-      "path": "downloads/sony-ptp-2008/parser-deps/olefile-0.47.dist-info/INSTALLER",
-      "bytes": 4,
-      "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
-    },
-    {
-      "path": "downloads/sony-ptp-2008/parser-deps/olefile-0.47.dist-info/LICENSE.txt",
-      "bytes": 2846,
-      "sha256": "cf1498d5b834b3758a89d06d224a1502c54a28b3a852f46130b761deaa4890d1"
-    },
-    {
-      "path": "downloads/sony-ptp-2008/parser-deps/olefile-0.47.dist-info/METADATA",
-      "bytes": 9718,
-      "sha256": "7d6d2e95f3419469854777a6524b0537688cf52c59bf9824a00f82f832fc2164"
-    },
-    {
-      "path": "downloads/sony-ptp-2008/parser-deps/olefile-0.47.dist-info/RECORD",
-      "bytes": 2544,
-      "sha256": "8c7566eb863697d8d097a695f335d0545a6d927bb4c37fb710b7ffacad49f1f8"
-    },
-    {
-      "path": "downloads/sony-ptp-2008/parser-deps/olefile-0.47.dist-info/REQUESTED",
-      "bytes": 0,
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-    },
-    {
-      "path": "downloads/sony-ptp-2008/parser-deps/olefile-0.47.dist-info/WHEEL",
-      "bytes": 116,
-      "sha256": "8313daa9ca8a3cb51769200ac267c73bbfe200e955be6a77dc37b09d496e041f"
-    },
-    {
-      "path": "downloads/sony-ptp-2008/parser-deps/olefile-0.47.dist-info/top_level.txt",
-      "bytes": 8,
-      "sha256": "bad496e3f9cfa7eaf2b510fb56f312fbc812a7d05498a6110cd7757b1f50da4b"
+      "path": "downloads/sony-ptp-2008/parser-deps/olefile/__init__.py",
+      "bytes": 967,
+      "sha256": "719e959251c94a8332354270e733ff8638781bf1ec6a9f921902a0b055692456"
     },
     {
       "path": "downloads/sony-ptp-2008/parser-deps/olefile/CONTRIBUTORS.txt",
       "bytes": 792,
       "sha256": "e12940f897b33883734a6bc06c6b5e8a3bf3508da6cfd085cadec18b7b57fbaf"
-    },
-    {
-      "path": "downloads/sony-ptp-2008/parser-deps/olefile/LICENSE.txt",
-      "bytes": 2915,
-      "sha256": "0c349bed31cd2af10983a8d95e7455e2d15744b98585b55941ca35bd70f5bcd7"
-    },
-    {
-      "path": "downloads/sony-ptp-2008/parser-deps/olefile/README.html",
-      "bytes": 11237,
-      "sha256": "467fd8ed544bbfd27b8f2e6886fe0b6d2dd04018e455d05770b6b04dc99e3799"
-    },
-    {
-      "path": "downloads/sony-ptp-2008/parser-deps/olefile/README.rst",
-      "bytes": 10221,
-      "sha256": "8bfcff05b224d73602e39602b97f0ab12e24245862bf4c96253d387b4f98ebe0"
-    },
-    {
-      "path": "downloads/sony-ptp-2008/parser-deps/olefile/__init__.py",
-      "bytes": 967,
-      "sha256": "719e959251c94a8332354270e733ff8638781bf1ec6a9f921902a0b055692456"
     },
     {
       "path": "downloads/sony-ptp-2008/parser-deps/olefile/doc/API.html",
@@ -730,6 +825,11 @@
       "sha256": "634af0ef52e97dd2580b6954a1236f8ada6c0afb8999379c98058edcaffd8f7d"
     },
     {
+      "path": "downloads/sony-ptp-2008/parser-deps/olefile/LICENSE.txt",
+      "bytes": 2915,
+      "sha256": "0c349bed31cd2af10983a8d95e7455e2d15744b98585b55941ca35bd70f5bcd7"
+    },
+    {
       "path": "downloads/sony-ptp-2008/parser-deps/olefile/olefile.html",
       "bytes": 33526,
       "sha256": "57749bb9a50e7038832c9e9c402a870f1da1d42a2692a0df1ea79bc30099896b"
@@ -748,6 +848,56 @@
       "path": "downloads/sony-ptp-2008/parser-deps/olefile/olefile2.py",
       "bytes": 89797,
       "sha256": "44655509298f5fd9a69bc54636f95dcd35720757c5576fe7e6ac972618b60a1f"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/parser-deps/olefile/README.html",
+      "bytes": 11237,
+      "sha256": "467fd8ed544bbfd27b8f2e6886fe0b6d2dd04018e455d05770b6b04dc99e3799"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/parser-deps/olefile/README.rst",
+      "bytes": 10221,
+      "sha256": "8bfcff05b224d73602e39602b97f0ab12e24245862bf4c96253d387b4f98ebe0"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/parser-deps/olefile-0.47.dist-info/INSTALLER",
+      "bytes": 4,
+      "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/parser-deps/olefile-0.47.dist-info/LICENSE.txt",
+      "bytes": 2846,
+      "sha256": "cf1498d5b834b3758a89d06d224a1502c54a28b3a852f46130b761deaa4890d1"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/parser-deps/olefile-0.47.dist-info/METADATA",
+      "bytes": 9718,
+      "sha256": "7d6d2e95f3419469854777a6524b0537688cf52c59bf9824a00f82f832fc2164"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/parser-deps/olefile-0.47.dist-info/RECORD",
+      "bytes": 2544,
+      "sha256": "8c7566eb863697d8d097a695f335d0545a6d927bb4c37fb710b7ffacad49f1f8"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/parser-deps/olefile-0.47.dist-info/REQUESTED",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/parser-deps/olefile-0.47.dist-info/top_level.txt",
+      "bytes": 8,
+      "sha256": "bad496e3f9cfa7eaf2b510fb56f312fbc812a7d05498a6110cd7757b1f50da4b"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/parser-deps/olefile-0.47.dist-info/WHEEL",
+      "bytes": 116,
+      "sha256": "8313daa9ca8a3cb51769200ac267c73bbfe200e955be6a77dc37b09d496e041f"
+    },
+    {
+      "path": "downloads/sony-ptp-2008/parser-deps/OleFileIO_PL.py",
+      "bytes": 1350,
+      "sha256": "ce4c968e16bf24c3c0e2c41a260d7d350d5d0c9a868117824b919dc0bdb6116b"
     },
     {
       "path": "downloads/sony-ptp-2008/ppt-static-inspection.json",
@@ -920,24 +1070,19 @@
       "sha256": "d84b6d15fab0800695cffd2263e6bb4a6b70036d2028e8af3f56a0654fd47908"
     },
     {
-      "path": "downloads/w300-gpl/DSC-W300.html",
-      "bytes": 6291,
-      "sha256": "a417346ec97a45f2ffe350d99e357475315e078350dd84c946b3ea3211362d01"
-    },
-    {
       "path": "downloads/w300-gpl/acquisition.json",
       "bytes": 1706,
       "sha256": "c85d4fb9ed181cb3145551d0e5487d3d389c3e974d71c5a0a3cfb100f4c3d8d3"
     },
     {
+      "path": "downloads/w300-gpl/DSC-W300.html",
+      "bytes": 6291,
+      "sha256": "a417346ec97a45f2ffe350d99e357475315e078350dd84c946b3ea3211362d01"
+    },
+    {
       "path": "downloads/w300-gpl/extracted/linux/.config",
       "bytes": 14258,
       "sha256": "1658cd81518dd9665e7e27b9959b79cb3959dd27f15283a34f8fc14bbce60404"
-    },
-    {
-      "path": "downloads/w300-gpl/extracted/linux/Makefile",
-      "bytes": 44159,
-      "sha256": "915d60e145567a9ce88aaf96dae58b6e64259cd8d62bd624038fbd90bb48e171"
     },
     {
       "path": "downloads/w300-gpl/extracted/linux/arch/arm/configs/cxd4108_16550_sys_defconfig",
@@ -980,21 +1125,6 @@
       "sha256": "60f4142198b13733bfb4c1d3eb2b64b5d5b879089841f72a96a45e2ef4165696"
     },
     {
-      "path": "downloads/w300-gpl/extracted/linux/arch/arm/mach-cxd4105/Kconfig",
-      "bytes": 3282,
-      "sha256": "a2ff15c724ef03c6fca10e612b766762ed86d047f606705774b78ec7566e01f3"
-    },
-    {
-      "path": "downloads/w300-gpl/extracted/linux/arch/arm/mach-cxd4105/Makefile",
-      "bytes": 553,
-      "sha256": "c46695b5324f54332245385b7f802126c379c7a5274ab856dd1f1eba6b8120d8"
-    },
-    {
-      "path": "downloads/w300-gpl/extracted/linux/arch/arm/mach-cxd4105/Makefile.boot",
-      "bytes": 103,
-      "sha256": "5cd99087301baeb2188c8886a5c6ceeb8e5a510b2ca912f924ce258339b78551"
-    },
-    {
       "path": "downloads/w300-gpl/extracted/linux/arch/arm/mach-cxd4105/arch.c",
       "bytes": 11342,
       "sha256": "5dc68a618a31900918c63691a8bf6cca9cb1a84679ddb5ef0eaa71c803f8d4e6"
@@ -1013,6 +1143,21 @@
       "path": "downloads/w300-gpl/extracted/linux/arch/arm/mach-cxd4105/irq.h",
       "bytes": 872,
       "sha256": "24cb7198ff65bb13eab4425e92b87e1c2e3624601c46bc505d74e00cb9d234b7"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/arch/arm/mach-cxd4105/Kconfig",
+      "bytes": 3282,
+      "sha256": "a2ff15c724ef03c6fca10e612b766762ed86d047f606705774b78ec7566e01f3"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/arch/arm/mach-cxd4105/Makefile",
+      "bytes": 553,
+      "sha256": "c46695b5324f54332245385b7f802126c379c7a5274ab856dd1f1eba6b8120d8"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/arch/arm/mach-cxd4105/Makefile.boot",
+      "bytes": 103,
+      "sha256": "5cd99087301baeb2188c8886a5c6ceeb8e5a510b2ca912f924ce258339b78551"
     },
     {
       "path": "downloads/w300-gpl/extracted/linux/arch/arm/mach-cxd4105/mm.c",
@@ -1065,21 +1210,6 @@
       "sha256": "1067fe288584e7bb341925aa7068b5d85b752f44a5910b2d35d046a80d62c2b0"
     },
     {
-      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/Kconfig",
-      "bytes": 3572,
-      "sha256": "d78150c3f9d89d5d2f0ff62b94009aef6c81b3a07c0314a0b62f506344f17c0e"
-    },
-    {
-      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/Makefile",
-      "bytes": 2059,
-      "sha256": "b60c1c51f2b8676432a0f263e7ffd682c21ea714bb5023f123609ef282948562"
-    },
-    {
-      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/README",
-      "bytes": 2419,
-      "sha256": "0ca959eb672eb02b8e74dccb6770ee8a637a7dc004aff3c8f8ce264861a9ec86"
-    },
-    {
       "path": "downloads/w300-gpl/extracted/linux/drivers/usb/atm/Kconfig",
       "bytes": 876,
       "sha256": "eba047230ab845e5c769683a0d143fe4c7ea088fddcac0308aad0349d60f26cd"
@@ -1103,16 +1233,6 @@
       "path": "downloads/w300-gpl/extracted/linux/drivers/usb/atm/usb_atm.h",
       "bytes": 4736,
       "sha256": "855a969b120385693ed66a0b78de1cd7c30802deac35c01ba06bc49b478b8f1a"
-    },
-    {
-      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/class/Kconfig",
-      "bytes": 2585,
-      "sha256": "e5d9faace603b220198e9d2077de2c01cab02c85b82bb8a459b5f19b0ff24693"
-    },
-    {
-      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/class/Makefile",
-      "bytes": 269,
-      "sha256": "21119f82f1a73fd6ff19bc72c88b64b59b3eacc11f8864aee10b9ba3071a6973"
     },
     {
       "path": "downloads/w300-gpl/extracted/linux/drivers/usb/class/audio.c",
@@ -1140,6 +1260,16 @@
       "sha256": "73633152c32219b26e722466b90d8254bf5bef659d003ee0d66964325af20ea6"
     },
     {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/class/Kconfig",
+      "bytes": 2585,
+      "sha256": "e5d9faace603b220198e9d2077de2c01cab02c85b82bb8a459b5f19b0ff24693"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/class/Makefile",
+      "bytes": 269,
+      "sha256": "21119f82f1a73fd6ff19bc72c88b64b59b3eacc11f8864aee10b9ba3071a6973"
+    },
+    {
       "path": "downloads/w300-gpl/extracted/linux/drivers/usb/class/usb-midi.c",
       "bytes": 54434,
       "sha256": "a174c9408a6fe53c5d3b2f64de47af518c11c80d7bdb4aa91e5f5fb153a60ae7"
@@ -1153,16 +1283,6 @@
       "path": "downloads/w300-gpl/extracted/linux/drivers/usb/class/usblp.c",
       "bytes": 34219,
       "sha256": "c91f95750c17a9c70f2ec0849ce91be297a4b5f9c25fb3ebf5124d5bc0a60aef"
-    },
-    {
-      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/core/Kconfig",
-      "bytes": 3380,
-      "sha256": "f3f8fafeeddba0d7d83f6b7a8848f60d4b7135754d1e16a728f187b0339bd412"
-    },
-    {
-      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/core/Makefile",
-      "bytes": 309,
-      "sha256": "8a4f57d2f1bfd9694d493d5b15b00886e00a91b741bccdcf004f4260bfcb18bd"
     },
     {
       "path": "downloads/w300-gpl/extracted/linux/drivers/usb/core/buffer.c",
@@ -1220,6 +1340,16 @@
       "sha256": "9e82b48d141c25f6bda0d8f9ad90562c650307f3dfddc8749d75ca091325bdf7"
     },
     {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/core/Kconfig",
+      "bytes": 3380,
+      "sha256": "f3f8fafeeddba0d7d83f6b7a8848f60d4b7135754d1e16a728f187b0339bd412"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/core/Makefile",
+      "bytes": 309,
+      "sha256": "8a4f57d2f1bfd9694d493d5b15b00886e00a91b741bccdcf004f4260bfcb18bd"
+    },
+    {
       "path": "downloads/w300-gpl/extracted/linux/drivers/usb/core/message.c",
       "bytes": 44788,
       "sha256": "67f4f975d97aa5c9b10cdb158809feb69f32696afc0b7791c28b1d015a94c54c"
@@ -1248,16 +1378,6 @@
       "path": "downloads/w300-gpl/extracted/linux/drivers/usb/core/usb.h",
       "bytes": 1766,
       "sha256": "1ef9be892b42617344298ec91eb2af2dc139734b2ed782aba2cebb2022917c87"
-    },
-    {
-      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/gadget/Kconfig",
-      "bytes": 14479,
-      "sha256": "17a7a8647aaada456f8d3e244ac343efc0a9188d9d5f1084581da9deee8ddc00"
-    },
-    {
-      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/gadget/Makefile",
-      "bytes": 869,
-      "sha256": "903e0856315ab0a93e44f0523461e4d85696d839ba813dd8d2feaa169355763c"
     },
     {
       "path": "downloads/w300-gpl/extracted/linux/drivers/usb/gadget/config.c",
@@ -1305,6 +1425,11 @@
       "sha256": "11c994d9c1f9db74dcae194894089ea5895afa0e1ffaee67947b5fc4c4502853"
     },
     {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/gadget/Kconfig",
+      "bytes": 14479,
+      "sha256": "17a7a8647aaada456f8d3e244ac343efc0a9188d9d5f1084581da9deee8ddc00"
+    },
+    {
       "path": "downloads/w300-gpl/extracted/linux/drivers/usb/gadget/lh7a40x_udc.c",
       "bytes": 51497,
       "sha256": "a5d241a0209e467dc54862a817840be732d6aff1752f2695ac3d53a8d5349820"
@@ -1313,6 +1438,11 @@
       "path": "downloads/w300-gpl/extracted/linux/drivers/usb/gadget/lh7a40x_udc.h",
       "bytes": 6946,
       "sha256": "6509b7c769013ced5b1d8e1ba7d6ff0ca22dbe6b89dc117d88dc0efe8cceb81d"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/gadget/Makefile",
+      "bytes": 869,
+      "sha256": "903e0856315ab0a93e44f0523461e4d85696d839ba813dd8d2feaa169355763c"
     },
     {
       "path": "downloads/w300-gpl/extracted/linux/drivers/usb/gadget/ndis.h",
@@ -1450,16 +1580,6 @@
       "sha256": "ce1e7dde85a28e98ea78c4ebf74a2cd7decb7a0b053c789a5db6e0640d6588ec"
     },
     {
-      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/host/Kconfig",
-      "bytes": 4434,
-      "sha256": "268eb5c3a6843deee4ed077f71578a00bc0fcbb0ef96b9626c621ed847f150fa"
-    },
-    {
-      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/host/Makefile",
-      "bytes": 282,
-      "sha256": "7f80572be7c76396b91e619d97d90945e6d2a2bfdf236cace1e81f6e02ade96b"
-    },
-    {
       "path": "downloads/w300-gpl/extracted/linux/drivers/usb/host/ehci-dbg.c",
       "bytes": 20815,
       "sha256": "ac8b5135ce93ad4cb63050b9e8b8109442f946eee19bbeda98cdc0c0860f35d0"
@@ -1503,6 +1623,16 @@
       "path": "downloads/w300-gpl/extracted/linux/drivers/usb/host/hc_crisv10.h",
       "bytes": 8598,
       "sha256": "2aa074efb340048d26130e1f312169db8d9ec732fdd35d16f3e28ba692f88a6d"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/host/Kconfig",
+      "bytes": 4434,
+      "sha256": "268eb5c3a6843deee4ed077f71578a00bc0fcbb0ef96b9626c621ed847f150fa"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/host/Makefile",
+      "bytes": 282,
+      "sha256": "7f80572be7c76396b91e619d97d90945e6d2a2bfdf236cace1e81f6e02ade96b"
     },
     {
       "path": "downloads/w300-gpl/extracted/linux/drivers/usb/host/ohci-au1xxx.c",
@@ -1600,16 +1730,6 @@
       "sha256": "8280d914f2e4f299e2450c5c272a07789a35e885dcc6098cd455dc901ff0b85b"
     },
     {
-      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/image/Kconfig",
-      "bytes": 1465,
-      "sha256": "5b72a155af729a1ecb6c9919902382250ba323b03c2ecbd6a6c567b68b2d5275"
-    },
-    {
-      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/image/Makefile",
-      "bytes": 159,
-      "sha256": "42f871d6813a6ecef376c023915afe5bca04899f067be71897f2ae725cf79d5a"
-    },
-    {
       "path": "downloads/w300-gpl/extracted/linux/drivers/usb/image/hpusbscsi.c",
       "bytes": 13539,
       "sha256": "5b40c5b7776546aeae20ee4a69bd605fdaa52c2843eca6dee8d60a0051d0e223"
@@ -1618,6 +1738,16 @@
       "path": "downloads/w300-gpl/extracted/linux/drivers/usb/image/hpusbscsi.h",
       "bytes": 2458,
       "sha256": "9c3f01ec01c03ca28a1353cc05f897a3ff1415494caf4711f86c36e03a093cd5"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/image/Kconfig",
+      "bytes": 1465,
+      "sha256": "5b72a155af729a1ecb6c9919902382250ba323b03c2ecbd6a6c567b68b2d5275"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/image/Makefile",
+      "bytes": 159,
+      "sha256": "42f871d6813a6ecef376c023915afe5bca04899f067be71897f2ae725cf79d5a"
     },
     {
       "path": "downloads/w300-gpl/extracted/linux/drivers/usb/image/mdc800.c",
@@ -1633,16 +1763,6 @@
       "path": "downloads/w300-gpl/extracted/linux/drivers/usb/image/microtek.h",
       "bytes": 1019,
       "sha256": "455fc8b270cf9991617b8c20ea8a2405879a59afba7c3f0cc0e593bc967f1fc1"
-    },
-    {
-      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/input/Kconfig",
-      "bytes": 7860,
-      "sha256": "dd9a7d25da26032af3430c68cd4e46c15d3d20e97ba83ff1d4b647a30b7773e7"
-    },
-    {
-      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/input/Makefile",
-      "bytes": 924,
-      "sha256": "9968d8ae2c6a7fcbfe14b3bcb256cd3cbe14d99a47765baacdc04d5063fd54f3"
     },
     {
       "path": "downloads/w300-gpl/extracted/linux/drivers/usb/input/aiptek.c",
@@ -1705,6 +1825,16 @@
       "sha256": "fb5d4cc09b45d5153482fa4f79d655216adce63d5b1d533559b7eef0a0d985a8"
     },
     {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/input/Kconfig",
+      "bytes": 7860,
+      "sha256": "dd9a7d25da26032af3430c68cd4e46c15d3d20e97ba83ff1d4b647a30b7773e7"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/input/Makefile",
+      "bytes": 924,
+      "sha256": "9968d8ae2c6a7fcbfe14b3bcb256cd3cbe14d99a47765baacdc04d5063fd54f3"
+    },
+    {
       "path": "downloads/w300-gpl/extracted/linux/drivers/usb/input/mtouchusb.c",
       "bytes": 12370,
       "sha256": "f47261e77067a02828774f6ee36381d359f0d81a97388725a64f9868ddb6b290"
@@ -1748,6 +1878,16 @@
       "path": "downloads/w300-gpl/extracted/linux/drivers/usb/input/xpad.c",
       "bytes": 9961,
       "sha256": "ef347a074e241429c44929c2dcc6df0787466c6dadfe6fab8653558f42fec29c"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/Kconfig",
+      "bytes": 3572,
+      "sha256": "d78150c3f9d89d5d2f0ff62b94009aef6c81b3a07c0314a0b62f506344f17c0e"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/Makefile",
+      "bytes": 2059,
+      "sha256": "b60c1c51f2b8676432a0f263e7ffd682c21ea714bb5023f123609ef282948562"
     },
     {
       "path": "downloads/w300-gpl/extracted/linux/drivers/usb/mcd/Kconfig",
@@ -1875,16 +2015,6 @@
       "sha256": "26b7ece726177b3ffd23aa473de457acc4a442b6b9bcddc764db31c9cf397c48"
     },
     {
-      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/media/Kconfig",
-      "bytes": 6715,
-      "sha256": "51fcdbb1375719ee43f47f0180132a9a9d723e34be19f5a2e271793b459dc39b"
-    },
-    {
-      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/media/Makefile",
-      "bytes": 604,
-      "sha256": "63d1b4162b4eabc56d1c33ea1080c11ab6b6b306de3b27b6c833b69605cfea3a"
-    },
-    {
       "path": "downloads/w300-gpl/extracted/linux/drivers/usb/media/dabfirmware.h",
       "bytes": 101773,
       "sha256": "6e9e89d66f4abf73675fd02e8309142fa0594ef02afecf1761ba0769c07a3c6c"
@@ -1910,9 +2040,19 @@
       "sha256": "aa362738806a978bf52e69d571d04bcf9473188d043ae0d905cd266191063045"
     },
     {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/media/Kconfig",
+      "bytes": 6715,
+      "sha256": "51fcdbb1375719ee43f47f0180132a9a9d723e34be19f5a2e271793b459dc39b"
+    },
+    {
       "path": "downloads/w300-gpl/extracted/linux/drivers/usb/media/konicawc.c",
       "bytes": 26324,
       "sha256": "14d92f13bb65f9d50ffa00ec9312c499e2ac8f59c41a4c33d97eb4a611143517"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/media/Makefile",
+      "bytes": 604,
+      "sha256": "63d1b4162b4eabc56d1c33ea1080c11ab6b6b306de3b27b6c833b69605cfea3a"
     },
     {
       "path": "downloads/w300-gpl/extracted/linux/drivers/usb/media/ov511.c",
@@ -2030,16 +2170,6 @@
       "sha256": "399631e0b9205f221492a467ade9e944ef62628f4ac97041dc6c032262139395"
     },
     {
-      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/misc/Kconfig",
-      "bytes": 4845,
-      "sha256": "516a1c60c1f7d6e60f585211490d8c9b3f698be9c66e5bbd4834e956d3331019"
-    },
-    {
-      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/misc/Makefile",
-      "bytes": 616,
-      "sha256": "8422d8f2284036068197c3418a15b21f3188f72a420620867d2a7db862fbce0e"
-    },
-    {
       "path": "downloads/w300-gpl/extracted/linux/drivers/usb/misc/auerswald.c",
       "bytes": 70280,
       "sha256": "bc4b357ed43e35db060c34837250ffc693f97d157ce76c35db716dfe20f18319"
@@ -2080,9 +2210,19 @@
       "sha256": "803fe68b96c5e8515621bdad7f310a8720a56d5eede69378d897c876c5e171be"
     },
     {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/misc/Kconfig",
+      "bytes": 4845,
+      "sha256": "516a1c60c1f7d6e60f585211490d8c9b3f698be9c66e5bbd4834e956d3331019"
+    },
+    {
       "path": "downloads/w300-gpl/extracted/linux/drivers/usb/misc/legousbtower.c",
       "bytes": 30176,
       "sha256": "8837109605b9ed782b4311c8ab1e1eeaf8683f3ebf7dc1bb27699db6409c7d5d"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/misc/Makefile",
+      "bytes": 616,
+      "sha256": "8422d8f2284036068197c3418a15b21f3188f72a420620867d2a7db862fbce0e"
     },
     {
       "path": "downloads/w300-gpl/extracted/linux/drivers/usb/misc/phidgetkit.c",
@@ -2125,16 +2265,6 @@
       "sha256": "86480e0d1680db5acdfb120824966236c1495c71db76ad7eab4c417076f89882"
     },
     {
-      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/net/Kconfig",
-      "bytes": 9637,
-      "sha256": "60d2a88386159e6e2420858effd83d90ae3224dd831997366a33ed2061f181ba"
-    },
-    {
-      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/net/Makefile",
-      "bytes": 226,
-      "sha256": "50b241f1150944f4eef028d883aebaa910b8b2d53ac4d5c59b338ef84945e9dc"
-    },
-    {
       "path": "downloads/w300-gpl/extracted/linux/drivers/usb/net/catc.c",
       "bytes": 23992,
       "sha256": "4dc76aa2005fb108204e82ffb91b6cf58ef3775b243bae1f6869a84faed07718"
@@ -2148,6 +2278,16 @@
       "path": "downloads/w300-gpl/extracted/linux/drivers/usb/net/kawethfw.h",
       "bytes": 28023,
       "sha256": "37c5db29ca4e786a626508a05a74fb837ba35e0f67e4dff7bf35e31905566dff"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/net/Kconfig",
+      "bytes": 9637,
+      "sha256": "60d2a88386159e6e2420858effd83d90ae3224dd831997366a33ed2061f181ba"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/net/Makefile",
+      "bytes": 226,
+      "sha256": "50b241f1150944f4eef028d883aebaa910b8b2d53ac4d5c59b338ef84945e9dc"
     },
     {
       "path": "downloads/w300-gpl/extracted/linux/drivers/usb/net/pegasus.c",
@@ -2170,19 +2310,9 @@
       "sha256": "704cae54dc4b5e1e3cdbd43ff84b6f273ad96e64c808a46c1ed5f3ca223a85a9"
     },
     {
-      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/Kconfig",
-      "bytes": 14711,
-      "sha256": "db3c6874d624b1c6b4f2bf40c9b1649fd07cec67e8ea6a16c652d0c22788e416"
-    },
-    {
-      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/Makefile",
-      "bytes": 1460,
-      "sha256": "43aa9ceb54006177244cc35a76a1b081c713ad53476a4c098ba554cc67a9a374"
-    },
-    {
-      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/Makefile-keyspan_pda_fw",
-      "bytes": 353,
-      "sha256": "4ab1fb81d37bb5e76b13533f45743a741196751d3fc12bc27075c61481a35998"
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/README",
+      "bytes": 2419,
+      "sha256": "0ca959eb672eb02b8e74dccb6770ee8a637a7dc004aff3c8f8ce264861a9ec86"
     },
     {
       "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/belkin_sa.c",
@@ -2345,6 +2475,11 @@
       "sha256": "3fbebae350bb73b7dd6130ad8382b6f9a12e4b96888f265f2534a43dcab3785d"
     },
     {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/Kconfig",
+      "bytes": 14711,
+      "sha256": "db3c6874d624b1c6b4f2bf40c9b1649fd07cec67e8ea6a16c652d0c22788e416"
+    },
+    {
       "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/keyspan.c",
       "bytes": 63614,
       "sha256": "75fec81995f4ad12bff143e47ae4d6c0fddb2d52b4454f4f4008ec6164357356"
@@ -2360,14 +2495,14 @@
       "sha256": "43c0c1f104224c78b18d1e620a644cba5fd7a2a0bde60954eaee34a2d7be3da6"
     },
     {
-      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/keyspan_pda.S",
-      "bytes": 28550,
-      "sha256": "6df46ca1f1eeb2598fa0fd0dd1a0639c5fe172b039cf58ccdb302f613c01207f"
-    },
-    {
       "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/keyspan_pda.c",
       "bytes": 25184,
       "sha256": "23d5ccb7f91c4111aac6047e322fd89a7f8046ec95a35c417f480884a282161f"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/keyspan_pda.S",
+      "bytes": 28550,
+      "sha256": "6df46ca1f1eeb2598fa0fd0dd1a0639c5fe172b039cf58ccdb302f613c01207f"
     },
     {
       "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/keyspan_pda_fw.h",
@@ -2470,6 +2605,16 @@
       "sha256": "73e10aee5d073d04814f171ba2f7706464eae184737b153cfe886cd8d7a2ef98"
     },
     {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/Makefile",
+      "bytes": 1460,
+      "sha256": "43aa9ceb54006177244cc35a76a1b081c713ad53476a4c098ba554cc67a9a374"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/Makefile-keyspan_pda_fw",
+      "bytes": 353,
+      "sha256": "4ab1fb81d37bb5e76b13533f45743a741196751d3fc12bc27075c61481a35998"
+    },
+    {
       "path": "downloads/w300-gpl/extracted/linux/drivers/usb/serial/mct_u232.c",
       "bytes": 23749,
       "sha256": "d7f16b1a942c725caa9a8693aa99a5b935725da72d3d97c7df4376ec68ae1876"
@@ -2565,16 +2710,6 @@
       "sha256": "b2e3f031f42349cc40d46b1724f8c5fdd86fdcb89e482da17ce44614ce752219"
     },
     {
-      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/storage/Kconfig",
-      "bytes": 4344,
-      "sha256": "0a6fb08f063f784cd6e50be3f33a95f10305ac9c4c4f5142b43400141dc636af"
-    },
-    {
-      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/storage/Makefile",
-      "bytes": 864,
-      "sha256": "57b90b7f9b96d01cab33f06f8559495e9d55ae6a5d2512882628582f9e1af0b5"
-    },
-    {
       "path": "downloads/w300-gpl/extracted/linux/drivers/usb/storage/datafab.c",
       "bytes": 18257,
       "sha256": "627347419afe1355648c65e09490ba093afc87b39f9e102863eb08f30b267f84"
@@ -2643,6 +2778,16 @@
       "path": "downloads/w300-gpl/extracted/linux/drivers/usb/storage/jumpshot.h",
       "bytes": 1368,
       "sha256": "abe6e39e2e5e18654efa4b60ecdaa4d48d4a9488bff11b265d49bbbf0430756b"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/storage/Kconfig",
+      "bytes": 4344,
+      "sha256": "0a6fb08f063f784cd6e50be3f33a95f10305ac9c4c4f5142b43400141dc636af"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/drivers/usb/storage/Makefile",
+      "bytes": 864,
+      "sha256": "57b90b7f9b96d01cab33f06f8559495e9d55ae6a5d2512882628582f9e1af0b5"
     },
     {
       "path": "downloads/w300-gpl/extracted/linux/drivers/usb/storage/protocol.c",
@@ -2748,6 +2893,11 @@
       "path": "downloads/w300-gpl/extracted/linux/include/linux/usb/mcd/usb_otg_control.h",
       "bytes": 14363,
       "sha256": "51de0c378d597d3851c369e8b0a6dc78bec305bc2ae564c8cfd8e23e6e38cd0d"
+    },
+    {
+      "path": "downloads/w300-gpl/extracted/linux/Makefile",
+      "bytes": 44159,
+      "sha256": "915d60e145567a9ce88aaf96dae58b6e64259cd8d62bd624038fbd90bb48e171"
     },
     {
       "path": "downloads/w300-gpl/kernel-file-list.txt",
@@ -2920,11 +3070,6 @@
       "sha256": "bbc8141dcb22da1e95ea613675cb63ee1896cab0d7274b7a4b502bd93afc39cd"
     },
     {
-      "path": "downloads/w300-resumption-20260917/acquisition.json",
-      "bytes": 151,
-      "sha256": "7e2f7cf7ad3054885be015b6f60e4adb17ce6758abe8224cc7b5e9f667c65b22"
-    },
-    {
       "path": "downloads/w300-watermark-archive/acquisition.json",
       "bytes": 813,
       "sha256": "21dc7d8ac41a3018420bc4ca74b734b0aedfd7b69613802b4e250ab84ed05573"
@@ -3015,11 +3160,6 @@
       "sha256": "4dea533a1c2fb422587da22de435b3d268a5711c327037f1ca7fc365e6c32b52"
     },
     {
-      "path": "manifests/package_manifest.pre-editorial-r4.json",
-      "bytes": 175607,
-      "sha256": "739766013898dec1c98e3983f2c1ddd396cd69baca9eb3a1079c2593b4e0f3a8"
-    },
-    {
       "path": "manifests/recovery-evidence.pre-editorial-r3.json",
       "bytes": 27362,
       "sha256": "ec275002181a672e076f5491fc2ab69de6de897f012daee180c5204b2c884016"
@@ -3046,13 +3186,8 @@
     },
     {
       "path": "release_manifest.py",
-      "bytes": 5849,
-      "sha256": "b4e3aa3ed48013e79dc037965cba79c5be8f91069ef63cae5b5546c36a7b5220"
-    },
-    {
-      "path": "reports/RELEASE_NOTES_R3.md",
-      "bytes": 2049,
-      "sha256": "2fb36202dcc92793e77687773400f62bee8d2024443e1044558d5c63e4b6c205"
+      "bytes": 2126,
+      "sha256": "6b1401acf6fda765939daee0b216a0e4bd04e58d8b3de46348df469f31e2c904"
     },
     {
       "path": "reports/adjustment-collections-index.json",
@@ -3066,18 +3201,13 @@
     },
     {
       "path": "reports/adjustment-collections.md",
-      "bytes": 5195,
-      "sha256": "6b037f9da92da5e3c24cfc3c631e0ab7049da90931ccb61e669c3a95e16d5c3c"
+      "bytes": 5016,
+      "sha256": "e408a8cac2d53c629c5c4d8a9740394feedbe9595e737934dc90e93183259f60"
     },
     {
       "path": "reports/auto-adj-acquisition.md",
-      "bytes": 8719,
-      "sha256": "e6432cccc3a3444c3278c1b41ddce8a6fce8bfd3c4b52f671421116c03327e21"
-    },
-    {
-      "path": "reports/av-page-init/README.md",
-      "bytes": 8597,
-      "sha256": "a4b7ef73a37adad91a09d0ab5c129a1987782fee0050dd41e3c16380d4e3781e"
+      "bytes": 8489,
+      "sha256": "bf04d0ed3c3de1531606c7e14a79685cb7e7ce2dc8e2d3308adcf69082a27ab9"
     },
     {
       "path": "reports/av-page-init/evidence.json",
@@ -3090,14 +3220,14 @@
       "sha256": "1a87b91f8c71ca02371f40ca84befbae876f88fbdb65156c6364c86f6dce18cd"
     },
     {
-      "path": "reports/av-page-init/linux-persistence/FINDINGS.md",
-      "bytes": 7402,
-      "sha256": "29f8dff8d285cd56fe1bb28ac1a155ea29f0a0bab12ad333da7194453b5f558f"
-    },
-    {
       "path": "reports/av-page-init/linux-persistence/decode.py",
       "bytes": 8148,
       "sha256": "a951360494178a4983eafe9aed63913ae4aa0ccb56f646f83a5fa9dff055b766"
+    },
+    {
+      "path": "reports/av-page-init/linux-persistence/FINDINGS.md",
+      "bytes": 7109,
+      "sha256": "95707872ca484785e0399316a09873910861769f3869275e801681b260535810"
     },
     {
       "path": "reports/av-page-init/linux-persistence/linux-backup-tables.txt",
@@ -3120,14 +3250,9 @@
       "sha256": "40947131124e3ebc7ca953c51551d428f29e4298f77126e842a7d43644b1c1a4"
     },
     {
-      "path": "reports/av-receiver-reproduction.json",
-      "bytes": 1392,
-      "sha256": "25b53ec6ffe55748fbc9b9d923857445f867c548689d4c36343b21c72e51a98c"
-    },
-    {
-      "path": "reports/av-receiver/README.md",
-      "bytes": 11930,
-      "sha256": "3f91995b4890aa9be2a41b45b337631a95f0f2fcfe3cf5f1581b32e11768f66b"
+      "path": "reports/av-page-init/README.md",
+      "bytes": 8597,
+      "sha256": "a4b7ef73a37adad91a09d0ab5c129a1987782fee0050dd41e3c16380d4e3781e"
     },
     {
       "path": "reports/av-receiver/decode_receiver.py",
@@ -3160,6 +3285,11 @@
       "sha256": "b250af4d129ac71e594e2b9ccf7f277c1a538e324e4b5e973f6908f4ef5018ab"
     },
     {
+      "path": "reports/av-receiver/README.md",
+      "bytes": 11930,
+      "sha256": "3f91995b4890aa9be2a41b45b337631a95f0f2fcfe3cf5f1581b32e11768f66b"
+    },
+    {
       "path": "reports/av-receiver/receiver-evidence.json",
       "bytes": 4212,
       "sha256": "92b189da7192160074d037325fec085d38281308ea3cd5a4502f750d05357122"
@@ -3175,6 +3305,11 @@
       "sha256": "11523cf98160e451cbd5b5035bde803d432d1517ad18f4b2ecc4543cf2369b1c"
     },
     {
+      "path": "reports/av-receiver-reproduction.json",
+      "bytes": 1392,
+      "sha256": "25b53ec6ffe55748fbc9b9d923857445f867c548689d4c36343b21c72e51a98c"
+    },
+    {
       "path": "reports/baseline-audit.json",
       "bytes": 1442,
       "sha256": "4937aae8a71db3fb85bd0023598997e6d1241aa576b72bf65570e9834e53f8ae"
@@ -3183,26 +3318,6 @@
       "path": "reports/capstone-install.json",
       "bytes": 4857,
       "sha256": "3105ba0536a3ac4131c70480858cb75f9c4590f64ca01579ac9d9d44b9a3fbf4"
-    },
-    {
-      "path": "reports/comparative-language-acquisition/README.md",
-      "bytes": 3117,
-      "sha256": "b9452c99c531815760673bd60bbb73d96fb79ee71d9b668b8fa56bc92997efb6"
-    },
-    {
-      "path": "reports/comparative-language-acquisition/g3-targets.json",
-      "bytes": 75746,
-      "sha256": "55594ec272c4648ca62212054fb15ea530d86603d2d73f698b550c6aa8a09b07"
-    },
-    {
-      "path": "reports/comparative-language-acquisition/manifest.json",
-      "bytes": 1786,
-      "sha256": "9ce4778b58b7861c1eb161322af2dac6b91707076b372b65a3264f3d5d6c5a31"
-    },
-    {
-      "path": "reports/comparative-language-acquisition/verify_g3_targets.py",
-      "bytes": 2876,
-      "sha256": "51d2f57e57b8f0370b0880e0122275741a616909a63dd2e579eb42c13948510f"
     },
     {
       "path": "reports/completion-audit-handoff.md",
@@ -3260,11 +3375,6 @@
       "sha256": "cd80e71cbe09818801f4f2f3e0b45a16b278069fa8700fef56f11bc90f17d376"
     },
     {
-      "path": "reports/fallback11/README.md",
-      "bytes": 5741,
-      "sha256": "be75587f22abb266e99fd9624409e0f66f15771a086dc6b14321c7612351307a"
-    },
-    {
       "path": "reports/fallback11/fallback11-evidence.json",
       "bytes": 1215,
       "sha256": "1d4628eb6f9a41db4439e85c61f1c03add7278e9503d333b4ce5479a2b5e6466"
@@ -3280,14 +3390,14 @@
       "sha256": "9b5d002ae1f02c3c89d443146a58fb03124a329bfd2e1b4eba51eb75e9f51498"
     },
     {
+      "path": "reports/fallback11/README.md",
+      "bytes": 5392,
+      "sha256": "b805e7d39f6e9305bd8821d126171a7809c794dc59a3a699c5198802cd42a3fa"
+    },
+    {
       "path": "reports/final-audit.json",
       "bytes": 1442,
       "sha256": "4937aae8a71db3fb85bd0023598997e6d1241aa576b72bf65570e9834e53f8ae"
-    },
-    {
-      "path": "reports/g3-bank-map/README.md",
-      "bytes": 7125,
-      "sha256": "c46f36f4fcb3d612981a9c26271601a847aa83778371d07920284f5b389c7752"
     },
     {
       "path": "reports/g3-bank-map/bank-map.asm.txt",
@@ -3305,9 +3415,9 @@
       "sha256": "7e60a3ae90f0eb159f3b71427950bc32c4ec5df72689e0dcf2acba49c447059c"
     },
     {
-      "path": "reports/g3-config-read/README.md",
-      "bytes": 6210,
-      "sha256": "304c463c990fc771a6206597c8921c30f11ad3cc2b97f71be3975e3a40f4f32a"
+      "path": "reports/g3-bank-map/README.md",
+      "bytes": 7125,
+      "sha256": "c46f36f4fcb3d612981a9c26271601a847aa83778371d07920284f5b389c7752"
     },
     {
       "path": "reports/g3-config-read/app-read.asm.txt",
@@ -3380,6 +3490,11 @@
       "sha256": "2e3f3bcde34eb8919473b3d5d203625718f0cbebadfdb86fa3378f18024b2b81"
     },
     {
+      "path": "reports/g3-config-read/README.md",
+      "bytes": 6210,
+      "sha256": "304c463c990fc771a6206597c8921c30f11ad3cc2b97f71be3975e3a40f4f32a"
+    },
+    {
       "path": "reports/g3-config-read/reproduce.py",
       "bytes": 2218,
       "sha256": "dbb7672e6c5aa3bda8d9936f310063c8091482834f9cfabc8bcfaf4eb0b4a503"
@@ -3408,11 +3523,6 @@
       "path": "reports/g3-config-read/verification.json",
       "bytes": 2156,
       "sha256": "39af4dc33908abab3eaea2e876e0f49b9974841a6dd49d814b2ef114a86ffec1"
-    },
-    {
-      "path": "reports/g3-entry-events/README.md",
-      "bytes": 7151,
-      "sha256": "aefa6ed432f3f17ab8f4cd13e0635a72ab1c6fbfae12fd5c9ea34c4048554933"
     },
     {
       "path": "reports/g3-entry-events/create.asm.txt",
@@ -3475,6 +3585,11 @@
       "sha256": "6e98a4e287fc224cdbc74f45088118b6e0a1ea7efcb8ad3b081ab3a24380be95"
     },
     {
+      "path": "reports/g3-entry-events/README.md",
+      "bytes": 7151,
+      "sha256": "aefa6ed432f3f17ab8f4cd13e0635a72ab1c6fbfae12fd5c9ea34c4048554933"
+    },
+    {
       "path": "reports/g3-entry-events/register.asm.txt",
       "bytes": 5743,
       "sha256": "8d1168017e38d8a81b1b37d4f5e1831dfadbec8145a0db597621ec14b4bf6084"
@@ -3483,31 +3598,6 @@
       "path": "reports/g3-entry-events/reproduce_events.py",
       "bytes": 5965,
       "sha256": "03fba7fe0cf085a211e70265098ae13c963152fb3c5e8528c761c5887b7cab6e"
-    },
-    {
-      "path": "reports/g3-file-read/README.md",
-      "bytes": 7316,
-      "sha256": "3f6b3fb2afd9bb0db6b3f643e323aaf6621ba2ed67324d91aff695a4805eb872"
-    },
-    {
-      "path": "reports/g3-file-read/file-read.asm.txt",
-      "bytes": 53863,
-      "sha256": "8fe375744705194793a7f02612a2edfe0e39bd8146c35188a5da25b6e369e369"
-    },
-    {
-      "path": "reports/g3-file-read/verification.json",
-      "bytes": 1649,
-      "sha256": "c0ec018e74f1db7cdd577fe396a3f2e602730e479d033b951339b33ca53cc238"
-    },
-    {
-      "path": "reports/g3-file-read/verify_file_read.py",
-      "bytes": 4117,
-      "sha256": "57cb8f02772b3f2dd9f1a8a1051c7aa10106fcf695019b363faa06dabd6dc79d"
-    },
-    {
-      "path": "reports/g3-host-interface/README.md",
-      "bytes": 8551,
-      "sha256": "68c1eaf72337ad634963978b26a8bc91c648d0c4b4648767a787c5e15b8564be"
     },
     {
       "path": "reports/g3-host-interface/compare_pmca.py",
@@ -3540,14 +3630,9 @@
       "sha256": "d7cd926d7d6fddfce637f18e40d1397761e302c6d68ba63888385a3dcb0bd2aa"
     },
     {
-      "path": "reports/g3-module-recovery/INDEPENDENT_REVIEW.md",
-      "bytes": 4063,
-      "sha256": "d2affa78ec87b026ee760349ad87a6d6965bdf8b157bacb06195c32bc11f3539"
-    },
-    {
-      "path": "reports/g3-module-recovery/README.md",
-      "bytes": 4105,
-      "sha256": "c2f056c515e06c864b9ee4d3fbd9c6a9badad48fca3025dd023446703983f552"
+      "path": "reports/g3-host-interface/README.md",
+      "bytes": 8551,
+      "sha256": "68c1eaf72337ad634963978b26a8bc91c648d0c4b4648767a787c5e15b8564be"
     },
     {
       "path": "reports/g3-module-recovery/independent-review.json",
@@ -3555,9 +3640,19 @@
       "sha256": "cc48e082661f3f823dd2f15cc697b907898acc7ac49080bef28b5e7684bf3044"
     },
     {
+      "path": "reports/g3-module-recovery/INDEPENDENT_REVIEW.md",
+      "bytes": 4063,
+      "sha256": "d2affa78ec87b026ee760349ad87a6d6965bdf8b157bacb06195c32bc11f3539"
+    },
+    {
       "path": "reports/g3-module-recovery/independent_review.py",
       "bytes": 5927,
       "sha256": "ca22081377d6d454b2692217cc9677b8c45e684eeb3fc8ef03f11a58f35dcd34"
+    },
+    {
+      "path": "reports/g3-module-recovery/README.md",
+      "bytes": 4105,
+      "sha256": "c2f056c515e06c864b9ee4d3fbd9c6a9badad48fca3025dd023446703983f552"
     },
     {
       "path": "reports/g3-module-recovery/recover_module.py",
@@ -3573,26 +3668,6 @@
       "path": "reports/g3-module-recovery/unified_drv.complete.ko",
       "bytes": 303816,
       "sha256": "8d675f7071e49a75a174130ef8525767af07c157fe5f203018eb097e10aa1367"
-    },
-    {
-      "path": "reports/g3-normal-entry/PExtSenser.so-extra.asm.txt",
-      "bytes": 9339,
-      "sha256": "e3f538375a1aec65183ef2d170812e237a490380cb258e9353c38d6b4b2f4fc4"
-    },
-    {
-      "path": "reports/g3-normal-entry/PExtSenser.so.asm.txt",
-      "bytes": 34438,
-      "sha256": "e443781c74c87c70982e63a03762e0873caf620da4ab374f0a6e46683f0381e8"
-    },
-    {
-      "path": "reports/g3-normal-entry/README.md",
-      "bytes": 8498,
-      "sha256": "a5c10b5b80a91b303057641dc500c67a4c73a915c6726c641a0eb6ed726336c0"
-    },
-    {
-      "path": "reports/g3-normal-entry/USBGMsc.so.asm.txt",
-      "bytes": 3230,
-      "sha256": "16a35333dbebd085e64d5f65246bd85f8415e121d440316a09eaae2004228764"
     },
     {
       "path": "reports/g3-normal-entry/core-normal-auth.asm.txt",
@@ -3630,6 +3705,21 @@
       "sha256": "b18551aa07c7d69e29f8bf6ce6654d9ea424fa4fc114592a33056000868bb227"
     },
     {
+      "path": "reports/g3-normal-entry/PExtSenser.so-extra.asm.txt",
+      "bytes": 9339,
+      "sha256": "e3f538375a1aec65183ef2d170812e237a490380cb258e9353c38d6b4b2f4fc4"
+    },
+    {
+      "path": "reports/g3-normal-entry/PExtSenser.so.asm.txt",
+      "bytes": 34438,
+      "sha256": "e443781c74c87c70982e63a03762e0873caf620da4ab374f0a6e46683f0381e8"
+    },
+    {
+      "path": "reports/g3-normal-entry/README.md",
+      "bytes": 8498,
+      "sha256": "a5c10b5b80a91b303057641dc500c67a4c73a915c6726c641a0eb6ed726336c0"
+    },
+    {
       "path": "reports/g3-normal-entry/reproduce.py",
       "bytes": 400,
       "sha256": "b78267491986e7e9a8a0432cf3cb465efb99d7fd86be0e6627d83bc0ef82ac57"
@@ -3655,6 +3745,11 @@
       "sha256": "3266d277abd9da5614a3c4d0b8c8de50e7106703e48f1b960c861f084db3e4aa"
     },
     {
+      "path": "reports/g3-normal-entry/USBGMsc.so.asm.txt",
+      "bytes": 3230,
+      "sha256": "16a35333dbebd085e64d5f65246bd85f8415e121d440316a09eaae2004228764"
+    },
+    {
       "path": "reports/g3-normal-entry/verify_entry.py",
       "bytes": 8850,
       "sha256": "72177f9849962790bace1b64501368bad1519817d06c3b8dc3177c8f9d030768"
@@ -3673,11 +3768,6 @@
       "path": "reports/g3-normal-entry/xsb-inventory.json",
       "bytes": 154806,
       "sha256": "ab7d0cb8cefe22d4814036c8ca5bbe8b632af687842dc7cd0b5bedc48fa4697c"
-    },
-    {
-      "path": "reports/g3-usb-descriptor/README.md",
-      "bytes": 10507,
-      "sha256": "7625f14edcf63a371505cdb236d85e6b87d43164832a58b2bd0a62113bd1cd5b"
     },
     {
       "path": "reports/g3-usb-descriptor/descriptor-evidence.json",
@@ -3790,6 +3880,11 @@
       "sha256": "fb16068f98f3893dcc9f4841590e450566f6a06ae6004dea87bed7e052fe515f"
     },
     {
+      "path": "reports/g3-usb-descriptor/README.md",
+      "bytes": 10507,
+      "sha256": "7625f14edcf63a371505cdb236d85e6b87d43164832a58b2bd0a62113bd1cd5b"
+    },
+    {
       "path": "reports/g3-usb-descriptor/reproduce.py",
       "bytes": 1554,
       "sha256": "4994833c6f2f703c8b48d6e92aaa6c4d4d95af6b01ee40a19152559975605b46"
@@ -3805,24 +3900,19 @@
       "sha256": "7b45765fc546c9fb2075a40b42edd99d72eef2247682003098bfae174a5886a3"
     },
     {
-      "path": "reports/g3-w300-manual-crosscheck/README.md",
-      "bytes": 6092,
-      "sha256": "badcf42968e7223300616e8df1d4b829d073f34e431c8b2e53684fdfdac0aed6"
-    },
-    {
       "path": "reports/g3-w300-manual-crosscheck/local-artifacts.json",
       "bytes": 1514,
       "sha256": "77797ea903bd217b0c25a7996470179e4abdb4821f646e2c6f29da93788bc4c1"
     },
     {
+      "path": "reports/g3-w300-manual-crosscheck/README.md",
+      "bytes": 5765,
+      "sha256": "f557e6173a89d0963fa51d4b0f00b3d6cf3f9223783c3ccfda2639ffde76d0ed"
+    },
+    {
       "path": "reports/g3-w300-manual-crosscheck/search-receipts.json",
       "bytes": 1820,
       "sha256": "2f8093a5172886e59e21de63560e7be6d63453c4c0e5e77687c65dbe33e91389"
-    },
-    {
-      "path": "reports/g3-xs-entry/README.md",
-      "bytes": 4985,
-      "sha256": "8d5c230c280894fd580705849c7b647e42a2c2dd9519f97ec7849dcc64a22b2f"
     },
     {
       "path": "reports/g3-xs-entry/dsc.xsb.json",
@@ -3843,6 +3933,11 @@
       "path": "reports/g3-xs-entry/normal-start.asm.txt",
       "bytes": 7541,
       "sha256": "dc556ada067a27775f248180c757c2911e75e74d55f0e95ed63e508ffd02f275"
+    },
+    {
+      "path": "reports/g3-xs-entry/README.md",
+      "bytes": 4985,
+      "sha256": "8d5c230c280894fd580705849c7b647e42a2c2dd9519f97ec7849dcc64a22b2f"
     },
     {
       "path": "reports/g3-xs-entry/regionInfo.xsb.json",
@@ -3961,13 +4056,13 @@
     },
     {
       "path": "reports/libgphoto-w300-scope.md",
-      "bytes": 6138,
-      "sha256": "3e3c925fc48f0108cdb9122a9942bfe2ca1ec5cbc4390b2d24a9ac9f2a41ba3e"
+      "bytes": 5958,
+      "sha256": "380c105465e919bab5458511da39ac0c60a5392beb0e948981bbf437c9faccfb"
     },
     {
       "path": "reports/local-service-package-check.md",
-      "bytes": 2076,
-      "sha256": "0fdd141a3eafea3e488e1808ef8f968ad872249d178e0ae61c71c5431e8b4db1"
+      "bytes": 1788,
+      "sha256": "deee82073abb7457233b3ed2e9b66726e3a50769bede7d27788544b26c33e98a"
     },
     {
       "path": "reports/local-service-package-matches.json",
@@ -4130,14 +4225,19 @@
       "sha256": "568108b6c16188afd63243946c545f900ff67b5e9286ae842950f033d24cb830"
     },
     {
+      "path": "reports/RELEASE_NOTES_R3.md",
+      "bytes": 2049,
+      "sha256": "2fb36202dcc92793e77687773400f62bee8d2024443e1044558d5c63e4b6c205"
+    },
+    {
       "path": "reports/retained-dispatch-analysis.md",
       "bytes": 6337,
       "sha256": "71ab3971ad081040909bc0eee3d20a235fef8c1bbab102d6c366cfbcbf191b75"
     },
     {
       "path": "reports/retained-service-code-scope.md",
-      "bytes": 6077,
-      "sha256": "3cd69e1d919f80ae9ec1b15ce0aec7cab3bf6246fa26205b81761edd62f48dea"
+      "bytes": 5820,
+      "sha256": "3cb654d6333c54fee4840a94be7c3a876d4b92e97ce1d66aaf550a0d05926a55"
     },
     {
       "path": "reports/retained-service-dispatch.asm.txt",
@@ -4186,13 +4286,13 @@
     },
     {
       "path": "reports/service-board-audit.md",
-      "bytes": 11141,
-      "sha256": "b08e27fd754229677b1ee350b85c2ddbd28cf0fb07028dbb7f29c81b4a8c3c2b"
+      "bytes": 10672,
+      "sha256": "a7a80fda36d473770fe09b1c3aa3ba914f3862ed8d471a39a72b8c5d1e2bad04"
     },
     {
       "path": "reports/seusex-public-acquisition-20260916.md",
-      "bytes": 8381,
-      "sha256": "ec4e138868a42a5f95147205d092b7ad1e454ad5c40cfd38edb6cf80e69d4e4d"
+      "bytes": 8123,
+      "sha256": "0543814c2165477b194ea97b1843a11511accdd0226c5235150044cbdad3e29a"
     },
     {
       "path": "reports/sony-ptp-boundary-2008.md",
@@ -4221,8 +4321,8 @@
     },
     {
       "path": "reports/w300-firmware-followup.md",
-      "bytes": 8805,
-      "sha256": "e1acce54af04e90cb2409f807925dbd3d279d2b8530ea46866493270a5e6bc3f"
+      "bytes": 8654,
+      "sha256": "818c0887397259492dcb72ab1cee1fbeaa89b24b3738c116b5285884bc2c42b4"
     },
     {
       "path": "reports/w300-gpl-audit.md",
@@ -4235,14 +4335,14 @@
       "sha256": "287ae18bb17d00ce67a5f8477e31fd36f24db65d5c9e5f817e7634b57df1f695"
     },
     {
-      "path": "reports/w300-owner-source/README.md",
-      "bytes": 3236,
-      "sha256": "5662b22a32310eee1cd6563a204376d87c1e7325634ce4c24c92751e6ca6c85e"
-    },
-    {
       "path": "reports/w300-owner-source/pages.json",
       "bytes": 2587,
       "sha256": "a64b87e1df2aa27e7938bf704aff1418f22a3d528afa98bb720876c44bc0e912"
+    },
+    {
+      "path": "reports/w300-owner-source/README.md",
+      "bytes": 3008,
+      "sha256": "31d50cf9a220a1e3efa1315f02fddf0ba0511c63d0e43a88ef34cab80f0f4978"
     },
     {
       "path": "reports/w300-package-followup.md",
@@ -4258,11 +4358,6 @@
       "path": "reports/w300-package-locators.md",
       "bytes": 5974,
       "sha256": "398b62626ba467a9d311de87d2d20ecfbb21e117d64308ef5d8fdef657087c5d"
-    },
-    {
-      "path": "reports/w300-package-source/README.md",
-      "bytes": 5087,
-      "sha256": "3875f8babcf027c3eabd3168a94ddbb52c70f26e35acc661f0bd8777b88a7416"
     },
     {
       "path": "reports/w300-package-source/acquire.py",
@@ -4290,14 +4385,14 @@
       "sha256": "7547551f859c8b25884ac2e4336e2528ff6a7482d7d85a71c08bfeab052f38b3"
     },
     {
+      "path": "reports/w300-package-source/README.md",
+      "bytes": 4831,
+      "sha256": "0d0507c5a5614045e5d10bcb00c1180d88a0c55b4f75812ec034fb08460cbb9f"
+    },
+    {
       "path": "reports/w300-readiness-audit/README.md",
       "bytes": 3568,
       "sha256": "5175f9d5a3e8bfe5437b627038152dc6e0dca5df8a3047b1745ae56e6defceca"
-    },
-    {
-      "path": "reports/w300-resumption-20260917.md",
-      "bytes": 5616,
-      "sha256": "c7926c02a8b5d8065889797ed223e537ea328788e61a02064ba1a956e42d901c"
     },
     {
       "path": "reports/w300-seus-addressing.md",
@@ -4311,8 +4406,8 @@
     },
     {
       "path": "reports/w300-watermark-archive/README.md",
-      "bytes": 4017,
-      "sha256": "49b29f410403bfcb44f299b0b899b4ce81f1d2937ba2653b14ad8db4fb39b884"
+      "bytes": 3791,
+      "sha256": "7289aef3e4310c0e5335cb8989e6a8f464e9f051fc825c803e7a0393fef9a652"
     },
     {
       "path": "reports/w300-watermark-archive/verified-index.json",
@@ -4469,23 +4564,5 @@
       "bytes": 297037,
       "sha256": "bc17945ab48c7a2ecb16ae9d4b32cf976bfd67d7db74c0fedc093f9094e49ae5"
     }
-  ],
-  "added_artifacts": [
-    "downloads/comparative-language-acquisition/DSC-H50.html",
-    "downloads/comparative-language-acquisition/DSC-T300.html",
-    "downloads/comparative-language-acquisition/DSC-W150.html",
-    "downloads/comparative-language-acquisition/DSC-W300.html",
-    "downloads/comparative-language-acquisition/acquisition.json",
-    "downloads/w300-resumption-20260917/acquisition.json",
-    "manifests/package_manifest.pre-editorial-r4.json",
-    "reports/comparative-language-acquisition/README.md",
-    "reports/comparative-language-acquisition/g3-targets.json",
-    "reports/comparative-language-acquisition/manifest.json",
-    "reports/comparative-language-acquisition/verify_g3_targets.py",
-    "reports/g3-file-read/README.md",
-    "reports/g3-file-read/file-read.asm.txt",
-    "reports/g3-file-read/verification.json",
-    "reports/g3-file-read/verify_file_read.py",
-    "reports/w300-resumption-20260917.md"
   ]
 }

@@ -13,3 +13,7 @@
 
 - Follow-up GitHub repository API searches for SeusEX and DSC-W300 returned zero repositories; SEUS Sony returned unrelated repositories. Raw responses are saved alongside this record. Use a specific repository, asset or indexed filename lead for the next acquisition step; this record covers repository-metadata searches.
 - System Python HTTPS failed certificate-chain validation; bundled Python succeeded with certificate verification enabled. No TLS bypass used.
+
+## Current continuation guidance
+
+Use this source coverage to develop the next concrete binary-bearing lead: a package filename, archive item or firmware attachment whose contents can be inspected. Verify W300 identity inside the acquired material, then locate its Destination Check or language-operation implementation. Revisit a recorded search only when its locator, access or indexed content changes. In parallel, prepare the alternative file-acquisition route in the [current execution plan](../docs/w300/EXECUTION_PLAN.md).

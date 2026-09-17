@@ -8,6 +8,8 @@ Keep hardware results, static code findings, documentation and simulation distin
 
 ## Source authority and engineering route
 
+The analyst owns both acquiring evidence and using it to advance the goal. A failed source or missing W300 payload closes only the dependent attempt, not the project. Use the route table in `docs/w300/EXECUTION_PLAN.md`: select a concrete next action, define its expected artifact and evaluation, and move to an independent route when the current one cannot advance. Keep active sequencing in that plan; retain only reusable findings here.
+
 Primary manual: `sources/sony_dsc-w300_adjustment_ver1.3.pdf`, Sony 9-852-287-54. PDF p.11 restricts Destination Data Write to Service boards; resolve applicability to the original board in the implementation. PDF p.36 describes adjustment backup; qualify destination coverage and restoration separately. Package target: `DSC-W300 Auto-Adj Ver_1.3r04.exe`, compatible SeusEX and documented HASP access. Inspect actual binary dependencies before selecting an older OS or VM.
 
 Official W300 GPL: `https://oss.sony.net/Products/Linux/DI/DSC-W300.html`, retained under `build/w300/downloads/w300-gpl/`. It establishes CXD4108/ARM926T and Sony USB infrastructure. Pursue the proprietary camera function/application layer. The acquired Sony/libmtp `DSC-PTPSoftStack.ppt` clarifies this layer. Keep its ARMv6 examples distinct from W300's ARMv5 configuration.
@@ -16,7 +18,7 @@ Use PMCA commit `a82f5baaa8e9c3d9f28f94699e860fb2e48cc8e0` as a transport refere
 
 The W300 Level-3 manual identifies IC203 PRX765105A and service assembly A-1543-570-A. Use them as acquisition locators; qualify flash layout from actual storage evidence. Reuse search coverage for IBISS, archived SeusEX catalogs, watermark forum and Sony update catalogs. Pursue new concrete locators and inspect payload provenance instead of repeating unchanged queries.
 
-The watermark archive, historical package catalogs and Sony/libmtp architecture presentation have already been followed; older reports describing them as remaining leads are superseded by their dedicated reports. The next W300 implementation analysis should start at Auto-Adj's documented Destination Check read handler, then trace the service-board gate and affected-data/commit paths. Revision 1.2r03 corrected destination writing; 1.3r04 corrected Adjustment Mode entry. Do not substitute earlier revisions without comparison. Broad searches and repeated rate-limited code-index requests are not progress; resume from a new binary-bearing locator, W300 trace or legitimate service-source access. See `build/w300/reports/w300-resumption-20260917.md`.
+The watermark archive, historical package catalogs and Sony/libmtp architecture presentation have already been inspected; use their dedicated reports as completed coverage. Identify a distinct attachment, archive inventory, repository, firmware image or transaction source for the next acquisition attempt. In parallel, use retained G3 code to resolve specific transfer or language-consumer questions needed by the alternative route. On acquiring W300 implementation evidence, start at the documented Destination Check read handler, then trace the service-board condition and affected-data/commit paths. Revision 1.2r03 corrected destination writing; 1.3r04 corrected Adjustment Mode entry, so compare earlier revisions explicitly. A rate-limit response redirects acquisition to another source; it says nothing about that index's contents. See `build/w300/reports/w300-resumption-20260917.md` for completed coverage.
 
 ## Static-analysis conventions
 
@@ -34,7 +36,7 @@ Comparative acquisition targets named in Sony ADJ documentation are `DSC-W150_W1
 
 ## Repository integrity and publication
 
-Active documentation is English and follows completed work, findings, next action and verification. Preserve raw responses, test results, machine booleans and source bytes. Editorial Markdown in evidence is maintained separately from immutable artifacts. Preserve prior manifests as historical checkpoints; publish a new manifest revision for edited reports.
+Active documentation is English and follows findings, relevance to the goal, next action and verification. `AGENTS.md` governs continuation; dated reports supply evidence rather than global stop instructions. Preserve raw responses, test results, machine booleans and source bytes. Editorial Markdown in evidence is maintained separately from immutable artifacts. Preserve prior manifests byte-for-byte as historical checkpoints; create each new revision from an explicit baseline and reviewed change/addition lists. Revision-3 ZIPs remain tied to their original release; revision-4 main does not imply a rebuilt executable.
 
 `sources/` and manifest-listed `evidence/` are immutable inputs. `.gitattributes` protects bytes under Windows autocrlf. Firmware symlinks retain target semantics, including Windows text representations. Remove duplicates only after checking bytes and role. Source submodule pins stay unchanged.
 
@@ -50,4 +52,4 @@ Use bundled PowerShell 7 and explicit UTF-8 for inventory and redirected output.
 
 Build with `build/w300/build_portable.py`. Resolve frozen resources beside the executable. Validate the ZIP after relocation with external development tools removed from PATH. Rebuild Python environments offline from locked wheels. Keep static-analysis dependencies separate from the portable executable.
 
-After an unsuccessful attempt identify whether the cause is environment, dependency, source coverage or model qualification; select the next action accordingly. Retain TLS verification. Require fresh evidence before repeating an acquisition route. Complete backup/restoration, eligibility and persistence qualification before the separately authorized write stage.
+After an unsuccessful attempt identify whether the cause is environment, dependency, source coverage or model qualification; execute the next available action or an independent route. Reuse completed coverage and repeat an attempt only when its source, hypothesis, method or access changes. Retain TLS verification. Hardware availability limits the hardware stage; continue useful offline acquisition, analysis and preparation. Before reporting the whole task externally blocked, assess the remaining justified routes and name the smallest external input needed. Complete backup/restoration, eligibility and persistence qualification before the separately authorized write stage.

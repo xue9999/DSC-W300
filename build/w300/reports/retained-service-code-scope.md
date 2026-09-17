@@ -1,6 +1,6 @@
 # Retained G3 service libraries: bounded relevance to W300
 
-Editorial revision 3; underlying measurements and captured results retain their recorded scope.
+Editorial revision 4; underlying measurements and captured results retain their recorded scope.
 
 ## Result and scope
 
@@ -35,7 +35,7 @@ Concrete nearby symbols are listed below as locators only. File offsets refer to
 
 `libBackupCore.so` also contains paths `/boot/backup/Husr.bin`, `/boot/backup/Ausr.bin`, `/boot/backup/Husr2.bak`, and `/boot/backup/Ausr2.bak` at file offsets `0xd668`, `0xd6b0`, `0xd718`, and `0xd760`. These are evidence about the retained G3 implementation. They must not be adopted as W300 backup locations or a restoration procedure.
 
-## Reproduction and stopping point
+## Reproduction and follow-up
 
 The small standard-library-only inventory helper is `build/w300/reports/retained_service_inventory.py`. It reads ELF tables and byte strings; it does not use `ctypes`, import firmware modules or launch firmware code. Reproduce from the repository root with the already prepared environment:
 
@@ -45,4 +45,4 @@ The small standard-library-only inventory helper is `build/w300/reports/retained
 
 Derived output is `retained-service-inventory.json`; the captured human-readable run output is `retained-service-symbol-summary.txt`. Existing original input hashes are preserved, not replaced by this inventory.
 
-No concrete routine or table emerged that narrowed the missing **W300** API beyond the already known fact that G3 has Senser/backup handlers. The investigation therefore stopped at this bounded inventory. A W300-capable SeusEX implementation, verified W300 transaction, or W300 proprietary firmware handler remains necessary before turning the old SEUS tuple into a first-contact USB operation. Shared ARM architecture, similar library names and another model's backup functions do not supply that evidence.
+The inventory established concrete G3 routine locations for deeper inspection. The subsequent [dispatch analysis](retained-dispatch-analysis.md) and [AV receiver analysis](av-receiver/README.md) develop those locations into payload and handler evidence; consult them before repeating symbol searches. Acquire a W300-capable SeusEX implementation, verified W300 transaction, or W300 proprietary firmware handler and compare its serialization and entry sequence with these resolved reference layers. Follow the alternative acquisition and analysis routes in the [execution plan](../../../docs/w300/EXECUTION_PLAN.md) while that target-model evidence is being obtained. Shared architecture and library names remain comparison leads rather than W300 command specifications.

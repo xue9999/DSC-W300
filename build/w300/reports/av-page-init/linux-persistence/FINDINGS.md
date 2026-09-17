@@ -1,6 +1,6 @@
 # G3 Linux receiver for AV backup IPC channel 0x1002
 
-Editorial revision 3; underlying measurements and captured results retain their recorded scope.
+Editorial revision 4; underlying measurements and captured results retain their recorded scope.
 
 ## Conclusion
 
@@ -64,4 +64,4 @@ The parent's AV initialization trace obtains its first bank through descriptor 0
 
 `ShadowTable::getShadowAddr` (0x6C20) indexes ELF address 0x16908. That is runtime BSS with no relocation. The size/spare arrays at 0x16458, 0x16478 and 0x16498 are zero in the retained ELF and have no relocations. `ShadowTable` constructor (0x6AB8) derives top/total from those arrays. The selected `ShadowAccesser` routines consume them and map shared memory, but the bounded trace did not locate the writer that connects these arrays to the AV descriptor. Matching completion-marker constants alone is insufficient to identify a bank.
 
-Stop point: receiver/operation/category semantics are established; page-bank-to-file identity still requires the missing initialization link. No evidence input, project source, camera state or USB state was modified.
+This trace established receiver/operation/category semantics and isolated the initialization link as the next question. The subsequent [bank-map analysis](../../g3-bank-map/README.md) resolves that G3 link to category-5 Areg/Areg2 through constructor tables. Reuse that finding to frame the W300 field and persistence investigation in the [current execution plan](../../../../../docs/w300/EXECUTION_PLAN.md). No evidence input, project source, camera state or USB state was modified during the original trace.

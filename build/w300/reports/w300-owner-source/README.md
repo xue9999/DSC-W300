@@ -1,6 +1,6 @@
 # Bounded W300 owner-source search
 
-Editorial revision 3; underlying measurements and captured results retain their recorded scope.
+Editorial revision 4; underlying measurements and captured results retain their recorded scope.
 
 Checked 2026-09-17. No camera, installation, download execution, correspondence or account access was involved. The source manifest and retained evidence were not changed.
 
@@ -24,4 +24,4 @@ Page URL, title, public author, observed content type and extraction limits are 
 
 Finding and follow-up: no relevant model-specific source or payload located in the bounded public search. This is not an environment failure, missing local dependency or a test proving that W300 cannot be converted.
 
-Stop rule: do not repeat these expressions or reopen these unrelated owner posts without a materially new locator, attachment or report. A useful next acquisition lead must expose a W300-specific program, trace, dump or reproducible owner conversion, rather than another generic menu-language answer.
+Retire these expressions and unrelated posts from repeated searches unless a new attachment or substantive reply changes the evidence. Continue by locating technical owner reports with attached W300 programs, traces, dumps or reproducible conversions, and inspect their actual payloads and model context. If that source class yields no relevant lead, take the service-package or firmware route in the [execution plan](../../../../docs/w300/EXECUTION_PLAN.md); the bounded result here does not require waiting for an owner reply.

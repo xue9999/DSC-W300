@@ -27,3 +27,9 @@ The first requires the matching macOS SDK; the second requires libusb developmen
 The Python transport probe is retained only as an unsupported entry point and a descriptor parser after removal of the unqualified service transport. Consult its explicit refusal message; do not interpret it as a successful hardware probe.
 
 Ghidra binaries and local compiled programs are not retained in Git. Install a suitable tool separately if a later research task requires it.
+
+## Advance with the available tools
+
+If the optional emulator or native SDK is absent, choose between acquiring the pinned dependency for a specific research question and answering that question through retained byte-level analysis. Record the expected observable result before spending time on a build. Emulator setup need not precede package acquisition, protocol comparison or offline test development.
+
+The retired transport's refusal applies to that unqualified implementation. Continue by deriving a bounded W300 operation from code or trustworthy transactions, adding offline packet/response tests, and preparing the separately qualified hardware adapter described in the [execution plan](../w300/EXECUTION_PLAN.md).

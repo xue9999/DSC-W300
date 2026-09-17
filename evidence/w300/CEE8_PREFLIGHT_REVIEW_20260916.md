@@ -18,3 +18,7 @@
 ## Disposition and next prerequisite
 
 CEE8 conversion has not been performed. Passive preflight and local implementation/source review are complete. The next prerequisite is the exact `DSC-W300 Auto-Adj Ver_1.3r04.exe` package with its service dependencies for offline analysis, or independently documented W300-specific service transactions. Establish a bounded read, safe exit, destination encoding, retail-board eligibility and recoverable backup before performing a physical write. The available G3 updater is not a W300 substitute.
+
+## Current continuation guidance
+
+Use these findings to replace the former writer's assumptions with verified W300 behavior: resolve destination encoding and original-board eligibility, then specify the affected-data backup and post-restart persistence checks. Acquire the needed handler from Auto-Adj, W300 firmware or trustworthy W300 transactions. The retained G3 updater supplies targeted comparisons while this acquisition proceeds; the [current execution plan](../../docs/w300/EXECUTION_PLAN.md) defines the alternative routes.

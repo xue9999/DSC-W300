@@ -1,6 +1,6 @@
 # libgphoto2: scope of the DSC-W300 lead
 
-Editorial revision 3; underlying measurements and captured results retain their recorded scope.
+Editorial revision 4; underlying measurements and captured results retain their recorded scope.
 
 ## Result
 
@@ -41,4 +41,4 @@ The first command has no matches (exit code 1). Search results from the remainin
 
 [SwiftMTP-dev PR 96](https://github.com/EffortlessMetrics/SwiftMTP-dev/pull/96) claims its Sony entries were sourced from libgphoto2 `camlibs/ptp2/library.c`. The local snapshot is `build/w300/reports/continuation/swiftmtp-pr96.json`. Its proposed W300 entry is `sony-dsc-w300-029d`, `054c:029d`, PTP interface class/subclass/protocol `06/01/01`, with `hooks: []`, `status: proposed`, `confidence: medium`, and `evidenceRequired: [community-validation]`. The JSON consists of transfer/timeout/quirk settings and generic operation flags; it contains no menu-language or service-destination operation.
 
-Verified conclusion: the PR is an unvalidated transfer-configuration proposal whose claimed model/ID provenance was not reproduced from the pinned primary source. A different W300 PTP identity remains only a possible explanation, not an established fact. This lead adds neither the missing W300-specific setting map nor a tested persistent write/restore procedure, so it does not remove the current execution-plan limitation.
+Verified conclusion: the PR is an unvalidated transfer-configuration proposal whose claimed model/ID provenance was not reproduced from the pinned primary source. A different W300 PTP identity remains only a possible explanation, not an established fact. Compare any later captured W300 descriptors with these proposed transfer settings before using them. For the language objective, continue the model-linked package, firmware and transaction routes in the [execution plan](../../../docs/w300/EXECUTION_PLAN.md); this transfer-configuration lead supplies no setting map or tested write/restore procedure.

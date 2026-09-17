@@ -1,6 +1,6 @@
 # G3 AdjustCommunication fallback for selector 0x11
 
-Editorial revision 3; underlying measurements and captured results retain their recorded scope.
+Editorial revision 4; underlying measurements and captured results retain their recorded scope.
 
 ## Result and limit
 
@@ -35,4 +35,4 @@ Literal locations reproduced in the JSON include `/dev/ipcm` at `0x12B54`, `IPCM
 
 The receiving AV firmware or its service-command dispatcher would be needed to interpret the forwarded request and payload. Following the Linux-side wrapper alone cannot provide the semantics of Block 11, Page 61, Address 0E10/0E11 in the W300 service manual. Even a complete G3 receiver would still need independent W300 qualification: matching W300 implementation or a W300-specific service transaction showing entry/authentication, serialization and response. The W300 destination/language mapping, persistence operation, backup/restore method and original-board eligibility remain separate unresolved requirements.
 
-The bounded inspection stops here. It does not produce a device adapter, request payload, read command, or authorization to substitute G3 behavior for W300.
+This inspection completes the selected Linux forwarding-path trace. The subsequent [AV receiver analysis](../av-receiver/README.md) locates the receiving G3 dispatcher and resolves its page8/address16 representation; use that result instead of repeating the wrapper inspection. Apply the resulting questions to acquired W300 code or transactions through the [current execution plan](../../../../docs/w300/EXECUTION_PLAN.md). W300 qualification remains a separate step before implementing a device adapter.

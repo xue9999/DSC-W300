@@ -1,6 +1,6 @@
 # Local Downloads service-package check
 
-Editorial revision 3; underlying measurements and captured results retain their recorded scope.
+Editorial revision 4; underlying measurements and captured results retain their recorded scope.
 
 Date: 2026-09-16.
 
@@ -27,4 +27,4 @@ Get-ChildItem -LiteralPath 'C:\Users\apara01\Downloads' -File -Recurse -Force |
   Select-Object FullName, Name, Length, LastWriteTime, Extension
 ```
 
-Classification: no candidate matching the authorized filename scope, rather than an inaccessible folder or a tool/runtime failure. No locally existing W300 Auto-Adj, SeusEX, HASP, or Sony service/adjustment package was discovered by this check.
+Classification: no candidate matching the authorized filename scope, rather than an inaccessible folder or a tool/runtime failure. No locally existing W300 Auto-Adj, SeusEX, HASP, or Sony service/adjustment package was discovered by this check. Continue external package/firmware acquisition or file-transfer preparation in the [execution plan](../../../docs/w300/EXECUTION_PLAN.md). Revisit this filename inventory when new task-related files arrive; a wider search of unrelated personal directories is not the automatic next step.

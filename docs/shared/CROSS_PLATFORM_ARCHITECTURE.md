@@ -11,3 +11,7 @@
 Reuse byte-comparison, parsing and test utilities across models. Qualify firmware layouts, calibration structures, keys and service transactions against evidence for each target model; use generation labels such as BIONZ to guide research.
 
 The [G3 guide](../g3/README.md) and [W300 guide](../w300/README.md) identify current findings and next steps. Native camera probes, a network server and a local emulator are distinct active operations, separated from default offline tests.
+
+## Route selection
+
+A model boundary identifies the evidence to acquire. Turn each boundary into a bounded comparison or acquisition task with an expected artifact and a check for equivalence. If one package source yields no payload, switch source or pursue the firmware/transaction route. If hardware is elsewhere, prepare the read, exit and recovery checks offline. Use the [execution plan](../w300/EXECUTION_PLAN.md) to connect each result to persistent English menus on the W300.

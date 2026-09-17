@@ -27,3 +27,20 @@ python tools/repo_audit.py --json
 ```
 
 The capability report records optional source checkouts, executable availability and emulator observations separately. Investigate hash mismatches, invalid active links and unexplained duplicates against recorded provenance before changing an artifact.
+
+## Research checkpoints
+
+Revision-3 release assets remain reproducible historical inputs; current research instructions and maintained reports on `main` advance through a separate revision-4 manifest. Preserve raw captures and prior measured values when updating report interpretation. If an acquisition route yields no payload, retain that scoped finding and the next source or method to try. Artifact absence should identify an acquisition task rather than suspend unrelated analysis.
+
+## Create a reviewed manifest revision
+
+For the revision-4 update, preserve the revision-3 `build/w300/package_manifest.json` bytes in `build/w300/manifests/package_manifest.pre-editorial-r4.json` before creating the new current manifest. Retain that checkpoint and earlier manifests unchanged. The generator reads an explicit baseline, verifies every prior artifact and records only the reviewed changes and additions.
+
+The command shape below is a template: replace each placeholder with an individually reviewed path, repeat `--change` and `--add` as needed, and omit `--add` when no new artifacts are required. Paths are relative to `build/w300`, use forward slashes and must identify individual files; wildcards and directory-wide enrollment are not supported.
+
+```text
+python build/w300/release_manifest.py create --baseline manifests/package_manifest.pre-editorial-r4.json --revision 4 --change <existing-maintained-path> --change <another-maintained-path> --add <new-artifact-path>
+python build/w300/release_manifest.py verify
+```
+
+`--change` applies to maintained `.md`, `.py` and `.ps1` files at the package root or under `reports/`. Raw captures, firmware, downloads and historical manifests cannot be revised through that option. Any changed prior artifact omitted from the explicit list is rejected; additions must be new explicit paths. The generator validates the proposed manifest before replacing `package_manifest.json` and incorporates the preserved baseline as an artifact. Review its recorded differences against the intended diff; do not update a digest merely to silence an integrity failure. Repository documentation outside `build/w300` is reviewed through Git and repository checks, not enrolled by this package-manifest command.

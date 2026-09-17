@@ -1,6 +1,6 @@
-# G3 / W300 service-manual cross-check: source acquisition unresolved
+# G3 / W300 service-manual cross-check: source coverage and acquisition task
 
-Editorial revision 3; underlying measurements and captured results retain their recorded scope.
+Editorial revision 4; underlying measurements and captured results retain their recorded scope.
 
 ## Outcome
 
@@ -32,6 +32,6 @@ Model-qualified searches covered the exact model, `DSC-G3_ADJ`, `Auto-Adj`, `Seu
 
 All new files are confined to `build/w300/downloads/g3-service-reference/` and this report directory. `candidate-acquisition.json`, `catalog-acquisition.json` and `archive-acquisition.json` preserve concrete request URLs and results. The successful Internet Archive JSON responses are retained; `local-artifacts.json` records their sizes and hashes. `search-receipts.json` records the web-readable catalog locators, access restrictions and classification, without claiming downloaded source documents.
 
-The necessary missing evidence is an actual G3 ADJ v1.2 document or equivalent Sony-authored G3 service fragment showing its field names and concrete tuple. If it is acquired, compare the printed table and operation context first, then ask whether the static receiver independently explains the tuple. Do not declare a W300 mapping simply because both a G3 binary and W300 manual use a page-like value `61` or an address-like value `0E10`.
+To complete this comparison, locate and acquire an actual G3 ADJ v1.2 document or equivalent Sony-authored service fragment showing its field names and concrete tuple. Use the exact catalog designation to search a distinct accessible source; repeat a failed endpoint only when access conditions or its locator change. Compare the acquired printed table and operation context first, then test whether the static receiver independently explains the tuple. A numerical resemblance such as `61` or `0E10` alone does not establish W300 equivalence. This comparison is optional support: continue W300 package/trace acquisition and file-transfer preparation under the [execution plan](../../../../docs/w300/EXECUTION_PLAN.md) if the G3 document remains inaccessible.
 
 No G3 service PDF was downloaded, no PDF was rendered for this follow-up, and no manual-based G3 comparison result is claimed. No main documentation or ANALYSIS_LOG was changed; no USB, service-mode, camera read or camera write was performed.

@@ -1,6 +1,6 @@
-# W300 preparation verification — editorial revision 3
+# W300 preparation verification — research documentation revision 4
 
-Historical checks below were performed on 2026-09-16 on Windows 11 x64, build 26200. The later camera session uses a separate Windows 10/11 x64 computer. This preparation used offline analysis and OS inventory; camera settings, identity and calibration were preserved. Current publication checks are recorded separately in `build/w300/reports/release-r3-verification.json`.
+Historical checks below were performed on 2026-09-16 on Windows 11 x64, build 26200. The later camera session uses a separate Windows 10/11 x64 computer. This preparation used offline analysis and OS inventory; camera settings, identity and calibration were preserved. Historical revision-3 publication checks are recorded separately in `build/w300/reports/release-r3-verification.json`.
 
 ## Evidence milestones and next actions
 
@@ -61,7 +61,13 @@ Paths are relative to the repository root. Restore large inputs through [RELEASE
 - `build/w300/reports/g3-bank-map/`: G3 AV category-5 Areg/Areg2 mapping.
 - `build/w300/reports/g3-xs-entry/`, `g3-entry-events/`, `g3-config-read/`: XS grammar, authentication-to-application callback path and category-0 Hreg language/region associations. Match corresponding W300 operations before implementing a camera adapter.
 - `build/w300/reports/offline-resumption-checks.json`, `offline-protocol-checks.json`, `offline-xs-checks.json`: historical static-reproduction results. Current revisions use distinct filenames.
-- `build/w300/reports/portable-validation.json`: historical release-2 relocation; `portable-validation-r3.json`: current portable revision.
-- `build/w300/package_manifest.json`: current revision's artifact hashes. `build/w300/manifests/` preserves prior verification checkpoints. `build/w300/reports/release-r3-verification.json` records publication preparation.
+- `build/w300/reports/portable-validation.json`: historical release-2 relocation; `portable-validation-r3.json`: historical revision-3 portable validation; revision 4 updates repository research documentation without replacing that ZIP.
+- `build/w300/package_manifest.json`: current revision's artifact hashes. `build/w300/manifests/` preserves prior verification checkpoints. `build/w300/reports/release-r3-verification.json` records historical revision-3 publication preparation.
 
 The four canonical submodule pins are preserved. Research uses the separate pinned PMCA checkout under `build/w300/upstream/`, restored from the Release Git bundle. Use [EXECUTION_PLAN.md](EXECUTION_PLAN.md) for the first-contact sequence and the model-specific qualification worklist.
+
+## Use verification gaps to select work
+
+Each unmeasured property is an engineering question. Translate it into an acquisition, analysis or device-test task in the execution plan. Model-specific code or trustworthy transactions qualify W300 behavior; G3 comparisons identify the fields and handlers to examine. Advance those comparisons while developing a new W300 source, and prepare a bounded file-acquisition procedure as an alternative to the adjustment package.
+
+A false hardware-verification flag preserves the current measurement state. It is not an instruction to stop acquisition, implementation preparation or offline checks. Change it only when its corresponding device test supplies the required evidence.

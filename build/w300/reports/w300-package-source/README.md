@@ -1,6 +1,6 @@
 # Historical Sony Japan body-update catalog: bounded acquisition
 
-Editorial revision 3; underlying measurements and captured results retain their recorded scope.
+Editorial revision 4; underlying measurements and captured results retain their recorded scope.
 
 Checked 2026-09-17. No camera connected, package executed, login, contact or purchase. Original `sources/` and `evidence/` unchanged.
 
@@ -36,8 +36,8 @@ Run the offline check from the repository root:
 
 Network replay scripts are preserved separately and need not be rerun to reproduce the content-based conclusion. No executable/archive payload was discovered or downloaded.
 
-## Stop rule and remaining external prerequisite
+## Completed catalog coverage and next acquisition route
 
 The inspected catalogs establish which model entries those pages contain. Pursue a new model-linked W300 package or trace locator, inspect its payload and verify the model from internal evidence. Reuse saved catalogs instead of repeating the same queries.
 
-The remaining external artifact requirement is a publicly available, model-linked W300 service package, proprietary firmware image, or sufficiently documented W300 communication trace, including provenance and actual bytes. The exact Auto-Adj route additionally still lacks usable SeusEX and any required legitimate HASP access. The acquired HTML does not resolve retail-board eligibility, language addresses, persistence, or restoration.
+The next task is to locate and acquire a model-linked W300 service package, proprietary firmware image, or sufficiently documented W300 communication trace, recording provenance and actual bytes. The exact Auto-Adj route additionally requires usable SeusEX and any required legitimate HASP access. If that route cannot currently supply bytes, continue through the firmware/trace and file-acquisition preparation routes in the [execution plan](../../../../docs/w300/EXECUTION_PLAN.md). Evaluate each obtained artifact for retail-board eligibility, language addresses, persistence and restoration; the catalog HTML remains evidence of search coverage rather than an implementation source.
