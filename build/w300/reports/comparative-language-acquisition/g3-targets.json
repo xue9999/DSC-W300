@@ -1,0 +1,3095 @@
+{
+  "ok": true,
+  "scope": "Static G3 call sites and framing only; no complete data-flow or persistence proof",
+  "camera_io": false,
+  "firmware_executed": false,
+  "w300_qualified": false,
+  "scripts": [
+    {
+      "path": "evidence/extracted_g3/archives_unpacked/fskrel1/dsc/fsk/regionInfo.xsb",
+      "sha256": "76061909683201a196ce277767c61c0954b8952a458f7620415cbb748928162c",
+      "runtime_sha256": "2fb7914c1f111650e0022db4f3c52b3d5328f9e16c20dc1a15db5cef6212203c",
+      "code_bytes": 4863,
+      "selected_instructions": [
+        {
+          "offset": 1059,
+          "file_offset": 2039,
+          "opcode": 63,
+          "raw": "3f0149",
+          "remap_target": "0x9428c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1062,
+          "file_offset": 2042,
+          "opcode": 35,
+          "raw": "23ffff2204801780188019801a7907801b801c801d800e801e801f8020",
+          "remap_target": "0x94200",
+          "symbols": [
+            "65535:<special>",
+            "23:region",
+            "24:language",
+            "25:availLang",
+            "26:videoSignal",
+            "27:pathRegionInfoSrc",
+            "28:pathRegionSrcDir",
+            "29:regionInfoFile",
+            "14:langName",
+            "30:availLanguage",
+            "31:langGp",
+            "32:singnalType"
+          ],
+          "note": ""
+        },
+        {
+          "offset": 1091,
+          "file_offset": 2071,
+          "opcode": 96,
+          "raw": "600128",
+          "remap_target": "0x9428c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1094,
+          "file_offset": 2074,
+          "opcode": 65,
+          "raw": "4100",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1096,
+          "file_offset": 2076,
+          "opcode": 138,
+          "raw": "8a00ff",
+          "remap_target": "0x9428c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1099,
+          "file_offset": 2079,
+          "opcode": 88,
+          "raw": "58",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1100,
+          "file_offset": 2080,
+          "opcode": 41,
+          "raw": "290077",
+          "remap_target": "0x9428c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1103,
+          "file_offset": 2083,
+          "opcode": 89,
+          "raw": "59",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1104,
+          "file_offset": 2084,
+          "opcode": 99,
+          "raw": "63ff",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1106,
+          "file_offset": 2086,
+          "opcode": 92,
+          "raw": "5c",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1107,
+          "file_offset": 2087,
+          "opcode": 106,
+          "raw": "6a5b696e697469616c44617461506174685d00",
+          "remap_target": "0x942a4",
+          "symbols": [],
+          "note": "'[initialDataPath]'"
+        },
+        {
+          "offset": 1126,
+          "file_offset": 2106,
+          "opcode": 137,
+          "raw": "8901",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1128,
+          "file_offset": 2108,
+          "opcode": 93,
+          "raw": "5d",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1129,
+          "file_offset": 2109,
+          "opcode": 66,
+          "raw": "428014",
+          "remap_target": "0x94274",
+          "symbols": [
+            "20:System"
+          ],
+          "note": ""
+        },
+        {
+          "offset": 1132,
+          "file_offset": 2112,
+          "opcode": 46,
+          "raw": "2e8015",
+          "remap_target": "0x94274",
+          "symbols": [
+            "21:applyEnvironment"
+          ],
+          "note": ""
+        },
+        {
+          "offset": 1135,
+          "file_offset": 2115,
+          "opcode": 106,
+          "raw": "6a2f526567696f6e496e666f2f00",
+          "remap_target": "0x942a4",
+          "symbols": [],
+          "note": "'/RegionInfo/'"
+        },
+        {
+          "offset": 1149,
+          "file_offset": 2129,
+          "opcode": 33,
+          "raw": "21",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1150,
+          "file_offset": 2130,
+          "opcode": 99,
+          "raw": "63fe",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1152,
+          "file_offset": 2132,
+          "opcode": 92,
+          "raw": "5c",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1153,
+          "file_offset": 2133,
+          "opcode": 65,
+          "raw": "4100",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1155,
+          "file_offset": 2135,
+          "opcode": 137,
+          "raw": "8901",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1157,
+          "file_offset": 2137,
+          "opcode": 109,
+          "raw": "6d",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1158,
+          "file_offset": 2138,
+          "opcode": 46,
+          "raw": "2e8021",
+          "remap_target": "0x94274",
+          "symbols": [
+            "33:getRegionInfoFile"
+          ],
+          "note": ""
+        },
+        {
+          "offset": 1161,
+          "file_offset": 2141,
+          "opcode": 99,
+          "raw": "63fd",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1163,
+          "file_offset": 2143,
+          "opcode": 92,
+          "raw": "5c",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1164,
+          "file_offset": 2144,
+          "opcode": 65,
+          "raw": "41fd",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1166,
+          "file_offset": 2146,
+          "opcode": 106,
+          "raw": "6a00",
+          "remap_target": "0x942a4",
+          "symbols": [],
+          "note": "''"
+        },
+        {
+          "offset": 1168,
+          "file_offset": 2148,
+          "opcode": 88,
+          "raw": "58",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1169,
+          "file_offset": 2149,
+          "opcode": 41,
+          "raw": "29000b",
+          "remap_target": "0x9428c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1172,
+          "file_offset": 2152,
+          "opcode": 65,
+          "raw": "41fe",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1174,
+          "file_offset": 2154,
+          "opcode": 65,
+          "raw": "41fd",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1176,
+          "file_offset": 2156,
+          "opcode": 33,
+          "raw": "21",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1177,
+          "file_offset": 2157,
+          "opcode": 99,
+          "raw": "63ff",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1179,
+          "file_offset": 2159,
+          "opcode": 92,
+          "raw": "5c",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1180,
+          "file_offset": 2160,
+          "opcode": 40,
+          "raw": "280003",
+          "remap_target": "0x9428c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1183,
+          "file_offset": 2163,
+          "opcode": 60,
+          "raw": "3c",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1184,
+          "file_offset": 2164,
+          "opcode": 128,
+          "raw": "80",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1185,
+          "file_offset": 2165,
+          "opcode": 95,
+          "raw": "5f",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1186,
+          "file_offset": 2166,
+          "opcode": 137,
+          "raw": "8900",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1188,
+          "file_offset": 2168,
+          "opcode": 109,
+          "raw": "6d",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1189,
+          "file_offset": 2169,
+          "opcode": 46,
+          "raw": "2e8022",
+          "remap_target": "0x94274",
+          "symbols": [
+            "34:deleteUserInfoFiles"
+          ],
+          "note": ""
+        },
+        {
+          "offset": 1192,
+          "file_offset": 2172,
+          "opcode": 92,
+          "raw": "5c",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1193,
+          "file_offset": 2173,
+          "opcode": 137,
+          "raw": "8900",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1195,
+          "file_offset": 2175,
+          "opcode": 109,
+          "raw": "6d",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1196,
+          "file_offset": 2176,
+          "opcode": 46,
+          "raw": "2e8023",
+          "remap_target": "0x94274",
+          "symbols": [
+            "35:deleteRegionInfoFile"
+          ],
+          "note": ""
+        },
+        {
+          "offset": 1199,
+          "file_offset": 2179,
+          "opcode": 92,
+          "raw": "5c",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1200,
+          "file_offset": 2180,
+          "opcode": 65,
+          "raw": "41ff",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1202,
+          "file_offset": 2182,
+          "opcode": 137,
+          "raw": "8901",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1204,
+          "file_offset": 2184,
+          "opcode": 109,
+          "raw": "6d",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1205,
+          "file_offset": 2185,
+          "opcode": 46,
+          "raw": "2e8024",
+          "remap_target": "0x94274",
+          "symbols": [
+            "36:createRegionInfoFile"
+          ],
+          "note": ""
+        },
+        {
+          "offset": 1208,
+          "file_offset": 2188,
+          "opcode": 92,
+          "raw": "5c",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1209,
+          "file_offset": 2189,
+          "opcode": 137,
+          "raw": "8900",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1211,
+          "file_offset": 2191,
+          "opcode": 93,
+          "raw": "5d",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1212,
+          "file_offset": 2192,
+          "opcode": 66,
+          "raw": "428025",
+          "remap_target": "0x94274",
+          "symbols": [
+            "37:FileSystem"
+          ],
+          "note": ""
+        },
+        {
+          "offset": 1215,
+          "file_offset": 2195,
+          "opcode": 46,
+          "raw": "2e8026",
+          "remap_target": "0x94274",
+          "symbols": [
+            "38:sync"
+          ],
+          "note": ""
+        },
+        {
+          "offset": 1218,
+          "file_offset": 2198,
+          "opcode": 92,
+          "raw": "5c",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1219,
+          "file_offset": 2199,
+          "opcode": 40,
+          "raw": "2800a5",
+          "remap_target": "0x9428c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1222,
+          "file_offset": 2202,
+          "opcode": 106,
+          "raw": "6a00",
+          "remap_target": "0x942a4",
+          "symbols": [],
+          "note": "''"
+        },
+        {
+          "offset": 1224,
+          "file_offset": 2204,
+          "opcode": 99,
+          "raw": "63fc",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1226,
+          "file_offset": 2206,
+          "opcode": 92,
+          "raw": "5c",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1227,
+          "file_offset": 2207,
+          "opcode": 106,
+          "raw": "6a00",
+          "remap_target": "0x942a4",
+          "symbols": [],
+          "note": "''"
+        },
+        {
+          "offset": 1229,
+          "file_offset": 2209,
+          "opcode": 99,
+          "raw": "63fb",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1231,
+          "file_offset": 2211,
+          "opcode": 92,
+          "raw": "5c",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1232,
+          "file_offset": 2212,
+          "opcode": 89,
+          "raw": "59",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1233,
+          "file_offset": 2213,
+          "opcode": 99,
+          "raw": "63fa",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1235,
+          "file_offset": 2215,
+          "opcode": 92,
+          "raw": "5c",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1236,
+          "file_offset": 2216,
+          "opcode": 89,
+          "raw": "59",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1237,
+          "file_offset": 2217,
+          "opcode": 99,
+          "raw": "63f9",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1239,
+          "file_offset": 2219,
+          "opcode": 92,
+          "raw": "5c",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1240,
+          "file_offset": 2220,
+          "opcode": 65,
+          "raw": "4101",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1242,
+          "file_offset": 2222,
+          "opcode": 137,
+          "raw": "8901",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1244,
+          "file_offset": 2224,
+          "opcode": 109,
+          "raw": "6d",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1245,
+          "file_offset": 2225,
+          "opcode": 46,
+          "raw": "2e8027",
+          "remap_target": "0x94274",
+          "symbols": [
+            "39:checkLanguageName"
+          ],
+          "note": ""
+        },
+        {
+          "offset": 1248,
+          "file_offset": 2228,
+          "opcode": 99,
+          "raw": "63fc",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1250,
+          "file_offset": 2230,
+          "opcode": 92,
+          "raw": "5c",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1251,
+          "file_offset": 2231,
+          "opcode": 65,
+          "raw": "4102",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1253,
+          "file_offset": 2233,
+          "opcode": 137,
+          "raw": "8901",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1255,
+          "file_offset": 2235,
+          "opcode": 109,
+          "raw": "6d",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1256,
+          "file_offset": 2236,
+          "opcode": 46,
+          "raw": "2e8028",
+          "remap_target": "0x94274",
+          "symbols": [
+            "40:getLanguageGroup"
+          ],
+          "note": ""
+        },
+        {
+          "offset": 1259,
+          "file_offset": 2239,
+          "opcode": 99,
+          "raw": "63fa",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1261,
+          "file_offset": 2241,
+          "opcode": 92,
+          "raw": "5c",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1262,
+          "file_offset": 2242,
+          "opcode": 65,
+          "raw": "41fa",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1264,
+          "file_offset": 2244,
+          "opcode": 137,
+          "raw": "8963",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1266,
+          "file_offset": 2246,
+          "opcode": 58,
+          "raw": "3a",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1267,
+          "file_offset": 2247,
+          "opcode": 41,
+          "raw": "29000b",
+          "remap_target": "0x9428c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1270,
+          "file_offset": 2250,
+          "opcode": 65,
+          "raw": "4102",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1272,
+          "file_offset": 2252,
+          "opcode": 137,
+          "raw": "8901",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1274,
+          "file_offset": 2254,
+          "opcode": 109,
+          "raw": "6d",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1275,
+          "file_offset": 2255,
+          "opcode": 46,
+          "raw": "2e8029",
+          "remap_target": "0x94274",
+          "symbols": [
+            "41:getAvailableLanguageList"
+          ],
+          "note": ""
+        },
+        {
+          "offset": 1278,
+          "file_offset": 2258,
+          "opcode": 99,
+          "raw": "63fb",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1280,
+          "file_offset": 2260,
+          "opcode": 92,
+          "raw": "5c",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1281,
+          "file_offset": 2261,
+          "opcode": 65,
+          "raw": "4103",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1283,
+          "file_offset": 2263,
+          "opcode": 137,
+          "raw": "8901",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1285,
+          "file_offset": 2265,
+          "opcode": 109,
+          "raw": "6d",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1286,
+          "file_offset": 2266,
+          "opcode": 46,
+          "raw": "2e802a",
+          "remap_target": "0x94274",
+          "symbols": [
+            "42:getVideoSignalType"
+          ],
+          "note": ""
+        },
+        {
+          "offset": 1289,
+          "file_offset": 2269,
+          "opcode": 99,
+          "raw": "63f9",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1291,
+          "file_offset": 2271,
+          "opcode": 92,
+          "raw": "5c",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1292,
+          "file_offset": 2272,
+          "opcode": 65,
+          "raw": "41fc",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1294,
+          "file_offset": 2274,
+          "opcode": 106,
+          "raw": "6a00",
+          "remap_target": "0x942a4",
+          "symbols": [],
+          "note": "''"
+        },
+        {
+          "offset": 1296,
+          "file_offset": 2276,
+          "opcode": 58,
+          "raw": "3a",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1297,
+          "file_offset": 2277,
+          "opcode": 55,
+          "raw": "37",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1298,
+          "file_offset": 2278,
+          "opcode": 42,
+          "raw": "2a000e",
+          "remap_target": "0x9428c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1301,
+          "file_offset": 2281,
+          "opcode": 92,
+          "raw": "5c",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1302,
+          "file_offset": 2282,
+          "opcode": 65,
+          "raw": "41fa",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1304,
+          "file_offset": 2284,
+          "opcode": 89,
+          "raw": "59",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1305,
+          "file_offset": 2285,
+          "opcode": 58,
+          "raw": "3a",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1306,
+          "file_offset": 2286,
+          "opcode": 55,
+          "raw": "37",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1307,
+          "file_offset": 2287,
+          "opcode": 42,
+          "raw": "2a0005",
+          "remap_target": "0x9428c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1310,
+          "file_offset": 2290,
+          "opcode": 92,
+          "raw": "5c",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1311,
+          "file_offset": 2291,
+          "opcode": 65,
+          "raw": "41f9",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1313,
+          "file_offset": 2293,
+          "opcode": 89,
+          "raw": "59",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1314,
+          "file_offset": 2294,
+          "opcode": 58,
+          "raw": "3a",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1315,
+          "file_offset": 2295,
+          "opcode": 41,
+          "raw": "290006",
+          "remap_target": "0x9428c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1318,
+          "file_offset": 2298,
+          "opcode": 60,
+          "raw": "3c",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1319,
+          "file_offset": 2299,
+          "opcode": 128,
+          "raw": "80",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1320,
+          "file_offset": 2300,
+          "opcode": 95,
+          "raw": "5f",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1321,
+          "file_offset": 2301,
+          "opcode": 40,
+          "raw": "28003f",
+          "remap_target": "0x9428c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1324,
+          "file_offset": 2304,
+          "opcode": 65,
+          "raw": "41fa",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1326,
+          "file_offset": 2306,
+          "opcode": 137,
+          "raw": "8963",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1328,
+          "file_offset": 2308,
+          "opcode": 58,
+          "raw": "3a",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1329,
+          "file_offset": 2309,
+          "opcode": 55,
+          "raw": "37",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1330,
+          "file_offset": 2310,
+          "opcode": 41,
+          "raw": "290006",
+          "remap_target": "0x9428c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1333,
+          "file_offset": 2313,
+          "opcode": 92,
+          "raw": "5c",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1334,
+          "file_offset": 2314,
+          "opcode": 65,
+          "raw": "41fb",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1336,
+          "file_offset": 2316,
+          "opcode": 106,
+          "raw": "6a00",
+          "remap_target": "0x942a4",
+          "symbols": [],
+          "note": "''"
+        },
+        {
+          "offset": 1338,
+          "file_offset": 2318,
+          "opcode": 58,
+          "raw": "3a",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1339,
+          "file_offset": 2319,
+          "opcode": 41,
+          "raw": "290006",
+          "remap_target": "0x9428c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1342,
+          "file_offset": 2322,
+          "opcode": 60,
+          "raw": "3c",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1343,
+          "file_offset": 2323,
+          "opcode": 128,
+          "raw": "80",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1344,
+          "file_offset": 2324,
+          "opcode": 95,
+          "raw": "5f",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1345,
+          "file_offset": 2325,
+          "opcode": 40,
+          "raw": "280027",
+          "remap_target": "0x9428c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1348,
+          "file_offset": 2328,
+          "opcode": 137,
+          "raw": "8900",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1350,
+          "file_offset": 2330,
+          "opcode": 109,
+          "raw": "6d",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1351,
+          "file_offset": 2331,
+          "opcode": 46,
+          "raw": "2e8022",
+          "remap_target": "0x94274",
+          "symbols": [
+            "34:deleteUserInfoFiles"
+          ],
+          "note": ""
+        },
+        {
+          "offset": 1354,
+          "file_offset": 2334,
+          "opcode": 92,
+          "raw": "5c",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1355,
+          "file_offset": 2335,
+          "opcode": 137,
+          "raw": "8900",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1357,
+          "file_offset": 2337,
+          "opcode": 109,
+          "raw": "6d",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1358,
+          "file_offset": 2338,
+          "opcode": 46,
+          "raw": "2e8023",
+          "remap_target": "0x94274",
+          "symbols": [
+            "35:deleteRegionInfoFile"
+          ],
+          "note": ""
+        },
+        {
+          "offset": 1361,
+          "file_offset": 2341,
+          "opcode": 92,
+          "raw": "5c",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1362,
+          "file_offset": 2342,
+          "opcode": 65,
+          "raw": "41f9",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1364,
+          "file_offset": 2344,
+          "opcode": 65,
+          "raw": "41fb",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1366,
+          "file_offset": 2346,
+          "opcode": 65,
+          "raw": "41fa",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1368,
+          "file_offset": 2348,
+          "opcode": 65,
+          "raw": "41fc",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1370,
+          "file_offset": 2350,
+          "opcode": 137,
+          "raw": "8904",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1372,
+          "file_offset": 2352,
+          "opcode": 109,
+          "raw": "6d",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1373,
+          "file_offset": 2353,
+          "opcode": 46,
+          "raw": "2e802b",
+          "remap_target": "0x94274",
+          "symbols": [
+            "43:createManualRegionInfoFile"
+          ],
+          "note": ""
+        },
+        {
+          "offset": 1376,
+          "file_offset": 2356,
+          "opcode": 92,
+          "raw": "5c",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1377,
+          "file_offset": 2357,
+          "opcode": 137,
+          "raw": "8900",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1379,
+          "file_offset": 2359,
+          "opcode": 93,
+          "raw": "5d",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1380,
+          "file_offset": 2360,
+          "opcode": 66,
+          "raw": "428025",
+          "remap_target": "0x94274",
+          "symbols": [
+            "37:FileSystem"
+          ],
+          "note": ""
+        },
+        {
+          "offset": 1383,
+          "file_offset": 2363,
+          "opcode": 46,
+          "raw": "2e8026",
+          "remap_target": "0x94274",
+          "symbols": [
+            "38:sync"
+          ],
+          "note": ""
+        },
+        {
+          "offset": 1386,
+          "file_offset": 2366,
+          "opcode": 92,
+          "raw": "5c",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1387,
+          "file_offset": 2367,
+          "opcode": 115,
+          "raw": "73",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1388,
+          "file_offset": 2368,
+          "opcode": 128,
+          "raw": "80",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1389,
+          "file_offset": 2369,
+          "opcode": 95,
+          "raw": "5f",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1390,
+          "file_offset": 2370,
+          "opcode": 56,
+          "raw": "38",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1391,
+          "file_offset": 2371,
+          "opcode": 108,
+          "raw": "6c",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1392,
+          "file_offset": 2372,
+          "opcode": 124,
+          "raw": "7c802c0c04",
+          "remap_target": "0x942b8",
+          "symbols": [
+            "44:makeRegionInfoFile"
+          ],
+          "note": ""
+        },
+        {
+          "offset": 1397,
+          "file_offset": 2377,
+          "opcode": 92,
+          "raw": "5c",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1398,
+          "file_offset": 2378,
+          "opcode": 55,
+          "raw": "37",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1399,
+          "file_offset": 2379,
+          "opcode": 63,
+          "raw": "3f0084",
+          "remap_target": "0x9428c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1402,
+          "file_offset": 2382,
+          "opcode": 35,
+          "raw": "23ffff22007906802d8017801880198020802e",
+          "remap_target": "0x94200",
+          "symbols": [
+            "65535:<special>",
+            "45:backuper",
+            "23:region",
+            "24:language",
+            "25:availLang",
+            "32:singnalType",
+            "46:ret"
+          ],
+          "note": ""
+        },
+        {
+          "offset": 1421,
+          "file_offset": 2401,
+          "opcode": 96,
+          "raw": "60006d",
+          "remap_target": "0x9428c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1424,
+          "file_offset": 2404,
+          "opcode": 93,
+          "raw": "5d",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1425,
+          "file_offset": 2405,
+          "opcode": 66,
+          "raw": "42802f",
+          "remap_target": "0x94274",
+          "symbols": [
+            "47:Backup"
+          ],
+          "note": ""
+        },
+        {
+          "offset": 1428,
+          "file_offset": 2408,
+          "opcode": 66,
+          "raw": "42802d",
+          "remap_target": "0x94274",
+          "symbols": [
+            "45:backuper"
+          ],
+          "note": ""
+        },
+        {
+          "offset": 1431,
+          "file_offset": 2411,
+          "opcode": 99,
+          "raw": "63ff",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1433,
+          "file_offset": 2413,
+          "opcode": 92,
+          "raw": "5c",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1434,
+          "file_offset": 2414,
+          "opcode": 109,
+          "raw": "6d",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1435,
+          "file_offset": 2415,
+          "opcode": 66,
+          "raw": "428006",
+          "remap_target": "0x94274",
+          "symbols": [
+            "6:bdIDRegion"
+          ],
+          "note": ""
+        },
+        {
+          "offset": 1438,
+          "file_offset": 2418,
+          "opcode": 137,
+          "raw": "8901",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1440,
+          "file_offset": 2420,
+          "opcode": 65,
+          "raw": "41ff",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1442,
+          "file_offset": 2422,
+          "opcode": 46,
+          "raw": "2e8030",
+          "remap_target": "0x94274",
+          "symbols": [
+            "48:read"
+          ],
+          "note": ""
+        },
+        {
+          "offset": 1445,
+          "file_offset": 2425,
+          "opcode": 99,
+          "raw": "63fe",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1447,
+          "file_offset": 2427,
+          "opcode": 92,
+          "raw": "5c",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1448,
+          "file_offset": 2428,
+          "opcode": 109,
+          "raw": "6d",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1449,
+          "file_offset": 2429,
+          "opcode": 66,
+          "raw": "428007",
+          "remap_target": "0x94274",
+          "symbols": [
+            "7:bdIDLanguage"
+          ],
+          "note": ""
+        },
+        {
+          "offset": 1452,
+          "file_offset": 2432,
+          "opcode": 137,
+          "raw": "8901",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1454,
+          "file_offset": 2434,
+          "opcode": 65,
+          "raw": "41ff",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1456,
+          "file_offset": 2436,
+          "opcode": 46,
+          "raw": "2e8030",
+          "remap_target": "0x94274",
+          "symbols": [
+            "48:read"
+          ],
+          "note": ""
+        },
+        {
+          "offset": 1459,
+          "file_offset": 2439,
+          "opcode": 99,
+          "raw": "63fd",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1461,
+          "file_offset": 2441,
+          "opcode": 92,
+          "raw": "5c",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1462,
+          "file_offset": 2442,
+          "opcode": 109,
+          "raw": "6d",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1463,
+          "file_offset": 2443,
+          "opcode": 66,
+          "raw": "428008",
+          "remap_target": "0x94274",
+          "symbols": [
+            "8:bdIDAvailLang"
+          ],
+          "note": ""
+        },
+        {
+          "offset": 1466,
+          "file_offset": 2446,
+          "opcode": 137,
+          "raw": "8901",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1468,
+          "file_offset": 2448,
+          "opcode": 65,
+          "raw": "41ff",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1470,
+          "file_offset": 2450,
+          "opcode": 46,
+          "raw": "2e8030",
+          "remap_target": "0x94274",
+          "symbols": [
+            "48:read"
+          ],
+          "note": ""
+        },
+        {
+          "offset": 1473,
+          "file_offset": 2453,
+          "opcode": 99,
+          "raw": "63fc",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1475,
+          "file_offset": 2455,
+          "opcode": 92,
+          "raw": "5c",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1476,
+          "file_offset": 2456,
+          "opcode": 109,
+          "raw": "6d",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1477,
+          "file_offset": 2457,
+          "opcode": 66,
+          "raw": "428009",
+          "remap_target": "0x94274",
+          "symbols": [
+            "9:bdIDSignalType"
+          ],
+          "note": ""
+        },
+        {
+          "offset": 1480,
+          "file_offset": 2460,
+          "opcode": 137,
+          "raw": "8901",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1482,
+          "file_offset": 2462,
+          "opcode": 65,
+          "raw": "41ff",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1484,
+          "file_offset": 2464,
+          "opcode": 46,
+          "raw": "2e8030",
+          "remap_target": "0x94274",
+          "symbols": [
+            "48:read"
+          ],
+          "note": ""
+        },
+        {
+          "offset": 1487,
+          "file_offset": 2467,
+          "opcode": 99,
+          "raw": "63fb",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1489,
+          "file_offset": 2469,
+          "opcode": 92,
+          "raw": "5c",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1490,
+          "file_offset": 2470,
+          "opcode": 65,
+          "raw": "41fb",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1492,
+          "file_offset": 2472,
+          "opcode": 65,
+          "raw": "41fc",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1494,
+          "file_offset": 2474,
+          "opcode": 65,
+          "raw": "41fd",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1496,
+          "file_offset": 2476,
+          "opcode": 65,
+          "raw": "41fe",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1498,
+          "file_offset": 2478,
+          "opcode": 137,
+          "raw": "8904",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1500,
+          "file_offset": 2480,
+          "opcode": 109,
+          "raw": "6d",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1501,
+          "file_offset": 2481,
+          "opcode": 46,
+          "raw": "2e802c",
+          "remap_target": "0x94274",
+          "symbols": [
+            "44:makeRegionInfoFile"
+          ],
+          "note": ""
+        },
+        {
+          "offset": 1504,
+          "file_offset": 2484,
+          "opcode": 99,
+          "raw": "63fa",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1506,
+          "file_offset": 2486,
+          "opcode": 92,
+          "raw": "5c",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1507,
+          "file_offset": 2487,
+          "opcode": 65,
+          "raw": "41fa",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1509,
+          "file_offset": 2489,
+          "opcode": 87,
+          "raw": "57",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1510,
+          "file_offset": 2490,
+          "opcode": 41,
+          "raw": "290014",
+          "remap_target": "0x9428c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1513,
+          "file_offset": 2493,
+          "opcode": 137,
+          "raw": "8900",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1515,
+          "file_offset": 2495,
+          "opcode": 72,
+          "raw": "4800008100",
+          "remap_target": "0x94294",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1520,
+          "file_offset": 2500,
+          "opcode": 138,
+          "raw": "8a0100",
+          "remap_target": "0x9428c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1523,
+          "file_offset": 2503,
+          "opcode": 138,
+          "raw": "8a00ff",
+          "remap_target": "0x9428c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1526,
+          "file_offset": 2506,
+          "opcode": 137,
+          "raw": "8904",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1528,
+          "file_offset": 2508,
+          "opcode": 109,
+          "raw": "6d",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1529,
+          "file_offset": 2509,
+          "opcode": 46,
+          "raw": "2e802c",
+          "remap_target": "0x94274",
+          "symbols": [
+            "44:makeRegionInfoFile"
+          ],
+          "note": ""
+        },
+        {
+          "offset": 1532,
+          "file_offset": 2512,
+          "opcode": 92,
+          "raw": "5c",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1533,
+          "file_offset": 2513,
+          "opcode": 56,
+          "raw": "38",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1534,
+          "file_offset": 2514,
+          "opcode": 108,
+          "raw": "6c",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1535,
+          "file_offset": 2515,
+          "opcode": 124,
+          "raw": "7c80310c04",
+          "remap_target": "0x942b8",
+          "symbols": [
+            "49:makeRegionInfoFileFromBackupData"
+          ],
+          "note": ""
+        },
+        {
+          "offset": 1540,
+          "file_offset": 2520,
+          "opcode": 92,
+          "raw": "5c",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1541,
+          "file_offset": 2521,
+          "opcode": 55,
+          "raw": "37",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1542,
+          "file_offset": 2522,
+          "opcode": 63,
+          "raw": "3f0068",
+          "remap_target": "0x9428c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1545,
+          "file_offset": 2525,
+          "opcode": 35,
+          "raw": "23ffff220480178018801980207901802d",
+          "remap_target": "0x94200",
+          "symbols": [
+            "65535:<special>",
+            "23:region",
+            "24:language",
+            "25:availLang",
+            "32:singnalType",
+            "45:backuper"
+          ],
+          "note": ""
+        },
+        {
+          "offset": 1562,
+          "file_offset": 2542,
+          "opcode": 96,
+          "raw": "600053",
+          "remap_target": "0x9428c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1565,
+          "file_offset": 2545,
+          "opcode": 93,
+          "raw": "5d",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1566,
+          "file_offset": 2546,
+          "opcode": 66,
+          "raw": "42802f",
+          "remap_target": "0x94274",
+          "symbols": [
+            "47:Backup"
+          ],
+          "note": ""
+        },
+        {
+          "offset": 1569,
+          "file_offset": 2549,
+          "opcode": 66,
+          "raw": "42802d",
+          "remap_target": "0x94274",
+          "symbols": [
+            "45:backuper"
+          ],
+          "note": ""
+        },
+        {
+          "offset": 1572,
+          "file_offset": 2552,
+          "opcode": 99,
+          "raw": "63ff",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1574,
+          "file_offset": 2554,
+          "opcode": 92,
+          "raw": "5c",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1575,
+          "file_offset": 2555,
+          "opcode": 65,
+          "raw": "4100",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1577,
+          "file_offset": 2557,
+          "opcode": 109,
+          "raw": "6d",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1578,
+          "file_offset": 2558,
+          "opcode": 66,
+          "raw": "428006",
+          "remap_target": "0x94274",
+          "symbols": [
+            "6:bdIDRegion"
+          ],
+          "note": ""
+        },
+        {
+          "offset": 1581,
+          "file_offset": 2561,
+          "opcode": 137,
+          "raw": "8902",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1583,
+          "file_offset": 2563,
+          "opcode": 65,
+          "raw": "41ff",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1585,
+          "file_offset": 2565,
+          "opcode": 46,
+          "raw": "2e8032",
+          "remap_target": "0x94274",
+          "symbols": [
+            "50:write"
+          ],
+          "note": ""
+        },
+        {
+          "offset": 1588,
+          "file_offset": 2568,
+          "opcode": 92,
+          "raw": "5c",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1589,
+          "file_offset": 2569,
+          "opcode": 65,
+          "raw": "4101",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1591,
+          "file_offset": 2571,
+          "opcode": 109,
+          "raw": "6d",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1592,
+          "file_offset": 2572,
+          "opcode": 66,
+          "raw": "428007",
+          "remap_target": "0x94274",
+          "symbols": [
+            "7:bdIDLanguage"
+          ],
+          "note": ""
+        },
+        {
+          "offset": 1595,
+          "file_offset": 2575,
+          "opcode": 137,
+          "raw": "8902",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1597,
+          "file_offset": 2577,
+          "opcode": 65,
+          "raw": "41ff",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1599,
+          "file_offset": 2579,
+          "opcode": 46,
+          "raw": "2e8032",
+          "remap_target": "0x94274",
+          "symbols": [
+            "50:write"
+          ],
+          "note": ""
+        },
+        {
+          "offset": 1602,
+          "file_offset": 2582,
+          "opcode": 92,
+          "raw": "5c",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1603,
+          "file_offset": 2583,
+          "opcode": 65,
+          "raw": "4102",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1605,
+          "file_offset": 2585,
+          "opcode": 109,
+          "raw": "6d",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1606,
+          "file_offset": 2586,
+          "opcode": 66,
+          "raw": "428008",
+          "remap_target": "0x94274",
+          "symbols": [
+            "8:bdIDAvailLang"
+          ],
+          "note": ""
+        },
+        {
+          "offset": 1609,
+          "file_offset": 2589,
+          "opcode": 137,
+          "raw": "8902",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1611,
+          "file_offset": 2591,
+          "opcode": 65,
+          "raw": "41ff",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1613,
+          "file_offset": 2593,
+          "opcode": 46,
+          "raw": "2e8032",
+          "remap_target": "0x94274",
+          "symbols": [
+            "50:write"
+          ],
+          "note": ""
+        },
+        {
+          "offset": 1616,
+          "file_offset": 2596,
+          "opcode": 92,
+          "raw": "5c",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1617,
+          "file_offset": 2597,
+          "opcode": 65,
+          "raw": "4103",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1619,
+          "file_offset": 2599,
+          "opcode": 109,
+          "raw": "6d",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1620,
+          "file_offset": 2600,
+          "opcode": 66,
+          "raw": "428009",
+          "remap_target": "0x94274",
+          "symbols": [
+            "9:bdIDSignalType"
+          ],
+          "note": ""
+        },
+        {
+          "offset": 1623,
+          "file_offset": 2603,
+          "opcode": 137,
+          "raw": "8902",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1625,
+          "file_offset": 2605,
+          "opcode": 65,
+          "raw": "41ff",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1627,
+          "file_offset": 2607,
+          "opcode": 46,
+          "raw": "2e8032",
+          "remap_target": "0x94274",
+          "symbols": [
+            "50:write"
+          ],
+          "note": ""
+        },
+        {
+          "offset": 1630,
+          "file_offset": 2610,
+          "opcode": 92,
+          "raw": "5c",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1631,
+          "file_offset": 2611,
+          "opcode": 109,
+          "raw": "6d",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1632,
+          "file_offset": 2612,
+          "opcode": 66,
+          "raw": "428033",
+          "remap_target": "0x94274",
+          "symbols": [
+            "51:onFlushComplete"
+          ],
+          "note": ""
+        },
+        {
+          "offset": 1635,
+          "file_offset": 2615,
+          "opcode": 109,
+          "raw": "6d",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1636,
+          "file_offset": 2616,
+          "opcode": 109,
+          "raw": "6d",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1637,
+          "file_offset": 2617,
+          "opcode": 66,
+          "raw": "42800a",
+          "remap_target": "0x94274",
+          "symbols": [
+            "10:bcIDHostRegulation"
+          ],
+          "note": ""
+        },
+        {
+          "offset": 1640,
+          "file_offset": 2620,
+          "opcode": 137,
+          "raw": "8903",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1642,
+          "file_offset": 2622,
+          "opcode": 65,
+          "raw": "41ff",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1644,
+          "file_offset": 2624,
+          "opcode": 46,
+          "raw": "2e8034",
+          "remap_target": "0x94274",
+          "symbols": [
+            "52:flush"
+          ],
+          "note": ""
+        },
+        {
+          "offset": 1647,
+          "file_offset": 2627,
+          "opcode": 92,
+          "raw": "5c",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1648,
+          "file_offset": 2628,
+          "opcode": 56,
+          "raw": "38",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1649,
+          "file_offset": 2629,
+          "opcode": 108,
+          "raw": "6c",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1650,
+          "file_offset": 2630,
+          "opcode": 124,
+          "raw": "7c80350c04",
+          "remap_target": "0x942b8",
+          "symbols": [
+            "53:saveRegionInfoData"
+          ],
+          "note": ""
+        },
+        {
+          "offset": 1655,
+          "file_offset": 2635,
+          "opcode": 92,
+          "raw": "5c",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1656,
+          "file_offset": 2636,
+          "opcode": 55,
+          "raw": "37",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1657,
+          "file_offset": 2637,
+          "opcode": 63,
+          "raw": "3f000b",
+          "remap_target": "0x9428c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1660,
+          "file_offset": 2640,
+          "opcode": 35,
+          "raw": "23ffff22007900",
+          "remap_target": "0x94200",
+          "symbols": [
+            "65535:<special>"
+          ],
+          "note": ""
+        },
+        {
+          "offset": 1667,
+          "file_offset": 2647,
+          "opcode": 96,
+          "raw": "600000",
+          "remap_target": "0x9428c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1670,
+          "file_offset": 2650,
+          "opcode": 56,
+          "raw": "38",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1671,
+          "file_offset": 2651,
+          "opcode": 108,
+          "raw": "6c",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 1672,
+          "file_offset": 2652,
+          "opcode": 124,
+          "raw": "7c80330c04",
+          "remap_target": "0x942b8",
+          "symbols": [
+            "51:onFlushComplete"
+          ],
+          "note": ""
+        }
+      ],
+      "checked_targets": 13
+    },
+    {
+      "path": "evidence/extracted_g3/archives_unpacked/fskrel1/dsc/fsk/senserCmdTable.xsb",
+      "sha256": "d7d82f5437d375ef42fcc0fc1dbddaadc7cd90977741a4b2dc42f5cf8caa50db",
+      "runtime_sha256": "2fb7914c1f111650e0022db4f3c52b3d5328f9e16c20dc1a15db5cef6212203c",
+      "code_bytes": 67871,
+      "selected_instructions": [
+        {
+          "offset": 2090,
+          "file_offset": 18794,
+          "opcode": 106,
+          "raw": "6a726567696f6e496e666f00",
+          "remap_target": "0x942a4",
+          "symbols": [],
+          "note": "'regionInfo'"
+        },
+        {
+          "offset": 2102,
+          "file_offset": 18806,
+          "opcode": 137,
+          "raw": "8901",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 2104,
+          "file_offset": 18808,
+          "opcode": 93,
+          "raw": "5d",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 2105,
+          "file_offset": 18809,
+          "opcode": 66,
+          "raw": "428075",
+          "remap_target": "0x94274",
+          "symbols": [
+            "117:dscUtil"
+          ],
+          "note": ""
+        },
+        {
+          "offset": 2108,
+          "file_offset": 18812,
+          "opcode": 66,
+          "raw": "428076",
+          "remap_target": "0x94274",
+          "symbols": [
+            "118:extensionManager"
+          ],
+          "note": ""
+        },
+        {
+          "offset": 2111,
+          "file_offset": 18815,
+          "opcode": 46,
+          "raw": "2e8077",
+          "remap_target": "0x94274",
+          "symbols": [
+            "119:loadExtensions"
+          ],
+          "note": ""
+        },
+        {
+          "offset": 2114,
+          "file_offset": 18818,
+          "opcode": 92,
+          "raw": "5c",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 2115,
+          "file_offset": 18819,
+          "opcode": 93,
+          "raw": "5d",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 2116,
+          "file_offset": 18820,
+          "opcode": 66,
+          "raw": "428069",
+          "remap_target": "0x94274",
+          "symbols": [
+            "105:regionInfo"
+          ],
+          "note": ""
+        },
+        {
+          "offset": 2119,
+          "file_offset": 18823,
+          "opcode": 109,
+          "raw": "6d",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 2120,
+          "file_offset": 18824,
+          "opcode": 100,
+          "raw": "648069",
+          "remap_target": "0x94274",
+          "symbols": [
+            "105:regionInfo"
+          ],
+          "note": ""
+        },
+        {
+          "offset": 2123,
+          "file_offset": 18827,
+          "opcode": 92,
+          "raw": "5c",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 2124,
+          "file_offset": 18828,
+          "opcode": 137,
+          "raw": "8900",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 2126,
+          "file_offset": 18830,
+          "opcode": 109,
+          "raw": "6d",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 2127,
+          "file_offset": 18831,
+          "opcode": 66,
+          "raw": "428069",
+          "remap_target": "0x94274",
+          "symbols": [
+            "105:regionInfo"
+          ],
+          "note": ""
+        },
+        {
+          "offset": 2130,
+          "file_offset": 18834,
+          "opcode": 46,
+          "raw": "2e800e",
+          "remap_target": "0x94274",
+          "symbols": [
+            "14:initialize"
+          ],
+          "note": ""
+        },
+        {
+          "offset": 2133,
+          "file_offset": 18837,
+          "opcode": 92,
+          "raw": "5c",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 2134,
+          "file_offset": 18838,
+          "opcode": 65,
+          "raw": "41fc",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 2136,
+          "file_offset": 18840,
+          "opcode": 65,
+          "raw": "41fd",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 2138,
+          "file_offset": 18842,
+          "opcode": 65,
+          "raw": "41fe",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 2140,
+          "file_offset": 18844,
+          "opcode": 65,
+          "raw": "41ff",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 2142,
+          "file_offset": 18846,
+          "opcode": 137,
+          "raw": "8904",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 2144,
+          "file_offset": 18848,
+          "opcode": 109,
+          "raw": "6d",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 2145,
+          "file_offset": 18849,
+          "opcode": 66,
+          "raw": "428069",
+          "remap_target": "0x94274",
+          "symbols": [
+            "105:regionInfo"
+          ],
+          "note": ""
+        },
+        {
+          "offset": 2148,
+          "file_offset": 18852,
+          "opcode": 46,
+          "raw": "2e8078",
+          "remap_target": "0x94274",
+          "symbols": [
+            "120:makeRegionInfoFile"
+          ],
+          "note": ""
+        },
+        {
+          "offset": 2151,
+          "file_offset": 18855,
+          "opcode": 99,
+          "raw": "63fb",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 2153,
+          "file_offset": 18857,
+          "opcode": 92,
+          "raw": "5c",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 2154,
+          "file_offset": 18858,
+          "opcode": 65,
+          "raw": "41fb",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 2156,
+          "file_offset": 18860,
+          "opcode": 41,
+          "raw": "290076",
+          "remap_target": "0x9428c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 2159,
+          "file_offset": 18863,
+          "opcode": 65,
+          "raw": "41fc",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 2161,
+          "file_offset": 18865,
+          "opcode": 65,
+          "raw": "41fd",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 2163,
+          "file_offset": 18867,
+          "opcode": 65,
+          "raw": "41fe",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 2165,
+          "file_offset": 18869,
+          "opcode": 65,
+          "raw": "41ff",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 2167,
+          "file_offset": 18871,
+          "opcode": 137,
+          "raw": "8904",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 2169,
+          "file_offset": 18873,
+          "opcode": 109,
+          "raw": "6d",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 2170,
+          "file_offset": 18874,
+          "opcode": 66,
+          "raw": "428069",
+          "remap_target": "0x94274",
+          "symbols": [
+            "105:regionInfo"
+          ],
+          "note": ""
+        },
+        {
+          "offset": 2173,
+          "file_offset": 18877,
+          "opcode": 46,
+          "raw": "2e8079",
+          "remap_target": "0x94274",
+          "symbols": [
+            "121:saveRegionInfoData"
+          ],
+          "note": ""
+        },
+        {
+          "offset": 2176,
+          "file_offset": 18880,
+          "opcode": 92,
+          "raw": "5c",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 2177,
+          "file_offset": 18881,
+          "opcode": 137,
+          "raw": "8900",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 2179,
+          "file_offset": 18883,
+          "opcode": 93,
+          "raw": "5d",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 2180,
+          "file_offset": 18884,
+          "opcode": 66,
+          "raw": "42807a",
+          "remap_target": "0x94274",
+          "symbols": [
+            "122:Registry"
+          ],
+          "note": ""
+        },
+        {
+          "offset": 2183,
+          "file_offset": 18887,
+          "opcode": 46,
+          "raw": "2e807b",
+          "remap_target": "0x94274",
+          "symbols": [
+            "123:reset"
+          ],
+          "note": ""
+        },
+        {
+          "offset": 2186,
+          "file_offset": 18890,
+          "opcode": 92,
+          "raw": "5c",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 2187,
+          "file_offset": 18891,
+          "opcode": 137,
+          "raw": "8900",
+          "remap_target": "0x9426c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 2189,
+          "file_offset": 18893,
+          "opcode": 93,
+          "raw": "5d",
+          "remap_target": "0x9403c",
+          "symbols": [],
+          "note": ""
+        },
+        {
+          "offset": 2190,
+          "file_offset": 18894,
+          "opcode": 66,
+          "raw": "42807a",
+          "remap_target": "0x94274",
+          "symbols": [
+            "122:Registry"
+          ],
+          "note": ""
+        },
+        {
+          "offset": 2193,
+          "file_offset": 18897,
+          "opcode": 46,
+          "raw": "2e800e",
+          "remap_target": "0x94274",
+          "symbols": [
+            "14:initialize"
+          ],
+          "note": ""
+        }
+      ],
+      "checked_targets": 4
+    }
+  ]
+}

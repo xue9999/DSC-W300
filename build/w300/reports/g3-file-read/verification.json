@@ -1,0 +1,32 @@
+{
+  "ok": true,
+  "camera_io": false,
+  "firmware_executed": false,
+  "w300_qualified": false,
+  "scope": "Pinned static G3 file reader and PMCA constants; not an end-to-end transport test",
+  "firmware": [
+    {
+      "path": "evidence/extracted_g3/archives_unpacked/lib/lib/libsencore.so",
+      "sha256": "401bc78bc84bd175968513a387b8951626ceb48a345eed134b998d3630103270"
+    },
+    {
+      "path": "evidence/extracted_g3/archives_unpacked/lib/lib/libpro00.so",
+      "sha256": "1b7c0a0454a02479be4d44a7d4a30cdfb09f69551880b78a0f304f2df9b02887"
+    },
+    {
+      "path": "evidence/extracted_g3/archives_unpacked/lib/lib/libadj30.so",
+      "sha256": "87f3c81352f7e1fa960849c0001af93e712e82dca86f1e46e8b203c6ef9d54fb"
+    }
+  ],
+  "read_callback": "0xcfb4",
+  "open_flags": "0x1000",
+  "buffer_bytes": 32768,
+  "pmca": {
+    "commit": "a82f5baaa8e9c3d9f28f94699e860fb2e48cc8e0",
+    "sha256": "53ffb4d9d49cb5146623fda2b66ecb137681a6fc9ab0c98d23a51e75128af97e",
+    "functions": {
+      "_sendFileControlPacket": "def _sendFileControlPacket(self, cmd, filename, data=b'', outFile=None):\n  filename = filename.encode('latin1')\n  filename += b'\\0' * (4 - len(filename) % 4)\n  header = self.FileControlHeader.pack(cmd=cmd, filenameSize=len(filename))\n  res, data = self.dev.sendSenserPacket(self.SONY_PFUNC_FileControl, header + filename + data, outFile)\n  if res != 1:\n   raise Exception('Senser file control error %d' % res)\n  return data",
+      "readFile": "def readFile(self, filename, outFile=None):\n  return self._sendFileControlPacket(self.SONY_FILE_CONTROL_READ, filename, b'', outFile)"
+    }
+  }
+}

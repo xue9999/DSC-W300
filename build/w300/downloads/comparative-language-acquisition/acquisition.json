@@ -1,0 +1,70 @@
+[
+  {
+    "name": "DSC-W300.html",
+    "url": "https://oss.sony.net/Products/Linux/DI/DSC-W300.html",
+    "status": 200,
+    "final_url": "https://oss.sony.net/Products/Linux/DI/DSC-W300.html",
+    "content_type": "text/html",
+    "bytes": 6291,
+    "sha256": "a417346ec97a45f2ffe350d99e357475315e078350dd84c946b3ea3211362d01",
+    "package_urls": [
+      "https://prodgpl.blob.core.windows.net/download/DI/common/oVBUKPxBbmKO+N9GN8qBeQ/linux-kernel.tar.gz",
+      "https://prodgpl.blob.core.windows.net/download/DI/common/bCnLrhGB6kTEE47mA2qP_Q/sony-target-rel-busybox-1.01-010502di6.src.rpm",
+      "https://prodgpl.blob.core.windows.net/download/DI/common/jURTPoSLzfd7xhTRx0+Flg/sony-target-rel-dosfstools-2.11-010501.src.rpm",
+      "https://prodgpl.blob.core.windows.net/download/DI/common/GEyIFtjybjh_x+vMaOuOnw/sony-target-rel-netbase-4.06-010501.src.rpm",
+      "https://prodgpl.blob.core.windows.net/download/DI/common/fD8_fguvlh966+SSUPAvag/sony-target-rel-psmisc-21.6-010501.src.rpm"
+    ],
+    "same_five_urls_as_w300": true
+  },
+  {
+    "name": "DSC-W150.html",
+    "url": "https://oss.sony.net/Products/Linux/DI/DSC-W150.html",
+    "status": 200,
+    "final_url": "https://oss.sony.net/Products/Linux/DI/DSC-W150.html",
+    "content_type": "text/html",
+    "bytes": 6300,
+    "sha256": "b18cebdfafaddca6949510c0a8dcf4dee085bbd69ef0c6ef77ad1917c37789eb",
+    "package_urls": [
+      "https://prodgpl.blob.core.windows.net/download/DI/common/oVBUKPxBbmKO+N9GN8qBeQ/linux-kernel.tar.gz",
+      "https://prodgpl.blob.core.windows.net/download/DI/common/bCnLrhGB6kTEE47mA2qP_Q/sony-target-rel-busybox-1.01-010502di6.src.rpm",
+      "https://prodgpl.blob.core.windows.net/download/DI/common/jURTPoSLzfd7xhTRx0+Flg/sony-target-rel-dosfstools-2.11-010501.src.rpm",
+      "https://prodgpl.blob.core.windows.net/download/DI/common/GEyIFtjybjh_x+vMaOuOnw/sony-target-rel-netbase-4.06-010501.src.rpm",
+      "https://prodgpl.blob.core.windows.net/download/DI/common/fD8_fguvlh966+SSUPAvag/sony-target-rel-psmisc-21.6-010501.src.rpm"
+    ],
+    "same_five_urls_as_w300": true
+  },
+  {
+    "name": "DSC-T300.html",
+    "url": "https://oss.sony.net/Products/Linux/DI/DSC-T300.html",
+    "status": 200,
+    "final_url": "https://oss.sony.net/Products/Linux/DI/DSC-T300.html",
+    "content_type": "text/html",
+    "bytes": 6291,
+    "sha256": "c71033c1f8a059a07d04ab2c99833203e1962f97f91f5b392b1f120f546161c9",
+    "package_urls": [
+      "https://prodgpl.blob.core.windows.net/download/DI/common/oVBUKPxBbmKO+N9GN8qBeQ/linux-kernel.tar.gz",
+      "https://prodgpl.blob.core.windows.net/download/DI/common/bCnLrhGB6kTEE47mA2qP_Q/sony-target-rel-busybox-1.01-010502di6.src.rpm",
+      "https://prodgpl.blob.core.windows.net/download/DI/common/jURTPoSLzfd7xhTRx0+Flg/sony-target-rel-dosfstools-2.11-010501.src.rpm",
+      "https://prodgpl.blob.core.windows.net/download/DI/common/GEyIFtjybjh_x+vMaOuOnw/sony-target-rel-netbase-4.06-010501.src.rpm",
+      "https://prodgpl.blob.core.windows.net/download/DI/common/fD8_fguvlh966+SSUPAvag/sony-target-rel-psmisc-21.6-010501.src.rpm"
+    ],
+    "same_five_urls_as_w300": true
+  },
+  {
+    "name": "DSC-H50.html",
+    "url": "https://oss.sony.net/Products/Linux/DI/DSC-H50.html",
+    "status": 200,
+    "final_url": "https://oss.sony.net/Products/Linux/DI/DSC-H50.html",
+    "content_type": "text/html",
+    "bytes": 6289,
+    "sha256": "d34766c02fd42e71ba0ba4a1992bf4055decac640f119d6d9ca6eb3a18cd6993",
+    "package_urls": [
+      "https://prodgpl.blob.core.windows.net/download/DI/common/oVBUKPxBbmKO+N9GN8qBeQ/linux-kernel.tar.gz",
+      "https://prodgpl.blob.core.windows.net/download/DI/common/bCnLrhGB6kTEE47mA2qP_Q/sony-target-rel-busybox-1.01-010502di6.src.rpm",
+      "https://prodgpl.blob.core.windows.net/download/DI/common/jURTPoSLzfd7xhTRx0+Flg/sony-target-rel-dosfstools-2.11-010501.src.rpm",
+      "https://prodgpl.blob.core.windows.net/download/DI/common/GEyIFtjybjh_x+vMaOuOnw/sony-target-rel-netbase-4.06-010501.src.rpm",
+      "https://prodgpl.blob.core.windows.net/download/DI/common/fD8_fguvlh966+SSUPAvag/sony-target-rel-psmisc-21.6-010501.src.rpm"
+    ],
+    "same_five_urls_as_w300": true
+  }
+]

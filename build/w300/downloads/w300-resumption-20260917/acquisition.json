@@ -1,0 +1,7 @@
+[
+  {
+    "name": "grep-w300.json",
+    "url": "https://grep.app/api/search?q=DSC-W300",
+    "error": "HTTP Error 429: Too Many Requests"
+  }
+]

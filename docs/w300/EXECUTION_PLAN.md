@@ -8,6 +8,10 @@ Use Sony-PMCA-RE commit `a82f5baaa8e9c3d9f28f94699e860fb2e48cc8e0` as the transp
 
 Follow a new concrete package locator for `DSC-W300 Auto-Adj Ver_1.3r04.exe`, compatible SeusEX and its HASP requirements. Acquisition reports identify inspected catalogs, downloaded contents and follow-up targets. Inspect actual binaries and dependencies before choosing the operating system or a VM. Use G3 Hreg, AV and XS findings to frame precise W300 comparisons.
 
+The [resumption assessment](../../build/w300/reports/w300-resumption-20260917.md) confirms that the named historical catalog/archive routes have already been inspected without obtaining the missing W300 payload. A fresh implementation artifact or trustworthy W300 trace is needed to advance qualification. On acquisition, start with the documented Destination Check read handler before the original-board gate, language fields and persistence path.
+
+An alternative to external package acquisition is now grounded in retained G3 code: [Senser FileControl command 2 reads a named regular file](../../build/w300/reports/g3-file-read/README.md). After separately qualifying W300 service entry, exit and bounded transfer behavior, this may provide the W300 proprietary libraries directly. Use the reviewed regular-file bootstrap, not procfs; do not assume G3 paths or commands work on W300. This route remains offline research and is not implemented in the portable workbench.
+
 The analyst owns package acquisition, protocol qualification and implementation. Continue these offline tasks without connecting a camera to the preparation computer. The later camera session uses a separate Windows 10/11 x64 computer.
 
 ## Local tools and environment

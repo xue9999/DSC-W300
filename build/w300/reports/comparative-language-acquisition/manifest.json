@@ -1,0 +1,45 @@
+{
+  "scope": "Comparative acquisition and bounded G3 targets; original evidence manifest unchanged",
+  "artifacts": [
+    {
+      "path": "build/w300/downloads/comparative-language-acquisition/acquisition.json",
+      "bytes": 4230,
+      "sha256": "9ba0aeeae0e83903fef00cc41896f3bfff8ead829e8bc42334021aef71585c3e"
+    },
+    {
+      "path": "build/w300/downloads/comparative-language-acquisition/DSC-H50.html",
+      "bytes": 6289,
+      "sha256": "d34766c02fd42e71ba0ba4a1992bf4055decac640f119d6d9ca6eb3a18cd6993"
+    },
+    {
+      "path": "build/w300/downloads/comparative-language-acquisition/DSC-T300.html",
+      "bytes": 6291,
+      "sha256": "c71033c1f8a059a07d04ab2c99833203e1962f97f91f5b392b1f120f546161c9"
+    },
+    {
+      "path": "build/w300/downloads/comparative-language-acquisition/DSC-W150.html",
+      "bytes": 6300,
+      "sha256": "b18cebdfafaddca6949510c0a8dcf4dee085bbd69ef0c6ef77ad1917c37789eb"
+    },
+    {
+      "path": "build/w300/downloads/comparative-language-acquisition/DSC-W300.html",
+      "bytes": 6291,
+      "sha256": "a417346ec97a45f2ffe350d99e357475315e078350dd84c946b3ea3211362d01"
+    },
+    {
+      "path": "build/w300/reports/comparative-language-acquisition/g3-targets.json",
+      "bytes": 75746,
+      "sha256": "55594ec272c4648ca62212054fb15ea530d86603d2d73f698b550c6aa8a09b07"
+    },
+    {
+      "path": "build/w300/reports/comparative-language-acquisition/README.md",
+      "bytes": 8247,
+      "sha256": "53ee520af42d48c75f09e85eaa3cd48124121febd0a62438decb9411a009be64"
+    },
+    {
+      "path": "build/w300/reports/comparative-language-acquisition/verify_g3_targets.py",
+      "bytes": 2876,
+      "sha256": "51d2f57e57b8f0370b0880e0122275741a616909a63dd2e579eb42c13948510f"
+    }
+  ]
+}
