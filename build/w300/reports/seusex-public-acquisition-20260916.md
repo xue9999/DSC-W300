@@ -1,6 +1,6 @@
 # SeusEX public package acquisition: historical catalog route
 
-Editorial revision 4; underlying measurements and captured results retain their recorded scope.
+Editorial revision 5; underlying measurements and captured results retain their recorded scope.
 
 Date: 2026-09-16. Bounded follow-up to `auto-adj-acquisition.md` and `ibiss-acquisition.md`, which were consulted first. Scope is SeusEX package acquisition without a camera connection; no W300 Auto-Adj broad search, portal login, forms, contact, purchases, credential use, installation, or program execution.
 
@@ -12,13 +12,13 @@ The useful new evidence is the actual 2009 Software Informer download-page HTML.
 
 ## New route 1: distinguish catalog versions from actual payloads
 
-The current [download page](https://seusex.software.informer.com/download/) explicitly says the link is missing. Both [1.9](https://seusex.software.informer.com/1.9/) and [1.1](https://seusex.software.informer.com/1.1/) direct to a request-for-link facility, not an installer. The [versions page](https://seusex.software.informer.com/versions/) gives catalog dates in 2009, but offers no precise package filenames or checksums. No form was submitted.
+At the time of this check, the [download page](https://seusex.software.informer.com/download/) explicitly said the link was missing. Both [1.9](https://seusex.software.informer.com/1.9/) and [1.1](https://seusex.software.informer.com/1.1/) direct to a request-for-link facility, not an installer. The [versions page](https://seusex.software.informer.com/versions/) gives catalog dates in 2009, but offers no precise package filenames or checksums. No form was submitted.
 
 A direct PowerShell request to the current download page encountered a Cloudflare JavaScript/cookie challenge. This is an access/environment limitation, separate from the public page's explicit missing-download result, which the web browsing tool could read. No challenge workaround was attempted. The helper left a zero-byte local file, preserved under the explicit name `software-informer-live-empty-after-failed-request.txt`; it is not downloaded page content or a program.
 
 [UpdateStar](https://seusex.updatestar.com/) also explicitly reports no download available; its catalog does not establish a package version. [PC Matic](https://www.pcmatic.com/company/libraries/software/detail.asp?id=0&title=SeusEX) supplies a program name/manufacturer entry, not a SeusEX payload link. Neither page is an authenticated Sony distribution.
 
-Finding and follow-up: missing payload in catalog, not a missing runtime library.
+The catalog supplied no software package. Acquisition must continue before runtime dependencies can be assessed.
 
 ## New route 2: retrieve historical HTML and follow the actual locator
 

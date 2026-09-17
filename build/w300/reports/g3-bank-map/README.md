@@ -1,6 +1,6 @@
 # G3 AV bank to Linux backup category: missing link resolved
 
-Editorial revision 3; underlying measurements and captured results retain their recorded scope.
+Editorial revision 5; underlying measurements and captured results retain their recorded scope.
 
 **For the retained DSC-G3 components, AV page `0x61`, segment `0x0E` belongs to category 5: the Areg bank backed by `/boot/factory/Areg.bin` and `/boot/factory/Areg2.bak`.** The link follows the same two descriptor fields into the Linux category arrays. It does not rely on filename similarity or the common completion marker. This result supersedes only the bank-to-category uncertainty in `../av-page-init/README.md` and its Linux findings. Those completed reports remain unchanged.
 
@@ -43,7 +43,7 @@ The existing file-category evidence is also asserted directly from this ELF: cat
 
 The missing G3 category link is now established: page61/segment0E is Areg, not Ausr. The earlier observation of separate operation 4/flush and operation 5/erase can therefore be associated with a specific G3 category selector. This report does not assemble a command or recommend sending one.
 
-The prior persistence limitations still apply. `flush` checks `isDirty`; a direct AV copy has not been shown here to meet that condition. Erase writes zero-filled data and selector 0 affects all three AV categories. The trace identifies file-backed persistence code, not a completed transaction or a verified durability/restore guarantee.
+The prior persistence limitations still apply. `flush` checks `isDirty`; a direct AV copy has not been shown here to meet that condition. Erase writes zero-filled data and selector 0 affects all three AV categories. The trace identifies code that persists data to files. It does not establish a completed transaction, durable storage or a verified restoration procedure.
 
 The location under `/boot/factory/` and the symbol names identify the storage category. They do not prove which bytes represent calibration, destination, language or other factory settings. In particular, this result cannot justify replacing the entire bank or interpreting the G3 default contents as values for W300.
 

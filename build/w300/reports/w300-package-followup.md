@@ -1,8 +1,8 @@
 # W300 package follow-up: scope note
 
-Editorial revision 3; underlying measurements and captured results retain their recorded scope.
+Editorial revision 5; underlying measurements and captured results retain their recorded scope.
 
-2026-09-16. This check reviewed existing package locators; continue acquisition from a new concrete binary-bearing source. No camera operations, installation, executable execution, authentication or contact occurred.
+2026-09-16. This check reviewed existing package locators; continue acquisition from a new concrete binary-bearing source. No camera operations, software installation, execution of downloaded programs, authentication or external contact occurred.
 
 Reviewed the actual W300 ADJ text and existing acquisition evidence. The program reference remains `DSC-W300 Auto-Adj Ver_1.3r04.exe`; `985228754.pdf` and the DI08 references identify documents, not recovered payload locations. The completed [PDF object audit](w300-package-locators.md) already found no external software locator.
 

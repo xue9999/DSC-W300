@@ -1,6 +1,6 @@
 # W300 workbench handoff — revision 3, Windows x64
 
-Transfer the verified identification environment. In the revision-3 ZIP, `RESEARCH_PLAN.md` is the packaged research guide; for continued work use the current [repository execution plan](https://github.com/xue9999/DSC-W300/blob/main/docs/w300/EXECUTION_PLAN.md). The executable implements `selftest`, `inventory` and bounded `inquiry`; preserve the separate hardware and language-verification flags in its reports.
+Transfer the identification environment that passed the packaging checks. In the revision-3 ZIP, `RESEARCH_PLAN.md` is the packaged research guide; for further work use the current [repository execution plan](EXECUTION_PLAN.md). The executable implements `selftest`, `inventory` and `inquiry` with a limited read size. Preserve the separate hardware and language-verification flags in its reports.
 
 ## Transfer
 
@@ -45,6 +45,6 @@ The relocation check measures packaging on the preparation Windows 11 host. Reco
 
 ## Continue between device sessions
 
-An empty inventory is an observation about this computer. Save its report and continue package/firmware acquisition, static protocol analysis and offline tooling. When a receiving PC has the camera, resume at current identity verification. An access or identity error pauses the affected identification command while its exact cause is investigated; it does not prevent independent research.
+An empty inventory means this computer reported no matching devices. Save the report and continue acquiring packages or firmware, analyzing the protocol and developing offline tools. When the camera is connected to the receiving PC, verify its current identity before proceeding. Investigate an access or identity error before retrying the affected command; independent research can continue.
 
-This revision-4 repository guidance leaves the published revision-3 ZIP and its checksums intact. No new portable build is required for the documentation update.
+This editorial revision 5 leaves the published revision-3 ZIP and its checksums intact. The documentation update does not require a new portable build.

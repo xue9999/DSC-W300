@@ -1,6 +1,6 @@
 # Sony's 2008 PTP stack explanation: acquired attachment and interface boundary
 
-Editorial revision 3; underlying measurements and captured results retain their recorded scope.
+Editorial revision 5; underlying measurements and captured results retain their recorded scope.
 
 Inspected 2026-09-16. No camera connection, camera write, service-software installation, or external contact.
 
@@ -58,7 +58,7 @@ Bird's illustrative module metadata lists:
 | `usbg_storage.ko` | 01.21.000 | Mass-storage USB function |
 | `usbg_stillimage.ko` | 01.07.000 | Still-image USB function |
 
-All three examples are marked proprietary and show an `ARMv6` vermagic suffix. The locally downloaded W300 GPL `.config:123` instead enables `CONFIG_CPU_ARM926T=y`, and `.config:84` enables `CONFIG_ARCH_CXD4108=y`. **Do not identify the example modules as W300 binaries or transplant their version/ABI assumptions to W300.** No `.ko` bytes accompany the email or slide. Names are precise search/inspection targets, specific acquisition targets whose actual binaries should be inspected next.
+All three examples are marked proprietary and show an `ARMv6` vermagic suffix. The locally downloaded W300 GPL `.config:123` instead enables `CONFIG_CPU_ARM926T=y`, and `.config:84` enables `CONFIG_ARCH_CXD4108=y`. **Do not identify the example modules as W300 binaries or transplant their version/ABI assumptions to W300.** No `.ko` bytes accompany the email or slide. Use these names to locate binaries, then inspect their contents and model provenance.
 
 ## Reproduction and remaining limitation
 

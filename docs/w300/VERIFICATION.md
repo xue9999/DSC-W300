@@ -1,4 +1,4 @@
-# W300 preparation verification — research documentation revision 4
+# W300 preparation verification — research documentation revision 5
 
 Historical checks below were performed on 2026-09-16 on Windows 11 x64, build 26200. The later camera session uses a separate Windows 10/11 x64 computer. This preparation used offline analysis and OS inventory; camera settings, identity and calibration were preserved. Historical revision-3 publication checks are recorded separately in `build/w300/reports/release-r3-verification.json`.
 
@@ -68,6 +68,6 @@ The four canonical submodule pins are preserved. Research uses the separate pinn
 
 ## Use verification gaps to select work
 
-Each unmeasured property is an engineering question. Translate it into an acquisition, analysis or device-test task in the execution plan. Model-specific code or trustworthy transactions qualify W300 behavior; G3 comparisons identify the fields and handlers to examine. Advance those comparisons while developing a new W300 source, and prepare a bounded file-acquisition procedure as an alternative to the adjustment package.
+For each property that has not been measured, define an evidence-collection, analysis or device-test task in the execution plan. Establish W300 behavior from W300 code or trustworthy transactions; use G3 comparisons to identify fields and handlers to examine. Continue those comparisons while seeking a new W300 source, and prepare a file-read procedure with defined transfer limits as an alternative to obtaining the adjustment package.
 
 A false hardware-verification flag preserves the current measurement state. It is not an instruction to stop acquisition, implementation preparation or offline checks. Change it only when its corresponding device test supplies the required evidence.

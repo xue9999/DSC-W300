@@ -2,7 +2,7 @@
 
 ## Goal and working constraints
 
-Prepare persistent English menus on the original Japanese DSC-W300, preserving enclosure, identity, calibration and function. Continue research and engineering offline here; the later camera session uses another Windows 10/11 x64 PC. The analyst owns acquisition and qualification. Hardware writes require the separately authorized stage.
+Prepare English menus that remain after restart on the original Japanese DSC-W300, preserving enclosure, identity, calibration and function. Continue research and engineering offline here; the later camera session uses another Windows 10/11 x64 PC. The analyst is responsible for acquiring evidence and verifying the proposed operations. Hardware writes require the separately authorized stage.
 
 Keep hardware results, static code findings, documentation and simulation distinct. Current workbench commands are selftest, OS inventory and bounded standard SCSI INQUIRY. Derive service operations from W300 code or trustworthy transactions; preserve simulator guards and current-device identity matching.
 
@@ -36,7 +36,9 @@ Comparative acquisition targets named in Sony ADJ documentation are `DSC-W150_W1
 
 ## Repository integrity and publication
 
-Active documentation is English and follows findings, relevance to the goal, next action and verification. `AGENTS.md` governs continuation; dated reports supply evidence rather than global stop instructions. Preserve raw responses, test results, machine booleans and source bytes. Editorial Markdown in evidence is maintained separately from immutable artifacts. Preserve prior manifests byte-for-byte as historical checkpoints; create each new revision from an explicit baseline and reviewed change/addition lists. Revision-3 ZIPs remain tied to their original release; revision-4 main does not imply a rebuilt executable.
+Write maintained prose, comments and user-facing messages in concise, precise and accessible English. Use direct verbs, explicit subjects and consistent technical terms; explain specialist terms where needed. Remove repetition without losing findings, conditions or evidence limits. Preserve commands, identifiers, protocol strings and intentional Unicode tests. Keep original requests, imported research, third-party material and raw records unchanged.
+
+State findings, relevance to the goal, next action and verification. `AGENTS.md` governs further work; dated reports supply evidence rather than global stop instructions. Preserve raw responses, test results, machine booleans and source bytes. Maintain evidence commentary separately from immutable artifacts. Preserve prior manifests byte-for-byte as historical checkpoints; create each new revision from an explicit baseline and reviewed change/addition lists. Editorial revisions do not rebuild historical release ZIPs or establish new hardware results.
 
 `sources/` and manifest-listed `evidence/` are immutable inputs. `.gitattributes` protects bytes under Windows autocrlf. Firmware symlinks retain target semantics, including Windows text representations. Remove duplicates only after checking bytes and role. Source submodule pins stay unchanged.
 

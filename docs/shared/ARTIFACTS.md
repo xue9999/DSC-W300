@@ -30,16 +30,16 @@ The capability report records optional source checkouts, executable availability
 
 ## Research checkpoints
 
-Revision-3 release assets remain reproducible historical inputs; current research instructions and maintained reports on `main` advance through a separate revision-4 manifest. Preserve raw captures and prior measured values when updating report interpretation. If an acquisition route yields no payload, retain that scoped finding and the next source or method to try. Artifact absence should identify an acquisition task rather than suspend unrelated analysis.
+Revision-3 release assets remain reproducible historical inputs. The current working tree uses a separate editorial revision-5 manifest for maintained research instructions and reports. Preserve raw captures and prior measured values when updating report interpretation. If an acquisition route yields no payload, retain that scoped finding and the next source or method to try. If an artifact is missing, define how to obtain it and continue independent analysis.
 
 ## Create a reviewed manifest revision
 
-For the revision-4 update, preserve the revision-3 `build/w300/package_manifest.json` bytes in `build/w300/manifests/package_manifest.pre-editorial-r4.json` before creating the new current manifest. Retain that checkpoint and earlier manifests unchanged. The generator reads an explicit baseline, verifies every prior artifact and records only the reviewed changes and additions.
+For the revision-5 update, preserve the revision-4 `build/w300/package_manifest.json` bytes in `build/w300/manifests/package_manifest.pre-editorial-r5.json` before creating the new current manifest. Retain that checkpoint and earlier manifests unchanged. The generator reads an explicit baseline, verifies every prior artifact and records only the reviewed changes and additions.
 
 The command shape below is a template: replace each placeholder with an individually reviewed path, repeat `--change` and `--add` as needed, and omit `--add` when no new artifacts are required. Paths are relative to `build/w300`, use forward slashes and must identify individual files; wildcards and directory-wide enrollment are not supported.
 
 ```text
-python build/w300/release_manifest.py create --baseline manifests/package_manifest.pre-editorial-r4.json --revision 4 --change <existing-maintained-path> --change <another-maintained-path> --add <new-artifact-path>
+python build/w300/release_manifest.py create --baseline manifests/package_manifest.pre-editorial-r5.json --revision 5 --change <existing-maintained-path> --change <another-maintained-path> --add <new-artifact-path>
 python build/w300/release_manifest.py verify
 ```
 

@@ -1,14 +1,14 @@
 # G3 XS11 callback and service startup evidence
 
-Editorial revision 3; underlying measurements and captured results retain their recorded scope.
+Editorial revision 5; underlying measurements and captured results retain their recorded scope.
 
-This report replaces the earlier symbol-cooccurrence boundary with instruction framing derived from the **actual retained G3 runtime** (`tinyhttp`). No newer Kinoma opcode table, firmware execution or general emulator is used. It closes selected script-to-native edges, not the entire live lifecycle and not W300 compatibility.
+Earlier analysis established only that certain symbol names occurred together. This report identifies instruction boundaries using the **retained G3 runtime** (`tinyhttp`) and traces selected calls from scripts to native code. It uses no newer Kinoma opcode table, firmware execution or general emulator. It does not establish the complete runtime lifecycle or W300 compatibility.
 
 ## Method and checks
 
 `frame_xs.py` derives operand classes from the ARM branch table in `fxRemapIDs` at 0x94050. Fixed operands, nul-terminated strings, function metadata and counted ID pairs follow the corresponding native handlers. The ID remapper at 0x93FA8 reads big-endian IDs, preserves 0xFFFF and masks the other IDs with 0x7FFF. Unsupported extension-hook opcodes fail closed.
 
-`reproduce_xs.py` validates input hashes against the preserved artifact manifest, full container lengths, all encountered operand boundaries, symbol bounds, final terminators, and alignment of every 0x28/0x29/0x2A relative branch in four selected scripts. All four CODE payloads frame completely. Large outputs retain only relevant ranges; full framing is still checked. This is structural validation, not proof that every function executes or that all opcode semantics have been reconstructed.
+`reproduce_xs.py` validates input hashes against the preserved artifact manifest, full container lengths, all encountered operand boundaries, symbol bounds, final terminators, and alignment of every 0x28/0x29/0x2A relative branch in four selected scripts. The decoder identifies instruction boundaries throughout all four CODE payloads. Large outputs retain only relevant ranges; full framing is still checked. This is structural validation, not proof that every function executes or that all opcode semantics have been reconstructed.
 
 The independent `xs-review` analysis checks selected semantics against both `fxRunLoop` and its accelerator. In particular, 0x42 gets a property, 0x2E resolves and calls a method, 0x64 assigns a property, 0x7C calls `fxPutID`, 0x6C swaps stack slots and 0x89 pushes a signed byte integer. The read/assignment distinction matters: symbol names alone did not establish these operations.
 

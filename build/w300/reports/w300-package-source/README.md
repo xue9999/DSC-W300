@@ -1,14 +1,14 @@
 # Historical Sony Japan body-update catalog: bounded acquisition
 
-Editorial revision 4; underlying measurements and captured results retain their recorded scope.
+Editorial revision 5; underlying measurements and captured results retain their recorded scope.
 
-Checked 2026-09-17. No camera connected, package executed, login, contact or purchase. Original `sources/` and `evidence/` unchanged.
+Checked 2026-09-17. No camera was connected, no software package was executed, and no login, external contact or purchase occurred. Original `sources/` and `evidence/` files remained unchanged.
 
 ## Actual outcome
 
 Sony Japan's historical body-update catalog and archived pages reached through its relocation notice were inspected. Their model lists and HTML are retained below. Continue acquisition of DSC-W300 proprietary firmware or `DSC-W300 Auto-Adj Ver_1.3r04.exe` through a new model-linked package source, then verify actual executable contents.
 
-Prior acquisition reports (`auto-adj-acquisition.md`, `adjustment-collections.md`, `seusex-public-acquisition-20260916.md`, `w300-package-followup.md`, `w300-firmware-followup.md`, and `downloads/w300-firmware-candidates/ACQUISITION_REPORT.md`) were reviewed. Initial discovery searches reproduced several known irrelevant/manual hits and are not counted as new evidence. The `bbs.520101.com` historical archive is excluded here because the root agent owns it.
+Prior acquisition reports (`auto-adj-acquisition.md`, `adjustment-collections.md`, `seusex-public-acquisition-20260916.md`, `w300-package-followup.md`, `w300-firmware-followup.md`, and `downloads/w300-firmware-candidates/ACQUISITION_REPORT.md`) were reviewed. Initial discovery searches reproduced several known irrelevant/manual hits and are not counted as new evidence. The `bbs.520101.com` historical archive was excluded from this check because a separate investigation covered it.
 
 ## New source chain and inspected content
 
@@ -25,7 +25,7 @@ Acquired material: `build/w300/downloads/w300-package-source/`.
 - `acquire.py`: bounded public GETs for the primary notices, relocation page, current redirect page, and exact catalog CDX index.
 - `follow_catalog.py`: retrieves the first/last successful catalog captures from that returned index.
 - `follow_years.py`: follows only the two actual older-year links from the retrieved catalog.
-- `inspect_catalog.py`: offline verifies all ten successfully saved responses against acquisition receipts and extracts the four archived update blocks and their links.
+- `inspect_catalog.py`: verifies all ten successfully saved responses offline against acquisition receipts and extracts the four archived update blocks and their links.
 - `inspection.json`: successful offline inspection result; acquisition errors are kept separate from saved payloads.
 
 Run the offline check from the repository root:

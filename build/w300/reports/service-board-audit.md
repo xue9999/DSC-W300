@@ -1,12 +1,12 @@
 # W300 service-board and recovery audit
 
-Editorial revision 4; underlying measurements and captured results retain their recorded scope.
+Editorial revision 5; underlying measurements and captured results retain their recorded scope.
 
 ## Result and scope
 
 Read-only source audit performed on 2026-09-16. No USB command was issued and no source or retained evidence file was changed. The precise Sony program has a documented destination-write function for the DSC-W300, but the documented workflow explicitly excludes boards other than service boards. A normal original production board cannot be called eligible on the evidence reviewed here. This is not proof that changing an original board is technically impossible: the gate implementation and a validated alternative remain unknown.
 
-The strongest additional evidence is Sony's W300 Level 2 service note, section 1-1, which ties destination writing to replacement of the **SY-199** board and separately says that a new service board lacks the original factory USB identity. Consequently, “service board” is a category of replacement board, not a synonym for any camera connected in Adjustment Mode. An exact binary, W300-specific protocol trace, or equivalent implementation evidence is needed to establish whether the restriction is in Auto-Adj, camera firmware, stored board metadata, or hardware. Entering service mode alone does not discharge this requirement.
+The strongest additional evidence is Sony's W300 Level 2 service note, section 1-1, which ties destination writing to replacement of the **SY-199** board and separately says that a new service board lacks the original factory USB identity. Consequently, “service board” is a category of replacement board, not a synonym for any camera connected in Adjustment Mode. An exact binary, W300-specific protocol trace, or equivalent implementation evidence is needed to establish whether the restriction is in Auto-Adj, camera firmware, stored board metadata, or hardware. Entering service mode alone does not establish original-board eligibility.
 
 ## Sources inspected
 
@@ -14,7 +14,7 @@ The strongest additional evidence is Sony's W300 Level 2 service note, section 1
 - Relevant existing page renders visually inspected: `evidence/adj-page-11.png` and `evidence/adj-page-36.png`. These confirm both the tabular language details and wording contained only in the p.11 dialog image.
 - Sony-authored DSC-W300 Level 2 service manual reproduced at [section 1-1, PDF page 5 / printed 1-1](https://www.manualslib.com/manual/767486/Sony-Dsc-W300.html?page=5) and [section 1-5, PDF page 8 / printed 1-4](https://www.manualslib.com/manual/767486/Sony-Dsc-W300.html?page=8). The host is a third-party manual mirror; the technical content is Sony's source material.
 - Repository context: `ANALYSIS_LOG.md`, `docs/w300/README.md`, `sources/manifest.json`, `evidence/acquisition.md`, and `evidence/usb-investigation.md`. These are prior research context rather than independent model-support proof.
-- Current Sony public W300 support pages still list PlayMemories Home as their software download; that software is not Auto-Adj: [Sony India W300 support](https://www.sony.co.in/electronics/support/compact-cameras-dscw-series/dsc-w300).
+- At the time of this audit, Sony's public W300 support pages listed PlayMemories Home as their software download; that software is not Auto-Adj: [Sony India W300 support](https://www.sony.co.in/electronics/support/compact-cameras-dscw-series/dsc-w300).
 
 ## Exact supported operation
 
@@ -24,7 +24,7 @@ For a qualified service board, the actual documented operation is Main Menu > **
 
 The p.11 dialog image states that the write completes first, that changes take effect after reset, and that pressing **OK automatically resets the camera**. Its opening status text is `Destination Data Write Completed.` Do not mistake this OK button for a read-only acknowledgement before the write. The final step is a fresh Destination Check.
 
-The table offers several English-initial destinations. **U2** is English-initial and **NTSC**, like the Japanese **J1** video default. **CEE8** is English-initial but **PAL**. CEE8 is therefore not automatically the minimum-scope target for a Japanese original when English is the only goal. The table does not reveal whether changing destination also changes other undisclosed fields, and it does not supply the destination's encoding, memory address, checksum, or USB request. No raw values should be inferred from list order.
+The table offers several English-initial destinations. **U2** uses English as its initial language and **NTSC** as its video default, matching the Japanese **J1** video default. **CEE8** uses English initially but defaults to **PAL**. CEE8 is therefore not automatically the minimum-scope target for a Japanese original when English is the only goal. The table does not reveal whether changing destination also changes other undisclosed fields, and it does not supply the destination's encoding, memory address, checksum, or USB request. No raw values should be inferred from list order.
 
 ## Environment and connection supported by the manual
 

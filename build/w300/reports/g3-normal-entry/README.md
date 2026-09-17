@@ -1,6 +1,6 @@
 # G3 native normal-entry evidence and compiled-script boundary
 
-Editorial revision 3; underlying measurements and captured results retain their recorded scope.
+Editorial revision 5; underlying measurements and captured results retain their recorded scope.
 
 The retained G3 firmware contains a concrete alternative `NinCooperator` that selects a four-byte hash input. This resolves the narrow objection that only the `WorkerThreadManager::getProductId() == 1` branch had been linked to an actual object. It does **not** establish the complete normal-MSC-to-SENSER transition, successful PMCA authentication, or any W300 capability.
 
@@ -46,8 +46,8 @@ Run from the repository root with the prepared Python environment and Capstone u
 & '.\build\w300\venv\Scripts\python.exe' '.\build\w300\reports\g3-normal-entry\reproduce.py'
 ```
 
-This only reads immutable artifacts and writes this report directory. It calls the retained ELF inventory/decoders, the XSB container inspector, and `verify_entry.py`. The last script asserts constructor/vtable relocations, selected instruction words and branch targets, the dynamic filename/symbol, Senif registration pointers, hash input length, callback and wrapper boundaries, and the pinned PMCA conditional. Its output is [entry-evidence.json](entry-evidence.json), plus three selected native listings. Earlier symbol-size listings include clearly marked trailing literal pools; those data words are not treated as executed instructions.
+This reads immutable artifacts and writes outputs only to this report directory. It calls the retained ELF inventory/decoders, the XSB container inspector, and `verify_entry.py`. The last script asserts constructor/vtable relocations, selected instruction words and branch targets, the dynamic filename/symbol, Senif registration pointers, hash input length, callback and wrapper boundaries, and the pinned PMCA conditional. Its output is [entry-evidence.json](entry-evidence.json), plus three selected native listings. Earlier symbol-size listings include clearly marked trailing literal pools; those data words are not treated as executed instructions.
 
-Each constituent ran successfully. `verify_entry.py` printed `ok: true`, `G3_Extension_product_id: 0`, and `selected_hash_input_bytes: 4`; both full-transition and W300-compatibility results remain false. The aggregation wrapper is provided for the root replay; it was not redundantly run in this subtask. An initial checker attempt selected PMCA's earlier keys ternary instead of the `data` assignment; restricting the AST selector to assignment target `data` corrected that analysis-script error, after which all assertions passed.
+Each constituent ran successfully. `verify_entry.py` printed `ok: true`, `G3_Extension_product_id: 0`, and `selected_hash_input_bytes: 4`; both full-transition and W300-compatibility results remain false. The aggregation wrapper is provided to replay the checks from the repository root; it was not run again during this analysis. An initial checker attempt selected PMCA's earlier keys ternary instead of the `data` assignment; restricting the AST selector to assignment target `data` corrected that analysis-script error, after which all assertions passed.
 
 The subsequent [XS entry analysis](../g3-xs-entry/README.md) and [event trace](../g3-entry-events/README.md) develop the application/script lifecycle from these native findings. Continue from those results to qualify the corresponding W300 entry, authentication and exit sequence, then its language operation and recovery.

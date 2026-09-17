@@ -1,12 +1,12 @@
 # Destination Data Write: additional service-document search
 
-Editorial revision 3; underlying measurements and captured results retain their recorded scope.
+Editorial revision 5; underlying measurements and captured results retain their recorded scope.
 
 ## Result
 
 This bounded follow-up found **no additional W300-specific eligibility test, lock implementation, destination address, payload, checksum, or restoration command**. No standalone copy of Sony bulletins DI08-068, DI08-113, or DI08-225 was obtained. This is a result of the stated searches, not evidence that the bulletins do not exist.
 
-The new material establishes a narrower but material point: in another Sony camera family from the same service-software period, the Service board restriction describes a device error and shutdown after an inappropriate destination operation. It therefore cannot universally be interpreted as a harmless disabled button or a check that necessarily happens before a write. **This is comparative evidence, not proof of W300 behavior.** No operation from another model has been transferred to W300.
+The new material establishes one relevant point: for another Sony camera family from the same service-software period, the Service board restriction describes a device error and shutdown after an inappropriate destination operation. It therefore cannot universally be interpreted as a harmless disabled button or a check that necessarily happens before a write. **This is comparative evidence, not proof of W300 behavior.** No operation from another model has been transferred to W300.
 
 ## New primary-authored material inspected
 
@@ -34,6 +34,6 @@ The parent obtained a separate W300 Level-3 manual during this follow-up. Its bo
 
 ## Consequence for the implementation route
 
-Inspect the W300 Auto-Adj/SeusEX routine and associated data, or a qualified W300 trace, to identify original-board eligibility, read representation and the affected write set. Verify destination reading, write eligibility and restoration as separate steps, each supported by its own evidence.
+Inspect the W300 Auto-Adj/SeusEX routine and associated data, or a verified W300 trace, to determine whether the operation supports the original board, how it represents read data and which data it writes. Verify destination reading, write eligibility and restoration as separate steps, each supported by its own evidence.
 
 No device command, service-mode transition, driver change or camera setting write was performed. Existing W300 sources and evidence were not modified. This follow-up adds evidence about the practical significance of the restriction; it does not satisfy the user's language-change readiness criteria.

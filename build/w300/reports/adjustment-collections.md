@@ -1,6 +1,6 @@
 # Sony adjustment collection acquisition check
 
-Editorial revision 4; underlying measurements and captured results retain their recorded scope.
+Editorial revision 5; underlying measurements and captured results retain their recorded scope.
 
 Checked: 2026-09-16. Scope: three new collection/catalog routes, without a camera. No program was downloaded, executed or installed in this check. No useful public service-package locator was established.
 
@@ -18,7 +18,7 @@ The public metadata and original-file inventories of three new camera-CD candida
 | [sony-cyber-shot-dsc-t100](https://archive.org/details/sony-cyber-shot-dsc-t100) | `Cyber-shot DSC-T100 CD.iso`, 370,925,568 bytes | Consumer installation CD for DSC-T100, dated 2007. |
 | [SonyHandycam](https://archive.org/details/SonyHandycam) | `SONYPICTUTIL.iso`, 513,265,664 bytes | 2009 camcorder CD: PMB 4.2.00, handbook and registration. |
 
-These are real archived ISO objects, but their metadata supplies no service-tool or W300 linkage. The ISO bytes were not downloaded or inspected. Consequently this check does **not** assert that a member-by-member inspection proved Auto-Adj or SeusEX absent. There was no evidence justifying treating these unrelated consumer CDs as a service-software acquisition lead.
+These are real archived ISO objects, but their metadata supplies no service-tool or W300 linkage. The ISO bytes were not downloaded or inspected. The check therefore does **not** establish whether the ISO files contain Auto-Adj or SeusEX. The retrieved metadata provides no reason to pursue these consumer CDs as sources of service software.
 
 Classification: wrong product/package category in the retrieved descriptions; neither a missing runtime dependency nor demonstrated lack of W300 support in an acquired program.
 

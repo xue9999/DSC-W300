@@ -1,10 +1,10 @@
 # Official G3 and W300 GPL release cross-check
 
-Editorial revision 3; underlying measurements and captured results retain their recorded scope.
+Editorial revision 5; underlying measurements and captured results retain their recorded scope.
 
 ## Result
 
-Sony's official G3 and W300 source releases use **different kernel download URLs and different kernel archives**, but their included configurations select the **same CXD4108 / ARM926T / ARMv5 platform**, RAM base and Sony USB-core options. This is stronger than a similarity inferred from camera age, and weaker than identical platform software. It does **not** establish that the proprietary service implementation, authentication, packet format, destination data or persistence operation is shared.
+Sony's official G3 and W300 source releases use **different kernel download URLs and different kernel archives**, but their included configurations select the **same CXD4108 / ARM926T / ARMv5 platform**, RAM base and Sony USB-core options. This establishes shared platform configuration directly, but does not establish identical platform software. It does **not** establish that the proprietary service implementation, authentication, packet format, destination data or persistence operation is shared.
 
 The [official DSC-G3 source page](https://oss.sony.net/Products/Linux/DI/DSC-G3.html) was downloaded as HTML and its actual links parsed. They were compared with the retained acquisition record for the [official DSC-W300 release](https://oss.sony.net/Products/Linux/DI/DSC-W300.html). Four non-kernel package URLs are exactly the same: BusyBox, dosfstools, netbase and psmisc. They were **not downloaded again**. Only the different G3 kernel was acquired.
 

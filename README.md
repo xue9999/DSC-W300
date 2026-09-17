@@ -1,10 +1,10 @@
 # Sony DSC-W300 and DSC-G3 research laboratory
 
-This repository develops a reproducible route to persistent English menus on the original Japanese DSC-W300 and maintains a separate DSC-G3 firmware research workstream. Preserved sources, offline analysis, labelled simulations and the portable W300 identification environment provide the foundations for the next engineering step.
+This repository researches how to keep English menus on the original Japanese DSC-W300 after restart, while preserving its identity, calibration and normal operation. A separate workstream studies DSC-G3 firmware. The repository contains source files, offline analysis, clearly labelled simulations and a portable tool for identifying the W300.
 
-For W300 work, start with the [execution plan](docs/w300/EXECUTION_PLAN.md) and the [agent continuation rules](AGENTS.md). The analyst owns finding the needed implementation evidence and pursuing alternative routes. An exhausted source closes that search attempt; it directs the next acquisition or analysis task. Hardware milestones are verified on the camera at the appropriate stage.
+For W300 work, start with the [execution plan](docs/w300/EXECUTION_PLAN.md) and the [agent instructions](AGENTS.md). The analyst must find the evidence needed to implement the change and try another source or method when an attempt cannot advance. Hardware claims require tests on the camera at the appropriate stage.
 
-| Workstream | Established foundation | Next qualification |
+| Workstream | What is established | What still needs verification |
 | --- | --- | --- |
 | DSC-W300 language research | Sony service-manual findings, historical USB observations, offline service simulator | Retail-board destination encoding, recoverable conversion, persistent English on an actual camera |
 | DSC-G3 firmware | EXE/container parsing, section integrity, filesystem extraction, experimental file modifications | Acceptance of modified firmware by a camera, bootability, image-quality improvement |
@@ -40,14 +40,14 @@ Read [W300 findings](docs/w300/README.md), [G3 offline tools](docs/g3/README.md)
 
 ## Evidence rules
 
-A source document, an observed byte sequence, a simulation and a hardware result are different kinds of evidence. Each current guide identifies its basis and limits. HMAC verifies container integrity. Qualify provenance and hardware effects separately, using device observations to connect an instruction change with its behavior.
+A source document, an observed byte sequence, a simulation and a hardware result provide different kinds of evidence. Each current guide states its evidence and limits. HMAC (a keyed integrity check) verifies container integrity. Verify the source's origin and the effects on hardware separately; use camera observations to establish what an instruction change actually does.
 
 The repository keeps historical sources unchanged where possible. Historical status files and imported research can contain superseded statements; consult the [evidence index](evidence/README.md) before treating them as instructions. Removed misleading guides remain in Git history.
 
 Default tests and repository audits run offline. Native USB probes are active research utilities. Follow the bounded identification procedure for the first device session and complete model-specific qualification before a separately authorized write.
 
-The [cleanup verification report](CLEANUP_REPORT.md) records the checks actually performed during the repository cleanup and the next qualification steps.
+The [cleanup verification report](CLEANUP_REPORT.md) records the checks performed during cleanup and the remaining verification work.
 
 ## Complete research handoff
 
-The historical [revision-3 GitHub Release](https://github.com/xue9999/DSC-W300/releases/tag/w300-research-r3) supplies the Windows x64 identification workbench and offline research inputs with SHA-256 inventories. Follow the [restoration guide](docs/w300/RELEASE_RESTORE.md) for its matching checkout and dependencies. Current main uses editorial revision 4 with an explicit continuation policy and additional research reports. The revision-3 ZIPs retain their original contents and manifests; current documentation does not add service commands to that executable.
+The historical [revision-3 GitHub Release](https://github.com/xue9999/DSC-W300/releases/tag/w300-research-r3) supplies the Windows x64 identification workbench and offline research inputs with SHA-256 inventories. Follow the [restoration guide](docs/w300/RELEASE_RESTORE.md) for its matching checkout and dependencies. The current working tree uses editorial revision 5, which clarifies the research guidance and reports. The revision-3 ZIPs retain their original contents and manifests; the documentation changes do not add service commands to that executable.

@@ -4,7 +4,7 @@
 
 The retained `sources/DSCG3V2.exe` is the imported G3 updater. The [artifact manifest](../../evidence/artifact_manifest.json) records its integrity and provenance limits. A known hash identifies these bytes; it is not proof of a new download or manufacturer endorsement.
 
-The parser carves an LHA payload, validates the MsFirm container and its section HMACs, and extracts CramFS, ext2 and TAR content. The [inventory](../../evidence/decrypted_inventory.json) is historical extraction metadata; current commands and tests reproduce the relevant byte-level results.
+The parser extracts the embedded LHA payload, validates the MsFirm container and its section HMACs (keyed integrity checks), and extracts CramFS, ext2 and TAR content. The [inventory](../../evidence/decrypted_inventory.json) is historical extraction metadata; current commands and tests reproduce the relevant byte-level results.
 
 ```sh
 python tools/g3_firmware_parser.py --source sources/DSCG3V2.exe --output build/g3/extracted --all
@@ -23,7 +23,7 @@ The text experiment changes the `SETUP_VERSION` row in the English resource. Cus
 
 Both generators require the pinned original input and verified section data. They stage the output, verify the allowed changes and unchanged content, then publish the result. Existing output requires `--overwrite`; preserved inputs and evidence cannot be used as generator output even with that flag. `--verify-only` checks an existing experiment against the trusted baseline.
 
-Successful verification establishes offline integrity and change isolation. Use these results as the baseline for separate qualification of installation, boot, sensor behavior, image quality and recovery. Establish equivalent evidence for each additional camera model. HMAC verifies container integrity; assess manufacturer authorization separately.
+Successful verification establishes that the files pass offline integrity checks and contain only the intended changes. Use these results as the baseline for separate tests of installation, boot, sensor behavior, image quality and recovery. Establish equivalent evidence for each additional camera model. HMAC verifies container integrity; assess manufacturer authorization separately.
 
 The retained experimental images were regenerated during repository cleanup after the earlier images failed the stricter change-isolation checks. Their manifest records the input, generator command and current verification scope; superseded images remain in Git history. Tests generate new images in temporary directories rather than treating retained files as proof that the generators work.
 

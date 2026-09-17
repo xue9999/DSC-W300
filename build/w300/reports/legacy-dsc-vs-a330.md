@@ -1,6 +1,6 @@
 # Early DSC-era assumptions versus the later A330 implementation
 
-Editorial revision 3; underlying measurements and captured results retain their recorded scope.
+Editorial revision 5; underlying measurements and captured results retain their recorded scope.
 
 ## Result and boundary
 
@@ -44,13 +44,13 @@ Line numbers below refer to the respective extracted original `a330.py` files. F
 
 The third attachment is a Python-version repair attempt: its hex printer iterates `bytearray(data)` and its Inquiry read adds `bytes(...)`. It does not supply another DSC transport or address map. The conversation subsequently records further Python 2 conversion fixes, which are outside this three-download scope.
 
-The original [A330 descriptor and failed first attempt](https://github.com/ma1co/Sony-PMCA-RE/issues/282#issuecomment-1014891722) show USB PID 03a8, product DSLR-A330, interface class08/subclass06/protocol50. Inquiry times out with the initial control/bulk script. The maintainer then supplies the bulk-only version in comment1015544237. This is a concrete transport mismatch and correction; it is not a failed W300 attempt.
+The original [A330 descriptor and failed first attempt](https://github.com/ma1co/Sony-PMCA-RE/issues/282#issuecomment-1014891722) show USB PID 03a8, product DSLR-A330, interface class 08, subclass 06 and protocol 50. Inquiry times out with the initial control/bulk script. The maintainer then supplies the bulk-only version in comment 1015544237. This is a concrete transport mismatch and correction; it is not a failed W300 attempt.
 
 The maintainer later [states that the authentication shortcut fails on A330](https://github.com/ma1co/Sony-PMCA-RE/issues/282#issuecomment-1015878435), then [supplies a challenge-response version](https://github.com/ma1co/Sony-PMCA-RE/issues/282#issuecomment-1016188694). After [decrypting the A330 updater](https://github.com/ma1co/Sony-PMCA-RE/issues/282#issuecomment-1023584809), the maintainer supplies the already retained 7953397 flash-dump version. Therefore the later corrected memory arguments and dump range are supported by model-specific A330 investigation, not merely by chronological proximity to a DSC camera.
 
 ## Consequence for W300 work
 
-The earliest attachment preserves an additional research hypothesis: the source DSC generation may use control/bulk Inquiry and a permissive older service handler. This is an inference from source differences plus the maintainer's unspecific DSC statement. It is **not** sufficient justification to send zero authentication, malformed length fields or guessed memory offsets to W300.
+The earliest attachment preserves an additional research hypothesis: the source DSC generation may use control/bulk Inquiry and a permissive older service handler. This is an inference from the source differences and the maintainer's statement, which names no DSC model. It is **not** sufficient justification to send zero authentication, malformed length fields or guessed memory offsets to W300.
 
 No inspected attachment or relevant comment identifies a named DSC model, W300 USB service reply, W300 safe memory-read address, W300 destination byte, or W300 persistence command. The initial zero-based 8 MiB range must not be relabeled as an ARM/CXD4108 flash map, and the later 9f000000 A330 range must not be transferred to W300. Processor-architecture knowledge does not supply that missing address-space/protocol mapping.
 

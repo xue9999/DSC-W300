@@ -4,7 +4,7 @@ Verifies:
   1. SDM Partition Table packing and parsing (header magic '8246', version '1.00').
   2. OneNAND image construction and spare area markers (0x5555, 0xAAAA).
   3. MBR image construction and partition bounds.
-  4. Factory calibration Partition 2 structure (destination byte, touchscreen, TV standard).
+  4. Synthetic partition-2 fixture layout (destination byte, touchscreen, TV standard).
   5. QEMU CLI argument synthesis for DSC-G3 and DSC-W90.
   6. High-level Cxd4108FlashBuilder assembly.
 

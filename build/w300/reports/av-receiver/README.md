@@ -1,6 +1,6 @@
 # Retained G3 AV receiver: concrete segmented-address handler
 
-Editorial revision 3; underlying measurements and captured results retain their recorded scope.
+Editorial revision 5; underlying measurements and captured results retain their recorded scope.
 
 ## Result
 
@@ -70,7 +70,7 @@ All offsets below refer to **P**, the AV shared body. Halfwords are loaded by li
 
 The copy interpretation was checked against the actual callee, not just an assumed calling convention. `BLX` at file `+0x226C2` targets ARM VA `0x20257D98`, file `+0x157D98`. Its code through final `BX LR` at `+0x157EB4` loads bytes/words from `r1` and stores them through `r0`, with `r2` controlling length. This includes the byte alignment path (`+0x157DA8/+0x157DB8`), aligned multiword path (`+0x157E58/+0x157E5C`) and tail-byte path (`+0x157E9C/+0x157EA8`). At this call site, `r1=P+0xC` and `r0=runtime_pointer+offset`; therefore the examined operation-2/3 path does copy supplied data into the selected memory. The complete bounded callee and byte assertions are retained with the receiver analysis.
 
-An earlier transaction-allocation branch also checks its requested-size field against `0x10C`. That is a transaction field propagated from I, not a license to choose an arbitrary host buffer length. Table type 4 has a separate handler at `+0x2279C`, outside the qualified direct type-2/3 interpretation. The initial table's null data pointers further mean that valid-looking fields alone do not establish a usable runtime read.
+An earlier transaction-allocation branch also checks its requested-size field against `0x10C`. That field comes from I; this check does not establish a valid host buffer length. Table type 4 has a separate handler at `+0x2279C`, outside the qualified direct type-2/3 interpretation. The initial table contains null data pointers, so apparently valid field values do not by themselves establish that a runtime read will work.
 
 The read branch changes response/transaction bookkeeping and calls a reporting function at `+0x96E44`. Its complete side effects were not audited. This report establishes the direction of the direct data access, not a globally side-effect-free service session. No language/destination meaning or persistence was recovered.
 

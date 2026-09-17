@@ -1,10 +1,10 @@
 # G3 kernel-event to Senif callback bridge
 
-Editorial revision 3; underlying measurements and captured results retain their recorded scope.
+Editorial revision 5; underlying measurements and captured results retain their recorded scope.
 
 This bounded static audit closes the previously missing **event translation** in the retained G3 code. Once the Senser function is registered, created and enabled, kernel event 7 with payload index 0 reaches the registered Senif callback with event value 1. The same route maps payload index 1 to callback value 2. The callback registered by `PExtSenser.so` is `Senser::Extension::active_event_handler`; the preceding normal-entry report already binds value 1 to its `NinThread` startup.
 
-This is conditional native-code evidence for **G3**, not successful USB communication, normal-mode lifecycle qualification, W300 compatibility or a language-setting operation. The upstream application still has to initialize/register/create this function in the relevant mode. The script callback that changes mode after authentication is outside this audit.
+This native-code evidence applies to **G3** under the stated conditions. It does not establish successful USB communication, the full normal-mode lifecycle, W300 compatibility or a language-setting operation. The upstream application still has to initialize/register/create this function in the relevant mode. The script callback that changes mode after authentication is outside this audit.
 
 ## Concrete chain
 

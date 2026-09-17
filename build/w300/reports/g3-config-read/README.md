@@ -1,6 +1,6 @@
 # G3 configuration read path and field associations
 
-Editorial revision 3; underlying measurements and captured results retain their recorded scope.
+Editorial revision 5; underlying measurements and captured results retain their recorded scope.
 
 This report isolates actual retained DSC-G3 configuration getters and five native data rows. It is **not a DSC-W300 map, USB reader, or language-change procedure**. No firmware was executed and no device was connected.
 
@@ -12,7 +12,7 @@ This report isolates actual retained DSC-G3 configuration getters and five nativ
 
 ## Native field table
 
-`libBackupTable.so::DataTable::getCategoryId` uses `id >> 24`; `getOffset` uses `(id >> 8) & 0xFFFF`. The internal lookup at `0x2204` binary-searches two arrays per category, with 20-byte rows. The descriptor table starts at `0x1E7E0`. Its pointers need ELF `R_ARM_ABS32` relocations, and its counts are initialized by `.ctors` function `0x2488` from the exported `HOST_*_NUM` constants. Reading the unrelocated descriptor bytes as ready data gives zero rows and is wrong.
+`libBackupTable.so::DataTable::getCategoryId` uses `id >> 24`; `getOffset` uses `(id >> 8) & 0xFFFF`. The internal lookup at `0x2204` binary-searches two arrays per category, with 20-byte rows. The descriptor table starts at `0x1E7E0`. Its pointers need ELF `R_ARM_ABS32` relocations, and its counts are initialized by `.ctors` function `0x2488` from the exported `HOST_*_NUM` constants. Reading the descriptor before applying relocations and constructor initialization incorrectly yields zero rows.
 
 | Grammar property | Associated ID | Native array | Category | Offset | Size |
 |---|---:|---|---:|---:|---:|
@@ -32,7 +32,7 @@ The independently framed `regionInfo.xsb` sets its four backup-ID properties fro
 
 The retained `RegionInfo_*.xml` files were read, parsed and checked against `evidence/artifact_manifest.json`. Their actual XML contains `lang`, `langGp` and `sigTyp` values. For example, `RegionInfo_JPN_1_NT.xml` contains `jpn`, `1`, `0`; the English variants contain `eng` with their own group and signal values. Names and XML values do not provide a W300 destination byte or authorize changing an entire region.
 
-The language-constructor area pairs the literal `eng` with bytes `8A 01 00` and `jpn` with `48 00 00 80 00`. This report does not turn those adjacent bytes into a write value: constructor and integer opcode semantics and the use of the mask must be qualified first.
+The language-constructor area pairs the literal `eng` with bytes `8A 01 00` and `jpn` with `48 00 00 80 00`. These adjacent bytes do not yet establish a value to write. First verify the constructor behavior, integer opcode semantics and use of the mask.
 
 ## Reproduction and limits
 

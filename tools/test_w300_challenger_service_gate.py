@@ -56,7 +56,7 @@ class TestRoundtripReversibility(BaseChallengerTestCase):
 
     def setUp(self):
         super().setUp()
-        # Initialize realistic Japanese DSC-W300 mock camera
+        # Initialize the hypothetical J1 camera model
         self.camera = W300MockUsbCamera(destination="J1", serial=1458291)
         # Populate additional persistent camera parameters (arbitrary non-destination NVM entries)
         self.camera.flash_store[0x00E70002] = b'HW_REV_02\x00'
@@ -114,7 +114,7 @@ class TestRoundtripReversibility(BaseChallengerTestCase):
         rollback_controller.transfer_bulk(proto.build_write_prop(Cee8Payload.PROP_LANG_BASE, Cee8Payload.LANG_MASK_J1))
         # Restore J1 destination code string
         rollback_controller.transfer_bulk(proto.build_write_prop(Cee8Payload.PROP_DESTINATION, b'J1\x00\x00'))
-        # Commit to physical NOR flash
+        # Commit to the simulated flash store
         rollback_controller.commit_flash()
         # Clean reboot into retail Mass Storage mode
         rollback_controller.reset_device()
@@ -171,7 +171,7 @@ class TestRoundtripReversibility(BaseChallengerTestCase):
 # ============================================================================
 
 class TestCalibrationIsolation(BaseChallengerTestCase):
-    """Empirical verification that factory calibration parameters remain inviolable."""
+    """Verify that the model preserves the synthetic calibration parameters."""
 
     def setUp(self):
         super().setUp()

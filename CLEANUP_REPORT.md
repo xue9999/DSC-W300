@@ -1,6 +1,6 @@
 # Repository cleanup verification report
 
-This report records the local cleanup completed on 2026-09-16. It is a bounded verification record, not a permanent readiness or hardware-qualification declaration.
+This report records the local cleanup completed on 2026-09-16. It records the checks performed within that cleanup scope; it does not establish permanent readiness or validate hardware operations.
 
 ## Delivered changes
 
@@ -37,7 +37,7 @@ CI is configured for Windows/Linux/macOS with Python 3.13, plus Linux with Pytho
 
 All four optional submodules remain uninitialized; their commits remain pinned. QEMU is unavailable. No emulator boot, macOS native compilation, active network gateway or camera operation was performed.
 
-Continue W300 work through the acquisition and analysis routes in the [current execution plan](docs/w300/EXECUTION_PLAN.md). Use verified G3 container changes as the baseline for separate camera acceptance, installation, recovery and image-quality checks. This dated cleanup checkpoint preceded Git publication; its observations remain historical. The revision-3 Release handoff records that later release, while current main carries the revision-4 continuation guidance.
+Continue W300 work through the acquisition and analysis routes in the [current execution plan](docs/w300/EXECUTION_PLAN.md). Use verified G3 container changes as the baseline for separate camera acceptance, installation, recovery and image-quality checks. This dated cleanup checkpoint preceded Git publication; its observations remain historical. The revision-3 Release handoff records that later release. The current working tree contains editorial revision 5 of the research guidance.
 
 ## Reproduce
 

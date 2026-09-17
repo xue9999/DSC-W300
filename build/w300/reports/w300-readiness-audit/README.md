@@ -1,4 +1,4 @@
-# W300 qualification worklist
+# W300 qualification tasks
 
 Editorial revision 3 of the 2026-09-16 checkpoint. Continue toward persistent English menus on the original DSC-W300, preserving identity, calibration and function. The supplied executable implements selftest, OS inventory and standard INQUIRY; its language-qualification flag remains false pending the work below.
 
@@ -23,4 +23,4 @@ Further work recovered the watermark forum archive and W300 L3 listing, Sony's h
 
 Continue offline without connecting a camera here. Use `W300Workbench.exe selftest`, then OS `inventory` during the later receiving-PC session. Preserve identity matching, bounded INQUIRY and simulator guards. Implement service operations from W300 evidence, retain affected-data backups and prove restoration before the separately authorized language write.
 
-See `docs/w300/EXECUTION_PLAN.md` and `VERIFICATION.md` for the procedure and evidence map. Prior machine-readable checks and the pre-editorial manifest preserve their results; this revision turns checkpoint findings into an actionable continuation guide.
+See `docs/w300/EXECUTION_PLAN.md` and `VERIFICATION.md` for the procedure and evidence map. Prior machine-readable checks and the pre-editorial manifest preserve their results; this revision uses the checkpoint findings to define the next steps.

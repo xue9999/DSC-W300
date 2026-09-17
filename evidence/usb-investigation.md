@@ -27,4 +27,4 @@ No device service session, backup dump, or native driver test has occurred. Host
 
 ## Current continuation guidance
 
-Turn the property-layout mismatch into a specific qualification task: identify the W300 read handler, field widths and backup coverage from model-specific implementation or transactions. Use retained G3 framing/authentication code to design offline response tests while acquiring that W300 evidence. Current identity, bounded read and safe exit are later device checks; they need not precede this static work. Follow the [current execution plan](../docs/w300/EXECUTION_PLAN.md).
+Investigate the property-layout mismatch by identifying the W300 read handler, field widths and backup coverage in W300 code or transactions. Use retained G3 framing/authentication code to design offline response tests while acquiring that W300 evidence. Current identity, bounded read and safe exit are later device checks; they need not precede this static work. Follow the [current execution plan](../docs/w300/EXECUTION_PLAN.md).

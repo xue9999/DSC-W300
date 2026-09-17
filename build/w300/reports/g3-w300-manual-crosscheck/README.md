@@ -1,6 +1,6 @@
 # G3 / W300 service-manual cross-check: source coverage and acquisition task
 
-Editorial revision 4; underlying measurements and captured results retain their recorded scope.
+Editorial revision 5; underlying measurements and captured results retain their recorded scope.
 
 ## Outcome
 
@@ -28,10 +28,10 @@ The normal browser fallback could not be used because the computer-use tool repo
 
 Model-qualified searches covered the exact model, `DSC-G3_ADJ`, `Auto-Adj`, `SeusEX`, `DESTINATION DATA WRITE`, `0E10`, service/manual variants and the newly found v1.2 catalog designation. They did not expose a Sony G3 service table. Search results for G1, unrelated G3 products, end-user Auto Adjustment mode and other camera service manuals were not substituted.
 
-## Retained records and next evidentiary requirement
+## Retained records and evidence needed next
 
 All new files are confined to `build/w300/downloads/g3-service-reference/` and this report directory. `candidate-acquisition.json`, `catalog-acquisition.json` and `archive-acquisition.json` preserve concrete request URLs and results. The successful Internet Archive JSON responses are retained; `local-artifacts.json` records their sizes and hashes. `search-receipts.json` records the web-readable catalog locators, access restrictions and classification, without claiming downloaded source documents.
 
-To complete this comparison, locate and acquire an actual G3 ADJ v1.2 document or equivalent Sony-authored service fragment showing its field names and concrete tuple. Use the exact catalog designation to search a distinct accessible source; repeat a failed endpoint only when access conditions or its locator change. Compare the acquired printed table and operation context first, then test whether the static receiver independently explains the tuple. A numerical resemblance such as `61` or `0E10` alone does not establish W300 equivalence. This comparison is optional support: continue W300 package/trace acquisition and file-transfer preparation under the [execution plan](../../../../docs/w300/EXECUTION_PLAN.md) if the G3 document remains inaccessible.
+To complete this comparison, locate and acquire an actual G3 ADJ v1.2 document or equivalent Sony-authored service fragment showing its field names and concrete tuple. Use the exact catalog designation to search a distinct accessible source; repeat a failed endpoint only when access conditions or its locator change. First compare the acquired manual's table and operation context with the W300 manual. Then check whether the statically analyzed receiver independently explains the field values. A numerical resemblance such as `61` or `0E10` alone does not establish W300 equivalence. This comparison is optional support: continue W300 package/trace acquisition and file-transfer preparation under the [execution plan](../../../../docs/w300/EXECUTION_PLAN.md) if the G3 document remains inaccessible.
 
 No G3 service PDF was downloaded, no PDF was rendered for this follow-up, and no manual-based G3 comparison result is claimed. No main documentation or ANALYSIS_LOG was changed; no USB, service-mode, camera read or camera write was performed.

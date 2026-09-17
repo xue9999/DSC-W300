@@ -1,8 +1,8 @@
 # W300 Level-3 architecture and transport evidence
 
-Editorial revision 3; underlying measurements and captured results retain their recorded scope.
+Editorial revision 5; underlying measurements and captured results retain their recorded scope.
 
-Date: 2026-09-16. Offline acquisition and source inspection only. This work narrows firmware identification; it does not supply a language command or authorize camera reads from guessed addresses.
+Date: 2026-09-16. Online source acquisition and local inspection only; no camera connection. This work narrows firmware identification; it does not supply a language command or authorize camera reads from guessed addresses.
 
 ## Newly acquired exact-model manual
 

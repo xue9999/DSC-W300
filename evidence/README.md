@@ -1,6 +1,6 @@
 # Evidence index
 
-This directory preserves historical observations and reproducible offline firmware artifacts. Use dated records to understand completed work, then follow active guides for the next model-specific qualification.
+This directory preserves historical observations and reproducible offline firmware artifacts. Use dated records to understand completed work, then follow the active guides for the next model-specific checks.
 
 - [Artifact manifest](artifact_manifest.json): current integrity contract, link targets and provenance/derivative roles.
 - [W300 preflight review](w300/CEE8_PREFLIGHT_REVIEW_20260916.md): historical review of the earlier implementation, before the documented repair.
@@ -15,4 +15,4 @@ Raw JSON/TXT captures and source documents are preserved byte-for-byte where rec
 
 ## From historical evidence to the next action
 
-Use the [current W300 execution plan](../docs/w300/EXECUTION_PLAN.md) as operating guidance. Historical statements such as an unavailable package, an untested driver or a completed review describe their dated scope. The analyst owns the next acquisition or qualification task: develop another source, derive a specific comparison from retained firmware, or prepare bounded file acquisition. Preserve original observations while recording new results separately.
+Use the [current W300 execution plan](../docs/w300/EXECUTION_PLAN.md) as operating guidance. Historical statements such as an unavailable package, an untested driver or a completed review describe their dated scope. The analyst must choose the next evidence-collection or verification task: find another source, define a specific comparison using retained firmware, or prepare a file read with defined transfer limits. Preserve original observations while recording new results separately.

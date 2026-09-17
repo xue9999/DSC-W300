@@ -83,7 +83,7 @@ def update_manifest(
     new_section_name: str,
     new_size: int,
 ) -> Tuple[bytes, List[Dict[str, int | str]]]:
-    """Updates section size, offsets, and chksums in cntent.dat."""
+    """Update section sizes, offsets and checksums in cntent.dat."""
     lines = original_cntent.decode('ascii', errors='ignore').split('\n')
     sections_meta: List[Dict[str, int | str]] = []
     

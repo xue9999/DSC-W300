@@ -1,6 +1,6 @@
 # Bounded G3 dispatch decoding: consequence for W300
 
-Editorial revision 3; underlying measurements and captured results retain their recorded scope.
+Editorial revision 5; underlying measurements and captured results retain their recorded scope.
 
 ## Result
 
@@ -55,4 +55,4 @@ The internals of `Bkup_init` and `Bkup_final` were not analysed here. Identifyin
 
 ## Effect on the intended tool
 
-This code inspection narrows the behaviour of actual retained routines, rather than relying on missing strings or library names. It still supplies neither a W300 implementation nor a justified USB request for the documented W300 calibration anchors. The missing model-specific package, transaction or proprietary firmware layer remains necessary. No `command0001`, selector value, backup identifier, dispatch byte or inferred register tuple from this G3 analysis was inserted into `w300_workbench.py` or the handoff ZIP.
+This inspection establishes specific behavior in the retained routines from their instructions and control flow. It still supplies neither a W300 implementation nor a justified USB request for the documented W300 calibration anchors. The missing model-specific package, transaction or proprietary firmware layer remains necessary. No `command0001`, selector value, backup identifier, dispatch byte or inferred register tuple from this G3 analysis was inserted into `w300_workbench.py` or the handoff ZIP.

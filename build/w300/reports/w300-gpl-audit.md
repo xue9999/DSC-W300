@@ -1,6 +1,6 @@
 # Official DSC-W300 GPL source audit
 
-Editorial revision 3; underlying measurements and captured results retain their recorded scope.
+Editorial revision 5; underlying measurements and captured results retain their recorded scope.
 
 ## Outcome
 
@@ -39,7 +39,7 @@ Saved evidence files:
 - `targeted-symbol-hits.json`: archive-wide matches for `usb_gadgetcore_register_driver`, `USBSENSERKEYOPEN`, `SONYDSC`, `SONYSEN`, `seus`, `senser`, `DSC-W300`, `ADJBAK`, `EEPROM` and `BKUP`.
 - `*.src.rpm.files.txt`: actual member listings for all four RPMs, generated with Windows `tar -tf`.
 
-The selective extraction is for navigation, not the basis of a claim that the entire archive was searched. The content search read every regular member directly from `linux-kernel.tar.gz`.
+The extracted subset supports navigation. The complete content search read every regular-file member directly from `linux-kernel.tar.gz`.
 
 ## Architecture evidence
 

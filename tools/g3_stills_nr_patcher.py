@@ -40,7 +40,7 @@ def require(condition: bool, message: str) -> None:
 
 
 def patch_av_bin(av_bytes: bytes) -> bytes:
-    """Applies the 4-byte surgical in-place bypass to 09_av.bin."""
+    """Apply the four-byte instruction bypass to 09_av.bin in memory."""
     require(calculate_sha256(av_bytes) == 'f2554be5181f5765623b0771e6aef6ff99c8483980a1192c39db85c744bda4fb', 'Untrusted DSC-G3 AV SHA-256')
     require(len(av_bytes) == 2061054, f"Unexpected 09_av.bin size: {len(av_bytes)} != 2061054")
     

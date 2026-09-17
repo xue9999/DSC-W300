@@ -1,12 +1,12 @@
 # G3 AdjustCommunication fallback for selector 0x11
 
-Editorial revision 4; underlying measurements and captured results retain their recorded scope.
+Editorial revision 5; underlying measurements and captured results retain their recorded scope.
 
 ## Result and limit
 
 The fallback is a concrete **AV/interprocessor forwarding path** in the retained **DSC-G3** `libsencore.so`. It is not a recovered W300 Block/Page/Address implementation. The inspected routines copy selected packet/header fields into an internal 20-byte request, exchange that request through `/dev/ipcm`, and map a returned memory region through `/dev/kmem`. They do not disclose how the receiving processor interprets a SEUS block, page, or 16-bit address.
 
-This does not prove that the path is unrelated to service register access; it locates the unresolved interpretation beyond the forwarding routine. The equal number `0x11` is not evidence that the W300 manual's Block 11 selects this path, nor that W300 runs these G3 routines. No W300 read or write primitive has been established.
+This does not prove that the path is unrelated to service register access; it locates the unresolved interpretation beyond the forwarding routine. The matching number `0x11` does not establish that the W300 manual's Block 11 selects this path or that W300 runs these G3 routines. No W300 read or write primitive has been established.
 
 ## Reproduction and boundaries
 

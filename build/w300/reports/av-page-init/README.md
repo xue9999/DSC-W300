@@ -1,6 +1,6 @@
 # G3 reference: initialization of page 0x61 / segment 0x0E
 
-Editorial revision 3; underlying measurements and captured results retain their recorded scope.
+Editorial revision 5; underlying measurements and captured results retain their recorded scope.
 
 This is a bounded static continuation of `../av-receiver/README.md`. It establishes where this **G3** table entry obtains its live pointer and distinguishes copying bytes into the live bank from the separate persistence request. It does not qualify a W300 command, identify a W300 language byte, or supply a device operation.
 
@@ -45,7 +45,7 @@ The proven expression is therefore:
 page61_segment0E.live_pointer = selected_bank + 0x1A00
 ```
 
-The earlier receiver trace proves that its generic operation 1 returns data from this pointer plus the low address byte, while operations 2/3 copy supplied data to that location, subject to the described bounds check. Consequently, for this record the immediate destination of such a copy would be `selected_bank + 0x1A00 + address_low`. This is a live-memory expression, **not a flash offset, file offset, or W300 address**. The numeric selected bank and its physical backing are not established here.
+The earlier receiver trace proves that its generic operation 1 returns data from this pointer plus the low address byte, while operations 2/3 copy supplied data to that location, subject to the described bounds check. Consequently, for this record the immediate destination of such a copy would be `selected_bank + 0x1A00 + address_low`. This is a live-memory expression, **not a flash offset, file offset, or W300 address**. This analysis does not establish the selected bank's numeric base address or its underlying physical storage.
 
 ## Initialization defaults do not identify language or calibration
 
@@ -53,7 +53,7 @@ After filling the table, file `0xED9E..0xEDAE` tests the first byte of this sele
 
 The `0xF001` branch at file `0xE704..0xE73A` iterates type-3 entries in the requested page group and copies their default data into their live pointers. The `0xF002` branch at `0xE6BE..0xE702` performs the corresponding copy for a particular page/segment pair. Both obtain the source by dereferencing record +0xC, the destination from record +4 and the length from record +0x10; both call the copy routine already independently decoded at `0x20257D98` in the preceding receiver report.
 
-For the selected record, the word at `0x202BB2E0` is `0x202BB1E0`, pointing to 256 bytes present in the AV image. The script confirms that pointer and range without exporting or interpreting the default contents. These branches are mutations of live bank data; they are not a demonstrated flash-save primitive.
+For the selected record, the word at `0x202BB2E0` is `0x202BB1E0`, pointing to 256 bytes present in the AV image. The script confirms that pointer and range without exporting or interpreting the default contents. These branches modify live bank data; they do not establish a way to save that data to flash.
 
 The table and initialization code do not name the contents of this page as language, destination, user preferences or calibration. Having a built-in default and a writable live pointer does not distinguish those purposes. **This analysis cannot classify page 0x61 / segment 0x0E as safe user settings or exclude calibration.**
 

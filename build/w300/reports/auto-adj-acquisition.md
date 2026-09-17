@@ -1,12 +1,12 @@
 # Auto-Adj acquisition and driver inspection
 
-Editorial revision 4; underlying measurements and captured results retain their recorded scope.
+Editorial revision 5; underlying measurements and captured results retain their recorded scope.
 
 Date: 2026-09-16. Scope: public read-only acquisition; no camera connected, no driver installed, no downloaded binary executed. Existing `sources/` and `evidence/` were unchanged.
 
 ## Result
 
-The routes below yielded service documentation, package locators and an actual Sony driver ZIP. Continue acquisition of `DSC-W300 Auto-Adj Ver_1.3r04.exe` and compatible SeusEX from a new binary-bearing source; inspect their contents and original-board eligibility before selecting the runtime.
+The routes below yielded service documentation, package locators and an actual Sony driver ZIP. Find a new source that provides `DSC-W300 Auto-Adj Ver_1.3r04.exe` and compatible SeusEX binaries. Inspect the packages and determine whether they support the original board before selecting the runtime.
 
 One actual dependency candidate was acquired: an old 32-bit Sony Seus USB Driver package. This is a useful static-analysis artifact, **not a validated W300 driver or complete service application**.
 
@@ -43,7 +43,7 @@ Inspected:
 - `sonypictutil_2007`: consumer camera software ISO, not a claimed service bundle; no service payload obtained.
 - `sony-cyber-shot-dsc-f828-service-manual`: file inventory lists four PDFs and generated derivatives, no adjustment executable.
 
-A broader precise camera-service software query returned Minolta adjustment/ROM packages and a Casio QV-10 repair tool; these are wrong-device results. A filename-field scrape query returned zero, but this does not exhaust archive interiors and is not proof that no archived binary exists.
+A broader query for camera-service software returned Minolta adjustment/ROM packages and a Casio QV-10 repair tool; none is for the target camera. A filename-field scrape query returned zero, but this does not exhaust archive interiors and is not proof that no archived binary exists.
 
 Finding and follow-up: wrong-package/wrong-device results and no exact publicly indexed package, **not an environment or dependency installation failure**. Safe next avenue was to separate acquisition of the driver dependency from acquisition of the complete application; that yielded the actual ZIP above.
 

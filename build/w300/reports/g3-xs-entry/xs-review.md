@@ -1,6 +1,6 @@
 # Independent review of the retained G3 XS11 decoder
 
-Editorial revision 3; underlying measurements and captured results retain their recorded scope.
+Editorial revision 5; underlying measurements and captured results retain their recorded scope.
 
 This review uses the actual ARM `tinyhttp` executable retained in the evidence manifest. It does not borrow opcode numbers from XS6, execute firmware, invoke USB, or qualify any DSC-W300 operation.
 
@@ -37,7 +37,7 @@ Consequently, a script sequence that pushes a string, calls a parse method, swap
 
 ## Framing limits
 
-The remapper obtains opcode bytes at 0x9403C and selects handlers from 0x94050. Fixed-width operands, NUL strings, function-header symbol lists and paired symbol lists agree with `frame_xs.py`. The signed count bytes in the latter formats are restricted to nonnegative values by this decoder; the reviewed files satisfy that restriction. Symbol remapping preserves 0xFFFF and otherwise masks 0x8000 before looking up the original symbol table, matching 0x93FA8–0x94018. Framing unsupported/custom opcodes is deliberately rejected. Treat the output as a bounded static decoder, not a general validator for arbitrary XS11 files.
+The remapper obtains opcode bytes at 0x9403C and selects handlers from 0x94050. Fixed-width operands, NUL strings, function-header symbol lists and paired symbol lists agree with `frame_xs.py`. The signed count bytes in the latter formats are restricted to nonnegative values by this decoder; the reviewed files satisfy that restriction. Symbol remapping preserves 0xFFFF and otherwise masks 0x8000 before looking up the original symbol table, matching 0x93FA8–0x94018. The decoder deliberately rejects unsupported or custom opcodes. Treat the output as a bounded static decoder, not a general validator for arbitrary XS11 files.
 
 ## Reproduction
 

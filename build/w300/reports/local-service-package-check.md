@@ -1,6 +1,6 @@
 # Local Downloads service-package check
 
-Editorial revision 4; underlying measurements and captured results retain their recorded scope.
+Editorial revision 5; underlying measurements and captured results retain their recorded scope.
 
 Date: 2026-09-16.
 
@@ -15,7 +15,7 @@ Sony.*(service|adjust) | (service|adjust).*Sony
 
 The actual combined regular expression is recorded in the reproduction command below. Matching was limited to task-related names; unrelated user filenames were neither reported nor saved.
 
-**Result: zero matching files, zero matching directories, zero enumeration errors.** There was consequently no candidate archive or binary to inspect statically. This closes the explicitly scoped Downloads filename check; it does not claim that arbitrarily named archives cannot contain service software.
+**Result: zero matching files, zero matching directories, zero enumeration errors.** No candidate archive or binary was available for static inspection. This completes the Downloads filename check within its stated scope; archives with unrelated names could still contain service software.
 
 Machine-readable result: `build/w300/reports/local-service-package-matches.json`.
 

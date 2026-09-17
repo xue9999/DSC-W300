@@ -1,8 +1,8 @@
 # Bounded W300 owner-source search
 
-Editorial revision 4; underlying measurements and captured results retain their recorded scope.
+Editorial revision 5; underlying measurements and captured results retain their recorded scope.
 
-Checked 2026-09-17. No camera, installation, download execution, correspondence or account access was involved. The source manifest and retained evidence were not changed.
+Checked 2026-09-17. No camera was connected, no software was installed, no downloaded software was executed, no messages were sent, and no account was accessed. The source manifest and retained evidence were not changed.
 
 ## Result
 

@@ -16,4 +16,4 @@
 
 ## Current continuation guidance
 
-Use this source coverage to develop the next concrete binary-bearing lead: a package filename, archive item or firmware attachment whose contents can be inspected. Verify W300 identity inside the acquired material, then locate its Destination Check or language-operation implementation. Revisit a recorded search only when its locator, access or indexed content changes. In parallel, prepare the alternative file-acquisition route in the [current execution plan](../docs/w300/EXECUTION_PLAN.md).
+Use the recorded search coverage to find a new lead that may provide binary files: a package filename, archive item or firmware attachment whose contents can be inspected. Verify W300 identity inside the acquired material, then locate its Destination Check or language-operation implementation. Revisit a recorded search only when its locator, access or indexed content changes. In parallel, prepare the alternative file-acquisition route in the [current execution plan](../docs/w300/EXECUTION_PLAN.md).

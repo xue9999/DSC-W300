@@ -1,12 +1,12 @@
-# DSC-W300 execution plan — persistent English, editorial revision 4
+# DSC-W300 execution plan — persistent English, editorial revision 5
 
-Prepare persistent English menus on the original Japanese DSC-W300 while preserving identity, calibration and normal operation. The supplied W300Workbench implements `selftest`, OS `inventory` and bounded standard `inquiry`. Continue from these verified foundations to qualify the model-specific language operation. Camera communication and language qualification remain recorded as `false` until measured on the target device.
+Prepare English menus that remain after restart on the original Japanese DSC-W300 while preserving identity, calibration and normal operation. The supplied W300Workbench implements `selftest`, operating-system `inventory` and standard `inquiry` with a limited read size. Use these tools as the starting point for verifying the W300 language operation. Camera communication and language verification remain recorded as `false` until tested on the target device.
 
 ## Engineering routes and next actions
 
 Use Sony-PMCA-RE commit `a82f5baaa8e9c3d9f28f94699e860fb2e48cc8e0` as the transport reference. Retained G3 code matches its 12-byte Senser framing and SHA1 authentication branch for service PID `0x0336`. Sony's separate W300 and G3 GPL packages establish a common CXD4108/ARMv5 platform with different kernel revisions. Confirm W300 service identity, authentication, segmented address encoding and persistence against W300 code or documented transactions before adding camera operations.
 
-The analyst owns acquisition and qualification. Work through the following routes according to the evidence currently available. Each attempt must answer a concrete question and produce an artifact or a bounded finding that selects the next action. Auto-Adj is a preferred source for the documented service operation; firmware and transaction evidence provide alternative entries.
+The analyst must acquire evidence and verify the proposed operations. Choose a route below based on the available evidence. Each attempt must answer a specific question and produce a file or finding that supports the next action. Auto-Adj is a preferred source for the documented service operation; firmware and recorded transactions are alternatives.
 
 | Route | Action to execute | Result and evaluation | Transition if this attempt cannot advance |
 |---|---|---|---|
@@ -19,14 +19,14 @@ The [resumption assessment](../../build/w300/reports/w300-resumption-20260917.md
 
 The [Senser FileControl command-2 analysis](../../build/w300/reports/g3-file-read/README.md) supplies the source anchors for the file-acquisition route. After qualifying W300 service entry, exit and transfer behavior, this may provide proprietary libraries directly from the owner's camera. Qualify the reviewed regular-file candidate against W300; procfs can report zero stat size and suppress the transfer body. The current workbench implements identification only, so receiver preparation remains offline work until model qualification and the later camera session.
 
-The analyst owns package acquisition, protocol qualification and implementation. Continue these offline tasks without connecting a camera to the preparation computer. The later camera session uses a separate Windows 10/11 x64 computer.
+Acquire packages, verify the protocol and develop the implementation offline on the preparation computer. The later camera session uses a separate Windows 10/11 x64 computer.
 
 ## Continuation and completion rules
 
 1. Select an available action from the route table, state the question and expected evidence, then perform it. Prefer work that removes a dependency on the route to persistent English.
 2. On failure, record the attempted source/method and bounded result. Close that attempt and execute the next justified alternative. Revisit it when the source, hypothesis, method or access changes.
 3. When an operation requires unavailable hardware or external access, name that dependency and complete useful independent work. Prepare a precise handoff containing the required input, intended operation and expected observation.
-4. Before ending the whole task as externally blocked, review all remaining justified routes and explain why each lacks an executable useful action. Do not substitute repeated searches, restated limitations or unrelated G3 analysis for progress.
+4. Before reporting that an external dependency blocks the whole task, review the remaining justified routes and explain why none allows a useful next action. Repeated searches, restated limitations and unrelated G3 analysis do not count as progress.
 5. Report research artifacts as research progress. Completion of the language objective requires the camera-level results at the end of this plan.
 
 For a missing package, continue distinct package/firmware sources and transfer preparation. For an exhausted archive, preserve its coverage and change the source or method. For an absent camera, continue offline analysis and prepare the receiving-PC procedure. These situations restrict specific operations; none alone closes the research task.
@@ -71,11 +71,11 @@ The helper sends SCSI INQUIRY (`0x12`): a five-byte header read followed by a bo
 
 Expected: manufacturer `Sony`, actual product/revision, command and response bytes, and report path. The SCSI product may be `DSC`; exact model selection comes from current USB/PnP data. The helper retains transaction details and performs no automatic retries or vendor commands.
 
-5. Preserve the reports and compare actual responses with the profile. The following engineering stage adds qualified service reads, baseline settings and affected-data backup. Identification reads identity only; language, destination and calibration need their own model-qualified reads.
+5. Preserve the reports and compare actual responses with the profile. The next engineering stage adds verified service reads, records baseline settings and backs up affected data. Identification reads identity only; language, destination and calibration require separate reads validated for the W300.
 
-## Qualification for the separately authorized write stage
+## Verification required before the separately authorized write stage
 
-Use the work items below to direct acquisition and analysis now. Hardware execution of a dependent operation follows its model-specific qualification; independent offline tasks continue while evidence is acquired. Record exact bytes, expected responses and recovery:
+Use the work items below to guide evidence collection and analysis. Validate each proposed operation for the W300 before running it on hardware, and continue independent offline tasks while collecting that evidence. Record the exact bytes, expected responses and recovery procedure:
 
 | Work item | Next offline result | W300 evidence and verification |
 |---|---|---|

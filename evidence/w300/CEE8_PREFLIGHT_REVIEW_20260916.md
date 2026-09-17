@@ -15,10 +15,10 @@
 - Live `full-cycle --dry-run` still switches mode, authenticates, reads assumed properties and resets the device. It must not be used as passive preflight.
 - `run_full_cycle` does not persist a baseline backup before writing. Its readback occurs before reset and therefore does not prove persistence after restart.
 
-## Disposition and next prerequisite
+## Result and next prerequisite
 
 CEE8 conversion has not been performed. Passive preflight and local implementation/source review are complete. The next prerequisite is the exact `DSC-W300 Auto-Adj Ver_1.3r04.exe` package with its service dependencies for offline analysis, or independently documented W300-specific service transactions. Establish a bounded read, safe exit, destination encoding, retail-board eligibility and recoverable backup before performing a physical write. The available G3 updater is not a W300 substitute.
 
 ## Current continuation guidance
 
-Use these findings to replace the former writer's assumptions with verified W300 behavior: resolve destination encoding and original-board eligibility, then specify the affected-data backup and post-restart persistence checks. Acquire the needed handler from Auto-Adj, W300 firmware or trustworthy W300 transactions. The retained G3 updater supplies targeted comparisons while this acquisition proceeds; the [current execution plan](../../docs/w300/EXECUTION_PLAN.md) defines the alternative routes.
+Use these findings to replace the former writer's assumptions with verified W300 behavior. Establish destination encoding and original-board eligibility, then specify how to back up affected data and check that changes persist after restart. Acquire the needed handler from Auto-Adj, W300 firmware or trustworthy W300 transactions. The retained G3 updater supplies targeted comparisons while this acquisition proceeds; the [current execution plan](../../docs/w300/EXECUTION_PLAN.md) defines the alternative routes.

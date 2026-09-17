@@ -1,6 +1,6 @@
-# Model-specific qualification and reusable tooling
+# Model-specific verification and reusable tools
 
-| Component | Evidence scope | Next qualification for reuse |
+| Component | Evidence scope | Verification needed before reuse |
 |---|---|---|
 | G3 container parser | Retained updater and section integrity | Verify the target model input format and section checks. |
 | G3 AV instruction experiment | Known AV binary and isolated changed bytes | Confirm equivalent W300 operations and measure photographic effects separately. |
@@ -14,4 +14,4 @@ The [G3 guide](../g3/README.md) and [W300 guide](../w300/README.md) identify cur
 
 ## Route selection
 
-A model boundary identifies the evidence to acquire. Turn each boundary into a bounded comparison or acquisition task with an expected artifact and a check for equivalence. If one package source yields no payload, switch source or pursue the firmware/transaction route. If hardware is elsewhere, prepare the read, exit and recovery checks offline. Use the [execution plan](../w300/EXECUTION_PLAN.md) to connect each result to persistent English menus on the W300.
+When a finding applies to only one camera model, identify what evidence is needed for the other model. Define a specific comparison or evidence-collection task, its expected output and how to check equivalence. If one package source yields no payload, switch source or pursue the firmware/transaction route. If hardware is elsewhere, prepare the read, exit and recovery checks offline. Use the [execution plan](../w300/EXECUTION_PLAN.md) to connect each result to persistent English menus on the W300.

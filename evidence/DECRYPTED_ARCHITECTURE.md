@@ -44,4 +44,4 @@ Paths in this generated report refer to the extraction run. Historical copies ca
 
 ## Current research use
 
-Choose a specific W300 protocol or language-field question from the [execution plan](../docs/w300/EXECUTION_PLAN.md), locate its G3 analogue in the retained extraction and record the W300 evidence needed to test the mapping. This makes the architecture summary a route to a bounded analysis task while preserving the distinction between static findings and later device measurements.
+Choose a specific W300 protocol or language-field question from the [execution plan](../docs/w300/EXECUTION_PLAN.md), locate its G3 analogue in the retained extraction and record the W300 evidence needed to test the mapping. Use that question to define a specific analysis task. Keep static findings separate from later device measurements.

@@ -1,10 +1,10 @@
 # libgphoto2: scope of the DSC-W300 lead
 
-Editorial revision 4; underlying measurements and captured results retain their recorded scope.
+Editorial revision 5; underlying measurements and captured results retain their recorded scope.
 
 ## Result
 
-This lead does **not** provide a DSC-W300 language-change operation or a verified alternate USB identity. The authoritative current `camlibs/ptp2/library.c` has neither a DSC-W300 model entry nor USB product ID `0x029d`. The proposed SwiftMTP entry attributing that combination to libgphoto2 cannot be reproduced from the inspected upstream revision. Do not use it to replace the previously observed W300 identity, `054c:0341`, or to assert that `029d` is its PTP-mode ID.
+This lead does **not** provide a DSC-W300 language-change operation or a verified alternate USB identity. The pinned upstream `camlibs/ptp2/library.c` has neither a DSC-W300 model entry nor USB product ID `0x029d`. The proposed SwiftMTP entry attributing that combination to libgphoto2 cannot be reproduced from the inspected upstream revision. Do not use it to replace the previously observed W300 identity, `054c:0341`, or to assert that `029d` is its PTP-mode ID.
 
 Static inspection only: no camera communication, imports, program execution, or settings writes were performed for this check. The negative finding is limited to the four pinned PTP sources below; it is not a claim about every historical libgphoto2 revision or a proof that W300 can never expose a language operation.
 

@@ -1,6 +1,6 @@
 # PMCA and legacy Senser audit
 
-Editorial revision 3; underlying measurements and captured results retain their recorded scope.
+Editorial revision 5; underlying measurements and captured results retain their recorded scope.
 
 ## Scope and status
 
@@ -8,7 +8,7 @@ Audit date: 2026-09-16. No camera commands were executed. This is source inspect
 
 Inspected checkout: `build/w300/upstream/Sony-PMCA-RE`, revision `a82f5baaa8e9c3d9f28f94699e860fb2e48cc8e0` (`Improve error messages`). All PMCA line references below are relative to that checkout and revision.
 
-**Decision:** the ready-made PMCA language tweak is not a qualified W300 procedure. A concrete, separate legacy Senser protocol supplied by PMCA's maintainer is a materially better development lead than enabling USB in the repository simulator. That protocol achieved a persistent language change on a DSLR-A330, after model-specific firmware analysis. It has not been shown to use the same destination addresses on W300. The W300 transport, destination byte(s), commit operation, backup coverage, and retail-board restrictions remain to be established.
+**Decision:** the ready-made PMCA language tweak is not a qualified W300 procedure. The separate legacy Senser protocol supplied by PMCA's maintainer provides a stronger basis for development than adding USB access to the repository simulator. That protocol achieved a persistent language change on a DSLR-A330, after model-specific firmware analysis. It has not been shown to use the same destination addresses on W300. The W300 transport, destination byte(s), commit operation, backup coverage, and retail-board restrictions remain to be established.
 
 ## What the pinned PMCA actually does
 
@@ -37,7 +37,7 @@ The upstream [README at the pin](https://github.com/ma1co/Sony-PMCA-RE/blob/a82f
 - PyUSB transport handles interface protocols 00/01 with CBI and 50 with bulk-only transport (`pmca/usb/driver/generic/libusb.py:26-36`). W300's actual descriptor must determine the choice.
 - Service-mode switching explicitly requires `GenericUsbDriver`; the native Windows MSC wrapper cannot supply the vendor control request (`pmca/commands/usb.py:661-692`).
 - `requirements.txt` includes PyUSB, pycryptodomex, Windows pywin32/comtypes, asn1crypto, axmlparserpy, certifi, pycparser, pyinstaller, pyyaml, tlslite-ng. The complete app has broader dependencies than a legacy protocol adapter. A legacy adapter needs Python plus PyUSB and a functioning USB backend; hashlib and struct are standard-library modules.
-- Source audit does not itself prove the root agent's local environment startup. Consult the separate environment checks for that result.
+- Source inspection does not establish that the program starts in the local environment. Consult the separate environment checks for that result.
 
 ## Primary evidence: a legacy protocol outside the normal PMCA path
 

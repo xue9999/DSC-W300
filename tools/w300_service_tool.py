@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Sony Cyber-shot DSC-W300 Service Protocol & CEE8 Destination Tool.
+"""Offline Sony Cyber-shot DSC-W300 service-protocol simulation (CEE8 destination model).
 
 Experimental offline model of Sony Senser and destination programming.
 Every service action and response below is simulated, including USB terminology.
@@ -324,7 +324,7 @@ class Cee8Payload:
 
 
 # ============================================================================
-# 4. Realistic In-Memory W300 USB Mock Camera Simulator
+# 4. Hypothetical in-memory W300 USB simulator
 # ============================================================================
 
 class W300MockUsbCamera:
@@ -714,7 +714,7 @@ class W300ServiceController:
         lang_res = self.protocol.parse_packet(p_lang)
         lang_mask = lang_res['payload']
         if len(lang_mask) == 1:
-            # Physical camera returned 1 byte for 0x010D008F (CompoundBackupProp)
+            # If the model returns one byte for 0x010D008F, assemble the assumed 35-byte mask.
             # Read remaining 34 registers
             full_mask = bytearray(lang_mask)
             for idx in range(1, 35):
@@ -753,13 +753,13 @@ class W300ServiceController:
         resp = self.protocol.parse_packet(resp_raw)
 
         if resp['response'] == 0:
-            self.log("Service Board ID1 write protection successfully cleared!", "UNLOCK")
+            self.log("Simulated ID1 write protection cleared.", "UNLOCK")
             return True
         else:
             raise PermissionError(f"Camera rejected ID1 unlock with response code {resp['response']}")
 
     def write_cee8_destination(self) -> bool:
-        """Stages CEE8 parameters (language mask, PAL video, CEE8 string) into camera RAM."""
+        """Stage the assumed CEE8 parameters in simulated RAM."""
         if self.dry_run:
             self.log("[DRY-RUN] Preparing CEE8 Destination modifications:", "DRYRUN")
             self.log("[DRY-RUN]  - Destination Code: 'CEE8' (0x43 0x45 0x45 0x38)", "DRYRUN")
@@ -799,7 +799,7 @@ class W300ServiceController:
         return True
 
     def commit_flash(self) -> bool:
-        """Directs camera to recalculate checksums and commit staging RAM to NOR flash."""
+        """Ask the simulated camera to update checksums and commit staging RAM to its flash store."""
         if self.dry_run:
             self.log("[DRY-RUN] Would issue Flash Commit packet (Category 0x0603, Cmd 3, Subsystem 0). Skipped.", "DRYRUN")
             return True
@@ -810,7 +810,7 @@ class W300ServiceController:
         resp = self.protocol.parse_packet(resp_raw)
 
         if resp['response'] == 0:
-            self.log("NOR Flash commit successful! NVM checksums updated permanently.", "COMMIT")
+            self.log("Simulated flash commit complete; model checksums updated.", "COMMIT")
             return True
         else:
             raise RuntimeError(f"Flash commit rejected with code {resp['response']}")
@@ -827,13 +827,13 @@ class W300ServiceController:
             success = self.send_control_request(0x43, 0x01, 0xC800, 0x2855)
             if success:
                 self.mode = "MASS_STORAGE"
-                self.log("Camera cleanly rebooted into retail operational mode.", "RESET")
+                self.log("Simulated camera rebooted into mass-storage mode.", "RESET")
             return success
 
     def run_full_cycle(self) -> bool:
-        """Runs the complete end-to-end destination programming lifecycle."""
+        """Run the complete simulated destination-programming sequence."""
         self.log("=" * 70, "LIFECYCLE")
-        self.log("STARTING FULL DSC-W300 CEE8 PROGRAMMING LIFECYCLE", "LIFECYCLE")
+        self.log("STARTING THE SIMULATED DSC-W300 CEE8 PROGRAMMING SEQUENCE", "LIFECYCLE")
         self.log("=" * 70, "LIFECYCLE")
 
         # Step 1: Detect
@@ -865,7 +865,7 @@ class W300ServiceController:
             updated = self.read_destination_info()
             if updated['destination'] != "CEE8" or "Polish (pl)" not in updated['active_languages']:
                 raise RuntimeError("Post-write verification failed: CEE8 destination not active!")
-            self.log("VERIFICATION CONFIRMED: CEE8 Active, Polish Available, PAL Video Configured.", "VERIFY")
+            self.log("SIMULATION VERIFIED: CEE8 active, Polish available and PAL configured in the model.", "VERIFY")
 
         # Step 8: Reboot
         self.log("--- CLEAN REBOOT ---", "RESET")
@@ -905,7 +905,7 @@ def build_parser() -> argparse.ArgumentParser:
 
     parser = argparse.ArgumentParser(
         parents=[common_parser],
-        description="Sony Cyber-shot DSC-W300 Service Protocol Engineering Tool (CEE8 Destination Writer)",
+        description="Offline Sony Cyber-shot DSC-W300 service-protocol simulation (CEE8 destination model)",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
@@ -926,12 +926,12 @@ Examples:
     subparsers = parser.add_subparsers(dest="command", help="Service command to execute")
     sub_commands = [
         ("detect", "Detect connected camera status and USB PID"),
-        ("read", "Read current destination, serial, video format, and language table"),
-        ("unlock", "Send ID1 unlock command to clear service board write protection"),
-        ("write-cee8", "Stage CEE8 destination parameters into camera RAM"),
-        ("commit", "Commit staged RAM configuration to physical NOR flash"),
-        ("reset", "Issue reboot request to return camera to retail mode"),
-        ("full-cycle", "Execute complete end-to-end CEE8 programming lifecycle"),
+        ("read", "Read the simulated destination, serial, video format and language table"),
+        ("unlock", "Simulate the ID1 command that clears the model write lock"),
+        ("write-cee8", "Stage CEE8 destination parameters in simulated RAM"),
+        ("commit", "Commit staged configuration to the simulated flash store"),
+        ("reset", "Simulate a reboot into mass-storage mode"),
+        ("full-cycle", "Run the complete simulated CEE8 programming sequence"),
     ]
     for cmd_name, help_text in sub_commands:
         subparsers.add_parser(cmd_name, parents=[common_parser], help=help_text)

@@ -1,6 +1,6 @@
 # Offline verification contracts
 
-Run `python tools/run_checks.py` from the repository. The runner audits immutable artifacts before and after unittest discovery and writes `build/test-results.json`. That report identifies the host, Python version, Git revision, working-tree changes, failures, errors and skips. A report is specific to that run. There is no permanent READY declaration or hard-coded test-count target.
+Run `python tools/run_checks.py` from the repository. The runner audits immutable artifacts before and after unittest discovery and writes `build/test-results.json`. That report identifies the host, Python version, Git revision, working-tree changes, failures, errors and skips. Each report describes one run. It does not establish permanent readiness, and the required test count is not fixed.
 
 ## Required checks
 
@@ -11,7 +11,7 @@ Run `python tools/run_checks.py` from the repository. The runner audits immutabl
 - Platform-correct temporary-file use, honest optional dependency status and valid active documentation links.
 - Editorial manifest revisions preserve raw-data pins, historical baselines and measured flags; only explicitly named maintained files and additions enter a revision.
 
-Every required test must run. A missing retained input fails rather than turning a required integration check into a silent skip. Count changes are expected when false or redundant tests are replaced with useful contracts. Hardware effects and numerical image-quality improvements cannot be established by synthetic tests.
+Every required test must run. A missing required input causes a failure; it must not silently skip an integration check. Count changes are expected when false or redundant tests are replaced with useful contracts. Hardware effects and numerical image-quality improvements cannot be established by synthetic tests.
 
 ## CI and platform claims
 

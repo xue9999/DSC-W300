@@ -1,6 +1,6 @@
 # W300 manual: external package locator audit
 
-Editorial revision 3; underlying measurements and captured results retain their recorded scope.
+Editorial revision 5; underlying measurements and captured results retain their recorded scope.
 
 ## Result
 
@@ -48,7 +48,7 @@ All outputs from this bounded check are in `build/w300/reports/`. No additional 
 
 ## Reproduce the object audit
 
-The successful inline audit is retained as `build/w300/reports/pdf_locator_audit.py`. It consolidates the already performed separation of numerical `/S` fields from actual actions. The retained helper was not rerun merely to repeat the passed check. From the repository root, this invocation reads the original PDF and regenerates only the derived JSON report:
+The successful audit is preserved in `build/w300/reports/pdf_locator_audit.py`. The helper distinguishes numerical `/S` fields from actual PDF actions. The retained helper was not rerun merely to repeat the passed check. From the repository root, this invocation reads the original PDF and regenerates only the derived JSON report:
 
 ```powershell
 & 'C:\Users\apara01\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' 'build/w300/reports/pdf_locator_audit.py' --source 'sources/sony_dsc-w300_adjustment_ver1.3.pdf' --output 'build/w300/reports/w300-package-locators.json'

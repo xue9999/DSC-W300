@@ -6,11 +6,11 @@
 python tools/cxd4108_emulator/qemu_launcher.py status
 ```
 
-The status distinguishes source availability, pinned commits, executable availability and extracted evidence. Empty submodule directories are not cloned dependencies. Record observed boot results as a separate qualification milestone.
+The status reports source availability, pinned commits, available executables and extracted evidence separately. Empty submodule directories do not contain cloned dependencies. Record actual boot results separately.
 
 Optional source dependencies are pinned by Git and `.gitmodules`. To acquire them explicitly, use `git submodule update --init`; do not use `--remote` as a setup shortcut. Inspect upstream build instructions at the pinned revision before building QEMU. The required machine is the custom `cxd4108`, not merely any `qemu-system-arm` executable.
 
-The launcher can print arguments for G3, W90 and T100. It does not provide a W300 hardware qualification. Flash/partition builders assemble local images; the factory-data helper creates synthetic emulator fixtures. Its byte labels and zero-filled templates are not device calibration data and must not be deployed to hardware.
+The launcher can print arguments for G3, W90 and T100. It does not verify W300 hardware behavior. Flash/partition builders assemble local images; the factory-data helper creates synthetic emulator fixtures. Its byte labels and zero-filled templates are not device calibration data and must not be deployed to hardware.
 
 ## Native probe source
 

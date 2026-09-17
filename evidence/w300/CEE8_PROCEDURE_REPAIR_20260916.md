@@ -25,7 +25,7 @@ CLI passive detection again reported Sony DSC-W300 at 054c:0341. CLI dry-run com
 
 ## Next implementation input
 
-The user has confirmed no exact Auto-Adj package or installed service system is available and requested writing or simulating a replacement. The existing simulator was run through its full mock conversion; output is `cee8-offline-simulation-20260916.txt`. This is a successful execution of the assumed model only, not evidence for its assumptions and not a physical language change.
+The user has confirmed no exact Auto-Adj package or installed service system is available and requested writing or simulating a replacement. The existing simulator was run through its full mock conversion; output is `cee8-offline-simulation-20260916.txt`. This shows that the assumed model runs successfully. It does not validate the assumptions or change the language on a physical camera.
 
 Additional passive `ioreg` inspection identifies the actual DSC-W300 interface as class 8, subclass 5, protocol 80 (0x50), with `IOUSBMassStorageInterfaceNub` as exclusive owner. Thus the connected device IS already in Mass Storage; no user mode change is justified from the PID difference. No service traffic was sent to obtain this finding.
 

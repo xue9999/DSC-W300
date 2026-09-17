@@ -1,6 +1,6 @@
 # G3 Senser USB descriptor and activation-request binding
 
-Editorial revision 3; underlying measurements and captured results retain their recorded scope.
+Editorial revision 5; underlying measurements and captured results retain their recorded scope.
 
 ## Result
 
@@ -8,7 +8,7 @@ The retained **G3** library has a concrete Senser descriptor-selection path for 
 
 The retained G3 Senser driver also matches the exact two 8-byte control requests used by pinned PMCA's `StartSenser` and `StopSenser` methods. The request patterns are supplied by `libusb.so` to the driver, then compared by the registered vendor callback. A successful match stops other gadget function drivers and queues the matched index as an event.
 
-These findings resolve the **static G3 PID-branch qualification** missing from the preceding host-interface audit: the selected G3 Senser descriptor is the PID for which PMCA constructs a 1024-byte challenge-plus-key input. They do not constitute live USB enumeration, authentication, proof of a successful transition from normal camera mass-storage mode, or any W300 compatibility result.
+These findings identify which PMCA authentication branch the **G3 Senser PID selects**, resolving a gap in the preceding host-interface audit. The selected G3 Senser descriptor contains the PID for which PMCA constructs a 1024-byte challenge-plus-key input. They do not constitute live USB enumeration, authentication, proof of a successful transition from normal camera mass-storage mode, or any W300 compatibility result.
 
 There are **two distinct PMCA authentication stages**. In pinned `pmca/commands/usb.py:656` onwards, `senserShellCommand` first starts/authenticates a normal `SonyMscExtCmdDevice`, waits for Senser enumeration, and then starts/authenticates the `SonySenserDevice`. When the first device's PID is not `0x0336`, the authentication helper hashes only `data[:4]`. The 512+512-byte G3 match established here qualifies the static configuration for the **second stage**. It does not qualify the first stage or the normal-MSC-to-Senser transition.
 
@@ -21,7 +21,7 @@ All binary inputs remain in `evidence/` and are read as data. `inspect_usb.py` a
 - `evidence/extracted_g3/rootfs/initrd/bin/unified_drv.ko`
 - `evidence/extracted_g3/rootfs/initrd/bin/unified_drv2.ko`
 
-Library addresses below are ELF virtual addresses, not addresses for a W300 command. The shared libraries' `.text` addresses also equal their file offsets. For their data sections the mapping is different and the evidence JSON records both. Kernel addresses below are explicitly `.text` **section offsets of an ET_REL object**, not linked runtime addresses. Use the retained relocation annotations for its branches.
+Library addresses below are ELF virtual addresses, not addresses for a W300 command. The shared libraries' `.text` addresses also equal their file offsets. For their data sections the mapping is different and the evidence JSON records both. Kernel addresses below are `.text` **section offsets in an ET_REL object**, not linked runtime addresses. Use the retained relocation annotations to interpret branches.
 
 ## DID 13 to the USB device descriptor
 

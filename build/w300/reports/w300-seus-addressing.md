@@ -1,6 +1,6 @@
 # W300 SEUS addressing: implementing the model-specific mapping
 
-Editorial revision 3; underlying measurements and captured results retain their recorded scope.
+Editorial revision 5; underlying measurements and captured results retain their recorded scope.
 
 ## Finding
 
@@ -54,7 +54,7 @@ In `pmca/usb/sony.py:949–952,990–995`, the modern adjustment header contains
 
 ## Exact missing engineering input
 
-The smallest useful source would be the W300-capable **SeusEX register-read implementation or a trustworthy W300 exchange captured from it**, showing all of the following:
+A useful next source would be a W300-capable **SeusEX register-read implementation or a trustworthy W300 exchange captured from it**, showing all of the following:
 
 1. The necessary connection/service-entry sequence and authentication, with a verified W300 identity and mode.
 2. How a known complete tuple such as manual Block/Page/Address is serialized, including any separate block-selection operation and byte order; data width and count must be explicit.

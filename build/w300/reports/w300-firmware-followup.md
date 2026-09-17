@@ -1,6 +1,6 @@
 # W300 firmware and transaction evidence: additional bounded acquisition
 
-Editorial revision 4; underlying measurements and captured results retain their recorded scope.
+Editorial revision 5; underlying measurements and captured results retain their recorded scope.
 
 ## Result
 
@@ -23,7 +23,7 @@ Reviewed `build/w300/downloads/w300-firmware-candidates/ACQUISITION_REPORT.md`, 
 | [HelpOwl question 1066945](https://www.helpowl.com/q/Sony/DSCW300/Technical-Support/english-menu-japanese-model-dscw-300-change-english/1066945), posted 2021-06-15 | The page marks an answer accepted, but that answer offers general settings advice and one Sony guide URL. Following the URL identifies DSC-WX300. | Wrong-model reference; no W300 before/after observation or service trace. |
 | [Sony guide actually linked by the accepted answer](https://helpguide.sony.net/gbmig/44559301/v1/eng/contents/07/02/03/03.html) | Downloaded HTML declares `Applicable model` = `DSC-WX300` at line 11 and includes DSC-WX300 in its title at line 13. | Direct primary-source verification of the mismatch; do not cite the accepted answer as W300 conversion success. |
 | [DriverOwl W300 download listing 773](https://www.driverowl.com/p/Sony/DSC-W300/Driver/773) | Generic driver/firmware page says it points to the Sony site and requires a robot check to show that link. It does not identify a firmware filename/version, binary size, or owner dump. | Not an acquired payload. No check bypass or installer download attempted. |
-| [VLab Sony service-manual thread, page 2](https://vlab.su/viewtopic.php?f=163&hilit=%2AW350%2A&start=30&t=333) | The W300 post by `swansic`, dated 2011-04-06, labels its attachment **Service Manual Sony DSC-W300 Level 3**. Attachment viewing requires an account and either participation or paid access. | A declared manual, not a claimed firmware dump; attachment bytes were not available for inspection. No login/purchase attempted. Root is separately obtaining the known public Level 3 manual for component identification. |
+| [VLab Sony service-manual thread, page 2](https://vlab.su/viewtopic.php?f=163&hilit=%2AW350%2A&start=30&t=333) | The W300 post by `swansic`, dated 2011-04-06, labels its attachment **Service Manual Sony DSC-W300 Level 3**. Attachment viewing requires an account and either participation or paid access. | A declared manual, not a claimed firmware dump; attachment bytes were not available for inspection. No login/purchase attempted. A separate investigation was obtaining the known public Level 3 manual to identify components. |
 | [GSMHosting DBSS announcement](https://forum.gsmhosting.com/vbb/f360/dbss-v3-6-dreambox-firmware-v1-13-a-559384/) | The actual announcement's W300/full-flash support refers explicitly to Sony Ericsson DB2012 phones, alongside K310/K320/K510/Z530, and DCU-60 phone tooling. | Wrong product family. Its firmware capabilities are not Cyber-shot evidence. |
 
 The regional search response and source-page text retrieved through the web tool are preserved in `regional-search-response.json` and `owner-reference-and-vlab-response.json`. The successful Sony HTML download is `sony-guide-wx300-not-w300.html`.
@@ -38,7 +38,7 @@ These are search-index observations, not an inspection of every site's archive. 
 
 ## Follow-through from the acquired Level 3 manual
 
-The root agent acquired the 34-page W300 Level 3 version 1.1 manual from [Manuallib's actual PDF](https://www.manuallib.com/download/pdf4/SONY-DSC-W300-MANUAL.PDF), retained at `build/w300/downloads/w300-l3-reference/sony-w300-l3-v1.1.pdf` and `.txt`. Its schematic identifies IC203 as `PRX765105A`. This is a source-qualified component designation; this check does **not** establish that PRX765105A is a separately accessible flash IC or establish its storage capacity.
+The separate investigation acquired the 34-page W300 Level 3 version 1.1 manual from [Manuallib's actual PDF](https://www.manuallib.com/download/pdf4/SONY-DSC-W300-MANUAL.PDF), retained at `build/w300/downloads/w300-l3-reference/sony-w300-l3-v1.1.pdf` and `.txt`. Its schematic identifies IC203 as `PRX765105A`. This is a source-qualified component designation; this check does **not** establish that PRX765105A is a separately accessible flash IC or establish its storage capacity.
 
 New queries for `"PRX765105A"`, `"PRX765105" firmware dump`, `"PRX765105A" datasheet`, and `"PRX765105A" прошивка` returned an explicit empty result set. Follow-up family queries `"PRX765" Sony` and `"765105A" Sony` did not expose a component specification or payload. Results are retained in `prx765105a-search-response.json` and `prx-family-and-watermark-search-response.json`. This closes the exact-marking search attempted here; it is not a statement about unindexed repair archives.
 

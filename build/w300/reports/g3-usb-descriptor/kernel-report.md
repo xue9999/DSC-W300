@@ -1,6 +1,6 @@
 # Retained G3 kernel-module USB audit
 
-Editorial revision 3; underlying measurements and captured results retain their recorded scope.
+Editorial revision 5; underlying measurements and captured results retain their recorded scope.
 
 This is static analysis of two retained G3 files as data. No firmware was executed, no module was loaded, and no USB traffic was sent. Section offsets below are ELF relocatable-object offsets, never W300 camera addresses.
 
@@ -14,7 +14,7 @@ The retained `unified_drv.ko` contains a concrete SENSER driver registration and
 | SENSER request callback | `0x1a248` | `0x1a27c` | Reads private data through context `+0x6c`; compares its two consecutive 8-byte entries against the incoming second argument. |
 | Callback `memcmp` import | `0x1a290` | `0x1a2c4` | Comparison length is exactly 8; entry index is 0 or 1. |
 | Stop other USB driver | `0x1a2a0` | `0x1a2d4` | On a match calls the imported `usb_gadgetcore_stop_other_driver` with context `+0x34`. The call must return zero to proceed. |
-| Queue event | `0x1a2c8` | `0x1a2fc` | Calls imported `usb_event_add_queue`, with `r3=7`, payload length 4 and payload containing the matched entry index. This is the observed event production, not proof of the userspace event handler's eventual action. |
+| Queue event | `0x1a2c8` | `0x1a2fc` | Calls imported `usb_event_add_queue`, with `r3=7`, payload length 4 and payload containing the matched entry index. This establishes how the code queues the event, not what the userspace event handler eventually does. |
 | SENSER ioctl handler | `0x1a450` | `0x1a484` | Handles ioctl `0x4034e000` registration and `0x0000e001` unregistration. Literal locations are `.text:0x1b0e0` and `.text:0x1b0dc`, respectively. |
 | Copy userspace probe data | `0x1a534` | `0x1a568` | Calls `usbg_cmn_copy_probe_info`. |
 | Install request callback | `0x1a584`–`0x1a588` | `0x1a5b8`–`0x1a5bc` | Loads relocated `.text:0x1a248` and stores it at context `+0x5c` (driver record `+0x28`, because its base is context `+0x34`). |
@@ -28,7 +28,7 @@ The module therefore supports tracing the request patterns back to the userspace
 
 `unified_drv.ko` has 274432 bytes, but its ELF section table declares stored content through byte 303816. Its full `.text`, `.init.text`, `.data`, `.rodata`, `.symtab` (774 symbols) and `.strtab` are present. Its `.rel.text` begins at 231000 and declares 64080 bytes, but only 43432 bytes, or 5429 complete relocation entries, remain. The later relocation sections are absent. This is a property of the retained input, not a parser/dependency failure. Missing relocation entries were not reconstructed or guessed. In particular, `init_usbg_sen` exists at `.init.text:0x910`, file `0x2a5b0`, size `0x100`, but its relocation section is unavailable.
 
-`unified_drv2.ko` is 90548 bytes and all declared file-backed sections fit. Its full table has 177 symbols and 2400 relocation entries. No symbol names match USB, SENSER or gadgetcore; that name-based negative is not a proof that every byte of the file is unrelated to USB.
+`unified_drv2.ko` is 90548 bytes and all declared file-backed sections fit. Its full table has 177 symbols and 2400 relocation entries. No symbol names match USB, SENSER or gadgetcore. This absence of matching names does not prove that the entire file is unrelated to USB.
 
 ## Reproduction
 

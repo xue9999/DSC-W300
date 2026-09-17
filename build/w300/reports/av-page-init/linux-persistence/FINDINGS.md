@@ -1,6 +1,6 @@
 # G3 Linux receiver for AV backup IPC channel 0x1002
 
-Editorial revision 4; underlying measurements and captured results retain their recorded scope.
+Editorial revision 5; underlying measurements and captured results retain their recorded scope.
 
 ## Conclusion
 
@@ -56,7 +56,7 @@ The AV category selector is a separate command parameter. It is not the adjustme
 - `writeUser` chooses main and/or spare paths according to the current file completion marker and calls `writeSafely` (0x8AA8).
 - `writeSafely` calls `backupFileWrite` to clear a completion marker, write the body and then store marker 0xAAAAAAAA. `backupFileWrite` (0xACD0) calls the open, seek, write and close helpers on the selected file path.
 
-These paths demonstrate intentional file-backed persistence and destructive file erasure in static code. They do not prove success on hardware, physical-media durability at a particular instant, safe interruption or restoration coverage.
+The static code shows paths that persist data to files and erase file contents. It does not establish success on hardware, when the data becomes durable on physical media, whether interruption is safe, or what restoration would recover.
 
 ## Bank identification remains unproven
 

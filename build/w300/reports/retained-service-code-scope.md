@@ -1,6 +1,6 @@
 # Retained G3 service libraries: bounded relevance to W300
 
-Editorial revision 4; underlying measurements and captured results retain their recorded scope.
+Editorial revision 5; underlying measurements and captured results retain their recorded scope.
 
 ## Result and scope
 
@@ -18,7 +18,7 @@ Searched `ANALYSIS_LOG.md`, current `docs/`, `tools/`, `sources/original-researc
 
 All files are under `evidence/extracted_g3/archives_unpacked/lib/lib/`; all parsed as little-endian ELF32, machine 40 (ARM). The inventory covered `libsencore.so`, `libsenupdate.so`, `libadj30.so`, `libadj31.so`, `libadj32.so`, `libadj33.so`, `libadj36.so`, `libadj3E.so`, `libBackupCore.so`, `libBackupTable.so`, and `libAppBackupApi.so`.
 
-For each file, `retained-service-inventory.json` records size, SHA-256, symbol table entries, relevant ASCII strings, and offsets of exact `W300`, `DSC-W300`, and `USBSENSERKEYOPEN` searches in ASCII, UTF-16LE and UTF-16BE. All those literal searches returned no matches. No identified model-name table containing W300 emerged from the inspected names/strings.
+For each file, `retained-service-inventory.json` records size, SHA-256, symbol table entries, relevant ASCII strings, and offsets of exact `W300`, `DSC-W300`, and `USBSENSERKEYOPEN` searches in ASCII, UTF-16LE and UTF-16BE. All those literal searches returned no matches. The inspected names and strings did not identify a model-name table containing W300.
 
 Concrete nearby symbols are listed below as locators only. File offsets refer to the hash-identified bytes in the JSON; they are not camera memory addresses or commands.
 
