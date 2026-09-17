@@ -1,0 +1,182 @@
+0165fa 600210                    
+0165fd 4100                      
+0165ff 6d                        
+016600 648533                   1331:path 
+016603 5c                        
+016604 6a00                      ''
+016606 6d                        
+016607 648534                   1332:curLanguage 
+01660a 5c                        
+01660b 6a73797374656d446174612e6c616e67477000  'systemData.langGp'
+01661e 5d                        
+01661f 428538                   1336:Registry 
+016622 428539                   1337:KEY_REGION 
+016625 8902                      
+016627 5d                        
+016628 428538                   1336:Registry 
+01662b 2e853a                   1338:get 
+01662e 63ff                      
+016630 5c                        
+016631 41ff                      
+016633 37                        
+016634 8900                      
+016636 69                        
+016637 29002d                    
+01663a 37                        
+01663b 8901                      
+01663d 69                        
+01663e 290093                    
+016641 37                        
+016642 8902                      
+016644 69                        
+016645 290099                    
+016648 37                        
+016649 8903                      
+01664b 69                        
+01664c 2900b3                    
+01664f 37                        
+016650 8904                      
+016652 69                        
+016653 2900f9                    
+016656 37                        
+016657 8905                      
+016659 69                        
+01665a 290127                    
+01665d 37                        
+01665e 8963                      
+016660 69                        
+016661 290169                    
+016664 280198                    
+016667 6a6a706e2c656e672c6672652c6765722c7370612c6974612c706f722c6475742c7275732c7377652c6e6f722c64616e2c66696e2c706f6c2c637a652c68756e2c7475722c6772652c7463682c7363682c6b6f722c7065722c6172612c7468612c6d616c00  'jpn,eng,fre,ger,spa,ita,por,dut,rus,swe,nor,dan,fin,pol,cze,hun,tur,gre,tch,sch,kor,per,ara,tha,mal'
+0166cc 6d                        
+0166cd 648532                   1330:availableLang 
+0166d0 5c                        
+0166d1 280138                    
+0166d4 6a6a706e00                'jpn'
+0166d9 6d                        
+0166da 648532                   1330:availableLang 
+0166dd 5c                        
+0166de 28012b                    
+0166e1 6a656e672c6672652c7370612c6974612c7463682c73636800  'eng,fre,spa,ita,tch,sch'
+0166fa 6d                        
+0166fb 648532                   1330:availableLang 
+0166fe 5c                        
+0166ff 28010a                    
+016702 6a656e672c6672652c6765722c7370612c6974612c706f722c6475742c7275732c7377652c6e6f722c64616e2c66696e2c706f6c2c637a652c68756e2c7475722c67726500  'eng,fre,ger,spa,ita,por,dut,rus,swe,nor,dan,fin,pol,cze,hun,tur,gre'
+016747 6d                        
+016748 648532                   1330:availableLang 
+01674b 5c                        
+01674c 2800bd                    
+01674f 6a656e672c6672652c7370612c706f722c7463682c7363682c6b6f722c7065722c6172612c7468612c6d616c00  'eng,fre,spa,por,tch,sch,kor,per,ara,tha,mal'
+01677c 6d                        
+01677d 648532                   1330:availableLang 
+016780 5c                        
+016781 280088                    
+016784 6a656e672c6672652c6765722c7370612c6974612c706f722c6475742c7377652c6e6f722c64616e2c66696e2c706f6c2c637a652c68756e2c7475722c67726500  'eng,fre,ger,spa,ita,por,dut,swe,nor,dan,fin,pol,cze,hun,tur,gre'
+0167c5 6d                        
+0167c6 648532                   1330:availableLang 
+0167c9 5c                        
+0167ca 28003f                    
+0167cd 6a73797374656d446174612e617661696c61626c654c616e6700  'systemData.availableLang'
+0167e7 5d                        
+0167e8 428538                   1336:Registry 
+0167eb 428539                   1337:KEY_REGION 
+0167ee 8902                      
+0167f0 5d                        
+0167f1 428538                   1336:Registry 
+0167f4 2e853a                   1338:get 
+0167f7 6d                        
+0167f8 648532                   1330:availableLang 
+0167fb 5c                        
+0167fc 28000d                    
+0167ff 6a656e6700                'eng'
+016804 6d                        
+016805 648532                   1330:availableLang 
+016808 5c                        
+016809 280000                    
+01680c 5c                        
+01680d 38                        
+01680e 6c                        
+01680f 7c80390c04               57:initialize 
+016814 5c                        
+016815 37                        
+016816 3f0026                    
+016819 23ffff22007900           65535:<special> 
+016820 60001b                    
+016823 59                        
+016824 6d                        
+016825 648532                   1330:availableLang 
+016828 5c                        
+016829 8900                      
+01682b 6d                        
+01682c 2e853b                   1339:registerClear 
+01682f 5c                        
+016830 6a00                      ''
+01ce00 5c                        
+01ce01 37                        
+01ce02 3f00cc                    
+01ce05 23ffff220079028536871e   65535:<special> 1334:language 1822:retLang 
+01ce10 6000bd                    
+01ce13 6a636f6d6d6f6e446174612e6c616e677561676500  'commonData.language'
+01ce28 5d                        
+01ce29 428538                   1336:Registry 
+01ce2c 42854a                   1354:KEY_USER 
+01ce2f 8902                      
+01ce31 5d                        
+01ce32 428538                   1336:Registry 
+01ce35 2e853a                   1338:get 
+01ce38 63ff                      
+01ce3a 5c                        
+01ce3b 41ff                      
+01ce3d 6a00                      ''
+01ce3f 3a                        
+01ce40 29004c                    
+01ce43 6a73797374656d446174612e6c616e6700  'systemData.lang'
+01ce54 5d                        
+01ce55 428538                   1336:Registry 
+01ce58 428539                   1337:KEY_REGION 
+01ce5b 8902                      
+01ce5d 5d                        
+01ce5e 428538                   1336:Registry 
+01ce61 2e853a                   1338:get 
+01ce64 63ff                      
+01ce66 5c                        
+01ce67 41ff                      
+01ce69 6a636f6d6d6f6e446174612e6c616e677561676500  'commonData.language'
+01ce7e 5d                        
+01ce7f 428538                   1336:Registry 
+01ce82 42854a                   1354:KEY_USER 
+01ce85 8903                      
+01ce87 5d                        
+01ce88 428538                   1336:Registry 
+01ce8b 2e82c0                   704:set 
+01ce8e 5c                        
+01ce8f 41ff                      
+01ce91 8901                      
+01ce93 5d                        
+01ce94 428001                   1:dsc 
+01ce97 4281b0                   432:langManager 
+01ce9a 2e81b1                   433:setLanguage 
+01ce9d 63fe                      
+01ce9f 5c                        
+01cea0 41fe                      
+01cea2 41ff                      
+01cea4 58                        
+01cea5 290028                    
+01cea8 41fe                      
+01ceaa 6a636f6d6d6f6e446174612e6c616e677561676500  'commonData.language'
+01cebf 5d                        
+01cec0 428538                   1336:Registry 
+01cec3 42854a                   1354:KEY_USER 
+01cec6 8903                      
+01cec8 5d                        
+01cec9 428538                   1336:Registry 
+01cecc 2e82c0                   704:set 
+01cecf 5c                        
+01ced0 38                        
+01ced1 6c                        
+01ced2 7c86e60c0c               1766:_setLanguage 
+01ced7 5c                        
+01ced8 37                        
+01ced9 3f0011                    
+01cedc 23ffff22007900           65535:<special> 

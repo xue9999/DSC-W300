@@ -1,0 +1,4280 @@
+{
+  "captured_at_utc": "2026-09-17T14:59:06.0726990Z",
+  "selected_instance_id": "USB\\VID_054C&PID_0341\\D386002E4438",
+  "method": "Windows OS inventory; no device configuration or vendor commands",
+  "camera_write_commands_sent": false,
+  "sections": {
+    "device_tree": {
+      "ok": true,
+      "data": [
+        {
+          "device": {
+            "Class": "USB",
+            "FriendlyName": "USB Mass Storage Device",
+            "InstanceId": "USB\\VID_054C&PID_0341\\D386002E4438",
+            "Problem": 0,
+            "ConfigManagerErrorCode": 0,
+            "ProblemDescription": "This device is working properly.",
+            "Caption": "USB Mass Storage Device",
+            "Description": "USB Mass Storage Device",
+            "InstallDate": null,
+            "Name": "USB Mass Storage Device",
+            "Status": "OK",
+            "Availability": null,
+            "ConfigManagerUserConfig": false,
+            "CreationClassName": "Win32_PnPEntity",
+            "DeviceID": "USB\\VID_054C&PID_0341\\D386002E4438",
+            "ErrorCleared": null,
+            "ErrorDescription": null,
+            "LastErrorCode": null,
+            "PNPDeviceID": "USB\\VID_054C&PID_0341\\D386002E4438",
+            "PowerManagementCapabilities": null,
+            "PowerManagementSupported": null,
+            "StatusInfo": null,
+            "SystemCreationClassName": "Win32_ComputerSystem",
+            "SystemName": "APARA01PC5183",
+            "ClassGuid": "{36fc9e60-c465-11cf-8056-444553540000}",
+            "CompatibleID": [
+              "USB\\COMPAT_VID_054C&Class_08&SubClass_05&Prot_50",
+              "USB\\COMPAT_VID_054C&Class_08&SubClass_05",
+              "USB\\COMPAT_VID_054C&Class_08",
+              "USB\\Class_08&SubClass_05&Prot_50",
+              "USB\\Class_08&SubClass_05",
+              "USB\\Class_08"
+            ],
+            "HardwareID": [
+              "USB\\VID_054C&PID_0341&REV_0100",
+              "USB\\VID_054C&PID_0341"
+            ],
+            "Manufacturer": "Compatible USB storage device",
+            "PNPClass": "USB",
+            "Present": true,
+            "Service": "USBSTOR",
+            "PSComputerName": null
+          },
+          "instance_id": "USB\\VID_054C&PID_0341\\D386002E4438",
+          "properties": [
+            {
+              "KeyName": "DEVPKEY_Device_DeviceDesc",
+              "Type": 18,
+              "Data": "USB Mass Storage Device"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_HardwareIds",
+              "Type": 8210,
+              "Data": [
+                "USB\\VID_054C&PID_0341&REV_0100",
+                "USB\\VID_054C&PID_0341"
+              ]
+            },
+            {
+              "KeyName": "DEVPKEY_Device_CompatibleIds",
+              "Type": 8210,
+              "Data": [
+                "USB\\COMPAT_VID_054C&Class_08&SubClass_05&Prot_50",
+                "USB\\COMPAT_VID_054C&Class_08&SubClass_05",
+                "USB\\COMPAT_VID_054C&Class_08",
+                "USB\\Class_08&SubClass_05&Prot_50",
+                "USB\\Class_08&SubClass_05",
+                "USB\\Class_08"
+              ]
+            },
+            {
+              "KeyName": "DEVPKEY_Device_Service",
+              "Type": 18,
+              "Data": "USBSTOR"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_Class",
+              "Type": 18,
+              "Data": "USB"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_ClassGuid",
+              "Type": 13,
+              "Data": "{36FC9E60-C465-11CF-8056-444553540000}"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_Driver",
+              "Type": 18,
+              "Data": "{36fc9e60-c465-11cf-8056-444553540000}\\0096"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_ConfigFlags",
+              "Type": 7,
+              "Data": 0
+            },
+            {
+              "KeyName": "DEVPKEY_Device_Manufacturer",
+              "Type": 18,
+              "Data": "Compatible USB storage device"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_LocationInfo",
+              "Type": 18,
+              "Data": "Port_#0004.Hub_#0002"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_PDOName",
+              "Type": 18,
+              "Data": "\\Device\\USBPDO-2"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_Capabilities",
+              "Type": 7,
+              "Data": 148
+            },
+            {
+              "KeyName": "DEVPKEY_Device_BusTypeGuid",
+              "Type": 13,
+              "Data": "{9D7DEBBC-C85D-11D1-9EB4-006008C3A19A}"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_LegacyBusType",
+              "Type": 7,
+              "Data": 15
+            },
+            {
+              "KeyName": "DEVPKEY_Device_BusNumber",
+              "Type": 7,
+              "Data": 0
+            },
+            {
+              "KeyName": "DEVPKEY_Device_EnumeratorName",
+              "Type": 18,
+              "Data": "USB"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_Address",
+              "Type": 7,
+              "Data": 4
+            },
+            {
+              "KeyName": "DEVPKEY_Device_PowerData",
+              "Type": 4099,
+              "Data": [
+                56,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                25,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                4,
+                0,
+                0,
+                0,
+                4,
+                0,
+                0,
+                0,
+                4,
+                0,
+                0,
+                0,
+                4,
+                0,
+                0,
+                0,
+                4,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "KeyName": "DEVPKEY_Device_RemovalPolicy",
+              "Type": 7,
+              "Data": 3
+            },
+            {
+              "KeyName": "DEVPKEY_Device_RemovalPolicyDefault",
+              "Type": 7,
+              "Data": 3
+            },
+            {
+              "KeyName": "DEVPKEY_Device_InstallState",
+              "Type": 7,
+              "Data": 0
+            },
+            {
+              "KeyName": "DEVPKEY_Device_BaseContainerId",
+              "Type": 13,
+              "Data": "{88746E6D-E3F6-5744-9A39-A495052A6B23}"
+            },
+            {
+              "KeyName": "DEVPKEY_NAME",
+              "Type": 18,
+              "Data": "USB Mass Storage Device"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_InstanceId",
+              "Type": 18,
+              "Data": "USB\\VID_054C&PID_0341\\D386002E4438"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_DevNodeStatus",
+              "Type": 7,
+              "Data": 25190410
+            },
+            {
+              "KeyName": "DEVPKEY_Device_ProblemCode",
+              "Type": 7,
+              "Data": 0
+            },
+            {
+              "KeyName": "DEVPKEY_Device_BusRelations",
+              "Type": 8210,
+              "Data": [
+                "USBSTOR\\Disk&Ven_Sony&Prod_DSC&Rev_1.00\\D386002E4438&0"
+              ]
+            },
+            {
+              "KeyName": "DEVPKEY_Device_Parent",
+              "Type": 18,
+              "Data": "USB\\ROOT_HUB30\\4&7155916&0&0"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_Children",
+              "Type": 8210,
+              "Data": [
+                "USBSTOR\\Disk&Ven_Sony&Prod_DSC&Rev_1.00\\D386002E4438&0"
+              ]
+            },
+            {
+              "KeyName": "DEVPKEY_Device_Siblings",
+              "Type": 8210,
+              "Data": [
+                "USB\\VID_06CB&PID_0701\\01.00.00.00",
+                "USB\\VID_27C6&PID_634C\\UID94790026_XXXX_MOC_B0"
+              ]
+            },
+            {
+              "KeyName": "DEVPKEY_Device_SafeRemovalRequired",
+              "Type": 17,
+              "Data": false
+            },
+            {
+              "KeyName": "DEVPKEY_Device_ContainerId",
+              "Type": 13,
+              "Data": "{88746E6D-E3F6-5744-9A39-A495052A6B23}"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_IsPresent",
+              "Type": 17,
+              "Data": true
+            },
+            {
+              "KeyName": "DEVPKEY_Device_HasProblem",
+              "Type": 17,
+              "Data": false
+            },
+            {
+              "KeyName": "{83DA6326-97A6-4088-9453-A1923F573B29} 15",
+              "Type": 17,
+              "Data": true
+            },
+            {
+              "KeyName": "DEVPKEY_Device_IsRebootRequired",
+              "Type": 17,
+              "Data": false
+            },
+            {
+              "KeyName": "DEVPKEY_Device_ReportedDeviceIdsHash",
+              "Type": 7,
+              "Data": 2228255124
+            },
+            {
+              "KeyName": "DEVPKEY_Device_InLocalMachineContainer",
+              "Type": 17,
+              "Data": false
+            },
+            {
+              "KeyName": "DEVPKEY_Device_Stack",
+              "Type": 8210,
+              "Data": [
+                "\\Driver\\USBSTOR",
+                "\\Driver\\CSDeviceControl",
+                "\\Driver\\ACPI",
+                "\\Driver\\USBHUB3"
+              ]
+            },
+            {
+              "KeyName": "{A8B865DD-2E3D-4094-AD97-E593A70C75D6} 26",
+              "Type": 17,
+              "Data": false
+            },
+            {
+              "KeyName": "{3464F7A4-2444-40B1-980A-E0903CB6D912} 10",
+              "Type": 7,
+              "Data": 3
+            },
+            {
+              "KeyName": "DEVPKEY_Device_BusReportedDeviceDesc",
+              "Type": 18,
+              "Data": "DSC-W300"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_ConfigurationId",
+              "Type": 18,
+              "Data": "usbstor.inf:USB\\Class_08&SubClass_05&Prot_50,USBSTOR_BULK.NT"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_PhysicalDeviceLocation",
+              "Type": 4099,
+              "Data": [
+                129,
+                0,
+                0,
+                0,
+                8,
+                0,
+                3,
+                0,
+                81,
+                18,
+                0,
+                2,
+                3,
+                0,
+                0,
+                0,
+                255,
+                255,
+                255,
+                255
+              ]
+            },
+            {
+              "KeyName": "DEVPKEY_Device_BiosDeviceName",
+              "Type": 18,
+              "Data": "\\_SB.PC00.XHCI.RHUB.HS04"
+            },
+            {
+              "KeyName": "{80497100-8C73-48B9-AAD9-CE387E19C56E} 6",
+              "Type": 7,
+              "Data": 0
+            },
+            {
+              "KeyName": "{83DA6326-97A6-4088-9453-A1923F573B29} 3",
+              "Type": 18,
+              "Data": "usbstor.inf:392c3d533eff3360:USBSTOR_BULK.NT:10.0.26100.9444:USB\\Class_08&SubClass_05&Prot_50"
+            },
+            {
+              "KeyName": "{83DA6326-97A6-4088-9453-A1923F573B29} 10",
+              "Type": 18,
+              "Data": "USB\\ROOT_HUB30\\4&7155916&0&0"
+            },
+            {
+              "KeyName": "{83DA6326-97A6-4088-9453-A1923F573B29} 25",
+              "Type": 7,
+              "Data": 0
+            },
+            {
+              "KeyName": "{83DA6326-97A6-4088-9453-A1923F573B29} 26",
+              "Type": 4099,
+              "Data": [
+                0
+              ]
+            },
+            {
+              "KeyName": "DEVPKEY_Device_InstallDate",
+              "Type": 16,
+              "Data": "2026-09-17T16:50:22.008859+02:00"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_FirstInstallDate",
+              "Type": 16,
+              "Data": "2026-09-17T16:50:22.008859+02:00"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_LastArrivalDate",
+              "Type": 16,
+              "Data": "2026-09-17T16:50:21.972621+02:00"
+            },
+            {
+              "KeyName": "{8DBC9C86-97A9-4BFF-9BC6-BFE95D3E6DAD} 2",
+              "Type": 18,
+              "Data": "{00000000-0000-0000-ffff-ffffffffffff}\\0000\\3"
+            },
+            {
+              "KeyName": "{8DBC9C86-97A9-4BFF-9BC6-BFE95D3E6DAD} 3",
+              "Type": 7,
+              "Data": 0
+            },
+            {
+              "KeyName": "{8DBC9C86-97A9-4BFF-9BC6-BFE95D3E6DAD} 4",
+              "Type": 7,
+              "Data": 3
+            },
+            {
+              "KeyName": "{8DBC9C86-97A9-4BFF-9BC6-BFE95D3E6DAD} 5",
+              "Type": 7,
+              "Data": 8
+            },
+            {
+              "KeyName": "{8DBC9C86-97A9-4BFF-9BC6-BFE95D3E6DAD} 6",
+              "Type": 7,
+              "Data": 3
+            },
+            {
+              "KeyName": "{8DBC9C86-97A9-4BFF-9BC6-BFE95D3E6DAD} 13",
+              "Type": 7,
+              "Data": 0
+            },
+            {
+              "KeyName": "{8DBC9C86-97A9-4BFF-9BC6-BFE95D3E6DAD} 15",
+              "Type": 7,
+              "Data": 1
+            },
+            {
+              "KeyName": "{8DBC9C86-97A9-4BFF-9BC6-BFE95D3E6DAD} 16",
+              "Type": 17,
+              "Data": true
+            },
+            {
+              "KeyName": "DEVPKEY_Device_LocationPaths",
+              "Type": 8210,
+              "Data": [
+                "PCIROOT(0)#PCI(1400)#USBROOT(0)#USB(4)",
+                "ACPI(_SB_)#ACPI(PC00)#ACPI(XHCI)#ACPI(RHUB)#ACPI(HS04)"
+              ]
+            },
+            {
+              "KeyName": "DEVPKEY_Device_DriverDate",
+              "Type": 16,
+              "Data": "2006-06-21T02:00:00+02:00"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_DriverVersion",
+              "Type": 18,
+              "Data": "10.0.26100.9444"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_DriverDesc",
+              "Type": 18,
+              "Data": "USB Mass Storage Device"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_DriverInfPath",
+              "Type": 18,
+              "Data": "usbstor.inf"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_DriverInfSection",
+              "Type": 18,
+              "Data": "USBSTOR_BULK.NT"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_MatchingDeviceId",
+              "Type": 18,
+              "Data": "USB\\Class_08&SubClass_05&Prot_50"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_DriverProvider",
+              "Type": 18,
+              "Data": "Microsoft"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_DriverRank",
+              "Type": 7,
+              "Data": 16719875
+            },
+            {
+              "KeyName": "{A8B865DD-2E3D-4094-AD97-E593A70C75D6} 16",
+              "Type": 8210,
+              "Data": [
+                "pci.inf"
+              ]
+            },
+            {
+              "KeyName": "{B5A825B8-3907-40B5-ABCA-8451E2453D5F} 3",
+              "Type": 7,
+              "Data": 1
+            }
+          ]
+        },
+        {
+          "device": {
+            "Class": "DiskDrive",
+            "FriendlyName": "Sony DSC USB Device",
+            "InstanceId": "USBSTOR\\DISK&VEN_SONY&PROD_DSC&REV_1.00\\D386002E4438&0",
+            "Problem": 0,
+            "ConfigManagerErrorCode": 0,
+            "ProblemDescription": "This device is working properly.",
+            "Caption": "Sony DSC USB Device",
+            "Description": "Disk drive",
+            "InstallDate": null,
+            "Name": "Sony DSC USB Device",
+            "Status": "OK",
+            "Availability": null,
+            "ConfigManagerUserConfig": false,
+            "CreationClassName": "Win32_PnPEntity",
+            "DeviceID": "USBSTOR\\DISK&VEN_SONY&PROD_DSC&REV_1.00\\D386002E4438&0",
+            "ErrorCleared": null,
+            "ErrorDescription": null,
+            "LastErrorCode": null,
+            "PNPDeviceID": "USBSTOR\\DISK&VEN_SONY&PROD_DSC&REV_1.00\\D386002E4438&0",
+            "PowerManagementCapabilities": null,
+            "PowerManagementSupported": null,
+            "StatusInfo": null,
+            "SystemCreationClassName": "Win32_ComputerSystem",
+            "SystemName": "APARA01PC5183",
+            "ClassGuid": "{4d36e967-e325-11ce-bfc1-08002be10318}",
+            "CompatibleID": [
+              "USBSTOR\\Disk",
+              "USBSTOR\\RAW",
+              "GenDisk"
+            ],
+            "HardwareID": [
+              "USBSTOR\\DiskSony____DSC_____________1.00",
+              "USBSTOR\\DiskSony____DSC_____________",
+              "USBSTOR\\DiskSony____",
+              "USBSTOR\\Sony____DSC_____________1",
+              "Sony____DSC_____________1",
+              "USBSTOR\\GenDisk",
+              "GenDisk"
+            ],
+            "Manufacturer": "(Standard disk drives)",
+            "PNPClass": "DiskDrive",
+            "Present": true,
+            "Service": "disk",
+            "PSComputerName": null
+          },
+          "instance_id": "USBSTOR\\DISK&VEN_SONY&PROD_DSC&REV_1.00\\D386002E4438&0",
+          "properties": [
+            {
+              "KeyName": "DEVPKEY_Device_DeviceDesc",
+              "Type": 18,
+              "Data": "Disk drive"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_HardwareIds",
+              "Type": 8210,
+              "Data": [
+                "USBSTOR\\DiskSony____DSC_____________1.00",
+                "USBSTOR\\DiskSony____DSC_____________",
+                "USBSTOR\\DiskSony____",
+                "USBSTOR\\Sony____DSC_____________1",
+                "Sony____DSC_____________1",
+                "USBSTOR\\GenDisk",
+                "GenDisk"
+              ]
+            },
+            {
+              "KeyName": "DEVPKEY_Device_CompatibleIds",
+              "Type": 8210,
+              "Data": [
+                "USBSTOR\\Disk",
+                "USBSTOR\\RAW",
+                "GenDisk"
+              ]
+            },
+            {
+              "KeyName": "DEVPKEY_Device_Service",
+              "Type": 18,
+              "Data": "disk"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_Class",
+              "Type": 18,
+              "Data": "DiskDrive"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_ClassGuid",
+              "Type": 13,
+              "Data": "{4D36E967-E325-11CE-BFC1-08002BE10318}"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_Driver",
+              "Type": 18,
+              "Data": "{4d36e967-e325-11ce-bfc1-08002be10318}\\0001"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_ConfigFlags",
+              "Type": 7,
+              "Data": 0
+            },
+            {
+              "KeyName": "DEVPKEY_Device_Manufacturer",
+              "Type": 18,
+              "Data": "(Standard disk drives)"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_FriendlyName",
+              "Type": 18,
+              "Data": "Sony DSC USB Device"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_PDOName",
+              "Type": 18,
+              "Data": "\\Device\\000009e6"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_Capabilities",
+              "Type": 7,
+              "Data": 16
+            },
+            {
+              "KeyName": "DEVPKEY_Device_EnumeratorName",
+              "Type": 18,
+              "Data": "USBSTOR"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_Address",
+              "Type": 7,
+              "Data": 4
+            },
+            {
+              "KeyName": "DEVPKEY_Device_PowerData",
+              "Type": 4099,
+              "Data": [
+                56,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                25,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                4,
+                0,
+                0,
+                0,
+                4,
+                0,
+                0,
+                0,
+                4,
+                0,
+                0,
+                0,
+                4,
+                0,
+                0,
+                0,
+                4,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "KeyName": "DEVPKEY_Device_RemovalPolicy",
+              "Type": 7,
+              "Data": 3
+            },
+            {
+              "KeyName": "DEVPKEY_Device_RemovalPolicyDefault",
+              "Type": 7,
+              "Data": 3
+            },
+            {
+              "KeyName": "DEVPKEY_Device_InstallState",
+              "Type": 7,
+              "Data": 0
+            },
+            {
+              "KeyName": "DEVPKEY_Device_BaseContainerId",
+              "Type": 13,
+              "Data": "{88746E6D-E3F6-5744-9A39-A495052A6B23}"
+            },
+            {
+              "KeyName": "DEVPKEY_NAME",
+              "Type": 18,
+              "Data": "Sony DSC USB Device"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_InstanceId",
+              "Type": 18,
+              "Data": "USBSTOR\\DISK&VEN_SONY&PROD_DSC&REV_1.00\\D386002E4438&0"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_DevNodeStatus",
+              "Type": 7,
+              "Data": 25174026
+            },
+            {
+              "KeyName": "DEVPKEY_Device_ProblemCode",
+              "Type": 7,
+              "Data": 0
+            },
+            {
+              "KeyName": "DEVPKEY_Device_RemovalRelations",
+              "Type": 8210,
+              "Data": [
+                "STORAGE\\Volume\\_??_USBSTOR#Disk&Ven_Sony&Prod_DSC&Rev_1.00#D386002E4438&0#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}"
+              ]
+            },
+            {
+              "KeyName": "DEVPKEY_Device_Parent",
+              "Type": 18,
+              "Data": "USB\\VID_054C&PID_0341\\D386002E4438"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_SafeRemovalRequired",
+              "Type": 17,
+              "Data": true
+            },
+            {
+              "KeyName": "DEVPKEY_Device_ContainerId",
+              "Type": 13,
+              "Data": "{88746E6D-E3F6-5744-9A39-A495052A6B23}"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_IsPresent",
+              "Type": 17,
+              "Data": true
+            },
+            {
+              "KeyName": "DEVPKEY_Device_HasProblem",
+              "Type": 17,
+              "Data": false
+            },
+            {
+              "KeyName": "{83DA6326-97A6-4088-9453-A1923F573B29} 15",
+              "Type": 17,
+              "Data": true
+            },
+            {
+              "KeyName": "DEVPKEY_Device_IsRebootRequired",
+              "Type": 17,
+              "Data": false
+            },
+            {
+              "KeyName": "DEVPKEY_Device_ReportedDeviceIdsHash",
+              "Type": 7,
+              "Data": 2585419837
+            },
+            {
+              "KeyName": "DEVPKEY_Device_InLocalMachineContainer",
+              "Type": 17,
+              "Data": false
+            },
+            {
+              "KeyName": "DEVPKEY_Device_Stack",
+              "Type": 8210,
+              "Data": [
+                "\\Driver\\csadc",
+                "\\Driver\\partmgr",
+                "\\Driver\\disk",
+                "\\Driver\\USBSTOR"
+              ]
+            },
+            {
+              "KeyName": "{A8B865DD-2E3D-4094-AD97-E593A70C75D6} 26",
+              "Type": 17,
+              "Data": false
+            },
+            {
+              "KeyName": "{3464F7A4-2444-40B1-980A-E0903CB6D912} 10",
+              "Type": 7,
+              "Data": 3
+            },
+            {
+              "KeyName": "DEVPKEY_Device_BusReportedDeviceDesc",
+              "Type": 18,
+              "Data": "Sony DSC USB Device"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_ConfigurationId",
+              "Type": 18,
+              "Data": "disk.inf:GenDisk,disk_install.NT"
+            },
+            {
+              "KeyName": "{80497100-8C73-48B9-AAD9-CE387E19C56E} 6",
+              "Type": 7,
+              "Data": 0
+            },
+            {
+              "KeyName": "{83DA6326-97A6-4088-9453-A1923F573B29} 3",
+              "Type": 18,
+              "Data": "disk.inf:6d166ee9677c725c:disk_install.NT:10.0.26100.8972:GenDisk"
+            },
+            {
+              "KeyName": "{83DA6326-97A6-4088-9453-A1923F573B29} 10",
+              "Type": 18,
+              "Data": "USB\\VID_054C&PID_0341\\D386002E4438"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_InstallDate",
+              "Type": 16,
+              "Data": "2026-09-17T16:50:22.301175+02:00"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_FirstInstallDate",
+              "Type": 16,
+              "Data": "2026-09-17T16:50:22.301175+02:00"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_LastArrivalDate",
+              "Type": 16,
+              "Data": "2026-09-17T16:50:22.296349+02:00"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_DriverDate",
+              "Type": 16,
+              "Data": "2006-06-21T02:00:00+02:00"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_DriverVersion",
+              "Type": 18,
+              "Data": "10.0.26100.8972"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_DriverDesc",
+              "Type": 18,
+              "Data": "Disk drive"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_DriverInfPath",
+              "Type": 18,
+              "Data": "disk.inf"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_DriverInfSection",
+              "Type": 18,
+              "Data": "disk_install.NT"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_MatchingDeviceId",
+              "Type": 18,
+              "Data": "GenDisk"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_DriverProvider",
+              "Type": 18,
+              "Data": "Microsoft"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_DriverRank",
+              "Type": 7,
+              "Data": 16711686
+            }
+          ]
+        },
+        {
+          "device": {
+            "Class": "USB",
+            "FriendlyName": "USB Root Hub (USB 3.0)",
+            "InstanceId": "USB\\ROOT_HUB30\\4&7155916&0&0",
+            "Problem": 0,
+            "ConfigManagerErrorCode": 0,
+            "ProblemDescription": "This device is working properly.",
+            "Caption": "USB Root Hub (USB 3.0)",
+            "Description": "USB Root Hub (USB 3.0)",
+            "InstallDate": null,
+            "Name": "USB Root Hub (USB 3.0)",
+            "Status": "OK",
+            "Availability": null,
+            "ConfigManagerUserConfig": false,
+            "CreationClassName": "Win32_PnPEntity",
+            "DeviceID": "USB\\ROOT_HUB30\\4&7155916&0&0",
+            "ErrorCleared": null,
+            "ErrorDescription": null,
+            "LastErrorCode": null,
+            "PNPDeviceID": "USB\\ROOT_HUB30\\4&7155916&0&0",
+            "PowerManagementCapabilities": null,
+            "PowerManagementSupported": null,
+            "StatusInfo": null,
+            "SystemCreationClassName": "Win32_ComputerSystem",
+            "SystemName": "APARA01PC5183",
+            "ClassGuid": "{36fc9e60-c465-11cf-8056-444553540000}",
+            "CompatibleID": null,
+            "HardwareID": [
+              "USB\\ROOT_HUB30&VID8086&PIDA87D&REV0010",
+              "USB\\ROOT_HUB30&VID8086&PIDA87D",
+              "USB\\ROOT_HUB30"
+            ],
+            "Manufacturer": "(Standard USB HUBs)",
+            "PNPClass": "USB",
+            "Present": true,
+            "Service": "USBHUB3",
+            "PSComputerName": null
+          },
+          "instance_id": "USB\\ROOT_HUB30\\4&7155916&0&0",
+          "properties": [
+            {
+              "KeyName": "DEVPKEY_Device_DeviceDesc",
+              "Type": 18,
+              "Data": "USB Root Hub (USB 3.0)"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_HardwareIds",
+              "Type": 8210,
+              "Data": [
+                "USB\\ROOT_HUB30&VID8086&PIDA87D&REV0010",
+                "USB\\ROOT_HUB30&VID8086&PIDA87D",
+                "USB\\ROOT_HUB30"
+              ]
+            },
+            {
+              "KeyName": "DEVPKEY_Device_CompatibleIds",
+              "Type": 8210,
+              "Data": []
+            },
+            {
+              "KeyName": "DEVPKEY_Device_Service",
+              "Type": 18,
+              "Data": "USBHUB3"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_Class",
+              "Type": 18,
+              "Data": "USB"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_ClassGuid",
+              "Type": 13,
+              "Data": "{36FC9E60-C465-11CF-8056-444553540000}"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_Driver",
+              "Type": 18,
+              "Data": "{36fc9e60-c465-11cf-8056-444553540000}\\0004"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_ConfigFlags",
+              "Type": 7,
+              "Data": 0
+            },
+            {
+              "KeyName": "DEVPKEY_Device_Manufacturer",
+              "Type": 18,
+              "Data": "(Standard USB HUBs)"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_PDOName",
+              "Type": 18,
+              "Data": "\\Device\\USBPDO-1"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_Capabilities",
+              "Type": 7,
+              "Data": 128
+            },
+            {
+              "KeyName": "DEVPKEY_Device_BusTypeGuid",
+              "Type": 13,
+              "Data": "{9D7DEBBC-C85D-11D1-9EB4-006008C3A19A}"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_LegacyBusType",
+              "Type": 7,
+              "Data": 15
+            },
+            {
+              "KeyName": "DEVPKEY_Device_BusNumber",
+              "Type": 7,
+              "Data": 0
+            },
+            {
+              "KeyName": "DEVPKEY_Device_EnumeratorName",
+              "Type": 18,
+              "Data": "USB"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_Address",
+              "Type": 7,
+              "Data": 0
+            },
+            {
+              "KeyName": "DEVPKEY_Device_PowerData",
+              "Type": 4099,
+              "Data": [
+                56,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                93,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                4,
+                0,
+                0,
+                0,
+                4,
+                0,
+                0,
+                0,
+                4,
+                0,
+                0,
+                0,
+                4,
+                0,
+                0,
+                0,
+                4,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "KeyName": "DEVPKEY_Device_RemovalPolicy",
+              "Type": 7,
+              "Data": 1
+            },
+            {
+              "KeyName": "DEVPKEY_Device_RemovalPolicyDefault",
+              "Type": 7,
+              "Data": 1
+            },
+            {
+              "KeyName": "DEVPKEY_Device_InstallState",
+              "Type": 7,
+              "Data": 0
+            },
+            {
+              "KeyName": "DEVPKEY_Device_BaseContainerId",
+              "Type": 13,
+              "Data": "{00000000-0000-0000-FFFF-FFFFFFFFFFFF}"
+            },
+            {
+              "KeyName": "DEVPKEY_NAME",
+              "Type": 18,
+              "Data": "USB Root Hub (USB 3.0)"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_InstanceId",
+              "Type": 18,
+              "Data": "USB\\ROOT_HUB30\\4&7155916&0&0"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_DevNodeStatus",
+              "Type": 7,
+              "Data": 25165834
+            },
+            {
+              "KeyName": "DEVPKEY_Device_ProblemCode",
+              "Type": 7,
+              "Data": 0
+            },
+            {
+              "KeyName": "DEVPKEY_Device_BusRelations",
+              "Type": 8210,
+              "Data": [
+                "USB\\VID_06CB&PID_0701\\01.00.00.00",
+                "USB\\VID_27C6&PID_634C\\UID94790026_XXXX_MOC_B0",
+                "USB\\VID_054C&PID_0341\\D386002E4438"
+              ]
+            },
+            {
+              "KeyName": "DEVPKEY_Device_Parent",
+              "Type": 18,
+              "Data": "PCI\\VEN_8086&DEV_A87D&SUBSYS_0CE41028&REV_10\\3&11583659&1&A0"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_Children",
+              "Type": 8210,
+              "Data": [
+                "USB\\VID_06CB&PID_0701\\01.00.00.00",
+                "USB\\VID_27C6&PID_634C\\UID94790026_XXXX_MOC_B0",
+                "USB\\VID_054C&PID_0341\\D386002E4438"
+              ]
+            },
+            {
+              "KeyName": "DEVPKEY_Device_SafeRemovalRequired",
+              "Type": 17,
+              "Data": false
+            },
+            {
+              "KeyName": "DEVPKEY_Device_ContainerId",
+              "Type": 13,
+              "Data": "{00000000-0000-0000-FFFF-FFFFFFFFFFFF}"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_IsPresent",
+              "Type": 17,
+              "Data": true
+            },
+            {
+              "KeyName": "DEVPKEY_Device_HasProblem",
+              "Type": 17,
+              "Data": false
+            },
+            {
+              "KeyName": "{83DA6326-97A6-4088-9453-A1923F573B29} 15",
+              "Type": 17,
+              "Data": true
+            },
+            {
+              "KeyName": "DEVPKEY_Device_IsRebootRequired",
+              "Type": 17,
+              "Data": false
+            },
+            {
+              "KeyName": "DEVPKEY_Device_ReportedDeviceIdsHash",
+              "Type": 7,
+              "Data": 4048323543
+            },
+            {
+              "KeyName": "DEVPKEY_Device_InLocalMachineContainer",
+              "Type": 17,
+              "Data": true
+            },
+            {
+              "KeyName": "DEVPKEY_Device_Stack",
+              "Type": 8210,
+              "Data": [
+                "\\Driver\\CSDeviceControl",
+                "\\Driver\\USBHUB3",
+                "\\Driver\\ACPI",
+                "\\Driver\\USBXHCI"
+              ]
+            },
+            {
+              "KeyName": "{A8B865DD-2E3D-4094-AD97-E593A70C75D6} 26",
+              "Type": 17,
+              "Data": false
+            },
+            {
+              "KeyName": "{3464F7A4-2444-40B1-980A-E0903CB6D912} 10",
+              "Type": 7,
+              "Data": 3
+            },
+            {
+              "KeyName": "DEVPKEY_Device_ConfigurationId",
+              "Type": 18,
+              "Data": "usbhub3.inf:USB\\ROOT_HUB30,Generic.Install.NT"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_BiosDeviceName",
+              "Type": 18,
+              "Data": "\\_SB.PC00.XHCI.RHUB"
+            },
+            {
+              "KeyName": "{80497100-8C73-48B9-AAD9-CE387E19C56E} 6",
+              "Type": 7,
+              "Data": 0
+            },
+            {
+              "KeyName": "{83DA6326-97A6-4088-9453-A1923F573B29} 3",
+              "Type": 18,
+              "Data": "usbhub3.inf:392c3d53434318dc:Generic.Install.NT:10.0.26100.9444:USB\\ROOT_HUB30"
+            },
+            {
+              "KeyName": "{83DA6326-97A6-4088-9453-A1923F573B29} 10",
+              "Type": 18,
+              "Data": "PCI\\VEN_8086&DEV_A87D&SUBSYS_0CE41028&REV_10\\3&11583659&1&A0"
+            },
+            {
+              "KeyName": "{83DA6326-97A6-4088-9453-A1923F573B29} 25",
+              "Type": 7,
+              "Data": 0
+            },
+            {
+              "KeyName": "{83DA6326-97A6-4088-9453-A1923F573B29} 26",
+              "Type": 4099,
+              "Data": [
+                0
+              ]
+            },
+            {
+              "KeyName": "DEVPKEY_Device_InstallDate",
+              "Type": 16,
+              "Data": "2026-02-25T16:14:17.358488+01:00"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_FirstInstallDate",
+              "Type": 16,
+              "Data": "2026-02-25T16:14:17.358488+01:00"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_LastArrivalDate",
+              "Type": 16,
+              "Data": "2026-09-16T10:19:12.258298+02:00"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_LocationPaths",
+              "Type": 8210,
+              "Data": [
+                "PCIROOT(0)#PCI(1400)#USBROOT(0)",
+                "ACPI(_SB_)#ACPI(PC00)#ACPI(XHCI)#ACPI(RHUB)"
+              ]
+            },
+            {
+              "KeyName": "DEVPKEY_Device_DriverDate",
+              "Type": 16,
+              "Data": "2026-09-03T02:00:00+02:00"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_DriverVersion",
+              "Type": 18,
+              "Data": "10.0.26100.9444"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_DriverDesc",
+              "Type": 18,
+              "Data": "USB Root Hub (USB 3.0)"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_DriverInfPath",
+              "Type": 18,
+              "Data": "usbhub3.inf"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_DriverInfSection",
+              "Type": 18,
+              "Data": "Generic.Install.NT"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_MatchingDeviceId",
+              "Type": 18,
+              "Data": "USB\\ROOT_HUB30"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_DriverProvider",
+              "Type": 18,
+              "Data": "Microsoft"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_DriverRank",
+              "Type": 7,
+              "Data": 8388610
+            }
+          ]
+        },
+        {
+          "device": {
+            "Class": "USB",
+            "FriendlyName": "Intel(R) USB 3.20 eXtensible Host Controller - 1.20 (Microsoft)",
+            "InstanceId": "PCI\\VEN_8086&DEV_A87D&SUBSYS_0CE41028&REV_10\\3&11583659&1&A0",
+            "Problem": 0,
+            "ConfigManagerErrorCode": 0,
+            "ProblemDescription": "This device is working properly.",
+            "Caption": "Intel(R) USB 3.20 eXtensible Host Controller - 1.20 (Microsoft)",
+            "Description": "USB xHCI Compliant Host Controller",
+            "InstallDate": null,
+            "Name": "Intel(R) USB 3.20 eXtensible Host Controller - 1.20 (Microsoft)",
+            "Status": "OK",
+            "Availability": null,
+            "ConfigManagerUserConfig": false,
+            "CreationClassName": "Win32_PnPEntity",
+            "DeviceID": "PCI\\VEN_8086&DEV_A87D&SUBSYS_0CE41028&REV_10\\3&11583659&1&A0",
+            "ErrorCleared": null,
+            "ErrorDescription": null,
+            "LastErrorCode": null,
+            "PNPDeviceID": "PCI\\VEN_8086&DEV_A87D&SUBSYS_0CE41028&REV_10\\3&11583659&1&A0",
+            "PowerManagementCapabilities": null,
+            "PowerManagementSupported": null,
+            "StatusInfo": null,
+            "SystemCreationClassName": "Win32_ComputerSystem",
+            "SystemName": "APARA01PC5183",
+            "ClassGuid": "{36fc9e60-c465-11cf-8056-444553540000}",
+            "CompatibleID": [
+              "PCI\\VEN_8086&DEV_A87D&REV_10",
+              "PCI\\VEN_8086&DEV_A87D",
+              "PCI\\VEN_8086&CC_0C0330",
+              "PCI\\VEN_8086&CC_0C03",
+              "PCI\\VEN_8086",
+              "PCI\\CC_0C0330",
+              "PCI\\CC_0C03"
+            ],
+            "HardwareID": [
+              "PCI\\VEN_8086&DEV_A87D&SUBSYS_0CE41028&REV_10",
+              "PCI\\VEN_8086&DEV_A87D&SUBSYS_0CE41028",
+              "PCI\\VEN_8086&DEV_A87D&CC_0C0330",
+              "PCI\\VEN_8086&DEV_A87D&CC_0C03"
+            ],
+            "Manufacturer": "Generic USB xHCI Host Controller",
+            "PNPClass": "USB",
+            "Present": true,
+            "Service": "USBXHCI",
+            "PSComputerName": null
+          },
+          "instance_id": "PCI\\VEN_8086&DEV_A87D&SUBSYS_0CE41028&REV_10\\3&11583659&1&A0",
+          "properties": [
+            {
+              "KeyName": "DEVPKEY_Device_DeviceDesc",
+              "Type": 18,
+              "Data": "USB xHCI Compliant Host Controller"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_HardwareIds",
+              "Type": 8210,
+              "Data": [
+                "PCI\\VEN_8086&DEV_A87D&SUBSYS_0CE41028&REV_10",
+                "PCI\\VEN_8086&DEV_A87D&SUBSYS_0CE41028",
+                "PCI\\VEN_8086&DEV_A87D&CC_0C0330",
+                "PCI\\VEN_8086&DEV_A87D&CC_0C03"
+              ]
+            },
+            {
+              "KeyName": "DEVPKEY_Device_CompatibleIds",
+              "Type": 8210,
+              "Data": [
+                "PCI\\VEN_8086&DEV_A87D&REV_10",
+                "PCI\\VEN_8086&DEV_A87D",
+                "PCI\\VEN_8086&CC_0C0330",
+                "PCI\\VEN_8086&CC_0C03",
+                "PCI\\VEN_8086",
+                "PCI\\CC_0C0330",
+                "PCI\\CC_0C03"
+              ]
+            },
+            {
+              "KeyName": "DEVPKEY_Device_Service",
+              "Type": 18,
+              "Data": "USBXHCI"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_Class",
+              "Type": 18,
+              "Data": "USB"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_ClassGuid",
+              "Type": 13,
+              "Data": "{36FC9E60-C465-11CF-8056-444553540000}"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_Driver",
+              "Type": 18,
+              "Data": "{36fc9e60-c465-11cf-8056-444553540000}\\0002"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_ConfigFlags",
+              "Type": 7,
+              "Data": 0
+            },
+            {
+              "KeyName": "DEVPKEY_Device_Manufacturer",
+              "Type": 18,
+              "Data": "Generic USB xHCI Host Controller"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_FriendlyName",
+              "Type": 18,
+              "Data": "Intel(R) USB 3.20 eXtensible Host Controller - 1.20 (Microsoft)"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_LocationInfo",
+              "Type": 18,
+              "Data": "PCI bus 0, device 20, function 0"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_PDOName",
+              "Type": 18,
+              "Data": "\\Device\\NTPNP_PCI0012"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_Capabilities",
+              "Type": 7,
+              "Data": 0
+            },
+            {
+              "KeyName": "DEVPKEY_Device_BusTypeGuid",
+              "Type": 13,
+              "Data": "{C8EBDFB0-B510-11D0-80E5-00A0C92542E3}"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_LegacyBusType",
+              "Type": 7,
+              "Data": 5
+            },
+            {
+              "KeyName": "DEVPKEY_Device_BusNumber",
+              "Type": 7,
+              "Data": 0
+            },
+            {
+              "KeyName": "DEVPKEY_Device_EnumeratorName",
+              "Type": 18,
+              "Data": "PCI"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_Address",
+              "Type": 7,
+              "Data": 1310720
+            },
+            {
+              "KeyName": "DEVPKEY_Device_PowerData",
+              "Type": 4099,
+              "Data": [
+                56,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                153,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                4,
+                0,
+                0,
+                0,
+                4,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "KeyName": "DEVPKEY_Device_RemovalPolicy",
+              "Type": 7,
+              "Data": 1
+            },
+            {
+              "KeyName": "DEVPKEY_Device_RemovalPolicyDefault",
+              "Type": 7,
+              "Data": 1
+            },
+            {
+              "KeyName": "DEVPKEY_Device_InstallState",
+              "Type": 7,
+              "Data": 0
+            },
+            {
+              "KeyName": "DEVPKEY_Device_BaseContainerId",
+              "Type": 13,
+              "Data": "{00000000-0000-0000-FFFF-FFFFFFFFFFFF}"
+            },
+            {
+              "KeyName": "DEVPKEY_NAME",
+              "Type": 18,
+              "Data": "Intel(R) USB 3.20 eXtensible Host Controller - 1.20 (Microsoft)"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_InstanceId",
+              "Type": 18,
+              "Data": "PCI\\VEN_8086&DEV_A87D&SUBSYS_0CE41028&REV_10\\3&11583659&1&A0"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_DevNodeStatus",
+              "Type": 7,
+              "Data": 25165834
+            },
+            {
+              "KeyName": "DEVPKEY_Device_ProblemCode",
+              "Type": 7,
+              "Data": 0
+            },
+            {
+              "KeyName": "DEVPKEY_Device_EjectionRelations",
+              "Type": 8210,
+              "Data": [
+                "PCI\\VEN_8086&DEV_A87F&SUBSYS_0CE41028&REV_10\\3&11583659&1&A2",
+                "PCI\\VEN_8086&DEV_A840&SUBSYS_40E08086&REV_10\\3&11583659&1&A3",
+                "PCI\\VEN_8086&DEV_A876&SUBSYS_000E8086&REV_10\\3&11583659&1&A7"
+              ]
+            },
+            {
+              "KeyName": "DEVPKEY_Device_BusRelations",
+              "Type": 8210,
+              "Data": [
+                "USB\\ROOT_HUB30\\4&7155916&0&0"
+              ]
+            },
+            {
+              "KeyName": "DEVPKEY_Device_Parent",
+              "Type": 18,
+              "Data": "ACPI\\PNP0A08\\0"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_Children",
+              "Type": 8210,
+              "Data": [
+                "USB\\ROOT_HUB30\\4&7155916&0&0"
+              ]
+            },
+            {
+              "KeyName": "DEVPKEY_Device_Siblings",
+              "Type": 8210,
+              "Data": [
+                "PCI\\VEN_8086&DEV_6400&SUBSYS_0CE41028&REV_04\\3&11583659&1&00",
+                "PCI\\VEN_8086&DEV_64A0&SUBSYS_0CE41028&REV_04\\3&11583659&1&10",
+                "PCI\\VEN_8086&DEV_641D&SUBSYS_0CE41028&REV_04\\3&11583659&1&20",
+                "PCI\\VEN_8086&DEV_645D&SUBSYS_0CE41028&REV_04\\3&11583659&1&28",
+                "PCI\\VEN_8086&DEV_A84E&SUBSYS_0CE41028&REV_10\\3&11583659&1&38",
+                "PCI\\VEN_8086&DEV_A84F&SUBSYS_0CE41028&REV_10\\3&11583659&1&39",
+                "PCI\\VEN_8086&DEV_647D&SUBSYS_0CE41028&REV_04\\3&11583659&1&50",
+                "PCI\\VEN_8086&DEV_643E&SUBSYS_0CE41028&REV_04\\3&11583659&1&58",
+                "PCI\\VEN_8086&DEV_A831&SUBSYS_0CE41028&REV_10\\3&11583659&1&68",
+                "PCI\\VEN_8086&DEV_A833&SUBSYS_0CE41028&REV_10&USB4_MS_CM\\3&11583659&1&6A",
+                "PCI\\VEN_8086&DEV_A845&SUBSYS_0CE41028&REV_10\\3&11583659&1&90",
+                "PCI\\VEN_8086&DEV_A862&SUBSYS_0CE41028&REV_10\\3&11583659&1&98",
+                "PCI\\VEN_8086&DEV_A87F&SUBSYS_0CE41028&REV_10\\3&11583659&1&A2",
+                "PCI\\VEN_8086&DEV_A840&SUBSYS_40E08086&REV_10\\3&11583659&1&A3",
+                "PCI\\VEN_8086&DEV_A876&SUBSYS_000E8086&REV_10\\3&11583659&1&A7",
+                "PCI\\VEN_8086&DEV_A878&SUBSYS_0CE41028&REV_10\\3&11583659&1&A8",
+                "PCI\\VEN_8086&DEV_A87B&SUBSYS_0CE41028&REV_10\\3&11583659&1&AB",
+                "PCI\\VEN_8086&DEV_A870&SUBSYS_0CE41028&REV_10\\3&11583659&1&B0",
+                "PCI\\VEN_8086&DEV_A873&SUBSYS_0CE41028&REV_10\\3&11583659&1&B3",
+                "PCI\\VEN_8086&DEV_A850&SUBSYS_0CE41028&REV_10\\3&11583659&1&C8",
+                "PCI\\VEN_8086&DEV_A851&SUBSYS_0CE41028&REV_10\\3&11583659&1&C9",
+                "PCI\\VEN_8086&DEV_A838&SUBSYS_0CE41028&REV_10\\3&11583659&1&E0",
+                "PCI\\VEN_8086&DEV_A825&SUBSYS_0CE41028&REV_10\\3&11583659&1&F0",
+                "PCI\\VEN_8086&DEV_A807&SUBSYS_0CE41028&REV_10\\3&11583659&1&F8",
+                "PCI\\VEN_8086&DEV_A828&SUBSYS_0CE41028&REV_10\\3&11583659&1&FB",
+                "PCI\\VEN_8086&DEV_A822&SUBSYS_0CE41028&REV_10\\3&11583659&1&FC",
+                "PCI\\VEN_8086&DEV_A823&SUBSYS_0CE41028&REV_10\\3&11583659&1&FD",
+                "ACPI\\PNP0C02\\1",
+                "ACPI\\ABCD0000\\SADDLESTRING",
+                "ACPI\\INTC10DE\\CVSS"
+              ]
+            },
+            {
+              "KeyName": "DEVPKEY_Device_SafeRemovalRequired",
+              "Type": 17,
+              "Data": false
+            },
+            {
+              "KeyName": "DEVPKEY_Device_ContainerId",
+              "Type": 13,
+              "Data": "{00000000-0000-0000-FFFF-FFFFFFFFFFFF}"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_IsPresent",
+              "Type": 17,
+              "Data": true
+            },
+            {
+              "KeyName": "DEVPKEY_Device_HasProblem",
+              "Type": 17,
+              "Data": false
+            },
+            {
+              "KeyName": "{83DA6326-97A6-4088-9453-A1923F573B29} 15",
+              "Type": 17,
+              "Data": true
+            },
+            {
+              "KeyName": "DEVPKEY_Device_IsRebootRequired",
+              "Type": 17,
+              "Data": false
+            },
+            {
+              "KeyName": "DEVPKEY_Device_ReportedDeviceIdsHash",
+              "Type": 7,
+              "Data": 1497093239
+            },
+            {
+              "KeyName": "DEVPKEY_Device_InLocalMachineContainer",
+              "Type": 17,
+              "Data": true
+            },
+            {
+              "KeyName": "DEVPKEY_Device_Stack",
+              "Type": 8210,
+              "Data": [
+                "\\Driver\\USBXHCI",
+                "\\Driver\\ACPI",
+                "\\Driver\\pci"
+              ]
+            },
+            {
+              "KeyName": "{A8B865DD-2E3D-4094-AD97-E593A70C75D6} 26",
+              "Type": 17,
+              "Data": false
+            },
+            {
+              "KeyName": "{3464F7A4-2444-40B1-980A-E0903CB6D912} 10",
+              "Type": 7,
+              "Data": 3
+            },
+            {
+              "KeyName": "DEVPKEY_PciDevice_DeviceType",
+              "Type": 7,
+              "Data": 0
+            },
+            {
+              "KeyName": "DEVPKEY_PciDevice_CurrentSpeedAndMode",
+              "Type": 7,
+              "Data": 0
+            },
+            {
+              "KeyName": "DEVPKEY_PciDevice_BaseClass",
+              "Type": 7,
+              "Data": 12
+            },
+            {
+              "KeyName": "DEVPKEY_PciDevice_SubClass",
+              "Type": 7,
+              "Data": 3
+            },
+            {
+              "KeyName": "DEVPKEY_PciDevice_ProgIf",
+              "Type": 7,
+              "Data": 48
+            },
+            {
+              "KeyName": "DEVPKEY_PciDevice_InterruptSupport",
+              "Type": 7,
+              "Data": 3
+            },
+            {
+              "KeyName": "DEVPKEY_PciDevice_InterruptMessageMaximum",
+              "Type": 7,
+              "Data": 8
+            },
+            {
+              "KeyName": "DEVPKEY_PciDevice_BarTypes",
+              "Type": 7,
+              "Data": 256
+            },
+            {
+              "KeyName": "DEVPKEY_PciDevice_S0WakeupSupported",
+              "Type": 17,
+              "Data": true
+            },
+            {
+              "KeyName": "DEVPKEY_PciDevice_RequiresReservedMemoryRegion",
+              "Type": 17,
+              "Data": false
+            },
+            {
+              "KeyName": "DEVPKEY_PciDevice_SupportedLinkSubState",
+              "Type": 7,
+              "Data": 0
+            },
+            {
+              "KeyName": "DEVPKEY_Device_BusReportedDeviceDesc",
+              "Type": 18,
+              "Data": "Universal Serial Bus (USB) Controller"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_ConfigurationId",
+              "Type": 18,
+              "Data": "usbxhci.inf:PCI\\CC_0C0330,Generic.Install.NT"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_BiosDeviceName",
+              "Type": 18,
+              "Data": "\\_SB.PC00.XHCI"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_DebuggerSafe",
+              "Type": 7,
+              "Data": 1
+            },
+            {
+              "KeyName": "{80497100-8C73-48B9-AAD9-CE387E19C56E} 6",
+              "Type": 7,
+              "Data": 0
+            },
+            {
+              "KeyName": "{83DA6326-97A6-4088-9453-A1923F573B29} 3",
+              "Type": 18,
+              "Data": "usbxhci.inf:392c3d5304de3197:Generic.Install.NT:10.0.26100.9444:PCI\\CC_0C0330"
+            },
+            {
+              "KeyName": "{83DA6326-97A6-4088-9453-A1923F573B29} 10",
+              "Type": 18,
+              "Data": "ACPI\\PNP0A08\\0"
+            },
+            {
+              "KeyName": "{83DA6326-97A6-4088-9453-A1923F573B29} 25",
+              "Type": 7,
+              "Data": 0
+            },
+            {
+              "KeyName": "{83DA6326-97A6-4088-9453-A1923F573B29} 26",
+              "Type": 4099,
+              "Data": [
+                0
+              ]
+            },
+            {
+              "KeyName": "DEVPKEY_Device_InstallDate",
+              "Type": 16,
+              "Data": "2026-02-25T16:14:16.760695+01:00"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_FirstInstallDate",
+              "Type": 16,
+              "Data": "2026-02-25T16:14:16.760695+01:00"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_LastArrivalDate",
+              "Type": 16,
+              "Data": "2026-09-16T10:19:07.651295+02:00"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_LocationPaths",
+              "Type": 8210,
+              "Data": [
+                "PCIROOT(0)#PCI(1400)",
+                "ACPI(_SB_)#ACPI(PC00)#ACPI(XHCI)"
+              ]
+            },
+            {
+              "KeyName": "DEVPKEY_Device_DriverDate",
+              "Type": 16,
+              "Data": "2026-09-03T02:00:00+02:00"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_DriverVersion",
+              "Type": 18,
+              "Data": "10.0.26100.9444"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_DriverDesc",
+              "Type": 18,
+              "Data": "USB xHCI Compliant Host Controller"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_DriverInfPath",
+              "Type": 18,
+              "Data": "usbxhci.inf"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_DriverInfSection",
+              "Type": 18,
+              "Data": "Generic.Install.NT"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_MatchingDeviceId",
+              "Type": 18,
+              "Data": "PCI\\CC_0C0330"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_DriverProvider",
+              "Type": 18,
+              "Data": "Microsoft"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_DriverRank",
+              "Type": 7,
+              "Data": 8396805
+            },
+            {
+              "KeyName": "{A8B865DD-2E3D-4094-AD97-E593A70C75D6} 16",
+              "Type": 8210,
+              "Data": [
+                "pci.inf"
+              ]
+            },
+            {
+              "KeyName": "{F0E20F09-D97A-49A9-8046-BB6E22E6BB2E} 2",
+              "Type": 4099,
+              "Data": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                3,
+                0,
+                0,
+                0,
+                148,
+                0,
+                0,
+                0,
+                9,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                255,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                112,
+                4,
+                224,
+                254,
+                0,
+                0,
+                0,
+                0,
+                223,
+                255,
+                255,
+                255,
+                0,
+                0,
+                0,
+                0,
+                160,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                64,
+                3,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "device": {
+            "Class": "System",
+            "FriendlyName": "PCI Express Root Complex",
+            "InstanceId": "ACPI\\PNP0A08\\0",
+            "Problem": 0,
+            "ConfigManagerErrorCode": 0,
+            "ProblemDescription": "This device is working properly.",
+            "Caption": "PCI Express Root Complex",
+            "Description": "PCI Express Root Complex",
+            "InstallDate": null,
+            "Name": "PCI Express Root Complex",
+            "Status": "OK",
+            "Availability": null,
+            "ConfigManagerUserConfig": false,
+            "CreationClassName": "Win32_PnPEntity",
+            "DeviceID": "ACPI\\PNP0A08\\0",
+            "ErrorCleared": null,
+            "ErrorDescription": null,
+            "LastErrorCode": null,
+            "PNPDeviceID": "ACPI\\PNP0A08\\0",
+            "PowerManagementCapabilities": null,
+            "PowerManagementSupported": null,
+            "StatusInfo": null,
+            "SystemCreationClassName": "Win32_ComputerSystem",
+            "SystemName": "APARA01PC5183",
+            "ClassGuid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+            "CompatibleID": [
+              "*PNP0A03"
+            ],
+            "HardwareID": [
+              "ACPI\\VEN_PNP&DEV_0A08",
+              "ACPI\\PNP0A08",
+              "*PNP0A08"
+            ],
+            "Manufacturer": "(Standard system devices)",
+            "PNPClass": "System",
+            "Present": true,
+            "Service": "pci",
+            "PSComputerName": null
+          },
+          "instance_id": "ACPI\\PNP0A08\\0",
+          "properties": [
+            {
+              "KeyName": "DEVPKEY_Device_DeviceDesc",
+              "Type": 18,
+              "Data": "PCI Express Root Complex"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_HardwareIds",
+              "Type": 8210,
+              "Data": [
+                "ACPI\\VEN_PNP&DEV_0A08",
+                "ACPI\\PNP0A08",
+                "*PNP0A08"
+              ]
+            },
+            {
+              "KeyName": "DEVPKEY_Device_CompatibleIds",
+              "Type": 8210,
+              "Data": [
+                "*PNP0A03"
+              ]
+            },
+            {
+              "KeyName": "DEVPKEY_Device_Service",
+              "Type": 18,
+              "Data": "pci"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_Class",
+              "Type": 18,
+              "Data": "System"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_ClassGuid",
+              "Type": 13,
+              "Data": "{4D36E97D-E325-11CE-BFC1-08002BE10318}"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_Driver",
+              "Type": 18,
+              "Data": "{4d36e97d-e325-11ce-bfc1-08002be10318}\\0008"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_ConfigFlags",
+              "Type": 7,
+              "Data": 0
+            },
+            {
+              "KeyName": "DEVPKEY_Device_Manufacturer",
+              "Type": 18,
+              "Data": "(Standard system devices)"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_PDOName",
+              "Type": 18,
+              "Data": "\\Device\\0000001a"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_Capabilities",
+              "Type": 7,
+              "Data": 48
+            },
+            {
+              "KeyName": "DEVPKEY_Device_UpperFilters",
+              "Type": 8210,
+              "Data": [
+                "CsFirmwareAnalysis"
+              ]
+            },
+            {
+              "KeyName": "DEVPKEY_Device_BusTypeGuid",
+              "Type": 13,
+              "Data": "{D7B46895-001A-4942-891F-A7D46610A843}"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_LegacyBusType",
+              "Type": 7,
+              "Data": 17
+            },
+            {
+              "KeyName": "DEVPKEY_Device_BusNumber",
+              "Type": 7,
+              "Data": 0
+            },
+            {
+              "KeyName": "DEVPKEY_Device_EnumeratorName",
+              "Type": 18,
+              "Data": "ACPI"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_UINumberDescFormat",
+              "Type": 18,
+              "Data": "PCI Slot %1!u!"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_PowerData",
+              "Type": 4099,
+              "Data": [
+                56,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                9,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                4,
+                0,
+                0,
+                0,
+                4,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "KeyName": "DEVPKEY_Device_RemovalPolicy",
+              "Type": 7,
+              "Data": 1
+            },
+            {
+              "KeyName": "DEVPKEY_Device_RemovalPolicyDefault",
+              "Type": 7,
+              "Data": 1
+            },
+            {
+              "KeyName": "DEVPKEY_Device_InstallState",
+              "Type": 7,
+              "Data": 0
+            },
+            {
+              "KeyName": "DEVPKEY_Device_BaseContainerId",
+              "Type": 13,
+              "Data": "{00000000-0000-0000-FFFF-FFFFFFFFFFFF}"
+            },
+            {
+              "KeyName": "DEVPKEY_NAME",
+              "Type": 18,
+              "Data": "PCI Express Root Complex"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_InstanceId",
+              "Type": 18,
+              "Data": "ACPI\\PNP0A08\\0"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_DevNodeStatus",
+              "Type": 7,
+              "Data": 25165834
+            },
+            {
+              "KeyName": "DEVPKEY_Device_ProblemCode",
+              "Type": 7,
+              "Data": 0
+            },
+            {
+              "KeyName": "DEVPKEY_Device_BusRelations",
+              "Type": 8210,
+              "Data": [
+                "PCI\\VEN_8086&DEV_6400&SUBSYS_0CE41028&REV_04\\3&11583659&1&00",
+                "PCI\\VEN_8086&DEV_64A0&SUBSYS_0CE41028&REV_04\\3&11583659&1&10",
+                "PCI\\VEN_8086&DEV_641D&SUBSYS_0CE41028&REV_04\\3&11583659&1&20",
+                "PCI\\VEN_8086&DEV_645D&SUBSYS_0CE41028&REV_04\\3&11583659&1&28",
+                "PCI\\VEN_8086&DEV_A84E&SUBSYS_0CE41028&REV_10\\3&11583659&1&38",
+                "PCI\\VEN_8086&DEV_A84F&SUBSYS_0CE41028&REV_10\\3&11583659&1&39",
+                "PCI\\VEN_8086&DEV_647D&SUBSYS_0CE41028&REV_04\\3&11583659&1&50",
+                "PCI\\VEN_8086&DEV_643E&SUBSYS_0CE41028&REV_04\\3&11583659&1&58",
+                "PCI\\VEN_8086&DEV_A831&SUBSYS_0CE41028&REV_10\\3&11583659&1&68",
+                "PCI\\VEN_8086&DEV_A833&SUBSYS_0CE41028&REV_10&USB4_MS_CM\\3&11583659&1&6A",
+                "PCI\\VEN_8086&DEV_A845&SUBSYS_0CE41028&REV_10\\3&11583659&1&90",
+                "PCI\\VEN_8086&DEV_A862&SUBSYS_0CE41028&REV_10\\3&11583659&1&98",
+                "PCI\\VEN_8086&DEV_A87D&SUBSYS_0CE41028&REV_10\\3&11583659&1&A0",
+                "PCI\\VEN_8086&DEV_A87F&SUBSYS_0CE41028&REV_10\\3&11583659&1&A2",
+                "PCI\\VEN_8086&DEV_A840&SUBSYS_40E08086&REV_10\\3&11583659&1&A3",
+                "PCI\\VEN_8086&DEV_A876&SUBSYS_000E8086&REV_10\\3&11583659&1&A7",
+                "PCI\\VEN_8086&DEV_A878&SUBSYS_0CE41028&REV_10\\3&11583659&1&A8",
+                "PCI\\VEN_8086&DEV_A87B&SUBSYS_0CE41028&REV_10\\3&11583659&1&AB",
+                "PCI\\VEN_8086&DEV_A870&SUBSYS_0CE41028&REV_10\\3&11583659&1&B0",
+                "PCI\\VEN_8086&DEV_A873&SUBSYS_0CE41028&REV_10\\3&11583659&1&B3",
+                "PCI\\VEN_8086&DEV_A850&SUBSYS_0CE41028&REV_10\\3&11583659&1&C8",
+                "PCI\\VEN_8086&DEV_A851&SUBSYS_0CE41028&REV_10\\3&11583659&1&C9",
+                "PCI\\VEN_8086&DEV_A838&SUBSYS_0CE41028&REV_10\\3&11583659&1&E0",
+                "PCI\\VEN_8086&DEV_A825&SUBSYS_0CE41028&REV_10\\3&11583659&1&F0",
+                "PCI\\VEN_8086&DEV_A807&SUBSYS_0CE41028&REV_10\\3&11583659&1&F8",
+                "PCI\\VEN_8086&DEV_A828&SUBSYS_0CE41028&REV_10\\3&11583659&1&FB",
+                "PCI\\VEN_8086&DEV_A822&SUBSYS_0CE41028&REV_10\\3&11583659&1&FC",
+                "PCI\\VEN_8086&DEV_A823&SUBSYS_0CE41028&REV_10\\3&11583659&1&FD",
+                "ACPI\\PNP0C02\\1",
+                "ACPI\\ABCD0000\\SADDLESTRING",
+                "ACPI\\INTC10DE\\CVSS"
+              ]
+            },
+            {
+              "KeyName": "DEVPKEY_Device_Parent",
+              "Type": 18,
+              "Data": "ACPI_HAL\\PNP0C08\\0"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_Children",
+              "Type": 8210,
+              "Data": [
+                "PCI\\VEN_8086&DEV_6400&SUBSYS_0CE41028&REV_04\\3&11583659&1&00",
+                "PCI\\VEN_8086&DEV_64A0&SUBSYS_0CE41028&REV_04\\3&11583659&1&10",
+                "PCI\\VEN_8086&DEV_641D&SUBSYS_0CE41028&REV_04\\3&11583659&1&20",
+                "PCI\\VEN_8086&DEV_645D&SUBSYS_0CE41028&REV_04\\3&11583659&1&28",
+                "PCI\\VEN_8086&DEV_A84E&SUBSYS_0CE41028&REV_10\\3&11583659&1&38",
+                "PCI\\VEN_8086&DEV_A84F&SUBSYS_0CE41028&REV_10\\3&11583659&1&39",
+                "PCI\\VEN_8086&DEV_647D&SUBSYS_0CE41028&REV_04\\3&11583659&1&50",
+                "PCI\\VEN_8086&DEV_643E&SUBSYS_0CE41028&REV_04\\3&11583659&1&58",
+                "PCI\\VEN_8086&DEV_A831&SUBSYS_0CE41028&REV_10\\3&11583659&1&68",
+                "PCI\\VEN_8086&DEV_A833&SUBSYS_0CE41028&REV_10&USB4_MS_CM\\3&11583659&1&6A",
+                "PCI\\VEN_8086&DEV_A845&SUBSYS_0CE41028&REV_10\\3&11583659&1&90",
+                "PCI\\VEN_8086&DEV_A862&SUBSYS_0CE41028&REV_10\\3&11583659&1&98",
+                "PCI\\VEN_8086&DEV_A87D&SUBSYS_0CE41028&REV_10\\3&11583659&1&A0",
+                "PCI\\VEN_8086&DEV_A87F&SUBSYS_0CE41028&REV_10\\3&11583659&1&A2",
+                "PCI\\VEN_8086&DEV_A840&SUBSYS_40E08086&REV_10\\3&11583659&1&A3",
+                "PCI\\VEN_8086&DEV_A876&SUBSYS_000E8086&REV_10\\3&11583659&1&A7",
+                "PCI\\VEN_8086&DEV_A878&SUBSYS_0CE41028&REV_10\\3&11583659&1&A8",
+                "PCI\\VEN_8086&DEV_A87B&SUBSYS_0CE41028&REV_10\\3&11583659&1&AB",
+                "PCI\\VEN_8086&DEV_A870&SUBSYS_0CE41028&REV_10\\3&11583659&1&B0",
+                "PCI\\VEN_8086&DEV_A873&SUBSYS_0CE41028&REV_10\\3&11583659&1&B3",
+                "PCI\\VEN_8086&DEV_A850&SUBSYS_0CE41028&REV_10\\3&11583659&1&C8",
+                "PCI\\VEN_8086&DEV_A851&SUBSYS_0CE41028&REV_10\\3&11583659&1&C9",
+                "PCI\\VEN_8086&DEV_A838&SUBSYS_0CE41028&REV_10\\3&11583659&1&E0",
+                "PCI\\VEN_8086&DEV_A825&SUBSYS_0CE41028&REV_10\\3&11583659&1&F0",
+                "PCI\\VEN_8086&DEV_A807&SUBSYS_0CE41028&REV_10\\3&11583659&1&F8",
+                "PCI\\VEN_8086&DEV_A828&SUBSYS_0CE41028&REV_10\\3&11583659&1&FB",
+                "PCI\\VEN_8086&DEV_A822&SUBSYS_0CE41028&REV_10\\3&11583659&1&FC",
+                "PCI\\VEN_8086&DEV_A823&SUBSYS_0CE41028&REV_10\\3&11583659&1&FD",
+                "ACPI\\PNP0C02\\1",
+                "ACPI\\ABCD0000\\SADDLESTRING",
+                "ACPI\\INTC10DE\\CVSS"
+              ]
+            },
+            {
+              "KeyName": "DEVPKEY_Device_Siblings",
+              "Type": 8210,
+              "Data": [
+                "ACPI\\ACPI000E\\2&daba3ff&1",
+                "ACPI\\PNP0C02\\IoTraps",
+                "ACPI\\PNP0C02\\5",
+                "ACPI\\PNP0C02\\SOCCLK",
+                "ACPI\\INTC105D\\0",
+                "ACPI\\INTC105D\\1",
+                "ACPI\\INTC105D\\3",
+                "ACPI\\INTC105D\\4",
+                "ACPI\\INTC105D\\5",
+                "ACPI\\GenuineIntel_-_Intel64_Family_6_Model_189_-_Intel(R)_Core(TM)_Ultra_7_268V\\0",
+                "ACPI\\GenuineIntel_-_Intel64_Family_6_Model_189_-_Intel(R)_Core(TM)_Ultra_7_268V\\1",
+                "ACPI\\GenuineIntel_-_Intel64_Family_6_Model_189_-_Intel(R)_Core(TM)_Ultra_7_268V\\2",
+                "ACPI\\GenuineIntel_-_Intel64_Family_6_Model_189_-_Intel(R)_Core(TM)_Ultra_7_268V\\3",
+                "ACPI\\GenuineIntel_-_Intel64_Family_6_Model_189_-_Intel(R)_Core(TM)_Ultra_7_268V\\4",
+                "ACPI\\GenuineIntel_-_Intel64_Family_6_Model_189_-_Intel(R)_Core(TM)_Ultra_7_268V\\5",
+                "ACPI\\GenuineIntel_-_Intel64_Family_6_Model_189_-_Intel(R)_Core(TM)_Ultra_7_268V\\6",
+                "ACPI\\GenuineIntel_-_Intel64_Family_6_Model_189_-_Intel(R)_Core(TM)_Ultra_7_268V\\7",
+                "ACPI\\ACPI000C\\2&daba3ff&1",
+                "ACPI\\INT33A1\\1",
+                "ACPI\\PNP0C14\\DSarDev",
+                "ACPI\\PNP0C14\\TestDev",
+                "ACPI\\PNP0C14\\0",
+                "ACPI\\PNP0C14\\WBAT",
+                "ACPI\\PNP0C14\\WBIQ",
+                "ACPI\\PNP0C14\\WAPW",
+                "ACPI\\PNP0C14\\WMDG",
+                "ACPI\\PNP0C14\\ADDV",
+                "ACPI\\PNP0C0D\\2&daba3ff&1",
+                "ACPI\\PNP0C0E\\2&daba3ff&1",
+                "ACPI\\ACPI0003\\2&daba3ff&1",
+                "ACPI\\PNP0C0A\\1",
+                "ACPI\\INTC107B\\2&daba3ff&1",
+                "ACPI\\PNP0C14\\WMEC",
+                "ACPI\\PNP0C14\\WDKL",
+                "ACPI\\PNP0A05\\6",
+                "ACPI\\INTC1068\\IETM",
+                "ACPI\\INT3472\\0",
+                "ACPI\\HIMX1092\\0",
+                "ACPI\\OVTI08F4\\1",
+                "ACPI\\ACPI0018\\2&daba3ff&1",
+                "ACPI\\USBC000\\1",
+                "ACPI\\INT340E\\2&daba3ff&1",
+                "ACPI\\STM0176\\2&daba3ff&1"
+              ]
+            },
+            {
+              "KeyName": "DEVPKEY_Device_SafeRemovalRequired",
+              "Type": 17,
+              "Data": false
+            },
+            {
+              "KeyName": "DEVPKEY_Device_ContainerId",
+              "Type": 13,
+              "Data": "{00000000-0000-0000-FFFF-FFFFFFFFFFFF}"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_IsPresent",
+              "Type": 17,
+              "Data": true
+            },
+            {
+              "KeyName": "DEVPKEY_Device_HasProblem",
+              "Type": 17,
+              "Data": false
+            },
+            {
+              "KeyName": "{83DA6326-97A6-4088-9453-A1923F573B29} 15",
+              "Type": 17,
+              "Data": true
+            },
+            {
+              "KeyName": "DEVPKEY_Device_IsRebootRequired",
+              "Type": 17,
+              "Data": false
+            },
+            {
+              "KeyName": "DEVPKEY_Device_ReportedDeviceIdsHash",
+              "Type": 7,
+              "Data": 1444643487
+            },
+            {
+              "KeyName": "DEVPKEY_Device_InLocalMachineContainer",
+              "Type": 17,
+              "Data": true
+            },
+            {
+              "KeyName": "DEVPKEY_Device_Stack",
+              "Type": 8210,
+              "Data": [
+                "\\Driver\\pci",
+                "\\Driver\\ACPI"
+              ]
+            },
+            {
+              "KeyName": "{A8B865DD-2E3D-4094-AD97-E593A70C75D6} 26",
+              "Type": 17,
+              "Data": false
+            },
+            {
+              "KeyName": "{83DA6326-97A6-4088-9453-A1923F573B29} 22",
+              "Type": 8210,
+              "Data": [
+                "CsFirmwareAnalysis"
+              ]
+            },
+            {
+              "KeyName": "{3464F7A4-2444-40B1-980A-E0903CB6D912} 10",
+              "Type": 7,
+              "Data": 3
+            },
+            {
+              "KeyName": "DEVPKEY_Device_ConfigurationId",
+              "Type": 18,
+              "Data": "pci.inf:*PNP0A08,PCI_ROOT"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_BiosDeviceName",
+              "Type": 18,
+              "Data": "\\_SB.PC00"
+            },
+            {
+              "KeyName": "{80497100-8C73-48B9-AAD9-CE387E19C56E} 6",
+              "Type": 7,
+              "Data": 0
+            },
+            {
+              "KeyName": "{83DA6326-97A6-4088-9453-A1923F573B29} 3",
+              "Type": 18,
+              "Data": "pci.inf:4ac8f80c3f7bb336:PCI_ROOT:10.0.26100.9278:*PNP0A08"
+            },
+            {
+              "KeyName": "{83DA6326-97A6-4088-9453-A1923F573B29} 10",
+              "Type": 18,
+              "Data": "ACPI_HAL\\PNP0C08\\0"
+            },
+            {
+              "KeyName": "{83DA6326-97A6-4088-9453-A1923F573B29} 18",
+              "Type": 7,
+              "Data": 2
+            },
+            {
+              "KeyName": "{83DA6326-97A6-4088-9453-A1923F573B29} 25",
+              "Type": 7,
+              "Data": 0
+            },
+            {
+              "KeyName": "{83DA6326-97A6-4088-9453-A1923F573B29} 26",
+              "Type": 4099,
+              "Data": [
+                0
+              ]
+            },
+            {
+              "KeyName": "DEVPKEY_Device_InstallDate",
+              "Type": 16,
+              "Data": "2026-02-25T16:14:16.152956+01:00"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_FirstInstallDate",
+              "Type": 16,
+              "Data": "2026-02-25T16:14:16.152956+01:00"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_LastArrivalDate",
+              "Type": 16,
+              "Data": "2026-09-16T10:19:07.17604+02:00"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_LocationPaths",
+              "Type": 8210,
+              "Data": [
+                "ACPI(_SB_)#ACPI(PC00)"
+              ]
+            },
+            {
+              "KeyName": "DEVPKEY_Device_DriverDate",
+              "Type": 16,
+              "Data": "2006-06-21T02:00:00+02:00"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_DriverVersion",
+              "Type": 18,
+              "Data": "10.0.26100.9278"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_DriverDesc",
+              "Type": 18,
+              "Data": "PCI Express Root Complex"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_DriverInfPath",
+              "Type": 18,
+              "Data": "pci.inf"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_DriverInfSection",
+              "Type": 18,
+              "Data": "PCI_ROOT"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_MatchingDeviceId",
+              "Type": 18,
+              "Data": "*PNP0A08"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_DriverProvider",
+              "Type": 18,
+              "Data": "Microsoft"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_ResourcePickerTags",
+              "Type": 18,
+              "Data": "MBRES"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_ResourcePickerExceptions",
+              "Type": 18,
+              "Data": "IO:HAL,MBRES;MEM:HAL,MBRES"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_DriverRank",
+              "Type": 7,
+              "Data": 16711682
+            },
+            {
+              "KeyName": "DEVPKEY_PciRootBus_SecondaryInterface",
+              "Type": 7,
+              "Data": 3
+            },
+            {
+              "KeyName": "DEVPKEY_PciRootBus_ExtendedConfigAvailable",
+              "Type": 17,
+              "Data": true
+            },
+            {
+              "KeyName": "DEVPKEY_PciRootBus_ExtendedPCIConfigOpRegionSupport",
+              "Type": 17,
+              "Data": true
+            },
+            {
+              "KeyName": "DEVPKEY_PciRootBus_ASPMSupport",
+              "Type": 17,
+              "Data": true
+            },
+            {
+              "KeyName": "DEVPKEY_PciRootBus_ClockPowerManagementSupport",
+              "Type": 17,
+              "Data": true
+            },
+            {
+              "KeyName": "DEVPKEY_PciRootBus_PCISegmentGroupsSupport",
+              "Type": 17,
+              "Data": true
+            },
+            {
+              "KeyName": "DEVPKEY_PciRootBus_MSISupport",
+              "Type": 17,
+              "Data": true
+            },
+            {
+              "KeyName": "DEVPKEY_PciRootBus_PCIExpressNativeHotPlugControl",
+              "Type": 17,
+              "Data": true
+            },
+            {
+              "KeyName": "DEVPKEY_PciRootBus_SHPCNativeHotPlugControl",
+              "Type": 17,
+              "Data": false
+            },
+            {
+              "KeyName": "DEVPKEY_PciRootBus_PCIExpressNativePMEControl",
+              "Type": 17,
+              "Data": true
+            },
+            {
+              "KeyName": "DEVPKEY_PciRootBus_PCIExpressAERControl",
+              "Type": 17,
+              "Data": true
+            },
+            {
+              "KeyName": "DEVPKEY_PciRootBus_PCIExpressCapabilityControl",
+              "Type": 17,
+              "Data": true
+            },
+            {
+              "KeyName": "DEVPKEY_PciRootBus_NativePciExpressControl",
+              "Type": 17,
+              "Data": true
+            },
+            {
+              "KeyName": "DEVPKEY_PciRootBus_SystemMsiSupport",
+              "Type": 17,
+              "Data": true
+            }
+          ]
+        },
+        {
+          "device": {
+            "Class": "System",
+            "FriendlyName": "Microsoft ACPI-Compliant System",
+            "InstanceId": "ACPI_HAL\\PNP0C08\\0",
+            "Problem": 0,
+            "ConfigManagerErrorCode": 0,
+            "ProblemDescription": "This device is working properly.",
+            "Caption": "Microsoft ACPI-Compliant System",
+            "Description": "Microsoft ACPI-Compliant System",
+            "InstallDate": null,
+            "Name": "Microsoft ACPI-Compliant System",
+            "Status": "OK",
+            "Availability": null,
+            "ConfigManagerUserConfig": false,
+            "CreationClassName": "Win32_PnPEntity",
+            "DeviceID": "ACPI_HAL\\PNP0C08\\0",
+            "ErrorCleared": null,
+            "ErrorDescription": null,
+            "LastErrorCode": null,
+            "PNPDeviceID": "ACPI_HAL\\PNP0C08\\0",
+            "PowerManagementCapabilities": null,
+            "PowerManagementSupported": null,
+            "StatusInfo": null,
+            "SystemCreationClassName": "Win32_ComputerSystem",
+            "SystemName": "APARA01PC5183",
+            "ClassGuid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+            "CompatibleID": null,
+            "HardwareID": [
+              "ACPI_HAL\\PNP0C08",
+              "*PNP0C08"
+            ],
+            "Manufacturer": "Microsoft",
+            "PNPClass": "System",
+            "Present": true,
+            "Service": "ACPI",
+            "PSComputerName": null
+          },
+          "instance_id": "ACPI_HAL\\PNP0C08\\0",
+          "properties": [
+            {
+              "KeyName": "DEVPKEY_Device_DeviceDesc",
+              "Type": 18,
+              "Data": "Microsoft ACPI-Compliant System"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_HardwareIds",
+              "Type": 8210,
+              "Data": [
+                "ACPI_HAL\\PNP0C08",
+                "*PNP0C08"
+              ]
+            },
+            {
+              "KeyName": "DEVPKEY_Device_Service",
+              "Type": 18,
+              "Data": "ACPI"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_Class",
+              "Type": 18,
+              "Data": "System"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_ClassGuid",
+              "Type": 13,
+              "Data": "{4D36E97D-E325-11CE-BFC1-08002BE10318}"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_Driver",
+              "Type": 18,
+              "Data": "{4d36e97d-e325-11ce-bfc1-08002be10318}\\0006"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_ConfigFlags",
+              "Type": 7,
+              "Data": 0
+            },
+            {
+              "KeyName": "DEVPKEY_Device_Manufacturer",
+              "Type": 18,
+              "Data": "Microsoft"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_PDOName",
+              "Type": 18,
+              "Data": "\\Device\\00000016"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_Capabilities",
+              "Type": 7,
+              "Data": 48
+            },
+            {
+              "KeyName": "DEVPKEY_Device_EnumeratorName",
+              "Type": 18,
+              "Data": "ACPI_HAL"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_PowerData",
+              "Type": 4099,
+              "Data": [
+                56,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                9,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                4,
+                0,
+                0,
+                0,
+                4,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "KeyName": "DEVPKEY_Device_RemovalPolicy",
+              "Type": 7,
+              "Data": 1
+            },
+            {
+              "KeyName": "DEVPKEY_Device_RemovalPolicyDefault",
+              "Type": 7,
+              "Data": 1
+            },
+            {
+              "KeyName": "DEVPKEY_Device_InstallState",
+              "Type": 7,
+              "Data": 0
+            },
+            {
+              "KeyName": "DEVPKEY_Device_BaseContainerId",
+              "Type": 13,
+              "Data": "{00000000-0000-0000-FFFF-FFFFFFFFFFFF}"
+            },
+            {
+              "KeyName": "DEVPKEY_NAME",
+              "Type": 18,
+              "Data": "Microsoft ACPI-Compliant System"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_InstanceId",
+              "Type": 18,
+              "Data": "ACPI_HAL\\PNP0C08\\0"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_DevNodeStatus",
+              "Type": 7,
+              "Data": 25165834
+            },
+            {
+              "KeyName": "DEVPKEY_Device_ProblemCode",
+              "Type": 7,
+              "Data": 0
+            },
+            {
+              "KeyName": "DEVPKEY_Device_BusRelations",
+              "Type": 8210,
+              "Data": [
+                "ACPI\\PNP0A08\\0",
+                "ACPI\\ACPI000E\\2&daba3ff&1",
+                "ACPI\\PNP0C02\\IoTraps",
+                "ACPI\\PNP0C02\\5",
+                "ACPI\\PNP0C02\\SOCCLK",
+                "ACPI\\INTC105D\\0",
+                "ACPI\\INTC105D\\1",
+                "ACPI\\INTC105D\\3",
+                "ACPI\\INTC105D\\4",
+                "ACPI\\INTC105D\\5",
+                "ACPI\\GenuineIntel_-_Intel64_Family_6_Model_189_-_Intel(R)_Core(TM)_Ultra_7_268V\\0",
+                "ACPI\\GenuineIntel_-_Intel64_Family_6_Model_189_-_Intel(R)_Core(TM)_Ultra_7_268V\\1",
+                "ACPI\\GenuineIntel_-_Intel64_Family_6_Model_189_-_Intel(R)_Core(TM)_Ultra_7_268V\\2",
+                "ACPI\\GenuineIntel_-_Intel64_Family_6_Model_189_-_Intel(R)_Core(TM)_Ultra_7_268V\\3",
+                "ACPI\\GenuineIntel_-_Intel64_Family_6_Model_189_-_Intel(R)_Core(TM)_Ultra_7_268V\\4",
+                "ACPI\\GenuineIntel_-_Intel64_Family_6_Model_189_-_Intel(R)_Core(TM)_Ultra_7_268V\\5",
+                "ACPI\\GenuineIntel_-_Intel64_Family_6_Model_189_-_Intel(R)_Core(TM)_Ultra_7_268V\\6",
+                "ACPI\\GenuineIntel_-_Intel64_Family_6_Model_189_-_Intel(R)_Core(TM)_Ultra_7_268V\\7",
+                "ACPI\\ACPI000C\\2&daba3ff&1",
+                "ACPI\\INT33A1\\1",
+                "ACPI\\PNP0C14\\DSarDev",
+                "ACPI\\PNP0C14\\TestDev",
+                "ACPI\\PNP0C14\\0",
+                "ACPI\\PNP0C14\\WBAT",
+                "ACPI\\PNP0C14\\WBIQ",
+                "ACPI\\PNP0C14\\WAPW",
+                "ACPI\\PNP0C14\\WMDG",
+                "ACPI\\PNP0C14\\ADDV",
+                "ACPI\\PNP0C0D\\2&daba3ff&1",
+                "ACPI\\PNP0C0E\\2&daba3ff&1",
+                "ACPI\\ACPI0003\\2&daba3ff&1",
+                "ACPI\\PNP0C0A\\1",
+                "ACPI\\INTC107B\\2&daba3ff&1",
+                "ACPI\\PNP0C14\\WMEC",
+                "ACPI\\PNP0C14\\WDKL",
+                "ACPI\\PNP0A05\\6",
+                "ACPI\\INTC1068\\IETM",
+                "ACPI\\INT3472\\0",
+                "ACPI\\HIMX1092\\0",
+                "ACPI\\OVTI08F4\\1",
+                "ACPI\\ACPI0018\\2&daba3ff&1",
+                "ACPI\\USBC000\\1",
+                "ACPI\\INT340E\\2&daba3ff&1",
+                "ACPI\\STM0176\\2&daba3ff&1"
+              ]
+            },
+            {
+              "KeyName": "DEVPKEY_Device_Parent",
+              "Type": 18,
+              "Data": "ROOT\\ACPI_HAL\\0000"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_Children",
+              "Type": 8210,
+              "Data": [
+                "ACPI\\PNP0A08\\0",
+                "ACPI\\ACPI000E\\2&daba3ff&1",
+                "ACPI\\PNP0C02\\IoTraps",
+                "ACPI\\PNP0C02\\5",
+                "ACPI\\PNP0C02\\SOCCLK",
+                "ACPI\\INTC105D\\0",
+                "ACPI\\INTC105D\\1",
+                "ACPI\\INTC105D\\3",
+                "ACPI\\INTC105D\\4",
+                "ACPI\\INTC105D\\5",
+                "ACPI\\GenuineIntel_-_Intel64_Family_6_Model_189_-_Intel(R)_Core(TM)_Ultra_7_268V\\0",
+                "ACPI\\GenuineIntel_-_Intel64_Family_6_Model_189_-_Intel(R)_Core(TM)_Ultra_7_268V\\1",
+                "ACPI\\GenuineIntel_-_Intel64_Family_6_Model_189_-_Intel(R)_Core(TM)_Ultra_7_268V\\2",
+                "ACPI\\GenuineIntel_-_Intel64_Family_6_Model_189_-_Intel(R)_Core(TM)_Ultra_7_268V\\3",
+                "ACPI\\GenuineIntel_-_Intel64_Family_6_Model_189_-_Intel(R)_Core(TM)_Ultra_7_268V\\4",
+                "ACPI\\GenuineIntel_-_Intel64_Family_6_Model_189_-_Intel(R)_Core(TM)_Ultra_7_268V\\5",
+                "ACPI\\GenuineIntel_-_Intel64_Family_6_Model_189_-_Intel(R)_Core(TM)_Ultra_7_268V\\6",
+                "ACPI\\GenuineIntel_-_Intel64_Family_6_Model_189_-_Intel(R)_Core(TM)_Ultra_7_268V\\7",
+                "ACPI\\ACPI000C\\2&daba3ff&1",
+                "ACPI\\INT33A1\\1",
+                "ACPI\\PNP0C14\\DSarDev",
+                "ACPI\\PNP0C14\\TestDev",
+                "ACPI\\PNP0C14\\0",
+                "ACPI\\PNP0C14\\WBAT",
+                "ACPI\\PNP0C14\\WBIQ",
+                "ACPI\\PNP0C14\\WAPW",
+                "ACPI\\PNP0C14\\WMDG",
+                "ACPI\\PNP0C14\\ADDV",
+                "ACPI\\PNP0C0D\\2&daba3ff&1",
+                "ACPI\\PNP0C0E\\2&daba3ff&1",
+                "ACPI\\ACPI0003\\2&daba3ff&1",
+                "ACPI\\PNP0C0A\\1",
+                "ACPI\\INTC107B\\2&daba3ff&1",
+                "ACPI\\PNP0C14\\WMEC",
+                "ACPI\\PNP0C14\\WDKL",
+                "ACPI\\PNP0A05\\6",
+                "ACPI\\INTC1068\\IETM",
+                "ACPI\\INT3472\\0",
+                "ACPI\\HIMX1092\\0",
+                "ACPI\\OVTI08F4\\1",
+                "ACPI\\ACPI0018\\2&daba3ff&1",
+                "ACPI\\USBC000\\1",
+                "ACPI\\INT340E\\2&daba3ff&1",
+                "ACPI\\STM0176\\2&daba3ff&1"
+              ]
+            },
+            {
+              "KeyName": "DEVPKEY_Device_Siblings",
+              "Type": 8210,
+              "Data": [
+                "ACPI_HAL\\UEFI\\0"
+              ]
+            },
+            {
+              "KeyName": "DEVPKEY_Device_SafeRemovalRequired",
+              "Type": 17,
+              "Data": false
+            },
+            {
+              "KeyName": "DEVPKEY_Device_ContainerId",
+              "Type": 13,
+              "Data": "{00000000-0000-0000-FFFF-FFFFFFFFFFFF}"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_IsPresent",
+              "Type": 17,
+              "Data": true
+            },
+            {
+              "KeyName": "DEVPKEY_Device_HasProblem",
+              "Type": 17,
+              "Data": false
+            },
+            {
+              "KeyName": "{83DA6326-97A6-4088-9453-A1923F573B29} 15",
+              "Type": 17,
+              "Data": true
+            },
+            {
+              "KeyName": "DEVPKEY_Device_IsRebootRequired",
+              "Type": 17,
+              "Data": false
+            },
+            {
+              "KeyName": "DEVPKEY_Device_ReportedDeviceIdsHash",
+              "Type": 7,
+              "Data": 2190018691
+            },
+            {
+              "KeyName": "DEVPKEY_Device_InLocalMachineContainer",
+              "Type": 17,
+              "Data": true
+            },
+            {
+              "KeyName": "DEVPKEY_Device_Stack",
+              "Type": 8210,
+              "Data": [
+                "\\Driver\\ACPI",
+                "\\Driver\\ACPI_HAL"
+              ]
+            },
+            {
+              "KeyName": "{A8B865DD-2E3D-4094-AD97-E593A70C75D6} 26",
+              "Type": 17,
+              "Data": false
+            },
+            {
+              "KeyName": "{3464F7A4-2444-40B1-980A-E0903CB6D912} 10",
+              "Type": 7,
+              "Data": 3
+            },
+            {
+              "KeyName": "DEVPKEY_Device_ConfigurationId",
+              "Type": 18,
+              "Data": "acpi.inf:*PNP0C08,ACPI_Inst.NT"
+            },
+            {
+              "KeyName": "{80497100-8C73-48B9-AAD9-CE387E19C56E} 6",
+              "Type": 7,
+              "Data": 0
+            },
+            {
+              "KeyName": "{83DA6326-97A6-4088-9453-A1923F573B29} 3",
+              "Type": 18,
+              "Data": "acpi.inf:db04a16ce10b0c38:ACPI_Inst.NT:10.0.26100.9278:*PNP0C08"
+            },
+            {
+              "KeyName": "{83DA6326-97A6-4088-9453-A1923F573B29} 10",
+              "Type": 18,
+              "Data": "ROOT\\ACPI_HAL\\0000"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_InstallDate",
+              "Type": 16,
+              "Data": "2026-02-25T16:14:15.976648+01:00"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_FirstInstallDate",
+              "Type": 16,
+              "Data": "2026-02-25T16:14:15.976648+01:00"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_LastArrivalDate",
+              "Type": 16,
+              "Data": "2026-09-16T10:19:07.014206+02:00"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_DriverDate",
+              "Type": 16,
+              "Data": "2006-06-21T02:00:00+02:00"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_DriverVersion",
+              "Type": 18,
+              "Data": "10.0.26100.9278"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_DriverDesc",
+              "Type": 18,
+              "Data": "Microsoft ACPI-Compliant System"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_DriverInfPath",
+              "Type": 18,
+              "Data": "acpi.inf"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_DriverInfSection",
+              "Type": 18,
+              "Data": "ACPI_Inst.NT"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_MatchingDeviceId",
+              "Type": 18,
+              "Data": "*PNP0C08"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_DriverProvider",
+              "Type": 18,
+              "Data": "Microsoft"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_ResourcePickerExceptions",
+              "Type": 18,
+              "Data": "IRQ:HAL"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_DriverRank",
+              "Type": 7,
+              "Data": 16711681
+            },
+            {
+              "KeyName": "{F0E20F09-D97A-49A9-8046-BB6E22E6BB2E} 2",
+              "Type": 4099,
+              "Data": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                176,
+                0,
+                0,
+                0,
+                11,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                255,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                9,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "device": {
+            "Class": "Computer",
+            "FriendlyName": "ACPI x64-based PC",
+            "InstanceId": "ROOT\\ACPI_HAL\\0000",
+            "Problem": 0,
+            "ConfigManagerErrorCode": 0,
+            "ProblemDescription": "This device is working properly.",
+            "Caption": "ACPI x64-based PC",
+            "Description": "ACPI x64-based PC",
+            "InstallDate": null,
+            "Name": "ACPI x64-based PC",
+            "Status": "OK",
+            "Availability": null,
+            "ConfigManagerUserConfig": false,
+            "CreationClassName": "Win32_PnPEntity",
+            "DeviceID": "ROOT\\ACPI_HAL\\0000",
+            "ErrorCleared": null,
+            "ErrorDescription": null,
+            "LastErrorCode": null,
+            "PNPDeviceID": "ROOT\\ACPI_HAL\\0000",
+            "PowerManagementCapabilities": null,
+            "PowerManagementSupported": null,
+            "StatusInfo": null,
+            "SystemCreationClassName": "Win32_ComputerSystem",
+            "SystemName": "APARA01PC5183",
+            "ClassGuid": "{4d36e966-e325-11ce-bfc1-08002be10318}",
+            "CompatibleID": [
+              "DETECTEDInternal\\ACPI_HAL",
+              "DETECTED\\ACPI_HAL"
+            ],
+            "HardwareID": [
+              "acpiapic"
+            ],
+            "Manufacturer": "(Standard computers)",
+            "PNPClass": "Computer",
+            "Present": true,
+            "Service": "\\Driver\\ACPI_HAL",
+            "PSComputerName": null
+          },
+          "instance_id": "ROOT\\ACPI_HAL\\0000",
+          "properties": [
+            {
+              "KeyName": "DEVPKEY_Device_DeviceDesc",
+              "Type": 18,
+              "Data": "ACPI x64-based PC"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_HardwareIds",
+              "Type": 8210,
+              "Data": [
+                "acpiapic"
+              ]
+            },
+            {
+              "KeyName": "DEVPKEY_Device_CompatibleIds",
+              "Type": 8210,
+              "Data": [
+                "DETECTEDInternal\\ACPI_HAL",
+                "DETECTED\\ACPI_HAL"
+              ]
+            },
+            {
+              "KeyName": "DEVPKEY_Device_Service",
+              "Type": 18,
+              "Data": "\\Driver\\ACPI_HAL"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_Class",
+              "Type": 18,
+              "Data": "Computer"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_ClassGuid",
+              "Type": 13,
+              "Data": "{4D36E966-E325-11CE-BFC1-08002BE10318}"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_Driver",
+              "Type": 18,
+              "Data": "{4d36e966-e325-11ce-bfc1-08002be10318}\\0000"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_ConfigFlags",
+              "Type": 7,
+              "Data": 0
+            },
+            {
+              "KeyName": "DEVPKEY_Device_Manufacturer",
+              "Type": 18,
+              "Data": "(Standard computers)"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_PDOName",
+              "Type": 18,
+              "Data": "\\Device\\0000000d"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_Capabilities",
+              "Type": 7,
+              "Data": 0
+            },
+            {
+              "KeyName": "DEVPKEY_Device_EnumeratorName",
+              "Type": 18,
+              "Data": "ROOT"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_PowerData",
+              "Type": 4099,
+              "Data": [
+                56,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                9,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                4,
+                0,
+                0,
+                0,
+                4,
+                0,
+                0,
+                0,
+                4,
+                0,
+                0,
+                0,
+                4,
+                0,
+                0,
+                0,
+                4,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "KeyName": "DEVPKEY_Device_RemovalPolicy",
+              "Type": 7,
+              "Data": 1
+            },
+            {
+              "KeyName": "DEVPKEY_Device_RemovalPolicyDefault",
+              "Type": 7,
+              "Data": 1
+            },
+            {
+              "KeyName": "DEVPKEY_Device_InstallState",
+              "Type": 7,
+              "Data": 0
+            },
+            {
+              "KeyName": "DEVPKEY_Device_BaseContainerId",
+              "Type": 13,
+              "Data": "{00000000-0000-0000-FFFF-FFFFFFFFFFFF}"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_Reported",
+              "Type": 17,
+              "Data": true
+            },
+            {
+              "KeyName": "DEVPKEY_NAME",
+              "Type": 18,
+              "Data": "ACPI x64-based PC"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_InstanceId",
+              "Type": 18,
+              "Data": "ROOT\\ACPI_HAL\\0000"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_DevNodeStatus",
+              "Type": 7,
+              "Data": 25165835
+            },
+            {
+              "KeyName": "DEVPKEY_Device_ProblemCode",
+              "Type": 7,
+              "Data": 0
+            },
+            {
+              "KeyName": "DEVPKEY_Device_BusRelations",
+              "Type": 8210,
+              "Data": [
+                "ACPI_HAL\\PNP0C08\\0",
+                "ACPI_HAL\\UEFI\\0"
+              ]
+            },
+            {
+              "KeyName": "DEVPKEY_Device_Parent",
+              "Type": 18,
+              "Data": "HTREE\\ROOT\\0"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_Children",
+              "Type": 8210,
+              "Data": [
+                "ACPI_HAL\\PNP0C08\\0",
+                "ACPI_HAL\\UEFI\\0"
+              ]
+            },
+            {
+              "KeyName": "DEVPKEY_Device_Siblings",
+              "Type": 8210,
+              "Data": [
+                "ROOT\\volmgr\\0000",
+                "ROOT\\BasicDisplay\\0000",
+                "ROOT\\hvservice\\0000",
+                "ROOT\\NET\\0000",
+                "ROOT\\VID\\0000",
+                "ROOT\\CompositeBus\\0000",
+                "ROOT\\vdrvroot\\0000",
+                "ROOT\\spaceport\\0000",
+                "ROOT\\KDNIC\\0000",
+                "ROOT\\WINDOWSHELLOFACESOFTWAREDRIVER\\0000",
+                "ROOT\\UMBUS\\0000",
+                "ROOT\\CAD\\0000",
+                "ROOT\\BasicRender\\0000",
+                "ROOT\\DELLINSTRUMENTATION\\0000",
+                "ROOT\\NdisVirtualBus\\0000",
+                "ROOT\\mssmbios\\0000",
+                "ROOT\\SYSTEM\\0000",
+                "ROOT\\SYSTEM\\0001",
+                "ROOT\\SYSTEM\\0002",
+                "ROOT\\RDPBUS\\0000",
+                "SWD\\COMPUTER\\MFG_Dell_Inc.&FAM_Dell_Pro_Laptops&PROD_Dell_Pro_14_Premium_PA14250&SKU_0CE4",
+                "SWD\\RADIO\\{3DB5895D-CC28-44B3-AD3D-6F01A782B8D2}",
+                "SWD\\ScDeviceEnumBus\\0",
+                "SWD\\ScDeviceEnumBus\\1",
+                "SWD\\MSDAS\\{ce958e9a-424f-4c88-86f4-11314821e75a}",
+                "SWD\\PRINTENUM\\PrintQueues",
+                "SWD\\SGDEVAPI\\98A25EB530262DA563012F5F33DEF6C6E1972121C2AE366AA3BA3B09CF6C2ACA",
+                "SWD\\MMDEVAPI\\MicrosoftGSWavetableSynth",
+                "SWD\\MSRRAS\\{5e259276-bc7e-40e3-b93b-8f89b5f3abc0}"
+              ]
+            },
+            {
+              "KeyName": "DEVPKEY_Device_SafeRemovalRequired",
+              "Type": 17,
+              "Data": false
+            },
+            {
+              "KeyName": "DEVPKEY_Device_ContainerId",
+              "Type": 13,
+              "Data": "{00000000-0000-0000-FFFF-FFFFFFFFFFFF}"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_IsPresent",
+              "Type": 17,
+              "Data": true
+            },
+            {
+              "KeyName": "DEVPKEY_Device_HasProblem",
+              "Type": 17,
+              "Data": false
+            },
+            {
+              "KeyName": "{83DA6326-97A6-4088-9453-A1923F573B29} 15",
+              "Type": 17,
+              "Data": true
+            },
+            {
+              "KeyName": "DEVPKEY_Device_IsRebootRequired",
+              "Type": 17,
+              "Data": false
+            },
+            {
+              "KeyName": "DEVPKEY_Device_ReportedDeviceIdsHash",
+              "Type": 7,
+              "Data": 628384281
+            },
+            {
+              "KeyName": "DEVPKEY_Device_InLocalMachineContainer",
+              "Type": 17,
+              "Data": true
+            },
+            {
+              "KeyName": "DEVPKEY_Device_Stack",
+              "Type": 8210,
+              "Data": [
+                "\\Driver\\ACPI_HAL",
+                "\\Driver\\PnpManager"
+              ]
+            },
+            {
+              "KeyName": "{A8B865DD-2E3D-4094-AD97-E593A70C75D6} 26",
+              "Type": 17,
+              "Data": false
+            },
+            {
+              "KeyName": "{3464F7A4-2444-40B1-980A-E0903CB6D912} 10",
+              "Type": 7,
+              "Data": 3
+            },
+            {
+              "KeyName": "DEVPKEY_Device_ConfigurationId",
+              "Type": 18,
+              "Data": "hal.inf:acpiapic,ACPI_AMD64_HAL"
+            },
+            {
+              "KeyName": "{80497100-8C73-48B9-AAD9-CE387E19C56E} 6",
+              "Type": 7,
+              "Data": 0
+            },
+            {
+              "KeyName": "{83DA6326-97A6-4088-9453-A1923F573B29} 3",
+              "Type": 18,
+              "Data": "hal.inf:4ac8f80ccd60c087:ACPI_AMD64_HAL:10.0.26100.1:acpiapic"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_InstallDate",
+              "Type": 16,
+              "Data": "2026-02-07T20:59:08.597179+01:00"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_FirstInstallDate",
+              "Type": 16,
+              "Data": "2026-02-07T20:59:08.597179+01:00"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_DriverDate",
+              "Type": 16,
+              "Data": "2006-06-21T02:00:00+02:00"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_DriverVersion",
+              "Type": 18,
+              "Data": "10.0.26100.1"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_DriverDesc",
+              "Type": 18,
+              "Data": "ACPI x64-based PC"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_DriverInfPath",
+              "Type": 18,
+              "Data": "hal.inf"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_DriverInfSection",
+              "Type": 18,
+              "Data": "ACPI_AMD64_HAL"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_MatchingDeviceId",
+              "Type": 18,
+              "Data": "acpiapic"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_DriverProvider",
+              "Type": 18,
+              "Data": "Microsoft"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_ResourcePickerTags",
+              "Type": 18,
+              "Data": "HAL"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_DriverRank",
+              "Type": 7,
+              "Data": 16711680
+            }
+          ]
+        },
+        {
+          "device": {
+            "Class": null,
+            "FriendlyName": null,
+            "InstanceId": "HTREE\\ROOT\\0",
+            "Problem": 0,
+            "ConfigManagerErrorCode": 0,
+            "ProblemDescription": "This device is working properly.",
+            "Caption": null,
+            "Description": null,
+            "InstallDate": null,
+            "Name": null,
+            "Status": "OK",
+            "Availability": null,
+            "ConfigManagerUserConfig": false,
+            "CreationClassName": "Win32_PnPEntity",
+            "DeviceID": "HTREE\\ROOT\\0",
+            "ErrorCleared": null,
+            "ErrorDescription": null,
+            "LastErrorCode": null,
+            "PNPDeviceID": "HTREE\\ROOT\\0",
+            "PowerManagementCapabilities": null,
+            "PowerManagementSupported": null,
+            "StatusInfo": null,
+            "SystemCreationClassName": "Win32_ComputerSystem",
+            "SystemName": "APARA01PC5183",
+            "ClassGuid": null,
+            "CompatibleID": null,
+            "HardwareID": null,
+            "Manufacturer": null,
+            "PNPClass": null,
+            "Present": true,
+            "Service": null,
+            "PSComputerName": null
+          },
+          "instance_id": "HTREE\\ROOT\\0",
+          "properties": [
+            {
+              "KeyName": "DEVPKEY_Device_ConfigFlags",
+              "Type": 7,
+              "Data": 0
+            },
+            {
+              "KeyName": "DEVPKEY_Device_Capabilities",
+              "Type": 7,
+              "Data": 112
+            },
+            {
+              "KeyName": "DEVPKEY_Device_UINumber",
+              "Type": 7,
+              "Data": 0
+            },
+            {
+              "KeyName": "DEVPKEY_Device_EnumeratorName",
+              "Type": 18,
+              "Data": "HTREE"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_PowerData",
+              "Type": 4099,
+              "Data": [
+                56,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                9,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                4,
+                0,
+                0,
+                0,
+                4,
+                0,
+                0,
+                0,
+                4,
+                0,
+                0,
+                0,
+                4,
+                0,
+                0,
+                0,
+                4,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "KeyName": "DEVPKEY_Device_RemovalPolicy",
+              "Type": 7,
+              "Data": 1
+            },
+            {
+              "KeyName": "DEVPKEY_Device_RemovalPolicyDefault",
+              "Type": 7,
+              "Data": 1
+            },
+            {
+              "KeyName": "DEVPKEY_Device_InstallState",
+              "Type": 7,
+              "Data": 0
+            },
+            {
+              "KeyName": "DEVPKEY_Device_BaseContainerId",
+              "Type": 13,
+              "Data": "{00000000-0000-0000-FFFF-FFFFFFFFFFFF}"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_InstanceId",
+              "Type": 18,
+              "Data": "HTREE\\ROOT\\0"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_DevNodeStatus",
+              "Type": 7,
+              "Data": 1098907658
+            },
+            {
+              "KeyName": "DEVPKEY_Device_ProblemCode",
+              "Type": 7,
+              "Data": 0
+            },
+            {
+              "KeyName": "DEVPKEY_Device_BusRelations",
+              "Type": 8210,
+              "Data": [
+                "ROOT\\volmgr\\0000",
+                "ROOT\\BasicDisplay\\0000",
+                "ROOT\\hvservice\\0000",
+                "ROOT\\NET\\0000",
+                "ROOT\\VID\\0000",
+                "ROOT\\CompositeBus\\0000",
+                "ROOT\\vdrvroot\\0000",
+                "ROOT\\spaceport\\0000",
+                "ROOT\\KDNIC\\0000",
+                "ROOT\\WINDOWSHELLOFACESOFTWAREDRIVER\\0000",
+                "ROOT\\UMBUS\\0000",
+                "ROOT\\CAD\\0000",
+                "ROOT\\ACPI_HAL\\0000",
+                "ROOT\\BasicRender\\0000",
+                "ROOT\\DELLINSTRUMENTATION\\0000",
+                "ROOT\\NdisVirtualBus\\0000",
+                "ROOT\\mssmbios\\0000",
+                "ROOT\\SYSTEM\\0000",
+                "ROOT\\SYSTEM\\0001",
+                "ROOT\\SYSTEM\\0002",
+                "ROOT\\RDPBUS\\0000",
+                "SWD\\COMPUTER\\MFG_Dell_Inc.&FAM_Dell_Pro_Laptops&PROD_Dell_Pro_14_Premium_PA14250&SKU_0CE4",
+                "SWD\\RADIO\\{3DB5895D-CC28-44B3-AD3D-6F01A782B8D2}",
+                "SWD\\ScDeviceEnumBus\\0",
+                "SWD\\ScDeviceEnumBus\\1",
+                "SWD\\MSDAS\\{ce958e9a-424f-4c88-86f4-11314821e75a}",
+                "SWD\\PRINTENUM\\PrintQueues",
+                "SWD\\SGDEVAPI\\98A25EB530262DA563012F5F33DEF6C6E1972121C2AE366AA3BA3B09CF6C2ACA",
+                "SWD\\MMDEVAPI\\MicrosoftGSWavetableSynth",
+                "SWD\\MSRRAS\\{5e259276-bc7e-40e3-b93b-8f89b5f3abc0}"
+              ]
+            },
+            {
+              "KeyName": "DEVPKEY_Device_Children",
+              "Type": 8210,
+              "Data": [
+                "ROOT\\volmgr\\0000",
+                "ROOT\\BasicDisplay\\0000",
+                "ROOT\\hvservice\\0000",
+                "ROOT\\NET\\0000",
+                "ROOT\\VID\\0000",
+                "ROOT\\CompositeBus\\0000",
+                "ROOT\\vdrvroot\\0000",
+                "ROOT\\spaceport\\0000",
+                "ROOT\\KDNIC\\0000",
+                "ROOT\\WINDOWSHELLOFACESOFTWAREDRIVER\\0000",
+                "ROOT\\UMBUS\\0000",
+                "ROOT\\CAD\\0000",
+                "ROOT\\ACPI_HAL\\0000",
+                "ROOT\\BasicRender\\0000",
+                "ROOT\\DELLINSTRUMENTATION\\0000",
+                "ROOT\\NdisVirtualBus\\0000",
+                "ROOT\\mssmbios\\0000",
+                "ROOT\\SYSTEM\\0000",
+                "ROOT\\SYSTEM\\0001",
+                "ROOT\\SYSTEM\\0002",
+                "ROOT\\RDPBUS\\0000",
+                "SWD\\COMPUTER\\MFG_Dell_Inc.&FAM_Dell_Pro_Laptops&PROD_Dell_Pro_14_Premium_PA14250&SKU_0CE4",
+                "SWD\\RADIO\\{3DB5895D-CC28-44B3-AD3D-6F01A782B8D2}",
+                "SWD\\ScDeviceEnumBus\\0",
+                "SWD\\ScDeviceEnumBus\\1",
+                "SWD\\MSDAS\\{ce958e9a-424f-4c88-86f4-11314821e75a}",
+                "SWD\\PRINTENUM\\PrintQueues",
+                "SWD\\SGDEVAPI\\98A25EB530262DA563012F5F33DEF6C6E1972121C2AE366AA3BA3B09CF6C2ACA",
+                "SWD\\MMDEVAPI\\MicrosoftGSWavetableSynth",
+                "SWD\\MSRRAS\\{5e259276-bc7e-40e3-b93b-8f89b5f3abc0}"
+              ]
+            },
+            {
+              "KeyName": "DEVPKEY_Device_SafeRemovalRequired",
+              "Type": 17,
+              "Data": false
+            },
+            {
+              "KeyName": "DEVPKEY_Device_ContainerId",
+              "Type": 13,
+              "Data": "{00000000-0000-0000-FFFF-FFFFFFFFFFFF}"
+            },
+            {
+              "KeyName": "DEVPKEY_Device_IsPresent",
+              "Type": 17,
+              "Data": true
+            },
+            {
+              "KeyName": "DEVPKEY_Device_HasProblem",
+              "Type": 17,
+              "Data": false
+            },
+            {
+              "KeyName": "{83DA6326-97A6-4088-9453-A1923F573B29} 15",
+              "Type": 17,
+              "Data": false
+            },
+            {
+              "KeyName": "DEVPKEY_Device_IsRebootRequired",
+              "Type": 17,
+              "Data": false
+            },
+            {
+              "KeyName": "DEVPKEY_Device_ReportedDeviceIdsHash",
+              "Type": 7,
+              "Data": 0
+            },
+            {
+              "KeyName": "DEVPKEY_Device_InLocalMachineContainer",
+              "Type": 17,
+              "Data": true
+            },
+            {
+              "KeyName": "DEVPKEY_Device_Stack",
+              "Type": 8210,
+              "Data": [
+                "\\Driver\\PnpManager"
+              ]
+            },
+            {
+              "KeyName": "{A8B865DD-2E3D-4094-AD97-E593A70C75D6} 26",
+              "Type": 17,
+              "Data": false
+            }
+          ]
+        }
+      ]
+    },
+    "signed_drivers": {
+      "ok": true,
+      "data": [
+        {
+          "Caption": null,
+          "Description": "Disk drive",
+          "InstallDate": null,
+          "Name": null,
+          "Status": null,
+          "CreationClassName": null,
+          "Started": null,
+          "StartMode": null,
+          "SystemCreationClassName": null,
+          "SystemName": null,
+          "ClassGuid": "{4d36e967-e325-11ce-bfc1-08002be10318}",
+          "CompatID": "USBSTOR\\Disk",
+          "DeviceClass": "DISKDRIVE",
+          "DeviceID": "USBSTOR\\DISK&VEN_SONY&PROD_DSC&REV_1.00\\D386002E4438&0",
+          "DeviceName": "Disk drive",
+          "DevLoader": null,
+          "DriverDate": "2006-06-21T02:00:00+02:00",
+          "DriverName": null,
+          "DriverProviderName": "Microsoft",
+          "DriverVersion": "10.0.26100.8972",
+          "FriendlyName": "Sony DSC USB Device",
+          "HardWareID": "USBSTOR\\DiskSony____DSC_____________1.00",
+          "InfName": "disk.inf",
+          "IsSigned": true,
+          "Location": null,
+          "Manufacturer": "(Standard disk drives)",
+          "PDO": "\\Device\\000009e6",
+          "Signer": "Microsoft Windows",
+          "PSComputerName": null
+        },
+        {
+          "Caption": null,
+          "Description": "USB Mass Storage Device",
+          "InstallDate": null,
+          "Name": null,
+          "Status": null,
+          "CreationClassName": null,
+          "Started": null,
+          "StartMode": null,
+          "SystemCreationClassName": null,
+          "SystemName": null,
+          "ClassGuid": "{36fc9e60-c465-11cf-8056-444553540000}",
+          "CompatID": "USB\\COMPAT_VID_054C&Class_08&SubClass_05&Prot_50",
+          "DeviceClass": "USB",
+          "DeviceID": "USB\\VID_054C&PID_0341\\D386002E4438",
+          "DeviceName": "USB Mass Storage Device",
+          "DevLoader": null,
+          "DriverDate": "2006-06-21T02:00:00+02:00",
+          "DriverName": null,
+          "DriverProviderName": "Microsoft",
+          "DriverVersion": "10.0.26100.9444",
+          "FriendlyName": null,
+          "HardWareID": "USB\\VID_054C&PID_0341&REV_0100",
+          "InfName": "usbstor.inf",
+          "IsSigned": true,
+          "Location": "Port_#0004.Hub_#0002",
+          "Manufacturer": "Compatible USB storage device",
+          "PDO": "\\Device\\USBPDO-2",
+          "Signer": "Microsoft Windows",
+          "PSComputerName": null
+        },
+        {
+          "Caption": null,
+          "Description": "USB Root Hub (USB 3.0)",
+          "InstallDate": null,
+          "Name": null,
+          "Status": null,
+          "CreationClassName": null,
+          "Started": null,
+          "StartMode": null,
+          "SystemCreationClassName": null,
+          "SystemName": null,
+          "ClassGuid": "{36fc9e60-c465-11cf-8056-444553540000}",
+          "CompatID": "",
+          "DeviceClass": "USB",
+          "DeviceID": "USB\\ROOT_HUB30\\4&7155916&0&0",
+          "DeviceName": "USB Root Hub (USB 3.0)",
+          "DevLoader": null,
+          "DriverDate": "2026-09-03T02:00:00+02:00",
+          "DriverName": null,
+          "DriverProviderName": "Microsoft",
+          "DriverVersion": "10.0.26100.9444",
+          "FriendlyName": null,
+          "HardWareID": "USB\\ROOT_HUB30&VID8086&PIDA87D&REV0010",
+          "InfName": "usbhub3.inf",
+          "IsSigned": true,
+          "Location": null,
+          "Manufacturer": "(Standard USB HUBs)",
+          "PDO": "\\Device\\USBPDO-1",
+          "Signer": "Microsoft Windows",
+          "PSComputerName": null
+        },
+        {
+          "Caption": null,
+          "Description": "USB xHCI Compliant Host Controller",
+          "InstallDate": null,
+          "Name": null,
+          "Status": null,
+          "CreationClassName": null,
+          "Started": null,
+          "StartMode": null,
+          "SystemCreationClassName": null,
+          "SystemName": null,
+          "ClassGuid": "{36fc9e60-c465-11cf-8056-444553540000}",
+          "CompatID": "PCI\\VEN_8086&DEV_A87D&REV_10",
+          "DeviceClass": "USB",
+          "DeviceID": "PCI\\VEN_8086&DEV_A87D&SUBSYS_0CE41028&REV_10\\3&11583659&1&A0",
+          "DeviceName": "USB xHCI Compliant Host Controller",
+          "DevLoader": null,
+          "DriverDate": "2026-09-03T02:00:00+02:00",
+          "DriverName": null,
+          "DriverProviderName": "Microsoft",
+          "DriverVersion": "10.0.26100.9444",
+          "FriendlyName": "Intel(R) USB 3.20 eXtensible Host Controller - 1.20 (Microsoft)",
+          "HardWareID": "PCI\\VEN_8086&DEV_A87D&SUBSYS_0CE41028&REV_10",
+          "InfName": "usbxhci.inf",
+          "IsSigned": true,
+          "Location": "PCI bus 0, device 20, function 0",
+          "Manufacturer": "Generic USB xHCI Host Controller",
+          "PDO": "\\Device\\NTPNP_PCI0012",
+          "Signer": "Microsoft Windows",
+          "PSComputerName": null
+        },
+        {
+          "Caption": null,
+          "Description": "PCI Express Root Complex",
+          "InstallDate": null,
+          "Name": null,
+          "Status": null,
+          "CreationClassName": null,
+          "Started": null,
+          "StartMode": null,
+          "SystemCreationClassName": null,
+          "SystemName": null,
+          "ClassGuid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+          "CompatID": "*PNP0A03",
+          "DeviceClass": "SYSTEM",
+          "DeviceID": "ACPI\\PNP0A08\\0",
+          "DeviceName": "PCI Express Root Complex",
+          "DevLoader": null,
+          "DriverDate": "2006-06-21T02:00:00+02:00",
+          "DriverName": null,
+          "DriverProviderName": "Microsoft",
+          "DriverVersion": "10.0.26100.9278",
+          "FriendlyName": null,
+          "HardWareID": "ACPI\\VEN_PNP&DEV_0A08",
+          "InfName": "pci.inf",
+          "IsSigned": true,
+          "Location": null,
+          "Manufacturer": "(Standard system devices)",
+          "PDO": "\\Device\\0000001a",
+          "Signer": "Microsoft Windows",
+          "PSComputerName": null
+        },
+        {
+          "Caption": null,
+          "Description": "Microsoft ACPI-Compliant System",
+          "InstallDate": null,
+          "Name": null,
+          "Status": null,
+          "CreationClassName": null,
+          "Started": null,
+          "StartMode": null,
+          "SystemCreationClassName": null,
+          "SystemName": null,
+          "ClassGuid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+          "CompatID": null,
+          "DeviceClass": "SYSTEM",
+          "DeviceID": "ACPI_HAL\\PNP0C08\\0",
+          "DeviceName": "Microsoft ACPI-Compliant System",
+          "DevLoader": null,
+          "DriverDate": "2006-06-21T02:00:00+02:00",
+          "DriverName": null,
+          "DriverProviderName": "Microsoft",
+          "DriverVersion": "10.0.26100.9278",
+          "FriendlyName": null,
+          "HardWareID": "ACPI_HAL\\PNP0C08",
+          "InfName": "acpi.inf",
+          "IsSigned": true,
+          "Location": null,
+          "Manufacturer": "Microsoft",
+          "PDO": "\\Device\\00000016",
+          "Signer": "Microsoft Windows",
+          "PSComputerName": null
+        },
+        {
+          "Caption": null,
+          "Description": "ACPI x64-based PC",
+          "InstallDate": null,
+          "Name": null,
+          "Status": null,
+          "CreationClassName": null,
+          "Started": null,
+          "StartMode": null,
+          "SystemCreationClassName": null,
+          "SystemName": null,
+          "ClassGuid": "{4d36e966-e325-11ce-bfc1-08002be10318}",
+          "CompatID": "DETECTEDInternal\\ACPI_HAL",
+          "DeviceClass": "COMPUTER",
+          "DeviceID": "ROOT\\ACPI_HAL\\0000",
+          "DeviceName": "ACPI x64-based PC",
+          "DevLoader": null,
+          "DriverDate": "2006-06-21T02:00:00+02:00",
+          "DriverName": null,
+          "DriverProviderName": "Microsoft",
+          "DriverVersion": "10.0.26100.1",
+          "FriendlyName": null,
+          "HardWareID": "acpiapic",
+          "InfName": "hal.inf",
+          "IsSigned": true,
+          "Location": null,
+          "Manufacturer": "(Standard computers)",
+          "PDO": "\\Device\\0000000d",
+          "Signer": "Microsoft Windows",
+          "PSComputerName": null
+        },
+        {
+          "Caption": null,
+          "Description": null,
+          "InstallDate": null,
+          "Name": null,
+          "Status": null,
+          "CreationClassName": null,
+          "Started": null,
+          "StartMode": null,
+          "SystemCreationClassName": null,
+          "SystemName": null,
+          "ClassGuid": null,
+          "CompatID": null,
+          "DeviceClass": null,
+          "DeviceID": "HTREE\\ROOT\\0",
+          "DeviceName": null,
+          "DevLoader": null,
+          "DriverDate": null,
+          "DriverName": null,
+          "DriverProviderName": null,
+          "DriverVersion": null,
+          "FriendlyName": null,
+          "HardWareID": null,
+          "InfName": null,
+          "IsSigned": null,
+          "Location": null,
+          "Manufacturer": null,
+          "PDO": null,
+          "Signer": null,
+          "PSComputerName": null
+        }
+      ]
+    },
+    "camera_disk_cim": {
+      "ok": true,
+      "data": []
+    },
+    "camera_storage_disks": {
+      "ok": true,
+      "data": []
+    },
+    "logical_disks": {
+      "ok": true,
+      "data": [
+        {
+          "DeviceID": "C:",
+          "DriveType": 3,
+          "FileSystem": "NTFS",
+          "VolumeName": "OS",
+          "VolumeSerialNumber": "7EEA25B7",
+          "Size": 509324816384,
+          "FreeSpace": 169376636928,
+          "Status": null
+        },
+        {
+          "DeviceID": "D:",
+          "DriveType": 2,
+          "FileSystem": null,
+          "VolumeName": null,
+          "VolumeSerialNumber": null,
+          "Size": null,
+          "FreeSpace": null,
+          "Status": null
+        }
+      ]
+    },
+    "volumes": {
+      "ok": true,
+      "data": [
+        {
+          "DriveLetter": "C",
+          "FileSystemLabel": "OS",
+          "FileSystem": "NTFS",
+          "Size": 509324816384,
+          "SizeRemaining": 169376497664,
+          "Path": "\\\\?\\Volume{486689fd-8b41-464b-b9ed-20b255519abc}\\",
+          "UniqueId": "\\\\?\\Volume{486689fd-8b41-464b-b9ed-20b255519abc}\\",
+          "HealthStatus": "Healthy",
+          "OperationalStatus": "OK"
+        },
+        {
+          "DriveLetter": null,
+          "FileSystemLabel": "WINRETOOLS",
+          "FileSystem": "NTFS",
+          "Size": 1076883456,
+          "SizeRemaining": 232202240,
+          "Path": "\\\\?\\Volume{6ae7315e-1f6b-4e5c-aad7-982260f250b8}\\",
+          "UniqueId": "\\\\?\\Volume{6ae7315e-1f6b-4e5c-aad7-982260f250b8}\\",
+          "HealthStatus": "Healthy",
+          "OperationalStatus": "OK"
+        }
+      ]
+    },
+    "filesystem_drives": {
+      "ok": true,
+      "data": [
+        {
+          "Name": "C",
+          "Root": "C:\\",
+          "Description": "OS",
+          "DisplayRoot": null
+        },
+        {
+          "Name": "D",
+          "Root": "D:\\",
+          "Description": "",
+          "DisplayRoot": null
+        },
+        {
+          "Name": "Temp",
+          "Root": "C:\\Users\\apara01\\AppData\\Local\\Temp\\",
+          "Description": "Drive that maps to the temporary directory path for the current user",
+          "DisplayRoot": null
+        }
+      ]
+    },
+    "usb_registry": {
+      "ok": true,
+      "data": [
+        {
+          "DeviceDesc": "@usbstor.inf,%genericbulkonly.devicedesc%;USB Mass Storage Device",
+          "LocationInformation": "Port_#0004.Hub_#0002",
+          "Capabilities": 148,
+          "Address": 4,
+          "ContainerID": "{88746e6d-e3f6-5744-9a39-a495052a6b23}",
+          "HardwareID": [
+            "USB\\VID_054C&PID_0341&REV_0100",
+            "USB\\VID_054C&PID_0341"
+          ],
+          "CompatibleIDs": [
+            "USB\\COMPAT_VID_054C&Class_08&SubClass_05&Prot_50",
+            "USB\\COMPAT_VID_054C&Class_08&SubClass_05",
+            "USB\\COMPAT_VID_054C&Class_08",
+            "USB\\Class_08&SubClass_05&Prot_50",
+            "USB\\Class_08&SubClass_05",
+            "USB\\Class_08"
+          ],
+          "ClassGUID": "{36fc9e60-c465-11cf-8056-444553540000}",
+          "Service": "USBSTOR",
+          "Driver": "{36fc9e60-c465-11cf-8056-444553540000}\\0096",
+          "Mfg": "@usbstor.inf,%generic.mfg%;Compatible USB storage device",
+          "ConfigFlags": 0
+        }
+      ]
+    },
+    "host": {
+      "ok": true,
+      "data": [
+        {
+          "Caption": "Microsoft Windows 11 Enterprise",
+          "Version": "10.0.26200",
+          "BuildNumber": "26200",
+          "OSArchitecture": "64-bit"
+        },
+        {
+          "elevated": false,
+          "powershell": "7.6.5"
+        }
+      ]
+    },
+    "driver_services": {
+      "ok": true,
+      "data": [
+        {
+          "Name": "CSDeviceControl",
+          "DisplayName": "CrowdStrike Device Control Service",
+          "State": "Running",
+          "StartMode": "Manual",
+          "PathName": "C:\\Windows\\system32\\drivers\\CSDeviceControl.sys",
+          "ServiceType": "Kernel Driver"
+        },
+        {
+          "Name": "disk",
+          "DisplayName": "Disk Driver",
+          "State": "Running",
+          "StartMode": "Boot",
+          "PathName": "C:\\Windows\\system32\\drivers\\disk.sys",
+          "ServiceType": "Kernel Driver"
+        },
+        {
+          "Name": "USBHUB3",
+          "DisplayName": "SuperSpeed Hub",
+          "State": "Running",
+          "StartMode": "Manual",
+          "PathName": "C:\\Windows\\system32\\drivers\\UsbHub3.sys",
+          "ServiceType": "Kernel Driver"
+        },
+        {
+          "Name": "USBSTOR",
+          "DisplayName": "USB Mass Storage Driver",
+          "State": "Running",
+          "StartMode": "Manual",
+          "PathName": "C:\\Windows\\system32\\drivers\\USBSTOR.SYS",
+          "ServiceType": "Kernel Driver"
+        }
+      ]
+    },
+    "pnputil_usb": {
+      "ok": true,
+      "data": [
+        {
+          "output": "Microsoft PnP Utility\n\nInstance ID:                USB\\VID_054C&PID_0341\\D386002E4438\nDevice Description:         USB Mass Storage Device\nClass Name:                 USB\nClass GUID:                 {36fc9e60-c465-11cf-8056-444553540000}\nManufacturer Name:          Compatible USB storage device\nStatus:                     Started\nDriver Name:                usbstor.inf\nParent:                     USB\\ROOT_HUB30\\4&7155916&0&0\nChildren:                   USBSTOR\\Disk&Ven_Sony&Prod_DSC&Rev_1.00\\D386002E4438&0\nService:                    USBSTOR\nStack:                      USBSTOR\n                            CSDeviceControl\n                            ACPI\n                            USBHUB3\nMatching Drivers:\n    Driver Name:            usbstor.inf\n    Provider Name:          Microsoft\n    Class Name:             USB\n    Class GUID:             {36fc9e60-c465-11cf-8056-444553540000}\n    Driver Version:         06/21/2006 10.0.26100.9444\n    Signer Name:            Microsoft Windows\n    Matching Device ID:     USB\\Class_08&SubClass_05&Prot_50\n    Driver Rank:            00FF2003\n    Driver Status:          Best Ranked / Installed\nInterfaces:\n    Interface Path:         \\\\?\\USB#VID_054C&PID_0341#D386002E4438#{a5dcbf10-6530-11d2-901f-00c04fb951ed}\n    Interface Description:  Unknown\n    Interface Class GUID:   {a5dcbf10-6530-11d2-901f-00c04fb951ed}\n    Interface Status:       Enabled\n    Interface Properties:\n        DEVPKEY_DeviceInterface_Enabled [Boolean]:\n            TRUE\n        DEVPKEY_Device_InstanceId [String]:\n            USB\\VID_054C&PID_0341\\D386002E4438\n        DEVPKEY_DeviceInterface_ClassGuid [GUID]:\n            {a5dcbf10-6530-11d2-901f-00c04fb951ed}\n        DEVPKEY_Device_ContainerId [GUID]:\n            {88746e6d-e3f6-5744-9a39-a495052a6b23}\nProperties:\n    DEVPKEY_Device_DeviceDesc [String]:\n        USB Mass Storage Device\n    DEVPKEY_Device_HardwareIds [String List]:\n        USB\\VID_054C&PID_0341&REV_0100\n        USB\\VID_054C&PID_0341\n    DEVPKEY_Device_CompatibleIds [String List]:\n        USB\\COMPAT_VID_054C&Class_08&SubClass_05&Prot_50\n        USB\\COMPAT_VID_054C&Class_08&SubClass_05\n        USB\\COMPAT_VID_054C&Class_08\n        USB\\Class_08&SubClass_05&Prot_50\n        USB\\Class_08&SubClass_05\n        USB\\Class_08\n    DEVPKEY_Device_Service [String]:\n        USBSTOR\n    DEVPKEY_Device_Class [String]:\n        USB\n    DEVPKEY_Device_ClassGuid [GUID]:\n        {36fc9e60-c465-11cf-8056-444553540000}\n    DEVPKEY_Device_Driver [String]:\n        {36fc9e60-c465-11cf-8056-444553540000}\\0096\n    DEVPKEY_Device_ConfigFlags [UINT32]:\n        0x00000000 (0)\n    DEVPKEY_Device_Manufacturer [String]:\n        Compatible USB storage device\n    DEVPKEY_Device_LocationInfo [String]:\n        Port_#0004.Hub_#0002\n    DEVPKEY_Device_PDOName [String]:\n        \\Device\\USBPDO-2\n    DEVPKEY_Device_Capabilities [UINT32]:\n        0x00000094 (148)\n    DEVPKEY_Device_BusTypeGuid [GUID]:\n        {9d7debbc-c85d-11d1-9eb4-006008c3a19a}\n    DEVPKEY_Device_LegacyBusType [UINT32]:\n        0x0000000F (15)\n    DEVPKEY_Device_BusNumber [UINT32]:\n        0x00000000 (0)\n    DEVPKEY_Device_EnumeratorName [String]:\n        USB\n    DEVPKEY_Device_Address [UINT32]:\n        0x00000004 (4)\n    DEVPKEY_Device_PowerData [Binary]:\n        38 00 00 00 01 00 00 00 19 00 00 00 00 00 00 00 \n        00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 \n        04 00 00 00 04 00 00 00 04 00 00 00 04 00 00 00 \n        04 00 00 00 01 00 00 00\n    DEVPKEY_Device_RemovalPolicy [UINT32]:\n        0x00000003 (3)\n    DEVPKEY_Device_RemovalPolicyDefault [UINT32]:\n        0x00000003 (3)\n    DEVPKEY_Device_InstallState [UINT32]:\n        0x00000000 (0)\n    DEVPKEY_Device_BaseContainerId [GUID]:\n        {88746e6d-e3f6-5744-9a39-a495052a6b23}\n    DEVPKEY_NAME [String]:\n        USB Mass Storage Device\n    DEVPKEY_Device_InstanceId [String]:\n        USB\\VID_054C&PID_0341\\D386002E4438\n    DEVPKEY_Device_DevNodeStatus [UINT32]:\n        0x0180600A (25190410)\n    DEVPKEY_Device_ProblemCode [UINT32]:\n        0x00000000 (0)\n    DEVPKEY_Device_BusRelations [String List]:\n        USBSTOR\\Disk&Ven_Sony&Prod_DSC&Rev_1.00\\D386002E4438&0\n    DEVPKEY_Device_Parent [String]:\n        USB\\ROOT_HUB30\\4&7155916&0&0\n    DEVPKEY_Device_Children [String List]:\n        USBSTOR\\Disk&Ven_Sony&Prod_DSC&Rev_1.00\\D386002E4438&0\n    DEVPKEY_Device_Siblings [String List]:\n        USB\\VID_06CB&PID_0701\\01.00.00.00\n        USB\\VID_27C6&PID_634C\\UID94790026_XXXX_MOC_B0\n    DEVPKEY_Device_SafeRemovalRequired [Boolean]:\n        FALSE\n    DEVPKEY_Device_ContainerId [GUID]:\n        {88746e6d-e3f6-5744-9a39-a495052a6b23}\n    DEVPKEY_Device_IsPresent [Boolean]:\n        TRUE\n    DEVPKEY_Device_HasProblem [Boolean]:\n        FALSE\n    {83da6326-97a6-4088-9453-a1923f573b29}[15] [Boolean]:\n        TRUE\n    DEVPKEY_Device_IsRebootRequired [Boolean]:\n        FALSE\n    DEVPKEY_Device_ReportedDeviceIdsHash [UINT32]:\n        0x84D07994 (2228255124)\n    DEVPKEY_Device_InLocalMachineContainer [Boolean]:\n        FALSE\n    DEVPKEY_Device_Stack [String List]:\n        \\Driver\\USBSTOR\n        \\Driver\\CSDeviceControl\n        \\Driver\\ACPI\n        \\Driver\\USBHUB3\n    {a8b865dd-2e3d-4094-ad97-e593a70c75d6}[26] [Boolean]:\n        FALSE\n    {3464f7a4-2444-40b1-980a-e0903cb6d912}[10] [UINT32]:\n        0x00000003 (3)\n    DEVPKEY_Device_BusReportedDeviceDesc [String]:\n        DSC-W300\n    DEVPKEY_Device_ConfigurationId [String]:\n        usbstor.inf:USB\\Class_08&SubClass_05&Prot_50,USBSTOR_BULK.NT\n    DEVPKEY_Device_PhysicalDeviceLocation [Binary]:\n        81 00 00 00 08 00 03 00 51 12 00 02 03 00 00 00 \n        FF FF FF FF\n    DEVPKEY_Device_BiosDeviceName [String]:\n        \\_SB.PC00.XHCI.RHUB.HS04\n    {80497100-8c73-48b9-aad9-ce387e19c56e}[6] [UINT32]:\n        0x00000000 (0)\n    {83da6326-97a6-4088-9453-a1923f573b29}[3] [String]:\n        usbstor.inf:392c3d533eff3360:USBSTOR_BULK.NT:10.0.26100.9444:USB\\Class_08&SubClass_05&Prot_50\n    {83da6326-97a6-4088-9453-a1923f573b29}[10] [String]:\n        USB\\ROOT_HUB30\\4&7155916&0&0\n    {83da6326-97a6-4088-9453-a1923f573b29}[25] [UINT32]:\n        0x00000000 (0)\n    {83da6326-97a6-4088-9453-a1923f573b29}[26] [Binary]:\n        00\n    DEVPKEY_Device_InstallDate [FILETIME]:\n        17.09.2026 14:50:22\n    DEVPKEY_Device_FirstInstallDate [FILETIME]:\n        17.09.2026 14:50:22\n    DEVPKEY_Device_LastArrivalDate [FILETIME]:\n        17.09.2026 14:50:21\n    {8dbc9c86-97a9-4bff-9bc6-bfe95d3e6dad}[2] [String]:\n        {00000000-0000-0000-ffff-ffffffffffff}\\0000\\3\n    {8dbc9c86-97a9-4bff-9bc6-bfe95d3e6dad}[3] [UINT32]:\n        0x00000000 (0)\n    {8dbc9c86-97a9-4bff-9bc6-bfe95d3e6dad}[4] [UINT32]:\n        0x00000003 (3)\n    {8dbc9c86-97a9-4bff-9bc6-bfe95d3e6dad}[5] [UINT32]:\n        0x00000008 (8)\n    {8dbc9c86-97a9-4bff-9bc6-bfe95d3e6dad}[6] [UINT32]:\n        0x00000003 (3)\n    {8dbc9c86-97a9-4bff-9bc6-bfe95d3e6dad}[13] [UINT32]:\n        0x00000000 (0)\n    {8dbc9c86-97a9-4bff-9bc6-bfe95d3e6dad}[15] [UINT32]:\n        0x00000001 (1)\n    {8dbc9c86-97a9-4bff-9bc6-bfe95d3e6dad}[16] [Boolean]:\n        TRUE\n    DEVPKEY_Device_LocationPaths [String List]:\n        PCIROOT(0)#PCI(1400)#USBROOT(0)#USB(4)\n        ACPI(_SB_)#ACPI(PC00)#ACPI(XHCI)#ACPI(RHUB)#ACPI(HS04)\n    DEVPKEY_Device_DriverDate [FILETIME]:\n        21.06.2006 00:00:00\n    DEVPKEY_Device_DriverVersion [String]:\n        10.0.26100.9444\n    DEVPKEY_Device_DriverDesc [String]:\n        USB Mass Storage Device\n    DEVPKEY_Device_DriverInfPath [String]:\n        usbstor.inf\n    DEVPKEY_Device_DriverInfSection [String]:\n        USBSTOR_BULK.NT\n    DEVPKEY_Device_MatchingDeviceId [String]:\n        USB\\Class_08&SubClass_05&Prot_50\n    DEVPKEY_Device_DriverProvider [String]:\n        Microsoft\n    DEVPKEY_Device_DriverRank [UINT32]:\n        0x00FF2003 (16719875)\n    {a8b865dd-2e3d-4094-ad97-e593a70c75d6}[16] [String List]:\n        pci.inf\n    {b5a825b8-3907-40b5-abca-8451e2453d5f}[3] [UINT32]:\n        0x00000001 (1)\n",
+          "exit_code": 0
+        }
+      ]
+    },
+    "pnputil_disk": {
+      "ok": true,
+      "data": [
+        {
+          "output": "Microsoft PnP Utility\n\nInstance ID:                USBSTOR\\Disk&Ven_Sony&Prod_DSC&Rev_1.00\\D386002E4438&0\nDevice Description:         Sony DSC USB Device\nClass Name:                 DiskDrive\nClass GUID:                 {4d36e967-e325-11ce-bfc1-08002be10318}\nManufacturer Name:          (Standard disk drives)\nStatus:                     Started\nDriver Name:                disk.inf\nParent:                     USB\\VID_054C&PID_0341\\D386002E4438\nService:                    disk\nStack:                      csadc\n                            partmgr\n                            disk\n                            USBSTOR\nMatching Drivers:\n    Driver Name:            disk.inf\n    Provider Name:          Microsoft\n    Class Name:             DiskDrive\n    Class GUID:             {4d36e967-e325-11ce-bfc1-08002be10318}\n    Driver Version:         06/21/2006 10.0.26100.8972\n    Signer Name:            Microsoft Windows\n    Matching Device ID:     GenDisk\n    Driver Rank:            00FF0006\n    Driver Status:          Best Ranked / Installed\n                            \n    Driver Name:            disk.inf\n    Provider Name:          Microsoft\n    Class Name:             DiskDrive\n    Class GUID:             {4d36e967-e325-11ce-bfc1-08002be10318}\n    Driver Version:         06/21/2006 10.0.26100.8972\n    Signer Name:            Microsoft Windows\n    Matching Device ID:     GenDisk\n    Driver Rank:            00FF2002\n    Driver Status:          Outranked\nInterfaces:\n    Interface Path:         \\\\?\\USBSTOR#Disk&Ven_Sony&Prod_DSC&Rev_1.00#D386002E4438&0#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}\n    Interface Description:  Unknown\n    Interface Class GUID:   {53f56307-b6bf-11d0-94f2-00a0c91efb8b}\n    Interface Status:       Enabled\n    Interface Properties:\n        DEVPKEY_DeviceInterface_Enabled [Boolean]:\n            TRUE\n        DEVPKEY_Device_InstanceId [String]:\n            USBSTOR\\Disk&Ven_Sony&Prod_DSC&Rev_1.00\\D386002E4438&0\n        DEVPKEY_DeviceInterface_ClassGuid [GUID]:\n            {53f56307-b6bf-11d0-94f2-00a0c91efb8b}\n        DEVPKEY_Device_ContainerId [GUID]:\n            {88746e6d-e3f6-5744-9a39-a495052a6b23}\nProperties:\n    DEVPKEY_Device_DeviceDesc [String]:\n        Disk drive\n    DEVPKEY_Device_HardwareIds [String List]:\n        USBSTOR\\DiskSony____DSC_____________1.00\n        USBSTOR\\DiskSony____DSC_____________\n        USBSTOR\\DiskSony____\n        USBSTOR\\Sony____DSC_____________1\n        Sony____DSC_____________1\n        USBSTOR\\GenDisk\n        GenDisk\n    DEVPKEY_Device_CompatibleIds [String List]:\n        USBSTOR\\Disk\n        USBSTOR\\RAW\n        GenDisk\n    DEVPKEY_Device_Service [String]:\n        disk\n    DEVPKEY_Device_Class [String]:\n        DiskDrive\n    DEVPKEY_Device_ClassGuid [GUID]:\n        {4d36e967-e325-11ce-bfc1-08002be10318}\n    DEVPKEY_Device_Driver [String]:\n        {4d36e967-e325-11ce-bfc1-08002be10318}\\0001\n    DEVPKEY_Device_ConfigFlags [UINT32]:\n        0x00000000 (0)\n    DEVPKEY_Device_Manufacturer [String]:\n        (Standard disk drives)\n    DEVPKEY_Device_FriendlyName [String]:\n        Sony DSC USB Device\n    DEVPKEY_Device_PDOName [String]:\n        \\Device\\000009e6\n    DEVPKEY_Device_Capabilities [UINT32]:\n        0x00000010 (16)\n    DEVPKEY_Device_EnumeratorName [String]:\n        USBSTOR\n    DEVPKEY_Device_Address [UINT32]:\n        0x00000004 (4)\n    DEVPKEY_Device_PowerData [Binary]:\n        38 00 00 00 01 00 00 00 19 00 00 00 00 00 00 00 \n        00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 \n        04 00 00 00 04 00 00 00 04 00 00 00 04 00 00 00 \n        04 00 00 00 01 00 00 00\n    DEVPKEY_Device_RemovalPolicy [UINT32]:\n        0x00000003 (3)\n    DEVPKEY_Device_RemovalPolicyDefault [UINT32]:\n        0x00000003 (3)\n    DEVPKEY_Device_InstallState [UINT32]:\n        0x00000000 (0)\n    DEVPKEY_Device_BaseContainerId [GUID]:\n        {88746e6d-e3f6-5744-9a39-a495052a6b23}\n    DEVPKEY_NAME [String]:\n        Sony DSC USB Device\n    DEVPKEY_Device_InstanceId [String]:\n        USBSTOR\\Disk&Ven_Sony&Prod_DSC&Rev_1.00\\D386002E4438&0\n    DEVPKEY_Device_DevNodeStatus [UINT32]:\n        0x0180200A (25174026)\n    DEVPKEY_Device_ProblemCode [UINT32]:\n        0x00000000 (0)\n    DEVPKEY_Device_RemovalRelations [String List]:\n        STORAGE\\Volume\\_??_USBSTOR#Disk&Ven_Sony&Prod_DSC&Rev_1.00#D386002E4438&0#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}\n    DEVPKEY_Device_Parent [String]:\n        USB\\VID_054C&PID_0341\\D386002E4438\n    DEVPKEY_Device_SafeRemovalRequired [Boolean]:\n        TRUE\n    DEVPKEY_Device_ContainerId [GUID]:\n        {88746e6d-e3f6-5744-9a39-a495052a6b23}\n    DEVPKEY_Device_IsPresent [Boolean]:\n        TRUE\n    DEVPKEY_Device_HasProblem [Boolean]:\n        FALSE\n    {83da6326-97a6-4088-9453-a1923f573b29}[15] [Boolean]:\n        TRUE\n    DEVPKEY_Device_IsRebootRequired [Boolean]:\n        FALSE\n    DEVPKEY_Device_ReportedDeviceIdsHash [UINT32]:\n        0x9A1A603D (2585419837)\n    DEVPKEY_Device_InLocalMachineContainer [Boolean]:\n        FALSE\n    DEVPKEY_Device_Stack [String List]:\n        \\Driver\\csadc\n        \\Driver\\partmgr\n        \\Driver\\disk\n        \\Driver\\USBSTOR\n    {a8b865dd-2e3d-4094-ad97-e593a70c75d6}[26] [Boolean]:\n        FALSE\n    {3464f7a4-2444-40b1-980a-e0903cb6d912}[10] [UINT32]:\n        0x00000003 (3)\n    DEVPKEY_Device_BusReportedDeviceDesc [String]:\n        Sony DSC USB Device\n    DEVPKEY_Device_ConfigurationId [String]:\n        disk.inf:GenDisk,disk_install.NT\n    {80497100-8c73-48b9-aad9-ce387e19c56e}[6] [UINT32]:\n        0x00000000 (0)\n    {83da6326-97a6-4088-9453-a1923f573b29}[3] [String]:\n        disk.inf:6d166ee9677c725c:disk_install.NT:10.0.26100.8972:GenDisk\n    {83da6326-97a6-4088-9453-a1923f573b29}[10] [String]:\n        USB\\VID_054C&PID_0341\\D386002E4438\n    DEVPKEY_Device_InstallDate [FILETIME]:\n        17.09.2026 14:50:22\n    DEVPKEY_Device_FirstInstallDate [FILETIME]:\n        17.09.2026 14:50:22\n    DEVPKEY_Device_LastArrivalDate [FILETIME]:\n        17.09.2026 14:50:22\n    DEVPKEY_Device_DriverDate [FILETIME]:\n        21.06.2006 00:00:00\n    DEVPKEY_Device_DriverVersion [String]:\n        10.0.26100.8972\n    DEVPKEY_Device_DriverDesc [String]:\n        Disk drive\n    DEVPKEY_Device_DriverInfPath [String]:\n        disk.inf\n    DEVPKEY_Device_DriverInfSection [String]:\n        disk_install.NT\n    DEVPKEY_Device_MatchingDeviceId [String]:\n        GenDisk\n    DEVPKEY_Device_DriverProvider [String]:\n        Microsoft\n    DEVPKEY_Device_DriverRank [UINT32]:\n        0x00FF0006 (16711686)\n",
+          "exit_code": 0
+        }
+      ]
+    },
+    "identity_at_end": {
+      "ok": true,
+      "data": [
+        {
+          "InstanceId": "USB\\VID_054C&PID_0341\\D386002E4438",
+          "Status": "OK",
+          "Class": "USB",
+          "FriendlyName": "USB Mass Storage Device"
+        }
+      ]
+    }
+  },
+  "completed_at_utc": "2026-09-17T15:00:02.8664545Z"
+}

@@ -1,0 +1,107 @@
+012151 5c                        
+012152 4100                      
+012154 428045                   69:data 
+012157 8901                      
+012159 43                        
+01215a 63fe                      
+01215c 5c                        
+01215d 4100                      
+01215f 428045                   69:data 
+012162 8902                      
+012164 43                        
+012165 63fd                      
+012167 5c                        
+012168 4100                      
+01216a 428045                   69:data 
+01216d 8903                      
+01216f 43                        
+012170 63fc                      
+012172 5c                        
+012173 6a726567696f6e496e666f00  'regionInfo'
+01217f 8901                      
+012181 5d                        
+012182 4280b3                   179:dscUtil 
+012185 428374                   884:extensionManager 
+012188 2e8375                   885:loadExtensions 
+01218b 5c                        
+01218c 5d                        
+01218d 428370                   880:regionInfo 
+012190 6d                        
+012191 648370                   880:regionInfo 
+012194 5c                        
+012195 8900                      
+012197 6d                        
+012198 428370                   880:regionInfo 
+01219b 2e801a                   26:initialize 
+01219e 5c                        
+01219f 41fc                      
+0121a1 41fd                      
+0121a3 41fe                      
+0121a5 41ff                      
+0121a7 8904                      
+0121a9 6d                        
+0121aa 428370                   880:regionInfo 
+0121ad 2e8376                   886:makeRegionInfoFile 
+0121b0 63fb                      
+0121b2 5c                        
+0121b3 41fb                      
+0121b5 290076                    
+0121b8 41fc                      
+0121ba 41fd                      
+0121bc 41fe                      
+0121be 41ff                      
+0121c0 8904                      
+0121c2 6d                        
+0121c3 428370                   880:regionInfo 
+0121c6 2e8377                   887:saveRegionInfoData 
+0121c9 5c                        
+0121ca 8900                      
+0121cc 5d                        
+0121cd 4280ff                   255:Registry 
+0121d0 2e8378                   888:reset 
+0121d3 5c                        
+0121d4 8900                      
+0121d6 5d                        
+0121d7 4280ff                   255:Registry 
+0121da 2e801a                   26:initialize 
+0121dd 5c                        
+0121de 6a5b6c616e6775616765506174685d00  '[languagePath]'
+0121ee 8901                      
+0121f0 5d                        
+0121f1 428224                   548:System 
+0121f4 2e8225                   549:applyEnvironment 
+0121f7 8901                      
+0121f9 5d                        
+0121fa 428055                   85:dsc 
+0121fd 4282de                   734:langManager 
+012200 2e801a                   26:initialize 
+012203 5c                        
+012204 8900                      
+012206 5d                        
+012207 428055                   85:dsc 
+01220a 4280a3                   163:appCoreModel 
+01220d 2e8379                   889:_setLanguage 
+012210 5c                        
+012211 8900                      
+012213 5d                        
+012214 4280b3                   179:dscUtil 
+012217 4280ce                   206:videoControl 
+01221a 2e801a                   26:initialize 
+01221d 5c                        
+01221e 6a4f4b00                  'OK'
+012222 4100                      
+012224 8902                      
+012226 6d                        
+012227 2e80af                   175:sendResponse 
+01222a 5c                        
+01222b 280014                    
+01222e 7b                        
+01222f 6a4e475f504152414d00      'NG_PARAM'
+012239 4100                      
+01223b 8902                      
+01223d 6d                        
+01223e 2e80af                   175:sendResponse 
+012241 5c                        
+012242 38                        
+012243 6c                        
+012244 7c80990c04               153:exec 

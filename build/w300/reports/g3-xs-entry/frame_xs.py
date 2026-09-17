@@ -28,10 +28,11 @@ def parse(path):
   if tag==b'CODE': code=data[at+8:at+size];base=at+8
   at+=size
  return dict(path=path,sha256=pin['sha256'],runtime_sha256=E.sha,code_bytes=len(code),instructions=frame(code,syms,base))
-def frame(code,syms,base=0):
+def frame(code,syms,base=0,*,dispatch=None,target_bias=0):
+ if dispatch is None:dispatch=DISPATCH
  out=[];at=0
  while at<len(code):
-  start=at;op=code[at];at+=1;t=DISPATCH.get(op);ids=[];note=''
+  start=at;op=code[at];at+=1;actual=dispatch.get(op);t=actual-target_bias if actual is not None else None;ids=[];note=''
   if t in WIDTH:
    if t in [0x94274,0x942b8]:ids=[at]
    at+=WIDTH[t]
@@ -47,7 +48,7 @@ def frame(code,syms,base=0):
   labels=[]
   for pos in ids:
    i=int.from_bytes(code[pos:pos+2],'big');i=i if i==65535 else i&32767;assert i==65535 or i<len(syms);labels.append(f'{i}:{syms[i].decode()}' if i<len(syms) else f'{i}:<special>')
-  out.append(dict(offset=start,file_offset=base+start,opcode=op,raw=code[start:at].hex(),remap_target=hex(t),symbols=labels,note=note))
+  out.append(dict(offset=start,file_offset=base+start,opcode=op,raw=code[start:at].hex(),remap_target=hex(actual),symbols=labels,note=note))
  return out
 if __name__=='__main__':
  for name in sys.argv[1:] or ['senserModule.xsb','senserCmdTable.xsb']:

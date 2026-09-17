@@ -1,0 +1,91 @@
+{
+  "captured_at_utc": "2026-09-17T15:00:03.283258+00:00",
+  "method": "libusb Windows enumeration descriptors and standard string reads; no claim/reset/configuration/vendor command",
+  "identity_scope": "VID/PID and bus/port; compare Windows PnP serial separately if string read fails",
+  "device": {
+    "bLength": 18,
+    "bDescriptorType": 1,
+    "bcdUSB": 512,
+    "bDeviceClass": 0,
+    "bDeviceSubClass": 0,
+    "bDeviceProtocol": 0,
+    "bMaxPacketSize0": 64,
+    "idVendor": 1356,
+    "idProduct": 833,
+    "bcdDevice": 256,
+    "iManufacturer": 1,
+    "iProduct": 2,
+    "iSerialNumber": 3,
+    "bNumConfigurations": 1,
+    "bus": 1,
+    "address": 3,
+    "port_numbers": [
+      4
+    ],
+    "speed": 3
+  },
+  "configurations": [
+    {
+      "bLength": 9,
+      "bDescriptorType": 2,
+      "wTotalLength": 32,
+      "bNumInterfaces": 1,
+      "bConfigurationValue": 1,
+      "iConfiguration": 0,
+      "bmAttributes": 192,
+      "bMaxPower": 1,
+      "extra_descriptors_hex": "",
+      "interfaces": [
+        {
+          "bLength": 9,
+          "bDescriptorType": 4,
+          "bInterfaceNumber": 0,
+          "bAlternateSetting": 0,
+          "bNumEndpoints": 2,
+          "bInterfaceClass": 8,
+          "bInterfaceSubClass": 5,
+          "bInterfaceProtocol": 80,
+          "iInterface": 0,
+          "extra_descriptors_hex": "",
+          "endpoints": [
+            {
+              "bLength": 7,
+              "bDescriptorType": 5,
+              "bEndpointAddress": 129,
+              "bmAttributes": 2,
+              "wMaxPacketSize": 512,
+              "bInterval": 0,
+              "extra_descriptors_hex": ""
+            },
+            {
+              "bLength": 7,
+              "bDescriptorType": 5,
+              "bEndpointAddress": 2,
+              "bmAttributes": 2,
+              "wMaxPacketSize": 512,
+              "bInterval": 0,
+              "extra_descriptors_hex": ""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "strings": {
+    "iManufacturer": {
+      "ok": false,
+      "error_type": "NotImplementedError",
+      "error": "Operation not supported or unimplemented on this platform"
+    },
+    "iProduct": {
+      "ok": false,
+      "error_type": "NotImplementedError",
+      "error": "Operation not supported or unimplemented on this platform"
+    },
+    "iSerialNumber": {
+      "ok": false,
+      "error_type": "NotImplementedError",
+      "error": "Operation not supported or unimplemented on this platform"
+    }
+  }
+}

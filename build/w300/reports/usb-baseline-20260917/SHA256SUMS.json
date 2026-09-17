@@ -1,0 +1,27 @@
+[
+  {
+    "file": "README.md",
+    "sha256": "366e50dc6f024417b353e645743713b741a41b447d9ba8823449f6f496551e96",
+    "bytes": 6652
+  },
+  {
+    "file": "scsi-inquiry.json",
+    "sha256": "b7b2fc330453a7ba4c0b87b3bba0e3acf78efc48c95146019c136c50de16c7ae",
+    "bytes": 240
+  },
+  {
+    "file": "storage-and-related-nodes.json",
+    "sha256": "a3230d05703892858300188b557a9bfc2df0799c642189ea35fca4b51f1d7b27",
+    "bytes": 39783
+  },
+  {
+    "file": "usb-descriptors.json",
+    "sha256": "c3398b94ccba5aec7f69014865d3f45b93412d1f8c4241b3b7e383f3d5e67a7e",
+    "bytes": 2563
+  },
+  {
+    "file": "windows-inventory.json",
+    "sha256": "b735c24de0e95c24a6f1a4997a754ba110990e3c5444753081ec9a427870f429",
+    "bytes": 154340
+  }
+]

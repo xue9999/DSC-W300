@@ -1,0 +1,17 @@
+{
+  "schema": "w300-region-qualification-v1",
+  "serial": "D386002E4438",
+  "baseline_sha256": "REVIEW_REQUIRED",
+  "arguments": [255, 256, 33024, 0],
+  "w300_handler_verified": false,
+  "original_board_eligible": false,
+  "recovery_tested": false,
+  "recovery": {
+    "method": "",
+    "result": "",
+    "evidence_file": ""
+  },
+  "evidence": [],
+  "implementation_sha256": {},
+  "hreg_file_offsets": []
+}

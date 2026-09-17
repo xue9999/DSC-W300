@@ -1,0 +1,12 @@
+{
+  "captured_at": "2026-09-17T15:31:18.066976+00:00",
+  "operation": "inventory",
+  "result": {
+    "captured_at": "2026-09-17T15:31:19.6625019Z",
+    "method": "Windows PnP registry properties only; no application camera commands",
+    "sony_devices": [],
+    "camera_setting_write_performed": false,
+    "powershell_executable": "C:\\Users\\apara01\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\pwsh.exe"
+  },
+  "ok": true
+}

@@ -10,6 +10,8 @@ For W300 work, start with the [execution plan](docs/w300/EXECUTION_PLAN.md) and 
 | DSC-G3 firmware | EXE/container parsing, section integrity, filesystem extraction, experimental file modifications | Acceptance of modified firmware by a camera, bootability, image-quality improvement |
 | Emulation | Image assembly and QEMU argument generation | Successful camera boot or reproduction of the imaging pipeline |
 
+For the receiving Windows PC, follow the [brief agent handoff](docs/w300/AGENT_HANDOFF.md). It links the portable region console and identifies the remaining hardware checks.
+
 ## Start here
 
 Python 3.10 or later and Git are required for repository checks. Offline Python tools use the standard library. Windows, Linux and macOS are CI targets; a configured workflow is not evidence of a completed run. Optional upstream submodules and QEMU are not prerequisites for offline tests.

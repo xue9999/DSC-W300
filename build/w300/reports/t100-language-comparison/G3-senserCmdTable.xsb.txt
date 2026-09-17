@@ -1,0 +1,86 @@
+00082a 6a726567696f6e496e666f00  'regionInfo'
+000836 8901                      
+000838 5d                        
+000839 428075                   117:dscUtil 
+00083c 428076                   118:extensionManager 
+00083f 2e8077                   119:loadExtensions 
+000842 5c                        
+000843 5d                        
+000844 428069                   105:regionInfo 
+000847 6d                        
+000848 648069                   105:regionInfo 
+00084b 5c                        
+00084c 8900                      
+00084e 6d                        
+00084f 428069                   105:regionInfo 
+000852 2e800e                   14:initialize 
+000855 5c                        
+000856 41fc                      
+000858 41fd                      
+00085a 41fe                      
+00085c 41ff                      
+00085e 8904                      
+000860 6d                        
+000861 428069                   105:regionInfo 
+000864 2e8078                   120:makeRegionInfoFile 
+000867 63fb                      
+000869 5c                        
+00086a 41fb                      
+00086c 290076                    
+00086f 41fc                      
+000871 41fd                      
+000873 41fe                      
+000875 41ff                      
+000877 8904                      
+000879 6d                        
+00087a 428069                   105:regionInfo 
+00087d 2e8079                   121:saveRegionInfoData 
+000880 5c                        
+000881 8900                      
+000883 5d                        
+000884 42807a                   122:Registry 
+000887 2e807b                   123:reset 
+00088a 5c                        
+00088b 8900                      
+00088d 5d                        
+00088e 42807a                   122:Registry 
+000891 2e800e                   14:initialize 
+000894 5c                        
+000895 6a5b6c616e6775616765506174685d00  '[languagePath]'
+0008a5 8901                      
+0008a7 5d                        
+0008a8 42807c                   124:System 
+0008ab 2e807d                   125:applyEnvironment 
+0008ae 8901                      
+0008b0 5d                        
+0008b1 42804c                   76:dsc 
+0008b4 42807e                   126:langManager 
+0008b7 2e800e                   14:initialize 
+0008ba 5c                        
+0008bb 8900                      
+0008bd 5d                        
+0008be 42804c                   76:dsc 
+0008c1 42804d                   77:appCoreModel 
+0008c4 2e807f                   127:_setLanguage 
+0008c7 5c                        
+0008c8 8900                      
+0008ca 5d                        
+0008cb 428075                   117:dscUtil 
+0008ce 428080                   128:videoControl 
+0008d1 2e800e                   14:initialize 
+0008d4 5c                        
+0008d5 6d                        
+0008d6 428006                   6:SUCCESS 
+0008d9 4100                      
+0008db 8902                      
+0008dd 6d                        
+0008de 2e802c                   44:sendResponse 
+0008e1 5c                        
+0008e2 28000e                    
+0008e5 7b                        
+0008e6 6d                        
+0008e7 428008                   8:NG_PARAM 
+0008ea 4100                      
+0008ec 8902                      
+0008ee 6d                        
+0008ef 2e802c                   44:sendResponse 

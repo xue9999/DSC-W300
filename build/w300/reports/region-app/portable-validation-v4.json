@@ -1,0 +1,45 @@
+{
+  "scope": "Relocated Windows executable; restricted PATH; no camera commands",
+  "archive_sha256": "466f65eb424da8fbc5800c5c4d0b63968b8f5e8c8252b851c98cb25e6c4a75fb",
+  "archive_bytes": 12150580,
+  "manifest_entries_verified": 105,
+  "checks": [
+    {
+      "args": [
+        "selftest"
+      ],
+      "expected": 0,
+      "exit_code": 0,
+      "passed": true,
+      "stdout": "{\n  \"operation\": \"selftest\",\n  \"serial\": null,\n  \"ok\": true,\n  \"region_write_attempted\": false,\n  \"region_reply_received\": false,\n  \"persistent_english_verified\": false,\n  \"files\": [],\n  \"scope\": \"Offline pins and packet encoding; no camera access\"\n}\nSaved session: C:\\Users\\apara01\\OneDrive - Kearney\\Documents\\ChatGPT\\W300\\DSC-W300\\build\\w300\\portable-region\\relocated-validation-v4\\W300Region\\sessions\\20260917-160306-321987-selftest\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "--help"
+      ],
+      "expected": 0,
+      "exit_code": 0,
+      "passed": true,
+      "stdout": "usage: W300Region.exe [-h]\n                      {selftest,doctor,probe,capture,apply,verify,prepare,assess,change,restore-region,verify-region}\n                      ...\n\nW300 region console. Automatic source comparison and experimental native\nwrites.\n\npositional arguments:\n  {selftest,doctor,probe,capture,apply,verify,prepare,assess,change,restore-region,verify-region}\n    assess              Automatic exact-reference comparison; no camera access\n    change              Automatic comparison workflow; no manual qualification\n                        file\n    restore-region      Automatic comparison workflow; no manual qualification\n                        file\n    verify-region       Automatic comparison workflow; no manual qualification\n                        file\n\noptions:\n  -h, --help            show this help message and exit\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "change",
+        "--serial",
+        "D386002E4438",
+        "--experimental-service",
+        "--baseline",
+        "missing"
+      ],
+      "expected": 2,
+      "exit_code": 2,
+      "passed": true,
+      "stdout": "{\n  \"operation\": \"change\",\n  \"serial\": \"D386002E4438\",\n  \"ok\": false,\n  \"region_write_attempted\": false,\n  \"region_reply_received\": false,\n  \"persistent_english_verified\": false,\n  \"files\": [],\n  \"error_type\": \"FileNotFoundError\",\n  \"error\": \"[Errno 2] No such file or directory: 'C:\\\\\\\\Users\\\\\\\\apara01\\\\\\\\OneDrive - Kearney\\\\\\\\Documents\\\\\\\\ChatGPT\\\\\\\\W300\\\\\\\\DSC-W300\\\\\\\\build\\\\\\\\w300\\\\\\\\portable-region\\\\\\\\relocated-validation-v4\\\\\\\\W300Region\\\\\\\\missing\\\\\\\\result.json'\"\n}\nSaved session: C:\\Users\\apara01\\OneDrive - Kearney\\Documents\\ChatGPT\\W300\\DSC-W300\\build\\w300\\portable-region\\relocated-validation-v4\\W300Region\\sessions\\20260917-160306-919906-change\n",
+      "stderr": ""
+    }
+  ],
+  "passed": true,
+  "w300_hardware_validated": false
+}

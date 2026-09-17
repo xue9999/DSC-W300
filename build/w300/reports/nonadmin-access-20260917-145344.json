@@ -1,0 +1,15 @@
+{
+  "scope": "Non-elevated standard interface checks; no service commands",
+  "storage": [],
+  "libusb": [
+    {
+      "vid": 1356,
+      "pid": 833,
+      "bus": 1,
+      "ports": [
+        4
+      ],
+      "open_error": "Operation not supported or unimplemented on this platform"
+    }
+  ]
+}

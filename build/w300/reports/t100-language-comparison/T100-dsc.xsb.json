@@ -1,0 +1,1102 @@
+{
+  "model": "T100",
+  "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskrel3/dsc/fsk/dsc.xsb",
+  "sha256": "5c6e91b8c08c9ada902db66cc04382395e677e691cc22af5aa00ab94c5c3e4d2",
+  "code_base": 96779,
+  "instructions": 291010,
+  "checked_branches": 9550,
+  "ranges": [
+    [
+      50304,
+      50816
+    ]
+  ],
+  "selected": [
+    {
+      "offset": 50307,
+      "file_offset": 147086,
+      "opcode": 92,
+      "raw": "5c",
+      "remap_target": "0x9ca9c",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50308,
+      "file_offset": 147087,
+      "opcode": 55,
+      "raw": "37",
+      "remap_target": "0x9ca9c",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50309,
+      "file_offset": 147088,
+      "opcode": 63,
+      "raw": "3f01cd",
+      "remap_target": "0x9ccec",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50312,
+      "file_offset": 147091,
+      "opcode": 35,
+      "raw": "23ffff2202839e83a0790183a1",
+      "remap_target": "0x9cc60",
+      "symbols": [
+        "65535:<special>",
+        "926:path",
+        "928:language",
+        "929:languageGroup"
+      ],
+      "note": ""
+    },
+    {
+      "offset": 50325,
+      "file_offset": 147104,
+      "opcode": 96,
+      "raw": "6001bc",
+      "remap_target": "0x9ccec",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50328,
+      "file_offset": 147107,
+      "opcode": 65,
+      "raw": "4100",
+      "remap_target": "0x9cccc",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50330,
+      "file_offset": 147109,
+      "opcode": 109,
+      "raw": "6d",
+      "remap_target": "0x9ca9c",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50331,
+      "file_offset": 147110,
+      "opcode": 100,
+      "raw": "64839e",
+      "remap_target": "0x9ccd4",
+      "symbols": [
+        "926:path"
+      ],
+      "note": ""
+    },
+    {
+      "offset": 50334,
+      "file_offset": 147113,
+      "opcode": 92,
+      "raw": "5c",
+      "remap_target": "0x9ca9c",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50335,
+      "file_offset": 147114,
+      "opcode": 106,
+      "raw": "6a00",
+      "remap_target": "0x9cd04",
+      "symbols": [],
+      "note": "''"
+    },
+    {
+      "offset": 50337,
+      "file_offset": 147116,
+      "opcode": 109,
+      "raw": "6d",
+      "remap_target": "0x9ca9c",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50338,
+      "file_offset": 147117,
+      "opcode": 100,
+      "raw": "64839f",
+      "remap_target": "0x9ccd4",
+      "symbols": [
+        "927:curLanguage"
+      ],
+      "note": ""
+    },
+    {
+      "offset": 50341,
+      "file_offset": 147120,
+      "opcode": 92,
+      "raw": "5c",
+      "remap_target": "0x9ca9c",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50342,
+      "file_offset": 147121,
+      "opcode": 106,
+      "raw": "6a73797374656d446174612e6c616e67477000",
+      "remap_target": "0x9cd04",
+      "symbols": [],
+      "note": "'systemData.langGp'"
+    },
+    {
+      "offset": 50361,
+      "file_offset": 147140,
+      "opcode": 93,
+      "raw": "5d",
+      "remap_target": "0x9ca9c",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50362,
+      "file_offset": 147141,
+      "opcode": 66,
+      "raw": "4283a2",
+      "remap_target": "0x9ccd4",
+      "symbols": [
+        "930:Registry"
+      ],
+      "note": ""
+    },
+    {
+      "offset": 50365,
+      "file_offset": 147144,
+      "opcode": 66,
+      "raw": "4283a3",
+      "remap_target": "0x9ccd4",
+      "symbols": [
+        "931:KEY_REGION"
+      ],
+      "note": ""
+    },
+    {
+      "offset": 50368,
+      "file_offset": 147147,
+      "opcode": 137,
+      "raw": "8902",
+      "remap_target": "0x9cccc",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50370,
+      "file_offset": 147149,
+      "opcode": 93,
+      "raw": "5d",
+      "remap_target": "0x9ca9c",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50371,
+      "file_offset": 147150,
+      "opcode": 66,
+      "raw": "4283a2",
+      "remap_target": "0x9ccd4",
+      "symbols": [
+        "930:Registry"
+      ],
+      "note": ""
+    },
+    {
+      "offset": 50374,
+      "file_offset": 147153,
+      "opcode": 46,
+      "raw": "2e83a4",
+      "remap_target": "0x9ccd4",
+      "symbols": [
+        "932:get"
+      ],
+      "note": ""
+    },
+    {
+      "offset": 50377,
+      "file_offset": 147156,
+      "opcode": 99,
+      "raw": "63ff",
+      "remap_target": "0x9cccc",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50379,
+      "file_offset": 147158,
+      "opcode": 92,
+      "raw": "5c",
+      "remap_target": "0x9ca9c",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50380,
+      "file_offset": 147159,
+      "opcode": 65,
+      "raw": "41ff",
+      "remap_target": "0x9cccc",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50382,
+      "file_offset": 147161,
+      "opcode": 55,
+      "raw": "37",
+      "remap_target": "0x9ca9c",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50383,
+      "file_offset": 147162,
+      "opcode": 137,
+      "raw": "8900",
+      "remap_target": "0x9cccc",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50385,
+      "file_offset": 147164,
+      "opcode": 105,
+      "raw": "69",
+      "remap_target": "0x9ca9c",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50386,
+      "file_offset": 147165,
+      "opcode": 41,
+      "raw": "290026",
+      "remap_target": "0x9ccec",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50389,
+      "file_offset": 147168,
+      "opcode": 55,
+      "raw": "37",
+      "remap_target": "0x9ca9c",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50390,
+      "file_offset": 147169,
+      "opcode": 137,
+      "raw": "8901",
+      "remap_target": "0x9cccc",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50392,
+      "file_offset": 147171,
+      "opcode": 105,
+      "raw": "69",
+      "remap_target": "0x9ca9c",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50393,
+      "file_offset": 147172,
+      "opcode": 41,
+      "raw": "29008c",
+      "remap_target": "0x9ccec",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50396,
+      "file_offset": 147175,
+      "opcode": 55,
+      "raw": "37",
+      "remap_target": "0x9ca9c",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50397,
+      "file_offset": 147176,
+      "opcode": 137,
+      "raw": "8902",
+      "remap_target": "0x9cccc",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50399,
+      "file_offset": 147178,
+      "opcode": 105,
+      "raw": "69",
+      "remap_target": "0x9ca9c",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50400,
+      "file_offset": 147179,
+      "opcode": 41,
+      "raw": "290092",
+      "remap_target": "0x9ccec",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50403,
+      "file_offset": 147182,
+      "opcode": 55,
+      "raw": "37",
+      "remap_target": "0x9ca9c",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50404,
+      "file_offset": 147183,
+      "opcode": 137,
+      "raw": "8903",
+      "remap_target": "0x9cccc",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50406,
+      "file_offset": 147185,
+      "opcode": 105,
+      "raw": "69",
+      "remap_target": "0x9ca9c",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50407,
+      "file_offset": 147186,
+      "opcode": 41,
+      "raw": "2900ac",
+      "remap_target": "0x9ccec",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50410,
+      "file_offset": 147189,
+      "opcode": 55,
+      "raw": "37",
+      "remap_target": "0x9ca9c",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50411,
+      "file_offset": 147190,
+      "opcode": 137,
+      "raw": "8904",
+      "remap_target": "0x9cccc",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50413,
+      "file_offset": 147192,
+      "opcode": 105,
+      "raw": "69",
+      "remap_target": "0x9ca9c",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50414,
+      "file_offset": 147193,
+      "opcode": 41,
+      "raw": "2900f2",
+      "remap_target": "0x9ccec",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50417,
+      "file_offset": 147196,
+      "opcode": 55,
+      "raw": "37",
+      "remap_target": "0x9ca9c",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50418,
+      "file_offset": 147197,
+      "opcode": 137,
+      "raw": "8963",
+      "remap_target": "0x9cccc",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50420,
+      "file_offset": 147199,
+      "opcode": 105,
+      "raw": "69",
+      "remap_target": "0x9ca9c",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50421,
+      "file_offset": 147200,
+      "opcode": 41,
+      "raw": "29011c",
+      "remap_target": "0x9ccec",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50424,
+      "file_offset": 147203,
+      "opcode": 40,
+      "raw": "28014b",
+      "remap_target": "0x9ccec",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50427,
+      "file_offset": 147206,
+      "opcode": 106,
+      "raw": "6a6a706e2c656e672c6672652c6765722c7370612c6974612c706f722c6475742c7275732c7377652c6e6f722c64616e2c66696e2c706f6c2c637a652c68756e2c7475722c6772652c7463682c7363682c6b6f722c7065722c6172612c7468612c6d616c00",
+      "remap_target": "0x9cd04",
+      "symbols": [],
+      "note": "'jpn,eng,fre,ger,spa,ita,por,dut,rus,swe,nor,dan,fin,pol,cze,hun,tur,gre,tch,sch,kor,per,ara,tha,mal'"
+    },
+    {
+      "offset": 50528,
+      "file_offset": 147307,
+      "opcode": 109,
+      "raw": "6d",
+      "remap_target": "0x9ca9c",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50529,
+      "file_offset": 147308,
+      "opcode": 100,
+      "raw": "64839d",
+      "remap_target": "0x9ccd4",
+      "symbols": [
+        "925:availableLang"
+      ],
+      "note": ""
+    },
+    {
+      "offset": 50532,
+      "file_offset": 147311,
+      "opcode": 92,
+      "raw": "5c",
+      "remap_target": "0x9ca9c",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50533,
+      "file_offset": 147312,
+      "opcode": 40,
+      "raw": "2800eb",
+      "remap_target": "0x9ccec",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50536,
+      "file_offset": 147315,
+      "opcode": 106,
+      "raw": "6a6a706e00",
+      "remap_target": "0x9cd04",
+      "symbols": [],
+      "note": "'jpn'"
+    },
+    {
+      "offset": 50541,
+      "file_offset": 147320,
+      "opcode": 109,
+      "raw": "6d",
+      "remap_target": "0x9ca9c",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50542,
+      "file_offset": 147321,
+      "opcode": 100,
+      "raw": "64839d",
+      "remap_target": "0x9ccd4",
+      "symbols": [
+        "925:availableLang"
+      ],
+      "note": ""
+    },
+    {
+      "offset": 50545,
+      "file_offset": 147324,
+      "opcode": 92,
+      "raw": "5c",
+      "remap_target": "0x9ca9c",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50546,
+      "file_offset": 147325,
+      "opcode": 40,
+      "raw": "2800de",
+      "remap_target": "0x9ccec",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50549,
+      "file_offset": 147328,
+      "opcode": 106,
+      "raw": "6a656e672c6672652c7370612c6974612c7463682c73636800",
+      "remap_target": "0x9cd04",
+      "symbols": [],
+      "note": "'eng,fre,spa,ita,tch,sch'"
+    },
+    {
+      "offset": 50574,
+      "file_offset": 147353,
+      "opcode": 109,
+      "raw": "6d",
+      "remap_target": "0x9ca9c",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50575,
+      "file_offset": 147354,
+      "opcode": 100,
+      "raw": "64839d",
+      "remap_target": "0x9ccd4",
+      "symbols": [
+        "925:availableLang"
+      ],
+      "note": ""
+    },
+    {
+      "offset": 50578,
+      "file_offset": 147357,
+      "opcode": 92,
+      "raw": "5c",
+      "remap_target": "0x9ca9c",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50579,
+      "file_offset": 147358,
+      "opcode": 40,
+      "raw": "2800bd",
+      "remap_target": "0x9ccec",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50582,
+      "file_offset": 147361,
+      "opcode": 106,
+      "raw": "6a656e672c6672652c6765722c7370612c6974612c706f722c6475742c7275732c7377652c6e6f722c64616e2c66696e2c706f6c2c637a652c68756e2c7475722c67726500",
+      "remap_target": "0x9cd04",
+      "symbols": [],
+      "note": "'eng,fre,ger,spa,ita,por,dut,rus,swe,nor,dan,fin,pol,cze,hun,tur,gre'"
+    },
+    {
+      "offset": 50651,
+      "file_offset": 147430,
+      "opcode": 109,
+      "raw": "6d",
+      "remap_target": "0x9ca9c",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50652,
+      "file_offset": 147431,
+      "opcode": 100,
+      "raw": "64839d",
+      "remap_target": "0x9ccd4",
+      "symbols": [
+        "925:availableLang"
+      ],
+      "note": ""
+    },
+    {
+      "offset": 50655,
+      "file_offset": 147434,
+      "opcode": 92,
+      "raw": "5c",
+      "remap_target": "0x9ca9c",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50656,
+      "file_offset": 147435,
+      "opcode": 40,
+      "raw": "280070",
+      "remap_target": "0x9ccec",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50659,
+      "file_offset": 147438,
+      "opcode": 106,
+      "raw": "6a656e672c7370612c706f722c7463682c7363682c6b6f722c7065722c6172612c7468612c6d616c00",
+      "remap_target": "0x9cd04",
+      "symbols": [],
+      "note": "'eng,spa,por,tch,sch,kor,per,ara,tha,mal'"
+    },
+    {
+      "offset": 50700,
+      "file_offset": 147479,
+      "opcode": 109,
+      "raw": "6d",
+      "remap_target": "0x9ca9c",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50701,
+      "file_offset": 147480,
+      "opcode": 100,
+      "raw": "64839d",
+      "remap_target": "0x9ccd4",
+      "symbols": [
+        "925:availableLang"
+      ],
+      "note": ""
+    },
+    {
+      "offset": 50704,
+      "file_offset": 147483,
+      "opcode": 92,
+      "raw": "5c",
+      "remap_target": "0x9ca9c",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50705,
+      "file_offset": 147484,
+      "opcode": 40,
+      "raw": "28003f",
+      "remap_target": "0x9ccec",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50708,
+      "file_offset": 147487,
+      "opcode": 106,
+      "raw": "6a73797374656d446174612e617661696c61626c654c616e6700",
+      "remap_target": "0x9cd04",
+      "symbols": [],
+      "note": "'systemData.availableLang'"
+    },
+    {
+      "offset": 50734,
+      "file_offset": 147513,
+      "opcode": 93,
+      "raw": "5d",
+      "remap_target": "0x9ca9c",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50735,
+      "file_offset": 147514,
+      "opcode": 66,
+      "raw": "4283a2",
+      "remap_target": "0x9ccd4",
+      "symbols": [
+        "930:Registry"
+      ],
+      "note": ""
+    },
+    {
+      "offset": 50738,
+      "file_offset": 147517,
+      "opcode": 66,
+      "raw": "4283a3",
+      "remap_target": "0x9ccd4",
+      "symbols": [
+        "931:KEY_REGION"
+      ],
+      "note": ""
+    },
+    {
+      "offset": 50741,
+      "file_offset": 147520,
+      "opcode": 137,
+      "raw": "8902",
+      "remap_target": "0x9cccc",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50743,
+      "file_offset": 147522,
+      "opcode": 93,
+      "raw": "5d",
+      "remap_target": "0x9ca9c",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50744,
+      "file_offset": 147523,
+      "opcode": 66,
+      "raw": "4283a2",
+      "remap_target": "0x9ccd4",
+      "symbols": [
+        "930:Registry"
+      ],
+      "note": ""
+    },
+    {
+      "offset": 50747,
+      "file_offset": 147526,
+      "opcode": 46,
+      "raw": "2e83a4",
+      "remap_target": "0x9ccd4",
+      "symbols": [
+        "932:get"
+      ],
+      "note": ""
+    },
+    {
+      "offset": 50750,
+      "file_offset": 147529,
+      "opcode": 109,
+      "raw": "6d",
+      "remap_target": "0x9ca9c",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50751,
+      "file_offset": 147530,
+      "opcode": 100,
+      "raw": "64839d",
+      "remap_target": "0x9ccd4",
+      "symbols": [
+        "925:availableLang"
+      ],
+      "note": ""
+    },
+    {
+      "offset": 50754,
+      "file_offset": 147533,
+      "opcode": 92,
+      "raw": "5c",
+      "remap_target": "0x9ca9c",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50755,
+      "file_offset": 147534,
+      "opcode": 40,
+      "raw": "28000d",
+      "remap_target": "0x9ccec",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50758,
+      "file_offset": 147537,
+      "opcode": 106,
+      "raw": "6a6a706e00",
+      "remap_target": "0x9cd04",
+      "symbols": [],
+      "note": "'jpn'"
+    },
+    {
+      "offset": 50763,
+      "file_offset": 147542,
+      "opcode": 109,
+      "raw": "6d",
+      "remap_target": "0x9ca9c",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50764,
+      "file_offset": 147543,
+      "opcode": 100,
+      "raw": "64839d",
+      "remap_target": "0x9ccd4",
+      "symbols": [
+        "925:availableLang"
+      ],
+      "note": ""
+    },
+    {
+      "offset": 50767,
+      "file_offset": 147546,
+      "opcode": 92,
+      "raw": "5c",
+      "remap_target": "0x9ca9c",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50768,
+      "file_offset": 147547,
+      "opcode": 40,
+      "raw": "280000",
+      "remap_target": "0x9ccec",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50771,
+      "file_offset": 147550,
+      "opcode": 92,
+      "raw": "5c",
+      "remap_target": "0x9ca9c",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50772,
+      "file_offset": 147551,
+      "opcode": 56,
+      "raw": "38",
+      "remap_target": "0x9ca9c",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50773,
+      "file_offset": 147552,
+      "opcode": 108,
+      "raw": "6c",
+      "remap_target": "0x9ca9c",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50774,
+      "file_offset": 147553,
+      "opcode": 124,
+      "raw": "7c80150c04",
+      "remap_target": "0x9cd18",
+      "symbols": [
+        "21:initialize"
+      ],
+      "note": ""
+    },
+    {
+      "offset": 50779,
+      "file_offset": 147558,
+      "opcode": 92,
+      "raw": "5c",
+      "remap_target": "0x9ca9c",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50780,
+      "file_offset": 147559,
+      "opcode": 55,
+      "raw": "37",
+      "remap_target": "0x9ca9c",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50781,
+      "file_offset": 147560,
+      "opcode": 63,
+      "raw": "3f002c",
+      "remap_target": "0x9ccec",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50784,
+      "file_offset": 147563,
+      "opcode": 35,
+      "raw": "23ffff22007900",
+      "remap_target": "0x9cc60",
+      "symbols": [
+        "65535:<special>"
+      ],
+      "note": ""
+    },
+    {
+      "offset": 50791,
+      "file_offset": 147570,
+      "opcode": 96,
+      "raw": "600021",
+      "remap_target": "0x9ccec",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50794,
+      "file_offset": 147573,
+      "opcode": 89,
+      "raw": "59",
+      "remap_target": "0x9ca9c",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50795,
+      "file_offset": 147574,
+      "opcode": 109,
+      "raw": "6d",
+      "remap_target": "0x9ca9c",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50796,
+      "file_offset": 147575,
+      "opcode": 100,
+      "raw": "64839c",
+      "remap_target": "0x9ccd4",
+      "symbols": [
+        "924:langDB"
+      ],
+      "note": ""
+    },
+    {
+      "offset": 50799,
+      "file_offset": 147578,
+      "opcode": 92,
+      "raw": "5c",
+      "remap_target": "0x9ca9c",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50800,
+      "file_offset": 147579,
+      "opcode": 89,
+      "raw": "59",
+      "remap_target": "0x9ca9c",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50801,
+      "file_offset": 147580,
+      "opcode": 109,
+      "raw": "6d",
+      "remap_target": "0x9ca9c",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50802,
+      "file_offset": 147581,
+      "opcode": 100,
+      "raw": "64839d",
+      "remap_target": "0x9ccd4",
+      "symbols": [
+        "925:availableLang"
+      ],
+      "note": ""
+    },
+    {
+      "offset": 50805,
+      "file_offset": 147584,
+      "opcode": 92,
+      "raw": "5c",
+      "remap_target": "0x9ca9c",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50806,
+      "file_offset": 147585,
+      "opcode": 137,
+      "raw": "8900",
+      "remap_target": "0x9cccc",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50808,
+      "file_offset": 147587,
+      "opcode": 109,
+      "raw": "6d",
+      "remap_target": "0x9ca9c",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50809,
+      "file_offset": 147588,
+      "opcode": 46,
+      "raw": "2e83a5",
+      "remap_target": "0x9ccd4",
+      "symbols": [
+        "933:registerClear"
+      ],
+      "note": ""
+    },
+    {
+      "offset": 50812,
+      "file_offset": 147591,
+      "opcode": 92,
+      "raw": "5c",
+      "remap_target": "0x9ca9c",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50813,
+      "file_offset": 147592,
+      "opcode": 106,
+      "raw": "6a00",
+      "remap_target": "0x9cd04",
+      "symbols": [],
+      "note": "''"
+    },
+    {
+      "offset": 50815,
+      "file_offset": 147594,
+      "opcode": 109,
+      "raw": "6d",
+      "remap_target": "0x9ca9c",
+      "symbols": [],
+      "note": ""
+    },
+    {
+      "offset": 50816,
+      "file_offset": 147595,
+      "opcode": 100,
+      "raw": "64839f",
+      "remap_target": "0x9ccd4",
+      "symbols": [
+        "927:curLanguage"
+      ],
+      "note": ""
+    }
+  ]
+}

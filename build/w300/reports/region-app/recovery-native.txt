@@ -1,0 +1,520 @@
+G3 evidence/extracted_g3/archives_unpacked/lib/lib/libBackupCore.so
+SHA256 56aa2595c4747b6aadc1c0c3bb7a438b15086951121024a8649254cdec61fd4b
+
+_ZN12FileAccesser13getHeaderSizeEjPj section=.text value=0x8610 file=0x8610 symbol_size=60
+0x00008610 0dc0a0e1     mov      ip, sp
+0x00008614 0130a0e3     mov      r3, #1
+0x00008618 070051e3     cmp      r1, #7
+0x0000861c 00d82de9     push     {fp, ip, lr, pc}
+0x00008620 1331a0e1     lsl      r3, r3, r1
+0x00008624 04b04ce2     sub      fp, ip, #4
+0x00008628 0000a0e3     mov      r0, #0
+0x0000862c 0200008a     bhi      #0x863c
+0x00008630 e70013e3     tst      r3, #0xe7
+0x00008634 00008215     strne    r0, [r2]
+0x00008638 00a89d18     ldmne    sp, {fp, sp, pc}
+0x0000863c 0030a0e3     mov      r3, #0
+0x00008640 0000e0e3     mvn      r0, #0
+0x00008644 003082e5     str      r3, [r2]
+0x00008648 00a89de8     ldm      sp, {fp, sp, pc}
+
+_ZN28FileAccesserMeasures2BattOff13getDataOffsetEjPj section=.text value=0x8c58 file=0x8c58 symbol_size=104
+0x00008c58 0dc0a0e1     mov      ip, sp
+0x00008c5c 00d82de9     push     {fp, ip, lr, pc}
+0x00008c60 0000a0e3     mov      r0, #0
+0x00008c64 04b04ce2     sub      fp, ip, #4
+0x00008c68 070051e3     cmp      r1, #7
+0x00008c6c 01f18f90     addls    pc, pc, r1, lsl #2
+0x00008c70 0e0000ea     b        #0x8cb0
+0x00008c74 060000ea     b        #0x8c94
+0x00008c78 070000ea     b        #0x8c9c
+0x00008c7c 060000ea     b        #0x8c9c
+0x00008c80 0a0000ea     b        #0x8cb0
+0x00008c84 090000ea     b        #0x8cb0
+0x00008c88 060000ea     b        #0x8ca8
+0x00008c8c 050000ea     b        #0x8ca8
+0x00008c90 040000ea     b        #0x8ca8
+0x00008c94 1f3ea0e3     mov      r3, #0x1f0
+0x00008c98 000000ea     b        #0x8ca0
+0x00008c9c 3f3ea0e3     mov      r3, #0x3f0
+0x00008ca0 003082e5     str      r3, [r2]
+0x00008ca4 00a89de8     ldm      sp, {fp, sp, pc}
+0x00008ca8 e030a0e3     mov      r3, #0xe0
+0x00008cac fbffffea     b        #0x8ca0
+0x00008cb0 0030a0e3     mov      r3, #0
+0x00008cb4 0000e0e3     mvn      r0, #0
+0x00008cb8 003082e5     str      r3, [r2]
+0x00008cbc 00a89de8     ldm      sp, {fp, sp, pc}
+
+_ZN28FileAccesserMeasures2BattOff13checkFlushFlgEjPj section=.text value=0x8cc0 file=0x8cc0 symbol_size=128
+0x00008cc0 0dc0a0e1     mov      ip, sp
+0x00008cc4 f0d92de9     push     {r4, r5, r6, r7, r8, fp, ip, lr, pc}
+0x00008cc8 04b04ce2     sub      fp, ip, #4
+0x00008ccc 04d04de2     sub      sp, sp, #4
+0x00008cd0 0060a0e3     mov      r6, #0
+0x00008cd4 0050a0e1     mov      r5, r0
+0x00008cd8 0280a0e1     mov      r8, r2
+0x00008cdc 0140a0e1     mov      r4, r1
+0x00008ce0 24600be5     str      r6, [fp, #-0x24]
+0x00008ce4 92f5ffeb     bl       #0x6334 ; PLT:_ZN12FileAccesser11getFileNameEj
+0x00008ce8 0070a0e1     mov      r7, r0
+0x00008cec 060057e1     cmp      r7, r6
+0x00008cf0 0410a0e1     mov      r1, r4
+0x00008cf4 0500a0e1     mov      r0, r5
+0x00008cf8 24204be2     sub      r2, fp, #0x24
+0x00008cfc 0d00000a     beq      #0x8d38
+0x00008d00 003095e5     ldr      r3, [r5]
+0x00008d04 28c093e5     ldr      ip, [r3, #0x28]
+0x00008d08 3cff2fe1     blx      ip
+0x00008d0c 0060a0e1     mov      r6, r0
+0x00008d10 000056e3     cmp      r6, #0
+0x00008d14 0830a0e1     mov      r3, r8
+0x00008d18 0700a0e1     mov      r0, r7
+0x00008d1c 0420a0e3     mov      r2, #4
+0x00008d20 0400001a     bne      #0x8d38
+0x00008d24 24101be5     ldr      r1, [fp, #-0x24]
+0x00008d28 dff4ffeb     bl       #0x60ac ; PLT:_Z14backupFileReadPKcljPv
+0x00008d2c 0060a0e1     mov      r6, r0
+0x00008d30 000056e3     cmp      r6, #0
+0x00008d34 0060a0a3     movge    r6, #0
+0x00008d38 0600a0e1     mov      r0, r6
+0x00008d3c f0a99de9     ldmib    sp, {r4, r5, r6, r7, r8, fp, sp, pc}
+
+_ZN28FileAccesserMeasures2BattOff9writeUserEjjjPKv section=.text value=0x895c file=0x895c symbol_size=332
+0x0000895c 0dc0a0e1     mov      ip, sp
+0x00008960 f0db2de9     push     {r4, r5, r6, r7, r8, sb, fp, ip, lr, pc}
+0x00008964 04b04ce2     sub      fp, ip, #4
+0x00008968 0cd04de2     sub      sp, sp, #0xc
+0x0000896c 0280a0e1     mov      r8, r2
+0x00008970 00c090e5     ldr      ip, [r0]
+0x00008974 28204be2     sub      r2, fp, #0x28
+0x00008978 0050a0e1     mov      r5, r0
+0x0000897c 0370a0e1     mov      r7, r3
+0x00008980 0160a0e1     mov      r6, r1
+0x00008984 04909be5     ldr      sb, [fp, #4]
+0x00008988 2cc09ce5     ldr      ip, [ip, #0x2c]
+0x0000898c 3cff2fe1     blx      ip
+0x00008990 000050e3     cmp      r0, #0
+0x00008994 0040a0e1     mov      r4, r0
+0x00008998 3e00001a     bne      #0x8a98
+0x0000899c 28201be5     ldr      r2, [fp, #-0x28]
+0x000089a0 fc309fe5     ldr      r3, [pc, #0xfc] ; literal[0x8aa4]=0xaaaaaaaa
+0x000089a4 030052e1     cmp      r2, r3
+0x000089a8 2600001a     bne      #0x8a48
+0x000089ac 0500a0e1     mov      r0, r5
+0x000089b0 0610a0e1     mov      r1, r6
+0x000089b4 dcf6ffeb     bl       #0x652c ; PLT:_ZN28FileAccesserMeasures2BattOff16getSpareFileNameEj
+0x000089b8 000050e3     cmp      r0, #0
+0x000089bc 3500000a     beq      #0x8a98
+0x000089c0 80028de8     stm      sp, {r7, sb}
+0x000089c4 0020a0e1     mov      r2, r0
+0x000089c8 00c095e5     ldr      ip, [r5]
+0x000089cc 0500a0e1     mov      r0, r5
+0x000089d0 0610a0e1     mov      r1, r6
+0x000089d4 0830a0e1     mov      r3, r8
+0x000089d8 24c09ce5     ldr      ip, [ip, #0x24]
+0x000089dc 3cff2fe1     blx      ip
+0x000089e0 000050e3     cmp      r0, #0
+0x000089e4 0040a0e1     mov      r4, r0
+0x000089e8 2a0000ba     blt      #0x8a98
+0x000089ec 0700a0e3     mov      r0, #7
+0x000089f0 0110a0e3     mov      r1, #1
+0x000089f4 e8f5ffeb     bl       #0x619c ; PLT:_Z15_backupJudgeLoghj
+0x000089f8 0500a0e1     mov      r0, r5
+0x000089fc 0610a0e1     mov      r1, r6
+0x00008a00 4bf6ffeb     bl       #0x6334 ; PLT:_ZN12FileAccesser11getFileNameEj
+0x00008a04 000050e3     cmp      r0, #0
+0x00008a08 0030a0e1     mov      r3, r0
+0x00008a0c 2100000a     beq      #0x8a98
+0x00008a10 80028de8     stm      sp, {r7, sb}
+0x00008a14 0610a0e1     mov      r1, r6
+0x00008a18 0320a0e1     mov      r2, r3
+0x00008a1c 0500a0e1     mov      r0, r5
+0x00008a20 0830a0e1     mov      r3, r8
+0x00008a24 00c095e5     ldr      ip, [r5]
+0x00008a28 24c09ce5     ldr      ip, [ip, #0x24]
+0x00008a2c 3cff2fe1     blx      ip
+0x00008a30 000050e3     cmp      r0, #0
+0x00008a34 0040a0e1     mov      r4, r0
+0x00008a38 0210a0a3     movge    r1, #2
+0x00008a3c 0700a0a3     movge    r0, #7
+0x00008a40 130000aa     bge      #0x8a94
+0x00008a44 130000ea     b        #0x8a98
+0x00008a48 0500a0e1     mov      r0, r5
+0x00008a4c 0610a0e1     mov      r1, r6
+0x00008a50 37f6ffeb     bl       #0x6334 ; PLT:_ZN12FileAccesser11getFileNameEj
+0x00008a54 000050e3     cmp      r0, #0
+0x00008a58 0030a0e1     mov      r3, r0
+0x00008a5c 0d00000a     beq      #0x8a98
+0x00008a60 80028de8     stm      sp, {r7, sb}
+0x00008a64 0320a0e1     mov      r2, r3
+0x00008a68 0500a0e1     mov      r0, r5
+0x00008a6c 0610a0e1     mov      r1, r6
+0x00008a70 0830a0e1     mov      r3, r8
+0x00008a74 00c095e5     ldr      ip, [r5]
+0x00008a78 24c09ce5     ldr      ip, [ip, #0x24]
+0x00008a7c 3cff2fe1     blx      ip
+0x00008a80 000050e3     cmp      r0, #0
+0x00008a84 0040a0e1     mov      r4, r0
+0x00008a88 020000ba     blt      #0x8a98
+0x00008a8c 0700a0e3     mov      r0, #7
+0x00008a90 0310a0e3     mov      r1, #3
+0x00008a94 c0f5ffeb     bl       #0x619c ; PLT:_Z15_backupJudgeLoghj
+0x00008a98 0400a0e1     mov      r0, r4
+0x00008a9c 24d04be2     sub      sp, fp, #0x24
+0x00008aa0 f0ab9de8     ldm      sp, {r4, r5, r6, r7, r8, sb, fp, sp, pc}
+0x00008aa4 aaaaaaaa     bge      #0xfeab3554
+
+_ZN28FileAccesserMeasures2BattOff11writeSafelyEjPKcjjPKv section=.text value=0x8aa8 file=0x8aa8 symbol_size=432
+0x00008aa8 0dc0a0e1     mov      ip, sp
+0x00008aac f0db2de9     push     {r4, r5, r6, r7, r8, sb, fp, ip, lr, pc}
+0x00008ab0 04b04ce2     sub      fp, ip, #4
+0x00008ab4 0070a0e1     mov      r7, r0
+0x00008ab8 1cd04de2     sub      sp, sp, #0x1c
+0x00008abc 28004be2     sub      r0, fp, #0x28
+0x00008ac0 00e0a0e3     mov      lr, #0
+0x00008ac4 3c000be5     str      r0, [fp, #-0x3c]
+0x00008ac8 38e00be5     str      lr, [fp, #-0x38]
+0x00008acc 28e00be5     str      lr, [fp, #-0x28]
+0x00008ad0 34200be5     str      r2, [fp, #-0x34]
+0x00008ad4 2ce00be5     str      lr, [fp, #-0x2c]
+0x00008ad8 00c097e5     ldr      ip, [r7]
+0x00008adc 0700a0e1     mov      r0, r7
+0x00008ae0 3c201be5     ldr      r2, [fp, #-0x3c]
+0x00008ae4 30100be5     str      r1, [fp, #-0x30]
+0x00008ae8 08609be5     ldr      r6, [fp, #8]
+0x00008aec 0340a0e1     mov      r4, r3
+0x00008af0 04509be5     ldr      r5, [fp, #4]
+0x00008af4 28c09ce5     ldr      ip, [ip, #0x28]
+0x00008af8 3cff2fe1     blx      ip
+0x00008afc 000050e3     cmp      r0, #0
+0x00008b00 00e0a0e1     mov      lr, r0
+0x00008b04 38901be5     ldr      sb, [fp, #-0x38]
+0x00008b08 0680a0e1     mov      r8, r6
+0x00008b0c 4d00001a     bne      #0x8c48
+0x00008b10 2c304be2     sub      r3, fp, #0x2c
+0x00008b14 34001be5     ldr      r0, [fp, #-0x34]
+0x00008b18 28101be5     ldr      r1, [fp, #-0x28]
+0x00008b1c 0420a0e3     mov      r2, #4
+0x00008b20 40300be5     str      r3, [fp, #-0x40]
+0x00008b24 27f5ffeb     bl       #0x5fc8 ; PLT:_Z15backupFileWritePKcljPKv
+0x00008b28 000050e3     cmp      r0, #0
+0x00008b2c 00e0a0e1     mov      lr, r0
+0x00008b30 440000ba     blt      #0x8c48
+0x00008b34 28201be5     ldr      r2, [fp, #-0x28]
+0x00008b38 020054e1     cmp      r4, r2
+0x00008b3c 0f00002a     bhs      #0x8b80
+0x00008b40 053084e0     add      r3, r4, r5
+0x00008b44 011043e2     sub      r1, r3, #1
+0x00008b48 020051e1     cmp      r1, r2
+0x00008b4c 0490a0e1     mov      sb, r4
+0x00008b50 1700003a     blo      #0x8bb4
+0x00008b54 043082e2     add      r3, r2, #4
+0x00008b58 030051e1     cmp      r1, r3
+0x00008b5c 023064e0     rsb      r3, r4, r2
+0x00008b60 03008630     addlo    r0, r6, r3
+0x00008b64 04206332     rsblo    r2, r3, #4
+0x00008b68 40101b35     ldrlo    r1, [fp, #-0x40]
+0x00008b6c 03008620     addhs    r0, r6, r3
+0x00008b70 40101b25     ldrhs    r1, [fp, #-0x40]
+0x00008b74 0420a023     movhs    r2, #4
+0x00008b78 8df5ffeb     bl       #0x61b4 ; PLT:memmove
+0x00008b7c 0c0000ea     b        #0x8bb4
+0x00008b80 043082e2     add      r3, r2, #4
+0x00008b84 030054e1     cmp      r4, r3
+0x00008b88 0490a021     movhs    sb, r4
+0x00008b8c 0800002a     bhs      #0x8bb4
+0x00008b90 042062e0     rsb      r2, r2, r4
+0x00008b94 043062e2     rsb      r3, r2, #4
+0x00008b98 030055e1     cmp      r5, r3
+0x00008b9c 2900009a     bls      #0x8c48
+0x00008ba0 040052e3     cmp      r2, #4
+0x00008ba4 38300be5     str      r3, [fp, #-0x38]
+0x00008ba8 055063e0     rsb      r5, r3, r5
+0x00008bac 03908430     addlo    sb, r4, r3
+0x00008bb0 036086e0     add      r6, r6, r3
+0x00008bb4 0910a0e1     mov      r1, sb
+0x00008bb8 0520a0e1     mov      r2, r5
+0x00008bbc 0630a0e1     mov      r3, r6
+0x00008bc0 34001be5     ldr      r0, [fp, #-0x34]
+0x00008bc4 fff4ffeb     bl       #0x5fc8 ; PLT:_Z15backupFileWritePKcljPKv
+0x00008bc8 000050e3     cmp      r0, #0
+0x00008bcc 00e0a0e1     mov      lr, r0
+0x00008bd0 1c0000ba     blt      #0x8c48
+0x00008bd4 38c01be5     ldr      ip, [fp, #-0x38]
+0x00008bd8 74309fe5     ldr      r3, [pc, #0x74] ; literal[0x8c54]=0xaaaaaaaa
+0x00008bdc 0ec08ce0     add      ip, ip, lr
+0x00008be0 2c300be5     str      r3, [fp, #-0x2c]
+0x00008be4 0700a0e1     mov      r0, r7
+0x00008be8 30101be5     ldr      r1, [fp, #-0x30]
+0x00008bec 3c201be5     ldr      r2, [fp, #-0x3c]
+0x00008bf0 003097e5     ldr      r3, [r7]
+0x00008bf4 38c00be5     str      ip, [fp, #-0x38]
+0x00008bf8 28c093e5     ldr      ip, [r3, #0x28]
+0x00008bfc 3cff2fe1     blx      ip
+0x00008c00 000050e3     cmp      r0, #0
+0x00008c04 00e0a0e1     mov      lr, r0
+0x00008c08 0e00001a     bne      #0x8c48
+0x00008c0c 34001be5     ldr      r0, [fp, #-0x34]
+0x00008c10 28101be5     ldr      r1, [fp, #-0x28]
+0x00008c14 0420a0e3     mov      r2, #4
+0x00008c18 40301be5     ldr      r3, [fp, #-0x40]
+0x00008c1c e9f4ffeb     bl       #0x5fc8 ; PLT:_Z15backupFileWritePKcljPKv
+0x00008c20 000050e3     cmp      r0, #0
+0x00008c24 00e0a0e1     mov      lr, r0
+0x00008c28 060000ba     blt      #0x8c48
+0x00008c2c 28001be5     ldr      r0, [fp, #-0x28]
+0x00008c30 000054e1     cmp      r4, r0
+0x00008c34 00008830     addlo    r0, r8, r0
+0x00008c38 40101b35     ldrlo    r1, [fp, #-0x40]
+0x00008c3c 0420a033     movlo    r2, #4
+0x00008c40 5bf5ff3b     bllo     #0x61b4
+0x00008c44 38e01be5     ldr      lr, [fp, #-0x38]
+0x00008c48 0e00a0e1     mov      r0, lr
+0x00008c4c 24d04be2     sub      sp, fp, #0x24
+0x00008c50 f0ab9de8     ldm      sp, {r4, r5, r6, r7, r8, sb, fp, sp, pc}
+0x00008c54 aaaaaaaa     bge      #0xfeab3704
+
+T100 build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/lib/lib/libBackupCore.so
+SHA256 9642f9a5841321d84f64573144633f926c9a2403c7ab06e10c405796ce2694e1
+
+_ZN12FileAccesser13getHeaderSizeEjPj section=.text value=0x739c file=0x739c symbol_size=60
+0x0000739c 0dc0a0e1     mov      ip, sp
+0x000073a0 0130a0e3     mov      r3, #1
+0x000073a4 070051e3     cmp      r1, #7
+0x000073a8 00d82de9     push     {fp, ip, lr, pc}
+0x000073ac 1331a0e1     lsl      r3, r3, r1
+0x000073b0 04b04ce2     sub      fp, ip, #4
+0x000073b4 0000a0e3     mov      r0, #0
+0x000073b8 0200008a     bhi      #0x73c8
+0x000073bc e70013e3     tst      r3, #0xe7
+0x000073c0 00008215     strne    r0, [r2]
+0x000073c4 00a89d18     ldmne    sp, {fp, sp, pc}
+0x000073c8 0030a0e3     mov      r3, #0
+0x000073cc 0000e0e3     mvn      r0, #0
+0x000073d0 003082e5     str      r3, [r2]
+0x000073d4 00a89de8     ldm      sp, {fp, sp, pc}
+
+_ZN28FileAccesserMeasures2BattOff13getDataOffsetEjPj section=.text value=0x7aac file=0x7aac symbol_size=104
+0x00007aac 0dc0a0e1     mov      ip, sp
+0x00007ab0 00d82de9     push     {fp, ip, lr, pc}
+0x00007ab4 0000a0e3     mov      r0, #0
+0x00007ab8 04b04ce2     sub      fp, ip, #4
+0x00007abc 070051e3     cmp      r1, #7
+0x00007ac0 01f18f90     addls    pc, pc, r1, lsl #2
+0x00007ac4 0e0000ea     b        #0x7b04
+0x00007ac8 060000ea     b        #0x7ae8
+0x00007acc 070000ea     b        #0x7af0
+0x00007ad0 060000ea     b        #0x7af0
+0x00007ad4 0a0000ea     b        #0x7b04
+0x00007ad8 090000ea     b        #0x7b04
+0x00007adc 060000ea     b        #0x7afc
+0x00007ae0 050000ea     b        #0x7afc
+0x00007ae4 040000ea     b        #0x7afc
+0x00007ae8 1f3ea0e3     mov      r3, #0x1f0
+0x00007aec 000000ea     b        #0x7af4
+0x00007af0 3f3ea0e3     mov      r3, #0x3f0
+0x00007af4 003082e5     str      r3, [r2]
+0x00007af8 00a89de8     ldm      sp, {fp, sp, pc}
+0x00007afc e030a0e3     mov      r3, #0xe0
+0x00007b00 fbffffea     b        #0x7af4
+0x00007b04 0030a0e3     mov      r3, #0
+0x00007b08 0000e0e3     mvn      r0, #0
+0x00007b0c 003082e5     str      r3, [r2]
+0x00007b10 00a89de8     ldm      sp, {fp, sp, pc}
+
+_ZN28FileAccesserMeasures2BattOff13checkFlushFlgEjPj section=.text value=0x7b14 file=0x7b14 symbol_size=128
+0x00007b14 0dc0a0e1     mov      ip, sp
+0x00007b18 f0d92de9     push     {r4, r5, r6, r7, r8, fp, ip, lr, pc}
+0x00007b1c 04b04ce2     sub      fp, ip, #4
+0x00007b20 04d04de2     sub      sp, sp, #4
+0x00007b24 0060a0e3     mov      r6, #0
+0x00007b28 0050a0e1     mov      r5, r0
+0x00007b2c 0280a0e1     mov      r8, r2
+0x00007b30 0140a0e1     mov      r4, r1
+0x00007b34 24600be5     str      r6, [fp, #-0x24]
+0x00007b38 59f8ffeb     bl       #0x5ca4 ; PLT:_ZN12FileAccesser11getFileNameEj
+0x00007b3c 0070a0e1     mov      r7, r0
+0x00007b40 060057e1     cmp      r7, r6
+0x00007b44 0410a0e1     mov      r1, r4
+0x00007b48 0500a0e1     mov      r0, r5
+0x00007b4c 24204be2     sub      r2, fp, #0x24
+0x00007b50 0d00000a     beq      #0x7b8c
+0x00007b54 003095e5     ldr      r3, [r5]
+0x00007b58 2cc093e5     ldr      ip, [r3, #0x2c]
+0x00007b5c 3cff2fe1     blx      ip
+0x00007b60 0060a0e1     mov      r6, r0
+0x00007b64 000056e3     cmp      r6, #0
+0x00007b68 0830a0e1     mov      r3, r8
+0x00007b6c 0700a0e1     mov      r0, r7
+0x00007b70 0420a0e3     mov      r2, #4
+0x00007b74 0400001a     bne      #0x7b8c
+0x00007b78 24101be5     ldr      r1, [fp, #-0x24]
+0x00007b7c b8f7ffeb     bl       #0x5a64 ; PLT:_Z14backupFileReadPKcljPv
+0x00007b80 0060a0e1     mov      r6, r0
+0x00007b84 000056e3     cmp      r6, #0
+0x00007b88 0060a0a3     movge    r6, #0
+0x00007b8c 0600a0e1     mov      r0, r6
+0x00007b90 f0a99de9     ldmib    sp, {r4, r5, r6, r7, r8, fp, sp, pc}
+
+_ZN28FileAccesserMeasures2BattOff9writeUserEjjjPKv section=.text value=0x7758 file=0x7758 symbol_size=232
+0x00007758 0dc0a0e1     mov      ip, sp
+0x0000775c f0db2de9     push     {r4, r5, r6, r7, r8, sb, fp, ip, lr, pc}
+0x00007760 04b04ce2     sub      fp, ip, #4
+0x00007764 0cd04de2     sub      sp, sp, #0xc
+0x00007768 0270a0e1     mov      r7, r2
+0x0000776c 00c090e5     ldr      ip, [r0]
+0x00007770 28204be2     sub      r2, fp, #0x28
+0x00007774 0040a0e1     mov      r4, r0
+0x00007778 0380a0e1     mov      r8, r3
+0x0000777c 0150a0e1     mov      r5, r1
+0x00007780 04909be5     ldr      sb, [fp, #4]
+0x00007784 30c09ce5     ldr      ip, [ip, #0x30]
+0x00007788 3cff2fe1     blx      ip
+0x0000778c 000050e3     cmp      r0, #0
+0x00007790 0060a0e1     mov      r6, r0
+0x00007794 2500001a     bne      #0x7830
+0x00007798 28201be5     ldr      r2, [fp, #-0x28]
+0x0000779c 98309fe5     ldr      r3, [pc, #0x98] ; literal[0x783c]=0xaaaaaaaa
+0x000077a0 030052e1     cmp      r2, r3
+0x000077a4 0510a0e1     mov      r1, r5
+0x000077a8 0400a0e1     mov      r0, r4
+0x000077ac 0510a011     movne    r1, r5
+0x000077b0 0400a011     movne    r0, r4
+0x000077b4 1000001a     bne      #0x77fc
+0x000077b8 aef9ffeb     bl       #0x5e78 ; PLT:_ZN28FileAccesserMeasures2BattOff16getSpareFileNameEj
+0x000077bc 00c0a0e1     mov      ip, r0
+0x000077c0 00005ce3     cmp      ip, #0
+0x000077c4 0020a0e1     mov      r2, r0
+0x000077c8 0730a0e1     mov      r3, r7
+0x000077cc 0510a0e1     mov      r1, r5
+0x000077d0 0400a0e1     mov      r0, r4
+0x000077d4 1500000a     beq      #0x7830
+0x000077d8 00038de8     stm      sp, {r8, sb}
+0x000077dc 00c094e5     ldr      ip, [r4]
+0x000077e0 28c09ce5     ldr      ip, [ip, #0x28]
+0x000077e4 3cff2fe1     blx      ip
+0x000077e8 0060a0e1     mov      r6, r0
+0x000077ec 000056e3     cmp      r6, #0
+0x000077f0 0510a0e1     mov      r1, r5
+0x000077f4 0400a0e1     mov      r0, r4
+0x000077f8 0c0000ba     blt      #0x7830
+0x000077fc 28f9ffeb     bl       #0x5ca4 ; PLT:_ZN12FileAccesser11getFileNameEj
+0x00007800 00c0a0e1     mov      ip, r0
+0x00007804 00005ce3     cmp      ip, #0
+0x00007808 0510a0e1     mov      r1, r5
+0x0000780c 0400a0e1     mov      r0, r4
+0x00007810 0c20a0e1     mov      r2, ip
+0x00007814 0730a0e1     mov      r3, r7
+0x00007818 0400000a     beq      #0x7830
+0x0000781c 00038de8     stm      sp, {r8, sb}
+0x00007820 00c094e5     ldr      ip, [r4]
+0x00007824 28c09ce5     ldr      ip, [ip, #0x28]
+0x00007828 3cff2fe1     blx      ip
+0x0000782c 0060a0e1     mov      r6, r0
+0x00007830 0600a0e1     mov      r0, r6
+0x00007834 24d04be2     sub      sp, fp, #0x24
+0x00007838 f0ab9de8     ldm      sp, {r4, r5, r6, r7, r8, sb, fp, sp, pc}
+0x0000783c aaaaaaaa     bge      #0xfeab22ec
+
+_ZN28FileAccesserMeasures2BattOff11writeSafelyEjPKcjjPKv section=.text value=0x791c file=0x791c symbol_size=400
+0x0000791c 0dc0a0e1     mov      ip, sp
+0x00007920 f0db2de9     push     {r4, r5, r6, r7, r8, sb, fp, ip, lr, pc}
+0x00007924 04b04ce2     sub      fp, ip, #4
+0x00007928 0080a0e1     mov      r8, r0
+0x0000792c 18d04de2     sub      sp, sp, #0x18
+0x00007930 28004be2     sub      r0, fp, #0x28
+0x00007934 00e0a0e3     mov      lr, #0
+0x00007938 38000be5     str      r0, [fp, #-0x38]
+0x0000793c 34e00be5     str      lr, [fp, #-0x34]
+0x00007940 28e00be5     str      lr, [fp, #-0x28]
+0x00007944 2ce00be5     str      lr, [fp, #-0x2c]
+0x00007948 0290a0e1     mov      sb, r2
+0x0000794c 00c098e5     ldr      ip, [r8]
+0x00007950 0800a0e1     mov      r0, r8
+0x00007954 38201be5     ldr      r2, [fp, #-0x38]
+0x00007958 30100be5     str      r1, [fp, #-0x30]
+0x0000795c 0340a0e1     mov      r4, r3
+0x00007960 60009be9     ldmib    fp, {r5, r6}
+0x00007964 2cc09ce5     ldr      ip, [ip, #0x2c]
+0x00007968 3cff2fe1     blx      ip
+0x0000796c 000050e3     cmp      r0, #0
+0x00007970 00e0a0e1     mov      lr, r0
+0x00007974 34701be5     ldr      r7, [fp, #-0x34]
+0x00007978 4700001a     bne      #0x7a9c
+0x0000797c 2c304be2     sub      r3, fp, #0x2c
+0x00007980 0900a0e1     mov      r0, sb
+0x00007984 28101be5     ldr      r1, [fp, #-0x28]
+0x00007988 0420a0e3     mov      r2, #4
+0x0000798c 3c300be5     str      r3, [fp, #-0x3c]
+0x00007990 faf7ffeb     bl       #0x5980 ; PLT:_Z15backupFileWritePKcljPKv
+0x00007994 000050e3     cmp      r0, #0
+0x00007998 00e0a0e1     mov      lr, r0
+0x0000799c 3e0000ba     blt      #0x7a9c
+0x000079a0 28201be5     ldr      r2, [fp, #-0x28]
+0x000079a4 020054e1     cmp      r4, r2
+0x000079a8 0f00002a     bhs      #0x79ec
+0x000079ac 053084e0     add      r3, r4, r5
+0x000079b0 011043e2     sub      r1, r3, #1
+0x000079b4 020051e1     cmp      r1, r2
+0x000079b8 0470a0e1     mov      r7, r4
+0x000079bc 1700003a     blo      #0x7a20
+0x000079c0 043082e2     add      r3, r2, #4
+0x000079c4 030051e1     cmp      r1, r3
+0x000079c8 023064e0     rsb      r3, r4, r2
+0x000079cc 03018630     addlo    r0, r6, r3, lsl #2
+0x000079d0 04206332     rsblo    r2, r3, #4
+0x000079d4 3c101b35     ldrlo    r1, [fp, #-0x3c]
+0x000079d8 03018620     addhs    r0, r6, r3, lsl #2
+0x000079dc 3c101b25     ldrhs    r1, [fp, #-0x3c]
+0x000079e0 0420a023     movhs    r2, #4
+0x000079e4 5af8ffeb     bl       #0x5b54 ; PLT:memmove
+0x000079e8 0c0000ea     b        #0x7a20
+0x000079ec 043082e2     add      r3, r2, #4
+0x000079f0 030054e1     cmp      r4, r3
+0x000079f4 0470a021     movhs    r7, r4
+0x000079f8 0800002a     bhs      #0x7a20
+0x000079fc 043062e0     rsb      r3, r2, r4
+0x00007a00 042063e2     rsb      r2, r3, #4
+0x00007a04 020055e1     cmp      r5, r2
+0x00007a08 2300009a     bls      #0x7a9c
+0x00007a0c 040053e3     cmp      r3, #4
+0x00007a10 34200be5     str      r2, [fp, #-0x34]
+0x00007a14 055062e0     rsb      r5, r2, r5
+0x00007a18 02708430     addlo    r7, r4, r2
+0x00007a1c 026086e0     add      r6, r6, r2
+0x00007a20 0710a0e1     mov      r1, r7
+0x00007a24 0520a0e1     mov      r2, r5
+0x00007a28 0630a0e1     mov      r3, r6
+0x00007a2c 0900a0e1     mov      r0, sb
+0x00007a30 d2f7ffeb     bl       #0x5980 ; PLT:_Z15backupFileWritePKcljPKv
+0x00007a34 000050e3     cmp      r0, #0
+0x00007a38 00e0a0e1     mov      lr, r0
+0x00007a3c 160000ba     blt      #0x7a9c
+0x00007a40 34c01be5     ldr      ip, [fp, #-0x34]
+0x00007a44 5c309fe5     ldr      r3, [pc, #0x5c] ; literal[0x7aa8]=0xaaaaaaaa
+0x00007a48 0ec08ce0     add      ip, ip, lr
+0x00007a4c 2c300be5     str      r3, [fp, #-0x2c]
+0x00007a50 0800a0e1     mov      r0, r8
+0x00007a54 30101be5     ldr      r1, [fp, #-0x30]
+0x00007a58 38201be5     ldr      r2, [fp, #-0x38]
+0x00007a5c 003098e5     ldr      r3, [r8]
+0x00007a60 34c00be5     str      ip, [fp, #-0x34]
+0x00007a64 2cc093e5     ldr      ip, [r3, #0x2c]
+0x00007a68 3cff2fe1     blx      ip
+0x00007a6c 000050e3     cmp      r0, #0
+0x00007a70 00e0a0e1     mov      lr, r0
+0x00007a74 0800001a     bne      #0x7a9c
+0x00007a78 0900a0e1     mov      r0, sb
+0x00007a7c 3c301be5     ldr      r3, [fp, #-0x3c]
+0x00007a80 28101be5     ldr      r1, [fp, #-0x28]
+0x00007a84 0420a0e3     mov      r2, #4
+0x00007a88 bcf7ffeb     bl       #0x5980 ; PLT:_Z15backupFileWritePKcljPKv
+0x00007a8c 00e0a0e1     mov      lr, r0
+0x00007a90 34001be5     ldr      r0, [fp, #-0x34]
+0x00007a94 00005ee3     cmp      lr, #0
+0x00007a98 00e0a0a1     movge    lr, r0
+0x00007a9c 0e00a0e1     mov      r0, lr
+0x00007aa0 24d04be2     sub      sp, fp, #0x24
+0x00007aa4 f0ab9de8     ldm      sp, {r4, r5, r6, r7, r8, sb, fp, sp, pc}
+0x00007aa8 aaaaaaaa     bge      #0xfeab2558

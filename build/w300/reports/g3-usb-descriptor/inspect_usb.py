@@ -12,10 +12,12 @@ def cstr(data, at):
     return data[at:].split(b'\0', 1)[0].decode('ascii', errors='replace')
 
 class Elf:
-    def __init__(self, relative):
+    def __init__(self, relative, *, pin=None):
         self.relative = relative
         self.data = (ROOT / relative).read_bytes()
-        pin = next(r for r in json.loads((ROOT/'evidence/artifact_manifest.json').read_text())['artifacts'] if r['path']==relative)
+        if pin is None:
+            pin = next(r for r in json.loads((ROOT/'evidence/artifact_manifest.json').read_text())['artifacts'] if r['path']==relative)
+        assert pin['path'] == relative
         self.sha = hashlib.sha256(self.data).hexdigest()
         assert self.sha == pin['sha256'] and len(self.data)==pin['bytes']
         assert self.data[:6] == b'\x7fELF\x01\x01'

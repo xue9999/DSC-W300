@@ -1,0 +1,202 @@
+fxRemapIDs section=.text value=0x9ca7c file=0x94a7c symbol_size=804
+0x0009ca7c 0dc0a0e1     mov      ip, sp
+0x0009ca80 f0dc2de9     push     {r4, r5, r6, r7, sl, fp, ip, lr, pc}
+0x0009ca84 04b04ce2     sub      fp, ip, #4
+0x0009ca88 08a39fe5     ldr      sl, [pc, #0x308] ; literal[0x9cd98]=0xb18d8
+0x0009ca8c 0aa08fe0     add      sl, pc, sl
+0x0009ca90 0070a0e1     mov      r7, r0
+0x0009ca94 0140a0e1     mov      r4, r1
+0x0009ca98 0260a0e1     mov      r6, r2
+0x0009ca9c 0130d4e4     ldrb     r3, [r4], #1
+0x0009caa0 203043e2     sub      r3, r3, #0x20
+0x0009caa4 6b0053e3     cmp      r3, #0x6b
+0x0009caa8 03f18f90     addls    pc, pc, r3, lsl #2
+0x0009caac b00000ea     b        #0x9cd74
+0x0009cab0 b70000ea     b        #0x9cd94
+0x0009cab4 f8ffffea     b        #0x9ca9c
+0x0009cab8 ad0000ea     b        #0x9cd74
+0x0009cabc 670000ea     b        #0x9cc60
+0x0009cac0 f5ffffea     b        #0x9ca9c
+0x0009cac4 f4ffffea     b        #0x9ca9c
+0x0009cac8 f3ffffea     b        #0x9ca9c
+0x0009cacc f2ffffea     b        #0x9ca9c
+0x0009cad0 850000ea     b        #0x9ccec
+0x0009cad4 840000ea     b        #0x9ccec
+0x0009cad8 830000ea     b        #0x9ccec
+0x0009cadc eeffffea     b        #0x9ca9c
+0x0009cae0 7b0000ea     b        #0x9ccd4
+0x0009cae4 780000ea     b        #0x9cccc
+0x0009cae8 790000ea     b        #0x9ccd4
+0x0009caec eaffffea     b        #0x9ca9c
+0x0009caf0 770000ea     b        #0x9ccd4
+0x0009caf4 e8ffffea     b        #0x9ca9c
+0x0009caf8 750000ea     b        #0x9ccd4
+0x0009cafc 720000ea     b        #0x9cccc
+0x0009cb00 730000ea     b        #0x9ccd4
+0x0009cb04 e4ffffea     b        #0x9ca9c
+0x0009cb08 e3ffffea     b        #0x9ca9c
+0x0009cb0c e2ffffea     b        #0x9ca9c
+0x0009cb10 e1ffffea     b        #0x9ca9c
+0x0009cb14 e0ffffea     b        #0x9ca9c
+0x0009cb18 dfffffea     b        #0x9ca9c
+0x0009cb1c 940000ea     b        #0x9cd74
+0x0009cb20 ddffffea     b        #0x9ca9c
+0x0009cb24 6a0000ea     b        #0x9ccd4
+0x0009cb28 910000ea     b        #0x9cd74
+0x0009cb2c 6e0000ea     b        #0x9ccec
+0x0009cb30 670000ea     b        #0x9ccd4
+0x0009cb34 640000ea     b        #0x9cccc
+0x0009cb38 650000ea     b        #0x9ccd4
+0x0009cb3c d6ffffea     b        #0x9ca9c
+0x0009cb40 d5ffffea     b        #0x9ca9c
+0x0009cb44 d4ffffea     b        #0x9ca9c
+0x0009cb48 d3ffffea     b        #0x9ca9c
+0x0009cb4c d2ffffea     b        #0x9ca9c
+0x0009cb50 670000ea     b        #0x9ccf4
+0x0009cb54 d0ffffea     b        #0x9ca9c
+0x0009cb58 cfffffea     b        #0x9ca9c
+0x0009cb5c ceffffea     b        #0x9ca9c
+0x0009cb60 cdffffea     b        #0x9ca9c
+0x0009cb64 600000ea     b        #0x9ccec
+0x0009cb68 cbffffea     b        #0x9ca9c
+0x0009cb6c caffffea     b        #0x9ca9c
+0x0009cb70 c9ffffea     b        #0x9ca9c
+0x0009cb74 c8ffffea     b        #0x9ca9c
+0x0009cb78 c7ffffea     b        #0x9ca9c
+0x0009cb7c 540000ea     b        #0x9ccd4
+0x0009cb80 510000ea     b        #0x9cccc
+0x0009cb84 520000ea     b        #0x9ccd4
+0x0009cb88 c3ffffea     b        #0x9ca9c
+0x0009cb8c c2ffffea     b        #0x9ca9c
+0x0009cb90 c1ffffea     b        #0x9ca9c
+0x0009cb94 c0ffffea     b        #0x9ca9c
+0x0009cb98 bfffffea     b        #0x9ca9c
+0x0009cb9c beffffea     b        #0x9ca9c
+0x0009cba0 bdffffea     b        #0x9ca9c
+0x0009cba4 bcffffea     b        #0x9ca9c
+0x0009cba8 530000ea     b        #0x9ccfc
+0x0009cbac baffffea     b        #0x9ca9c
+0x0009cbb0 4d0000ea     b        #0x9ccec
+0x0009cbb4 b8ffffea     b        #0x9ca9c
+0x0009cbb8 450000ea     b        #0x9ccd4
+0x0009cbbc 420000ea     b        #0x9cccc
+0x0009cbc0 430000ea     b        #0x9ccd4
+0x0009cbc4 b4ffffea     b        #0x9ca9c
+0x0009cbc8 b3ffffea     b        #0x9ca9c
+0x0009cbcc 460000ea     b        #0x9ccec
+0x0009cbd0 b1ffffea     b        #0x9ca9c
+0x0009cbd4 b0ffffea     b        #0x9ca9c
+0x0009cbd8 490000ea     b        #0x9cd04
+0x0009cbdc aeffffea     b        #0x9ca9c
+0x0009cbe0 adffffea     b        #0x9ca9c
+0x0009cbe4 acffffea     b        #0x9ca9c
+0x0009cbe8 abffffea     b        #0x9ca9c
+0x0009cbec 600000ea     b        #0x9cd74
+0x0009cbf0 5f0000ea     b        #0x9cd74
+0x0009cbf4 5e0000ea     b        #0x9cd74
+0x0009cbf8 5d0000ea     b        #0x9cd74
+0x0009cbfc a6ffffea     b        #0x9ca9c
+0x0009cc00 a5ffffea     b        #0x9ca9c
+0x0009cc04 a4ffffea     b        #0x9ca9c
+0x0009cc08 a3ffffea     b        #0x9ca9c
+0x0009cc0c a2ffffea     b        #0x9ca9c
+0x0009cc10 a1ffffea     b        #0x9ca9c
+0x0009cc14 560000ea     b        #0x9cd74
+0x0009cc18 550000ea     b        #0x9cd74
+0x0009cc1c 9effffea     b        #0x9ca9c
+0x0009cc20 3c0000ea     b        #0x9cd18
+0x0009cc24 9cffffea     b        #0x9ca9c
+0x0009cc28 510000ea     b        #0x9cd74
+0x0009cc2c 500000ea     b        #0x9cd74
+0x0009cc30 99ffffea     b        #0x9ca9c
+0x0009cc34 98ffffea     b        #0x9ca9c
+0x0009cc38 3c0000ea     b        #0x9cd30
+0x0009cc3c 3b0000ea     b        #0x9cd30
+0x0009cc40 3a0000ea     b        #0x9cd30
+0x0009cc44 390000ea     b        #0x9cd30
+0x0009cc48 380000ea     b        #0x9cd30
+0x0009cc4c 370000ea     b        #0x9cd30
+0x0009cc50 360000ea     b        #0x9cd30
+0x0009cc54 1c0000ea     b        #0x9cccc
+0x0009cc58 230000ea     b        #0x9ccec
+0x0009cc5c 8effffea     b        #0x9ca9c
+0x0009cc60 0700a0e1     mov      r0, r7
+0x0009cc64 0410a0e1     mov      r1, r4
+0x0009cc68 0620a0e1     mov      r2, r6
+0x0009cc6c 65ffffeb     bl       #0x9ca08
+0x0009cc70 034084e2     add      r4, r4, #3
+0x0009cc74 d150d4e0     ldrsb    r5, [r4], #1
+0x0009cc78 000055e3     cmp      r5, #0
+0x0009cc7c 0600000a     beq      #0x9cc9c
+0x0009cc80 0700a0e1     mov      r0, r7
+0x0009cc84 0410a0e1     mov      r1, r4
+0x0009cc88 0620a0e1     mov      r2, r6
+0x0009cc8c 5dffffeb     bl       #0x9ca08
+0x0009cc90 024084e2     add      r4, r4, #2
+0x0009cc94 015055e2     subs     r5, r5, #1
+0x0009cc98 f8ffff1a     bne      #0x9cc80
+0x0009cc9c 014084e2     add      r4, r4, #1
+0x0009cca0 d150d4e0     ldrsb    r5, [r4], #1
+0x0009cca4 000055e3     cmp      r5, #0
+0x0009cca8 7bffff0a     beq      #0x9ca9c
+0x0009ccac 0700a0e1     mov      r0, r7
+0x0009ccb0 0410a0e1     mov      r1, r4
+0x0009ccb4 0620a0e1     mov      r2, r6
+0x0009ccb8 52ffffeb     bl       #0x9ca08
+0x0009ccbc 024084e2     add      r4, r4, #2
+0x0009ccc0 015055e2     subs     r5, r5, #1
+0x0009ccc4 f8ffff1a     bne      #0x9ccac
+0x0009ccc8 73ffffea     b        #0x9ca9c
+0x0009cccc 014084e2     add      r4, r4, #1
+0x0009ccd0 71ffffea     b        #0x9ca9c
+0x0009ccd4 0700a0e1     mov      r0, r7
+0x0009ccd8 0410a0e1     mov      r1, r4
+0x0009ccdc 0620a0e1     mov      r2, r6
+0x0009cce0 48ffffeb     bl       #0x9ca08
+0x0009cce4 024084e2     add      r4, r4, #2
+0x0009cce8 6bffffea     b        #0x9ca9c
+0x0009ccec 024084e2     add      r4, r4, #2
+0x0009ccf0 69ffffea     b        #0x9ca9c
+0x0009ccf4 044084e2     add      r4, r4, #4
+0x0009ccf8 67ffffea     b        #0x9ca9c
+0x0009ccfc 084084e2     add      r4, r4, #8
+0x0009cd00 65ffffea     b        #0x9ca9c
+0x0009cd04 0400a0e1     mov      r0, r4
+0x0009cd08 2faffeeb     bl       #0x489cc ; FskStrLen
+0x0009cd0c 004084e0     add      r4, r4, r0
+0x0009cd10 014084e2     add      r4, r4, #1
+0x0009cd14 60ffffea     b        #0x9ca9c
+0x0009cd18 0700a0e1     mov      r0, r7
+0x0009cd1c 0410a0e1     mov      r1, r4
+0x0009cd20 0620a0e1     mov      r2, r6
+0x0009cd24 37ffffeb     bl       #0x9ca08
+0x0009cd28 044084e2     add      r4, r4, #4
+0x0009cd2c 5affffea     b        #0x9ca9c
+0x0009cd30 d150d4e0     ldrsb    r5, [r4], #1
+0x0009cd34 000055e3     cmp      r5, #0
+0x0009cd38 57ffffda     ble      #0x9ca9c
+0x0009cd3c 0700a0e1     mov      r0, r7
+0x0009cd40 0410a0e1     mov      r1, r4
+0x0009cd44 0620a0e1     mov      r2, r6
+0x0009cd48 2effffeb     bl       #0x9ca08
+0x0009cd4c 024084e2     add      r4, r4, #2
+0x0009cd50 0700a0e1     mov      r0, r7
+0x0009cd54 0410a0e1     mov      r1, r4
+0x0009cd58 0620a0e1     mov      r2, r6
+0x0009cd5c 29ffffeb     bl       #0x9ca08
+0x0009cd60 024084e2     add      r4, r4, #2
+0x0009cd64 015045e2     sub      r5, r5, #1
+0x0009cd68 000055e3     cmp      r5, #0
+0x0009cd6c f2ffffca     bgt      #0x9cd3c
+0x0009cd70 49ffffea     b        #0x9ca9c
+0x0009cd74 0700a0e1     mov      r0, r7
+0x0009cd78 011044e2     sub      r1, r4, #1
+0x0009cd7c 0620a0e1     mov      r2, r6
+0x0009cd80 14309fe5     ldr      r3, [pc, #0x14] ; literal[0x9cd9c]=0x3764
+0x0009cd84 03c09ae7     ldr      ip, [sl, r3]
+0x0009cd88 3cff2fe1     blx      ip
+0x0009cd8c 0040a0e1     mov      r4, r0
+0x0009cd90 41ffffea     b        #0x9ca9c
+0x0009cd94 f0ac9de8     ldm      sp, {r4, r5, r6, r7, sl, fp, sp, pc}
+0x0009cd98 d8180b00     ldrdeq   r1, r2, [fp], -r8
+0x0009cd9c 64370000     andeq    r3, r0, r4, ror #14

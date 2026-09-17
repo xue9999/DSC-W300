@@ -17,11 +17,17 @@ The analyst must acquire evidence and verify the proposed operations. Choose a r
 
 The [resumption assessment](../../build/w300/reports/w300-resumption-20260917.md) records completed catalog/archive coverage. Reuse it to choose a different source or method. Acquiring W300-specific implementation evidence is an active work item; its absence does not suspend the independent tasks in this table.
 
+The [T100/G3 firmware comparison](../../build/w300/reports/t100-language-comparison/README.md) adds an acquired Sony T100 updater and verified native field, language-mask and application-consumer comparisons. Both payloads use the same five destination/region/language table rows and category-0 Hreg backing paths, but their language-group policies differ. Use these concrete anchors to qualify W300's allowed-language configuration, regional default and user language separately. Reuse the acquired T100 package and reproducible extraction rather than searching for it again. Prioritize a narrow language operation; the compared region-conversion paths have broader settings effects.
+
 The [Senser FileControl command-2 analysis](../../build/w300/reports/g3-file-read/README.md) supplies the source anchors for the file-acquisition route. After qualifying W300 service entry, exit and transfer behavior, this may provide proprietary libraries directly from the owner's camera. Qualify the reviewed regular-file candidate against W300; procfs can report zero stat size and suppress the transfer body. The current workbench implements identification only, so receiver preparation remains offline work until model qualification and the later camera session.
 
 Acquire packages, verify the protocol and develop the implementation offline on the preparation computer. The later camera session uses a separate Windows 10/11 x64 computer.
 
+The separate [W300 Region Console](../../build/w300/reports/region-app/README.md) implements automatic capture, exact component comparison, native region change and original-region restoration. The user has authorized the write and now requests offline engineering while the camera is disconnected. Use `change` on the receiving PC; it captures a baseline, compares all required components against a coherent reviewed reference and writes only if those checks pass. The complete comparison profile is G3; T100 coverage is partial. No W300 implementation match has been observed, so this build cannot promise conversion. A mismatch produces specific component evidence for the next analysis rather than an editable approval flag. Windows service mode needs its own driver binding; acquisition can resume from the recorded same-port identity. Restoration accepts the matching change result or durable write-intent record and reapplies original region arguments. It resets preferences and is not full rollback; interrupted primary/spare states have explicit refusal checks. Hardware recovery and restart persistence remain unverified.
+
 ## Continuation and completion rules
+
+The [RegionSetting analysis](../../build/w300/reports/region-service-method/README.md) identifies the shared service operation and custom-language candidate, with an offline packet encoder. Next qualify the W300 handler, service transport and restoration using actual W300 files or transactions. Prefer custom language semantics over inferring an enum from destination labels; retain the original video setting. The immediate reply is not a persistence barrier. Back up the Hreg pair, region configuration and UserInfo pair, then verify readback and restart in the separately authorized camera stage.
 
 1. Select an available action from the route table, state the question and expected evidence, then perform it. Prefer work that removes a dependency on the route to persistent English.
 2. On failure, record the attempted source/method and bounded result. Close that attempt and execute the next justified alternative. Revisit it when the source, hypothesis, method or access changes.
@@ -73,7 +79,7 @@ Expected: manufacturer `Sony`, actual product/revision, command and response byt
 
 5. Preserve the reports and compare actual responses with the profile. The next engineering stage adds verified service reads, records baseline settings and backs up affected data. Identification reads identity only; language, destination and calibration require separate reads validated for the W300.
 
-## Verification required before the separately authorized write stage
+## Verification required for the authorized write stage
 
 Use the work items below to guide evidence collection and analysis. Validate each proposed operation for the W300 before running it on hardware, and continue independent offline tasks while collecting that evidence. Record the exact bytes, expected responses and recovery procedure:
 
@@ -90,6 +96,6 @@ Sony's adjustment manual, PDF p.11, restricts Destination Data Write to Service 
 
 U2 starts in English/NTSC; CEE8 starts in English/PAL. Derive bytes and side effects from the implementation. Auto-Adj's destination-completion OK dialog resets the camera and belongs to the later write stage. Comparative G3 erase/flush code and contemporary Sony service-board behavior guide inspection; confirm equivalent operations on W300.
 
-After the separately authorized qualified write, verify settings readback, unchanged identity/calibration, English menus after power-off/restart, and normal shooting/playback. Record each result independently.
+After the qualified write, verify settings readback, unchanged identity/calibration, English menus after power-off/restart, and normal shooting/playback. Record each result independently.
 
 See [VERIFICATION.md](VERIFICATION.md) for measured results and acquisition routes. The [qualification worklist](../../build/w300/reports/w300-readiness-audit/README.md) turns those findings into the next engineering steps.

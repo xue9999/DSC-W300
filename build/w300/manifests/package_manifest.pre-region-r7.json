@@ -1,21 +1,21 @@
 {
   "schema_version": 1,
-  "editorial_revision": 10,
+  "editorial_revision": 6,
   "scope": "Current scripts, reports and offline research inputs",
   "pmca_commit": "a82f5baaa8e9c3d9f28f94699e860fb2e48cc8e0",
   "camera_communication_verified": false,
   "w300_language_write_verified": false,
-  "historical_manifest": "manifests/package_manifest.pre-region-readback-r10.json",
+  "historical_manifest": "manifests/package_manifest.pre-t100-r6.json",
   "editorial_changes": [
     {
-      "path": "region_app.py",
-      "previous_sha256": "82e9fbe8a38775e71b82d3d907f75e2ec423fa0b808035d532495108eb86cc19",
-      "current_sha256": "3e2e2060ee338bff653bfc93d6b825b3b782c469a57ee7a5b952ea31c4d0efc2"
+      "path": "reports/g3-usb-descriptor/inspect_usb.py",
+      "previous_sha256": "1906fdc6291b9b2f860ddd447bd63b9ce95455f39b740a6ba6d5657c7e86013a",
+      "current_sha256": "3b8157e91d1cb94c1e83c74728b409ab3521caf04070574182e22f8612e5f70c"
     },
     {
-      "path": "reports/region-app/README.md",
-      "previous_sha256": "2f6f1a7a9b219577d45b1d70bbee1bb084d42c78a7f344bf3f799a391c630d66",
-      "current_sha256": "9b54735021047cb7d43e77ed6e74b70d46fedfc4461d7602292aea87a81378fa"
+      "path": "reports/g3-xs-entry/frame_xs.py",
+      "previous_sha256": "1e18552c0021c69dd9e282efca6a95da0747e980f2cdbe662735e732c2301751",
+      "current_sha256": "e229782d974744427be27b2fbab2b44fa7d5124bdca407ca679ae20ca6c9616d"
     }
   ],
   "artifacts": [
@@ -28,16 +28,6 @@
       "path": "build_portable.py",
       "bytes": 8669,
       "sha256": "f1b066ae4847897b6ad369dd290ba899b7a4ff8e224fd8905dd102267312fcb3"
-    },
-    {
-      "path": "build_region_app.py",
-      "bytes": 4767,
-      "sha256": "cd089f00078f86f163c68e7cc062301c5c487c9f39d01fbe3a311f7aa3d13961"
-    },
-    {
-      "path": "build_region_references.py",
-      "bytes": 2784,
-      "sha256": "2c6da327abaac8c09a7b6a9a5880b2e284f2cd84ee05fc53fa75768aa4ffabf9"
     },
     {
       "path": "downloads/auto-adj/driver-candidate-0.html",
@@ -3010,26 +3000,6 @@
       "sha256": "e5a26a30c7605fdbf99da30a8db2a6f41cc003a3428b28282c3429f3a1637550"
     },
     {
-      "path": "manifests/package_manifest.pre-region-app-r8.json",
-      "bytes": 172893,
-      "sha256": "bf01704d2ccc1249f8a9c8c48bf2de5e9dd1eb3eacdb0814554dbea68c9505f6"
-    },
-    {
-      "path": "manifests/package_manifest.pre-region-auto-r9.json",
-      "bytes": 174999,
-      "sha256": "4805eaaffde5433d639fc958288b5e3e508557c9002ac1a43f9b6f1c01c6edcf"
-    },
-    {
-      "path": "manifests/package_manifest.pre-region-r7.json",
-      "bytes": 174001,
-      "sha256": "8a661ee9cafc04fa09cc15ab67f3378c9f2b44070cbbb81c37f335bd8bb931f5"
-    },
-    {
-      "path": "manifests/package_manifest.pre-region-readback-r10.json",
-      "bytes": 177423,
-      "sha256": "3668591e84eaa6168a20f1297da087bd394f2aa080bdf2456c5531b5182e7abc"
-    },
-    {
       "path": "manifests/package_manifest.pre-t100-r6.json",
       "bytes": 177207,
       "sha256": "c16a8f1237cd72da6c5c5ccbf9a006c85f6ffeff2c43aaec51bd39527045663c"
@@ -3053,21 +3023,6 @@
       "path": "re-tools/wheels/capstone-5.0.6-py3-none-win_amd64.whl",
       "bytes": 1271345,
       "sha256": "761c3deae00b22ac697081cdae1383bb90659dd0d79387a09cf5bdbb22b17064"
-    },
-    {
-      "path": "region_app.py",
-      "bytes": 33030,
-      "sha256": "3e2e2060ee338bff653bfc93d6b825b3b782c469a57ee7a5b952ea31c4d0efc2"
-    },
-    {
-      "path": "region_compat.py",
-      "bytes": 6862,
-      "sha256": "b8e00582b9f700eacf2ca2f84fd77c52175bfea326240fbc34176fba283ee3f4"
-    },
-    {
-      "path": "region_protocol.py",
-      "bytes": 6525,
-      "sha256": "5b755b9ad0f2674b7888dfd64f5feea36035342d734b882318cc59ce6d4b9ee9"
     },
     {
       "path": "release_bundle.py",
@@ -3975,11 +3930,6 @@
       "sha256": "284e6ff1135930900fddca4f9220c05c88754382b60916c5eed56e916daacb7e"
     },
     {
-      "path": "reports/inquiry-20260917-145146-246254.json",
-      "bytes": 240,
-      "sha256": "aa68d42d942c955253b0f5d2e8a9328d274a93c9e060da68cacff73e2ea1e6bf"
-    },
-    {
       "path": "reports/inventory-20260916-164347-247424.json",
       "bytes": 440,
       "sha256": "2d3adf81e96109503082ebacff6efe9c5e9e40ac80474fa39901a9eeebbbe229"
@@ -3988,11 +3938,6 @@
       "path": "reports/inventory-20260916-164552-470728.json",
       "bytes": 333,
       "sha256": "9ff5de143b458a58e800784c01d29e5507461ca24d2678342e095aab3c567198"
-    },
-    {
-      "path": "reports/inventory-20260917-145138-123492.json",
-      "bytes": 1001,
-      "sha256": "399bf9060b91e2bf06500e0de904236ed87e47be5d924c6dc644debf5b9b27c7"
     },
     {
       "path": "reports/legacy-dsc-vs-a330.md",
@@ -4013,16 +3958,6 @@
       "path": "reports/local-service-package-matches.json",
       "bytes": 271,
       "sha256": "1bd573356c60885550fe6b23d5c18c3f22724dd2aec0f06a59d77339cc53b82b"
-    },
-    {
-      "path": "reports/nonadmin-access-20260917-145344.json",
-      "bytes": 309,
-      "sha256": "ad6e39c247d262ec8278716fdd2e5b4fe7e3eadb61b0c91f9aed28c4e806d760"
-    },
-    {
-      "path": "reports/nonadmin-storage-20260917-145412.json",
-      "bytes": 307,
-      "sha256": "b9a33e897b50f40eedbb04f702a3af2cd70830dd1840d91b6004ab569ded44c3"
     },
     {
       "path": "reports/offline-protocol-checks.json",
@@ -4148,91 +4083,6 @@
       "path": "reports/portable-validation.json",
       "bytes": 5851,
       "sha256": "aed1d3fe4946a2f3e7473405ee1ddc40f12831efe3be5e89998aec534f87cb60"
-    },
-    {
-      "path": "reports/region-app/README.md",
-      "bytes": 10694,
-      "sha256": "9b54735021047cb7d43e77ed6e74b70d46fedfc4461d7602292aea87a81378fa"
-    },
-    {
-      "path": "reports/region-app/inspect_recovery.py",
-      "bytes": 2014,
-      "sha256": "b801ae05e51739b892665a2c8d04f06a4eb242799166fb59375405c402ff7275"
-    },
-    {
-      "path": "reports/region-app/inspect_t100_transport.py",
-      "bytes": 1174,
-      "sha256": "caa2271e664e30a036dde94da3587f40ad81750fa11fcdc7ec5e6427e2fbca47"
-    },
-    {
-      "path": "reports/region-app/portable-validation-v2.json",
-      "bytes": 3046,
-      "sha256": "4ee0bd632efca9af047f9c7744b62be8d1671f47387d1482b42e312ce234345c"
-    },
-    {
-      "path": "reports/region-app/portable-validation-v4.json",
-      "bytes": 3064,
-      "sha256": "0eb3941d215814d38669a7519224e1e2b53c63eb3fd13d84a5b40e17dd298cc1"
-    },
-    {
-      "path": "reports/region-app/portable-validation.json",
-      "bytes": 2885,
-      "sha256": "f8f76dd07ffc72f02f14d286861ea50be8aaf2138ea6886ebc446b6865a28d8c"
-    },
-    {
-      "path": "reports/region-app/qualification-template.json",
-      "bytes": 407,
-      "sha256": "c297e135873b074304fc0d006fe549c6e349c75570754ad9293a0b6e35f022c6"
-    },
-    {
-      "path": "reports/region-app/recovery-inputs.json",
-      "bytes": 573,
-      "sha256": "646273ebdabb8780ce1ae494d43693bbbdd2873bf7cc901d1e4d142fc890597b"
-    },
-    {
-      "path": "reports/region-app/recovery-layout.md",
-      "bytes": 3437,
-      "sha256": "69295befcb09b6794bc464845079c3bbd7a10076f145e16950b6e88acd7a92b8"
-    },
-    {
-      "path": "reports/region-app/recovery-native.txt",
-      "bytes": 24183,
-      "sha256": "eaaf837d30b0c212068814f9a155940d70f9a0609f13c29b8c23faff1b260777"
-    },
-    {
-      "path": "reports/region-app/reference-compatibility.json",
-      "bytes": 7100,
-      "sha256": "3d46acb438607380d0dbe6a5684f7defca172e483ca0b301376be6651eb0fb8e"
-    },
-    {
-      "path": "reports/region-app/t100-transport-native.txt",
-      "bytes": 47487,
-      "sha256": "6e62f03f63841cafff29275466eee54442122c032a68582851ef7df722264b19"
-    },
-    {
-      "path": "reports/region-app/t100-transport.md",
-      "bytes": 2395,
-      "sha256": "1f87bea087c4c326d99abc7dcbceadd3a1108ecfeff19738462d60ebaa1378c0"
-    },
-    {
-      "path": "reports/region-service-method/README.md",
-      "bytes": 6851,
-      "sha256": "ed7f8e51f8fbfffed173eff7c12fafdeb8ada87f82127057a374fb12783b24bb"
-    },
-    {
-      "path": "reports/region-service-method/inspect_method.py",
-      "bytes": 1217,
-      "sha256": "35f8c8971d45bcd633390aeba1178745c4315ddcee97fc752b34fbb1eab71769"
-    },
-    {
-      "path": "reports/region-service-method/native-trace.txt",
-      "bytes": 24543,
-      "sha256": "a8a990b0459f6b64ac2dd3e66f4c5c31d8e0460b925dfedab6e44866b7777846"
-    },
-    {
-      "path": "reports/region-service-method/packet.py",
-      "bytes": 1440,
-      "sha256": "b25242336f8d319e32b2b4d42fb68db988d251d6344e0063f75e85c589b05443"
     },
     {
       "path": "reports/release-r3/fresh-checkout-tests.json",
@@ -4711,10 +4561,35 @@
     }
   ],
   "added_artifacts": [
-    "manifests/package_manifest.pre-region-readback-r10.json",
-    "reports/region-app/inspect_t100_transport.py",
-    "reports/region-app/portable-validation-v4.json",
-    "reports/region-app/t100-transport-native.txt",
-    "reports/region-app/t100-transport.md"
+    "downloads/related-firmware/DSCT100V2.exe",
+    "downloads/related-firmware/ci-.github_workflows_ci.yml",
+    "downloads/related-firmware/ci-README.md",
+    "downloads/related-firmware/ci-tests_test_cxd4108.py",
+    "downloads/related-firmware/openmemories-tree.json",
+    "downloads/related-firmware/pages-acquisition.json",
+    "downloads/related-firmware/sony-t100-gpl.html",
+    "downloads/related-firmware/t100-acquisition.json",
+    "manifests/package_manifest.pre-t100-r6.json",
+    "reports/t100-language-comparison/G3-dsc.xsb.json",
+    "reports/t100-language-comparison/G3-dsc.xsb.txt",
+    "reports/t100-language-comparison/G3-regionInfo.xsb.json",
+    "reports/t100-language-comparison/G3-regionInfo.xsb.txt",
+    "reports/t100-language-comparison/G3-senserCmdTable.xsb.json",
+    "reports/t100-language-comparison/G3-senserCmdTable.xsb.txt",
+    "reports/t100-language-comparison/README.md",
+    "reports/t100-language-comparison/T100-dsc.xsb.json",
+    "reports/t100-language-comparison/T100-dsc.xsb.txt",
+    "reports/t100-language-comparison/T100-regionInfo.xsb.json",
+    "reports/t100-language-comparison/T100-regionInfo.xsb.txt",
+    "reports/t100-language-comparison/T100-senserModule.xsb.json",
+    "reports/t100-language-comparison/T100-senserModule.xsb.txt",
+    "reports/t100-language-comparison/acquisition.json",
+    "reports/t100-language-comparison/compare.py",
+    "reports/t100-language-comparison/comparison.json",
+    "reports/t100-language-comparison/extract_t100.py",
+    "reports/t100-language-comparison/extraction.json",
+    "reports/t100-language-comparison/native-fields.asm.txt",
+    "reports/t100-language-comparison/t100-remapper.asm.txt",
+    "reports/t100-language-comparison/t100-selected-handlers.asm.txt"
   ]
 }

@@ -1,0 +1,184 @@
+{
+  "schema": "region-exact-components-v1",
+  "meaning": "Exact matches to reviewed comparative components; W300 live behavior remains untested",
+  "hreg_bytes": 2048,
+  "hreg_offsets": [
+    1024,
+    1028,
+    1032,
+    1036
+  ],
+  "completion_marker_offset": 496,
+  "files": {
+    "/usr/lib/libBackupTable.so": [
+      {
+        "model": "G3",
+        "bytes": 93744,
+        "sha256": "a0c2462b3c2418ae6583b22594685a69560940f50c2f07abc3d2799496ecae5e",
+        "source": "evidence/extracted_g3/archives_unpacked/lib/lib/libBackupTable.so"
+      },
+      {
+        "model": "T100",
+        "bytes": 66460,
+        "sha256": "752797daf98bf0cbff532b25a0f5b98eed21b7d0e875c77557a25f979ab26897",
+        "source": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/lib/lib/libBackupTable.so"
+      }
+    ],
+    "/usr/lib/libBackupCore.so": [
+      {
+        "model": "G3",
+        "bytes": 61008,
+        "sha256": "56aa2595c4747b6aadc1c0c3bb7a438b15086951121024a8649254cdec61fd4b",
+        "source": "evidence/extracted_g3/archives_unpacked/lib/lib/libBackupCore.so"
+      },
+      {
+        "model": "T100",
+        "bytes": 52472,
+        "sha256": "9642f9a5841321d84f64573144633f926c9a2403c7ab06e10c405796ce2694e1",
+        "source": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/lib/lib/libBackupCore.so"
+      }
+    ],
+    "/usr/lib/libAppBackupApi.so": [
+      {
+        "model": "G3",
+        "bytes": 23408,
+        "sha256": "9ce75b37757afb5ec3934f6091992185942cc7d2a52ff98348f14b713534a699",
+        "source": "evidence/extracted_g3/archives_unpacked/lib/lib/libAppBackupApi.so"
+      },
+      {
+        "model": "T100",
+        "bytes": 15456,
+        "sha256": "90529aa8a62fc0aed3d6e95cde3a78c560a41155e74035dca263cbf51ec1a8eb",
+        "source": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/lib/lib/libAppBackupApi.so"
+      }
+    ],
+    "/usr/lib/libsencore.so": [
+      {
+        "model": "G3",
+        "bytes": 84120,
+        "sha256": "401bc78bc84bd175968513a387b8951626ceb48a345eed134b998d3630103270",
+        "source": "evidence/extracted_g3/archives_unpacked/lib/lib/libsencore.so"
+      }
+    ],
+    "/usr/dsc/fsk/regionInfo.xsb": [
+      {
+        "model": "G3",
+        "bytes": 5843,
+        "sha256": "76061909683201a196ce277767c61c0954b8952a458f7620415cbb748928162c",
+        "source": "evidence/extracted_g3/archives_unpacked/fskrel1/dsc/fsk/regionInfo.xsb"
+      },
+      {
+        "model": "T100",
+        "bytes": 4687,
+        "sha256": "b07f58367de75a90b8dfc4409d124465dce60848d651b1434a636a782ad1fd09",
+        "source": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskrel3/dsc/fsk/regionInfo.xsb"
+      }
+    ],
+    "/usr/dsc/fsk/senserModule.xsb": [
+      {
+        "model": "G3",
+        "bytes": 1681,
+        "sha256": "b40523072708fb049781141b7e89742e2aefa43b4cc42ca3db52feb4aac756f0",
+        "source": "evidence/extracted_g3/archives_unpacked/fskrel1/dsc/fsk/senserModule.xsb"
+      },
+      {
+        "model": "T100",
+        "bytes": 101995,
+        "sha256": "162564650b73423ae350bfd47fea8084e64844c5d2a266b759acb21c5cdbea1b",
+        "source": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskrel3/dsc/fsk/senserModule.xsb"
+      }
+    ],
+    "/usr/dsc/fsk/senserCmdTable.xsb": [
+      {
+        "model": "G3",
+        "bytes": 84575,
+        "sha256": "d7d82f5437d375ef42fcc0fc1dbddaadc7cd90977741a4b2dc42f5cf8caa50db",
+        "source": "evidence/extracted_g3/archives_unpacked/fskrel1/dsc/fsk/senserCmdTable.xsb"
+      }
+    ],
+    "/usr/dsc/fsk/dsc.xsb": [
+      {
+        "model": "G3",
+        "bytes": 1505107,
+        "sha256": "8aa1c38314260731cba6d8040086de647be5d21f2680ba41df4987a0c0b51c13",
+        "source": "evidence/extracted_g3/archives_unpacked/fskrel1/dsc/fsk/dsc.xsb"
+      },
+      {
+        "model": "T100",
+        "bytes": 825288,
+        "sha256": "5c6e91b8c08c9ada902db66cc04382395e677e691cc22af5aa00ab94c5c3e4d2",
+        "source": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskrel3/dsc/fsk/dsc.xsb"
+      }
+    ],
+    "/usr/dsc/fsk/PExtBackup.so": [
+      {
+        "model": "G3",
+        "bytes": 24132,
+        "sha256": "8c4eb1eec33464e2297dda4ce6461f9bb94a137928368a76d33eb463ae6b02dd",
+        "source": "evidence/extracted_g3/archives_unpacked/fskrel1/dsc/fsk/PExtBackup.so"
+      },
+      {
+        "model": "T100",
+        "bytes": 24852,
+        "sha256": "9cc4a04794a46af6371b7d118a8549164669a0cbde19dd549d73c451147840ee",
+        "source": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskrel3/dsc/fsk/PExtBackup.so"
+      }
+    ],
+    "/usr/dsc/fsk/PExtSenser.so": [
+      {
+        "model": "G3",
+        "bytes": 84900,
+        "sha256": "633d64cf7ce3b44b400f12b87e6044c12e840ba9c96a4dd1ed8a19a2bdd26635",
+        "source": "evidence/extracted_g3/archives_unpacked/fskrel1/dsc/fsk/PExtSenser.so"
+      },
+      {
+        "model": "T100",
+        "bytes": 35300,
+        "sha256": "66d7d0a47713460ca1e4cb4a279c0693fbd493c0a42328e147f2595ffb08b155",
+        "source": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskrel3/dsc/fsk/PExtSenser.so"
+      }
+    ],
+    "/usr/dsc/fsk/kconfig.xml": [
+      {
+        "model": "G3",
+        "bytes": 771,
+        "sha256": "9ed3c53c77ccee85d4093856c802de4b87763062e847c0befe7452094c315745",
+        "source": "evidence/extracted_g3/archives_unpacked/fskrel1/dsc/fsk/kconfig.xml"
+      },
+      {
+        "model": "T100",
+        "bytes": 736,
+        "sha256": "c29b3c23378339bffcf278713c78638f291b5fd3002587a034a7c83375d53f4c",
+        "source": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskrel3/dsc/fsk/kconfig.xml"
+      }
+    ],
+    "/usr/dsc/fsk/tinyhttp": [
+      {
+        "model": "G3",
+        "bytes": 988688,
+        "sha256": "2fb7914c1f111650e0022db4f3c52b3d5328f9e16c20dc1a15db5cef6212203c",
+        "source": "evidence/extracted_g3/archives_unpacked/fskrel1/dsc/fsk/tinyhttp"
+      },
+      {
+        "model": "T100",
+        "bytes": 1330156,
+        "sha256": "e9d48783de02f105c687fd4b6cdd070ea72f181080c3324798e5fc2fe13ebf5b",
+        "source": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskrel1/dsc/fsk/tinyhttp"
+      }
+    ],
+    "/usr/dsc/app/scripts/kconfig.xml": [
+      {
+        "model": "G3",
+        "bytes": 1658,
+        "sha256": "9b2b769c0070ffe2ceac8f2c6781f924295baca23a1db784ea4fd15215b83ffb",
+        "source": "evidence/extracted_g3/archives_unpacked/fskapp1/dsc/app/scripts/kconfig.xml"
+      },
+      {
+        "model": "T100",
+        "bytes": 1081,
+        "sha256": "d903f949a25dd2292e5e88b9e23f3faf8d75dd8586f1ed88b7fe18d28c3a76e8",
+        "source": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/kconfig.xml"
+      }
+    ]
+  }
+}

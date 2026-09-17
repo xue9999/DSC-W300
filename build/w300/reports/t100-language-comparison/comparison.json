@@ -1,0 +1,1476 @@
+{
+  "ok": true,
+  "scope": "Static comparison of Sony T100 updater and retained G3 firmware",
+  "fields": [
+    {
+      "model": "T100",
+      "table_sha256": "752797daf98bf0cbff532b25a0f5b98eed21b7d0e875c77557a25f979ab26897",
+      "rows": [
+        {
+          "array": "HOST_PROD_REG",
+          "va": 44020,
+          "file_offset": 11252,
+          "values": [
+            262144,
+            4,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "array": "HOST_PROD_REG",
+          "va": 44040,
+          "file_offset": 11272,
+          "values": [
+            263168,
+            4,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "array": "HOST_PROD_REG",
+          "va": 44060,
+          "file_offset": 11292,
+          "values": [
+            264192,
+            4,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "array": "HOST_PROD_REG",
+          "va": 44080,
+          "file_offset": 11312,
+          "values": [
+            265216,
+            4,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "array": "HOST_COM_REG",
+          "va": 44140,
+          "file_offset": 11372,
+          "values": [
+            66560,
+            1,
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "category0_files": [
+        "/boot/factory/Hreg.bin",
+        "/boot/factory/Hreg2.bak"
+      ],
+      "grammar_associations": [
+        {
+          "property": [
+            "69:BkupID_Reg_cmn__DestinationID"
+          ],
+          "literal": "'0x00010400'",
+          "sequence": [
+            {
+              "offset": 1564,
+              "file_offset": 1564,
+              "opcode": 106,
+              "raw": "6a3078303030313034303000",
+              "remap_target": "0x9cd04",
+              "symbols": [],
+              "note": "'0x00010400'"
+            },
+            {
+              "offset": 1576,
+              "file_offset": 1576,
+              "opcode": 137,
+              "raw": "8901",
+              "remap_target": "0x9cccc",
+              "symbols": [],
+              "note": ""
+            },
+            {
+              "offset": 1578,
+              "file_offset": 1578,
+              "opcode": 109,
+              "raw": "6d",
+              "remap_target": "0x9ca9c",
+              "symbols": [],
+              "note": ""
+            },
+            {
+              "offset": 1579,
+              "file_offset": 1579,
+              "opcode": 66,
+              "raw": "42802b",
+              "remap_target": "0x9ccd4",
+              "symbols": [
+                "43:__xs__number"
+              ],
+              "note": ""
+            },
+            {
+              "offset": 1582,
+              "file_offset": 1582,
+              "opcode": 46,
+              "raw": "2e802c",
+              "remap_target": "0x9ccd4",
+              "symbols": [
+                "44:parse"
+              ],
+              "note": ""
+            },
+            {
+              "offset": 1585,
+              "file_offset": 1585,
+              "opcode": 108,
+              "raw": "6c",
+              "remap_target": "0x9ca9c",
+              "symbols": [],
+              "note": ""
+            },
+            {
+              "offset": 1586,
+              "file_offset": 1586,
+              "opcode": 124,
+              "raw": "7c80451010",
+              "remap_target": "0x9cd18",
+              "symbols": [
+                "69:BkupID_Reg_cmn__DestinationID"
+              ],
+              "note": ""
+            }
+          ]
+        },
+        {
+          "property": [
+            "96:BkupID_Reg_brewApp__regionData"
+          ],
+          "literal": "'0x00040000'",
+          "sequence": [
+            {
+              "offset": 2347,
+              "file_offset": 2347,
+              "opcode": 106,
+              "raw": "6a3078303030343030303000",
+              "remap_target": "0x9cd04",
+              "symbols": [],
+              "note": "'0x00040000'"
+            },
+            {
+              "offset": 2359,
+              "file_offset": 2359,
+              "opcode": 137,
+              "raw": "8901",
+              "remap_target": "0x9cccc",
+              "symbols": [],
+              "note": ""
+            },
+            {
+              "offset": 2361,
+              "file_offset": 2361,
+              "opcode": 109,
+              "raw": "6d",
+              "remap_target": "0x9ca9c",
+              "symbols": [],
+              "note": ""
+            },
+            {
+              "offset": 2362,
+              "file_offset": 2362,
+              "opcode": 66,
+              "raw": "42802b",
+              "remap_target": "0x9ccd4",
+              "symbols": [
+                "43:__xs__number"
+              ],
+              "note": ""
+            },
+            {
+              "offset": 2365,
+              "file_offset": 2365,
+              "opcode": 46,
+              "raw": "2e802c",
+              "remap_target": "0x9ccd4",
+              "symbols": [
+                "44:parse"
+              ],
+              "note": ""
+            },
+            {
+              "offset": 2368,
+              "file_offset": 2368,
+              "opcode": 108,
+              "raw": "6c",
+              "remap_target": "0x9ca9c",
+              "symbols": [],
+              "note": ""
+            },
+            {
+              "offset": 2369,
+              "file_offset": 2369,
+              "opcode": 124,
+              "raw": "7c80601010",
+              "remap_target": "0x9cd18",
+              "symbols": [
+                "96:BkupID_Reg_brewApp__regionData"
+              ],
+              "note": ""
+            }
+          ]
+        },
+        {
+          "property": [
+            "97:BkupID_Reg_brewApp__initLangData"
+          ],
+          "literal": "'0x00040400'",
+          "sequence": [
+            {
+              "offset": 2376,
+              "file_offset": 2376,
+              "opcode": 106,
+              "raw": "6a3078303030343034303000",
+              "remap_target": "0x9cd04",
+              "symbols": [],
+              "note": "'0x00040400'"
+            },
+            {
+              "offset": 2388,
+              "file_offset": 2388,
+              "opcode": 137,
+              "raw": "8901",
+              "remap_target": "0x9cccc",
+              "symbols": [],
+              "note": ""
+            },
+            {
+              "offset": 2390,
+              "file_offset": 2390,
+              "opcode": 109,
+              "raw": "6d",
+              "remap_target": "0x9ca9c",
+              "symbols": [],
+              "note": ""
+            },
+            {
+              "offset": 2391,
+              "file_offset": 2391,
+              "opcode": 66,
+              "raw": "42802b",
+              "remap_target": "0x9ccd4",
+              "symbols": [
+                "43:__xs__number"
+              ],
+              "note": ""
+            },
+            {
+              "offset": 2394,
+              "file_offset": 2394,
+              "opcode": 46,
+              "raw": "2e802c",
+              "remap_target": "0x9ccd4",
+              "symbols": [
+                "44:parse"
+              ],
+              "note": ""
+            },
+            {
+              "offset": 2397,
+              "file_offset": 2397,
+              "opcode": 108,
+              "raw": "6c",
+              "remap_target": "0x9ca9c",
+              "symbols": [],
+              "note": ""
+            },
+            {
+              "offset": 2398,
+              "file_offset": 2398,
+              "opcode": 124,
+              "raw": "7c80611010",
+              "remap_target": "0x9cd18",
+              "symbols": [
+                "97:BkupID_Reg_brewApp__initLangData"
+              ],
+              "note": ""
+            }
+          ]
+        },
+        {
+          "property": [
+            "98:BkupID_Reg_brewApp__availLangData"
+          ],
+          "literal": "'0x00040800'",
+          "sequence": [
+            {
+              "offset": 2405,
+              "file_offset": 2405,
+              "opcode": 106,
+              "raw": "6a3078303030343038303000",
+              "remap_target": "0x9cd04",
+              "symbols": [],
+              "note": "'0x00040800'"
+            },
+            {
+              "offset": 2417,
+              "file_offset": 2417,
+              "opcode": 137,
+              "raw": "8901",
+              "remap_target": "0x9cccc",
+              "symbols": [],
+              "note": ""
+            },
+            {
+              "offset": 2419,
+              "file_offset": 2419,
+              "opcode": 109,
+              "raw": "6d",
+              "remap_target": "0x9ca9c",
+              "symbols": [],
+              "note": ""
+            },
+            {
+              "offset": 2420,
+              "file_offset": 2420,
+              "opcode": 66,
+              "raw": "42802b",
+              "remap_target": "0x9ccd4",
+              "symbols": [
+                "43:__xs__number"
+              ],
+              "note": ""
+            },
+            {
+              "offset": 2423,
+              "file_offset": 2423,
+              "opcode": 46,
+              "raw": "2e802c",
+              "remap_target": "0x9ccd4",
+              "symbols": [
+                "44:parse"
+              ],
+              "note": ""
+            },
+            {
+              "offset": 2426,
+              "file_offset": 2426,
+              "opcode": 108,
+              "raw": "6c",
+              "remap_target": "0x9ca9c",
+              "symbols": [],
+              "note": ""
+            },
+            {
+              "offset": 2427,
+              "file_offset": 2427,
+              "opcode": 124,
+              "raw": "7c80621010",
+              "remap_target": "0x9cd18",
+              "symbols": [
+                "98:BkupID_Reg_brewApp__availLangData"
+              ],
+              "note": ""
+            }
+          ]
+        },
+        {
+          "property": [
+            "99:BkupID_Reg_brewApp__signalTypeData"
+          ],
+          "literal": "'0x00040C00'",
+          "sequence": [
+            {
+              "offset": 2434,
+              "file_offset": 2434,
+              "opcode": 106,
+              "raw": "6a3078303030343043303000",
+              "remap_target": "0x9cd04",
+              "symbols": [],
+              "note": "'0x00040C00'"
+            },
+            {
+              "offset": 2446,
+              "file_offset": 2446,
+              "opcode": 137,
+              "raw": "8901",
+              "remap_target": "0x9cccc",
+              "symbols": [],
+              "note": ""
+            },
+            {
+              "offset": 2448,
+              "file_offset": 2448,
+              "opcode": 109,
+              "raw": "6d",
+              "remap_target": "0x9ca9c",
+              "symbols": [],
+              "note": ""
+            },
+            {
+              "offset": 2449,
+              "file_offset": 2449,
+              "opcode": 66,
+              "raw": "42802b",
+              "remap_target": "0x9ccd4",
+              "symbols": [
+                "43:__xs__number"
+              ],
+              "note": ""
+            },
+            {
+              "offset": 2452,
+              "file_offset": 2452,
+              "opcode": 46,
+              "raw": "2e802c",
+              "remap_target": "0x9ccd4",
+              "symbols": [
+                "44:parse"
+              ],
+              "note": ""
+            },
+            {
+              "offset": 2455,
+              "file_offset": 2455,
+              "opcode": 108,
+              "raw": "6c",
+              "remap_target": "0x9ca9c",
+              "symbols": [],
+              "note": ""
+            },
+            {
+              "offset": 2456,
+              "file_offset": 2456,
+              "opcode": 124,
+              "raw": "7c80631010",
+              "remap_target": "0x9cd18",
+              "symbols": [
+                "99:BkupID_Reg_brewApp__signalTypeData"
+              ],
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "model": "G3",
+      "table_sha256": "a0c2462b3c2418ae6583b22594685a69560940f50c2f07abc3d2799496ecae5e",
+      "rows": [
+        {
+          "array": "HOST_PROD_REG",
+          "va": 46728,
+          "file_offset": 13960,
+          "values": [
+            262144,
+            4,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "array": "HOST_PROD_REG",
+          "va": 46748,
+          "file_offset": 13980,
+          "values": [
+            263168,
+            4,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "array": "HOST_PROD_REG",
+          "va": 46768,
+          "file_offset": 14000,
+          "values": [
+            264192,
+            4,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "array": "HOST_PROD_REG",
+          "va": 46788,
+          "file_offset": 14020,
+          "values": [
+            265216,
+            4,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "array": "HOST_COM_REG",
+          "va": 47028,
+          "file_offset": 14260,
+          "values": [
+            66560,
+            1,
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "category0_files": [
+        "/boot/factory/Hreg.bin",
+        "/boot/factory/Hreg2.bak"
+      ],
+      "grammar_associations": [
+        {
+          "property": [
+            "69:BkupID_Reg_cmn__DestinationID"
+          ],
+          "literal": "'0x00010400'",
+          "sequence": [
+            {
+              "offset": 1564,
+              "file_offset": 1564,
+              "opcode": 106,
+              "raw": "6a3078303030313034303000",
+              "remap_target": "0x942a4",
+              "symbols": [],
+              "note": "'0x00010400'"
+            },
+            {
+              "offset": 1576,
+              "file_offset": 1576,
+              "opcode": 137,
+              "raw": "8901",
+              "remap_target": "0x9426c",
+              "symbols": [],
+              "note": ""
+            },
+            {
+              "offset": 1578,
+              "file_offset": 1578,
+              "opcode": 109,
+              "raw": "6d",
+              "remap_target": "0x9403c",
+              "symbols": [],
+              "note": ""
+            },
+            {
+              "offset": 1579,
+              "file_offset": 1579,
+              "opcode": 66,
+              "raw": "42802b",
+              "remap_target": "0x94274",
+              "symbols": [
+                "43:__xs__number"
+              ],
+              "note": ""
+            },
+            {
+              "offset": 1582,
+              "file_offset": 1582,
+              "opcode": 46,
+              "raw": "2e802c",
+              "remap_target": "0x94274",
+              "symbols": [
+                "44:parse"
+              ],
+              "note": ""
+            },
+            {
+              "offset": 1585,
+              "file_offset": 1585,
+              "opcode": 108,
+              "raw": "6c",
+              "remap_target": "0x9403c",
+              "symbols": [],
+              "note": ""
+            },
+            {
+              "offset": 1586,
+              "file_offset": 1586,
+              "opcode": 124,
+              "raw": "7c80451010",
+              "remap_target": "0x942b8",
+              "symbols": [
+                "69:BkupID_Reg_cmn__DestinationID"
+              ],
+              "note": ""
+            }
+          ]
+        },
+        {
+          "property": [
+            "78:BkupID_Reg_brewApp__regionData"
+          ],
+          "literal": "'0x00040000'",
+          "sequence": [
+            {
+              "offset": 1825,
+              "file_offset": 1825,
+              "opcode": 106,
+              "raw": "6a3078303030343030303000",
+              "remap_target": "0x942a4",
+              "symbols": [],
+              "note": "'0x00040000'"
+            },
+            {
+              "offset": 1837,
+              "file_offset": 1837,
+              "opcode": 137,
+              "raw": "8901",
+              "remap_target": "0x9426c",
+              "symbols": [],
+              "note": ""
+            },
+            {
+              "offset": 1839,
+              "file_offset": 1839,
+              "opcode": 109,
+              "raw": "6d",
+              "remap_target": "0x9403c",
+              "symbols": [],
+              "note": ""
+            },
+            {
+              "offset": 1840,
+              "file_offset": 1840,
+              "opcode": 66,
+              "raw": "42802b",
+              "remap_target": "0x94274",
+              "symbols": [
+                "43:__xs__number"
+              ],
+              "note": ""
+            },
+            {
+              "offset": 1843,
+              "file_offset": 1843,
+              "opcode": 46,
+              "raw": "2e802c",
+              "remap_target": "0x94274",
+              "symbols": [
+                "44:parse"
+              ],
+              "note": ""
+            },
+            {
+              "offset": 1846,
+              "file_offset": 1846,
+              "opcode": 108,
+              "raw": "6c",
+              "remap_target": "0x9403c",
+              "symbols": [],
+              "note": ""
+            },
+            {
+              "offset": 1847,
+              "file_offset": 1847,
+              "opcode": 124,
+              "raw": "7c804e1010",
+              "remap_target": "0x942b8",
+              "symbols": [
+                "78:BkupID_Reg_brewApp__regionData"
+              ],
+              "note": ""
+            }
+          ]
+        },
+        {
+          "property": [
+            "79:BkupID_Reg_brewApp__initLangData"
+          ],
+          "literal": "'0x00040400'",
+          "sequence": [
+            {
+              "offset": 1854,
+              "file_offset": 1854,
+              "opcode": 106,
+              "raw": "6a3078303030343034303000",
+              "remap_target": "0x942a4",
+              "symbols": [],
+              "note": "'0x00040400'"
+            },
+            {
+              "offset": 1866,
+              "file_offset": 1866,
+              "opcode": 137,
+              "raw": "8901",
+              "remap_target": "0x9426c",
+              "symbols": [],
+              "note": ""
+            },
+            {
+              "offset": 1868,
+              "file_offset": 1868,
+              "opcode": 109,
+              "raw": "6d",
+              "remap_target": "0x9403c",
+              "symbols": [],
+              "note": ""
+            },
+            {
+              "offset": 1869,
+              "file_offset": 1869,
+              "opcode": 66,
+              "raw": "42802b",
+              "remap_target": "0x94274",
+              "symbols": [
+                "43:__xs__number"
+              ],
+              "note": ""
+            },
+            {
+              "offset": 1872,
+              "file_offset": 1872,
+              "opcode": 46,
+              "raw": "2e802c",
+              "remap_target": "0x94274",
+              "symbols": [
+                "44:parse"
+              ],
+              "note": ""
+            },
+            {
+              "offset": 1875,
+              "file_offset": 1875,
+              "opcode": 108,
+              "raw": "6c",
+              "remap_target": "0x9403c",
+              "symbols": [],
+              "note": ""
+            },
+            {
+              "offset": 1876,
+              "file_offset": 1876,
+              "opcode": 124,
+              "raw": "7c804f1010",
+              "remap_target": "0x942b8",
+              "symbols": [
+                "79:BkupID_Reg_brewApp__initLangData"
+              ],
+              "note": ""
+            }
+          ]
+        },
+        {
+          "property": [
+            "80:BkupID_Reg_brewApp__availLangData"
+          ],
+          "literal": "'0x00040800'",
+          "sequence": [
+            {
+              "offset": 1883,
+              "file_offset": 1883,
+              "opcode": 106,
+              "raw": "6a3078303030343038303000",
+              "remap_target": "0x942a4",
+              "symbols": [],
+              "note": "'0x00040800'"
+            },
+            {
+              "offset": 1895,
+              "file_offset": 1895,
+              "opcode": 137,
+              "raw": "8901",
+              "remap_target": "0x9426c",
+              "symbols": [],
+              "note": ""
+            },
+            {
+              "offset": 1897,
+              "file_offset": 1897,
+              "opcode": 109,
+              "raw": "6d",
+              "remap_target": "0x9403c",
+              "symbols": [],
+              "note": ""
+            },
+            {
+              "offset": 1898,
+              "file_offset": 1898,
+              "opcode": 66,
+              "raw": "42802b",
+              "remap_target": "0x94274",
+              "symbols": [
+                "43:__xs__number"
+              ],
+              "note": ""
+            },
+            {
+              "offset": 1901,
+              "file_offset": 1901,
+              "opcode": 46,
+              "raw": "2e802c",
+              "remap_target": "0x94274",
+              "symbols": [
+                "44:parse"
+              ],
+              "note": ""
+            },
+            {
+              "offset": 1904,
+              "file_offset": 1904,
+              "opcode": 108,
+              "raw": "6c",
+              "remap_target": "0x9403c",
+              "symbols": [],
+              "note": ""
+            },
+            {
+              "offset": 1905,
+              "file_offset": 1905,
+              "opcode": 124,
+              "raw": "7c80501010",
+              "remap_target": "0x942b8",
+              "symbols": [
+                "80:BkupID_Reg_brewApp__availLangData"
+              ],
+              "note": ""
+            }
+          ]
+        },
+        {
+          "property": [
+            "81:BkupID_Reg_brewApp__signalTypeData"
+          ],
+          "literal": "'0x00040C00'",
+          "sequence": [
+            {
+              "offset": 1912,
+              "file_offset": 1912,
+              "opcode": 106,
+              "raw": "6a3078303030343043303000",
+              "remap_target": "0x942a4",
+              "symbols": [],
+              "note": "'0x00040C00'"
+            },
+            {
+              "offset": 1924,
+              "file_offset": 1924,
+              "opcode": 137,
+              "raw": "8901",
+              "remap_target": "0x9426c",
+              "symbols": [],
+              "note": ""
+            },
+            {
+              "offset": 1926,
+              "file_offset": 1926,
+              "opcode": 109,
+              "raw": "6d",
+              "remap_target": "0x9403c",
+              "symbols": [],
+              "note": ""
+            },
+            {
+              "offset": 1927,
+              "file_offset": 1927,
+              "opcode": 66,
+              "raw": "42802b",
+              "remap_target": "0x94274",
+              "symbols": [
+                "43:__xs__number"
+              ],
+              "note": ""
+            },
+            {
+              "offset": 1930,
+              "file_offset": 1930,
+              "opcode": 46,
+              "raw": "2e802c",
+              "remap_target": "0x94274",
+              "symbols": [
+                "44:parse"
+              ],
+              "note": ""
+            },
+            {
+              "offset": 1933,
+              "file_offset": 1933,
+              "opcode": 108,
+              "raw": "6c",
+              "remap_target": "0x9403c",
+              "symbols": [],
+              "note": ""
+            },
+            {
+              "offset": 1934,
+              "file_offset": 1934,
+              "opcode": 124,
+              "raw": "7c80511010",
+              "remap_target": "0x942b8",
+              "symbols": [
+                "81:BkupID_Reg_brewApp__signalTypeData"
+              ],
+              "note": ""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "region_xml": [
+    {
+      "model": "T100",
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/systemData/RegionInfo/RegionInfo_ENG_2_NT.xml",
+      "sha256": "46af4476f9aa369c54da7d7590b0da5252e6b3c35ed9abe40e6103a443e0f2a7",
+      "values": {
+        "lang": "eng",
+        "langGp": "2",
+        "sigTyp": "0"
+      }
+    },
+    {
+      "model": "T100",
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/systemData/RegionInfo/RegionInfo_ENG_2_PA.xml",
+      "sha256": "3ec6be050c1c4595a8ba64ef93a4160fe3c91e7126b084f17f5841b3f7d4a4ad",
+      "values": {
+        "lang": "eng",
+        "langGp": "2",
+        "sigTyp": "1"
+      }
+    },
+    {
+      "model": "T100",
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/systemData/RegionInfo/RegionInfo_ENG_3_PA.xml",
+      "sha256": "56605a0c60a1d332a8354e6bba42132eed7b193671ac0725c28a3536ae4ed949",
+      "values": {
+        "lang": "eng",
+        "langGp": "3",
+        "sigTyp": "1"
+      }
+    },
+    {
+      "model": "T100",
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/systemData/RegionInfo/RegionInfo_ENG_4_PA.xml",
+      "sha256": "18fae2ab013854e914c2a29b8705838905c43b464999e72e779971354a056adf",
+      "values": {
+        "lang": "eng",
+        "langGp": "4",
+        "sigTyp": "1"
+      }
+    },
+    {
+      "model": "T100",
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/systemData/RegionInfo/RegionInfo_JPN_1_NT.xml",
+      "sha256": "0841d4629e3885eb50c12a38ba5cacbe4c8772995eeb25b45c906f3b7f9997da",
+      "values": {
+        "lang": "jpn",
+        "langGp": "1",
+        "sigTyp": "0"
+      }
+    },
+    {
+      "model": "T100",
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/systemData/RegionInfo/RegionInfo_KOR_4_NT.xml",
+      "sha256": "2c7bfa87c22a5a2e0f4924bf658fce35eff0166dece0ccb495c492003e539410",
+      "values": {
+        "lang": "kor",
+        "langGp": "4",
+        "sigTyp": "0"
+      }
+    },
+    {
+      "model": "T100",
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/systemData/RegionInfo/RegionInfo_POR_4_NT.xml",
+      "sha256": "fb5735c8f49cbb3ca923dcbdfd1b9b74f2405e09bd27fe52c2505beb83f833ea",
+      "values": {
+        "lang": "por",
+        "langGp": "4",
+        "sigTyp": "0"
+      }
+    },
+    {
+      "model": "T100",
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/systemData/RegionInfo/RegionInfo_RUS_3_PA.xml",
+      "sha256": "06bff0c7b4aa6481baaf35c4785a0d162877f0dbc9dc91c130c563fc28416529",
+      "values": {
+        "lang": "rus",
+        "langGp": "3",
+        "sigTyp": "1"
+      }
+    },
+    {
+      "model": "T100",
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/systemData/RegionInfo/RegionInfo_SCH_4_PA.xml",
+      "sha256": "44a46ab492bf3b862d3fa12c1cb8586d9df85ef43315d6d449ee8ca2d02576d2",
+      "values": {
+        "lang": "sch",
+        "langGp": "4",
+        "sigTyp": "1"
+      }
+    },
+    {
+      "model": "T100",
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/systemData/RegionInfo/RegionInfo_SPA_4_NT.xml",
+      "sha256": "4f6e6533c83c22b55f8625bf4afff6e608567a1282b896014b5117010cebba30",
+      "values": {
+        "lang": "spa",
+        "langGp": "4",
+        "sigTyp": "0"
+      }
+    },
+    {
+      "model": "G3",
+      "path": "evidence/extracted_g3/archives_unpacked/fskapp1/dsc/app/systemData/RegionInfo/RegionInfo_ENG_2_NT.xml",
+      "sha256": "46af4476f9aa369c54da7d7590b0da5252e6b3c35ed9abe40e6103a443e0f2a7",
+      "values": {
+        "lang": "eng",
+        "langGp": "2",
+        "sigTyp": "0"
+      }
+    },
+    {
+      "model": "G3",
+      "path": "evidence/extracted_g3/archives_unpacked/fskapp1/dsc/app/systemData/RegionInfo/RegionInfo_ENG_2_PA.xml",
+      "sha256": "3ec6be050c1c4595a8ba64ef93a4160fe3c91e7126b084f17f5841b3f7d4a4ad",
+      "values": {
+        "lang": "eng",
+        "langGp": "2",
+        "sigTyp": "1"
+      }
+    },
+    {
+      "model": "G3",
+      "path": "evidence/extracted_g3/archives_unpacked/fskapp1/dsc/app/systemData/RegionInfo/RegionInfo_ENG_3_PA.xml",
+      "sha256": "56605a0c60a1d332a8354e6bba42132eed7b193671ac0725c28a3536ae4ed949",
+      "values": {
+        "lang": "eng",
+        "langGp": "3",
+        "sigTyp": "1"
+      }
+    },
+    {
+      "model": "G3",
+      "path": "evidence/extracted_g3/archives_unpacked/fskapp1/dsc/app/systemData/RegionInfo/RegionInfo_ENG_4_PA.xml",
+      "sha256": "18fae2ab013854e914c2a29b8705838905c43b464999e72e779971354a056adf",
+      "values": {
+        "lang": "eng",
+        "langGp": "4",
+        "sigTyp": "1"
+      }
+    },
+    {
+      "model": "G3",
+      "path": "evidence/extracted_g3/archives_unpacked/fskapp1/dsc/app/systemData/RegionInfo/RegionInfo_ENG_5_PA.xml",
+      "sha256": "8928237ec2d50032f01e6397f012e06143164cf52b9c3fd165120353f09863f6",
+      "values": {
+        "lang": "eng",
+        "langGp": "5",
+        "sigTyp": "1"
+      }
+    },
+    {
+      "model": "G3",
+      "path": "evidence/extracted_g3/archives_unpacked/fskapp1/dsc/app/systemData/RegionInfo/RegionInfo_JPN_1_NT.xml",
+      "sha256": "0841d4629e3885eb50c12a38ba5cacbe4c8772995eeb25b45c906f3b7f9997da",
+      "values": {
+        "lang": "jpn",
+        "langGp": "1",
+        "sigTyp": "0"
+      }
+    },
+    {
+      "model": "G3",
+      "path": "evidence/extracted_g3/archives_unpacked/fskapp1/dsc/app/systemData/RegionInfo/RegionInfo_KOR_4_NT.xml",
+      "sha256": "2c7bfa87c22a5a2e0f4924bf658fce35eff0166dece0ccb495c492003e539410",
+      "values": {
+        "lang": "kor",
+        "langGp": "4",
+        "sigTyp": "0"
+      }
+    },
+    {
+      "model": "G3",
+      "path": "evidence/extracted_g3/archives_unpacked/fskapp1/dsc/app/systemData/RegionInfo/RegionInfo_POR_4_NT.xml",
+      "sha256": "fb5735c8f49cbb3ca923dcbdfd1b9b74f2405e09bd27fe52c2505beb83f833ea",
+      "values": {
+        "lang": "por",
+        "langGp": "4",
+        "sigTyp": "0"
+      }
+    },
+    {
+      "model": "G3",
+      "path": "evidence/extracted_g3/archives_unpacked/fskapp1/dsc/app/systemData/RegionInfo/RegionInfo_RUS_3_PA.xml",
+      "sha256": "06bff0c7b4aa6481baaf35c4785a0d162877f0dbc9dc91c130c563fc28416529",
+      "values": {
+        "lang": "rus",
+        "langGp": "3",
+        "sigTyp": "1"
+      }
+    },
+    {
+      "model": "G3",
+      "path": "evidence/extracted_g3/archives_unpacked/fskapp1/dsc/app/systemData/RegionInfo/RegionInfo_SCH_4_PA.xml",
+      "sha256": "44a46ab492bf3b862d3fa12c1cb8586d9df85ef43315d6d449ee8ca2d02576d2",
+      "values": {
+        "lang": "sch",
+        "langGp": "4",
+        "sigTyp": "1"
+      }
+    },
+    {
+      "model": "G3",
+      "path": "evidence/extracted_g3/archives_unpacked/fskapp1/dsc/app/systemData/RegionInfo/RegionInfo_SPA_4_NT.xml",
+      "sha256": "4f6e6533c83c22b55f8625bf4afff6e608567a1282b896014b5117010cebba30",
+      "values": {
+        "lang": "spa",
+        "langGp": "4",
+        "sigTyp": "0"
+      }
+    },
+    {
+      "model": "G3",
+      "path": "evidence/extracted_g3/archives_unpacked/fskapp1/dsc/app/systemData/RegionInfo/RegionInfo_THA_4_PA.xml",
+      "sha256": "658dfa747695a2e0984fd5e86dd19b5a38fdbc765cae5ba61bb705123501ed69",
+      "values": {
+        "lang": "tha",
+        "langGp": "4",
+        "sigTyp": "1"
+      }
+    }
+  ],
+  "scripts": [
+    {
+      "model": "T100",
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskrel3/dsc/fsk/regionInfo.xsb",
+      "sha256": "b07f58367de75a90b8dfc4409d124465dce60848d651b1434a636a782ad1fd09",
+      "code_base": 999,
+      "instructions": 1319,
+      "checked_branches": 77,
+      "ranges": [
+        [
+          0,
+          1688
+        ],
+        [
+          1792,
+          3648
+        ]
+      ]
+    },
+    {
+      "model": "T100",
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskrel3/dsc/fsk/dsc.xsb",
+      "sha256": "5c6e91b8c08c9ada902db66cc04382395e677e691cc22af5aa00ab94c5c3e4d2",
+      "code_base": 96779,
+      "instructions": 291010,
+      "checked_branches": 9550,
+      "ranges": [
+        [
+          50304,
+          50816
+        ]
+      ]
+    },
+    {
+      "model": "T100",
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskrel3/dsc/fsk/senserModule.xsb",
+      "sha256": "162564650b73423ae350bfd47fea8084e64844c5d2a266b759acb21c5cdbea1b",
+      "code_base": 11849,
+      "instructions": 31521,
+      "checked_branches": 3223,
+      "ranges": [
+        [
+          74064,
+          74309
+        ]
+      ]
+    },
+    {
+      "model": "G3",
+      "path": "evidence/extracted_g3/archives_unpacked/fskrel1/dsc/fsk/regionInfo.xsb",
+      "sha256": "76061909683201a196ce277767c61c0954b8952a458f7620415cbb748928162c",
+      "code_base": 980,
+      "instructions": 1727,
+      "checked_branches": 104,
+      "ranges": [
+        [
+          0,
+          1688
+        ],
+        [
+          1792,
+          3648
+        ]
+      ]
+    },
+    {
+      "model": "G3",
+      "path": "evidence/extracted_g3/archives_unpacked/fskrel1/dsc/fsk/dsc.xsb",
+      "sha256": "8aa1c38314260731cba6d8040086de647be5d21f2680ba41df4987a0c0b51c13",
+      "code_base": 178274,
+      "instructions": 558105,
+      "checked_branches": 19292,
+      "ranges": [
+        [
+          91642,
+          92208
+        ],
+        [
+          118272,
+          118496
+        ]
+      ]
+    },
+    {
+      "model": "G3",
+      "path": "evidence/extracted_g3/archives_unpacked/fskrel1/dsc/fsk/senserCmdTable.xsb",
+      "sha256": "d7d82f5437d375ef42fcc0fc1dbddaadc7cd90977741a4b2dc42f5cf8caa50db",
+      "code_base": 16704,
+      "instructions": 32196,
+      "checked_branches": 1315,
+      "ranges": [
+        [
+          2090,
+          2288
+        ]
+      ]
+    }
+  ],
+  "language_masks": [
+    {
+      "language": "ara",
+      "mask": 16,
+      "mask_hex": "0x10",
+      "code_offset": 443
+    },
+    {
+      "language": "cze",
+      "mask": 32,
+      "mask_hex": "0x20",
+      "code_offset": 464
+    },
+    {
+      "language": "dan",
+      "mask": 64,
+      "mask_hex": "0x40",
+      "code_offset": 485
+    },
+    {
+      "language": "dut",
+      "mask": 128,
+      "mask_hex": "0x80",
+      "code_offset": 506
+    },
+    {
+      "language": "eng",
+      "mask": 256,
+      "mask_hex": "0x100",
+      "code_offset": 528
+    },
+    {
+      "language": "fin",
+      "mask": 512,
+      "mask_hex": "0x200",
+      "code_offset": 550
+    },
+    {
+      "language": "fre",
+      "mask": 1024,
+      "mask_hex": "0x400",
+      "code_offset": 572
+    },
+    {
+      "language": "ger",
+      "mask": 2048,
+      "mask_hex": "0x800",
+      "code_offset": 594
+    },
+    {
+      "language": "gre",
+      "mask": 4096,
+      "mask_hex": "0x1000",
+      "code_offset": 616
+    },
+    {
+      "language": "hun",
+      "mask": 8192,
+      "mask_hex": "0x2000",
+      "code_offset": 638
+    },
+    {
+      "language": "ita",
+      "mask": 16384,
+      "mask_hex": "0x4000",
+      "code_offset": 660
+    },
+    {
+      "language": "jpn",
+      "mask": 32768,
+      "mask_hex": "0x8000",
+      "code_offset": 682
+    },
+    {
+      "language": "kor",
+      "mask": 65536,
+      "mask_hex": "0x10000",
+      "code_offset": 706
+    },
+    {
+      "language": "mal",
+      "mask": 131072,
+      "mask_hex": "0x20000",
+      "code_offset": 730
+    },
+    {
+      "language": "nor",
+      "mask": 262144,
+      "mask_hex": "0x40000",
+      "code_offset": 754
+    },
+    {
+      "language": "per",
+      "mask": 524288,
+      "mask_hex": "0x80000",
+      "code_offset": 778
+    },
+    {
+      "language": "pol",
+      "mask": 1048576,
+      "mask_hex": "0x100000",
+      "code_offset": 802
+    },
+    {
+      "language": "por",
+      "mask": 2097152,
+      "mask_hex": "0x200000",
+      "code_offset": 826
+    },
+    {
+      "language": "rus",
+      "mask": 4194304,
+      "mask_hex": "0x400000",
+      "code_offset": 850
+    },
+    {
+      "language": "sch",
+      "mask": 8388608,
+      "mask_hex": "0x800000",
+      "code_offset": 874
+    },
+    {
+      "language": "spa",
+      "mask": 16777216,
+      "mask_hex": "0x1000000",
+      "code_offset": 898
+    },
+    {
+      "language": "swe",
+      "mask": 33554432,
+      "mask_hex": "0x2000000",
+      "code_offset": 922
+    },
+    {
+      "language": "tch",
+      "mask": 67108864,
+      "mask_hex": "0x4000000",
+      "code_offset": 946
+    },
+    {
+      "language": "tha",
+      "mask": 134217728,
+      "mask_hex": "0x8000000",
+      "code_offset": 970
+    },
+    {
+      "language": "tur",
+      "mask": 268435456,
+      "mask_hex": "0x10000000",
+      "code_offset": 994
+    }
+  ],
+  "language_groups": [
+    {
+      "model": "T100",
+      "cases": [
+        {
+          "group": 0,
+          "target": 50427,
+          "literal": "jpn,eng,fre,ger,spa,ita,por,dut,rus,swe,nor,dan,fin,pol,cze,hun,tur,gre,tch,sch,kor,per,ara,tha,mal"
+        },
+        {
+          "group": 1,
+          "target": 50536,
+          "literal": "jpn"
+        },
+        {
+          "group": 2,
+          "target": 50549,
+          "literal": "eng,fre,spa,ita,tch,sch"
+        },
+        {
+          "group": 3,
+          "target": 50582,
+          "literal": "eng,fre,ger,spa,ita,por,dut,rus,swe,nor,dan,fin,pol,cze,hun,tur,gre"
+        },
+        {
+          "group": 4,
+          "target": 50659,
+          "literal": "eng,spa,por,tch,sch,kor,per,ara,tha,mal"
+        },
+        {
+          "group": 99,
+          "target": 50708,
+          "literal": "systemData.availableLang"
+        }
+      ],
+      "default": "jpn"
+    },
+    {
+      "model": "G3",
+      "cases": [
+        {
+          "group": 0,
+          "target": 91751,
+          "literal": "jpn,eng,fre,ger,spa,ita,por,dut,rus,swe,nor,dan,fin,pol,cze,hun,tur,gre,tch,sch,kor,per,ara,tha,mal"
+        },
+        {
+          "group": 1,
+          "target": 91860,
+          "literal": "jpn"
+        },
+        {
+          "group": 2,
+          "target": 91873,
+          "literal": "eng,fre,spa,ita,tch,sch"
+        },
+        {
+          "group": 3,
+          "target": 91906,
+          "literal": "eng,fre,ger,spa,ita,por,dut,rus,swe,nor,dan,fin,pol,cze,hun,tur,gre"
+        },
+        {
+          "group": 4,
+          "target": 91983,
+          "literal": "eng,fre,spa,por,tch,sch,kor,per,ara,tha,mal"
+        },
+        {
+          "group": 5,
+          "target": 92036,
+          "literal": "eng,fre,ger,spa,ita,por,dut,swe,nor,dan,fin,pol,cze,hun,tur,gre"
+        },
+        {
+          "group": 99,
+          "target": 92109,
+          "literal": "systemData.availableLang"
+        }
+      ],
+      "default": "eng"
+    }
+  ],
+  "region_initialization_equal_bytes": 1059,
+  "remapper_target_bias": 35424,
+  "camera_accessed": false,
+  "firmware_executed": false,
+  "w300_qualified": false
+}

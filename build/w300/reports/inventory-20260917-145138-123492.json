@@ -1,0 +1,28 @@
+{
+  "captured_at": "2026-09-17T14:51:38.123492+00:00",
+  "operation": "inventory",
+  "result": {
+    "captured_at": "2026-09-17T14:51:40.6181936Z",
+    "method": "Windows PnP registry properties only; no application camera commands",
+    "sony_devices": [
+      {
+        "instance_id": "USB\\VID_054C&PID_0341\\D386002E4438",
+        "friendly_name": "USB Mass Storage Device",
+        "description": "DSC-W300",
+        "status": "OK",
+        "class": "USB",
+        "hardware_ids": [
+          "USB\\VID_054C&PID_0341&REV_0100",
+          "USB\\VID_054C&PID_0341"
+        ],
+        "driver_inf": "usbstor.inf",
+        "driver_provider": "Microsoft",
+        "driver_version": "10.0.26100.9444",
+        "parent": "USB\\ROOT_HUB30\\4&7155916&0&0"
+      }
+    ],
+    "camera_setting_write_performed": false,
+    "powershell_executable": "C:\\Users\\apara01\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\pwsh.exe"
+  },
+  "ok": true
+}

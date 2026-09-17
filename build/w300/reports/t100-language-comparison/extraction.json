@@ -1,0 +1,1578 @@
+{
+  "source_url": "https://di.update.sony.net/DSC/DSCT100V2.exe",
+  "source": {
+    "path": "build/w300/downloads/related-firmware/DSCT100V2.exe",
+    "bytes": 15978538,
+    "sha256": "e5ecfbeef87a5708536f51b6d2479bffde58394d71c2752337382716d9e72d67"
+  },
+  "container": {
+    "path": "build/w300/downloads/related-firmware/D-T100V2.dat",
+    "bytes": 15950816,
+    "sha256": "41d79e83abfcf00fe55d99c7aed090939e887a25b7d46f3ffbd7782dcf21a121"
+  },
+  "lha": {
+    "header_offset": 27648,
+    "payload_offset": 27721,
+    "payload_bytes": 15950816,
+    "member_crc16": "0x78fc"
+  },
+  "container_verification": {
+    "stream_offset": 0,
+    "stream_length": 15950816,
+    "padding_valid": true,
+    "header_hmac_valid": true,
+    "data_hmac_valid": true,
+    "header_hmac": "f088503eaf24bb00a8127aed1caaa36bf5e0ac2c",
+    "data_hmac": "31da157d4645d1c264b61b0dc01d0937a6b58771"
+  },
+  "manifest": {
+    "firmware_version": "02",
+    "system_version": "02",
+    "datasize": 20416,
+    "checksum": 756969,
+    "checksum_expected": 756969,
+    "checksum_valid": true,
+    "total_sections": 18,
+    "sections": [
+      {
+        "index": 0,
+        "tag": "header",
+        "fnum": "00",
+        "name": "defhd.dat",
+        "offset": 20480,
+        "offset_hex": "00005000",
+        "size": 68,
+        "size_hex": "44",
+        "cksum": "761e2869",
+        "progress": "00000000",
+        "encrypt": true,
+        "encrypt_raw": "yes"
+      },
+      {
+        "index": 1,
+        "tag": "program data",
+        "fnum": "01",
+        "name": "partinf.tbl",
+        "offset": 20576,
+        "offset_hex": "00005060",
+        "size": 1357,
+        "size_hex": "54d",
+        "cksum": "5b176846",
+        "progress": "00000000",
+        "encrypt": true,
+        "encrypt_raw": "yes"
+      },
+      {
+        "index": 2,
+        "tag": "program data",
+        "fnum": "02",
+        "name": "BodyUdtr.img",
+        "offset": 21952,
+        "offset_hex": "000055c0",
+        "size": 221184,
+        "size_hex": "36000",
+        "cksum": "efef1cb2",
+        "progress": "00000001",
+        "encrypt": true,
+        "encrypt_raw": "yes"
+      },
+      {
+        "index": 3,
+        "tag": "program data",
+        "fnum": "03",
+        "name": "av_udtr.bin",
+        "offset": 243136,
+        "offset_hex": "0003b5c0",
+        "size": 2167098,
+        "size_hex": "21113a",
+        "cksum": "0f2d0858",
+        "progress": "0000000d",
+        "encrypt": true,
+        "encrypt_raw": "yes"
+      },
+      {
+        "index": 4,
+        "tag": "program data",
+        "fnum": "04",
+        "name": "backup.tar",
+        "offset": 2410240,
+        "offset_hex": "0024c700",
+        "size": 51200,
+        "size_hex": "c800",
+        "cksum": "17241e4d",
+        "progress": "0000000d",
+        "encrypt": true,
+        "encrypt_raw": "yes"
+      },
+      {
+        "index": 5,
+        "tag": "program data",
+        "fnum": "05",
+        "name": "bin.tar",
+        "offset": 2461440,
+        "offset_hex": "00258f00",
+        "size": 1024000,
+        "size_hex": "fa000",
+        "cksum": "630ec5f7",
+        "progress": "00000013",
+        "encrypt": true,
+        "encrypt_raw": "yes"
+      },
+      {
+        "index": 6,
+        "tag": "program data",
+        "fnum": "06",
+        "name": "factory.tar",
+        "offset": 3485440,
+        "offset_hex": "00352f00",
+        "size": 81920,
+        "size_hex": "14000",
+        "cksum": "4d39a89e",
+        "progress": "00000014",
+        "encrypt": true,
+        "encrypt_raw": "yes"
+      },
+      {
+        "index": 7,
+        "tag": "program data",
+        "fnum": "07",
+        "name": "lib.tar",
+        "offset": 3567360,
+        "offset_hex": "00366f00",
+        "size": 368640,
+        "size_hex": "5a000",
+        "cksum": "6202abe6",
+        "progress": "00000016",
+        "encrypt": true,
+        "encrypt_raw": "yes"
+      },
+      {
+        "index": 8,
+        "tag": "program data",
+        "fnum": "08",
+        "name": "sa.bin",
+        "offset": 3936000,
+        "offset_hex": "003c0f00",
+        "size": 160696,
+        "size_hex": "273b8",
+        "cksum": "cdf56def",
+        "progress": "00000017",
+        "encrypt": true,
+        "encrypt_raw": "yes"
+      },
+      {
+        "index": 9,
+        "tag": "program data",
+        "fnum": "09",
+        "name": "av.bin",
+        "offset": 4096704,
+        "offset_hex": "003e82c0",
+        "size": 2164638,
+        "size_hex": "21079e",
+        "cksum": "8eca4cfa",
+        "progress": "00000023",
+        "encrypt": true,
+        "encrypt_raw": "yes"
+      },
+      {
+        "index": 10,
+        "tag": "program data",
+        "fnum": "0a",
+        "name": "fskapp.tar",
+        "offset": 6261344,
+        "offset_hex": "005f8a60",
+        "size": 1392640,
+        "size_hex": "154000",
+        "cksum": "2cbd3446",
+        "progress": "0000002b",
+        "encrypt": true,
+        "encrypt_raw": "yes"
+      },
+      {
+        "index": 11,
+        "tag": "program data",
+        "fnum": "0b",
+        "name": "fskfnt.tar",
+        "offset": 7653984,
+        "offset_hex": "0074ca60",
+        "size": 1177600,
+        "size_hex": "11f800",
+        "cksum": "06613b04",
+        "progress": "00000031",
+        "encrypt": true,
+        "encrypt_raw": "yes"
+      },
+      {
+        "index": 12,
+        "tag": "program data",
+        "fnum": "0c",
+        "name": "fskrel1.tar",
+        "offset": 8831584,
+        "offset_hex": "0086c260",
+        "size": 1597440,
+        "size_hex": "186000",
+        "cksum": "8ddc1def",
+        "progress": "0000003a",
+        "encrypt": true,
+        "encrypt_raw": "yes"
+      },
+      {
+        "index": 13,
+        "tag": "program data",
+        "fnum": "0d",
+        "name": "fskrel2.tar",
+        "offset": 10429024,
+        "offset_hex": "009f2260",
+        "size": 1515520,
+        "size_hex": "172000",
+        "cksum": "14fe0e0e",
+        "progress": "00000043",
+        "encrypt": true,
+        "encrypt_raw": "yes"
+      },
+      {
+        "index": 14,
+        "tag": "program data",
+        "fnum": "0e",
+        "name": "fskrel3.tar",
+        "offset": 11944544,
+        "offset_hex": "00b64260",
+        "size": 1341440,
+        "size_hex": "147800",
+        "cksum": "dddad679",
+        "progress": "0000004a",
+        "encrypt": true,
+        "encrypt_raw": "yes"
+      },
+      {
+        "index": 15,
+        "tag": "program data",
+        "fnum": "0f",
+        "name": "linuxset1.tar",
+        "offset": 13285984,
+        "offset_hex": "00caba60",
+        "size": 1505280,
+        "size_hex": "16f800",
+        "cksum": "527860bf",
+        "progress": "00000053",
+        "encrypt": true,
+        "encrypt_raw": "yes"
+      },
+      {
+        "index": 16,
+        "tag": "program data",
+        "fnum": "10",
+        "name": "linuxset2.tar",
+        "offset": 14791264,
+        "offset_hex": "00e1b260",
+        "size": 204800,
+        "size_hex": "32000",
+        "cksum": "e7994c43",
+        "progress": "00000054",
+        "encrypt": true,
+        "encrypt_raw": "yes"
+      },
+      {
+        "index": 17,
+        "tag": "program data",
+        "fnum": "11",
+        "name": "linuxset3.tar",
+        "offset": 14996064,
+        "offset_hex": "00e4d260",
+        "size": 952320,
+        "size_hex": "e8800",
+        "cksum": "e12bc343",
+        "progress": "0000005a",
+        "encrypt": true,
+        "encrypt_raw": "yes"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "index": 0,
+      "fnum": "00",
+      "name": "defhd.dat",
+      "file_name": "00_defhd.dat",
+      "offset": 20480,
+      "size": 68,
+      "phys_hdr_offset": 20608,
+      "phys_data_offset": 20736,
+      "header_hmac": "5385a7b875dda5e590a6e37615c18595882ee8e2",
+      "data_hmac": "6b681efdde212de55b094a8aa588008b6506c8e0",
+      "decrypted_sha1": "6d417054c223aef971d9cb3268ff340840b9b0a7",
+      "decrypted_sha256": "baea06fedb1cd82416c4eb69e4d9c2b463ce4dfc9ae1330b92a29c7bd78914fe",
+      "verified": true
+    },
+    {
+      "index": 1,
+      "fnum": "01",
+      "name": "partinf.tbl",
+      "file_name": "01_partinf.tbl",
+      "offset": 20576,
+      "size": 1357,
+      "phys_hdr_offset": 20832,
+      "phys_data_offset": 20960,
+      "header_hmac": "a4e42f0d55725fed8d25fa79aafd1e6eab2425c3",
+      "data_hmac": "296386fe79b26efdcc1805fc42a312c8622fedd5",
+      "decrypted_sha1": "d0c60b12e2755e5ce6472bfd63cc4170852b23e0",
+      "decrypted_sha256": "4d7007ced9d9e243e820a4699ba22e66b4953cd2e962fc2823c65d11475b2323",
+      "verified": true
+    },
+    {
+      "index": 2,
+      "fnum": "02",
+      "name": "BodyUdtr.img",
+      "file_name": "02_BodyUdtr.img",
+      "offset": 21952,
+      "size": 221184,
+      "phys_hdr_offset": 22336,
+      "phys_data_offset": 22464,
+      "header_hmac": "6e7f52fa4e36f63fabe661e55b221860f849666c",
+      "data_hmac": "e234ddbef53fc8cab3624d25a39ad94b1ad1d250",
+      "decrypted_sha1": "21f825a8da2490cc01158485456386579d80a93b",
+      "decrypted_sha256": "c1da2df7311d700072b338972bdfe0bbc5475c34343bc659d30de319384f1733",
+      "verified": true
+    },
+    {
+      "index": 3,
+      "fnum": "03",
+      "name": "av_udtr.bin",
+      "file_name": "03_av_udtr.bin",
+      "offset": 243136,
+      "size": 2167098,
+      "phys_hdr_offset": 243648,
+      "phys_data_offset": 243776,
+      "header_hmac": "082550e6e5cefb2119e05542cb37666cee52c742",
+      "data_hmac": "1aa9568e0ffd1f231fb0d0f42cbb5b88c4939e24",
+      "decrypted_sha1": "a7b0dbd72e6bef9ec06a841e0eae588a6428ee17",
+      "decrypted_sha256": "a0a3899f4a7fa58b0912ff7065ce4e075c33d32ada07f053b5f113711535c70d",
+      "verified": true
+    },
+    {
+      "index": 4,
+      "fnum": "04",
+      "name": "backup.tar",
+      "file_name": "04_backup.tar",
+      "offset": 2410240,
+      "size": 51200,
+      "phys_hdr_offset": 2410880,
+      "phys_data_offset": 2411008,
+      "header_hmac": "45ff25621cfe4deec7dac412f0c3ade162503ab4",
+      "data_hmac": "45e0a317bc5a482ceb34ddd4278adc866d2f03b1",
+      "decrypted_sha1": "7b0e6fca2b051976d97b582a5fde19fe77c26834",
+      "decrypted_sha256": "7192421c1d83a3f07d8cc00682631d343b4dd5cfbbe02c78259ede7b9e266126",
+      "verified": true
+    },
+    {
+      "index": 5,
+      "fnum": "05",
+      "name": "bin.tar",
+      "file_name": "05_bin.tar",
+      "offset": 2461440,
+      "size": 1024000,
+      "phys_hdr_offset": 2462208,
+      "phys_data_offset": 2462336,
+      "header_hmac": "90e2b8e0e7c771a2df5e69a22926b10f50be118d",
+      "data_hmac": "5fbba1f7b48e1a669b3e0472a69bec46375e8c48",
+      "decrypted_sha1": "e4d3f7f8c9e96343ed37a4afe15ac4f4a2469e35",
+      "decrypted_sha256": "aecc1ae3d422b10fe81b93f6469f4024e7cf4e618c9e71d42ed81e6a340a8821",
+      "verified": true
+    },
+    {
+      "index": 6,
+      "fnum": "06",
+      "name": "factory.tar",
+      "file_name": "06_factory.tar",
+      "offset": 3485440,
+      "size": 81920,
+      "phys_hdr_offset": 3486336,
+      "phys_data_offset": 3486464,
+      "header_hmac": "65f22c1df74cf80d2933077b63fd60699d17ec29",
+      "data_hmac": "7cd5d3e093f7d25d423003a62a50ae1e6b8466ab",
+      "decrypted_sha1": "24093c88db3e0bca607233ee5c7de0aaf37e876d",
+      "decrypted_sha256": "74ef3516afdd902047b29ca3914b8205a2c7aa494a19a398529f2a41b4e24e62",
+      "verified": true
+    },
+    {
+      "index": 7,
+      "fnum": "07",
+      "name": "lib.tar",
+      "file_name": "07_lib.tar",
+      "offset": 3567360,
+      "size": 368640,
+      "phys_hdr_offset": 3568384,
+      "phys_data_offset": 3568512,
+      "header_hmac": "b795ed6b602c2c3ca1a93fd32f1eb97b820e0460",
+      "data_hmac": "9862516640596e675607b1ef026d565d8a4f640b",
+      "decrypted_sha1": "c7e628d8f8c4dcfd6c1985fbf7461071370e678f",
+      "decrypted_sha256": "2ba449732713fc162ea81f69bae7b8289ce0c064890e22d9f2feae1f1e4a95c4",
+      "verified": true
+    },
+    {
+      "index": 8,
+      "fnum": "08",
+      "name": "sa.bin",
+      "file_name": "08_sa.bin",
+      "offset": 3936000,
+      "size": 160696,
+      "phys_hdr_offset": 3937152,
+      "phys_data_offset": 3937280,
+      "header_hmac": "f10f10a84362b354fabaa43b3bb575581aef12e6",
+      "data_hmac": "a4d81f3266690d3ec02933498aa3272f8c9ebb85",
+      "decrypted_sha1": "3141f31e1b174d863b54879267890bbea64913b8",
+      "decrypted_sha256": "0603e9e79c5978d7dc9f63b13e1c8a21a26f48fe05f053ce6c219d4e693c4a84",
+      "verified": true
+    },
+    {
+      "index": 9,
+      "fnum": "09",
+      "name": "av.bin",
+      "file_name": "09_av.bin",
+      "offset": 4096704,
+      "size": 2164638,
+      "phys_hdr_offset": 4097984,
+      "phys_data_offset": 4098112,
+      "header_hmac": "e1e70e314ae1020b2e25aa93cc39bc634035b784",
+      "data_hmac": "2d2cff9a3bd20bf903e2497138ba979c44296e48",
+      "decrypted_sha1": "23d3ba237a3203a2567af52e22a4d2a272311040",
+      "decrypted_sha256": "5aa8d870851b709a310c89708da555ce9db266b94ec1f844fbed496e87b3d63b",
+      "verified": true
+    },
+    {
+      "index": 10,
+      "fnum": "0a",
+      "name": "fskapp.tar",
+      "file_name": "10_fskapp.tar",
+      "offset": 6261344,
+      "size": 1392640,
+      "phys_hdr_offset": 6262752,
+      "phys_data_offset": 6262880,
+      "header_hmac": "25da22e211dc7c5e6ad159a9a9c8646b24f418ca",
+      "data_hmac": "7db55568a80cce816e26c839a61beb5a3023fd9b",
+      "decrypted_sha1": "7cdf49250e2a8b637175bbf634f7fe5e79f367bd",
+      "decrypted_sha256": "4d536cc770dfbe515b4452132c8b3213f36253df54e1c3c09de25432c8a4f351",
+      "verified": true
+    },
+    {
+      "index": 11,
+      "fnum": "0b",
+      "name": "fskfnt.tar",
+      "file_name": "11_fskfnt.tar",
+      "offset": 7653984,
+      "size": 1177600,
+      "phys_hdr_offset": 7655520,
+      "phys_data_offset": 7655648,
+      "header_hmac": "cc138118202e578a0cd03948f29a8dfe624483a2",
+      "data_hmac": "9d4c38d4c0de1bed873314c3c617a741ef031413",
+      "decrypted_sha1": "ff7df6f168abe708be92703c14a811adef0c960c",
+      "decrypted_sha256": "b6f5d3b4e12c60215265f3d2598994c59fb3ab47da8c519ab064597e49a2b583",
+      "verified": true
+    },
+    {
+      "index": 12,
+      "fnum": "0c",
+      "name": "fskrel1.tar",
+      "file_name": "12_fskrel1.tar",
+      "offset": 8831584,
+      "size": 1597440,
+      "phys_hdr_offset": 8833248,
+      "phys_data_offset": 8833376,
+      "header_hmac": "ec35df98b4ecf3c906fd284f0b8e6548b0968361",
+      "data_hmac": "ab94db9b56f0bf0795c331e9eca1d213455efb44",
+      "decrypted_sha1": "03657c5c0c9ed7bc3b6b1e2257c871aa537288ce",
+      "decrypted_sha256": "6fcd1a97da38746b254a3104d65e91b698c25f5082a51ec6543f4d996517512b",
+      "verified": true
+    },
+    {
+      "index": 13,
+      "fnum": "0d",
+      "name": "fskrel2.tar",
+      "file_name": "13_fskrel2.tar",
+      "offset": 10429024,
+      "size": 1515520,
+      "phys_hdr_offset": 10430816,
+      "phys_data_offset": 10430944,
+      "header_hmac": "eb2cf029f27a969b621c99abbdd8928b9ecd10d3",
+      "data_hmac": "1795fe22ddbedafd7975b4e83a398a0dfc1144bc",
+      "decrypted_sha1": "1c120c67b3b4b00df01789285fbad34aea481f37",
+      "decrypted_sha256": "0913ed82756bccc73b7071fa7826293ad9c2cd10db9f3386b68276c29b86dce1",
+      "verified": true
+    },
+    {
+      "index": 14,
+      "fnum": "0e",
+      "name": "fskrel3.tar",
+      "file_name": "14_fskrel3.tar",
+      "offset": 11944544,
+      "size": 1341440,
+      "phys_hdr_offset": 11946464,
+      "phys_data_offset": 11946592,
+      "header_hmac": "743b04199e5fc42b323bf51fe7835f133d082855",
+      "data_hmac": "5d4ca09850ee51683ae1270f9fc1781ce0ca1bba",
+      "decrypted_sha1": "1f42257d7f5707ea57ca9c711abdefc7c588e1ee",
+      "decrypted_sha256": "10259cc3c0e3a63c47e22aea8ab9f55c0440b6e8b1cf36e2b993947d76076e40",
+      "verified": true
+    },
+    {
+      "index": 15,
+      "fnum": "0f",
+      "name": "linuxset1.tar",
+      "file_name": "15_linuxset1.tar",
+      "offset": 13285984,
+      "size": 1505280,
+      "phys_hdr_offset": 13288032,
+      "phys_data_offset": 13288160,
+      "header_hmac": "a36dfd1e03db99d47d8785b595604c0eb3dc0c2c",
+      "data_hmac": "9144ce5f2f5d7a70ac7084a329157da3206c7dfb",
+      "decrypted_sha1": "67f4fec6331533e0bf149b1e31dd7badd9771bcd",
+      "decrypted_sha256": "dc861372d2b980f6db99cad7d758e42d2841dc1b3dc1460684e5d66462bb818c",
+      "verified": true
+    },
+    {
+      "index": 16,
+      "fnum": "10",
+      "name": "linuxset2.tar",
+      "file_name": "16_linuxset2.tar",
+      "offset": 14791264,
+      "size": 204800,
+      "phys_hdr_offset": 14793440,
+      "phys_data_offset": 14793568,
+      "header_hmac": "369a441d746c13641866e6aafcf2e25127baabf0",
+      "data_hmac": "c9049e36af5109014cd3d49240c3878aec76bb1c",
+      "decrypted_sha1": "bf9095c38c1a2f1c9bf66f2530dfc36be2da94fb",
+      "decrypted_sha256": "960fd0fa3eb9f0344f50d3f6892f0a48ba1d52feea36758e8edb607f9e3cc0ab",
+      "verified": true
+    },
+    {
+      "index": 17,
+      "fnum": "11",
+      "name": "linuxset3.tar",
+      "file_name": "17_linuxset3.tar",
+      "offset": 14996064,
+      "size": 952320,
+      "phys_hdr_offset": 14998368,
+      "phys_data_offset": 14998496,
+      "header_hmac": "36fa8c2ee5f450ca32ed097c836269382bb3344d",
+      "data_hmac": "29b12c0de7b89fc8b7d8ed7671d47829caa3125b",
+      "decrypted_sha1": "8c3d9f25103f2768a1a1a63a518725b9d490b473",
+      "decrypted_sha256": "4f638f63a7f44cd8314a65fd4a1b8230bc1ab7e786dd01e143d7091c8502fb97",
+      "verified": true
+    }
+  ],
+  "archives": [
+    {
+      "name": "backup.tar",
+      "members": 5
+    },
+    {
+      "name": "bin.tar",
+      "members": 14
+    },
+    {
+      "name": "factory.tar",
+      "members": 13
+    },
+    {
+      "name": "lib.tar",
+      "members": 17
+    },
+    {
+      "name": "fskapp.tar",
+      "members": 134
+    },
+    {
+      "name": "fskfnt.tar",
+      "members": 5
+    },
+    {
+      "name": "fskrel1.tar",
+      "members": 3
+    },
+    {
+      "name": "fskrel2.tar",
+      "members": 9
+    },
+    {
+      "name": "fskrel3.tar",
+      "members": 21
+    },
+    {
+      "name": "linuxset1.tar",
+      "members": 1
+    },
+    {
+      "name": "linuxset2.tar",
+      "members": 1
+    },
+    {
+      "name": "linuxset3.tar",
+      "members": 1
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/backup/backup/Ausr.bin",
+      "bytes": 16384,
+      "sha256": "f8a088532318b4fac510fe734661b94dd6f8b383997357832940a8ad09ce0036"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/backup/backup/Ausr2.bak",
+      "bytes": 16384,
+      "sha256": "f8a088532318b4fac510fe734661b94dd6f8b383997357832940a8ad09ce0036"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/backup/backup/Husr.bin",
+      "bytes": 3072,
+      "sha256": "8c3e78853f86a28eaebb8ec481613bf1fde36fa125b804ee109de6011a2334f8"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/backup/backup/Husr2.bak",
+      "bytes": 3072,
+      "sha256": "8c3e78853f86a28eaebb8ec481613bf1fde36fa125b804ee109de6011a2334f8"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/bin/bin/BackupProc",
+      "bytes": 41511,
+      "sha256": "52fef3822d65cde896b71cd581b23bc8954616eae77b1d2663a44ec5cae91c4d"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/bin/bin/busybox2",
+      "bytes": 352516,
+      "sha256": "e0c76faf039c868983c204e11e143a882658a7147a46dbfbc144fb7c0b5bac73"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/bin/bin/debugio",
+      "bytes": 12391,
+      "sha256": "db5b79c7d6f136ba530fa1c413781c6c0b4fa889f4a188561114d4ac99b383be"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/bin/bin/input/test_main",
+      "bytes": 172871,
+      "sha256": "42d09a15a626b722428e67b71fba3d63c647efbce64db211f203cc27509f09b2"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/bin/bin/input_test",
+      "bytes": 9980,
+      "sha256": "a0a8e41aa950d9a86fdacac43dca24144fd350d81027224fc0028eb871760eec"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/bin/bin/mdump",
+      "bytes": 112285,
+      "sha256": "026564b26f6630407d645f98ea988eb582fa629ed2abed99161b4e8bccb55877"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/bin/bin/memtool",
+      "bytes": 24071,
+      "sha256": "92b792ccf7c26b3f8ac0c497b45899421807a5d39b059f55d5340d723f6b9d35"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/bin/bin/ms_mediamount",
+      "bytes": 110480,
+      "sha256": "146024ac1186379d5c096d2c08bbe1f8c751433ad7b01ded9ab66c90213d5969"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/bin/bin/sen",
+      "bytes": 141345,
+      "sha256": "1b030a4bf459e6cabec773251bb4a02f85dd9a08c5e1a8faad25b89ac18f8d9b"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/bin/bin/shpid.sh",
+      "bytes": 94,
+      "sha256": "170e0ed1f062eb02d6f07922abe1a02094a9d1fac1879462c4be23a58d6ead6f"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/bin/bin/testcmd",
+      "bytes": 13445,
+      "sha256": "46c83785cdf325e9789cf71c54d6c15f5ad61af8dc7036af60e7ed9c4251947c"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/bin/bin/ud_datcnv",
+      "bytes": 18080,
+      "sha256": "9ac933b026b2c52849a6c751f125c0b3e30b3f0a80e12682a55f9ef25b5578d7"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/factory/factory/.hasp",
+      "bytes": 88,
+      "sha256": "10eef285deef7a4b7c82b22aa53589b7833df29de3814649c772bbd5c832f365"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/factory/factory/Areg.bin",
+      "bytes": 8192,
+      "sha256": "ac9318e17344368f5924e330cbb10c6ac1dee756341399d729e8ce55108072ed"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/factory/factory/Areg2.bak",
+      "bytes": 8192,
+      "sha256": "ac9318e17344368f5924e330cbb10c6ac1dee756341399d729e8ce55108072ed"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/factory/factory/Asys.bin",
+      "bytes": 16384,
+      "sha256": "f8a088532318b4fac510fe734661b94dd6f8b383997357832940a8ad09ce0036"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/factory/factory/Asys2.bak",
+      "bytes": 16384,
+      "sha256": "f8a088532318b4fac510fe734661b94dd6f8b383997357832940a8ad09ce0036"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/factory/factory/brew_cnf.bin",
+      "bytes": 2560,
+      "sha256": "84f4c56731415da38613457f746c50092fe6a452ad36b6f77ec78120fe521677"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/factory/factory/Hreg.bin",
+      "bytes": 2048,
+      "sha256": "77fd2269a4ed1ec0b261ce11b7cfa8c7b8af6d72a1d92c71af5e616866fd8a76"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/factory/factory/Hreg2.bak",
+      "bytes": 2048,
+      "sha256": "77fd2269a4ed1ec0b261ce11b7cfa8c7b8af6d72a1d92c71af5e616866fd8a76"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/factory/factory/Hsys.bin",
+      "bytes": 2048,
+      "sha256": "9111f78eaa28745d523698f405a80745a4c183a545d06bd8119eba6d3b122445"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/factory/factory/Hsys2.bak",
+      "bytes": 2048,
+      "sha256": "9111f78eaa28745d523698f405a80745a4c183a545d06bd8119eba6d3b122445"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/factory/factory/initreg.bin",
+      "bytes": 2276,
+      "sha256": "9ad7d9d96b3c5f6ae4d15317d7ff2056f8f5598c2760e5456843d8cd9a92c4dd"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/factory/factory/Preg.bin",
+      "bytes": 1040,
+      "sha256": "256fb9c4796b15a7ec4b0d5319e9e493ca4cffda658310420bdfd31e1c59da79"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/assets/commonAssets.xml",
+      "bytes": 29294,
+      "sha256": "4ec2679f5ba51628a5339fd7ccef52607f6caac45a8d9fa37bf7357639303431"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/assets/commonAssets.zip",
+      "bytes": 21337,
+      "sha256": "9593abfc5658f1cf57eadd12ffba8ea2c966743d7a743e835016eea359e16ecf"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/browserApp/assets/browserAssets.xml",
+      "bytes": 13286,
+      "sha256": "47b0fef6c6e32c5b1dec245d6f6b00db26cf52c5f4a76c9a06737e969f8da0b1"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/browserApp/assets/browserAssets.zip",
+      "bytes": 8040,
+      "sha256": "012ea89c223b310f615996c9e52e28cfbadc07dc56d6ef16eeffbe540cd5045a"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/browserApp/assets/browserToolAssets.zip",
+      "bytes": 4780,
+      "sha256": "93d61fdb830f80fdba91b1169ba80a31b4c63df152a4eb73e573e6b7c6618d2b"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/browserApp/main.xml",
+      "bytes": 626,
+      "sha256": "33980f72d5354bc1b2ef69a27a2774a01ab7c999d223bf5729d0b29d061f0ba4"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/browserApp/slideShowData/HDActive.bin",
+      "bytes": 2298,
+      "sha256": "12a1714639ebf1bfafd12e34c03e591667838b35c86ad834f3e42f37466ad2a8"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/browserApp/slideShowData/HDNostalgic.bin",
+      "bytes": 564,
+      "sha256": "9565a31fbef18a9dd5c12e7e8c2a54c078dd3bfbae9e8d3238284f6705f8c416"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/browserApp/slideShowData/HDSimple.bin",
+      "bytes": 358,
+      "sha256": "74d8f7515ec1ab5cfbdaaf1dd7e1eaa9b46fa3d66da41802c034a0e6ec5dab3d"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/browserApp/slideShowData/HDStylish.bin",
+      "bytes": 970,
+      "sha256": "c9b9223058f779f2467a373a8b951109b447ba73e488cbb0937bacf5a6cd375f"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/browserApp/slideShowData/SDActive.bin",
+      "bytes": 2298,
+      "sha256": "d860f099d2dffdc678cfd58b58a6730d422c504fc71638eee7568f6dc2b377b4"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/browserApp/slideShowData/SDNostalgic.bin",
+      "bytes": 564,
+      "sha256": "bf83620e7f37ef15042806b1552dba40f5108063f852b5256b536ca738f7295f"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/browserApp/slideShowData/SDSimple.bin",
+      "bytes": 358,
+      "sha256": "aa9fe9639bbacdc1bc2e3dc77d2b7e12058bf462f3b0bb68c0d0bfdb96877b29"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/browserApp/slideShowData/SDStylish.bin",
+      "bytes": 970,
+      "sha256": "0e57934fe7fc8994ff3452dcf1857dc8ccaa758e1614e1d1fa83f667960f4e73"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/browserApp/viewCrossFocus.xml",
+      "bytes": 2029,
+      "sha256": "bc7934f26c68e278b5f04ac85bf342c49c2e1f6c4d63b2a6bb1a2ec19cf2b2a6"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/browserApp/viewDelete.xml",
+      "bytes": 628,
+      "sha256": "ddeb05c5b29377ab7075acf7dfda63690726e40772bc9c93a5e0256e4f2105d2"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/browserApp/viewDeugFunc.xml",
+      "bytes": 1684,
+      "sha256": "a14076031a76e2505947297ad4f583194ce5af009d126fb09a02e14ac5af7c60"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/browserApp/viewDpof.xml",
+      "bytes": 622,
+      "sha256": "6779b46c476a8b5d2c494227fa1061f91967cad9159a070ada8aa05ba638453f"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/browserApp/viewFishEye.xml",
+      "bytes": 2329,
+      "sha256": "4886d9aac5b286360af752af2de23e469428e0354157720e87191a4e71c39b0e"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/browserApp/viewFolderSelect.xml",
+      "bytes": 3999,
+      "sha256": "a026488a37cf901c452937477b5859294a04d919572b87612186389e38eca8c0"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/browserApp/viewIcons.xml",
+      "bytes": 16251,
+      "sha256": "c4d2db20efc17b08b0f0e16d5b862d2b7fedd3be8bfc22ccc395553699b2e1c3"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/browserApp/viewMonoFocus.xml",
+      "bytes": 1525,
+      "sha256": "ee1872cfc00faf9e1976bead68cdc9a418e4cfd5fee0b1fcd99118da5bf1a569"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/browserApp/viewPicture.xml",
+      "bytes": 5815,
+      "sha256": "cc674fed9b4b0c8596d5ec33f12f119f3f95f507be84b21ee5ddd43a4f884357"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/browserApp/viewPrint.xml",
+      "bytes": 128,
+      "sha256": "07dfc1db8f6d13513b527dac37ab19aa1d8be82b3ecb149ceeaea80c48a33dba"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/browserApp/viewPrintPopup.xml",
+      "bytes": 7335,
+      "sha256": "179d0797c0aef15f5cab909c01a6ff55f64b6034bf49baaf163e49e343231084"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/browserApp/viewProtect.xml",
+      "bytes": 631,
+      "sha256": "4a3f009658e298b78307bd3065160bbf140deb4aaa2ad15ace4465c6f2f5df97"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/browserApp/viewRedEye.xml",
+      "bytes": 1213,
+      "sha256": "f24fd441ddd73c51aed1f5b4b0115b9a6901cb635a70b214c18677a0da7d9e0c"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/browserApp/viewRotation.xml",
+      "bytes": 1019,
+      "sha256": "91b1f26dfea3e574c237cb44e8a995b32cd4c6f80125c3d0f72bb3927e9dc4bc"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/browserApp/viewSlideShow.xml",
+      "bytes": 4675,
+      "sha256": "7aa20c3cd34556f498393cc7286725980a7378c37a3b4e55d73c6f8d1c9d9bd4"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/browserApp/viewSoftFocus.xml",
+      "bytes": 2149,
+      "sha256": "2d8de7da1d9d42455601700ffbdd197a645dfb12aba6158577f5fc9f4d1d577e"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/browserApp/viewSubTool.xml",
+      "bytes": 1458,
+      "sha256": "0de73fdec5a82fae238ace86f832af78866517bbeb95e5d675e393590cecae0a"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/browserApp/viewTool.xml",
+      "bytes": 13442,
+      "sha256": "bcca34a3806c0a56fadd570193d78111f7cc47720e85e66c9f3d45b1539554ab"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/browserApp/viewTrimming.xml",
+      "bytes": 2134,
+      "sha256": "bc05795e8d20762fb3589464e6f48898c76db15ca88eb32937023860ebdc2017"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/cameraApp/assets/cameraAssets.xml",
+      "bytes": 9936,
+      "sha256": "25c8d367e0ef51b7b4ead91b8a47439f6716c21244d8f479cce375fbeac8347b"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/cameraApp/assets/cameraAssets.zip",
+      "bytes": 58414,
+      "sha256": "535efe5ed1f4fdc8a681e3ad61cb50d302518e14d6d382f4138982859d2213ee"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/cameraApp/assets/cameraToolAssets.zip",
+      "bytes": 23337,
+      "sha256": "0ffc23943abd694dc5d3a735419dd502c060b5e5781185c76f8f339262d88cb2"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/cameraApp/cameraCustomTable.xml",
+      "bytes": 14960,
+      "sha256": "e6f9ddc417c86605596b3684079f9142420ff347198ca224b26aa9c780ac6372"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/cameraApp/cameraTool.xml",
+      "bytes": 38815,
+      "sha256": "3a19d27a5665fd8a6f610d56b521b9400ca7233b3f9ce3ebe4a6f40817eabcef"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/cameraApp/main.xml",
+      "bytes": 619,
+      "sha256": "9d39b0bfb8a310a9d036543691c180a7c67c96d7c0eefe936061431676725b0f"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/cameraApp/viewModeGuide.xml",
+      "bytes": 10041,
+      "sha256": "5c85cb8d132e7b43bb61b3ca657f263688d3c7c2432775b914444942a4c8ab3b"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/cameraApp/viewStillControl.xml",
+      "bytes": 25678,
+      "sha256": "779a760752ec8995f7fe40e17db48b99aa0f77e3ac9292b5f59798ab817c4cbe"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/clockSettingDlg/main.xml",
+      "bytes": 6267,
+      "sha256": "45d693f5097e4663960b7cf09688d24de2759311f45abb6df74badf1bf0a7c2d"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/common/powerCaution.xml",
+      "bytes": 971,
+      "sha256": "98ddea5b17e06ece165c685eeaace22170c22788622e2fe008588686afd6cbb4"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/common/selfDiagCaution.xml",
+      "bytes": 562,
+      "sha256": "f086e917681d0e5dbe23f3a41305d49c68957212b5cfddeb8e98e76154c82011"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/common/statusbar.xml",
+      "bytes": 1358,
+      "sha256": "f7e238e68ad2f24ceb933739323a7dce674544f437be1e5563e9629180c72df6"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/common/stayCaution.xml",
+      "bytes": 678,
+      "sha256": "fb8d03075b61405e70448daa4febb7c09cac0a50ef8b8c722626b1541c968f6d"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/common/triggerCaution.xml",
+      "bytes": 2839,
+      "sha256": "992ddc1d03420953b33c9dde0b206a0232c1637e1a5143f10ee82c46c3c9c70c"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/homeDlg/assets/homeAssets.xml",
+      "bytes": 3038,
+      "sha256": "9c35b3c260f92dc0eb2f0830f2073d9be90aea97b7aed6f64e1af5734851cdeb"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/homeDlg/assets/homeAssets.zip",
+      "bytes": 20844,
+      "sha256": "f6a2dfc2be7bef9d41a62f051c7b50875292db55beb04450567a40e2d46cced9"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/homeDlg/main.xml",
+      "bytes": 18065,
+      "sha256": "7cfd35d88d9652a544c97f94f9877dfe0f94971d3e77ad96e33e8dfb858d35cb"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/kconfig.xml",
+      "bytes": 1081,
+      "sha256": "d903f949a25dd2292e5e88b9e23f3faf8d75dd8586f1ed88b7fe18d28c3a76e8"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/language/ara.csv",
+      "bytes": 39306,
+      "sha256": "dd106b06bf8e43a7e7daec9cf7c03f7349a8f8b6e2d34c39a6fdcb520cf22339"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/language/cze.csv",
+      "bytes": 30268,
+      "sha256": "60fced44aa0ae4adce2186cce74cf2edd17db025cdbf7afd95551e367b4918e9"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/language/dan.csv",
+      "bytes": 30079,
+      "sha256": "37d83af96eb3efd59c899f6bef8668c182f7f0e3750f4558a4680f149c769602"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/language/dut.csv",
+      "bytes": 30549,
+      "sha256": "1c2bbe2faa6852e0d67e87b9bc52aaac19dc2f27ecab1c4400a16482fda30c23"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/language/eng.csv",
+      "bytes": 29310,
+      "sha256": "5b9b36f47248a429235f2238995cf3e22163e18fb730c91ea6b841868c5832c2"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/language/fin.csv",
+      "bytes": 30081,
+      "sha256": "5543d3fbf7528ab6f047d6fcba08d97e5dc4e6eaa4da3000b3ed18d1d76f1108"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/language/fre.csv",
+      "bytes": 30951,
+      "sha256": "b7f498c40a5305def48f5ede96ccffb026ede1487b0ab3163ff3bae71adc4f59"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/language/ger.csv",
+      "bytes": 30000,
+      "sha256": "61d802070bc67e11ddf6749109e3d9f29a81edf1b5294212b8625b406e4ae2f7"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/language/gre.csv",
+      "bytes": 38610,
+      "sha256": "07f54c31b7a463fc3f94a28120116bcff28c2bc34976a491d92c09cc7bbbcd14"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/language/hun.csv",
+      "bytes": 31146,
+      "sha256": "66ce1df83a3c6ac27d718b6be0bf23a7f13c124a83d817f6dd084959666ae0b6"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/language/ita.csv",
+      "bytes": 31008,
+      "sha256": "ccf240e9fff5780f8371ba17d4460eb5860ab0df58743fdfb9a9dbfaed722f4a"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/language/jpn.csv",
+      "bytes": 33376,
+      "sha256": "d3d4b19a7df01b8a29ae0d9516c6c167e31aa02571d2ddef9608ffa916ba5c68"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/language/kor.csv",
+      "bytes": 32515,
+      "sha256": "1a8068cba302d3f25cef38f70c68f6565f67dd25be85547429c558cb3f3297ff"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/language/mal.csv",
+      "bytes": 29760,
+      "sha256": "5f49c0b7d1552691bd1dc058e598f268c373c688cb70eedc9daaea5587bb05ae"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/language/nor.csv",
+      "bytes": 29627,
+      "sha256": "dbe47dd7bdde9c0898dcd44e20178f247c51c46b4c0fef357d1f67bc18f3c610"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/language/per.csv",
+      "bytes": 40275,
+      "sha256": "84bf28a5bff26312ab7d4fadb84c82c06331244282611017d6abcc9cd6d626e6"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/language/pol.csv",
+      "bytes": 30469,
+      "sha256": "9303bc9f8e86746966896095ae4a5128b0d0923e0f06c3da6e5683c885f553ca"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/language/por.csv",
+      "bytes": 30221,
+      "sha256": "e9fe9cd74d52be2204d7478c8d4c0ee9a656629dce6ae19fc4edb0ba40b11bc4"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/language/rus.csv",
+      "bytes": 38036,
+      "sha256": "6e98033dae22aa07ce90a7ed21dfe60452b3e1726d76954ba6b06e84149191ab"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/language/sch.csv",
+      "bytes": 29328,
+      "sha256": "13c456319e4f52fd6c534fea66e2e1fe5310ef09a94ba6c105911184a8374b0c"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/language/spa.csv",
+      "bytes": 30538,
+      "sha256": "83aa3cdc182fcdef002f7c6d18c75b95a3017753e1fb2f6b133ef33b87354cd0"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/language/swe.csv",
+      "bytes": 29650,
+      "sha256": "86c8cbe6840c7ec734e92956e4e43b796953c49f689cf8e9c7e4d4607d733016"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/language/tch.csv",
+      "bytes": 28930,
+      "sha256": "7d3e3e657649937162876ffc35a56dbaa7b0e9179746411320f465bf0758a51b"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/language/tha.csv",
+      "bytes": 45439,
+      "sha256": "1d369462650208faa13e048c90256b4137c6df4661cb2a43bf4ef832147980b9"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/language/tur.csv",
+      "bytes": 30278,
+      "sha256": "787777450c9bc8a2be14fb8b2406047f3d6ff92dc9b0206dccae00e53627bd3c"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/main.xml",
+      "bytes": 4799,
+      "sha256": "4cdf18ed3c36b904b222ac6185340ecd50e1802a10f68d36c80d1c8819bae056"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/MassStorageApp/main.xml",
+      "bytes": 319,
+      "sha256": "b5a67d28be781affd0517a69455b32555ae54861723fabe2b1f1cc3131d61ba5"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/MassStorageApp/massStorageView.xml",
+      "bytes": 917,
+      "sha256": "a875be4ea2917b8ed79de4f9475bf5cf813d32b9f0ca8d2ecf94823ca6b63265"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/mediaToolApp/assets/mediaToolAssets.xml",
+      "bytes": 319,
+      "sha256": "58ff24d50a2051df59e6d90b329c5795d1f6d3bad0d7fc487895852bfec70a6d"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/mediaToolApp/assets/mediaToolAssets.zip",
+      "bytes": 684,
+      "sha256": "fdbe6f6a6ae13869a9ada305d839ff30eaecde317f54a1598656fd5df42eeba2"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/mediaToolApp/bgmDownload.xml",
+      "bytes": 525,
+      "sha256": "8ca0ca279cedb3f2459ae65936132c2b509c1da977a2fb165838797517081280"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/mediaToolApp/changeFolder.xml",
+      "bytes": 3965,
+      "sha256": "9eaca5562e9acda0e4466b743744ffb4d6d39faa63d6815b2b2e007d4fb9ae1c"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/mediaToolApp/createFolder.xml",
+      "bytes": 1065,
+      "sha256": "e84c9ec2df97ba6b5f4436fe91e3290b56b29509d36fcbd6ca90221c37a3c94e"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/mediaToolApp/format.xml",
+      "bytes": 1143,
+      "sha256": "c795a42705e568664bf47f64cd1d216c28b39f95297cc2999d4e43ae47444435"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/mediaToolApp/main.xml",
+      "bytes": 3881,
+      "sha256": "b8848dab092986e41a90c088b74125403be9320e4b8fd2042206550e3f8a4338"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/mediaToolApp/msCopy.xml",
+      "bytes": 1132,
+      "sha256": "f261510f8cdc6c0ac19d465c6bdc8ecb619430d960dc395efe19fc21843e21b9"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/pcConnectDlg/assets/pcConnectDlgAssets.xml",
+      "bytes": 307,
+      "sha256": "930931687b831a131a1bc3704a0432f12e5448ab977d3a486608c9e49559932c"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/pcConnectDlg/assets/pcConnectDlgAssets.zip",
+      "bytes": 1407,
+      "sha256": "6fcb952ab238ac8ca3c8bf77f33bb426609a17c7f9221aa3a24558c607f28010"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/pcConnectDlg/main.xml",
+      "bytes": 3369,
+      "sha256": "00e7659a7217ac37a86f4e1aac1a8ee05a491462e4de669b1ae8eae4213c13ad"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/pcConnectDlg/pccAppView.xml",
+      "bytes": 1239,
+      "sha256": "568d0c0fc8eb56613df5136ba5918d16fc0b38f932358472313833d0e6a700a1"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/ptpApp/main.xml",
+      "bytes": 287,
+      "sha256": "60b7d058444344dd9f8fecc5ec8d26c6afc8283a66eb72e6991351087b7c3e54"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/ptpApp/ptpView.xml",
+      "bytes": 923,
+      "sha256": "096cd64be55e0023be1f32241e4a06a24bb32329767800eb369cb3f42e7bec04"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/settingsApp/assets/settingsAssets.xml",
+      "bytes": 888,
+      "sha256": "4301003f2eda7707978294ddca02f06d166f31db46d177b7166f2262b3838a3e"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/settingsApp/assets/settingsAssets.zip",
+      "bytes": 22198,
+      "sha256": "6cd77ae4939e1927ec0f966bef23d9f389580160b78ccadb6ed084b53b962d03"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/settingsApp/firmup.xml",
+      "bytes": 3087,
+      "sha256": "686dce3f22f8f779bd188bc0191d171e6a8ecb0adc7503f80e2c123256fe16d0"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/settingsApp/firmupError.xml",
+      "bytes": 4178,
+      "sha256": "c80d4ab901b9ca052f2a59713d2acc204691cd7e80c5a33a2d70469706ab4824"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/settingsApp/main.xml",
+      "bytes": 15647,
+      "sha256": "e22b919e5cf792d0012c903f62d644b4d39d72beeea377874274c320ad5e478f"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/settingsApp/reset.xml",
+      "bytes": 1138,
+      "sha256": "abc2f4ac8c9e480c0e70c407f0ed9dd87cfb255092ed258f2b11c9d8af380e40"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/systemData/RegionInfo/RegionInfo_ENG_2_NT.xml",
+      "bytes": 188,
+      "sha256": "46af4476f9aa369c54da7d7590b0da5252e6b3c35ed9abe40e6103a443e0f2a7"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/systemData/RegionInfo/RegionInfo_ENG_2_PA.xml",
+      "bytes": 188,
+      "sha256": "3ec6be050c1c4595a8ba64ef93a4160fe3c91e7126b084f17f5841b3f7d4a4ad"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/systemData/RegionInfo/RegionInfo_ENG_3_PA.xml",
+      "bytes": 188,
+      "sha256": "56605a0c60a1d332a8354e6bba42132eed7b193671ac0725c28a3536ae4ed949"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/systemData/RegionInfo/RegionInfo_ENG_4_PA.xml",
+      "bytes": 188,
+      "sha256": "18fae2ab013854e914c2a29b8705838905c43b464999e72e779971354a056adf"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/systemData/RegionInfo/RegionInfo_JPN_1_NT.xml",
+      "bytes": 188,
+      "sha256": "0841d4629e3885eb50c12a38ba5cacbe4c8772995eeb25b45c906f3b7f9997da"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/systemData/RegionInfo/RegionInfo_KOR_4_NT.xml",
+      "bytes": 188,
+      "sha256": "2c7bfa87c22a5a2e0f4924bf658fce35eff0166dece0ccb495c492003e539410"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/systemData/RegionInfo/RegionInfo_POR_4_NT.xml",
+      "bytes": 188,
+      "sha256": "fb5735c8f49cbb3ca923dcbdfd1b9b74f2405e09bd27fe52c2505beb83f833ea"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/systemData/RegionInfo/RegionInfo_RUS_3_PA.xml",
+      "bytes": 188,
+      "sha256": "06bff0c7b4aa6481baaf35c4785a0d162877f0dbc9dc91c130c563fc28416529"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/systemData/RegionInfo/RegionInfo_SCH_4_PA.xml",
+      "bytes": 188,
+      "sha256": "44a46ab492bf3b862d3fa12c1cb8586d9df85ef43315d6d449ee8ca2d02576d2"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/systemData/RegionInfo/RegionInfo_SPA_4_NT.xml",
+      "bytes": 188,
+      "sha256": "4f6e6533c83c22b55f8625bf4afff6e608567a1282b896014b5117010cebba30"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/systemData/SystemInfo.xml",
+      "bytes": 5664,
+      "sha256": "735660123f7a4b3d0e685125b27059c4757f2a82356dd150ee2f863d56ffb774"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/systemData/UserInfo_initial.xml",
+      "bytes": 2969,
+      "sha256": "e7c3dbf5a4c622cc0d08c51125c5de287671453ad32c43d19cc6850a7869b296"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskfnt/dsc/fonts/NewHeiStickJ0208S-SJ-B-NI.ccc",
+      "bytes": 224920,
+      "sha256": "c167eb89dcf3c3eb86f8a1424cfafc7b1b28fc7e95de8aba16b9aaecc60d6559"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskfnt/dsc/fonts/NewSansMTGB2312+Big5-SJ-B-NI.ccc",
+      "bytes": 603296,
+      "sha256": "2ccd30a5d944a0e0bdc7ee817442e95604ce4f9493359b378fe556e8a21dfdc8"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskfnt/dsc/fonts/SansMTK1001S-SJ-B-NI.ccc",
+      "bytes": 116100,
+      "sha256": "e7454c7f6c956b5d2a0887a49c4441da28879269f8e10671bc1812b67ea9ea8a"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskfnt/dsc/fonts/Utah-MT-SJ-NI.ttf",
+      "bytes": 224044,
+      "sha256": "00b26adecfefd4cfbd47328153a69b55359b8179fe90465ab60a963f3284477d"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskrel1/dsc/fsk/PictBridgeClient.so",
+      "bytes": 259728,
+      "sha256": "d32e3c0d5e87d615f67244ef9fda61e3d660ede6fffa8d626be6edb583987695"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskrel1/dsc/fsk/tinyhttp",
+      "bytes": 1330156,
+      "sha256": "e9d48783de02f105c687fd4b6cdd070ea72f181080c3324798e5fc2fe13ebf5b"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskrel2/dsc/fsk/BrewUnified.so",
+      "bytes": 237176,
+      "sha256": "36e8c22a8082c620bff2f8e2a3639282ed4b5bbec12da22319df9e7aaea8a2cf"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskrel2/dsc/fsk/BrewUnifiedRoot.so",
+      "bytes": 109696,
+      "sha256": "6b6d3ac88ffc9da5607ebaf33c4434b19a930f351c4acad293c68160efe43303"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskrel2/dsc/fsk/dscUtil.so",
+      "bytes": 255888,
+      "sha256": "af1763a0ac27b64b15534ce3236d20708372e80f6ca0a6976a7602ab1adad752"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskrel2/dsc/fsk/Fskin.so",
+      "bytes": 220612,
+      "sha256": "c5b5ad77cd112e42f8ef302f832c7d29e484ef1473451dfa097a40b1035ddcf2"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskrel2/dsc/fsk/Fsys.so",
+      "bytes": 142716,
+      "sha256": "0793abc7a9a807f7b65f46263b501aae736fb2188e596ba24c7f5aacfbaaadc4"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskrel2/dsc/fsk/itype.so",
+      "bytes": 126644,
+      "sha256": "2b923475ab13a125d813a8ac9d3cac9cab038cfe8e0fc676c33f49bc823253ad"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskrel2/dsc/fsk/thaiunidict.txt",
+      "bytes": 157857,
+      "sha256": "ebdfdc40e0d415236af9edc8b11422d4e6fa70207f3d6661444f5ca5737a935f"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskrel2/dsc/fsk/wtle.so",
+      "bytes": 251068,
+      "sha256": "6c513d2763842e9b41ffc6b1d0e706c8d943dcb029b9450bd62c40ad975c15e5"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskrel3/dsc/fsk/appUpdater.so",
+      "bytes": 8016,
+      "sha256": "17744f40dc933a0388e3455f8d27a795ba10269d75cec59591a8ca846f2509ed"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskrel3/dsc/fsk/DataManager.so",
+      "bytes": 18448,
+      "sha256": "b2d93cf0457451c93efdf585d0798155540e5dbaf2ae6cadb1ce4e7deeaf0143"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskrel3/dsc/fsk/DFM.so",
+      "bytes": 80572,
+      "sha256": "d122082aec3ec2ebcedbdd4baf7c4d4bf23975ea7eb2bf85afcf605f011d9587"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskrel3/dsc/fsk/dsc.xsb",
+      "bytes": 825288,
+      "sha256": "5c6e91b8c08c9ada902db66cc04382395e677e691cc22af5aa00ab94c5c3e4d2"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskrel3/dsc/fsk/fsFsys.so",
+      "bytes": 15324,
+      "sha256": "9fa97544de208fb90348fa968cc074d5282800cd701ee3f25bd9a821a7c15e37"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskrel3/dsc/fsk/FskCore.xsb",
+      "bytes": 65378,
+      "sha256": "f8b1dcc7b51e7e552f639dd34fabec2d049ebe38276e031d612325ccbbe0f9c5"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskrel3/dsc/fsk/ImageEditorMessage.xml",
+      "bytes": 101,
+      "sha256": "b7b0b64d1ed31aba212b9a0f8e219741b822cf4fc461b8be5a0875b28ef8c0e2"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskrel3/dsc/fsk/kconfig.xml",
+      "bytes": 736,
+      "sha256": "c29b3c23378339bffcf278713c78638f291b5fd3002587a034a7c83375d53f4c"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskrel3/dsc/fsk/MediaDetect.so",
+      "bytes": 18708,
+      "sha256": "77dac2b4bad46da6e4d05cefc0102badc6b937be1f4dc1f9edc7c34198098431"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskrel3/dsc/fsk/MediaMount.so",
+      "bytes": 23020,
+      "sha256": "d6b91d37b6e12eabf19ff46d589acfe72b699366858c7f27d6990f487d0224d9"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskrel3/dsc/fsk/PExtBackup.so",
+      "bytes": 24852,
+      "sha256": "9cc4a04794a46af6371b7d118a8549164669a0cbde19dd549d73c451147840ee"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskrel3/dsc/fsk/PExtSenser.so",
+      "bytes": 35300,
+      "sha256": "66d7d0a47713460ca1e4cb4a279c0693fbd493c0a42328e147f2595ffb08b155"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskrel3/dsc/fsk/PExtUpdate.so",
+      "bytes": 4564,
+      "sha256": "3bbc15bc112ad6297b4e3c5866f8e628fce702b4023118e09f5efa2d4da4ecd3"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskrel3/dsc/fsk/PrintClientCommonApp.xsb",
+      "bytes": 38490,
+      "sha256": "0940123ab7ff99a66e8724d98c1f96787886d9f4d3038cce3bb4b897798b2aa5"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskrel3/dsc/fsk/PrintUtil.so",
+      "bytes": 14804,
+      "sha256": "9d95eaa8920e3f216fc533e7affc53349703f37c6207ba1f09b3a1cc597f11a2"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskrel3/dsc/fsk/ptpPatch.xsb",
+      "bytes": 8614,
+      "sha256": "6511bbe1b40ad27bed317d142e1b1cebaa7bdbeb87ebf3eb34da5e22ebaf3321"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskrel3/dsc/fsk/regionInfo.xsb",
+      "bytes": 4687,
+      "sha256": "b07f58367de75a90b8dfc4409d124465dce60848d651b1434a636a782ad1fd09"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskrel3/dsc/fsk/senserModule.xsb",
+      "bytes": 101995,
+      "sha256": "162564650b73423ae350bfd47fea8084e64844c5d2a266b759acb21c5cdbea1b"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskrel3/dsc/fsk/usbExt.so",
+      "bytes": 13716,
+      "sha256": "8e1bf54c96b7f19ffb8c33821ad10e5c7af08ce78bec7a54e45d58fb5fa7759f"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskrel3/dsc/fsk/USBGMsc.so",
+      "bytes": 15084,
+      "sha256": "9ce2b194aa54b17a751a0f7b0f0fd23a5381379a713904e14edb85b4eeccb9ef"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/lib/lib/libadj31.so",
+      "bytes": 8360,
+      "sha256": "76e18573cd1d4076369d494952692cc64a652fa5eb6318c7c24dd293beb90083"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/lib/lib/libadj32.so",
+      "bytes": 10380,
+      "sha256": "e53dc9034fb65b71df689e3abcc9963016c5bb6718ff561976852c1291dab2ca"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/lib/lib/libadj33.so",
+      "bytes": 14768,
+      "sha256": "bdcd105d53b49fc7187425b8f7a0eff8c18eecf3b0ca735d2d52394af64b5327"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/lib/lib/libadj36.so",
+      "bytes": 4752,
+      "sha256": "62dcf8ab4ad37609495667dd1454e55162eaa47c3a917b48002ecf14c52c633a"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/lib/lib/libadj3E.so",
+      "bytes": 7200,
+      "sha256": "9c91fa89b5c447d1c2b6f97335fcfc4304638f9d1de55dedc7e93b037e0e2df1"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/lib/lib/libAppBackupApi.so",
+      "bytes": 15456,
+      "sha256": "90529aa8a62fc0aed3d6e95cde3a78c560a41155e74035dca263cbf51ec1a8eb"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/lib/lib/libBackupCore.so",
+      "bytes": 52472,
+      "sha256": "9642f9a5841321d84f64573144633f926c9a2403c7ab06e10c405796ce2694e1"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/lib/lib/libBackupTable.so",
+      "bytes": 66460,
+      "sha256": "752797daf98bf0cbff532b25a0f5b98eed21b7d0e875c77557a25f979ab26897"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/lib/lib/libdebugprintf.so",
+      "bytes": 4620,
+      "sha256": "49d2f369d0ecb33dbbe7d7f642c038d22d7a644c16478749288a2efe30e2a9a2"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/lib/lib/libextupdate.so",
+      "bytes": 38812,
+      "sha256": "cc96e0ec4466d1cd200616d124dd1122e5beff8ed6d1735c91d60feeac9d6176"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/lib/lib/libpro01.so",
+      "bytes": 10544,
+      "sha256": "28bdd1dfa5ab44cbf433bbf60f7bbbdb2874219e0c7560bc63adf7476bdc618b"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/lib/lib/libpro11.so",
+      "bytes": 14620,
+      "sha256": "48632ff207f809b41feab4d2ae151adefb8c199988869718adb8c559ac57ad73"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/lib/lib/libSenserBackupApi.so",
+      "bytes": 9852,
+      "sha256": "ebc354fde5bae0cffd1d80aaf89b43900042ec26608db93c1c1112a4a5af346d"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/lib/lib/libsenupdate.so",
+      "bytes": 15624,
+      "sha256": "89b4652e2eb5b073586001509274695a804757426004cb5bef844230ee9489ca"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/lib/lib/libSnr.so",
+      "bytes": 14916,
+      "sha256": "ce29dada0d5278746821cc2b2b11366b9860f17b44a1c858043f761ac7438b1f"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/lib/lib/libusb.so",
+      "bytes": 60052,
+      "sha256": "6a2f55f9202b53d1581df05e7ca8319910774ece123f98c5fad3d16de4c450cd"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/linuxset1/vmlinux",
+      "bytes": 1502512,
+      "sha256": "b16301ce0c87aa3d17902eac90fdc2da46a30747de2bdb06329cb611450e0d87"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/linuxset2/initrd.img",
+      "bytes": 194560,
+      "sha256": "f95cd6a7492e8bdd99de03915ca06cb8ae2aa4f0ba8a0f99c30ca63985ce5e7f"
+    },
+    {
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/linuxset3/rootfs.img",
+      "bytes": 946176,
+      "sha256": "89c26f514389f5a0a5956b645898595195b138ce1c477514c97f5ebe14444709"
+    }
+  ],
+  "firmware_executed": false,
+  "camera_accessed": false,
+  "w300_qualified": false
+}

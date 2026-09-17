@@ -1,0 +1,51 @@
+{
+  "scope": "Relocated Windows executable, restricted PATH, no camera commands",
+  "archive_sha256": "8759b8790c1d69dfa88c6cc126069fd5af29411418f8c6acd3227b122798eea8",
+  "archive_bytes": 12127710,
+  "manifest_entries_verified": 102,
+  "temp_directory_execution": "Windows CreateProcess Access is denied; not a completed app run",
+  "relocated_directory": "C:\\Users\\apara01\\OneDrive - Kearney\\Documents\\ChatGPT\\W300\\DSC-W300\\build\\w300\\portable-region\\relocated-validation\\W300Region",
+  "checks": [
+    {
+      "args": [
+        "selftest"
+      ],
+      "exit_code": 0,
+      "expected": 0,
+      "passed": true,
+      "stdout": "{\n  \"operation\": \"selftest\",\n  \"serial\": null,\n  \"ok\": true,\n  \"region_write_attempted\": false,\n  \"region_reply_received\": false,\n  \"persistent_english_verified\": false,\n  \"files\": [],\n  \"scope\": \"Offline pins and packet encoding; no camera access\"\n}\nSaved session: C:\\Users\\apara01\\OneDrive - Kearney\\Documents\\ChatGPT\\W300\\DSC-W300\\build\\w300\\portable-region\\relocated-validation\\W300Region\\sessions\\20260917-151018-705070-selftest\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "--help"
+      ],
+      "exit_code": 0,
+      "expected": 0,
+      "passed": true,
+      "stdout": "usage: W300Region.exe [-h]\n                      {selftest,doctor,probe,capture,apply,verify,prepare} ...\n\nW300 region engineering console. Experimental acquisition; qualified writes\nonly.\n\npositional arguments:\n  {selftest,doctor,probe,capture,apply,verify,prepare}\n\noptions:\n  -h, --help            show this help message and exit\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "apply",
+        "--serial",
+        "D386002E4438",
+        "--experimental-service",
+        "--baseline",
+        "missing",
+        "--qualification",
+        "missing",
+        "--qualification-sha256",
+        "missing"
+      ],
+      "exit_code": 2,
+      "expected": 2,
+      "passed": true,
+      "stdout": "{\n  \"operation\": \"apply\",\n  \"serial\": \"D386002E4438\",\n  \"ok\": false,\n  \"region_write_attempted\": false,\n  \"region_reply_received\": false,\n  \"persistent_english_verified\": false,\n  \"files\": [],\n  \"error_type\": \"FileNotFoundError\",\n  \"error\": \"[Errno 2] No such file or directory: 'C:\\\\\\\\Users\\\\\\\\apara01\\\\\\\\OneDrive - Kearney\\\\\\\\Documents\\\\\\\\ChatGPT\\\\\\\\W300\\\\\\\\DSC-W300\\\\\\\\build\\\\\\\\w300\\\\\\\\portable-region\\\\\\\\relocated-validation\\\\\\\\missing\\\\\\\\result.json'\"\n}\nSaved session: C:\\Users\\apara01\\OneDrive - Kearney\\Documents\\ChatGPT\\W300\\DSC-W300\\build\\w300\\portable-region\\relocated-validation\\W300Region\\sessions\\20260917-151019-271337-apply\n",
+      "stderr": ""
+    }
+  ],
+  "passed": true,
+  "w300_hardware_validated": false
+}

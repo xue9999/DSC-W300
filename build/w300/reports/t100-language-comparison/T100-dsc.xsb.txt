@@ -1,0 +1,115 @@
+00c483 5c                        
+00c484 37                        
+00c485 3f01cd                    
+00c488 23ffff2202839e83a0790183a1 65535:<special> 926:path 928:language 929:languageGroup 
+00c495 6001bc                    
+00c498 4100                      
+00c49a 6d                        
+00c49b 64839e                   926:path 
+00c49e 5c                        
+00c49f 6a00                      ''
+00c4a1 6d                        
+00c4a2 64839f                   927:curLanguage 
+00c4a5 5c                        
+00c4a6 6a73797374656d446174612e6c616e67477000  'systemData.langGp'
+00c4b9 5d                        
+00c4ba 4283a2                   930:Registry 
+00c4bd 4283a3                   931:KEY_REGION 
+00c4c0 8902                      
+00c4c2 5d                        
+00c4c3 4283a2                   930:Registry 
+00c4c6 2e83a4                   932:get 
+00c4c9 63ff                      
+00c4cb 5c                        
+00c4cc 41ff                      
+00c4ce 37                        
+00c4cf 8900                      
+00c4d1 69                        
+00c4d2 290026                    
+00c4d5 37                        
+00c4d6 8901                      
+00c4d8 69                        
+00c4d9 29008c                    
+00c4dc 37                        
+00c4dd 8902                      
+00c4df 69                        
+00c4e0 290092                    
+00c4e3 37                        
+00c4e4 8903                      
+00c4e6 69                        
+00c4e7 2900ac                    
+00c4ea 37                        
+00c4eb 8904                      
+00c4ed 69                        
+00c4ee 2900f2                    
+00c4f1 37                        
+00c4f2 8963                      
+00c4f4 69                        
+00c4f5 29011c                    
+00c4f8 28014b                    
+00c4fb 6a6a706e2c656e672c6672652c6765722c7370612c6974612c706f722c6475742c7275732c7377652c6e6f722c64616e2c66696e2c706f6c2c637a652c68756e2c7475722c6772652c7463682c7363682c6b6f722c7065722c6172612c7468612c6d616c00  'jpn,eng,fre,ger,spa,ita,por,dut,rus,swe,nor,dan,fin,pol,cze,hun,tur,gre,tch,sch,kor,per,ara,tha,mal'
+00c560 6d                        
+00c561 64839d                   925:availableLang 
+00c564 5c                        
+00c565 2800eb                    
+00c568 6a6a706e00                'jpn'
+00c56d 6d                        
+00c56e 64839d                   925:availableLang 
+00c571 5c                        
+00c572 2800de                    
+00c575 6a656e672c6672652c7370612c6974612c7463682c73636800  'eng,fre,spa,ita,tch,sch'
+00c58e 6d                        
+00c58f 64839d                   925:availableLang 
+00c592 5c                        
+00c593 2800bd                    
+00c596 6a656e672c6672652c6765722c7370612c6974612c706f722c6475742c7275732c7377652c6e6f722c64616e2c66696e2c706f6c2c637a652c68756e2c7475722c67726500  'eng,fre,ger,spa,ita,por,dut,rus,swe,nor,dan,fin,pol,cze,hun,tur,gre'
+00c5db 6d                        
+00c5dc 64839d                   925:availableLang 
+00c5df 5c                        
+00c5e0 280070                    
+00c5e3 6a656e672c7370612c706f722c7463682c7363682c6b6f722c7065722c6172612c7468612c6d616c00  'eng,spa,por,tch,sch,kor,per,ara,tha,mal'
+00c60c 6d                        
+00c60d 64839d                   925:availableLang 
+00c610 5c                        
+00c611 28003f                    
+00c614 6a73797374656d446174612e617661696c61626c654c616e6700  'systemData.availableLang'
+00c62e 5d                        
+00c62f 4283a2                   930:Registry 
+00c632 4283a3                   931:KEY_REGION 
+00c635 8902                      
+00c637 5d                        
+00c638 4283a2                   930:Registry 
+00c63b 2e83a4                   932:get 
+00c63e 6d                        
+00c63f 64839d                   925:availableLang 
+00c642 5c                        
+00c643 28000d                    
+00c646 6a6a706e00                'jpn'
+00c64b 6d                        
+00c64c 64839d                   925:availableLang 
+00c64f 5c                        
+00c650 280000                    
+00c653 5c                        
+00c654 38                        
+00c655 6c                        
+00c656 7c80150c04               21:initialize 
+00c65b 5c                        
+00c65c 37                        
+00c65d 3f002c                    
+00c660 23ffff22007900           65535:<special> 
+00c667 600021                    
+00c66a 59                        
+00c66b 6d                        
+00c66c 64839c                   924:langDB 
+00c66f 5c                        
+00c670 59                        
+00c671 6d                        
+00c672 64839d                   925:availableLang 
+00c675 5c                        
+00c676 8900                      
+00c678 6d                        
+00c679 2e83a5                   933:registerClear 
+00c67c 5c                        
+00c67d 6a00                      ''
+00c67f 6d                        
+00c680 64839f                   927:curLanguage 

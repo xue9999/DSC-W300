@@ -1,21 +1,31 @@
 {
   "schema_version": 1,
-  "editorial_revision": 10,
+  "editorial_revision": 9,
   "scope": "Current scripts, reports and offline research inputs",
   "pmca_commit": "a82f5baaa8e9c3d9f28f94699e860fb2e48cc8e0",
   "camera_communication_verified": false,
   "w300_language_write_verified": false,
-  "historical_manifest": "manifests/package_manifest.pre-region-readback-r10.json",
+  "historical_manifest": "manifests/package_manifest.pre-region-auto-r9.json",
   "editorial_changes": [
     {
+      "path": "build_region_app.py",
+      "previous_sha256": "5c362d69d441bab45dee0d92fec59dbe4fc90cf40f64abe264be849453b9829f",
+      "current_sha256": "cd089f00078f86f163c68e7cc062301c5c487c9f39d01fbe3a311f7aa3d13961"
+    },
+    {
       "path": "region_app.py",
-      "previous_sha256": "82e9fbe8a38775e71b82d3d907f75e2ec423fa0b808035d532495108eb86cc19",
-      "current_sha256": "3e2e2060ee338bff653bfc93d6b825b3b782c469a57ee7a5b952ea31c4d0efc2"
+      "previous_sha256": "b4c545fd77e81cd34ecc7a6571c8e668a08943ee17bcbaeed62027adab01ccf3",
+      "current_sha256": "82e9fbe8a38775e71b82d3d907f75e2ec423fa0b808035d532495108eb86cc19"
+    },
+    {
+      "path": "region_protocol.py",
+      "previous_sha256": "d915e6dce530a0adbf7bbc6c7717cab72d26009c785d5ac5680ddd8e84dc6054",
+      "current_sha256": "5b755b9ad0f2674b7888dfd64f5feea36035342d734b882318cc59ce6d4b9ee9"
     },
     {
       "path": "reports/region-app/README.md",
-      "previous_sha256": "2f6f1a7a9b219577d45b1d70bbee1bb084d42c78a7f344bf3f799a391c630d66",
-      "current_sha256": "9b54735021047cb7d43e77ed6e74b70d46fedfc4461d7602292aea87a81378fa"
+      "previous_sha256": "2afcb3657c57407eaef95f316acb75bb408b802042e144af146a0516c004e62a",
+      "current_sha256": "2f6f1a7a9b219577d45b1d70bbee1bb084d42c78a7f344bf3f799a391c630d66"
     }
   ],
   "artifacts": [
@@ -3025,11 +3035,6 @@
       "sha256": "8a661ee9cafc04fa09cc15ab67f3378c9f2b44070cbbb81c37f335bd8bb931f5"
     },
     {
-      "path": "manifests/package_manifest.pre-region-readback-r10.json",
-      "bytes": 177423,
-      "sha256": "3668591e84eaa6168a20f1297da087bd394f2aa080bdf2456c5531b5182e7abc"
-    },
-    {
       "path": "manifests/package_manifest.pre-t100-r6.json",
       "bytes": 177207,
       "sha256": "c16a8f1237cd72da6c5c5ccbf9a006c85f6ffeff2c43aaec51bd39527045663c"
@@ -3056,8 +3061,8 @@
     },
     {
       "path": "region_app.py",
-      "bytes": 33030,
-      "sha256": "3e2e2060ee338bff653bfc93d6b825b3b782c469a57ee7a5b952ea31c4d0efc2"
+      "bytes": 32884,
+      "sha256": "82e9fbe8a38775e71b82d3d907f75e2ec423fa0b808035d532495108eb86cc19"
     },
     {
       "path": "region_compat.py",
@@ -4151,8 +4156,8 @@
     },
     {
       "path": "reports/region-app/README.md",
-      "bytes": 10694,
-      "sha256": "9b54735021047cb7d43e77ed6e74b70d46fedfc4461d7602292aea87a81378fa"
+      "bytes": 10341,
+      "sha256": "2f6f1a7a9b219577d45b1d70bbee1bb084d42c78a7f344bf3f799a391c630d66"
     },
     {
       "path": "reports/region-app/inspect_recovery.py",
@@ -4160,19 +4165,9 @@
       "sha256": "b801ae05e51739b892665a2c8d04f06a4eb242799166fb59375405c402ff7275"
     },
     {
-      "path": "reports/region-app/inspect_t100_transport.py",
-      "bytes": 1174,
-      "sha256": "caa2271e664e30a036dde94da3587f40ad81750fa11fcdc7ec5e6427e2fbca47"
-    },
-    {
       "path": "reports/region-app/portable-validation-v2.json",
       "bytes": 3046,
       "sha256": "4ee0bd632efca9af047f9c7744b62be8d1671f47387d1482b42e312ce234345c"
-    },
-    {
-      "path": "reports/region-app/portable-validation-v4.json",
-      "bytes": 3064,
-      "sha256": "0eb3941d215814d38669a7519224e1e2b53c63eb3fd13d84a5b40e17dd298cc1"
     },
     {
       "path": "reports/region-app/portable-validation.json",
@@ -4203,16 +4198,6 @@
       "path": "reports/region-app/reference-compatibility.json",
       "bytes": 7100,
       "sha256": "3d46acb438607380d0dbe6a5684f7defca172e483ca0b301376be6651eb0fb8e"
-    },
-    {
-      "path": "reports/region-app/t100-transport-native.txt",
-      "bytes": 47487,
-      "sha256": "6e62f03f63841cafff29275466eee54442122c032a68582851ef7df722264b19"
-    },
-    {
-      "path": "reports/region-app/t100-transport.md",
-      "bytes": 2395,
-      "sha256": "1f87bea087c4c326d99abc7dcbceadd3a1108ecfeff19738462d60ebaa1378c0"
     },
     {
       "path": "reports/region-service-method/README.md",
@@ -4711,10 +4696,14 @@
     }
   ],
   "added_artifacts": [
-    "manifests/package_manifest.pre-region-readback-r10.json",
-    "reports/region-app/inspect_t100_transport.py",
-    "reports/region-app/portable-validation-v4.json",
-    "reports/region-app/t100-transport-native.txt",
-    "reports/region-app/t100-transport.md"
+    "build_region_references.py",
+    "manifests/package_manifest.pre-region-auto-r9.json",
+    "region_compat.py",
+    "reports/region-app/inspect_recovery.py",
+    "reports/region-app/portable-validation-v2.json",
+    "reports/region-app/recovery-inputs.json",
+    "reports/region-app/recovery-layout.md",
+    "reports/region-app/recovery-native.txt",
+    "reports/region-app/reference-compatibility.json"
   ]
 }

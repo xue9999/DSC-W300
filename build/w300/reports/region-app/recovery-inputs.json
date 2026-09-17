@@ -1,0 +1,16 @@
+{
+  "inputs": [
+    {
+      "model": "G3",
+      "path": "evidence/extracted_g3/archives_unpacked/lib/lib/libBackupCore.so",
+      "sha256": "56aa2595c4747b6aadc1c0c3bb7a438b15086951121024a8649254cdec61fd4b"
+    },
+    {
+      "model": "T100",
+      "path": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/lib/lib/libBackupCore.so",
+      "sha256": "9642f9a5841321d84f64573144633f926c9a2403c7ab06e10c405796ce2694e1"
+    }
+  ],
+  "layout_helpers_byte_identical": true,
+  "scope": "Static T100/G3 comparison; W300 recovery untested"
+}
