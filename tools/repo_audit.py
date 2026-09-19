@@ -129,8 +129,22 @@ def verify_local_links(root: Path, documents: list[Path] | None = None) -> list[
     return errors
 
 
+def git_bin() -> str:
+    found = shutil.which('git')
+    if found:
+        return found
+    for c in [
+        Path(os.environ.get('LOCALAPPDATA', '')) / 'Programs/Git/cmd/git.exe',
+        Path('C:/Program Files/Git/cmd/git.exe'),
+        Path('C:/Program Files (x86)/Git/cmd/git.exe'),
+    ]:
+        if c.is_file():
+            return str(c)
+    return 'git'
+
+
 def _git(root: Path, *args: str) -> str:
-    return subprocess.check_output(['git', '-C', str(root), *args], stderr=subprocess.DEVNULL, text=True).strip()
+    return subprocess.check_output([git_bin(), '-C', str(root), *args], stderr=subprocess.DEVNULL, text=True).strip()
 
 
 def submodule_status(root: Path = REPO_ROOT) -> list[dict]:

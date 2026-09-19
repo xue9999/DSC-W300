@@ -111,9 +111,9 @@ Ensure that all dependency checks pass and `libusb-1.0.dll` is correctly located
 Before making any changes to the camera, capture a complete, double-read backup of all critical NVM and firmware configuration components:
 
 ```powershell
-python build/w300/region_app.py capture --serial D386002E4438 --experimental-service --output evidence/w300/baseline_files
+python build/w300/region_app.py capture --serial D386002E4438 --experimental-service
 ```
-*(Replace `D386002E4438` with your camera's serial number if different).*
+*(Replace `D386002E4438` with your camera's serial number if different. You can also supply `--output <directory>` to save directly to a custom destination instead of the default `build/w300/sessions/<timestamp>-capture`).*
 
 > **Note on Service Mode Driver Binding**:
 > During this step, the camera will switch from Mass Storage mode (PID `0341`) to Service Mode (PID `0336`).
@@ -122,19 +122,18 @@ python build/w300/region_app.py capture --serial D386002E4438 --experimental-ser
 > 2. Install **WinUSB** for this PID as well.
 > 3. Resume capture:
 >    ```powershell
->    python build/w300/region_app.py capture --resume-dir <session-directory>
+>    python build/w300/region_app.py capture --serial D386002E4438 --experimental-service --resume-session build/w300/sessions/<session-directory>
 >    ```
 
-The captured files will be saved and double-read bit-for-bit, including:
-- `/boot/factory/Hreg.bin` and `Hreg2.bak`
-- `/boot/dsc/RegionInfo.xml`
-- `/boot/dsc/UserInfo.xml` and `UserInfo.bak`
-- `/usr/dsc/fsk/regionInfo.xsb`
-- `/usr/dsc/fsk/senserCmdTable.xsb`
-- `/usr/lib/libsencore.so`
+The captured files are saved and double-read bit-for-bit. A complete baseline contains 20 archived files (including all 11 `ESSENTIAL` reference components evaluated during assessment):
+- Category-0 NVM state: `/boot/factory/Hreg.bin`, `Hreg2.bak`, `/boot/dsc/RegionInfo.xml`, `/boot/dsc/UserInfo.xml`, `UserInfo.bak`
+- Bytecode & handlers: `/usr/dsc/fsk/regionInfo.xsb`, `senserCmdTable.xsb`, `senserModule.xsb`, `dsc.xsb`
+- Extensions & libraries: `/usr/dsc/fsk/PExtBackup.so`, `PExtSenser.so`, `/usr/lib/libsencore.so`, `libAppBackupApi.so`, `libBackupCore.so`, `libBackupTable.so`
+- Daemon & configs: `/usr/dsc/fsk/tinyhttp`, `/usr/bin/sen`, `/usr/dsc/fsk/kconfig.xml`, `/usr/dsc/app/scripts/kconfig.xml`
+- Firmware banner: `/version.txt`
 
 ### Step 4: Verify Baseline Assessment
-Run the offline assessment tool against the captured baseline to ensure byte-level compatibility with reviewed components:
+Run the offline assessment tool against the archived baseline (or your freshly captured session directory) to ensure byte-level compatibility with reviewed components:
 ```powershell
 python build/w300/region_app.py assess --baseline evidence/w300/baseline_files
 ```
@@ -142,6 +141,7 @@ The assessment will verify that:
 - Senser command table matches the reviewed function `0x40` / command `0x55` structure.
 - Bytecode offset `0x856` in `regionInfo.xsb` matches the `RegionSetting` four-argument signature.
 - Hreg size is exactly 2048 bytes with valid category-0 header markers.
+- All 11 `ESSENTIAL` reference components match (`"can_attempt_experimental_write": true` and `"reasons": []`).
 
 ### Step 5: Execute Region Change to English
 Execute the verified region change command:
@@ -171,6 +171,11 @@ What happens during execution:
    - Test photo & flash: Image captured cleanly and stored on Memory Stick / internal memory.
    - Playback mode: Captured photos display with English metadata and EXIF tags.
    - Video recording: Captures and saves audio/video properly.
+7. **Optional Software Verification**:
+   You can also verify that the camera reports English region configuration over USB:
+   ```powershell
+   python build/w300/region_app.py verify-region --serial D386002E4438 --experimental-service --baseline evidence/w300/baseline_files --expect english
+   ```
 
 ### Step 7: Restoring Standard USB Mass Storage Driver
 After the conversion is complete and verified, you can restore standard Windows file explorer access:
@@ -190,8 +195,8 @@ After the conversion is complete and verified, you can restore standard Windows 
 3. **No Firmware Flashing Required**: The camera's Linux kernel and application binaries in flash ROM (`/usr/dsc/fsk/tinyhttp`, etc.) are not modified. English language strings are already present in the factory firmware; `RegionSetting` simply unlocks them in the UI.
 
 ### Factory Rollback Procedure
-If you ever want to return the camera to its original Japanese factory state:
+If you ever want to return the camera to its original Japanese factory state, provide the original baseline and the session directory recorded during the change:
 ```powershell
-python build/w300/region_app.py restore-region --serial D386002E4438 --experimental-service --baseline evidence/w300/baseline_files
+python build/w300/region_app.py restore-region --serial D386002E4438 --experimental-service --baseline evidence/w300/baseline_files --change-session build/w300/sessions/<timestamp>-change
 ```
-This reapplies the original Japanese preset arguments `[0, 0x8000, 0x8000, 0]` and restores the original `/boot/factory/Hreg.bin` configuration.
+The `--change-session` argument ensures transactional safety by validating that the serial number, baseline SHA-256 digest, and recorded change intent match the camera state before executing the restore command. This reapplies the original Japanese preset arguments `[0, 0x8000, 0x8000, 0]` and restores the original `/boot/factory/Hreg.bin` configuration.
