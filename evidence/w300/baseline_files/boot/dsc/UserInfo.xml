@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs0:manager xmlns:xs0="http://www.kinoma.com/fskin/1">
+	<xs0:commonData id="commonData">
+		<xs0:guideFlag>false</xs0:guideFlag>
+		<xs0:language>jpn</xs0:language>
+		<xs0:msDevId>IE1TUFNOWTAAeSwD16sAAA==</xs0:msDevId>
+		<xs0:recDirNo>101</xs0:recDirNo>
+		<xs0:lastPlyDirNo>101</xs0:lastPlyDirNo>
+		<xs0:lastPlyFilNo>23</xs0:lastPlyFilNo>
+		<xs0:recFileNo>2396</xs0:recFileNo>
+		<xs0:browseMode>0</xs0:browseMode>
+		<xs0:displayMode>DISP_ON_N</xs0:displayMode>
+		<xs0:demoMode>Off</xs0:demoMode>
+	</xs0:commonData>
+	<xs0:clockData id="clockData">
+		<xs0:timeFormatId>MDY</xs0:timeFormatId>
+	</xs0:clockData>
+	<xs0:audioData id="audioData">
+		<xs0:beepMute>0</xs0:beepMute>
+		<xs0:volume>3</xs0:volume>
+	</xs0:audioData>
+	<xs0:videoData id="videoData">
+		<xs0:lcdBacklight>0</xs0:lcdBacklight>
+		<xs0:evfBacklight>0</xs0:evfBacklight>
+		<xs0:outSignalType>0</xs0:outSignalType>
+		<xs0:dOutType>1</xs0:dOutType>
+		<xs0:wideZoom>1</xs0:wideZoom>
+	</xs0:videoData>
+	<xs0:printData id="printData">
+		<xs0:dateInsert>0</xs0:dateInsert>
+		<xs0:paperSize>1</xs0:paperSize>
+	</xs0:printData>
+	<xs0:Camera id="Camera">
+		<xs0:stMv>Still</xs0:stMv>
+		<xs0:CameraMode>Program</xs0:CameraMode>
+		<xs0:sceneSelection>TwilightPortrait</xs0:sceneSelection>
+		<xs0:ev>Ev0.0</xs0:ev>
+		<xs0:focus>AfMulti</xs0:focus>
+		<xs0:spotMode>Multi</xs0:spotMode>
+		<xs0:wb>Auto</xs0:wb>
+		<xs0:aquaticWb>Auto</xs0:aquaticWb>
+		<xs0:iso>Iso80</xs0:iso>
+		<xs0:captureMode>Normal</xs0:captureMode>
+		<xs0:bracketStep>Brk0.3</xs0:bracketStep>
+		<xs0:reReduction>Auto</xs0:reReduction>
+		<xs0:afMode>Monitoring</xs0:afMode>
+		<xs0:afIlluminator>Auto</xs0:afIlluminator>
+		<xs0:antiShake>Shooting</xs0:antiShake>
+		<xs0:antiShakeMv>Continuous</xs0:antiShakeMv>
+		<xs0:macro>Auto</xs0:macro>
+		<xs0:stillSize>Size13M</xs0:stillSize>
+		<xs0:movieSize>Size640Fine</xs0:movieSize>
+		<xs0:digitalZoom>Off</xs0:digitalZoom>
+		<xs0:flashMode>Off</xs0:flashMode>
+		<xs0:flashLevel>Minus</xs0:flashLevel>
+		<xs0:flashLevelMulti>Flash_Ev0.0</xs0:flashLevelMulti>
+		<xs0:orientation>On</xs0:orientation>
+		<xs0:viewMode>DispOn</xs0:viewMode>
+		<xs0:colorMode>Real</xs0:colorMode>
+		<xs0:colorFilter>Off</xs0:colorFilter>
+		<xs0:autoReview>On</xs0:autoReview>
+		<xs0:gridLine>Off</xs0:gridLine>
+		<xs0:toolCamMode>Program</xs0:toolCamMode>
+		<xs0:toolPosItem>FlashLevel</xs0:toolPosItem>
+		<xs0:toolPosSize>76</xs0:toolPosSize>
+		<xs0:flashTiming>Front</xs0:flashTiming>
+		<xs0:expandFocus>On</xs0:expandFocus>
+		<xs0:faceMode>Auto</xs0:faceMode>
+		<xs0:contrast>Normal</xs0:contrast>
+		<xs0:dro>Advance</xs0:dro>
+		<xs0:sharpness>Minus</xs0:sharpness>
+		<xs0:convLens>Off</xs0:convLens>
+		<xs0:setup>setupDummy</xs0:setup>
+		<xs0:flashChargeNg>Off</xs0:flashChargeNg>
+		<xs0:smileSensitive>Normal</xs0:smileSensitive>
+		<xs0:sceneDistinctionLevel>Level2</xs0:sceneDistinctionLevel>
+		<xs0:nrLevel>Low</xs0:nrLevel>
+		<xs0:easyStillSize>StillLarge</xs0:easyStillSize>
+		<xs0:easyFlashMode>Auto</xs0:easyFlashMode>
+		<saturation>High</saturation>
+	</xs0:Camera>
+	<xs0:pccData id="pccData">
+		<xs0:usbSetting>0</xs0:usbSetting>
+	</xs0:pccData>
+	<xs0:homeData id="homeData">
+		<xs0:focusItem0>0</xs0:focusItem0>
+		<xs0:focusItem1>10</xs0:focusItem1>
+		<xs0:focusItem2>0</xs0:focusItem2>
+		<xs0:focusItem3>0</xs0:focusItem3>
+		<xs0:focusItem4>0</xs0:focusItem4>
+		<xs0:focusItem5>0</xs0:focusItem5>
+	</xs0:homeData>
+	<xs0:slideShowData id="slideShowData">
+		<xs0:selectImage>all</xs0:selectImage>
+		<xs0:effect>basic</xs0:effect>
+		<xs0:bgmSimple>8</xs0:bgmSimple>
+		<xs0:bgmBasic>8</xs0:bgmBasic>
+		<xs0:bgmNostalgic>8</xs0:bgmNostalgic>
+		<xs0:bgmStylish>8</xs0:bgmStylish>
+		<xs0:bgmActive>8</xs0:bgmActive>
+		<xs0:bgmFaceBasic>8</xs0:bgmFaceBasic>
+		<xs0:bgmFaceNostalgic>8</xs0:bgmFaceNostalgic>
+		<xs0:bgmFaceStylish>8</xs0:bgmFaceStylish>
+		<xs0:interval>3sec</xs0:interval>
+		<xs0:repeat>1</xs0:repeat>
+	</xs0:slideShowData>
+</xs0:manager>

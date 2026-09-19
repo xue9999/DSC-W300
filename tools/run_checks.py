@@ -7,6 +7,7 @@ import json
 import os
 from pathlib import Path
 import platform
+import shutil
 import subprocess
 import sys
 import time
@@ -15,8 +16,25 @@ import unittest
 ROOT = Path(__file__).resolve().parents[1]
 
 
+def git_bin() -> str:
+    found = shutil.which('git')
+    if found:
+        return found
+    for c in [
+        Path(os.environ.get('LOCALAPPDATA', '')) / 'Programs/Git/cmd/git.exe',
+        Path('C:/Program Files/Git/cmd/git.exe'),
+        Path('C:/Program Files (x86)/Git/cmd/git.exe'),
+    ]:
+        if c.is_file():
+            return str(c)
+    return 'git'
+
+
 def git(*args: str) -> str:
-    return subprocess.check_output(['git', '-C', str(ROOT), *args], text=True).strip()
+    try:
+        return subprocess.check_output([git_bin(), '-C', str(ROOT), *args], text=True).strip()
+    except (OSError, subprocess.CalledProcessError):
+        return 'unknown'
 
 
 def audit() -> dict:

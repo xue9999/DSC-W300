@@ -6,11 +6,19 @@ For W300 work, start with the [execution plan](docs/w300/EXECUTION_PLAN.md) and 
 
 | Workstream | What is established | What still needs verification |
 | --- | --- | --- |
-| DSC-W300 language research | Sony service-manual findings, historical USB observations, offline service simulator | Retail-board destination encoding, recoverable conversion, persistent English on an actual camera |
+| DSC-W300 language research | Persistent English menus verified on live Japanese DSC-W300 hardware after cold restart; calibration, serial D386002E4438 and normal shooting/playback preserved; double-read baseline files archived | Multi-device community testing across other serials/firmware revisions |
 | DSC-G3 firmware | EXE/container parsing, section integrity, filesystem extraction, experimental file modifications | Acceptance of modified firmware by a camera, bootability, image-quality improvement |
 | Emulation | Image assembly and QEMU argument generation | Successful camera boot or reproduction of the imaging pipeline |
 
-For the receiving Windows PC, follow the [brief agent handoff](docs/w300/AGENT_HANDOFF.md). It links the portable region console and identifies the remaining hardware checks.
+## Milestone: Persistent English Verified on DSC-W300
+
+The Japanese-market Sony Cyber-shot DSC-W300 (J1 region, serial `D386002E4438`) has been **successfully converted to persistent English menus** using the native Senser service protocol:
+- **Command**: `RegionSetting [255, 0x100, 0x8100, 0]` executed over USB Bulk endpoints.
+- **Protocol Discovery**: Senser response `status = 0x01` signifies successful completion; the camera automatically commits Category-0 NVM and re-enumerates as PID `054C:033F` (Overseas/Custom).
+- **Physical Verification**: Cold restart (battery pull) verified on the camera LCD; English menus active; optical zoom, autofocus, flash, image capture, and playback operate normally.
+- **Preservation**: Sensor and optical calibration, hardware serial `D386002E4438`, and factory identity blocks were completely preserved.
+- **Complete Guide**: Read the [step-by-step persistent English conversion guide](docs/w300/PERSISTENT_ENGLISH_GUIDE.md).
+- **Handoff & Records**: See the [receiving-PC agent handoff](docs/w300/AGENT_HANDOFF.md) and [hardware verification report](docs/w300/VERIFICATION.md).
 
 ## Start here
 

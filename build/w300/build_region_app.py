@@ -3,6 +3,7 @@ import argparse
 import hashlib
 import importlib.metadata
 import json
+import os
 from pathlib import Path
 import shutil
 import subprocess
@@ -14,6 +15,20 @@ UPSTREAM = BASE / 'upstream/Sony-PMCA-RE'
 PIN = 'a82f5baaa8e9c3d9f28f94699e860fb2e48cc8e0'
 
 
+def git_bin() -> str:
+    found = shutil.which('git')
+    if found:
+        return found
+    for c in [
+        Path(os.environ.get('LOCALAPPDATA', '')) / 'Programs/Git/cmd/git.exe',
+        Path('C:/Program Files/Git/cmd/git.exe'),
+        Path('C:/Program Files (x86)/Git/cmd/git.exe'),
+    ]:
+        if c.is_file():
+            return str(c)
+    return 'git'
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--output', type=Path, required=True)
@@ -22,10 +37,12 @@ def main():
     if not output.is_relative_to(BASE) or output.exists():
         raise ValueError('Use a new output directory within build/w300')
     from region_app import PINS
+    auth_source = BASE / 'auth'
     for name, expected in PINS.items():
         source = UPSTREAM / 'pmca/usb' / name
-        original = subprocess.check_output(['git','-C',str(UPSTREAM),'show',PIN+':pmca/usb/'+name])
-        if source.read_bytes() != original or hashlib.sha256(original).hexdigest() != expected:
+        original = subprocess.check_output([git_bin(),'-C',str(UPSTREAM),'show',PIN+':pmca/usb/'+name])
+        source_content = source.read_bytes().replace(b'\r\n', b'\n')
+        if source_content != original or hashlib.sha256(original).hexdigest() != expected:
             raise ValueError('Pinned authentication input changed')
     output.mkdir(parents=True)
     command = [sys.executable,'-m','PyInstaller','--noconfirm','--onedir','--console',
@@ -38,7 +55,11 @@ def main():
     package = output/'dist/W300Region'
     (package/'auth').mkdir()
     for name in PINS:
-        shutil.copy2(UPSTREAM/'pmca/usb'/name,package/'auth'/name)
+        auth_file = auth_source / name
+        if auth_file.is_file() and hashlib.sha256(auth_file.read_bytes()).hexdigest() == PINS[name]:
+            shutil.copy2(auth_file, package/'auth'/name)
+        else:
+            (package/'auth'/name).write_bytes(subprocess.check_output([git_bin(),'-C',str(UPSTREAM),'show',PIN+':pmca/usb/'+name]))
     (package/'source').mkdir()
     for name in ('region_app.py','region_protocol.py','region_compat.py','build_region_app.py','build_region_references.py'):
         shutil.copy2(BASE/name,package/'source'/name)

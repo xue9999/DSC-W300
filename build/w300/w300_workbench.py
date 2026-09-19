@@ -29,9 +29,9 @@ def inventory() -> dict:
     bundled_engine = Path(sys.base_prefix).parent / 'native' / 'powershell' / 'pwsh.exe'
     engine = (str(portable_engine) if portable_engine.is_file() else
               str(bundled_engine) if bundled_engine.is_file() and not FROZEN else
-              shutil.which('pwsh.exe') if not FROZEN else None)
+              shutil.which('pwsh.exe') or shutil.which('powershell.exe') if not FROZEN else None)
     if not engine:
-        raise RuntimeError('PowerShell 7 used by this prepared environment is missing')
+        raise RuntimeError('PowerShell engine used by this prepared environment is missing')
     # Restore normal Windows DLL search while launching the independent shell.
     # A frozen application otherwise exposes its private Python DLL directory.
     saved_dll_directory = ctypes.create_unicode_buffer(32768)
@@ -39,7 +39,7 @@ def inventory() -> dict:
         ctypes.windll.kernel32.GetDllDirectoryW(len(saved_dll_directory), saved_dll_directory)
         ctypes.windll.kernel32.SetDllDirectoryW(None)
     try:
-        result = subprocess.run([engine, '-NoLogo', '-NoProfile', '-NonInteractive', '-File',
+        result = subprocess.run([engine, '-NoLogo', '-NoProfile', '-NonInteractive', '-ExecutionPolicy', 'Bypass', '-File',
                                  str(BASE / 'inventory.ps1'), '-JsonOnly'], capture_output=True)
     finally:
         if FROZEN:
@@ -56,8 +56,8 @@ def select_w300(data: dict, serial: str) -> dict:
     if len(devices) != 1:
         raise ValueError('Exactly one current Sony USB device is required; disconnect other Sony devices')
     device = devices[0]
-    expected = 'USB\\VID_054C&PID_0341\\' + serial
-    if device['instance_id'].upper() != expected.upper() or not serial:
+    expected = [f'USB\\VID_054C&PID_{pid:04X}\\' + serial for pid in (0x0341, 0x033f)]
+    if not serial or device['instance_id'].upper() not in [e.upper() for e in expected]:
         raise ValueError('Current VID/PID/serial does not match the selected W300; no command sent')
     if device.get('status') != 'OK':
         raise ValueError('PnP device is not OK; no command sent')
@@ -83,7 +83,7 @@ def inquiry(serial: str, trace: dict) -> dict:
     sys.path.insert(0, str(UPSTREAM))
     from pmca.usb.driver.windows.msc import MscContext, SCSI_PASS_THROUGH_DIRECT, SCSI_PASS_THROUGH_DIRECT_WITH_BUFFER
     from win32file import CreateFile, CloseHandle, DeviceIoControl, GENERIC_READ, GENERIC_WRITE, FILE_SHARE_READ, FILE_SHARE_WRITE, OPEN_EXISTING
-    candidates = [d for d in MscContext().listDevices(0x054c) if d.idProduct == 0x0341]
+    candidates = [d for d in MscContext().listDevices(0x054c) if d.idProduct in (0x0341, 0x033f)]
     if len(candidates) != 1:
         raise ValueError('Exactly one W300 mass-storage volume is required; keep Microsoft USBSTOR driver for this step')
     device_path = str(candidates[0].handle)

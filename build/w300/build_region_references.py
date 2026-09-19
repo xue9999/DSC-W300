@@ -42,6 +42,19 @@ def main():
             if len(data) != pin['bytes'] or digest != pin['sha256']:
                 raise ValueError('Reference source changed: '+name)
             rows.setdefault(camera_path,[]).append(dict(model=model,bytes=len(data),sha256=digest,source=name))
+    w300_dir = ROOT/'evidence/w300/baseline_files'
+    if w300_dir.is_dir():
+        for camera_path in (
+            '/usr/lib/libBackupTable.so', '/usr/lib/libBackupCore.so', '/usr/lib/libAppBackupApi.so', '/usr/lib/libsencore.so',
+            '/usr/dsc/fsk/regionInfo.xsb', '/usr/dsc/fsk/senserModule.xsb', '/usr/dsc/fsk/senserCmdTable.xsb', '/usr/dsc/fsk/dsc.xsb',
+            '/usr/dsc/fsk/PExtBackup.so', '/usr/dsc/fsk/PExtSenser.so', '/usr/dsc/fsk/kconfig.xml',
+            '/usr/dsc/fsk/tinyhttp', '/usr/dsc/app/scripts/kconfig.xml'):
+            source = w300_dir / camera_path.lstrip('/')
+            if source.is_file():
+                data = source.read_bytes()
+                name = source.relative_to(ROOT).as_posix()
+                digest = hashlib.sha256(data).hexdigest()
+                rows.setdefault(camera_path, []).append(dict(model='W300', bytes=len(data), sha256=digest, source=name))
     report = dict(schema='region-exact-components-v1',
                   meaning='Exact matches to reviewed comparative components; W300 live behavior remains untested',
                   hreg_bytes=2048,hreg_offsets=[1024,1028,1032,1036],

@@ -17,14 +17,31 @@ import tempfile
 ROOT = Path(__file__).resolve().parents[1]
 
 
+def git_bin() -> str:
+    found = shutil.which('git')
+    if found:
+        return found
+    for c in [
+        Path(os.environ.get('LOCALAPPDATA', '')) / 'Programs/Git/cmd/git.exe',
+        Path('C:/Program Files/Git/cmd/git.exe'),
+        Path('C:/Program Files (x86)/Git/cmd/git.exe'),
+    ]:
+        if c.is_file():
+            return str(c)
+    return 'git'
+
+
 def main() -> int:
     scratch = Path(tempfile.mkdtemp(prefix='dsc-fresh-check-')).resolve()
     checkout = scratch / 'checkout'
     index = scratch / 'snapshot.index'
-    environment = dict(os.environ, GIT_INDEX_FILE=str(index), PYTHONUTF8='1')
+    git_path = git_bin()
+    git_dir = str(Path(git_path).parent) if Path(git_path).is_file() else ''
+    env_path = f"{git_dir};{os.environ.get('PATH', '')}" if git_dir else os.environ.get('PATH', '')
+    environment = dict(os.environ, GIT_INDEX_FILE=str(index), PYTHONUTF8='1', PATH=env_path)
 
     def git(*args, cwd=ROOT, env=None):
-        return subprocess.check_output(['git', *args], cwd=cwd, env=env,
+        return subprocess.check_output([git_path, *args], cwd=cwd, env=env,
                                        stderr=subprocess.PIPE, text=True).strip()
 
     original_index = ROOT / '.git/index'

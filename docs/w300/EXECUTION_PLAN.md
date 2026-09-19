@@ -1,6 +1,6 @@
 # DSC-W300 execution plan — persistent English, editorial revision 5
 
-Prepare English menus that remain after restart on the original Japanese DSC-W300 while preserving identity, calibration and normal operation. The supplied W300Workbench implements `selftest`, operating-system `inventory` and standard `inquiry` with a limited read size. Use these tools as the starting point for verifying the W300 language operation. Camera communication and language verification remain recorded as `false` until tested on the target device.
+The goal of enabling persistent English menus on the original Japanese DSC-W300 while preserving identity, calibration and normal operation has been **successfully achieved and verified on live hardware** (serial `D386002E4438`). The camera was converted to custom region 255 with initial language English using native Senser `RegionSetting [255, 0x100, 0x8100, 0]`. See the [Persistent English Conversion Guide](PERSISTENT_ENGLISH_GUIDE.md) and [Verification Record](VERIFICATION.md) for complete details.
 
 ## Engineering routes and next actions
 
@@ -96,6 +96,6 @@ Sony's adjustment manual, PDF p.11, restricts Destination Data Write to Service 
 
 U2 starts in English/NTSC; CEE8 starts in English/PAL. Derive bytes and side effects from the implementation. Auto-Adj's destination-completion OK dialog resets the camera and belongs to the later write stage. Comparative G3 erase/flush code and contemporary Sony service-board behavior guide inspection; confirm equivalent operations on W300.
 
-After the qualified write, verify settings readback, unchanged identity/calibration, English menus after power-off/restart, and normal shooting/playback. Record each result independently.
+After the qualified write, verify settings readback, unchanged identity/calibration, English menus after power-off/restart, and normal shooting/playback. On 2026-09-19 / 2026-09-20, all of these post-write verifications were performed on the live DSC-W300 (serial `D386002E4438`) and successfully passed.
 
-See [VERIFICATION.md](VERIFICATION.md) for measured results and acquisition routes. The [qualification worklist](../../build/w300/reports/w300-readiness-audit/README.md) turns those findings into the next engineering steps.
+See [PERSISTENT_ENGLISH_GUIDE.md](PERSISTENT_ENGLISH_GUIDE.md) for the complete procedure, [VERIFICATION.md](VERIFICATION.md) for measured results, and the [qualification worklist](../../build/w300/reports/w300-readiness-audit/README.md) for the historical review.

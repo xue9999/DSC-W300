@@ -142,12 +142,16 @@ def location(device):
     return device.bus, ports
 
 
+NORMAL_PIDS = (0x0341, 0x033f)
+
+
 def find_one(core, backend, pid, port=None):
     devices = list(core.find(find_all=True, idVendor=0x054c, backend=backend))
     if len(devices) != 1:
         raise ValueError('Connect exactly one Sony USB device')
     device = devices[0]
-    if device.idProduct != pid or (port is not None and location(device) != port):
+    expected_pids = pid if isinstance(pid, (tuple, list, set)) else (pid,)
+    if device.idProduct not in expected_pids or (port is not None and location(device) != port):
         raise ValueError('Camera PID or physical port does not match expected transition')
     return device
 
@@ -158,10 +162,48 @@ def wait_device(core, backend, pid, port):
     while time.monotonic() < ends:
         try:
             return find_one(core, backend, pid, port)
-        except ValueError as error:
+        except Exception as error:
             last = error
             time.sleep(.25)
     raise RuntimeError('USB mode transition not observed: ' + str(last))
+
+
+def device_identity(device):
+    try:
+        model = device.product
+        serial = device.serial_number
+        if model and serial:
+            return model, serial
+    except Exception:
+        pass
+    if sys.platform == 'win32':
+        import winreg
+        prefix = f'VID_{device.idVendor:04X}&PID_{device.idProduct:04X}'.upper()
+        try:
+            with winreg.OpenKey(winreg.HKEY_LOCAL_MACHINE, rf'SYSTEM\CurrentControlSet\Enum\USB\{prefix}') as key:
+                i = 0
+                while True:
+                    try:
+                        sub = winreg.EnumKey(key, i)
+                        i += 1
+                        with winreg.OpenKey(key, sub) as subk:
+                            def gv(n):
+                                try:
+                                    return winreg.QueryValueEx(subk, n)[0]
+                                except OSError:
+                                    return None
+                            loc = gv('LocationInformation') or ''
+                            port_str = f'Port_#{device.port_numbers[-1]:04d}' if device.port_numbers else ''
+                            if not port_str or port_str.lower() in loc.lower():
+                                fn = gv('FriendlyName') or gv('DeviceDesc') or ''
+                                if ';' in fn:
+                                    fn = fn.split(';')[-1]
+                                return fn, sub
+                    except OSError:
+                        break
+        except OSError:
+            pass
+    raise ValueError('Unable to retrieve USB device serial/model')
 
 
 @contextlib.contextmanager
@@ -169,11 +211,12 @@ def session(serial, trace, result, resume=None):
     keys, digest = load_auth()
     core, util, backend = usb_modules()
     if resume is None:
-        device = find_one(core, backend, 0x0341)
-        if device.serial_number != serial or device.product != 'DSC-W300':
+        device = find_one(core, backend, NORMAL_PIDS)
+        model, dev_serial = device_identity(device)
+        if dev_serial != serial or model != 'DSC-W300':
             raise ValueError('Live USB model/serial mismatch')
         port = location(device)
-        result['identity'] = dict(model=device.product, serial=serial, bus=port[0], ports=port[1])
+        result['identity'] = dict(model=model, serial=serial, bus=port[0], ports=port[1])
     else:
         identity = resume['identity']
         port = identity['bus'], tuple(identity['ports'])
@@ -186,33 +229,52 @@ def session(serial, trace, result, resume=None):
         if resume is None:
             io = UsbIO(device, trace)
             entered = True  # Entry may occur even if the host sees a control error.
-            io.control(True)
-            authenticate(io, 0x0341, keys, digest)
+            try:
+                io.control(True)
+            except Exception:
+                pass
+            authenticate(io, device.idProduct, keys, digest)
             util.dispose_resources(device)
             device = wait_device(core, backend, 0x0336, port)
         else:
             entered = True
         io = UsbIO(device, trace)
-        io.control(True)
+        try:
+            io.control(True)
+        except Exception:
+            pass
         authenticate(io, 0x0336, keys, digest)
         result['service_authenticated'] = True
         yield Senser(io, deadline=600)
     finally:
         if entered:
             try:
+                if 'device' in locals() and device:
+                    util.dispose_resources(device)
                 # Resolve current identity afresh after possible re-enumeration.
                 current = list(core.find(find_all=True, idVendor=0x054c, backend=backend))
-                matches = [d for d in current if location(d) == port and d.idProduct in (0x0341, 0x0336)]
+                matches = []
+                for d in current:
+                    try:
+                        if location(d) == port and d.idProduct in (NORMAL_PIDS + (0x0336,)):
+                            matches.append(d)
+                    except Exception:
+                        pass
                 if len(current) != 1 or len(matches) != 1:
                     raise RuntimeError('Cannot identify camera for service exit')
                 exit_device = matches[0]
                 try:
-                    UsbIO(exit_device, trace).control(False)
+                    if exit_device.idProduct == 0x0336:
+                        try:
+                            UsbIO(exit_device, trace).control(False)
+                        except getattr(core, 'USBError', ()):
+                            pass
                 finally:
                     util.dispose_resources(exit_device)
-                normal = wait_device(core, backend, 0x0341, port)
+                normal = wait_device(core, backend, NORMAL_PIDS, port)
                 try:
-                    if normal.serial_number != serial or normal.product != 'DSC-W300':
+                    model, dev_serial = device_identity(normal)
+                    if dev_serial != serial or model != 'DSC-W300':
                         raise RuntimeError('Normal-mode identity mismatch')
                 finally:
                     util.dispose_resources(normal)
@@ -526,7 +588,8 @@ def main():
             for device in core.find(find_all=True, idVendor=0x054c, backend=backend):
                 row = dict(vid=device.idVendor, pid=device.idProduct, bus=device.bus, ports=device.port_numbers)
                 try:
-                    row.update(model=device.product, serial=device.serial_number)
+                    model, dev_serial = device_identity(device)
+                    row.update(model=model, serial=dev_serial)
                     UsbIO(device, trace)
                     row['usb_descriptors_readable'] = True
                 except Exception as error:

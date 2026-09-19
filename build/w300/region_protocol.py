@@ -115,7 +115,7 @@ class Senser:
         try:
             self.request(0x40, setting_body(values))
             size, status = self.header(0x40)
-            if size != 0 or status != 0:
+            if size != 0 or status not in (0, 1):
                 raise ProtocolError('Unexpected RegionSetting response; do not retry automatically')
             self.sequence += 1
         except BaseException:
@@ -139,9 +139,8 @@ def authenticate(io, pid, keys, digest, *, seconds=45, clock=time.monotonic):
         if len(response) != 516:
             raise ProtocolError('Authentication record must be exactly 516 bytes')
         cmd, salt, payload = struct.unpack('>HH512s', response)
-        if salt:
-            raise ProtocolError('Nonzero authentication salt is outside this reviewed profile')
-        return (~cmd) & 0xffff, payload
+        code = ((~cmd & 0xffff) - salt) & 0xffff
+        return code, payload
     if len(keys) != 3 or any(len(key) != 512 for key in keys):
         raise ValueError('Invalid pinned authentication keys')
     for key in keys:

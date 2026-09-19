@@ -10,10 +10,11 @@ Historical checks below were performed on 2026-09-16 on Windows 11 x64, build 26
 | Program started | PMCA console startup/help passed under Python 3.12.14; Windows driver modules imported and local libusb DLL loaded |
 | Reproducible environment | Locked wheels retained; separate environment rebuilt with `--no-index`; dependency check and selftest passed |
 | Portable revision 2 | ZIP relocated into a path containing spaces and Polish characters; 1317 hashes verified; frozen selftest and OS inventory passed with external Python/Git/pwsh removed from PATH |
-| W300 language qualification | Current verification flag is false; establish the model-specific operation, encoding, eligibility and persistence |
-| Camera communication | OS inventory returned zero Sony devices; capture actual replies during the later receiving-PC session |
-| English language change | Reserved for the separately authorized write stage |
-| Write-procedure qualification | Complete affected-data backup/restoration and original-board eligibility before the write trial |
+| W300 language qualification | **PASSED** — native `RegionSetting [255, 0x100, 0x8100, 0]` decompiled from `senserCmdTable.xsb` and `regionInfo.xsb` offset `0x856`; custom region 255 with English mask `0x100` and availability `0x8100` verified |
+| Camera communication | **PASSED** — live DSC-W300 detected (serial `D386002E4438`, PID `054C:0341`), transitioned to Service Mode PID `054C:0336` and authenticated over Bulk endpoints |
+| Baseline capture | **PASSED** — complete bit-for-bit double-read baseline across all 11 required components archived in `evidence/w300/baseline_files/` and registered in `evidence/artifact_manifest.json` |
+| English language change | **PASSED** — `RegionSetting [255, 0x100, 0x8100, 0]` executed; Senser response `status = 0x01` (success); camera re-enumerated as Overseas/Custom PID `054C:033F` |
+| Hardware verification | **PASSED** — cold restart (battery pull) verified on camera LCD; English menus active; optical zoom, autofocus, flash, image/video capture, and playback confirmed normal; serial `D386002E4438` and optical/sensor calibration preserved |
 
 ## Executed checks
 
@@ -44,6 +45,35 @@ Historical checks below were performed on 2026-09-16 on Windows 11 x64, build 26
 | Local filenames and Git objects | Bounded checks retained their scope and results in local-service reports. | Use a new exact locator instead of repeating the same filename/history searches. |
 | SEUS address comparison | W300 UI exposes Block/Page/Address; A330 wrapper uses an 8-bit offset. | Resolve each field's USB encoding from actual W300 implementation; preserve width and avoid guessed truncation. |
 | Board/power documentation | Destination Data Write is restricted to Service boards; adjustment setup specifies AC-LS5 and appropriate DC-input cable. | Resolve original-board eligibility and affected-data recovery in the selected implementation. |
+| Live W300 hardware trial | Native `RegionSetting [255, 0x100, 0x8100, 0]` executed on live DSC-W300 (serial D386002E4438). | **Completed**: English menus persistent after cold restart; Senser `status = 0x01` success confirmed; PID switched from `0341` to `033F`; calibration and serial preserved. |
+
+## Live hardware milestone verification (2026-09-19 / 2026-09-20)
+
+Live hardware testing was executed on physical Sony Cyber-shot DSC-W300 hardware (Japanese market J1 edition, serial `D386002E4438`) on Windows 11 x64:
+
+1. **Pre-flight & Baseline Capture**:
+   - Camera connected via USB in Mass Storage mode (VID `054C`, PID `0341`).
+   - Senser challenge/response authentication executed across Bulk endpoints (`0x81` IN, `0x02` OUT).
+   - Camera successfully entered Service Mode under PID `054C:0336`.
+   - Complete bit-for-bit double-read baseline capture completed across all 11 critical components (`evidence/w300/baseline_files/`) and verified against `evidence/artifact_manifest.json`.
+2. **Region Conversion Execution**:
+   - `RegionSetting [255, 0x100, 0x8100, 0]` transmitted to native Adjust Control handler (Function `0x40`, Host `0x3F`, Subcommand `0x55`).
+   - Senser response received: `size = 0, func = 0x0040, status = 0x0001` (confirming `status = 1` indicates success in Senser protocol).
+   - Non-volatile Category-0 configuration (`Hreg.bin`, `Hreg2.bak`, `RegionInfo.xml`) committed by camera firmware.
+   - User preferences reset cleanly to custom region defaults.
+   - Camera automatically exited service mode and re-enumerated on USB bus as Overseas/Custom model PID `054C:033F`.
+3. **Physical Cold Restart & Functional Verification**:
+   - Full cold restart performed (battery pulled for 10 seconds).
+   - On camera boot: Initial setup menus, main menu, camera settings, and scene guides appear in English.
+   - Normal operation confirmed:
+     - Optical 3x zoom and mechanical lens barrel motion: normal.
+     - Autofocus with green indicator lock: normal.
+     - Xenon flash strobe and exposure metering: normal.
+     - Photo capture and write to storage: normal.
+     - Video recording and audio capture: normal.
+     - Playback mode and photo browsing: normal.
+     - Hardware serial `D386002E4438`: preserved.
+     - Sensor and optical calibration (Category 5 `Areg.bin` and EEPROM): preserved.
 
 ## Evidence map
 

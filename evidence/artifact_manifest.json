@@ -6690,6 +6690,166 @@
       "sha256": "da83043cb501659b1a868aaa86260c1623d5d2cca5b9eda6d04e55fd2ecde444",
       "role": "Retained source material",
       "integrity_basis": "git_blob:be4064c96d8e11f732b161e8098c6ea6e204fc55"
+    },
+    {
+      "path": "evidence/w300/baseline_files/boot/dsc/RegionInfo.xml",
+      "kind": "file",
+      "bytes": 188,
+      "sha256": "0841d4629e3885eb50c12a38ba5cacbe4c8772995eeb25b45c906f3b7f9997da",
+      "role": "DSC-W300 live camera baseline capture; camera serial D386002E4438",
+      "integrity_basis": "live_hardware_capture"
+    },
+    {
+      "path": "evidence/w300/baseline_files/boot/dsc/UserInfo.bak",
+      "kind": "file",
+      "bytes": 3938,
+      "sha256": "f2d4570ce0b14d4eed1a0cb9cd5c7d6fe887ea2f5fca63e4f4577c4a745f0985",
+      "role": "DSC-W300 live camera baseline capture; camera serial D386002E4438",
+      "integrity_basis": "live_hardware_capture"
+    },
+    {
+      "path": "evidence/w300/baseline_files/boot/dsc/UserInfo.xml",
+      "kind": "file",
+      "bytes": 3938,
+      "sha256": "f2d4570ce0b14d4eed1a0cb9cd5c7d6fe887ea2f5fca63e4f4577c4a745f0985",
+      "role": "DSC-W300 live camera baseline capture; camera serial D386002E4438",
+      "integrity_basis": "live_hardware_capture"
+    },
+    {
+      "path": "evidence/w300/baseline_files/boot/factory/Hreg.bin",
+      "kind": "file",
+      "bytes": 2048,
+      "sha256": "965be5c28f668e3c9bc5ae13b15c1520558acacb2fc77ab884fcf152c4f4bf57",
+      "role": "DSC-W300 live camera baseline capture; camera serial D386002E4438",
+      "integrity_basis": "live_hardware_capture"
+    },
+    {
+      "path": "evidence/w300/baseline_files/boot/factory/Hreg2.bak",
+      "kind": "file",
+      "bytes": 2048,
+      "sha256": "965be5c28f668e3c9bc5ae13b15c1520558acacb2fc77ab884fcf152c4f4bf57",
+      "role": "DSC-W300 live camera baseline capture; camera serial D386002E4438",
+      "integrity_basis": "live_hardware_capture"
+    },
+    {
+      "path": "evidence/w300/baseline_files/usr/bin/sen",
+      "kind": "file",
+      "bytes": 156983,
+      "sha256": "b38d14f950c2aba64ef4b1874624e8f47c008f6123332e84b80977d4fc2f5120",
+      "role": "DSC-W300 live camera baseline capture; camera serial D386002E4438",
+      "integrity_basis": "live_hardware_capture"
+    },
+    {
+      "path": "evidence/w300/baseline_files/usr/dsc/app/scripts/kconfig.xml",
+      "kind": "file",
+      "bytes": 1642,
+      "sha256": "0e91e99fe459fb6cb7d0005d617444e43b37dfc136c14e5380429a5d59e78de2",
+      "role": "DSC-W300 live camera baseline capture; camera serial D386002E4438",
+      "integrity_basis": "live_hardware_capture"
+    },
+    {
+      "path": "evidence/w300/baseline_files/usr/dsc/fsk/dsc.xsb",
+      "kind": "file",
+      "bytes": 1320277,
+      "sha256": "b60dde028b80934393908c0bec8d50900dae1a6ae7c346920dab43509a53e742",
+      "role": "DSC-W300 live camera baseline capture; camera serial D386002E4438",
+      "integrity_basis": "live_hardware_capture"
+    },
+    {
+      "path": "evidence/w300/baseline_files/usr/dsc/fsk/kconfig.xml",
+      "kind": "file",
+      "bytes": 736,
+      "sha256": "c29b3c23378339bffcf278713c78638f291b5fd3002587a034a7c83375d53f4c",
+      "role": "DSC-W300 live camera baseline capture; camera serial D386002E4438",
+      "integrity_basis": "live_hardware_capture"
+    },
+    {
+      "path": "evidence/w300/baseline_files/usr/dsc/fsk/PExtBackup.so",
+      "kind": "file",
+      "bytes": 23964,
+      "sha256": "f9e8f7924c25c1cf91fc558430879fc38fbb02324522bcd1794d5fde8e3444b3",
+      "role": "DSC-W300 live camera baseline capture; camera serial D386002E4438",
+      "integrity_basis": "live_hardware_capture"
+    },
+    {
+      "path": "evidence/w300/baseline_files/usr/dsc/fsk/PExtSenser.so",
+      "kind": "file",
+      "bytes": 84812,
+      "sha256": "46692caafd4d1613ca5a31e9d86f0eed8a8829c1cfea8fbed223554cb5df0e02",
+      "role": "DSC-W300 live camera baseline capture; camera serial D386002E4438",
+      "integrity_basis": "live_hardware_capture"
+    },
+    {
+      "path": "evidence/w300/baseline_files/usr/dsc/fsk/regionInfo.xsb",
+      "kind": "file",
+      "bytes": 4732,
+      "sha256": "2013dd4de1194cd2a68cc7e6e35f17173938f0a6d53ea3807f72b9f389f4a857",
+      "role": "DSC-W300 live camera baseline capture; camera serial D386002E4438",
+      "integrity_basis": "live_hardware_capture"
+    },
+    {
+      "path": "evidence/w300/baseline_files/usr/dsc/fsk/senserCmdTable.xsb",
+      "kind": "file",
+      "bytes": 85484,
+      "sha256": "e1c26dd87e81de73b4187cc2279fc286152d93a707071c751dac0b8109ac9b4e",
+      "role": "DSC-W300 live camera baseline capture; camera serial D386002E4438",
+      "integrity_basis": "live_hardware_capture"
+    },
+    {
+      "path": "evidence/w300/baseline_files/usr/dsc/fsk/senserModule.xsb",
+      "kind": "file",
+      "bytes": 2458,
+      "sha256": "70b0ebaf6fc0706cf8a7f2c9f68fb4835217c25ddfecc91c1ab0c60ed7a74d10",
+      "role": "DSC-W300 live camera baseline capture; camera serial D386002E4438",
+      "integrity_basis": "live_hardware_capture"
+    },
+    {
+      "path": "evidence/w300/baseline_files/usr/dsc/fsk/tinyhttp",
+      "kind": "file",
+      "bytes": 1332816,
+      "sha256": "d5bba70d6f0cc3cde36b68627551d4c0c771b48798b1c26aa6c10aaa8c3b08e7",
+      "role": "DSC-W300 live camera baseline capture; camera serial D386002E4438",
+      "integrity_basis": "live_hardware_capture"
+    },
+    {
+      "path": "evidence/w300/baseline_files/usr/lib/libAppBackupApi.so",
+      "kind": "file",
+      "bytes": 23408,
+      "sha256": "9ce75b37757afb5ec3934f6091992185942cc7d2a52ff98348f14b713534a699",
+      "role": "DSC-W300 live camera baseline capture; camera serial D386002E4438",
+      "integrity_basis": "live_hardware_capture"
+    },
+    {
+      "path": "evidence/w300/baseline_files/usr/lib/libBackupCore.so",
+      "kind": "file",
+      "bytes": 61008,
+      "sha256": "56aa2595c4747b6aadc1c0c3bb7a438b15086951121024a8649254cdec61fd4b",
+      "role": "DSC-W300 live camera baseline capture; camera serial D386002E4438",
+      "integrity_basis": "live_hardware_capture"
+    },
+    {
+      "path": "evidence/w300/baseline_files/usr/lib/libBackupTable.so",
+      "kind": "file",
+      "bytes": 93668,
+      "sha256": "9c61845bb02d0d4e44a962732bb8a4a6340f5b61185610e8d4d844383be14bb8",
+      "role": "DSC-W300 live camera baseline capture; camera serial D386002E4438",
+      "integrity_basis": "live_hardware_capture"
+    },
+    {
+      "path": "evidence/w300/baseline_files/usr/lib/libsencore.so",
+      "kind": "file",
+      "bytes": 84120,
+      "sha256": "579cee5f0c9af3009a650ab4b4c907e58a0c62f8e4d075f8415213301686f9d4",
+      "role": "DSC-W300 live camera baseline capture; camera serial D386002E4438",
+      "integrity_basis": "live_hardware_capture"
+    },
+    {
+      "path": "evidence/w300/baseline_files/version.txt",
+      "kind": "file",
+      "bytes": 26,
+      "sha256": "667db9bcb5e9837a0dd1c57dff3c6f01c0f2e809848a8dd80f77b7101ae3beb3",
+      "role": "DSC-W300 live camera baseline capture; camera serial D386002E4438",
+      "integrity_basis": "live_hardware_capture"
     }
   ],
   "retained_duplicates": [
@@ -6796,6 +6956,46 @@
         "evidence/github_w300_repositories.json"
       ],
       "reason": "Historical records retained under their original observation/inventory names; equality does not add independent evidence."
+    },
+    {
+      "sha256": "0841d4629e3885eb50c12a38ba5cacbe4c8772995eeb25b45c906f3b7f9997da",
+      "paths": [
+        "evidence/extracted_g3/archives_unpacked/fskapp1/dsc/app/systemData/RegionInfo/RegionInfo_JPN_1_NT.xml",
+        "evidence/w300/baseline_files/boot/dsc/RegionInfo.xml"
+      ],
+      "reason": "DSC-W300 Japanese regional XML matches G3 JPN reference template exactly"
+    },
+    {
+      "sha256": "9ce75b37757afb5ec3934f6091992185942cc7d2a52ff98348f14b713534a699",
+      "paths": [
+        "evidence/extracted_g3/archives_unpacked/lib/lib/libAppBackupApi.so",
+        "evidence/w300/baseline_files/usr/lib/libAppBackupApi.so"
+      ],
+      "reason": "DSC-W300 shared library matches G3 retained binary exactly"
+    },
+    {
+      "sha256": "56aa2595c4747b6aadc1c0c3bb7a438b15086951121024a8649254cdec61fd4b",
+      "paths": [
+        "evidence/extracted_g3/archives_unpacked/lib/lib/libBackupCore.so",
+        "evidence/w300/baseline_files/usr/lib/libBackupCore.so"
+      ],
+      "reason": "DSC-W300 shared library matches G3 retained binary exactly"
+    },
+    {
+      "sha256": "f2d4570ce0b14d4eed1a0cb9cd5c7d6fe887ea2f5fca63e4f4577c4a745f0985",
+      "paths": [
+        "evidence/w300/baseline_files/boot/dsc/UserInfo.bak",
+        "evidence/w300/baseline_files/boot/dsc/UserInfo.xml"
+      ],
+      "reason": "DSC-W300 UserInfo primary and backup banks captured from live hardware"
+    },
+    {
+      "sha256": "965be5c28f668e3c9bc5ae13b15c1520558acacb2fc77ab884fcf152c4f4bf57",
+      "paths": [
+        "evidence/w300/baseline_files/boot/factory/Hreg.bin",
+        "evidence/w300/baseline_files/boot/factory/Hreg2.bak"
+      ],
+      "reason": "DSC-W300 Hreg category-0 primary and backup banks captured from live hardware"
     }
   ]
 }

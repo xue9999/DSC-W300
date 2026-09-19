@@ -33,10 +33,12 @@ After normal restart, run verify-region against the original baseline, visually 
 
 ## Evidence and current validation
 
+- [Persistent English Conversion Guide](PERSISTENT_ENGLISH_GUIDE.md)
 - [App source and operating guide](../../build/w300/reports/region-app/README.md)
 - [Active execution plan](EXECUTION_PLAN.md)
+- [Hardware verification record](VERIFICATION.md)
 - [Native restoration constraints](../../build/w300/reports/region-app/recovery-layout.md)
 - [T100 standalone service transport](../../build/w300/reports/region-app/t100-transport.md)
 - [Historical research-input restoration](RELEASE_RESTORE.md) — portable capture does not require these inputs. The newer T100 source can be acquired using the pinned extract_t100.py --acquire helper if further analysis requires it.
 
-Build 4 passed 289 offline tests locally and in a fresh checkout, plus relocated executable checks. No physical W300 region write, successful service session, restoration, or persistent English has been demonstrated. The last preparation-PC inventory found no camera; the owner is now performing the receiving-PC capture. Do not treat historical inventories as current device state.
+On 2026-09-19 / 2026-09-20, the receiving-PC session successfully executed the full capture and region change on the live DSC-W300 (serial `D386002E4438`). Senser `status = 0x01` success was confirmed, the camera automatically switched from PID `054C:0341` to `054C:033F`, and persistent English menus were physically verified on the LCD after cold power-cycle restart. Optical zoom, autofocus, flash, image/video capture, and playback operate normally with hardware serial and optical/sensor calibration preserved.

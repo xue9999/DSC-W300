@@ -22,6 +22,12 @@
         "bytes": 66460,
         "sha256": "752797daf98bf0cbff532b25a0f5b98eed21b7d0e875c77557a25f979ab26897",
         "source": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/lib/lib/libBackupTable.so"
+      },
+      {
+        "model": "W300",
+        "bytes": 93668,
+        "sha256": "9c61845bb02d0d4e44a962732bb8a4a6340f5b61185610e8d4d844383be14bb8",
+        "source": "evidence/w300/baseline_files/usr/lib/libBackupTable.so"
       }
     ],
     "/usr/lib/libBackupCore.so": [
@@ -36,6 +42,12 @@
         "bytes": 52472,
         "sha256": "9642f9a5841321d84f64573144633f926c9a2403c7ab06e10c405796ce2694e1",
         "source": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/lib/lib/libBackupCore.so"
+      },
+      {
+        "model": "W300",
+        "bytes": 61008,
+        "sha256": "56aa2595c4747b6aadc1c0c3bb7a438b15086951121024a8649254cdec61fd4b",
+        "source": "evidence/w300/baseline_files/usr/lib/libBackupCore.so"
       }
     ],
     "/usr/lib/libAppBackupApi.so": [
@@ -50,6 +62,12 @@
         "bytes": 15456,
         "sha256": "90529aa8a62fc0aed3d6e95cde3a78c560a41155e74035dca263cbf51ec1a8eb",
         "source": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/lib/lib/libAppBackupApi.so"
+      },
+      {
+        "model": "W300",
+        "bytes": 23408,
+        "sha256": "9ce75b37757afb5ec3934f6091992185942cc7d2a52ff98348f14b713534a699",
+        "source": "evidence/w300/baseline_files/usr/lib/libAppBackupApi.so"
       }
     ],
     "/usr/lib/libsencore.so": [
@@ -58,6 +76,12 @@
         "bytes": 84120,
         "sha256": "401bc78bc84bd175968513a387b8951626ceb48a345eed134b998d3630103270",
         "source": "evidence/extracted_g3/archives_unpacked/lib/lib/libsencore.so"
+      },
+      {
+        "model": "W300",
+        "bytes": 84120,
+        "sha256": "579cee5f0c9af3009a650ab4b4c907e58a0c62f8e4d075f8415213301686f9d4",
+        "source": "evidence/w300/baseline_files/usr/lib/libsencore.so"
       }
     ],
     "/usr/dsc/fsk/regionInfo.xsb": [
@@ -72,6 +96,12 @@
         "bytes": 4687,
         "sha256": "b07f58367de75a90b8dfc4409d124465dce60848d651b1434a636a782ad1fd09",
         "source": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskrel3/dsc/fsk/regionInfo.xsb"
+      },
+      {
+        "model": "W300",
+        "bytes": 4732,
+        "sha256": "2013dd4de1194cd2a68cc7e6e35f17173938f0a6d53ea3807f72b9f389f4a857",
+        "source": "evidence/w300/baseline_files/usr/dsc/fsk/regionInfo.xsb"
       }
     ],
     "/usr/dsc/fsk/senserModule.xsb": [
@@ -86,6 +116,12 @@
         "bytes": 101995,
         "sha256": "162564650b73423ae350bfd47fea8084e64844c5d2a266b759acb21c5cdbea1b",
         "source": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskrel3/dsc/fsk/senserModule.xsb"
+      },
+      {
+        "model": "W300",
+        "bytes": 2458,
+        "sha256": "70b0ebaf6fc0706cf8a7f2c9f68fb4835217c25ddfecc91c1ab0c60ed7a74d10",
+        "source": "evidence/w300/baseline_files/usr/dsc/fsk/senserModule.xsb"
       }
     ],
     "/usr/dsc/fsk/senserCmdTable.xsb": [
@@ -94,6 +130,12 @@
         "bytes": 84575,
         "sha256": "d7d82f5437d375ef42fcc0fc1dbddaadc7cd90977741a4b2dc42f5cf8caa50db",
         "source": "evidence/extracted_g3/archives_unpacked/fskrel1/dsc/fsk/senserCmdTable.xsb"
+      },
+      {
+        "model": "W300",
+        "bytes": 85484,
+        "sha256": "e1c26dd87e81de73b4187cc2279fc286152d93a707071c751dac0b8109ac9b4e",
+        "source": "evidence/w300/baseline_files/usr/dsc/fsk/senserCmdTable.xsb"
       }
     ],
     "/usr/dsc/fsk/dsc.xsb": [
@@ -108,6 +150,12 @@
         "bytes": 825288,
         "sha256": "5c6e91b8c08c9ada902db66cc04382395e677e691cc22af5aa00ab94c5c3e4d2",
         "source": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskrel3/dsc/fsk/dsc.xsb"
+      },
+      {
+        "model": "W300",
+        "bytes": 1320277,
+        "sha256": "b60dde028b80934393908c0bec8d50900dae1a6ae7c346920dab43509a53e742",
+        "source": "evidence/w300/baseline_files/usr/dsc/fsk/dsc.xsb"
       }
     ],
     "/usr/dsc/fsk/PExtBackup.so": [
@@ -122,6 +170,12 @@
         "bytes": 24852,
         "sha256": "9cc4a04794a46af6371b7d118a8549164669a0cbde19dd549d73c451147840ee",
         "source": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskrel3/dsc/fsk/PExtBackup.so"
+      },
+      {
+        "model": "W300",
+        "bytes": 23964,
+        "sha256": "f9e8f7924c25c1cf91fc558430879fc38fbb02324522bcd1794d5fde8e3444b3",
+        "source": "evidence/w300/baseline_files/usr/dsc/fsk/PExtBackup.so"
       }
     ],
     "/usr/dsc/fsk/PExtSenser.so": [
@@ -136,6 +190,12 @@
         "bytes": 35300,
         "sha256": "66d7d0a47713460ca1e4cb4a279c0693fbd493c0a42328e147f2595ffb08b155",
         "source": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskrel3/dsc/fsk/PExtSenser.so"
+      },
+      {
+        "model": "W300",
+        "bytes": 84812,
+        "sha256": "46692caafd4d1613ca5a31e9d86f0eed8a8829c1cfea8fbed223554cb5df0e02",
+        "source": "evidence/w300/baseline_files/usr/dsc/fsk/PExtSenser.so"
       }
     ],
     "/usr/dsc/fsk/kconfig.xml": [
@@ -150,6 +210,12 @@
         "bytes": 736,
         "sha256": "c29b3c23378339bffcf278713c78638f291b5fd3002587a034a7c83375d53f4c",
         "source": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskrel3/dsc/fsk/kconfig.xml"
+      },
+      {
+        "model": "W300",
+        "bytes": 736,
+        "sha256": "c29b3c23378339bffcf278713c78638f291b5fd3002587a034a7c83375d53f4c",
+        "source": "evidence/w300/baseline_files/usr/dsc/fsk/kconfig.xml"
       }
     ],
     "/usr/dsc/fsk/tinyhttp": [
@@ -164,6 +230,12 @@
         "bytes": 1330156,
         "sha256": "e9d48783de02f105c687fd4b6cdd070ea72f181080c3324798e5fc2fe13ebf5b",
         "source": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskrel1/dsc/fsk/tinyhttp"
+      },
+      {
+        "model": "W300",
+        "bytes": 1332816,
+        "sha256": "d5bba70d6f0cc3cde36b68627551d4c0c771b48798b1c26aa6c10aaa8c3b08e7",
+        "source": "evidence/w300/baseline_files/usr/dsc/fsk/tinyhttp"
       }
     ],
     "/usr/dsc/app/scripts/kconfig.xml": [
@@ -178,6 +250,12 @@
         "bytes": 1081,
         "sha256": "d903f949a25dd2292e5e88b9e23f3faf8d75dd8586f1ed88b7fe18d28c3a76e8",
         "source": "build/w300/downloads/related-firmware/t100-extracted/archives_unpacked/fskapp/dsc/app/scripts/kconfig.xml"
+      },
+      {
+        "model": "W300",
+        "bytes": 1642,
+        "sha256": "0e91e99fe459fb6cb7d0005d617444e43b37dfc136c14e5380429a5d59e78de2",
+        "source": "evidence/w300/baseline_files/usr/dsc/app/scripts/kconfig.xml"
       }
     ]
   }

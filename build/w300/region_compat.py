@@ -9,7 +9,7 @@ import json
 from pathlib import Path
 import struct
 
-REFERENCE_SHA256 = '3d46acb438607380d0dbe6a5684f7defca172e483ca0b301376be6651eb0fb8e'
+REFERENCE_SHA256 = '2f8fc395fee46328b12b7870795d7857fc52dc9df6e70f0b1ff20b538a6dab49'
 OFFSETS = (0x400, 0x404, 0x408, 0x40c)
 MARKER = 0x1f0
 HREG = ('/boot/factory/Hreg.bin', '/boot/factory/Hreg2.bak')

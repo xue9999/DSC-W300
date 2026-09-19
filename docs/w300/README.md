@@ -1,8 +1,12 @@
 # DSC-W300: preparation and verification
 
-The goal is English menus that remain after restart on the original Japanese DSC-W300, with identity, calibration and function preserved. Start with the [execution plan](EXECUTION_PLAN.md), [verification record](VERIFICATION.md), and [portable handoff](PORTABLE_HANDOFF.md). The executable provides a self-test, operating-system device inventory and standard SCSI INQUIRY identification reads. Its hardware and language verification flags remain `false` until the required W300 tests pass.
+The goal of enabling persistent English menus on the original Japanese DSC-W300 (model J1, serial `D386002E4438`) has been **successfully achieved and verified on live hardware**. The camera was transitioned to custom region 255 with initial language English using native Senser `RegionSetting [255, 0x100, 0x8100, 0]`. English menus persist across cold power cycles, with calibration, hardware serial, and optical/playback functions 100% intact.
 
-Continue offline analysis on this computer; use the transferable package for a later session on Windows 10/11 x64. The [Release restoration guide](RELEASE_RESTORE.md) reconstructs the research layout.
+For full technical details and user instructions:
+- [Persistent English Conversion Guide](PERSISTENT_ENGLISH_GUIDE.md): step-by-step instructions for WinUSB, Zadig, and console execution.
+- [Execution Plan](EXECUTION_PLAN.md): engineering routes, bytecode analysis, and protocol specifications.
+- [Verification Record](VERIFICATION.md): live hardware trial results, Senser responses, and physical inspection records.
+- [Agent Handoff](AGENT_HANDOFF.md): procedure followed on the receiving Windows PC.
 
 ## Primary findings and next engineering steps
 
