@@ -24,7 +24,7 @@ def fixture(root):
     bank[0x1f0:0x1f4]=b'\xaa'*4
     struct.pack_into('<4I',bank,0x400,0,0x8000,1,0)
     files={p:bytes(64) for p in app.IMPLEMENTATION+app.STATE}
-    files.update({app.STATE[0]:bytes(bank),app.STATE[1]:bytes(bank),app.STATE[2]:JAPANESE})
+    files.update({app.STATE[0]:bytes(bank),app.STATE[1]:bytes(bank),app.STATE[2]:JAPANESE,app.PREG:bytes(app.PREG_SIZE)})
     rows=[]
     reference={'files':{}}
     for path,data in files.items():
@@ -45,6 +45,9 @@ class FakeCamera:
             self.transient=False
             raise app.FileUnavailable('Transient XML replacement')
         return self.files[path]
+    def write_file(self,path,data):
+        self.files[path]=bytes(data)
+        return 0
     def set_region(self,values):
         self.sent.append(list(values))
         for path in app.STATE[:2]:
@@ -191,6 +194,45 @@ class AutomaticTests(unittest.TestCase):
             with self.assertRaisesRegex(app.ProtocolError,'Repeat read became unavailable'):
                 self.invoke(root,baseline,reference,camera,'verify-region')
             self.assertEqual(len(camera.sent),1)
+
+    def test_custom_english_baseline_accepted(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            root=Path(temporary); baseline,files,reference=fixture(root)
+            bank=bytearray(files[app.STATE[0]])
+            struct.pack_into('<4I',bank,0x400,255,0x100,0x8100,0)
+            files[app.STATE[0]]=bytes(bank); files[app.STATE[1]]=bytes(bank)
+
+            # 1. Custom English Hreg with cold-boot reverted Japanese XML is accepted
+            result=compat.assess(files,reference,app.xml_values)
+            self.assertTrue(result['can_attempt_experimental_write'])
+            self.assertEqual(result['original_arguments'],[255,256,33024,0])
+            self.assertEqual(result['requested_arguments'],[255,256,33024,0])
+
+            # 2. Custom English Hreg with native English XML is accepted
+            files[app.STATE[2]] = b'<manager xmlns="http://www.kinoma.com/fskin/1"><systemData id="systemData"><lang>eng</lang><langGp>99</langGp><availableLang>eng,jpn,</availableLang><sigTyp>0</sigTyp></systemData></manager>'
+            result_eng = compat.assess(files,reference,app.xml_values)
+            self.assertTrue(result_eng['can_attempt_experimental_write'])
+
+            # 3. Custom English Hreg without UserInfo.bak is accepted (reset by RegionSetting)
+            files_no_bak = dict(files)
+            files_no_bak.pop('/boot/dsc/UserInfo.bak')
+            result_no_bak = compat.assess(files_no_bak,reference,app.xml_values)
+            self.assertTrue(result_no_bak['can_attempt_experimental_write'])
+
+            # 4. Custom English with mismatched language group is rejected
+            files_bad_gp = dict(files)
+            files_bad_gp[app.STATE[2]] = b'<manager xmlns="http://www.kinoma.com/fskin/1"><systemData id="systemData"><lang>eng</lang><langGp>1</langGp><availableLang>eng,jpn,</availableLang><sigTyp>0</sigTyp></systemData></manager>'
+            self.assertFalse(compat.assess(files_bad_gp,reference,app.xml_values)['can_attempt_experimental_write'])
+
+            # 5. Custom English with mismatched available languages is rejected
+            files_bad_avail = dict(files)
+            files_bad_avail[app.STATE[2]] = b'<manager xmlns="http://www.kinoma.com/fskin/1"><systemData id="systemData"><lang>eng</lang><langGp>99</langGp><availableLang>jpn,</availableLang><sigTyp>0</sigTyp></systemData></manager>'
+            self.assertFalse(compat.assess(files_bad_avail,reference,app.xml_values)['can_attempt_experimental_write'])
+
+            # 6. Custom English with unexpected language is rejected
+            files_bad_lang = dict(files)
+            files_bad_lang[app.STATE[2]] = b'<manager xmlns="http://www.kinoma.com/fskin/1"><systemData id="systemData"><lang>fra</lang><langGp>99</langGp><availableLang>fra,eng,</availableLang><sigTyp>0</sigTyp></systemData></manager>'
+            self.assertFalse(compat.assess(files_bad_lang,reference,app.xml_values)['can_attempt_experimental_write'])
 
 
 if __name__=='__main__':

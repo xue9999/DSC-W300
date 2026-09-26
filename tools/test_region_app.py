@@ -1,4 +1,5 @@
 """Offline protocol adversarial checks. These do not qualify camera compatibility."""
+import argparse
 import contextlib
 import io
 import json
@@ -106,6 +107,66 @@ class TransferTests(unittest.TestCase):
         fake = FakeIO([header(0, function=0x40, status=0)])
         protocol.Senser(fake).change_region(1)
         self.assertEqual(fake.sent[0][-4:], b'\x01\0\0\0')
+
+    def test_write_request_and_body(self):
+        fake = FakeIO([header(0, sequence=1, function=0xff01, status=1)])
+        camera = protocol.Senser(fake)
+        path = '/boot/factory/Preg.bin'
+        data = b'P' * 1040
+        size = camera.write_file(path, data)
+        self.assertEqual(size, 0)
+        self.assertEqual(camera.sequence, 2)
+        sent = fake.sent[0]
+        # HEADER is 12 bytes: size (1068), func 0xff01, seq 1, 0, 0, 0, 0
+        # Padded path length: '/boot/factory/Preg.bin' is 22 bytes, padded to 24 bytes with 2 nulls.
+        # Body: 4 bytes (<HH 1, 24) + 24 bytes path + 1040 bytes data = 1068 bytes.
+        # Total sent: 12 + 1068 = 1080 bytes.
+        self.assertEqual(len(sent), 12 + 4 + 24 + 1040)
+        hdr = protocol.HEADER.unpack(sent[:12])
+        self.assertEqual(hdr, (1068, 0xff01, 1, 0, 0, 0, 0))
+        cmd, path_len = struct.unpack('<HH', sent[12:16])
+        self.assertEqual(cmd, 1)
+        self.assertEqual(path_len, 24)
+        self.assertEqual(sent[16:40], b'/boot/factory/Preg.bin\x00\x00')
+        self.assertEqual(sent[40:], data)
+
+    def test_write_error_handling(self):
+        fake = FakeIO([header(0, sequence=1, function=0xff01, status=0)])
+        camera = protocol.Senser(fake)
+        with self.assertRaises(protocol.ProtocolError):
+            camera.write_file('/test', b'data')
+        self.assertTrue(camera.failed)
+        with self.assertRaises(protocol.ProtocolError):
+            camera.write_file('/test', b'data')
+
+        fake_unavail = FakeIO([header(0, sequence=1, function=0xff01, status=0x82)])
+        cam_unavail = protocol.Senser(fake_unavail)
+        with self.assertRaises(protocol.FileUnavailable):
+            cam_unavail.write_file('/test', b'data')
+        self.assertFalse(cam_unavail.failed)
+        self.assertEqual(cam_unavail.sequence, 2)
+
+        fake_drain = FakeIO([header(4, sequence=1, function=0xff01, status=1), b'ACK!'])
+        cam_drain = protocol.Senser(fake_drain)
+        size = cam_drain.write_file('/test', b'data')
+        self.assertEqual(size, 4)
+        self.assertEqual(cam_drain.sequence, 2)
+
+        fake_limit = FakeIO([header(100, sequence=1, function=0xff01, status=1)])
+        cam_limit = protocol.Senser(fake_limit)
+        with self.assertRaises(protocol.ProtocolError):
+            cam_limit.write_file('/test', b'data', limit=50)
+
+        fake2 = FakeIO([])
+        cam2 = protocol.Senser(fake2)
+        for bad_path in ('relative', '/a/../b', '/a\0b'):
+            with self.assertRaises(ValueError):
+                cam2.write_file(bad_path, b'data')
+        with self.assertRaises(TypeError):
+            cam2.write_file('/test', 'not bytes')
+        with self.assertRaises(ValueError):
+            cam2.write_file('/test', b'data', limit=2)
+        self.assertEqual(fake2.sent, [])
 
 
 class AuthenticationTests(unittest.TestCase):
@@ -258,6 +319,308 @@ class SessionTests(unittest.TestCase):
         _, report = self.run_session(fail_exit=True)
         self.assertFalse(report['normal_mode_return_observed'])
         self.assertIn('exit_error',report)
+
+
+class SyncMirrorTests(unittest.TestCase):
+    def test_sync_mirror_modifications_and_assertions(self):
+        original_preg = bytearray(1040)
+        original_preg[0] = 0x01  # Armed
+        original_preg[0x10:0x20] = struct.pack('<4I', 0, 0, 0, 0)  # Factory Japanese
+        for i in range(0x20, 1040):
+            original_preg[i] = (i * 13) % 256
+        original_bytes = bytes(original_preg)
+
+        written_chunks = []
+        class MockCamera:
+            def __init__(self):
+                self.current = bytearray(original_bytes)
+            def read_file(self, path):
+                if path == app.PREG:
+                    return bytes(self.current)
+                raise FileNotFoundError(path)
+            def write_file(self, path, data):
+                if path == app.PREG:
+                    written_chunks.append(data)
+                    self.current = bytearray(data)
+                    return 0
+                raise FileNotFoundError(path)
+
+        camera = MockCamera()
+        report = {}
+        result = app.sync_mirror(camera, signal=0, report=report)
+
+        self.assertEqual(len(written_chunks), 1)
+        written = written_chunks[0]
+        self.assertEqual(len(written), 1040)
+        # Byte 0 must be 0x00 (disarmed)
+        self.assertEqual(written[0], 0x00)
+        # Bytes 0x10..0x1F must be English golden mirror: [255, 0x100, 0x8100, 0]
+        self.assertEqual(written[0x10:0x20], struct.pack('<4I', 255, 0x100, 0x8100, 0))
+        # Bytes 0x20..0x40F must be preserved identical to original
+        self.assertEqual(written[0x20:1040], original_bytes[0x20:1040])
+        self.assertEqual(result, written)
+        self.assertTrue(report.get('mirror_synced'))
+        self.assertEqual(report.get('mirror_arguments'), [255, 0x100, 0x8100, 0])
+
+    def test_sync_mirror_signal_pal(self):
+        original_preg = bytes([1] + [0] * 1039)
+        class MockCamera:
+            def __init__(self):
+                self.data = bytearray(original_preg)
+            def read_file(self, path):
+                return bytes(self.data)
+            def write_file(self, path, data):
+                self.data = bytearray(data)
+                return 0
+
+        camera = MockCamera()
+        app.sync_mirror(camera, signal=1)
+        self.assertEqual(camera.data[0x10:0x20], struct.pack('<4I', 255, 0x100, 0x8100, 1))
+
+    def test_sync_mirror_rejections(self):
+        class ValidCam:
+            def read_file(self, p): return bytes([1] + [0] * 1039)
+            def write_file(self, p, d): pass
+
+        for bad_signal in (2, -1, '0', None, 1.0):
+            with self.assertRaises(ValueError):
+                app.sync_mirror(ValidCam(), signal=bad_signal)
+
+        class BadSizeCam:
+            def read_file(self, p): return bytes(512)
+            def write_file(self, p, d): pass
+        with self.assertRaises(ValueError):
+            app.sync_mirror(BadSizeCam(), signal=0)
+
+        class TamperCam:
+            def read_file(self, p): return bytes([1] * 1040)
+            def write_file(self, p, d): pass
+        with self.assertRaises(ValueError):
+            app.sync_mirror(TamperCam(), signal=0)
+
+        class CorruptCam:
+            def __init__(self, corrupt_idx=0x30):
+                self.count = 0
+                self.corrupt_idx = corrupt_idx
+            def read_file(self, p):
+                self.count += 1
+                if self.count == 1: return bytes(1040)
+                corrupted = bytearray(1040)
+                corrupted[0x10:0x20] = struct.pack('<4I', 255, 0x100, 0x8100, 0)
+                corrupted[self.corrupt_idx] = 0xff
+                return bytes(corrupted)
+            def write_file(self, p, d): pass
+
+        with self.assertRaisesRegex(ValueError, 'altered outside golden mirror'):
+            app.sync_mirror(CorruptCam(0x30), signal=0)
+        with self.assertRaisesRegex(ValueError, 'altered outside golden mirror'):
+            app.sync_mirror(CorruptCam(5), signal=0)
+
+    def test_change_permanent_and_sync_mirror_cli(self):
+        with tempfile.TemporaryDirectory() as temp_dir:
+            root = Path(temp_dir)
+            preg_data = bytes([1] + [0] * 1039)
+            hreg_data = bytes(2048)
+            xml_data = b'<manager xmlns="http://www.kinoma.com/fskin/1"><systemData id="systemData"><lang>jpn</lang><langGp>1</langGp><sigTyp>0</sigTyp></systemData></manager>'
+            original_files = {
+                app.PREG: preg_data,
+                app.STATE[0]: hreg_data,
+                app.STATE[1]: hreg_data,
+                app.STATE[2]: xml_data,
+                app.STATE[3]: b'',
+                app.STATE[4]: b'',
+            }
+
+            calls = []
+            class MockLiveCamera:
+                def __init__(self):
+                    self.preg_bytes = bytearray(preg_data)
+                def read_file(self, p):
+                    calls.append(('read', p))
+                    if p == app.PREG:
+                        return bytes(self.preg_bytes)
+                    if p in original_files:
+                        return original_files[p]
+                    return bytes(64)
+                def write_file(self, p, d):
+                    calls.append(('write', p, d))
+                    if p == app.PREG:
+                        self.preg_bytes = bytearray(d)
+                    return 0
+                def set_region(self, v):
+                    calls.append(('set_region', v))
+
+            mock_cam = MockLiveCamera()
+
+            @contextlib.contextmanager
+            def fake_session(serial, trace, report):
+                report['normal_mode_return_observed'] = True
+                yield mock_cam
+
+            # 1. Test change --permanent
+            sess1 = root / 'session1'
+            sess1.mkdir(parents=True, exist_ok=True)
+            args = argparse.Namespace(
+                command='change', serial='TEST', experimental_service=True,
+                baseline=root, permanent=True
+            )
+            report = dict(serial='TEST', ok=False, files=[], region_write_attempted=False)
+            trace = app.Trace(sess1)
+            try:
+                with patch.object(app, 'load_capture', return_value=({'serial': 'TEST'}, original_files, 'dummy_hash')), \
+                     patch.object(app.region_compat, 'assess', return_value={
+                         'can_attempt_experimental_write': True,
+                         'original_arguments': [0, 0, 0, 0],
+                         'requested_arguments': [255, 0x100, 0x8100, 0],
+                     }), \
+                     patch.object(app.region_compat, 'check_state', return_value={'lang': 'eng', 'langGp': '99', 'availableLang': 'eng,jpn', 'sigTyp': '0'}), \
+                     patch.object(app, 'session', fake_session):
+                    app.automatic_operation(args, sess1, trace, report)
+            finally:
+                trace.close()
+
+            self.assertTrue(report.get('mirror_synced'))
+            self.assertTrue(report.get('permanent'))
+            self.assertTrue(any(c[0] == 'set_region' for c in calls))
+            self.assertTrue(any(c[0] == 'write' and c[1] == app.PREG for c in calls))
+            intent_sess1 = json.loads((sess1 / 'write-intent.json').read_text())
+            self.assertTrue(intent_sess1.get('permanent'))
+
+            # 2. Test sync-mirror standalone with matching active region
+            calls.clear()
+            sess2 = root / 'session2'
+            sess2.mkdir(parents=True, exist_ok=True)
+            args_sync = argparse.Namespace(
+                command='sync-mirror', serial='TEST', experimental_service=True,
+                baseline=root
+            )
+            report_sync = dict(serial='TEST', ok=False, files=[], region_write_attempted=False)
+            trace_sync = app.Trace(sess2)
+            try:
+                with patch.object(app, 'load_capture', return_value=({'serial': 'TEST'}, original_files, 'dummy_hash')), \
+                     patch.object(app.region_compat, 'assess', return_value={
+                         'can_attempt_experimental_write': True,
+                         'original_arguments': [0, 0, 0, 0],
+                         'requested_arguments': [255, 0x100, 0x8100, 0],
+                     }), \
+                     patch.object(app.region_compat, 'check_state', return_value={'lang': 'eng', 'langGp': '99', 'availableLang': 'eng,jpn', 'sigTyp': '0'}), \
+                     patch.object(app, 'session', fake_session):
+                    app.automatic_operation(args_sync, sess2, trace_sync, report_sync)
+            finally:
+                trace_sync.close()
+
+            self.assertTrue(report_sync.get('mirror_synced'))
+            self.assertTrue(report_sync.get('configuration_readback_matches'))
+            self.assertEqual(report_sync.get('write_outcome'), 'saved-files-match; restart-and-visual-check-pending')
+            self.assertFalse(any(c[0] == 'set_region' for c in calls))
+            self.assertTrue(any(c[0] == 'write' and c[1] == app.PREG for c in calls))
+
+            # 2b. Test sync-mirror standalone with diverged active region (e.g. Japanese active files)
+            calls.clear()
+            sess2b = root / 'session2b'
+            sess2b.mkdir(parents=True, exist_ok=True)
+            report_sync_div = dict(serial='TEST', ok=False, files=[], region_write_attempted=False)
+            trace_sync_div = app.Trace(sess2b)
+            try:
+                with patch.object(app, 'load_capture', return_value=({'serial': 'TEST'}, original_files, 'dummy_hash')), \
+                     patch.object(app.region_compat, 'assess', return_value={
+                         'can_attempt_experimental_write': True,
+                         'original_arguments': [0, 0, 0, 0],
+                         'requested_arguments': [255, 0x100, 0x8100, 0],
+                     }), \
+                     patch.object(app.region_compat, 'check_state', side_effect=ValueError('Regional field values have not converged')), \
+                     patch.object(app, 'session', fake_session):
+                    app.automatic_operation(args_sync, sess2b, trace_sync_div, report_sync_div)
+            finally:
+                trace_sync_div.close()
+
+            self.assertTrue(report_sync_div.get('mirror_synced'))
+            self.assertFalse(report_sync_div.get('configuration_readback_matches'))
+            self.assertIn('Regional field values have not converged', report_sync_div.get('active_region_diverged', ''))
+            self.assertEqual(report_sync_div.get('write_outcome'), 'mirror-synced; active-region-differs')
+
+            # 3. Test restore-region restores Preg.bin
+            calls.clear()
+            change_session_dir = root / 'session_prior_change'
+            change_session_dir.mkdir(parents=True, exist_ok=True)
+            (change_session_dir / 'result.json').write_text(json.dumps({
+                'operation': 'change', 'serial': 'TEST', 'baseline_sha256': 'dummy_hash', 'region_write_attempted': True
+            }))
+            sess3 = root / 'session3'
+            sess3.mkdir(parents=True, exist_ok=True)
+            args_restore = argparse.Namespace(
+                command='restore-region', serial='TEST', experimental_service=True,
+                baseline=root, change_session=change_session_dir
+            )
+            report_restore = dict(serial='TEST', ok=False, files=[], region_write_attempted=False)
+            trace_restore = app.Trace(sess3)
+            try:
+                with patch.object(app, 'load_capture', return_value=({'serial': 'TEST'}, original_files, 'dummy_hash')), \
+                     patch.object(app.region_compat, 'assess', return_value={
+                         'can_attempt_experimental_write': True,
+                         'original_arguments': [0, 0, 0, 0],
+                         'requested_arguments': [255, 0x100, 0x8100, 0],
+                     }), \
+                     patch.object(app.region_compat, 'check_state', return_value={'lang': 'jpn', 'langGp': '1', 'availableLang': 'jpn', 'sigTyp': '0'}), \
+                     patch.object(app, 'session', fake_session):
+                    app.automatic_operation(args_restore, sess3, trace_restore, report_restore)
+            finally:
+                trace_restore.close()
+
+            self.assertTrue(report_restore.get('preg_restored'))
+            self.assertTrue(any(c[0] == 'write' and c[1] == app.PREG and c[2] == preg_data for c in calls))
+            tx_sess3 = (sess3 / 'transactions.jsonl').read_text()
+            self.assertIn('restore-preg-write', tx_sess3)
+
+            # 4. Test restore-region rejects bad baseline Preg.bin size
+            bad_preg_files = dict(original_files)
+            bad_preg_files[app.PREG] = bytes(512)
+            sess4 = root / 'session4'
+            sess4.mkdir(parents=True, exist_ok=True)
+            report_bad = dict(serial='TEST', ok=False, files=[], region_write_attempted=False)
+            trace_bad = app.Trace(sess4)
+            try:
+                with patch.object(app, 'load_capture', return_value=({'serial': 'TEST'}, bad_preg_files, 'dummy_hash')), \
+                     patch.object(app.region_compat, 'assess', return_value={
+                         'can_attempt_experimental_write': True,
+                         'original_arguments': [0, 0, 0, 0],
+                         'requested_arguments': [255, 0x100, 0x8100, 0],
+                     }), \
+                     patch.object(app.region_compat, 'check_state', return_value={'lang': 'jpn', 'langGp': '1', 'availableLang': 'jpn', 'sigTyp': '0'}), \
+                     patch.object(app, 'session', fake_session):
+                    with self.assertRaisesRegex(ValueError, 'size mismatch'):
+                        app.automatic_operation(args_restore, sess4, trace_bad, report_bad)
+            finally:
+                trace_bad.close()
+
+            # 5. Test restore-region fails if camera connection lacks write_file capability
+            class NoWriteCam:
+                def read_file(self, p):
+                    if p in original_files: return original_files[p]
+                    return bytes(64)
+                def set_region(self, v): pass
+            @contextlib.contextmanager
+            def no_write_session(serial, trace, report):
+                report['normal_mode_return_observed'] = True
+                yield NoWriteCam()
+
+            sess5 = root / 'session5'
+            sess5.mkdir(parents=True, exist_ok=True)
+            report_nw = dict(serial='TEST', ok=False, files=[], region_write_attempted=False)
+            trace_nw = app.Trace(sess5)
+            try:
+                with patch.object(app, 'load_capture', return_value=({'serial': 'TEST'}, original_files, 'dummy_hash')), \
+                     patch.object(app.region_compat, 'assess', return_value={
+                         'can_attempt_experimental_write': True,
+                         'original_arguments': [0, 0, 0, 0],
+                         'requested_arguments': [255, 0x100, 0x8100, 0],
+                     }), \
+                     patch.object(app.region_compat, 'check_state', return_value={'lang': 'jpn', 'langGp': '1', 'availableLang': 'jpn', 'sigTyp': '0'}), \
+                     patch.object(app, 'session', no_write_session):
+                    with self.assertRaisesRegex(RuntimeError, 'does not support file writing'):
+                        app.automatic_operation(args_restore, sess5, trace_nw, report_nw)
+            finally:
+                trace_nw.close()
 
 
 if __name__ == '__main__':

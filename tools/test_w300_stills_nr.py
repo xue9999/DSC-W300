@@ -5,7 +5,13 @@ import io
 import json
 from pathlib import Path
 import tempfile
+import sys
 import unittest
+
+TOOLS_DIR = Path(__file__).resolve().parent
+if str(TOOLS_DIR) not in sys.path:
+    sys.path.insert(0, str(TOOLS_DIR))
+
 import w300_stills_nr as nr
 
 

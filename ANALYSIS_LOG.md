@@ -74,3 +74,83 @@ T100 native transport is the standalone `/usr/bin/sen`, confirmed by rootfs /sbi
 - Bytecode verification of W300 `senserCmdTable.xsb` and `regionInfo.xsb`: exact match to G3 `RegionSetting` (function 0x40, HOST 0x3F, command 0x55) at identical offset `0x856`, accepting four uint32 arguments `[region, language, availLang, videoSignal]`.
 - In Senser protocol, response status `0x01` signifies successful completion (`size=0, func=0x40, status=0x01`).
 - Upon executing `RegionSetting [255, 0x100, 0x8100, 0]`, the DSC-W300 commits category-0 Hreg and RegionInfo XML, resets Registry preferences, and re-enumerates into normal Mass Storage mode as Overseas/Custom model PID `0x033F` (transitioning from original Japanese PID `0x0341`), with hardware serial `D386002E4438` and calibration intact.
+
+## Cold-boot reversion root cause and permanent mirror synchronization
+
+- **Cold-boot reversion root cause**: When the main battery is removed for recharging and the internal RTC backup capacitor discharges to 0V, AvCon detects a true cold boot on power restoration, executing `onAvConBootResCold` in `dsc.xsb`. This triggers `Backup.backuper.detectFalsification(3)` in `libBackupCore.so`. Because byte 0 of `/boot/factory/Preg.bin` was `0x01` (armed), `compareMirrorData()` compared active Category-0 NVRAM (`/boot/factory/Hreg.bin`, containing `[255, 0x100, 0x8100, signal]`) against the factory golden mirror at `Preg.bin` offset `0x10..0x10F` (holding Japanese factory configuration `[0, 0, 0, 0]`). The mismatch returned error `-0x50` (-80), triggering `Backup.backuper.recoverFalsification(0)`. This overwrote `Hreg.bin` with the Japanese mirror from `Preg.bin` and deleted `/boot/dsc/RegionInfo.xml`, causing `RegionInfo.xml` to regenerate on reboot with `langGp=1` (Japanese only).
+- **Permanent fix mechanism**: Senser FileControl function `0xFF01`, command 1 (`SONY_FILE_CONTROL_WRITE`) writes `/boot/factory/Preg.bin` (1040 bytes):
+  1. Byte 0 is written as `0x00`, disarming tamper detection (`getProtectionState()` returns 0 so `detectFalsification()` exits immediately without mirror comparison or rollback).
+  2. Bytes `0x10..0x1F` are synchronized with `struct.pack('<4I', 255, 0x100, 0x8100, signal)` matching the overseas custom RegionSetting golden mirror. Even if tamper detection ran, mirror comparison would succeed without triggering recovery.
+  3. Bytes `0x20..0x40F` (including `Hsys.bin` Category-1 mirror at `0x110..0x20F` and factory calibration data) are preserved bit-for-bit identical to the live camera read.
+- **Tooling implementation**: `build/w300/region_protocol.py` implements `Senser.write_file()`. `build/w300/region_app.py` includes `Preg.bin` in `STATE` capture, provides the `sync-mirror` command, adds `--permanent` to `change` to execute RegionSetting and mirror synchronization in one flow, and restores `Preg.bin` during `restore-region` when present in the baseline.
+
+## Full safety dump of configuration and unique CCD calibration data
+
+- **Calibration & Configuration Architecture**:
+  - Category 5 (`/boot/factory/Areg.bin` and shadow `/boot/factory/Areg2.bak`): stores unique per-unit optical, lens shading, AF curve, and CCD sensor defect blemish calibration tables. This data is unique to each physical sensor and cannot be recovered from generic firmware images if lost.
+  - Category 0 (`/boot/factory/Hreg.bin` and `/boot/factory/Hreg2.bak`): host destination, language masks, and video standards.
+  - Golden mirror NVRAM (`/boot/factory/Preg.bin`, 1040 bytes): anti-tamper armed flag (byte 0) and golden mirrors of Hreg and Hsys.
+  - Partition & Register Init (`/boot/factory/initreg.bin`): flash memory partition boundary definitions and boot register init.
+  - Category 6 (`/boot/factory/Asys.bin` and `/boot/factory/Asys2.bak`): AV system hardware configuration.
+  - Category 1 (`/boot/factory/Hsys.bin` and `/boot/factory/Hsys2.bak`): Host system hardware configuration.
+  - Category 7 (`/boot/backup/Ausr.bin` and `/boot/backup/Ausr2.bak`): AV user backup banks.
+  - Category 2 (`/boot/backup/Husr.bin` and `/boot/backup/Husr2.bak`): Host user backup banks.
+  - Factory runtime configuration (`/boot/factory/brew_cnf.bin`).
+  - Kinoma UI state (`/boot/dsc/RegionInfo.xml`, `UserInfo.xml`, `UserInfo.bak`).
+  - System identification (`/version.txt`).
+- **Safety Dump Protocol Contract**:
+  - Bounded Senser FileControl function `0xFF01` (command 2 read).
+  - Bit-for-bit double-read verification: every target file is read twice across the USB transport.
+  - Cryptographic verification: SHA-256 is computed independently for read 1 and read 2. Both digests must match and byte lengths must be identical. Discrepancies fail closed, halt the session, and preserve the diverging read as `<path>.second` for forensic analysis.
+  - Graceful missing-file handling: cameras with unmounted optional banks return status `0x82` (`FileUnavailable`), which is recorded cleanly without aborting the dump. Fallback paths (`/factory/` vs `/boot/factory/`) are automatically resolved.
+  - Atomic persistence: saved files are written to disk with a durable `manifest.json` summary and full transaction record.
+- **Tooling**:
+  - `build/w300/region_app.py backup-calibration` (aliases: `backup`, `dump-calibration`) supports `--serial`, `--experimental-service`, `--output`, `--mock`, and `--include-implementation`.
+  - `tools/w300_calibration_dump.py` provides a dedicated standalone CLI entry point.
+
+## W300 AV Coprocessor Noise Reduction (NR) NVRAM Control
+
+- **Mechanism**:
+  - In Category 6 NVRAM (`/boot/factory/Asys.bin` and `/boot/factory/Asys2.bak`, 16384 bytes each), offset `0x3035` controls Chrominance Noise Reduction (`run_NR32_CNR`) and offset `0x3036` controls RGB spatial smoothing (`run_NR32_RGB`).
+  - In factory calibration dump (`calibration_D386002E4438`), both bytes are `0x01` (enabled, SHA-256 `a5631a11d41bc7afc639f5e7c439f2d6f31ea417253a2ff838caa448b7ebc87d`).
+  - The AV coprocessor dispatch routine (`0x2cca0..0x2cd10`) inspects both flags; when both are `0x00`, execution branches directly to bypass (`0x2cd14`), completely skipping both noise reduction stages and disabling the heavy "grill-me" smearing filter (patched SHA-256 `8448dccc4262f4cf0e54152b41d52a6ec6330cc12fdd94efdceeb8b2d701a7cf`).
+- **Safety Contracts**:
+  - Exact 2-byte patch (`0x3035` and `0x3036`), all remaining 16382 bytes verified bit-for-bit identical.
+  - Dual-bank synchronization: primary (`Asys.bin`) and backup (`Asys2.bak`) are updated together.
+  - Bit-for-bit double-read verification before write and immediately after write.
+  - Pre-write safety backup created automatically before camera writes.
+  - Dry-run preview mode (`--dry-run`) and service safety gate (`--experimental-service` required for live camera writes).
+- **Tooling**:
+  - `tools/w300_nr_nvram.py`: CLI and Python module for inspect, patch (`disable-nr`), restore (`enable-nr`), dry-run, mock, and live camera control.
+  - `tools/w300_stills_nr.py`: exports `patch_w300_stills_nr`, `restore_w300_stills_nr`, and CLI commands `patch-nvram`, `restore-nvram`, `inspect-nvram`.
+
+## W300 DSP / BIONZ Subsystem Binary (av.bin) and Audio Image (sa.bin) Extraction
+
+- **Subsystem Architecture and Storage**:
+  - OneNAND Partition 5 (`/dev/nflasha5`, unmounted FAT12 filesystem) contains the BIONZ DSP coprocessor binary (`\av.bin`) and sound/audio subsystem binary (`\sa.bin`).
+  - This partition is not mounted in normal camera operations or accessible via Senser VFS, requiring a privileged in-camera helper execution to mount and copy artifacts to the writable `/usr` partition.
+- **Native Helper Hook & Execution Mechanism**:
+  - The Senser daemon (`/usr/bin/sen`) executes with working directory `/usr/dsc/fsk`.
+  - Service command `ProductInfo` (pFunc `0x0010`, category `0x0011`, command `0x1100`) executes `./ud_datcnv -e -i /var/udsverinf.dat -o /var/dat4` inside `libpro11.so`.
+  - Staging a standalone position-independent ARMv5 ELF executable at `/usr/dsc/fsk/ud_datcnv` and `/usr/bin/ud_datcnv` reliably executes custom code on hardware upon receiving `ProductInfo(0x0011, 0x1100)`.
+- **Pure-Python Static Payload Assembler**:
+  - `tools/w300_extractor_payload.py` provides a two-pass ARMv5 assembler generating static position-independent ELF executables with zero external host toolchain dependencies.
+  - Dynamically allocates a 16 KB stack buffer via `sub sp, sp, #0x4000` (`0xe24dd901`) to avoid unmapped memory faults.
+  - Uses direct OABI kernel syscalls (`sys_mount` 21, `sys_mkdir` 39, `sys_open` 5, `sys_read` 3, `sys_write` 4, `sys_close` 6, `sys_umount` 22, `sys_sync` 36, `sys_exit` 1).
+  - Mounts `/dev/nflasha5` at `/tmp/m`, copies `/tmp/m/av.bin` -> `/usr/av.bin` and `/tmp/m/sa.bin` -> `/usr/sa.bin`, cleanly unmounts `/tmp/m`, syncs filesystem, and logs progress to `/usr/dump.log`.
+- **Safety and Restoration Guarantees**:
+  - Non-destructive backup of original `/usr/bin/ud_datcnv` (18,028 bytes, SHA-256 `405b8b7f49745b5c97cb05c2285faf91386c51329be96f9edd1c3fb049c6b2a8`).
+  - In-place readback verification guarantees bit-for-bit restoration immediately upon execution.
+  - Temporary files (`/usr/dump.log`, `/usr/av.bin`, `/usr/sa.bin`, `/usr/dsc/fsk/ud_datcnv`) are deleted from camera flash storage after retrieval.
+  - Bounded service exit restores the camera cleanly to normal Mass Storage mode (`PID 0x033F`).
+- **Retrieved Artifacts and Cryptographic Validation**:
+  - `av.bin`: 2,233,094 bytes (2.13 MB), SHA-256: `bfa4df20f5d25daf82419c12ab7efb16ea39420c544a72a3d5037c71ac49bd30`.
+  - ARM exception vector table verified: standard `ldr pc, [pc, #0x18]` vectors (`0xE59FF018`) starting at load address `0x20100000`. Contains model identifier `DSC-W300` at file offset `0x1EF548` (distinguishing it from DSC-G3's `0x1C7EE8`), along with noise reduction routines (`NR32_CNR_2RGB`, `NR32_CNR_2GCC`, `NR32_RAWNR`, `NR32_CNR_NR`).
+  - `sa.bin`: 336,664 bytes (328.77 KB), SHA-256: `5126c376de296624280ccdc1c8692d98ec674cfaf69bfa8ef6dfa2e367010d44`. Bit-for-bit identical to DSC-G3 section `08_sa.bin`, formally registered with explicit duplicate exception in `evidence/artifact_manifest.json`.
+  - Artifacts stored under `evidence/w300/av.bin`, `build/w300/av.bin`, `evidence/w300/sa.bin`, `build/w300/sa.bin`.
+- **Tooling**:
+  - `tools/w300_extractor_payload.py`: ARM assembler and payload generator.
+  - `tools/w300_extract_av.py`: Automated orchestration script supporting `--experimental-service`, `--skip-canary`, and `--mock` with isolated output directory redirection.
+  - `tools/test_w300_extract_av.py`: 9 unit tests verifying assembler, ELF structures, vector validation, isolated output directory redirection, double-read failure handling, and end-to-end extraction mock flows.
+
+

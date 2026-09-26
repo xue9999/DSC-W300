@@ -107,30 +107,41 @@ python build/w300/region_app.py doctor
 ```
 Ensure that all dependency checks pass and `libusb-1.0.dll` is correctly located.
 
-### Step 3: Capture Camera Baseline Backup
-Before making any changes to the camera, capture a complete, double-read backup of all critical NVM and firmware configuration components:
+### Step 3: Full CCD Calibration & Configuration Safety Dump
+Before making any changes to the camera, capture a complete, double-read safety dump of all unique CCD/optical calibration data and critical NVM configuration files:
 
 ```powershell
-python build/w300/region_app.py capture --serial D386002E4438 --experimental-service
+# Recommended: Full safety dump including unique factory CCD calibration data (Category 5 Areg.bin/Areg2.bak):
+python build/w300/region_app.py backup-calibration --serial D386002E4438 --experimental-service
+# Or using the dedicated helper:
+python tools/w300_calibration_dump.py --serial D386002E4438 --experimental-service
 ```
-*(Replace `D386002E4438` with your camera's serial number if different. You can also supply `--output <directory>` to save directly to a custom destination instead of the default `build/w300/sessions/<timestamp>-capture`).*
+*(Replace `D386002E4438` with your camera's serial number if different. You can also supply `--output <directory>` to save directly to a custom destination instead of the default `build/w300/sessions/<timestamp>-backup-calibration`).*
+
+The safety dump verifies bit-for-bit double-read integrity and cryptographic SHA-256 digests across 19 critical files:
+- **Factory Optical & CCD Calibration (Category 5)**: `/boot/factory/Areg.bin` and `/boot/factory/Areg2.bak` (unique sensor defect pixel map, lens shading, AF calibration).
+- **Anti-Tamper & Golden Mirror**: `/boot/factory/Preg.bin` (tamper flag byte 0, golden mirror NVRAM).
+- **Partition Table & Register Map**: `/boot/factory/initreg.bin` (flash memory layout and register init).
+- **Host Regional & Language State (Category 0)**: `/boot/factory/Hreg.bin` and `/boot/factory/Hreg2.bak`.
+- **Subsystem Configuration (Categories 1 & 6)**: `/boot/factory/Asys.bin`, `Asys2.bak`, `/boot/factory/Hsys.bin`, `Hsys2.bak`.
+- **User Backups (Categories 2 & 7)**: `/boot/backup/Ausr.bin`, `Ausr2.bak`, `/boot/backup/Husr.bin`, `Husr2.bak`.
+- **Runtime & UI Configuration**: `/boot/factory/brew_cnf.bin`, `/boot/dsc/RegionInfo.xml`, `UserInfo.xml`, `UserInfo.bak`.
+- **Firmware Identification**: `/version.txt`.
 
 > **Note on Service Mode Driver Binding**:
-> During this step, the camera will switch from Mass Storage mode (PID `0341`) to Service Mode (PID `0336`).
+> During this step, the camera will switch from Mass Storage mode (PID `0341` or `033F`) to Service Mode (PID `0336`).
 > If Windows prompts for a driver or the script indicates a mode transition wait, check Zadig:
 > 1. Select the device with VID `054C` and PID `0336`.
 > 2. Install **WinUSB** for this PID as well.
 > 3. Resume capture:
 >    ```powershell
->    python build/w300/region_app.py capture --serial D386002E4438 --experimental-service --resume-session build/w300/sessions/<session-directory>
+>    python build/w300/region_app.py backup-calibration --serial D386002E4438 --experimental-service --resume-session build/w300/sessions/<session-directory>
 >    ```
 
-The captured files are saved and double-read bit-for-bit. A complete baseline contains 20 archived files (including all 11 `ESSENTIAL` reference components evaluated during assessment):
-- Category-0 NVM state: `/boot/factory/Hreg.bin`, `Hreg2.bak`, `/boot/dsc/RegionInfo.xml`, `/boot/dsc/UserInfo.xml`, `UserInfo.bak`
-- Bytecode & handlers: `/usr/dsc/fsk/regionInfo.xsb`, `senserCmdTable.xsb`, `senserModule.xsb`, `dsc.xsb`
-- Extensions & libraries: `/usr/dsc/fsk/PExtBackup.so`, `PExtSenser.so`, `/usr/lib/libsencore.so`, `libAppBackupApi.so`, `libBackupCore.so`, `libBackupTable.so`
-- Daemon & configs: `/usr/dsc/fsk/tinyhttp`, `/usr/bin/sen`, `/usr/dsc/fsk/kconfig.xml`, `/usr/dsc/app/scripts/kconfig.xml`
-- Firmware banner: `/version.txt`
+To also capture firmware bytecode and proprietary libraries for assessment, run:
+```powershell
+python build/w300/region_app.py capture --serial D386002E4438 --experimental-service
+```
 
 ### Step 4: Verify Baseline Assessment
 Run the offline assessment tool against the archived baseline (or your freshly captured session directory) to ensure byte-level compatibility with reviewed components:

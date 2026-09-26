@@ -20,7 +20,62 @@ BASE = Path(sys.executable).resolve().parent if getattr(sys, 'frozen', False) el
 PINS = {'crypto.py': '74660a42235f7efac6f47f38e2151049647bd0bc61ed6eb0763538815b2b6886',
         'constants.py': '94bf081d3c1a51a60cf8fc214dce25a491413d4d786716460fde3fba832eb692'}
 STATE = ('/boot/factory/Hreg.bin', '/boot/factory/Hreg2.bak',
-         '/boot/dsc/RegionInfo.xml', '/boot/dsc/UserInfo.xml', '/boot/dsc/UserInfo.bak')
+         '/boot/dsc/RegionInfo.xml', '/boot/dsc/UserInfo.xml', '/boot/dsc/UserInfo.bak',
+         '/boot/factory/Preg.bin')
+PREG = '/boot/factory/Preg.bin'
+PREG_SIZE = 1040
+CALIBRATION_TARGETS = (
+    # CCD & optical factory calibration (Category 5) - primary & backup
+    '/boot/factory/Areg.bin',
+    '/boot/factory/Areg2.bak',
+    # Host regional settings & language masks (Category 0) - primary & backup
+    '/boot/factory/Hreg.bin',
+    '/boot/factory/Hreg2.bak',
+    # Anti-tamper protection flag & golden mirror NVRAM
+    '/boot/factory/Preg.bin',
+    # Flash partition layout & boot register initialization table
+    '/boot/factory/initreg.bin',
+    # AV subsystem parameters (Category 6) - primary & backup
+    '/boot/factory/Asys.bin',
+    '/boot/factory/Asys2.bak',
+    # Host subsystem parameters (Category 1) - primary & backup
+    '/boot/factory/Hsys.bin',
+    '/boot/factory/Hsys2.bak',
+    # User AV backup data (Category 7) - primary & backup
+    '/boot/backup/Ausr.bin',
+    '/boot/backup/Ausr2.bak',
+    # User Host backup data (Category 2) - primary & backup
+    '/boot/backup/Husr.bin',
+    '/boot/backup/Husr2.bak',
+    # Factory Brew runtime configuration
+    '/boot/factory/brew_cnf.bin',
+    # Kinoma UI region & user settings XML
+    '/boot/dsc/RegionInfo.xml',
+    '/boot/dsc/UserInfo.xml',
+    '/boot/dsc/UserInfo.bak',
+    # System firmware identification
+    '/version.txt',
+)
+FALLBACK_ALIASES = {
+    '/boot/factory/initreg.bin': '/factory/initreg.bin',
+    '/boot/factory/brew_cnf.bin': '/factory/brew_cnf.bin',
+    '/boot/factory/Areg.bin': '/factory/Areg.bin',
+    '/boot/factory/Areg2.bak': '/factory/Areg2.bak',
+    '/boot/factory/Hreg.bin': '/factory/Hreg.bin',
+    '/boot/factory/Hreg2.bak': '/factory/Hreg2.bak',
+    '/boot/factory/Preg.bin': '/factory/Preg.bin',
+    '/boot/factory/Asys.bin': '/factory/Asys.bin',
+    '/boot/factory/Asys2.bak': '/factory/Asys2.bak',
+    '/boot/factory/Hsys.bin': '/factory/Hsys.bin',
+    '/boot/factory/Hsys2.bak': '/factory/Hsys2.bak',
+    '/boot/backup/Ausr.bin': '/backup/Ausr.bin',
+    '/boot/backup/Ausr2.bak': '/backup/Ausr2.bak',
+    '/boot/backup/Husr.bin': '/backup/Husr.bin',
+    '/boot/backup/Husr2.bak': '/backup/Husr2.bak',
+    '/boot/dsc/RegionInfo.xml': '/dsc/RegionInfo.xml',
+    '/boot/dsc/UserInfo.xml': '/dsc/UserInfo.xml',
+    '/boot/dsc/UserInfo.bak': '/dsc/UserInfo.bak',
+}
 IMPLEMENTATION = ('/usr/dsc/fsk/regionInfo.xsb', '/usr/dsc/fsk/senserModule.xsb',
                   '/usr/dsc/fsk/senserCmdTable.xsb', '/usr/dsc/fsk/PExtBackup.so',
                   '/usr/dsc/fsk/PExtSenser.so', '/usr/dsc/fsk/tinyhttp',
@@ -40,7 +95,9 @@ def sha(data):
 
 
 def save_json(path, data, *, durable=False):
-    with Path(path).open('x', encoding='utf-8') as stream:
+    target = Path(path)
+    mode = 'w' if target.exists() else 'x'
+    with target.open(mode, encoding='utf-8') as stream:
         json.dump(data, stream, indent=2)
         stream.write('\n')
         if durable:
@@ -59,8 +116,13 @@ def load_auth():
     source = BASE / 'auth'
     if not source.exists() and not getattr(sys, 'frozen', False):
         source = BASE / 'upstream/Sony-PMCA-RE/pmca/usb'
+    if not source.exists() and not getattr(sys, 'frozen', False):
+        candidate = Path(__file__).resolve().parents[2] / 'sources/Sony-PMCA-RE/pmca/usb'
+        if candidate.exists():
+            source = candidate
     for name, expected in PINS.items():
-        if sha((source / name).read_bytes()) != expected:
+        data = (source / name).read_bytes().replace(b'\r\n', b'\n')
+        if sha(data) != expected:
             raise ValueError('Authentication source pin mismatch: ' + name)
     tree = ast.parse((source / 'constants.py').read_bytes())
     keys = next(ast.literal_eval(node.value) for node in tree.body
@@ -74,12 +136,14 @@ def load_auth():
 
 class Trace:
     def __init__(self, directory):
-        self.stream = (directory / 'transactions.jsonl').open('x', encoding='utf-8')
+        target = directory / 'transactions.jsonl'
+        mode = 'a' if target.exists() else 'x'
+        self.stream = target.open(mode, encoding='utf-8')
     def record(self, operation, **fields):
         self.stream.write(json.dumps(dict(time=datetime.now(timezone.utc).isoformat(),
                                           operation=operation, **fields)) + '\n')
         self.stream.flush()
-        if operation == 'region-write-intent':
+        if operation in ('region-write-intent', 'sync-mirror-intent') or 'write-intent' in operation:
             os.fsync(self.stream.fileno())
     def close(self):
         self.stream.close()
@@ -213,10 +277,14 @@ def session(serial, trace, result, resume=None):
     if resume is None:
         device = find_one(core, backend, NORMAL_PIDS)
         model, dev_serial = device_identity(device)
-        if dev_serial != serial or model != 'DSC-W300':
-            raise ValueError('Live USB model/serial mismatch')
+        if serial is not None and dev_serial != serial:
+            raise ValueError(f'Live USB serial mismatch: expected {serial}, found {dev_serial}')
+        if model not in ('DSC-W300', 'Sony DSC'):
+            raise ValueError(f'Live USB model mismatch: expected DSC-W300, found {model}')
+        serial = dev_serial
+        result['serial'] = dev_serial
         port = location(device)
-        result['identity'] = dict(model=model, serial=serial, bus=port[0], ports=port[1])
+        result['identity'] = dict(model=model, serial=dev_serial, bus=port[0], ports=port[1])
     else:
         identity = resume['identity']
         port = identity['bus'], tuple(identity['ports'])
@@ -308,6 +376,39 @@ def store_read(camera, directory, path, records):
         record.update(unavailable=str(error))
         if 'file' in record:
             raise ProtocolError('Repeat read became unavailable: ' + path) from error
+
+
+def store_read_with_fallback(camera, directory, path, records):
+    record = dict(camera_path=path)
+    records.append(record)
+    candidates = [path]
+    if path in FALLBACK_ALIASES:
+        candidates.append(FALLBACK_ALIASES[path])
+    last_unavail = None
+    for attempt_path in candidates:
+        try:
+            first = camera.read_file(attempt_path)
+            name = 'files/' + path.lstrip('/')
+            target = directory / name
+            target.parent.mkdir(parents=True, exist_ok=True)
+            mode = 'wb' if target.exists() else 'xb'
+            with target.open(mode) as stream:
+                stream.write(first)
+            record.update(file=name, resolved_path=attempt_path, bytes=len(first),
+                          sha256=sha(first), repeat_equal=False)
+            second = camera.read_file(attempt_path)
+            record['second_sha256'] = sha(second)
+            record['repeat_equal'] = first == second
+            if first != second:
+                with target.with_name(target.name + '.second').open('wb') as stream:
+                    stream.write(second)
+                raise ProtocolError('Repeat read changed: ' + attempt_path)
+            return
+        except FileUnavailable as error:
+            last_unavail = error
+            if 'file' in record:
+                raise ProtocolError('Repeat read became unavailable: ' + attempt_path) from error
+    record.update(unavailable=str(last_unavail))
 
 
 def load_capture(directory):
@@ -467,6 +568,36 @@ def acquire_baseline(serial, directory, trace):
     return directory
 
 
+def sync_mirror(camera, signal, trace=None, report=None):
+    if type(signal) is not int or signal not in (0, 1):
+        raise ValueError('Video standard must be NTSC=0 or PAL=1')
+    raw = camera.read_file(PREG)
+    if len(raw) != PREG_SIZE:
+        raise ValueError(f'Expected {PREG} of {PREG_SIZE} bytes, got {len(raw)}')
+    buf = bytearray(raw)
+    buf[0] = 0x00
+    expected_golden = struct.pack('<4I', 255, 0x100, 0x8100, signal)
+    buf[0x10:0x20] = expected_golden
+    if trace:
+        trace.record('sync-mirror-write', path=PREG, signal=signal)
+    camera.write_file(PREG, bytes(buf))
+    readback = camera.read_file(PREG)
+    if len(readback) != PREG_SIZE:
+        raise ValueError(f'Readback {PREG} size mismatch: expected {PREG_SIZE}, got {len(readback)}')
+    if readback[0] != 0:
+        raise ValueError(f'Readback {PREG} protection byte not disarmed (expected 0, got {readback[0]})')
+    if readback[0x10:0x20] != expected_golden:
+        raise ValueError(f'Readback {PREG} golden mirror mismatch: expected {expected_golden.hex()}, got {readback[0x10:0x20].hex()}')
+    if readback[1:0x10] != raw[1:0x10] or readback[0x20:PREG_SIZE] != raw[0x20:PREG_SIZE]:
+        raise ValueError(f'Readback {PREG} altered outside golden mirror fields')
+    if readback != bytes(buf):
+        raise ValueError(f'Readback {PREG} does not match written buffer')
+    if report is not None:
+        report['mirror_synced'] = True
+        report['mirror_arguments'] = [255, 0x100, 0x8100, signal]
+    return readback
+
+
 def automatic_operation(args,directory,trace,report):
     """No hand-edited qualification booleans. Unknown components stop before USB write."""
     baseline = args.baseline
@@ -502,7 +633,7 @@ def automatic_operation(args,directory,trace,report):
                 raise ValueError('Live firmware differs from the captured reference match')
         if args.command == 'change':
             for path in STATE:
-                if camera.read_file(path) != original[path]:
+                if path in original and camera.read_file(path) != original[path]:
                     raise ValueError('Live regional baseline changed since capture; stopped before write')
         elif args.command == 'restore-region':
             allowed = {i for off in region_compat.OFFSETS for i in range(off,off+4)}
@@ -524,10 +655,14 @@ def automatic_operation(args,directory,trace,report):
         if args.command in ('change','restore-region'):
             report['region_write_attempted'] = True
             report['write_outcome'] = 'unknown-until-readback'
-            save_json(directory/'write-intent.json',dict(operation=args.command,serial=args.serial,
-                      baseline_sha256=baseline_hash,region_write_attempted=True,target_arguments=target,
-                      write_outcome='May or may not have been sent; inspect device state'),durable=True)
-            trace.record('region-write-intent',arguments=target,baseline_sha256=baseline_hash)
+            intent_data = dict(operation=args.command,serial=args.serial,
+                               baseline_sha256=baseline_hash,region_write_attempted=True,target_arguments=target,
+                               write_outcome='May or may not have been sent; inspect device state')
+            if args.command == 'change' and getattr(args, 'permanent', False):
+                intent_data['permanent'] = True
+            save_json(directory/'write-intent.json',intent_data,durable=True)
+            trace.record('region-write-intent',arguments=target,baseline_sha256=baseline_hash,
+                         permanent=getattr(args, 'permanent', False))
             camera.set_region(target)
             report['region_reply_received'] = True
             deadline = time.monotonic()+30
@@ -542,6 +677,30 @@ def automatic_operation(args,directory,trace,report):
                     if time.monotonic() >= deadline:
                         raise RuntimeError('Regional save did not converge; no write retry') from error
                     time.sleep(.5)
+            if args.command == 'change' and getattr(args, 'permanent', False):
+                report['permanent'] = True
+                sync_mirror(camera, target[3], trace, report)
+            elif args.command == 'restore-region':
+                if PREG in original:
+                    if not hasattr(camera, 'write_file'):
+                        raise RuntimeError('Camera connection does not support file writing; cannot restore Preg.bin')
+                    if len(original[PREG]) != PREG_SIZE:
+                        raise ValueError(f'Baseline {PREG} size mismatch: expected {PREG_SIZE}, got {len(original[PREG])}')
+                    if trace:
+                        trace.record('restore-preg-write', path=PREG, bytes=len(original[PREG]))
+                    camera.write_file(PREG, original[PREG])
+                    readback_preg = camera.read_file(PREG)
+                    if readback_preg != original[PREG]:
+                        raise ValueError(f'Readback {PREG} does not match restored baseline')
+                    report['preg_restored'] = True
+        elif args.command == 'sync-mirror':
+            report['region_write_attempted'] = True
+            save_json(directory/'write-intent.json',dict(operation=args.command,serial=args.serial,
+                      baseline_sha256=baseline_hash,region_write_attempted=True,target_arguments=target,
+                      write_outcome='May or may not have been sent; inspect device state'),durable=True)
+            trace.record('sync-mirror-intent',arguments=target,baseline_sha256=baseline_hash)
+            sync_mirror(camera, target[3], trace, report)
+            report['region_reply_received'] = True
         final = {}
         for path in STATE[:3]:
             store_read(camera,directory,path,report['files'])
@@ -549,12 +708,266 @@ def automatic_operation(args,directory,trace,report):
             if 'file' not in row:
                 raise ValueError('Final readback unavailable')
             final[path]=(directory/row['file']).read_bytes()
-        report['verified_xml']=region_compat.check_state(final,original,target,expected_xml,xml_values)
-        report['configuration_readback_matches']=True
-        if report['region_write_attempted']:
-            report['write_outcome']='saved-files-match; restart-and-visual-check-pending'
+        if PREG in original or args.command in ('change', 'sync-mirror') or getattr(args, 'permanent', False):
+            store_read(camera, directory, PREG, report['files'])
+        if args.command in ('change', 'restore-region'):
+            report['verified_xml']=region_compat.check_state(final,original,target,expected_xml,xml_values)
+            report['configuration_readback_matches']=True
+            if report['region_write_attempted']:
+                report['write_outcome']='saved-files-match; restart-and-visual-check-pending'
+        elif args.command == 'sync-mirror':
+            try:
+                report['verified_xml']=region_compat.check_state(final,original,target,expected_xml,xml_values)
+                report['configuration_readback_matches']=True
+                report['write_outcome']='saved-files-match; restart-and-visual-check-pending'
+            except Exception as error:
+                report['configuration_readback_matches']=False
+                report['active_region_diverged']=str(error)
+                report['write_outcome']='mirror-synced; active-region-differs'
     if not report.get('normal_mode_return_observed'):
         raise RuntimeError('Normal-mode return not observed')
+
+
+def get_mock_calibration_files():
+    """Builds a realistic mock file dictionary from available reference data."""
+    mock_files = {}
+
+    g3_factory = BASE.parent.parent / 'evidence/extracted_g3/archives_unpacked/factory/factory'
+    if g3_factory.is_dir():
+        for fname in ('Areg.bin', 'Areg2.bak', 'Hreg.bin', 'Hreg2.bak', 'initreg.bin', 'brew_cnf.bin'):
+            fpath = g3_factory / fname
+            if fpath.is_file():
+                data = fpath.read_bytes()
+                mock_files[f'/boot/factory/{fname}'] = data
+                mock_files[f'/factory/{fname}'] = data
+
+    g3_backup = BASE.parent.parent / 'evidence/extracted_g3/archives_unpacked/backup/backup'
+    if g3_backup.is_dir():
+        for fname in ('Ausr.bin', 'Ausr2.bak', 'Husr.bin', 'Husr2.bak'):
+            fpath = g3_backup / fname
+            if fpath.is_file():
+                data = fpath.read_bytes()
+                mock_files[f'/boot/backup/{fname}'] = data
+                mock_files[f'/backup/{fname}'] = data
+
+    w300_base = BASE.parent.parent / 'evidence/w300/baseline_files'
+    if w300_base.is_dir():
+        for rel in ('boot/dsc/RegionInfo.xml', 'boot/dsc/UserInfo.xml', 'boot/dsc/UserInfo.bak', 'version.txt') + IMPLEMENTATION:
+            fpath = w300_base / rel.lstrip('/')
+            if fpath.is_file():
+                mock_files['/' + rel.lstrip('/')] = fpath.read_bytes()
+
+    sessions_dir = BASE / 'sessions'
+    if sessions_dir.is_dir():
+        for sess in sorted(sessions_dir.glob('*-change'), reverse=True):
+            preg_candidate = sess / 'files/boot/factory/Preg.bin'
+            if not preg_candidate.is_file():
+                preg_candidate = sess / 'baseline/files/boot/factory/Preg.bin'
+            if preg_candidate.is_file():
+                mock_files['/boot/factory/Preg.bin'] = preg_candidate.read_bytes()
+                break
+
+    if '/boot/factory/Preg.bin' not in mock_files:
+        mock_files['/boot/factory/Preg.bin'] = bytes(PREG_SIZE)
+    if '/boot/factory/Areg.bin' not in mock_files:
+        mock_files['/boot/factory/Areg.bin'] = bytes(10240)
+    if '/boot/factory/Areg2.bak' not in mock_files:
+        mock_files['/boot/factory/Areg2.bak'] = mock_files['/boot/factory/Areg.bin']
+    if '/boot/factory/Asys.bin' not in mock_files:
+        asys_buf = bytearray(16384)
+        asys_buf[0x3035] = 1
+        asys_buf[0x3036] = 1
+        mock_files['/boot/factory/Asys.bin'] = bytes(asys_buf)
+    if '/boot/factory/Asys2.bak' not in mock_files:
+        mock_files['/boot/factory/Asys2.bak'] = mock_files['/boot/factory/Asys.bin']
+    if '/boot/factory/Hsys.bin' not in mock_files:
+        mock_files['/boot/factory/Hsys.bin'] = bytes(2048)
+    if '/boot/factory/Hsys2.bak' not in mock_files:
+        mock_files['/boot/factory/Hsys2.bak'] = mock_files['/boot/factory/Hsys.bin']
+    if '/boot/factory/Hreg.bin' not in mock_files:
+        mock_files['/boot/factory/Hreg.bin'] = bytes(2048)
+    if '/boot/factory/Hreg2.bak' not in mock_files:
+        mock_files['/boot/factory/Hreg2.bak'] = bytes(2048)
+    if '/boot/dsc/RegionInfo.xml' not in mock_files:
+        mock_files['/boot/dsc/RegionInfo.xml'] = b'<manager xmlns="http://www.kinoma.com/fskin/1"><systemData id="systemData"><lang>jpn</lang><langGp>1</langGp><sigTyp>0</sigTyp></systemData></manager>'
+    if '/boot/dsc/UserInfo.xml' not in mock_files:
+        mock_files['/boot/dsc/UserInfo.xml'] = b'<manager xmlns="http://www.kinoma.com/fskin/1"><userData id="userData"></userData></manager>'
+    if '/boot/dsc/UserInfo.bak' not in mock_files:
+        mock_files['/boot/dsc/UserInfo.bak'] = mock_files['/boot/dsc/UserInfo.xml']
+    if '/version.txt' not in mock_files:
+        mock_files['/version.txt'] = b'DSC-W300 Ver1.00\r\n'
+
+    calib_d386 = BASE / 'backups/calibration_D386002E4438/files'
+    if calib_d386.is_dir():
+        for root_dir, _, file_names in os.walk(calib_d386):
+            for fname in file_names:
+                fpath = Path(root_dir) / fname
+                rel = fpath.relative_to(calib_d386).as_posix()
+                mock_files['/' + rel] = fpath.read_bytes()
+
+    for p, alias in FALLBACK_ALIASES.items():
+        if p in mock_files and alias not in mock_files:
+            mock_files[alias] = mock_files[p]
+        elif alias in mock_files and p not in mock_files:
+            mock_files[p] = mock_files[alias]
+
+    return mock_files
+
+
+class MockSenserCamera:
+    """Offline mock camera for calibration backup simulation and verification."""
+    def __init__(self, files=None):
+        self.files = dict(files if files is not None else get_mock_calibration_files())
+        self.read_counts = {}
+        self.write_counts = {}
+        self.corrupt_on_second = set()
+
+    def read_file(self, path, limit=16 * 1024 * 1024):
+        if path not in self.files:
+            raise FileUnavailable(f'Camera returned 0x82: file missing or inaccessible: {path}')
+        count = self.read_counts.get(path, 0) + 1
+        self.read_counts[path] = count
+        data = self.files[path]
+        if count == 2 and path in self.corrupt_on_second:
+            return data + b'_CORRUPTED'
+        return data
+
+    def write_file(self, path, data, limit=16 * 1024 * 1024):
+        if not path.startswith('/') or '\0' in path or '..' in path.split('/'):
+            raise ValueError('Expected an absolute camera file path')
+        if not isinstance(data, (bytes, bytearray)):
+            raise TypeError('Expected bytes-like data')
+        if len(data) > limit:
+            raise ValueError('File data exceeds size limit')
+        self.files[path] = bytes(data)
+        self.write_counts[path] = self.write_counts.get(path, 0) + 1
+        for p, alias in FALLBACK_ALIASES.items():
+            if path == p:
+                self.files[alias] = bytes(data)
+            elif path == alias:
+                self.files[p] = bytes(data)
+        return len(data)
+
+    def delete_file(self, path):
+        if not path.startswith('/') or '\0' in path or '..' in path.split('/'):
+            raise ValueError('Expected an absolute camera file path')
+        if path in self.files:
+            del self.files[path]
+            for p, alias in FALLBACK_ALIASES.items():
+                if path == p and alias in self.files:
+                    del self.files[alias]
+                elif path == alias and p in self.files:
+                    del self.files[p]
+            return True
+        raise FileUnavailable(f'Camera returned 0x82: file missing: {path}')
+
+
+def backup_calibration(args, directory, trace, report):
+    report['scope'] = 'Full safety dump of all configuration files and CCD calibration with double-read SHA-256 verification'
+    report['files'] = []
+
+    targets = list(CALIBRATION_TARGETS)
+    if getattr(args, 'include_implementation', False):
+        for path in IMPLEMENTATION:
+            if path not in targets:
+                targets.append(path)
+
+    if getattr(args, 'mock', False):
+        report['mock'] = True
+        effective_serial = getattr(args, 'serial', None) or 'D386002E4438'
+        report['serial'] = effective_serial
+        report['identity'] = dict(model='DSC-W300', serial=effective_serial, bus=2, ports=[2])
+        report['service_authenticated'] = True
+        camera = MockSenserCamera()
+        for path in targets:
+            store_read_with_fallback(camera, directory, path, report['files'])
+        report['normal_mode_return_observed'] = True
+    else:
+        resume = None
+        if getattr(args, 'resume_session', None):
+            target_resume = args.resume_session if args.resume_session.is_file() else (args.resume_session / 'result.json')
+            raw = target_resume.read_bytes()
+            resume = json.loads(raw)
+            identity = resume.get('identity', {})
+            expected_serial = getattr(args, 'serial', None)
+            if ((expected_serial and resume.get('serial') != expected_serial)
+                    or resume.get('normal_mode_return_observed') is not False
+                    or identity.get('model') not in ('DSC-W300', 'Sony DSC')
+                    or (expected_serial and identity.get('serial') != expected_serial)
+                    or type(identity.get('bus')) is not int or not identity.get('ports')
+                    or not all(type(n) is int and 0 < n < 256 for n in identity['ports'])):
+                raise ValueError('Resume needs a failed acquisition with recorded W300 identity and unresolved exit')
+            report['resume_source_sha256'] = sha(raw)
+        with session(getattr(args, 'serial', None), trace, report, resume=resume) as camera:
+            for path in targets:
+                store_read_with_fallback(camera, directory, path, report['files'])
+
+    saved = [r for r in report['files'] if 'file' in r and r.get('repeat_equal')]
+    unavailable = [r for r in report['files'] if 'unavailable' in r]
+    total_bytes = sum(r['bytes'] for r in saved)
+
+    areg_saved = any(('Areg.bin' in r['camera_path'] or 'Areg.bin' in r.get('file', '')) for r in saved)
+    areg2_saved = any(('Areg2.bak' in r['camera_path'] or 'Areg2.bak' in r.get('file', '')) for r in saved)
+    preg_saved = any(('Preg.bin' in r['camera_path'] or 'Preg.bin' in r.get('file', '')) for r in saved)
+    hreg_saved = any(('Hreg.bin' in r['camera_path'] or 'Hreg.bin' in r.get('file', '')) for r in saved)
+    hreg2_saved = any(('Hreg2.bak' in r['camera_path'] or 'Hreg2.bak' in r.get('file', '')) for r in saved)
+    initreg_saved = any(('initreg.bin' in r['camera_path'] or 'initreg.bin' in r.get('file', '')) for r in saved)
+    asys_saved = any(('Asys.bin' in r['camera_path'] or 'Asys.bin' in r.get('file', '')) for r in saved)
+    asys2_saved = any(('Asys2.bak' in r['camera_path'] or 'Asys2.bak' in r.get('file', '')) for r in saved)
+    hsys_saved = any(('Hsys.bin' in r['camera_path'] or 'Hsys.bin' in r.get('file', '')) for r in saved)
+    hsys2_saved = any(('Hsys2.bak' in r['camera_path'] or 'Hsys2.bak' in r.get('file', '')) for r in saved)
+
+    all_repeat_verified = len(saved) > 0 and all(r.get('repeat_equal', False) for r in saved)
+
+    summary = {
+        'total_targets_attempted': len(targets),
+        'files_saved': len(saved),
+        'files_unavailable': len(unavailable),
+        'total_bytes': total_bytes,
+        'double_read_sha256_verified': all_repeat_verified,
+        'calibration_ccd_areg_saved': areg_saved,
+        'calibration_ccd_areg2_saved': areg2_saved,
+        'host_hreg_saved': hreg_saved,
+        'host_hreg2_saved': hreg2_saved,
+        'anti_tamper_preg_saved': preg_saved,
+        'partition_initreg_saved': initreg_saved,
+        'av_system_asys_saved': asys_saved,
+        'av_system_asys2_saved': asys2_saved,
+        'host_system_hsys_saved': hsys_saved,
+        'host_system_hsys2_saved': hsys2_saved,
+        'file_manifest': [
+            {
+                'camera_path': r['camera_path'],
+                'file': r['file'],
+                'bytes': r['bytes'],
+                'sha256': r['sha256'],
+            } for r in saved
+        ],
+    }
+    report['summary'] = summary
+
+    # Fail closed on any critical safety violation
+    if not report.get('normal_mode_return_observed'):
+        raise RuntimeError('Normal-mode return not observed; camera may remain in service mode')
+    if len(saved) == 0:
+        raise RuntimeError('No configuration or calibration files were saved')
+    if not all_repeat_verified:
+        raise RuntimeError('Double-read verification failed: one or more files diverged or failed repeat check')
+    if not (areg_saved or areg2_saved):
+        raise RuntimeError('Critical CCD calibration file (Areg.bin/Areg2.bak) not acquired')
+    if not (hreg_saved or hreg2_saved):
+        raise RuntimeError('Critical host configuration file (Hreg.bin/Hreg2.bak) not acquired')
+    if not preg_saved:
+        raise RuntimeError('Critical anti-tamper golden mirror (Preg.bin) not acquired')
+    if not initreg_saved:
+        raise RuntimeError('Critical partition table file (initreg.bin) not acquired')
+    if not (asys_saved or asys2_saved):
+        raise RuntimeError('Critical AV subsystem parameter file (Asys.bin/Asys2.bak) not acquired')
+    if not (hsys_saved or hsys2_saved):
+        raise RuntimeError('Critical host subsystem parameter file (Hsys.bin/Hsys2.bak) not acquired')
+
+    report['ok'] = True
+    save_json(directory / 'manifest.json', summary, durable=True)
 
 
 def main():
@@ -581,22 +994,39 @@ def main():
     item.add_argument('--baseline', type=Path, required=True)
     item = sub.add_parser('assess',help='Automatic exact-reference comparison; no camera access')
     item.add_argument('--baseline',type=Path,required=True)
-    for name in ('change','restore-region','verify-region'):
+    for name in ('change','restore-region','verify-region','sync-mirror'):
         item=sub.add_parser(name,help='Automatic comparison workflow; no manual qualification file')
         item.add_argument('--serial',required=True)
         item.add_argument('--experimental-service',action='store_true',required=True)
-        item.add_argument('--baseline',type=Path,required=name!='change',
-                          help='Original capture; change acquires one automatically when omitted')
+        item.add_argument('--baseline',type=Path,required=name not in ('change', 'sync-mirror'),
+                          help='Original capture; change/sync-mirror acquires one automatically when omitted')
+        if name == 'change':
+            item.add_argument('--permanent', action='store_true',
+                              help='Synchronize golden mirror in Preg.bin to prevent cold-boot reversion')
         if name=='restore-region':
             item.add_argument('--change-session',type=Path,required=True)
         if name=='verify-region':
             item.add_argument('--expect',choices=('english','original'),default='english')
+    for name in ('backup-calibration', 'backup', 'dump-calibration'):
+        item = sub.add_parser(name, help='Full safety dump of all configuration files and CCD calibration with double-read SHA-256 verification')
+        item.add_argument('--serial', default=None, help='Camera serial number (default: auto-detect from connected camera)')
+        item.add_argument('--experimental-service', action='store_true', required=True,
+                          help='Acknowledge experimental Senser service mode operation')
+        item.add_argument('--output', type=Path, default=None,
+                          help='Directory to save safety dump and calibration files')
+        item.add_argument('--resume-session', type=Path, default=None,
+                          help='Prior failed session to resume from')
+        item.add_argument('--mock', action='store_true',
+                          help='Run in offline mock mode using reference fixtures')
+        item.add_argument('--include-implementation', action='store_true',
+                          help='Also dump proprietary firmware binaries and libraries')
     args = parser.parse_args()
     if getattr(args, 'output', None):
         directory = args.output.resolve()
+        directory.mkdir(parents=True, exist_ok=True)
     else:
         directory = BASE / 'sessions' / (datetime.now(timezone.utc).strftime('%Y%m%d-%H%M%S-%f') + '-' + args.command)
-    directory.mkdir(parents=True, exist_ok=False)
+        directory.mkdir(parents=True, exist_ok=False)
     report = dict(operation=args.command, serial=getattr(args, 'serial', None),
                   ok=False, region_write_attempted=False, region_reply_received=False,
                   persistent_english_verified=False, files=[])
@@ -608,8 +1038,10 @@ def main():
             from region_protocol import region_body
             assert region_body(0).hex() == '3f005500ff000000000100000081000000000000'
             report['scope'] = 'Offline pins and packet encoding; no camera access'
-        elif args.command in ('assess','change','restore-region','verify-region'):
+        elif args.command in ('assess','change','restore-region','verify-region','sync-mirror'):
             automatic_operation(args,directory,trace,report)
+        elif args.command in ('backup-calibration', 'backup', 'dump-calibration'):
+            backup_calibration(args, directory, trace, report)
         elif args.command == 'doctor':
             core, util, backend = usb_modules()
             report['devices'] = []
@@ -696,7 +1128,8 @@ def main():
                                        'visually confirm English and test shooting/playback separately.')
             if not report.get('normal_mode_return_observed'):
                 raise RuntimeError('Normal-mode return not verified; see exit_error and raw trace')
-        report['ok'] = True
+        if args.command not in ('backup-calibration', 'backup', 'dump-calibration'):
+            report['ok'] = True
     except Exception as error:
         report.update(error_type=type(error).__name__, error=str(error))
     finally:

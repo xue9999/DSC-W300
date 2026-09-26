@@ -6850,6 +6850,22 @@
       "sha256": "667db9bcb5e9837a0dd1c57dff3c6f01c0f2e809848a8dd80f77b7101ae3beb3",
       "role": "DSC-W300 live camera baseline capture; camera serial D386002E4438",
       "integrity_basis": "live_hardware_capture"
+    },
+    {
+      "path": "evidence/w300/av.bin",
+      "kind": "file",
+      "bytes": 2233094,
+      "sha256": "bfa4df20f5d25daf82419c12ab7efb16ea39420c544a72a3d5037c71ac49bd30",
+      "role": "DSC-W300 extracted BIONZ DSP subsystem binary from partition 5; camera serial D386002E4438",
+      "integrity_basis": "live_hardware_capture"
+    },
+    {
+      "path": "evidence/w300/sa.bin",
+      "kind": "file",
+      "bytes": 336664,
+      "sha256": "5126c376de296624280ccdc1c8692d98ec674cfaf69bfa8ef6dfa2e367010d44",
+      "role": "DSC-W300 extracted sound/audio subsystem binary from partition 5; camera serial D386002E4438",
+      "integrity_basis": "live_hardware_capture"
     }
   ],
   "retained_duplicates": [
@@ -6996,6 +7012,14 @@
         "evidence/w300/baseline_files/boot/factory/Hreg2.bak"
       ],
       "reason": "DSC-W300 Hreg category-0 primary and backup banks captured from live hardware"
+    },
+    {
+      "sha256": "5126c376de296624280ccdc1c8692d98ec674cfaf69bfa8ef6dfa2e367010d44",
+      "paths": [
+        "evidence/extracted_g3/sections/08_sa.bin",
+        "evidence/w300/sa.bin"
+      ],
+      "reason": "Cross-model audio/sound subsystem binary verified identical between DSC-G3 firmware package and DSC-W300 OneNAND partition 5 live extraction"
     }
   ]
 }

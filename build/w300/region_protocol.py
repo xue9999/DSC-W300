@@ -36,29 +36,30 @@ class Senser:
         self.ends = clock() + deadline
         self.failed = False
 
-    def timeout(self):
+    def timeout(self, timeout_ms=None):
         remaining = self.ends - self.clock()
         if remaining <= 0:
             raise ProtocolError('Session deadline exceeded')
-        return max(1, min(5000, int(remaining * 1000)))
+        cap = timeout_ms if timeout_ms is not None else 5000
+        return max(1, min(cap, int(remaining * 1000)))
 
-    def exact(self, size):
+    def exact(self, size, timeout_ms=None):
         result = bytearray()
         while len(result) < size:
-            data = self.io.read(size - len(result), self.timeout())
+            data = self.io.read(size - len(result), self.timeout(timeout_ms))
             if not data or len(data) > size - len(result):
                 raise ProtocolError('Empty or oversized transfer; stopped')
             result.extend(data)
         return bytes(result)
 
-    def request(self, function, body):
+    def request(self, function, body, timeout_ms=None):
         if self.failed or not 1 <= self.sequence <= 0xffff:
             raise ProtocolError('Session cannot be reused after failure or sequence exhaustion')
         self.io.write(HEADER.pack(len(body), function, self.sequence, 0, 0, 0, 0) + body,
-                      self.timeout())
+                      self.timeout(timeout_ms))
 
-    def header(self, function):
-        raw = self.exact(HEADER.size)
+    def header(self, function, timeout_ms=None):
+        raw = self.exact(HEADER.size, timeout_ms=timeout_ms)
         size, func, seq, version, micon, offset, response = HEADER.unpack(raw)
         if (func, seq, version, micon, offset) != (function, self.sequence, 0, 0, 0):
             raise ProtocolError('Response header mismatch')
@@ -100,6 +101,80 @@ class Senser:
             self.sequence += 1
             return bytes(output)
         except FileUnavailable:
+            raise
+        except BaseException:
+            self.failed = True
+            raise
+
+    def write_file(self, path, data, limit=16 * 1024 * 1024):
+        if not path.startswith('/') or '\0' in path or '..' in path.split('/'):
+            raise ValueError('Expected an absolute camera file path')
+        if not isinstance(data, (bytes, bytearray)):
+            raise TypeError('Expected bytes-like data')
+        if len(data) > limit:
+            raise ValueError('File data exceeds size limit')
+        encoded = path.encode('ascii')
+        if len(encoded) > 240:
+            raise ValueError('Camera path too long')
+        encoded += bytes(4 - len(encoded) % 4)
+        body = struct.pack('<HH', 1, len(encoded)) + encoded + data
+        try:
+            self.request(0xff01, body)
+            size, status = self.header(0xff01)
+            if status == 0x82 and size == 0:
+                self.sequence += 1
+                raise FileUnavailable('Camera returned 0x82: file path missing or read-only')
+            if status != 1:
+                raise ProtocolError('File write failed with status %d' % status)
+            if size > limit:
+                raise ProtocolError('File write response payload exceeds size limit')
+            if size > 0:
+                self.exact(size)
+            self.sequence += 1
+            return size
+        except FileUnavailable:
+            raise
+        except BaseException:
+            self.failed = True
+            raise
+
+    def delete_file(self, path):
+        if not path.startswith('/') or '\0' in path or '..' in path.split('/'):
+            raise ValueError('Expected an absolute camera file path')
+        encoded = path.encode('ascii')
+        if len(encoded) > 240:
+            raise ValueError('Camera path too long')
+        encoded += bytes(4 - len(encoded) % 4)
+        body = struct.pack('<HH', 3, len(encoded)) + encoded
+        try:
+            self.request(0xff01, body)
+            size, status = self.header(0xff01)
+            if status == 0x82 and size == 0:
+                self.sequence += 1
+                raise FileUnavailable('Camera returned 0x82: file missing')
+            if status != 1:
+                raise ProtocolError('File delete failed with status %d' % status)
+            if size > 0:
+                self.exact(size)
+            self.sequence += 1
+            return True
+        except FileUnavailable:
+            raise
+        except BaseException:
+            self.failed = True
+            raise
+
+    def product_info(self, category, command, payload=b'', timeout_ms=30000):
+        body = struct.pack('<HH', category, command) + payload
+        try:
+            self.request(0x0010, body, timeout_ms=timeout_ms)
+            size, status = self.header(0x0010, timeout_ms=timeout_ms)
+            resp_data = self.exact(size, timeout_ms=timeout_ms) if size > 0 else b''
+            self.sequence += 1
+            if status != 1:
+                raise ProtocolError('ProductInfo failed with status %d' % status)
+            return resp_data
+        except ProtocolError:
             raise
         except BaseException:
             self.failed = True

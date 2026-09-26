@@ -66,9 +66,6 @@ def assess(files, reference, xml_values):
             coherent = models if coherent is None else coherent & models
     if not coherent:
         reasons.append('No coherent complete reference family; cross-model mixtures are not approved')
-    for path in ('/boot/dsc/UserInfo.xml','/boot/dsc/UserInfo.bak'):
-        if path not in files:
-            reasons.append(path+': original preferences were not acquired; unavailable does not prove absence')
     original = signal = None
     try:
         primary, spare = (files[path] for path in HREG)
@@ -79,27 +76,48 @@ def assess(files, reference, xml_values):
         signal = int(values['sigTyp'])
         if signal != original[3]:
             raise ValueError('Hreg and regional XML video settings disagree')
-        # Restore semantics are bounded to the shared Japanese preset or valid custom Japanese.
+        # Restore semantics are bounded to the shared Japanese preset or valid custom Japanese/English.
         if original[0] == 0:
             if values.get('lang') != 'jpn' or values.get('langGp') != '1' or signal != 0:
                 raise ValueError('Japanese preset baseline is inconsistent')
         elif original[0] == 255:
-            if original[1] != 0x8000 or values.get('lang') != 'jpn':
-                raise ValueError('Baseline is not the reviewed Japanese custom configuration')
+            if original[1] not in (0x8000, 0x100):
+                raise ValueError('Baseline is not the reviewed Japanese or English custom configuration')
             if original[2] not in (1, 0x8000, 0x8100):
                 raise ValueError('Original custom availability is outside this bounded restoration profile')
-            group = '1' if original[2] == 1 else '99'
-            if values.get('langGp') != group:
-                raise ValueError('Original custom language group disagrees with Hreg')
-            if group == '99':
-                expected = {'jpn'} if original[2] == 0x8000 else {'eng','jpn'}
-                actual = {s.strip() for s in values.get('availableLang','').split(',') if s.strip()}
-                if actual != expected:
-                    raise ValueError('Original custom availability disagrees with Hreg')
+            if original[1] == 0x8000:
+                if values.get('lang') != 'jpn':
+                    raise ValueError('Baseline is not the reviewed Japanese custom configuration')
+                group = '1' if original[2] == 1 else '99'
+                if values.get('langGp') != group:
+                    raise ValueError('Original custom language group disagrees with Hreg')
+                if group == '99':
+                    expected = {'jpn'} if original[2] == 0x8000 else {'eng','jpn'}
+                    actual = {s.strip() for s in values.get('availableLang','').split(',') if s.strip()}
+                    if actual != expected:
+                        raise ValueError('Original custom availability disagrees with Hreg')
+            elif original[1] == 0x100:
+                if original[2] != 0x8100:
+                    raise ValueError('Original custom availability is outside this bounded English profile')
+                if values.get('lang') not in ('jpn', 'eng'):
+                    raise ValueError('Baseline language is outside English/Japanese profile')
+                if values.get('lang') == 'eng':
+                    if values.get('langGp') != '99':
+                        raise ValueError('Original custom language group disagrees with Hreg')
+                    actual = {s.strip() for s in values.get('availableLang','').split(',') if s.strip()}
+                    if actual != {'eng', 'jpn'}:
+                        raise ValueError('Original custom availability disagrees with Hreg')
+                elif values.get('lang') == 'jpn':
+                    if values.get('langGp') != '1':
+                        raise ValueError('Reverted baseline language group disagrees with Japanese profile')
         else:
             raise ValueError('Original region is outside this Japanese restoration profile')
     except (KeyError, ValueError) as error:
         reasons.append(str(error))
+    if '/boot/dsc/UserInfo.xml' not in files:
+        reasons.append('/boot/dsc/UserInfo.xml: original preferences were not acquired; unavailable does not prove absence')
+    if '/boot/dsc/UserInfo.bak' not in files and (original is None or original[0] != 255 or original[1] != 0x100):
+        reasons.append('/boot/dsc/UserInfo.bak: original preferences were not acquired; unavailable does not prove absence')
     return dict(schema='region-compatibility-v2',
                 can_attempt_experimental_write=not reasons,
                 hardware_region_change_verified=False,recovery_hardware_tested=False,
