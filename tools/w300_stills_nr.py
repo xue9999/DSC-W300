@@ -1,10 +1,8 @@
 #!/usr/bin/env python3
-"""W300 offline file inventory, hypothetical menu scenarios, and AV coprocessor NR control.
+"""W300 offline inventory, verified AV anchors and historical byte experiments.
 
-Provides both:
-  1. Offline byte inspection and hypothetical menu scenarios for baseline testing.
-  2. Safe Category 6 NVRAM modification (/boot/factory/Asys.bin and Asys2.bak)
-     to disable AV coprocessor CNR and RGB spatial smoothing (offsets 0x3035 and 0x3036).
+The two-byte Asys candidate is not a qualified NR-off method; live writes refuse.
+Use analyze-av to reproduce the actual program/gate mapping without device access.
 """
 from __future__ import annotations
 
@@ -41,6 +39,7 @@ from w300_nr_nvram import (
     restore_camera,
     run_nr_tool,
 )
+from w300_nr_evidence import analyze as analyze_av, AV, SA, BACKUP_CORE
 
 W300_NR_LEVELS = ["Toward -", "Normal", "Toward +"]
 W300_SHARPNESS_LEVELS = ["Toward -", "Normal", "Toward +"]
@@ -99,6 +98,11 @@ def build_parser():
     inspect = sub.add_parser("inspect", help="Inventory bytes; do not identify firmware or calibration")
     inspect.add_argument("file", type=Path)
 
+    evidence = sub.add_parser('analyze-av', help='Verify pinned W300 NR dispatch anchors; read-only')
+    evidence.add_argument('--file', type=Path, default=AV)
+    evidence.add_argument('--sa', type=Path, default=SA)
+    evidence.add_argument('--backup-core', type=Path, default=BACKUP_CORE)
+
     ui = sub.add_parser("assess-ui", help="Record an explicitly hypothetical menu scenario")
     ui.add_argument("--nr", default="Normal")
     ui.add_argument("--sharpness", default="Normal")
@@ -119,7 +123,7 @@ def build_parser():
     patch_nr.add_argument("--camera", action="store_true", help="Patch connected camera")
     patch_nr.add_argument("--mock", action="store_true", help="Use offline mock camera")
     patch_nr.add_argument("--dry-run", action="store_true", help="Preview modifications")
-    patch_nr.add_argument("--experimental-service", action="store_true", help="Required safety flag for live writes")
+    patch_nr.add_argument("--experimental-service", action="store_true", help="Compatibility flag; live NR writes remain disabled")
     patch_nr.add_argument("--serial", default=None, help="Camera USB serial")
 
     restore_nr = sub.add_parser("restore-nvram", help="Restore stock factory NR in Asys NVRAM")
@@ -128,7 +132,7 @@ def build_parser():
     restore_nr.add_argument("--camera", action="store_true", help="Restore connected camera")
     restore_nr.add_argument("--mock", action="store_true", help="Use offline mock camera")
     restore_nr.add_argument("--dry-run", action="store_true", help="Preview modifications")
-    restore_nr.add_argument("--experimental-service", action="store_true", help="Required safety flag for live writes")
+    restore_nr.add_argument("--experimental-service", action="store_true", help="Compatibility flag; live NR writes remain disabled")
     restore_nr.add_argument("--restore-from", type=Path, default=None, help="Directory to restore from")
     restore_nr.add_argument("--serial", default=None, help="Camera USB serial")
 
@@ -146,6 +150,9 @@ def main(argv=None):
     try:
         if args.command == "inspect":
             result = inspect_file(args.file)
+        elif args.command == 'analyze-av':
+            result = analyze_av(args.file.read_bytes(), args.sa.read_bytes(),
+                                args.backup_core.read_bytes())
         elif args.command == "assess-ui":
             result = assess_ui(args.nr, args.sharpness, args.iso)
         elif args.command == "patch-nvram":

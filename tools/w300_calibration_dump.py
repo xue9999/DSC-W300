@@ -21,6 +21,7 @@ Targets:
 from __future__ import annotations
 
 import argparse
+from datetime import datetime, timezone
 from pathlib import Path
 import sys
 
@@ -51,6 +52,8 @@ def main() -> int:
                         help='Run in offline mock mode using reference fixtures')
     parser.add_argument('--include-implementation', action='store_true',
                         help='Also dump proprietary firmware binaries and libraries')
+    parser.add_argument('--include-nr-implementation', action='store_true',
+                        help='Also read the six stills NR investigation libraries; does not change NR')
 
     args = parser.parse_args()
 
@@ -68,7 +71,9 @@ def main() -> int:
     effective_serial = serial or 'D386002E4438'
     default_output = args.output
     if default_output is None:
-        default_output = BUILD_W300 / 'backups' / f"calibration_{effective_serial}"
+        suffix = ('_nr_' + datetime.now(timezone.utc).strftime('%Y%m%d_%H%M%S_%f')
+                  if args.include_nr_implementation else '')
+        default_output = BUILD_W300 / 'backups' / f"calibration_{effective_serial}{suffix}"
 
     sys_argv_backup = sys.argv
     try:
@@ -86,6 +91,8 @@ def main() -> int:
             cmd.append('--mock')
         if args.include_implementation:
             cmd.append('--include-implementation')
+        if args.include_nr_implementation:
+            cmd.append('--include-nr-implementation')
 
         sys.argv = cmd
         return app.main()

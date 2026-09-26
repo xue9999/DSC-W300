@@ -14,11 +14,14 @@ Verifies:
 
 from pathlib import Path
 import contextlib
+import io
 import json
 import struct
 import sys
 import tempfile
 import unittest
+from unittest.mock import patch
+from types import SimpleNamespace
 
 BUILD_W300 = Path(__file__).resolve().parents[1] / 'build/w300'
 if str(BUILD_W300) not in sys.path:
@@ -148,6 +151,58 @@ class TestBackupCalibrationEndToEnd(unittest.TestCase):
     def tearDown(self):
         self.temp_dir.cleanup()
 
+    def test_nr_acquisition_preserves_sources_and_reports_unavailable_without_absence_claim(self):
+        camera = app.MockSenserCamera()
+        camera.files['/usr/lib/libusb.so'] = b'synthetic USB library fixture'
+        camera.files.pop('/usr/lib/libadj11.so', None)
+        originals = dict(camera.files)
+        args = SimpleNamespace(mock=True, serial='D386002E4438', include_nr_implementation=True)
+        report = dict(ok=False)
+        with patch.object(app, 'MockSenserCamera', return_value=camera):
+            app.backup_calibration(args, self.output_dir, None, report)
+        summary = report['nr_implementation']
+        self.assertFalse(summary['all_requested_files_verified'])
+        self.assertFalse(summary['installation_absence_proven'])
+        self.assertFalse(summary['live_nr_write_qualified'])
+        self.assertEqual(summary['unavailable_or_inaccessible_paths'], ['/usr/lib/libadj11.so'])
+        self.assertEqual(camera.write_counts, {})
+        self.assertEqual(camera.files, originals)
+        self.assertEqual(set(row['camera_path'] for row in report['files']),
+                         set(app.CALIBRATION_TARGETS) | set(app.NR_IMPLEMENTATION))
+        for path in summary['verified_paths']:
+            self.assertEqual(camera.read_counts[path], 2)
+            self.assertEqual((self.output_dir / 'files' / path.lstrip('/')).read_bytes(), originals[path])
+        with self.assertRaises(FileExistsError):
+            app.backup_calibration(args, self.output_dir, None, {})
+
+    def test_nr_library_repeat_corruption_is_fatal_and_retained(self):
+        camera = app.MockSenserCamera()
+        path = '/usr/lib/libadj11.so'
+        camera.files[path] = b'synthetic plugin fixture'
+        camera.corrupt_on_second.add(path)
+        args = SimpleNamespace(mock=True, serial='D386002E4438', include_nr_implementation=True)
+        report = dict(ok=False)
+        with patch.object(app, 'MockSenserCamera', return_value=camera):
+            with self.assertRaises(protocol.ProtocolError):
+                app.backup_calibration(args, self.output_dir, None, report)
+        self.assertFalse(report['ok'])
+        self.assertEqual(camera.write_counts, {})
+        saved = self.output_dir / 'files/usr/lib/libadj11.so'
+        self.assertEqual(saved.read_bytes(), camera.files[path])
+        self.assertTrue(saved.with_name(saved.name + '.second').is_file())
+
+    def test_nr_capture_cli_refuses_existing_directory_before_usb(self):
+        argv = ['region_app.py', 'backup-calibration', '--experimental-service',
+                '--include-nr-implementation', '--output', str(self.output_dir)]
+        marker = self.output_dir / 'existing.txt'
+        marker.write_text('preserve', encoding='utf-8')
+        with patch.object(sys, 'argv', argv), patch.object(app, 'usb_modules') as usb:
+            with self.assertRaises(SystemExit) as raised:
+                app.main()
+        self.assertEqual(raised.exception.code, 2)
+        usb.assert_not_called()
+        self.assertEqual(marker.read_text(encoding='utf-8'), 'preserve')
+
     def test_full_backup_calibration_mock_success(self):
         class DummyArgs:
             command = 'backup-calibration'
@@ -207,12 +262,17 @@ class TestBackupCalibrationEndToEnd(unittest.TestCase):
 
     def test_cli_mock_full_invocation(self):
         old_argv = sys.argv
-        target = self.output_dir / 'cli_backup'
+        target = self.output_dir / 'cli_backup_ą'
+        captured = io.BytesIO()
+        legacy_stdout = io.TextIOWrapper(captured, encoding='cp1252', errors='strict')
         try:
             sys.argv = ['region_app.py', 'backup-calibration', '--serial', 'D386002E4438',
                         '--experimental-service', '--mock', '--output', str(target)]
-            code = app.main()
+            with contextlib.redirect_stdout(legacy_stdout):
+                code = app.main()
+            legacy_stdout.flush()
             self.assertEqual(code, 0)
+            self.assertIn(b'cli_backup_\\u0105', captured.getvalue())
             self.assertTrue((target / 'manifest.json').is_file())
             self.assertTrue((target / 'result.json').is_file())
             self.assertTrue((target / 'files/boot/factory/Areg.bin').is_file())
@@ -230,18 +290,17 @@ class TestBackupCalibrationEndToEnd(unittest.TestCase):
             mock = False
             include_implementation = False
 
-        orig_find_one = app.find_one
-        def fake_find_one(*args, **kwargs):
-            raise ValueError('No Sony camera in normal USB mode')
-        app.find_one = fake_find_one
-
         trace = app.Trace(self.output_dir)
         report = dict(operation='backup-calibration', serial='D386002E4438', ok=False)
         try:
-            with self.assertRaises((ValueError, RuntimeError, OSError)):
-                app.backup_calibration(DummyArgs(), self.output_dir, trace, report)
+            # Isolate discovery from optional authentication sources and USB packages.
+            with patch.object(app, 'load_auth', return_value=(None, None)), \
+                    patch.object(app, 'usb_modules', return_value=(None, None, None)), \
+                    patch.object(app, 'find_one', side_effect=ValueError('No Sony camera in normal USB mode')) as find:
+                with self.assertRaisesRegex(ValueError, 'No Sony camera'):
+                    app.backup_calibration(DummyArgs(), self.output_dir, trace, report)
+                find.assert_called_once_with(None, None, app.NORMAL_PIDS)
         finally:
-            app.find_one = orig_find_one
             trace.close()
         self.assertFalse(report.get('ok', False), "Disconnected live camera must fail closed")
 

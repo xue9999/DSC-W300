@@ -1,101 +1,92 @@
-# DSC-W300 execution plan — persistent English, editorial revision 5
+# DSC-W300 execution plan — still-image noise reduction
 
-The goal of enabling persistent English menus on the original Japanese DSC-W300 while preserving identity, calibration and normal operation has been **successfully achieved and verified on live hardware** (serial `D386002E4438`). The camera was converted to custom region 255 with initial language English using native Senser `RegionSetting [255, 0x100, 0x8100, 0]`. See the [Persistent English Conversion Guide](PERSISTENT_ENGLISH_GUIDE.md) and [Verification Record](VERIFICATION.md) for complete details.
+## Objective and completion criteria
 
-## Engineering routes and next actions
+Work on stills NR, not menu language. Establish an actual, reversible bypass or
+disablement of still-image noise filtering on the original DSC-W300 while
+preserving identity, calibration and normal shooting. Byte edits, static analysis,
+simulation and readback are separate milestones. Completion requires a qualified
+camera operation and a measured image-processing result.
 
-Use Sony-PMCA-RE commit `a82f5baaa8e9c3d9f28f94699e860fb2e48cc8e0` as the transport reference. Retained G3 code matches its 12-byte Senser framing and SHA1 authentication branch for service PID `0x0336`. Sony's separate W300 and G3 GPL packages establish a common CXD4108/ARMv5 platform with different kernel revisions. Confirm W300 service identity, authentication, segmented address encoding and persistence against W300 code or documented transactions before adding camera operations.
+## Finding and selected route
 
-The analyst must acquire evidence and verify the proposed operations. Choose a route below based on the available evidence. Each attempt must answer a specific question and produce a file or finding that supports the next action. Auto-Adj is a preferred source for the documented service operation; firmware and recorded transactions are alternatives.
+The correct AV table starts at `0x16EAF4` with `(name_pointer, program_id)`
+rows. Its names agree with SA. The earlier local v1 report's shifted labels and
+supposed AV/SA mismatch were a parser error; they must not guide further work.
 
-| Route | Action to execute | Result and evaluation | Transition if this attempt cannot advance |
-|---|---|---|---|
-| Auto-Adj / SeusEX acquisition | Use retained package inventories to select an uninspected attachment, CD inventory or repository locator for `DSC-W300 Auto-Adj Ver_1.3r04.exe` and its dependencies. Inspect archives and embedded model/version before selecting an OS or VM. | Preserve source context and original bytes; distinguish an executable payload from a manual or catalog entry. Trace Destination Check first, then board eligibility and affected-data/commit paths. | Record exactly which locator was covered, then select a distinct source or the firmware/transaction route. Earlier versions are comparison inputs because 1.2r03 and 1.3r04 corrected relevant behavior. |
-| W300 firmware or transaction acquisition | Search concrete W300 updater/dump references using the retained model, IC and board locators; inspect existing provenance-qualified captures for request/response context. | Identify actual W300 proprietary code or a complete attributable transaction, including input, response and state. Follow its destination getter, language consumer and persistence path. | Use the file-acquisition preparation below and comparative analysis to identify specific software paths or protocol questions. A filename alone remains a locator. |
-| File-acquisition preparation | Trace retained G3 entry/exit and the command-2 sender against pinned PMCA framing; resolve the 512-byte padding behavior, failure responses and persistent-mode separation. Prepare bounded offline transfer fixtures for those questions. | Produce a reviewed framing/lifecycle specification and receiver test cases with declared-size, sequence, timeout and no-progress handling. Preserve raw responses in the eventual receiver design. | If one lifecycle detail needs W300 evidence, record that dependency and continue independent framing, parsing or source-acquisition work. Execute a camera trial only in its qualified later stage. |
-| Comparative language analysis | Follow the retained G3 region/language reads and writes through application consumers and flush/reset calls; use the named W150/W170 and H50 Auto-Adj versions as distinct acquisition targets. | Produce a field/consumer/side-effect comparison tied to exact source anchors and explicit W300 verification questions. Shared GPL URLs are already known and need no duplicate download. | End a comparison when it no longer answers a concrete W300 question; return its locators and test requirements to the acquisition routes. |
+| Stage | ID | Normal / alternate Asys gate |
+|---|---:|---|
+| NR16_RAWNR | 3 | `0x2B01 / 0x32DD` |
+| NR32_RAWNR | 4 | `0x3033 / 0x3143` |
+| CNR conversion to GCC | 5 | `0x3034 / 0x3144` |
+| CNR filter | 6 | `0x3035 / 0x3145` |
+| CNR conversion to RGB | 7 | `0x3036 / 0x3146` |
 
-The [resumption assessment](../../build/w300/reports/w300-resumption-20260917.md) records completed catalog/archive coverage. Reuse it to choose a different source or method. Acquiring W300-specific implementation evidence is an active work item; its absence does not suspend the independent tasks in this table.
+The historical two-byte edit bypasses both CNR filtering and RGB conversion
+while leaving RAWNR gates unchanged. Investigate native RAWNR/CNR gates with
+conversion retained. RAW skip prevents promotion of an untouched output buffer;
+CNR skip has no explicit buffer swap. DSP pixel effects remain unverified.
 
-The [T100/G3 firmware comparison](../../build/w300/reports/t100-language-comparison/README.md) adds an acquired Sony T100 updater and verified native field, language-mask and application-consumer comparisons. Both payloads use the same five destination/region/language table rows and category-0 Hreg backing paths, but their language-group policies differ. Use these concrete anchors to qualify W300's allowed-language configuration, regional default and user language separately. Reuse the acquired T100 package and reproducible extraction rather than searching for it again. Prioritize a narrow language operation; the compared region-conversion paths have broader settings effects.
+Use [STILLS_NR_DISABLE_GUIDE.md](STILLS_NR_DISABLE_GUIDE.md) for source anchors,
+boundaries and camera verification. The
+[standard-library verifier](../../tools/w300_nr_evidence.py) and
+[retained evidence](../../build/w300/reports/stills-nr/evidence.json) reproduce
+the corrected relationships from pinned W300 AV, SA and backup-library bytes.
 
-The [Senser FileControl command-2 analysis](../../build/w300/reports/g3-file-read/README.md) supplies the source anchors for the file-acquisition route. After qualifying W300 service entry, exit and transfer behavior, this may provide proprietary libraries directly from the owner's camera. Qualify the reviewed regular-file candidate against W300; procfs can report zero stat size and suppress the transfer body. The current workbench implements identification only, so receiver preparation remains offline work until model qualification and the later camera session.
+## Ordered work
 
-Acquire packages, verify the protocol and develop the implementation offline on the preparation computer. The later camera session uses a separate Windows 10/11 x64 computer.
-
-The separate [W300 Region Console](../../build/w300/reports/region-app/README.md) implements automatic capture, exact component comparison, native region change and original-region restoration. The user has authorized the write and now requests offline engineering while the camera is disconnected. Use `change` on the receiving PC; it captures a baseline, compares all required components against a coherent reviewed reference and writes only if those checks pass. The complete comparison profile is G3; T100 coverage is partial. No W300 implementation match has been observed, so this build cannot promise conversion. A mismatch produces specific component evidence for the next analysis rather than an editable approval flag. Windows service mode needs its own driver binding; acquisition can resume from the recorded same-port identity. Restoration accepts the matching change result or durable write-intent record and reapplies original region arguments. It resets preferences and is not full rollback; interrupted primary/spare states have explicit refusal checks. Hardware recovery and restart persistence remain unverified.
-
-## Continuation and completion rules
-
-The [RegionSetting analysis](../../build/w300/reports/region-service-method/README.md) identifies the shared service operation and custom-language candidate, with an offline packet encoder. Next qualify the W300 handler, service transport and restoration using actual W300 files or transactions. Prefer custom language semantics over inferring an enum from destination labels; retain the original video setting. The immediate reply is not a persistence barrier. Back up the Hreg pair, region configuration and UserInfo pair, then verify readback and restart in the separately authorized camera stage.
-
-1. Select an available action from the route table, state the question and expected evidence, then perform it. Prefer work that removes a dependency on the route to persistent English.
-2. On failure, record the attempted source/method and bounded result. Close that attempt and execute the next justified alternative. Revisit it when the source, hypothesis, method or access changes.
-3. When an operation requires unavailable hardware or external access, name that dependency and complete useful independent work. Prepare a precise handoff containing the required input, intended operation and expected observation.
-4. Before reporting that an external dependency blocks the whole task, review the remaining justified routes and explain why none allows a useful next action. Repeated searches, restated limitations and unrelated G3 analysis do not count as progress.
-5. Report research artifacts as research progress. Completion of the language objective requires the camera-level results at the end of this plan.
-
-For a missing package, continue distinct package/firmware sources and transfer preparation. For an exhausted archive, preserve its coverage and change the source or method. For an absent camera, continue offline analysis and prepare the receiving-PC procedure. These situations restrict specific operations; none alone closes the research task.
-
-## Local tools and environment
-
-Repository: `C:\Users\apara01\OneDrive - Kearney\Documents\ChatGPT\W300\DSC-W300`.
-
-- Portable revision 3: `build/w300/portable/release3/W300-Workbench-Windows-x64.zip`, also supplied as a GitHub Release asset. It includes Python/libraries and Microsoft PowerShell 7.4.18.
-- Development entry point: `build/w300/w300_workbench.py`; wrapper: `build/w300/run.ps1`.
-- Build source: `build/w300/build_portable.py`; locked dependencies and wheels are covered by the research asset.
-- Offline launch check: `build/w300/pmca_offline.py` initializes the local USB runtime and displays the actual pinned PMCA program's help.
-- Restore research inputs using [RELEASE_RESTORE.md](RELEASE_RESTORE.md). Transfer the portable ZIP according to [PORTABLE_HANDOFF.md](PORTABLE_HANDOFF.md).
-
-## First session with the camera
-
-1. Extract the whole portable ZIP into a writable directory. In PowerShell, from `W300Workbench`, run:
-
-```powershell
-.\W300Workbench.exe selftest
-```
-
-Expected: `ok: true`, `frozen_portable_executable: true`, verified dependencies and source hashes. The flags `camera_communication_tested` and `w300_language_function_verified` describe separate hardware milestones and remain false in this offline check.
-
-2. For identification, use a charged battery, connect the original W300 directly by USB, turn it on and select Mass Storage mode. Disconnect other Sony USB devices. Keep Microsoft's USBSTOR driver. Decline Windows formatting or initialization prompts. Run:
-
-```powershell
-.\W300Workbench.exe inventory
-```
-
-Expected: PnP description, current instance ID/serial, VID/PID, driver details and saved JSON. `sony_devices: []` records an empty enumeration. Inventory reads OS properties without an application camera command.
-
-3. Review the report. The current profile requires exactly one Sony device, VID `054C`, PID `0341`, status `OK`, model `DSC-W300`, and its current serial. The PID is based on historical W300 observations; investigate any mismatch before proceeding.
-
-4. After matching the current identity, run:
-
-```powershell
-.\W300Workbench.exe inquiry --serial '<CURRENT_USB_SERIAL>'
-```
-
-The helper sends SCSI INQUIRY (`0x12`): a five-byte header read followed by a bounded identification read through one volume handle. Windows pass-through requires read/write handle access; both commands request input data. Diagnose access-denied reports and use an elevated terminal if needed for this operation.
-
-Expected: manufacturer `Sony`, actual product/revision, command and response bytes, and report path. The SCSI product may be `DSC`; exact model selection comes from current USB/PnP data. The helper retains transaction details and performs no automatic retries or vendor commands.
-
-5. Preserve the reports and compare actual responses with the profile. The next engineering stage adds verified service reads, records baseline settings and backs up affected data. Identification reads identity only; language, destination and calibration require separate reads validated for the W300.
-
-## Verification required for the authorized write stage
-
-Use the work items below to guide evidence collection and analysis. Validate each proposed operation for the W300 before running it on hardware, and continue independent offline tasks while collecting that evidence. Record the exact bytes, expected responses and recovery procedure:
-
-| Work item | Next offline result | W300 evidence and verification |
+| Question | Next bounded action | Evidence needed to advance |
 |---|---|---|
-| Original-board eligibility | Extract the documented restriction and identify the corresponding condition through Auto-Adj or W300 implementation/transaction evidence. | Resolve the `Service board` condition for the original board; preserve its identity. |
-| Language-only operation | Trace region/language consumers and collateral writes in acquired code; compare G3 anchors to formulate W300 tests. | Identify field, allowed values and narrowest update. Use destination conversion only if necessary and record its effects. |
-| Baseline and recovery | Map documented backup commands to data coverage and list every region affected by the candidate operation. | Read current settings, preserve affected regions and verify restoration with identity/calibration preservation before the write trial. |
-| Service session | Produce a lifecycle and bounded-transfer specification from the source anchors, marking W300-specific questions. | Establish entry, read, response-validation and exit; identify volatile versus persistent effects. |
-| Persistence | Trace save/flush callers and distinguish RAM, EEPROM Write and flash Save in implementation evidence. | Establish the exact commit/save operation and post-restart readback. |
-| Environment and power | Inspect actual program, driver architecture/signature and HASP dependencies; prepare receiving-PC requirements. | Validate the resulting setup. The documented adjustment setup uses AC-LS5 with the appropriate DC-input multi-use cable. |
+| Can native gates be addressed reversibly? | Use the existing backup tool with `--include-nr-implementation` on the receiving PC to acquire `libadj11.so`, `libusb.so` and matching baseline libraries. Inspect commands 1–3 and teardown callbacks. | Exact selected transport, response checks and scope of implicit persistence; unavailable reads are not absence proof. |
+| Which RAM backing will the request modify? | The W300 constructor/AV initialization link is established: both use the same category-6 main/spare descriptor inputs. The expected logical size is `0x4000`; physical capacities remain runtime inputs. Confirm current selected copy and numeric descriptor bounds during device qualification; do not repeat the static identity proof. | Actual pointer/size inputs at `0x200FD898/9C` and `0x200FD8B0/B4`, or attributable runtime evidence of the same scope; compiled defaults and synthetic dumps are insufficient. |
+| Does bypass preserve the image pipeline? | The bounded ARM dispatch/wrapper trace is closed: GCC/CNR/RGB receive the same base expression and submit SA programs without processing pixels. Resolve SA pixel semantics from attributable instruction evidence or a qualified controlled image experiment; do not repeat the host trace. | Supported input/output formats, preserved conversion and any residual filtering; no assumed SA ISA or runtime address invariance. |
+| Which shooting modes use these gates? | Owner selectors are named: 6/T = StillRec, 7/S = MovieRec. The bounded request-wrapper pass and selected direct-send inventory are closed: the inspected constructors fix non-target types. Continue only with a different untested constructor or indirect reference that can supply type `0x550`, command `0x17`; packet byte +4 reaches the AE adapter as payload byte 0. Do not repeat the closed exclusions. | Mapping of named shooting settings to AE values `0x14/0x18` and actual mode coverage; the internal receive path alone does not prove an external dependency. |
+| What is the smallest device experiment? | Qualify a one-gate, one-mode RAM probe and exact restoration before considering persistence. A photographic extension must preserve the active change through normal capture and retain a restoration route. | Verified identity, command route, shadow/bounds, original values, calibration backup, entry/exit and implicit-save behavior, and explicit rollback/recovery. |
+| Does NR disappear? | Execute the qualified operation and compare repeated original before/after/restored photos. | Measured photographic result, normal shooting and preserved calibration/identity. |
 
-Sony's adjustment manual, PDF p.11, restricts Destination Data Write to Service boards. PDF p.36 describes adjustment backups; establish destination coverage separately. `SERIAL` and `ADJBAK` protect different data. `WriteEnableTool.exe` concerns user image-storage access. Keep calibration, identity, initialization and cross-model firmware outside the language task.
+CNR gates map to page/address `0x51/0x2235` and `0x51/0x2345`.
+Operations 2/3 copy to RAM. Operation 4 flushes a whole category; operation 5
+erases, not refreshes. The actual backup library always reports its shadow dirty,
+but flush has other prerequisites and clears Asys byte `0xD0`.
 
-U2 starts in English/NTSC; CEE8 starts in English/PAL. Derive bytes and side effects from the implementation. Auto-Adj's destination-completion OK dialog resets the camera and belongs to the later write stage. Comparative G3 erase/flush code and contemporary Sony service-board behavior guide inspection; confirm equivalent operations on W300.
+W300 native fallback framing is established and transaction cleanup does not
+flush. Module `libadj11.so` can precede fallback; a missing export in a loaded
+module returns an error rather than falling back. Global service-exit callbacks remain
+unresolved. Keep hardware writes disabled until those gaps and recovery close.
 
-After the qualified write, verify settings readback, unchanged identity/calibration, English menus after power-off/restart, and normal shooting/playback. On 2026-09-19 / 2026-09-20, all of these post-write verifications were performed on the live DSC-W300 (serial `D386002E4438`) and successfully passed.
+The camera stage uses the separate receiving PC. Completed static findings
+remain valid, but further progress on the current critical routes needs the
+specified W300 acquisition/runtime evidence or a concrete new attributable
+source. Do not repeat closed traces. Named AE values are not a prerequisite
+for acquisition: record the exact tested camera setting and numerical gate
+state, without claiming coverage of untested modes. Language engineering and
+generic source searches are outside the critical path.
 
-See [PERSISTENT_ENGLISH_GUIDE.md](PERSISTENT_ENGLISH_GUIDE.md) for the complete procedure, [VERIFICATION.md](VERIFICATION.md) for measured results, and the [qualification worklist](../../build/w300/reports/w300-readiness-audit/README.md) for the historical review.
+## Execution rules
+
+- Preserve immutable sources and historical reports; correct current conclusions
+  when a verified consumer or call chain disproves an earlier interpretation.
+- Use two bounded read-only reviewers for independent traces; the main agent
+  owns synthesis, implementation and verification.
+- Close a bounded attempt when its result is known. Reopen only with a changed
+  source, hypothesis, method or access.
+- Keep live NR mutations disabled until the bounded experiment is eligible:
+  verify identity, command/plugin route, RAM shadow/bounds, entry/exit and
+  implicit-save behavior, original values, calibration backup and explicit
+  restoration/recovery. Define one tested mode and the smallest change that
+  preserves the identified conversion stages. Assess unresolved pixel risks
+  without requiring proof of NR removal before the experiment.
+- Experiment eligibility does not establish an NR result. Pixel effects,
+  residual filtering, normal shooting and observed restoration are outcomes
+  required before an operational NR-off procedure can be certified.
+- A read/change/read/restore probe restored before shooting yields no NR-off
+  photograph. Establish how normal capture occurs with the RAM change active
+  and how restoration remains available across that transition before expanding
+  the probe into a photographic experiment.
+  Keep each of those statuses separate from immediate readback.
+  Raw FileControl is not an atomic dual-bank transaction; file readback is not
+  a persistence barrier or image-quality measurement.
+- Run `python tools/run_checks.py` and `python tools/check_fresh_checkout.py`
+  for completed code changes, following [TEST_INFRA.md](../../TEST_INFRA.md).
+- Finish useful independent work before a precise hardware handoff. Do not mark
+  the goal complete on offline checks alone.

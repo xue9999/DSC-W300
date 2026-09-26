@@ -2,6 +2,10 @@
 
 ## Goal and working constraints
 
+The active objective is still-image NR. Continue offline implementation analysis
+under `docs/w300/EXECUTION_PLAN.md`; language work is outside the current request.
+The language results below are historical context, not the active completion criteria.
+
 The objective of persistent English menus on the original Japanese DSC-W300 after restart has been achieved on live hardware (serial `D386002E4438`), preserving enclosure, identity, calibration, and normal operation. The camera was successfully converted to custom region 255 using native Senser `RegionSetting [255, 0x100, 0x8100, 0]`. Hardware verification confirmed persistent English menus after cold restart, normal camera shooting/playback, and preservation of factory calibration. Baseline files are archived under `evidence/w300/baseline_files/`.
 
 Keep hardware results, static code findings, documentation and simulation distinct. Current workbench commands are selftest, OS inventory and bounded standard SCSI INQUIRY. Derive service operations from W300 code or trustworthy transactions; preserve simulator guards and current-device identity matching.
@@ -108,26 +112,116 @@ T100 native transport is the standalone `/usr/bin/sen`, confirmed by rootfs /sbi
   - `build/w300/region_app.py backup-calibration` (aliases: `backup`, `dump-calibration`) supports `--serial`, `--experimental-service`, `--output`, `--mock`, and `--include-implementation`.
   - `tools/w300_calibration_dump.py` provides a dedicated standalone CLI entry point.
 
-## W300 AV Coprocessor Noise Reduction (NR) NVRAM Control
+## Active still-image NR investigation
 
-- **Mechanism**:
-  - In Category 6 NVRAM (`/boot/factory/Asys.bin` and `/boot/factory/Asys2.bak`, 16384 bytes each), offset `0x3035` controls Chrominance Noise Reduction (`run_NR32_CNR`) and offset `0x3036` controls RGB spatial smoothing (`run_NR32_RGB`).
-  - In factory calibration dump (`calibration_D386002E4438`), both bytes are `0x01` (enabled, SHA-256 `a5631a11d41bc7afc639f5e7c439f2d6f31ea417253a2ff838caa448b7ebc87d`).
-  - The AV coprocessor dispatch routine (`0x2cca0..0x2cd10`) inspects both flags; when both are `0x00`, execution branches directly to bypass (`0x2cd14`), completely skipping both noise reduction stages and disabling the heavy "grill-me" smearing filter (patched SHA-256 `8448dccc4262f4cf0e54152b41d52a6ec6330cc12fdd94efdceeb8b2d701a7cf`).
-- **Safety Contracts**:
-  - Exact 2-byte patch (`0x3035` and `0x3036`), all remaining 16382 bytes verified bit-for-bit identical.
-  - Dual-bank synchronization: primary (`Asys.bin`) and backup (`Asys2.bak`) are updated together.
-  - Bit-for-bit double-read verification before write and immediately after write.
-  - Pre-write safety backup created automatically before camera writes.
-  - Dry-run preview mode (`--dry-run`) and service safety gate (`--experimental-service` required for live camera writes).
-- **Tooling**:
-  - `tools/w300_nr_nvram.py`: CLI and Python module for inspect, patch (`disable-nr`), restore (`enable-nr`), dry-run, mock, and live camera control.
-  - `tools/w300_stills_nr.py`: exports `patch_w300_stills_nr`, `restore_w300_stills_nr`, and CLI commands `patch-nvram`, `restore-nvram`, `inspect-nvram`.
+The objective is still-image NR, not language conversion. Follow
+`docs/w300/EXECUTION_PLAN.md`; detailed anchors and qualification limits belong
+in `docs/w300/STILLS_NR_DISABLE_GUIDE.md` and `build/w300/reports/stills-nr/`.
+Reproduce the supported static subset with `tools/w300_nr_evidence.py`.
 
-## W300 DSP / BIONZ Subsystem Binary (av.bin) and Audio Image (sa.bin) Extraction
+### Established mappings and interpretation traps
+
+AV table file+0x16EAF4 uses (name pointer, program ID) rows, as proved by its
+consumer. Starting four bytes late reverses fields and shifts names; the old
+v1 fisheye/SA mismatch is superseded. AV IDs agree with SA2U_APP headers.
+Getter: `(base + uint32(base+0x10+4*id) + 0xC) & 0x0FFFFFFF`.
+Dispatcher is file+0x2C1D0; 0x2CCA0 is formatting code, not the dispatcher.
+Normal/alternate gates: RAW16 0x2B01/0x32DD, RAW32 0x3033/0x3143,
+GCC conversion 0x3034/0x3144, CNR 0x3035/0x3145, RGB conversion 0x3036/0x3146.
+The historical two-byte edit skips CNR and RGB conversion but leaves RAWNR.
+Preserve conversion gates and exact originals; compiled defaults are not backups.
+
+Zero RAW gates prevent pending-buffer promotion. GCC/CNR/RGB host branches and
+direct submission wrappers assemble descriptors without pixel processing.
+CNR zero skips ID6 and posts completion. This bounded host trace is closed;
+shared addresses do not prove in-place operation, pixel format or residual NR.
+The SA runner submits addresses to MMIO; it neither decodes nor establishes SA
+ISA. Packed CNR fields are not established dimensions, strides or strength.
+Do not guess a flat instruction stream or repeat unchanged host traces.
+
+RAW importer 0x35F9A copies a caller descriptor; it is not an allocator.
+The initial S table aliases RAW0/1/2; T initially supplies distinct bases.
+Neither establishes runtime invariance. Owner selector 6/T is StillRec and
+7/S is MovieRec, proved by the debug menu's number-minus-one conversion.
+Resource selector 5 independently produces event 0x73, then 0x1009 and the NR
+sequence; it is not a shooting-mode name. Nearby labels do not prove scope.
+
+### Remaining mode attribution
+
+Getter 0x2A8DC chooses alternate gates for AE values 0x14/0x18 at VA0x203706A7.
+Command 0x17 payload byte 0 enters via 0x998F0/0x36684/0x299B2, is decoded by
+0x291BC and copied into the active snapshot by 0x290AC. Named settings remain
+unresolved. Compatible upstream route: 0x11A732 -> 0x4E918 -> 0x35CD8;
+0xB2CBC/0x4C000 supply the message received at 0x1F9F8 on endpoint 0x10.
+Receive 0x2E9C and send wrappers share local endpoint tables; this is not an
+established external transport boundary. Generic producer 0x1FB50 supplies
+type, command and payload from caller arguments. The bounded request-wrapper pass, direct endpoint pair 0xB43D6/0xB43E4 and
+remaining selected direct-send inventory exclude non-target messages; see
+`ae-producer-exclusions.md`. Do not repeat them or the response-labelled
+0x96F92/0x4E492 branch. Further work needs a different untested constructor or
+indirect reference capable of type0x550/command0x17, then its packet byte4.
+Generic IPCM labels do not establish a Linux sender.
+Observed variable-type edge0x9B190 ->0x35CD8 at0x9B196 remains unqualified.
+Revisit only if mode attribution becomes consequential; it cannot replace
+missing plugin, lifecycle or current-state evidence. Do not delay acquisition
+merely to name AE values; record tested settings without generalizing coverage.
+
+### Native access, backing and persistence
+
+Page0x51 addresses RAW16 0x1D01/0x24DD, RAW32 0x2233/0x2343 and CNR
+0x2235/0x2345. Preserve GCC 0x2234/0x2344 and RGB 0x2236/0x2346.
+`asys-shadow-link.md` establishes category-6 backing through shared physical
+descriptor inputs: main pointer/size 0x200FD898/9C, spare 0x200FD8B0/B4.
+AV selects main by its validity marker, otherwise spare, and initializes rows
+from that selected pointer. CNR reaches shadow+0x3035/0x3145 within 0x100-byte
+rows. Static identity and selection logic are closed; current numeric descriptor
+values, selected bank and whole-category bounds still need runtime evidence.
+BackupCore CategoryTable::getCategorySize at0x6948 returns table0xD57C;
+category6 slot0xD594 establishes expected logical size0x4000, independently
+of live descriptor capacity. BackupTable TblSysInit extent0x9000 feeds package
+category1 variation pointers and selected0x400 chunks, not a proved whole-object
+Asys copy. Its eight-record package interface has no category6 entry.
+
+Native ops2/3 copy to RAM; op4 requests whole-category flush; op5 erases rather
+than refreshes. Actual W300 BackupCore/AppBackupApi equal retained G3 bytes.
+BackupCore isDirty always returns1, but flush has other prerequisites and clears
+Asys byte0xD0. Do not infer persistence from dirty state or immediate readback.
+Prefix0x11 seeks libadj11.so; only module-load failure permits fallback, whereas
+a loaded module with a missing export returns0x80. Retained libraries do not
+prove that plugin absent. Transaction cleanup IPCop0x10 releases the AV slot;
+global USB teardown reaches imported functions in missing W300 libusb.so.
+Comparative G3 teardown does not qualify W300 exit or implicit saves.
+
+### Acquisition, eligibility and stop rules
+
+Use `tools/w300_calibration_dump.py --include-nr-implementation` on the receiving
+PC: six exact library candidates plus configuration/calibration, double reads,
+new output directory. Missing reads do not prove installation absence. Authentic
+current Asys originals, W300 libadj11/libusb and NR photo comparisons are absent
+locally. Acquisition needs the prepared PyUSB/libusb runtime; only offline NR
+analysis is standard-library-only. Import failure is not a device finding.
+Portable handoff and validation are in `acquisition-package.md`. Reuse
+`build_region_app.py` for a new package only after material code changes; retain
+manifest, source and licenses, exclude synthetic fixtures and sessions.
+For legacy Windows codepages, escape only the displayed Unicode path; preserve
+the actual path. Do not change security policy to bypass an execution denial.
+
+Live NR writes remain disabled until a bounded experiment is eligible: identity,
+command/plugin route, shadow/bounds, entry/exit and implicit saves, originals,
+calibration backup, bounded processing risk and explicit recovery must qualify.
+NR efficacy and observed restoration are trial outcomes, not circular entry
+requirements. A probe restored before shooting cannot yield an NR-test image;
+its photographic extension needs normal capture with the change active and a
+restoration route after the transition. Keep R1-R5 status separate from tests.
+Offline tools report candidate byte state, not NR efficacy. Reject unrelated
+restore differences before mutation, never overwrite backups and never hide a
+failed repeat read by falling back to another path. Absence tests must isolate
+authentication loading and USB discovery, requiring the specific expected error.
+
+## W300 AV binary and SA program container extraction
 
 - **Subsystem Architecture and Storage**:
-  - OneNAND Partition 5 (`/dev/nflasha5`, unmounted FAT12 filesystem) contains the BIONZ DSP coprocessor binary (`\av.bin`) and sound/audio subsystem binary (`\sa.bin`).
+  - OneNAND Partition 5 (`/dev/nflasha5`, unmounted FAT12 filesystem) contains the AV subsystem binary (`\av.bin`) and SA2U_APP program container (`\sa.bin`), including RAWNR, CNR and conversion programs.
   - This partition is not mounted in normal camera operations or accessible via Senser VFS, requiring a privileged in-camera helper execution to mount and copy artifacts to the writable `/usr` partition.
 - **Native Helper Hook & Execution Mechanism**:
   - The Senser daemon (`/usr/bin/sen`) executes with working directory `/usr/dsc/fsk`.
@@ -152,5 +246,3 @@ T100 native transport is the standalone `/usr/bin/sen`, confirmed by rootfs /sbi
   - `tools/w300_extractor_payload.py`: ARM assembler and payload generator.
   - `tools/w300_extract_av.py`: Automated orchestration script supporting `--experimental-service`, `--skip-canary`, and `--mock` with isolated output directory redirection.
   - `tools/test_w300_extract_av.py`: 9 unit tests verifying assembler, ELF structures, vector validation, isolated output directory redirection, double-read failure handling, and end-to-end extraction mock flows.
-
-

@@ -83,6 +83,9 @@ IMPLEMENTATION = ('/usr/dsc/fsk/regionInfo.xsb', '/usr/dsc/fsk/senserModule.xsb'
                   '/usr/lib/libAppBackupApi.so', '/usr/lib/libsencore.so',
                   '/usr/dsc/fsk/kconfig.xml', '/usr/dsc/app/scripts/kconfig.xml',
                   '/usr/dsc/fsk/dsc.xsb', '/usr/bin/sen')
+NR_IMPLEMENTATION = ('/usr/lib/libsencore.so', '/usr/lib/libBackupCore.so',
+                     '/usr/lib/libBackupTable.so', '/usr/lib/libAppBackupApi.so',
+                     '/usr/lib/libadj11.so', '/usr/lib/libusb.so')
 ESSENTIAL = ('/usr/dsc/fsk/regionInfo.xsb', '/usr/dsc/fsk/PExtBackup.so',
              '/usr/dsc/fsk/PExtSenser.so', '/usr/lib/libBackupTable.so',
              '/usr/lib/libBackupCore.so', '/usr/lib/libAppBackupApi.so', '/usr/lib/libsencore.so',
@@ -871,6 +874,21 @@ def backup_calibration(args, directory, trace, report):
         for path in IMPLEMENTATION:
             if path not in targets:
                 targets.append(path)
+    nr_requested = getattr(args, 'include_nr_implementation', False)
+    if nr_requested:
+        report['scope'] = ('Configuration/calibration acquisition plus six stills NR implementation '
+                           'candidates; per-file availability is reported')
+        targets.extend(path for path in NR_IMPLEMENTATION if path not in targets)
+        # Direct API callers get the same preservation rule as the CLI.
+        occupied = [directory / 'manifest.json', directory / 'result.json']
+        occupied.extend(directory / 'files' / path.lstrip('/') for path in targets)
+        if any(path.exists() for path in occupied):
+            raise FileExistsError('NR evidence acquisition requires unused output files')
+
+    def read_target(camera, path):
+        # These exact library names have no inferred mount aliases.
+        reader = store_read if nr_requested and path in NR_IMPLEMENTATION else store_read_with_fallback
+        reader(camera, directory, path, report['files'])
 
     if getattr(args, 'mock', False):
         report['mock'] = True
@@ -880,7 +898,7 @@ def backup_calibration(args, directory, trace, report):
         report['service_authenticated'] = True
         camera = MockSenserCamera()
         for path in targets:
-            store_read_with_fallback(camera, directory, path, report['files'])
+            read_target(camera, path)
         report['normal_mode_return_observed'] = True
     else:
         resume = None
@@ -900,7 +918,7 @@ def backup_calibration(args, directory, trace, report):
             report['resume_source_sha256'] = sha(raw)
         with session(getattr(args, 'serial', None), trace, report, resume=resume) as camera:
             for path in targets:
-                store_read_with_fallback(camera, directory, path, report['files'])
+                read_target(camera, path)
 
     saved = [r for r in report['files'] if 'file' in r and r.get('repeat_equal')]
     unavailable = [r for r in report['files'] if 'unavailable' in r]
@@ -945,6 +963,19 @@ def backup_calibration(args, directory, trace, report):
         ],
     }
     report['summary'] = summary
+    if nr_requested:
+        nr_rows = [row for row in report['files'] if row['camera_path'] in NR_IMPLEMENTATION]
+        nr_summary = dict(
+            requested_paths=list(NR_IMPLEMENTATION),
+            verified_paths=[row['camera_path'] for row in nr_rows if row.get('repeat_equal')],
+            unavailable_or_inaccessible_paths=[row['camera_path'] for row in nr_rows if 'unavailable' in row],
+            all_requested_files_verified=all(row.get('repeat_equal', False) for row in nr_rows)
+                                         and len(nr_rows) == len(NR_IMPLEMENTATION),
+            asys_pair_double_read_verified=asys_saved and asys2_saved,
+            installation_absence_proven=False, parameter_write_requested=False,
+            nr_disable_verified=False, live_nr_write_qualified=False,
+            note='File acquisition only. An unavailable reply does not prove that a plugin is not installed.')
+        report['nr_implementation'] = summary['nr_implementation'] = nr_summary
 
     # Fail closed on any critical safety violation
     if not report.get('normal_mode_return_observed'):
@@ -1020,10 +1051,17 @@ def main():
                           help='Run in offline mock mode using reference fixtures')
         item.add_argument('--include-implementation', action='store_true',
                           help='Also dump proprietary firmware binaries and libraries')
+        item.add_argument('--include-nr-implementation', action='store_true',
+                          help='Also read six libraries needed to qualify stills NR; no NR parameter change')
     args = parser.parse_args()
     if getattr(args, 'output', None):
         directory = args.output.resolve()
-        directory.mkdir(parents=True, exist_ok=True)
+        if getattr(args, 'include_nr_implementation', False):
+            if directory.exists():
+                parser.error('NR evidence acquisition requires a new --output directory')
+            directory.mkdir(parents=True, exist_ok=False)
+        else:
+            directory.mkdir(parents=True, exist_ok=True)
     else:
         directory = BASE / 'sessions' / (datetime.now(timezone.utc).strftime('%Y%m%d-%H%M%S-%f') + '-' + args.command)
         directory.mkdir(parents=True, exist_ok=False)
@@ -1136,7 +1174,12 @@ def main():
         trace.close()
         save_json(directory / 'result.json', report)
     print(json.dumps(report, indent=2))
-    print('Saved session:', directory)
+    # Redirected Windows output may use a legacy code page. Do not turn a
+    # completed capture into a failure merely while displaying its real path.
+    output_encoding = getattr(sys.stdout, 'encoding', None) or 'utf-8'
+    display_directory = str(directory).encode(
+        output_encoding, errors='backslashreplace').decode(output_encoding)
+    print('Saved session:', display_directory)
     return 0 if report['ok'] else 2
 
 

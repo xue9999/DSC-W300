@@ -1,5 +1,13 @@
 # DSC-W300: preparation and verification
 
+The active task is **still-image noise reduction**. Start with the
+[current execution plan](EXECUTION_PLAN.md) and
+[stills NR evidence guide](STILLS_NR_DISABLE_GUIDE.md). The previous two-byte
+Asys candidate skips CNR filtering and RGB conversion while leaving RAWNR
+gates unchanged; it does not establish NR off. Reproduce
+the corrected mapping with `python tools/w300_stills_nr.py analyze-av`.
+The language material below belongs to the earlier workstream.
+
 The goal of enabling persistent English menus on the original Japanese DSC-W300 (model J1, serial `D386002E4438`) has been **successfully achieved and verified on live hardware**. The camera was transitioned to custom region 255 with initial language English using native Senser `RegionSetting [255, 0x100, 0x8100, 0]`. English menus persist across cold power cycles, with calibration, hardware serial, and optical/playback functions 100% intact.
 
 For full technical details and user instructions:

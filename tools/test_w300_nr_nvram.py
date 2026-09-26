@@ -27,6 +27,7 @@ import shutil
 import sys
 import tempfile
 import unittest
+from unittest.mock import patch
 
 TOOLS_DIR = Path(__file__).resolve().parent
 BUILD_W300 = TOOLS_DIR.parent / "build/w300"
@@ -66,8 +67,8 @@ class TestNvramBufferPrimitives(unittest.TestCase):
         info = nr.inspect_nvram_bytes(self.stock_bytes)
         self.assertTrue(info["valid"])
         self.assertEqual(info["size_bytes"], nr.ASYS_SIZE)
-        self.assertEqual(info["status"], "enabled")
-        self.assertFalse(info["nr_disabled"])
+        self.assertEqual(info["status"], "candidate_one")
+        self.assertFalse(info["candidate_bytes_zero"])
         self.assertEqual(info["cnr_value"], nr.VAL_ENABLED)
         self.assertEqual(info["rgb_value"], nr.VAL_ENABLED)
         if self.stock_path.is_file():
@@ -95,8 +96,8 @@ class TestNvramBufferPrimitives(unittest.TestCase):
 
         info = nr.inspect_nvram_bytes(patched)
         self.assertTrue(info["valid"])
-        self.assertEqual(info["status"], "disabled")
-        self.assertTrue(info["nr_disabled"])
+        self.assertEqual(info["status"], "candidate_zero")
+        self.assertTrue(info["candidate_bytes_zero"])
         if self.stock_path.is_file():
             self.assertTrue(info["is_patched_factory_hash"])
 
@@ -107,8 +108,8 @@ class TestNvramBufferPrimitives(unittest.TestCase):
         self.assertEqual(nr.sha256_bytes(restored), nr.sha256_bytes(self.stock_bytes))
 
         info = nr.inspect_nvram_bytes(restored)
-        self.assertEqual(info["status"], "enabled")
-        self.assertFalse(info["nr_disabled"])
+        self.assertEqual(info["status"], "candidate_one")
+        self.assertFalse(info["candidate_bytes_zero"])
 
     def test_non_standard_states_inspection(self):
         buf = bytearray(self.stock_bytes)
@@ -116,22 +117,22 @@ class TestNvramBufferPrimitives(unittest.TestCase):
         buf[nr.OFFSET_CNR] = 0x00
         buf[nr.OFFSET_RGB] = 0x01
         info = nr.inspect_nvram_bytes(bytes(buf))
-        self.assertEqual(info["status"], "cnr_disabled_rgb_enabled")
-        self.assertFalse(info["nr_disabled"])
+        self.assertEqual(info["status"], "first_zero_second_one")
+        self.assertFalse(info["candidate_bytes_zero"])
 
         # CNR=1, RGB=0
         buf[nr.OFFSET_CNR] = 0x01
         buf[nr.OFFSET_RGB] = 0x00
         info = nr.inspect_nvram_bytes(bytes(buf))
-        self.assertEqual(info["status"], "cnr_enabled_rgb_disabled")
-        self.assertFalse(info["nr_disabled"])
+        self.assertEqual(info["status"], "first_one_second_zero")
+        self.assertFalse(info["candidate_bytes_zero"])
 
         # CNR=0x55, RGB=0xaa
         buf[nr.OFFSET_CNR] = 0x55
         buf[nr.OFFSET_RGB] = 0xAA
         info = nr.inspect_nvram_bytes(bytes(buf))
         self.assertIn("non_standard", info["status"])
-        self.assertFalse(info["nr_disabled"])
+        self.assertFalse(info["candidate_bytes_zero"])
 
     def test_invalid_buffer_size_handling(self):
         too_small = b"\x00" * 1024
@@ -173,7 +174,7 @@ class TestOfflineFileOperations(unittest.TestCase):
     def test_inspect_file(self):
         info = nr.inspect_nvram_file(self.test_file)
         self.assertTrue(info["valid"])
-        self.assertEqual(info["status"], "enabled")
+        self.assertEqual(info["status"], "candidate_one")
         self.assertEqual(info["file_path"], str(self.test_file.resolve()))
 
     def test_patch_file_dry_run_leaves_file_untouched(self):
@@ -193,22 +194,22 @@ class TestOfflineFileOperations(unittest.TestCase):
         self.assertEqual(self.test_file.read_bytes(), self.stock_data)
         # Out must be patched
         out_info = nr.inspect_nvram_file(out_file)
-        self.assertTrue(out_info["nr_disabled"])
-        self.assertEqual(out_info["status"], "disabled")
+        self.assertTrue(out_info["candidate_bytes_zero"])
+        self.assertEqual(out_info["status"], "candidate_zero")
 
     def test_patch_and_restore_file_in_place(self):
         # 1. Patch in place
         res_patch = nr.patch_nvram_file(self.test_file, dry_run=False)
         self.assertTrue(res_patch["written"])
         patched_info = nr.inspect_nvram_file(self.test_file)
-        self.assertTrue(patched_info["nr_disabled"])
+        self.assertTrue(patched_info["candidate_bytes_zero"])
 
         # 2. Restore in place
         res_restore = nr.restore_nvram_file(self.test_file, dry_run=False)
         self.assertTrue(res_restore["written"])
         restored_info = nr.inspect_nvram_file(self.test_file)
-        self.assertFalse(restored_info["nr_disabled"])
-        self.assertEqual(restored_info["status"], "enabled")
+        self.assertFalse(restored_info["candidate_bytes_zero"])
+        self.assertEqual(restored_info["status"], "candidate_one")
         self.assertEqual(self.test_file.read_bytes(), self.stock_data)
 
     def test_nonexistent_file_raises_not_found(self):
@@ -265,11 +266,69 @@ class TestCameraOperationsAndSafety(unittest.TestCase):
         with self.assertRaises(FileUnavailable):
             nr.double_read_camera_file(self.mock_camera, "/boot/factory/nonexistent.bin")
 
+    def test_repeat_failure_cannot_be_hidden_by_alias(self):
+        original_read = self.mock_camera.read_file
+        calls = []
+        def read(path):
+            calls.append(path)
+            if calls.count(nr.PRIMARY_CAMERA_PATH) == 2 and path == nr.PRIMARY_CAMERA_PATH:
+                raise FileUnavailable('Repeat failed')
+            return original_read(path)
+        with patch.object(self.mock_camera, 'read_file', side_effect=read):
+            with self.assertRaises(FileUnavailable):
+                nr.double_read_camera_file(self.mock_camera, nr.PRIMARY_CAMERA_PATH)
+        self.assertNotIn('/factory/Asys.bin', calls)
+
+    def test_unrelated_bank_difference_refused_before_write(self):
+        changed = bytearray(self.stock_data)
+        changed[0x100] ^= 1
+        self.mock_camera.files[nr.BACKUP_CAMERA_PATH] = bytes(changed)
+        with patch.object(self.mock_camera, 'write_file') as write:
+            with self.assertRaisesRegex(ValueError, 'Target banks differ'):
+                nr.patch_camera(self.mock_camera, backup_dir=self.tmp_path/'unused')
+            write.assert_not_called()
+        self.assertFalse((self.tmp_path/'unused').exists())
+
+    def test_foreign_restore_refused_before_write(self):
+        foreign = bytearray(self.stock_data)
+        foreign[0x100] ^= 1
+        source = self.tmp_path/'foreign'
+        source.mkdir()
+        for name in ('Asys.bin', 'Asys2.bak'):
+            (source/name).write_bytes(foreign)
+        with patch.object(self.mock_camera, 'write_file') as write:
+            with self.assertRaisesRegex(ValueError, 'outside the two candidate offsets'):
+                nr.restore_camera(self.mock_camera, restore_from_dir=source)
+            write.assert_not_called()
+
+    def test_existing_backup_is_never_replaced(self):
+        backup = self.tmp_path/'retained'
+        nr.patch_camera(self.mock_camera, backup_dir=backup)
+        before = {p.name:p.read_bytes() for p in backup.iterdir()}
+        with patch.object(self.mock_camera, 'write_file') as write:
+            with self.assertRaises(FileExistsError):
+                nr.restore_camera(self.mock_camera, backup_dir=backup)
+            write.assert_not_called()
+        self.assertEqual(before, {p.name:p.read_bytes() for p in backup.iterdir()})
+
+    def test_nr_only_bank_difference_can_converge_in_simulation(self):
+        self.mock_camera.files[nr.PRIMARY_CAMERA_PATH] = nr.patch_nvram_bytes(self.stock_data)
+        result = nr.patch_camera(self.mock_camera, backup_dir=self.tmp_path/'converge')
+        self.assertTrue(result['banks_in_sync'])
+        self.assertTrue(result['simulation'])
+        self.assertFalse(result['nr_disable_verified'])
+
+    def test_preview_does_not_report_planned_state_as_current(self):
+        result = nr.patch_camera(self.mock_camera, dry_run=True)
+        self.assertFalse(result['candidate_bytes_zero'])
+        self.assertTrue(result['planned_candidate_bytes_zero'])
+        self.assertFalse(result['nr_disable_verified'])
+
     def test_inspect_camera(self):
         info = nr.inspect_camera(self.mock_camera)
         self.assertTrue(info["banks_in_sync"])
-        self.assertFalse(info["nr_disabled"])
-        self.assertEqual(info["status"], "enabled")
+        self.assertFalse(info["candidate_bytes_zero"])
+        self.assertEqual(info["status"], "candidate_one")
         self.assertEqual(info["primary"]["cnr_value"], 1)
         self.assertEqual(info["primary"]["rgb_value"], 1)
 
@@ -287,7 +346,7 @@ class TestCameraOperationsAndSafety(unittest.TestCase):
         self.assertTrue(res["written"])
         self.assertTrue(res["verified_readback"])
         self.assertTrue(res["banks_in_sync"])
-        self.assertTrue(res["nr_disabled"])
+        self.assertTrue(res["candidate_bytes_zero"])
         self.assertEqual(res["status"], "SUCCESS")
 
         # Verify safety backup files were created on disk
@@ -305,26 +364,26 @@ class TestCameraOperationsAndSafety(unittest.TestCase):
 
         # Post-patch camera inspection
         insp = nr.inspect_camera(self.mock_camera)
-        self.assertTrue(insp["nr_disabled"])
-        self.assertEqual(insp["status"], "disabled")
+        self.assertTrue(insp["candidate_bytes_zero"])
+        self.assertEqual(insp["status"], "candidate_zero")
         self.assertTrue(insp["banks_in_sync"])
 
     def test_restore_camera_cycle(self):
         # First patch
         nr.patch_camera(self.mock_camera, dry_run=False)
-        self.assertTrue(nr.inspect_camera(self.mock_camera)["nr_disabled"])
+        self.assertTrue(nr.inspect_camera(self.mock_camera)["candidate_bytes_zero"])
 
         # Then restore
         backup_dir = self.tmp_path / "prerestore_backup"
         res = nr.restore_camera(self.mock_camera, backup_dir=backup_dir, dry_run=False)
         self.assertTrue(res["written"])
         self.assertTrue(res["verified_readback"])
-        self.assertFalse(res["nr_disabled"])
+        self.assertFalse(res["candidate_bytes_zero"])
 
         # Check camera state restored to stock 0x01
         insp = nr.inspect_camera(self.mock_camera)
-        self.assertFalse(insp["nr_disabled"])
-        self.assertEqual(insp["status"], "enabled")
+        self.assertFalse(insp["candidate_bytes_zero"])
+        self.assertEqual(insp["status"], "candidate_one")
         self.assertEqual(insp["primary"]["cnr_value"], 0x01)
         self.assertEqual(insp["primary"]["rgb_value"], 0x01)
         self.assertEqual(self.mock_camera.files[nr.PRIMARY_CAMERA_PATH], self.stock_data)
@@ -338,7 +397,7 @@ class TestCameraOperationsAndSafety(unittest.TestCase):
 
         # Patch camera
         nr.patch_camera(self.mock_camera, dry_run=False)
-        self.assertTrue(nr.inspect_camera(self.mock_camera)["nr_disabled"])
+        self.assertTrue(nr.inspect_camera(self.mock_camera)["candidate_bytes_zero"])
 
         # Restore from saved dir
         res = nr.restore_camera(self.mock_camera, restore_from_dir=saved_dir, dry_run=False)
@@ -371,6 +430,18 @@ class TestCliAndSafetyContracts(unittest.TestCase):
             code = nr.main(["disable-nr", "--camera"])
             self.assertEqual(code, 2, "Live camera write without safety flag must exit with code 2")
 
+    def test_flag_does_not_qualify_an_unproven_hardware_mapping(self):
+        with patch.object(app, 'session', side_effect=AssertionError('USB opened')):
+            for action in ('patch', 'restore'):
+                with self.assertRaisesRegex(PermissionError, 'unqualified'):
+                    nr.run_nr_tool(action, experimental_service=True)
+
+    def test_direct_hardware_writer_is_also_refused_before_io(self):
+        from types import SimpleNamespace
+        camera = SimpleNamespace(read_file=lambda p:self.fail('Hardware read attempted'))
+        with self.assertRaisesRegex(PermissionError, 'unqualified'):
+            nr.patch_camera(camera)
+
     def test_cli_inspect_file_json(self):
         stdout_buf = io.StringIO()
         with contextlib.redirect_stdout(stdout_buf):
@@ -378,7 +449,7 @@ class TestCliAndSafetyContracts(unittest.TestCase):
             self.assertEqual(code, 0)
         parsed = json.loads(stdout_buf.getvalue())
         self.assertTrue(parsed["valid"])
-        self.assertEqual(parsed["status"], "enabled")
+        self.assertEqual(parsed["status"], "candidate_one")
 
     def test_cli_patch_file_dry_run(self):
         stdout_buf = io.StringIO()
@@ -389,6 +460,9 @@ class TestCliAndSafetyContracts(unittest.TestCase):
         self.assertTrue(parsed["dry_run"])
         self.assertFalse(parsed["written"])
         self.assertEqual(len(parsed["byte_changes"]), 2)
+        self.assertFalse(parsed['candidate_bytes_zero'])
+        self.assertTrue(parsed['planned_candidate_bytes_zero'])
+        self.assertFalse(parsed['nr_disable_verified'])
 
     def test_cli_mock_camera_inspect_and_patch(self):
         # 1. Mock inspect
@@ -434,7 +508,7 @@ class TestCliAndSafetyContracts(unittest.TestCase):
             code = stills_nr.main(["inspect-nvram", "--file", str(self.test_file)])
             self.assertEqual(code, 0)
         parsed = json.loads(stdout_buf.getvalue())
-        self.assertEqual(parsed["status"], "enabled")
+        self.assertEqual(parsed["status"], "candidate_one")
 
 
 if __name__ == "__main__":

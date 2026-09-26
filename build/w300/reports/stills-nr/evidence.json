@@ -1,0 +1,517 @@
+{
+  "schema": "w300-nr-static-evidence-v2",
+  "source": "evidence/w300/av.bin",
+  "bytes": 2233094,
+  "sha256": "bfa4df20f5d25daf82419c12ab7efb16ea39420c544a72a3d5037c71ac49bd30",
+  "address_convention": "file offsets unless VA stated",
+  "firmware_executed": false,
+  "hardware_validated": false,
+  "nr_disable_verified": false,
+  "live_write_qualified": false,
+  "dispatcher": 180688,
+  "program_table": 1501940,
+  "program_table_layout": {
+    "row": "uint32 name_pointer; uint32 program_id",
+    "consumer": 107384,
+    "consumer_id_load": 107426,
+    "table_literal": 113920,
+    "sentinel": "NULL"
+  },
+  "shared_program_getter": 279360,
+  "shared_runner": 701532,
+  "post_task": {
+    "event": 304,
+    "handler_table_entry": 2149688,
+    "task": "tsk_camc_post",
+    "task_entry": 79376,
+    "selection_event": 4105,
+    "selection_handler": 79918,
+    "selection_branch": 80200,
+    "event_producer": 222584,
+    "sequences": [
+      {
+        "file_offset": 1901400,
+        "halfwords": [
+          304,
+          5,
+          3,
+          4096,
+          0,
+          0
+        ]
+      },
+      {
+        "file_offset": 1901748,
+        "halfwords": [
+          304,
+          6,
+          3,
+          4096,
+          0,
+          0
+        ]
+      },
+      {
+        "file_offset": 1901784,
+        "halfwords": [
+          304,
+          7,
+          5,
+          4096,
+          0,
+          0
+        ]
+      },
+      {
+        "file_offset": 1901820,
+        "halfwords": [
+          304,
+          8,
+          5,
+          4096,
+          0,
+          0
+        ]
+      },
+      {
+        "file_offset": 1901856,
+        "halfwords": [
+          304,
+          9,
+          5,
+          4096,
+          0,
+          0
+        ]
+      }
+    ],
+    "still_only_verified": false
+  },
+  "engine_submission": {
+    "dispatcher": 106386,
+    "calls": [
+      {
+        "call": 701558,
+        "target": 106052
+      },
+      {
+        "call": 106054,
+        "target": 106386
+      },
+      {
+        "call": 106544,
+        "target": 279192
+      },
+      {
+        "call": 106554,
+        "target": 279256
+      },
+      {
+        "call": 106564,
+        "target": 279256
+      },
+      {
+        "call": 106574,
+        "target": 279256
+      },
+      {
+        "call": 106582,
+        "target": 279256
+      },
+      {
+        "call": 106616,
+        "target": 279174
+      }
+    ],
+    "program_register": 2035286024,
+    "parameter_registers": [
+      2035286080,
+      2035286084,
+      2035286088
+    ],
+    "fourth_parameter_register": 2035286092,
+    "fourth_parameter_value": 0,
+    "start_register": 2035286020,
+    "start_bit": 0,
+    "program_address_expression": "(descriptor.program & 0x0FFFFFFF) + 0x20000000",
+    "cnr_wrapper_explicit_input_word": 0,
+    "cnr_input_word_0": "low-28-bit address of the dispatcher parameter block",
+    "remaining_input_word_meaning_verified": false,
+    "sa_isa_verified": false,
+    "dsp_pixel_format_verified": false,
+    "finding": "ARM submits a program address to a hardware engine; this path does not parse SA member contents."
+  },
+  "selected_bank_pointer_va": 540194180,
+  "alternate_gate_selector": {
+    "function": 174300,
+    "source_getter": 169766,
+    "values": [
+      20,
+      24
+    ],
+    "state_name": "AE_MODE_DSC",
+    "state_byte_va": 540477095,
+    "diagnostic_call": 199176,
+    "user_visible_mode_meaning_verified": false
+  },
+  "cnr_skip_contract": {
+    "cnr_descriptor_va": 2688232288,
+    "rgb_descriptor_va": 2688232384,
+    "address_expression": "(selected_base + buffer_offset(3)) & 0x0FFFFFF8",
+    "buffer_offset_getter": 444854,
+    "buffer_state_setter": 444732,
+    "sequence_buffer_argument": 5,
+    "argument_5_changes_buffer_state": false,
+    "cnr_zero_gate_target": 181470,
+    "completion_event": 6,
+    "completion_payload": 4294967294,
+    "finding": "CNR skip posts completion without an explicit image copy or buffer swap in this handler.",
+    "dsp_pixel_contract_verified": false,
+    "limitation": "Shared descriptor address and host completion do not prove that RGB accepts unfiltered input."
+  },
+  "raw_skip_contract": {
+    "bypass_flag_va": 540200172,
+    "flag_set": 180930,
+    "input_buffer_argument": 3,
+    "output_buffer_argument": 4,
+    "current_state_va": 540218804,
+    "pending_state_va": 540218808,
+    "completion_events": [
+      {
+        "event": 299,
+        "handler": 180028,
+        "flag_read": 180050,
+        "buffer_promotion_call": 180058
+      },
+      {
+        "event": 298,
+        "handler": 180122,
+        "flag_read": 180188,
+        "buffer_promotion_call": 180196
+      }
+    ],
+    "sequences": [
+      {
+        "file_offset": 1901400,
+        "records": [
+          [
+            304,
+            5,
+            3,
+            4096,
+            0,
+            0
+          ],
+          [
+            305,
+            5,
+            3,
+            4096,
+            0,
+            0
+          ],
+          [
+            298,
+            2,
+            0,
+            4096,
+            0,
+            0
+          ]
+        ]
+      },
+      {
+        "file_offset": 1901748,
+        "records": [
+          [
+            304,
+            6,
+            3,
+            4096,
+            0,
+            0
+          ],
+          [
+            305,
+            6,
+            3,
+            4096,
+            0,
+            0
+          ],
+          [
+            299,
+            0,
+            0,
+            4096,
+            0,
+            0
+          ]
+        ]
+      }
+    ],
+    "native_skip_preserves_input_buffer_selection": true,
+    "all_nr_removed_verified": false,
+    "limitation": "Host buffer handling is verified; DSP internals and every photographic mode are not."
+  },
+  "native_parameters": {
+    "handler": 139788,
+    "table_va": 540195232,
+    "rows": [
+      {
+        "row_offset": 2145632,
+        "page": 81,
+        "segment": 34,
+        "bank_base": 12288,
+        "length": 256,
+        "cnr_bank_offset": 12341,
+        "cnr_segmented_address": 8757,
+        "compiled_default": 1
+      },
+      {
+        "row_offset": 2145652,
+        "page": 81,
+        "segment": 35,
+        "bank_base": 12544,
+        "length": 256,
+        "cnr_bank_offset": 12613,
+        "cnr_segmented_address": 9029,
+        "compiled_default": 1
+      }
+    ],
+    "body_scope": "AV shared-memory adjustment body; outer USB transport unqualified",
+    "fields": {
+      "operation_u16": 2,
+      "flush_category_u8": 4,
+      "length_u16": 6,
+      "page_u8": 9,
+      "segmented_address_u16": 10,
+      "write_payload": 12
+    },
+    "operations": {
+      "1": "read",
+      "2": "RAM copy",
+      "3": "RAM copy",
+      "4": "flush IPCM 0x1002/subcommand 1",
+      "5": "erase IPCM 0x1002/subcommand 3; NOT reload"
+    },
+    "ram_copy_file_offset": 140058,
+    "ram_copy_target": 1408804,
+    "ram_write_marks_local_notification": true,
+    "persistence_qualified": false,
+    "usb_write_qualified": false,
+    "limitation": "Outer transport, shared-shadow binding, reload and interrupted-save recovery need a complete chain."
+  },
+  "asys_row": {
+    "file_offset": 2145632,
+    "page": 81,
+    "segment": 34,
+    "bank_offset": 12288,
+    "length": 256,
+    "default_3035_3036": [
+      1,
+      1
+    ]
+  },
+  "stages": [
+    {
+      "program_id": 3,
+      "name": "NR16_RAWNR",
+      "name_file_offset": 2132281,
+      "wrapper": 701258,
+      "dispatch_call": 180924,
+      "normal_gate": {
+        "file_offset": 180904,
+        "bytes": "2b21090240184078",
+        "bank_offset": 11009
+      },
+      "zero_gate_target": 180930,
+      "alternate_gate": {
+        "file_offset": 180894,
+        "bytes": "cb2189014018407f",
+        "bank_offset": 13021
+      }
+    },
+    {
+      "program_id": 4,
+      "name": "NR32_RAWNR",
+      "name_file_offset": 2132270,
+      "wrapper": 701296,
+      "dispatch_call": 181092,
+      "normal_gate": {
+        "file_offset": 181074,
+        "bytes": "5c494018c07c",
+        "bank_offset": 12339
+      },
+      "zero_gate_target": 180930,
+      "alternate_gate": {
+        "file_offset": 181064,
+        "bytes": "c52189014018c078",
+        "bank_offset": 12611
+      }
+    },
+    {
+      "program_id": 5,
+      "name": "NR32_CNR_2GCC",
+      "name_file_offset": 2132101,
+      "wrapper": 701334,
+      "dispatch_call": 181198,
+      "normal_gate": {
+        "file_offset": 181184,
+        "bytes": "40494018007d",
+        "bank_offset": 12340
+      },
+      "zero_gate_target": 181448,
+      "alternate_gate": {
+        "file_offset": 181174,
+        "bytes": "c521890140180079",
+        "bank_offset": 12612
+      }
+    },
+    {
+      "program_id": 6,
+      "name": "NR32_CNR_NR",
+      "name_file_offset": 2132292,
+      "wrapper": 701372,
+      "dispatch_call": 181306,
+      "normal_gate": {
+        "file_offset": 181292,
+        "bytes": "25494018407d",
+        "bank_offset": 12341
+      },
+      "zero_gate_target": 181470,
+      "alternate_gate": {
+        "file_offset": 181282,
+        "bytes": "c521890140184079",
+        "bank_offset": 12613
+      }
+    },
+    {
+      "program_id": 7,
+      "name": "NR32_CNR_2RGB",
+      "name_file_offset": 2132087,
+      "wrapper": 701410,
+      "dispatch_call": 181464,
+      "normal_gate": {
+        "file_offset": 181450,
+        "bytes": "20494018807d",
+        "bank_offset": 12342
+      },
+      "zero_gate_target": 181470,
+      "alternate_gate": {
+        "file_offset": 181388,
+        "bytes": "c521890140188079",
+        "bank_offset": 12614
+      }
+    }
+  ],
+  "rejected_claim": {
+    "claimed_dispatch": 183456,
+    "claimed_bypass": 183572,
+    "actual_bypass_anchor_bytes": "01a8",
+    "actual_instruction": "add r0,sp,#4",
+    "candidate_3035": "normal gate for ID 6 NR32_CNR_NR",
+    "candidate_3036": "normal gate for ID 7 NR32_CNR_2RGB",
+    "conclusion": "The two-byte candidate leaves other NR-labelled gates unchanged; full NR off is unproven."
+  },
+  "superseded_interpretation": "Schema v1 started the table four bytes late and reversed row fields; its fisheye identification and AV/SA index mismatch were incorrect.",
+  "unresolved": [
+    "Prove still-capture reachability and user-visible meaning of AE_MODE_DSC states 0x14/0x18.",
+    "Prove RAWNR and CNR DSP input/output contracts; preserve required conversion stages.",
+    "Bind AV native parameters to W300 plugin selection, shared shadow, service exit and recovery before a hardware write.",
+    "Verify actual processing and persistence on the camera independently of file bytes."
+  ],
+  "program_container_comparison": {
+    "source": "evidence/w300/sa.bin",
+    "sha256": "5126c376de296624280ccdc1c8692d98ec674cfaf69bfa8ef6dfa2e367010d44",
+    "getter_index_expression": "(base + uint32(base + 0x10 + 4*program_id) + 0xC) & 0x0FFFFFFF",
+    "static_name_index_alignment_verified": true,
+    "runtime_container_observed": false,
+    "entries": [
+      {
+        "program_id": 3,
+        "av_name": "NR16_RAWNR",
+        "sa_file_offset": 21560,
+        "sa_header": "NR16_RAW0.07",
+        "sa_payload_offset": 21572,
+        "member_end": 40980,
+        "payload_bytes": 19408
+      },
+      {
+        "program_id": 4,
+        "av_name": "NR32_RAWNR",
+        "sa_file_offset": 40980,
+        "sa_header": "NR32_RAW0.07",
+        "sa_payload_offset": 40992,
+        "member_end": 64368,
+        "payload_bytes": 23376
+      },
+      {
+        "program_id": 5,
+        "av_name": "NR32_CNR_2GCC",
+        "sa_file_offset": 64368,
+        "sa_header": "NR32_GCC0.11",
+        "sa_payload_offset": 64380,
+        "member_end": 80412,
+        "payload_bytes": 16032
+      },
+      {
+        "program_id": 6,
+        "av_name": "NR32_CNR_NR",
+        "sa_file_offset": 80412,
+        "sa_header": "NR32_CNR0.07",
+        "sa_payload_offset": 80424,
+        "member_end": 94104,
+        "payload_bytes": 13680
+      },
+      {
+        "program_id": 7,
+        "av_name": "NR32_CNR_2RGB",
+        "sa_file_offset": 94104,
+        "sa_header": "NR32_RGB0.11",
+        "sa_payload_offset": 94116,
+        "member_end": 118948,
+        "payload_bytes": 24832
+      }
+    ],
+    "finding": "Correct (name pointer, ID) AV rows agree with raw SA indices; no index shift is needed."
+  },
+  "backup_dirty_contract": {
+    "source": "evidence/w300/baseline_files/usr/lib/libBackupCore.so",
+    "sha256": "56aa2595c4747b6aadc1c0c3bb7a438b15086951121024a8649254cdec61fd4b",
+    "methods": [
+      {
+        "name": "markDirty",
+        "elf_va": 31388,
+        "return_value": 0,
+        "vtable_slots": [
+          91452,
+          91528
+        ]
+      },
+      {
+        "name": "eraseDirty",
+        "elf_va": 31408,
+        "return_value": 0,
+        "vtable_slots": [
+          91456,
+          91532
+        ]
+      },
+      {
+        "name": "isDirty",
+        "elf_va": 31428,
+        "return_value": 1,
+        "vtable_slots": [
+          91460,
+          91536
+        ]
+      }
+    ],
+    "flush_dirty_check_va": 37160,
+    "flush_file_write_call_va": 37216,
+    "explicit_dirty_mark_required": false,
+    "persistence_qualified": false,
+    "scope": "Both reviewed shadow-accessor vtables; whole-category flush has other prerequisites and side effects."
+  }
+}
